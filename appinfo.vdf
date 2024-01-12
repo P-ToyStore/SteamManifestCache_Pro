@@ -1,0 +1,421 @@
+"appinfo"
+{
+	"appid"		"224360"
+	"common"
+	{
+		"name"		"Ice Age™: Continental Drift: Arctic Games"
+		"type"		"Game"
+		"icon"		"631ccd8f0811b1c4474f22122a17a8955b3b1191"
+		"clienticon"		"162e96c368a70d76a16ea893eb7d15f93c8eaf33"
+		"clienttga"		"58546f409bbcc0adcdb825aebdb5784957897bd5"
+		"logo"		"228e54190fef5323cd9e8def9a906c27b3af4308"
+		"logo_small"		"228e54190fef5323cd9e8def9a906c27b3af4308_thumb"
+		"oslist"		"windows"
+		"metacritic_name"		"Ice Age 4"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1359674319"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Behaviour Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Activision"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"dutch"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"swedish"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"224360"
+		"store_tags"
+		{
+			"0"		"5350"
+			"1"		"4137"
+			"2"		"19"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"Behaviour Interactive"
+		"gamedir"		"ValveTestApp224360"
+		"homepage"		"http://www.activision.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Activision"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Ice Age 4"
+		"installscriptsignature"		"90878f3d235eb292d456b2cfb790ab701dbc6961c51321ce65d7e202e2d5f96082396add0873cc5cee7fcf3ee095dac68bcddc05e21f1d5ce70f56a1c5c364d317df55bcc56980ea38e6a5807f9c2ab78036f0fa991c08ed92f1ab88480448ac5c2ee7cbbada5169580f344ade93dd8490ad67e890b246785ccb51fb2ae834f3"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"IceAge4.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\activision\ice age 4"
+			{
+				"string"
+				{
+					"installpath"		"%INSTALLDIR%"
+					"exepath"		"%INSTALLDIR%\\IceAge4.exe"
+					"version"		"1.0"
+				}
+				"dword"
+				{
+					"english"
+					{
+						"language"		"english"
+					}
+					"french"
+					{
+						"language"		"french"
+					}
+					"italian"
+					{
+						"language"		"italian"
+					}
+					"german"
+					{
+						"language"		"german"
+					}
+					"spanish"
+					{
+						"language"		"spanish"
+					}
+					"dutch"
+					{
+						"language"		"dutch"
+					}
+					"swedish"
+					{
+						"language"		"swedish"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\224360"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\224360"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"224361"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6084149193971057063"
+					"size"		"7632384"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"B225DA2AB6E0B9FC8EE884782590848E"
+					"size"		"A5EB1FC224402621F5B9E019EBCA7FB3"
+					"download"		"06B38B7A01CA40003CF1F179206C3D6E"
+				}
+			}
+		}
+		"224363"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"821031238279317928"
+					"size"		"1740867118"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"87009A468C2FDDF93A01987DB73AF23B"
+					"size"		"A8EB8B1DD72740253E29EBF88EF5520A"
+					"download"		"06B38B7A01CA40003CF1F179206C3D6E"
+				}
+			}
+		}
+		"224362"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1810001639433341413"
+					"size"		"7632391"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"74D121BCE49F95FA3D8AEFEF29DBA4FA"
+					"size"		"49E46F06DC1CD2EF5FF655200FC1BC61"
+					"download"		"06B38B7A01CA40003CF1F179206C3D6E"
+				}
+			}
+		}
+		"224364"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6346298791818100313"
+					"size"		"7"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"F030B7506496CAE178EB45569ED2C2A5"
+					"size"		"4BBA693F17D0F100BBF7B80E1DD6A404"
+					"download"		"06B38B7A01CA40003CF1F179206C3D6E"
+				}
+			}
+		}
+		"224365"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5169473550402306897"
+					"size"		"6"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"EEFACAC64468D909F26357D772EC544A"
+					"size"		"781ACD2E9B3B1EF3871866A51D604376"
+					"download"		"06B38B7A01CA40003CF1F179206C3D6E"
+				}
+			}
+		}
+		"224366"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6515068828929822030"
+					"size"		"6"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"4952F9FE343C4BE28BB4B570B6783E52"
+					"size"		"781ACD2E9B3B1EF3871866A51D604376"
+					"download"		"06B38B7A01CA40003CF1F179206C3D6E"
+				}
+			}
+		}
+		"224367"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6584783145347409790"
+					"size"		"7"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"35A1B1D866FBAA2E8BD0CBE75F4655C5"
+					"size"		"4BBA693F17D0F100BBF7B80E1DD6A404"
+					"download"		"06B38B7A01CA40003CF1F179206C3D6E"
+				}
+			}
+		}
+		"224368"
+		{
+			"config"
+			{
+				"language"		"dutch"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7493881084263102596"
+					"size"		"5"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"7789D97E886E6CE0A2725227DEED9FFE"
+					"size"		"945664BDA0A61EFA0EECFF1606F8A4F8"
+					"download"		"06B38B7A01CA40003CF1F179206C3D6E"
+				}
+			}
+		}
+		"224369"
+		{
+			"config"
+			{
+				"language"		"swedish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"400223771349976631"
+					"size"		"7"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"7719685E708D1B347B6E24F824C4809E"
+					"size"		"4BBA693F17D0F100BBF7B80E1DD6A404"
+					"download"		"06B38B7A01CA40003CF1F179206C3D6E"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"32450"
+			}
+			"beta"
+			{
+				"buildid"		"32450"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
