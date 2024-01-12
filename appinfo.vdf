@@ -1,0 +1,192 @@
+"appinfo"
+{
+	"appid"		"578390"
+	"common"
+	{
+		"name"		"Remnith"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"360_required"		"1"
+			}
+		}
+		"icon"		"e351e0e8c5aa61af92683c22d88f526ab26f250f"
+		"clienticon"		"3cc6fd43a69eedaac650b38f836a6cb91ebf6a32"
+		"clienttga"		"425f49704b61b8f3316ac1af21cff8be087f8968"
+		"logo"		"f772b9b5cc61e931cbd97ef4bbf75de362b083e1"
+		"logo_small"		"f772b9b5cc61e931cbd97ef4bbf75de362b083e1_thumb"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Remnith"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1505981687"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Chronish Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Chronish Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1504067849"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"578390"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"21978"
+			"3"		"1773"
+			"4"		"1774"
+			"5"		"3942"
+			"6"		"4026"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Chronish Games"
+		"publisher"		"Chronish Games"
+	}
+	"config"
+	{
+		"installdir"		"Remnith"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Remnith.exe"
+				"arguments"		"oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Remnith.exe"
+				"arguments"		"vive"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Remnith.exe"
+				"arguments"		"desktop"
+				"description"		"Desktop Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"578391"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3805141734888864125"
+					"size"		"3483119181"
+					"download"		"909938800"
+				}
+				"development"
+				{
+					"gid"		"3805141734888864125"
+					"size"		"3483119181"
+					"download"		"909938800"
+				}
+				"experimental"
+				{
+					"gid"		"3805141734888864125"
+					"size"		"3483119181"
+					"download"		"909938800"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4073858"
+				"timeupdated"		"1564935197"
+			}
+			"development"
+			{
+				"buildid"		"4073858"
+				"timeupdated"		"1564932461"
+			}
+			"experimental"
+			{
+				"buildid"		"4073858"
+				"description"		"Branch used for testing new features"
+				"timeupdated"		"1564932006"
+			}
+		}
+	}
+}
