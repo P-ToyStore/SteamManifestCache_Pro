@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"2072620"
+	"common"
+	{
+		"name"		"Dice Roller VR"
+		"type"		"Game"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"2072620_eula_1"
+				"name"		"Dice Roller VR EULA"
+				"url"		"https://store.steampowered.com//eula/2072620_eula_1"
+				"version"		"1"
+			}
+		}
+		"clienticns"		"7d72780a9c66a25a83571dcead45c1570f491df2"
+		"clienticon"		"d041acd3ea482e438066eaef9281238a518776fc"
+		"clienttga"		"7a6de3efefc5f799f24ce92b2b30fd3d61510b2c"
+		"icon"		"a9fa13a862de7287fdfff8899688f3b40d9cff8f"
+		"linuxclienticon"		"b9c4c9cecd9efd5b6454a44535f499163d0f6ef2"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"openxrsupport"		"1"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"99.62004274519117"
+			}
+		}
+		"store_asset_mtime"		"1666428444"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Suplife Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Suplife Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Suplife Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"18"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_33"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1667880240"
+		"community_hub_visible"		"1"
+		"gameid"		"2072620"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"9"
+			"2"		"9204"
+			"3"		"597"
+			"4"		"17389"
+			"5"		"1770"
+			"6"		"4191"
+			"7"		"3839"
+			"8"		"4175"
+			"9"		"4182"
+			"10"		"3859"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Suplife Games"
+		"publisher"		"Suplife Games"
+		"homepage"		"https://dicerollervr.com/home"
+	}
+	"config"
+	{
+		"installdir"		"Yahtzee"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Yahtzee.exe"
+				"arguments"		"-windowed"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"2072624"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2067337975797074403"
+					"size"		"1038900012"
+					"download"		"531778608"
+				}
+			}
+		}
+		"2072625"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"test"
+				{
+					"gid"		"6906861612560027222"
+					"size"		"1038900012"
+					"download"		"532608448"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9889638"
+				"timeupdated"		"1667879686"
+			}
+			"test"
+			{
+				"buildid"		"9889602"
+				"description"		"test"
+				"timeupdated"		"1667879285"
+			}
+		}
+	}
+}
