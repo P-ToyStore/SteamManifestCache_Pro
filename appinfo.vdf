@@ -1,0 +1,253 @@
+"appinfo"
+{
+	"appid"		"339590"
+	"common"
+	{
+		"name"		"Crowman & Wolfboy"
+		"type"		"Game"
+		"logo"		"beaac6c20d60be0a650fd3d8e03f80f876a21193"
+		"logo_small"		"beaac6c20d60be0a650fd3d8e03f80f876a21193_thumb"
+		"icon"		"9f0da5f4d417128560c2ddd27f48b2f2f6e65158"
+		"oslist"		"windows,macos"
+		"clienttga"		"8b4ede949a109deba59f8156c2bb00fd57b91ae6"
+		"clienticon"		"24724768b7cd918618cd9dc61826771b1c71ebba"
+		"releasestate"		"released"
+		"osarch"		""
+		"osextended"		"macos64"
+		"metacritic_name"		"Crowman &amp;amp; Wolfboy"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"53.01764146876815"
+				"height_pct"		"80.32166508987702"
+			}
+		}
+		"store_asset_mtime"		"1572815241"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Wither Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Wither Studios, LLC"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1496437307"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"339590"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"21"
+			"3"		"597"
+			"4"		"1625"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"developer"		"Wither Studios"
+		"publisher"		"Wither Studios, LLC"
+		"homepage"		"http://witherstudios.com/cw/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"CrowmanWolfboy"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CrowmanWolfboy.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CrowmanWolfboy.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"339591"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8523006036489562439"
+					"size"		"641879857"
+					"download"		"117843408"
+				}
+				"beta"
+				{
+					"gid"		"8523006036489562439"
+					"size"		"641879857"
+					"download"		"117843408"
+				}
+			}
+		}
+		"339592"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"468311961890948344"
+					"size"		"647738945"
+					"download"		"119765728"
+				}
+				"beta"
+				{
+					"gid"		"468311961890948344"
+					"size"		"647738945"
+					"download"		"119765728"
+				}
+			}
+		}
+		"339593"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6205798129464383463"
+					"size"		"664258256"
+					"download"		"122543504"
+				}
+				"beta"
+				{
+					"gid"		"6205798129464383463"
+					"size"		"664258256"
+					"download"		"122543504"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4164222"
+				"timeupdated"		"1581275581"
+			}
+			"beta"
+			{
+				"buildid"		"4164222"
+				"timeupdated"		"1567544936"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000"
+		"maxnumfiles"		"1"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Saves"
+						"replace"		"Wither Studios/C ___ W"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Saves"
+						"replace"		"Wither Studios/C ___ W"
+					}
+				}
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
