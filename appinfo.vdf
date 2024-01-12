@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"397350"
+	"common"
+	{
+		"name"		"Lords of the Realm II"
+		"type"		"Game"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"397350_eula_0"
+				"name"		"Lords of the Realm II EULA"
+				"url"		"http://store.steampowered.com//eula/397350_eula_0"
+			}
+		}
+		"logo"		"634637522e9c5e125e9c70a1f6a7c8719a96e06a"
+		"logo_small"		"634637522e9c5e125e9c70a1f6a7c8719a96e06a_thumb"
+		"icon"		"c2485344955bc697aae3816405a1707e0d3e0cb8"
+		"clienttga"		"bfc1b0931787878329b1e732f75c46636b3d02fc"
+		"clienticon"		"6c598c51148c57a5ea7a881aa35764d100e02cde"
+		"oslist"		"windows"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1697760000"
+			"tested_build_id"		"866678"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Lords of the Realm II"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"67.6196032672112"
+				"height_pct"		"67.09807646639753"
+			}
+		}
+		"store_asset_mtime"		"1561124387"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Impressions Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rebellion"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"846748800"
+		"steam_release_date"		"1449162273"
+		"metacritic_score"		"77"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/lords-of-the-realm-ii?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"397350"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"122"
+			"2"		"4172"
+			"3"		"1677"
+			"4"		"1693"
+			"5"		"3859"
+			"6"		"1676"
+		}
+		"review_score"		"9"
+		"review_percentage"		"96"
+	}
+	"extended"
+	{
+		"developer"		"Impressions Games"
+		"publisher"		"Rebellion"
+		"homepage"		"http://www.rebellion.co.uk/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Lords of the Realm II"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"English\\Lords of the Realm II\\Launcher\\LOTR2Launcher.exe"
+				"workingdir"		"English\\Lords of the Realm II\\"
+				"description"		"Main Game"
+				"type"		"default"
+			}
+		}
+		"installscriptsignature"		"5de210d096a1e5e0e096c6b2a7cc2b0ce09e6980a1fceca4b290e94d70b46b0a56d2fd4d08443886ed56e6fb91b372842eb833b46b7e5ca51b3e154390c7df224abbe00f5bad7bab71ae6b84a8c0117ef11fa34a97338006b96d15936c82284b7550e14dff45e88bf3be4d14d99fb9c98314faced77ea19fe14bca2e2c618022"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\software\microsoft\windows nt\currentversion\appcompatflags\layers"
+			{
+				"string"
+				{
+					"%installdir%\english\lords of the realm ii\lords2.exe"		"256COLOR WINXPSP3 RUNASADMIN HIGHDPIAWARE"
+				}
+			}
+			"hkey_local_machine\software\microsoft\windows nt\currentversion\appcompatflags\layers"
+			{
+				"string"
+				{
+					"%installdir%\english\lords of the realm ii\lords2.exe"		"256COLOR WINXPSP3 RUNASADMIN HIGHDPIAWARE"
+				}
+			}
+		}
+		"firewall"
+		{
+			"lords of the realm 2"		"%INSTALLDIR%\\English\\Lords of the Realm II\\Lords2.exe"
+		}
+	}
+	"depots"
+	{
+		"397351"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3968464995403544017"
+					"size"		"542220642"
+					"download"		"273978976"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"DBB59D83C10DAB94E78C2B34E7D83F04"
+					"size"		"8140B0F46A82660063D433ADABBD18AC"
+					"download"		"F94377573B7924C53E31F35FF08EE828"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"866678"
+			}
+			"test"
+			{
+				"buildid"		"936158"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
