@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"31240"
+	"common"
+	{
+		"name"		"Sam & Max 303: They Stole Max's Brain!"
+		"clienticon"		"6000f192b7982549e5c03ec6ddca914d63de82c0"
+		"clienttga"		"0340a182d6adb46f974cf020cfb7c8c1061b4005"
+		"icon"		"bf1ebfe347a80e2ac31577e0569de3aa201cd17f"
+		"logo"		"517196c999fe6316134332e749782154bde9adf5"
+		"logo_small"		"517196c999fe6316134332e749782154bde9adf5_thumb"
+		"oslist"		"macos,windows"
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1648252800"
+			"tested_build_id"		"19268"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Sam &amp;amp; Max 303: They Stole Max's Brain!"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1613874150"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Telltale Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Skunkape Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Sam &amp; Max"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"31240"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+		}
+		"review_score"		"8"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"developer"		"Telltale Games"
+		"gamedir"		"Sam and Max 303"
+		"homepage"		"http://www.telltalegames.com/samandmax"
+		"icon"		""
+		"installscript"		"31240_install.vdf"
+		"installscriptosx"		"SamMax303.app/installscript_osx.vdf"
+		"installscript_macos"		"SamMax303.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"macos,windows"
+		"publisher"		"Skunkape Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sam and Max 303"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SamMax303.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SamMax303.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"31242"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8238693309171322438"
+					"size"		"462986567"
+					"download"		"0"
+				}
+			}
+		}
+		"31241"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2132814170067369596"
+					"size"		"498735555"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19268"
+			}
+		}
+	}
+}
