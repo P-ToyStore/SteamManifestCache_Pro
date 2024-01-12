@@ -1,0 +1,243 @@
+"appinfo"
+{
+	"appid"		"631540"
+	"common"
+	{
+		"name"		"Community Inc"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"5c0f0a1b8eec4053b67df4bd6d5ce9bfaf061af8"
+		"logo_small"		"5c0f0a1b8eec4053b67df4bd6d5ce9bfaf061af8_thumb"
+		"icon"		"a0b729fb993a1fc33efee2462f7b3b16649df943"
+		"clienttga"		"0ea371cd2f9ebf77b4a3824276bc8c8061684c62"
+		"linuxclienticon"		"bcafe67caa150b5bbbd6f66b96a1681413f54b46"
+		"clienticon"		"07716be900567ee35d30ebc83069ab8e45acf14d"
+		"metacritic_name"		"Community Inc"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"43.790566656942815"
+				"height_pct"		"85.07414443652868"
+			}
+		}
+		"store_asset_mtime"		"1667302068"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"T4 Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"tinyBuild"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"tinyBuild"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1501778123"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"631540"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"492"
+			"2"		"9"
+			"3"		"4328"
+			"4"		"12472"
+		}
+		"review_score"		"5"
+		"review_percentage"		"41"
+	}
+	"extended"
+	{
+		"developer"		"T4 Interactive"
+		"publisher"		"tinyBuild"
+		"homepage"		"http://www.t4interactive.com"
+	}
+	"config"
+	{
+		"installdir"		"Community Inc"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CommunityINC.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CommunityINC.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"631541"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3851655396715170074"
+					"size"		"921539375"
+					"download"		"253890160"
+				}
+			}
+		}
+		"631542"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8254619395593343390"
+					"size"		"970400743"
+					"download"		"265456704"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3941834"
+				"timeupdated"		"1561123615"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"6"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"T4 Interactive/Community INC"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"T4 Interactive/Community INC"
+						"replace"		"unity.t4interactive.communityinc"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"T4 Interactive/Community INC"
+						"replace"		".config/unity3d/T4 Interactive/Community INC"
+					}
+				}
+			}
+		}
+	}
+}
