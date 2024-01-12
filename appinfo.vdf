@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"347250"
+	"common"
+	{
+		"name"		"F-19 Stealth Fighter"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"logo"		"f44ac344c94686a9ce2055fbaf2d63bc57baed49"
+		"logo_small"		"f44ac344c94686a9ce2055fbaf2d63bc57baed49_thumb"
+		"clienttga"		"0d52ce7e38c453b3160b2782eb0d7d98faff712b"
+		"clienticon"		"f422a563b5b20b16bb55dfba49425a81ed31f91b"
+		"icon"		"bf6a7d5ed315643f2d424bfaa709cd64dd704c98"
+		"linuxclienticon"		"48f82372e087c7466ab3d03884c40c9e1de508bf"
+		"releasestate"		"released"
+		"metacritic_name"		"F-19 Stealth Fighter"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1427411451"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"568022400"
+		"steam_release_date"		"1427907679"
+		"community_hub_visible"		"1"
+		"gameid"		"347250"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"15045"
+		}
+		"review_score"		"8"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.retroism.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/347250/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"F-19 Stealth Fighter"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_f19sf.conf -conf dosbox_f19sf_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_f19sf.conf -conf dosbox_f19sf_launch_windows.conf -noconsole"
+				"description"		"Play F-19 Stealth Fighter in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_linux\\launch_f19sf_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_f19sf_game_daum.sh"
+				"description"		"Play F-19 Stealth Fighter in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"347251"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"279065561463599674"
+					"size"		"37411088"
+					"download"		"37029024"
+				}
+			}
+		}
+		"347252"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5660381858596550681"
+					"size"		"33872526"
+					"download"		"14265296"
+				}
+			}
+		}
+		"347253"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2211507452580436761"
+					"size"		"18197880"
+					"download"		"7905328"
+				}
+			}
+		}
+		"347254"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4245047309679133523"
+					"size"		"827613"
+					"download"		"509024"
+				}
+			}
+		}
+		"347255"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"984859646426970208"
+					"size"		"827613"
+					"download"		"509024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"509224"
+			}
+		}
+	}
+}
