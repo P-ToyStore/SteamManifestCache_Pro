@@ -1,0 +1,331 @@
+"appinfo"
+{
+	"appid"		"252310"
+	"common"
+	{
+		"name"		"Syder Arcade"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"languages"
+		{
+			"english"		"1"
+		}
+		"icon"		"c9d95325c8f9840caf96392974de06c9a4027795"
+		"clienttga"		"9f6a075a8a6bea00a46fd01c86d8474124558e94"
+		"clienticon"		"5a22d7d0760180b7875f3923102f4fbed8957477"
+		"clienticns"		"d8280fb472df689c63da438dcc26924daa4b325c"
+		"logo"		"afe7c5bf5ba84c8a95f19e41e925a71660ecd5d0"
+		"logo_small"		"afe7c5bf5ba84c8a95f19e41e925a71660ecd5d0_thumb"
+		"linuxclienticon"		"d334947a4a016172e5e3b3b1546f07c34715494f"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1669075200"
+			"tested_build_id"		"231167"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Syder Arcade"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1667212079"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Studio Evil"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Studio Evil"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1382598000"
+		"steam_release_date"		"1382633160"
+		"metacritic_score"		"76"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/syder-arcade?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"252310"
+		"store_tags"
+		{
+			"0"		"4255"
+			"1"		"492"
+			"2"		"19"
+			"3"		"1773"
+			"4"		"4885"
+			"5"		"1774"
+			"6"		"3942"
+			"7"		"1755"
+			"8"		"4004"
+			"9"		"4182"
+			"10"		"3798"
+			"11"		"1756"
+			"12"		"4026"
+			"13"		"3916"
+			"14"		"1662"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Studio Evil"
+		"publisher"		"Studio Evil"
+		"homepage"		"http://www.syderarcade.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SyderArcade"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SyderArcade.exe"
+				"arguments"		"-console"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SyderArcadeSteam.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"SyderArcade.x86"
+				"arguments"		"LC_ALL=C %command%"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english,german,italian,spanish"
+		"252311"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8606043072749282601"
+					"size"		"841561390"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"gid"		"1C89877EE4EB38E3EF22E458DE6DCE6D"
+					"size"		"65057C32180EFE86C6452FF9C46477FE"
+					"download"		"2305DC02E59EC709133293FFBB301C9F"
+				}
+			}
+		}
+		"252314"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"gid"		"C7CFB0EC56A40A328243D06264DF09D8"
+					"size"		"0DD641A2C91C5FCC855B0ABFAD014F11"
+					"download"		"57737F8FD6BC640909CF932E47F21C79"
+				}
+			}
+		}
+		"252312"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6367073272875906547"
+					"size"		"842487181"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"gid"		"01075E54FC4A3A89C5C43154C6FD93FD"
+					"size"		"F4BEA2BC094B8F186BA4B3312F9963F6"
+					"download"		"2C93C1EEE82C5ED7654B4592E719237A"
+				}
+			}
+		}
+		"252313"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4078928340548687130"
+					"size"		"858034153"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"gid"		"B23BEA9A45296E52DBD303E9F6652E98"
+					"size"		"FF4B432897CCDB22BA20FC37331C1D2E"
+					"download"		"179F537D26C8ADA955457F063FF9F0CE"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"231167"
+			}
+			"testing"
+			{
+				"buildid"		"1300251"
+				"pwdrequired"		"1"
+				"timeupdated"		"1472160368"
+			}
+		}
+	}
+}
