@@ -1,0 +1,508 @@
+"appinfo"
+{
+	"appid"		"238630"
+	"common"
+	{
+		"name"		"Fist Puncher"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"4185bf5aa83a353162dcd4c4f9e5a361fa1887f9"
+		"logo_small"		"4185bf5aa83a353162dcd4c4f9e5a361fa1887f9_thumb"
+		"icon"		"0de0e2be1275c0538f2efad061e7c8cccfb13b95"
+		"clienticon"		"8ec8975ae773857eab41a127d71f1fe312b6c854"
+		"clienttga"		"4dfb83773e61d3741c90f980ae013ce9de7356c7"
+		"clienticns"		"d8c83f055d5438943e36af1c3ac17b9f9de7b98c"
+		"linuxclienticon"		"06939e2fcf8247b7a83497d637812de819a1eafc"
+		"osarch"		""
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1689724800"
+			"tested_build_id"		"6029191"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Fist Puncher"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1477340096"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Team2Bit"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Adult Swim Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1371834000"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/fist-puncher?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"238630"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4158"
+			"2"		"492"
+			"3"		"3841"
+			"4"		"3964"
+			"5"		"3798"
+			"6"		"4004"
+			"7"		"4840"
+			"8"		"3871"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Team2Bit"
+		"gamedir"		"ValveTestApp238630"
+		"homepage"		"http://games.adultswim.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Adult Swim Games"
+		"listofdlc"		"242270"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Fist Puncher"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Fist Puncher.exe"
+				"description"		"Launch with Console"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./FistPuncher"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Fist Puncher.app/Contents/MacOS/FistPuncher"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english"
+		"229003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"238631"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8944825334383827846"
+					"size"		"463627925"
+					"download"		"161251200"
+				}
+				"linux32"
+				{
+					"gid"		"8944825334383827846"
+					"size"		"463627925"
+					"download"		"161251200"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta_halloween2016"
+				{
+					"gid"		"50A7497D380652B1056D148B3886F769"
+					"size"		"49163C0673F542E381F977AA281C8B34"
+					"download"		"A0FBCF0EB1E162090A9289D27BA9F588"
+				}
+				"beta_spring2014"
+				{
+					"gid"		"DD9587C089F104D86947D29C8A6273C2"
+					"size"		"4806219A97BA48AB36BCDC2F74E74A79"
+					"download"		"192574C888497CA0EC20DBA3F9BEB8CE"
+				}
+			}
+		}
+		"238632"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6801463049679937952"
+					"size"		"463627925"
+					"download"		"161251584"
+				}
+				"linux32"
+				{
+					"gid"		"6801463049679937952"
+					"size"		"463627925"
+					"download"		"161251584"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta_halloween2016"
+				{
+					"gid"		"EB1FCF612CAA9B834CB2B987011F86B0"
+					"size"		"49163C0673F542E381F977AA281C8B34"
+					"download"		"F00E9CA0E420CDD6A949A878613F82DF"
+				}
+				"beta_spring2014"
+				{
+					"gid"		"167D84D38D8D09E93620898610AD45FF"
+					"size"		"4806219A97BA48AB36BCDC2F74E74A79"
+					"download"		"192574C888497CA0EC20DBA3F9BEB8CE"
+				}
+			}
+		}
+		"238633"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5936393924446657992"
+					"size"		"448401166"
+					"download"		"154321408"
+				}
+				"linux32"
+				{
+					"gid"		"8610868971156245941"
+					"size"		"433493067"
+					"download"		"150739392"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta_halloween2016"
+				{
+					"gid"		"79723FCCD4B4D8C4D8717709B04D77D1"
+					"size"		"CC4A9BD6DD68E7A20DFEB6A72FFD8923"
+					"download"		"555597D38E907A701B821BE534BC284D"
+				}
+				"beta_spring2014"
+				{
+					"gid"		"9B956FD4513911FE2AA856F47BF6D2DA"
+					"size"		"96F75E0273D03DC66918C028A6D0D52A"
+					"download"		"192574C888497CA0EC20DBA3F9BEB8CE"
+				}
+			}
+		}
+		"238634"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2604822372521923005"
+					"size"		"448401166"
+					"download"		"154321408"
+				}
+				"linux32"
+				{
+					"gid"		"8620955056801300853"
+					"size"		"433493067"
+					"download"		"150739168"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta_halloween2016"
+				{
+					"gid"		"66A80267C8E76B2DAD6B6C38F0948CE5"
+					"size"		"CC4A9BD6DD68E7A20DFEB6A72FFD8923"
+					"download"		"555597D38E907A701B821BE534BC284D"
+				}
+				"beta_spring2014"
+				{
+					"gid"		"326BAB8A9B0B15F03E7BF9A8018DA820"
+					"size"		"96F75E0273D03DC66918C028A6D0D52A"
+					"download"		"192574C888497CA0EC20DBA3F9BEB8CE"
+				}
+			}
+		}
+		"238635"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2740356938255417484"
+					"size"		"436296727"
+					"download"		"151485328"
+				}
+				"linux32"
+				{
+					"gid"		"6338883712370248001"
+					"size"		"444137999"
+					"download"		"153344448"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta_halloween2016"
+				{
+					"gid"		"6C78B482D9A6D7196C0876E21BFC9C90"
+					"size"		"813382EE18BC66B3FF73AF82079A2C36"
+					"download"		"555597D38E907A701B821BE534BC284D"
+				}
+				"beta_spring2014"
+				{
+					"gid"		"243E100854E27238A986CFCC687932DA"
+					"size"		"A8FFAA7267AFD1848EF98C5466B214F2"
+					"download"		"192574C888497CA0EC20DBA3F9BEB8CE"
+				}
+			}
+		}
+		"238636"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1214585452783287140"
+					"size"		"436296727"
+					"download"		"151485088"
+				}
+				"linux32"
+				{
+					"gid"		"4336074934249726282"
+					"size"		"444137999"
+					"download"		"153343984"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta_halloween2016"
+				{
+					"gid"		"542389048A5D07743123146C9B64C9BA"
+					"size"		"813382EE18BC66B3FF73AF82079A2C36"
+					"download"		"555597D38E907A701B821BE534BC284D"
+				}
+				"beta_spring2014"
+				{
+					"gid"		"DC16F63DAD250DC2147E090FA2CAEBF3"
+					"size"		"A8FFAA7267AFD1848EF98C5466B214F2"
+					"download"		"192574C888497CA0EC20DBA3F9BEB8CE"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6029191"
+				"timeupdated"		"1609453803"
+			}
+			"beta_halloween2016"
+			{
+				"buildid"		"1409223"
+				"pwdrequired"		"1"
+				"timeupdated"		"1477271865"
+			}
+			"beta_spring2014"
+			{
+				"buildid"		"273508"
+				"pwdrequired"		"1"
+			}
+			"linux32"
+			{
+				"buildid"		"4154027"
+				"description"		"32-bit Linux (Legacy)"
+				"timeupdated"		"1609453795"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"18"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"SavedGames/Fist Puncher/FistPuncher_Save/AllPlayers"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"FistPuncher/FistPuncher_Save/AllPlayers"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"FistPuncher/FistPuncher_Save/AllPlayers"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
