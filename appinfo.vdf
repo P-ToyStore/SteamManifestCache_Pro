@@ -1,0 +1,133 @@
+"appinfo"
+{
+	"appid"		"415310"
+	"common"
+	{
+		"name"		"TyranoBuilder Visual Novel Studio Demo"
+		"type"		"Application"
+		"releasestate"		"released"
+		"clienticns"		"57bec0e86b6525d4fc40f918f6f6e474e5c533db"
+		"clienticon"		"167218596d3b9e8da09299d6651de64408070bb3"
+		"clienttga"		"a14a72830fd488091fff6f5115936c93d7fa2cfa"
+		"icon"		"897160e798e7117f123c6d9f5e11088001e980bd"
+		"oslist"		"windows,macos"
+		"linuxclienticon"		"db3cf060a1a756d597bbe3e90f10a268760f2010"
+		"logo"		"e6c4b889e537030827689cd05965673f546f6e86"
+		"logo_small"		"e6c4b889e537030827689cd05965673f546f6e86_thumb"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"415310"
+		"exfgls"		"1"
+	}
+	"extended"
+	{
+		"demoofappid"		"345370"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TyranoBuilder Demo"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"tyranobuilder.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"tyranobuilder.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"415311"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4889425638100443685"
+					"size"		"116110670"
+					"download"		"23288480"
+				}
+			}
+		}
+		"415312"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3329118513005665656"
+					"size"		"163539690"
+					"download"		"29200080"
+				}
+			}
+		}
+		"415313"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4075422388906782868"
+					"size"		"43746842"
+					"download"		"18292000"
+				}
+			}
+		}
+		"415314"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4120417723241950380"
+					"size"		"4406810"
+					"download"		"4264960"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"835910"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"appidredirect"		"345370"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"myproject"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"copied_from_parent"		"1"
+		}
+	}
+}
