@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"410550"
+	"common"
+	{
+		"name"		"Tank: The M1A1 Abrams Battle Tank Simulation"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"logo"		"51efb7337e69a3dae54917107d8f2bfd8c3cf49a"
+		"logo_small"		"51efb7337e69a3dae54917107d8f2bfd8c3cf49a_thumb"
+		"clienticon"		"b08adcf6c400722438b6ea003ec34afec07342ea"
+		"clienttga"		"2ee940963469adf09e5e1287529de4f965dd337e"
+		"icon"		"5fd0346e520f6ac194e789f1a3c9ee67955f051b"
+		"linuxclienticon"		"fb62a2e8a2a09719a5d846980876ce0e57fdd7e4"
+		"releasestate"		"released"
+		"metacritic_name"		"Tank: M1A1 Abrams Battle Simulation"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1447286153"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sphere, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"full_audio"		"true"
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"599644800"
+		"steam_release_date"		"1447437566"
+		"community_hub_visible"		"1"
+		"gameid"		"410550"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"13276"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Sphere, Inc."
+		"publisher"		"Atari"
+		"homepage"		"http://www.retroism.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tank The M1A1 ABTS"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_m1a1abs.conf -conf dosbox_m1a1abs_launch_windows.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"Play Tank: The M1A1 Abrams Battle Tank Simulator"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_m1a1abs.conf -conf dosbox_m1a1abs_launch_windows.conf -noconsole"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"description"		"Play in DOSBox Daum"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_linux\\launch_m1a1abs_game.sh"
+				"workingdir"		"dosbox_linux\\"
+				"description"		"Play Tank: The M1A1 Abrams Battle Tank Simulator"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_m1a1abs_game_daum.sh"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"description"		"Play in DOSBox Daum"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"410551"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9053629175079998153"
+					"size"		"5"
+					"download"		"64"
+				}
+			}
+		}
+		"410552"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1576882283254421500"
+					"size"		"29655386"
+					"download"		"12764816"
+				}
+			}
+		}
+		"410553"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7046559525875583336"
+					"size"		"17996759"
+					"download"		"7832064"
+				}
+			}
+		}
+		"410554"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4988884835174496301"
+					"size"		"844144"
+					"download"		"387920"
+				}
+			}
+		}
+		"410555"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7059156878664076947"
+					"size"		"844144"
+					"download"		"387920"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"817240"
+			}
+		}
+	}
+}
