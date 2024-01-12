@@ -1,0 +1,374 @@
+"appinfo"
+{
+	"appid"		"355530"
+	"common"
+	{
+		"name"		"Last Word"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"11501e1e958d443f01be21ebae6cea73a20a2905"
+		"clienttga"		"fea415693e9122174f4dca2a35ee38b85eabf6ad"
+		"icon"		"c3a631f87d5cbed6f2a3aff07d54a6ce554c7f6d"
+		"logo"		"0c904fa05f6da1ff361fc5eaed4761a53a4b71b1"
+		"logo_small"		"0c904fa05f6da1ff361fc5eaed4761a53a4b71b1_thumb"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1686960000"
+			"tested_build_id"		"1810409"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Last Word"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"23.745624270711787"
+				"height_pct"		"48.480170980764655"
+			}
+		}
+		"store_asset_mtime"		"1572454927"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Twelve Tiles"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Komodo"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1431109873"
+		"metacritic_score"		"67"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/last-word?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"355530"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"122"
+			"2"		"21"
+			"3"		"597"
+			"4"		"7208"
+			"5"		"5577"
+			"6"		"1742"
+			"7"		"5716"
+			"8"		"1756"
+			"9"		"3964"
+			"10"		"4004"
+			"11"		"4182"
+			"12"		"4434"
+			"13"		"5613"
+			"14"		"6971"
+			"15"		"3799"
+			"16"		"44868"
+		}
+		"review_score"		"8"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Twelve Tiles"
+		"publisher"		"Komodo"
+		"homepage"		"http://www.twelvetiles.com/LW/lastword.html"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Last Word"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"steamshim/parent.amd64"
+				"arguments"		"./LastWord.amd64"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"steamshim/parent.x86"
+				"arguments"		"./LastWord.x86"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"LastWord.app/Contents/MacOS/steamshim_parent"
+				"arguments"		"LastWord.app/Contents/MacOS/mkxp"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"355531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"935761283869888552"
+					"size"		"91661931"
+					"download"		"91067632"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"unix_beta"
+				{
+					"gid"		"2B6E18F19125379278B98DCB1A4C2503"
+					"size"		"C28B63FE17AE98BE448BF8FFEE0421A3"
+					"download"		"3EA4CDB3EC4BBF9BB2D88340A9FA4FBB"
+				}
+				"win_temp"
+				{
+					"gid"		"61975D3D0AEBEB2B01125FB26C439F8E"
+					"size"		"7201B4877027246BF9FC27C9242AEDDE"
+					"download"		"6401FE7F837F67A67B55107AEDE2B4CD"
+				}
+			}
+		}
+		"368820"
+		{
+			"dlcappid"		"368820"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8513590788398788829"
+					"size"		"106709052"
+					"download"		"87884672"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"unix_beta"
+				{
+					"gid"		"4A8090BAD5090B9DA46E94C7F42DD6FD"
+					"size"		"9AB5D1A443BF2B8EAF1E563F38FE6537"
+					"download"		"5B207CC2F5B84A93340572EC463AF19C"
+				}
+				"win_temp"
+				{
+					"gid"		"19892682806494008C74EF0C0C0F650F"
+					"size"		"50AA6F4F17D5596E976FCA2F94EC8EAC"
+					"download"		"1CC5F9251FF59D233247B649FC6D6817"
+				}
+			}
+		}
+		"355532"
+		{
+			"dlcappid"		"368820"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"355533"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7470672281100513601"
+					"size"		"107555962"
+					"download"		"95207840"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"unix_beta"
+				{
+					"gid"		"C4180E14370E664CDF4891A9F50BB301"
+					"size"		"354CFC1F2A4E649F714ED935C0F76852"
+					"download"		"8EC13E1361F49488A454D6068B11B3CD"
+				}
+				"win_temp"
+				{
+					"gid"		"44D894B4986D9F38FE278EAF57049922"
+					"size"		"3249BFD6412A5F75DED5E4B2DDBB2B08"
+					"download"		"D2E9D374D9D1F2EF22A106112DCBC7EE"
+				}
+			}
+		}
+		"355534"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6499608034880543083"
+					"size"		"112770132"
+					"download"		"95560656"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"unix_beta"
+				{
+					"gid"		"403F27CDED904F2445BC591DDFA59B12"
+					"size"		"2DAF89C9B7AA10D6C16774078777F004"
+					"download"		"AB51E31B6C5C509EF65D6A4AF1DBB58A"
+				}
+				"win_temp"
+				{
+					"gid"		"35AD9F0534546EB06FE1FD04AB78FB01"
+					"size"		"E7C06D2AEF7D39C26565CA5B0F343697"
+					"download"		"5AB510F9EEB2A266A975075B2D5C25DB"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1810409"
+				"timeupdated"		"1494355108"
+			}
+			"unix_beta"
+			{
+				"buildid"		"1244223"
+				"pwdrequired"		"1"
+				"timeupdated"		"1469467219"
+			}
+			"win_temp"
+			{
+				"buildid"		"1213752"
+				"pwdrequired"		"1"
+				"timeupdated"		"1467766114"
+			}
+		}
+	}
+}
