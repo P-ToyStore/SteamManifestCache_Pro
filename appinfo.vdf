@@ -1,0 +1,243 @@
+"appinfo"
+{
+	"appid"		"233110"
+	"common"
+	{
+		"name"		"Defense Technica"
+		"type"		"Game"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"japanese"		"1"
+		}
+		"oslist"		"windows,macos"
+		"clienttga"		"163a48da9be4d736e32a4c388e64a95dee82cf1c"
+		"logo"		"49203421e25f89284f274c543035f59e0834c801"
+		"logo_small"		"49203421e25f89284f274c543035f59e0834c801_thumb"
+		"icon"		"b400f879c36be8f11494eb2e79c9941956ddf469"
+		"clienticon"		"1de5ace2e7706a07e8af0c2d726a1946686b1ead"
+		"clienticns"		"4a4b2db5b2470feef3a58fb0137a1837e1a64290"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1660176000"
+			"tested_build_id"		"141215"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Defense Technica"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1380627204"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kuno Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kuno Interactive"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_25"		"1"
+			"category_43"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1382620920"
+		"metacritic_score"		"63"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/defense-technica?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"233110"
+		"store_tags"
+		{
+			"0"		"1645"
+			"1"		"9"
+			"2"		"492"
+		}
+		"review_score"		"4"
+		"review_percentage"		"38"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Kuno Interactive"
+		"gamedir"		"ValveTestApp233110"
+		"homepage"		"http://www.kunointer.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Kuno Interactive"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DefenseTechnica"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DefenseTechnica.exe"
+				"description"		"Launch with Console"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DefenseMac.app/Contents/MacOS/Defense Technica"
+				"description"		"Launch with Console"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,french,koreana,spanish,japanese"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"233111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1938338694098074173"
+					"size"		"755451536"
+					"download"		"0"
+				}
+			}
+		}
+		"233112"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5443511485359103665"
+					"size"		"772075312"
+					"download"		"0"
+				}
+			}
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"141215"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		""
+		"maxnumfiles"		""
+	}
+}
