@@ -1,0 +1,181 @@
+"appinfo"
+{
+	"appid"		"72300"
+	"common"
+	{
+		"name"		"Breach"
+		"logo"		"1186dad9a4555f16dc0f0ea08d2ed61d6e724083"
+		"logo_small"		"1186dad9a4555f16dc0f0ea08d2ed61d6e724083_thumb"
+		"icon"		"61a7aff7fe8f2040712ed1d033eb8d0c3a687dba"
+		"clienttga"		"5b919ea23c633e3bf4ab8b737c033faf60c66929"
+		"clienticon"		"d4b3dd06669d415f217d2f29034900f4c6fedef3"
+		"eulas"
+		{
+			"0"
+			{
+				"url"		"http://store.steampowered.com/eula/eula_72300"
+				"id"		"eula_72300"
+				"name"		"eula_72300"
+			}
+		}
+		"type"		"game"
+		"metacritic_name"		"Breach"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1294774233"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Atomic Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atomic Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_8"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1296073800"
+		"metacritic_score"		"61"
+		"metacritic_fullurl"		"http://www.metacritic.com/game/pc/breach?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"72300"
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"Atomic Games"
+		"gamedir"		"Breach"
+		"homepage"		"http://breachgame.com/"
+		"icon"		""
+		"launcheula"		"http://store.steampowered.com/eula/eula_72300"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"72301"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Atomic Games"
+	}
+	"config"
+	{
+		"installscriptsignature"		"7ac999496541ebaf6f9f9a22f81d8fe19492b448285cc0ea25dbe9a7518f80f3769e788079fa5fdc60d3c00c5def095e83e8e4dd7b8c1065e28a84b798e1f1c414ad5789da374d907e9b24de657cd59b8e42044bfdd31f1934e60dc91dffef0e0ca15c873581f956e19b86fc32e793bc50c24716b3371d40de37bae1e6088547"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Breach"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Breach.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"msvcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72300"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"description"		"Microsoft VC Redist Package"
+				"nocleanup"		"1"
+			}
+			"physx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72300"
+				"process 1"		"%INSTALLDIR%\\redist\\PhysX_9.10.0513_SystemSoftware.exe"
+				"command 1"		"/quiet /norestart"
+				"description"		"NVIDIA PhysX System Software"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\72300"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"description"		"Microsoft DirectX"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"72301"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5472633045749961418"
+					"size"		"1615441446"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24021"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+	}
+}
