@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"516560"
+	"common"
+	{
+		"name"		"The Odyssey"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"bcda696bde47552058c5e2afe08f180175830d6e"
+		"clienttga"		"6aa5225cd96bcc401b6419d166eb3e67c3ab38e6"
+		"icon"		"2abbe3d0eb28b6c64c2edccbc995a075339c8fa3"
+		"clienticns"		"1171554597f379df0ea3ba254d26d0100599e08d"
+		"linuxclienticon"		"67aa4ada23942e39f49699e026729994eeb6d239"
+		"logo"		"da28615ae2a5119eeee28a902939921e376c5419"
+		"logo_small"		"da28615ae2a5119eeee28a902939921e376c5419_thumb"
+		"metacritic_name"		"The Odyssey"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"40.86629001883239"
+				"height_pct"		"68.75"
+			}
+		}
+		"store_asset_mtime"		"1560504442"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Crazysoft ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Crazysoft ltd"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"greek"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1473057809"
+		"community_hub_visible"		"1"
+		"gameid"		"516560"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"1698"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"Crazysoft ltd"
+		"publisher"		"Crazysoft ltd"
+		"homepage"		"http://www.crazysoft.gr/windows_pc/adventure_games/the_odyssey.php"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Odyssey"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"The Odyssey.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"The Odyssey.app\\Contents\\MacOS\\The Odyssey"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"TheOdyssey"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"516561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"93215477159064939"
+					"size"		"260119537"
+					"download"		"246821440"
+				}
+			}
+		}
+		"516562"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8984170591047616949"
+					"size"		"195152512"
+					"download"		"177299296"
+				}
+			}
+		}
+		"516563"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7465689398097964670"
+					"size"		"253818452"
+					"download"		"244343600"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2158651"
+				"timeupdated"		"1506681229"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"data"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"data"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"data"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
