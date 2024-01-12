@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"32340"
+	"common"
+	{
+		"name"		"Loom"
+		"logo"		"3d3f64ca90dd12af8e2dc5ac44aa7fb154279ae1"
+		"logo_small"		"3d3f64ca90dd12af8e2dc5ac44aa7fb154279ae1_thumb"
+		"icon"		"9f14105aecd53492d06a4880a0dd89c86a2e4849"
+		"clienttga"		"eaee6d570c3cb74e0b7a92954868186861dff9c6"
+		"clienticon"		"b884b5b56aea075e17ef1bc67c093b717b93fb72"
+		"oslist"		"windows,macos"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"32340_eula_0"
+				"name"		"Loom EULA"
+				"url"		"http://store.steampowered.com//eula/32340_eula_0"
+			}
+		}
+		"type"		"game"
+		"metacritic_name"		"LOOM™"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LucasArts"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LucasArts"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Lucasfilm"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1247036400"
+		"community_hub_visible"		"1"
+		"gameid"		"32340"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"1693"
+			"3"		"1684"
+			"4"		"1664"
+			"5"		"4182"
+			"6"		"1621"
+			"7"		"6691"
+			"8"		"3964"
+			"9"		"4004"
+			"10"		"7782"
+			"11"		"4166"
+			"12"		"1742"
+			"13"		"1719"
+			"14"		"1756"
+			"15"		"1697"
+			"16"		"4234"
+			"17"		"4057"
+			"18"		"4136"
+			"19"		"492"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"LucasArts"
+		"gamedir"		"LOOM"
+		"gamemanualurl"		"http://store.steampowered.com/manual/32340/"
+		"homepage"		"http://www.lucasarts.com/"
+		"icon"		""
+		"installscript"		"32340_install.vdf"
+		"installscriptosx"		"Loom.app/installscript_osx.vdf"
+		"installscript_macos"		"Loom.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"LucasArts"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"LOOM"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Loom.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Loom.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"32342"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8712576482939368679"
+					"size"		"295108287"
+					"download"		"0"
+				}
+			}
+		}
+		"32341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6858475458390401706"
+					"size"		"295053488"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19292"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"LucasArts/Loom"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
