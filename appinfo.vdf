@@ -1,0 +1,252 @@
+"appinfo"
+{
+	"appid"		"94610"
+	"common"
+	{
+		"name"		"Hector: Ep 2"
+		"clienticon"		"ef65db15fb40b193b38570026daf56b3ba079744"
+		"clienttga"		"89abbcc9c27a22458b4a70dcb6d8fb8f2360627e"
+		"icon"		"0bfad503074efc1c46755d05d36be4755945f8fe"
+		"logo"		"52a3e61842a22bf75f6bf6d355400d5b3776f9b4"
+		"logo_small"		"52a3e61842a22bf75f6bf6d355400d5b3776f9b4_thumb"
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1669766400"
+			"tested_build_id"		"25502"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-5"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Hector: Episode 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"66.85625020996406"
+				"height_pct"		"78.4714498847145"
+			}
+		}
+		"store_asset_mtime"		"1686748363"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Telltale"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Telltale"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"94610"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+			"2"		"19"
+			"3"		"122"
+			"4"		"1742"
+			"5"		"4182"
+			"6"		"1698"
+		}
+		"review_score"		"8"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Telltale"
+		"gamedir"		"Hector Ep 2"
+		"homepage"		"https://www.telltale.com/"
+		"icon"		""
+		"installscript_macos"		"Hector102.app\\installScript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"94611"
+		"primarycache_macos"		"94612"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Telltale"
+	}
+	"config"
+	{
+		"installscriptsignature"		"7ebe4534493c11dbac05a78ea84f3db2ef987af786e38b7524756dc664d4d106547bb5b93506b8b05e808cd78e25f057f52cec1c86d7a5feb3273b16b5cb0f37fb90eeb4d296a66a8ae4d7780c3ab6e9ccff733f54220d5fc7ed9482159e06a50e9cd3ce074036c2d57eb75b68761eba96565bf620d3031080a01ee07c5fb8ed"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Hector Ep 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Hector102.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Hector102.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\telltale games\hector102.exe"
+			{
+				"string"
+				{
+					"distribution"		"Telltale"
+					"franchise"		"Hector100"
+					"install location"		"%INSTALLDIR%\\"
+					"manual"		"Manual.pdf"
+					"readme"		"Readme.txt"
+					"savegamefoldername"		"Hector Episode 2"
+					"version"		"1.0.0.0"
+					"english"
+					{
+						"language"		"english"
+						"language id"		"1033"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\31290"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"94612"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"874178880204455295"
+					"size"		"839955341"
+					"download"		"0"
+				}
+			}
+		}
+		"94611"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6343894672623426041"
+					"size"		"656549609"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25502"
+			}
+		}
+	}
+}
