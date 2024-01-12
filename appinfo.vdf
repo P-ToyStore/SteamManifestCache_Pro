@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"364250"
+	"common"
+	{
+		"name"		"XIIZEAL"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"japanese"		"1"
+		}
+		"clienticon"		"a66a061a8fb937f375c8ded2c8456307d0bd7a79"
+		"clienttga"		"38a05ce3e839b82e3a5e0d5c1554f55de3bfae41"
+		"icon"		"449aa05e92e2f65e6dbbc9343fdc9f0aa4f291b8"
+		"logo"		"ebb11ea1034893202ed362b6d667b19e10849f07"
+		"logo_small"		"ebb11ea1034893202ed362b6d667b19e10849f07_thumb"
+		"metacritic_name"		"XIIZEAL"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1561692522"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TRIANGLE SERVICE"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Komodo"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_29"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1433545201"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"364250"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4255"
+			"2"		"1773"
+			"3"		"4885"
+			"4"		"1774"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"TRIANGLE SERVICE"
+		"publisher"		"Komodo"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"XIIZEAL"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"xiizeal.exe"
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"364251"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1220122391276227519"
+					"size"		"34551760"
+					"download"		"32743168"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"prerelease"
+				{
+					"gid"		"854BEE3F4000AF994240077DA2C9B478"
+					"size"		"69C99E66D2D08E0AC47B363DCFB22847"
+					"download"		"E95327B161287E9002E0F8711DCCC1D8"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6356291"
+				"timeupdated"		"1615797808"
+			}
+			"prerelease"
+			{
+				"buildid"		"6356291"
+				"pwdrequired"		"1"
+				"timeupdated"		"1615338239"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"savedata_a.dat"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"savedata_b.dat"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"replay"
+				"pattern"		"*.*"
+			}
+		}
+	}
+}
