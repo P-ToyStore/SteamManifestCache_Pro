@@ -1,0 +1,216 @@
+"appinfo"
+{
+	"appid"		"2144280"
+	"common"
+	{
+		"name"		"龙栖"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"parent"		"31210705"
+		"clienticon"		"17cb4361e8500eda33374aa14f283e28dfd74e81"
+		"clienttga"		"8f248522ae5f5021c4d68a3f5a671e6caf3ba11e"
+		"icon"		"e0f1fd5d8e43a49c6573db87f87754ec9cac566a"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"99.15724960353016"
+			}
+		}
+		"store_asset_mtime"		"1679392877"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"鲛人文化工作室"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"鲛人文化工作室"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1679630415"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2144280"
+		"store_tags"
+		{
+			"0"		"9551"
+			"1"		"5984"
+			"2"		"3799"
+			"3"		"1742"
+			"4"		"24003"
+			"5"		"122"
+			"6"		"3987"
+			"7"		"4085"
+			"8"		"597"
+			"9"		"6691"
+			"10"		"6815"
+			"11"		"180368"
+			"12"		"5608"
+			"13"		"3854"
+			"14"		"31275"
+			"15"		"5379"
+			"16"		"599"
+			"17"		"3871"
+			"18"		"4182"
+			"19"		"4947"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"鲛人文化工作室"
+		"publisher"		"鲛人文化工作室"
+	}
+	"config"
+	{
+		"installdir"		"Where_The_Loong_Lies-pc"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Where_The_Loong_Lies-win\\Where_The_Loong_Lies.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"schinese"
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2144281"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6194669013959459328"
+					"size"		"4661955150"
+					"download"		"3093107920"
+				}
+			}
+		}
+		"2144282"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6455848921617031726"
+					"size"		"15045228665"
+					"download"		"9034765184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11282084"
+				"timeupdated"		"1684675790"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000000"
+		"maxnumfiles"		"1000"
+		"sync_while_suspended"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
