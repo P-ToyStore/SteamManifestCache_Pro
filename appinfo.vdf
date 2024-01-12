@@ -1,0 +1,220 @@
+"appinfo"
+{
+	"appid"		"548230"
+	"common"
+	{
+		"name"		"SPINGUN"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"121428fe2ecd11e0af7333e52814fc3e5a8adb89"
+		"logo_small"		"121428fe2ecd11e0af7333e52814fc3e5a8adb89_thumb"
+		"icon"		"42834158a4c0c0b0931ad0728b80f2b98cf97c0f"
+		"clienticon"		"5af53b2fb4d40a1e8d6b0431d3034566cd83fff8"
+		"clienttga"		"ddd4118359c1e4814422531d3d325e3258f2d7d3"
+		"clienticns"		"b3de0755b391c05119238d97e45e6919fee1b3d4"
+		"linuxclienticon"		"d42c414262eb6c8cdff5c4532e8ebbe8aa8b483e"
+		"metacritic_name"		"SPINGUN"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1478902413"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fermenter Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fermenter Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1478858961"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"548230"
+		"store_tags"
+		{
+			"0"		"1773"
+			"1"		"492"
+			"2"		"4255"
+			"3"		"14906"
+			"4"		"4026"
+			"5"		"597"
+			"6"		"19"
+			"7"		"1774"
+			"8"		"4885"
+			"9"		"4094"
+			"10"		"1755"
+			"11"		"4182"
+			"12"		"15045"
+			"13"		"4252"
+			"14"		"4004"
+			"15"		"4747"
+			"16"		"4711"
+			"17"		"1734"
+			"18"		"3871"
+			"19"		"4400"
+		}
+		"review_score"		"8"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"Fermenter Games"
+		"publisher"		"Fermenter Games"
+		"homepage"		"http://fermentergames.com/spingun"
+	}
+	"config"
+	{
+		"installdir"		"SPINGUN"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SPINGUN.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SPINGUN.app\\Contents\\MacOS\\Mac_Runner"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"run.sh"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"548231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4976118854957857139"
+					"size"		"17380476"
+					"download"		"7668352"
+				}
+				"beta"
+				{
+					"gid"		"4976118854957857139"
+					"size"		"17380476"
+					"download"		"7668352"
+				}
+			}
+		}
+		"548233"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"990861903221905686"
+					"size"		"17495297"
+					"download"		"7501296"
+				}
+				"beta"
+				{
+					"gid"		"990861903221905686"
+					"size"		"17495297"
+					"download"		"7501296"
+				}
+			}
+		}
+		"548232"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2330665136083451150"
+					"size"		"16348747"
+					"download"		"6367104"
+				}
+				"beta"
+				{
+					"gid"		"2330665136083451150"
+					"size"		"16348747"
+					"download"		"6367104"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7238597"
+				"timeupdated"		"1629839146"
+			}
+			"beta"
+			{
+				"buildid"		"7238597"
+				"description"		"gms2 update"
+				"timeupdated"		"1629778360"
+			}
+		}
+	}
+}
