@@ -1,0 +1,152 @@
+"appinfo"
+{
+	"appid"		"46840"
+	"common"
+	{
+		"name"		"Ironclads: Chincha Islands War 1866"
+		"logo"		"6f9522655e285e452ad3f7b7eb0f29b6f2993524"
+		"logo_small"		"6f9522655e285e452ad3f7b7eb0f29b6f2993524_thumb"
+		"clienticon"		"62d62c50cc709b73c886d1a5e1ac30698d816e4e"
+		"clienttga"		"7ac375b3a0ddca9786e4d80ff5c6ca2ae2d08657"
+		"icon"		"b272723c6de475d645227c750e93ff9fa647086c"
+		"type"		"game"
+		"metacritic_name"		"Ironclads: Chincha Islands War 1866"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1574189398"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Totem Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Strategy First"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1308328800"
+		"community_hub_visible"		"1"
+		"gameid"		"46840"
+		"store_tags"
+		{
+			"0"		"9"
+		}
+		"review_score"		"4"
+		"review_percentage"		"20"
+	}
+	"extended"
+	{
+		"developer"		"Totem Games"
+		"gamedir"		"Ironclads Chincha Islands War 1866"
+		"homepage"		"http://www.totemgames.ru/"
+		"icon"		""
+		"installscript"		"46840_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"46841"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Strategy First"
+	}
+	"config"
+	{
+		"installscriptsignature"		"0dec1efca1077011e7b311a9183bfbee60586dd9ecb5d4e221782d0866bedfa2b44fb0a4fb985129f0d96ebd9a42712b2601ac2ca5ccfc39e9dd351fbfb82a7806efec918e0e2202e5ee96f2e66fdfd3d281e7ea6cb45e4aafbb6901d05c80c25929e364b93f117375c8516f516ed4ea85fbba51e22a7443efabbadb6b5f76a0"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Ironclads Chincha Islands War 1866"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ironclads_Chincha_Islands_War.exe"
+				"arguments"		"-Launch"
+			}
+			"1"
+			{
+				"description"		"Configure Ironclads: Chincha Islands War"
+				"executable"		"Config.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\46760"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"visual c++ redistributable"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\46760"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"46841"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6709605578199408269"
+					"size"		"552303662"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21460"
+			}
+		}
+	}
+}
