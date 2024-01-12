@@ -1,0 +1,302 @@
+"appinfo"
+{
+	"appid"		"355250"
+	"common"
+	{
+		"name"		"STAR WARS™: TIE Fighter Special Edition"
+		"type"		"Game"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"355250_eula_0"
+				"name"		"STAR WARS Tie Fighter EULA"
+				"url"		"http://store.steampowered.com//eula/355250_eula_0"
+				"version"		"1"
+			}
+		}
+		"oslist"		"windows,macos"
+		"icon"		"36ba1940435bc97506eba4f4944f5cdea731a17f"
+		"clienticon"		"1544e9e2d3e8d144e6ba26e209f90859d4be923e"
+		"clienttga"		"f5449dc3a73174472aa1430f5b85f06b16694f41"
+		"logo"		"5d0e9fd17e6c291e28b6d7f5fb52b1685003d2df"
+		"logo_small"		"5d0e9fd17e6c291e28b6d7f5fb52b1685003d2df_thumb"
+		"osarch"		""
+		"osextended"		"macos64"
+		"metacritic_name"		"STAR WARS Tie Fighter"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1520562227"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Totally Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LucasArts"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Lucasfilm"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"Star Wars"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"773046000"
+		"steam_release_date"		"1430237040"
+		"community_hub_visible"		"1"
+		"gameid"		"355250"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1755"
+			"2"		"16598"
+			"3"		"4182"
+			"4"		"599"
+			"5"		"1693"
+			"6"		"15045"
+		}
+		"review_score"		"8"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Totally Games"
+		"publisher"		"LucasArts"
+		"gamemanualurl"		"https://store.steampowered.com/manual/355250/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"STAR WARS Tie Fighter"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"remastered/TIE95.EXE"
+				"description"		"Launch"
+				"workingdir"		"remastered"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"classic/DOSBOX/dosbox.exe"
+				"arguments"		"-conf \"..\\dosbox_tie.conf\" -conf \"..\\dosbox_tie_single.conf\" -noconsole -c exit"
+				"workingdir"		"classic/DOSBOX"
+				"description"		"Play STAR WARS™: TIE Fighter Classic"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"collectors_cd\\DOSBOX/dosbox.exe"
+				"arguments"		"-conf \"..\\dosbox_tiecd.conf\" -conf \"..\\dosbox_tiecd_single.conf\" -noconsole -c exit\""
+				"workingdir"		"collectors_cd/DOSBOX"
+				"description"		"Play STAR WARS™: TIE Fighter Collector's CD-ROM"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf dosbox_tie.conf -conf dosbox_tie_single.conf -conf DOSBoxPreferences.conf -noconsole -c exit"
+				"description"		"Play STAR WARS™: TIE Fighter Classic"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf dosbox_tiecd.conf -conf dosbox_tiecd_single.conf -conf DOSBoxPreferences.conf -noconsole -c exit"
+				"description"		"Play STAR WARS™: TIE Fighter Collector's CD-ROM"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"355254"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3755985693985110236"
+					"size"		"748325234"
+					"download"		"373055664"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"local_qa"
+				{
+					"gid"		"EB77569482489172C65DADA2A6AA4C0E"
+					"size"		"4706C6747694CEAAC2C4849F4E18718F"
+					"download"		"3DB5F96DCC62F846B48ACF1821623207"
+				}
+			}
+		}
+		"355251"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4722338319527952264"
+					"size"		"400312233"
+					"download"		"212918512"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"local_qa"
+				{
+					"gid"		"E7EA1839DA60742CCA4088ABC91005A9"
+					"size"		"6AB701EEBEE812A0D199861AF554DA89"
+					"download"		"11408DDC6A5A20BC5300D204062FBEBE"
+				}
+			}
+		}
+		"355253"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1917643623200158616"
+					"size"		"749127560"
+					"download"		"374763856"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"local_qa"
+				{
+					"gid"		"855B06B5D00C715F5C007F270D25A26C"
+					"size"		"D43516F09B065CC6E2DBFFE0DA8E3ACD"
+					"download"		"908F876759C316F12C6548E4B815E9D7"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6300966"
+				"timeupdated"		"1617206233"
+			}
+			"local_qa"
+			{
+				"buildid"		"6300966"
+				"pwdrequired"		"1"
+				"timeupdated"		"1614361991"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.plt"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.clp"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.tfr"
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.rpy"
+				"recursive"		"1"
+			}
+		}
+	}
+}
