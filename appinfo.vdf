@@ -1,0 +1,291 @@
+"appinfo"
+{
+	"appid"		"302350"
+	"common"
+	{
+		"name"		"Tex Murphy: Under a Killing Moon"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"424e34dd81dfaf906b7842c84be38febd2f60a5b"
+		"clienticon"		"5df381a480906a1869e3cc542ce01df9d9186f80"
+		"clienttga"		"bec16656c3c1720a7911ea466cc545c93662d2f4"
+		"icon"		"c0d2097163841e52cfccb27b6e6dfb743a21fb67"
+		"linuxclienticon"		"1c3a3fdf5a71621d3e59dd8d09a1fa018a9b7602"
+		"logo"		"e3a965e295b059cd81af0abb811938f1e9dc3326"
+		"logo_small"		"e3a965e295b059cd81af0abb811938f1e9dc3326_thumb"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1687824000"
+			"tested_build_id"		"470840"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-3"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"metacritic_name"		"Tex Murphy: Under a Killing Moon"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1569373664"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Access Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"783590400"
+		"steam_release_date"		"1402603276"
+		"community_hub_visible"		"1"
+		"gameid"		"302350"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"18594"
+			"2"		"6052"
+			"3"		"1698"
+			"4"		"5613"
+			"5"		"7782"
+			"6"		"1719"
+			"7"		"1693"
+			"8"		"3942"
+			"9"		"4115"
+			"10"		"5716"
+			"11"		"6691"
+			"12"		"5030"
+			"13"		"3834"
+			"14"		"3835"
+			"15"		"3839"
+			"16"		"1664"
+			"17"		"4166"
+			"18"		"4136"
+		}
+		"review_score"		"8"
+		"review_percentage"		"96"
+	}
+	"extended"
+	{
+		"developer"		"Access Software"
+		"publisher"		"Nightdive Studios"
+		"homepage"		"http://www.nightdivestudios.com/games/under-a-killing-moon/?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20tex%20murphy%3a%20killing%20moon"
+		"gamemanualurl"		"https://store.steampowered.com/manual/302350/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tex Murphy 3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_texmurphy3.conf -conf dosbox_texmurphy3_launch_windows.conf -noconsole"
+				"description"		"Play Tex Murphy: Under a Killing Moon"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_texmurphy3.conf -conf dosbox_texmurphy3_launch_windows.conf -noconsole"
+				"description"		"Play Tex Murphy: Under a Killing Moon with DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Tex Murphy Under a Killing Moon.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\launch_texmurphy3_game.sh"
+				"description"		"Play Tex Murphy: Under a Killing Moon"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_texmurphy3_game_daum.sh"
+				"description"		"Play Tex Murphy: Under a Killing Moon with DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"302351"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"489207947055280585"
+					"size"		"85599905"
+					"download"		"83398592"
+				}
+				"beta"
+				{
+					"gid"		"489207947055280585"
+					"size"		"85599905"
+					"download"		"83398592"
+				}
+			}
+		}
+		"302352"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5272927999718027676"
+					"size"		"1914423760"
+					"download"		"1332398848"
+				}
+				"beta"
+				{
+					"gid"		"5272927999718027676"
+					"size"		"1914423760"
+					"download"		"1332398848"
+				}
+			}
+		}
+		"302353"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1723491579722030571"
+					"size"		"1929919090"
+					"download"		"1347275936"
+				}
+				"beta"
+				{
+					"gid"		"1723491579722030571"
+					"size"		"1929919090"
+					"download"		"1347275936"
+				}
+			}
+		}
+		"302354"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2562670522370462791"
+					"size"		"1919522131"
+					"download"		"1333236096"
+				}
+				"beta"
+				{
+					"gid"		"2562670522370462791"
+					"size"		"1919522131"
+					"download"		"1333236096"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"470840"
+			}
+			"beta"
+			{
+				"buildid"		"470840"
+			}
+		}
+	}
+}
