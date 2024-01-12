@@ -1,0 +1,227 @@
+"appinfo"
+{
+	"appid"		"1936450"
+	"common"
+	{
+		"name"		"罪人之籠"
+		"type"		"Game"
+		"name_localized"
+		{
+			"english"		"Criminal Cage"
+			"japanese"		"罪人の檻"
+		}
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"clienticon"		"ede9cd693b87df13182bc4add75aaadec090674f"
+		"clienttga"		"b742739eba7aa9ff2499e692e40db8333cfeb64a"
+		"icon"		"18756eac2c6aa53f42e78c1c90f63adb67514385"
+		"clienticns"		"3ce4b75c9a0562b5f9993490d5840b2afefc773b"
+		"linuxclienticon"		"272d181e0e2e70779aa90e691841add42996e33f"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"tchinese"		"1"
+			"japanese"		"1"
+		}
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"5"
+			"3"		"4"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_sex"		"1"
+		"restricted_countries"		"CN,DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"tchinese"		"capsule_231x87_tchinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"japanese"		"header_japanese.jpg"
+			"tchinese"		"header_tchinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,ja,zh-tw"
+			"library_hero"		"en"
+			"library_logo"		"en,zh-tw,ja"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"54.65657741559953"
+				"height_pct"		"49.24012161578974"
+			}
+		}
+		"store_asset_mtime"		"1651069960"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"GODNASK"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"GODNASK"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1652086794"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1936450"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1664"
+			"2"		"4085"
+			"3"		"3871"
+			"4"		"5537"
+			"5"		"12095"
+			"6"		"3839"
+			"7"		"6650"
+			"8"		"6378"
+			"9"		"5673"
+			"10"		"492"
+			"11"		"7250"
+			"12"		"4182"
+			"13"		"9130"
+		}
+		"review_score"		"5"
+		"review_percentage"		"46"
+	}
+	"extended"
+	{
+		"developer"		"GODNASK"
+		"publisher"		"GODNASK"
+	}
+	"config"
+	{
+		"installdir"		"Criminal Cage"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CriminalCage.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CriminalCage.app\\Contents\\MacOS\\CriminalCage"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1936451"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"896782310359775367"
+					"size"		"137725402"
+					"download"		"88485776"
+				}
+			}
+		}
+		"1936452"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7795058027493440707"
+					"size"		"133792500"
+					"download"		"87246576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8642497"
+				"timeupdated"		"1651156726"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"GODNASK/CriminalCage/SaveData"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
