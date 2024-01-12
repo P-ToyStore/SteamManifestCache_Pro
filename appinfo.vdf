@@ -1,0 +1,377 @@
+"appinfo"
+{
+	"appid"		"412460"
+	"common"
+	{
+		"name"		"Villagers"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"47e1fa0b0bbdcfa599db7d2d70963175e7b7f5be"
+		"logo_small"		"47e1fa0b0bbdcfa599db7d2d70963175e7b7f5be_thumb"
+		"icon"		"e87949287758a0b699cd0b196678c2b009c1410d"
+		"clienttga"		"3350922e2b287d405fdbab205168e7fefec139e6"
+		"clienticon"		"2403edef114993311108cb98e8f5d45ecede98e0"
+		"linuxclienticon"		"00be64add8642f92e4d07354aa5d94c266a1529a"
+		"clienticns"		"9347f510757cc3f10998a2bb9afc261125f6a4be"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1689638400"
+			"tested_build_id"		"1189799"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-3"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Villagers"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1456847433"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"bumblebee."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Avanquest Software Publishing Ltd"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1458902954"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"412460"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"599"
+			"2"		"4328"
+			"3"		"492"
+			"4"		"4172"
+		}
+		"review_score"		"5"
+		"review_percentage"		"51"
+	}
+	"extended"
+	{
+		"developer"		"bumblebee."
+		"publisher"		"Avanquest Software Publishing Ltd"
+		"homepage"		"http://www.villagers-game.co.uk"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Villagers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Villagers.exe"
+				"description"		"Launch 64-Bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Villagers.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Villagers.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Villagers.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"Villagers.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,russian"
+		"412461"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"657546374130079380"
+					"size"		"1306678093"
+					"download"		"653879200"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"39DAD994234ADFABAF3D5B9859D9A576"
+					"size"		"12B2EDA7B04B302F281CF337B2DB2444"
+					"download"		"18E6A42582A2DDF2A08BC2337E559F86"
+				}
+			}
+		}
+		"412462"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"806109750664607921"
+					"size"		"1321678348"
+					"download"		"662417440"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"9738CBC2906A73EB400BE1451D789DFD"
+					"size"		"0354B349625F8C63ED3AA8533F23ECA4"
+					"download"		"0AD2B47BD304DD62D2D8B0F7B9516CB9"
+				}
+			}
+		}
+		"412463"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5182738405347341381"
+					"size"		"1322607964"
+					"download"		"661402912"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"CAF5C633114E4E926001043FD3294FA2"
+					"size"		"D55CC769432E1A60A0AAD335437FA7BE"
+					"download"		"8BD8D17B465741C5BA5E7955020CA995"
+				}
+			}
+		}
+		"412464"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1312153570094711040"
+					"size"		"1303464416"
+					"download"		"653680016"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"E3DAA6C2E3BCCCB508D998D7E57A3967"
+					"size"		"DCC881BDE3DCD3D296C46E9F9B22A033"
+					"download"		"74EBED7B2C8B4A21DFA29C79765E4344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1189799"
+				"timeupdated"		"1466765628"
+			}
+			"beta"
+			{
+				"buildid"		"1189799"
+				"pwdrequired"		"1"
+				"timeupdated"		"1466460905"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Villagers/Save"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		"My Games/Villagers/Save"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"MacHome"
+				"path"		"My Games/Villagers/Save"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
