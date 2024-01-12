@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"702820"
+	"common"
+	{
+		"name"		"By Any Means Necessary"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"083bdad23b5f1f76898ae3e64ca78cd370601f99"
+		"logo_small"		"083bdad23b5f1f76898ae3e64ca78cd370601f99_thumb"
+		"icon"		"de21a10b735de8a405c25fd0281d5389c38de54b"
+		"clienticon"		"2cf0f4db46c61551f6e1712a6d3de0252fc0c8ba"
+		"clienttga"		"f2587412ed04ac7ccffbc452f0e286a88d43f540"
+		"metacritic_name"		"By Any Means Necessary"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1505074155"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sure Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sure Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1509962205"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"702820"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1684"
+			"2"		"3871"
+			"3"		"3964"
+			"4"		"4004"
+			"5"		"4747"
+			"6"		"492"
+			"7"		"1677"
+			"8"		"5577"
+			"9"		"4434"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Sure Games"
+		"publisher"		"Sure Games"
+		"homepage"		"http://www.sure-games.com"
+	}
+	"config"
+	{
+		"installdir"		"By Any Means Necessary"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BAMN.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bamn.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamconfigurator3rdpartynative"		"2"
+	}
+	"depots"
+	{
+		"702821"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3447937567658423117"
+					"size"		"151946394"
+					"download"		"101324048"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"E20ABEBF4583B38D1B29953110ACF10D"
+					"size"		"8EB056E72CD75E8E43DC23806EFEFCD3"
+					"download"		"57CE961A490A0BB77E8B34ED5DF85447"
+				}
+			}
+		}
+		"702822"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5884765993502288997"
+					"size"		"174270698"
+					"download"		"106974384"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"F17F07EB0D7B8821418A5970E6412F5D"
+					"size"		"AA07DD1B54A69035E2556DDA0B693C15"
+					"download"		"FAFA81739957A2E110E6901E03EF8DDE"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3033327"
+				"timeupdated"		"1534301806"
+			}
+			"beta"
+			{
+				"buildid"		"3033327"
+				"pwdrequired"		"1"
+				"timeupdated"		"1534301161"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Preferences"
+				"pattern"		"*.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
