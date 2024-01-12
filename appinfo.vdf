@@ -1,0 +1,193 @@
+"appinfo"
+{
+	"appid"		"358340"
+	"common"
+	{
+		"name"		"Word Rescue"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"36d9c1f460f343305ed2ea160d6ccb3fc0f50cef"
+		"logo_small"		"36d9c1f460f343305ed2ea160d6ccb3fc0f50cef_thumb"
+		"oslist"		"windows,macos"
+		"clienticon"		"29fb29e46a5b00ca9fb342cad8622ceb4b05c284"
+		"clienttga"		"c2b9277460e591b38b77de954641cabc975e083c"
+		"icon"		"8ae20fb757e5603623b38d25547b501f27ea204d"
+		"metacritic_name"		"Word Rescue"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"58.74451644813752"
+				"height_pct"		"57.59952177260192"
+			}
+		}
+		"store_asset_mtime"		"1695977812"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Redwood Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_18"		"1"
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"704703600"
+		"steam_release_date"		"1399309140"
+		"community_hub_visible"		"1"
+		"gameid"		"358340"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1036"
+			"3"		"6691"
+			"4"		"1693"
+			"5"		"7208"
+		}
+		"review_score"		"5"
+		"review_percentage"		"69"
+	}
+	"extended"
+	{
+		"developer"		"Redwood Games"
+		"publisher"		"3D Realms"
+		"homepage"		"https://3drealms.com/catalog/word-rescue_32/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Word Rescue"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Word Rescue\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\WORD.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Word Rescue\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Word Rescue.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\WORD.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2902963186986827451"
+					"size"		"30074781"
+					"download"		"11407296"
+				}
+			}
+		}
+		"358342"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3052131141935034115"
+					"size"		"8393916"
+					"download"		"2773248"
+				}
+			}
+		}
+		"358343"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"599163527179662146"
+					"size"		"9998000"
+					"download"		"3456720"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606171"
+			}
+		}
+	}
+}
