@@ -1,0 +1,363 @@
+"appinfo"
+{
+	"appid"		"416700"
+	"common"
+	{
+		"name"		"5 Minutes Rage"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienticon"		"16da97ed4047d8eb379d4694033b91146144a3f3"
+		"clienttga"		"6ca2c3dfefda536768f78d7ffd894fdd51f16522"
+		"icon"		"1f2982f9b631556ac295d8e584766b335935daed"
+		"logo"		"14e3cefb2f3bcec93245b7546e894e16619cdd12"
+		"logo_small"		"14e3cefb2f3bcec93245b7546e894e16619cdd12_thumb"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"77.24623522924807"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1568308363"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Indomitus Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gamera Interactive"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Gamera Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_38"		"1"
+			"category_39"		"1"
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1520011380"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"416700"
+		"store_tags"
+		{
+			"0"		"4885"
+			"1"		"701"
+			"2"		"1775"
+			"3"		"1625"
+			"4"		"1774"
+			"5"		"1773"
+			"6"		"4975"
+			"7"		"3871"
+			"8"		"7481"
+			"9"		"19"
+			"10"		"3964"
+			"11"		"1688"
+			"12"		"7423"
+			"13"		"1708"
+			"14"		"4004"
+			"15"		"4840"
+			"16"		"1685"
+			"17"		"3841"
+			"18"		"7368"
+			"19"		"3859"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"Indomitus Games"
+		"publisher"		"Gamera Interactive"
+		"homepage"		"http://www.gamerainteractive.it"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"5 Minutes Rage"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FiveMinutesRage\\Binaries\\Win32\\FiveMinutesRage-Win32-Shipping.exe"
+				"arguments"		"-installed"
+				"description"		"Launch game"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"open_user_data_folder.cmd"
+				"description"		"Open user data folder"
+				"type"		"none"
+			}
+			"2"
+			{
+				"executable"		"FiveMinutesRage\\Binaries\\Win32\\FiveMinutesRage-Win32-Shipping.exe"
+				"arguments"		"-installed -windowed -ResX=1280 -ResY=720"
+				"description"		"Safe mode"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,italian,spanish,schinese"
+		"416701"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8624199387301747656"
+					"size"		"1732357123"
+					"download"		"473016384"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"E250981AB3501BAF5792364D807560E7"
+					"size"		"05B5192E3CBB91CC94F1CEC4F3F38286"
+					"download"		"4E486BBFD082D55FE76F9EFE690320AF"
+				}
+				"test_public"
+				{
+					"gid"		"FD21BBC73BDB96A5DED174E7849A0A76"
+					"size"		"0B79D89C0B2D523806F8B705432EFB2E"
+					"download"		"5089EE3CE419593C79BAFAA880F2FC01"
+				}
+				"test_rollback"
+				{
+					"gid"		"9B17398151775DE1AEDC6D8914D40FE4"
+					"size"		"1772A6005CEAE5F61F141475EC320F13"
+					"download"		"E482DE30381806E72D2C57566C0E7132"
+				}
+			}
+		}
+		"416702"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1296030284836315285"
+					"size"		"34"
+					"download"		"80"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"7082F807C11E4D0BEADA96FE060006AE"
+					"size"		"9D74235BDDF92488EE6F206353293C2C"
+					"download"		"F005BAD9668D360AFE62BEE4C58B3899"
+				}
+			}
+		}
+		"416703"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3775346927322870907"
+					"size"		"34"
+					"download"		"80"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"22A7CAC494AF59E46F7D042850B0FA4A"
+					"size"		"9D74235BDDF92488EE6F206353293C2C"
+					"download"		"F005BAD9668D360AFE62BEE4C58B3899"
+				}
+			}
+		}
+		"416704"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6197435753903302842"
+					"size"		"34"
+					"download"		"80"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"47FE51BD6E3FF5D1C7E694EB8044CA9E"
+					"size"		"9D74235BDDF92488EE6F206353293C2C"
+					"download"		"F005BAD9668D360AFE62BEE4C58B3899"
+				}
+			}
+		}
+		"416705"
+		{
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5909985375062078571"
+					"size"		"39"
+					"download"		"80"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"90CA521E0B4829D3AC17AEEFCCE74049"
+					"size"		"D77E58DEC4199E40DD213D4EC5AAD02A"
+					"download"		"F005BAD9668D360AFE62BEE4C58B3899"
+				}
+			}
+		}
+		"1251340"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3271244719421185517"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"896242E5AC7ECD78B16E7C24E3DB4908"
+					"size"		"22E5358CA2E68E70E6788BE321F3677C"
+					"download"		"22E5358CA2E68E70E6788BE321F3677C"
+				}
+			}
+			"dlcappid"		"1251340"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4727119"
+				"timeupdated"		"1582910334"
+			}
+			"test"
+			{
+				"buildid"		"4727119"
+				"pwdrequired"		"1"
+				"timeupdated"		"1582906884"
+			}
+			"test_public"
+			{
+				"buildid"		"1975537"
+				"pwdrequired"		"1"
+				"timeupdated"		"1500571860"
+			}
+			"test_rollback"
+			{
+				"buildid"		"1708155"
+				"pwdrequired"		"1"
+				"timeupdated"		"1491642614"
+			}
+		}
+	}
+}
