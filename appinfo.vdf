@@ -1,0 +1,180 @@
+"appinfo"
+{
+	"appid"		"358260"
+	"common"
+	{
+		"name"		"Crystal Caves"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"6bf7dc45f55486cd3cf2fae473b313614b2f76f5"
+		"logo_small"		"6bf7dc45f55486cd3cf2fae473b313614b2f76f5_thumb"
+		"clienticon"		"f4f2349db4c3e40eba67bce9113d026c4f6d8b36"
+		"clienttga"		"b0f3ad86c2b1c5528751537efbfb21cefe67cf37"
+		"icon"		"8bfccae17680f5a2357a0015b81335c25fe21760"
+		"oslist"		"windows,macos"
+		"metacritic_name"		"Crystal Caves"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"56.75541883243167"
+				"height_pct"		"77.39532049724079"
+			}
+		}
+		"store_asset_mtime"		"1665634451"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Apogee Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Apogee Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"688201200"
+		"steam_release_date"		"1399308180"
+		"community_hub_visible"		"1"
+		"gameid"		"358260"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1693"
+			"2"		"1625"
+			"3"		"4004"
+			"4"		"6691"
+			"5"		"3871"
+		}
+		"review_score"		"8"
+		"review_percentage"		"85"
+	}
+	"extended"
+	{
+		"developer"		"Apogee Software"
+		"publisher"		"Apogee Entertainment"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358260/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Crystal Caves"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Crystal Caves\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\CRYSTAL.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Crystal Caves\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Crystal Caves.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\CRYSTAL.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358261"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1658319638463375430"
+					"size"		"8578175"
+					"download"		"3024528"
+				}
+			}
+		}
+		"358262"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4601172609196266633"
+					"size"		"7312421"
+					"download"		"2258384"
+				}
+			}
+		}
+		"358263"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7831996509919859346"
+					"size"		"8578456"
+					"download"		"3020128"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"607363"
+			}
+		}
+	}
+}
