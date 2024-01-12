@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"1974400"
+	"common"
+	{
+		"name"		"Ultimate Obstacle Course"
+		"type"		"Game"
+		"openxrsupport"		"1"
+		"controllervr"
+		{
+			"oculus"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"icon"		"fd2386312c96cbd0baa05c75220955fb34368144"
+		"clienttga"		"b1812ce736b37ee9c81390f0e2cdd58f831b655f"
+		"clienticon"		"2de2a70b0f0287174de1a7dc7c7dd539416c68e2"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"parent"		"712991"
+		"openvrsupport"		"1"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1652731030"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dark Slope"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dark Slope"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"9"
+			"3"		"28"
+			"4"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1652731133"
+		"community_hub_visible"		"1"
+		"gameid"		"1974400"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4036"
+			"2"		"701"
+			"3"		"3859"
+			"4"		"3839"
+			"5"		"1625"
+			"6"		"5350"
+			"7"		"4106"
+			"8"		"1773"
+			"9"		"4102"
+			"10"		"3877"
+			"11"		"8666"
+			"12"		"4191"
+			"13"		"4305"
+			"14"		"4252"
+			"15"		"699"
+			"16"		"21978"
+			"17"		"1775"
+			"18"		"12057"
+			"19"		"4182"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Dark Slope"
+		"publisher"		"Dark Slope"
+	}
+	"config"
+	{
+		"installdir"		"UOC"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Content\\UOC.exe"
+				"arguments"		"-vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch UOC in default VR Play mode."
+				}
+				"description"		"Launch UOC in default VR Play mode."
+			}
+			"1"
+			{
+				"executable"		"Content\\UOC.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch UOC in proof of concept, 2d level editor."
+				}
+				"description"		"Launch UOC in proof of concept, 2d level editor."
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1974401"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4798818180849269639"
+					"size"		"2995845422"
+					"download"		"682421680"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"devtesting"
+				{
+					"gid"		"842116106A0F9A0FE2F8638C589C1456"
+					"size"		"D4DC8FB8E0518F48908FA3BDF9280F9A"
+					"download"		"F6746368CE4136FA849956F2FF28BC08"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8736548"
+				"timeupdated"		"1652473809"
+			}
+			"devtesting"
+			{
+				"buildid"		"8736548"
+				"pwdrequired"		"1"
+				"timeupdated"		"1652470622"
+			}
+		}
+	}
+}
