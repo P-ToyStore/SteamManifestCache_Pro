@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"379520"
+	"common"
+	{
+		"name"		"DELTAZEAL"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"japanese"		"1"
+		}
+		"oslist"		"windows"
+		"icon"		"4db62d2be39d6cce46a9bdda3f4f646fec399887"
+		"clienticon"		"df7328a50ea87c12303a19a1b0a2a1ff0515297f"
+		"clienttga"		"7851dc7bd918687cf86edb7951c9a4786db211e0"
+		"logo"		"476c3b03289a44167adfe2da28005b19fce03849"
+		"logo_small"		"476c3b03289a44167adfe2da28005b19fce03849_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"DELTAZEAL"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1698861285"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TRIANGLE SERVICE"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"KOMODO"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1445014157"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"379520"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4255"
+			"2"		"1773"
+			"3"		"4885"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"TRIANGLE SERVICE"
+		"publisher"		"KOMODO"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DELTAZEAL"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"deltazeal.exe"
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"379521"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2666831264175002906"
+					"size"		"40233426"
+					"download"		"38545840"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"cheat_beta"
+				{
+					"gid"		"66DF80843A75664A533A8FCDBAF543F5"
+					"size"		"8407410DABD7095C71864EF7FA17B935"
+					"download"		"447B98DE10ED59F3F8E644EE39EBF702"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6356282"
+				"timeupdated"		"1615797716"
+			}
+			"cheat_beta"
+			{
+				"buildid"		"6356282"
+				"pwdrequired"		"1"
+				"timeupdated"		"1615337818"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"savedata_dz_a.dat"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"savedata_dz_b.dat"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"replay"
+				"pattern"		"*.*"
+			}
+		}
+	}
+}
