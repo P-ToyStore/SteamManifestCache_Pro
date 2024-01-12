@@ -1,0 +1,220 @@
+"appinfo"
+{
+	"appid"		"1821340"
+	"common"
+	{
+		"name"		"Hole in the Clouds"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"ca2b50d36cc43dcc907b116f4b31da23c6a51d5e"
+		"logo_small"		"ca2b50d36cc43dcc907b116f4b31da23c6a51d5e_thumb"
+		"clienticon"		"4a2704f49440218379e5a6e856a0fbd4ad9f96e9"
+		"clienttga"		"db1d7819e329c98c7c22249f176b5ea5c906de82"
+		"icon"		"ec7afa1dc38e5e29e6cb3cc52265ef70dced48d8"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33.573349710128966"
+				"height_pct"		"65.90205216496476"
+			}
+		}
+		"store_asset_mtime"		"1661340109"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"OneDrop"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Shortbread Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_1"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1661510529"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1821340"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"22955"
+			"2"		"701"
+			"3"		"7038"
+			"4"		"5350"
+			"5"		"7368"
+			"6"		"3968"
+			"7"		"4182"
+			"8"		"4726"
+			"9"		"5796"
+			"10"		"1664"
+			"11"		"1654"
+			"12"		"5379"
+			"13"		"5537"
+			"14"		"7481"
+			"15"		"1775"
+			"16"		"1773"
+			"17"		"4975"
+			"18"		"6625"
+			"19"		"19"
+		}
+		"review_score"		"7"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"OneDrop"
+		"publisher"		"Shortbread Games"
+		"homepage"		"https://www.shortbreadgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Hole in the Clouds"
+		"launch"
+		{
+			"2"
+			{
+				"executable"		"Hole in the Clouds.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"1821342"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6962683759386459887"
+					"size"		"233641729"
+					"download"		"97495760"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,schinese,russian,polish,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9431832"
+				"timeupdated"		"1662031704"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"OneDrop/Hole in the Clouds/{Steam3AccountID}"
+				"pattern"		"*.data"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"unity.OneDrop.HoleintheClouds/{Steam3AccountID}"
+			}
+		}
+	}
+}
