@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"1655410"
+	"common"
+	{
+		"name"		"Witchaven"
+		"type"		"Game"
+		"icon"		"ba1f9f406877ceec2b6dd9d1c6b20a3263aa33a3"
+		"logo"		"b1c1c5e1b51dd3a9df07fbdb3bb34a45b1653d75"
+		"logo_small"		"b1c1c5e1b51dd3a9df07fbdb3bb34a45b1653d75_thumb"
+		"clienttga"		"f8a4133e2fc12d2b2aff8cfe3ff374888c89b441"
+		"clienticon"		"cd6ec4928ffe585457db02092e94cbf177492791"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"2"
+			"2"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_sex"		"1"
+		"has_adult_content_violence"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1623447443"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Capstone Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Witchaven"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1623945625"
+		"community_hub_visible"		"1"
+		"gameid"		"1655410"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"1774"
+			"3"		"4975"
+			"4"		"3839"
+			"5"		"4172"
+			"6"		"3993"
+			"7"		"4182"
+			"8"		"122"
+			"9"		"1684"
+			"10"		"4345"
+			"11"		"4667"
+			"12"		"6650"
+			"13"		"1667"
+			"14"		"4004"
+			"15"		"1693"
+		}
+		"review_score"		"8"
+		"review_percentage"		"89"
+	}
+	"extended"
+	{
+		"developer"		"Capstone Software"
+		"publisher"		"SNEG"
+	}
+	"config"
+	{
+		"installdir"		"Witchaven"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Enhanced\\run-game.bat"
+				"workingdir"		"Enhanced"
+				"type"		"option1"
+				"description_loc"
+				{
+					"english"		"(Enhanced version, recommended)"
+				}
+				"description"		"(Enhanced version, recommended)"
+			}
+			"1"
+			{
+				"executable"		"Enhanced\\run-setup.bat"
+				"workingdir"		"Enhanced"
+				"type"		"none"
+				"description_loc"
+				{
+					"english"		"Edit game settings (Enhanced version)"
+				}
+				"description"		"Edit game settings (Enhanced version)"
+			}
+			"2"
+			{
+				"executable"		"Enhanced\\run-graphics-config.bat"
+				"workingdir"		"Enhanced"
+				"type"		"none"
+				"description_loc"
+				{
+					"english"		"Edit DOSBox settings (Enhanced version)"
+				}
+				"description"		"Edit DOSBox settings (Enhanced version)"
+			}
+			"3"
+			{
+				"executable"		"Original\\run-game.bat"
+				"workingdir"		"Original"
+				"type"		"option3"
+				"description_loc"
+				{
+					"english"		"(Original version)"
+				}
+				"description"		"(Original version)"
+			}
+		}
+	}
+	"depots"
+	{
+		"1655411"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2647526220934335773"
+					"size"		"307175781"
+					"download"		"64553072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6919897"
+				"timeupdated"		"1624463120"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Enhanced\\GAME\\WHAVEN"
+				"pattern"		"SVGM*.MAP"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Enhanced\\GAME\\WHAVEN"
+				"pattern"		"SVGN*.DAT"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Original\\GAME\\WHAVEN"
+				"pattern"		"SVGM*.MAP"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"Original\\GAME\\WHAVEN"
+				"pattern"		"SVGN*.DAT"
+			}
+		}
+	}
+}
