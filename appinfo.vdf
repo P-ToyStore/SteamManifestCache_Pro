@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"1658740"
+	"common"
+	{
+		"name"		"Zyconix"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"d921af46524f5c94e0df2b6ea5265272bdd697f7"
+		"logo_small"		"d921af46524f5c94e0df2b6ea5265272bdd697f7_thumb"
+		"clienticon"		"9c9de49d8000cb0e00dafa4974fce91224df80bd"
+		"clienttga"		"91d80edcf2d2eb95f895123e360ddcd11dd630fc"
+		"icon"		"4d8a7b1d705807a1bcd4c6e79c651cbda1599379"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"29.03780068728524"
+				"height_pct"		"60.948134240788555"
+			}
+		}
+		"store_asset_mtime"		"1624901965"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Accolade, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"694252800"
+		"steam_release_date"		"1625230860"
+		"community_hub_visible"		"1"
+		"gameid"		"1658740"
+		"store_tags"
+		{
+			"0"		"1665"
+			"1"		"1664"
+			"2"		"4004"
+			"3"		"3964"
+			"4"		"4305"
+			"5"		"3968"
+			"6"		"6691"
+			"7"		"1775"
+			"8"		"3878"
+			"9"		"1773"
+			"10"		"3916"
+			"11"		"3871"
+			"12"		"1654"
+			"13"		"597"
+			"14"		"3859"
+			"15"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Accolade, Inc."
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1658740/"
+	}
+	"config"
+	{
+		"installdir"		"Zyconix"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1658741"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8156245081107738001"
+					"size"		"35192439"
+					"download"		"14086544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6859856"
+				"timeupdated"		"1623556903"
+			}
+		}
+	}
+}
