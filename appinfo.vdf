@@ -1,0 +1,361 @@
+"appinfo"
+{
+	"appid"		"354430"
+	"common"
+	{
+		"name"		"STAR WARS™: X-Wing Special Edition"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"354430_eula_0"
+				"name"		"STAR WARS™: X-Wing EULA"
+				"url"		"http://store.steampowered.com//eula/354430_eula_0"
+			}
+		}
+		"icon"		"0d828d0426d33e02f7b9f9d51736034115ebe640"
+		"clienticon"		"134fabafcfb7f0ef53ac8316ae34937376b71819"
+		"clienttga"		"b97e2af77f5223cecefc2976907ee1195cd1678b"
+		"logo"		"eb72c7e5783561d060d8112ec792c4da37a85667"
+		"logo_small"		"eb72c7e5783561d060d8112ec792c4da37a85667_thumb"
+		"osarch"		""
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1650326400"
+			"tested_build_id"		"6301286"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+				}
+				"4"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DeviceCompatibilityWarningsShown"
+				}
+				"5"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"6"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"STAR WARS™ - X-Wing Special Edition"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1430142890"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lucasfim"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LucasArts"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Lucasfim"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"Star Wars"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"757411200"
+		"steam_release_date"		"1430237400"
+		"community_hub_visible"		"1"
+		"gameid"		"354430"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"16598"
+			"2"		"599"
+			"3"		"4182"
+			"4"		"1755"
+			"5"		"15045"
+			"6"		"1693"
+			"7"		"6691"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Lucasfim"
+		"publisher"		"LucasArts"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"STAR WARS X-Wing"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"remastered/XWING95.EXE"
+				"workingdir"		"remastered"
+				"description"		"Launch classic"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"classic/DOSBOX/DOSBox.exe"
+				"arguments"		"-conf \"..\\dosbox_xwing.conf\" -conf \"..\\dosbox_xwing_single.conf\" -noconsole -c exit"
+				"description"		"Play STAR WARS™: X-Wing Classic"
+				"workingdir"		"classic/DOSBOX"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"collectors_cd/DOSBOX/DOSBox.exe"
+				"arguments"		"-conf \"..\\dosbox_xwingcd.conf\" -conf \"..\\dosbox_xwingcd_single.conf\" -noconsole -c exit"
+				"workingdir"		"collectors_cd/DOSBOX"
+				"description"		"Play STAR WARS™: X-Wing Collector's CD-ROM"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf dosbox_xwing.conf -conf dosbox_xwing_single.conf -conf DOSBoxPreferences.conf -noconsole -c exit"
+				"description"		"Play STAR WARS™: X-Wing Classic"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf dosbox_xwingcd.conf -conf dosbox_xwingcd_single.conf -conf DOSBoxPreferences.conf -noconsole -c exit"
+				"description"		"Play STAR WARS™: X-Wing Collector's CD-ROM"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"354434"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"681012071189029705"
+					"size"		"108533565"
+					"download"		"52640096"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"qa_branch"
+				{
+					"gid"		"88FFFDC0FB77E98E3CA32B85E25DBC52"
+					"size"		"623E5AE6246053D718B4FE1AC6BDAFE8"
+					"download"		"4090E9184B64D082C44FF2A249E7D046"
+				}
+			}
+		}
+		"354431"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6781306403677185489"
+					"size"		"212502450"
+					"download"		"112636176"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"qa_branch"
+				{
+					"gid"		"7D9EC379F89BB15DBC27FC8ACF4F7F09"
+					"size"		"1FE3239F702167AC6CF84B5CD2565222"
+					"download"		"5B3543FD6B063D1C647174CB1028D7F4"
+				}
+			}
+		}
+		"354433"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6065424365811940907"
+					"size"		"121032250"
+					"download"		"57227424"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"qa_branch"
+				{
+					"gid"		"5F5A4505DDC01EAD202A7FFF6FA16157"
+					"size"		"0049258DB905B21B79C22B193335C00D"
+					"download"		"38506119291A64714D163A3C7ECBFC59"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6301286"
+				"timeupdated"		"1617206459"
+			}
+			"qa_branch"
+			{
+				"buildid"		"6301286"
+				"pwdrequired"		"1"
+				"timeupdated"		"1614362119"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.plt"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.clp"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.tfr"
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.rpy"
+				"recursive"		"1"
+			}
+		}
+	}
+}
