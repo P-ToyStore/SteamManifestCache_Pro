@@ -1,0 +1,258 @@
+"appinfo"
+{
+	"appid"		"302340"
+	"common"
+	{
+		"name"		"Tex Murphy: Martian Memorandum"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"091b8b7191a329838842d3fbb70b43be842d2332"
+		"clienticon"		"2752c0b0c3314ae8a1ecd1bb5296884e3ff10eaa"
+		"clienttga"		"a3eb8b20f5eaf56454d01784aa915b7e6a6370d8"
+		"icon"		"49d93f9de5a548395826abaa72253eafe847b706"
+		"logo"		"9c5645ecdac94e33dc1b0d0f6c6181a3e24d00bc"
+		"logo_small"		"9c5645ecdac94e33dc1b0d0f6c6181a3e24d00bc_thumb"
+		"linuxclienticon"		"1056f57473f56d4b15a8e1878c46778a59dea6f0"
+		"metacritic_name"		"Tex Murphy: Martian Memorandum"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1569374070"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Access Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"662716800"
+		"steam_release_date"		"1402603298"
+		"community_hub_visible"		"1"
+		"gameid"		"302340"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"5613"
+			"3"		"18594"
+			"4"		"1693"
+			"5"		"6052"
+			"6"		"3964"
+			"7"		"6691"
+			"8"		"4115"
+			"9"		"5030"
+			"10"		"5716"
+			"11"		"3835"
+			"12"		"1697"
+			"13"		"4166"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Access Software"
+		"publisher"		"Nightdive Studios"
+		"homepage"		"http://www.nightdivestudios.com/games/martian-memorandum/?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20tex%20murphy%3a%20martian%20memorandum"
+		"gamemanualurl"		"https://store.steampowered.com/manual/302340/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tex Murphy 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_texmurphy2.conf -conf dosbox_texmurphy2_launch_windows.conf -noconsole"
+				"description"		"Play Tex Murphy: Martian Memorandum"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_texmurphy2.conf -conf dosbox_texmurphy2_launch_windows.conf -noconsole"
+				"description"		"Play Tex Murphy: Martian Memorandum with DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Tex Murphy Martian Memorandum.app"
+				"description"		"Play Tex Murphy: Martian Memorandum"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\launch_texmurphy2_game.sh"
+				"description"		"Play Tex Murphy: Martian Memorandum"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_texmurphy2_game_daum.sh"
+				"description"		"Play Tex Murphy: Martian Memorandum with DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"302341"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2221526166881212452"
+					"size"		"2244418"
+					"download"		"2240688"
+				}
+				"beta"
+				{
+					"gid"		"2221526166881212452"
+					"size"		"2244418"
+					"download"		"2240688"
+				}
+			}
+		}
+		"302342"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2627819906326858934"
+					"size"		"25572927"
+					"download"		"16428544"
+				}
+				"beta"
+				{
+					"gid"		"2627819906326858934"
+					"size"		"25572927"
+					"download"		"16428544"
+				}
+			}
+		}
+		"302343"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4998857113810791287"
+					"size"		"41303370"
+					"download"		"31531344"
+				}
+				"beta"
+				{
+					"gid"		"4998857113810791287"
+					"size"		"41303370"
+					"download"		"31531344"
+				}
+			}
+		}
+		"302344"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3164960242694879367"
+					"size"		"30671314"
+					"download"		"17265776"
+				}
+				"beta"
+				{
+					"gid"		"3164960242694879367"
+					"size"		"30671314"
+					"download"		"17265776"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"470833"
+			}
+			"beta"
+			{
+				"buildid"		"470833"
+			}
+		}
+	}
+}
