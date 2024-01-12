@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"364350"
+	"common"
+	{
+		"name"		"The Apotheosis Project"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"3bc361475809943558a7d287c27db6783d72aee5"
+		"logo_small"		"3bc361475809943558a7d287c27db6783d72aee5_thumb"
+		"icon"		"ad0abbf2e28dee06e02cb097190e65f1de952499"
+		"clienticon"		"fe807c03dba660e30f8b0dedeb7363765de158a2"
+		"clienttga"		"4aa4544b287647740049db3f3c45a5e8388962f3"
+		"releasestate"		"released"
+		"osarch"		""
+		"metacritic_name"		"The Apotheosis Project"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"store_asset_mtime"		"1572655949"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Midian Design"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Screen 7"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1417680000"
+		"steam_release_date"		"1436538091"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"364350"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"1698"
+			"3"		"3942"
+			"4"		"4182"
+			"5"		"1664"
+			"6"		"3871"
+			"7"		"5350"
+		}
+		"review_score"		"5"
+		"review_percentage"		"61"
+	}
+	"extended"
+	{
+		"developer"		"Midian Design"
+		"publisher"		"Screen 7"
+		"homepage"		"http://www.screen7.co.uk/#!/the-apotheosis-project"
+		"gamemanualurl"		"https://store.steampowered.com/manual/364350/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TheApotheosisProject"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"The Apotheosis Project.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"The Apotheosis Project.exe"
+				"arguments"		"--setup"
+				"description"		"Setup"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"./TheApotheosisProject"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"364351"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7634028019058629006"
+					"size"		"1337285062"
+					"download"		"616120000"
+				}
+				"penelope"
+				{
+					"gid"		"1039901395828262098"
+					"size"		"1337464569"
+					"download"		"615415488"
+				}
+			}
+		}
+		"364352"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1805903560918984689"
+					"size"		"1337074907"
+					"download"		"612650176"
+				}
+				"penelope"
+				{
+					"gid"		"1805903560918984689"
+					"size"		"1337074907"
+					"download"		"612650176"
+				}
+			}
+		}
+		"364353"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5042458816773749994"
+					"size"		"87132856"
+					"download"		"86206944"
+				}
+				"penelope"
+				{
+					"gid"		"5042458816773749994"
+					"size"		"87132856"
+					"download"		"86206944"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"712478"
+				"timeupdated"		"1525687251"
+			}
+			"penelope"
+			{
+				"buildid"		"2748239"
+				"description"		"v1.1 (no achievements)"
+				"timeupdated"		"1525689888"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"path"		"The Apotheosis Project"
+				"pattern"		"agssave.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
