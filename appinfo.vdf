@@ -1,0 +1,449 @@
+"appinfo"
+{
+	"appid"		"317030"
+	"common"
+	{
+		"name"		"Fatty Bear's Birthday Surprise"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"5baeeb0eb1bd9b50134a395ea56e3cfe389332c0"
+		"logo_small"		"5baeeb0eb1bd9b50134a395ea56e3cfe389332c0_thumb"
+		"clienticon"		"860912b8df9aa00dd70c30872c294c1128720446"
+		"clienttga"		"9ed625a58f9775b1b95e723e8315a4b6c3dd94bd"
+		"icon"		"ce2f66360ca0ce50749dd50028d8274b899c1d4a"
+		"linuxclienticon"		"773e116f9149af1e3d9dd52c8bf2cc261c99637e"
+		"clienticns"		"d3327609220a765747692ca0c52a46d8d93d4e98"
+		"osarch"		""
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1658966400"
+			"tested_build_id"		"4419290"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Fatty Bear's Birthday Surprise"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"53.43249427917621"
+				"height_pct"		"59.11897411541202"
+			}
+		}
+		"store_asset_mtime"		"1578016423"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Humongous Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Humongous Entertainment"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"733132800"
+		"steam_release_date"		"1414087866"
+		"community_hub_visible"		"1"
+		"gameid"		"317030"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"21"
+			"2"		"1698"
+			"3"		"5350"
+			"4"		"1742"
+			"5"		"1756"
+			"6"		"4182"
+			"7"		"6691"
+			"8"		"3871"
+			"9"		"3964"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Humongous Entertainment"
+		"publisher"		"Humongous Entertainment"
+		"homepage"		"http://www.humongous.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Fatty Bear's Birthday Surprise"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ScummVM_Windows\\ScummVM.exe"
+				"arguments"		"--no-console -c scummvm-fbear.ini fbear"
+				"description"		"Launch"
+				"workingdir"		"ScummVM_Windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+				"arguments"		"-c scummvm-fbear.ini fbear"
+				"description"		"Launch"
+				"workingdir"		"ScummVM_Mac\\"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"ScummVM_Linux\\launch_fbear.sh"
+				"description"		"Launch"
+				"workingdir"		"ScummVM_Linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"317031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9091605886259035108"
+					"size"		"106263822"
+					"download"		"65532064"
+				}
+				"beta"
+				{
+					"gid"		"9091605886259035108"
+					"size"		"106263822"
+					"download"		"65532064"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_beta"
+				{
+					"gid"		"EEEFCF85AB4375617CB28E2035A91841"
+					"size"		"61F85D6C54CDEA2477B845DB958B666C"
+					"download"		"A64C3D8247FF373F6ADC60BEB91FF92E"
+				}
+			}
+		}
+		"317032"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2918168001394433008"
+					"size"		"110074384"
+					"download"		"63495776"
+				}
+				"beta"
+				{
+					"gid"		"2918168001394433008"
+					"size"		"110074384"
+					"download"		"63495776"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_beta"
+				{
+					"gid"		"F9B942851FB00EF5A43A629A7C726C02"
+					"size"		"1CA105D134E197ED2C105F5E22D0CDCD"
+					"download"		"28C83F37909F90216FAC7CEE61C1FF7A"
+				}
+			}
+		}
+		"317033"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3848539246140932808"
+					"size"		"56192481"
+					"download"		"79588874941"
+				}
+				"beta"
+				{
+					"gid"		"3848539246140932808"
+					"size"		"56192481"
+					"download"		"79588874941"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_beta"
+				{
+					"gid"		"3992C1E8E9F23ACBAB892815855346F1"
+					"size"		"88D711DD0124205848A9052622E59025"
+					"download"		"29F71367B6CDDB55E7A3B0B06DE69DF9"
+				}
+			}
+		}
+		"317034"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5994069283286223061"
+					"size"		"57556098"
+					"download"		"70899075662"
+				}
+				"beta"
+				{
+					"gid"		"5994069283286223061"
+					"size"		"57556098"
+					"download"		"70899075662"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_beta"
+				{
+					"gid"		"2FBA605A1270917B87B9568882B13881"
+					"size"		"DE43159DF8EB4A2DC8902027F7CBB085"
+					"download"		"556742C142CE2D1183DF06BE47D7682C"
+				}
+			}
+		}
+		"317035"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8821396420333431323"
+					"size"		"446"
+					"download"		"63987072"
+				}
+				"beta"
+				{
+					"gid"		"8821396420333431323"
+					"size"		"446"
+					"download"		"63987072"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_beta"
+				{
+					"gid"		"BBEA190E3F4C0D750318A44F79BA4BF7"
+					"size"		"2636FA6740A99D8A31AFC02C40A1C328"
+					"download"		"88CF913AA91D864542C697B16952A134"
+				}
+			}
+		}
+		"317036"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6169206370646532096"
+					"size"		"413"
+					"download"		"63987072"
+				}
+				"beta"
+				{
+					"gid"		"6169206370646532096"
+					"size"		"413"
+					"download"		"63987072"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_beta"
+				{
+					"gid"		"CC50520D43581B90364C5384A0C1225C"
+					"size"		"343A86D7903EFF985FB8630186865D31"
+					"download"		"88CF913AA91D864542C697B16952A134"
+				}
+			}
+		}
+		"317037"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"48646427126562447"
+					"size"		"414"
+					"download"		"5"
+				}
+				"beta"
+				{
+					"gid"		"48646427126562447"
+					"size"		"414"
+					"download"		"5"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_beta"
+				{
+					"gid"		"B1E386C00B4597C4CF64CC6C1F7B54E1"
+					"size"		"D270CCF766F20D71921584CE8D2EAA0F"
+					"download"		"859CB83CF1E060E51C18B9FBCD8396C6"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4419290"
+				"timeupdated"		"1574493158"
+			}
+			"beta"
+			{
+				"buildid"		"4419290"
+				"timeupdated"		"1574493164"
+			}
+			"private_beta"
+			{
+				"buildid"		"4419290"
+				"pwdrequired"		"1"
+				"timeupdated"		"1574493172"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10485760"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.*"
+			}
+		}
+	}
+}
