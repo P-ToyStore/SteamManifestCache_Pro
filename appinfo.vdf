@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"1658750"
+	"common"
+	{
+		"name"		"Revelation"
+		"type"		"Game"
+		"logo"		"5b4e7e224df6100b73b429453782dee9dd072b4f"
+		"logo_small"		"5b4e7e224df6100b73b429453782dee9dd072b4f_thumb"
+		"clienticon"		"b3f198540ab01b7b5b17541f60b7c59204dc82c9"
+		"clienttga"		"97948a24efa1e0df8879f1038daacf16b3619067"
+		"icon"		"93514bbcc70e56444b0f6052c8a8e2b96c468af7"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"55"
+				"height_pct"		"90.2754690097364"
+			}
+		}
+		"store_asset_mtime"		"1624915335"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Krisalis Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"662716800"
+		"steam_release_date"		"1625230920"
+		"community_hub_visible"		"1"
+		"gameid"		"1658750"
+		"store_tags"
+		{
+			"0"		"1664"
+			"1"		"597"
+			"2"		"1680"
+			"3"		"4094"
+			"4"		"4400"
+			"5"		"4004"
+			"6"		"4305"
+			"7"		"6691"
+			"8"		"16689"
+			"9"		"1775"
+			"10"		"4026"
+			"11"		"1773"
+			"12"		"4236"
+			"13"		"3859"
+			"14"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Krisalis Software"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1658750/"
+	}
+	"config"
+	{
+		"installdir"		"Revelation"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1658751"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6344670500765293538"
+					"size"		"35134626"
+					"download"		"13996272"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6859948"
+				"timeupdated"		"1623561816"
+			}
+		}
+	}
+}
