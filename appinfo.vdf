@@ -1,0 +1,200 @@
+"appinfo"
+{
+	"appid"		"761150"
+	"common"
+	{
+		"name"		"Brick Breaker Bunch"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"4227e56ba10cf443620422006a061d72488cb93e"
+		"logo_small"		"4227e56ba10cf443620422006a061d72488cb93e_thumb"
+		"icon"		"0e83cd6fb75fbb8e8bec93ed9b12a9090de217e2"
+		"clienticon"		"9618b8ff13215faa54ce96ead9bbd3a3a5b39ce3"
+		"clienttga"		"19ca17dc4cffaf3101bae64d1fee2431d8007bee"
+		"clienticns"		"c58a9e1f27d608ca0ba0f0b5f8dac72a3748c8c5"
+		"linuxclienticon"		"f1aa290fbc92267757e462a6acc048c961b6638e"
+		"releasestate"		"released"
+		"osextended"		"macos64"
+		"metacritic_name"		"Brick Breaker Bunch"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1618326535"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tapio Holopainen"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Funky Monk Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_9"		"1"
+			"category_1"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1520577635"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"761150"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1756"
+			"3"		"3964"
+			"4"		"4115"
+			"5"		"1685"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Tapio Holopainen"
+		"publisher"		"Funky Monk Games"
+		"homepage"		"http://www.funkymonkgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Brick Breaker Bunch"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"brickbreakerbunch.exe"
+				"arguments"		"-windowed"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"brickbreakerbunch.app\\Contents\\MacOS\\brickbreakerbunch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"brickbreakerbunch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"761151"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8239120217165867349"
+					"size"		"88860879"
+					"download"		"64785296"
+				}
+			}
+		}
+		"761152"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5195305296658156118"
+					"size"		"96919248"
+					"download"		"66787712"
+				}
+			}
+		}
+		"761153"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9197222529398022114"
+					"size"		"91801118"
+					"download"		"66147232"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6457247"
+				"timeupdated"		"1617284829"
+			}
+		}
+	}
+}
