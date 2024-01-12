@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"603800"
+	"common"
+	{
+		"name"		"ReThink"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"7d7f192a8beba112b2835ac4d74a2b852643fa25"
+		"logo_small"		"7d7f192a8beba112b2835ac4d74a2b852643fa25_thumb"
+		"icon"		"8e4db751a7bb0faf933b397176f59fffabf2f62c"
+		"clienticon"		"f20b3de4b8817794d89c1dbb6ef38028694a4f44"
+		"clienttga"		"069c9a3c651ef7905fe7466402bb91a3e160d50c"
+		"metacritic_name"		"ReThink"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1624295075"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Yaeko"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Yaeko"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"ReThink"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1489027763"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"603800"
+		"store_tags"
+		{
+			"0"		"1664"
+			"1"		"3839"
+			"2"		"6129"
+			"3"		"4182"
+			"4"		"492"
+			"5"		"4191"
+			"6"		"3942"
+			"7"		"4094"
+			"8"		"1654"
+			"9"		"7250"
+			"10"		"4234"
+			"11"		"4026"
+			"12"		"597"
+			"13"		"9"
+			"14"		"1625"
+			"15"		"5537"
+			"16"		"5030"
+			"17"		"4295"
+			"18"		"3859"
+		}
+		"review_score"		"8"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Yaeko"
+		"publisher"		"Yaeko"
+	}
+	"config"
+	{
+		"installdir"		"ReThink"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RethinkReworked.exe"
+				"description"		"ReThink"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"ReThink\\ReThink.exe"
+				"description"		"Rethink - Old, not recommended"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"603801"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3709407180259232637"
+					"size"		"3065115848"
+					"download"		"2741944352"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3504572"
+				"timeupdated"		"1548504360"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ReThinkReworked/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"RT_RW/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
