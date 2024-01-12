@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"657400"
+	"common"
+	{
+		"name"		"Mimic Hunter"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"60f544ef81e1bf039fd66bf9fbd06894784a62e3"
+		"logo_small"		"60f544ef81e1bf039fd66bf9fbd06894784a62e3_thumb"
+		"clienticon"		"2508576f91db61d70e8af7e82f1232182eb1959d"
+		"clienttga"		"e1bf74f4f163427ce024c8cc9ab88302845cbdc3"
+		"icon"		"a77ddfa2410b81b8b1e8ade1b25cb7c0e1c85ff2"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"657400_eula_0"
+				"name"		"Mimic Hunter EULA"
+				"url"		"http://store.steampowered.com//eula/657400_eula_0"
+			}
+		}
+		"metacritic_name"		"Mimic Hunter"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1611147399"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Angry Cat Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Angry Cat Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_17"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1516723147"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"657400"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"492"
+			"3"		"597"
+			"4"		"5537"
+			"5"		"1625"
+			"6"		"4975"
+			"7"		"6815"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Angry Cat Studios"
+		"publisher"		"Angry Cat Studios"
+	}
+	"config"
+	{
+		"installdir"		"Mimic Hunter"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mimic Hunter.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play Mimic Hunter"
+				}
+				"description"		"Play Mimic Hunter"
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"657401"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5353372860214821755"
+					"size"		"639108003"
+					"download"		"158109568"
+				}
+			}
+		}
+		"workshopdepot"		"657400"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2627538"
+				"timeupdated"		"1693075511"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Angry Cat Studios/Mimic Hunter"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Angry Cat Studios/Mimic Hunter/Levels"
+				"pattern"		"*.twr"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Angry Cat Studios/Mimic Hunter/Scripts"
+				"pattern"		"*.lua"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
