@@ -1,0 +1,192 @@
+"appinfo"
+{
+	"appid"		"2129830"
+	"common"
+	{
+		"name"		"Deathwish"
+		"type"		"Game"
+		"icon"		"12005a86c5f33451e5762a4fd2f7ae7f1e8ec303"
+		"clienticon"		"d0c31c08f3c9b936ed3ad1ea06e2b21c37314f5c"
+		"clienttga"		"12b7a33c7711b535a0f08a5f3304c8be8e17c0e2"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"has_adult_content"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"42.046420880555644"
+				"height_pct"		"42.556238831073244"
+			}
+		}
+		"store_asset_mtime"		"1663245834"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sunstrock"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sunstrock"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1665694493"
+		"community_hub_visible"		"1"
+		"gameid"		"2129830"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"4172"
+			"2"		"4637"
+			"3"		"4106"
+			"4"		"30358"
+			"5"		"4182"
+			"6"		"7250"
+			"7"		"19"
+			"8"		"21"
+			"9"		"4191"
+			"10"		"4791"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Sunstrock"
+		"publisher"		"Sunstrock"
+	}
+	"config"
+	{
+		"installdir"		"Deathwish"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DeathWish.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"2129831"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8784914195717818746"
+					"size"		"2901153600"
+					"download"		"2685961488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9949489"
+				"timeupdated"		"1668598304"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"DeathWish/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"DeathWish/Saved/SaveGames"
+						"replace"		""
+					}
+				}
+			}
+		}
+	}
+}
