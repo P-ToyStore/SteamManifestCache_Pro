@@ -1,0 +1,285 @@
+"appinfo"
+{
+	"appid"		"347240"
+	"common"
+	{
+		"name"		"Challenge of the Five Realms"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"848b508cbd945bea5c9bab0c71156e8cb0d12bcb"
+		"logo_small"		"848b508cbd945bea5c9bab0c71156e8cb0d12bcb_thumb"
+		"clienticon"		"ff6654e42dac9f9c42f59bb095daafa218447ff1"
+		"clienttga"		"e3a78f454b6a8b67ecce5dc543bd15f4209a6541"
+		"icon"		"b536cd3173a1dfd4c365bd44f25855a9f7816dd6"
+		"linuxclienticon"		"15d99ce6192b61c17a0a8e4c96096f885969d57b"
+		"clienticns"		"bf004c37236448cc91f786e7a97589cbedf32143"
+		"releasestate"		"released"
+		"metacritic_name"		"Challenge of the Five Realms"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1427411401"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"694252800"
+		"steam_release_date"		"1427907669"
+		"community_hub_visible"		"1"
+		"gameid"		"347240"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"122"
+		}
+		"review_score"		"5"
+		"review_percentage"		"61"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.retroism.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/347240/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Challenge of the Five Realms"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_cotfr.conf -conf dosbox_cotfr_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_cotfr.conf -conf dosbox_cotfr_launch_windows.conf -noconsole"
+				"description"		"Play Challenge of the Five Realms in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_cotfr.conf -conf dosbox_cotfr_face_windows.conf -noconsole"
+				"description"		"Launch The Face Paint Program"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_cotfr.conf -conf dosbox_cotfr_config_windows.conf -noconsole"
+				"description"		"Challenge of the Five Realms - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_cotfr_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_cotfr_game_daum.sh"
+				"description"		"Play Challenge of the Five Realms in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_cotfr_face.sh"
+				"description"		"Launch The Face Paint Program"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"7"
+			{
+				"executable"		"dosbox_linux\\launch_cotfr_config.sh"
+				"description"		"Challenge of the Five Realms - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"8"
+			{
+				"executable"		"COTFR.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"347241"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5118317796148490494"
+					"size"		"33415149"
+					"download"		"30970192"
+				}
+			}
+		}
+		"347242"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"594631615137524029"
+					"size"		"33872894"
+					"download"		"14265680"
+				}
+			}
+		}
+		"347243"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"254063651943109624"
+					"size"		"18201245"
+					"download"		"7907424"
+				}
+			}
+		}
+		"347244"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6783222734290153436"
+					"size"		"23322017"
+					"download"		"10742368"
+				}
+			}
+		}
+		"347245"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5552289648458584061"
+					"size"		"23322017"
+					"download"		"10742368"
+				}
+			}
+		}
+		"347246"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1268401484767071768"
+					"size"		"57670115"
+					"download"		"35606304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"573844"
+			}
+		}
+	}
+}
