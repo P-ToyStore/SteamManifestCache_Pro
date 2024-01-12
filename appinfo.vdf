@@ -1,0 +1,440 @@
+"appinfo"
+{
+	"appid"		"376760"
+	"common"
+	{
+		"name"		"Big Thinkers Kindergarten"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"fd5472bed18a8f07a3bdf75c0b859798bd9ebbf6"
+		"logo_small"		"fd5472bed18a8f07a3bdf75c0b859798bd9ebbf6_thumb"
+		"clienticon"		"8b50c56569a269122ea46130300e8691846c7505"
+		"clienttga"		"eea8a093f8a47890d45931cb0e75f801c74865ff"
+		"icon"		"25e87c5e79c6f2f47417f20f5fe3a9ff98129dd8"
+		"linuxclienticon"		"456a135b5249e47a16f6800a39d897269bfe86e7"
+		"clienticns"		"a99d0077c51c8c70f0874a9c6455d81acd7021c0"
+		"osarch"		""
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1699920000"
+			"tested_build_id"		"4419283"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Big Thinkers Kindergarten"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"54.576659038901596"
+				"height_pct"		"60.63880313464736"
+			}
+		}
+		"store_asset_mtime"		"1578517436"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Humongous Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Humongous Entertainment"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1439921705"
+		"community_hub_visible"		"1"
+		"gameid"		"376760"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1036"
+			"2"		"5350"
+		}
+		"review_score"		"8"
+		"review_percentage"		"85"
+	}
+	"extended"
+	{
+		"developer"		"Humongous Entertainment"
+		"publisher"		"Humongous Entertainment"
+		"homepage"		"http://www.humongous.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Big Thinkers Kindergarten"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ScummVM_Windows\\scummvm.exe"
+				"arguments"		"--no-console -c \"scummvm-btk-opengl.ini\" thinkerk-us"
+				"description"		"Launch"
+				"workingdir"		"ScummVM_Windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ScummVM_Windows\\scummvm.exe"
+				"arguments"		"--no-console -c \"scummvm-btk-safe.ini\" thinkerk-us"
+				"description"		"Play in Non-OpenGL Graphics Mode"
+				"workingdir"		"ScummVM_Windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+				"arguments"		"-c \"scummvm-btk-opengl.ini\" thinkerk-us"
+				"description"		"Launch"
+				"workingdir"		"ScummVM_Mac\\"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+				"arguments"		"-c \"scummvm-btk-safe.ini\" thinkerk-us"
+				"description"		"Play in Non-OpenGL Graphics Mode"
+				"workingdir"		"ScummVM_Mac\\"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"ScummVM_Linux\\launch_btk_opengl.sh"
+				"description"		"Launch"
+				"workingdir"		"ScummVM_Linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"ScummVM_Linux\\launch_btk_safe.sh"
+				"description"		"Play in Non-OpenGL Graphics Mode"
+				"workingdir"		"ScummVM_Linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"376761"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"474422475304265035"
+					"size"		"77773233"
+					"download"		"49605952"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"495EF3FCD98DA1815E4F02299E387605"
+					"size"		"A803C8F0503C806512E78F51EF33280C"
+					"download"		"E32239D37CFEC284E365D5FCE64E93CD"
+				}
+			}
+		}
+		"376762"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8446719368114223135"
+					"size"		"106263822"
+					"download"		"65530080"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"9245A04F21429D30E86E0BD18B5322B1"
+					"size"		"7F44FB1B1181FA6CCEE2B6174D673457"
+					"download"		"E41CFFA59497CEE483821F6FFD09B491"
+				}
+			}
+		}
+		"376763"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6078957805186429518"
+					"size"		"110074384"
+					"download"		"63493680"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"477B64C7210334486B010E1C381D1375"
+					"size"		"9BA617E94FC58504F46889C6427FEC3D"
+					"download"		"49CC1009F17382ACE2F9BD5C3F2346D3"
+				}
+			}
+		}
+		"376764"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7906702413378531535"
+					"size"		"56193941"
+					"download"		"35656224"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"ABEB3DEC086DAB7D22A88E5664D890DA"
+					"size"		"B7F85C18DADC80F9DFA845AE19F34D9B"
+					"download"		"6E21646B4D208B3D07E8D44B8D28265A"
+				}
+			}
+		}
+		"376765"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5923947684389998639"
+					"size"		"161270484"
+					"download"		"86306768"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"2BB184749276B4747A18A94836FF14D6"
+					"size"		"14F4BA078AFF857B910D4A09BAC2B1FE"
+					"download"		"B9E23B1ECEFD7DB5D886AEBCC433F9C0"
+				}
+			}
+		}
+		"376766"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2537814237532608764"
+					"size"		"774"
+					"download"		"672"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"DEA2CEF141C8AC9ABE6EFF6E23F66D17"
+					"size"		"F2AE979B8C3F0A591BF886EABADCDE31"
+					"download"		"32EAC51015DD2B1927B0216D65616A67"
+				}
+			}
+		}
+		"376767"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5586119644098199498"
+					"size"		"708"
+					"download"		"624"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"C2D6A2CCE45EA6C235433F5FE4EEA8F8"
+					"size"		"F6079514C396C32F829F649BDC453946"
+					"download"		"CAC29ACC6BFA2A6CAACA3999262324ED"
+				}
+			}
+		}
+		"376768"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8449784747750275035"
+					"size"		"710"
+					"download"		"624"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"0E0305934574A75E5A863DADC473E8E4"
+					"size"		"2BFAC8DBF44DBCC778F92DF4888848BF"
+					"download"		"CAC29ACC6BFA2A6CAACA3999262324ED"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4419283"
+				"timeupdated"		"1574493009"
+			}
+			"beta"
+			{
+				"buildid"		"4419283"
+				"pwdrequired"		"1"
+				"timeupdated"		"1574493016"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10485760"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.*"
+			}
+		}
+	}
+}
