@@ -1,0 +1,332 @@
+"appinfo"
+{
+	"appid"		"329640"
+	"common"
+	{
+		"name"		"Eradicator"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"7a2a1681b0ff702f36d0912652bbc75d3a700ae3"
+		"linuxclienticon"		"2fa581030d50c039a05d2361b6007aad0795ec41"
+		"clienticon"		"1cec97d99582d08e46f0b01153ca0f2797a45895"
+		"clienttga"		"dcb83cd02153097ba9e5671a4dd4dd7f38dbfd25"
+		"icon"		"ab182bd4936d6b729c61fa90785ee199cec8f063"
+		"logo"		"01053d311190a85a2824138251e9f5fe6d54d2ca"
+		"logo_small"		"01053d311190a85a2824138251e9f5fe6d54d2ca_thumb"
+		"metacritic_name"		"Eradicator"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1418091907"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Accolade, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"820483200"
+		"steam_release_date"		"1415304051"
+		"community_hub_visible"		"1"
+		"gameid"		"329640"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"3839"
+			"3"		"1693"
+			"4"		"4004"
+			"5"		"6691"
+			"6"		"1774"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Accolade, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.atari.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/329640/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Eradicator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_eradicator.conf -conf dosbox_eradicator_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_eradicator.conf -conf dosbox_eradicator_launch_windows.conf -noconsole"
+				"description"		"Play Eradicator in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_eradicator.conf -conf dosbox_eradicator_config_windows.conf -noconsole"
+				"description"		"Eradicator - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Eradicator.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_eradicator_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_eradicator_game_daum.sh"
+				"description"		"Play Eradicator in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_eradicator_config.sh"
+				"description"		"Eradicator - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"7"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_eradicator.conf -conf dosbox_eradicator_editor_windows.conf -noconsole"
+				"description"		"Launch Eradicator Level Editor"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"8"
+			{
+				"executable"		"dosbox_linux\\launch_eradicator_editor.sh"
+				"description"		"Launch Eradicator Level Editor"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"329641"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1249934037126507073"
+					"size"		"70800"
+					"download"		"63392"
+				}
+				"beta"
+				{
+					"gid"		"1249934037126507073"
+					"size"		"70800"
+					"download"		"63392"
+				}
+			}
+		}
+		"329642"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8139333331338353044"
+					"size"		"18522369"
+					"download"		"9639024"
+				}
+				"beta"
+				{
+					"gid"		"8139333331338353044"
+					"size"		"18522369"
+					"download"		"9639024"
+				}
+			}
+		}
+		"329643"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8022957438691471537"
+					"size"		"657446049"
+					"download"		"475545808"
+				}
+				"beta"
+				{
+					"gid"		"8022957438691471537"
+					"size"		"657446049"
+					"download"		"475545808"
+				}
+			}
+		}
+		"329644"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8274492689353080887"
+					"size"		"17459135"
+					"download"		"8684848"
+				}
+				"beta"
+				{
+					"gid"		"8274492689353080887"
+					"size"		"17459135"
+					"download"		"8684848"
+				}
+			}
+		}
+		"329645"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"981675004762844284"
+					"size"		"623136118"
+					"download"		"521243232"
+				}
+				"beta"
+				{
+					"gid"		"981675004762844284"
+					"size"		"623136118"
+					"download"		"521243232"
+				}
+			}
+		}
+		"329646"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"859247027608416801"
+					"size"		"623136118"
+					"download"		"521243232"
+				}
+				"beta"
+				{
+					"gid"		"859247027608416801"
+					"size"		"623136118"
+					"download"		"521243232"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"466690"
+			}
+			"beta"
+			{
+				"buildid"		"466690"
+			}
+		}
+	}
+}
