@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"238170"
+	"common"
+	{
+		"name"		"Afterfall InSanity - Dirty Arena Edition"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"9d8a367d4d6b9c18833ebe2366ee00cf0b5c2d54"
+		"logo_small"		"9d8a367d4d6b9c18833ebe2366ee00cf0b5c2d54_thumb"
+		"icon"		"f934d7548341cb9973bccf40b590d49800c25fab"
+		"clienttga"		"f45fa44e4d0def0a17c116023e76f156a8cc162f"
+		"clienticon"		"26ac0ba5053b8521bdb01d54d2f1ac366f70ffe1"
+		"metacritic_name"		"Afterfall Insanity -  Dirty Arena Edition"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1368124240"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Intoxicate Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nicolas Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"238170"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+		}
+		"review_score"		"4"
+		"review_percentage"		"26"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Intoxicate Studios"
+		"gamedir"		"ValveTestApp238170"
+		"homepage"		"http://www.intoxicatestudios.com/index.php/en/projects/afterfall-dirty-arena"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Nicolas Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Afterfall Insanity - Dirty Arena Edition"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/InSanity-Win32-Shipping.exe"
+				"arguments"		"-dlc"
+				"description"		"Launch GAME"
+				"workingdir"		"Binaries/Win32"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Binaries/Win32/InSanity-Win32-Shipping.exe"
+				"arguments"		"-safemode"
+				"description"		"Launch in SAFE MODE"
+				"workingdir"		"Binaries/Win32"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"5f447982a582c8bbb7422610c259870596b6ea16d1130a2607a678437a131b3cd827efa67e6c75b4d121770932133889dade8b2c70cb120ee7c9a39a58e1839be02b8d1e8233b8bf27ab520d5441a02e8d7531665f0ef37456f59fc683e5f93eb4022ea9f812e3007f2675ecc1a9cc97b19fef0d8535d24c9edc2e537ee2e12d"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist86"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+				"requirement_os"
+				{
+					"is64bitwindows"		"0"
+				}
+			}
+			"vcredist64"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x64.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+				"requirement_os"
+				{
+					"is64bitwindows"		"1"
+				}
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010"
+				"process 1"		"%INSTALLDIR%\\redist\\directx\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"dotnet"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010"
+				"process 1"		"%INSTALLDIR%\\redist\\dotnet\\dotnetfx35.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+			"amdcpupatch"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\233010"
+				"process 1"		"%INSTALLDIR%\\redist\\amdcpusetup.exe"
+				"nocleanup"		"1"
+				"requirement_os"
+				{
+					"ostype"		"Windows XP"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"238171"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"273451914020421578"
+					"size"		"2522130031"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"A7DA1110EC598C8C56F4AB65BB5E240D"
+					"size"		"AEEF3F4DFD86F2ED13CEE500A8A1537C"
+					"download"		"BE0C16ABA627FD6E98BB60996F0A59AC"
+				}
+			}
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"116863"
+			}
+			"beta"
+			{
+				"buildid"		"116863"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"4"
+	}
+}
