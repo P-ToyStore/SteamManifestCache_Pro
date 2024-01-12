@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"358380"
+	"common"
+	{
+		"name"		"Wacky Wheels"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"bfcfcaa23cf772372cb7acdc8cffbe0834511e0a"
+		"logo_small"		"bfcfcaa23cf772372cb7acdc8cffbe0834511e0a_thumb"
+		"oslist"		"windows,macos"
+		"clienticon"		"06c84f5f3a00c3e80cea1ea555bc14c98d67a05f"
+		"clienttga"		"16991ad6488d89708e590f811742ef854f1397d8"
+		"icon"		"2a96cd2c5d127ec715d7c65f2e2b6f3e5360fc33"
+		"metacritic_name"		"Wacky Wheels"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"51.75"
+				"height_pct"		"77.60675334225915"
+			}
+		}
+		"store_asset_mtime"		"1695977777"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Beavis Soft"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"9"
+		}
+		"category"
+		{
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"782377200"
+		"steam_release_date"		"1399309140"
+		"community_hub_visible"		"1"
+		"gameid"		"358380"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"19"
+			"2"		"1693"
+			"3"		"4182"
+			"4"		"4004"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Beavis Soft"
+		"publisher"		"3D Realms"
+		"homepage"		"https://3drealms.com/catalog/wacky-wheels_16/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Wacky Wheels"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Wacky Wheels\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\Wacky.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Wacky Wheels\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Wacky Wheels.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\Wacky.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358381"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"185284526801152816"
+					"size"		"38856582"
+					"download"		"14601840"
+				}
+			}
+		}
+		"358382"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3698624388476794566"
+					"size"		"17144414"
+					"download"		"5953600"
+				}
+			}
+		}
+		"358383"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7625666206657946328"
+					"size"		"18779212"
+					"download"		"6651264"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606170"
+			}
+		}
+	}
+}
