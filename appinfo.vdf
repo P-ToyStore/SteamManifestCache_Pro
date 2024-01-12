@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"32310"
+	"common"
+	{
+		"name"		"Indiana Jones and the Last Crusade"
+		"logo"		"a05c57d99c5a1fe433e9934f2b86ebe76a6f4944"
+		"logo_small"		"a05c57d99c5a1fe433e9934f2b86ebe76a6f4944_thumb"
+		"icon"		"be7dc2a9e63cd80d2c0072c803b0cb80f6c38239"
+		"clienttga"		"f5b0271a252af3b5879784f14fdd8e325120f42b"
+		"clienticon"		"b20eb366b78d9993a0a305a676a260ecb9ce1a52"
+		"oslist"		"windows,macos"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"32310_eula_0"
+				"name"		"Indiana Jones and the Last Crusade EULA"
+				"url"		"http://store.steampowered.com//eula/32310_eula_0"
+				"version"		"1"
+			}
+		}
+		"type"		"game"
+		"metacritic_name"		"Indiana Jones® and the Last Crusade™"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LucasArts"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LucasArts"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Lucasfilm"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"615279600"
+		"steam_release_date"		"1247036400"
+		"community_hub_visible"		"1"
+		"gameid"		"32310"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"1693"
+			"3"		"3964"
+			"4"		"7743"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"LucasArts"
+		"gamedir"		"Indiana Jones and the Last Crusade"
+		"gamemanualurl"		"http://store.steampowered.com/manual/32310/"
+		"homepage"		"http://www.lucasarts.com/"
+		"icon"		""
+		"installscript"		"32310_install.vdf"
+		"installscriptosx"		"The Last Crusade.app/installscript_osx.vdf"
+		"installscript_macos"		"The Last Crusade.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"LucasArts"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Indiana Jones and the Last Crusade"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Indiana Jones and the Last Crusade.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"The Last Crusade.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"32313"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5968973073375978408"
+					"size"		"5817305"
+					"download"		"0"
+				}
+			}
+		}
+		"32311"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1410091949724710807"
+					"size"		"5799808"
+					"download"		"0"
+				}
+			}
+		}
+		"32312"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4161038651862952283"
+					"size"		"4680964"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19289"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"LucasArts/Indiana Jones and the Last Crusade"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"INDY3"
+				"pattern"		"savegame.___"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
