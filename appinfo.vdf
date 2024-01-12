@@ -1,0 +1,132 @@
+"appinfo"
+{
+	"appid"		"878760"
+	"common"
+	{
+		"name"		"Realm Royale - Test Server"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"b3c468b4233ff613346f7d4ecf8ed9492427cd29"
+		"logo_small"		"b3c468b4233ff613346f7d4ecf8ed9492427cd29_thumb"
+		"clienticon"		"daa3f3f8958015df8d62ecbc9c7d804c08e64273"
+		"clienttga"		"b9d92c6757775fb097837751ceb2a9611e1d2e0f"
+		"icon"		"068664cf452a9f2388cf1ccf1f239fc967ff9629"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"878760_eula_0"
+				"name"		"Realm Royale - Test Server EULA"
+				"url"		"https://store.steampowered.com//eula/878760_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"878760"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"113"
+		}
+	}
+	"config"
+	{
+		"installdir"		"realmpts"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RealmBootstrapper.exe"
+				"arguments"		"-seekfreeloadingpcconsole -pid=703 -steam -anon -homedir=\"paladinsroyale\" -eac_dir \"..\\\\EasyAntiCheat\\\\\""
+				"workingdir"		"Binaries"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Win64"
+				}
+				"description"		"Launch Win64"
+			}
+		}
+		"usemms"		"1"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"878761"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2909912095584666454"
+					"size"		"8323737873"
+					"download"		"6299090752"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"pts_latest"
+				{
+					"gid"		"E0D36324EA1914198058387B8E74E0E0"
+					"size"		"E5667ED3BB5B063AF29A88AF21C3695A"
+					"download"		"C033FE8B493B0711779954D6362D250D"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,koreana,schinese,russian,japanese,portuguese,polish,latam"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11792325"
+				"timeupdated"		"1690377085"
+			}
+			"pts_latest"
+			{
+				"buildid"		"11792325"
+				"pwdrequired"		"1"
+				"timeupdated"		"1690377078"
+			}
+		}
+	}
+}
