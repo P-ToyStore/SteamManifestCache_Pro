@@ -1,0 +1,152 @@
+"appinfo"
+{
+	"appid"		"46760"
+	"common"
+	{
+		"name"		"Ironclads: Schleswig War 1864"
+		"logo"		"ef57c49b41f585c24e19d52332f3852c897642ef"
+		"logo_small"		"ef57c49b41f585c24e19d52332f3852c897642ef_thumb"
+		"clienticon"		"666827258fafb6b8a5074d2c41385c2f0f708f0e"
+		"clienttga"		"0d96664e36511e8036132c62ecb4ca9a032f7635"
+		"icon"		"bfe2d51898467ec6200dec15a80ae68fef7b0353"
+		"type"		"game"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"64.87414187643017"
+				"height_pct"		"40.12111137497032"
+			}
+		}
+		"store_asset_mtime"		"1573745786"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Totem Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Strategy First"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1308329700"
+		"community_hub_visible"		"1"
+		"gameid"		"46760"
+		"store_tags"
+		{
+			"0"		"9"
+		}
+		"review_score"		"4"
+		"review_percentage"		"32"
+	}
+	"extended"
+	{
+		"developer"		"Totem Games"
+		"gamedir"		"Ironclads Schleswig War 1864"
+		"homepage"		"http://www.totemgames.ru/"
+		"icon"		""
+		"installscript"		"46760_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"46761"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Strategy First"
+		"gamemanualurl"		"https://store.steampowered.com/manual/46760/"
+	}
+	"config"
+	{
+		"installscriptsignature"		"0dec1efca1077011e7b311a9183bfbee60586dd9ecb5d4e221782d0866bedfa2b44fb0a4fb985129f0d96ebd9a42712b2601ac2ca5ccfc39e9dd351fbfb82a7806efec918e0e2202e5ee96f2e66fdfd3d281e7ea6cb45e4aafbb6901d05c80c25929e364b93f117375c8516f516ed4ea85fbba51e22a7443efabbadb6b5f76a0"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Ironclads Schleswig War 1864"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ironclads_Schleswig_War.exe"
+				"arguments"		"-Launch"
+			}
+			"1"
+			{
+				"description"		"Configure Ironclads: Schleswig War"
+				"executable"		"Config.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\46760"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"visual c++ redistributable"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\46760"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"46761"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2698102531359584529"
+					"size"		"538883751"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21455"
+			}
+		}
+	}
+}
