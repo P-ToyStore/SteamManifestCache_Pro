@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"421730"
+	"common"
+	{
+		"name"		"Block N Load PTR"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"2ee188861393cd114390d623deada1d957227c54"
+		"logo_small"		"2ee188861393cd114390d623deada1d957227c54_thumb"
+		"icon"		"7b36dde1b5631c436a1914c9b2a55672e4e1fb51"
+		"clienttga"		"12c0cd1f680d3a6a66cc255770c9ac888f74b0a2"
+		"clienticon"		"59180472ea260000e1d541b03da4a355b91a3807"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"brazilian"		"1"
+		}
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"299360_eula_1"
+				"name"		"Block N Load EULA 1"
+				"url"		"http://store.steampowered.com//eula/299360_eula_1"
+			}
+		}
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"421730"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"BlockNLoadPTR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Win32/BlockNLoad.exe"
+				"description"		"Launch Block N Load PTR"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"Win64/BlockNLoad.exe"
+				"description"		"Launch Block N Load PTR"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"signedfiles"
+		{
+			"win64\blocknload_data\plugins\aksoundengine.dll"		"30819D300D06092A864886F70D010101050003818B0030818702818100B6279C179620648F453FE8B43B81D5F3F35C543A31F04E20F9CDB5646A116B07F6B4937D86525547A3195F69A72057521C06A252BB19514E775EF487E46C833A33379B3EEBC5D8206E2E6DCA3123D6149ACAFCF0D7B0B6A8C251E866A54B4BA2245E09163F39DF4E4D77D607025D6FA9C4D59C0880C524244BDE828BBC53DFC5020111"
+			"win64\blocknload_data\plugins\csteamworks.dll"		"30819D300D06092A864886F70D010101050003818B0030818702818100B6279C179620648F453FE8B43B81D5F3F35C543A31F04E20F9CDB5646A116B07F6B4937D86525547A3195F69A72057521C06A252BB19514E775EF487E46C833A33379B3EEBC5D8206E2E6DCA3123D6149ACAFCF0D7B0B6A8C251E866A54B4BA2245E09163F39DF4E4D77D607025D6FA9C4D59C0880C524244BDE828BBC53DFC5020111"
+			"win32\blocknload_data\plugins\aksoundengine.dll"		"30819D300D06092A864886F70D010101050003818B0030818702818100B6279C179620648F453FE8B43B81D5F3F35C543A31F04E20F9CDB5646A116B07F6B4937D86525547A3195F69A72057521C06A252BB19514E775EF487E46C833A33379B3EEBC5D8206E2E6DCA3123D6149ACAFCF0D7B0B6A8C251E866A54B4BA2245E09163F39DF4E4D77D607025D6FA9C4D59C0880C524244BDE828BBC53DFC5020111"
+			"win32\blocknload_data\plugins\csteamworks.dll"		"30819D300D06092A864886F70D010101050003818B0030818702818100B6279C179620648F453FE8B43B81D5F3F35C543A31F04E20F9CDB5646A116B07F6B4937D86525547A3195F69A72057521C06A252BB19514E775EF487E46C833A33379B3EEBC5D8206E2E6DCA3123D6149ACAFCF0D7B0B6A8C251E866A54B4BA2245E09163F39DF4E4D77D607025D6FA9C4D59C0880C524244BDE828BBC53DFC5020111"
+		}
+		"signaturescheckedonlaunch"
+		{
+			"windows"
+			{
+				"0"		"Win64\\BlockNLoad_Data\\Plugins\\AkSoundEngine.dll"
+				"1"		"Win64\\BlockNLoad_Data\\Plugins\\CSteamworks.dll"
+				"2"		"Win32\\BlockNLoad_Data\\Plugins\\AkSoundEngine.dll"
+				"3"		"Win32\\BlockNLoad_Data\\Plugins\\CSteamworks.dll"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,russian,portuguese"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"421731"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4759895347855438097"
+					"size"		"5088383849"
+					"download"		"1210934224"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"ptr_dev"
+				{
+					"gid"		"EF78A375B26D8784A0C37D67E828BBC6"
+					"size"		"38A5E4ADE48988AD98ACD6580AA4A5F3"
+					"download"		"85E30102DD85E39208C8F2FC81B51B0F"
+				}
+			}
+		}
+		"421732"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7444782432281055753"
+					"size"		"614427251"
+					"download"		"151190768"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"ptr_dev"
+				{
+					"gid"		"1D29CFE25BBB19E2F11120C9ACE41903"
+					"size"		"AB313995B022DD10C4E5AF94F8EB6222"
+					"download"		"540DB96C506C402E78BFBCDE0C1F8EB0"
+				}
+			}
+		}
+		"421733"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2378485154021013845"
+					"size"		"621144243"
+					"download"		"153880448"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"ptr_dev"
+				{
+					"gid"		"EDA3ED12D82E6636A6B34CB147DDB83E"
+					"size"		"54F54883D96FECA9456C550E5A2E82C2"
+					"download"		"A5D6068EF9EEFCBEA4BDBF5E703244BD"
+				}
+			}
+		}
+		"421734"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4029327422754597029"
+					"size"		"2538906060"
+					"download"		"812365360"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"ptr_dev"
+				{
+					"gid"		"061C67B5F4107E77CB809EA8E52A31AC"
+					"size"		"BC28AA00E4B2B670EB51F92872D21B00"
+					"download"		"6460FAE995B0A7442A74D973F75D9829"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3745607"
+				"timeupdated"		"1555502777"
+			}
+			"ptr_dev"
+			{
+				"buildid"		"3745607"
+				"pwdrequired"		"1"
+				"timeupdated"		"1555502739"
+			}
+		}
+	}
+}
