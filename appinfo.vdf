@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"388970"
+	"common"
+	{
+		"name"		"iZBOT"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"57f567ab7be85e8271c7cb7ce708d5c1a5c26bdb"
+		"logo_small"		"57f567ab7be85e8271c7cb7ce708d5c1a5c26bdb_thumb"
+		"icon"		"2e28c2d0f69d61588ef740b84bc6a646efba84f1"
+		"clienticon"		"0295de52435dd186fe3b5df1e0e55db8979ea9aa"
+		"clienttga"		"3adb27e6d548bd4b00f25182015a98b3a80b9811"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1655769600"
+			"tested_build_id"		"1684582"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"metacritic_name"		"iZBOT"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46.96616102683779"
+				"height_pct"		"90.27546900973638"
+			}
+		}
+		"store_asset_mtime"		"1667514276"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ruxar"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ruxar"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Ruxar"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1441141118"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"388970"
+		"store_tags"
+		{
+			"0"		"3877"
+			"1"		"1625"
+			"2"		"4026"
+			"3"		"3964"
+			"4"		"3871"
+			"5"		"4182"
+			"6"		"19"
+			"7"		"5379"
+			"8"		"3798"
+			"9"		"1734"
+			"10"		"5390"
+			"11"		"7481"
+			"12"		"4234"
+			"13"		"3942"
+			"14"		"5752"
+			"15"		"1733"
+			"16"		"1649"
+			"17"		"4004"
+			"18"		"597"
+			"19"		"1773"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Ruxar"
+		"publisher"		"Ruxar"
+		"homepage"		"http://www.ruxar.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"iZBOT"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"iZBOT.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"388971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"372646094911878845"
+					"size"		"10335744"
+					"download"		"9939632"
+				}
+				"updates"
+				{
+					"gid"		"372646094911878845"
+					"size"		"10335744"
+					"download"		"9939632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1684582"
+				"timeupdated"		"1490095603"
+			}
+			"updates"
+			{
+				"buildid"		"1684582"
+				"description"		"reset button + mem fixes"
+				"timeupdated"		"1489201431"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"iZBOT"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
