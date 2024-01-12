@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"374240"
+	"common"
+	{
+		"name"		"Eternal Step"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"3e571a0a5898c12d614b98d4cd96e4d64ff220e0"
+		"logo_small"		"3e571a0a5898c12d614b98d4cd96e4d64ff220e0_thumb"
+		"clienticon"		"9f5a55a3d61b6c9cc84df57e709e6f6d37162804"
+		"clienttga"		"0b6045043303fdfb418027d73eec19fa29226291"
+		"icon"		"607fc6e6e49d08d3e00d49bd58aecefb3bc21cb7"
+		"releasestate"		"released"
+		"metacritic_name"		"Eternal Step"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1499096940"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Once More With Gusto"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Green Man Gaming Publishing"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1445007585"
+		"community_hub_visible"		"1"
+		"gameid"		"374240"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"122"
+			"2"		"19"
+			"3"		"4026"
+			"4"		"21"
+			"5"		"1716"
+			"6"		"1684"
+			"7"		"1646"
+			"8"		"4231"
+			"9"		"1662"
+			"10"		"4182"
+			"11"		"4236"
+			"12"		"4791"
+			"13"		"3959"
+			"14"		"4166"
+			"15"		"4172"
+			"16"		"4711"
+			"17"		"1742"
+			"18"		"4342"
+			"19"		"4885"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"Once More With Gusto"
+		"publisher"		"Green Man Gaming Publishing"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Eternal_Step"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"eternalstep.exe"
+				"description"		"windows"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"eternalstep"
+				"description"		"Linux"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"eternalstep.app"
+				"description"		"OSX"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"374241"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1249262925414107602"
+					"size"		"343763558"
+					"download"		"296432432"
+				}
+			}
+		}
+		"374244"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4588689484279455666"
+					"size"		"359627878"
+					"download"		"300989296"
+				}
+			}
+		}
+		"374245"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"282743361905132185"
+					"size"		"382798809"
+					"download"		"288824240"
+				}
+			}
+		}
+		"374246"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6547850232769724964"
+					"size"		"370411865"
+					"download"		"301111152"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1375009"
+				"timeupdated"		"1475667974"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"60000000"
+		"maxnumfiles"		"70"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"EternalStep/Local Storage"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"EternalStep/Local Storage"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
