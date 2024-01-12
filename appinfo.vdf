@@ -1,0 +1,190 @@
+"appinfo"
+{
+	"appid"		"207190"
+	"common"
+	{
+		"name"		"Fireburst"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"clienticon"		"ad7e46f81038182efcff686d4c67e36c2c0b336b"
+		"clienttga"		"778bd877857435a84214dfef06bf3c05253de330"
+		"icon"		"09e9e776397a392f600832444b584f2f58f11892"
+		"logo"		"ad4baa87f15bab9718ce307a591b86d340cffce6"
+		"logo_small"		"ad4baa87f15bab9718ce307a591b86d340cffce6_thumb"
+		"metacritic_name"		"Fireburst"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"73.56979405034323"
+				"height_pct"		"89.51555450011872"
+			}
+		}
+		"store_asset_mtime"		"1571165522"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"exDream"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Strategy First"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+		}
+		"metacritic_score"		"59"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/fireburst?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"207190"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"19"
+			"2"		"21"
+		}
+		"review_score"		"5"
+		"review_percentage"		"52"
+	}
+	"extended"
+	{
+		"developer"		"exDream"
+		"gamedir"		"firebust"
+		"homepage"		"http://fireburstthegame.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"0"
+		"order"		"1"
+		"primarycache"		"207192"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Strategy First"
+	}
+	"config"
+	{
+		"installscriptsignature"		"009554e37803dcbe576f0a6e92d090b1f921943eb9f438ef1350f3efc65371e3c15e34e972c041f25f7b5075d0d919851bf67831618d18dbe50f82463710514a4f44be53daba4cb89da532e84184048b33e86852c4a4fc25e0d9b9cfc5dd74c28bb2656302b684d193d7def2ac2221697a1b3eb8d90c1894159879b9ef70874d"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Fireburst"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\FireburstLauncher.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			".net 4.0 client"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\207190"
+				"process 1"		"%INSTALLDIR%\\Binaries\\UE3Redist\\dotNetFx40_Client_x86_x64.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\207190"
+				"process 1"		"%INSTALLDIR%\\redist\\UE3Redist\\vcredist_x86_vs2010sp1.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\207190"
+				"process 1"		"%INSTALLDIR%\\Binaries\\UE3Redist\\DXRedistCutdown\\DXSetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"207192"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"711528834501876214"
+					"size"		"1705465215"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"30030"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
