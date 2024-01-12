@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"31230"
+	"common"
+	{
+		"name"		"Sam & Max 302: The Tomb of Sammun-Mak"
+		"clienticon"		"7eeffb4257505475fd240e250408d87ef0d94f72"
+		"clienttga"		"c59dfb31d77ee51f4c72680bb0fe4e5482ef25e1"
+		"icon"		"e83fbb799f46b349586ca55fcf612350cc88ffe7"
+		"logo"		"517196c999fe6316134332e749782154bde9adf5"
+		"logo_small"		"517196c999fe6316134332e749782154bde9adf5_thumb"
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1647561600"
+			"tested_build_id"		"19267"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-1"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Sam &amp;amp; Max 302: The Tomb of Sammun-Mak"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1613873743"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Telltale Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Skunkape Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Sam &amp; Max"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"31230"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Telltale Games"
+		"gamedir"		"Sam and Max 302"
+		"homepage"		"http://www.telltalegames.com/samandmax"
+		"icon"		""
+		"installscript"		"31230_install.vdf"
+		"installscriptosx"		"SamMax302.app/installscript_osx.vdf"
+		"installscript_macos"		"SamMax302.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Skunkape Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sam and Max 302"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SamMax302.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SamMax302.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"31232"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7993382492474437548"
+					"size"		"538839510"
+					"download"		"0"
+				}
+			}
+		}
+		"31231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4864206967367033545"
+					"size"		"665374133"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19267"
+			}
+		}
+	}
+}
