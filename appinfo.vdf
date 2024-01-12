@@ -1,0 +1,348 @@
+"appinfo"
+{
+	"appid"		"212410"
+	"common"
+	{
+		"name"		"Inversion™"
+		"type"		"Game"
+		"logo"		"b4932e1f26537609398ad27047c6855562c0c8cc"
+		"logo_small"		"b4932e1f26537609398ad27047c6855562c0c8cc_thumb"
+		"icon"		"078965dd0b14c3c6d8943b651336fa171ea605d5"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"clienttga"		"0d55c01fad68c68238dff7d5386302b2dc01bb89"
+		"clienticon"		"2a1f8f823da446eb2661020399ab4a832434812d"
+		"metacritic_name"		"Inversion&amp;trade;"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Saber Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BANDAI NAMCO Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_8"		"1"
+			"category_13"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1343343600"
+		"community_hub_visible"		"1"
+		"gameid"		"212410"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3814"
+			"2"		"1685"
+			"3"		"3942"
+			"4"		"1697"
+			"5"		"1774"
+			"6"		"29363"
+			"7"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Saber Interactive"
+		"gamedir"		"Inversion"
+		"homepage"		"http://www.inversion.com"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"languages"		"english,german,french,italian,spanish"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"BANDAI NAMCO Entertainment"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Inversion"
+		"installscriptsignature"		"68b052c2aff504117be93d85f92cf25500c50efc9d55196d69fff4e502f2178f536b2082ead79067cca4487048fb4e958e52f0fa00cc6c4cd2bfd1372ea87a5180f1e233a0fc5a5179b6b16a005e2d1c9eec3fdbd91218dbb8df77f612dad72c8d2ae4cebe67d778a6369df78dc206ed383548bdbccd82f91bf4b6b54170c78d"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/Inversion.exe"
+				"description"		"Launch Inversion"
+				"workingdir"		"bin"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\saber interactive\inversion"
+			{
+				"dword"
+				{
+					"english"
+					{
+						"language"		"0"
+					}
+					"french"
+					{
+						"language"		"1"
+					}
+					"italian"
+					{
+						"language"		"2"
+					}
+					"german"
+					{
+						"language"		"3"
+					}
+					"spanish"
+					{
+						"language"		"4"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Saber Interactive\\Inversion\\Redist\\DX9"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc2008redist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Saber Interactive\\Inversion\\Redist\\VC2008"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"212411"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3771145095698244680"
+					"size"		"4705227019"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"patch_test"
+				{
+					"gid"		"96E2FA67719EAF3EEE5C86410F10EBF2"
+					"size"		"3640581879D770258F1A008FDBC3D6C6"
+					"download"		"7900E89BB51328730C883A307C081A23"
+				}
+			}
+		}
+		"212412"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2552730938921151676"
+					"size"		"14"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"patch_test"
+				{
+					"gid"		"CB9931ED3250F6E1A110179EF2ECA148"
+					"size"		"5C4B53732FF039CC798FF1C37739F1D9"
+					"download"		"7900E89BB51328730C883A307C081A23"
+				}
+			}
+		}
+		"212413"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7983072960693511403"
+					"size"		"14"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"patch_test"
+				{
+					"gid"		"54F0564E6577DE97977B88DDFC7B945E"
+					"size"		"5C4B53732FF039CC798FF1C37739F1D9"
+					"download"		"7900E89BB51328730C883A307C081A23"
+				}
+			}
+		}
+		"212414"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"254201193864245602"
+					"size"		"14"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"patch_test"
+				{
+					"gid"		"BF286E0D76D0F1C104A401F734C94442"
+					"size"		"5C4B53732FF039CC798FF1C37739F1D9"
+					"download"		"7900E89BB51328730C883A307C081A23"
+				}
+			}
+		}
+		"212415"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7060794761364665638"
+					"size"		"14"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"patch_test"
+				{
+					"gid"		"AD15E9FABCC93BDCECC5FDAAF1EB08A3"
+					"size"		"5C4B53732FF039CC798FF1C37739F1D9"
+					"download"		"7900E89BB51328730C883A307C081A23"
+				}
+			}
+		}
+		"212416"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"900827390821604484"
+					"size"		"14"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"patch_test"
+				{
+					"gid"		"3C81AA17A87FE699BE209E07853F9A60"
+					"size"		"5C4B53732FF039CC798FF1C37739F1D9"
+					"download"		"7900E89BB51328730C883A307C081A23"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadexceptions"		"US CA MX PR BS PA BZ CR SV GT HN NI VE CO GY SR GF BR PE BO PY UY AR CL EC"
+		"baselanguages"		"english,german,french,italian,spanish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6666"
+			}
+			"patch_test"
+			{
+				"buildid"		"8670"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
