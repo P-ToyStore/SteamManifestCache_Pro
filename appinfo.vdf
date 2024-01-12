@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"346130"
+	"common"
+	{
+		"name"		"Rktcr"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"clienttga"		"046131a08528e806d51e00caaebe42ef14308223"
+		"clienticon"		"1308a1871e86256177fabf765b0935f59b74639c"
+		"icon"		"9c89d8252971f150994613c0f4042817f808f6ca"
+		"clienticns"		"9ff189a5509317470b05d9ccbd8d74c1bd18cd2f"
+		"logo"		"d75edd3248f2791315881776757623404db75b6c"
+		"logo_small"		"d75edd3248f2791315881776757623404db75b6c_thumb"
+		"linuxclienticon"		"f47d9834997a18dc3e6cfbea42251eba82ac5803"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1700870400"
+			"tested_build_id"		"576841"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Rktcr"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1572312635"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TCHOW"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TCHOW"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1431434717"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"346130"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"699"
+		}
+	}
+	"extended"
+	{
+		"developer"		"TCHOW"
+		"publisher"		"TCHOW"
+		"homepage"		"http://rktcr.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"rktcr"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"rktcr-steam.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"rktcr-steam"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"rktcr-steam.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"rktcr-steam.exe"
+				"arguments"		"--for-robots"
+				"description"		"Play Rktcr with \"For Robots\" support"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"for-robots"
+				}
+			}
+			"4"
+			{
+				"executable"		"rktcr-steam.app"
+				"arguments"		"--for-robots"
+				"description"		"Play Rktcr with \"For Robots\" support"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"for-robots"
+				}
+			}
+			"5"
+			{
+				"executable"		"rktcr-steam"
+				"arguments"		"--for-robots"
+				"description"		"Play Rktcr with \"For Robots\" support"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"for-robots"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"346131"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8819385640459338412"
+					"size"		"127203418"
+					"download"		"84981728"
+				}
+				"for-robots"
+				{
+					"gid"		"8691820989397301235"
+					"size"		"128244776"
+					"download"		"85132912"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"576841"
+			}
+			"for-robots"
+			{
+				"buildid"		"1356450"
+				"description"		"Rktcr with scripting"
+				"timeupdated"		"1474842298"
+			}
+		}
+	}
+}
