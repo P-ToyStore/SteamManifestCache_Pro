@@ -1,0 +1,310 @@
+"appinfo"
+{
+	"appid"		"329620"
+	"common"
+	{
+		"name"		"Across the Rhine"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"9bbba297fdd5331ec6f65e4e9ab45072bc46d288"
+		"linuxclienticon"		"87906f17cb1441f033f15cabcc8736cce23bed4b"
+		"clienticon"		"ae18afce0b5cfe58d23eed7280dc9018b999f14a"
+		"clienttga"		"667a23e73902a4ba169cf41cc281a0e8ea30a27e"
+		"icon"		"33fabf9a987b2487cdf6971a115754efc3c7c433"
+		"logo"		"a817de7ad3bee2b4a4952d7f0bb792ca31bc3f41"
+		"logo_small"		"a817de7ad3bee2b4a4952d7f0bb792ca31bc3f41_thumb"
+		"metacritic_name"		"Across The Rhine"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1418082642"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"804582000"
+		"steam_release_date"		"1415304042"
+		"community_hub_visible"		"1"
+		"gameid"		"329620"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"4150"
+		}
+		"review_score"		"5"
+		"review_percentage"		"56"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.atari.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/329620/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Across The Rhine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_atr.conf -conf dosbox_atr_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_atr.conf -conf dosbox_atr_launch_windows.conf -noconsole"
+				"description"		"Play Across The Rhine in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_atr.conf -conf dosbox_atr_config_windows.conf -noconsole"
+				"description"		"Across The Rhine - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Across The Rhine.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_atr_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_atr_game_daum.sh"
+				"description"		"Play Across The Rhine in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_atr_config.sh"
+				"description"		"Across The Rhine - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"329621"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"404768526691984073"
+					"size"		"3884130"
+					"download"		"3737072"
+				}
+				"beta"
+				{
+					"gid"		"404768526691984073"
+					"size"		"3884130"
+					"download"		"3737072"
+				}
+			}
+		}
+		"329622"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9201759234024103616"
+					"size"		"18522324"
+					"download"		"9638448"
+				}
+				"beta"
+				{
+					"gid"		"9201759234024103616"
+					"size"		"18522324"
+					"download"		"9638448"
+				}
+			}
+		}
+		"329623"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2656783458980230396"
+					"size"		"216421881"
+					"download"		"81944096"
+				}
+				"beta"
+				{
+					"gid"		"2656783458980230396"
+					"size"		"216421881"
+					"download"		"81944096"
+				}
+			}
+		}
+		"329624"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"719274132628905751"
+					"size"		"17457549"
+					"download"		"8683904"
+				}
+				"beta"
+				{
+					"gid"		"719274132628905751"
+					"size"		"17457549"
+					"download"		"8683904"
+				}
+			}
+		}
+		"329625"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3324875155323307447"
+					"size"		"600823093"
+					"download"		"390074032"
+				}
+				"beta"
+				{
+					"gid"		"3324875155323307447"
+					"size"		"600823093"
+					"download"		"390074032"
+				}
+			}
+		}
+		"329626"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4056690434689690376"
+					"size"		"600823093"
+					"download"		"390555280"
+				}
+				"beta"
+				{
+					"gid"		"4056690434689690376"
+					"size"		"600823093"
+					"download"		"390555280"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"466671"
+			}
+			"beta"
+			{
+				"buildid"		"466671"
+			}
+		}
+	}
+}
