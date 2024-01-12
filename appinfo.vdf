@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"738760"
+	"common"
+	{
+		"name"		"the Line"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienttga"		"bcdfa430fd77740f0c0ad15b7a8249171108c272"
+		"icon"		"84f7346e43c32c9b7c1e911af8c2c42311c77cef"
+		"logo"		"468bd8294a3048d003983e9140b158f8bb55314b"
+		"logo_small"		"468bd8294a3048d003983e9140b158f8bb55314b_thumb"
+		"linuxclienticon"		"c53a4d259758ae9b8245158c24d5a690cd676a39"
+		"clienticon"		"3e320f5474bf3ef35f961f39fe030690a369e673"
+		"clienticns"		"c3e03d8ad2840dd98c5ab453001b4a52d8114744"
+		"releasestate"		"released"
+		"metacritic_name"		"the Line"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1536490544"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Marginal act"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Marginal act"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1512633600"
+		"steam_release_date"		"1512671893"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"738760"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"4604"
+			"2"		"1720"
+			"3"		"4325"
+			"4"		"7208"
+			"5"		"1677"
+			"6"		"4667"
+			"7"		"4166"
+			"8"		"5984"
+			"9"		"1742"
+			"10"		"4026"
+			"11"		"4345"
+			"12"		"4342"
+			"13"		"3871"
+			"14"		"1716"
+			"15"		"122"
+			"16"		"3834"
+			"17"		"1741"
+			"18"		"3959"
+			"19"		"42804"
+		}
+		"review_score"		"5"
+		"review_percentage"		"58"
+	}
+	"extended"
+	{
+		"developer"		"Marginal act"
+		"publisher"		"Marginal act"
+		"listofdlc"		"894080"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"the Line"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"theLine.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"theLine.app\\Contents\\MacOS\\theLine"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"theLine.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"hasdepotsindlc"		"1"
+		"738761"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7381556426965297672"
+					"size"		"1230764782"
+					"download"		"300948736"
+				}
+			}
+		}
+		"738762"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7924360136701413442"
+					"size"		"1284231800"
+					"download"		"325053056"
+				}
+			}
+		}
+		"738763"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8173913823072684053"
+					"size"		"1319925078"
+					"download"		"337377360"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3277234"
+				"timeupdated"		"1541425227"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
