@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"849970"
+	"common"
+	{
+		"name"		"Forgotten Realm RPG"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"ef15865f281bebaaf22e55276cd5e8ddfa654128"
+		"logo_small"		"ef15865f281bebaaf22e55276cd5e8ddfa654128_thumb"
+		"clienticon"		"c06ff56500304e26135c6c3681027aa24162af89"
+		"clienttga"		"6c0c54c6c89e3f0170135eabcbd05e432773aa75"
+		"icon"		"54ed11279288869507e378c75e11db3a919ddd5f"
+		"linuxclienticon"		"cf6aa12a6329f28941e1e4d6430b8310abd64678"
+		"clienticns"		"295cf4b7a79c88653bf28236ad3410b361aff004"
+		"releasestate"		"released"
+		"metacritic_name"		"Forgotten Realm RPG"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1528355138"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Triyo"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Triyo"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1527841007"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"849970"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"21"
+			"2"		"492"
+			"3"		"5577"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Triyo"
+		"publisher"		"Triyo"
+	}
+	"config"
+	{
+		"installdir"		"Forgotten Realm RPG"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"nw"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Game.app/Contents/MacOS/nwjs"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"849971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"695200264623571495"
+					"size"		"477798986"
+					"download"		"377538752"
+				}
+			}
+		}
+		"849972"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4906561141034850911"
+					"size"		"533822543"
+					"download"		"385019168"
+				}
+			}
+		}
+		"849973"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3758863721018379397"
+					"size"		"526425699"
+					"download"		"382890416"
+				}
+			}
+		}
+		"849974"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8818612628361930768"
+					"size"		"532665759"
+					"download"		"386394480"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2841145"
+				"timeupdated"		"1528354874"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"www/save"
+				"pattern"		"*.rpgsave"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"www/save"
+						"replace"		"Game.app/Contents/Resources/app.nw/save"
+					}
+				}
+			}
+		}
+	}
+}
