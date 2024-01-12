@@ -1,0 +1,298 @@
+"appinfo"
+{
+	"appid"		"274250"
+	"common"
+	{
+		"name"		"OlliOlli"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"7522627ccb8d90eed899936276a53679a6d528c3"
+		"clienttga"		"49efd79951f4b6f1a70c6f896d54ffdf6d0fc86f"
+		"icon"		"07607bb57e104d565556afd10e5cfc37db9a33f9"
+		"clienticns"		"5f6cb571b9903fbedb3d3647485e5b143b581c0d"
+		"linuxclienticon"		"830b0dbf2270d8def4387f7fa48dd2387423a0b8"
+		"logo"		"0f92a59093a63be92081dcbced7fc4c193981d38"
+		"logo_small"		"0f92a59093a63be92081dcbced7fc4c193981d38_thumb"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1650931200"
+			"tested_build_id"		"587828"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"OlliOlli"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1568670454"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Roll7"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"General Arcade"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Devolver Digital"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_28"		"1"
+			"category_43"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1406044800"
+		"metacritic_score"		"78"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/olliolli?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"274250"
+		"store_tags"
+		{
+			"0"		"1753"
+			"1"		"492"
+			"2"		"701"
+			"3"		"3871"
+			"4"		"3964"
+			"5"		"1625"
+			"6"		"4182"
+			"7"		"1756"
+			"8"		"1773"
+			"9"		"19"
+			"10"		"96359"
+			"11"		"4026"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Roll7"
+		"publisher"		"Devolver Digital"
+		"homepage"		"http://www.roll7.co.uk/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"OlliOlli"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\olliolli.exe"
+				"description"		"Launch"
+				"workingdir"		"gamedata"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/olliolli.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/olliolli.sh"
+				"description"		"Launch"
+				"workingdir"		"gamedata"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"274251"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8202534935750853286"
+					"size"		"139825942"
+					"download"		"70707184"
+				}
+			}
+		}
+		"274252"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3162862109520293455"
+					"size"		"5022286"
+					"download"		"1963120"
+				}
+			}
+		}
+		"274253"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5778151582402216021"
+					"size"		"4240598"
+					"download"		"1016432"
+				}
+			}
+		}
+		"274254"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1075208238929200586"
+					"size"		"14861313"
+					"download"		"3575056"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"587828"
+			}
+		}
+	}
+}
