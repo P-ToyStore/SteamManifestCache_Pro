@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"229970"
+	"common"
+	{
+		"name"		"Armada 2526 Gold Edition"
+		"type"		"Game"
+		"logo"		"4884644487489bf678456966a7414ee42f8c6cff"
+		"logo_small"		"4884644487489bf678456966a7414ee42f8c6cff_thumb"
+		"icon"		"ae4e63eabaaab8ff7928006d703e76af6da820cd"
+		"clienttga"		"06fc6caf62e5064784c804737b1ff76f772c2381"
+		"clienticon"		"8209805ec6d2cd54952cb5e438ae41ecff7647a7"
+		"oslist"		""
+		"metacritic_name"		"Armada 2526"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1578329951"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ntronium Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Iceberg Interactive"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+		}
+		"metacritic_score"		"66"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/armada-2526?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"229970"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"1670"
+			"3"		"1755"
+			"4"		"1741"
+			"5"		"3942"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Ntronium Games"
+		"gamedir"		"ValveTestApp229970"
+		"homepage"		"http://www.ntronium.com/Armada2526%20Home.html"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Iceberg Interactive"
+		"gamemanualurl"		"https://store.steampowered.com/manual/229970/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Armada Gold"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Armada2526.exe"
+				"description"		"Play"
+			}
+		}
+		"installscriptsignature"		"9162f37f9b9117e2b2f5eb0f9e28a69681beab625273de2038bad17a7ad82e2d69c5fa61e4c21acb3a0554d6b34736feb51da49f3ea957c17307598de923f865cf18aaeed953b8de3157875f91333ab5064fbe22203895a2a5d540a2dd7447e670125cf709d0db1a9bfe3292be9a02f79ffdfe1737349387bba636f9a86590a2"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\Armada2526GoldHR1"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\Armada2526GoldHR4"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"dotnet"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\Armada2526GoldHR5"
+				"process 1"		"%INSTALLDIR%\\redist\\dotNetFx35setup.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+		}
+		"firewall"
+		{
+			"armada 2526 gold edition"		"%INSTALLDIR%\\Armada2526.exe"
+		}
+	}
+	"depots"
+	{
+		"229971"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5932575453239183755"
+					"size"		"1306676158"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"2299274292921411197"
+					"size"		"1510499671"
+					"download"		"0"
+				}
+			}
+		}
+		"229972"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"535598730118207769"
+					"size"		"3420933"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"3527883762764346233"
+					"size"		"3420933"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"43140"
+			}
+			"local"
+			{
+				"buildid"		"41885"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+	}
+}
