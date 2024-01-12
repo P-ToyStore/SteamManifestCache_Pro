@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"358400"
+	"common"
+	{
+		"name"		"Shadow Warrior (Classic)"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"fc8d6980141a3840b07ca85e618ab1d168806639"
+		"logo_small"		"fc8d6980141a3840b07ca85e618ab1d168806639_thumb"
+		"clienticon"		"7b02b469a6b6fb2cc7a24b2718b81ec4cae29fe7"
+		"clienttga"		"6ae6a1c373a287a48041d39d900969d322c4dd67"
+		"icon"		"eb9defb48725909195f639b3f17f245dd7e53a73"
+		"metacritic_name"		"Shadow Warrior"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1695977706"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3D Realms"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"863506800"
+		"steam_release_date"		"1399309140"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/shadow-warrior?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"358400"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"1693"
+			"3"		"6691"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"developer"		"3D Realms"
+		"publisher"		"3D Realms"
+		"homepage"		"https://3drealms.com/catalog/shadow-warrior_10/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Shadow Warrior DOS"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Shadow Warrior - Dos.bat"
+				"description"		"Launch Shadow Warrior DOS"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Shadow Warrior.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\SW.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"Shadow Warrior\\SWP.exe"
+				"description"		"Launch Shadow Warrior source port [experimental]"
+				"workingdir"		"Shadow Warrior\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"noupdatesafterinstall"		"1"
+	}
+	"depots"
+	{
+		"358401"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4231017113756616561"
+					"size"		"119174146"
+					"download"		"63528864"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"releasecandidate"
+				{
+					"gid"		"8B7445428D37CAFA92FFBD620D77DD82"
+					"size"		"4393F44E14DF7CB567386417D8797914"
+					"download"		"69926D1FE0B3331A5F00D2346563987E"
+				}
+			}
+		}
+		"358402"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8753742606406165732"
+					"size"		"134199181"
+					"download"		"64744208"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"releasecandidate"
+				{
+					"gid"		"23F93DBB6B8572E2365C2DD65AAF5778"
+					"size"		"0E5EA5ABA2732C89526B1469890B9FEF"
+					"download"		"23E84FCF5333114F758BA09498C60FED"
+				}
+			}
+		}
+		"358403"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3911928836510645034"
+					"size"		"99109732"
+					"download"		"55580752"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"releasecandidate"
+				{
+					"gid"		"58BF9A53D774DF4E5CB53654211EED53"
+					"size"		"01A05C50981271D6619190FDF40D7602"
+					"download"		"0C219668DC9CEAA4E0A7AC1D0B4223AE"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"613173"
+			}
+			"releasecandidate"
+			{
+				"buildid"		"967903"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
