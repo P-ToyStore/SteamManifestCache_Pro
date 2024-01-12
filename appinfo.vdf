@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"268340"
+	"common"
+	{
+		"name"		"High Strangeness"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"4611a271e3f135f470c966a081967baabfcddece"
+		"clienticon"		"efea62606a3df12d511526151d9e3ffff0ac4a39"
+		"clienttga"		"82f0422ca942ac9705083c8d36f446eb69add119"
+		"logo"		"1f1f2787f79d5d9a84498f6e2e625428022926ee"
+		"logo_small"		"1f1f2787f79d5d9a84498f6e2e625428022926ee_thumb"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"5573e3cfa3dbad7920a5d7212c44adb08c0afd14"
+		"clienticns"		"12fd3803a3e3a2a9b1e5232cf6f1c870f6dfc9b6"
+		"metacritic_name"		"High Strangeness"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1582440429"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Barnyard Intelligence Games"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Crystal Labs"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Barnyard Intelligence Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1430930439"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"268340"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"492"
+			"2"		"19"
+			"3"		"21"
+		}
+		"review_score"		"7"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Barnyard Intelligence Games"
+		"publisher"		"Barnyard Intelligence Games"
+		"homepage"		"http://highstrangenessgame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"High Strangeness"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HS.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"HS.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"HS.x86_64"
+				"description"		"Launch 64 Bit"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"HS.x86"
+				"description"		"Launch 32 Bit"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"268342"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2846489639899496174"
+					"size"		"326928230"
+					"download"		"125412128"
+				}
+			}
+		}
+		"268343"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4972540087185688670"
+					"size"		"353325846"
+					"download"		"132568480"
+				}
+			}
+		}
+		"268344"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"273478863239039684"
+					"size"		"355807792"
+					"download"		"134056464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4706460"
+				"timeupdated"		"1582444202"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.dat"
+			}
+		}
+	}
+}
