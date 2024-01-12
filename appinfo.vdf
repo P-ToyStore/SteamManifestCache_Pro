@@ -1,0 +1,274 @@
+"appinfo"
+{
+	"appid"		"913110"
+	"common"
+	{
+		"name"		"Desktop Tree"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"a6af9366e0add1b9f8059bc24f73fdd2f835bc52"
+		"clienttga"		"16325cfaf0f8b37fbf9360cdd668ea1aca04a674"
+		"icon"		"608437c2a9cbbfc6e83b309eb4cf25e376c5857f"
+		"logo"		"82bd9a584556b0f42cb804b6388cdb6f03127d4b"
+		"logo_small"		"82bd9a584556b0f42cb804b6388cdb6f03127d4b_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"koreana"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+		}
+		"releasestate"		"released"
+		"clienticns"		"d32b9a0b585f246425b6f2b944f8a096d99d494d"
+		"osextended"		"macos64"
+		"metacritic_name"		"Desktop Tree"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"75.57636745032852"
+			}
+		}
+		"store_asset_mtime"		"1667396591"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"utStudio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"utStudio"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1537285829"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"913110"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"599"
+			"3"		"1654"
+			"4"		"5125"
+			"5"		"3871"
+			"6"		"379975"
+		}
+		"review_score"		"8"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"utStudio"
+		"publisher"		"utStudio"
+	}
+	"config"
+	{
+		"installdir"		"Desktop Tree"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"arguments"		"--nwapp=game\\1 --disable-gpu-compositing --force-cpu-draw --enable-transparent-visuals --disable-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"nw"
+				"arguments"		"--nwapp=game --password-store=basic --disable-gpu-compositing --force-cpu-draw --enable-transparent-visuals --disable-gpu --nowarning"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"Desktop Tree.app"
+				"arguments"		"--disable-gpu-compositing --force-cpu-draw --enable-transparent-visuals --disable-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"nw.exe"
+				"arguments"		"--nwapp=game --in-process-gpu --nowarning"
+				"description"		"Windowed mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"Desktop Tree w.app"
+				"arguments"		"--nowarning"
+				"description"		"Windowed mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,koreana,schinese,russian,japanese"
+		"913111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1692543055193533764"
+					"size"		"191490126"
+					"download"		"55900720"
+				}
+			}
+		}
+		"913112"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8423115602651094451"
+					"size"		"208115944"
+					"download"		"53130864"
+				}
+			}
+		}
+		"913113"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1743018432244094088"
+					"size"		"386353475"
+					"download"		"57373344"
+				}
+			}
+		}
+		"913119"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6744064211120870660"
+					"size"		"263917440"
+					"download"		"77277120"
+				}
+			}
+		}
+		"workshopdepot"		"913110"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6094067"
+				"timeupdated"		"1610860249"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+	}
+}
