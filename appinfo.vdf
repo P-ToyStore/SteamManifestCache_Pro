@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"916290"
+	"common"
+	{
+		"name"		"Crime Girl"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"clienttga"		"6f0b80ea0d370279413572f7933ca65d237d3ce3"
+		"clienticns"		"a16e75d061f2a4b0367a9c78f425996b69143c9d"
+		"clienticon"		"26fda7cd41de349bd0fa908a028d39c953a534b1"
+		"icon"		"209dcbd25374152fcdcdb869258d6fce44be1b6f"
+		"linuxclienticon"		"af24e84f84c43522de5047e10bab2d3c8ae62058"
+		"logo"		"733a2b731edafe21fe8d89bb8a28b553d8cb62ba"
+		"logo_small"		"733a2b731edafe21fe8d89bb8a28b553d8cb62ba_thumb"
+		"osextended"		"macos64"
+		"metacritic_name"		"Crime Girl"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1568885495"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kyle Rodgers"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kyle Rodgers"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1537201617"
+		"community_hub_visible"		"1"
+		"gameid"		"916290"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+		}
+		"review_score"		"7"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"Kyle Rodgers"
+		"publisher"		"Kyle Rodgers"
+		"homepage"		"http://crimegirl.helixfox.com/"
+	}
+	"config"
+	{
+		"installdir"		"Crime Girl"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"crimegirl.exe"
+				"description"		"Game"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"crimegirl.app\\Contents\\MacOS\\crimegirl"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"crimegirl.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"916291"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2143320866091974859"
+					"size"		"187094950"
+					"download"		"66205712"
+				}
+			}
+		}
+		"916292"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2563484848342822798"
+					"size"		"193121283"
+					"download"		"67028640"
+				}
+			}
+		}
+		"916293"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7594459847246246214"
+					"size"		"197196685"
+					"download"		"67480880"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5538322"
+				"timeupdated"		"1600022722"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"HelixFox/CrimeGirl"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"HelixFox/crimegirl"
+						"replace"		"unity.helixfox.crimegirl"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"HelixFox/crimegirl"
+						"replace"		".config/unity3d/HelixFox/crimegirl"
+					}
+				}
+			}
+		}
+	}
+}
