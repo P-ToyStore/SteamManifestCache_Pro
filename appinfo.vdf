@@ -1,0 +1,212 @@
+"appinfo"
+{
+	"appid"		"528770"
+	"common"
+	{
+		"name"		"Twixel"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"e8e5825529814420fd9ed587fe3bc52d3c68c3ca"
+		"logo_small"		"e8e5825529814420fd9ed587fe3bc52d3c68c3ca_thumb"
+		"icon"		"56fa96e78056330ac692eb78150cb1bde256d41a"
+		"clienticon"		"cc90f79bdf2cab8890022a5fce39a92a08bc31a7"
+		"clienttga"		"431386e254ee8620cbe82a73c9a69bbef410e4d1"
+		"releasestate"		"released"
+		"metacritic_name"		"Twixel"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"25.43731778425655"
+				"height_pct"		"48.263888888888886"
+			}
+		}
+		"store_asset_mtime"		"1667184218"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Caesoose Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Self Published"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1479459082"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"528770"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4026"
+			"2"		"1773"
+			"3"		"3871"
+			"4"		"4094"
+			"5"		"4004"
+			"6"		"492"
+			"7"		"21"
+			"8"		"597"
+			"9"		"1664"
+			"10"		"5537"
+			"11"		"4975"
+			"12"		"4400"
+			"13"		"3839"
+			"14"		"4191"
+			"15"		"1662"
+			"16"		"8253"
+			"17"		"5125"
+			"18"		"4182"
+			"19"		"7481"
+		}
+		"review_score"		"7"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Caesoose Studios"
+		"publisher"		"Self Published"
+		"homepage"		"https://twixel.caesoose.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Twixel"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Twixel.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"Twixel.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"528771"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2376465812953576499"
+					"size"		"148988593"
+					"download"		"51116976"
+				}
+			}
+		}
+		"528772"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9102749967599843529"
+					"size"		"135929625"
+					"download"		"48495440"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1451946"
+				"timeupdated"		"1478816589"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Caesoose Studios/Twixel/"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Caesoose Studios/Twixel/"
+						"replace"		"Library/Application Support/Caesoose Studios/Twixel/"
+					}
+				}
+			}
+		}
+	}
+}
