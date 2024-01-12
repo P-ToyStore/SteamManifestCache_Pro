@@ -1,0 +1,168 @@
+"appinfo"
+{
+	"appid"		"374630"
+	"common"
+	{
+		"name"		"Mactabilis"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"3c1d856cb9bafa060ae750ad443ef107405c9451"
+		"logo_small"		"3c1d856cb9bafa060ae750ad443ef107405c9451_thumb"
+		"icon"		"320196e8e06f73252c7a120fc3fb50aa66874b54"
+		"clienttga"		"6f19301495dd94d974256a4a63f28e19c9cfc949"
+		"clienticon"		"1e3fbd94d4a689fb5c79cc0e8e8e1bfec56b5b81"
+		"metacritic_name"		"Mactabilis"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1666983221"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blazing Bit Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Blazing Bit Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_44"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1299744000"
+		"steam_release_date"		"1436547627"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"374630"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Blazing Bit Games"
+		"publisher"		"Blazing Bit Games"
+		"homepage"		"http://www.blazingbitgames.com/en/mactabilis"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Mactabilis"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mactabilis.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"374631"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5276735127000546838"
+					"size"		"233698556"
+					"download"		"82161632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"663339"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Game"
+				"pattern"		"*.cfg"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Game/savegames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
