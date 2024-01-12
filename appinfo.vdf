@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"347270"
+	"common"
+	{
+		"name"		"Knights of the Sky"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"logo"		"f97e8bcd2e5874f76ea274afef441db9220e0bf1"
+		"logo_small"		"f97e8bcd2e5874f76ea274afef441db9220e0bf1_thumb"
+		"icon"		"fa0062cc5bdf6a7917ae8ca36bb8eaa60e11338c"
+		"clienttga"		"fe3d15ca5c3ca34ad96ccc5ff93b47580d869039"
+		"clienticon"		"7de2cb8ba37fe82f67f329e33188e2493d1eaf3d"
+		"linuxclienticon"		"5cf991bfea43190fd45160767e67e5ae66570d83"
+		"releasestate"		"released"
+		"metacritic_name"		"Knights of the Sky"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1427411550"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1427907691"
+		"community_hub_visible"		"1"
+		"gameid"		"347270"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"19"
+			"2"		"5382"
+			"3"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"51"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Nightdive Studios"
+		"homepage"		"http://www.retroism.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/347270/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Knights of the Sky"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_kots.conf -conf dosbox_kots_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_kots.conf -conf dosbox_kots_launch_windows.conf -noconsole"
+				"description"		"Play Knights of the Sky in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_linux\\launch_kots_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_kots_game_daum.sh"
+				"description"		"Play Knights of the Sky in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"347271"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"980169433519739240"
+					"size"		"46514874"
+					"download"		"46679792"
+				}
+			}
+		}
+		"347272"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8821472278285880345"
+					"size"		"33873118"
+					"download"		"14265648"
+				}
+			}
+		}
+		"347273"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7414294055622549664"
+					"size"		"18198462"
+					"download"		"7905664"
+				}
+			}
+		}
+		"347274"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6510715096314263444"
+					"size"		"1184054"
+					"download"		"839504"
+				}
+			}
+		}
+		"347275"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4055545935568933697"
+					"size"		"1184054"
+					"download"		"839504"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"573868"
+			}
+		}
+	}
+}
