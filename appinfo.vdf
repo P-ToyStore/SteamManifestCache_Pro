@@ -1,0 +1,269 @@
+"appinfo"
+{
+	"appid"		"347230"
+	"common"
+	{
+		"name"		"1942: The Pacific Air War"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"cc51740114c65b465750050823cc61c74d0eba89"
+		"logo_small"		"cc51740114c65b465750050823cc61c74d0eba89_thumb"
+		"clienticon"		"989262cb756c167215cde1014ba7af230801d4f7"
+		"clienttga"		"fa7899f67f8885df90a032ea78cab751406b9470"
+		"icon"		"8290523a607ff937d35bed788e6197d7d3ae6c4f"
+		"linuxclienticon"		"aba3a46be12228c9b5c2f87eda8e30b99b1f57c3"
+		"clienticns"		"0f11eef18ea0388b236561940581f6c1ca8d2b45"
+		"releasestate"		"released"
+		"metacritic_name"		"1942: The Pacific Air War"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1427411577"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"757411200"
+		"steam_release_date"		"1427907648"
+		"community_hub_visible"		"1"
+		"gameid"		"347230"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"9"
+			"2"		"4150"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.atari.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/347230/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"1942 - The Pacific Air War"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_1942_TPAW.conf -conf dosbox_1942_TPAW_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_1942_TPAW.conf -conf dosbox_1942_TPAW_launch_windows.conf -noconsole"
+				"description"		"Play 1942: The Pacific Air War in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_1942_TPAW.conf -conf dosbox_1942_TPAW_config_windows.conf -noconsole"
+				"description"		"1942: The Pacific Air War - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\launch_1942_TPAW_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_1942_TPAW_game_daum.sh"
+				"description"		"Play 1942: The Pacific Air War in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\launch_1942_TPAW_config.sh"
+				"description"		"1942: The Pacific Air War - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"1942 - TPAW.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"347231"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3827009870735157886"
+					"size"		"2979849"
+					"download"		"2506784"
+				}
+			}
+		}
+		"347232"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1848726169116738485"
+					"size"		"33936031"
+					"download"		"14265392"
+				}
+			}
+		}
+		"347233"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8438524992532815177"
+					"size"		"18199698"
+					"download"		"7906464"
+				}
+			}
+		}
+		"347234"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1187502932193851905"
+					"size"		"20928939"
+					"download"		"13877840"
+				}
+			}
+		}
+		"347235"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3287808698042553876"
+					"size"		"20928939"
+					"download"		"13877840"
+				}
+			}
+		}
+		"347236"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5808284740831771033"
+					"size"		"55177102"
+					"download"		"38642688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"578512"
+			}
+		}
+	}
+}
