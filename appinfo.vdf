@@ -1,0 +1,261 @@
+"appinfo"
+{
+	"appid"		"533660"
+	"common"
+	{
+		"name"		"Ziggy's Chase"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"logo"		"630a0c6d22b53d284d12684766fa53533328fcb5"
+		"logo_small"		"630a0c6d22b53d284d12684766fa53533328fcb5_thumb"
+		"icon"		"5237448cc0032fd63d211a11fec1ff1a873a9489"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienttga"		"de93ec2ac067c101e8627185c1ef5ad8d66b42c4"
+		"clienticon"		"4b771d78ab16ed3122fd4b0bfb0db571966ea1c9"
+		"clienticns"		"e46cf91a2aab4e690feaa60f3bba25c629c9706a"
+		"linuxclienticon"		"f71a9baf77e22bc4f6c7ed7ef51c4d8d2e17541d"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1651536000"
+			"tested_build_id"		"1541170"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Ziggy's Chase"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"53.38389731621936"
+				"height_pct"		"68.23794823082403"
+			}
+		}
+		"store_asset_mtime"		"1667032815"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"phime studio LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"phime studio LLC"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1483430400"
+		"steam_release_date"		"1483035719"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"533660"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"21"
+			"3"		"597"
+			"4"		"21978"
+			"5"		"1625"
+			"6"		"5395"
+			"7"		"1664"
+			"8"		"5537"
+			"9"		"4191"
+			"10"		"4195"
+			"11"		"4305"
+			"12"		"4726"
+			"13"		"4252"
+			"14"		"1697"
+			"15"		"1719"
+			"16"		"5350"
+			"17"		"4136"
+			"18"		"7038"
+			"19"		"22955"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"developer"		"phime studio LLC"
+		"publisher"		"phime studio LLC"
+		"homepage"		"http://www.phime.com/games/ziggys-chase/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Ziggy's Chase"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ziggys_chase.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ziggys_chase.exe"
+				"arguments"		"-vroculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"ziggys_chase.exe"
+				"arguments"		"-vrvive"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"ziggys_chase.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"533661"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1465130136595607364"
+					"size"		"356145132"
+					"download"		"115579232"
+				}
+			}
+		}
+		"533662"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6123579371580819547"
+					"size"		"370614206"
+					"download"		"119105056"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1541170"
+				"timeupdated"		"1482770049"
+			}
+		}
+	}
+}
