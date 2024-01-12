@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"789880"
+	"common"
+	{
+		"name"		"Ghost Platoon"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"339f895ae5aadb63410b6f06d39511660e639720"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"icon"		"e1333721b0349211fdd2cc2453c4ae562dbbbe90"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"785ef47679c6144b6a4f86a835485e422eca3041"
+		"logo_small"		"785ef47679c6144b6a4f86a835485e422eca3041_thumb"
+		"metacritic_name"		"Ghost Platoon"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1563197935"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Polygon Art"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Toplitz Productions"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_49"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1527147591"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"789880"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3859"
+			"2"		"3839"
+		}
+		"review_score"		"4"
+		"review_percentage"		"34"
+	}
+	"extended"
+	{
+		"developer"		"Polygon Art"
+		"publisher"		"Toplitz Productions"
+	}
+	"config"
+	{
+		"installdir"		"Ghost Platoon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Launcher.exe"
+				"arguments"		"lan"
+				"description"		"LAN Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"789881"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6349477642424688179"
+					"size"		"5953372673"
+					"download"		"5827603472"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"closedbeta"
+				{
+					"gid"		"922FB9146D2B961FA93531E75BA46034"
+					"size"		"FE7E764769E8C6122CC81191A8D2B9E7"
+					"download"		"1AD2938BD31E20F3085E45F37FE9FCD6"
+				}
+				"submission"
+				{
+					"gid"		"2C7EBD63A85061E98464C54921B2DE38"
+					"size"		"859C9D32903E90B653251976331E16EE"
+					"download"		"6F4FA487B237FDF92EAFBD05E6534E89"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2727998"
+				"timeupdated"		"1526970711"
+			}
+			"closedbeta"
+			{
+				"buildid"		"2727998"
+				"pwdrequired"		"1"
+				"timeupdated"		"1524843026"
+			}
+			"submission"
+			{
+				"buildid"		"2727998"
+				"pwdrequired"		"1"
+				"timeupdated"		"1524843035"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"GhostPlatoon/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
