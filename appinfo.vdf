@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"578800"
+	"common"
+	{
+		"name"		"Phantom"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"49facafedee32a66ec325af0f0de64e62307fc14"
+		"logo_small"		"49facafedee32a66ec325af0f0de64e62307fc14_thumb"
+		"clienttga"		"9ad3a19993fff051b4f89b84d13bd9fc913875a3"
+		"clienticon"		"46ef4f7a357239a34a422d80807bd2e8bbef72f0"
+		"icon"		"38af000e94fe0ad54fa3a70c836d33d22a1719bf"
+		"metacritic_name"		"Phantom"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1496739708"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Phantomisreal Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Phantomisreal Ltd."
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1495954800"
+		"steam_release_date"		"1495913857"
+		"community_hub_visible"		"1"
+		"gameid"		"578800"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"493"
+			"2"		"21"
+			"3"		"492"
+			"4"		"3810"
+		}
+		"review_score"		"4"
+		"review_percentage"		"33"
+	}
+	"extended"
+	{
+		"developer"		"Phantomisreal Ltd."
+		"publisher"		"Phantomisreal Ltd."
+		"homepage"		"http://www.phantomisreal.com"
+	}
+	"config"
+	{
+		"installdir"		"Phantom"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ProjectPhantom.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"ProjectPhantom.exe"
+				"workingdir"		"\\WindowsNoEditor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"newphantom1"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,schinese"
+		"578801"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6427855348999328158"
+					"size"		"5796578778"
+					"download"		"2447296592"
+				}
+				"newphantom1"
+				{
+					"gid"		"5655750703319909418"
+					"size"		"7819396517"
+					"download"		"2628289376"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"newphantom"
+				{
+					"gid"		"EBD55ABEECC299E6C55729941DDC4015"
+					"size"		"0261BD7446B475792EA565B4B34DFC7C"
+					"download"		"844C81A1D798ADE9BA6AEA4D2ADC5956"
+				}
+			}
+		}
+		"workshopdepot"		"578800"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2035527"
+				"timeupdated"		"1502685836"
+			}
+			"newphantom"
+			{
+				"buildid"		"2385049"
+				"pwdrequired"		"1"
+				"timeupdated"		"1513751346"
+			}
+			"newphantom1"
+			{
+				"buildid"		"2501436"
+				"description"		"test only"
+				"timeupdated"		"1517921448"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ProjectPhantom/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ProjectPhantom/Saved/Screenshots/WindowsNoEditor"
+				"pattern"		"*.png"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
