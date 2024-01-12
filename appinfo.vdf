@@ -1,0 +1,283 @@
+"appinfo"
+{
+	"appid"		"559070"
+	"common"
+	{
+		"name"		"Zak McKracken and the Alien Mindbenders"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"559070_eula_0"
+				"name"		"Zak Mckracken and the Alien Mindbenders EULA"
+				"url"		"http://store.steampowered.com//eula/559070_eula_0"
+			}
+		}
+		"clienticon"		"1f14d9a9a3806d3faa4eae502f121804ea41d574"
+		"clienttga"		"cc28875ce41dbb4b7a00fbfb364764a5f2c3d882"
+		"icon"		"d68d7b63b9a528c9dcedf4e9504f67ba09649dc3"
+		"logo"		"7f90e3b2cdd95b1e8176120075e5a6f834a52588"
+		"logo_small"		"7f90e3b2cdd95b1e8176120075e5a6f834a52588_thumb"
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1670976000"
+			"tested_build_id"		"2562537"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"5"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"6"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Zak Mckracken and the Alien Mindbenders"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1541720351"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lucasfilm Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lucasfilm"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"568022400"
+		"steam_release_date"		"1542411108"
+		"community_hub_visible"		"1"
+		"gameid"		"559070"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"7782"
+			"2"		"1698"
+			"3"		"4004"
+			"4"		"6691"
+			"5"		"1693"
+			"6"		"1719"
+			"7"		"4182"
+			"8"		"3871"
+		}
+		"review_score"		"8"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"developer"		"Lucasfilm Games"
+		"publisher"		"Lucasfilm"
+	}
+	"config"
+	{
+		"installdir"		"Zak Mckracken"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ScummVM/scummvm.exe"
+				"arguments"		"-c zak.ini zak-fdd"
+				"workingdir"		"ScummVM"
+				"description"		"Original Floppy Edition"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ScummVM/scummvm.exe"
+				"arguments"		"-c zak.ini zak"
+				"workingdir"		"ScummVM"
+				"description"		"Enhanced Edition"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"ScummVM/scummvm"
+				"arguments"		"-c zak.ini zak-fdd"
+				"workingdir"		"ScummVM"
+				"description"		"Original Floppy Edition"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"ScummVM/scummvm"
+				"arguments"		"-c zak.ini zak"
+				"workingdir"		"ScummVM"
+				"description"		"Enhanced Edition"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"559071"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7795784703465757243"
+					"size"		"104182540"
+					"download"		"100417600"
+				}
+			}
+		}
+		"559072"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1923465606528969286"
+					"size"		"37830151"
+					"download"		"12744480"
+				}
+			}
+		}
+		"559074"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"432154592810667348"
+					"size"		"45323783"
+					"download"		"12652240"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2562537"
+				"timeupdated"		"1519786365"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"ScummVM/FDD"
+				"pattern"		"zak-fdd.s*"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"ScummVM/enhanced"
+				"pattern"		"zak.s*"
+			}
+		}
+	}
+}
