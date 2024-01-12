@@ -1,0 +1,302 @@
+"appinfo"
+{
+	"appid"		"205840"
+	"common"
+	{
+		"name"		"Yesterday"
+		"type"		"Game"
+		"clienticon"		"abb03f88460c23b484d99f9a8a3868d0e51c7e5d"
+		"clienttga"		"0ff9811ad3ce510db9235ad34ff27360f56db525"
+		"icon"		"9a53ba6109aa80acaa52978ac2dbadae4ea8d8a2"
+		"logo"		"4e434b2bf9a26f94cabb1c5e818882b3ed1728d4"
+		"logo_small"		"4e434b2bf9a26f94cabb1c5e818882b3ed1728d4_thumb"
+		"metacritic_name"		"Yesterday"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"62.023270846800244"
+				"height_pct"		"91.31944444444446"
+			}
+		}
+		"store_asset_mtime"		"1573048571"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Pendulo Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Focus Entertainment"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_41"		"1"
+			"category_42"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1332435600"
+		"metacritic_score"		"65"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/yesterday?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"205840"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"5716"
+			"3"		"4342"
+			"4"		"769306"
+			"5"		"1664"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Pendulo Studios"
+		"gamedir"		"Yesterday"
+		"homepage"		"http://yesterday-game.com/"
+		"icon"		""
+		"nodefaultenglishcontent"		"1"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"205841"
+		"sdk_notownedbydefault"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Focus Entertainment"
+	}
+	"config"
+	{
+		"installscriptsignature"		"1c6f17e6d9d3f3904d02781f36c2ddacb191a4b429147e9befe81b152f1822a9a230493bc19cfcb4fc791009354944f12bedacceedf58143561e0cd78490a8f17fd2fccdbf954b009e933b3d7cad16c75a5f24fe1a3457218122e9cbac98f63006174ef112d531a786989c39bb29ebf47dafef124e8a17b0bcce10f175417be7"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Yesterday"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Yesterday.exe"
+			}
+			"1"
+			{
+				"description"		"Configuration"
+				"executable"		"PSConfig.exe"
+			}
+		}
+		"steamcontrollertouchtemplateindex"		"1"
+		"steamcontrollertouchconfigdetails"
+		{
+			"2208419957"
+			{
+				"controller_type"		"controller_mobile_touch"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx 9.0c"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205840"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"openal"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205840"
+				"process 1"		"%INSTALLDIR%\\Redist\\oalinst.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"205841"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9014067023777921111"
+					"size"		"4119567604"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"885C3C01EA2C22D9853FE575606F85D0"
+					"size"		"A7E8A0733444F8C620B72F52D03F3D8B"
+					"download"		"9FFB2AE8A236548B2D9926E9D6FFF335"
+				}
+			}
+		}
+		"205842"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6675512025830270600"
+					"size"		"1249877722"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"D768F864B0150630A91A9A0B33CE4D81"
+					"size"		"79C0D132B739DC0C41D2FB6C068F548B"
+					"download"		"9FFB2AE8A236548B2D9926E9D6FFF335"
+				}
+			}
+		}
+		"205843"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"314279837033935846"
+					"size"		"254739483"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"C67A880BF42BB75216E9832FC338D681"
+					"size"		"E118188C1B0DCB3E2742247E5D17E145"
+					"download"		"9FFB2AE8A236548B2D9926E9D6FFF335"
+				}
+			}
+		}
+		"205844"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1447073949781547312"
+					"size"		"250978633"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"00A0AED86AD9D30D73447691E4524B47"
+					"size"		"2F26726B4D8070B774E1C2B65AA524CE"
+					"download"		"9FFB2AE8A236548B2D9926E9D6FFF335"
+				}
+			}
+		}
+		"205845"
+		{
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6064591334883525053"
+					"size"		"487838894"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"31DA2176EE3681284AD855F16F339197"
+					"size"		"6A5017859BED759FFD6C8AF2031CB316"
+					"download"		"9FFB2AE8A236548B2D9926E9D6FFF335"
+				}
+			}
+		}
+		"baselanguages"		""
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"46119"
+			}
+			"beta"
+			{
+				"buildid"		"46119"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
