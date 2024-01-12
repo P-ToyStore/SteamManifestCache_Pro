@@ -1,0 +1,919 @@
+"appinfo"
+{
+	"appid"		"770720"
+	"common"
+	{
+		"name"		"Hunt: Showdown (Test Server)"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"449b63e96d9563899399d7fc2461e77eeec71870"
+		"logo_small"		"449b63e96d9563899399d7fc2461e77eeec71870_thumb"
+		"icon"		"5b6e6df3d86da34a061ef77113483a54317b01e8"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"811af0a1f53d77319154d8bd0959714057e037b7"
+		"clienticon"		"9ac2aa2b6e6d3d98b05e32702a64d5e3e8b2d75a"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"turkish"		"1"
+		}
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"has_adult_content"		"1"
+		"metacritic_name"		"Hunt: Showdown (Test Server)"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"29.238885222487184"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1596201044"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"steam_release_date"		"1522940400"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"770720"
+		"store_tags"
+		{
+		}
+	}
+	"config"
+	{
+		"installdir"		"Hunt Showdown (Test Server)"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings stage_external +sys_dump_type 2"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testroom qa_testroom_2 backend_test rc_check"
+				}
+				"description_loc"
+				{
+					"english"		"PCSTG"
+				}
+				"description"		"PCSTG"
+			}
+			"9"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings blue +online_websvc_skip_tls_cert_validation 1"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testroom qa_testroom_2 latest"
+				}
+				"description_loc"
+				{
+					"english"		"MPQA1"
+				}
+				"description"		"MPQA1"
+			}
+			"11"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings mpQA +online_websvc_skip_tls_cert_validation 1 +sys_dump_type 2 +online_websvc_enable_tls 0"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testroom qa_testroom_2 latest latest_lwp current"
+				}
+				"description_loc"
+				{
+					"english"		"MPQA2"
+				}
+				"description"		"MPQA2"
+			}
+			"14"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings stage"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testroom qa_testroom_2 latest teamtest latest_lwp gamesweek scripted_tutorial"
+				}
+				"description_loc"
+				{
+					"english"		"STGDSN"
+				}
+				"description"		"STGDSN"
+			}
+			"16"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings stage_external +sys_dump_type 2 +lwp_authorizeToggling 1"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"lightweight_profiler\t"
+				}
+				"description_loc"
+				{
+					"english"		"lightweight_profiler\t"
+				}
+				"description"		"lightweight_profiler\t"
+			}
+			"24"
+			{
+				"executable"		"bin\\win_x64\\HuntGame.exe"
+				"arguments"		"+online_account_client_settings stage"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"controls_3.0"
+				}
+				"description_loc"
+				{
+					"english"		"controls_3.0"
+				}
+				"description"		"controls_3.0"
+			}
+			"25"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings blah -online_server frwp3hntdemosrv -online_server_port 61088 +sys_dump_type 3 +online_websvc_enable_tls 0"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testroom qa_testroom_2"
+				}
+				"description_loc"
+				{
+					"english"		"MPQA3"
+				}
+				"description"		"MPQA3"
+			}
+			"26"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings blah -online_server frwp4hntdemosrv -online_server_port 61088 +sys_dump_type 3 +online_websvc_enable_tls 0"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testroom qa_testroom_2"
+				}
+				"description_loc"
+				{
+					"english"		"MPQA4"
+				}
+				"description"		"MPQA4"
+			}
+			"27"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings blah -online_server frwp5hntdemosrv -online_server_port 61088 +sys_dump_type 3 +online_websvc_enable_tls 0"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testroom qa_testroom_2"
+				}
+				"description_loc"
+				{
+					"english"		"MPQA5"
+				}
+				"description"		"MPQA5"
+			}
+			"28"
+			{
+				"executable"		"bin\\win_x64\\HuntGame.exe"
+				"arguments"		"+online_account_client_settings blah -online_server frwp1hntdemosrv -online_server_port 61088 +sys_dump_type 3 +online_websvc_enable_tls 0"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testroom qa_testroom_2"
+				}
+				"description_loc"
+				{
+					"english"		"MPQA MAIN"
+				}
+				"description"		"MPQA MAIN"
+			}
+			"30"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings stage2 +sys_dump_type 3 +online_news_server_port 5011"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_testroom qa_testroom_2"
+				}
+				"description_loc"
+				{
+					"english"		"PCSTG2"
+				}
+				"description"		"PCSTG2"
+			}
+			"33"
+			{
+				"executable"		"bin\\win_x64_steam_release\\HuntGame.exe"
+				"arguments"		"+online_account_client_settings stage2"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"externalamd externalintel"
+				}
+				"description_loc"
+				{
+					"english"		"dev_engine"
+				}
+				"description"		"dev_engine"
+			}
+			"34"
+			{
+				"executable"		"hunt.exe"
+				"arguments"		"+online_account_client_settings stage"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"mkt_recording"
+				}
+				"description_loc"
+				{
+					"english"		"mkt_recording"
+				}
+				"description"		"mkt_recording"
+			}
+			"35"
+			{
+				"executable"		"bin\\win_x64\\HuntGame.exe"
+				"arguments"		"+online_account_client_settings stagealpha +sys_dump_type 2"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"alpha_test"
+				}
+				"description_loc"
+				{
+					"english"		"STGALPHA"
+				}
+				"description"		"STGALPHA"
+			}
+			"36"
+			{
+				"executable"		"bin\\win_x64_steam_release\\HuntGame.exe"
+				"arguments"		"+online_account_client_settings stage"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"dev_engine"
+				}
+				"description_loc"
+				{
+					"english"		"PCSTAGE"
+				}
+				"description"		"PCSTAGE"
+			}
+			"37"
+			{
+				"executable"		"bin\\win_x64\\HuntGame.exe"
+				"arguments"		"+online_account_client_settings stage"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"116_external"
+				}
+				"description_loc"
+				{
+					"english"		"116_external"
+				}
+				"description"		"116_external"
+			}
+			"38"
+			{
+				"executable"		"bin\\win_x64_steam_release\\HuntGame.exe"
+				"arguments"		"+online_account_client_settings stage2 +sys_dump_type 3 +online_news_server_port 5011"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ui_3.0"
+				}
+				"description_loc"
+				{
+					"english"		"ui_3.0"
+				}
+				"description"		"ui_3.0"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,schinese,russian,japanese,portuguese,polish,turkish"
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"770721"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1379893961315283906"
+					"size"		"584652560"
+					"download"		"406174832"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"116_external"
+				{
+					"gid"		"266C7FBBF2232E439A99E55499978623"
+					"size"		"B119D16FE3037203019D0841E7EA5F26"
+					"download"		"529571D7628CB2511E8DB4A87B1314DA"
+				}
+				"controls_3.0"
+				{
+					"gid"		"8C9E72B0690C7826AEA5EBD96B8C401A"
+					"size"		"AF8DE1A155DAFFD177AB574BD782AC57"
+					"download"		"C8D0DF3DD0362DC0DE222888764EA2F8"
+				}
+				"current"
+				{
+					"gid"		"DA7DF5C6E71168A3D0F12F44A3AA4F77"
+					"size"		"B9DF374B03E4B7E093203C8CC814FD45"
+					"download"		"C4C0194C1BEFB771FCDEC50CBC3F7569"
+				}
+				"dev_engine"
+				{
+					"gid"		"CD5C52EFEE637F723204596A0610065A"
+					"size"		"6E689DB41C90089CE32B488C7B9655F0"
+					"download"		"27AC2DCCB29DEDA95EEDA6EF182E4B7B"
+				}
+				"externalamd"
+				{
+					"gid"		"54A4450EC6A9C24A3B1167EADBD5A6A7"
+					"size"		"45C2D6D3B245AF5CCFDE11BFBE7617A6"
+					"download"		"E181915F1273235A821921F1FCF831E4"
+				}
+				"externalintel"
+				{
+					"gid"		"A58F9257AC46AE3635F44BE4BCA348BE"
+					"size"		"10ADDB4FC634D6EA402C788ACA8D16F5"
+					"download"		"C65879BAB13025B8B5DC283BD7A46D64"
+				}
+				"latest"
+				{
+					"gid"		"EF9F260B6E2892779F8AE090FBAD1097"
+					"size"		"BB3744E337A75617695C8B0FF7998CF8"
+					"download"		"FACEB6AFDA9416DD0C974776E4733143"
+				}
+				"latest_lwp"
+				{
+					"gid"		"C214D3D43772EB02626ABFC14CF443D2"
+					"size"		"60B34C48D3698DA373EDEE87A8E15814"
+					"download"		"8BD5B4E6D6E8E259EB33E6D6FCF650DB"
+				}
+				"lightweight_profiler"
+				{
+					"gid"		"C3A324B410E4F4F1B0FC831DE52FB1AD"
+					"size"		"1BEBFB012FDFE21B3E6593B4F72C5E30"
+					"download"		"A78EC255948EE38117BD4F760D425BCB"
+				}
+				"mkt_recording"
+				{
+					"gid"		"046C7258F3704322D967CAC9F3BBC258"
+					"size"		"1823EBF15CC7E1397B11A37A1AA8D0F9"
+					"download"		"13B36F11E4FC4306FBDB3C8DB22999FA"
+				}
+				"qa_testroom"
+				{
+					"gid"		"4D9890DFD23FE022EB2BCA9C577FD7D3"
+					"size"		"8BD4A12112973307AD53EC4220464653"
+					"download"		"E41DC1D70789624BDA477AA92E2ED699"
+				}
+				"qa_testroom_2"
+				{
+					"gid"		"4454B3EAC5511F31B4712AC2DC8B1243"
+					"size"		"2F33D335A888E4A2705523751BF1A59B"
+					"download"		"5D45F916F8BDEA23C22CE6F74A63BBEF"
+				}
+				"rc_check"
+				{
+					"gid"		"2A2DC4229247479EDE24A34F4E9EF20E"
+					"size"		"DC55918F63CAFDA7291F1C3084BD25AE"
+					"download"		"A7EF159135145FE057CA43B2916FB642"
+				}
+				"ui_3.0"
+				{
+					"gid"		"927F86DCE36EF842F05E2247CD942ADD"
+					"size"		"6BDFED1ECC91C02C4B70649CCBFA9350"
+					"download"		"5CB2B627748D84481E2ADF30952B95D2"
+				}
+			}
+		}
+		"770722"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8452020855376724922"
+					"size"		"49193337342"
+					"download"		"49572495680"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"116_external"
+				{
+					"gid"		"ED65C22BB7A90E09E36BECB9288E8B79"
+					"size"		"B65476D23A05D3264DC2342ABBC638DF"
+					"download"		"A1DB5589EA6CC4A65CAD235C6F45C81F"
+				}
+				"controls_3.0"
+				{
+					"gid"		"BD95353BD81E5A321658FFE9DD81E90A"
+					"size"		"20CCADDD707185AD81617839762CE175"
+					"download"		"2DAEC5BEA6CC8B4C4FABC89DF40C23F0"
+				}
+				"current"
+				{
+					"gid"		"A316A1068E37A1260F0A151702934E3D"
+					"size"		"E90B7A420DD4D4B5C3F2D5812396B008"
+					"download"		"76E1CEEC421CEB0C7E1CDB3E7E1FB60B"
+				}
+				"dev_engine"
+				{
+					"gid"		"0E384392A8918765FC0D1A14C697F371"
+					"size"		"F247B8A4F2B5FDD16F9ACE9F1A521AF2"
+					"download"		"9AD4005A9357F343C24EA1418E9A290B"
+				}
+				"externalamd"
+				{
+					"gid"		"6E802F8B5E75D541243377FD172210BF"
+					"size"		"F03F49A1D7BC0F1F310D4645E1537506"
+					"download"		"7E95F9CCB3362D63937345741669CD7A"
+				}
+				"externalintel"
+				{
+					"gid"		"73383AB8F2EDEDA4F34040C8CEFBF1B8"
+					"size"		"B8EA9DB70AB8EBC8A1ECEF0790E848A6"
+					"download"		"A4432F92B3248CC88FBFE482FB41A1FD"
+				}
+				"latest"
+				{
+					"gid"		"989CC5D9128B956446559A96793408A6"
+					"size"		"6D3EA62F8EEC76C7497DA3C93F06B096"
+					"download"		"FD0E3247C59F89196442FEA95FD03FB9"
+				}
+				"latest_lwp"
+				{
+					"gid"		"7680C8170C8522CE077AB4170762E0A5"
+					"size"		"A0D0425484C4019DDB5A117504A1D0E6"
+					"download"		"8993208C241E1D0CD6672F4E98DDEB7B"
+				}
+				"lightweight_profiler"
+				{
+					"gid"		"10478FBB64E90205B5B1B4A8A02542E4"
+					"size"		"6EEBD983291810C53D3264E8C26321FC"
+					"download"		"AB5E98F2E181B4A60AC738D165BEA5EA"
+				}
+				"mkt_recording"
+				{
+					"gid"		"88A9198E16A8FB0BF48AB131A732417A"
+					"size"		"B3F466752754CDF13490EF421A70CFF7"
+					"download"		"7713BD4486A701CBB4723E8336669B98"
+				}
+				"qa_testroom"
+				{
+					"gid"		"A51EDBBB06C1F4328C56CF6B814DC02C"
+					"size"		"C1B62DBE7A1485180397E1F2EFD13893"
+					"download"		"45A1F89D68B1B7D4BEDBCE6659B37B17"
+				}
+				"qa_testroom_2"
+				{
+					"gid"		"8E9BEAAD346B00E342F50837EEDF6DC6"
+					"size"		"9A64A927910127533D2F292B9C4F4DC5"
+					"download"		"69170133367650CB667A8CADF298CFCC"
+				}
+				"rc_check"
+				{
+					"gid"		"B46FD36C539A99840B81078264408A13"
+					"size"		"8B871587944F0E2CDA390EC91AE09376"
+					"download"		"F49FAEEF2DAB76A5FA3F07AFF358375C"
+				}
+				"ui_3.0"
+				{
+					"gid"		"17BC26DD6F4A9BE3F523E552CBADA695"
+					"size"		"D7432D5A6F857D9C59E1F65B0D345975"
+					"download"		"C0D71C31A10C07C58732021A42ABE72B"
+				}
+			}
+		}
+		"770723"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3620962067508636958"
+					"size"		"170593326"
+					"download"		"171683968"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"116_external"
+				{
+					"gid"		"C23386CAA21E5427748AE8FDF44BD22A"
+					"size"		"063A6460106FEECF22D60AE989285F26"
+					"download"		"0D65CE05E55936EEB185F31E9AD1B345"
+				}
+				"controls_3.0"
+				{
+					"gid"		"972CF30DC9BC481B1DD74B51592A8579"
+					"size"		"2EFECE07014C4FEC97A7BF7A1EBAF578"
+					"download"		"F7EB730903A6C9714DCCE57549C405DD"
+				}
+				"current"
+				{
+					"gid"		"71252CFCAA92D4591DD9FF085ECC8E3E"
+					"size"		"F05C0782794E60181D0AF73195A07B58"
+					"download"		"F768787A93D5DFF601F76D84B6194099"
+				}
+				"dev_engine"
+				{
+					"gid"		"42E4043D608850B03F6DCFF1DAA7FDC9"
+					"size"		"3DC5A0CDCCC90981FDEEED7C8F21FF21"
+					"download"		"1738BA92E64D5B5531CBEE0720E0F756"
+				}
+				"externalamd"
+				{
+					"gid"		"546F7AC30FF1CACDEC33C76CD05BB4AB"
+					"size"		"2BA0B89E2EC0ED1C702E40B6D03CE1D4"
+					"download"		"96CC498D36DA3AD23D5C5516A25CE29D"
+				}
+				"externalintel"
+				{
+					"gid"		"7926897376A070AD96DF2FE139382D3D"
+					"size"		"9236AC638C1BCE23E87977C9D2634912"
+					"download"		"B7D53A9B597372A9332CFD3474FC7ACC"
+				}
+				"latest"
+				{
+					"gid"		"EB0B1B493ED6523F3CA258A28046F492"
+					"size"		"071579598E7117A356307DBA891A89FD"
+					"download"		"A874510837FE7931EECC1778E54C8CE6"
+				}
+				"latest_lwp"
+				{
+					"gid"		"67DB44220F57E40CF4CB3BF4557C90F2"
+					"size"		"05B22740E30AB5B449ECA1C0A3FAA077"
+					"download"		"7560448C5F5D9E19A8A93BCA048A02FB"
+				}
+				"lightweight_profiler"
+				{
+					"gid"		"2FF5FC7C4ABF19E01BA991FC25D32620"
+					"size"		"E779111171969E27383E5D060A97B574"
+					"download"		"D189C6555978377A933A37139E87CC00"
+				}
+				"mkt_recording"
+				{
+					"gid"		"6C14583E21FE5A3A6AC69F8602486F8B"
+					"size"		"89197E38F8D59EBD1B2A640BDE400FA8"
+					"download"		"27A9FE6D793F62E7CA528B2277E13EE2"
+				}
+				"qa_testroom"
+				{
+					"gid"		"782EA08C8F3171CD4346386DE34AD4A6"
+					"size"		"A72523CD48F8E9E7ADCF4A3BD2BAE944"
+					"download"		"BDB1E60C5F2633C66544ABAECB80DF84"
+				}
+				"qa_testroom_2"
+				{
+					"gid"		"E245904B7CA9D4F7E993F18913DDCE53"
+					"size"		"9189BB4C5AF17B223AE593E887A8F132"
+					"download"		"06662689A067CFB805BD6FE85B432E26"
+				}
+				"rc_check"
+				{
+					"gid"		"FE6098B1C2CFDC0769CBEB278F15A7D5"
+					"size"		"AD1E680C97A49BC9D22B59C57C003E14"
+					"download"		"5D0277CE4BB9766DDA7DA0F719BFE727"
+				}
+				"ui_3.0"
+				{
+					"gid"		"6AA5BB8ED351480B0E71A73BA2E36131"
+					"size"		"E84DEA1BC886E8E971A8D90D2D08BE36"
+					"download"		"CCCD2E9913425D1283F68C4ADD68A8C2"
+				}
+			}
+		}
+		"770724"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1633632636785229434"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"116_external"
+				{
+					"gid"		"6CC29B19A6100FDD1B05ED3C037630A9"
+					"size"		"92E0B86D153B9D4EAB0B4456CF243BD9"
+					"download"		"92E0B86D153B9D4EAB0B4456CF243BD9"
+				}
+				"controls_3.0"
+				{
+					"gid"		"34FBE1FAEC2808EF09CD6194DF3F228A"
+					"size"		"51974CBA47ECFE42AF69E5886E06E9DC"
+					"download"		"51974CBA47ECFE42AF69E5886E06E9DC"
+				}
+				"current"
+				{
+					"gid"		"6B79E0632F06FA48440FD6EE2D335D2F"
+					"size"		"F2BFA34734FC054F15A06024F6174AE7"
+					"download"		"F2BFA34734FC054F15A06024F6174AE7"
+				}
+				"dev_engine"
+				{
+					"gid"		"84AB10A889F411BE812EF23EB004E143"
+					"size"		"76DABE926F9771D30B8BA362B020A74A"
+					"download"		"76DABE926F9771D30B8BA362B020A74A"
+				}
+				"externalamd"
+				{
+					"gid"		"70723192E522881EF560BD3365375D9F"
+					"size"		"AE39D17DDB49035570C99C6EADAC69A5"
+					"download"		"AE39D17DDB49035570C99C6EADAC69A5"
+				}
+				"externalintel"
+				{
+					"gid"		"9BF67B3700C66534408F7DE98FFC8C3B"
+					"size"		"DC0C920AE90D53C173BECA43237A25DD"
+					"download"		"DC0C920AE90D53C173BECA43237A25DD"
+				}
+				"latest"
+				{
+					"gid"		"C091CA544879CC3B65DD35D50ADD0586"
+					"size"		"8B17FFA7D78F55908B9538F784D3F1F6"
+					"download"		"8B17FFA7D78F55908B9538F784D3F1F6"
+				}
+				"latest_lwp"
+				{
+					"gid"		"ED980F3A0B5F378C9752CBEB71E0C553"
+					"size"		"21721918DB608A3BD4569558BE2D8F93"
+					"download"		"21721918DB608A3BD4569558BE2D8F93"
+				}
+				"lightweight_profiler"
+				{
+					"gid"		"1B14BA5A057DA4A42F73423ABB4595D4"
+					"size"		"DA9B70B6CD84EE69B2D4D89A0D8806B3"
+					"download"		"DA9B70B6CD84EE69B2D4D89A0D8806B3"
+				}
+				"mkt_recording"
+				{
+					"gid"		"C0AAE81E409C16EFCF43F81EB1214DE4"
+					"size"		"CEFC0B4549C6DD8E5B14B80C0A9154F0"
+					"download"		"CEFC0B4549C6DD8E5B14B80C0A9154F0"
+				}
+				"qa_testroom"
+				{
+					"gid"		"F09F7E6BE447D6D4239B8B3D2F5742B0"
+					"size"		"D5035BBD8FB1259BAF1B79895E6F73FC"
+					"download"		"D5035BBD8FB1259BAF1B79895E6F73FC"
+				}
+				"qa_testroom_2"
+				{
+					"gid"		"F9A617478A2E7DBC7BDE427361999F77"
+					"size"		"710CC5677DD8A9052796174425433B94"
+					"download"		"710CC5677DD8A9052796174425433B94"
+				}
+				"rc_check"
+				{
+					"gid"		"59E6D44DAD37B856D6BCF5390EB943E8"
+					"size"		"DA1CCEFBC6EBADDA9882B5712A56EE4D"
+					"download"		"DA1CCEFBC6EBADDA9882B5712A56EE4D"
+				}
+				"ui_3.0"
+				{
+					"gid"		"6C23158A99E1EEF59D92FFF44D5E2501"
+					"size"		"A09FDD471B2948789F26426A52AF82B3"
+					"download"		"A09FDD471B2948789F26426A52AF82B3"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11405781"
+				"timeupdated"		"1686560547"
+			}
+			"116_external"
+			{
+				"buildid"		"13091990"
+				"pwdrequired"		"1"
+				"timeupdated"		"1704442206"
+			}
+			"controls_3.0"
+			{
+				"buildid"		"12283837"
+				"pwdrequired"		"1"
+				"timeupdated"		"1695718281"
+			}
+			"current"
+			{
+				"buildid"		"12085700"
+				"pwdrequired"		"1"
+				"timeupdated"		"1693833487"
+			}
+			"dev_engine"
+			{
+				"buildid"		"13088546"
+				"pwdrequired"		"1"
+				"timeupdated"		"1704357786"
+			}
+			"externalamd"
+			{
+				"buildid"		"12813382"
+				"pwdrequired"		"1"
+				"timeupdated"		"1701269830"
+			}
+			"externalintel"
+			{
+				"buildid"		"12813382"
+				"pwdrequired"		"1"
+				"timeupdated"		"1701698611"
+			}
+			"latest"
+			{
+				"buildid"		"13149849"
+				"pwdrequired"		"1"
+				"timeupdated"		"1705001824"
+			}
+			"latest_lwp"
+			{
+				"buildid"		"12727337"
+				"pwdrequired"		"1"
+				"timeupdated"		"1700499531"
+			}
+			"lightweight_profiler"
+			{
+				"buildid"		"12871297"
+				"pwdrequired"		"1"
+				"timeupdated"		"1701710563"
+			}
+			"mkt_recording"
+			{
+				"buildid"		"12823743"
+				"pwdrequired"		"1"
+				"timeupdated"		"1701769203"
+			}
+			"qa_testroom"
+			{
+				"buildid"		"13011996"
+				"pwdrequired"		"1"
+				"timeupdated"		"1704184322"
+			}
+			"qa_testroom_2"
+			{
+				"buildid"		"13082218"
+				"pwdrequired"		"1"
+				"timeupdated"		"1704701677"
+			}
+			"rc_check"
+			{
+				"buildid"		"13002116"
+				"pwdrequired"		"1"
+				"timeupdated"		"1703061671"
+			}
+			"ui_3.0"
+			{
+				"buildid"		"13122617"
+				"pwdrequired"		"1"
+				"timeupdated"		"1704896853"
+			}
+		}
+	}
+}
