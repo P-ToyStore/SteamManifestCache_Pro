@@ -1,0 +1,193 @@
+"appinfo"
+{
+	"appid"		"296530"
+	"common"
+	{
+		"name"		"Coldfire Keep"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"cf3a5ac8f746bc2cc7f7719197e2a7442aa4b954"
+		"logo_small"		"cf3a5ac8f746bc2cc7f7719197e2a7442aa4b954_thumb"
+		"icon"		"49d15269a212c087abb6ff5c1831a06373aa8b88"
+		"clienticns"		"f89712002f03b3e32ff6a46432f7e84b5729936f"
+		"clienticon"		"d8df6ccc4d0b8ce44a428c9846262bb617b60b25"
+		"clienttga"		"4797300584cf23a3eceebfbe210b1e352b167c3c"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1694217600"
+			"tested_build_id"		"271586"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Coldfire Keep"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1399512704"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Steve Jarman"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Steve Jarman"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1399666920"
+		"community_hub_visible"		"1"
+		"gameid"		"296530"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1720"
+			"2"		"3839"
+			"3"		"7569"
+			"4"		"10695"
+		}
+		"review_score"		"5"
+		"review_percentage"		"41"
+	}
+	"extended"
+	{
+		"developer"		"Steve Jarman"
+		"publisher"		"Steve Jarman"
+		"homepage"		"http://www.stevejarman.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Coldfire Keep"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ColdfireKeep.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ColdfireKeep.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"296531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2441075468235230802"
+					"size"		"425702071"
+					"download"		"0"
+				}
+			}
+		}
+		"296532"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6475616936917902614"
+					"size"		"444641685"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"271586"
+			}
+		}
+	}
+}
