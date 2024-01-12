@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"358220"
+	"common"
+	{
+		"name"		"Mystic Towers"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"7dabe8b721c2c4de4211663061fe8d42b1663132"
+		"logo_small"		"7dabe8b721c2c4de4211663061fe8d42b1663132_thumb"
+		"clienticon"		"2186b4ed57bd0db9edbfc2cab7ef5ad45cce0149"
+		"clienttga"		"6715749fbacdda3551cebe631d9fa84c2f348e62"
+		"icon"		"c1ab25e699e1094ad6ecd306647c09a8b1238ca4"
+		"oslist"		"windows,macos"
+		"metacritic_name"		"Mystic Towers"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"57.70128354725787"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1695977561"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Animation F/X"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"774255600"
+		"steam_release_date"		"1399309260"
+		"community_hub_visible"		"1"
+		"gameid"		"358220"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"developer"		"Animation F/X"
+		"publisher"		"3D Realms"
+		"homepage"		"https://3drealms.com/catalog/mystic-towers_11/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358220/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Mystic Towers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mystic Towers\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\TOWERS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Mystic Towers\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Mystic Towers.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox.app"
+				"arguments"		"-conf \"..\\TOWERS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6719183633406310845"
+					"size"		"32549763"
+					"download"		"13237296"
+				}
+			}
+		}
+		"358222"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2460463607683390638"
+					"size"		"40041795"
+					"download"		"14790672"
+				}
+			}
+		}
+		"358223"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"997624455431978383"
+					"size"		"12572262"
+					"download"		"5329440"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606139"
+			}
+		}
+	}
+}
