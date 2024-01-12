@@ -1,0 +1,188 @@
+"appinfo"
+{
+	"appid"		"410970"
+	"common"
+	{
+		"name"		"Master of Orion 1"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"9c41bd88548a95282ce5144b8ea831d3ffe0022b"
+		"logo_small"		"9c41bd88548a95282ce5144b8ea831d3ffe0022b_thumb"
+		"clienticon"		"22df888c204d066adc7a4635b077bba374a77426"
+		"clienttga"		"6965294615fbf3fb8ea52e65d56eb32d63d44016"
+		"icon"		"54e56168538e320f58c49084ecb96fecfbd3b2e1"
+		"releasestate"		"released"
+		"clienticns"		"db5ad75062434d6491446e9efa77d5f035c14229"
+		"linuxclienticon"		"07c2202e765dd1ff30fb0b3943256039fabbad55"
+		"metacritic_name"		"Master of Orion 1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1690552892"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SimTex"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Wargaming Labs"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"848649600"
+		"steam_release_date"		"1456423980"
+		"community_hub_visible"		"1"
+		"gameid"		"410970"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1670"
+			"2"		"1677"
+			"3"		"1755"
+			"4"		"1693"
+			"5"		"3942"
+			"6"		"4182"
+			"7"		"1741"
+			"8"		"3871"
+		}
+		"review_score"		"8"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"SimTex"
+		"publisher"		"Wargaming Labs"
+		"homepage"		"http://www.masteroforion.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Master of Orion 1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX\\DOSBox.exe"
+				"arguments"		"-conf \"..\\dosboxMOO1.conf\" -conf \"..\\dosboxMOO1_single.conf\" -noconsole -c exit"
+				"workingdir"		"DOSBOX"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"start.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Master Of Orion.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"410971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"372432768093126995"
+					"size"		"27206464"
+					"download"		"13067984"
+				}
+			}
+		}
+		"410972"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5325898221705807342"
+					"size"		"25551516"
+					"download"		"9844432"
+				}
+			}
+		}
+		"410973"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3877861801719203600"
+					"size"		"23835300"
+					"download"		"8793392"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1251145"
+				"timeupdated"		"1470995829"
+			}
+		}
+	}
+}
