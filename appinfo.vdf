@@ -1,0 +1,291 @@
+"appinfo"
+{
+	"appid"		"329660"
+	"common"
+	{
+		"name"		"Silent Service"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"a144bc8912fa73b429a5ba48bc1c1714d35ac162"
+		"logo"		"65beffce966ba16d0f135c562513c7117c6afad0"
+		"logo_small"		"65beffce966ba16d0f135c562513c7117c6afad0_thumb"
+		"clienticon"		"557ad108996e63232b74b91fb8a2c5e0d3acbc40"
+		"clienttga"		"5dcc4abcdecd335f7697e7ccabdc26aa30d37fb5"
+		"icon"		"31f9bf768db3763b0d92c537a776e0fac32fba87"
+		"metacritic_name"		"Silent Service"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1415133817"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"473414400"
+		"steam_release_date"		"1415300400"
+		"community_hub_visible"		"1"
+		"gameid"		"329660"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"19780"
+			"2"		"4004"
+			"3"		"6910"
+		}
+		"review_score"		"5"
+		"review_percentage"		"58"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.retroism.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/329660/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Silent Service"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_silentservice.conf -conf dosbox_silentservice_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_silentservice.conf -conf dosbox_silentservice_launch_windows.conf -noconsole"
+				"description"		"Play Silent Service in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Silent Service.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\launch_silentservice_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_silentservice_game_daum.sh"
+				"description"		"Play Silent Service in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"329661"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"447261095387691305"
+					"size"		"8188960"
+					"download"		"7785568"
+				}
+				"beta"
+				{
+					"gid"		"447261095387691305"
+					"size"		"8188960"
+					"download"		"7785568"
+				}
+			}
+		}
+		"329662"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4084486831257562865"
+					"size"		"18522138"
+					"download"		"9637984"
+				}
+				"beta"
+				{
+					"gid"		"4084486831257562865"
+					"size"		"18522138"
+					"download"		"9637984"
+				}
+			}
+		}
+		"329663"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4019702490372375644"
+					"size"		"34439126"
+					"download"		"24766800"
+				}
+				"beta"
+				{
+					"gid"		"4019702490372375644"
+					"size"		"34439126"
+					"download"		"24766800"
+				}
+			}
+		}
+		"329664"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6269059210920562050"
+					"size"		"17455914"
+					"download"		"8683312"
+				}
+				"beta"
+				{
+					"gid"		"6269059210920562050"
+					"size"		"17455914"
+					"download"		"8683312"
+				}
+			}
+		}
+		"329665"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8163353926222299298"
+					"size"		"241696"
+					"download"		"85632"
+				}
+				"beta"
+				{
+					"gid"		"8163353926222299298"
+					"size"		"241696"
+					"download"		"85632"
+				}
+			}
+		}
+		"329666"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6537184652582147003"
+					"size"		"241696"
+					"download"		"85632"
+				}
+				"beta"
+				{
+					"gid"		"6537184652582147003"
+					"size"		"241696"
+					"download"		"85632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"466782"
+			}
+			"beta"
+			{
+				"buildid"		"466782"
+			}
+		}
+	}
+}
