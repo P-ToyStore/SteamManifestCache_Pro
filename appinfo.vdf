@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"921710"
+	"common"
+	{
+		"name"		"Galaxy Squad"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"6b63a418fd65431012924e9849a5568a354b4421"
+		"logo_small"		"6b63a418fd65431012924e9849a5568a354b4421_thumb"
+		"icon"		"a7e9ef4caf373e03f3651690b0b6d5da1cfc27c1"
+		"clienttga"		"c45f9beb626e7da1936fc7496f81f21867c6bbcc"
+		"clienticon"		"263ef77ea07fc8741abe3288c821d8a7848ecab3"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"metacritic_name"		"Galaxy Squad"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"35.78360039445579"
+				"height_pct"		"79.88527946034412"
+			}
+		}
+		"store_asset_mtime"		"1667014010"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kazakov Oleg"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kazakov Oleg"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1563233013"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"921710"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"14139"
+			"2"		"1755"
+			"3"		"4325"
+			"4"		"1741"
+			"5"		"3942"
+			"6"		"1708"
+			"7"		"492"
+			"8"		"4711"
+			"9"		"4747"
+			"10"		"5125"
+			"11"		"3959"
+			"12"		"4295"
+			"13"		"1673"
+			"14"		"4190"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"Kazakov Oleg"
+		"publisher"		"Kazakov Oleg"
+	}
+	"config"
+	{
+		"installdir"		"Galaxy Squad"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Galaxy Squad.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Galaxy Squad.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"workshopdepot"		"921710"
+		"921711"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6832673117673550475"
+					"size"		"1257494203"
+					"download"		"291228432"
+				}
+			}
+		}
+		"921712"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6303942054785173221"
+					"size"		"1281897709"
+					"download"		"302707360"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4638208"
+				"timeupdated"		"1580782111"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Oleg Kazakov/Galaxy Squad"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Oleg Kazakov/Galaxy Squad"
+						"replace"		".config/unity3d/Oleg Kazakov/Galaxy Squad"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Oleg Kazakov/Galaxy Squad"
+						"replace"		"Oleg Kazakov/Galaxy Squad"
+					}
+				}
+			}
+		}
+	}
+}
