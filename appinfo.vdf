@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"200370"
+	"common"
+	{
+		"name"		"A Game of Dwarves"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"clienticon"		"49046123093677863e54010944b48b0af946d3d7"
+		"clienttga"		"918b9a61297ac87d6bfa81859e8b700f8bad2b7a"
+		"icon"		"9a115d224766a28927625499f213bcc13b242027"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"200370_eula_0"
+				"name"		"A Game of Dwarves EULA"
+				"url"		"https://store.steampowered.com//eula/200370_eula_0"
+				"version"		"1"
+			}
+		}
+		"metacritic_name"		"A Game of Dwarves"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"66.7181192115887"
+			}
+		}
+		"store_asset_mtime"		"1669649412"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zeal Game Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paradox Interactive"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+		}
+		"metacritic_score"		"60"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/a-game-of-dwarves?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"200370"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"597"
+			"2"		"4328"
+			"3"		"1684"
+			"4"		"1643"
+			"5"		"599"
+			"6"		"1702"
+			"7"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"63"
+	}
+	"extended"
+	{
+		"developer"		"Zeal Game Studio"
+		"gamedir"		"Project Bodyguard"
+		"homepage"		"http://www.agameofdwarves.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"launcheula"		"http://store.steampowered.com/eula/215140_eula"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp200370\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"200371"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"supportscdkeycopytoclipboard"		"1"
+		"publisher"		"Paradox Interactive"
+		"listofdlc"		"222220,222221,222222,222223,222224,222225"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installscriptsignature"		"3d7f0d726bf6010f2166ca3b742e14518936e73f493ae61412e4e65543595779b6d818bcbc148795eddb58e17ed27d4e4189159551523f37ddffaf22686404b6db593ac5c98c7eed2e535ebcf9d6ffc2bb20d019e16bcc8fe3373aa23a31f607d440cc818feeb5b65283918b0926181f9a61e2bd4ebc0f532de68e48f423e2c3"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"A Game of Dwarves.exe"
+				"arguments"		"-bundle-dir ."
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"A Game of Dwarves"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\200370"
+				"process 1"		"%INSTALLDIR%\\_depend\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\200370"
+				"process 1"		"%INSTALLDIR%\\_depend\\DirectX Feb 2010\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"200371"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4795745236972831083"
+					"size"		"1668441985"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"darkmodetest"
+				{
+					"gid"		"93A7554689BBE58668A8C4FF9023FB2E"
+					"size"		"588CA061722C0CD60E88FFEDC4BA1E9E"
+					"download"		"41FCB20AE86AC51B36CF13866FC77671"
+				}
+				"test"
+				{
+					"gid"		"89C21D5DF879CB92C755D8D67D359E98"
+					"size"		"C075BFA824FD8677453056920867289F"
+					"download"		"7FE2DA9FBE452E5FF0690585CBB808C6"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"31540"
+			}
+			"darkmodetest"
+			{
+				"buildid"		"25293"
+				"pwdrequired"		"1"
+			}
+			"test"
+			{
+				"buildid"		"31540"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"500"
+	}
+}
