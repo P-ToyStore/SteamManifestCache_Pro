@@ -1,0 +1,250 @@
+"appinfo"
+{
+	"appid"		"410540"
+	"common"
+	{
+		"name"		"Starlord"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"logo"		"24bae4ba3be42915f8a0b6ee7433ec9d15d304c7"
+		"logo_small"		"24bae4ba3be42915f8a0b6ee7433ec9d15d304c7_thumb"
+		"clienticon"		"87dff1e1578647cf8cd2f2c446f11931dea67992"
+		"clienttga"		"78f0fe3eaf73792d2f1dc070818d9a0828987712"
+		"icon"		"970f4a804fe24f4a30be13956f461fc72932fe13"
+		"linuxclienticon"		"c8e0de0ad9c3535326348a8c733f898e4b12fc1e"
+		"releasestate"		"released"
+		"metacritic_name"		"Starlord"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1447283888"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Third Millenium Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"full_audio"		"true"
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"725875200"
+		"steam_release_date"		"1447437569"
+		"community_hub_visible"		"1"
+		"gameid"		"410540"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Third Millenium Software"
+		"publisher"		"Atari"
+		"homepage"		"http://www.retroism.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/410540/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Starlord"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_starlord.conf -conf dosbox_starlord_launch_windows.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"Play Starlord"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_starlord.conf -conf dosbox_starlord_launch_windows.conf -noconsole"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"description"		"Play Starlord in DOSBox Daum"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_starlord.conf -conf dosbox_starlord_config_windows.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"Starlord - Configuration"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\launch_starlord_game.sh"
+				"workingdir"		"dosbox_linux\\"
+				"description"		"Play Starlord"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_starlord_game_daum.sh"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"description"		"Play Starlord in DOSBox Daum"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\launch_starlord_config.sh"
+				"workingdir"		"dosbox_linux\\"
+				"description"		"Play Starlord in DOSBox Daum"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"410541"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4103600156402186586"
+					"size"		"5148378"
+					"download"		"4404384"
+				}
+			}
+		}
+		"410542"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5174836878760101241"
+					"size"		"29656918"
+					"download"		"12765552"
+				}
+			}
+		}
+		"410543"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5931343452014524956"
+					"size"		"17998780"
+					"download"		"7833248"
+				}
+			}
+		}
+		"410544"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"750769002271670944"
+					"size"		"7927618"
+					"download"		"4765760"
+				}
+			}
+		}
+		"410545"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7935718407563419641"
+					"size"		"7927618"
+					"download"		"4765760"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"854962"
+			}
+		}
+	}
+}
