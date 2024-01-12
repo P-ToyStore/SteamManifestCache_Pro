@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"547210"
+	"common"
+	{
+		"name"		"Sullen"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"4b03d2dbeec032adad4b2fc6215c3841612fb76e"
+		"logo_small"		"4b03d2dbeec032adad4b2fc6215c3841612fb76e_thumb"
+		"icon"		"4a29dd3095ef4b41bd094ce63c4b71c32b9fa086"
+		"clienticon"		"a4bea354a8c3a0a18fc9d8a1bbd34cb446b06f52"
+		"clienttga"		"b24ae2e15b3b0e316f64d9d6a6e223092c40e988"
+		"linuxclienticon"		"0e3e6977a4c95734340a1f69c394b287a1957431"
+		"clienticns"		"5c56dbd6ef9c877b9e0eb9da82dc3c52003fb7cb"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1687392000"
+			"tested_build_id"		"1635863"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"3"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-3"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"metacritic_name"		"Sullen"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1487006056"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Chris Charbonneau"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Chris Charbonneau"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1482334827"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"547210"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"developer"		"Chris Charbonneau"
+		"publisher"		"Chris Charbonneau"
+	}
+	"config"
+	{
+		"installdir"		"Sullen"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Sullen.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Contents/MacOS/Sullen"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Sullen"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"547211"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1767549859327034891"
+					"size"		"199848808"
+					"download"		"135646544"
+				}
+			}
+		}
+		"547212"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9009746712362752225"
+					"size"		"209480631"
+					"download"		"136455808"
+				}
+			}
+		}
+		"547213"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3607009649488123797"
+					"size"		"198503048"
+					"download"		"133295008"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1635863"
+				"timeupdated"		"1487253556"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000"
+		"maxnumfiles"		"33"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
