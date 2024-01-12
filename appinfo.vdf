@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"94600"
+	"common"
+	{
+		"name"		"Hector: Ep 1"
+		"clienticon"		"287eeabea5675bc506bb88b65bda1e0a7636682e"
+		"clienttga"		"26b746fadeafaeb5e3c18a0e5488e17a95b1666a"
+		"icon"		"aa0a113e80b8cdeff47a523a87dd2fad1f43d73e"
+		"logo"		"fae3324a5c43647dda98be23bf1db4480c031273"
+		"logo_small"		"fae3324a5c43647dda98be23bf1db4480c031273_thumb"
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"metacritic_name"		"Hector: Episode 1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"34.29502469177277"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1686748273"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Telltale"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Telltale"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"94600"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+			"2"		"19"
+			"3"		"4182"
+			"4"		"1742"
+			"5"		"1698"
+			"6"		"5923"
+			"7"		"5613"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Telltale"
+		"gamedir"		"Hector Episode 1"
+		"homepage"		"https://www.telltale.com/"
+		"icon"		""
+		"installscriptosx"		"Hector101.app\\installscript_osx.vdf"
+		"installscript_macos"		"Hector101.app\\installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"94601"
+		"primarycache_mac"		"94602"
+		"primarycache_macos"		"94602"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Telltale"
+	}
+	"config"
+	{
+		"installscriptsignature"		"070662f155653303205774f1b09cb5caf60e1ffe23956584b6fa4cee5f7a263dd96b468d790640cd697292ab235750ac3b34159ad72dac3352d570444d858a9eb853c7bc88dcac483b6081005df03d210b7c4ad2029be4633320408d5412933ed9051e77eb1dac5e8ddbdee97ae7227ffd73607b17020dec2454772ec880fabd"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Hector Episode 1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Hector101.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Hector101.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\software\telltale games\hector101.exe"
+			{
+				"string"
+				{
+					"distribution"		"Telltale"
+					"franchise"		"Hector100"
+					"install location"		"%INSTALLDIR%\\"
+					"manual"		"Manual.pdf"
+					"readme"		"Readme.txt"
+					"savegamefoldername"		"Hector Episode 1"
+					"version"		"1.0.0.0"
+					"english"
+					{
+						"language"		"english"
+						"language id"		"1033"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\31290"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"94602"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4244826529875073375"
+					"size"		"623183010"
+					"download"		"0"
+				}
+			}
+		}
+		"94601"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8815515616541256407"
+					"size"		"479568101"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25501"
+			}
+		}
+	}
+}
