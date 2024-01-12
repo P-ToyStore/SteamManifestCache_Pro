@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"364790"
+	"common"
+	{
+		"name"		"Voyage to Farland"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"92cfea9fe0a179e9db9fae9b42dd65c2a274e880"
+		"logo_small"		"92cfea9fe0a179e9db9fae9b42dd65c2a274e880_thumb"
+		"linuxclienticon"		"112dfaad72bcb71ad2a24d72c9142874788688e6"
+		"clienticns"		"ebeaf1c64d36ce8fe512bf87659b282a7e584281"
+		"clienticon"		"0e676a08121b16425721c58f737568ba65c8a319"
+		"clienttga"		"1a395bc07e0201fd02fb47379407326fcb9ae99b"
+		"icon"		"6676b01a7c9a98cce69d802450b8672397f29970"
+		"releasestate"		"released"
+		"metacritic_name"		"Voyage to Farland"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1436441143"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Peculiar Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Peculiar Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_15"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1433267820"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"364790"
+		"store_tags"
+		{
+			"0"		"1716"
+			"1"		"122"
+			"2"		"21"
+			"3"		"198631"
+			"4"		"492"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Peculiar Games"
+		"publisher"		"Peculiar Games"
+		"homepage"		"http://www.peculiar-games.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Voyage to Farland"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Voyage.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"voyage_launch.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"voyage_launch.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,japanese"
+		"364791"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2345900740318516135"
+					"size"		"24664355"
+					"download"		"20188224"
+				}
+				"gameonlynojre"
+				{
+					"gid"		"2345900740318516135"
+					"size"		"24664355"
+					"download"		"20188224"
+				}
+				"previousversion"
+				{
+					"gid"		"1336375406277613260"
+					"size"		"24654988"
+					"download"		"20181472"
+				}
+			}
+		}
+		"364792"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6324734561600960308"
+					"size"		"126734492"
+					"download"		"67012320"
+				}
+				"gameonlynojre"
+				{
+					"gid"		"1676494480129193091"
+					"size"		"22031818"
+					"download"		"19679872"
+				}
+				"previousversion"
+				{
+					"gid"		"2087032826877674629"
+					"size"		"22013999"
+					"download"		"19670992"
+				}
+			}
+		}
+		"364793"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9139430983075695219"
+					"size"		"21236449"
+					"download"		"19241328"
+				}
+				"gameonlynojre"
+				{
+					"gid"		"9139430983075695219"
+					"size"		"21236449"
+					"download"		"19241328"
+				}
+				"previousversion"
+				{
+					"gid"		"8862439392716694379"
+					"size"		"21226519"
+					"download"		"19232448"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"853099"
+			}
+			"gameonlynojre"
+			{
+				"buildid"		"853094"
+				"description"		"v2.3.2 Game only, no Java Runtime"
+			}
+			"previousversion"
+			{
+				"buildid"		"664140"
+				"description"		"v2.3.1 (No Bundled Java Runtime)"
+			}
+		}
+	}
+}
