@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"1978180"
+	"common"
+	{
+		"name"		"Charlotte: Dragon Slayer"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"f5fa8220e038d8a78a6b80a9f7f0c29d990ab387"
+		"clienttga"		"03e3203c0b545c7b3286ffbd17c1bee3ef563cb0"
+		"clienticon"		"1e02c22d9ae9041a85d65a443768e4c20d091982"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1675209600"
+			"tested_build_id"		"8709906"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-6"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"25.145857642940484"
+				"height_pct"		"43.920972926317916"
+			}
+		}
+		"store_asset_mtime"		"1651276987"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Succubella Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Angel And Demons"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1653839112"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1978180"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"122"
+			"2"		"11014"
+			"3"		"4434"
+			"4"		"1716"
+			"5"		"1720"
+			"6"		"198631"
+			"7"		"3959"
+			"8"		"922563"
+			"9"		"3871"
+			"10"		"3964"
+			"11"		"31275"
+			"12"		"4342"
+			"13"		"4604"
+			"14"		"9541"
+			"15"		"4046"
+			"16"		"1684"
+			"17"		"4172"
+			"18"		"5716"
+			"19"		"16094"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Succubella Games"
+		"publisher"		"Angel And Demons"
+	}
+	"config"
+	{
+		"installdir"		"Charlotte Dragon Slayer"
+		"steamcontrollertemplateindex"		"6"
+		"steamdecktouchscreen"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"--in-process-gpu"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"1978181"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7973527730524170635"
+					"size"		"676765384"
+					"download"		"475465744"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8709906"
+				"timeupdated"		"1652171837"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"9000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"www/save"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
