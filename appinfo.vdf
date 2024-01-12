@@ -1,0 +1,502 @@
+"appinfo"
+{
+	"appid"		"327380"
+	"common"
+	{
+		"name"		"Pirates! Gold Plus (Classic)"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"8d9589c45c8e1b0ed2f44b31118df75a718fd07d"
+		"logo"		"0954330d1928b7fb465a49410383dad666734598"
+		"logo_small"		"0954330d1928b7fb465a49410383dad666734598_thumb"
+		"linuxclienticon"		"d818f883275b8c92eb74abb903b0ae63197fd2f5"
+		"clienticon"		"e29750a43b3a1e303b3dc3c9e58865f493c70f21"
+		"clienttga"		"9b3f8b909cb2aa568af7e90c0eea38a4e01e9bae"
+		"icon"		"bf7a4ca6712e8d96b5c74744233482639090d605"
+		"metacritic_name"		"Sid Meier's Pirates! Gold"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1412799453"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"536486400"
+		"steam_release_date"		"1412883600"
+		"community_hub_visible"		"1"
+		"gameid"		"327380"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"599"
+			"2"		"1681"
+			"3"		"1693"
+		}
+		"review_score"		"5"
+		"review_percentage"		"59"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.nightdivestudios.com/games/sid-meier-pirates-gold/?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20sid%20meier's%20pirates"
+		"gamemanualurl"		"https://store.steampowered.com/manual/327380/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sid Meier's Pirates! Gold"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_smpiratesgold.conf -conf dosbox_smpiratesgold_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_smpiratesgold.conf -conf dosbox_smpiratesgold_launch_windows.conf -noconsole"
+				"description"		"Play Pirates! Gold (Classic) in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_smpiratesgold.conf -conf dosbox_smpiratesgold_config_windows.conf -noconsole"
+				"description"		"Pirates! Gold (Classic) Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_smpirates.conf -conf dosbox_smpirates_launch_windows.conf -noconsole"
+				"description"		"Play Sid Meier's Pirates!"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_smpirates.conf -conf dosbox_smpirates_launch_windows.conf -noconsole"
+				"description"		"Play Sid Meier's Pirates! in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"Sid Meier's Pirates! Gold.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_smpiratesgold_game.sh"
+				"description"		"Play Pirates! Gold (Classic)"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"7"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_smpiratesgold_game_daum.sh"
+				"description"		"Play Pirates! Gold (Classic) in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"8"
+			{
+				"executable"		"dosbox_linux\\launch_smpiratesgold_config.sh"
+				"description"		"Pirates! Gold Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"9"
+			{
+				"executable"		"dosbox_linux\\launch_smpirates_game.sh"
+				"description"		"Play Sid Meier's Pirates!"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"10"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_smpirates_game_daum.sh"
+				"description"		"Play Sid Meier's Pirates! in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french"
+		"327381"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2281807317747662604"
+					"size"		"19631426"
+					"download"		"19234144"
+				}
+				"beta"
+				{
+					"gid"		"2281807317747662604"
+					"size"		"19631426"
+					"download"		"19234144"
+				}
+			}
+		}
+		"327382"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8991388101174194508"
+					"size"		"63795057"
+					"download"		"35843424"
+				}
+				"beta"
+				{
+					"gid"		"8991388101174194508"
+					"size"		"63795057"
+					"download"		"35843424"
+				}
+			}
+		}
+		"327383"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2119196225487718762"
+					"size"		"75112534"
+					"download"		"45705248"
+				}
+				"beta"
+				{
+					"gid"		"2119196225487718762"
+					"size"		"75112534"
+					"download"		"45705248"
+				}
+			}
+		}
+		"327384"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3434081961675962839"
+					"size"		"300"
+					"download"		"336"
+				}
+				"beta"
+				{
+					"gid"		"3434081961675962839"
+					"size"		"300"
+					"download"		"336"
+				}
+			}
+		}
+		"327385"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6498111883217143457"
+					"size"		"304"
+					"download"		"336"
+				}
+				"beta"
+				{
+					"gid"		"6498111883217143457"
+					"size"		"304"
+					"download"		"336"
+				}
+			}
+		}
+		"327386"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2754174864463056546"
+					"size"		"304"
+					"download"		"336"
+				}
+				"beta"
+				{
+					"gid"		"2754174864463056546"
+					"size"		"304"
+					"download"		"336"
+				}
+			}
+		}
+		"327387"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"679486273916118339"
+					"size"		"300"
+					"download"		"336"
+				}
+				"beta"
+				{
+					"gid"		"679486273916118339"
+					"size"		"300"
+					"download"		"336"
+				}
+			}
+		}
+		"327388"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"414512874089907266"
+					"size"		"304"
+					"download"		"352"
+				}
+				"beta"
+				{
+					"gid"		"414512874089907266"
+					"size"		"304"
+					"download"		"352"
+				}
+			}
+		}
+		"327389"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5325067456458315100"
+					"size"		"304"
+					"download"		"352"
+				}
+				"beta"
+				{
+					"gid"		"5325067456458315100"
+					"size"		"304"
+					"download"		"352"
+				}
+			}
+		}
+		"327420"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2044639075800274341"
+					"size"		"81006301"
+					"download"		"50260640"
+				}
+				"beta"
+				{
+					"gid"		"2044639075800274341"
+					"size"		"81006301"
+					"download"		"50260640"
+				}
+			}
+		}
+		"327421"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3241587526445878388"
+					"size"		"81006303"
+					"download"		"50260640"
+				}
+				"beta"
+				{
+					"gid"		"3241587526445878388"
+					"size"		"81006303"
+					"download"		"50260640"
+				}
+			}
+		}
+		"327422"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4223760205604656411"
+					"size"		"81006303"
+					"download"		"50260640"
+				}
+				"beta"
+				{
+					"gid"		"4223760205604656411"
+					"size"		"81006303"
+					"download"		"50260640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"468888"
+			}
+			"beta"
+			{
+				"buildid"		"468888"
+			}
+		}
+	}
+}
