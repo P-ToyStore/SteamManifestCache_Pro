@@ -1,0 +1,264 @@
+"appinfo"
+{
+	"appid"		"302360"
+	"common"
+	{
+		"name"		"Tex Murphy: The Pandora Directive"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"3b9296f4a91d238c303a04267a284c7bfd5d34e6"
+		"clienticon"		"3caef78d24f8faaee0079ffbb000a2c26d3d2e73"
+		"clienttga"		"e9fd3e66a23b3069777bb9758faf60d9cc30221d"
+		"icon"		"521c8edf131c0b6dea34cf567ddf206499d90e14"
+		"linuxclienticon"		"3072a0422995325e5784c9ce6de2bcbace4addab"
+		"logo"		"3be749a10f118b714c926fb75647b47440fe8664"
+		"logo_small"		"3be749a10f118b714c926fb75647b47440fe8664_thumb"
+		"metacritic_name"		"Tex Murphy: The Pandora Directive"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1569373804"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Access Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"838796400"
+		"steam_release_date"		"1402603474"
+		"community_hub_visible"		"1"
+		"gameid"		"302360"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"18594"
+			"2"		"5613"
+			"3"		"6052"
+			"4"		"1693"
+			"5"		"1698"
+			"6"		"4115"
+			"7"		"5716"
+			"8"		"7782"
+			"9"		"1719"
+			"10"		"3834"
+			"11"		"3942"
+			"12"		"5030"
+			"13"		"6426"
+			"14"		"6691"
+			"15"		"6971"
+			"16"		"1742"
+			"17"		"3835"
+			"18"		"3839"
+			"19"		"4145"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Access Software"
+		"publisher"		"Nightdive Studios"
+		"homepage"		"http://www.nightdivestudios.com/games/pandora-directive/?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20tex%20murphy%3a%20pandora%20directive"
+		"gamemanualurl"		"https://store.steampowered.com/manual/302360/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tex Murphy 4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_texmurphy4.conf -conf dosbox_texmurphy4_launch_windows.conf -noconsole"
+				"description"		"Play Tex Murphy: The Pandora Directive"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_texmurphy4.conf -conf dosbox_texmurphy4_launch_windows.conf -noconsole"
+				"description"		"Play Tex Murphy: The Pandora Directive with DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Tex Murphy The Pandora Directive.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\launch_texmurphy4_game.sh"
+				"description"		"Play Tex Murphy: The Pandora Directive"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_texmurphy4_game_daum.sh"
+				"description"		"Play Tex Murphy: The Pandora Directive with DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"302361"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2416603106461329452"
+					"size"		"64432076"
+					"download"		"62233184"
+				}
+				"beta"
+				{
+					"gid"		"2416603106461329452"
+					"size"		"64432076"
+					"download"		"62233184"
+				}
+			}
+		}
+		"302362"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3762980365807546729"
+					"size"		"3384364527"
+					"download"		"3330013648"
+				}
+				"beta"
+				{
+					"gid"		"3762980365807546729"
+					"size"		"3384364527"
+					"download"		"3330013648"
+				}
+			}
+		}
+		"302363"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1051247555607406884"
+					"size"		"3400052380"
+					"download"		"3345065952"
+				}
+				"beta"
+				{
+					"gid"		"1051247555607406884"
+					"size"		"3400052380"
+					"download"		"3345065952"
+				}
+			}
+		}
+		"302364"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4860680050005779251"
+					"size"		"3389462904"
+					"download"		"3330850912"
+				}
+				"beta"
+				{
+					"gid"		"4860680050005779251"
+					"size"		"3389462904"
+					"download"		"3330850912"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"470847"
+			}
+			"beta"
+			{
+				"buildid"		"470847"
+			}
+		}
+	}
+}
