@@ -1,0 +1,89 @@
+"appinfo"
+{
+	"appid"		"935870"
+	"common"
+	{
+		"name"		"SteamOS Devkit Service"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"service_app"		"1"
+		"osextended"		""
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"935870"
+		"exfgls"		"1"
+	}
+	"config"
+	{
+		"installdir"		"SteamOSDevkitService"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"steam-devkit-tool"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"935871"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1996382456270875453"
+					"size"		"25362"
+					"download"		"9344"
+				}
+				"beta"
+				{
+					"gid"		"1996382456270875453"
+					"size"		"25362"
+					"download"		"9344"
+				}
+				"previous"
+				{
+					"gid"		"2919254492859636773"
+					"size"		"25037"
+					"download"		"9312"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9944571"
+				"timeupdated"		"1668545500"
+			}
+			"beta"
+			{
+				"buildid"		"9944571"
+				"description"		"early release testing"
+				"timeupdated"		"1668545494"
+			}
+			"previous"
+			{
+				"buildid"		"9081209"
+				"description"		"previous stable release"
+				"timeupdated"		"1668545488"
+			}
+		}
+	}
+}
