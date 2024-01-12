@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"483490"
+	"common"
+	{
+		"name"		"Circuitous"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"df28011113aafdbc40bb69de723bd41a139d45f0"
+		"logo_small"		"df28011113aafdbc40bb69de723bd41a139d45f0_thumb"
+		"icon"		"b8fb2bc74dac997d7c0d8f0c0bd6429ab3db05aa"
+		"clienttga"		"c3932032ee0b9c23fbb4a431ae04d4e0b174f540"
+		"clienticon"		"96b85f015fb955ec5bf9ec0f6be160013f2638ea"
+		"clienticns"		"7829178402490fc53143dab51ae570bb2da9870e"
+		"metacritic_name"		"Circuitous"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"42.74051288072681"
+				"height_pct"		"77.77576755425781"
+			}
+		}
+		"store_asset_mtime"		"1572366457"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Owl Prophecy"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Plug In Digital"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Plug In Digital"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1562674877"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"483490"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"The Owl Prophecy"
+		"publisher"		"Plug In Digital"
+		"homepage"		"http://www.theowlprophecy.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Circuitous"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Circuitous.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CircuitousDesigner"
+				"description"		"Circuitous Designer"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"1215061"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"483491"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1718988218464452724"
+					"size"		"274722513"
+					"download"		"41036992"
+				}
+				"macosxbeta"
+				{
+					"gid"		"2234922572200328625"
+					"size"		"289890937"
+					"download"		"43066208"
+				}
+			}
+		}
+		"483492"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1941391283586627417"
+					"size"		"0"
+					"download"		"0"
+				}
+				"macosxbeta"
+				{
+					"gid"		"501461860601744736"
+					"size"		"301534461"
+					"download"		"45249840"
+				}
+			}
+		}
+		"483493"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2035210"
+				"timeupdated"		"1502666010"
+			}
+			"macosxbeta"
+			{
+				"buildid"		"1946647"
+				"timeupdated"		"1499536308"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Logs"
+				"pattern"		"*.hs"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Logs"
+				"pattern"		"*_id.csv"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Logs"
+				"pattern"		"*session.csv"
+			}
+		}
+	}
+}
