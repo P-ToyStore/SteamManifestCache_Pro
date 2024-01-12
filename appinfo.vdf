@@ -1,0 +1,275 @@
+"appinfo"
+{
+	"appid"		"2350550"
+	"common"
+	{
+		"name"		"Spelljammer: Pirates of Realmspace"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"07fda35aceaac9158ea119eb0918f36309ccc738"
+		"clienttga"		"62eb923b6d9efecc21c9bac78c824af42c6db35e"
+		"clienticon"		"c6cb2e2cdffc5d892a92e3467b1c00a0f0ba1f98"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1683072000"
+			"tested_build_id"		"10864735"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-1"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"65.63218390804599"
+				"height_pct"		"86.04787608542594"
+			}
+		}
+		"store_asset_mtime"		"1679267851"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cybertech"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Dungeons &amp; Dragons"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"Wizards of the Coast"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1679933155"
+		"community_hub_visible"		"1"
+		"gameid"		"2350550"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"21"
+			"2"		"122"
+			"3"		"6691"
+			"4"		"4004"
+			"5"		"14153"
+			"6"		"1708"
+			"7"		"3834"
+			"8"		"1755"
+			"9"		"1681"
+			"10"		"21725"
+			"11"		"4191"
+			"12"		"4166"
+			"13"		"4295"
+			"14"		"14139"
+			"15"		"3964"
+			"16"		"12472"
+			"17"		"3916"
+			"18"		"1741"
+			"19"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"61"
+	}
+	"extended"
+	{
+		"developer"		"Cybertech"
+		"publisher"		"SNEG"
+	}
+	"config"
+	{
+		"installdir"		"Spelljammer Pirates of Realmspace"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\Launcher\\Launcher.exe"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"./SpelljammerPiratesOfRealmspaceGER\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf spelljam-ger-base.conf -conf spelljam-ger-game.conf -conf spelljam-ger-graphics.conf"
+				"workingdir"		"./SpelljammerPiratesOfRealmspaceGER"
+				"type"		"option2"
+				"description_loc"
+				{
+					"english"		"Launch Game GER (DOSbox)"
+				}
+				"description"		"Launch Game GER (DOSbox)"
+			}
+			"2"
+			{
+				"executable"		"./SpelljammerPiratesOfRealmspaceGER\\DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf spelljam-ger-graphics.conf"
+				"workingdir"		"./SpelljammerPiratesOfRealmspaceGER"
+				"type"		"option3"
+				"description_loc"
+				{
+					"english"		"Configure graphics (DOSBox)"
+				}
+				"description"		"Configure graphics (DOSBox)"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german"
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2350551"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3104890578981696599"
+					"size"		"27393504"
+					"download"		"14357392"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"157993C8B5039FCC15872341238918A1"
+					"size"		"B660670B7C3D8F920DC6DC01338FD8DC"
+					"download"		"5CBAB3F5BB7320EAEA106406C509F67B"
+				}
+			}
+		}
+		"2350552"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3773339814151222522"
+					"size"		"52938014"
+					"download"		"24599632"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"356BF0DBE1F0A11DC3CA432A07E7016A"
+					"size"		"9045115CE3953E5BBF678F3300B5F10D"
+					"download"		"E61ADBC389EFB826D6B171686A23ED13"
+				}
+			}
+		}
+		"2350553"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"7898755AF355268162B04455DF4901DB"
+					"size"		"8C87D7DFBEE8E96F1E9B7E3BB07559E4"
+					"download"		"271B0933932B6B81EBC5EAFDED240B23"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10864735"
+				"timeupdated"		"1679931032"
+			}
+			"beta"
+			{
+				"buildid"		"12914843"
+				"pwdrequired"		"1"
+				"timeupdated"		"1702066962"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"152428800"
+		"maxnumfiles"		"1000"
+	}
+}
