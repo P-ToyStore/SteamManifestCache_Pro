@@ -1,0 +1,105 @@
+"appinfo"
+{
+	"appid"		"709970"
+	"common"
+	{
+		"name"		"SwapQuest Demo"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"b8e9d442e61b07ddef8a13a74316333fd486f769"
+		"logo_small"		"b8e9d442e61b07ddef8a13a74316333fd486f769_thumb"
+		"icon"		"e4c46d00f475a9b33e78173a89ad6bde37670626"
+		"clienticon"		"996d7440deed4495d6536b6d9cbd9d7be5dc5f39"
+		"clienttga"		"57d38d7df972ffd540bcd633b45bc96416692742"
+		"clienticns"		"e23d3e0a799760f30846854380ee7adb9d760b92"
+		"linuxclienticon"		"6f673f9f9d2b6574bec1264cc5e3db87c0fcd837"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+		}
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"709970"
+	}
+	"extended"
+	{
+		"demoofappid"		"679690"
+	}
+	"config"
+	{
+		"installdir"		"SwapQuest Demo"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SwapQuest.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"709971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1195868846725015876"
+					"size"		"137173224"
+					"download"		"99269360"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,spanish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2096485"
+				"timeupdated"		"1504703085"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"3"
+		"appidredirect"		"679690"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"SwapQuest/SwapQuestSave"
+				"pattern"		"*.ini"
+			}
+			"copied_from_parent"		"1"
+		}
+	}
+}
