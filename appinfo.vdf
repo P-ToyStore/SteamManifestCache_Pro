@@ -1,0 +1,420 @@
+"appinfo"
+{
+	"appid"		"363070"
+	"common"
+	{
+		"name"		"Let's Explore The Jungle (Junior Field Trips)"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"3b3004adfbb36664bab4dc9b8b0ec1d199f5e957"
+		"logo_small"		"3b3004adfbb36664bab4dc9b8b0ec1d199f5e957_thumb"
+		"clienticon"		"ac3e22de5cb371aa3dea4cbe830707bd7ed2a077"
+		"clienttga"		"d17711967f87b4bf0268ce9bf1443c6296bc7e1b"
+		"icon"		"4232b3eb6929fb73f0b28a770cb83a47a32e7ae0"
+		"linuxclienticon"		"fbc446d9670d6121612bd68f172dd2f785e833f8"
+		"releasestate"		"released"
+		"osarch"		""
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1686873600"
+			"tested_build_id"		"4419227"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Let's Explore The Jungle with Buzzy"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"54.80549199084669"
+				"height_pct"		"66.71811921158869"
+			}
+		}
+		"store_asset_mtime"		"1578533355"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Humongous Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Humongous Entertainment"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"788947200"
+		"steam_release_date"		"1429895173"
+		"community_hub_visible"		"1"
+		"gameid"		"363070"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1036"
+			"2"		"5350"
+		}
+		"review_score"		"7"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Humongous Entertainment"
+		"publisher"		"Humongous Entertainment"
+		"homepage"		"http://www.humongous.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Let's Explore The Jungle with Buzzy"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ScummVM_Windows\\scummvm.exe"
+				"arguments"		"--no-console -c \"scummvm-letj-opengl.ini\" jungle-win"
+				"description"		"Launch"
+				"workingdir"		"ScummVM_Windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ScummVM_Windows\\scummvm.exe"
+				"arguments"		"--no-console -c \"scummvm-letj-safe.ini\" jungle-win"
+				"description"		"Play in Non-OpenGL Graphics Mode"
+				"workingdir"		"ScummVM_Windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+				"arguments"		"-c \"scummvm-letj-opengl.ini\" jungle-win"
+				"description"		"Launch"
+				"workingdir"		"ScummVM_Mac\\"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+				"arguments"		"-c \"scummvm-letj-safe.ini\" jungle-win"
+				"description"		"Play in Non-OpenGL Graphics Mode"
+				"workingdir"		"ScummVM_Mac\\"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"ScummVM_Linux\\launch_letj_opengl.sh"
+				"description"		"Launch"
+				"workingdir"		"ScummVM_Linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"ScummVM_Linux\\launch_letj_safe.sh"
+				"description"		"Play in Non-OpenGL Graphics Mode"
+				"workingdir"		"ScummVM_Linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"363071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5569903413445752930"
+					"size"		"106263822"
+					"download"		"65530080"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"8FF30BCB7814CB499323FF941EF92566"
+					"size"		"76CD680CD1E607C38AB3DFCFEA71E367"
+					"download"		"504337956E31246F07468B13D16618D7"
+				}
+			}
+		}
+		"363072"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3493341056031487634"
+					"size"		"110074384"
+					"download"		"63493680"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"B24C5624A17896F9E538955474F09EBA"
+					"size"		"B68BAEDE2FDAA26BE5D99E424EDA1ED7"
+					"download"		"69409B8E9F060E7C8AFAC3582A2E7D42"
+				}
+			}
+		}
+		"363073"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3366914345738311447"
+					"size"		"29226164"
+					"download"		"8865792"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"C61F1C0BC9E7FD0E7B30818591F197D9"
+					"size"		"F1BC05F7A6B277272C3C8932F3B4C736"
+					"download"		"325C1D6FE763418150ED4681D789FFA9"
+				}
+			}
+		}
+		"363074"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5714220787233021133"
+					"size"		"222985529"
+					"download"		"110858512"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"DACDB00F6DE24244016C7BB8FBFFDF4D"
+					"size"		"E486B215055E77273B2EA01A3A7320BD"
+					"download"		"5722BD3FA625CFC3295DC8C7CC10C04F"
+				}
+			}
+		}
+		"363075"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5663698527207136364"
+					"size"		"786"
+					"download"		"688"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"10B63040519CACBBD4B74EA8E7A3FF94"
+					"size"		"D962B4B9BB8DC9D6CA5295C435A6B181"
+					"download"		"2C3D0F6225ADA874491D7711BE06984F"
+				}
+			}
+		}
+		"363076"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8158778030653872617"
+					"size"		"720"
+					"download"		"656"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"5B1DFE618A62105A112FE641C13BDD74"
+					"size"		"0AB23C6E73142E01C78086C26FC620A2"
+					"download"		"FBD47804475DAB855CB4A02995044826"
+				}
+			}
+		}
+		"363077"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8356067265292620235"
+					"size"		"722"
+					"download"		"640"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"FC8D919B5C684D30D854EA22E6675F0B"
+					"size"		"3C7076A539D39BD3A3E3F463D37020A2"
+					"download"		"AAFD15D348ADBE4E59151CA49BBA150C"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4419227"
+				"timeupdated"		"1574491607"
+			}
+			"beta"
+			{
+				"buildid"		"4419227"
+				"pwdrequired"		"1"
+				"timeupdated"		"1574491615"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10485760"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.*"
+			}
+		}
+	}
+}
