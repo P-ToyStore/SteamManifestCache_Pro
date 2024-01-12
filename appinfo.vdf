@@ -1,0 +1,343 @@
+"appinfo"
+{
+	"appid"		"328430"
+	"common"
+	{
+		"name"		"Rex Nebular and the Cosmic Gender Bender"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"513e015351f4152dfba4aaf5b8e28722940e1e54"
+		"logo"		"22246a1bbea8dc8930d272c8187327a984df56a4"
+		"logo_small"		"22246a1bbea8dc8930d272c8187327a984df56a4_thumb"
+		"clienticon"		"b0469eab8db3fa402724f642100bff553b0136b4"
+		"clienttga"		"dd0f948261b1b89304c51fb314d2009f500727d7"
+		"icon"		"c0581e7a896e4a55577b7a60e32fc41abb5f00d9"
+		"linuxclienticon"		"648beee198b32575ed354ceaf49610bc8dd2eb6c"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1692748800"
+			"tested_build_id"		"485667"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Rex Nebular and the Cosmic Gender Bender"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1420487601"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"720604800"
+		"steam_release_date"		"1413579344"
+		"community_hub_visible"		"1"
+		"gameid"		"328430"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"6691"
+			"3"		"1693"
+			"4"		"3942"
+		}
+		"review_score"		"5"
+		"review_percentage"		"59"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc."
+		"publisher"		"Atari"
+		"homepage"		"http://www.atari.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/328430/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rex Nebular and the Cosmic Gender Bender"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_rexnebular.conf -conf dosbox_rexnebular_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_rexnebular.conf -conf dosbox_rexnebular_launch_windows.conf -noconsole"
+				"description"		"Play Rex Nebular in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_rexnebular.conf -conf dosbox_rexnebular_config_windows.conf -noconsole"
+				"description"		"Rex Nebular - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Rex Nebular.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_rexnebular_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_rexnebular_game_daum.sh"
+				"description"		"Play Rex Nebular in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_rexnebular_config.sh"
+				"description"		"Rex Nebular - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"328431"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3682961197594954921"
+					"size"		"50822434"
+					"download"		"49542800"
+				}
+				"beta"
+				{
+					"gid"		"3682961197594954921"
+					"size"		"50822434"
+					"download"		"49542800"
+				}
+			}
+		}
+		"328432"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6374878758783699349"
+					"size"		"18522306"
+					"download"		"9639120"
+				}
+				"beta"
+				{
+					"gid"		"6374878758783699349"
+					"size"		"18522306"
+					"download"		"9639120"
+				}
+			}
+		}
+		"328433"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8225077724167536276"
+					"size"		"47217932"
+					"download"		"35793120"
+				}
+				"beta"
+				{
+					"gid"		"8225077724167536276"
+					"size"		"47217932"
+					"download"		"35793120"
+				}
+			}
+		}
+		"328434"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1795687490118071453"
+					"size"		"17457439"
+					"download"		"8683664"
+				}
+				"beta"
+				{
+					"gid"		"1795687490118071453"
+					"size"		"17457439"
+					"download"		"8683664"
+				}
+			}
+		}
+		"328435"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1899009764701912886"
+					"size"		"13018238"
+					"download"		"11043904"
+				}
+				"beta"
+				{
+					"gid"		"1899009764701912886"
+					"size"		"13018238"
+					"download"		"11043904"
+				}
+			}
+		}
+		"328436"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6620259661390166706"
+					"size"		"13018238"
+					"download"		"11043904"
+				}
+				"beta"
+				{
+					"gid"		"6620259661390166706"
+					"size"		"13018238"
+					"download"		"11043904"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"485667"
+			}
+			"beta"
+			{
+				"buildid"		"485667"
+			}
+		}
+	}
+}
