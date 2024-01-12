@@ -1,0 +1,377 @@
+"appinfo"
+{
+	"appid"		"818830"
+	"common"
+	{
+		"name"		"Asteroid Deflector XL"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"5265062edd339209dd841ee71964d51bb2404525"
+		"logo_small"		"5265062edd339209dd841ee71964d51bb2404525_thumb"
+		"icon"		"84773839b1a7c56d5400e06644dde84f91eb0e24"
+		"clienttga"		"e442b8e048c1fa46003648fa3e26a39c5578c988"
+		"clienticon"		"7eacaf8cf74fb8023e95886b481da3885e154a6b"
+		"clienticns"		"3f81ac04b8cf26f72e49b5ba4b4fe656f1f1cba5"
+		"linuxclienticon"		"e703e139d085d149ab1acb634fcace95426fadc0"
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1687824000"
+			"tested_build_id"		"2731619"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"metacritic_name"		"Asteroid Deflector XL"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"german"		"capsule_231x87_german.jpg"
+		}
+		"header_image"
+		{
+			"german"		"header_german.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"91.80920190320208"
+			}
+		}
+		"store_asset_mtime"		"1572594838"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Andreas Cavazzini"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Andreas Cavazzini"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1521791477"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"818830"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Andreas Cavazzini"
+		"publisher"		"Andreas Cavazzini"
+	}
+	"config"
+	{
+		"installdir"		"AsteroidDeflectorXL"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"nw.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"nw"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"nw"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"nwjs.app\\Contents\\MacOS\\nwjs"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"818831"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3731029799527358377"
+					"size"		"152916151"
+					"download"		"77095952"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"2E0411EC7FF80426BDABCC49ACE3F589"
+					"size"		"356B39F2B1CD75681A89CEA2FC27DAB0"
+					"download"		"F2648F9C1FD8BF2C391DB16E0D5754EB"
+				}
+			}
+		}
+		"818832"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7264030485792833758"
+					"size"		"186937240"
+					"download"		"85085536"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"3FCE08C01220BBA35461CE7AA5A45E0D"
+					"size"		"B8A800C65CD48EC9FEE81A8BB3068F05"
+					"download"		"93BF6C886372B1AED80741FEFA3771E8"
+				}
+			}
+		}
+		"818833"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4507598645493441381"
+					"size"		"196870441"
+					"download"		"81135696"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"1166E56B614ED640AFFC967533149CDB"
+					"size"		"FC14A4AF03FC0DDB419E577A34874CA1"
+					"download"		"A0E4236163D6633FF7297E8689BE1DDF"
+				}
+			}
+		}
+		"818834"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1487562972510571756"
+					"size"		"205045678"
+					"download"		"83830080"
+				}
+			}
+		}
+		"818835"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7930666136729788712"
+					"size"		"218997994"
+					"download"		"86423504"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"2D86FDA705E8F11E1C072F0CD5C4C1E5"
+					"size"		"0087E597AAF6AF854ACAF67850942F4D"
+					"download"		"12A98728E65ED2963D7B90774BC9F06D"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2731619"
+				"timeupdated"		"1525008439"
+			}
+			"beta"
+			{
+				"buildid"		"2652989"
+				"pwdrequired"		"1"
+				"timeupdated"		"1522678514"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"AsteroidDeflector"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"LinuxXdgConfigHome"
+				"path"		"AsteroidDeflector"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"MacAppSupport"
+				"path"		"AsteroidDeflector"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
