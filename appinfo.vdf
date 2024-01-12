@@ -1,0 +1,199 @@
+"appinfo"
+{
+	"appid"		"254920"
+	"common"
+	{
+		"name"		"Lords of the Realm"
+		"type"		"Game"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"254920_eula_0"
+				"name"		"Lords of the Realm I EULA"
+				"url"		"http://store.steampowered.com//eula/254920_eula_0"
+			}
+		}
+		"oslist"		"windows"
+		"logo"		"8e85ee567b4ad01f3ce7860cbf0e30d3a3e43ffc"
+		"logo_small"		"8e85ee567b4ad01f3ce7860cbf0e30d3a3e43ffc_thumb"
+		"icon"		"f86e97473b7e8f1e354ffbef4d1753c4edcb58cb"
+		"clienttga"		"68d23b91dc2dd1a6329007c2e0a5dfd644fd3e5f"
+		"clienticon"		"6a3ba55479d7fa1827bb267ba9ef766fa2fb66a0"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1680739200"
+			"tested_build_id"		"866674"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-experimental"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Lords of the Realm I"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"61.08518086347725"
+				"height_pct"		"73.5573497981477"
+			}
+		}
+		"store_asset_mtime"		"1561124282"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Impressions Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rebellion"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"786182400"
+		"steam_release_date"		"1449162172"
+		"community_hub_visible"		"1"
+		"gameid"		"254920"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1693"
+			"2"		"4172"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"Impressions Games"
+		"publisher"		"Rebellion"
+		"homepage"		"http://www.rebellion.co.uk/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Lords of the Realm I"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"English\\DOSBOX\\Launcher\\LOTR1Launcher.exe"
+				"workingdir"		"English\\DOSBOX\\Launcher\\"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"254921"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6681677743848090750"
+					"size"		"19659222"
+					"download"		"10839088"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"E2351C29EC1767AF6F4079D090417E22"
+					"size"		"B0EAD2FB235448B0137267251CAE937E"
+					"download"		"30DB09EB251FE0F18A1E6002F49FB369"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"866674"
+			}
+			"test"
+			{
+				"buildid"		"936155"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
