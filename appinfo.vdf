@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"1782080"
+	"common"
+	{
+		"name"		"Das Boot: German U-Boat Simulation"
+		"type"		"Game"
+		"logo"		"f14f004f71aeeb6ce71bc5ae8c33ef0d5a8655b3"
+		"logo_small"		"f14f004f71aeeb6ce71bc5ae8c33ef0d5a8655b3_thumb"
+		"icon"		"e76609fdee6eb0981edcd41915de37be22a014d5"
+		"clienttga"		"5924e8df78d7dc38e6c607e96fe6ca5dfe9b18aa"
+		"clienticon"		"09fbef6e98ce140d408519a78f18e77b8cf8bcae"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"88.33225597931481"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1649360265"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Artech Digital Entertainment, Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1636121425"
+		"community_hub_visible"		"1"
+		"gameid"		"1782080"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"599"
+			"3"		"9"
+			"4"		"6910"
+			"5"		"3987"
+			"6"		"4150"
+			"7"		"6506"
+			"8"		"4106"
+			"9"		"1774"
+			"10"		"1723"
+			"11"		"9204"
+			"12"		"3813"
+			"13"		"19780"
+			"14"		"4684"
+			"15"		"3964"
+			"16"		"5363"
+			"17"		"4168"
+			"18"		"4994"
+			"19"		"1708"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Artech Digital Entertainment, Ltd."
+		"publisher"		"Ziggurat"
+		"homepage"		"http://www.ziggurat.games"
+	}
+	"config"
+	{
+		"installdir"		"Das Boot German U-Boat Simulation"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1782081"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5729508022622399102"
+					"size"		"35410052"
+					"download"		"14235520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7588890"
+				"timeupdated"		"1635053432"
+			}
+		}
+	}
+}
