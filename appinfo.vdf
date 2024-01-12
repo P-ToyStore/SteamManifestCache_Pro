@@ -1,0 +1,233 @@
+"appinfo"
+{
+	"appid"		"466590"
+	"common"
+	{
+		"name"		"Kathy Rain Demo"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"logo"		"e47c9f6c28b7098560b86d2e6f7357203d01e9ce"
+		"logo_small"		"e47c9f6c28b7098560b86d2e6f7357203d01e9ce_thumb"
+		"icon"		"b303ac4e08ea30763257596112c13c0c4e4b0187"
+		"clienticon"		"1d0da64e4b0f326080110849f734f1b68342385e"
+		"clienttga"		"467b65172df9ee5341e0935e055c5d940c8a17c4"
+		"releasestate"		"released"
+		"clienticns"		"bd87d729ef3e759a3a7a4e1453b1195472600cd0"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+		}
+		"metacritic_name"		"Kathy Rain Demo"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"71.99533255542593"
+				"height_pct"		"82.1420090239848"
+			}
+		}
+		"store_asset_mtime"		"1573476474"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Clifftop Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Raw Fury"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1462208400"
+		"community_hub_visible"		"1"
+		"gameid"		"466590"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+		}
+	}
+	"extended"
+	{
+		"demoofappid"		"370910"
+		"developer"		"Clifftop Games"
+		"publisher"		"Raw Fury"
+		"homepage"		"http://kathyraingame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Kathy Rain Demo"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"kathyrain.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"kathyrain.exe"
+				"arguments"		"--setup"
+				"description"		"Game Setup"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"KathyRain.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,polish"
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"466591"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"990147079827556778"
+					"size"		"536672600"
+					"download"		"346884800"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"demo_test_branch"
+				{
+					"gid"		"5F9BDDAC16FAAC745A6315E6B793D4B3"
+					"size"		"95CF883C2E885C4FD16564F5A77F4C9F"
+					"download"		"82C60FC4AAAFDA05B007F3BFE9A177C7"
+				}
+			}
+		}
+		"466592"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2557323055058097917"
+					"size"		"544021128"
+					"download"		"348756960"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"demo_test_branch"
+				{
+					"gid"		"53DEFEB1F6617341D1BCC092624546B2"
+					"size"		"144CC5E09883F0D4F740485AA750FE79"
+					"download"		"05F83A71516F9DA7CE3154CEFAE6C672"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3586978"
+				"timeupdated"		"1550871187"
+			}
+			"demo_test_branch"
+			{
+				"buildid"		"3586969"
+				"pwdrequired"		"1"
+				"timeupdated"		"1550871075"
+			}
+		}
+	}
+}
