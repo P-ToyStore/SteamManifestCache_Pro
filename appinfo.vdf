@@ -1,0 +1,299 @@
+"appinfo"
+{
+	"appid"		"2350530"
+	"common"
+	{
+		"name"		"Fantasy Empires"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"56c978bcb66627f5a35a306fbe31336bcc8dbe52"
+		"clienttga"		"171b5060235fe9ceb5dc993d3dc5747978ee11c8"
+		"clienticon"		"49886a12cda90597984cdda99e7610fb353b0c37"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1684540800"
+			"tested_build_id"		"10864727"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_AudioOutputHasNonblockingIssues"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"67.01149425287355"
+				"height_pct"		"89.80286317765783"
+			}
+		}
+		"store_asset_mtime"		"1679290010"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Silicon Knights"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Mystara"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Dungeons &amp; Dragons"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+			"5"
+			{
+				"type"		"franchise"
+				"name"		"Wizards of the Coast"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1679933082"
+		"community_hub_visible"		"1"
+		"gameid"		"2350530"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"14153"
+			"2"		"6691"
+			"3"		"122"
+			"4"		"4684"
+			"5"		"4791"
+			"6"		"599"
+			"7"		"1684"
+			"8"		"3916"
+			"9"		"4364"
+			"10"		"1676"
+			"11"		"4182"
+			"12"		"3813"
+			"13"		"4305"
+			"14"		"3964"
+			"15"		"4166"
+			"16"		"4046"
+			"17"		"4057"
+			"18"		"5716"
+			"19"		"4004"
+		}
+		"review_score"		"7"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Silicon Knights"
+		"publisher"		"SNEG"
+	}
+	"config"
+	{
+		"installdir"		"Fantasy Empires"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\Launcher\\Launcher.exe"
+				"type"		"default"
+				"description_loc"
+				{
+					"english"		"Launch Game EN"
+				}
+				"description"		"Launch Game EN"
+			}
+			"1"
+			{
+				"executable"		"DOSBOX\\dosbox.exe"
+				"arguments"		"-noconsole -conf fantasy-ger-base.conf -conf fantasy-ger-game.conf -conf fantasy-ger-graphics.conf"
+				"type"		"option1"
+				"description_loc"
+				{
+					"english"		"Launch Game GER (DOS box)"
+				}
+				"description"		"Launch Game GER (DOS box)"
+			}
+			"2"
+			{
+				"executable"		"DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf fantasy-ger-graphics.conf"
+				"type"		"option2"
+				"description_loc"
+				{
+					"english"		"Configure graphics (DOSBox)"
+				}
+				"description"		"Configure graphics (DOSBox)"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german"
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2350531"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3706850886456732767"
+					"size"		"21852216"
+					"download"		"8168960"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"4513EF5894CB37C79CF5AC236BEE4518"
+					"size"		"D4D141B0CDE6336A795EEDA061A701C6"
+					"download"		"91EB5FC461F352B989AE24E09A07A9BB"
+				}
+			}
+		}
+		"2350532"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2255990870775560112"
+					"size"		"52938014"
+					"download"		"24599632"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"8375F0CE989F05CFB793DCDD2CD7AD50"
+					"size"		"C2E14723FEA31D666B9E1502C17361EE"
+					"download"		"C3019CDC35B76AF1C413A2F9D4CB45A2"
+				}
+			}
+		}
+		"2350533"
+		{
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"D16B9B50A8C479FE71417152C6D9BE77"
+					"size"		"343F2C453D2C5D7D3FBB4B74DC103321"
+					"download"		"B7F3983E6641AB1266FCA0551AFB6259"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10864727"
+				"timeupdated"		"1679930982"
+			}
+			"beta"
+			{
+				"buildid"		"12853709"
+				"pwdrequired"		"1"
+				"timeupdated"		"1701459766"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"152428800"
+		"maxnumfiles"		"1000"
+	}
+}
