@@ -1,0 +1,245 @@
+"appinfo"
+{
+	"appid"		"566670"
+	"common"
+	{
+		"name"		"Save the Ninja Clan"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"6de11dd310d77cb370705b341f4c5a1dc663876d"
+		"clienttga"		"6fc112d040a99a3e605956ec1e9840e789b722e0"
+		"icon"		"1ed01153cb8afdfb1524bfd3ab8a591c16f2a064"
+		"logo"		"d2ad349690bcbfcd528ea0fd299f919f1e12e9c6"
+		"logo_small"		"d2ad349690bcbfcd528ea0fd299f919f1e12e9c6_thumb"
+		"metacritic_name"		"Save the Ninja Clan"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"64.93055555555557"
+			}
+		}
+		"store_asset_mtime"		"1573504745"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Willz"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sometimes You"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"73"
+			"1"		"74"
+			"2"		"1"
+			"3"		"25"
+			"4"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1484934778"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"566670"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"4667"
+			"3"		"21"
+			"4"		"4345"
+			"5"		"1688"
+			"6"		"1625"
+			"7"		"4026"
+		}
+		"review_score"		"8"
+		"review_percentage"		"89"
+	}
+	"extended"
+	{
+		"developer"		"Willz"
+		"publisher"		"Sometimes You"
+	}
+	"config"
+	{
+		"installdir"		"Save the Ninja Clan"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"STNC.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SaveTheNinjaClan.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"SaveTheNinjaClan.x86_64"
+				"description"		"Launch 64-bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"SaveTheNinjaClan.x86"
+				"description"		"Launch 32-bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"566671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5912617448199762150"
+					"size"		"438183079"
+					"download"		"31424032"
+				}
+			}
+		}
+		"566672"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8722345304896929775"
+					"size"		"486862243"
+					"download"		"44237984"
+				}
+			}
+		}
+		"566673"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2296310509659443018"
+					"size"		"469800574"
+					"download"		"42483888"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1683540"
+				"timeupdated"		"1489166932"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"30000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"LifePitStudios"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"LifePitStudios"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/unity3d/LifePitStudios/"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
