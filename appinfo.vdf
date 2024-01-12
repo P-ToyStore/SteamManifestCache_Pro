@@ -1,0 +1,233 @@
+"appinfo"
+{
+	"appid"		"61600"
+	"common"
+	{
+		"name"		"Zen Bound® 2"
+		"logo"		"bde7fad7a2427df529dc7ec34dca9520444afb6c"
+		"logo_small"		"bde7fad7a2427df529dc7ec34dca9520444afb6c_thumb"
+		"icon"		"b47885f7892396032dfb2906bce89ac0ce458e8a"
+		"clienttga"		"84c107d5d12bba8890c5b06076d0e1449710b13b"
+		"clienticon"		"ddbe45f568c51be5c766071eb1bdb94b710a530d"
+		"clienticns"		"0f2f4f03ed671b55091693ff652ca8c060ab748d"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"07ac097b2b591c50ad3c2c067d1a38078f9c3311"
+		"type"		"game"
+		"metacritic_name"		"Zen Bound 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1360865009"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Secret Exit Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Secret Exit Ltd."
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1289930400"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"61600"
+		"store_tags"
+		{
+			"0"		"1664"
+			"1"		"597"
+			"2"		"492"
+			"3"		"1654"
+			"4"		"4182"
+			"5"		"4191"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Secret Exit Ltd."
+		"gamedir"		"Zen Bound 2"
+		"homepage"		"http://www.zenbound.com"
+		"icon"		""
+		"installscriptosx"		"Zen_Bound_2.app/installscript_osx.vdf"
+		"installscript_macos"		"Zen_Bound_2.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"61601"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"macos,windows,linux"
+		"publisher"		"Secret Exit Ltd."
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Zen Bound 2"
+		"launch"
+		{
+			"0"
+			{
+				"description"		"Windows"
+				"executable"		"ZenBound2.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"description"		"MacOS"
+				"executable"		"Zen_Bound_2.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"run_steam.sh"
+				"description"		"Linux"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"61601"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6185618808129477766"
+					"size"		"235247875"
+					"download"		"0"
+				}
+				"linuxbeta"
+				{
+					"gid"		"6185618808129477766"
+					"size"		"235247875"
+					"download"		"0"
+				}
+			}
+		}
+		"61603"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3515125207083925764"
+					"size"		"21064146"
+					"download"		"18192080"
+				}
+				"linuxbeta"
+				{
+					"gid"		"1983808828467932843"
+					"size"		"4439671"
+					"download"		"0"
+				}
+			}
+		}
+		"61602"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5331243899128073654"
+					"size"		"3480957"
+					"download"		"0"
+				}
+				"linuxbeta"
+				{
+					"gid"		"5331243899128073654"
+					"size"		"3480957"
+					"download"		"0"
+				}
+			}
+		}
+		"61604"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2244431903277758181"
+					"size"		"5520787"
+					"download"		"0"
+				}
+				"linuxbeta"
+				{
+					"gid"		"866773665299049777"
+					"size"		"4666023"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"970125"
+			}
+			"linuxbeta"
+			{
+				"buildid"		"46397"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"100"
+	}
+}
