@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"19020"
+	"common"
+	{
+		"name"		"Puzzle Chronicles"
+		"clienticon"		"82f907e90a1091bd9de57cfea689121d1f862fc3"
+		"clienttga"		"c77d2803e4e671f6399401f3512493df8ecdce3b"
+		"icon"		"3d9958e29b285fd825c8c10c9ca05afcf755a443"
+		"logo"		"4bef01bc2d39fc1d2a45fa05c8831292de9064a5"
+		"logo_small"		"4bef01bc2d39fc1d2a45fa05c8831292de9064a5_thumb"
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1674691200"
+			"tested_build_id"		"579"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-6"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Puzzle Chronicles"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Infinite Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"KONAMI"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1271869200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"19020"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"597"
+			"2"		"1664"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"developer"		"Infinite Interactive"
+		"gamedir"		"Puzzle Chronicles"
+		"homepage"		"http://konami.com/games/puzzle-chronicles/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"19021"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"KONAMI"
+		"gamemanualurl"		"https://store.steampowered.com/manual/19020/"
+	}
+	"config"
+	{
+		"installscriptoverride"		"1"
+		"installscriptsignature"		"96a4ec6b7b288f6473cc7aad7eb041f732d2a95eddac3eaf4437aec4975ea40e9bfb9a660719bef892ee0326c60c7a738769f6257825fb20145fde2e8d38af06f23b9f3b6cd519aa2d11df6646dfd0a87350b177af51aa4270c80e9f2e44d5501f4e6ae45e6e792b845d45beb60000ac0e742305bca51a634a84825d2ffdf2d1"
+		"contenttype"		"3"
+		"installdir"		"Puzzle Chronicles"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PuzzleChronicles.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\software\konami\puzzle chronicles"
+			{
+				"string"
+				{
+					"directory"		"%INSTALLDIR%"
+					"steam"		"true"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Konami\\Puzzle Chronicles"
+				"process 1"		"%INSTALLDIR%\\directx\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"openal"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Konami\\Puzzle Chronicles"
+				"process 1"		"%INSTALLDIR%\\oalinst.exe"
+				"command 1"		"/s"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Konami\\Puzzle Chronicles"
+				"process 1"		"%INSTALLDIR%\\vc2008redist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"19021"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1598773766718342488"
+					"size"		"511621289"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"579"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"0"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"puzzle chronicles/saves"
+				"pattern"		"*.pchsave"
+				"platforms"
+				{
+					"1"		"all"
+				}
+			}
+		}
+	}
+}
