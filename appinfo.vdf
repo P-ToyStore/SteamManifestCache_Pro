@@ -1,0 +1,199 @@
+"appinfo"
+{
+	"appid"		"498460"
+	"common"
+	{
+		"name"		"Abduction Prologue: The Story Of Jonathan Blake"
+		"type"		"Game"
+		"oslist"		"windows"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+			}
+		}
+		"osarch"		""
+		"clienticon"		"3e5f20ede7591bd574a1edc19bb64d0d654717f2"
+		"clienttga"		"099c19515442f973553f2daf53d7c5fdc2a133f6"
+		"icon"		"a719d26cfd28c28f84f149f11e6e57abf867450b"
+		"logo"		"d4ec477edfafc4786dbeaac0900947769d00afbc"
+		"logo_small"		"d4ec477edfafc4786dbeaac0900947769d00afbc_thumb"
+		"releasestate"		"released"
+		"osvrsupport"		"1"
+		"openvrsupport"		"1"
+		"metacritic_name"		"Abduction Prologue: The Story Of Jonathan Blake"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1511210130"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Red Iron Labs"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Red Iron Labs"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"73"
+			"1"		"1"
+			"2"		"25"
+			"3"		"23"
+			"4"		"28"
+			"5"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_13"		"1"
+			"category_28"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1523470479"
+		"community_hub_visible"		"1"
+		"gameid"		"498460"
+		"store_tags"
+		{
+			"0"		"4667"
+			"1"		"19"
+			"2"		"21"
+			"3"		"492"
+			"4"		"9"
+			"5"		"599"
+			"6"		"21978"
+		}
+		"review_score"		"3"
+		"review_percentage"		"9"
+	}
+	"extended"
+	{
+		"developer"		"Red Iron Labs"
+		"publisher"		"Red Iron Labs"
+		"homepage"		"https://www.redironlabs.com/abduction"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Abduction Prologue"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Abduction.exe"
+				"description"		"in AutoDetect Mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Abduction.exe"
+				"arguments"		"-osvr -show-screen-selector"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"OSVR App"
+				}
+				"description"		"OSVR App"
+			}
+			"2"
+			{
+				"executable"		"Abduction.exe"
+				"arguments"		"-steamvr -vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Abduction.exe"
+				"arguments"		"-novr -show-screen-selector"
+				"description"		"without VR"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"498461"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1060997522364803634"
+					"size"		"2208583090"
+					"download"		"931107936"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"C7DF457815E4C0F496A9E0971C5C88A4"
+					"size"		"02465B2116CC9B9674B8FEB925B63F5E"
+					"download"		"88350DD04BCE14B9682A69B5FFFECACF"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2657784"
+				"timeupdated"		"1522815764"
+			}
+			"beta"
+			{
+				"buildid"		"2657784"
+				"pwdrequired"		"1"
+				"timeupdated"		"1522813512"
+			}
+		}
+	}
+}
