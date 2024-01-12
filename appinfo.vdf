@@ -1,0 +1,189 @@
+"appinfo"
+{
+	"appid"		"450040"
+	"common"
+	{
+		"name"		"Stealth Labyrinth"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"b637993e290e4f9e04ab1933edc4cdec3473e4e2"
+		"logo_small"		"b637993e290e4f9e04ab1933edc4cdec3473e4e2_thumb"
+		"icon"		"4d9f9fde78cee3d34974db45e4b2efab4e37f207"
+		"clienttga"		"a2a16c9918c5a89b3e5edb597efbc662e6a4d800"
+		"clienticon"		"24b98c2d9c90a92be7558dc6b826c1c7f2de3e41"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"openvrsupport"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1699660800"
+			"tested_build_id"		"1115116"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"metacritic_name"		"Stealth Labyrinth"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1461851796"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Reddoll Srl"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"IV Production"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1461942397"
+		"community_hub_visible"		"1"
+		"gameid"		"450040"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"1687"
+			"3"		"21978"
+			"4"		"9"
+			"5"		"1663"
+			"6"		"3942"
+			"7"		"4182"
+			"8"		"4168"
+			"9"		"4026"
+		}
+		"review_score"		"5"
+		"review_percentage"		"55"
+	}
+	"extended"
+	{
+		"developer"		"Reddoll Srl"
+		"publisher"		"IV Production"
+		"homepage"		"http://www.4stepsinvr.com/stealth-labyrinth/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Stealth Labyrinth"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StealthLabyrinth.exe"
+				"description"		"Launch with Oculus VR"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"StealthLabyrinth.exe"
+				"description"		"Launch without VR"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"450041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"719831701680023007"
+					"size"		"1407765392"
+					"download"		"398355264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1115116"
+				"timeupdated"		"1462620370"
+			}
+		}
+	}
+}
