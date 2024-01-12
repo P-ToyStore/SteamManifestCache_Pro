@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"217060"
+	"common"
+	{
+		"name"		"Total War Battles: SHOGUN"
+		"type"		"Game"
+		"logo"		"2f0eab200a562e3b2275d4fb17bac0b17d718179"
+		"logo_small"		"2f0eab200a562e3b2275d4fb17bac0b17d718179_thumb"
+		"icon"		"1dc6f3058d874815c33e85a189b485b952a9866b"
+		"clienttga"		"477274b1e743d382287a2b7070616f0da4aae9a7"
+		"clienticon"		"12ac202fa0fec2d1c2bcdcf8eb65496fbe896f69"
+		"clienticns"		"0491b94a166462922c9cd5aad6b345416ab6a670"
+		"oslist"		"windows,macos"
+		"eulas"
+		{
+			"0"
+			{
+				"url"		"http://store.steampowered.com/eula/217060_eula"
+				"id"		"217060_eula"
+				"name"		"217060_eula"
+			}
+			"1"
+			{
+				"url"		"http://store.steampowered.com/eula/217060_eulaUS"
+				"id"		"217060_eulaUS"
+				"name"		"217060_eulaUS"
+				"allowed_countries"		"US"
+			}
+		}
+		"metacritic_name"		"Total War Battles: SHOGUN"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1346812886"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Creative Assembly"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SEGA"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1346252400"
+		"metacritic_score"		"59"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/total-war-battles-shogun?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"217060"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"25085"
+		}
+		"review_score"		"5"
+		"review_percentage"		"46"
+	}
+	"extended"
+	{
+		"developer"		"The Creative Assembly"
+		"gamedir"		"ValveTestApp217060"
+		"homepage"		"http://www.totalwar.com"
+		"icon"		""
+		"launcheula"		"http://store.steampowered.com/eula/217060_eula"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"us"
+		{
+			"launcheula"		"http://store.steampowered.com/eula/217060_eulaUS"
+		}
+		"validoslist"		"windows,macos"
+		"visibleonlywhensubscribed"		"1"
+		"allowmicrotxnfromrestrictedcountries"		"0"
+		"microtxnrestrictedcountries"		"RU,BY"
+		"publisher"		"SEGA"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"total war battles shogun"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"twbattles.exe"
+				"description"		"Launch Title"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"twbattles.app"
+				"description"		"Launch Title"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"installscriptsignature"		"ac15abb6532ff1cb98af0f73e9d5f9f77f59114755d56ef56229bd5c0194d42ff3f6dddb9d1e80a887bcaf62a958dbe14ce133d441593695fe8787b0cec3a4343f5e4ca07281ec25d35285d7fe54a9cec9c2c5b67f950c0e2704c95cbca940d8c711b8966e550f304dba8c38118e0265288383a0fc758e35aee05becd8f12329"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217060"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217060"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86_90.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"217061"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"817288531375342640"
+					"size"		"585917319"
+					"download"		"0"
+				}
+			}
+		}
+		"217062"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8338611373862466564"
+					"size"		"589071316"
+					"download"		"0"
+				}
+			}
+		}
+		"217063"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7186725468275930296"
+					"size"		"104752147"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24243"
+			}
+		}
+	}
+}
