@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"516440"
+	"common"
+	{
+		"name"		"Alien Rampage"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"0dcb9e013407d39c8d0699dc6f38400a6b7c14d0"
+		"logo_small"		"0dcb9e013407d39c8d0699dc6f38400a6b7c14d0_thumb"
+		"icon"		"c27cfaeaa4185e42964827f54a2c29fc8f522189"
+		"clienttga"		"a8a729d1b25a2fa1f4da1137aef9da0ed255c895"
+		"clienticon"		"1987ce06ef65e9e2b0269a34b9ba65fa33a1be60"
+		"metacritic_name"		"Alien Rampage"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1507401156"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Inner Circle Creations"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Piko Interactive LLC"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Bleem!"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"843116400"
+		"steam_release_date"		"1507747349"
+		"community_hub_visible"		"1"
+		"gameid"		"516440"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3798"
+			"2"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"Inner Circle Creations"
+		"publisher"		"Piko Interactive LLC"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Alien Rampage"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox"
+				"arguments"		"-conf ../Conf/rampage.cfg -noconsole"
+				"workingdir"		"DOS"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox.exe"
+				"arguments"		"-conf ../Conf/rampage.cfg -noconsole"
+				"workingdir"		"DOS"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"DOSBox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf ../Conf/rampage.cfg -noconsole"
+				"workingdir"		"DOS"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"516441"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7312553792555367780"
+					"size"		"19426694"
+					"download"		"8407088"
+				}
+			}
+		}
+		"516442"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"175599089492352585"
+					"size"		"2764988"
+					"download"		"932240"
+				}
+			}
+		}
+		"516443"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6992060953313568025"
+					"size"		"3028157"
+					"download"		"852736"
+				}
+			}
+		}
+		"516444"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9160793103398656460"
+					"size"		"2401156"
+					"download"		"626256"
+				}
+			}
+		}
+		"516445"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5956705538797605914"
+					"size"		"2480136"
+					"download"		"706752"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2125943"
+				"timeupdated"		"1505700233"
+			}
+		}
+	}
+}
