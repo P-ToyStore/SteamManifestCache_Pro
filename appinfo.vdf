@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"344040"
+	"common"
+	{
+		"name"		"Qubburo 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"6b14ea6ad7ffd7842a9ebd06c505405ae3d0aa45"
+		"logo_small"		"6b14ea6ad7ffd7842a9ebd06c505405ae3d0aa45_thumb"
+		"icon"		"e3769ff69e9a18449dc4b885e33931a785bc7d7b"
+		"clienticon"		"dc14bf2464b6f6b484025f4f59fad171ffb22afd"
+		"clienttga"		"d6c7a6054f692159961d167b33ed7927f31eaac5"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"99.76662777129522"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1598383847"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"2127 Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"2127 Games"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_33"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1598338800"
+		"steam_release_date"		"1426770109"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"344040"
+		"store_tags"
+		{
+			"0"		"493"
+			"1"		"4182"
+			"2"		"492"
+			"3"		"1773"
+			"4"		"597"
+			"5"		"1774"
+			"6"		"21"
+			"7"		"5547"
+			"8"		"4637"
+			"9"		"3871"
+			"10"		"4400"
+			"11"		"19"
+			"12"		"4195"
+			"13"		"4094"
+			"14"		"4252"
+			"15"		"4791"
+			"16"		"3916"
+			"17"		"4004"
+			"18"		"1759"
+			"19"		"5154"
+		}
+		"review_score"		"4"
+		"review_percentage"		"32"
+	}
+	"extended"
+	{
+		"developer"		"2127 Games"
+		"publisher"		"2127 Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Qubburo2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Qubburo2.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"567828517"
+	}
+	"depots"
+	{
+		"workshopdepot"		"344040"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"344041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3604662936596542191"
+					"size"		"160730265"
+					"download"		"81608160"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"21AC093CF42B6468A7E7E3985F149893"
+					"size"		"7715D60D92F7F1CEFF7C5F7A7B8D6BAE"
+					"download"		"554B4718D9604EB796DEC6EBBA062A49"
+				}
+			}
+		}
+		"421690"
+		{
+			"dlcappid"		"421690"
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7989901899940123770"
+					"size"		"47812614"
+					"download"		"46230224"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"1CBFD660F202E2FCA4E2348FE9D01F52"
+					"size"		"FB671FAC516BEDFDFD5CBF100FAF2305"
+					"download"		"0BD52191BF0C322148E058B538DEEBDD"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5458017"
+				"timeupdated"		"1598381603"
+			}
+			"beta"
+			{
+				"buildid"		"5458017"
+				"pwdrequired"		"1"
+				"timeupdated"		"1598380563"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Voxelized/Saved/SaveGames"
+				"pattern"		"*.SAV"
+				"recursive"		"1"
+			}
+		}
+	}
+}
