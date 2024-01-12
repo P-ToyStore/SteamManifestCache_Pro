@@ -1,0 +1,197 @@
+"appinfo"
+{
+	"appid"		"33980"
+	"common"
+	{
+		"name"		"Pound of Ground"
+		"clienticon"		"217576150681d2694afd49b0f7b428e9bf8e749d"
+		"clienttga"		"0bbc9e61b2180b2d493b032d8aef5aff93efb627"
+		"icon"		"7f6df6ab03b92e1fc724d2c1fa4098c721bd15b0"
+		"logo"		"78b42da666d5f06978c2e0e9c6f7c4d25877ffb7"
+		"logo_small"		"78b42da666d5f06978c2e0e9c6f7c4d25877ffb7_thumb"
+		"type"		"game"
+		"metacritic_name"		"Pound of Ground"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"76.1320024578009"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1635942728"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Centauri Production"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bohemia Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1288975740"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"33980"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1659"
+			"2"		"3814"
+			"3"		"1695"
+			"4"		"1697"
+			"5"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"Centauri Production"
+		"developer_url"		"http://www.centauriproduction.com/"
+		"gamedir"		"Pound of Ground"
+		"gamemanualurl"		"http://store.steampowered.com/manual/33980/"
+		"homepage"		"http://www.centauriproduction.com"
+		"icon"		""
+		"installscript"		"33980_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"33981"
+		"state"		"eStateAvailable"
+		"publisher"		"Bohemia Interactive"
+	}
+	"config"
+	{
+		"installscriptsignature"		"65f7d7efb3d5ca0d249265dbf03ec7ed08a452562421e0a4e460ff6b26d8c5989eae2b4d2e0877b493f242abe1c8b9deb029f1c4dfec94544a26ebe2c972bf3309e85bf11fc3509f3661a29fcf174777e69ca359f907aaae07ba6126e51733ac3c73b10e90874b919220a369d2dd91901fe3ba4981c2ed9c9e3e8f4a3cfd7e22"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Pound of Ground"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ZL007.exe"
+			}
+		}
+		"externalregistrationurl"
+		{
+			"english"		"http://www.centauriproduction.com/pkm.php"
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"description"		"Microsoft DirectX for Windows"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"process 1"		"%INSTALLDIR%\\VCredist\\vcredist_x86.exe"
+				"description"		"Microsoft Visual C++ 2005 SP1 Redistributable Package ATL Security Update"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"wmfdist"
+			{
+				"process 1"		"%INSTALLDIR%\\WMFdist\\WMFdist95.exe"
+				"description"		"Windows Media Component"
+				"command 1"		"/Q:A"
+				"nocleanup"		"1"
+			}
+			"officialgamegroup"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\33980"
+				"description"		"Official Game Group"
+				"process 1"		"%INSTALLDIR%\\POG_OGG.cmd"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"1"
+			}
+		}
+		"pound of ground cd key"
+		{
+			"registrypath"		""
+		}
+		"ea oreg"
+		{
+			"string"
+			{
+				"english"
+				{
+					"url"		"http://www.centauriproduction.com/pkm.php"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"33981"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6115228406623624736"
+					"size"		"1511238941"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11369"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+	}
+}
