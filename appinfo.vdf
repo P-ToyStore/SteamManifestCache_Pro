@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"341530"
+	"common"
+	{
+		"name"		"Stardust Vanguards"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"logo"		"6d4dfaf1be97a3d9c368413398ba3c63c3a36981"
+		"logo_small"		"6d4dfaf1be97a3d9c368413398ba3c63c3a36981_thumb"
+		"icon"		"92a6a1985ad07525b72ff18aad79dfab7b6b9f01"
+		"clienticon"		"187e8050743fc5c4ab70919a47083515391f95f3"
+		"clienttga"		"bd89965d6a2992bcbb75913df4fde1be8d8fb01d"
+		"linuxclienticon"		"806e67367037f370c623d7ab0fe43e8514ff59d9"
+		"releasestate"		"released"
+		"metacritic_name"		"Stardust Vanguards"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33.45184227537169"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1666986120"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zanrai Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Zanrai Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1422640611"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"341530"
+		"store_tags"
+		{
+			"0"		"4840"
+			"1"		"1775"
+			"2"		"4736"
+			"3"		"19"
+			"4"		"4821"
+			"5"		"3878"
+			"6"		"4608"
+			"7"		"1646"
+			"8"		"4085"
+			"9"		"7368"
+			"10"		"1773"
+			"11"		"4885"
+			"12"		"3993"
+			"13"		"3964"
+			"14"		"3871"
+			"15"		"3841"
+			"16"		"4252"
+			"17"		"5752"
+			"18"		"1755"
+			"19"		"6691"
+		}
+		"review_score"		"8"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Zanrai Interactive"
+		"publisher"		"Zanrai Interactive"
+		"homepage"		"http://www.zanrai.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Stardust Vanguards"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StardustVanguards.exe"
+				"description"		"Launch (Windows)"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"StardustVanguards.sh"
+				"description"		"Launch (Linux)"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"341531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6698361530627895489"
+					"size"		"230393398"
+					"download"		"81787392"
+				}
+			}
+		}
+		"341532"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4568936688425318769"
+					"size"		"266313001"
+					"download"		"92509712"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"785460"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"3072"
+		"maxnumfiles"		"2"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Zanrai Interactive/Stardust Vanguards"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Zanrai Interactive/Stardust Vanguards"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/unity3d/Zanrai Interactive/Stardust Vanguards"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
