@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"424010"
+	"common"
+	{
+		"name"		"Crudelis"
+		"type"		"Game"
+		"oslist"		"windows"
+		"languages"
+		{
+			"english"		"1"
+			"polish"		"1"
+		}
+		"logo"		"61e850226ff40b0f66efa71e35f91d5482479bea"
+		"logo_small"		"61e850226ff40b0f66efa71e35f91d5482479bea_thumb"
+		"clienticon"		"0862ff3e45e11f65f547d99f927a8987be7607f5"
+		"clienttga"		"934002cd91bb61d9e09ba6e3769de701fd2ec1c5"
+		"icon"		"f0eed6ae0daf4a19520eea96561ee56974f8f6ac"
+		"releasestate"		"released"
+		"metacritic_name"		"Crudelis"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"83.95565927654606"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1667047919"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Whiskey Jack Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Whiskey Jack Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1453314774"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"424010"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"21"
+			"2"		"122"
+			"3"		"492"
+			"4"		"5577"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"Whiskey Jack Games"
+		"publisher"		"Whiskey Jack Games"
+		"homepage"		"https://crudelisgame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Crudelis"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"2"
+			{
+				"executable"		"Game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,polish"
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"424011"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2272943990211613975"
+					"size"		"346615127"
+					"download"		"337748128"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"907066E54CDEFB88AA4289BF7F20F6BA"
+					"size"		"C98A1F833B62DA7642B5A3767E158ADF"
+					"download"		"9DABA2EAF28903CB6887559A8A2BEA3F"
+				}
+			}
+		}
+		"424019"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5895812378617655580"
+					"size"		"337391477"
+					"download"		"329836544"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"A132615BCE4CE9DECB709052F5998F5D"
+					"size"		"3272AEF63754DCFAEBB8917FF7E1C188"
+					"download"		"99CC92CA6CD6A190209C8DCD1C7FA5A8"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"988459"
+			}
+			"beta"
+			{
+				"buildid"		"988459"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"3670016"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Data"
+				"pattern"		"*.rvdata2"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"*"
+				"pattern"		"Game.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
