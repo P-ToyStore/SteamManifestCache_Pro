@@ -1,0 +1,193 @@
+"appinfo"
+{
+	"appid"		"760030"
+	"common"
+	{
+		"name"		"Dizzy Dungeon"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"ccdfe9f3cadf3a26a162115676fb26517b54e105"
+		"logo_small"		"ccdfe9f3cadf3a26a162115676fb26517b54e105_thumb"
+		"icon"		"37e33f8e40f6570c4c823f66ec05653af513170c"
+		"clienttga"		"990e6068c0f1d0fe3a0f7ac37765c175d097ed24"
+		"clienticon"		"7fd8504cdcfcc6539dbc0dda6d07befbbffad36c"
+		"clienticns"		"a59e5468437195c182e1cbe8e9d739dde60b4966"
+		"releasestate"		"released"
+		"metacritic_name"		"Dizzy Dungeon"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"tchinese"		"capsule_231x87_tchinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+			"tchinese"		"header_tchinese.jpg"
+		}
+		"store_asset_mtime"		"1525655663"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"DigiFeather"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"DigiFeather"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1525678245"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"760030"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"122"
+			"2"		"492"
+			"3"		"1664"
+		}
+		"review_score"		"7"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"DigiFeather"
+		"publisher"		"DigiFeather"
+	}
+	"config"
+	{
+		"installdir"		"Dizzy Dungeon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DizzyDungeon.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DizzyDungeon.app\\Contents\\MacOS\\DizzyDungeon"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese,tchinese,japanese"
+		"760031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7288333519512269308"
+					"size"		"720747897"
+					"download"		"315059520"
+				}
+			}
+		}
+		"760032"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6043953908738431669"
+					"size"		"730899827"
+					"download"		"316540208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2750948"
+				"timeupdated"		"1525659562"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"DizzyDungeon_Data/UserData"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"DizzyDungeon/Contents/UserData"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
