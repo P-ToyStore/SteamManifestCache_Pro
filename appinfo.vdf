@@ -1,0 +1,286 @@
+"appinfo"
+{
+	"appid"		"602970"
+	"common"
+	{
+		"name"		"Stunt Island"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"602970_eula_0"
+				"name"		"Stunt Island EULA"
+				"url"		"http://store.steampowered.com//eula/602970_eula_0"
+			}
+		}
+		"logo"		"68ed37b691af2fbc559f0f5a94ee93a0f910efad"
+		"logo_small"		"68ed37b691af2fbc559f0f5a94ee93a0f910efad_thumb"
+		"icon"		"f6afa56eb014fa809153bb4661c00e24358f3664"
+		"clienticon"		"7ab2eb02f14c9ea0ffbbe7e6458902f5fa272ddb"
+		"clienttga"		"e1bbd0638022bf4b37ff158e78a14474aa29b805"
+		"osextended"		"macos64"
+		"metacritic_name"		"Stunt Island"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1541550353"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Assembly Line"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"694252800"
+		"steam_release_date"		"1542411277"
+		"community_hub_visible"		"1"
+		"gameid"		"602970"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+		}
+	}
+	"extended"
+	{
+		"developer"		"The Assembly Line"
+		"publisher"		"Disney"
+	}
+	"config"
+	{
+		"installdir"		"Stunt Island"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX/DOSBox.exe"
+				"arguments"		"-conf \"..\\dosbox_stuntisland.conf\" -conf \"..\\dosbox_stuntisland_single.conf\" -noconsole -c exit"
+				"workingdir"		"DOSBOX"
+				"description"		"Stunt Island"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf dosbox_stuntisland.conf -conf dosbox_stuntisland_single.conf -noconsole -c exit"
+				"description"		"Stunt Island"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"manual.bat"
+				"description"		"Open Stunt Island Manual (pdf)"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"./manual.sh"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"7"
+			{
+				"executable"		"DOSBOX/DOSBox.exe"
+				"arguments"		"-conf \"..\\dosbox_stuntisland.conf\" -conf \"..\\dosbox_stuntisland_control.conf\" -noconsole -c exit"
+				"workingdir"		"DOSBOX"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"9"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf dosbox_stuntisland.conf -conf dosbox_stuntisland_control.conf -noconsole -c exit"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"602971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8869157641120351366"
+					"size"		"22452226"
+					"download"		"12556944"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"1015FF7E6C5E0BF583153B85FF400198"
+					"size"		"0B5C5A4EFF7912B712DC37FBEF9FD5E3"
+					"download"		"6C765DA0F38D37263020F81502AB44C2"
+				}
+			}
+		}
+		"602972"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7675787927626713411"
+					"size"		"23979640"
+					"download"		"12411952"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"8101054D14A490958A54E0BDC282343B"
+					"size"		"E11055A632FDC310DA71BAF592EA79E5"
+					"download"		"A4404A5DDC841AE4EACEFDA8675BC016"
+				}
+			}
+		}
+		"602973"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5352815330151300482"
+					"size"		"34572044"
+					"download"		"14339760"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"5CF85C67B6305C6277448D8E1280030E"
+					"size"		"62EAAD9F5924DCE7E8BC2D7932A7CC56"
+					"download"		"8FFE553A6210CCC28199D6FBB6E51C71"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4738475"
+				"timeupdated"		"1586192321"
+			}
+			"beta"
+			{
+				"buildid"		"4738475"
+				"pwdrequired"		"1"
+				"timeupdated"		"1583256145"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"PILOTS"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"SETS"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"VAULT"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"stunt"
+			}
+		}
+	}
+}
