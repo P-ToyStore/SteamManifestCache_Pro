@@ -1,0 +1,184 @@
+"appinfo"
+{
+	"appid"		"308400"
+	"common"
+	{
+		"name"		"Cube Samurai: RUN!"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"icon"		"e00d8ff1467ad5d1f5d2e4ab886b30da8eef0df2"
+		"clienttga"		"05f6aa07f741db2fa77684a52dbf68f3d5023e8e"
+		"logo"		"320b92c324f4dd74505268a6a92aeda97690fb9a"
+		"logo_small"		"320b92c324f4dd74505268a6a92aeda97690fb9a_thumb"
+		"clienticon"		"747b469a0ed0984aab9b0e1c3d4c783bf12e6fac"
+		"metacritic_name"		"Cube Samurai: RUN!"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"20.24504084014002"
+				"height_pct"		"37.081453336499635"
+			}
+		}
+		"store_asset_mtime"		"1573835401"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Red Meat Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Red Meat Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1465996247"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"308400"
+		"store_tags"
+		{
+			"0"		"8666"
+			"1"		"19"
+			"2"		"597"
+			"3"		"1625"
+			"4"		"5350"
+			"5"		"1646"
+			"6"		"3798"
+			"7"		"5379"
+			"8"		"3871"
+			"9"		"3964"
+			"10"		"4305"
+			"11"		"1751"
+			"12"		"4726"
+			"13"		"4236"
+			"14"		"4004"
+			"15"		"1684"
+			"16"		"4136"
+			"17"		"4295"
+			"18"		"5125"
+			"19"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Red Meat Games"
+		"publisher"		"Red Meat Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Cube Samurai Run"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CSR.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"308401"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2648668716302925763"
+					"size"		"141241621"
+					"download"		"21680768"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1166269"
+				"timeupdated"		"1465230292"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Red Meat Games/Cube Samurai Run"
+				"pattern"		"*.s"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"unity.Red Meat Games.Cube Samurai Run"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/unity3d/Red Meat Games/Cube Samurai Run"
+			}
+		}
+	}
+}
