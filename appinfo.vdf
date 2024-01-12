@@ -1,0 +1,449 @@
+"appinfo"
+{
+	"appid"		"290000"
+	"common"
+	{
+		"name"		"DubWars"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"5b6398bee3d5cef006eef2a5fc937873a72d080e"
+		"logo_small"		"5b6398bee3d5cef006eef2a5fc937873a72d080e_thumb"
+		"clienticon"		"eed86435943947897ca50130d02a888297f7e0aa"
+		"clienttga"		"088982fe327044a6c115a6134334d606e82ff442"
+		"icon"		"ea005ad62261692b8ffca16d18bd3530ba70f85d"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"brazilian"		"1"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1651104000"
+			"tested_build_id"		"1309012"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"DubWars"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1468961565"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MURA Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"WOBBL3 Entertainment LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1468911600"
+		"steam_release_date"		"1468936682"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"290000"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"19"
+			"3"		"1621"
+			"4"		"1773"
+			"5"		"4255"
+			"6"		"4885"
+			"7"		"1774"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"MURA Interactive"
+		"publisher"		"WOBBL3 Entertainment LLC"
+		"homepage"		"http://www.dubwars.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DubWars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DubWars.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DubWars.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"DubWars.x86"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"DubWars.x86_64"
+				"description"		"Linux 32bit Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"290001"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4088479038821091876"
+					"size"		"528464134"
+					"download"		"394906592"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"D1CCC0AC2AFE2D58E9DBA84836F870C3"
+					"size"		"9D96BF68BAABB2B1F67B7CECE48831E7"
+					"download"		"7EFC6AB4EEA73F0034F390418A1C7C8F"
+				}
+			}
+		}
+		"290007"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"284638452207483927"
+					"size"		"524164914"
+					"download"		"393692144"
+				}
+			}
+		}
+		"290002"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1063391441412487483"
+					"size"		"536557105"
+					"download"		"396372576"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"B3807ABCEC8B7C113A88A24100BE7D2D"
+					"size"		"7A989FAEF10BAA5394AB260167E2B52D"
+					"download"		"8B750AE577E0E855D4026FC35C3DD0E6"
+				}
+			}
+		}
+		"290008"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4423620698390721924"
+					"size"		"534202810"
+					"download"		"396144720"
+				}
+			}
+		}
+		"290003"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2456792160081571470"
+					"size"		"530621149"
+					"download"		"395437264"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"B057673FDD81C68000BDD7287C0926B8"
+					"size"		"3F7FF609C8D02AC9EE35580652D31C2C"
+					"download"		"43E669313F35D3E17FF3AFBC65245963"
+				}
+			}
+		}
+		"290009"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6640919148338084650"
+					"size"		"530679419"
+					"download"		"395378384"
+				}
+			}
+		}
+		"290004"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7818602163261698389"
+					"size"		"533190405"
+					"download"		"396643216"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"68BFD33B20F7BCC0634C7C8F217C4D0B"
+					"size"		"108728EAFAD35313018259ED5B41A7A4"
+					"download"		"D65B11357A2A78B0AF131E5AFDD46D64"
+				}
+			}
+		}
+		"290005"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3774971612262266068"
+					"size"		"539925768"
+					"download"		"397948832"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"754903D653E2C98244D7477F616FB170"
+					"size"		"15F289C30609A9220B256932F4DF2706"
+					"download"		"13CE7DCEB514375AB58E762C5EA16C8A"
+				}
+			}
+		}
+		"290006"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+		}
+		"290010"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"290011"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1309012"
+				"timeupdated"		"1472596308"
+			}
+			"beta"
+			{
+				"buildid"		"1217012"
+				"pwdrequired"		"1"
+				"timeupdated"		"1467909621"
+			}
+		}
+	}
+}
