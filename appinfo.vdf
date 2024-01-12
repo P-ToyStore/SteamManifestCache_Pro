@@ -1,0 +1,253 @@
+"appinfo"
+{
+	"appid"		"329770"
+	"common"
+	{
+		"name"		"4089: Ghost Within"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"1f38f1e9626562cdb7b48a244b33f76b441857c6"
+		"logo"		"65414051d610d86dd498b97743f36cedb6679979"
+		"logo_small"		"65414051d610d86dd498b97743f36cedb6679979_thumb"
+		"clienticon"		"4729e04418654ee901301ae8f6d134306193f4ab"
+		"clienttga"		"ee0cf2fa9da86bb1668555d9075d12a94e0fbce1"
+		"clienticns"		"bf5a034a2e2a172d4464a6ff9b8a71099b68d6b5"
+		"controllervr"
+		{
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"osvrsupport"		"1"
+		"openvrsupport"		"1"
+		"metacritic_name"		"4089: Ghost Within"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1422111309"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Phr00t's Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Phr00t's Software"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_17"		"1"
+			"category_31"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1420823100"
+		"community_hub_visible"		"1"
+		"gameid"		"329770"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"122"
+			"2"		"492"
+			"3"		"42804"
+			"4"		"1663"
+			"5"		"5125"
+			"6"		"3839"
+			"7"		"3959"
+			"8"		"3942"
+			"9"		"4295"
+			"10"		"1716"
+			"11"		"4231"
+			"12"		"21978"
+			"13"		"1687"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"Phr00t's Software"
+		"publisher"		"Phr00t's Software"
+		"homepage"		"http://4089game.wordpress.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"4089"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"4089-novr.bat"
+				"description"		"Launch Windows"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"4089.sh"
+				"description"		"Launch Linux"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"launchme.sh"
+				"description"		"Launch Mac"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"4089.bat"
+				"description"		"Launch VR Windows"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"4089-osvr.bat"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch with OSVR API"
+				}
+				"description"		"Launch with OSVR API"
+			}
+		}
+		"steamvrsupport"		"1"
+	}
+	"depots"
+	{
+		"329771"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8006979261112368545"
+					"size"		"419360998"
+					"download"		"170951216"
+				}
+				"beta"
+				{
+					"gid"		"8006979261112368545"
+					"size"		"419360998"
+					"download"		"170951216"
+				}
+			}
+		}
+		"329772"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4686318554455084109"
+					"size"		"391277100"
+					"download"		"170113376"
+				}
+				"beta"
+				{
+					"gid"		"4686318554455084109"
+					"size"		"391277100"
+					"download"		"170113376"
+				}
+			}
+		}
+		"329773"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6093691797105172581"
+					"size"		"177321612"
+					"download"		"114675872"
+				}
+				"beta"
+				{
+					"gid"		"6093691797105172581"
+					"size"		"177321612"
+					"download"		"114675872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1551986"
+				"timeupdated"		"1483587033"
+			}
+			"beta"
+			{
+				"buildid"		"1551986"
+				"timeupdated"		"1483587050"
+			}
+		}
+	}
+}
