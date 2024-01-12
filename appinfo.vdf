@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"327390"
+	"common"
+	{
+		"name"		"Sid Meier's Covert Action (Classic)"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"196e22bd87ea7f08a1bc7ba2338f24e694d27a8e"
+		"logo_small"		"196e22bd87ea7f08a1bc7ba2338f24e694d27a8e_thumb"
+		"linuxclienticon"		"1ed3cfb2e1565a4a9b4ac16cffeb906f58a2018c"
+		"clienticns"		"1b0874533a4b44bb0ba77927063aec336d236cba"
+		"clienticon"		"380d536dbc93d8d8fb22d64c996415470a95e75f"
+		"clienttga"		"85f4c5e454df9ba930afdb4714b1d9417c69381b"
+		"icon"		"315ceb54849a921a8c721ae94f59945404e21b6e"
+		"metacritic_name"		"Sid Meier's Covert Action"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1412796064"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1412883609"
+		"community_hub_visible"		"1"
+		"gameid"		"327390"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"599"
+			"2"		"1693"
+			"3"		"3964"
+		}
+		"review_score"		"8"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.nightdivestudios.com/games/sid-meier-covert-action/?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20sid%20meier's%20covert%20action"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sid Meier's Covert Action"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_smcovert.conf -conf dosbox_smcovert_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_smcovert.conf -conf dosbox_smcovert_launch_windows.conf -noconsole"
+				"description"		"Play Sid Meier's Covert Action in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Sid Meier's Covert Action.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\launch_smcovert_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_smcovert_game_daum.sh"
+				"description"		"Play Sid Meier's Covert Action in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"327391"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"953079462376393460"
+					"size"		"189136080"
+					"download"		"172356752"
+				}
+				"beta"
+				{
+					"gid"		"953079462376393460"
+					"size"		"189136080"
+					"download"		"172356752"
+				}
+			}
+		}
+		"327392"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2239513693031244347"
+					"size"		"19644082"
+					"download"		"10526448"
+				}
+				"beta"
+				{
+					"gid"		"2239513693031244347"
+					"size"		"19644082"
+					"download"		"10526448"
+				}
+			}
+		}
+		"327393"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8505545599919342229"
+					"size"		"36857559"
+					"download"		"26933696"
+				}
+				"beta"
+				{
+					"gid"		"8505545599919342229"
+					"size"		"36857559"
+					"download"		"26933696"
+				}
+			}
+		}
+		"327394"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5316243220358556675"
+					"size"		"18641068"
+					"download"		"9570304"
+				}
+				"beta"
+				{
+					"gid"		"5316243220358556675"
+					"size"		"18641068"
+					"download"		"9570304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"467766"
+			}
+			"beta"
+			{
+				"buildid"		"467766"
+			}
+		}
+	}
+}
