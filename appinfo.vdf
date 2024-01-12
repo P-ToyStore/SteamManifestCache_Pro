@@ -1,0 +1,271 @@
+"appinfo"
+{
+	"appid"		"327940"
+	"common"
+	{
+		"name"		"DragonSphere"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"e63043abafcd871eee92c084899caae0ad662da6"
+		"logo"		"c5972d5463d2090f151d34bd9bc3fb82eea12ec5"
+		"logo_small"		"c5972d5463d2090f151d34bd9bc3fb82eea12ec5_thumb"
+		"clienticon"		"8157ead3d0a5b7bd5d275d18a6e1546eb00d4e6c"
+		"clienttga"		"4fa5678840c2ac465c16a96eec5c77b196973021"
+		"icon"		"f90a5d113edab0c377184f426fcdd318c192a35f"
+		"linuxclienticon"		"80e34a98fca5798523b0fc61fe181ea0c1f66f1c"
+		"metacritic_name"		"Dragonsphere"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1413314917"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MPS Labs"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"757411200"
+		"steam_release_date"		"1413579503"
+		"community_hub_visible"		"1"
+		"gameid"		"327940"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"1684"
+			"3"		"1693"
+			"4"		"3964"
+			"5"		"6691"
+		}
+		"review_score"		"7"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"MPS Labs"
+		"publisher"		"Atari"
+		"homepage"		"http://www.atari.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/327940/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dragonsphere"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_dragonsphere.conf -conf dosbox_dragonsphere_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_dragonsphere.conf -conf dosbox_dragonsphere_launch_windows.conf -noconsole"
+				"description"		"Play Dragonsphere in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_dragonsphere.conf -conf dosbox_dragonsphere_config_windows.conf -noconsole"
+				"description"		"Dragonsphere - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"DragonSphere.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_dragonsphere_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_dragonsphere_game_daum.sh"
+				"description"		"Play Dragonsphere in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_dragonsphere_config.sh"
+				"description"		"Dragonsphere - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"327941"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3984263804096170719"
+					"size"		"578393699"
+					"download"		"576042736"
+				}
+			}
+		}
+		"327942"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8294797214745421154"
+					"size"		"18522348"
+					"download"		"9639024"
+				}
+			}
+		}
+		"327943"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"821241075967477172"
+					"size"		"102924331"
+					"download"		"86066592"
+				}
+			}
+		}
+		"327944"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3964616261912850398"
+					"size"		"17457604"
+					"download"		"8683744"
+				}
+			}
+		}
+		"327945"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"216798451143886692"
+					"size"		"69493511"
+					"download"		"64393392"
+				}
+			}
+		}
+		"327946"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1358337570421627693"
+					"size"		"69493511"
+					"download"		"64393392"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"466440"
+			}
+		}
+	}
+}
