@@ -1,0 +1,251 @@
+"appinfo"
+{
+	"appid"		"347260"
+	"common"
+	{
+		"name"		"Hyperspeed"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"c15c61f5d3760bf404892554e9d8ac9d02936112"
+		"logo_small"		"c15c61f5d3760bf404892554e9d8ac9d02936112_thumb"
+		"icon"		"11a6b7c6caf3468a4d99d5e19955aab71d8033c4"
+		"clienttga"		"4ab4389b1c05a060170bb99049c43143eb1ae62b"
+		"clienticon"		"c853aef9052cd493bf9b411643decc1cab95c99c"
+		"linuxclienticon"		"8d3ee111a2a515b6e8f29121e558d356ea1da3ca"
+		"clienticns"		"d6f491e16690ca793c7d0b413ddc63bf882dd483"
+		"releasestate"		"released"
+		"metacritic_name"		"Hyperspeed"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1427869483"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"3"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"662716800"
+		"steam_release_date"		"1427907684"
+		"community_hub_visible"		"1"
+		"gameid"		"347260"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"21"
+			"2"		"9"
+			"3"		"122"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.atari.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/347260/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Hyperspeed"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_hyperspeed.conf -conf dosbox_hyperspeed_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_hyperspeed.conf -conf dosbox_hyperspeed_launch_windows.conf -noconsole"
+				"description"		"Play Hyperspeed in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_linux\\launch_hyperspeed_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_hyperspeed_game_daum.sh"
+				"description"		"Play Hyperspeed in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"Hyperspeed.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"347261"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4328229152447364710"
+					"size"		"46309379"
+					"download"		"45972848"
+				}
+			}
+		}
+		"347262"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7380046270881014008"
+					"size"		"33872555"
+					"download"		"14265296"
+				}
+			}
+		}
+		"347263"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3825973911167817852"
+					"size"		"18197905"
+					"download"		"7905312"
+				}
+			}
+		}
+		"347264"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8522819935620174028"
+					"size"		"2042069"
+					"download"		"1454640"
+				}
+			}
+		}
+		"347265"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1398593356993701271"
+					"size"		"2042069"
+					"download"		"1454640"
+				}
+			}
+		}
+		"347266"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5388208815241398781"
+					"size"		"36291162"
+					"download"		"26221920"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"573863"
+			}
+		}
+	}
+}
