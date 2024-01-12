@@ -1,0 +1,292 @@
+"appinfo"
+{
+	"appid"		"384480"
+	"common"
+	{
+		"name"		"Six Sides of the World"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"ce09b72cdfaa2d5257331b19ec68fd464e7429b0"
+		"logo_small"		"ce09b72cdfaa2d5257331b19ec68fd464e7429b0_thumb"
+		"icon"		"5a46d8e4c19bfddc0370f0af36d2717455fda079"
+		"clienticon"		"ef4d0bb17c44d751e024e8826791ec4f736b300b"
+		"clienttga"		"d28f38c08d48d2a55b303c9b428d3a382f8bfed2"
+		"clienticns"		"caadc96aa79510b8984b86fd6cacac46f6275bb4"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+			"spanish"		"1"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1676332800"
+			"tested_build_id"		"1849883"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-6"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Six Sides of the World"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"31.254040077569485"
+				"height_pct"		"71.52777777777777"
+			}
+		}
+		"store_asset_mtime"		"1666992581"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cybernetik Design"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Cybernetik Design"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1453306924"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"384480"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"19"
+			"3"		"21"
+			"4"		"1664"
+			"5"		"1755"
+			"6"		"3834"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Cybernetik Design"
+		"publisher"		"Cybernetik Design"
+		"homepage"		"http://www.cybernetikdesign.com/sixsides"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SixSidesOfTheWorld"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SixSides.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SixSides.x86"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"SixSides.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"SixSides.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertouchtemplateindex"		"8"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65532"
+		"steamcontrollertemplateindex"		"2"
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"384481"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5324965650586401003"
+					"size"		"1221903250"
+					"download"		"275631520"
+				}
+				"foreverhalloween"
+				{
+					"gid"		"1682073853152916438"
+					"size"		"1221903250"
+					"download"		"275632944"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private-beta"
+				{
+					"gid"		"62A2E2596C254136A68B29141B40A60A"
+					"size"		"D6DCDF9FBE4BCC38BAAB246B41C4B4DF"
+					"download"		"9D63165B36A43C450E2A958292CFF289"
+				}
+			}
+		}
+		"384482"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1849883"
+				"timeupdated"		"1543584448"
+			}
+			"foreverhalloween"
+			{
+				"buildid"		"1845849"
+				"description"		"Play the halloween special"
+				"timeupdated"		"1569947244"
+			}
+			"private-beta"
+			{
+				"buildid"		"1849883"
+				"pwdrequired"		"1"
+				"timeupdated"		"1495897588"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"204000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Cybernetik Design/Six Sides Of The World"
+				"pattern"		"savedata_x.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
