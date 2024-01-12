@@ -1,0 +1,192 @@
+"appinfo"
+{
+	"appid"		"358360"
+	"common"
+	{
+		"name"		"Raptor: Call of the Shadows (1994 Classic Edition)"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"f981d3af7b097f78c2d1a8f7181a992616d18325"
+		"logo_small"		"f981d3af7b097f78c2d1a8f7181a992616d18325_thumb"
+		"oslist"		"windows,macos"
+		"clienticon"		"ccac61917f74a821ad50498c86dd440fc399e634"
+		"clienttga"		"49e22c6aed18040e466300b8e30286cff94bda01"
+		"icon"		"96b0ddd5c04dab7e9419221e51654d8430f509a7"
+		"metacritic_name"		"Raptor: Call of the Shadows"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"59.684947491248536"
+				"height_pct"		"99.77440037995726"
+			}
+		}
+		"store_asset_mtime"		"1665634513"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cygnus Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Apogee Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"765187200"
+		"steam_release_date"		"1399309200"
+		"community_hub_visible"		"1"
+		"gameid"		"358360"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4255"
+			"2"		"1693"
+			"3"		"3916"
+			"4"		"3871"
+			"5"		"6691"
+		}
+		"review_score"		"8"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"Cygnus Studios"
+		"publisher"		"Apogee Entertainment"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358360/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Raptor Call of the Shadows"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Raptor - Call of the Shadows\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\RAPTOR.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Raptor - Call of the Shadows\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Raptor Call of the Shadows.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\RAPTOR.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358361"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3609105698531570813"
+					"size"		"41547466"
+					"download"		"15890816"
+				}
+			}
+		}
+		"358362"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2530472414133564837"
+					"size"		"19984460"
+					"download"		"7310160"
+				}
+			}
+		}
+		"358363"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8610957799627616560"
+					"size"		"21569946"
+					"download"		"7982960"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606145"
+			}
+		}
+	}
+}
