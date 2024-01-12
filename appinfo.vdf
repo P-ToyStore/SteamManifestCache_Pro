@@ -1,0 +1,323 @@
+"appinfo"
+{
+	"appid"		"327920"
+	"common"
+	{
+		"name"		"BloodNet"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"6562b472b9301a12714f53232f9b1ff7d2faa0eb"
+		"logo_small"		"6562b472b9301a12714f53232f9b1ff7d2faa0eb_thumb"
+		"clienticon"		"b83efd1442d5b2fd3fd1f8e5d599f9bb3bd23b3f"
+		"clienttga"		"c8b916c3f058c41c42bbc5fd0e71bbc0661ad18e"
+		"icon"		"977932143d2657cd62bd9df4d0b2041966734315"
+		"linuxclienticon"		"8e0a3d505955d8e6fbaac8eefafc807de99e87ef"
+		"clienticns"		"b82bbe81a4ae01e246a112d9dc9690e9978406bc"
+		"metacritic_name"		"BloodNet"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"55.491990846681915"
+				"height_pct"		"68.23794823082403"
+			}
+		}
+		"store_asset_mtime"		"1581467827"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"725875200"
+		"steam_release_date"		"1413579599"
+		"community_hub_visible"		"1"
+		"gameid"		"327920"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"4018"
+			"2"		"4115"
+			"3"		"1698"
+			"4"		"1667"
+			"5"		"1693"
+			"6"		"122"
+			"7"		"6691"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.atari.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/327920/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"BloodNet"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_bloodnet.conf -conf dosbox_bloodnet_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_bloodnet.conf -conf dosbox_bloodnet_launch_windows.conf -noconsole"
+				"description"		"Play BloodNet in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_bloodnet.conf -conf dosbox_bloodnet_config_windows.conf -noconsole"
+				"description"		"BloodNet - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"BloodNet.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_bloodnet_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_bloodnet_game_daum.sh"
+				"description"		"Play BloodNet in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_bloodnet_config.sh"
+				"description"		"BloodNet - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"327921"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"325034637805637380"
+					"size"		"53551257"
+					"download"		"52861120"
+				}
+				"beta"
+				{
+					"gid"		"325034637805637380"
+					"size"		"53551257"
+					"download"		"52861120"
+				}
+			}
+		}
+		"327922"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7111195149006904978"
+					"size"		"18522328"
+					"download"		"9639024"
+				}
+				"beta"
+				{
+					"gid"		"7111195149006904978"
+					"size"		"18522328"
+					"download"		"9639024"
+				}
+			}
+		}
+		"327923"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8060976831386371686"
+					"size"		"385208068"
+					"download"		"224897312"
+				}
+				"beta"
+				{
+					"gid"		"8060976831386371686"
+					"size"		"385208068"
+					"download"		"224897312"
+				}
+			}
+		}
+		"327924"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3420421960806183558"
+					"size"		"17457534"
+					"download"		"8684480"
+				}
+				"beta"
+				{
+					"gid"		"3420421960806183558"
+					"size"		"17457534"
+					"download"		"8684480"
+				}
+			}
+		}
+		"327925"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1127344138176032161"
+					"size"		"349770704"
+					"download"		"199006032"
+				}
+				"beta"
+				{
+					"gid"		"1127344138176032161"
+					"size"		"349770704"
+					"download"		"199006032"
+				}
+			}
+		}
+		"327926"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3194596625127457530"
+					"size"		"349770704"
+					"download"		"199006032"
+				}
+				"beta"
+				{
+					"gid"		"3194596625127457530"
+					"size"		"349770704"
+					"download"		"199006032"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"467765"
+			}
+			"beta"
+			{
+				"buildid"		"467765"
+			}
+		}
+	}
+}
