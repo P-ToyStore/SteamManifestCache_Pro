@@ -1,0 +1,61 @@
+"appinfo"
+{
+	"appid"		"61830"
+	"common"
+	{
+		"name"		"AMD Driver Updater, XP, 64 bit"
+		"driverversion"		"6.14.10.7261"
+		"type"		"game"
+		"community_hub_visible"		"1"
+		"gameid"		"61830"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"AMD Driver Updater, XP, 64 bit"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"61831"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"AMD Driver Updater, XP, 64 bit"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Setup.exe"
+				"arguments"		"/UNATTENDED_INSTALL /FORCE_HIDE_FIRST_RUN /AUTOACCEPT_ALL"
+			}
+		}
+	}
+	"depots"
+	{
+		"61831"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6071488616718192228"
+					"size"		"189815523"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23894"
+			}
+		}
+	}
+}
