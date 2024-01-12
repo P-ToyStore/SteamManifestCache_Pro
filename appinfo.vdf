@@ -1,0 +1,249 @@
+"appinfo"
+{
+	"appid"		"358250"
+	"common"
+	{
+		"name"		"Cosmo's Cosmic Adventure"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"ab7750813769b39e322910d3a5e840ba3991ba2e"
+		"logo_small"		"ab7750813769b39e322910d3a5e840ba3991ba2e_thumb"
+		"clienticon"		"0613a223dcdce7c267e775bce003de3bdcd825ca"
+		"clienttga"		"e9d266270df8bb53476a81d83a9dd00ee0c69675"
+		"icon"		"b583d526d606641215ce80bfd65b3206c23fca82"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1675209600"
+			"tested_build_id"		"606100"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"1"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-5"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Cosmo's Cosmic Adventure"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"59.218203033838975"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1690585025"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Apogee Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Apogee Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"699436800"
+		"steam_release_date"		"1399308120"
+		"community_hub_visible"		"1"
+		"gameid"		"358250"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1625"
+			"3"		"6691"
+			"4"		"4182"
+			"5"		"3871"
+			"6"		"1693"
+			"7"		"4004"
+		}
+		"review_score"		"8"
+		"review_percentage"		"85"
+	}
+	"extended"
+	{
+		"developer"		"Apogee Entertainment"
+		"publisher"		"Apogee Entertainment"
+		"homepage"		"https://3drealms.com/catalog/cosmos-cosmic-adventure_37/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358250/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Cosmo's Cosmic Adventure"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cosmo Cosmic Adventure\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\COSMO.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Cosmo Cosmic Adventure\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cosmo Cosmic Adventure.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\COSMO.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358251"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3764557773460086923"
+					"size"		"33854963"
+					"download"		"11817504"
+				}
+			}
+		}
+		"358252"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5758087788353451646"
+					"size"		"12288356"
+					"download"		"3236416"
+				}
+			}
+		}
+		"358253"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8455420468500800292"
+					"size"		"13878051"
+					"download"		"3909648"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606100"
+			}
+		}
+	}
+}
