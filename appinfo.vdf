@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"2160230"
+	"common"
+	{
+		"name"		"Morrow"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"18b26345ab728693ae2b401ac6acef4c49353fb8"
+		"clienttga"		"8441f4803334ec620d34a0df6aba34f952a80c2a"
+		"clienticon"		"c12879007edc0da6a50b8ee962f2706b85b3cc8f"
+		"linuxclienticon"		"8e5f1f0ef18873ad0415931112b0b8a54d6b1ef0"
+		"clienticns"		"fa9406d0fbdc3788c39294939571cba4028da258"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"37.887905902869136"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1687853656"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Boydem Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Boydem Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1666351167"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2160230"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+			"2"		"122"
+			"3"		"4231"
+			"4"		"4106"
+			"5"		"1716"
+			"6"		"4474"
+			"7"		"8666"
+			"8"		"3834"
+			"9"		"4191"
+			"10"		"4791"
+			"11"		"4182"
+			"12"		"1697"
+			"13"		"1684"
+			"14"		"4172"
+			"15"		"4057"
+			"16"		"3835"
+			"17"		"1662"
+			"18"		"3993"
+			"19"		"7208"
+		}
+		"review_score"		"7"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Boydem Studios"
+		"publisher"		"Boydem Studios"
+	}
+	"config"
+	{
+		"installdir"		"Morrow"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Morrow.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Contents/MacOS/Morrow"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Morrow.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"2160231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5271223066976443025"
+					"size"		"2248905377"
+					"download"		"895204128"
+				}
+			}
+		}
+		"2160232"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2787264584294590199"
+					"size"		"1805481361"
+					"download"		"440080848"
+				}
+			}
+		}
+		"2160233"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2167030310944248581"
+					"size"		"1797929303"
+					"download"		"436914000"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10263649"
+				"timeupdated"		"1672945118"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#statuswithoutscore"		"{#Status_%gamestatus%}"
+					"#statuswithscore"		"{#Status_%gamestatus%}: %SCORE%"
+					"#status_atmainmenu"		"Resting by the campfire"
+					"#status_lvlone"		"Battling through the farmland"
+					"#status_lvltwo"		"Roaming the city of Newbok"
+					"#status_lvlthree"		"In Kevin's basement"
+					"#status_attutorial"		"Doing the Tutorial"
+					"#status_attest"		"Building the game and stuff idk"
+				}
+			}
+		}
+	}
+}
