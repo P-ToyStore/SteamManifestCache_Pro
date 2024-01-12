@@ -1,0 +1,350 @@
+"appinfo"
+{
+	"appid"		"67000"
+	"common"
+	{
+		"name"		"The Polynomial"
+		"logo"		"af744b8f81736c0c24682eecc089ed6b453f4f2b"
+		"logo_small"		"af744b8f81736c0c24682eecc089ed6b453f4f2b_thumb"
+		"clienticon"		"74b1007b1e0382311ae11a63692ed8fbbbf9b315"
+		"clienttga"		"7cfc92806bcf6ddbdc3509102d5d2117133ce956"
+		"icon"		"0656832c08097347cfb742622880e04a6ce89efa"
+		"oslist"		"windows,macos,linux"
+		"type"		"game"
+		"metacritic_name"		"The Polynomial - Space of the music"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1482697171"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dmytry Lavrov"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dmytry Lavrov"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1287162000"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"67000"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1621"
+			"2"		"19"
+			"3"		"1752"
+			"4"		"597"
+			"5"		"1714"
+			"6"		"1773"
+			"7"		"3839"
+			"8"		"4305"
+			"9"		"4182"
+			"10"		"1756"
+			"11"		"4885"
+			"12"		"8253"
+			"13"		"5154"
+			"14"		"15045"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"Dmytry Lavrov"
+		"gamedir"		"ThePolynomial"
+		"homepage"		"http://dmytry.com/games/index.html"
+		"icon"		""
+		"installscriptosx"		"Polynomial_osx.app/installscript_osx.vdf"
+		"installscript_macos"		"Polynomial_osx.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"67001"
+		"primarycache_mac"		"67002"
+		"primarycache_macos"		"67002"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Dmytry Lavrov"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"1"
+			{
+				"description"		"The Polynomial: Space of the music"
+				"executable"		"Polynomial_osx.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Polynomial32"
+				"description"		"The Polynomial: Space of the music"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"Polynomial.exe"
+				"arguments"		"--use_default_settings=1"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+				"description_loc"
+				{
+					"english"		"Use default settings"
+				}
+				"description"		"Use default settings"
+			}
+			"5"
+			{
+				"executable"		"Polynomial32"
+				"arguments"		"--use_default_settings=1"
+				"description"		"Use default settings"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"Polynomial_osx.app"
+				"arguments"		"--use_default_settings=1"
+				"description"		"Use default settings"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"7"
+			{
+				"executable"		"Polynomial64"
+				"description"		"64 bit version (no steam features)"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"8"
+			{
+				"executable"		"bin_w64/Polynomial.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Windows 64 bit"
+				}
+				"description"		"Windows 64 bit"
+			}
+			"9"
+			{
+				"executable"		"Polynomial.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+				"description_loc"
+				{
+					"english"		"Legacy 32-bit build"
+				}
+				"description"		"Legacy 32-bit build"
+			}
+			"10"
+			{
+				"executable"		"bin_w64/Polynomial.exe"
+				"arguments"		"--use_default_settings=1"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Use default settings"
+				}
+				"description"		"Use default settings"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"ThePolynomial"
+	}
+	"depots"
+	{
+		"67003"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3673440143727601291"
+					"size"		"91621853"
+					"download"		"78281968"
+				}
+				"betabeta"
+				{
+					"gid"		"3673440143727601291"
+					"size"		"91621853"
+					"download"		"78281968"
+				}
+				"old_old_version"
+				{
+					"gid"		"8889120268283853575"
+					"size"		"105740608"
+					"download"		"0"
+				}
+				"old_version"
+				{
+					"gid"		"1010284997489655289"
+					"size"		"104186035"
+					"download"		"0"
+				}
+			}
+		}
+		"67002"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4521228964502278921"
+					"size"		"135518759"
+					"download"		"0"
+				}
+				"betabeta"
+				{
+					"gid"		"4521228964502278921"
+					"size"		"135518759"
+					"download"		"0"
+				}
+				"old_old_version"
+				{
+					"gid"		"96195499489259774"
+					"size"		"135492830"
+					"download"		"0"
+				}
+				"old_version"
+				{
+					"gid"		"4521228964502278921"
+					"size"		"135518759"
+					"download"		"0"
+				}
+			}
+		}
+		"67001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2743575466713314847"
+					"size"		"106329149"
+					"download"		"84933424"
+				}
+				"betabeta"
+				{
+					"gid"		"2743575466713314847"
+					"size"		"106329149"
+					"download"		"84933424"
+				}
+				"old_old_version"
+				{
+					"gid"		"2915845198506154291"
+					"size"		"94777699"
+					"download"		"0"
+				}
+				"old_version"
+				{
+					"gid"		"9057349761252148827"
+					"size"		"94795596"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9387514"
+				"timeupdated"		"1661441427"
+			}
+			"betabeta"
+			{
+				"buildid"		"9387514"
+				"timeupdated"		"1661440617"
+			}
+			"old_old_version"
+			{
+				"buildid"		"34499"
+			}
+			"old_version"
+			{
+				"buildid"		"95872"
+				"timeupdated"		"1661299034"
+			}
+		}
+	}
+}
