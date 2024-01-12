@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"2780"
+	"common"
+	{
+		"clienttga"		"95309851ca2b2d81f86e6766deecc50488d4f8ae"
+		"name"		"Arma: Combat Operations"
+		"icon"		"048e96b80d288f4e38e9afe97f746812dc711220"
+		"logo"		"8231922de038c55047d85870ddfe8091fd1811cd"
+		"logo_small"		"c7970669d998a4b32895b6b4e106bb80ac1bbdbe"
+		"metacritic_url"		"pc/armedassault"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"type"		"game"
+		"metacritic_name"		"ArmA: Combat Operations"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"79.70069001811731"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1582710645"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bohemia Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bohemia Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_17"		"1"
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1178607600"
+		"steam_release_date"		"1205337600"
+		"metacritic_score"		"74"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/arma-combat-operations?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"2780"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+			"2"		"1663"
+			"3"		"4168"
+			"4"		"1708"
+			"5"		"1774"
+			"6"		"4175"
+			"7"		"1695"
+		}
+		"review_score"		"5"
+		"review_percentage"		"69"
+	}
+	"extended"
+	{
+		"developer"		"Bohemia Interactive"
+		"developer_url"		"http://www.bistudio.com/"
+		"gamedir"		"ArmA Armed Assault"
+		"homepage"		"http://www.armedassault.com"
+		"icon"		"steam/games/icon_ArmA"
+		"installscript"		"instscript.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp2780\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"2781"
+		"state"		"eStateAvailable"
+		"publisher"		"Bohemia Interactive"
+		"gamemanualurl"		"https://store.steampowered.com/manual/2780/"
+		"listofdlc"		"200460"
+	}
+	"config"
+	{
+		"installscriptsignature"		"832022bbd1dade688b11f924c3b3c4888946107b51b2f70ec50727961f03e5686973fb420bd5a94f01337b6f2bd71d853e22f001889c4c8c74c39931613de954d58f34f37b9555cc9f0de6f7a5922c4fc970065637fa92dae070b9a64c6f7779596854e95bbd50943456ab288fb5084cd2233644ac3db55dbc7a668c8e3c753c"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"ArmA Armed Assault"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"arma.exe"
+			}
+			"1"
+			{
+				"description"		"ArmA: Armed Assault dedicated server"
+				"executable"		"arma_server.exe"
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\bohemia interactive studio\arma"
+			{
+				"string"
+				{
+					"main"		"%INSTALLDIR%"
+				}
+			}
+		}
+		"run process"
+		{
+			"battleyea1"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\2780"
+				"description"		"BattlEye Anti-Cheat software for ARMA 1"
+				"process 1"		"%INSTALLDIR%\\BEsetup\\Setup_BattlEyeARMAGold.exe"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"0"
+			}
+		}
+		"arma cd key"
+		{
+		}
+	}
+	"depots"
+	{
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2783"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9064131329186873909"
+					"size"		"1584052790"
+					"download"		"0"
+				}
+			}
+		}
+		"2782"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7950207257683185050"
+					"size"		"1775731974"
+					"download"		"0"
+				}
+			}
+		}
+		"2781"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6854069796673810862"
+					"size"		"1803933680"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2670"
+			}
+		}
+	}
+}
