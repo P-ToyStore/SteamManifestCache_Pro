@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"1677300"
+	"common"
+	{
+		"name"		"Gemstone Defense"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"b77854c1e929e20f59aec1bcdc745447a16bac9e"
+		"logo_small"		"b77854c1e929e20f59aec1bcdc745447a16bac9e_thumb"
+		"icon"		"fbc4d15a7934bccf7818e6cf4b7d1e99ada1b614"
+		"clienticon"		"b7bdd802ecb5f2e94ccf75464e1dc86bd6745b6f"
+		"clienttga"		"4d4721a0bb1f3522183acbd3b8797b70432af505"
+		"clienticns"		"b7bdd802ecb5f2e94ccf75464e1dc86bd6745b6f"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46.32701421800949"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1628957999"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Thrasosoft"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Thrasosoft"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1629163259"
+		"community_hub_visible"		"1"
+		"gameid"		"1677300"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1645"
+			"2"		"597"
+			"3"		"6730"
+			"4"		"12057"
+			"5"		"4191"
+			"6"		"1654"
+			"7"		"5350"
+			"8"		"1684"
+			"9"		"5154"
+			"10"		"3916"
+			"11"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Thrasosoft"
+		"publisher"		"Thrasosoft"
+	}
+	"config"
+	{
+		"installdir"		"Gemstone Defense"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Gemstone Defense.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"GemstoneDefense.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1677301"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2946622809793635330"
+					"size"		"553452166"
+					"download"		"179131056"
+				}
+			}
+		}
+		"1677302"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"502203754949181074"
+					"size"		"597844920"
+					"download"		"204068960"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7442243"
+				"timeupdated"		"1632878920"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2500000"
+		"maxnumfiles"		"99"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"\\Thrasosoft\\Gemstone Defense\\"
+				"pattern"		"*.gems"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxXdgConfigHome"
+				"path"		"/unity3d/"
+				"pattern"		"*.gemd"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/Thrasosoft/Gemstone Defense/"
+				"pattern"		"*.gems"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
