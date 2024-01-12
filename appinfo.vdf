@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"368140"
+	"common"
+	{
+		"name"		"Tobari and the Night of the Curious Moon"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"linuxclienticon"		"c9cb97a0458c0f1c43633bf70c0fec0dc52a8bc1"
+		"logo"		"446447a3e4bd9df99858a549dcc5a8257969f4f6"
+		"logo_small"		"446447a3e4bd9df99858a549dcc5a8257969f4f6_thumb"
+		"clienticon"		"323138bf35356ef9631cadf6ba90b714f393d159"
+		"clienttga"		"8cd135ee353bc242f6308a114f0d5608066c6556"
+		"icon"		"a0e4bc41daa93b062296de0ed6811d82e30988ea"
+		"clienticns"		"fbc1b54495817cd9f13c7934424a1a7c7a2e53a7"
+		"releasestate"		"released"
+		"name_localized"
+		{
+			"japanese"		"不思議な月の夜のとばり"
+		}
+		"metacritic_name"		"Tobari and the Night of the Curious Moon"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"44.86581096849475"
+				"height_pct"		"73.55734979814773"
+			}
+		}
+		"store_asset_mtime"		"1595527495"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"desunoya"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sekai Project"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Tobari Series"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1344668400"
+		"steam_release_date"		"1432677675"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"368140"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"1625"
+			"3"		"7208"
+			"4"		"4085"
+			"5"		"4026"
+			"6"		"4726"
+			"7"		"3871"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"desunoya"
+		"publisher"		"Sekai Project"
+		"homepage"		"https://sekaiproject.com/products/tobari-and-the-night-of-the-curious-moon/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tobari and the Night of the Curious Moon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"tobari.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Tobari"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"368141"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5488415256285771015"
+					"size"		"300778949"
+					"download"		"275822352"
+				}
+			}
+		}
+		"368142"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"944227742784027413"
+					"size"		"4998544"
+					"download"		"1321344"
+				}
+			}
+		}
+		"368143"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6884785171962202863"
+					"size"		"1859071"
+					"download"		"530864"
+				}
+			}
+		}
+		"baselanguages"		"english,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"667051"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"savedata/"
+				"pattern"		"*.dat"
+			}
+		}
+	}
+}
