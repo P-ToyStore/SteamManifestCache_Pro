@@ -1,0 +1,190 @@
+"appinfo"
+{
+	"appid"		"358210"
+	"common"
+	{
+		"name"		"Monster Bash"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"dad3841de003c7eb658a594032fe8e376d6be953"
+		"logo_small"		"dad3841de003c7eb658a594032fe8e376d6be953_thumb"
+		"oslist"		"windows,macos"
+		"clienticon"		"15b92bc8dbaaebb328804509e510eac8d4587e40"
+		"clienttga"		"be6098e3e6d5903c7e20d33a02c05916b3b2a97b"
+		"icon"		"1e51124f5c767df98b06dfe307caafcf400f733c"
+		"metacritic_name"		"Monster Bash"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"56.184364060676785"
+				"height_pct"		"84.80170980764665"
+			}
+		}
+		"store_asset_mtime"		"1665634359"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Apogee Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Apogee Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"734338800"
+		"steam_release_date"		"1399309260"
+		"community_hub_visible"		"1"
+		"gameid"		"358210"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1625"
+			"2"		"6691"
+			"3"		"1693"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Apogee Software"
+		"publisher"		"Apogee Entertainment"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358210/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Monster Bash"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Monster Bash\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\MBASH.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Monster Bash\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Monster Bash.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"Monster Bash\\"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358211"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"258060931222263148"
+					"size"		"31288750"
+					"download"		"13432544"
+				}
+			}
+		}
+		"358212"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4046569484279945540"
+					"size"		"37843459"
+					"download"		"14973904"
+				}
+			}
+		}
+		"358213"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1424195501421999553"
+					"size"		"11311839"
+					"download"		"5524704"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606135"
+			}
+		}
+	}
+}
