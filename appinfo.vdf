@@ -1,0 +1,299 @@
+"appinfo"
+{
+	"appid"		"1741120"
+	"common"
+	{
+		"name"		"Fantasy General"
+		"type"		"Game"
+		"logo"		"481c9ad3a59e16e5e6ecdd871576da6ae3bc29e4"
+		"logo_small"		"481c9ad3a59e16e5e6ecdd871576da6ae3bc29e4_thumb"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"73e867989318588efba1a1ad1a7b44943d86780e"
+		"clienticon"		"b4ec6abe2b40f1715dc3114c3a1dae201d0574d9"
+		"clienttga"		"c73b8b0a9e94f853fc610b1e7712678f6cb5862b"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1692835200"
+			"tested_build_id"		"7342081"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"34.07789232531502"
+				"height_pct"		"27.845576155831964"
+			}
+		}
+		"store_asset_mtime"		"1631657605"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Strategic Simulations"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"5-STAR General Series"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"SSI"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1631773869"
+		"community_hub_visible"		"1"
+		"gameid"		"1741120"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"4182"
+			"2"		"1741"
+			"3"		"1684"
+			"4"		"4325"
+			"5"		"4684"
+			"6"		"14139"
+			"7"		"4057"
+			"8"		"3871"
+			"9"		"7948"
+			"10"		"1678"
+		}
+		"review_score"		"8"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"Strategic Simulations"
+		"publisher"		"SNEG"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1741120/"
+	}
+	"config"
+	{
+		"installdir"		"Fantasy General"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf fg-base.conf -conf fg-graphics.conf -conf fg-game.conf"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf fg-graphics.conf"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Graphic Tool"
+				}
+				"description"		"Graphic Tool"
+			}
+			"2"
+			{
+				"executable"		"DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf fg-base.conf -conf fg-graphics.conf -conf fg-setup.conf"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Sound Setup"
+				}
+				"description"		"Sound Setup"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french"
+		"1741121"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3499384390862257735"
+					"size"		"256310534"
+					"download"		"195757696"
+				}
+			}
+		}
+		"1741122"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5176926202850296261"
+					"size"		"236341091"
+					"download"		"177444256"
+				}
+			}
+		}
+		"1741123"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1567441732356715063"
+					"size"		"247716570"
+					"download"		"179984448"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7342081"
+				"timeupdated"		"1631342702"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME\\FG\\SAVES"
+				"pattern"		"*"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME\\FG\\DAT"
+				"pattern"		"PREFS.DAT"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME\\FG\\EXE"
+				"pattern"		"DIG.INI"
+			}
+		}
+	}
+}
