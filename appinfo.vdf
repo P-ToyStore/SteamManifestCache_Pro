@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"726500"
+	"common"
+	{
+		"name"		"The Adventures of Sam Carlisle: The Hunt for the Lost Treasure"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienttga"		"ccc2b6c31a33daa8cc6c6c2d7be430f8db3cb985"
+		"clienticon"		"c062b6cc1c348168c280709a56a1aeafc9fdd9d4"
+		"icon"		"66e3485aae8f67723249eabb90d388f88b9c081f"
+		"clienticns"		"c062b6cc1c348168c280709a56a1aeafc9fdd9d4"
+		"linuxclienticon"		"49802fbbbc160676161e3d5cb877bc8590ee3f71"
+		"logo"		"a8cab26da9e8e1f36e0ed22a065aa0d5e7befe9d"
+		"logo_small"		"a8cab26da9e8e1f36e0ed22a065aa0d5e7befe9d_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"The Adventures of Sam Carlisle: The Hunt for the Lost Treasure"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1581966155"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Givit Game Studios (Pty) Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Givit Game Studios (Pty) Ltd"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1508742000"
+		"steam_release_date"		"1509519659"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"726500"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Givit Game Studios (Pty) Ltd"
+		"publisher"		"Givit Game Studios (Pty) Ltd"
+		"homepage"		"http://www.sam-game.com"
+	}
+	"config"
+	{
+		"installdir"		"The Adventures of Sam Carlisle The Hunt for the Lost Treasure"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"The_Hunt_for_the_Lost_Treasure.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"The_Hunt_for_the_Lost_Treasure_install.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"The Hunt for the Lost Treasure.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"726502"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5121594227866146952"
+					"size"		"380435968"
+					"download"		"384676032"
+				}
+			}
+		}
+		"726503"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5222851775641758849"
+					"size"		"516620773"
+					"download"		"337194864"
+				}
+			}
+		}
+		"726504"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3403780749222243040"
+					"size"		"522542250"
+					"download"		"340257248"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2269048"
+				"timeupdated"		"1510201313"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000"
+		"maxnumfiles"		"500"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+		"appidredirect"		"726500"
+	}
+}
