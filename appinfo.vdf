@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"226780"
+	"common"
+	{
+		"name"		"MUD - FIM Motocross World Championship™"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"dbd105bcd1f2bcd7eba06214b7799ae0d03ddbea"
+		"logo_small"		"dbd105bcd1f2bcd7eba06214b7799ae0d03ddbea_thumb"
+		"icon"		"5bb8426dd82a3339448568ce9bb21a24ccef3636"
+		"clienttga"		"ab1bbf852fe52b47a54a3111822fe387815b0694"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"clienticon"		"a943fc5471ee4d4283337a6da70ba56ee221594c"
+		"eulas"
+		{
+			"0"
+			{
+				"url"		"http://store.steampowered.com/eula/226780_eula"
+				"id"		"226780_eula"
+				"name"		"226780_eula"
+			}
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1666828800"
+			"tested_build_id"		"40818"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"1"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"MUD Motocross World Championship"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1363389333"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Milestone S.r.l."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BANDAI NAMCO Entertainment"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"226780"
+		"store_tags"
+		{
+			"0"		"15868"
+			"1"		"699"
+			"2"		"198913"
+			"3"		"701"
+			"4"		"3859"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Milestone S.r.l."
+		"gamedir"		"ValveTestApp226780"
+		"homepage"		"http://www.mudthegame.com/"
+		"icon"		""
+		"installscript"		"Setup.Rul"
+		"launcheula"		"http://store.steampowered.com/eula/226780_eula"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"BANDAI NAMCO Entertainment"
+		"gamemanualurl"		"https://store.steampowered.com/manual/226780/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"MUD Motocross World Championship"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MUD.EXE"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"1ae8d340c98615d05c24c5a4fb63b33c3cd3e42c014e69ae03d0044aadccafbeee3bfd3e72139f45eb4c398cf22a9ed70ad261cec24f20c9eb31cc9a7953cf086a1729a2007baec28b154407225666897696076bf093236cd9576d671f56842122b4e048f997197251fabb70001af73951297631df5645e20c675af142027491"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\milestone\mud"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\MUD.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"1.00"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\480"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"226781"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4083588371049219581"
+					"size"		"3447880585"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"40818"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Milestone/MUD/"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
