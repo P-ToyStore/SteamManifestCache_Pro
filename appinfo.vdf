@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"528110"
+	"common"
+	{
+		"name"		"Tennis Elbow Manager"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"icon"		"d3e671efc806a26a266b40bfde9f99d3e4ca5ddc"
+		"logo"		"1e041326ea18f454d3530b4a70869280a36de6da"
+		"logo_small"		"1e041326ea18f454d3530b4a70869280a36de6da_thumb"
+		"clienttga"		"cc0b6da950e6d9abeade4fa72a756ab6e054a012"
+		"clienticon"		"a729dca814727b645cd5a7c3afb2198e5e728814"
+		"clienticns"		"926b1f3513d3bad543e2fa0fda3dc9686b42d5a3"
+		"releasestate"		"released"
+		"metacritic_name"		"Tennis Elbow Manager"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"25.845974329054854"
+				"height_pct"		"49.62006080789489"
+			}
+		}
+		"store_asset_mtime"		"1667199859"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mana Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mana Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Tennis Elbow"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1235030400"
+		"steam_release_date"		"1476468000"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"528110"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"12472"
+			"2"		"5914"
+			"3"		"599"
+			"4"		"3871"
+			"5"		"31275"
+			"6"		"6691"
+			"7"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Mana Games"
+		"publisher"		"Mana Games"
+		"homepage"		"http://www.managames.com/tennismanager1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tennis Elbow Manager"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TeManager.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Config.exe"
+				"description"		"Configuration"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Tennis Elbow Manager.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Doc\\En_QuickStart.html"
+				"type"		"manual"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,portuguese,polish,dutch,hungarian"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"528111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4105446713838142561"
+					"size"		"33613057"
+					"download"		"14066704"
+				}
+			}
+		}
+		"528112"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4758100996120819180"
+					"size"		"44794481"
+					"download"		"15509120"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5332936"
+				"timeupdated"		"1595737078"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Profiles"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Profiles"
+				"pattern"		"Tour*.Ini"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Profiles"
+				"pattern"		"p_*.Ini"
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"Profiles"
+				"pattern"		"*.match"
+				"recursive"		"1"
+			}
+		}
+	}
+}
