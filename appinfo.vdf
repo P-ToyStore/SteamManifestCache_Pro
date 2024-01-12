@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"358930"
+	"common"
+	{
+		"name"		"Star Control III"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"9403cf21a4c1e5d28718fe571737ab8f2003981c"
+		"clienttga"		"7b8d50ea79cc7b32a1d993b9028842d8b3b1bd4f"
+		"icon"		"5f13c2eaeeba834fda97eaba76c3c9923565cf39"
+		"logo"		"11c7eae7519140579bcae7aced8e2ad8c18be36c"
+		"logo_small"		"11c7eae7519140579bcae7aced8e2ad8c18be36c_thumb"
+		"metacritic_name"		"Star Control 3"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"64.00233372228706"
+				"height_pct"		"72.4174780337212"
+			}
+		}
+		"store_asset_mtime"		"1667930772"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Legend Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Stardock Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Star Control"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Stardock Entertainment"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_1"		"1"
+			"category_23"		"1"
+			"category_44"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"841474800"
+		"steam_release_date"		"1508432400"
+		"metacritic_score"		"89"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/star-control-3?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"358930"
+		"store_tags"
+		{
+			"0"		"3814"
+			"1"		"1775"
+			"2"		"4231"
+			"3"		"6730"
+			"4"		"4106"
+			"5"		"1697"
+			"6"		"4191"
+			"7"		"11104"
+			"8"		"18594"
+			"9"		"1742"
+			"10"		"3834"
+			"11"		"1755"
+			"12"		"19"
+			"13"		"3942"
+			"14"		"1643"
+			"15"		"21"
+			"16"		"4004"
+			"17"		"4295"
+			"18"		"3993"
+			"19"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"56"
+	}
+	"extended"
+	{
+		"developer"		"Legend Entertainment"
+		"publisher"		"Stardock Entertainment"
+		"homepage"		"https://www.starcontrol.com/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358930/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Star Control 3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX\\DOSBox.exe"
+				"arguments"		"-conf \"dosboxSC3.conf\" -conf \"dosboxSC3_single.conf\" -noconsole -c exit"
+				"workingdir"		"DOSBOX\\"
+				"description"		"Play Star Control: Kessari Quadrant"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"358931"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"770035395274380691"
+					"size"		"827972335"
+					"download"		"639868144"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"publishing"
+				{
+					"gid"		"22541D6A94E22E62C8AA336D5B75415F"
+					"size"		"D0B2E3E13098DC75CE427E005D139922"
+					"download"		"8C66F9D0D56461428E017CE34FCD734E"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2178992"
+				"timeupdated"		"1507315179"
+			}
+			"publishing"
+			{
+				"buildid"		"2178992"
+				"pwdrequired"		"1"
+				"timeupdated"		"1507315167"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"STARCON3"
+				"pattern"		"STAR*.SAV"
+			}
+		}
+	}
+}
