@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"329680"
+	"common"
+	{
+		"name"		"Task Force 1942: Surface Naval Action in the South Pacific"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"efc722fc0e9d6b119f382607e61f545c32c9ac03"
+		"linuxclienticon"		"eadf34ce031bc78a8983e8cdb7f7a04892529454"
+		"logo"		"2835ef89808a3efa4240d5f4d3d21265c5e4c12a"
+		"logo_small"		"2835ef89808a3efa4240d5f4d3d21265c5e4c12a_thumb"
+		"clienticon"		"424ce1d39e90f8aa78dacebab42f55397e019435"
+		"clienttga"		"20fc30720089fea609216f889f00d812e885238f"
+		"icon"		"50c39bd3593e819267a968176461e2084e7f98e1"
+		"metacritic_name"		"Task Force 1942: Surface Naval Action"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1415133858"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"694252800"
+		"steam_release_date"		"1415304015"
+		"community_hub_visible"		"1"
+		"gameid"		"329680"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"4994"
+			"2"		"6910"
+			"3"		"4150"
+		}
+		"review_score"		"5"
+		"review_percentage"		"59"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc"
+		"publisher"		"Atari"
+		"homepage"		"http://www.retroism.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Task Force 1942"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_taskforce1942.conf -conf dosbox_taskforce1942_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_taskforce1942.conf -conf dosbox_taskforce1942_launch_windows.conf -noconsole"
+				"description"		"Play Task Force 1942 in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_taskforce1942.conf -conf dosbox_taskforce1942_config_windows.conf -noconsole"
+				"description"		"Task Force 1942 - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Task Force 1942.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_taskforce1942_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_taskforce1942_game_daum.sh"
+				"description"		"Play Task Force 1942 in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_taskforce1942_config.sh"
+				"description"		"Task Force 1942 - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"329681"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6775909455261292601"
+					"size"		"106884395"
+					"download"		"101519696"
+				}
+			}
+		}
+		"329682"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1885336679406482960"
+					"size"		"18522204"
+					"download"		"8409264"
+				}
+			}
+		}
+		"329683"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7680604777474347103"
+					"size"		"46321252"
+					"download"		"32417424"
+				}
+			}
+		}
+		"329684"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8733189792917172804"
+					"size"		"17457475"
+					"download"		"7639856"
+				}
+			}
+		}
+		"329685"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3996537699572300441"
+					"size"		"12094071"
+					"download"		"7689840"
+				}
+			}
+		}
+		"329686"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6473788152908724158"
+					"size"		"12094071"
+					"download"		"7689840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"493353"
+			}
+		}
+	}
+}
