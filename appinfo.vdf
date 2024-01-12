@@ -1,0 +1,212 @@
+"appinfo"
+{
+	"appid"		"358410"
+	"common"
+	{
+		"name"		"Rise of the Triad: Dark War"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"clienticon"		"3328e2ad9d86267bc4f975f37048c9c99dbce6d3"
+		"clienttga"		"7bb1a3f34be96e8d579146d9d1741bea31a0af0a"
+		"icon"		"10753f72753a023cbbe09943496a15c47add77a6"
+		"logo"		"5a1eec703ccf8d1218bbaa5fe2dde69774684bfb"
+		"logo_small"		"5a1eec703ccf8d1218bbaa5fe2dde69774684bfb_thumb"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_violence"		"1"
+		"metacritic_name"		"Rise of the Triad: Dark War"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"68.26137689614936"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1665634306"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Apogee Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Apogee Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"787996800"
+		"steam_release_date"		"1399309200"
+		"community_hub_visible"		"1"
+		"gameid"		"358410"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4345"
+			"2"		"4667"
+			"3"		"1663"
+			"4"		"1774"
+			"5"		"3839"
+			"6"		"1023537"
+			"7"		"6691"
+			"8"		"4004"
+			"9"		"3916"
+			"10"		"1719"
+			"11"		"4182"
+			"12"		"4975"
+			"13"		"3964"
+			"14"		"7208"
+			"15"		"4342"
+			"16"		"5708"
+			"17"		"1693"
+			"18"		"1756"
+			"19"		"7782"
+		}
+		"review_score"		"8"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Apogee Software"
+		"publisher"		"Apogee Entertainment"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rise of the Triad Dark War"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Rise of the Triad - Dark War\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\ROTT.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Rise of the Triad - Dark War\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Rise of the triad.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\ROTT.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358411"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8019207980647617437"
+					"size"		"55710344"
+					"download"		"26664352"
+				}
+			}
+		}
+		"358412"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5104201047822653652"
+					"size"		"40464943"
+					"download"		"16517648"
+				}
+			}
+		}
+		"358413"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8700773400980963118"
+					"size"		"35441518"
+					"download"		"18675392"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"621765"
+			}
+		}
+	}
+}
