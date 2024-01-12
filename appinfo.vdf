@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"688900"
+	"common"
+	{
+		"name"		"Endless Reality"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"linuxclienticon"		"2da90002169c28a6050e8cefe8816fa0f33d7069"
+		"clienticon"		"464b834f856bf126517ccc16d3a7c176e8a615d7"
+		"clienttga"		"0a6bf7e2765a7a5f47f885af6075ed4e724b6f64"
+		"icon"		"164a5087209510e205287510a068e411c4f032e1"
+		"clienticns"		"6ac285fba35e2c1910abc1e2ea86fcd6cd800812"
+		"logo"		"ec23861b2cfebfe0dbef6881d403402d216a00cd"
+		"logo_small"		"ec23861b2cfebfe0dbef6881d403402d216a00cd_thumb"
+		"metacritic_name"		"Endless Reality"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1667141307"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hackerguild LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hackerguild LLC"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1504101233"
+		"community_hub_visible"		"1"
+		"gameid"		"688900"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"122"
+			"3"		"9"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Hackerguild LLC"
+		"publisher"		"Hackerguild LLC"
+		"homepage"		"http://hackerguild.com/games_endless.html"
+	}
+	"config"
+	{
+		"installdir"		"EndlessReality"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Endless/Endless/Endless.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Endless/Endless/Endless"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Endless/Endless/Endless.app/Contents/MacOS/Endless"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"688901"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1591660128162291908"
+					"size"		"135977159"
+					"download"		"120013872"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"B6ACB8E555301F29A74ECEED8F1D24B1"
+					"size"		"CC816B19913C0D377DF3B9742755EB2F"
+					"download"		"4F9666ECE63EDC2AB73585825A020CD4"
+				}
+			}
+		}
+		"688902"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4157697471335131384"
+					"size"		"119397430"
+					"download"		"105951312"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"2A5A10286DB0F98BAE197A1627CEC7F3"
+					"size"		"0854C7FCA528DADA7FD0E438E0781170"
+					"download"		"C30F3297506100700748E48824C0CA41"
+				}
+			}
+		}
+		"688903"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4605273464814066596"
+					"size"		"127996183"
+					"download"		"106579392"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"D04D997EBCDF2CC9F48EC79C2178FACE"
+					"size"		"4B56F3E2DE0AABC1B2DECEABE4466AEC"
+					"download"		"ACF9C67BCA36F60E461499448176E1DE"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2091001"
+				"timeupdated"		"1504537091"
+			}
+			"staging"
+			{
+				"buildid"		"2091001"
+				"pwdrequired"		"1"
+				"timeupdated"		"1504537083"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+	}
+}
