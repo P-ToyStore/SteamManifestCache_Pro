@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"358230"
+	"common"
+	{
+		"name"		"Paganitzu"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"c34bddf6be952fe08144518560eacf8b0e077239"
+		"logo_small"		"c34bddf6be952fe08144518560eacf8b0e077239_thumb"
+		"oslist"		"windows,macos"
+		"clienticon"		"1451782d3e572c3ea094e1b84fe2018a13de55fe"
+		"clienttga"		"e3ab3be81da3300a6fcb175647852a88fe7d3ec2"
+		"icon"		"af38227450729cc66bf70f38bac12042d1cad383"
+		"metacritic_name"		"Paganitzu"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"32.74052796787737"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1695977621"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3D Realms"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"686300400"
+		"steam_release_date"		"1399309200"
+		"community_hub_visible"		"1"
+		"gameid"		"358230"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1664"
+		}
+		"review_score"		"6"
+		"review_percentage"		"74"
+	}
+	"extended"
+	{
+		"developer"		"3D Realms"
+		"publisher"		"3D Realms"
+		"homepage"		"https://3drealms.com/catalog/paganitzu_14/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358230/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Paganitzu"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Paganitzu\\Dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\PAGA.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Paganitzu\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Paganitzu.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\PAGA.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2309959763365453688"
+					"size"		"29851456"
+					"download"		"12188976"
+				}
+			}
+		}
+		"358232"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2386402038828800473"
+					"size"		"8243237"
+					"download"		"3583984"
+				}
+			}
+		}
+		"358233"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7714883418821508702"
+					"size"		"9874648"
+					"download"		"4281136"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606141"
+			}
+		}
+	}
+}
