@@ -1,0 +1,201 @@
+"appinfo"
+{
+	"appid"		"1649340"
+	"common"
+	{
+		"name"		"Theatre of War"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"865aa5fad63089c5cfe66133936bd80ab9679dd6"
+		"logo_small"		"865aa5fad63089c5cfe66133936bd80ab9679dd6_thumb"
+		"icon"		"fddf05190099c1388b7c5a7ba1d2565e1ea21d1f"
+		"clienticon"		"c49db99a2984cc3bdba2369565d6bafb7b117a7c"
+		"clienttga"		"c6844e513a38f188e44787f294fbb86d0befadd7"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"47.906976744186046"
+				"height_pct"		"91.64094039420566"
+			}
+		}
+		"store_asset_mtime"		"1630558009"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Artech Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1630673767"
+		"community_hub_visible"		"1"
+		"gameid"		"1649340"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1770"
+			"2"		"17389"
+			"3"		"4400"
+			"4"		"1710"
+			"5"		"3813"
+			"6"		"1741"
+			"7"		"1676"
+			"8"		"14139"
+			"9"		"7569"
+			"10"		"4004"
+			"11"		"16689"
+			"12"		"3871"
+			"13"		"4191"
+			"14"		"4305"
+			"15"		"3964"
+			"16"		"4791"
+			"17"		"4172"
+			"18"		"4182"
+			"19"		"17770"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Artech Studios"
+		"publisher"		"Ziggurat"
+		"homepage"		"http://www.ziggurat.games"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1649340/"
+	}
+	"config"
+	{
+		"installdir"		"Theatre of War"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x480.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x480"
+				}
+				"description"		"windowed 640x480"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x960.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x960"
+				}
+				"description"		"windowed 1280x960"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1920.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1920"
+				}
+				"description"		"windowed 2560x1920"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1649341"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6214895928138704438"
+					"size"		"39407758"
+					"download"		"15981040"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7194802"
+				"timeupdated"		"1629095703"
+			}
+		}
+	}
+}
