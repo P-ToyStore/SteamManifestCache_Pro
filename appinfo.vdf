@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"1963660"
+	"common"
+	{
+		"name"		"Neodori Forever"
+		"type"		"Game"
+		"icon"		"3e8d0b4dd8c1770a756b1594b573cfa62b0dbd6b"
+		"clienticon"		"dfdfed418332cb30c68696a094adc1bdcac4dead"
+		"clienttga"		"f44bcfc1c5b5ecb389113ed5dfd2afb1df82b2a4"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1677957464"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Strobetano"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Crescent Moon Games"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1655289798"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1963660"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"699"
+			"2"		"1773"
+			"3"		"3964"
+			"4"		"4195"
+			"5"		"1697"
+			"6"		"7743"
+			"7"		"3968"
+			"8"		"4182"
+			"9"		"4004"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Strobetano"
+		"publisher"		"Crescent Moon Games"
+		"homepage"		"http://strobetano.com/"
+	}
+	"config"
+	{
+		"installdir"		"NeodoriForever"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NeodoriForever.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"NEODORI.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"neodori_130.x86_64"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"1963661"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7679361783764365985"
+					"size"		"607735508"
+					"download"		"158713600"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"9391B72D5CA3BA424AF0BB11131E2381"
+					"size"		"96BCA1ED2F078F39C02CD6443878DCB0"
+					"download"		"0DF0F53144C19DBB884489399D04736B"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12264624"
+				"timeupdated"		"1695578542"
+			}
+			"beta"
+			{
+				"buildid"		"12264624"
+				"pwdrequired"		"1"
+				"timeupdated"		"1695482387"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"strobetano/NeodoriForever"
+				"pattern"		"*.bin"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"strobetano/NeodoriForever"
+						"replace"		"strobetano/NeodoriForever"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"strobetano/NeodoriForever"
+						"replace"		".config/unity3d/strobetano/NeodoriForever"
+					}
+				}
+			}
+		}
+	}
+}
