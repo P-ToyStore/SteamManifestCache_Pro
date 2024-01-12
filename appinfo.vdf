@@ -1,0 +1,243 @@
+"appinfo"
+{
+	"appid"		"722990"
+	"common"
+	{
+		"name"		"Dungeons of Hell"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"d76b98e98921c2a606fa61036e4049d5b9e10772"
+		"logo"		"6ae91af3c6fb13b7dc52f4890c25015b5ec86799"
+		"logo_small"		"6ae91af3c6fb13b7dc52f4890c25015b5ec86799_thumb"
+		"clienticon"		"23e7a65fd2ab99876181f1dfa4739a8e5dc16c42"
+		"clienttga"		"9bb6ebad61d7686b43f26189f41ab90df0dd8a2e"
+		"clienticns"		"054fdde3f8222d061667248c0ac817ea9e93472d"
+		"metacritic_name"		"Dungeons of Hell"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"81.04082872291542"
+				"height_pct"		"51.49799008180567"
+			}
+		}
+		"store_asset_mtime"		"1686156440"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"GoldenGod Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"GoldenGod Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1508396911"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"722990"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"597"
+			"3"		"122"
+			"4"		"1716"
+			"5"		"1662"
+		}
+		"review_score"		"7"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"developer"		"GoldenGod Games"
+		"publisher"		"GoldenGod Games"
+	}
+	"config"
+	{
+		"installdir"		"Dungeons of Hell"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DungeonsOfHell.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DungeonsOfHell.app/Contents/MacOS/DungeonsOfHell"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"DungeonsOfHell.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"baselanguages"		"english"
+		"722991"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4631666082823812986"
+					"size"		"70529063"
+					"download"		"20180800"
+				}
+			}
+		}
+		"722992"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7885787969633354033"
+					"size"		"85788276"
+					"download"		"23214288"
+				}
+			}
+		}
+		"722993"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2246532735727262753"
+					"size"		"85021142"
+					"download"		"24237696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2296415"
+				"timeupdated"		"1511008416"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"GoldenGodGames/DungeonsOfHell"
+				"pattern"		"*.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacHome"
+				"path"		"/Library/Application Support/GoldenGodGames/DungeonsOfHell"
+				"pattern"		"*.txt"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
