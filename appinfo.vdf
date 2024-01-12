@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"358320"
+	"common"
+	{
+		"name"		"Realms of Chaos"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"515868b748cc073b4cb6b4de6a1726dd08f0170e"
+		"logo_small"		"515868b748cc073b4cb6b4de6a1726dd08f0170e_thumb"
+		"oslist"		"windows,macos"
+		"clienticon"		"e3583e865c73196f71435ba6ed2819e083897f51"
+		"clienttga"		"aaffb9f603df2eca0d12e9d4209ba77607037fdd"
+		"icon"		"088a9b9693fc8fc3316b6dd889b6de6eaefcc7d3"
+		"metacritic_name"		"Realms of Chaos"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"59.21820303383897"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1695977670"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3D Realms"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"816076800"
+		"steam_release_date"		"1399309200"
+		"community_hub_visible"		"1"
+		"gameid"		"358320"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1625"
+			"3"		"1693"
+		}
+		"review_score"		"8"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"3D Realms"
+		"publisher"		"3D Realms"
+		"homepage"		"https://3drealms.com/catalog/realms-chaos_9/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Realms of Chaos"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Realms of Chaos\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\CHAOS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Realms of Chaos\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Realms of Chaos.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\CHAOS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358321"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8523526658645975417"
+					"size"		"32444095"
+					"download"		"14981840"
+				}
+			}
+		}
+		"358322"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6397077554772239098"
+					"size"		"12636642"
+					"download"		"6343296"
+				}
+			}
+		}
+		"358323"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5823246264576397970"
+					"size"		"12366730"
+					"download"		"7031248"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606147"
+			}
+		}
+	}
+}
