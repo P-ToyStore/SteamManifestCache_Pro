@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"358310"
+	"common"
+	{
+		"name"		"Blake Stone: Planet Strike"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"d46a3788eb051b2554d736e10d2c59fbe393bd45"
+		"logo_small"		"d46a3788eb051b2554d736e10d2c59fbe393bd45_thumb"
+		"clienticon"		"f85979728db9e6235630fc317893f27ef52a9ff0"
+		"clienttga"		"9daf8a8a4aef9c2c3d454c5344293757d8ad5d0c"
+		"icon"		"001ce204c3efbd9917ef1bccc73d07c651ea5b0c"
+		"oslist"		"windows,macos"
+		"metacritic_name"		"Blake Stone: Planet Strike"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"72.28704784130689"
+				"height_pct"		"84.4217525528378"
+			}
+		}
+		"store_asset_mtime"		"1665634152"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"JAM Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Apogee Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"783327600"
+		"steam_release_date"		"1399308120"
+		"community_hub_visible"		"1"
+		"gameid"		"358310"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"1774"
+			"3"		"3839"
+			"4"		"6691"
+			"5"		"4004"
+			"6"		"1023537"
+			"7"		"3871"
+			"8"		"3916"
+			"9"		"3942"
+			"10"		"4975"
+			"11"		"4195"
+			"12"		"3964"
+			"13"		"4252"
+			"14"		"1673"
+			"15"		"4182"
+			"16"		"4345"
+			"17"		"5230"
+			"18"		"1693"
+			"19"		"3834"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"JAM Productions"
+		"publisher"		"Apogee Entertainment"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358310/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Blake Stone Planet Strike"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Blake Stone - Planet Strike\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\BSPS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Blake Stone - Planet Strike\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Blake Stone PS.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\BSPS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358311"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8209172309382581382"
+					"size"		"35822119"
+					"download"		"15496000"
+				}
+			}
+		}
+		"358312"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"818022563200080893"
+					"size"		"14468334"
+					"download"		"7090624"
+				}
+			}
+		}
+		"358313"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9160720516468629101"
+					"size"		"15844677"
+					"download"		"7588144"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606099"
+			}
+		}
+	}
+}
