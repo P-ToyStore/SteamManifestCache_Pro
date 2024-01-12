@@ -1,0 +1,260 @@
+"appinfo"
+{
+	"appid"		"247750"
+	"common"
+	{
+		"name"		"The Stanley Parable Demo"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"8a3b69c4d4303efcf53401ecf4228f3a9ba8d5cf"
+		"logo_small"		"8a3b69c4d4303efcf53401ecf4228f3a9ba8d5cf_thumb"
+		"icon"		"d4958966dbc02d7a282c52552f71ce6910957b63"
+		"clienticon"		"0b81982fef93eb71ab99668ed1ee5ae594fc451b"
+		"clienttga"		"c24b1a954f1c804093fad3e3159ef611b2f344b1"
+		"parent"		"221910"
+		"linuxclienticon"		"ace3064b2d3e9e258933c2b0c79a8f4a42e5c337"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1687219200"
+			"tested_build_id"		"768585"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"3"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-3"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"The Stanley Parable Demo"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1381423190"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Galactic Cafe"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Galactic Cafe"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_13"		"1"
+			"category_12"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1381428000"
+		"community_visible_stats"		"1"
+		"gameid"		"247750"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+		}
+		"review_score"		"8"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"developer"		"Galactic Cafe"
+		"publisher"		"Galactic Cafe"
+		"homepage"		"http://stanleyparable.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Stanley Parable Demo"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"stanley.exe"
+				"arguments"		"-game thestanleyparabledemo"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"stanley"
+				"arguments"		"-game thestanleyparabledemo"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"stanley"
+				"arguments"		"-game thestanleyparabledemo"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"247751"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6527071417481268090"
+					"size"		"856052734"
+					"download"		"0"
+				}
+			}
+		}
+		"247753"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6473185962011220245"
+					"size"		"285254722"
+					"download"		"0"
+				}
+			}
+		}
+		"247752"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"283209071798958915"
+					"size"		"119848"
+					"download"		"0"
+				}
+			}
+		}
+		"247754"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6962808737208349258"
+					"size"		"90699356"
+					"download"		"23060400"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"768585"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"20"
+	}
+}
