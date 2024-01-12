@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"358290"
+	"common"
+	{
+		"name"		"Hocus Pocus"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"100991cf63683f5876569d56e667884623f2838b"
+		"logo_small"		"100991cf63683f5876569d56e667884623f2838b_thumb"
+		"clienticon"		"cdf72c78fa5f31a0208e8b3f7c47a97e41be177e"
+		"clienttga"		"925fe530110eb094b98de127e7621de2e99eb133"
+		"icon"		"c2ff6c900feef47c16de123d9c04783a73b8c86c"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1686614400"
+			"tested_build_id"		"606130"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-2"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Hocus Pocus"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"72.63710618436406"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1695977434"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Moonlite Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"770454000"
+		"steam_release_date"		"1399308180"
+		"community_hub_visible"		"1"
+		"gameid"		"358290"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1625"
+			"3"		"1693"
+			"4"		"4004"
+			"5"		"6691"
+			"6"		"3871"
+			"7"		"1684"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Moonlite Software"
+		"publisher"		"3D Realms"
+		"homepage"		"https://3drealms.com/catalog/hocus-pocus_20/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358290/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Hocus Pocus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Hocus Pocus\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\HOCUS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Hocus Pocus\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Hocus Pocus.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\HOCUS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358291"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5722471574260542499"
+					"size"		"36364503"
+					"download"		"13977328"
+				}
+			}
+		}
+		"358292"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3626982233321174451"
+					"size"		"14647529"
+					"download"		"5312912"
+				}
+			}
+		}
+		"358293"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4697917386102690781"
+					"size"		"16386996"
+					"download"		"6069488"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606130"
+			}
+		}
+	}
+}
