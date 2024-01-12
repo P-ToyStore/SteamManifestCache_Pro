@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"358190"
+	"common"
+	{
+		"name"		"Blake Stone: Aliens of Gold"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"b95c8b05a56e81787c822abfec9fa76841bc6e2a"
+		"logo_small"		"b95c8b05a56e81787c822abfec9fa76841bc6e2a_thumb"
+		"clienticon"		"bc8502bc715983e582076c63c41865139f38444f"
+		"clienttga"		"e2feb7f3f89fae9a35ea2ebec0ccee92839b18b8"
+		"icon"		"45fce15e40cf48cc9a99d39198d4be2015c1cd0f"
+		"oslist"		"windows,macos"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1653523200"
+			"tested_build_id"		"606098"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Blake Stone: Aliens of Gold"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"65.63593932322054"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1665634222"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"JAM Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Apogee Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"754905600"
+		"steam_release_date"		"1399308120"
+		"community_hub_visible"		"1"
+		"gameid"		"358190"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"19"
+			"2"		"3839"
+			"3"		"1774"
+			"4"		"6691"
+			"5"		"1023537"
+			"6"		"4004"
+			"7"		"4975"
+			"8"		"3916"
+			"9"		"3942"
+			"10"		"4182"
+			"11"		"21"
+			"12"		"1773"
+			"13"		"3834"
+			"14"		"4085"
+			"15"		"3964"
+			"16"		"4252"
+			"17"		"1719"
+			"18"		"1673"
+			"19"		"4345"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"JAM Productions"
+		"publisher"		"Apogee Entertainment"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358190/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Blake Stone Aliens of Gold"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Blake Stone - Aliens of Gold\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\BSAOG.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Blake Stone - Aliens of Gold\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Blake Stone AOG.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\BSAOG.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358191"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1912361403568473018"
+					"size"		"43520741"
+					"download"		"20795744"
+				}
+			}
+		}
+		"358192"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4744439877490017989"
+					"size"		"21588706"
+					"download"		"11760544"
+				}
+			}
+		}
+		"358193"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8152539290647311103"
+					"size"		"23543297"
+					"download"		"12887888"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606098"
+			}
+		}
+	}
+}
