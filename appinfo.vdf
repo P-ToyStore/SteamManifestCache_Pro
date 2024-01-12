@@ -1,0 +1,79 @@
+"appinfo"
+{
+	"appid"		"425690"
+	"common"
+	{
+		"name"		"UGT - Hardsurface 3D Course - Files"
+		"type"		"Application"
+		"parent"		"425680"
+		"oslist"		"windows,macos,linux"
+		"logo"		"90dea0d201e09f193094b9942095aa498f67c7e3"
+		"logo_small"		"90dea0d201e09f193094b9942095aa498f67c7e3_thumb"
+		"clienticon"		"5844e0a9b2cb226cf758352d93d6c545fe62b9a7"
+		"clienttga"		"555fc84b1d05c7c3c07eca0bb5bd5a639423498f"
+		"icon"		"616190d2c829ffb7230549d5d119ae8a46982c97"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"425690"
+		"exfgls"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Grenade Tutorial - Files"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"scripts/openfiles.bat"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./scripts/openfiles_osx.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"./scripts/openfiles_linux.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"425691"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7591136455321892014"
+					"size"		"63774412"
+					"download"		"19144048"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"884826"
+			}
+		}
+	}
+}
