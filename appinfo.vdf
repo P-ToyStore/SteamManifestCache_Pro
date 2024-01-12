@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"904540"
+	"common"
+	{
+		"name"		"Indiana Jones® and the Infernal Machine™"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"904540_eula_0"
+				"name"		"Indiana Jones® and the Infernal Machine™ EULA"
+				"url"		"https://store.steampowered.com//eula/904540_eula_0"
+				"version"		"1"
+			}
+		}
+		"clienticon"		"34eaf4acda1dbaad6fda75face24277ec300e513"
+		"clienttga"		"189ce4ed4c91e8323253bad7115216825c938650"
+		"icon"		"62913d186f85fec67ba1d679b4cdf76067e6bfb4"
+		"logo"		"e336b49d06a7ae1b752982b3e532734f67476782"
+		"logo_small"		"e336b49d06a7ae1b752982b3e532734f67476782_thumb"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1660176000"
+			"tested_build_id"		"2953519"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"1"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Indiana Jones and the Infernal Machine"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1541646042"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LucasArts"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lucasfilm"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"941353200"
+		"steam_release_date"		"1542411023"
+		"community_hub_visible"		"1"
+		"gameid"		"904540"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"1693"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"LucasArts"
+		"publisher"		"Lucasfilm"
+	}
+	"config"
+	{
+		"installdir"		"Indiana Jones and the Infernal Machine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Jones3D.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"904541"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6743586852473775766"
+					"size"		"918068159"
+					"download"		"373081808"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2953519"
+				"timeupdated"		"1531858347"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SaveGames"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
