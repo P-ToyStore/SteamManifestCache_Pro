@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"856490"
+	"common"
+	{
+		"name"		"Falling words"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"fff2fcec073cf5eb09fc85d8189ce390d7892ae9"
+		"logo_small"		"fff2fcec073cf5eb09fc85d8189ce390d7892ae9_thumb"
+		"clienticon"		"bbd43529c6073f94e524be92b9817e1ff1151a04"
+		"clienttga"		"39d6d3d46188cfb99004bd209f6e3fdb104f5a4b"
+		"icon"		"cf300538cfe5a9a1250104e5e3a9051767e49be2"
+		"clienticns"		"f3521deb38df034f7d87bd36281029a5cd28701e"
+		"linuxclienticon"		"c4a0064f52b73b4b1ece1624a32d6d746a4298aa"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"osextended"		"macos64"
+		"metacritic_name"		"Falling words"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1524923254"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mikhail Melnikov"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SA Industry"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"SA Industry"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1526475330"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"856490"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"599"
+			"2"		"1674"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"Mikhail Melnikov"
+		"publisher"		"SA Industry"
+	}
+	"config"
+	{
+		"installdir"		"Falling words"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Falling words.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Falling words.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Falling words.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"856491"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5560153324250744241"
+					"size"		"80672072"
+					"download"		"24390800"
+				}
+			}
+		}
+		"856492"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7823475800619871144"
+					"size"		"100952172"
+					"download"		"28576464"
+				}
+			}
+		}
+		"856493"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6124594879964544504"
+					"size"		"96205299"
+					"download"		"28591120"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2768600"
+				"timeupdated"		"1526139755"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"appidredirect"		"856490"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Mikhail Melnikov/Falling words"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Mikhail Melnikov/Falling words"
+						"replace"		"Mikhail Melnikov/Falling words"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Mikhail Melnikov/Falling words"
+						"replace"		".config/unity3d/Mikhail Melnikov/Falling words"
+					}
+				}
+			}
+		}
+	}
+}
