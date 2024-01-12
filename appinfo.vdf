@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"224340"
+	"common"
+	{
+		"name"		"Fast & Furious: Showdown"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"icon"		"c8aa61588a04c6cee71f503dcc8ba69ad81b54d3"
+		"logo"		"8e66c1ba9d45539cbe19260f6446eb4b93b60905"
+		"logo_small"		"8e66c1ba9d45539cbe19260f6446eb4b93b60905_thumb"
+		"clienttga"		"a21b297836a0c49408b6ee50e181be5ac4b421b8"
+		"clienticon"		"a08fac1d3274e90973fc0920f8b2d541deb66ede"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+		}
+		"metacritic_name"		"Fast and Furious 6"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1369152970"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Firebrand Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Activision"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"9"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"224340"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"19"
+			"2"		"701"
+		}
+		"review_score"		"4"
+		"review_percentage"		"34"
+	}
+	"extended"
+	{
+		"developer"		"Firebrand Games"
+		"gamedir"		"ValveTestApp224340"
+		"homepage"		"http://www.thefastandthefurious.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Activision"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Fast and Furious Showdown"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Fast and Furious Showdown.exe"
+			}
+		}
+		"installscriptsignature"		"70cd28deadac7dcfdf789e01ba73736f277d4007d03f2e9651c9df7ff22b0500bb33d4fb6dd66b67432157fc1a110d3d2480cd9feaf3a4fb37e29f144111e05b97ae4c8248e25497ce8b17c73a56b8ab6f53e7b9856f5835364d10ba01136cb973425f54f9400ed07cd45fba6f2a759e70e2b178209f57dd9bd80a585a1ace3c"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\activision\fast and furious(tm) - showdown"
+			{
+				"string"
+				{
+					"installpath"		"%INSTALLDIR%"
+					"version"		"1.0"
+					"spexepath"		"%INSTALLDIR%\\Fast and Furious Showdown.exe"
+					"english"
+					{
+						"language"		"ENU"
+					}
+					"french"
+					{
+						"language"		"FRA"
+					}
+					"italian"
+					{
+						"language"		"ITA"
+					}
+					"german"
+					{
+						"language"		"DEU"
+					}
+					"spanish"
+					{
+						"language"		"ESP"
+					}
+					"russian"
+					{
+						"language"		"RUS"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\224340"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\224340"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"baselanguages"		"english,german,french,italian,spanish,russian"
+		"224341"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2673889256808482623"
+					"size"		"7362048"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"0DDA08ED687892889344F3396748659C"
+					"size"		"D7E86259FD666846B2A1250C94589942"
+					"download"		"AA9CBBBF472ABB67E75B9D0B93BA55B2"
+				}
+			}
+		}
+		"224342"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"637395128224009001"
+					"size"		"1865742314"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"0276DAE2A89C7773E22E5C87768B8022"
+					"size"		"00D518AF64C781320728E8DA7DE8B6DF"
+					"download"		"AA9CBBBF472ABB67E75B9D0B93BA55B2"
+				}
+			}
+		}
+		"224343"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2316789524167247364"
+					"size"		"49405"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"0E00A5F7A0064FABF6EA0AEC6A81AD41"
+					"size"		"E7A5E455B0A2C0A988792C115F2E4005"
+					"download"		"AA9CBBBF472ABB67E75B9D0B93BA55B2"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"60465"
+			}
+			"beta"
+			{
+				"buildid"		"60465"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
