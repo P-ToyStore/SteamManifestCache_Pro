@@ -1,0 +1,252 @@
+"appinfo"
+{
+	"appid"		"358920"
+	"common"
+	{
+		"name"		"Star Control I & II"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"650d8e7baeeffb42acb48858b47125076d1bd882"
+		"clienttga"		"4d3b7367a772c29b02a83dd98d804527463d45d4"
+		"icon"		"1eb2b4d4c7897ba5855e085571e451a8a498119a"
+		"logo"		"540ea14fe77ce6427bb35b56ac48bb47eeebaa23"
+		"logo_small"		"540ea14fe77ce6427bb35b56ac48bb47eeebaa23_thumb"
+		"metacritic_name"		"Star Control 1 &amp;amp; 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"32.380396732788796"
+				"height_pct"		"55.31940156732368"
+			}
+		}
+		"store_asset_mtime"		"1667930815"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Toys for Bob"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Stardock Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Star Control"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Stardock Entertainment"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_23"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"721987200"
+		"steam_release_date"		"1508432400"
+		"community_hub_visible"		"1"
+		"gameid"		"358920"
+		"store_tags"
+		{
+			"0"		"4637"
+			"1"		"1775"
+			"2"		"6730"
+			"3"		"1774"
+			"4"		"4106"
+			"5"		"1697"
+			"6"		"4136"
+			"7"		"3834"
+			"8"		"11104"
+			"9"		"1742"
+			"10"		"3964"
+			"11"		"19"
+			"12"		"1755"
+			"13"		"3942"
+			"14"		"12472"
+			"15"		"1643"
+			"16"		"21"
+			"17"		"1673"
+			"18"		"4004"
+			"19"		"4295"
+		}
+		"review_score"		"8"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Toys for Bob"
+		"publisher"		"Stardock Entertainment"
+		"homepage"		"https://www.starcontrol.com/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358920/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Star Control Classic"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Star Control 2\\DOSBOX\\DOSBox.exe"
+				"arguments"		" -conf \"dosboxSC2.conf\" -conf \"dosboxSC2_single.conf\" -noconsole -c exit"
+				"workingdir"		".\\Star Control 2\\"
+				"description"		"Play Star Control 2"
+				"type"		"default"
+			}
+			"3"
+			{
+				"executable"		"Star Control 2\\DOSBOX\\DOSBox.exe"
+				"arguments"		" -conf \"dosboxSC2.conf\" -conf \"dosboxSC2_addon.conf\" -noconsole -c exit"
+				"workingdir"		".\\Star Control 2\\"
+				"description"		"Star Control 2 Super Melee Battle"
+				"type"		"option1"
+			}
+			"5"
+			{
+				"executable"		"Star Control 2\\DOSBOX\\DOSBox.exe"
+				"arguments"		" -conf \"dosboxSC2.conf\" -conf \"dosboxSC2_settings.conf\" -noconsole -c exit"
+				"workingdir"		".\\Star Control 2\\"
+				"description"		"Configure Star Control 2 Keys"
+				"type"		"option1"
+			}
+			"6"
+			{
+				"executable"		"Star Control 1\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-conf \"dosboxSC1.conf\" -conf \"dosboxSC1_single.conf\" -noconsole -c exit"
+				"workingdir"		".\\Star Control 1\\"
+				"description"		"Star Control 1"
+				"type"		"option1"
+			}
+			"7"
+			{
+				"executable"		"Star Control 1\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-conf \"dosboxSC1.conf\" -conf \"dosboxSC1_settings.conf\" -noconsole -c exit"
+				"workingdir"		".\\Star Control 1\\"
+				"description"		"Configure Star Control 1 Keys"
+				"type"		"option1"
+			}
+		}
+	}
+	"depots"
+	{
+		"358921"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1494109703942116498"
+					"size"		"5293292"
+					"download"		"2266656"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"publishing"
+				{
+					"gid"		"A8E02742A103D1C92B320AB0A7536AB1"
+					"size"		"29E34A34EF34E05AD67D0952080ACC13"
+					"download"		"80ABDF451F5C42C8F9882FC7A18A358C"
+				}
+			}
+		}
+		"358922"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2246823697334095441"
+					"size"		"16500328"
+					"download"		"7250384"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"publishing"
+				{
+					"gid"		"43E8EDFC873FD2CE15A3B7C0249A4A4B"
+					"size"		"02158467AAFD88BEE3C3BABC3A9E7625"
+					"download"		"B8746C67EE35EC4473C9B561DB89DE1D"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2178989"
+				"timeupdated"		"1507315239"
+			}
+			"publishing"
+			{
+				"buildid"		"2178989"
+				"pwdrequired"		"1"
+				"timeupdated"		"1507315232"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Star Control 1"
+				"pattern"		"SAVEGAME.*"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Star Control 2"
+				"pattern"		"SAVEGAME.*"
+			}
+		}
+	}
+}
