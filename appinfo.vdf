@@ -1,0 +1,189 @@
+"appinfo"
+{
+	"appid"		"455590"
+	"common"
+	{
+		"name"		"Skedaddle"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"logo"		"5a417058bbaed7b549f9d3896c25e86fa7c528bd"
+		"logo_small"		"5a417058bbaed7b549f9d3896c25e86fa7c528bd_thumb"
+		"icon"		"9ed71a4fd05e9a1f57671e3e23920cdcdfdf5ab1"
+		"linuxclienticon"		"ff57fc50c818d13b39aa00ec6406d93857a68a8f"
+		"clienttga"		"8df1c34597827c7185515f4cecdf8707a7d30297"
+		"clienticon"		"b079f8fe34c89a9044e9bbb3d40f7b22eca884ec"
+		"releasestate"		"released"
+		"metacritic_name"		"Clumsy Runners"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1465909615"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"plaiko"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"plaiko"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1466179264"
+		"community_hub_visible"		"1"
+		"gameid"		"455590"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"493"
+			"3"		"21"
+			"4"		"8666"
+			"5"		"3964"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"plaiko"
+		"publisher"		"plaiko"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Clumsy Runners"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ClumsyRunners.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ClumsyRunners.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"455591"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7708990415251230938"
+					"size"		"116370585"
+					"download"		"20828336"
+				}
+			}
+		}
+		"455592"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2172444130790602060"
+					"size"		"155699454"
+					"download"		"30768272"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1184121"
+				"timeupdated"		"1466087615"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacHome"
+				"path"		"/Library/Preferences"
+				"pattern"		"unity.plaiko.clumsyrunners.plist"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"HKCU\\Software\\plaiko\\clumsyrunners"
+				"pattern"		"unity.plaiko.clumsyrunners.plist"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		"HKCU\\Software\\plaiko\\clumsyrunners"
+			}
+		}
+	}
+}
