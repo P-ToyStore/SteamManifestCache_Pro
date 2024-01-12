@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"1895240"
+	"common"
+	{
+		"name"		"Love on Beach"
+		"type"		"Game"
+		"name_localized"
+		{
+			"polish"		"Miłosna Plaża"
+		}
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"fbd2315067306f198a8e0bb140074caf1b51c184"
+		"logo_small"		"fbd2315067306f198a8e0bb140074caf1b51c184_thumb"
+		"clienticon"		"867620e468a5571d24cc75a241ed067535cec7d1"
+		"clienttga"		"b7d71d21527164f1d6a5db71e84a0bf674c669e8"
+		"icon"		"2d6028a6db314762f1042eca66d21a354ec25593"
+		"languages"
+		{
+			"english"		"1"
+			"polish"		"1"
+		}
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_sex"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"polish"		"capsule_231x87_polish.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"polish"		"header_polish.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"pl,en"
+			"library_hero"		"en"
+			"library_logo"		"en,pl"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50.5179948386816"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1643725124"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mikołaj Spychał"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mikołaj Spychał"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Mikołaj Spychał"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1646295413"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1895240"
+		"store_tags"
+		{
+			"0"		"12095"
+			"1"		"3799"
+			"2"		"4085"
+			"3"		"6971"
+			"4"		"9551"
+			"5"		"4486"
+			"6"		"4305"
+			"7"		"1719"
+			"8"		"1654"
+			"9"		"4947"
+			"10"		"21"
+			"11"		"5673"
+			"12"		"4136"
+			"13"		"597"
+			"14"		"4726"
+			"15"		"5608"
+			"16"		"30358"
+			"17"		"3871"
+			"18"		"3839"
+			"19"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Mikołaj Spychał"
+		"publisher"		"Mikołaj Spychał"
+	}
+	"config"
+	{
+		"installdir"		"Love on Beach"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LoveOnBeach.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LoveOnBeach-32.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"LoveOnBeach.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1895241"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3015632247868876068"
+					"size"		"373909233"
+					"download"		"274987168"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8164725"
+				"timeupdated"		"1644320770"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"29700000"
+		"maxnumfiles"		"99"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"RenPy/LoveOnBeach"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".renpy/LoveOnBeach"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
