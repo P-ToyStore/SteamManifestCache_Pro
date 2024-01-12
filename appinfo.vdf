@@ -1,0 +1,309 @@
+"appinfo"
+{
+	"appid"		"529890"
+	"common"
+	{
+		"name"		"Maniac Mansion"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"529890_eula_0"
+				"name"		"Maniac Mansion EULA"
+				"url"		"http://store.steampowered.com//eula/529890_eula_0"
+			}
+		}
+		"logo"		"1644c40e449df362d6c970f4296a812db1f6016a"
+		"logo_small"		"1644c40e449df362d6c970f4296a812db1f6016a_thumb"
+		"clienticon"		"3f0e990f3e628d88a888493d81807fe5da1a2950"
+		"clienttga"		"58803c6fd0e1df9571f3d6028ef5f90fea98c991"
+		"icon"		"c54912a78e443240b30ed12ec51036f9160a8ac8"
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1658275200"
+			"tested_build_id"		"2450052"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Maniac Mansion"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1513027239"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lucasfilm Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lucasfilm"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"560415600"
+		"steam_release_date"		"1513637659"
+		"community_hub_visible"		"1"
+		"gameid"		"529890"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1693"
+			"2"		"1698"
+			"3"		"5708"
+			"4"		"6691"
+			"5"		"1742"
+			"6"		"3964"
+			"7"		"4004"
+			"8"		"3871"
+			"9"		"1756"
+			"10"		"7743"
+			"11"		"1664"
+			"12"		"4136"
+			"13"		"7782"
+			"14"		"1719"
+			"15"		"3834"
+		}
+		"review_score"		"8"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Lucasfilm Games"
+		"publisher"		"Lucasfilm"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Maniac Mansion"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ScummVM/scummvm.exe"
+				"arguments"		"-c maniac-v1.ini maniac-v1"
+				"workingdir"		"ScummVM"
+				"description"		"Play Maniac Mansion Original"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"ScummVM/scummvm"
+				"arguments"		"-c maniac-v1.ini maniac-v1"
+				"workingdir"		"ScummVM"
+				"description"		"Play Maniac Mansion Original"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"ScummVM/scummvm.exe"
+				"arguments"		"-c maniac-v2.ini maniac-v2"
+				"workingdir"		"Scummvm"
+				"description"		"Play Maniac Mansion Enhanced"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"ScummVM/scummvm"
+				"arguments"		"-c maniac-v2.ini maniac-v2"
+				"workingdir"		"ScummVM"
+				"description"		"Play Maniac Mansion Enhanced"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"529891"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4552517924922056300"
+					"size"		"1675695"
+					"download"		"713536"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"qa_branch"
+				{
+					"gid"		"5A58D014E3E96C657781E2260B0A404D"
+					"size"		"7DB827CCE419B42215EBF45C369041D4"
+					"download"		"3DFB97055D8997CC8B0C875451D20EE7"
+				}
+			}
+		}
+		"529893"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6800118888572663546"
+					"size"		"37830151"
+					"download"		"12744480"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"qa_branch"
+				{
+					"gid"		"2F30E7A7207772E24D273EE8E56D8D2C"
+					"size"		"3D5013C161D8558A5AC7B9485B4FCB4F"
+					"download"		"5482002051669A0257C3A7769F46C42F"
+				}
+			}
+		}
+		"529894"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8941239136798335009"
+					"size"		"45335207"
+					"download"		"12652816"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"qa_branch"
+				{
+					"gid"		"A0C57F9D1734BB7AA342FBDD148C5374"
+					"size"		"D25688057ED00CE272EA084E849C5D0D"
+					"download"		"FAA15F03B99427D95842C209F6661641"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2450052"
+				"timeupdated"		"1521241584"
+			}
+			"qa_branch"
+			{
+				"buildid"		"2450052"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516324982"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"ScummVM/original"
+				"pattern"		"maniac-v1.s*"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"ScummVM/enhanced"
+				"pattern"		"maniac-v2.s*"
+			}
+		}
+	}
+}
