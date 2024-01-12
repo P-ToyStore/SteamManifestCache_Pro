@@ -1,0 +1,251 @@
+"appinfo"
+{
+	"appid"		"2081540"
+	"common"
+	{
+		"name"		"Rustled Pete"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"66f1cfdec23d6acd2c470af0b057255ecfe353fe"
+		"clienticon"		"f07b55ec6f8f073fc21a36e28fdcc993f1fbf6e7"
+		"icon"		"bbaa79512789cdd1d28f61faf2994c3dfc872d6e"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1679097600"
+			"tested_build_id"		"10650051"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1677693279"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"lemon"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"lemon"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1677602656"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2081540"
+		"store_tags"
+		{
+			"0"		"11095"
+			"1"		"4026"
+			"2"		"1734"
+			"3"		"1773"
+			"4"		"1733"
+			"5"		"4182"
+			"6"		"3964"
+			"7"		"19"
+			"8"		"4004"
+			"9"		"5379"
+			"10"		"7481"
+			"11"		"3871"
+			"12"		"6691"
+			"13"		"3993"
+			"14"		"1625"
+			"15"		"597"
+			"16"		"492"
+		}
+		"review_score"		"8"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"lemon"
+		"publisher"		"lemon"
+	}
+	"config"
+	{
+		"installdir"		"Rustled Pete"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RustledPete.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2081541"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5071782379532535533"
+					"size"		"171467827"
+					"download"		"24918544"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"80E2D41DF6629D49E3A9C9DDA710F352"
+					"size"		"5A8856073A96595F4C5ACC67A6426ECD"
+					"download"		"2BA70474F8FE03DFDA5DEC60CE3BE142"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10650051"
+				"timeupdated"		"1677535929"
+			}
+			"beta"
+			{
+				"buildid"		"10586431"
+				"pwdrequired"		"1"
+				"timeupdated"		"1676801397"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"lemon/RustledPete"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"lemon/RustledPete"
+						"replace"		"unity.lemon.RustledPete"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"lemon/RustledPete"
+						"replace"		".config/unity3d/lemon/RustledPete"
+					}
+				}
+			}
+		}
+	}
+}
