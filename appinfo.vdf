@@ -1,0 +1,218 @@
+"appinfo"
+{
+	"appid"		"753560"
+	"common"
+	{
+		"name"		"Twinstack"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"icon"		"025236ce85a0a67ea82ae331e8459d061d48f859"
+		"logo"		"2e0d03ab2a8aa9f0c6ba7824a68831ad497db414"
+		"logo_small"		"2e0d03ab2a8aa9f0c6ba7824a68831ad497db414_thumb"
+		"clienttga"		"ed5d7245b8fec8a82f09ba969fb8fac5c105a0bd"
+		"clienticon"		"55a38ae9f3b4c258ec687d21fc3ff2ad30100e86"
+		"linuxclienticon"		"f00692d88103618de66b311ba85b2cef6464ca05"
+		"clienticns"		"d1ad84cc470775d75e616bfd85d4c4e02c584f2b"
+		"releasestate"		"released"
+		"osextended"		"macos64"
+		"metacritic_name"		"Twinstack"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1671808110"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Correcture Games AB"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Correcture Games AB"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1513756800"
+		"steam_release_date"		"1513786228"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"753560"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+			"2"		"492"
+			"3"		"1664"
+			"4"		"5411"
+			"5"		"4166"
+			"6"		"1654"
+			"7"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Correcture Games AB"
+		"publisher"		"Correcture Games AB"
+		"homepage"		"http://www.correcturegames.com"
+	}
+	"config"
+	{
+		"installdir"		"Twinstack"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Twinstack.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Twinstack.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"753561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7919316726284131395"
+					"size"		"157798751"
+					"download"		"92861280"
+				}
+			}
+		}
+		"753564"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"771998000688580089"
+					"size"		"151020379"
+					"download"		"90753824"
+				}
+			}
+		}
+		"753566"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1838191835798772853"
+					"size"		"168677337"
+					"download"		"98734544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3147129"
+				"timeupdated"		"1537603533"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"TwinStack.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"Correcture Games/Twinstack"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		"Correcture Games/Twinstack"
+			}
+		}
+	}
+}
