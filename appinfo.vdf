@@ -1,0 +1,178 @@
+"appinfo"
+{
+	"appid"		"1971190"
+	"common"
+	{
+		"name"		"风墓战记"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"name_localized"
+		{
+			"schinese"		"风墓战记"
+		}
+		"linuxclienticon"		"72480828327f3448df7ca4e2efa883804e2edb27"
+		"icon"		"60946317da2c1c2511efb09bb73ac718747dddb5"
+		"clienttga"		"42c38a0f9029b225ac5674c1cd80a43f1e60e5cf"
+		"clienticon"		"1d09dc6259c6422e0d0d7133720a847661f44c0f"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn"
+			"library_hero"		"en,zh-cn"
+			"library_logo"		"en,zh-cn"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1654660956"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"DogShitStudio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"DogShitStudio"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1652667660"
+		"community_hub_visible"		"1"
+		"gameid"		"1971190"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"9"
+			"2"		"122"
+			"3"		"1676"
+			"4"		"4434"
+			"5"		"17305"
+			"6"		"5379"
+			"7"		"14139"
+			"8"		"21725"
+			"9"		"3871"
+			"10"		"3964"
+			"11"		"1678"
+			"12"		"1708"
+			"13"		"1742"
+			"14"		"4325"
+			"15"		"6971"
+			"16"		"4182"
+			"17"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"DogShitStudio"
+		"publisher"		"DogShitStudio"
+	}
+	"config"
+	{
+		"installdir"		"风墓战纪"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"type"		"none"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"schinese"
+		"1971191"
+		{
+			"config"
+			{
+				"language"		"schinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8049401194276248941"
+					"size"		"298340060"
+					"download"		"235630656"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8895696"
+				"timeupdated"		"1654693654"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000"
+		"maxnumfiles"		"5000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+		"sync_while_suspended"		"1"
+		"appidredirect"		"1971190"
+	}
+}
