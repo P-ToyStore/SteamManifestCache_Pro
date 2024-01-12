@@ -1,0 +1,459 @@
+"appinfo"
+{
+	"appid"		"307880"
+	"common"
+	{
+		"name"		"Savage Lands"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"805a891c376e2f528504e0afb5b80d7fb69418dc"
+		"logo_small"		"805a891c376e2f528504e0afb5b80d7fb69418dc_thumb"
+		"icon"		"dc51ca712ce91607993e34b051ab37ec1eab2aea"
+		"clienttga"		"8338aa6986a72af26c7c48b2a8e783cd320dd136"
+		"clienticon"		"241123b2546e03735cfb04cb43e75bdb200abe7a"
+		"osarch"		""
+		"osextended"		""
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1667606400"
+			"tested_build_id"		"9566355"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-5"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Savage Lands"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"76.81058381867118"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1639594779"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Last Bastion Studios LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Last Bastion Studios LLC"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_38"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1639672831"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"307880"
+		"store_tags"
+		{
+			"0"		"1100689"
+			"1"		"1662"
+			"2"		"1695"
+			"3"		"3843"
+			"4"		"3859"
+			"5"		"1702"
+			"6"		"1684"
+			"7"		"4046"
+			"8"		"122"
+			"9"		"19"
+			"10"		"3810"
+			"11"		"4342"
+			"12"		"492"
+			"13"		"599"
+			"14"		"3839"
+			"15"		"4182"
+			"16"		"4166"
+			"17"		"6730"
+			"18"		"1663"
+			"19"		"21"
+		}
+		"review_score"		"5"
+		"review_percentage"		"55"
+	}
+	"extended"
+	{
+		"developer"		"Last Bastion Studios LLC"
+		"publisher"		"Last Bastion Studios LLC"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Savage Lands"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SavageLands.exe"
+				"description"		"Launch DX10/11"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SavageLands.x86_64"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"SavageLands.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"307881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6638246964444326719"
+					"size"		"3890145930"
+					"download"		"1553661936"
+				}
+				"legacy"
+				{
+					"gid"		"3864762566097672992"
+					"size"		"1687610519"
+					"download"		"786388912"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"7B92BE2B249B3A48F1D9C2BF614C2A1E"
+					"size"		"1AF2A3C4B37C3C16F783DDF54D85F92D"
+					"download"		"AAB80CC439E381B6109234903C91DF4D"
+				}
+				"dev"
+				{
+					"gid"		"FD3B1956FC889AD62B4A708B7FBB98BB"
+					"size"		"F4E28B26F95DB1A81C85FE66E4FCFC05"
+					"download"		"E4542FAA685F12B1485D2FA6340E2C82"
+				}
+				"pshdaily"
+				{
+					"gid"		"AE5B169A140AA1EE0E842EC8B5B0D5FE"
+					"size"		"F23C7F38CC353117A3EE813FDFD256D2"
+					"download"		"C038926F1E8E5676C76FA4A30BF1A1A1"
+				}
+				"pshdev"
+				{
+					"gid"		"68F0B40300C2AE1FDE823CA768C0CA1C"
+					"size"		"B56DF137DB4F430ECAB3944AF8F0D31E"
+					"download"		"D68C7F6003A793CC66596A084ED60862"
+				}
+				"sigdev"
+				{
+					"gid"		"62C9A7F1AA2E142DBFD8DCE69B21922F"
+					"size"		"F151C216F7B87885F97C99F2768F3FBF"
+					"download"		"3C24DD4F6409927FDE94E95570604ACF"
+				}
+				"test"
+				{
+					"gid"		"55C82FE0622C3EA45EC73B7F56352A27"
+					"size"		"CD0CBD61D388A4C8E4465F23AB20E12C"
+					"download"		"CEFF997F1CC6379E41A0B49A88FB75FE"
+				}
+			}
+		}
+		"307882"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6607497893488495132"
+					"size"		"3911732032"
+					"download"		"1559970368"
+				}
+				"legacy"
+				{
+					"gid"		"898277275156842583"
+					"size"		"1680005056"
+					"download"		"774919200"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"D5039E9D0E2649A387122663DE51671A"
+					"size"		"496883A6E5A54AA3A6E65F8099808AA4"
+					"download"		"428AA4E36731C6CE39E0C4BC5DB113A5"
+				}
+				"dev"
+				{
+					"gid"		"BA26B9720AE4667560CC0BEBBEFD324F"
+					"size"		"944AA23B2077DB5237ACE7BC387BB86B"
+					"download"		"C5DD5B0A51DBD30D53A4719592B0CBB6"
+				}
+				"pshdaily"
+				{
+					"gid"		"E811ACE101BDF7C9003093443F04354A"
+					"size"		"D70666113D7203D66CA9F0CD7024C765"
+					"download"		"B35D30F1452D0997808EF9DA158BFBC6"
+				}
+				"pshdev"
+				{
+					"gid"		"24D210A7C6F57ACCCD062612011A33A3"
+					"size"		"1BC171B48F60F9EC1EC407595F833523"
+					"download"		"145D4BA49AB3D899F91317D51C483B34"
+				}
+				"sigdev"
+				{
+					"gid"		"B0EEC141F83C128B1064F07FEE0C785D"
+					"size"		"C6313DC3D2651438018BBE836E814509"
+					"download"		"D759FDC0D878D3FEC24469B893B033C8"
+				}
+				"test"
+				{
+					"gid"		"B77FC3CFAA94565FDF1B9C1CA8B2A4A2"
+					"size"		"A7398D4E91EE8879C70A44CA59251FD5"
+					"download"		"2AAE593D73478DF5AAE1764744826186"
+				}
+			}
+		}
+		"307883"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1633027523953994291"
+					"size"		"3893986032"
+					"download"		"1550799280"
+				}
+				"legacy"
+				{
+					"gid"		"3008492631624768857"
+					"size"		"1681113247"
+					"download"		"775595456"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"446F9D78A5030C3DECCB589B81461676"
+					"size"		"159ECE81ACCAFD976709C3A8F1927651"
+					"download"		"45077A8F0B79E7CAFDC30A670D1F089B"
+				}
+				"dev"
+				{
+					"gid"		"8D682F819AC7FE94D902789871605B48"
+					"size"		"8CCEAAA5E11991FC16F45AACEC214519"
+					"download"		"5AD5523059970D4BB66D19B0C019A83B"
+				}
+				"pshdaily"
+				{
+					"gid"		"4026BE85AAEEC43AFCDBB359EBFCFC6A"
+					"size"		"B8C61FB846C63EC9A4D4FA2379E23A5B"
+					"download"		"37BE12B034D7B6655ECDB599BECB80FD"
+				}
+				"pshdev"
+				{
+					"gid"		"8DAADB3CAA3AFE75B37FFEACB0DCB9C3"
+					"size"		"7B44903E11A4DB3576331DB8337D9D74"
+					"download"		"0B2B547D21C8E7E99DE5AE0489AEDE9B"
+				}
+				"sigdev"
+				{
+					"gid"		"8A499A8507C21E570423FDF832BA3FD8"
+					"size"		"4BF828626D70925380F38B1873940D5D"
+					"download"		"7E830AE341F53061C88496C63A4819CD"
+				}
+				"test"
+				{
+					"gid"		"754C8E631B09D35650271A29C40BB6E8"
+					"size"		"8886EE53F9B5B19518722E787E86EC35"
+					"download"		"476B584AF9828C17113C69109E0CB748"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12516772"
+				"timeupdated"		"1698377439"
+			}
+			"beta"
+			{
+				"buildid"		"2749425"
+				"pwdrequired"		"1"
+				"timeupdated"		"1662835480"
+			}
+			"dev"
+			{
+				"buildid"		"5501310"
+				"pwdrequired"		"1"
+				"timeupdated"		"1626591164"
+			}
+			"legacy"
+			{
+				"buildid"		"851723"
+				"description"		"Final Unity 4 Build"
+			}
+			"pshdaily"
+			{
+				"buildid"		"8222810"
+				"pwdrequired"		"1"
+				"timeupdated"		"1645108439"
+			}
+			"pshdev"
+			{
+				"buildid"		"7349930"
+				"pwdrequired"		"1"
+				"timeupdated"		"1631542988"
+			}
+			"sigdev"
+			{
+				"buildid"		"12516772"
+				"pwdrequired"		"1"
+				"timeupdated"		"1698113889"
+			}
+			"test"
+			{
+				"buildid"		"9221808"
+				"pwdrequired"		"1"
+				"timeupdated"		"1667660445"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"500"
+	}
+}
