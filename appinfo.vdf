@@ -1,0 +1,183 @@
+"appinfo"
+{
+	"appid"		"695910"
+	"common"
+	{
+		"name"		"The Relentless"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"logo"		"aec87d891da47625f9cd176c49532d316bbd305b"
+		"logo_small"		"aec87d891da47625f9cd176c49532d316bbd305b_thumb"
+		"icon"		"b2bfc1b615743f31e86340d4c75743900205927d"
+		"clienticon"		"e3a00ce26d24a10a145cb33c9be0a437ab6563db"
+		"clienttga"		"2289576d5c34a84bb6280b34d6c4ed433267eb4a"
+		"metacritic_name"		"The Relentless"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1507273936"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Brett Jackson"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Head Start Design"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1508857783"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"695910"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"21978"
+			"4"		"1773"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Brett Jackson"
+		"publisher"		"Head Start Design"
+		"homepage"		"http://www.jumblivr.com/505_the_relentless/"
+	}
+	"config"
+	{
+		"installdir"		"The Relentless"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"theRelentless.exe"
+				"arguments"		"-vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"theRelentless.exe"
+				"arguments"		"-vr"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"695911"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6872948620408524859"
+					"size"		"340392915"
+					"download"		"264993296"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"2920F1DE733431B09B74F5E20D990B1A"
+					"size"		"0DDCA3FF58D9FB68155D062B0ACB7B1C"
+					"download"		"E21BCAB0D0E2AD206515CF5BA3FC4675"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2778420"
+				"timeupdated"		"1526466718"
+			}
+			"beta"
+			{
+				"buildid"		"2769512"
+				"pwdrequired"		"1"
+				"timeupdated"		"1526193517"
+			}
+		}
+	}
+}
