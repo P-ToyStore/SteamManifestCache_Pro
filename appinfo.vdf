@@ -1,0 +1,220 @@
+"appinfo"
+{
+	"appid"		"1782070"
+	"common"
+	{
+		"name"		"Blue Max: Aces of the Great War"
+		"type"		"Game"
+		"icon"		"dc7d384fab667f301a5723c1c8f5f40842c73d79"
+		"logo"		"a9e82057fe9b89973bf2234edf209e5c1347baee"
+		"logo_small"		"a9e82057fe9b89973bf2234edf209e5c1347baee_thumb"
+		"clienttga"		"e4dbabb2511aa5a2b8b3b7e496b5d0eb2ea140d3"
+		"clienticon"		"25e3b65e9d899339db437412fab30dd639e7501c"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"68.35605443335078"
+				"height_pct"		"74.01313329931713"
+			}
+		}
+		"store_asset_mtime"		"1652466816"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Artech Digital Entertainment, Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1636121430"
+		"community_hub_visible"		"1"
+		"gameid"		"1782070"
+		"store_tags"
+		{
+			"0"		"15045"
+			"1"		"4684"
+			"2"		"4168"
+			"3"		"5382"
+			"4"		"6730"
+			"5"		"1775"
+			"6"		"1678"
+			"7"		"1676"
+			"8"		"1774"
+			"9"		"4191"
+			"10"		"3987"
+			"11"		"14139"
+			"12"		"19"
+			"13"		"4325"
+			"14"		"11104"
+			"15"		"599"
+			"16"		"3964"
+			"17"		"4182"
+			"18"		"1717"
+			"19"		"1685"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Artech Digital Entertainment, Ltd."
+		"publisher"		"Ziggurat"
+		"homepage"		"http://www.ziggurat.games"
+	}
+	"config"
+	{
+		"installdir"		"Blue Max Aces of the Great War"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1782071"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8741269365863374071"
+					"size"		"36079183"
+					"download"		"14540416"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7511278"
+				"timeupdated"		"1633929630"
+			}
+		}
+	}
+}
