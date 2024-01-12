@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"1749720"
+	"common"
+	{
+		"name"		"Zombie Dinos from Planet Zeltoid"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"0f1c9f0fae1eabbcbc880a766412b2bcc8c82cca"
+		"logo"		"1ce27544e8fe5d26230e302d93ceee6bb9e3519d"
+		"logo_small"		"1ce27544e8fe5d26230e302d93ceee6bb9e3519d_thumb"
+		"clienttga"		"fc5c39a5fa9a269489838b4f21b6247f2af43465"
+		"clienticon"		"1442c1683afbff7a086a6f53da08040c32f7ea34"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"42.24864486798391"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1632508185"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Philips P.O.V. Entertainment Group"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1633097974"
+		"community_hub_visible"		"1"
+		"gameid"		"1749720"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"5160"
+			"3"		"3942"
+			"4"		"1036"
+			"5"		"11014"
+			"6"		"1738"
+			"7"		"16689"
+			"8"		"4305"
+			"9"		"18594"
+			"10"		"3964"
+			"11"		"1673"
+			"12"		"30358"
+			"13"		"10679"
+			"14"		"5794"
+			"15"		"5350"
+			"16"		"1755"
+			"17"		"4004"
+			"18"		"4136"
+			"19"		"3916"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Philips P.O.V. Entertainment Group"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1749720/"
+	}
+	"config"
+	{
+		"installdir"		"Zombie Dinos from Planet Zeltoid"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1749721"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2838604902180632662"
+					"size"		"666968529"
+					"download"		"345496896"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7360222"
+				"timeupdated"		"1631666574"
+			}
+		}
+	}
+}
