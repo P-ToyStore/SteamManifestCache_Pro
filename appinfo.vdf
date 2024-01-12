@@ -1,0 +1,190 @@
+"appinfo"
+{
+	"appid"		"358350"
+	"common"
+	{
+		"name"		"Secret Agent"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"a65bbbcaf7fbfd2bf2e5970312a428fe3b586fcd"
+		"logo_small"		"a65bbbcaf7fbfd2bf2e5970312a428fe3b586fcd_thumb"
+		"clienticon"		"558d2d72d2c34ad6e8f6ff45ce33cf0e5e9f8c6e"
+		"clienttga"		"2576f442a55270c1e706108115228d2610b4caf8"
+		"icon"		"ce240abf1a7780dff81dc3f09eba9686e158ad9e"
+		"metacritic_name"		"Secret Agent"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"62.135355892648775"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1567676313"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Apogee Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Apogee Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"696931200"
+		"steam_release_date"		"1399309200"
+		"community_hub_visible"		"1"
+		"gameid"		"358350"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1625"
+			"2"		"1693"
+			"3"		"6691"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Apogee Entertainment"
+		"publisher"		"Apogee Entertainment"
+		"homepage"		"https://3drealms.com/catalog/secret-agent_39/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Secret Agent"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Secret Agent\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\Agent.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Secret Agent\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Secret Agent.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"osbox\\dosbox.exe"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358351"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1397960930716195750"
+					"size"		"8884775"
+					"download"		"3102368"
+				}
+			}
+		}
+		"358352"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8093692662457549216"
+					"size"		"7119286"
+					"download"		"2326304"
+				}
+			}
+		}
+		"358353"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1937477281113271014"
+					"size"		"8885083"
+					"download"		"3097968"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"607365"
+			}
+		}
+	}
+}
