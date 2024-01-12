@@ -1,0 +1,154 @@
+"appinfo"
+{
+	"appid"		"9980"
+	"common"
+	{
+		"name"		"The UnderGarden"
+		"clienticon"		"4b53fae0a01bf5fe7e4e5a172f849f038cc1679a"
+		"clienttga"		"89751537fdf00f2f190dfa7bfb227ccb1fada7a9"
+		"icon"		"ecbeb0dfc1083e8a76a9e94ac5ecbc429bb871f3"
+		"logo"		"044eac25bfa6018d16447f59e6e9dca30cef3491"
+		"logo_small"		"044eac25bfa6018d16447f59e6e9dca30cef3491_thumb"
+		"type"		"game"
+		"metacritic_name"		"The UnderGarden"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Artech Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1289408880"
+		"metacritic_score"		"67"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/the-undergarden?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"9980"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1664"
+			"2"		"3834"
+			"3"		"1654"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"Artech Studios"
+		"gamedir"		"The UnderGarden"
+		"homepage"		"http://www.atari.com"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"9981"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Atari"
+	}
+	"config"
+	{
+		"installscriptsignature"		"6eb1552b9725817529b9491c3abddffa36a5e766334bebf107e483c12b4f5541177e80dd0f93a35333ec2e9f989f607d3b4d49cb3780a8a3d17802a63619db213c68d4a6f35107410d075c6d413b98628d0fd8ba30d18a3fbdf0204e6f63e6b21cbcd9adc4c0be40e0608cbedf72fec95087af3b212c1cb0fa4dcaab670f948c"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"The UnderGarden"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheUndergarden.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\9980"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/SILENT"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\9980"
+				"process 1"		"%INSTALLDIR%\\VCRedist\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+			}
+			"dotnet"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\9980"
+				"process 1"		"%INSTALLDIR%\\DotNet\\dotNetFx35setup.exe"
+				"command 1"		"/qb"
+				"command 2"		"/norestart"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"9981"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1447727582937521619"
+					"size"		"451989076"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11265"
+			}
+		}
+	}
+}
