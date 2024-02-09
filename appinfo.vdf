@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"2309240"
+	"common"
+	{
+		"name"		"Digital Eclipse Arcade: Q.P.I.D."
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"3f97d988fbd769ded320f8e4105727565f332179"
+		"clienticon"		"4697dadc53f4245d700da096c7ecf732f9a7d6ac"
+		"clienttga"		"fbf66b52a8079724a1cefab66ac22167e8d23eef"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1677110400"
+			"tested_build_id"		"10551068"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"57.55148741418762"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1676311820"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Digital Eclipse"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Digital Eclipse"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_60"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1707322260"
+		"community_hub_visible"		"1"
+		"gameid"		"2309240"
+		"store_tags"
+		{
+			"0"		"5537"
+			"1"		"3964"
+			"2"		"4004"
+			"3"		"5752"
+			"4"		"17894"
+			"5"		"4726"
+			"6"		"597"
+			"7"		"4305"
+			"8"		"3871"
+			"9"		"1773"
+			"10"		"1625"
+			"11"		"1664"
+			"12"		"6129"
+			"13"		"3968"
+			"14"		"5379"
+			"15"		"19"
+			"16"		"6691"
+			"17"		"21"
+			"18"		"4106"
+			"19"		"3993"
+		}
+	}
+	"extended"
+	{
+		"absolutemousecoordinates"		"0"
+		"remoteplaytogethertestingbranches"		"default"
+		"developer"		"Digital Eclipse"
+		"publisher"		"Digital Eclipse"
+	}
+	"config"
+	{
+		"installdir"		"Digital Eclipse Arcade QPID"
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"5"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"qpid.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2309241"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"26384689042748827"
+					"size"		"59456287"
+					"download"		"59217936"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10551068"
+				"timeupdated"		"1676400234"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"QPID/"
+				"pattern"		"*.json"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
