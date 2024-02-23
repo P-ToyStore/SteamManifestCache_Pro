@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"690250"
+	"common"
+	{
+		"name"		"Judge Dredd 95"
+		"type"		"Game"
+		"clienticon"		"ed3567d6381585933ea0ef55ae0effc13279d128"
+		"clienttga"		"31a094e78f9ef232cd936aba2bf560161a1aeca6"
+		"icon"		"5cbbd7c389ad82e54fa9295e571c1a1cc261128f"
+		"logo"		"5585cf4ed1a727710b1fb57b3382d8d3e7a01827"
+		"logo_small"		"5585cf4ed1a727710b1fb57b3382d8d3e7a01827_thumb"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Judge Dredd 95"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"58.92648774795799"
+				"height_pct"		"81.15649489432437"
+			}
+		}
+		"store_asset_mtime"		"1614369814"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Probe Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Throwback Entertainment"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Majesco Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"802076400"
+		"steam_release_date"		"1527042988"
+		"community_hub_visible"		"1"
+		"gameid"		"690250"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1625"
+			"2"		"4004"
+			"3"		"1693"
+			"4"		"1751"
+			"5"		"3798"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"developer"		"Probe Software"
+		"publisher"		"Throwback Entertainment"
+	}
+	"config"
+	{
+		"installdir"		"Judge Dredd"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-exit -noconsole -conf \"dosbox_dredd.conf\" ^ -c \"mount e '..\\Judge Dredd'\" ^ -c \"e:\" ^ -c \"imgmount d dredd.cue -t cdrom\" ^ -c \"cd ACCLAIM\\DREDD\" ^ -c \"law.exe -noconsole\" ^ -c \"exit\""
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_linux\\launch_judgedredd_game.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"690251"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2545749360599283358"
+					"size"		"786752005"
+					"download"		"264415840"
+				}
+			}
+		}
+		"690252"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5939890556382595775"
+					"size"		"786203466"
+					"download"		"264110544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4565632"
+				"timeupdated"		"1578933407"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"ACCLAIM/DREDD/DAT2"
+				"pattern"		"SLOT*.INF"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"ACCLAIM/DREDD/DAT2"
+				"pattern"		"SLOT*.DAT"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
