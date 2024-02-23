@@ -1,0 +1,212 @@
+"appinfo"
+{
+	"appid"		"970550"
+	"common"
+	{
+		"name"		"Color Chain"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"e0d2b7c6fbf28e97fa11104525bb4b1afa93e431"
+		"logo_small"		"e0d2b7c6fbf28e97fa11104525bb4b1afa93e431_thumb"
+		"icon"		"a3c895f9d06e6bcc883351ac5404ebfa4358bd39"
+		"clienttga"		"f3995054c90364137f865080b234d920e7d3d7a5"
+		"clienticon"		"3c6f9e381a84052484201f8153b4cc38ce59ca32"
+		"linuxclienticon"		"a608747de0f31ee30a6cb4164965a0496855bf4c"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"metacritic_name"		"Color Chain"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1540404176"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Djack D Donovan"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Djack D Donovan"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1540364400"
+		"steam_release_date"		"1543013940"
+		"community_hub_visible"		"1"
+		"gameid"		"970550"
+		"store_tags"
+		{
+			"0"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Djack D Donovan"
+		"publisher"		"Djack D Donovan"
+	}
+	"config"
+	{
+		"installdir"		"Color Chain"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Color Chain.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Color Chain.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Color Chain.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,french"
+		"970551"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5429334966290719471"
+					"size"		"46268124"
+					"download"		"15690880"
+				}
+			}
+		}
+		"970552"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2354308841892729132"
+					"size"		"51454264"
+					"download"		"17660688"
+				}
+			}
+		}
+		"970553"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2128239330585935399"
+					"size"		"60866450"
+					"download"		"18740176"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3248400"
+				"timeupdated"		"1540510469"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1500"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Color Chain_Data"
+				"pattern"		"*.sv"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Color Chain.app/Contents/Resources/Data"
+				"pattern"		"*.sv"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Color Chain_Data"
+				"pattern"		"*.sv"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
