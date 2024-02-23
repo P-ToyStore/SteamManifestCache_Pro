@@ -1,0 +1,218 @@
+"appinfo"
+{
+	"appid"		"9000"
+	"common"
+	{
+		"clienticon"		"0513b26a587f72830206f4fa42dec853b51d3a47"
+		"clienttga"		"cda96ea1ee658dc44af1b21b504ad835ad8dd4e5"
+		"icon"		"27e4195991ea840384b5182c530895c2ef0331f1"
+		"logo"		"79cc8754740821af8705919e41e7ee07117a2184"
+		"logo_small"		"cd0c6fbe1eb0193caf4898f30a9aaef324898c1d"
+		"name"		"Wolfenstein 3D: Spear of Destiny"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"9000_eula_0"
+				"name"		"Wolfenstein 3D: Spear of Destiny EULA"
+				"url"		"https://store.steampowered.com//eula/9000_eula_0"
+				"version"		"1"
+			}
+		}
+		"app_retired_publisher_request"		"1"
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1658275200"
+			"tested_build_id"		"251947"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"24.212368728121362"
+				"height_pct"		"64.81833293754451"
+			}
+		}
+		"store_asset_mtime"		"1574196373"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"id Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"id Software"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"750236400"
+		"steam_release_date"		"1186183800"
+		"community_hub_visible"		"1"
+		"gameid"		"9000"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1774"
+			"2"		"1663"
+			"3"		"3839"
+			"4"		"1693"
+			"5"		"4004"
+			"6"		"4150"
+			"7"		"4182"
+			"8"		"1678"
+			"9"		"6691"
+			"10"		"3916"
+			"11"		"1023537"
+			"12"		"4975"
+		}
+		"review_score"		"8"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"id Software"
+		"gamedir"		"Spear of Destiny"
+		"homepage"		"http://www.idsoftware.com/games/wolfenstein/spear/"
+		"icon"		"steam/games/icon_Spear of Destiny"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"9001"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"developer_url"		"http://www.idsoftware.com/"
+		"publisher"		"id Software"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Spear of Destiny"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"base\\dosbox.exe"
+				"arguments"		"base\\M1-SOD.exe -conf base\\SOD.conf -fullscreen -exit"
+			}
+			"1"
+			{
+				"description"		"Launch Mission 2: Return to Danger"
+				"executable"		"base\\dosbox.exe"
+				"arguments"		"base\\M2-SOD.exe -conf base\\SOD.conf -fullscreen -exit"
+			}
+			"2"
+			{
+				"description"		"Launch Mission 3: Ultimate Challenge"
+				"executable"		"base\\dosbox.exe"
+				"arguments"		"base\\M3-SOD.exe -conf base\\SOD.conf -fullscreen -exit"
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"9001"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8619529907102671291"
+					"size"		"14096428"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"251947"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"base"
+				"pattern"		"SAVEGAM*.SOD"
+				"platforms"
+				{
+					"1"		"all"
+				}
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"base"
+				"pattern"		"CONFIG.SOD"
+				"platforms"
+				{
+					"1"		"all"
+				}
+			}
+		}
+	}
+}
