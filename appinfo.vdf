@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"1564410"
+	"common"
+	{
+		"name"		"Zerone 2D"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"clienticon"		"69fbe21202b23fe75571a5eb197cfa477cd8369f"
+		"clienttga"		"155a5bd9856cb4258697d72b3e12f1fed3bb8544"
+		"icon"		"50b6437cad4672fe4aff3be797ba4c2d18f28182"
+		"clienticns"		"69fbe21202b23fe75571a5eb197cfa477cd8369f"
+		"logo"		"5b8859eab8f8eac02f529e99835de9cb06dd6234"
+		"logo_small"		"5b8859eab8f8eac02f529e99835de9cb06dd6234_thumb"
+		"app_retired_publisher_request"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"29.25790928149417"
+				"height_pct"		"55.90277777777779"
+			}
+		}
+		"store_asset_mtime"		"1625588738"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Woven Clover LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Aevity LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1636398306"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1564410"
+		"store_tags"
+		{
+			"0"		"5379"
+			"1"		"5537"
+			"2"		"699"
+			"3"		"1664"
+			"4"		"1625"
+			"5"		"1773"
+			"6"		"3871"
+			"7"		"7250"
+			"8"		"19"
+			"9"		"597"
+			"10"		"4094"
+			"11"		"6129"
+			"12"		"4166"
+			"13"		"3968"
+			"14"		"21"
+			"15"		"4182"
+			"16"		"1621"
+			"17"		"492"
+			"18"		"4106"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Woven Clover LLC"
+		"publisher"		"Aevity LLC"
+		"homepage"		"https://zerone.wovenclover.com/"
+	}
+	"config"
+	{
+		"installdir"		"Zerone2D"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Zerone2D.exe"
+				"arguments"		"~windowed"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Contents\\MacOS\\Zerone2D"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1564412"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8145146263225594831"
+					"size"		"167691661"
+					"download"		"46854784"
+				}
+			}
+		}
+		"1564413"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"942266334308900091"
+					"size"		"144827647"
+					"download"		"39891872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7644938"
+				"timeupdated"		"1635877900"
+			}
+			"macosproduction"
+			{
+				"buildid"		"6919252"
+				"description"		"macOS Main Build"
+				"timeupdated"		"1624456949"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Woven Clover LLC/Zerone2D/{64BitSteamID}"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Woven Clover LLC/Zerone2D/{64BitSteamID}"
+						"replace"		"Woven Clover LLC/Zerone2D/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
