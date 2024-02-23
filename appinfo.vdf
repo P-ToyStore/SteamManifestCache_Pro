@@ -1,0 +1,361 @@
+"appinfo"
+{
+	"appid"		"350150"
+	"common"
+	{
+		"name"		"Scraps: Modular Vehicle Combat"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"350150_eula_0"
+				"name"		"Scraps EULA"
+				"url"		"http://store.steampowered.com//eula/350150_eula_0"
+			}
+		}
+		"logo"		"a43796bfa3ad0cfe938d01b12e334b5cc52776fa"
+		"logo_small"		"a43796bfa3ad0cfe938d01b12e334b5cc52776fa_thumb"
+		"clienttga"		"e73e3527ab2811a30fdaee072c502df180a58cec"
+		"clienticon"		"6a4feba50b7f69df1c4dea6baf4bc3178a058292"
+		"icon"		"1af963133234ecabfba8e25045492ce7e558f503"
+		"clienticns"		"306273dfd3c473250643ee2b0c0a7e4b7a28f90e"
+		"linuxclienticon"		"4f32e52d7d8fd2c865a27827f6ff37f9dfd2d444"
+		"osarch"		""
+		"osextended"		""
+		"app_retired_publisher_request"		"1"
+		"type"		"game"
+		"metacritic_name"		"Scraps"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"74.41082228301667"
+				"height_pct"		"41.10942522370473"
+			}
+		}
+		"store_asset_mtime"		"1673063933"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Moment Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Moment Studio"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_18"		"1"
+			"category_36"		"1"
+			"category_49"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1608325770"
+		"community_hub_visible"		"1"
+		"gameid"		"350150"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"11104"
+			"2"		"1643"
+			"3"		"492"
+			"4"		"599"
+			"5"		"3968"
+			"6"		"1100687"
+			"7"		"3859"
+			"8"		"1644"
+			"9"		"4182"
+			"10"		"5363"
+			"11"		"1775"
+			"12"		"3810"
+			"13"		"1702"
+			"14"		"493"
+			"15"		"42804"
+			"16"		"1697"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"gamedir"		"Scraps"
+		"serverbrowsername"		"Scraps Servers"
+		"developer"		"Moment Studio"
+		"publisher"		"Moment Studio"
+		"homepage"		"http://www.scrapsgame.com"
+	}
+	"config"
+	{
+		"installdir"		"Scraps"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Scraps.exe"
+				"description"		"Play Scraps"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Scraps.app"
+				"description"		"Play Scraps"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Scraps32.sh"
+				"description"		"Play Scraps"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Scraps64.sh"
+				"description"		"Play Scraps"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"12"
+			{
+				"executable"		"Scraps.exe"
+				"arguments"		"+server"
+				"description"		"Start a dedicated server (with GUI)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"13"
+			{
+				"executable"		"Scraps.exe"
+				"arguments"		"-batchmode +server"
+				"description"		"Start a dedicated server (no GUI)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"14"
+			{
+				"executable"		"Scraps.app"
+				"arguments"		"+server"
+				"description"		"Start a dedicated server (with GUI)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"15"
+			{
+				"executable"		"Scraps.app"
+				"arguments"		"-batchmode +server"
+				"description"		"Start a dedicated server (no GUI)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"16"
+			{
+				"executable"		"Scraps32.sh"
+				"arguments"		"+server"
+				"description"		"Start a dedicated server (with GUI)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"17"
+			{
+				"executable"		"Scraps32.sh"
+				"arguments"		"-batchmode +server"
+				"description"		"Start a dedicated server (no GUI)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"18"
+			{
+				"executable"		"Scraps64.sh"
+				"arguments"		"+server"
+				"description"		"Start a dedicated server (with GUI)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"19"
+			{
+				"executable"		"Scraps64.sh"
+				"arguments"		"-batchmode +server"
+				"description"		"Start a dedicated server (no GUI)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"usemms"		"1"
+	}
+	"depots"
+	{
+		"350151"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"228095783027138805"
+					"size"		"2590875882"
+					"download"		"701678512"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"devtesting"
+				{
+					"gid"		"66036C270E5F308D074862F828B9081E"
+					"size"		"9E15FD17C601E4F647D9B0F180E26880"
+					"download"		"EB6BF66ECD243E20BF8F694F5B9DD843"
+				}
+			}
+		}
+		"350152"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8966959371026164302"
+					"size"		"2578572863"
+					"download"		"702808384"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"devtesting"
+				{
+					"gid"		"90DFED72B7C4C4D96096A2F3EF537DB4"
+					"size"		"41508C26317931217E862352A09DDA7C"
+					"download"		"630B0D34DBA8097B5D9F3F5D797F6F21"
+				}
+			}
+		}
+		"350153"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5263582079664424851"
+					"size"		"2599867673"
+					"download"		"709472560"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"devtesting"
+				{
+					"gid"		"088489D116CFA8C0DDD3BD507E3855EC"
+					"size"		"1A898D721BE8112D46BCBAECC7A81C26"
+					"download"		"68A4C01E5F0F5D21E0F4DD7B48100B88"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6221150"
+				"timeupdated"		"1612991371"
+			}
+			"devtesting"
+			{
+				"buildid"		"5640615"
+				"pwdrequired"		"1"
+				"timeupdated"		"1601939389"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"100"
+	}
+}
