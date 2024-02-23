@@ -1,0 +1,250 @@
+"appinfo"
+{
+	"appid"		"2024140"
+	"common"
+	{
+		"name"		"Cronous Online"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"ed9903ee15a5cafaf76b5a9bb19408bcdc9cf5ce"
+		"clienticon"		"29b41507b5901152d4a62d135a247d9403c16b39"
+		"clienttga"		"0caaba31b81ed6663a85fde1674aa41445785707"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1667001600"
+			"tested_build_id"		"9549519"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"5"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33.02325581395348"
+				"height_pct"		"68.61790548563286"
+			}
+		}
+		"store_asset_mtime"		"1667801634"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"VALOFE"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"NEOWIZ"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"VALOFE"
+			}
+		}
+		"primary_genre"		"29"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"37"
+			"3"		"29"
+			"4"		"3"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_35"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1661994028"
+		"community_hub_visible"		"1"
+		"gameid"		"2024140"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1754"
+			"2"		"128"
+			"3"		"4231"
+			"4"		"5395"
+			"5"		"4191"
+			"6"		"4604"
+			"7"		"6730"
+			"8"		"1775"
+			"9"		"113"
+			"10"		"19"
+			"11"		"21"
+			"12"		"3859"
+			"13"		"3843"
+		}
+		"review_score"		"5"
+		"review_percentage"		"43"
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=2024140"
+		"developer"		"VALOFE"
+		"publisher"		"VALOFE"
+		"homepage"		"https://www.cronous.com/"
+	}
+	"config"
+	{
+		"installdir"		"Cronous Online"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CronousSetting.exe"
+				"arguments"		" /real --crosteam"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+				"description_loc"
+				{
+					"english"		"Live"
+				}
+				"description"		"Live"
+			}
+			"1"
+			{
+				"executable"		"CronousSetting.exe"
+				"arguments"		" /stage --crosteam"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+					"betakey"		"staging"
+				}
+				"description_loc"
+				{
+					"english"		"Stage"
+				}
+				"description"		"Stage"
+			}
+		}
+	}
+	"depots"
+	{
+		"2024141"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1803803306146831546"
+					"size"		"4615933640"
+					"download"		"1271999472"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"C87A866D49CC6B88AA697D5EFD1B9C3D"
+					"size"		"3D80A81C5B4BD419059051E4C22E9308"
+					"download"		"5CC550689D544BE102B0027486BBAE2D"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12065802"
+				"timeupdated"		"1693379726"
+			}
+			"staging"
+			{
+				"buildid"		"12065802"
+				"pwdrequired"		"1"
+				"timeupdated"		"1693377897"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
