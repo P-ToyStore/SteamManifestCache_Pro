@@ -1,0 +1,194 @@
+"appinfo"
+{
+	"appid"		"1255520"
+	"common"
+	{
+		"name"		"RaidLand"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"68b19f46c725c2ad1006918e4921c43905a8243f"
+		"logo_small"		"68b19f46c725c2ad1006918e4921c43905a8243f_thumb"
+		"icon"		"beb1a51865a28379b603cdc866895bb60c96a4f6"
+		"clienttga"		"bf93625b4a7b5dd0ce38d0cd5d500a8da84e02ef"
+		"clienticon"		"f51ea5680d818c693ef05ba4f20f314ed7ec8cbe"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1585958033"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SideQuestNZ"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Blue Wizard Digital"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1590545876"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1255520"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"19"
+			"2"		"122"
+			"3"		"1697"
+			"4"		"3859"
+			"5"		"1775"
+			"6"		"3878"
+			"7"		"1684"
+			"8"		"492"
+			"9"		"597"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"SideQuestNZ"
+		"publisher"		"Blue Wizard Digital"
+		"homepage"		"https://raid.land"
+		"listofdlc"		"1270950"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"RaidLand"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RaidLand.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"RaidLand.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1255521"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3337309213557804447"
+					"size"		"97433038"
+					"download"		"44706416"
+				}
+			}
+		}
+		"1255522"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2459905947420818886"
+					"size"		"98691069"
+					"download"		"45251840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5241370"
+				"timeupdated"		"1593667140"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#statuswithoutscore"		"{#Status_%gamestatus%}"
+					"#statuswithscore"		"{#Status_%gamestatus%} (%score%) {#StatusClass}"
+					"#status_atmainmenu"		"At the main menu"
+					"#status_intermission"		"In Intermission"
+					"#status_winning"		"Winning"
+					"#status_losing"		"Losing"
+					"#status_drawing"		"Drawing"
+					"#statusclass"		"Lvl %level% %class%"
+				}
+			}
+		}
+	}
+}
