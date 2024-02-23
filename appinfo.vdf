@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"1759580"
+	"common"
+	{
+		"name"		"Tower To Heaven"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"clienttga"		"a087fe8fa556328439a976203264d6a0bce605f0"
+		"clienticon"		"2e0979c9039ced4db4ebb6ebe8ae7688a783224e"
+		"icon"		"6b1138d7cf4dbb45efa006ad1365b95de30e1639"
+		"logo"		"f325b2105868e0ed6aea6abb30d6d01a152cacbb"
+		"logo_small"		"f325b2105868e0ed6aea6abb30d6d01a152cacbb_thumb"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1665126170"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"b1stable"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"b1stable"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1633555860"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1759580"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"4434"
+			"2"		"3871"
+			"3"		"4136"
+			"4"		"1654"
+			"5"		"7481"
+			"6"		"7250"
+			"7"		"597"
+			"8"		"5125"
+			"9"		"4325"
+			"10"		"4195"
+			"11"		"4094"
+			"12"		"3964"
+			"13"		"1684"
+			"14"		"180368"
+			"15"		"3916"
+			"16"		"3993"
+			"17"		"492"
+			"18"		"7569"
+			"19"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"b1stable"
+		"publisher"		"b1stable"
+	}
+	"config"
+	{
+		"installdir"		"Tower To Heaven"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"tth.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"tth"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1759581"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7159558875047703380"
+					"size"		"16742141"
+					"download"		"14003632"
+				}
+			}
+		}
+		"1759582"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2730314051024639960"
+					"size"		"14892470"
+					"download"		"13393680"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9725809"
+				"timeupdated"		"1665787802"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"path"		"TTH"
+				"pattern"		"*.dat"
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/b1stable/TTH"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"TTH"
+						"replace"		".config/b1stable/TTH"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinSavedGames"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		".config/b1stable/TTH"
+						"replace"		"TTH"
+					}
+				}
+			}
+		}
+	}
+}
