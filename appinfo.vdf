@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"307090"
+	"common"
+	{
+		"name"		"Fancy Skulls"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"b5e451acf4b403d36cf965b64d6c302f3c2cc12d"
+		"logo_small"		"b5e451acf4b403d36cf965b64d6c302f3c2cc12d_thumb"
+		"icon"		"3cdee6f93a046e4d12f19cb77df4008ccda535dd"
+		"clienticon"		"a3eae52f3c5eb2f1cf1a9be754e6b3b737c146ed"
+		"clienttga"		"ce863534f601cbcf85b3dbc58d07eedbc98c5757"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"36bb977f1b6bff0735a447739dab029fd9ee7d3a"
+		"clienticns"		"6d75519347943814d6aa4b7d8eb4fdd0fef1e8a7"
+		"metacritic_name"		"Fancy Skulls"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1424380340"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"tequibo"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"tequibo"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1402954560"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"307090"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"42804"
+			"2"		"19"
+			"3"		"493"
+			"4"		"1663"
+			"5"		"1716"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"developer"		"tequibo"
+		"publisher"		"tequibo"
+		"homepage"		"http://fancyskulls.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"FancySkulls"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"fancy_skulls.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"fancy_skulls.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"fancy_skulls.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"fancy_skulls.x86_64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"307091"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3476629630984394886"
+					"size"		"197013055"
+					"download"		"90374288"
+				}
+				"beta"
+				{
+					"gid"		"1224257363561635944"
+					"size"		"218843696"
+					"download"		"90214080"
+				}
+			}
+		}
+		"307092"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1647973885252785095"
+					"size"		"235735950"
+					"download"		"102029600"
+				}
+				"beta"
+				{
+					"gid"		"5076032769977635973"
+					"size"		"248532846"
+					"download"		"100542752"
+				}
+			}
+		}
+		"307093"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5318786967872270726"
+					"size"		"240319809"
+					"download"		"101823648"
+				}
+				"beta"
+				{
+					"gid"		"8388740903153628857"
+					"size"		"258440445"
+					"download"		"100207264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1193818"
+				"timeupdated"		"1466630608"
+			}
+			"beta"
+			{
+				"buildid"		"562818"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"12"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+	}
+}
