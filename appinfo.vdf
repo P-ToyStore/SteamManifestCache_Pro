@@ -1,0 +1,201 @@
+"appinfo"
+{
+	"appid"		"561100"
+	"common"
+	{
+		"name"		"Disney's Aladdin"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"561100_eula_0"
+				"name"		"Disney's Aladdin EULA"
+				"url"		"http://store.steampowered.com//eula/561100_eula_0"
+			}
+		}
+		"clienticon"		"1a1925a80a3235bf04ae465dce06457746940a3d"
+		"clienttga"		"33e0d9db78dae231f48269e711cd5933e6d6b2a9"
+		"icon"		"c6e1a56610b3a544e4871b9c157457c7a4dc9e5f"
+		"logo"		"6df40b5dd5b4acbb8fb5adcb2b34214336ed1dbc"
+		"logo_small"		"6df40b5dd5b4acbb8fb5adcb2b34214336ed1dbc_thumb"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Disney's Aladdin"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1486698034"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Virgin Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"753004800"
+		"steam_release_date"		"1513618778"
+		"community_hub_visible"		"1"
+		"gameid"		"561100"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1693"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"developer"		"Virgin Games"
+		"publisher"		"Disney"
+	}
+	"config"
+	{
+		"installdir"		"Disney's Aladdin"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX/DOSBox.exe"
+				"arguments"		"-conf \"..\\dosbox_aladdin.conf\" -conf \"..\\dosbox_aladdin_single.conf\" -noconsole -c exit"
+				"workingdir"		"DOSBOX"
+				"description"		"Play Disney's Aladdin"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"./dosbox/dosbox.sh"
+				"workingdir"		"dosbox"
+				"description"		"Play Disney's Aladdin"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf \"../dosbox_aladdin.conf\" -conf \"../dosbox_aladdin_single.conf\" -noconsole -c exit"
+				"workingdir"		"dosbox"
+				"description"		"Play Disney's Aladdin"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"561101"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3648840707998902934"
+					"size"		"3998104"
+					"download"		"2399632"
+				}
+			}
+		}
+		"561102"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8083292925745337675"
+					"size"		"4422362"
+					"download"		"1453680"
+				}
+			}
+		}
+		"561103"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"543878378205872143"
+					"size"		"4483112"
+					"download"		"1116320"
+				}
+			}
+		}
+		"561104"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"258127016288403957"
+					"size"		"7934484"
+					"download"		"3076864"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2267983"
+				"timeupdated"		"1510161630"
+			}
+		}
+	}
+}
