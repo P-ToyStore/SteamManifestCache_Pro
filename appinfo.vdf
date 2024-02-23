@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"561120"
+	"common"
+	{
+		"name"		"Disney's The Lion King"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"561120_eula_0"
+				"name"		"Disney's The Lion King EULA"
+				"url"		"http://store.steampowered.com//eula/561120_eula_0"
+			}
+		}
+		"clienticon"		"5e56be40f5d6a9a3b17a82d97806165b8fa95511"
+		"clienttga"		"baf57ad4495030743a2533fd1767add235ab7143"
+		"icon"		"47390481e5399cb8da79b86ea86dd640a671ae89"
+		"logo"		"59ac9079a0ba0296d18394b46980c3c7ac4ad6f7"
+		"logo_small"		"59ac9079a0ba0296d18394b46980c3c7ac4ad6f7_thumb"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Disney's The Lion King"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1486692206"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Westwood Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"786873600"
+		"steam_release_date"		"1513618791"
+		"community_hub_visible"		"1"
+		"gameid"		"561120"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1693"
+			"3"		"1625"
+			"4"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"Westwood Studios"
+		"publisher"		"Disney"
+	}
+	"config"
+	{
+		"installdir"		"Disney's The Lion King"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX/DOSBox.exe"
+				"arguments"		"-conf \"..\\dosbox_lionking.conf\" -conf \"..\\dosbox_lionking_single.conf\" -noconsole -c exit"
+				"workingdir"		"DOSBOX"
+				"description"		"Play Disney's The Lion King"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"./dosbox/dosbox.sh"
+				"workingdir"		"dosbox"
+				"description"		"Play Disney's The Lion King"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf \"../dosbox_lionking.conf\" -conf \"../dosbox_lionking_single.conf\" -noconsole -c exit"
+				"workingdir"		"dosbox"
+				"description"		"Play Disney's The Lion King"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"561121"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6371702333941617964"
+					"size"		"3743774"
+					"download"		"3130256"
+				}
+			}
+		}
+		"561122"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9212138230596472026"
+					"size"		"4869539"
+					"download"		"1834208"
+				}
+			}
+		}
+		"561123"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6105484736900577622"
+					"size"		"4483202"
+					"download"		"1116320"
+				}
+			}
+		}
+		"561124"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4855274820979788558"
+					"size"		"7934508"
+					"download"		"3076880"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2267987"
+				"timeupdated"		"1510161676"
+			}
+		}
+	}
+}
