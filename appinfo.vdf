@@ -1,0 +1,193 @@
+"appinfo"
+{
+	"appid"		"358370"
+	"common"
+	{
+		"name"		"Terminal Velocity: Legacy"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"7d08d000f12f3d1ed0036d68a2e49389628ccdea"
+		"logo_small"		"7d08d000f12f3d1ed0036d68a2e49389628ccdea_thumb"
+		"clienticon"		"c1ab86da76ed09aa564d53669fff931e09376c08"
+		"clienttga"		"ab55416580a1f669b670555c5d923c9af2c220bb"
+		"icon"		"b6031dd928901825b4c9fefd2e19675f6e52e49e"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Terminal Velocity"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46.49941656942824"
+				"height_pct"		"93.92068392305866"
+			}
+		}
+		"store_asset_mtime"		"1650051501"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Terminal Reality"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"799311600"
+		"steam_release_date"		"1399309140"
+		"community_hub_visible"		"1"
+		"gameid"		"358370"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"6691"
+			"2"		"1774"
+			"3"		"4835"
+			"4"		"1693"
+			"5"		"4182"
+		}
+		"review_score"		"8"
+		"review_percentage"		"89"
+	}
+	"extended"
+	{
+		"developer"		"Terminal Reality"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Terminal Velocity"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Terminal Velocity\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\TV.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Terminal Velocity\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Terminal Velocity.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\TV.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358371"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5784515938056201203"
+					"size"		"150176394"
+					"download"		"78943968"
+				}
+			}
+		}
+		"358372"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7663062558585861756"
+					"size"		"166231996"
+					"download"		"80457248"
+				}
+			}
+		}
+		"358373"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3240492804498972481"
+					"size"		"130099022"
+					"download"		"70993376"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606168"
+			}
+		}
+	}
+}
