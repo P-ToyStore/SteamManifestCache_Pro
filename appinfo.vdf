@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"1607730"
+	"common"
+	{
+		"name"		"Invisible"
+		"type"		"Game"
+		"logo"		"bf66bcb044fc30dff691297c569db993534af3b8"
+		"logo_small"		"bf66bcb044fc30dff691297c569db993534af3b8_thumb"
+		"icon"		"3fd6b93c9741715c1d5a8a9c541ec2fa4ebd2eea"
+		"clienticon"		"eff4e567ccb64176afd6afd467a3d291b7d8f7c5"
+		"clienttga"		"125824b913df5ade20dbe8ad1e71cd62c3013a9d"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"72.79069767441862"
+				"height_pct"		"73.17739254333887"
+			}
+		}
+		"store_asset_mtime"		"1620288516"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FiveDead Interactive Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FiveDead Interactive Inc."
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1621255467"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1607730"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"5900"
+			"2"		"1664"
+			"3"		"4191"
+			"4"		"3839"
+			"5"		"4166"
+			"6"		"1667"
+			"7"		"4342"
+			"8"		"5716"
+			"9"		"30358"
+			"10"		"1721"
+			"11"		"4667"
+			"12"		"1662"
+			"13"		"3978"
+			"14"		"1687"
+			"15"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"FiveDead Interactive Inc."
+		"publisher"		"FiveDead Interactive Inc."
+		"homepage"		"https://invisible.xsollasitebuilder.com/"
+		"listofdlc"		"1651330"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Invisible"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Invisible.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1607731"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8095823027545412227"
+					"size"		"10199313512"
+					"download"		"4287348176"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"developer-test"
+				{
+					"gid"		"7B3C44B9C4CBF1605DD634FE8614D2F1"
+					"size"		"36E38B30F86818C4F495C1699D7CF87F"
+					"download"		"952EB671A39FBFD18F781EA919861385"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6779729"
+				"timeupdated"		"1622365275"
+			}
+			"developer-test"
+			{
+				"buildid"		"6779729"
+				"pwdrequired"		"1"
+				"timeupdated"		"1622270583"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"SteamCloudDocuments"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
