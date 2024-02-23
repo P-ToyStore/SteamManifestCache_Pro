@@ -1,0 +1,256 @@
+"appinfo"
+{
+	"appid"		"1462150"
+	"common"
+	{
+		"name"		"R.B.I. Baseball 21"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"2465c34db8e8b8fcc062f488ceafcb8a1fc89813"
+		"logo_small"		"2465c34db8e8b8fcc062f488ceafcb8a1fc89813_thumb"
+		"icon"		"bb2e7f0aa15ac0a4972c693b3ceca5b12086adc2"
+		"clienticon"		"7cb6a18ea088d1decba375fd23739fbed5c0c362"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1658361600"
+			"tested_build_id"		"7683943"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"43.18200830866854"
+				"height_pct"		"85.41410363167864"
+			}
+		}
+		"store_asset_mtime"		"1614638877"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MLB"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"MLB"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"MLB"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"RBI Baseball"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+			"category_49"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1615909488"
+		"community_hub_visible"		"1"
+		"gameid"		"1462150"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"5727"
+			"2"		"1773"
+			"3"		"4191"
+			"4"		"1697"
+			"5"		"4175"
+			"6"		"3859"
+		}
+		"review_score"		"5"
+		"review_percentage"		"54"
+	}
+	"extended"
+	{
+		"developer"		"MLB"
+		"publisher"		"MLB"
+		"homepage"		"https://www.rbigame.com"
+	}
+	"config"
+	{
+		"installdir"		"R.B.I. Baseball 21"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RBIBaseball_2021.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,japanese,latam"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1462151"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7091038115762729411"
+					"size"		"11041305135"
+					"download"		"9129921232"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"29AC655B4482D57F10F351327C0A69E7"
+					"size"		"CF5560A76204E29EF4D6EE47BA1C111E"
+					"download"		"4BF31ED9EAD8C743CA0B4E5DCDF7D3E4"
+				}
+				"beta_internal"
+				{
+					"gid"		"B4A268837DD2D103B5818C8DB2603CF2"
+					"size"		"C87BB5614601B4310C4D42B01C8ADF26"
+					"download"		"051E9A396AE57B806F29D94F17FC7BFC"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7683943"
+				"timeupdated"		"1636749788"
+			}
+			"beta"
+			{
+				"buildid"		"7683943"
+				"pwdrequired"		"1"
+				"timeupdated"		"1636573836"
+			}
+			"beta_internal"
+			{
+				"buildid"		"7873937"
+				"pwdrequired"		"1"
+				"timeupdated"		"1639396876"
+			}
+		}
+	}
+}
