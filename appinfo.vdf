@@ -1,0 +1,227 @@
+"appinfo"
+{
+	"appid"		"531530"
+	"common"
+	{
+		"name"		"POLYGOD"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"33b974e0f170b27b95363e9bd8f4dc25fec21aef"
+		"logo_small"		"33b974e0f170b27b95363e9bd8f4dc25fec21aef_thumb"
+		"icon"		"4f3181dff62390e801a77394d270a26a00aca3d1"
+		"clienttga"		"99b10b70add8571cebc5bfb68f69e3308bf5c578"
+		"clienticon"		"a134ece0a88a807e3b8cc301623cf15b4a3b3800"
+		"clienticns"		"e4e19443ed92c6c7e152608c1a9d8edcedb1cb09"
+		"app_retired_publisher_request"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1657324800"
+			"tested_build_id"		"3040458"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+				}
+				"5"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"6"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"7"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"1"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Polygod"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1534170741"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Krafted Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Krafted Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1534507113"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"531530"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"492"
+			"3"		"1663"
+			"4"		"5125"
+			"5"		"3841"
+			"6"		"4026"
+			"7"		"1759"
+			"8"		"3843"
+			"9"		"4094"
+			"10"		"493"
+			"11"		"1734"
+			"12"		"3839"
+			"13"		"10816"
+			"14"		"1702"
+			"15"		"1716"
+			"16"		"3859"
+			"17"		"4711"
+			"18"		"7368"
+			"19"		"4182"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Krafted Games"
+		"publisher"		"Krafted Games"
+		"homepage"		"http://kraftedgames.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"POLYGOD"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"windows_content\\Polygod.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"mac_content\\Polygod.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"linux_content\\Polygod.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"531531"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2753828072673538350"
+					"size"		"3032976183"
+					"download"		"420749760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3040458"
+				"timeupdated"		"1534500110"
+			}
+		}
+	}
+}
