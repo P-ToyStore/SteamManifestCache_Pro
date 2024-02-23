@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"752300"
+	"common"
+	{
+		"name"		"Forestation"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+		}
+		"logo"		"cf1985f7c6840dd820c8ebec6cbf962cfd228290"
+		"logo_small"		"cf1985f7c6840dd820c8ebec6cbf962cfd228290_thumb"
+		"icon"		"ed3fac88cb27df8eeb097f4426b70273862cacec"
+		"clienticon"		"cbc32f9b15fb6640df771d5e2b43f9651d988022"
+		"clienttga"		"01ddc7f0fa399f6e61ba446a4c7bb95cfd7a5f02"
+		"clienticns"		"10db3f3036398b0b875dc69e7f3bcd93cdedcd5e"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Forestation"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"store_asset_mtime"		"1533702493"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gamenesis"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gamenesis"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1513218293"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"752300"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1664"
+			"2"		"1654"
+			"3"		"3871"
+			"4"		"4094"
+			"5"		"4400"
+			"6"		"492"
+			"7"		"1710"
+			"8"		"3834"
+			"9"		"4166"
+			"10"		"4182"
+			"11"		"4252"
+			"12"		"5350"
+			"13"		"11123"
+			"14"		"13782"
+			"15"		"1708"
+			"16"		"4305"
+			"17"		"1738"
+			"18"		"5851"
+			"19"		"22602"
+		}
+		"review_score"		"5"
+		"review_percentage"		"57"
+	}
+	"extended"
+	{
+		"developer"		"Gamenesis"
+		"publisher"		"Gamenesis"
+		"homepage"		"https://steam.gamenesis.com"
+		"listofdlc"		"825420"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Forestation"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Forestation.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Forestation.app\\Contents\\MacOS\\Forestation"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,schinese,russian,portuguese"
+		"hasdepotsindlc"		"1"
+		"752301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5496728323963960235"
+					"size"		"732478403"
+					"download"		"86945248"
+				}
+			}
+		}
+		"752302"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9121073792367512396"
+					"size"		"745318739"
+					"download"		"89815984"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2848135"
+				"timeupdated"		"1528524923"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10485760"
+		"maxnumfiles"		"100"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"WonderBox/Forestation"
+				"pattern"		"*.save"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"com.wonderboxgames.Forestation"
+			}
+		}
+	}
+}
