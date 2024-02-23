@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"2238890"
+	"common"
+	{
+		"name"		"DancingSim"
+		"type"		"Application"
+		"releasestate"		"released"
+		"icon"		"5bd59349ae6d84ba54d8ca5848d26ccbfbdd125f"
+		"clienticon"		"df4d9fc26e771b7834f794b61823705ff8d2aa63"
+		"clienttga"		"799cf67814dfd8da16e9e1280f42fd886bdd2f9e"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"app_retired_publisher_request"		"1"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"98.99365704195608"
+				"height_pct"		"96.18055555555556"
+			}
+		}
+		"store_asset_mtime"		"1673926622"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MetaDancer"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"NIJICO"
+			}
+		}
+		"primary_genre"		"51"
+		"genres"
+		{
+			"0"		"51"
+			"1"		"70"
+		}
+		"category"
+		{
+			"category_30"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1673931957"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2238890"
+		"exfgls"		"2"
+		"store_tags"
+		{
+			"0"		"6650"
+			"1"		"872"
+			"2"		"493"
+		}
+		"review_score"		"5"
+		"review_percentage"		"48"
+		"review_score_bombs"		"5"
+		"review_percentage_bombs"		"59"
+	}
+	"extended"
+	{
+		"developer"		"MetaDancer"
+		"publisher"		"NIJICO"
+	}
+	"config"
+	{
+		"installdir"		"DancingSim"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DancingSim.exe"
+				"arguments"		"-dx12"
+				"type"		"option1"
+				"description_loc"
+				{
+					"english"		"DX12(RTX 20XX or higher)"
+				}
+				"description"		"DX12(RTX 20XX or higher)"
+			}
+			"1"
+			{
+				"executable"		"DancingSim.exe"
+				"arguments"		"-dx11"
+				"type"		"option1"
+				"description_loc"
+				{
+					"english"		"DX11"
+				}
+				"description"		"DX11"
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2238891"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9081497123756523424"
+					"size"		"5057579638"
+					"download"		"4849223456"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"CC8F9819895A1081D26D36E3163F0A3C"
+					"size"		"A0A37E74874C5E9569DCC217E4A947A7"
+					"download"		"4E6C8E9409B2748E5F8A57DED79ECD01"
+				}
+			}
+		}
+		"workshopdepot"		"2238890"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10345743"
+				"timeupdated"		"1674024245"
+			}
+			"beta"
+			{
+				"buildid"		"10345743"
+				"pwdrequired"		"1"
+				"timeupdated"		"1674019188"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"MirrorDance"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
