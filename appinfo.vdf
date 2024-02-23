@@ -1,0 +1,251 @@
+"appinfo"
+{
+	"appid"		"572300"
+	"common"
+	{
+		"name"		"Nyheim"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"f87c81e6de4d0a2ad4b30258bf26381bc160dd54"
+		"clienttga"		"533d205035e3042fa78fedf4906cf9d2da067a9b"
+		"icon"		"46f91aa33d3643fad36d04b76a6aa1ca714ca792"
+		"clienticns"		"4faf013641806c8c530bcc06b077fd03c154aea5"
+		"logo"		"af8929f9d95cebf54ad5c7705ee6ec30ca8bb2a7"
+		"logo_small"		"af8929f9d95cebf54ad5c7705ee6ec30ca8bb2a7_thumb"
+		"linuxclienticon"		"da15bba76d35d47e877bf792c4a6118c87c4912c"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"metacritic_name"		"Nyheim"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1484569417"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Happy Hobgoblin"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Happy Hobgoblin"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1485889920"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"572300"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1662"
+			"2"		"1770"
+			"3"		"4182"
+			"4"		"4026"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"developer"		"Happy Hobgoblin"
+		"publisher"		"Happy Hobgoblin"
+		"homepage"		"http://happyhobgoblin.com"
+	}
+	"config"
+	{
+		"installdir"		"Nyheim"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Nyheim.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Nyheim_Mac.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Nyheim_Linux.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Nyheim_Linux.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"572301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1023845689066911759"
+					"size"		"338618864"
+					"download"		"129462016"
+				}
+				"testing"
+				{
+					"gid"		"2597080138202075840"
+					"size"		"315903536"
+					"download"		"125440208"
+				}
+			}
+		}
+		"572302"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3023236125605735639"
+					"size"		"339118707"
+					"download"		"128170768"
+				}
+				"testing"
+				{
+					"gid"		"6454904553978175598"
+					"size"		"325809475"
+					"download"		"125644880"
+				}
+			}
+		}
+		"572303"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1520405202744369656"
+					"size"		"362602808"
+					"download"		"136696272"
+				}
+				"testing"
+				{
+					"gid"		"5921651804430344029"
+					"size"		"349299908"
+					"download"		"134173376"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1665482"
+				"timeupdated"		"1488445115"
+			}
+			"testing"
+			{
+				"buildid"		"1610347"
+				"timeupdated"		"1486220813"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5242880"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Happy Hobgoblin Oy/Nyheim"
+				"pattern"		"save.xml"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"unity.Happy Hobgoblin Oy.Nyheim"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/unity3d/Happy Hobgoblin Oy/Nyheim"
+			}
+		}
+	}
+}
