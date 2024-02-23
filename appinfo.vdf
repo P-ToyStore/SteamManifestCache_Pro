@@ -1,0 +1,192 @@
+"appinfo"
+{
+	"appid"		"358240"
+	"common"
+	{
+		"name"		"Monuments of Mars"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"5fe223904fae255c4c9faec097a22783aea29dc7"
+		"logo_small"		"5fe223904fae255c4c9faec097a22783aea29dc7_thumb"
+		"clienticon"		"d4a6c32e40efcb67714de2b9f5ed788f5d8d9441"
+		"clienttga"		"2cc4f636c82ac78127c7ca98d6e7c527c697aed0"
+		"icon"		"650da8a901471b4a59863b8192fd246ebca180bc"
+		"oslist"		"windows,macos"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Monuments of Mars"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"53.033838973162204"
+				"height_pct"		"85.94158157207315"
+			}
+		}
+		"store_asset_mtime"		"1567677792"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3D Realms (Apogee Software)"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms (Apogee Software)"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1399309260"
+		"community_hub_visible"		"1"
+		"gameid"		"358240"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1625"
+		}
+		"review_score"		"5"
+		"review_percentage"		"57"
+	}
+	"extended"
+	{
+		"developer"		"3D Realms (Apogee Software)"
+		"publisher"		"3D Realms (Apogee Software)"
+		"homepage"		"https://3drealms.com/catalog/monuments-mars_43/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358240/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Monuments of Mars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Monuments of Mars\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\MARS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Monuments of Mars\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Monuments of Mars.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\MARS.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358241"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3925893844250508845"
+					"size"		"27677439"
+					"download"		"10741056"
+				}
+			}
+		}
+		"358242"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4889974636896231134"
+					"size"		"41835158"
+					"download"		"20302896"
+				}
+			}
+		}
+		"358243"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2651155329867061126"
+					"size"		"7700655"
+					"download"		"2833216"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"613185"
+			}
+		}
+	}
+}
