@@ -1,0 +1,370 @@
+"appinfo"
+{
+	"appid"		"1092500"
+	"common"
+	{
+		"name"		"AQUARYOUNS World"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"92c3b41f90b7f33f9e3daf206d66a9a3b0237729"
+		"logo_small"		"92c3b41f90b7f33f9e3daf206d66a9a3b0237729_thumb"
+		"clienticon"		"ebea50120c53c73c875e298fd72f3aea02078009"
+		"clienttga"		"f8ee438118c465720d09cb1f62b226e9395288af"
+		"icon"		"a97aa6a91f09a4f83b05b31e08de3ec1ea5b7e25"
+		"linuxclienticon"		"0b05a3d7918e52d2dd58c11b6f23bcce1b909e50"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1092500_eula_0"
+				"name"		"AQUARYOUNS World EULA"
+				"url"		"https://store.steampowered.com//eula/1092500_eula_0"
+			}
+		}
+		"clienticns"		"81988306b08352f3f4550f07acce3bd2f974395e"
+		"osextended"		"macos64"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"metacritic_name"		"AQUARYOUNS World"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1597316700"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"DJAMACAT GmbH"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"DJAMACAT GmbH"
+			}
+		}
+		"primary_genre"		"29"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"29"
+			"2"		"28"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_20"		"1"
+			"category_35"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_27"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1573495900"
+		"community_hub_visible"		"1"
+		"gameid"		"1092500"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"128"
+			"2"		"492"
+			"3"		"599"
+			"4"		"493"
+			"5"		"113"
+		}
+		"review_score"		"5"
+		"review_percentage"		"52"
+	}
+	"extended"
+	{
+		"developer"		"DJAMACAT GmbH"
+		"publisher"		"DJAMACAT GmbH"
+		"homepage"		"https://www.aquaryouns.com"
+	}
+	"config"
+	{
+		"installdir"		"AQUARYOUNS World"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AQW.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"AQW.exe"
+				"arguments"		"-url=https://lemon.aquaryouns.com/v1"
+				"description"		"PreLive Lemon"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"prelive"
+				}
+			}
+			"3"
+			{
+				"executable"		"AQW.exe"
+				"arguments"		"-url=http://gf.stage.djamacat.com:12080/AqW-Gateway/api/v1"
+				"description"		"Dev Kane"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"developer"
+				}
+			}
+			"4"
+			{
+				"executable"		"AQW.exe"
+				"arguments"		"-url=http://gf.stage.djamacat.com:11080/AqW-Gateway/api/v1"
+				"description"		"Dev Fred"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"developer"
+				}
+			}
+			"5"
+			{
+				"executable"		"AQW.exe"
+				"arguments"		"-url=http://localhost:8080/AqW-Gateway/api/v1"
+				"description"		"Dev localhost"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"developer"
+				}
+			}
+			"8"
+			{
+				"executable"		"AQW.app"
+				"description"		"live"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"9"
+			{
+				"executable"		"AQW.x64"
+				"description"		"live"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"10"
+			{
+				"executable"		"AQW.app"
+				"arguments"		"-url=https://lemon.aquaryouns.com/v1"
+				"description"		"PreLive Lemon"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"prelive"
+				}
+			}
+			"11"
+			{
+				"executable"		"AQW.app"
+				"arguments"		"-url=http://gf.stage.djamacat.com:12080/AqW-Gateway/api/v1"
+				"description"		"Dev Kane"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"developer"
+				}
+			}
+			"12"
+			{
+				"executable"		"AQW.x64"
+				"arguments"		"-url=https://lemon.aquaryouns.com/v1"
+				"description"		"PreLive Lemon"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"prelive"
+				}
+			}
+			"13"
+			{
+				"executable"		"AQW.x64"
+				"arguments"		"-url=http://gf.stage.djamacat.com:12080/AqW-Gateway/api/v1"
+				"description"		"Dev Kane"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"developer"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german"
+		"1092501"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6265136252439513728"
+					"size"		"1133390623"
+					"download"		"942450432"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"developer"
+				{
+					"gid"		"A116EABE28807C15F8CCB9E61697D1C5"
+					"size"		"B96A228C6EDA8B66A7CF3F64FEBF2060"
+					"download"		"7F470FE82AABC5641186AB8DAF13C841"
+				}
+				"prelive"
+				{
+					"gid"		"F9FDCB5715951C5F311D9FC78613EEA0"
+					"size"		"A01B2C6D86AB54ABFF24E3EEB0F3CE21"
+					"download"		"2858073DA1496531923DD647A47BC573"
+				}
+			}
+		}
+		"1092502"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2221384831607052318"
+					"size"		"1152627124"
+					"download"		"956925712"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"developer"
+				{
+					"gid"		"F74D73FE8D87FD3481A1FBE80E5F93CA"
+					"size"		"6007DF4769277B711F17C8EA5B1C8437"
+					"download"		"B2FC17A1D812B9760C38CEB73999B24F"
+				}
+				"prelive"
+				{
+					"gid"		"58240534A1A1B455CC17EBB80ECC53F1"
+					"size"		"62B93D853E574CF482A3B1CCE47D2EA5"
+					"download"		"7CBD4E3CB258C7E7C3E5E15E5C4EFDE2"
+				}
+			}
+		}
+		"1092503"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6241378489992636937"
+					"size"		"1185093185"
+					"download"		"974382096"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"developer"
+				{
+					"gid"		"293DC653322C6224489225BF64F93BEC"
+					"size"		"CC4268D64113D939C9E178055B29E2AC"
+					"download"		"1EC0CE815EBEB645431C80B2A22BD6CF"
+				}
+				"prelive"
+				{
+					"gid"		"45799A995D2EFA9CA146BB7477C76A00"
+					"size"		"7CE61BECAB55AD11437CFB319E4F31E5"
+					"download"		"A62B25045253847786C0F53B11F14AF1"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6310970"
+				"timeupdated"		"1614760450"
+			}
+			"developer"
+			{
+				"buildid"		"6389050"
+				"pwdrequired"		"1"
+				"timeupdated"		"1615902603"
+			}
+			"prelive"
+			{
+				"buildid"		"6389050"
+				"pwdrequired"		"1"
+				"timeupdated"		"1615902615"
+			}
+		}
+	}
+}
