@@ -1,0 +1,184 @@
+"appinfo"
+{
+	"appid"		"229100"
+	"common"
+	{
+		"name"		"Dragon's Prophet"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"9fdf49f0008d33e7eeaf1238280b1b0896952e9f"
+		"logo_small"		"9fdf49f0008d33e7eeaf1238280b1b0896952e9f_thumb"
+		"oslist"		"windows"
+		"clienticon"		"c61fa412fac59b7b373faf4ebb0b3c5049a6a202"
+		"clienttga"		"ec4ad650a96f6fc4a29f7ff432da88285fd94f61"
+		"icon"		"5899c46d367993e40fbc9b79cc9064369f628c74"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"metacritic_name"		"Dragon's Prophet"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1430172163"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Daybreak Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Daybreak Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"37"
+			"3"		"29"
+		}
+		"category"
+		{
+			"category_20"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1379919600"
+		"metacritic_score"		"63"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dragons-prophet?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"229100"
+		"store_tags"
+		{
+			"0"		"4046"
+			"1"		"113"
+			"2"		"128"
+			"3"		"19"
+			"4"		"122"
+			"5"		"21"
+			"6"		"1684"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Daybreak Games"
+		"gamedir"		"ValveTestApp229100"
+		"homepage"		"https://www.dragonsprophetthegame.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"purchaserestrictedcountries"		"US CA MX"
+		"allowpurchasefromrestrictedcountries"		"1"
+		"publisher"		"Daybreak Games"
+		"listofdlc"		"255890,334150,334160,334161"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dragon's Prophet"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LaunchPad.exe"
+				"arguments"		"Updates:enable=0 Updates:PatchSelf=1 campaignID=1063501  promoID=148 launchPoint=steam launchArgs=STEAM_ENABLED"
+				"description"		"LaunchPad"
+			}
+		}
+		"installscriptsignature"		"033e10c01e612bf37002520a5533e42d22dd558bd7cbc02736c1a5ec6ff09e601c7f44abdac8b8b418998ddcbef518064c897a9c352bd7a6eea12cdc7380b88a8d845215b6a951cecf749fb6fcfdae20930462e99a1fe74f4bd37ff807a79c2e5a994262f1a8305b64f9f0b86f64c5c88383982255a5552d8c843f1e3aadfecc"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"dxsetup"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\229100"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"fixtimestamp_play"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\229100"
+				"process 1"		"%INSTALLDIR%\\FixTimestamps.exe"
+				"command 1"		"fix.soe"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"229101"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7275383689203609231"
+					"size"		"14855432009"
+					"download"		"14010227136"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"livenext"
+				{
+					"gid"		"2AFD9C1EAC246C4E8C89663619392813"
+					"size"		"B75F973386D1FDC3529256026AB3CE77"
+					"download"		"15805A6E5CD7E973ABA242E34AEE67EB"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"737082"
+			}
+			"livenext"
+			{
+				"buildid"		"737082"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
