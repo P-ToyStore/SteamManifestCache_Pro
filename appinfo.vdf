@@ -1,0 +1,232 @@
+"appinfo"
+{
+	"appid"		"2164070"
+	"common"
+	{
+		"name"		"3 Crystals"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"56316829597b800c0c05a62d1b5287dd335dfaad"
+		"clienticon"		"283c80bbf64496148c0fd51ab1e1b79e288dd712"
+		"linuxclienticon"		"7208faf27cb3815be955e492c7727018334b0b1b"
+		"icon"		"39b3672a6df3a6554cad466ccb72938778f55b69"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"nokeyboardmouse"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"37.99176611753177"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1664991387"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"b1stable"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"b1stable"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1665129569"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2164070"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1773"
+			"2"		"4758"
+			"3"		"3871"
+			"4"		"4400"
+			"5"		"4305"
+			"6"		"4252"
+			"7"		"4295"
+			"8"		"3942"
+			"9"		"7481"
+			"10"		"492"
+			"11"		"4182"
+			"12"		"1774"
+			"13"		"9"
+			"14"		"113"
+		}
+	}
+	"extended"
+	{
+		"developer"		"b1stable"
+		"publisher"		"b1stable"
+	}
+	"config"
+	{
+		"installdir"		"3 Crystals"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65535"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"3 Crystals.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"3 Crystals"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2164071"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5449469899263511199"
+					"size"		"11702921"
+					"download"		"9065456"
+				}
+			}
+		}
+		"2164072"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4880999845630143210"
+					"size"		"9091970"
+					"download"		"8140208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9778661"
+				"timeupdated"		"1666478265"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"b1stable/3 Crystals"
+				"pattern"		"scores.txt"
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/b1stable/3 Crystals"
+				"pattern"		"scores.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"b1stable/3 Crystals"
+						"replace"		".config/b1stable/3 Crystals"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataRoaming"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		".config/b1stable/3 Crystals"
+						"replace"		"b1stable/3 Crystals"
+					}
+				}
+			}
+		}
+	}
+}
