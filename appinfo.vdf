@@ -1,0 +1,265 @@
+"appinfo"
+{
+	"appid"		"1459850"
+	"common"
+	{
+		"name"		"Microjob"
+		"type"		"Game"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1459850_eula_0"
+				"name"		"Microjob EULA"
+				"url"		"https://store.steampowered.com//eula/1459850_eula_0"
+				"version"		"1"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"cb9d0586adb462b1044e9485e3b738d7095ea30f"
+		"logo_small"		"cb9d0586adb462b1044e9485e3b738d7095ea30f_thumb"
+		"icon"		"868cd769013a928dac316f748c5d91ecb718daa6"
+		"clienttga"		"5f3c8bb4216b66106bbec9fdb8d9e244ea8b69be"
+		"clienticon"		"f38b8f47debab5ff9362933f682444763021c94d"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"openvr_action_manifest_path"		"Microjob/Config/SteamVRBindings/indexhmd.json"
+		"openvrsupport"		"1"
+		"app_retired_publisher_request"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"12.054544711850866"
+				"height_pct"		"20.440771117247095"
+			}
+		}
+		"store_asset_mtime"		"1607033995"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Murat Aydin"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Murat Aydin"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1608566141"
+		"community_hub_visible"		"1"
+		"gameid"		"1459850"
+		"store_tags"
+		{
+			"0"		"1036"
+			"1"		"15172"
+			"2"		"5350"
+			"3"		"4182"
+			"4"		"4094"
+			"5"		"3964"
+			"6"		"492"
+			"7"		"13782"
+			"8"		"493"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Murat Aydin"
+		"publisher"		"Murat Aydin"
+		"homepage"		"https://www.farkow.com/microjob"
+	}
+	"config"
+	{
+		"installdir"		"Microjob"
+		"steamcontrollertemplateindex"		"6"
+		"steamcontrollertouchtemplateindex"		"9"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Microjob.exe"
+				"arguments"		"-nohmd"
+				"description"		"Default"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Microjob.exe"
+				"arguments"		"-vr"
+				"description"		"Virtual Reality"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,german,french,italian,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,turkish"
+		"1459852"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6205846088310887533"
+					"size"		"1351717129"
+					"download"		"472173184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5998156"
+				"timeupdated"		"1608566091"
+			}
+		}
+	}
+}
