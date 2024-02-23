@@ -1,0 +1,387 @@
+"appinfo"
+{
+	"appid"		"352850"
+	"common"
+	{
+		"name"		"DGU: Death God University"
+		"type"		"Game"
+		"logo"		"aadb46a879cb8b694097fac11c2a4ce544ec494b"
+		"logo_small"		"aadb46a879cb8b694097fac11c2a4ce544ec494b_thumb"
+		"oslist"		"windows"
+		"icon"		"953b66a463ee45350f1add11ba692c797a35690a"
+		"clienticon"		"ffaeed3d11a7b844037aa0cc64468ac8a61c788d"
+		"clienttga"		"ae34fbd2254cf84777269312de9150f3b518be1a"
+		"clienticns"		"c268dfc9953af1dc5df769aaf3e03da02c47e809"
+		"linuxclienticon"		"5e13e7640da4800d5379df7ae81b2061e6b25c7d"
+		"releasestate"		"released"
+		"metacritic_name"		"DGU"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1429269217"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"DSK Studios Pvt. Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"KPL"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1436943600"
+		"steam_release_date"		"1436952918"
+		"community_hub_visible"		"1"
+		"gameid"		"352850"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"21"
+			"3"		"492"
+			"4"		"597"
+			"5"		"5923"
+			"6"		"4136"
+			"7"		"4305"
+		}
+		"review_score"		"5"
+		"review_percentage"		"45"
+	}
+	"extended"
+	{
+		"developer"		"DSK Studios Pvt. Ltd"
+		"publisher"		"KPL"
+		"homepage"		"http://www.dgugame.com"
+		"listofdlc"		"381160,381161,381162"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DGU"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DGU.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DGU.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"DGU/Binaries/Linux/DGU"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"installscriptsignature"		"4055ee54c5ad09d6d051f3b88b60e04e814f52f674be5e33a77de12a8afbe1a012874299bf2cda77c9c635b9f890435f3abd829d9f2f415f5c1952590bfa8e6f3a3a966d2beb3823ac9e8876426a621e178bb1ccb602e35600363976e8bbfb15855d22080aff7a48264318bf7a5ebd5a65ff04238ca3eef2f7fad945594a58a5"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\gig\dgu"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\DGU.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"1"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\352850"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,schinese,russian,japanese,brazilian"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"352851"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6723715670812024333"
+					"size"		"13268480927"
+					"download"		"4047422112"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"developer"
+				{
+					"gid"		"427F70D865C6D60EAAAA7FBAEE34F2FA"
+					"size"		"646677A8EC48C6BA2C68ABBE7238D410"
+					"download"		"00DA21C8990F9BDB8CE7E9679B681FA5"
+				}
+				"developer_linux"
+				{
+					"gid"		"B09AF03662AEAEEEBD2752E952511CC3"
+					"size"		"673CF7E9B5CCAB8895E9C65BC38E2069"
+					"download"		"12B021E2A645189F68F8210B8E28889A"
+				}
+				"developer_mac"
+				{
+					"gid"		"0CBA94F0600BD126C819562115420769"
+					"size"		"E30D1DDE5F723F447E3AD79FC92E5747"
+					"download"		"665B9E47DF9994046FD63FDED2802C6C"
+				}
+			}
+		}
+		"352852"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2619720028501223980"
+					"size"		"15079718726"
+					"download"		"4043578768"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"developer"
+				{
+					"gid"		"C65CBA4D9B27ED9268429162D2988F30"
+					"size"		"37BD5353C3978D0FE707130A8D1F39C6"
+					"download"		"BC5A2FE30ECA15D56236D0CF1335F73B"
+				}
+				"developer_mac"
+				{
+					"gid"		"D7376D2AC0F3C87F810BF2B39831028B"
+					"size"		"E1511E0F78C393EBEC692B42ECF6C97E"
+					"download"		"09BC0C65D7059E9BECE7DE9CAF42F17C"
+				}
+			}
+		}
+		"352853"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"developer_linux"
+				{
+					"gid"		"5DF13E7015C9501DED2B78D2C76F7E98"
+					"size"		"BC4B440D3BA561682896B9488F7FB80F"
+					"download"		"7315CA755ECEB63B4D322603613067A6"
+				}
+			}
+		}
+		"381160"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"381160"
+		}
+		"381161"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"381161"
+		}
+		"381162"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"381162"
+		}
+		"421750"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"421750"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1135612"
+				"timeupdated"		"1463651600"
+			}
+			"developer"
+			{
+				"buildid"		"993466"
+				"pwdrequired"		"1"
+			}
+			"developer_linux"
+			{
+				"buildid"		"807722"
+				"pwdrequired"		"1"
+			}
+			"developer_mac"
+			{
+				"buildid"		"859893"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"102400"
+		"maxnumfiles"		"20"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"DGU/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"DGU/Saved"
+				"pattern"		"inventorysav.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
