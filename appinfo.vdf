@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"1783310"
+	"common"
+	{
+		"name"		"Violation"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"cbfc270b3253983d892f282176c50ba327d78fea"
+		"logo_small"		"cbfc270b3253983d892f282176c50ba327d78fea_thumb"
+		"icon"		"8adf93c887db49d8c56f4f2cd08604ee260182da"
+		"clienttga"		"d04ab3dc32c89c1cacd18421981662b90272bb1c"
+		"clienticon"		"9607d227673c0fccf451920c6c935916f8cf1b77"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"app_retired_publisher_request"		"1"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1634577901"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FiveDead Interactive Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FiveDead Interactive Inc."
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_14"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1639558880"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1783310"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"4106"
+			"2"		"11014"
+			"3"		"5900"
+			"4"		"1664"
+			"5"		"3834"
+			"6"		"4191"
+			"7"		"4342"
+			"8"		"8369"
+			"9"		"3987"
+			"10"		"5716"
+			"11"		"30358"
+			"12"		"1721"
+			"13"		"3978"
+			"14"		"1687"
+			"15"		"4182"
+			"16"		"4667"
+			"17"		"492"
+			"18"		"1667"
+			"19"		"1662"
+		}
+		"review_score"		"4"
+		"review_percentage"		"21"
+	}
+	"extended"
+	{
+		"developer"		"FiveDead Interactive Inc."
+		"publisher"		"FiveDead Interactive Inc."
+		"homepage"		"https://violation.xsollasitebuilder.com/"
+		"listofdlc"		"1871130"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Violation"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Violation.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1783311"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7121687447691534591"
+					"size"		"11447276669"
+					"download"		"3923859168"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7989788"
+				"timeupdated"		"1667333230"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"SteamCloudDocuments"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
