@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"505020"
+	"common"
+	{
+		"name"		"Neon Exile"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"logo"		"af63562d830a85a414a712d2580d7b6b376d065f"
+		"logo_small"		"af63562d830a85a414a712d2580d7b6b376d065f_thumb"
+		"icon"		"bce8b94e9ef1f07ea8a036045d91885af4942f88"
+		"clienticon"		"2d3eee66182863b8f0635ed8a2f549d2f3b12053"
+		"clienttga"		"b34465eb4c48e071b5769515d37d635169d55741"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"osextended"		""
+		"openvrsupport"		"1"
+		"openvr_action_manifest_path"		"UnityClient@Windows_Data//StreamingAssets//SteamVR//actions.json"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Neon Exile"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"62.41875527531525"
+				"height_pct"		"88.97824030274361"
+			}
+		}
+		"store_asset_mtime"		"1569612246"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mythical City Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mythical City Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"29"
+			"3"		"3"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_20"		"1"
+			"category_38"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_9"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1565116004"
+		"community_hub_visible"		"1"
+		"gameid"		"505020"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"19"
+			"2"		"128"
+			"3"		"492"
+			"4"		"493"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Mythical City Games"
+		"publisher"		"Mythical City Games"
+		"homepage"		"http://www.neonexile.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"NeonExile"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"UnityClient@Windows.exe"
+				"arguments"		"+appName neon_exile +assetDatabaseStrategy Streaming +steamClient true"
+				"type"		"vr"
+			}
+			"2"
+			{
+				"executable"		"UnityClient@Windows.exe"
+				"arguments"		"+appName mythicalcitygames +assetDatabaseStrategy Streaming +steamClient true +dev true"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"internal"
+				}
+				"description_loc"
+				{
+					"english"		"Dev Deployment"
+				}
+				"description"		"Dev Deployment"
+			}
+			"3"
+			{
+				"executable"		"UnityClient@Windows.exe"
+				"arguments"		"-vrmode none +appName neon_exile +assetDatabaseStrategy Streaming +steamClient true +dev true"
+				"description"		"Non VR - Dev"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"internal"
+				}
+			}
+			"4"
+			{
+				"executable"		"UnityClient@Windows.exe"
+				"arguments"		"-vrmode none +appName neon_exile +assetDatabaseStrategy Streaming +steamClient true"
+				"description"		"Non VR - Prod"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"internal"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"505021"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3070113158913406271"
+					"size"		"2006859374"
+					"download"		"571179280"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"gid"		"C4CFF2473354492F453B11F867D42204"
+					"size"		"7C2FD656DA39A8DBE531B88BB7BD3A7D"
+					"download"		"6E1F3A51A524CE4CCD1FDC68F294AFBD"
+				}
+				"singleplayer"
+				{
+					"gid"		"7056B7135E8D09372707F33286AD49AD"
+					"size"		"B49F571DB76F4ED5A2282ECB32FD4869"
+					"download"		"977D52BEF60C67F6A17AE8CEA9A7A0A9"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6790905"
+				"timeupdated"		"1622528745"
+			}
+			"internal"
+			{
+				"buildid"		"6790905"
+				"pwdrequired"		"1"
+				"timeupdated"		"1622528737"
+			}
+			"singleplayer"
+			{
+				"buildid"		"1244219"
+				"pwdrequired"		"1"
+				"timeupdated"		"1511293303"
+			}
+		}
+	}
+}
