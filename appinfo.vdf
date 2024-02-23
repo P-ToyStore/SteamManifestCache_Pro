@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"65710"
+	"common"
+	{
+		"name"		"Pat & Mat"
+		"logo"		"46230aad1487be02e765fa5def26ecc0e5e35ced"
+		"logo_small"		"46230aad1487be02e765fa5def26ecc0e5e35ced_thumb"
+		"clienticon"		"f3bf6c8cb0067a95a7f7663002ac0b3fc1534f25"
+		"clienttga"		"9634838d1d56d71e64a4290ab2a33081c77e28b7"
+		"icon"		"b9234b622fd76bc79affa2849e527deae133d854"
+		"app_retired_publisher_request"		"1"
+		"type"		"game"
+		"metacritic_name"		"Pat &amp; Mat"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"72.1028390832501"
+				"height_pct"		"76.72689690618495"
+			}
+		}
+		"store_asset_mtime"		"1582123402"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Centauri Production"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bohemia Interactive"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1254380400"
+		"steam_release_date"		"1288975620"
+		"community_hub_visible"		"1"
+		"gameid"		"65710"
+		"store_tags"
+		{
+			"0"		"4182"
+			"1"		"21"
+			"2"		"1664"
+			"3"		"597"
+			"4"		"5350"
+			"5"		"1719"
+			"6"		"4136"
+			"7"		"3834"
+			"8"		"4305"
+			"9"		"4191"
+			"10"		"7250"
+			"11"		"5179"
+			"12"		"12095"
+			"13"		"7478"
+			"14"		"6650"
+			"15"		"3978"
+			"16"		"4667"
+			"17"		"1742"
+			"18"		"4150"
+			"19"		"9551"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Centauri Production"
+		"developer_url"		"http://www.centauriproduction.com/"
+		"gamedir"		"Pat and Mat"
+		"gamemanualurl"		"http://store.steampowered.com/manual/65710/"
+		"homepage"		"http://www.patmat-game.com/en/"
+		"icon"		""
+		"installscript"		"65710_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"65711"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Bohemia Interactive"
+	}
+	"config"
+	{
+		"installscriptsignature"		"4b8fdfa4264ee4a2b4d9dde9e855c18c446846c691bf2cec64d616457ebc64d36d60655ec9263fb117b0e8c5265dccbb42cd7ee9842effb65818325c3661fa700e587be12bdcf8948771c407088515456abbe1dfc5aa235edfacc5fdbf7873afbeca0aa69a3aad4f223259d4c5b5d292c743894bdda6e5b99f1a735da98a713f"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Pat and Mat"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PATAMAT.exe"
+			}
+			"1"
+			{
+				"description"		"Configure Advanced Options"
+				"executable"		"PATAMAT.exe"
+				"arguments"		"-options"
+			}
+		}
+		"externalregistrationurl"
+		{
+			"english"		"http://www.centauri.cz/patmat.php"
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"description"		"Microsoft DirectX for Windows"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"process 1"		"%INSTALLDIR%\\VCredist\\vcredist_x86.exe"
+				"description"		"Microsoft Visual C++ 2005 SP1 Redistributable Package ATL Security Update"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"physx"
+			{
+				"process 1"		"%INSTALLDIR%\\PhysX\\PhysX_9.09.0203_SystemSoftware.exe"
+				"description"		"NVIDIA PhysX 9.10.0513"
+				"command 1"		"/quiet"
+				"nocleanup"		"1"
+			}
+			"wmfdist"
+			{
+				"process 1"		"%INSTALLDIR%\\WMFdist\\WMFdist95.exe"
+				"description"		"Windows Media Component"
+				"command 1"		" /Q:A"
+				"nocleanup"		"1"
+			}
+			"officialgamegroup"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\65710"
+				"description"		"Official Game Group"
+				"process 1"		"%INSTALLDIR%\\PAM_OGG.cmd"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"1"
+			}
+		}
+		"pat and mat cd key"
+		{
+			"registrypath"		""
+		}
+		"ea oreg"
+		{
+			"string"
+			{
+				"english"
+				{
+					"url"		"http://www.centauri.cz/patmat.php"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"65711"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6759689724190370181"
+					"size"		"352950777"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23948"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+	}
+}
