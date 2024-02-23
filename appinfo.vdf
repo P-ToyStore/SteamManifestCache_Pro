@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"886210"
+	"common"
+	{
+		"name"		"The Disgusting Slaughterman"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"3a44691c1ffc3ad831ea378ff00f27efe819b0af"
+		"logo_small"		"3a44691c1ffc3ad831ea378ff00f27efe819b0af_thumb"
+		"icon"		"e011b3f7e5dd48622ed26d988bb0e8e0b7bf075c"
+		"clienticon"		"6ec8d8a3f8bff940a0ff4f723c7ba3ac79158ce1"
+		"clienttga"		"02f5d727223ca1b9b32427dcbcd97688ca22a3a3"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"2"
+			"2"		"5"
+		}
+		"metacritic_name"		"The Disgusting Slaughterman"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"71.29300118623961"
+				"height_pct"		"51.542261582023"
+			}
+		}
+		"store_asset_mtime"		"1573824439"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"RatByte Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"RatByte Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1576137600"
+		"steam_release_date"		"1576658478"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"886210"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"21"
+			"4"		"493"
+			"5"		"4345"
+			"6"		"4667"
+			"7"		"6650"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"Slaughterman"
+		"serverbrowsername"		"Slaughterman"
+		"developer"		"RatByte Games"
+		"publisher"		"RatByte Games"
+	}
+	"config"
+	{
+		"installdir"		"Slaughterman"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DSM.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"886211"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3694579268967265241"
+					"size"		"1255877645"
+					"download"		"411173792"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4506011"
+				"timeupdated"		"1576661553"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"102400"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Slaughterman/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#statuswithoutscore"		"{#Status%gamestatus%}"
+					"#statuswithscore"		"{#Status%gamestatus%}: %score%"
+					"#status_atmainmenu"		"At the main menu"
+					"#status_waitingformatch"		"Waiting for match"
+					"#status_winning"		"Winning"
+					"#status_losing"		"Losing"
+					"#status_tied"		"Tied"
+					"#status_matchmaking"		"Matchmaking"
+					"#status_lobby"		"{#Lobby%Lobbystatus%}: %player%"
+					"#status_forrest"		"Is in the forrest"
+					"#status_grave"		"At the graveyard"
+					"#status_toxic lakes"		"It must be toxic"
+					"#status_mines"		"Explore the mines"
+					"#status_fishing lakes"		"Looking for fish?"
+					"#status_farm"		"On the farm"
+					"#status_dead lands"		"No water!"
+					"#status_land of gods"		"Hello mummy!"
+					"#status_bunker 51"		"Alien Invasion"
+				}
+			}
+			"german"
+			{
+				"tokens"
+				{
+					"#statuswithoutscore"		"{#Status%gamestatus%}"
+					"#statuswithscore"		"{#Status%gamestatus%}: %score%"
+					"#status_atmainmenu"		"Im Hauptmenü"
+					"#status_waitingformatch"		"Wartet auf ein Spiel"
+					"#status_winning"		"Am Gewinnen "
+					"#status_losing"		"Am Verlieren"
+					"#status_tied"		"Ausgeglichen"
+					"#status_matchmaking"		"Sucht ein Spiel"
+					"#status_lobby"		"{#Lobby%lobbystatus%}: %player%"
+					"#status_mapwithmode"		"{#Map %mode%}: %Gamemode%"
+					"#status_customization"		"Bastelt an sich rum"
+					"#status_l4p"		"Sucht Mitspieler"
+					"#status_forrest"		"Im Wald sucht Pilze"
+					"#status_grave"		"Besucht Oma"
+					"#status_toxic lakes"		"Achtung Giftig!"
+					"#status_mines"		"In den Minen von M.."
+					"#status_fishing lakes"		"Sucht Fische?"
+					"#status_farm"		"Auf der Farm"
+					"#status_dead lands"		"Kein Trinkwasser!"
+					"#status_land of gods"		"Hallo Mumie!"
+					"#status_bunker 51"		"Aliens kommen!"
+				}
+			}
+		}
+	}
+}
