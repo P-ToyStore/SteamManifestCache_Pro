@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"1447420"
+	"common"
+	{
+		"name"		"Burg Battle"
+		"type"		"Game"
+		"icon"		"54fc4d47f8dc2eb08c8ea732e8f1c9e9508eb60a"
+		"logo"		"cd29516691f36a094e9e422b62ac481a7b2e64be"
+		"logo_small"		"cd29516691f36a094e9e422b62ac481a7b2e64be_thumb"
+		"linuxclienticon"		"73343316bf4685dcb033f407798c3a31f176a39d"
+		"clienticns"		"16e2368796c466b5cffe95a5489438be23fc044e"
+		"clienticon"		"d5cbd3cb43f473e3f9d7149591ec01e008b1922a"
+		"clienttga"		"93068559012338badbc70743d90eb29c55ddb226"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"48.604651162790695"
+				"height_pct"		"87.84172875419279"
+			}
+		}
+		"store_asset_mtime"		"1644703592"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ElevenSeventy, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ElevenSeventy, LLC"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_47"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_48"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1616420839"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1447420"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"9"
+			"2"		"1645"
+			"3"		"17305"
+			"4"		"21725"
+			"5"		"4975"
+			"6"		"5851"
+			"7"		"3964"
+			"8"		"4604"
+			"9"		"1684"
+			"10"		"3952"
+			"11"		"4057"
+			"12"		"7432"
+			"13"		"4172"
+			"14"		"1678"
+			"15"		"7332"
+			"16"		"4747"
+			"17"		"3993"
+			"18"		"6730"
+			"19"		"1775"
+		}
+		"review_score"		"7"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"ElevenSeventy, LLC"
+		"publisher"		"ElevenSeventy, LLC"
+		"homepage"		"https://elevenseventy.net/burg-battle"
+	}
+	"config"
+	{
+		"installdir"		"Burg Battle"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BurgBattle.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BurgBattle.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1447421"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"768151268612249285"
+					"size"		"361942538"
+					"download"		"214215104"
+				}
+			}
+		}
+		"1447422"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1038433047153259588"
+					"size"		"396568829"
+					"download"		"227150784"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7940266"
+				"timeupdated"		"1640454409"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacHome"
+				"path"		"/.prefs"
+				"pattern"		"GamePrefs"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"MacHome"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinSavedGames"
+				"addpath"		"../"
+			}
+		}
+	}
+}
