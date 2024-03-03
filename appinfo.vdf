@@ -1,0 +1,434 @@
+"appinfo"
+{
+	"appid"		"454910"
+	"common"
+	{
+		"name"		"Twin Saga"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"454910_eula_1"
+				"name"		"Twin Saga EULA 1"
+				"url"		"http://store.steampowered.com//eula/454910_eula_1"
+			}
+		}
+		"clienticon"		"637d469d3ff8b3c07a1db9edfd5a5e30e3b92002"
+		"clienttga"		"150929fdc521c52b628c615f4a7abe96f711467a"
+		"icon"		"3a63092e5231b2e9cd6be02e3b371a9104f48f27"
+		"logo"		"4aa996d40e2eaf22bd685312b3153a4c35cec287"
+		"logo_small"		"4aa996d40e2eaf22bd685312b3153a4c35cec287_thumb"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"metacritic_name"		"Twin Saga"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,de,fr"
+			"library_hero"		"en,de,fr"
+			"library_logo"		"en,de,fr"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"32.15901745313511"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1576077984"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"X-Legend"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Aeria Games"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"29"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_20"		"1"
+			"category_29"		"1"
+			"category_35"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1491980400"
+		"steam_release_date"		"1504254420"
+		"community_hub_visible"		"1"
+		"gameid"		"454910"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"128"
+			"2"		"4085"
+			"3"		"122"
+			"4"		"1754"
+			"5"		"21"
+			"6"		"1695"
+			"7"		"3859"
+			"8"		"19"
+			"9"		"6650"
+			"10"		"1684"
+			"11"		"4747"
+			"12"		"4726"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"developer"		"X-Legend"
+		"publisher"		"Aeria Games"
+		"homepage"		"http://twinsaga.aeriagames.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TwinSaga"
+		"launch"
+		{
+			"2"
+			{
+				"executable"		"Launcher.exe"
+				"arguments"		"-steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"OAuth2_Login_Steam.bat"
+				"description"		"Test Server"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"Test"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"454911"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5071478004519647036"
+					"size"		"11227632979"
+					"download"		"9489014624"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"F6EA358A5ECEBD6802FCCF5BF2626BF4"
+					"size"		"D773A80939CCDBFC90E8199D3E270B4F"
+					"download"		"1B4FCC8ED876101DB8032CEAFAA665EC"
+				}
+				"staging"
+				{
+					"gid"		"C4831BA381A94FD330B876378A5974DC"
+					"size"		"2F2DB17331F46D4B451837A7FC658FFA"
+					"download"		"605B85699AB72284FAD3017D918C8805"
+				}
+				"test"
+				{
+					"gid"		"5751D4168149C5CFE468C901134C9F9F"
+					"size"		"9CDE8ED4FB032074F1D6445E1A4FC0D0"
+					"download"		"7478F6E27DBE763AF26F36D5F5998520"
+				}
+			}
+		}
+		"454912"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5648638438066337025"
+					"size"		"11003661615"
+					"download"		"9302633264"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"3C2520D01FDFE482D791F3B39BD2DBB8"
+					"size"		"29A1911709CDF47E95B6CE2A0981A39B"
+					"download"		"197FF2448E6E593708EDE39A3090EF1D"
+				}
+				"staging"
+				{
+					"gid"		"7555B8B050391E75A0551766B29A1524"
+					"size"		"EF260B12A2DAF09B9F9898CF110E9DBE"
+					"download"		"4A29AEE779C7031FB975A3214E0DEFB5"
+				}
+				"test"
+				{
+					"gid"		"52F2645928B9C66CE113F34C2D87E910"
+					"size"		"4BBD887CDCF8BD8634570D113E8310BF"
+					"download"		"DA52C5D9B801AEDB4FA355EBAE5F4321"
+				}
+			}
+		}
+		"454913"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7470286520128872807"
+					"size"		"11169626549"
+					"download"		"9495187200"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"B31CFD2DDD50948D989A4615FA94BB3F"
+					"size"		"3D664BECBCBEED9AE7E1778026340E1C"
+					"download"		"8009FE1527A522BAE11A62CE78DCC868"
+				}
+				"staging"
+				{
+					"gid"		"2483E346A14174AAA4DA4CA90FA58387"
+					"size"		"3B76A80160D7E00211C703104D842E84"
+					"download"		"6704DFEEFF9720F68C055556F50138FB"
+				}
+				"test"
+				{
+					"gid"		"BDBE7CE7DC13090B64A47FEFA4A2F97B"
+					"size"		"F9073B0464D1BC4098E32E7FAB14CBCC"
+					"download"		"F56D1EF6814C783968EF1B87FD7CA40D"
+				}
+			}
+		}
+		"454914"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1472797816453675388"
+					"size"		"505122"
+					"download"		"108640"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"4151FA820407FD325DF70FB2D47F7C86"
+					"size"		"5C1D03AD2E7E66E3C87D17223344381D"
+					"download"		"39BEE0E4251DEE3C29D55BD7E8A03819"
+				}
+				"staging"
+				{
+					"gid"		"5D11531A743745B6632812615AB730F7"
+					"size"		"47747E646877F2DE3FCAC9F24F17EF19"
+					"download"		"87D3BBBA296460E7C35CB9D83F05A2FF"
+				}
+				"test"
+				{
+					"gid"		"314E945950ED2A5FAAC15E6886E1B48C"
+					"size"		"28B28BC2FD3D274B3A85236839E392CC"
+					"download"		"620DB986776EC6A70254ED86DC8C138A"
+				}
+			}
+		}
+		"454915"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"8B11CE8B2CB95A24815AF37267E56CD2"
+					"size"		"71A4E181105DE0506DDD7F820AA5304D"
+					"download"		"93719C6414744212B058EAFD00957E04"
+				}
+			}
+		}
+		"454916"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"C22342AB1B84EF767FFD2B7A3A434338"
+					"size"		"B967C735DFC3452FC35A547D5F8749CA"
+					"download"		"D3BDC0B1A4EEC91732404D4FA76BCD64"
+				}
+			}
+		}
+		"454917"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"72F1057B3FFEB2F42BB0829F33C027D4"
+					"size"		"497B0BB5622171225107A66BF8EDE3B1"
+					"download"		"6535CFA69AC751521E352663388B5699"
+				}
+			}
+		}
+		"454918"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"83A90E92B9CB4548554882D841670C5C"
+					"size"		"28B28BC2FD3D274B3A85236839E392CC"
+					"download"		"620DB986776EC6A70254ED86DC8C138A"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3982410"
+				"timeupdated"		"1562250698"
+			}
+			"beta"
+			{
+				"buildid"		"3982410"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562247243"
+			}
+			"staging"
+			{
+				"buildid"		"3982410"
+				"pwdrequired"		"1"
+				"timeupdated"		"1562248154"
+			}
+			"test"
+			{
+				"buildid"		"2103814"
+				"pwdrequired"		"1"
+				"timeupdated"		"1504891423"
+			}
+		}
+	}
+}
