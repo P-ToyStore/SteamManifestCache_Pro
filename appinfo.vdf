@@ -1,0 +1,166 @@
+"appinfo"
+{
+	"appid"		"221360"
+	"common"
+	{
+		"name"		"Wizardry Online"
+		"type"		"Game"
+		"clienticon"		"3ce20f31ccd7fb348db60c6a562b893fa257470d"
+		"clienttga"		"50766c85b549839eaad190487ad999fe4e2846d6"
+		"icon"		"d0e3b2b70dfae51e1d5eec12b05dbface25e8ce1"
+		"logo"		"eab5ddd886aedad49e58d50a9f74a4154b11e1b0"
+		"logo_small"		"eab5ddd886aedad49e58d50a9f74a4154b11e1b0_thumb"
+		"oslist"		"windows"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"metacritic_name"		"Wizardry Online"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1367413903"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gamepot Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sony Online Entertainment"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"29"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1359568800"
+		"metacritic_score"		"59"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/wizardry-online?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"221360"
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"Gamepot Inc"
+		"gamedir"		"ValveTestApp221360"
+		"homepage"		"http://www.wizardrythegame.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Sony Online Entertainment"
+		"listofdlc"		"229771"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Wizardry Online"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LaunchPad.exe"
+				"arguments"		"Updates:enable=0 Updates:PatchSelf=1 campaignID=1063252 promoID=145 launchPoint=steam launchArgs=-STEAM_ENABLED"
+				"description"		"Launchpad"
+			}
+		}
+		"installscriptsignature"		"4d4ce75bda9476e5db29c3b8d8046c4f6e14923c7d9e216bb96249f5787c550df83fdd4011baf96883c87286e6c108879734bf3a9fcd493cd1129b16313c8d52ac14417cdb5d03716db9a9ad214e2cb8a477a6be2fc6573703e069321131ff074b91d0afc2fd0ca649dab45eddb643cf4fc5e5d12c1338d2124cc597a399bbed"
+		"installscriptoverride"		"1"
+		"noupdatesafterinstall"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"dxsetup"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\221360"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"fixtimestamp"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\221360"
+				"process 1"		"%INSTALLDIR%\\FixTimestamps.exe"
+				"command 1"		"fix.soe"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"221361"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403209264895229719"
+					"size"		"4458579107"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"qa"
+				{
+					"gid"		"C6E03C8105C18D5B6D7EBC267662AE5D"
+					"size"		"D8418152ED202C7F802FE4AF79229DEB"
+					"download"		"87F213E60AE351021FE5BDC8D1E00A76"
+				}
+				"stage"
+				{
+					"gid"		"06812B1A92E0E9755E0771F879712102"
+					"size"		"40DD7778AC87E771743D20631BEE95B7"
+					"download"		"A6DD2F63523C9B4AC6AF59E864E782E6"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"69855"
+			}
+			"qa"
+			{
+				"buildid"		"70270"
+				"pwdrequired"		"1"
+			}
+			"stage"
+			{
+				"buildid"		"70279"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
