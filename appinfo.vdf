@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"1401530"
+	"common"
+	{
+		"name"		"Project Existence - Multiplayer Sandbox"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"e2aa70a2b671da5dd4e6c9f50b4b4148dde8fe89"
+		"logo_small"		"e2aa70a2b671da5dd4e6c9f50b4b4148dde8fe89_thumb"
+		"clienticon"		"b35e8605a84fbcabe35b529d3f4dd5201d13a050"
+		"clienttga"		"14e13db8b7815624dc6915dfafea4b36349966c0"
+		"icon"		"8d608474792af80adda5e54418d552a967ce6d6f"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"78.28733640639697"
+				"height_pct"		"56.68954919010143"
+			}
+		}
+		"store_asset_mtime"		"1680608667"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Arctic Theory"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Arctic Theory"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"37"
+			"2"		"23"
+			"3"		"29"
+			"4"		"28"
+			"5"		"2"
+			"6"		"70"
+		}
+		"category"
+		{
+			"category_20"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1604059327"
+		"community_hub_visible"		"1"
+		"gameid"		"1401530"
+		"store_tags"
+		{
+			"0"		"255534"
+			"1"		"1702"
+			"2"		"10235"
+			"3"		"7332"
+			"4"		"3810"
+			"5"		"8945"
+			"6"		"1643"
+			"7"		"12472"
+			"8"		"87918"
+			"9"		"22602"
+			"10"		"599"
+			"11"		"597"
+			"12"		"3834"
+			"13"		"4136"
+			"14"		"4695"
+			"15"		"128"
+			"16"		"9"
+			"17"		"4191"
+			"18"		"1697"
+			"19"		"3859"
+		}
+		"review_score"		"5"
+		"review_percentage"		"52"
+	}
+	"extended"
+	{
+		"developer"		"Arctic Theory"
+		"publisher"		"Arctic Theory"
+		"homepage"		"https://www.arctictheory.com"
+	}
+	"config"
+	{
+		"installdir"		"Project Existence"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ProjectDawnPreview.exe"
+				"arguments"		"-kamotenant=live"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"ProjectDawnPreview.exe"
+				"arguments"		"-Log -kamotenant=staging"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"staging"
+				}
+				"description_loc"
+				{
+					"english"		"on STAGING server"
+				}
+				"description"		"on STAGING server"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"hasdepotsindlc"		"0"
+		"baselanguages"		"english"
+		"1401531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1341073415523088864"
+					"size"		"5470165898"
+					"download"		"5085604000"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"3216A2A6D58E33B9FD7A3D09D578D5CA"
+					"size"		"4C42D47B385E91C7F87141A745B72753"
+					"download"		"F569C58D19FE52EA4B547D238AF9D37A"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11137995"
+				"timeupdated"		"1683036006"
+			}
+			"staging"
+			{
+				"buildid"		"11448276"
+				"pwdrequired"		"1"
+				"timeupdated"		"1686568270"
+			}
+		}
+	}
+}
