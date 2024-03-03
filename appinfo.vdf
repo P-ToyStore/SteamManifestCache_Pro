@@ -1,0 +1,358 @@
+"appinfo"
+{
+	"appid"		"1436900"
+	"common"
+	{
+		"name"		"Sabotaj"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"681c5b02a0f64072c89ffa0aabf876dd47f6e6a0"
+		"clienticon"		"1c4bd6c781d11370f0cc6fc098e9951db127bc79"
+		"icon"		"01926fb6672c127e5475bff457206941eac38650"
+		"logo"		"cd6c058b046dd4dd51a535534de0e678fe48f726"
+		"logo_small"		"cd6c058b046dd4dd51a535534de0e678fe48f726_thumb"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"turkish"		"1"
+		}
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"small_capsule"
+		{
+			"turkish"		"capsule_231x87_turkish.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"turkish"		"header_turkish.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"tr,en"
+			"library_hero"		"tr,en"
+			"library_logo"		"tr,en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1626349026"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"HES Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TYPER Games"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"29"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_36"		"1"
+			"category_49"		"1"
+			"category_35"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"turkish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1608883200"
+		"steam_release_date"		"1608890425"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1436900"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1774"
+			"2"		"5055"
+			"3"		"1663"
+			"4"		"4684"
+			"5"		"3839"
+			"6"		"5547"
+			"7"		"4175"
+			"8"		"4168"
+			"9"		"1662"
+			"10"		"1678"
+			"11"		"1708"
+			"12"		"1775"
+			"13"		"3968"
+			"14"		"5765"
+			"15"		"128"
+			"16"		"113"
+			"17"		"3859"
+			"18"		"5711"
+		}
+		"review_score"		"5"
+		"review_percentage"		"61"
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=1436900"
+		"gamedir"		"Sabotaj"
+		"serverbrowsername"		"Sabotaj"
+		"developer"		"HES Games"
+		"publisher"		"TYPER Games"
+		"homepage"		"https://en.idcgames.com/sabotaj/"
+	}
+	"config"
+	{
+		"installdir"		"Sabotaj"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Sabotaj.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		" (DirectX)"
+				}
+				"description"		" (DirectX)"
+			}
+			"1"
+			{
+				"executable"		"Sabotaj.exe"
+				"arguments"		"-FeatureLevelES31"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"(OpenGL)"
+				}
+				"description"		"(OpenGL)"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,portuguese,polish,norwegian,swedish,turkish,latam"
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1436901"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2793359082007685931"
+					"size"		"13371539143"
+					"download"		"11479773792"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"anzu"
+				{
+					"gid"		"560D0175F10268B799C0AA84AE978396"
+					"size"		"D897134D539CCF4301FCAF4FA1FDD4E3"
+					"download"		"22BADB125F7CA350C67E00F2D20E32D3"
+				}
+				"inhouse"
+				{
+					"gid"		"615B91ACDE3772BA674BD77AEEBA8560"
+					"size"		"546B9F8C3D104B174E23FCF862CC4487"
+					"download"		"845FD2A1C35B969976F87F17D4F3B2ED"
+				}
+				"tester"
+				{
+					"gid"		"AF755E567D0009C1CDD4DEEFEEB21DC6"
+					"size"		"C72607A76B2FF596A946F93F2A29172A"
+					"download"		"D8C984C3DFA1E1DC2F06A54404517652"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7034043"
+				"timeupdated"		"1626357115"
+			}
+			"anzu"
+			{
+				"buildid"		"6583204"
+				"pwdrequired"		"1"
+				"timeupdated"		"1619094574"
+			}
+			"inhouse"
+			{
+				"buildid"		"6999340"
+				"pwdrequired"		"1"
+				"timeupdated"		"1625751958"
+			}
+			"tester"
+			{
+				"buildid"		"7203069"
+				"pwdrequired"		"1"
+				"timeupdated"		"1629206973"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sabotaj/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#status_inmenu"		"At the main menu"
+					"#status_innormallobby"		"In the lobby"
+					"#status_inrankedgroupmaking"		"In the ranked lobby"
+					"#status_inrankedqueue"		"In ranked queue"
+					"#status_innormalgame"		"{#Mode_%mode%} - %map%"
+					"#status_inrankedgame"		"Playing ranked {#Mode_%mode%} | %map% | %selfScore% : %opponentScore%"
+					"#mode_ffa"		"FreeForAll"
+					"#mode_teamdeathmatch"		"Team Deathmatch"
+					"#mode_capturetheflag"		"Intelligence"
+					"#mode_elimination"		"Elimination"
+					"#mode_demolition"		"Demolition"
+					"#mode_kingofthehill"		"King Of The Hill"
+				}
+			}
+			"french"
+			{
+			}
+			"turkish"
+			{
+				"tokens"
+				{
+					"#status_inmenu"		"Ana menüde"
+					"#status_innormallobby"		"Lobide"
+					"#status_inrankedgroupmaking"		"Rekabetçi lobide"
+					"#status_inrankedqueue"		"Rekabetçi oyun arıyor"
+					"#status_innormalgame"		"{#Mode_%mode%} - %map%"
+					"#status_inrankedgame"		"Rekabetçi {#Mode_%mode%} - %map% oynuyor | %selfScore% : %opponentScore%"
+					"#mode_ffa"		"Herkes Tek"
+					"#mode_teamdeathmatch"		"Takım Maçı"
+					"#mode_capturetheflag"		"Intelligence"
+					"#mode_elimination"		"Elimination"
+					"#mode_demolition"		"Demolition"
+					"#mode_kingofthehill"		"King Of The Hill"
+				}
+			}
+		}
+	}
+}
