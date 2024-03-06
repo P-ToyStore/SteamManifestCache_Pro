@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"2627050"
+	"common"
+	{
+		"name"		"Project Overnet"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"78e8a4fb4c4a34aaddd2cf408cfae88db98fa33b"
+		"clienttga"		"ca51244b3a9554cdde0bdd867b2845be4dd31f1a"
+		"clienticon"		"21f2ba3adb0df4f34674f6fcc70de4d356843cd7"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1707177600"
+			"tested_build_id"		"12494917"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"31.464530892448522"
+				"height_pct"		"57.978865505061"
+			}
+		}
+		"store_asset_mtime"		"1699025515"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Obitus Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Obitus Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1699036332"
+		"community_hub_visible"		"1"
+		"gameid"		"2627050"
+		"store_tags"
+		{
+			"0"		"9271"
+			"1"		"14139"
+			"2"		"791774"
+			"3"		"9"
+			"4"		"1666"
+			"5"		"1741"
+			"6"		"3871"
+			"7"		"4137"
+			"8"		"4325"
+			"9"		"19"
+			"10"		"6426"
+			"11"		"32322"
+			"12"		"4085"
+			"13"		"1708"
+			"14"		"1755"
+			"15"		"5794"
+			"16"		"5752"
+			"17"		"492"
+			"18"		"4295"
+			"19"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Obitus Games"
+		"publisher"		"Obitus Games"
+		"homepage"		"https://www.obitus.games/"
+	}
+	"config"
+	{
+		"installdir"		"Project_Overnet"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Win64\\Overnet-01.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Mac/Overnet-01.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2627052"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2870623786920092318"
+					"size"		"833868393"
+					"download"		"173817392"
+				}
+			}
+		}
+		"2627051"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8337186770251325458"
+					"size"		"858909499"
+					"download"		"181801664"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12494917"
+				"timeupdated"		"1697819360"
+			}
+		}
+	}
+}
