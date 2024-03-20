@@ -1,0 +1,311 @@
+"appinfo"
+{
+	"appid"		"560380"
+	"common"
+	{
+		"name"		"MapleStory 2"
+		"type"		"Game"
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"560380_eula_1"
+				"name"		"MapleStory 2 EULA 1"
+				"url"		"http://store.steampowered.com//eula/560380_eula_1"
+			}
+		}
+		"logo"		"0855b1850bcfa0a5c625480aebbb7960791b63fc"
+		"logo_small"		"0855b1850bcfa0a5c625480aebbb7960791b63fc_thumb"
+		"icon"		"cb5162531011571b4028a06818a7be9154aa3458"
+		"clienttga"		"c6eae7bfb511e2c796fb314e2dc5ae46bf474eec"
+		"linuxclienticon"		"e8752c8f054c5f6c13238002cc84db706c03dc90"
+		"clienticon"		"2473f9e982f566531fba40cb4af9425442b5fa7b"
+		"oslist"		"windows"
+		"osarch"		""
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1684886400"
+			"tested_build_id"		"4785291"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Retired"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-1"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"MapleStory 2"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"76.65890570430733"
+				"height_pct"		"79.58222222222221"
+			}
+		}
+		"store_asset_mtime"		"1584573469"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nexon Korea Corporation"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nexon America Inc."
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"37"
+			"4"		"29"
+			"5"		"3"
+			"6"		"28"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_20"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_35"		"1"
+			"category_33"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_49"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1538668800"
+		"community_hub_visible"		"1"
+		"gameid"		"560380"
+		"store_tags"
+		{
+			"0"		"128"
+			"1"		"122"
+			"2"		"21"
+			"3"		"1754"
+			"4"		"4085"
+			"5"		"597"
+			"6"		"19"
+			"7"		"4726"
+			"8"		"599"
+			"9"		"4747"
+			"10"		"3859"
+			"11"		"1684"
+			"12"		"1643"
+			"13"		"1695"
+			"14"		"4231"
+			"15"		"4305"
+			"16"		"1685"
+			"17"		"3810"
+			"18"		"1743"
+			"19"		"1721"
+		}
+		"review_score"		"6"
+		"review_percentage"		"74"
+	}
+	"extended"
+	{
+		"developer"		"Nexon Korea Corporation"
+		"publisher"		"Nexon America Inc."
+		"homepage"		"http://maplestory2.nexon.net/"
+		"listofdlc"		"974170"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"MapleStory 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nxsteam\\nxsteam.exe"
+				"arguments"		"\"x64/maplestory2.exe 30000 --nxapp=nxsteam --ticket={gameAuthTicket} --tracking_uid={tracking_uid} --tracking_sessionid={tracking_sessionid} --tracking_serviceid={tracking_serviceid}\" --nx:title=\"MapleStory 2\""
+				"description"		"MapleStory 2 (64 bit)"
+				"type"		"default"
+				"config"
+				{
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"nxsteam\\nxsteam.exe"
+				"arguments"		".\\x64\\maplestory2.exe 30001 --nxapp=nxsteam --ticket={gameAuthTicket} --stage=test01.ms2.ops.nxdc.io --tracking_use=true --tracking_uid={tracking_uid} --tracking_sessionid={tracking_sessionid} --tracking_serviceid={tracking_serviceid}"
+				"description"		"Test1 (x64)"
+				"type"		"option1"
+				"config"
+				{
+					"osarch"		"64"
+					"betakey"		"test1"
+				}
+			}
+			"4"
+			{
+				"executable"		"nxsteam\\nxsteam.exe"
+				"arguments"		".\\x64\\maplestory2.exe 30000 --nxapp=nxsteam --ticket={gameAuthTicket} --stage=34.234.120.156 --tracking_use=true --tracking_uid={tracking_uid} --tracking_sessionid={tracking_sessionid} --tracking_serviceid={tracking_serviceid}"
+				"description"		"Staging (64-bit)"
+				"type"		"option1"
+				"config"
+				{
+					"osarch"		"64"
+					"betakey"		"staging"
+				}
+			}
+			"5"
+			{
+				"executable"		"nxsteam\\nxsteam.exe"
+				"arguments"		".\\maplestory2.exe 30000"
+				"description"		"MapleStory 2 (32-bit)"
+				"type"		"option2"
+				"config"
+				{
+					"betakey"		"staging"
+				}
+			}
+		}
+		"steamcontrollertouchtemplateindex"		"1"
+		"steamcontrollertouchconfigdetails"
+		{
+			"2020449404"
+			{
+				"controller_type"		"controller_mobile_touch"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"560381"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3190888022545443868"
+					"size"		"14064119366"
+					"download"		"11798901280"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"EB2F16E5D2150D0046CBBC1FD789EB8D"
+					"size"		"A7CBC7CD88E9E722FA61A3D931373696"
+					"download"		"DDD6EF3878C9EA64F879D9B6272F7442"
+				}
+				"test1"
+				{
+					"gid"		"7F430E80C92E81F4DB258792FAE0A8FB"
+					"size"		"5359B6CBA36B0AEAE0228FC4A26BE954"
+					"download"		"2BFB4677316DB39350C155E30DAA9EBC"
+				}
+				"test2"
+				{
+					"gid"		"4AB4CD6D9A54ECFDD3301FC142527D35"
+					"size"		"E6ED73379A370329EF0DCD0C2BA4038F"
+					"download"		"363643CA1014D6FC702A58417ADA3823"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4785291"
+				"timeupdated"		"1584543928"
+			}
+			"staging"
+			{
+				"buildid"		"4540680"
+				"pwdrequired"		"1"
+				"timeupdated"		"1578347277"
+			}
+			"test1"
+			{
+				"buildid"		"4785291"
+				"pwdrequired"		"1"
+				"timeupdated"		"1584407020"
+			}
+			"test2"
+			{
+				"buildid"		"3272665"
+				"pwdrequired"		"1"
+				"timeupdated"		"1541202230"
+			}
+		}
+	}
+}
