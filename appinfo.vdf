@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"324390"
+	"common"
+	{
+		"name"		"The Body Changer"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"clienttga"		"ccdceb0aff424836c231a1b75baab54ca82e2304"
+		"clienticon"		"e63bf4480358f2d99ba1c0c5b2e59f103652a105"
+		"icon"		"d64a146a3b8748e531422ca092cb4e60128bd7c6"
+		"logo"		"d954ccecce74e20dab6b5a13aac58c8be4bc4ff6"
+		"logo_small"		"d954ccecce74e20dab6b5a13aac58c8be4bc4ff6_thumb"
+		"linuxclienticon"		"f99f3522dbb131ab57d451fd6d964b3c15511223"
+		"metacritic_name"		"The Body Changer"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1459456779"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TheShortAndTheTall"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TheShortAndTheTall"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"romanian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1444953636"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"324390"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"19"
+			"3"		"1664"
+		}
+		"review_score"		"6"
+		"review_percentage"		"74"
+	}
+	"extended"
+	{
+		"developer"		"TheShortAndTheTall"
+		"publisher"		"TheShortAndTheTall"
+		"homepage"		"http://theshortandthetall.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Body Changer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheBodyChanger.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./TheBodyChanger"
+				"arguments"		" > TheBodyChanger.log 2>&1"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"324391"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2573567568910584817"
+					"size"		"493826933"
+					"download"		"207754880"
+				}
+				"local"
+				{
+					"gid"		"2847564162024455060"
+					"size"		"365697594"
+					"download"		"48115342984"
+				}
+			}
+		}
+		"324392"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8269594728515701727"
+					"size"		"717508903"
+					"download"		"229409856"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"901660"
+			}
+			"local"
+			{
+				"buildid"		"386624"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"/TheShortAndTheTall/TheBodyChanger/"
+				"pattern"		"s.pkl"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		"/TheShortAndTheTall/TheBodyChanger/"
+				"pattern"		"s.pkl"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
