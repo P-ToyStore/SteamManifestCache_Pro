@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"886950"
+	"common"
+	{
+		"name"		"Roman The Worm"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienticon"		"3a37e2c3835c920c5b463d1f3bf0d936aa24bca6"
+		"clienttga"		"26bb5898bd804a93f94a2b6c71543e4729af3e78"
+		"icon"		"d907df1bd5923cfc1ca01b98d259818487728e3e"
+		"clienticns"		"682459928a52a85ff3bc633004e33432154e1526"
+		"linuxclienticon"		"4b967240f0177aaa6c83f5046d6dbea867db8885"
+		"logo"		"f2f528f1c4e77e2d18369a2251408a04a70ce889"
+		"logo_small"		"f2f528f1c4e77e2d18369a2251408a04a70ce889_thumb"
+		"osextended"		""
+		"metacritic_name"		"Roman The Worm"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"48.96707553260171"
+				"height_pct"		"92.01388888888889"
+			}
+		}
+		"store_asset_mtime"		"1667020869"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"RadM"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"RadM"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1531841603"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"886950"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"19"
+			"2"		"21"
+			"3"		"599"
+		}
+		"review_score"		"7"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"RadM"
+		"publisher"		"RadM"
+		"homepage"		"https://mediatale.at"
+	}
+	"config"
+	{
+		"installdir"		"Roman The Worm"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"romantheworm.exe"
+				"description"		"Launch"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"886951"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2837538171493092809"
+					"size"		"176732054"
+					"download"		"88602544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4094028"
+				"timeupdated"		"1565462014"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"MediaTale/RomanTheWorm"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		""
+						"replace"		"unity.MediaTale.RomanTheWorm"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"MediaTale/RomanTheWorm"
+						"replace"		".config/unity3d/MediaTale/RomanTheWorm"
+					}
+				}
+			}
+		}
+	}
+}
