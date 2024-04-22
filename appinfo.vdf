@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"1926870"
+	"common"
+	{
+		"name"		"Gold Wiper"
+		"type"		"Game"
+		"logo"		"8a024d14ae0f64906e1442c0c7083a818f937519"
+		"logo_small"		"8a024d14ae0f64906e1442c0c7083a818f937519_thumb"
+		"icon"		"863842ca117f0ce39ca67e212c5d6834360bcf69"
+		"clienticon"		"0cde884d0f9a5b2c632e46feca91b41eded93502"
+		"clienttga"		"0c8777da361a039ce350f14562544e54ec7cc3d5"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"5"
+			"3"		"4"
+		}
+		"restricted_countries"		"CN,DE"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"39.87327704669883"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1663894328"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Edge Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Edge Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Edge Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1650870162"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1926870"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"12095"
+			"2"		"1773"
+			"3"		"4085"
+			"4"		"9130"
+			"5"		"5379"
+			"6"		"6650"
+			"7"		"4191"
+			"8"		"5673"
+			"9"		"4182"
+			"10"		"7208"
+			"11"		"492"
+			"12"		"4195"
+			"13"		"4726"
+			"14"		"5611"
+		}
+		"review_score"		"5"
+		"review_percentage"		"69"
+	}
+	"extended"
+	{
+		"developer"		"Edge Games"
+		"publisher"		"Edge Games"
+	}
+	"config"
+	{
+		"installdir"		"Gold Wiper"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GoldWiper.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"GoldWiper.exe"
+				"arguments"		"-force-d3d9"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"0xc0000005 Error Issue"
+				}
+				"description"		"0xc0000005 Error Issue"
+			}
+			"2"
+			{
+				"executable"		"GoldWiper.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1926871"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3110634930837478307"
+					"size"		"2525314680"
+					"download"		"789896992"
+				}
+			}
+		}
+		"1926872"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1149228829498536342"
+					"size"		"2543061119"
+					"download"		"797183424"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8707255"
+				"timeupdated"		"1652135503"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Edge Games/Gold Wiper"
+				"pattern"		"*.txt"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Edge Games/Gold Wiper"
+						"replace"		"com.EdgeGames.GoldWiper"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Edge Games/Gold Wiper"
+						"replace"		".config/unity3d/Edge Games/Gold Wiper"
+					}
+				}
+			}
+		}
+	}
+}
