@@ -1,0 +1,421 @@
+"appinfo"
+{
+	"appid"		"854040"
+	"common"
+	{
+		"name"		"DEATHGARDEN - Soft Launch"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"38aee1f4326547077f516853cce645ab48bde0dd"
+		"clienttga"		"f5e0b3251b9ebda9754914f29bf325eb8094034e"
+		"icon"		"8bc88fbcdf7eb694f34e533eeead06ae06cba823"
+		"logo"		"a6db2c89740481fa9e471fbd4492062f02720b28"
+		"logo_small"		"a6db2c89740481fa9e471fbd4492062f02720b28_thumb"
+		"associations"
+		{
+		}
+		"gameid"		"854040"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"installdir"		"DEATHGARDEN - Soft Launch"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-BackendUrl=https://latest.uat.tex.bhvronline.com:443 -CdnClientData=https://client-data.uat.tex.bhvronline.com"
+				"type"		"none"
+			}
+			"2"
+			{
+				"executable"		"Deathgarden.exe"
+				"description"		"No Forced options"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qa_branch,development,playtest-shipping,test-dev,debugcrash,pre-release-dev"
+				}
+			}
+			"31"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-MatchmakingGroup=marketing -BackendUrl=https://latest.uat.tex.bhvronline.com -CdnClientData=https://client-data.uat.tex.bhvronline.com"
+				"description"		"Play for marketing"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"marketing"
+				}
+			}
+			"32"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-BackendUrl=https://latest.uat.tex.bhvronline.com:443 -CdnClientData=https://client-data.uat.tex.bhvronline.com -GameConfig=/Game/Configuration/Config_Dev.Config_Dev "
+				"description"		"Play UAT backend + Dev Config"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qa_branch,development,marketing"
+				}
+			}
+			"45"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-MatchmakingGroup=partner1 -BackendUrl=https://latest.uat.tex.bhvronline.com -CdnClientData=https://client-data.uat.tex.bhvronline.com"
+				"description"		"Play for partner"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"partner1"
+				}
+			}
+			"46"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-BackendUrl=https://latest.uat.tex.bhvronline.com:443 -CdnClientData=https://client-data.uat.tex.bhvronline.com -GameConfig=/Game/Configuration/Config_Dev.Config_Dev -PktLag=0 -PktLagVariance=0"
+				"description"		"PT"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qa_branch"
+				}
+			}
+			"47"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-MatchmakingGroup=trailer -BackendUrl=https://latest.dev.tex.bhvronline.com:443 -CdnClientData=https://client-data.dev.tex.bhvronline.com  -GameConfig=/Game/Configuration/Config_Dev.Config_Dev -CatalogVersionPrefix=0 "
+				"description"		"Trailer"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"trailer,trailer2,trailer3"
+				}
+			}
+			"49"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-MatchmakingGroup=externalqa -BackendUrl=https://latest.uat.tex.bhvronline.com -CdnClientData=https://client-data.uat.tex.bhvronline.com"
+				"description"		"Play for external"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"externalqa"
+				}
+			}
+			"50"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-BackendUrl=https://latest.dev.tex.bhvronline.com:443 -CdnClientData=https://client-data.dev.tex.bhvronline.com  -GameConfig=/Game/Configuration/Config_Dev.Config_Dev -CatalogVersionPrefix=0 "
+				"description"		"Play DEV backend + DevConfig"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"development,qa_branch,pfrenette"
+				}
+			}
+			"51"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-MatchmakingGroup=locqa -BackendUrl=https://latest.uat.tex.bhvronline.com -CdnClientData=https://client-data.uat.tex.bhvronline.com"
+				"description"		"Play for loc QA"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"locqa"
+				}
+			}
+			"52"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-MatchmakingGroup=press -BackendUrl=https://latest.uat.tex.bhvronline.com -CdnClientData=https://client-data.uat.tex.bhvronline.com"
+				"description"		"Play for press"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"press"
+				}
+			}
+			"53"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-stashboardapi=https://stashboard.dev.tex.bhvronline.com -backendurl=https://latest.stage.tex.bhvronline.com"
+				"description"		"Play prerelease"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pre-release-dev"
+				}
+			}
+			"54"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-BackendUrl=https://latest.uat.tex.bhvronline.com:443 -CdnClientData=https://client-data.uat.tex.bhvronline.com -GameConfig=/Game/Configuration/Config_Dev.Config_Dev"
+				"description"		"Backend dev"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"playtest-dev"
+				}
+			}
+			"55"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-BackendUrl=https://latest.uat.tex.bhvronline.com:443 -CdnClientData=https://client-data.uat.tex.bhvronline.com -GameConfig=/Game/Configuration/Config_Dev_2Hunters.Config_Dev_2Hunters "
+				"description"		"Hunters"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"hunters"
+				}
+			}
+			"56"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-BackendUrl=https://latest.uat.tex.bhvronline.com:443 -CdnClientData=https://client-data.uat.tex.bhvronline.com -GameConfig=/Game/Configuration/Config_Dev.Config_Dev -CatalogVersionPrefix=2.7"
+				"description"		"Catalog 2.7 - Veteran"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"playtest-external"
+				}
+			}
+			"57"
+			{
+				"executable"		"Deathgarden.exe"
+				"arguments"		"-BackendUrl=https://latest.uat.tex.bhvronline.com:443 -CdnClientData=https://client-data.uat.tex.bhvronline.com -gameConfig=/Game/Configuration/Config_Dev.Config_Dev"
+				"description"		"Play test community"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"playtest-community"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"854041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"118091263802839096"
+					"size"		"3483535011"
+					"download"		"3353334640"
+				}
+				"local"
+				{
+					"gid"		"8235442713793443004"
+					"size"		"6774644604"
+					"download"		"5878520256"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"dcampbell"
+				{
+					"gid"		"2BE7943044B021F6F7C01681CEDD32A9"
+					"size"		"98BA2550B8ACC16812286257F1B2BD29"
+					"download"		"22FEBFC06F04782361322EFC788DE572"
+				}
+				"debugcrash"
+				{
+					"gid"		"1DF980F4F875760BD200ED14F567BD3A"
+					"size"		"B215B6A450B40D54CFCF2D4A399830ED"
+					"download"		"AD5D726E85C0F68264B24B1B2678F60C"
+				}
+				"default-dev"
+				{
+					"gid"		"25D5DFDEE6798A3DE255B8C58D419511"
+					"size"		"CF0D6F755E63BE84A99426D449D4C78B"
+					"download"		"6A8EE0DB6FFB0EB18718C0FDEBD124BE"
+				}
+				"development"
+				{
+					"gid"		"8BA577BCE72C91A538B9FD25DEFBC5C5"
+					"size"		"A67B868A250C4D6816B8C5E1007C4FC6"
+					"download"		"2762D7E04B00A9D8E18871E0629823D5"
+				}
+				"playtest-community"
+				{
+					"gid"		"E4F8149872454A8B093B152A50FA80E5"
+					"size"		"7D941B8B9DF6D8005942C48290329C15"
+					"download"		"E32991B5D912CA3BBBB87349797A6669"
+				}
+				"playtest-dev"
+				{
+					"gid"		"4E118BF496F327B240E2F416C221C81F"
+					"size"		"F9385BC7C376797B097EE4D09C9E4CFD"
+					"download"		"0ED4E45032DE55BCF4BF223D2B2EB769"
+				}
+				"pre-release-dev"
+				{
+					"gid"		"C4D2A0E65F01320A6B7C7FEDD4951219"
+					"size"		"F393C04ED0F8ED88E411886B2BD1E71C"
+					"download"		"2E437E036176614A86B73ADBA4F2D4E5"
+				}
+				"qa_branch"
+				{
+					"gid"		"556CA31C6BC09DF9F4BA1BA0DEF94876"
+					"size"		"588B43117A9B2DD6C5AB97F830468242"
+					"download"		"24ABD4E2595E3DAF47E7CA4B9D3081A2"
+				}
+				"qa_branch_shpping"
+				{
+					"gid"		"C30E6AC3BEA1895F02EA9C8FF1E41514"
+					"size"		"FA51F5D61C1AC2FF4A69AC21A8263A2A"
+					"download"		"D4580D8F9A462BC6D8091BA5E8F5D710"
+				}
+				"testing-dev-01"
+				{
+					"gid"		"168F5BC1A613EDDF39C80AA7CF2EB90E"
+					"size"		"17F04DBC57C776F306CD7E3A1FA98B8A"
+					"download"		"9F94559B055F4582AA491170F401C1E8"
+				}
+				"trailer2"
+				{
+					"gid"		"FC8127E041852E471231FE21DF955A33"
+					"size"		"55027547D09EEF344965DB7A3E59B3C5"
+					"download"		"23452E0D61CA32B33BCC5581D6BAD6DE"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3028462"
+				"timeupdated"		"1534179509"
+			}
+			"dcampbell"
+			{
+				"buildid"		"4058134"
+				"pwdrequired"		"1"
+				"timeupdated"		"1564598331"
+			}
+			"debugcrash"
+			{
+				"buildid"		"4210603"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568921028"
+			}
+			"default-dev"
+			{
+				"buildid"		"4251951"
+				"pwdrequired"		"1"
+				"timeupdated"		"1570140850"
+			}
+			"development"
+			{
+				"buildid"		"4362132"
+				"pwdrequired"		"1"
+				"timeupdated"		"1573048185"
+			}
+			"local"
+			{
+				"buildid"		"3942074"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1561128967"
+			}
+			"playtest-community"
+			{
+				"buildid"		"4147039"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567025888"
+			}
+			"playtest-dev"
+			{
+				"buildid"		"4236766"
+				"pwdrequired"		"1"
+				"timeupdated"		"1569608764"
+			}
+			"pre-release-dev"
+			{
+				"buildid"		"4417251"
+				"pwdrequired"		"1"
+				"timeupdated"		"1574440421"
+			}
+			"qa_branch"
+			{
+				"buildid"		"4182759"
+				"pwdrequired"		"1"
+				"timeupdated"		"1568136707"
+			}
+			"qa_branch_shpping"
+			{
+				"buildid"		"3906665"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560231821"
+			}
+			"testing-dev-01"
+			{
+				"buildid"		"4066819"
+				"pwdrequired"		"1"
+				"timeupdated"		"1565011267"
+			}
+			"trailer2"
+			{
+				"buildid"		"4147039"
+				"pwdrequired"		"1"
+				"timeupdated"		"1567099905"
+			}
+		}
+	}
+	"localization"
+	{
+		"richpresence"
+		{
+			"english"
+			{
+				"tokens"
+				{
+					"#hunting_lockerroom"		"Hunting in the Locker Room"
+					"#hunting_arena"		"Hunting in the Arena"
+					"#running_lockerroom"		"Running in the Locker Room"
+					"#running_arena"		"Running in the Arena"
+				}
+			}
+			"french"
+			{
+				"tokens"
+				{
+					"#hunting_lockerroom"		"Dans le vestiaire en tant que Chasseur"
+					"#hunting_arena"		"Dans l'arène en tant que Chasseur"
+					"#running_lockerroom"		"Dans le vestiaire en tant que Coureur"
+					"#running_arena"		"Dans l'arène en tant que Coureur"
+				}
+			}
+		}
+	}
+}
