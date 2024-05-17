@@ -1,0 +1,189 @@
+"appinfo"
+{
+	"appid"		"799300"
+	"common"
+	{
+		"name"		"Go Guess"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"9054084e121588811bfe55a40e0b13c3f1859328"
+		"logo_small"		"9054084e121588811bfe55a40e0b13c3f1859328_thumb"
+		"icon"		"f06c40af949ef5c3df865195e7736fd2bded94ef"
+		"clienticon"		"13895bfe2e41b9a4a9086deb759ef70706dbe5de"
+		"clienttga"		"d10283a7fd5f9ba5fc9c55fe03893b46e7fa6a14"
+		"controllervr"
+		{
+			"oculus"		"1"
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"799300_eula_0"
+				"name"		"Go Guess EULA"
+				"url"		"https://store.steampowered.com//eula/799300_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"metacritic_name"		"Go Guess"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1519851541"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Oblix LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Oblix LLC"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"37"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1524812400"
+		"steam_release_date"		"1524865502"
+		"community_hub_visible"		"1"
+		"gameid"		"799300"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"21"
+			"2"		"597"
+			"3"		"599"
+			"4"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Oblix LLC"
+		"publisher"		"Oblix LLC"
+		"homepage"		"https://oblixvr.com/"
+	}
+	"config"
+	{
+		"installdir"		"GoGuess"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GoGuess.exe"
+				"arguments"		"-steam_rift"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"GoGuess.exe"
+				"arguments"		"-steam_vive"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"799301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6706054580433167336"
+					"size"		"591937308"
+					"download"		"170335472"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"oblix_qa"
+				{
+					"gid"		"1E3C8268AF0902B7711991ED20044825"
+					"size"		"BFE3B2DB75210F60BD090D21748A4705"
+					"download"		"E10DE2D9B811A7784F12AA7AD8EB640B"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3290621"
+				"timeupdated"		"1541716118"
+			}
+			"oblix_qa"
+			{
+				"buildid"		"3290621"
+				"pwdrequired"		"1"
+				"timeupdated"		"1541715720"
+			}
+		}
+	}
+}
