@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"1227800"
+	"common"
+	{
+		"name"		"Quantum League - Open Beta"
+		"type"		"Game"
+		"logo"		"43d5d0cd04c9ff0b4fa36e53a81df64866f083bc"
+		"logo_small"		"43d5d0cd04c9ff0b4fa36e53a81df64866f083bc_thumb"
+		"icon"		"aa73b9eaa09fc62b279fa2ea547e0562d1586d6f"
+		"clienticon"		"9851a4b2033a8df1eda793d91ef9661bcac8b0fa"
+		"clienttga"		"cad139a2baa1755880dff50ed94078b530570049"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Quantum League - Open Beta"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"43.069306930693074"
+				"height_pct"		"79.86111111111111"
+			}
+		}
+		"store_asset_mtime"		"1583172497"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nimble Giant Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nimble Giant Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"18"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1582288262"
+		"community_hub_visible"		"1"
+		"gameid"		"1227800"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"19"
+			"2"		"9"
+			"3"		"701"
+			"4"		"1663"
+			"5"		"1774"
+			"6"		"10679"
+			"7"		"3859"
+			"8"		"5547"
+			"9"		"1708"
+			"10"		"492"
+			"11"		"3839"
+			"12"		"5055"
+			"13"		"3878"
+			"14"		"5796"
+			"15"		"1775"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=651150"
+		"developer"		"Nimble Giant Entertainment"
+		"publisher"		"Nimble Giant Entertainment"
+		"homepage"		"http://www.quantum-league.com"
+	}
+	"config"
+	{
+		"installdir"		"QLBeta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch_Game.exe"
+				"arguments"		"-BackendURL=https://backend.quantum-league.com"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Launch_Game.exe"
+				"arguments"		"-release -BackendURL=https://backend.timewatchgame.com"
+				"description"		"testing backend"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"staging"
+				}
+			}
+			"2"
+			{
+				"executable"		"Launch_Game.exe"
+				"arguments"		"-release -BackendURL=https://backend.timewatchgame.com"
+				"description"		"staging backend"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"staging"
+				}
+			}
+			"3"
+			{
+				"executable"		"Launch_Game.exe"
+				"arguments"		"-release -BackendURL=https://backend.quantum-league.com"
+				"description"		"production backend"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"staging"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1227801"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1272308801619513090"
+					"size"		"13926182965"
+					"download"		"3262539168"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"C43A270D4DD0BE1C8764DC8B249D760B"
+					"size"		"9BA2CA50A3165B36B2E82BC7D3FFDF25"
+					"download"		"7E9599F3EE2B5C429E7C84CA74C06221"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4727554"
+				"timeupdated"		"1582920962"
+			}
+			"staging"
+			{
+				"buildid"		"5049925"
+				"pwdrequired"		"1"
+				"timeupdated"		"1589911532"
+			}
+		}
+	}
+}
