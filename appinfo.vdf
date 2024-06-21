@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"1887000"
+	"common"
+	{
+		"name"		"Gorilla Soccer"
+		"type"		"Game"
+		"openxrsupport"		"1"
+		"controllervr"
+		{
+			"oculus"		"1"
+			"xinput"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"360_required"		"1"
+				"width"		"2"
+				"depth"		"1.5"
+			}
+		}
+		"icon"		"53b517e4383ef40e6afe5ad0107d736e5a741657"
+		"clienticon"		"0beb1a9c8511bdd1a2c6cd8f3c08101b4ba93eae"
+		"clienttga"		"59b2b458e1185c53a794b5bd3428cea225cc34d2"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"26.69683257918551"
+				"height_pct"		"33.26878452126559"
+			}
+		}
+		"store_asset_mtime"		"1667370572"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fengu Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fengu Studio"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"28"
+			"3"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1660398120"
+		"community_hub_visible"		"1"
+		"gameid"		"1887000"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"19"
+			"2"		"1254546"
+			"3"		"21978"
+			"4"		"8666"
+			"5"		"1775"
+			"6"		"9204"
+			"7"		"4106"
+			"8"		"3839"
+			"9"		"1718"
+			"10"		"597"
+			"11"		"5395"
+			"12"		"599"
+			"13"		"6506"
+			"14"		"3859"
+			"15"		"7926"
+			"16"		"4182"
+			"17"		"4835"
+		}
+		"review_score"		"6"
+		"review_percentage"		"74"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Fengu Studio"
+		"publisher"		"Fengu Studio"
+		"listofdlc"		"2107790"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Gorilla Soccer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Gorilla Soccer.exe"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1887001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1761138700451510989"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"F716DC7BAF68760141A70B6BA18408DC"
+					"size"		"98F84667A4694188B494058256492BEB"
+					"download"		"A7059CD2B5498EFB0A906A3D2C79F8CD"
+				}
+			}
+		}
+		"2107790"
+		{
+			"dlcappid"		"2107790"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7708135371262792307"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"9F305A15967262A9159505C74C2AF9DB"
+					"size"		"B2FD3A20F83C6DA94384E22A5BB4F3AC"
+					"download"		"B2FD3A20F83C6DA94384E22A5BB4F3AC"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14262822"
+				"timeupdated"		"1714796289"
+			}
+			"test"
+			{
+				"buildid"		"9945529"
+				"pwdrequired"		"1"
+				"timeupdated"		"1668555633"
+			}
+		}
+	}
+}
