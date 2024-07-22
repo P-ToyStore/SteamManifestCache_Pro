@@ -1,0 +1,383 @@
+"appinfo"
+{
+	"appid"		"624550"
+	"common"
+	{
+		"name"		"Spiritual Warfare & Wisdom Tree Collection"
+		"type"		"Game"
+		"clienticon"		"6fc2421c5c21cb7e55d9a10a0fc10f2776a2c3b6"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"icon"		"aff54b860d6eda71e699a5fda8fb88312d57127d"
+		"logo"		"5ac41641ba51e2a057b32df33d2b0f094ce03bf1"
+		"logo_small"		"5ac41641ba51e2a057b32df33d2b0f094ce03bf1_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1700870400"
+			"tested_build_id"		"1783977"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"metacritic_name"		"Spiritual Warfare &amp;amp; Wisdom Tree Collection"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1492009341"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Wisdom Tree"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Piko Interactive LLC"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Bleem!"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1493128898"
+		"community_hub_visible"		"1"
+		"gameid"		"624550"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"122"
+			"2"		"19"
+			"3"		"4004"
+			"4"		"3871"
+			"5"		"3964"
+			"6"		"180368"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Wisdom Tree"
+		"publisher"		"Piko Interactive LLC"
+		"homepage"		"http://wisdomtreegames.com"
+	}
+	"config"
+	{
+		"installdir"		"Spiritual Warfare & Wisdom Tree Collection"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox"
+				"arguments"		"-conf ../Conf/spirit.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Spiritual Warfare"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox"
+				"arguments"		"-conf ../Conf/bibleunix.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Bible Adventures"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox"
+				"arguments"		"-conf ../Conf/exodus.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Exodus: Journey to the Promised Land"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox"
+				"arguments"		"-conf ../Conf/joshua.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Joshua & The Battle of Jericho"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox.exe"
+				"arguments"		"-conf ../Conf/spirit.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Spiritual Warfare"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox.exe"
+				"arguments"		"-conf ../Conf/bible.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Bible Adventures"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox.exe"
+				"arguments"		"-conf ../Conf/exodus.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Exodus: Journey to the Promised Land"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"7"
+			{
+				"executable"		"dosbox.exe"
+				"arguments"		"-conf ../Conf/joshua.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Joshua & The Battle of Jericho"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"8"
+			{
+				"executable"		"DOSBox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf ../Conf/spirit.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Spiritual Warfare"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"9"
+			{
+				"executable"		"DOSBox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf ../Conf/bibleunix.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Bible Adventures"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"10"
+			{
+				"executable"		"DOSBox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf ../Conf/exodus.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Exodus: Journey to the Promised Land"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"11"
+			{
+				"executable"		"DOSBox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf ../Conf/joshua.cfg -noconsole"
+				"workingdir"		"DOS"
+				"description"		"Play Joshua & The Battle of Jericho"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"624551"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7866471877078564735"
+					"size"		"3435737"
+					"download"		"2076144"
+				}
+			}
+		}
+		"624552"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2601555458220031487"
+					"size"		"2401156"
+					"download"		"626256"
+				}
+			}
+		}
+		"624553"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8910426300283554305"
+					"size"		"2480136"
+					"download"		"706752"
+				}
+			}
+		}
+		"624554"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8244878712238316626"
+					"size"		"2764988"
+					"download"		"932240"
+				}
+			}
+		}
+		"624555"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1721503529659254604"
+					"size"		"3028157"
+					"download"		"852736"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1783977"
+				"timeupdated"		"1493265917"
+			}
+		}
+	}
+}
