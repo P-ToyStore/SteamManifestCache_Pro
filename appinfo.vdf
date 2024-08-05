@@ -1,0 +1,218 @@
+"appinfo"
+{
+	"appid"		"2497200"
+	"common"
+	{
+		"name"		"Healer"
+		"type"		"Game"
+		"name_localized"
+		{
+			"schinese"		"治愈者"
+			"japanese"		"ヒーラー"
+			"german"		"Heiler"
+			"tchinese"		"治癒者"
+			"english"		"Healer"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"3f692b61aafc85219f62d2ab87816f375681ae79"
+		"clienticon"		"dc2d9322f6ff93f61cdbec0f118d1b73379a0b63"
+		"icon"		"ddc77bc2df6348e9d952e42e030425f372baadc1"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"tchinese"		"capsule_231x87_tchinese.jpg"
+			"german"		"capsule_231x87_german.jpg"
+		}
+		"header_image"
+		{
+			"japanese"		"header_japanese.jpg"
+			"tchinese"		"header_tchinese.jpg"
+			"schinese"		"header_schinese.jpg"
+			"german"		"header_german.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"ja,zh-cn,zh-tw,de,en"
+			"library_hero"		"en"
+			"library_logo"		"zh-tw,en,zh-cn,de,ja"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"53.733955659276546"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1699612020"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FIY Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BD Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"BD Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1699513154"
+		"community_hub_visible"		"1"
+		"gameid"		"2497200"
+		"store_tags"
+		{
+			"0"		"42804"
+			"1"		"1720"
+			"2"		"3959"
+			"3"		"3871"
+			"4"		"19"
+			"5"		"4252"
+			"6"		"4182"
+			"7"		"492"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"developer"		"FIY Studio"
+		"publisher"		"BD Games"
+	}
+	"config"
+	{
+		"installdir"		"Healer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Healer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2497201"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7036363985444213760"
+					"size"		"919550157"
+					"download"		"213444256"
+				}
+			}
+		}
+		"baselanguages"		"english,german,schinese,tchinese,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12442267"
+				"timeupdated"		"1697305094"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"100"
+		"sync_while_suspended"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Healer_Data/StreamingAssets/GameData"
+				"pattern"		"*.Json"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
