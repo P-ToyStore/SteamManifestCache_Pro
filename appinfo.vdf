@@ -1,0 +1,351 @@
+"appinfo"
+{
+	"appid"		"370270"
+	"common"
+	{
+		"name"		"Jim Power -The Lost Dimension "
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"e4bcc9dddb30325af7af1c03647c730848d2079a"
+		"logo_small"		"e4bcc9dddb30325af7af1c03647c730848d2079a_thumb"
+		"icon"		"076e4ded14c851cddb14ff0ce442322ff5da404c"
+		"clienttga"		"c9851d4ee8a048d2b4d7d84a4ef28e5619ff499a"
+		"clienticon"		"07bce1714d39865c736e71a125081fe758df2315"
+		"clienticns"		"07bce1714d39865c736e71a125081fe758df2315"
+		"linuxclienticon"		"07bce1714d39865c736e71a125081fe758df2315"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1659571200"
+			"tested_build_id"		"370270"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"metacritic_name"		"Jim Power -The Lost Dimension"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1441912015"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Digital Concepts"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Piko Interactive LLC"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Bleem!"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"755510400"
+		"steam_release_date"		"1443656388"
+		"community_hub_visible"		"1"
+		"gameid"		"370270"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1625"
+			"3"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Digital Concepts"
+		"publisher"		"Piko Interactive LLC"
+		"homepage"		"http://pikointeractive.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Jim Power Lost Dimension"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox.exe"
+				"arguments"		"-conf JimPower.conf -noconsole -c"
+				"description"		"Launch DOS"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"snes_jim_power/jim power.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch SNES"
+				}
+				"description"		"Launch SNES"
+			}
+			"3"
+			{
+				"executable"		"dosbox"
+				"arguments"		"-conf JimPower.conf -noconsole -c"
+				"description"		"Launch DOS"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"DOSBox.app/Contents/MacOS/dosbox"
+				"arguments"		"-conf JimPower.conf -noconsole -c"
+				"description"		"Launch DOS"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"nes_jim_power/jim power.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch NES"
+				}
+				"description"		"Launch NES"
+			}
+			"6"
+			{
+				"executable"		"smd_jim_power/jim power.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Genesis"
+				}
+				"description"		"Launch Genesis"
+			}
+		}
+	}
+	"depots"
+	{
+		"370271"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8343906451751403700"
+					"size"		"48643382"
+					"download"		"15364608"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"gid"		"8CA6EAC4BBD69782BB72AAC58EA60305"
+					"size"		"4BE6A31D23151BCD356995908D7340FE"
+					"download"		"D1A5393B657CDDFEEE2FCE9D557749AA"
+				}
+			}
+		}
+		"370272"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"579941539601078610"
+					"size"		"9856234"
+					"download"		"2935440"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"gid"		"4C85C68896C31CF18C90223AFFFF41F6"
+					"size"		"B638D688FCF66B581BEFC4E9D96DBA61"
+					"download"		"CCEB1E4D6241C0BFDDA8DAE217A3BC45"
+				}
+			}
+		}
+		"370273"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6872021824689576780"
+					"size"		"2401156"
+					"download"		"626256"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"gid"		"F5DDFBA1E0C5413AB5BCA591A2491036"
+					"size"		"CAE71020BB387961FC1487B9BE5F8337"
+					"download"		"39C365FFE8CC31F2388097400FBDD0A1"
+				}
+			}
+		}
+		"370274"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4550307122842339418"
+					"size"		"2480136"
+					"download"		"706752"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"gid"		"899F7D41DEAC30D15EE090F5C027FC34"
+					"size"		"96ED26B3880D420324F0479382B917E7"
+					"download"		"3E538722CC1BAF3629726393FA3D4BF4"
+				}
+			}
+		}
+		"370275"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5074115697853029836"
+					"size"		"4940463"
+					"download"		"1277536"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"testing"
+				{
+					"gid"		"A44EA3D7D53A9392D7743D5C8513FA3A"
+					"size"		"FD40B6BCAAF823C56FD2DBA7C59A5652"
+					"download"		"08ACD2C555916305936D9C71977BC154"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8161094"
+				"timeupdated"		"1644271229"
+			}
+			"testing"
+			{
+				"buildid"		"867928"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
