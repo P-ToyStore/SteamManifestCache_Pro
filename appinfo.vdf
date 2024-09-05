@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"750400"
+	"common"
+	{
+		"name"		"Two Inns at Miller's Hollow"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"928c689b57aa3be0005cfb325406369d47346e8b"
+		"logo_small"		"928c689b57aa3be0005cfb325406369d47346e8b_thumb"
+		"clienticon"		"3ead7cf4242fd5d00d3e7bc2b651b3bf6f041702"
+		"clienttga"		"276ee7234c61c8b88241da4d14f873b3c85a2ce7"
+		"icon"		"8685cf5c4c7eabd4366baf3dc3e6ffc50f6e3db7"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"750400_eula_0"
+				"name"		"Two Inns at Miller's Hollow EULA"
+				"url"		"https://store.steampowered.com//eula/750400_eula_0"
+				"version"		"1"
+			}
+		}
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1686700800"
+			"tested_build_id"		"5512490"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-2"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Two Inns at Miller's Hollow"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1524956470"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"enBask Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"enBask Studios"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_15"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1526680800"
+		"community_hub_visible"		"1"
+		"gameid"		"750400"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"122"
+			"2"		"492"
+			"3"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"enBask Studios"
+		"publisher"		"enBask Studios"
+	}
+	"config"
+	{
+		"installdir"		"Two Inns at Miller's Hollow"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TwoInns.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"TwoInns"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"TwoInns.app\\Contents\\MacOS\\TwoInns"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"750401"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8430256969723538972"
+					"size"		"120185357"
+					"download"		"83623312"
+				}
+			}
+		}
+		"750402"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3839419331593135557"
+					"size"		"127389302"
+					"download"		"86271776"
+				}
+			}
+		}
+		"750403"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"776786335711665889"
+					"size"		"130011499"
+					"download"		"86089776"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5512490"
+				"timeupdated"		"1599493035"
+			}
+		}
+	}
+}
