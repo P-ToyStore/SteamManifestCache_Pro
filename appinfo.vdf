@@ -1,0 +1,540 @@
+"appinfo"
+{
+	"appid"		"653120"
+	"common"
+	{
+		"name"		"RockShot"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"polish"		"1"
+			"turkish"		"1"
+		}
+		"logo"		"12b4642fb457a7769e51e3538765debe2670a7b8"
+		"logo_small"		"12b4642fb457a7769e51e3538765debe2670a7b8_thumb"
+		"icon"		"60713e07c7d027ed37b3dbea3d955b326a2c76ea"
+		"clienticon"		"ca018befba82054418f5d85d3c32b1111815de7c"
+		"clienttga"		"464e65148d8d79e0cb6a74c6cc20a26d52ce542d"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"metacritic_name"		"RockShot"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1531729764"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Soleil Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Soleil Ltd."
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"29"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_35"		"1"
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_9"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1528099260"
+		"community_hub_visible"		"1"
+		"gameid"		"653120"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"19"
+			"2"		"128"
+			"3"		"4345"
+			"4"		"1663"
+			"5"		"4667"
+			"6"		"493"
+			"7"		"1774"
+			"8"		"3814"
+			"9"		"1775"
+			"10"		"6730"
+			"11"		"1685"
+			"12"		"3859"
+		}
+		"review_score"		"5"
+		"review_percentage"		"46"
+	}
+	"extended"
+	{
+		"developer"		"Soleil Ltd."
+		"publisher"		"Soleil Ltd."
+		"homepage"		"http://rockshot.gameforge.com/"
+	}
+	"config"
+	{
+		"installdir"		"Rockshot"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher.exe"
+				"arguments"		"-D3Social.Protocol=https://  -D3Social.Domain=api.rockshot.gameforge.com  -D3Social.Domain2=api-na.rockshot.gameforge.com  -D3Social.MatchingDomain=match.rockshot.gameforge.com -D3Social.MatchingDomain2=match-na.rockshot.gameforge.com   -D3WebSocket.OverrideURL=://conn.rockshot.gameforge.com  -D3WebSocket.OverrideURL2=://conn-na.rockshot.gameforge.com -D3Social.DownloadFullURL=\"http://dl.rockshot.gameforge.com/rockshot/masterdata/LIVE/master/eu\"  -D3Social.DownloadFullURL2=\"http://dl.rockshot.gameforge.com/rockshot/masterdata/LIVE/master/na\" -D3WebSocket.OverridePort=443  -D3WebSocket.OverrideSSL=true  -D3Social.BaseURL=  -D3Social.BaseAPIURL=/api  -D3Social.MatchingURL=/api  -D3Social.DownloadURL=/download  -ServerRegion2=\"ai,ag,aw,bs,bb,bz,bm,bq,vg,ca,fr-cp,ky,cr,cu,cw,dm,do,sv,gd,gl,gp,gt,ht,hn,jm,mq,mx,ms,um,ni,pa,pr,bq,bl,mf,kn,lc,pm,vc,bq,sx,tt,tc,us,vi\" -CheckClientVersion=1720455855"
+				"description"		"Live"
+				"type"		"default"
+			}
+			"2"
+			{
+				"executable"		"Launcher.exe"
+				"arguments"		"-D3Social.Protocol=https://   -D3Social.Domain=api-qa1-1.dto.gfsrv.net   -D3Social.MatchingDomain=match-qa1-1.dto.gfsrv.net   -D3WebSocket.OverrideURL=://conn-qa1-1.dto.gfsrv.net   -D3WebSocket.OverridePort=8081   -D3WebSocket.OverrideSSL=true    -D3Social.BaseURL=   -D3Social.BaseAPIURL=/api   -D3Social.MatchingURL=/api   -D3Social.DownloadURL=/download -CheckClientVersion=1720345507"
+				"description"		"Testserver 1"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qa-1"
+				}
+			}
+			"3"
+			{
+				"executable"		"Launcher.exe"
+				"arguments"		"-D3Social.Protocol=https://  -D3Social.Domain=api-qa2-1.dto.gfsrv.net  -D3Social.MatchingDomain=match-qa2-1.dto.gfsrv.net  -D3WebSocket.OverrideURL=://conn-qa2-1.dto.gfsrv.net  -D3WebSocket.OverridePort=8081  -D3WebSocket.OverrideSSL=true  -D3Social.BaseURL=  -D3Social.BaseAPIURL=/api  -D3Social.MatchingURL=/api  -D3Social.DownloadURL=/download -CheckClientVersion=1720455855"
+				"description"		"Testserver 2"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qa-2"
+				}
+			}
+			"4"
+			{
+				"executable"		"Launcher.exe"
+				"arguments"		"-D3Social.Protocol=https://  -D3Social.Domain=api-qa3-1.dto.gfsrv.net  -D3Social.MatchingDomain=match-qa3-1.dto.gfsrv.net  -D3WebSocket.OverrideURL=://conn-qa3-1.dto.gfsrv.net  -D3WebSocket.OverridePort=8081  -D3WebSocket.OverrideSSL=true  -D3Social.BaseURL=  -D3Social.BaseAPIURL=/api  -D3Social.MatchingURL=/api  -D3Social.DownloadURL=/download -CheckClientVersion=1720455855"
+				"description"		"Testserver 3"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qa-3"
+				}
+			}
+			"5"
+			{
+				"executable"		"launcher.exe"
+				"arguments"		"-CheckClientVersion=1720455855 -D3Social.MatchingURL=/dsrpc/api"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"sandbox"
+				}
+			}
+			"6"
+			{
+				"executable"		"launcher.exe"
+				"arguments"		"-D3Social.Protocol=https:// -D3Social.Domain=api.rockshot.gameforge.com -D3Social.MatchingDomain=match.rockshot.gameforge.com -D3WebSocket.OverrideURL=://conn.rockshot.gameforge.com -D3WebSocket.OverridePort=443 -D3WebSocket.OverrideSSL=true -D3Social.BaseURL= -D3Social.BaseAPIURL=/api -D3Social.MatchingURL=/api -D3Social.DownloadFullURL=\"http://dl.rockshot.gameforge.com/rockshot/masterdata/LIVE/master/eu\" -CheckClientVersion=1720455855"
+				"description"		"Europe (Alpha, prod)"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"prod"
+				}
+			}
+			"7"
+			{
+				"executable"		"launcher.exe"
+				"arguments"		"-CheckClientVersion=1720455855 -D3Social.MatchingURL=/dsrpc/api"
+				"description"		"sb_soleil"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"sb_soleil"
+				}
+			}
+			"8"
+			{
+				"executable"		"Launcher.exe"
+				"arguments"		"-D3Social.Protocol=https:// -D3Social.Domain=api-na.rockshot.gameforge.com -D3Social.MatchingDomain=match-na.rockshot.gameforge.com -D3WebSocket.OverrideURL=://conn-na.rockshot.gameforge.com -D3WebSocket.OverridePort=443 -D3WebSocket.OverrideSSL=true -D3Social.BaseURL= -D3Social.BaseAPIURL=/api -D3Social.MatchingURL=/api -D3Social.DownloadFullURL=\"http://dl.rockshot.gameforge.com/rockshot/masterdata/LIVE/master/na\" -CheckClientVersion=1720455855"
+				"description"		"North America"
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"prod-na"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,german,french,italian,spanish,polish,turkish"
+		"653121"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2435595151501815516"
+					"size"		"13111245731"
+					"download"		"8766620848"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"prod"
+				{
+					"gid"		"07C1AC1C2CCB739E7762D86DFE18932F"
+					"size"		"91E32E0B78F879D535875AB698056F95"
+					"download"		"3EF8EB94DFDD531B94E15E9A279EA266"
+				}
+				"prod-na"
+				{
+					"gid"		"D21C7D84FC1413554E625751C037CEC8"
+					"size"		"58D3AF0D93F6B2B7FB1C3BD013BFC261"
+					"download"		"F416FAC23063942E6A8EED58A01E4E65"
+				}
+				"qa-1"
+				{
+					"gid"		"900F395AA34A048984ACE4F9B9600727"
+					"size"		"74FAE43C9B6AE4E0D0A229AD901BE12A"
+					"download"		"AED1C3F9D1C0B52A580545C4104F32BA"
+				}
+				"qa-2"
+				{
+					"gid"		"D235930FF45BA06F849AAA5CF17761DA"
+					"size"		"E1ED941F0C91715AC463C93ACD1D279C"
+					"download"		"92F971E0176A0BF8E3A85AFA141735F2"
+				}
+				"qa-3"
+				{
+					"gid"		"251B8C6871E9F0F9CC5F10881EE44B2D"
+					"size"		"4EA804039B82E0E63EE85F3CE6298508"
+					"download"		"11450F6CD0D756B1AFC2DFC630DB5A00"
+				}
+				"sandbox"
+				{
+					"gid"		"A404222D703A4BDD9006B88AA4FB5809"
+					"size"		"8EBCFDFC2BB971C969F3EDA9E34FB2CD"
+					"download"		"7CD2FB4F3B5A8770A1C45BE5E2E7C71E"
+				}
+				"sb_loc"
+				{
+					"gid"		"96B5900D81432E6BD31D7E074D6E7DDE"
+					"size"		"8C629156E0E80F230FA5EAFD7D9E9B99"
+					"download"		"B1DC5B35F12ED3AD0B0E0D7CA8A4CFCE"
+				}
+				"sb_soleil"
+				{
+					"gid"		"620A4E2EA7A24CD64377E7BFF8A97C2D"
+					"size"		"C922991274FC2171E302429EBB70A5C7"
+					"download"		"9B7E891557ACE650F93908B9286BCCAF"
+				}
+			}
+		}
+		"653122"
+		{
+			"dlcappid"		"691900"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"653123"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1085803682714976338"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"prod"
+				{
+					"gid"		"D8A334569650A687E556B73A60B6A622"
+					"size"		"5742BDED0B2F436CF71B2D3CE9982D01"
+					"download"		"5742BDED0B2F436CF71B2D3CE9982D01"
+				}
+				"prod-na"
+				{
+					"gid"		"69DBE9B421AA3723C50BA557A4F23AA9"
+					"size"		"C5501BA257165420B7AF20253F2A1C63"
+					"download"		"C5501BA257165420B7AF20253F2A1C63"
+				}
+				"qa-1"
+				{
+					"gid"		"03723A0A9D89B168C88F608FC8512F4C"
+					"size"		"B3B4705CF29685DF5DC789249394CFCC"
+					"download"		"B3B4705CF29685DF5DC789249394CFCC"
+				}
+				"qa-2"
+				{
+					"gid"		"C684FF168F47DFADD92E93644E9BACC4"
+					"size"		"0FAE3E1F0A7178A1FBA9988A81BE8C0C"
+					"download"		"0FAE3E1F0A7178A1FBA9988A81BE8C0C"
+				}
+				"qa-3"
+				{
+					"gid"		"1941BFDA47501025EBA6F37ED6C6CD2E"
+					"size"		"399793F95D3617E2EEC3B6C6315E1CFB"
+					"download"		"399793F95D3617E2EEC3B6C6315E1CFB"
+				}
+				"sandbox"
+				{
+					"gid"		"969334024CE57FD5C979836382FE1589"
+					"size"		"103822A0B7A242886C40389F62A49F1E"
+					"download"		"103822A0B7A242886C40389F62A49F1E"
+				}
+				"sb_loc"
+				{
+					"gid"		"59123BE583DA484AF1F842D165569D54"
+					"size"		"AB7AE5600E2AAB87058E1EF97E3B8768"
+					"download"		"CFFB4ADD257FFA14DD2DA941E2C28CD6"
+				}
+				"sb_soleil"
+				{
+					"gid"		"5499D192927B2AB35D91AAEC551C578E"
+					"size"		"D15609D11C6653076CFA7160C7DC34A4"
+					"download"		"D15609D11C6653076CFA7160C7DC34A4"
+				}
+			}
+		}
+		"653124"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2676474854407790928"
+					"size"		"55084676"
+					"download"		"19179184"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"prod"
+				{
+					"gid"		"C89AA61D7A9C1AE7354B75727534629E"
+					"size"		"83030C74EB3039E236E314994443587D"
+					"download"		"007A38845BCFE58B9D2C34A43C242CC8"
+				}
+				"prod-na"
+				{
+					"gid"		"49C5B2624A0CCCE55E1AF68379E84014"
+					"size"		"9B2B25ECCA4443343B244010B960A8DC"
+					"download"		"1247831D0B55114026FE8D045C772517"
+				}
+				"qa-1"
+				{
+					"gid"		"50FC2488B3809BE3891C48B282866B7F"
+					"size"		"C44EE1A237CB8DF71E89370D103EFC83"
+					"download"		"AA8FBA54F51184B9FD8D347E4ED31E63"
+				}
+				"qa-2"
+				{
+					"gid"		"394C8840B8885F815D7FA544F1E373F2"
+					"size"		"492FCD11D758F0D637E4C5EA543EB00E"
+					"download"		"E1AFD79DB438715B4B1597DB36F1DACA"
+				}
+				"qa-3"
+				{
+					"gid"		"FFF2146C9C0A1AB1FFB8DC7D0A43DC58"
+					"size"		"8E6A0F9EABFB9A935928D79603A2F148"
+					"download"		"A8CACBC9E75DD766DFF27263E14C8568"
+				}
+				"sandbox"
+				{
+					"gid"		"DBB8D2286FB807403B80AB3B67F78144"
+					"size"		"5000099290B04BC58D3B004DF17BBF3C"
+					"download"		"7B50719FDEEC65366366C176FA5E0241"
+				}
+				"sb_soleil"
+				{
+					"gid"		"3EDBB7D9CE06685FA35CE483111FAF3F"
+					"size"		"0BFE1A5F93D2ED13DD7172C4E4CA0DCC"
+					"download"		"1763BE88E328E604604C8797FB77EF43"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2911459"
+				"timeupdated"		"1531211552"
+			}
+			"prod"
+			{
+				"buildid"		"2911459"
+				"pwdrequired"		"1"
+				"timeupdated"		"1531211527"
+			}
+			"prod-na"
+			{
+				"buildid"		"2911459"
+				"pwdrequired"		"1"
+				"timeupdated"		"1531211539"
+			}
+			"qa-1"
+			{
+				"buildid"		"2891548"
+				"pwdrequired"		"1"
+				"timeupdated"		"1531223337"
+			}
+			"qa-2"
+			{
+				"buildid"		"2911459"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530699557"
+			}
+			"qa-3"
+			{
+				"buildid"		"2911459"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530688701"
+			}
+			"sandbox"
+			{
+				"buildid"		"2911459"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530527311"
+			}
+			"sb_loc"
+			{
+				"buildid"		"2302926"
+				"pwdrequired"		"1"
+				"timeupdated"		"1511244212"
+			}
+			"sb_soleil"
+			{
+				"buildid"		"2911459"
+				"pwdrequired"		"1"
+				"timeupdated"		"1530527324"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/RockShot/SoleilGame/SaveData"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+	}
+}
