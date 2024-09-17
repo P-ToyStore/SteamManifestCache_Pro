@@ -1,0 +1,559 @@
+"appinfo"
+{
+	"appid"		"529840"
+	"common"
+	{
+		"name"		"Brawl of Ages"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"e7ecc678728baae5a0cc2d187026c9e4e7d3c75a"
+		"logo_small"		"e7ecc678728baae5a0cc2d187026c9e4e7d3c75a_thumb"
+		"icon"		"f870b788f012ec58d215cfebaca625215982e6ee"
+		"clienticon"		"d8363a3f63f5a6e8b52929439e8bebaf90e248c3"
+		"clienttga"		"3d17f2cac944dbaf8d9077e6b1802910dbdae72e"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1649203200"
+			"tested_build_id"		"2148214"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-1"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"market_presence"		"1"
+		"metacritic_name"		"Brawl of Ages"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1491940735"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BNA Studios, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"S2 Games, LLC"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_35"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1505219160"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"529840"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"9"
+			"2"		"19"
+			"3"		"3859"
+			"4"		"1666"
+			"5"		"493"
+			"6"		"1645"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"developer"		"BNA Studios, LLC"
+		"publisher"		"S2 Games, LLC"
+		"homepage"		"http://www.brawlofages.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Brawl of Ages"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/Brawl of Ages.exe"
+				"arguments"		"-steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/brawlofages-steam.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Brawl of Ages.app/Contents/MacOS/Brawl of Ages"
+				"arguments"		"-steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"bin/brawlofages-steam.sh"
+				"arguments"		"modelviewer"
+				"description"		"Modelviewer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"beta-testers"
+				}
+			}
+			"4"
+			{
+				"executable"		"bin/Brawl of Ages.exe"
+				"arguments"		"modelviewer"
+				"description"		"Modelviewer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"beta-testers"
+				}
+			}
+			"5"
+			{
+				"executable"		"bin/Brawl of Ages.exe"
+				"arguments"		"modelviewer"
+				"description"		"Modelviewer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"rc-testers"
+				}
+			}
+			"6"
+			{
+				"executable"		"bin/brawlofages-steam.sh"
+				"arguments"		"modelviewer"
+				"description"		"Modelviewer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"rc-testers"
+				}
+			}
+			"7"
+			{
+				"executable"		"Brawl of Ages.app/Contents/MacOS/Brawl of Ages"
+				"arguments"		"modelviewer"
+				"description"		"Modelviewer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"rc-testers"
+				}
+			}
+			"8"
+			{
+				"executable"		"bin/Brawl of Ages.exe"
+				"arguments"		"modelviewer"
+				"description"		"Modelviewer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"workshop"
+				}
+			}
+			"9"
+			{
+				"executable"		"bin/brawlofages-steam.sh"
+				"arguments"		"modelviewer"
+				"description"		"Modelviewer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"workshop"
+				}
+			}
+			"10"
+			{
+				"executable"		"Brawl of Ages.app/Contents/MacOS/Brawl of Ages"
+				"arguments"		"modelviewer"
+				"description"		"Modelviewer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"workshop"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"529841"
+		{
+			"config"
+			{
+				"oslist"		"windows,linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3404847645699076963"
+					"size"		"966883181"
+					"download"		"926855184"
+				}
+				"workshop"
+				{
+					"gid"		"5296025522353332035"
+					"size"		"959979308"
+					"download"		"920704704"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"262F27011DC4BFB09D562A71EFAED8DB"
+					"size"		"B19CA27432416270240A4855EAF65BF3"
+					"download"		"A4BF156852EFDAD166F2B7217F551731"
+				}
+				"beta-testers"
+				{
+					"gid"		"6B86DE4F2658A8286D341F710E8358F5"
+					"size"		"692A4720200E296D45FBA0C804EA02CF"
+					"download"		"1E04F1E35C68A4E72C5AA23A31D8C042"
+				}
+				"prod"
+				{
+					"gid"		"97A6237F4D2711189BBEE66A9DB11457"
+					"size"		"E55AE6E6EBCD2AA0F0E6348B796DDC89"
+					"download"		"BCFCCAE7F02BC5831B744A8ED917E559"
+				}
+				"rc"
+				{
+					"gid"		"6B27963AED9D595B34EDFD8AB7DCE9AD"
+					"size"		"A7B62B6C2ADAC948B7B828CD751146D0"
+					"download"		"13C70233D4A0F96233BA478A6479B853"
+				}
+				"rc-testers"
+				{
+					"gid"		"B38BC388335CCEEBD27E872658156E1C"
+					"size"		"3A20F48993A1D17FA6CC61A65056A9E6"
+					"download"		"E7FAB1514F9607BB3275CB465E2E86B7"
+				}
+			}
+		}
+		"529842"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"53676556525964316"
+					"size"		"31008374"
+					"download"		"8954144"
+				}
+				"workshop"
+				{
+					"gid"		"7436955899334355443"
+					"size"		"31008374"
+					"download"		"8953456"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"60D46067D365A588607D55DA2A4C531C"
+					"size"		"12F7F4CDD2393389099EDDF7E8AC15E7"
+					"download"		"6858FED356F01FC73FD8489F4F1CF445"
+				}
+				"beta-testers"
+				{
+					"gid"		"03DA34731855007A9F09A5D9713AD463"
+					"size"		"B47F8B818DAA037BD09E3F54B4B37569"
+					"download"		"D37A274AD4B7FD4FF783A8C4DD0BD983"
+				}
+				"prod"
+				{
+					"gid"		"4A7D1AF639A5980E4CC024A76A5B966F"
+					"size"		"4A2D91A34AF4DB314D1B7EEEA415C12B"
+					"download"		"30056DC3E22FCC98BA9C183129A75F54"
+				}
+				"rc"
+				{
+					"gid"		"F9FA277A91438BEEAE571C426114AC73"
+					"size"		"2C8611664E0F26C39757CC640BC14B18"
+					"download"		"33D66DB1E0C0521B302FF870DC1D8612"
+				}
+				"rc-testers"
+				{
+					"gid"		"B184CC254F431A55CDA7597C6C039DD5"
+					"size"		"57D86C20B465A4F4C8BD9D2E08A65E58"
+					"download"		"E9AB731DD103D54B8341AC9C89EC36DF"
+				}
+			}
+		}
+		"529843"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"529844"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+		}
+		"529845"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8618894014560016490"
+					"size"		"50183635"
+					"download"		"12262272"
+				}
+				"workshop"
+				{
+					"gid"		"771423271190716797"
+					"size"		"50183630"
+					"download"		"12262272"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"C3B1FC6FB18E2AB165127FEDCC7E5458"
+					"size"		"82E04228E90541E3D55345EDF7A056AF"
+					"download"		"67E3A0355584087569B3824842DB064E"
+				}
+				"beta-testers"
+				{
+					"gid"		"CEDCB078081E28DD7D75E1E718DF532F"
+					"size"		"D386F231C4FCD8FEA9AB9C6311F86149"
+					"download"		"A2AC308749DEA287FD4DF0A01FC7C13B"
+				}
+				"prod"
+				{
+					"gid"		"C46BE80CA7EC6202EEEE7521EF0F30A9"
+					"size"		"FCE9269F35FCA1177AE4E61B994FD764"
+					"download"		"6658419ED566EA061E3B42FE071F0DEE"
+				}
+				"rc"
+				{
+					"gid"		"75A0268960CA517111C16983E5C0AF26"
+					"size"		"49D4FDBEABFF3D8E92FCCFF44296B2AF"
+					"download"		"B884B03219BE6D6EA2F639F803D2BF73"
+				}
+				"rc-testers"
+				{
+					"gid"		"B89286DA02849B79D153E48117B09E5C"
+					"size"		"70EE34356CCE5F1D9FE9C04A5A1DC2C8"
+					"download"		"C3B58F17D963FBDFDB6813CF9085C857"
+				}
+			}
+		}
+		"529846"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4913603633545892548"
+					"size"		"1021995328"
+					"download"		"942555360"
+				}
+				"workshop"
+				{
+					"gid"		"1831277082584191087"
+					"size"		"1015087359"
+					"download"		"936269984"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"B4E1F7E56548DB53DDF0ACC6198CC6BE"
+					"size"		"69C056E04317F87FB732BF91A5DC1C63"
+					"download"		"4394EC0E67E873377A45D3D1D509065D"
+				}
+				"beta-testers"
+				{
+					"gid"		"54C4B2FDCA82AB27F77B680D8583E004"
+					"size"		"3AFBD05736703E2C9FD38C5771FF2E13"
+					"download"		"95B92A9B6862D6EC5E6863F300EF064B"
+				}
+				"prod"
+				{
+					"gid"		"8DC8DF700333F02D963CF0B9A0D51FEF"
+					"size"		"760313C976D4D6C80EDD81B1AB430CA2"
+					"download"		"3DB7F5F1DB2F8F947A826DBD2643D33B"
+				}
+				"rc"
+				{
+					"gid"		"92B3D58C470DE2F288662FE8977E46AC"
+					"size"		"0386BAECA3F1C2BAEB0AFA44F5F94351"
+					"download"		"E366D802600181F144C3F18A4504EA7A"
+				}
+				"rc-testers"
+				{
+					"gid"		"691F437C604065CFB75BA106EF15B3D4"
+					"size"		"FE69C659C597CE305E967B6353398BCC"
+					"download"		"403F73B110BA1B296CE8807C8AA06390"
+				}
+			}
+		}
+		"workshopdepot"		"529840"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2148214"
+				"timeupdated"		"1506423312"
+			}
+			"beta"
+			{
+				"buildid"		"2145955"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506355552"
+			}
+			"beta-testers"
+			{
+				"buildid"		"2145955"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506355608"
+			}
+			"prod"
+			{
+				"buildid"		"2148214"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506420369"
+			}
+			"rc"
+			{
+				"buildid"		"2146231"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506362486"
+			}
+			"rc-testers"
+			{
+				"buildid"		"2146231"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506362529"
+			}
+			"workshop"
+			{
+				"buildid"		"2110641"
+				"timeupdated"		"1505173027"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10737418240"
+		"maxnumfiles"		"10000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
