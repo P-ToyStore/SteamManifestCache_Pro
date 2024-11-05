@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"774721"
+	"common"
+	{
+		"name"		"EF EVE"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"2"
+				"360_required"		"0"
+			}
+			"seated"		"1"
+		}
+		"clienticon"		"a00c73d0839396b6f528c540df148340f37bede2"
+		"clienttga"		"3e52213da4a2ce4152e95e3a701a8da8ead2aa49"
+		"icon"		"d739fa1e7327ac46eb352c347bfac409ac637bf6"
+		"logo"		"316bb2e9c3e38f275c706e379b10e2028962d52c"
+		"logo_small"		"316bb2e9c3e38f275c706e379b10e2028962d52c_thumb"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"controller_support"		"full"
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1730742094"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"xxxxxxxx"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"xxxx"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"57"
+		}
+		"category"
+		{
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1557903600"
+		"steam_release_date"		"1516802202"
+		"community_hub_visible"		"1"
+		"gameid"		"774721"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"21978"
+			"2"		"21"
+			"3"		"84"
+			"4"		"113"
+			"5"		"597"
+			"6"		"599"
+			"7"		"4175"
+			"8"		"13782"
+			"9"		"4486"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"xxxxxxxx"
+		"publisher"		"xxxx"
+	}
+	"config"
+	{
+		"installdir"		"EF EVE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"eveLauncher.exe"
+				"description"		"EF EVE Platform (with VR)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"1"
+		"774722"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5322591479400106430"
+					"size"		"385121437"
+					"download"		"99373536"
+				}
+				"beta"
+				{
+					"gid"		"5322591479400106430"
+					"size"		"385121437"
+					"download"		"99373536"
+				}
+			}
+		}
+		"774723"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3895429234315073345"
+					"size"		"1022016"
+					"download"		"330464"
+				}
+				"beta"
+				{
+					"gid"		"3895429234315073345"
+					"size"		"1022016"
+					"download"		"330464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3824939"
+				"timeupdated"		"1557907129"
+			}
+			"beta"
+			{
+				"buildid"		"3824939"
+				"description"		"For beta testing"
+				"timeupdated"		"1557907099"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"./"
+				"pattern"		"settings.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
