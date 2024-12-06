@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"667230"
+	"common"
+	{
+		"name"		"Capsa Dedicated Server"
+		"type"		"Tool"
+		"parent"		"588120"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"55aecc2926cbbb795a2df3c2c16644b9cbe0f5cc"
+		"logo_small"		"55aecc2926cbbb795a2df3c2c16644b9cbe0f5cc_thumb"
+		"icon"		"d75f5a6c0eb60a65b04a2d979af16c07d20b7224"
+		"clienticon"		"bacfeb840664e847a02f377812e77376894381c0"
+		"clienttga"		"ef32751a6494e26cc0dd7764e2f1934f4bb91171"
+		"freetodownload"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1579188202"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1506355200"
+		"gameid"		"667230"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		"Capsa"
+		"serverbrowsername"		"Capsa"
+	}
+	"config"
+	{
+		"installdir"		"Capsa Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CapsaServer.exe"
+				"arguments"		"-log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"667231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7313974967006368286"
+					"size"		"1439114063"
+					"download"		"1222156448"
+				}
+				"test"
+				{
+					"gid"		"7141621003076311078"
+					"size"		"1438600125"
+					"download"		"1222727568"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"closed_beta"
+				{
+					"gid"		"FE1A545260346C7F6116914D8B4A1579"
+					"size"		"D1A87D1B28734519172379D4AE705035"
+					"download"		"758C10DD6571E2313220363476A9477E"
+				}
+				"private"
+				{
+					"gid"		"10330997654FF60A2D1B7E5237436962"
+					"size"		"020403BE67ED99A96AF4670FBC4D8C26"
+					"download"		"E3F21289C40F7F5C11978D36225B5014"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11175447"
+				"timeupdated"		"1683490555"
+			}
+			"closed_beta"
+			{
+				"buildid"		"5862820"
+				"pwdrequired"		"1"
+				"timeupdated"		"1605940442"
+			}
+			"private"
+			{
+				"buildid"		"13081620"
+				"pwdrequired"		"1"
+				"timeupdated"		"1704258760"
+			}
+			"test"
+			{
+				"buildid"		"13081620"
+				"description"		"Public test branch"
+				"timeupdated"		"1704259919"
+			}
+		}
+	}
+}
