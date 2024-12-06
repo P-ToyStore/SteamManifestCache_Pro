@@ -1,0 +1,139 @@
+"appinfo"
+{
+	"appid"		"1911970"
+	"common"
+	{
+		"name"		"OverShoot Battle Race [ Dedicated Server ]"
+		"type"		"Tool"
+		"parent"		"1318280"
+		"releasestate"		"released"
+		"name_localized"
+		{
+			"portuguese"		"OverShoot Battle Race [ Servidor Dedicado ]"
+		}
+		"clienttga"		"a8cc6432240362517c07f3457cfb35947ed05386"
+		"clienticon"		"e07b1f272c65b0689e4925f53e011a2c05fc28fd"
+		"icon"		"491235449fb8c9579d46a3d76be96c2bd7e266af"
+		"logo"		"cd55c418468548210780bc0148ca17d166563ead"
+		"logo_small"		"cd55c418468548210780bc0148ca17d166563ead_thumb"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1911970"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"OverShootServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OverShootServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Start OverShoot dedicated server"
+				}
+				"description"		"Start OverShoot dedicated server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"1911971"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8212300272229378470"
+					"size"		"4176257"
+					"download"		"648368"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14733925"
+				"timeupdated"		"1718537695"
+			}
+		}
+	}
+}
