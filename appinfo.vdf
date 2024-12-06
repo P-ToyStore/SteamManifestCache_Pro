@@ -1,0 +1,72 @@
+"appinfo"
+{
+	"appid"		"277000"
+	"common"
+	{
+		"name"		"Takedown: Red Sabre Level Editor (beta)"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"277000"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Takedown Red Sabre Level Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/TakedownGame.exe"
+				"arguments"		"editor -nodatabase -noloadstartuppackages"
+				"description"		"Launch"
+				"workingdir"		"Binaries\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"277001"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6026276905593313734"
+					"size"		"7656965660"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"qaeditor"
+				{
+					"gid"		"CC7B518DB91DA351B2A4B82188D75F49"
+					"size"		"16A2C378ADF222ED504237C6B8114518"
+					"download"		"2C96C644ED27BEA434F4E231D351F283"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"202585"
+			}
+			"qaeditor"
+			{
+				"buildid"		"202585"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
