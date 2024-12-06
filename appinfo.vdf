@@ -1,0 +1,162 @@
+"appinfo"
+{
+	"appid"		"1375660"
+	"common"
+	{
+		"name"		"SCP: Recontainment Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1249520"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"88ac745ba600517a05d336cbdf8bed790e133e97"
+		"logo_small"		"88ac745ba600517a05d336cbdf8bed790e133e97_thumb"
+		"icon"		"6b7087d28dc1485be33920becdb4361b33dd3c2d"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1375660_eula_0"
+				"name"		"SCP: Recontainment Dedicated Server EULA"
+				"url"		"https://store.steampowered.com//eula/1375660_eula_0"
+			}
+		}
+		"clienticon"		"90c6d7fbe832675417cf91b5e36e75de909fa702"
+		"clienttga"		"8713809a4c7ffd7db11c5b2c54f8366f3c3fb296"
+		"app_retired_publisher_request"		"1"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1606838400"
+		"gameid"		"1375660"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		"scprecontainment"
+		"serverbrowsername"		"SCP: Recontainment"
+	}
+	"config"
+	{
+		"installdir"		"SCP Recontainment Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SCP575Server.exe"
+				"arguments"		"-log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SCP575Server.sh"
+				"arguments"		"-log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1375661"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7667247103109785502"
+					"size"		"136640959"
+					"download"		"70289456"
+				}
+			}
+		}
+		"1375662"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8331705893267659924"
+					"size"		"192847753"
+					"download"		"71912240"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8209831"
+				"timeupdated"		"1644966410"
+			}
+		}
+	}
+}
