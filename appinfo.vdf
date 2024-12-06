@@ -1,0 +1,82 @@
+"appinfo"
+{
+	"appid"		"955080"
+	"common"
+	{
+		"name"		"Team Fortress 2008 - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"943490"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"b862068b2017d4bfe600fd1e63cb6a42f10d35ad"
+		"clienttga"		"687db02326c46dc68817b4a7c4947193589cbb26"
+		"icon"		"3fcef3238614fbb13799e93efeb97e85e232ae87"
+		"clienticns"		"68a8b12507be28af7c5abb38d7a0e914be02d534"
+		"linuxclienticon"		"562a3973cdce67a92c6b3b0e28ea984838f4d6bd"
+		"logo"		"c0e391d3bfbf4da6512df2cffd683468ffb20d76"
+		"logo_small"		"c0e391d3bfbf4da6512df2cffd683468ffb20d76_thumb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"955080"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		"tf2008"
+		"serverbrowsername"		"Team Fortress 2008"
+	}
+	"config"
+	{
+		"installdir"		"Team Fortress 2008 - Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game tf2008 -steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"srcds_run"
+				"arguments"		"-game tf2008 -steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"955081"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8176572161302609272"
+					"size"		"2787233382"
+					"download"		"965516496"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3206193"
+				"timeupdated"		"1539323512"
+			}
+		}
+	}
+}
