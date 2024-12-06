@@ -1,0 +1,126 @@
+"appinfo"
+{
+	"appid"		"616940"
+	"common"
+	{
+		"name"		"Cobalt WASD Dedicated Server"
+		"type"		"Tool"
+		"parent"		"590720"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"5de002ba4fbaa9244d917ca636135c0cfd5b3406"
+		"logo_small"		"5de002ba4fbaa9244d917ca636135c0cfd5b3406_thumb"
+		"icon"		"6d8dafda727834d687f1b28c4cd3ad08f0c14667"
+		"clienticon"		"9ee88b48f59765256748d9ba3f66236240d17591"
+		"clienttga"		"e1d2db0be5f5a32f68aa4a09e6497a781813adc8"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"616940"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"Cobalt WASD Dedicated Server"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"cobalt_dedicated.exe"
+				"arguments"		"-bundle-dir bundle -mods_forced official/Lithium -host_game -mode js"
+				"type"		"server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"616941"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1273782636912149618"
+					"size"		"11970269"
+					"download"		"10658416"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"experimental"
+				{
+					"gid"		"A92BC8FF729F22E31A3C988E14E0FD4D"
+					"size"		"FD72992177165D46DC874AC2824D6B65"
+					"download"		"46D58B44E6D821A25FD0D9DA7AC14A1C"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6271855"
+				"timeupdated"		"1613905961"
+			}
+			"experimental"
+			{
+				"buildid"		"6221911"
+				"pwdrequired"		"1"
+				"timeupdated"		"1613003676"
+			}
+		}
+	}
+}
