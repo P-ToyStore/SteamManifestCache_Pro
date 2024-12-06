@@ -1,0 +1,103 @@
+"appinfo"
+{
+	"appid"		"886440"
+	"common"
+	{
+		"name"		"Super Versus Server"
+		"type"		"Tool"
+		"parent"		"845660"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"08f72263a78baed5d3cf3b21b184d2f66a6b3c39"
+		"logo_small"		"08f72263a78baed5d3cf3b21b184d2f66a6b3c39_thumb"
+		"icon"		"7e8a1e464916b0408f54aafc9898493229a4acf8"
+		"clienticon"		"b0c5ebeaa7be938eb9beb4304e47f2b5434b0691"
+		"clienttga"		"166ff2df035eed97c2a468b7fe71321af4c85d6a"
+		"clienticns"		"0738928466d971edb891336606dc9682ef8b5c52"
+		"linuxclienticon"		"62af8009de9d7e8abd461460ee5ef131e30ef6dc"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"886440"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		"superversus"
+		"serverbrowsername"		"Super Versus Servers"
+	}
+	"config"
+	{
+		"installdir"		"Super Versus Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Launch.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"886441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3603120823188369090"
+					"size"		"226466628"
+					"download"		"50924720"
+				}
+			}
+		}
+		"886443"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7121696920158210079"
+					"size"		"236270324"
+					"download"		"52608816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4072108"
+				"timeupdated"		"1564827249"
+			}
+		}
+	}
+}
