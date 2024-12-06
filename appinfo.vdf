@@ -1,0 +1,145 @@
+"appinfo"
+{
+	"appid"		"1883720"
+	"common"
+	{
+		"name"		"Destinies Community Editor"
+		"type"		"Tool"
+		"parent"		"1593930"
+		"icon"		"c078a7b747d1179b429f7f33f55fdd2d517015f2"
+		"logo"		"e549b97b3c4df73ccfd1a7e5b257a592997bdf55"
+		"logo_small"		"e549b97b3c4df73ccfd1a7e5b257a592997bdf55_thumb"
+		"clienttga"		"f1a8db3d6fa8226876cf40ca0f4d5eba181f5d83"
+		"clienticon"		"d77ddb8557ccdc0be133573d4f1f8883cf9d3337"
+		"name_localized"
+		{
+		}
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1883720_eula_0"
+				"name"		"Destinies Community Editor EULA"
+				"url"		"https://store.steampowered.com//eula/1883720_eula_0"
+				"version"		"1"
+			}
+		}
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"1883720"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"Destinies Community Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DestiniesEditor.exe"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DestiniesEditor.app"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"run_editor"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"1883721"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7414442022710178000"
+					"size"		"1078973587"
+					"download"		"908988640"
+				}
+			}
+		}
+		"1883722"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6097991247310935905"
+					"size"		"1236423677"
+					"download"		"910574400"
+				}
+			}
+		}
+		"1883723"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4965949703505474314"
+					"size"		"926268189"
+					"download"		"913586784"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10744573"
+				"timeupdated"		"1678500640"
+			}
+		}
+	}
+}
