@@ -1,0 +1,97 @@
+"appinfo"
+{
+	"appid"		"1453510"
+	"common"
+	{
+		"name"		"Simutrans SDK"
+		"type"		"Tool"
+		"parent"		"434520"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"22d160f81826c6e8931f3ed90444710ad715f56b"
+		"logo_small"		"22d160f81826c6e8931f3ed90444710ad715f56b_thumb"
+		"icon"		"16aa229ff80cd6d78f5127e6610a6f301390d728"
+		"clienticon"		"d04c2d97325d8be35c79241269cc7632af0048fa"
+		"clienttga"		"557ed736593732283044a67e31f1548964eb409d"
+		"associations"
+		{
+		}
+		"gameid"		"1453510"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"Simutrans SDK"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"workshopUploader.exe"
+				"description"		"WorkShop Uploader"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"TileCutter\\TileCutter.exe"
+				"workingdir"		"TileCutter"
+				"description"		"TileCutter"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1453511"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2614920675432109948"
+					"size"		"88382794"
+					"download"		"21090048"
+				}
+			}
+		}
+		"1453512"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1694634259613011553"
+					"size"		"949665"
+					"download"		"303216"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5720850"
+				"timeupdated"		"1603362670"
+			}
+		}
+	}
+}
