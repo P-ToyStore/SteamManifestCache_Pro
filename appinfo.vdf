@@ -1,0 +1,148 @@
+"appinfo"
+{
+	"appid"		"313900"
+	"common"
+	{
+		"name"		"NS2: Combat Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"2d8227f1a3cf5d9f172c739f18dea9a4cf92d4ff"
+		"logo_small"		"2d8227f1a3cf5d9f172c739f18dea9a4cf92d4ff_thumb"
+		"icon"		"c1fb25d48088e236a8f2f7edad1a44ea5e1e962d"
+		"clienticon"		"8002724845a20aa1f424f1fad9f7f72e9bbdb0e0"
+		"clienttga"		"7e53a8f16daf018b0781b33f747d8403eeecbd81"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"313900"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"NS2Combat Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ns2combatserver.exe"
+				"description"		"Launch Dedicated Server"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,swedish"
+		"228981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229032"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"313902"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"131337985844360728"
+					"size"		"10678222043"
+					"download"		"4506576528"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"playtesting"
+				{
+					"gid"		"51DE705286CE76A7B0C4ADF994262936"
+					"size"		"C9C4C8DB2F736AD7B71523F7251C4CD6"
+					"download"		"A001F1C555D4C283FA01105A4FCB8898"
+				}
+			}
+		}
+		"313901"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7967996421633057889"
+					"size"		"113306288"
+					"download"		"46196848"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"playtesting"
+				{
+					"gid"		"26CDBFAC2ACB59C7CDDF1416F201DD86"
+					"size"		"0E21BE44B60EBB9C58D1E7429EC5467C"
+					"download"		"55DA460D9E8D5FA28DADBDF43721664A"
+				}
+			}
+		}
+		"313903"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"465516024796531105"
+					"size"		"259461352"
+					"download"		"58600176"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"playtesting"
+				{
+					"gid"		"C5B07969CC5E56CD8D08C00A305AF743"
+					"size"		"A6E5937A7515FABA33AE4156B30D8C7C"
+					"download"		"7E4D81B7CC530D135CA7A38194E6FDA1"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"778980"
+			}
+			"playtesting"
+			{
+				"buildid"		"505661"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
