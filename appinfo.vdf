@@ -1,0 +1,91 @@
+"appinfo"
+{
+	"appid"		"2860"
+	"common"
+	{
+		"name"		"X-SuperBox Bonus Material"
+		"clienticon"		"166b1f11bc04997db5b0b660a12c6578c31a2b92"
+		"clienttga"		"f285e4d18ba19d69c3a0d7f8c3be5937d50060c5"
+		"icon"		"996b514e898dbc8b2a71e8db7900d9940916f3d5"
+		"type"		"Tool"
+		"oslist"		"windows,macos,linux"
+		"sortas"		"X3.9"
+		"associations"
+		{
+		}
+		"gameid"		"2860"
+	}
+	"extended"
+	{
+		"developer"		""
+		"externalsubscriptionurl2"		"http://www.egosoft.com/x3tc/register/STEAM/index_en.php?steamcode=%cdkey%"
+		"gamedir"		"Superbox Bonus"
+		"homepage"		""
+		"icon"		""
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp2860\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"2861"
+		"serverbrowsername"		""
+		"showcdkeyinmenu"		"1"
+		"state"		"eStateTool"
+		"supportscdkeycopytoclipboard"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"X-SuperBox Bonus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Autorun.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"run_linux"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"run_mac"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2861"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7986331022618422117"
+					"size"		"4575145929"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"117964"
+			}
+		}
+	}
+}
