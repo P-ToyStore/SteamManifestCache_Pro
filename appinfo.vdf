@@ -1,0 +1,170 @@
+"appinfo"
+{
+	"appid"		"2406780"
+	"common"
+	{
+		"name"		"Banana Shooter Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1949740"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"dae9f64da41d60db4859a1d2cf3b0d1b7bf09926"
+		"clienticon"		"a79950bb1e6a3a38517963fe7a5a72e287d9ceb2"
+		"icon"		"658102c64beab925561849636e18a8746c87d828"
+		"releasestate"		"released"
+		"gameid"		"2406780"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"BSDS"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Banana Shooter Dedicated Server.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"BSDS.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Linux"
+				}
+				"description"		"Linux"
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"2406780"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2406781"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2466657213386802"
+					"size"		"78599995"
+					"download"		"21728976"
+				}
+				"beta"
+				{
+					"gid"		"2466657213386802"
+					"size"		"78599995"
+					"download"		"21728976"
+				}
+			}
+		}
+		"2406782"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3836515831710956568"
+					"size"		"96302641"
+					"download"		"22343632"
+				}
+				"beta"
+				{
+					"gid"		"3836515831710956568"
+					"size"		"96302641"
+					"download"		"22343632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13314098"
+				"timeupdated"		"1706626977"
+			}
+			"beta"
+			{
+				"buildid"		"13314098"
+				"description"		"beta branch"
+				"timeupdated"		"1706626421"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"9000"
+		"sync_while_suspended"		"1"
+	}
+}
