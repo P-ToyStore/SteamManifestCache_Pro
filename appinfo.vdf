@@ -1,0 +1,84 @@
+"appinfo"
+{
+	"appid"		"239780"
+	"common"
+	{
+		"name"		"Call of Duty Black Ops - OSX Remote Console"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"parent"		"214630"
+		"oslist"		"macos"
+		"clienticns"		"aecf238b02fa0ed6f2852a43ff0bcf400e096986"
+		"gameid"		"239780"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"ValveTestApp239780"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Call of Duty 4 - OSX Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CoDBORcon.app"
+				"description"		"Remote Console"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"239781"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2610831885432459732"
+					"size"		"3477618"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"2610831885432459732"
+					"size"		"3477618"
+					"download"		"0"
+				}
+			}
+		}
+		"markdlcdepots"		"0"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"71177"
+			}
+			"local"
+			{
+				"buildid"		"71178"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+	}
+}
