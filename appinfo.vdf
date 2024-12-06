@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"1348640"
+	"common"
+	{
+		"name"		"Frozen Flame - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"715400"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"cd29fe6484db2fc721f96b006abf623ee97521b4"
+		"logo_small"		"cd29fe6484db2fc721f96b006abf623ee97521b4_thumb"
+		"icon"		"d62c0787d92bb777906ed6cf07995fa99ac96265"
+		"clienttga"		"2cefa268fb8209e72e0763c338e1980fb3a9995e"
+		"clienticon"		"934a69a13c9a1b14f539371c891cd54673addafc"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ef3c9bda979c5e464e6533cf8581da0cde9f4bb8.jpg"
+		"store_asset_mtime"		"1668718730"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_62"		"1"
+		}
+		"steam_release_date"		"1668702600"
+		"gameid"		"1348640"
+	}
+	"config"
+	{
+		"installdir"		"Frozen Flame - Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FrozenFlameServer.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"FrozenFlameServer.exe"
+				"arguments"		"-log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"candidate"
+				}
+			}
+			"2"
+			{
+				"executable"		"FrozenFlame/Binaries/Linux/FrozenFlameServer-Linux-Shipping"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"candidate"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1348643"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7191089602495320945"
+					"size"		"2551873788"
+					"download"		"1633863456"
+				}
+				"candidate"
+				{
+					"gid"		"7191089602495320945"
+					"size"		"2551873788"
+					"download"		"1633863456"
+				}
+			}
+		}
+		"1348641"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1468967274093039094"
+					"size"		"2561590085"
+					"download"		"1590922992"
+				}
+				"candidate"
+				{
+					"gid"		"1468967274093039094"
+					"size"		"2561590085"
+					"download"		"1590922992"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11289146"
+				"timeupdated"		"1684773539"
+			}
+			"candidate"
+			{
+				"buildid"		"11289146"
+				"description"		"Release Candidate"
+				"timeupdated"		"1684773475"
+			}
+		}
+	}
+}
