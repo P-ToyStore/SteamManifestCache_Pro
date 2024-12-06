@@ -1,0 +1,92 @@
+"appinfo"
+{
+	"appid"		"2460"
+	"common"
+	{
+		"name"		"Bloody Good Time Dedicated Server"
+		"type"		"Tool"
+		"gameid"		"2460"
+	}
+	"extended"
+	{
+		"developer"		"Outerlight"
+		"gamedir"		"Bloody Good Time Dedicated Server"
+		"homepage"		"http://store.steampowered.com/app/2450/"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"2453"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+	}
+	"config"
+	{
+		"contenttype"		"2"
+		"installdir"		"Bloody Good Time Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-steam -game pm"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"2452"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5726217717789289915"
+					"size"		"1279247053"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"2450"
+		}
+		"2453"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6238851782732503747"
+					"size"		"101950591"
+					"download"		"0"
+				}
+			}
+		}
+		"1004"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3578600867548439549"
+					"size"		"9662208"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1002"
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"87012"
+			}
+		}
+	}
+}
