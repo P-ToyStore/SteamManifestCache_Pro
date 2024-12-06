@@ -1,0 +1,295 @@
+"appinfo"
+{
+	"appid"		"689780"
+	"common"
+	{
+		"name"		"Murderous Pursuits Dedicated Server"
+		"type"		"Tool"
+		"parent"		"638070"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"1a29ba0dc02649aa70f57af7418e196dbf855021"
+		"clienticon"		"84860d87ca7fa56f39ad9d2c5b06490a12c02907"
+		"icon"		"b09e42f165f463f0ed9e64941b26c8e742d89e44"
+		"logo"		"3283bc05cd5c1d61b423fb2f7537731e497757c0"
+		"logo_small"		"3283bc05cd5c1d61b423fb2f7537731e497757c0_thumb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"689780"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"serverbrowsername"		"Murderous Pursuits"
+	}
+	"config"
+	{
+		"installdir"		"Murderous Pursuits Dedicated Server"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"MPDedicated.exe"
+				"arguments"		"-batchmode -nographics +serverid MPDS_1 -logFile MPDS_1/mpds_output.txt"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"689781"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4486112066378677834"
+					"size"		"2517298757"
+					"download"		"431776064"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"alex-branch"
+				{
+					"gid"		"3DFD269CEA384CB82E0159291AF78E89"
+					"size"		"6A2885D4DDD260B0CD58AE97DCC58180"
+					"download"		"D1461B1F2954BC7432FC59106DFF1F13"
+				}
+				"external"
+				{
+					"gid"		"F98CB47821406A6797369DC2C343BE94"
+					"size"		"BB7D523CFC5606BF66DCFC70E8061170"
+					"download"		"5CCA9F9D8A5D11AC2349B31418D1D3BE"
+				}
+				"gill-branch"
+				{
+					"gid"		"BC626D1E515288105B40441BA01612CA"
+					"size"		"06AC019FE550B1816E00006D505B8FB8"
+					"download"		"3C562E2C40FD07836B0C95B6214FEF32"
+				}
+				"jason-branch"
+				{
+					"gid"		"74E3C717EA4670E14F414680F300945F"
+					"size"		"289189E5BA49102ECFBC3FC7C077752F"
+					"download"		"988DE6053940521A7BD3383979E3F157"
+				}
+				"jenny-branch"
+				{
+					"gid"		"12108890BF972D21240BE7EB0A528CAA"
+					"size"		"E476FC3C4D8ED3C0FF078DA51969027D"
+					"download"		"B9FDAA4922CB611E2B9694FC80FB40C2"
+				}
+				"martin-branch"
+				{
+					"gid"		"FBB207A0B9B6AFB279F5C307589714B6"
+					"size"		"2BE2E00DECE9896510C052CA1C3DDFC8"
+					"download"		"C5774ABC977A91269C24E648193D9B0B"
+				}
+				"neil-branch"
+				{
+					"gid"		"C49C238BAFB491397EB7F185BF6F861C"
+					"size"		"6C34EEB8745C4688B7E6FE0E8945995B"
+					"download"		"F673763F039CA3CE63F0F2739982F9D9"
+				}
+				"playtest"
+				{
+					"gid"		"56C316DF7AF2FC2CD38637751850CCD3"
+					"size"		"1D59EA0E1E91D6C41E0D7F288533EC46"
+					"download"		"90735B7165731EC3AF92258EAF690A12"
+				}
+				"qa-tests"
+				{
+					"gid"		"ADCD6F8EF8248DFD76A0A6502C3D04E5"
+					"size"		"198826C046389B90454F94F21EB879D0"
+					"download"		"2A10D053CB447421C57FD6F812A256E4"
+				}
+				"release-approved"
+				{
+					"gid"		"71C94D283E8664F5A0CCAFCF2869834D"
+					"size"		"35231A6ED47A2B418869B0644F843EFA"
+					"download"		"1198C0A11BF896B5E6EC68F437DA9508"
+				}
+				"release-candidate"
+				{
+					"gid"		"25D6D282C8CECA916D5DA1FC8CEAC531"
+					"size"		"D7D26A7757E08D2DF037AF4EBC9AAD12"
+					"download"		"B20EC12E165D216531505A0906C45B57"
+				}
+				"release-candidate-dev"
+				{
+					"gid"		"B3A5B7F2CFCE404E56D26871DFA521D6"
+					"size"		"3B1F81A44AE34DB963CFE6D80AC977C5"
+					"download"		"6BDDA262CBFA6A53110EA6AC9F3E3F63"
+				}
+				"studio-development"
+				{
+					"gid"		"5F43CD4E0AEC37D90DBE85F204939AFB"
+					"size"		"521F15BC43A3B80CB78199EFA0BF4A12"
+					"download"		"A136A82D3E470DA336882A1C1F55686E"
+				}
+				"studio-release"
+				{
+					"gid"		"E2B1555560A01556B8902D605ED2D285"
+					"size"		"710973B56F071FE7104CEED78B309266"
+					"download"		"0438EA326522299F9ED647C48F7B630F"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3343988"
+				"timeupdated"		"1543585897"
+			}
+			"alex-branch"
+			{
+				"buildid"		"2981969"
+				"pwdrequired"		"1"
+				"timeupdated"		"1532676966"
+			}
+			"external"
+			{
+				"buildid"		"2445165"
+				"pwdrequired"		"1"
+				"timeupdated"		"1516295241"
+			}
+			"gill-branch"
+			{
+				"buildid"		"3135616"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537349122"
+			}
+			"jason-branch"
+			{
+				"buildid"		"2154885"
+				"pwdrequired"		"1"
+				"timeupdated"		"1506591177"
+			}
+			"jenny-branch"
+			{
+				"buildid"		"2758059"
+				"pwdrequired"		"1"
+				"timeupdated"		"1525858720"
+			}
+			"martin-branch"
+			{
+				"buildid"		"2774866"
+				"pwdrequired"		"1"
+				"timeupdated"		"1526377381"
+			}
+			"neil-branch"
+			{
+				"buildid"		"3354114"
+				"pwdrequired"		"1"
+				"timeupdated"		"1543574576"
+			}
+			"playtest"
+			{
+				"buildid"		"3313705"
+				"pwdrequired"		"1"
+				"timeupdated"		"1542372356"
+			}
+			"qa-tests"
+			{
+				"buildid"		"3131786"
+				"pwdrequired"		"1"
+				"timeupdated"		"1537263320"
+			}
+			"release-approved"
+			{
+				"buildid"		"2773020"
+				"pwdrequired"		"1"
+				"timeupdated"		"1526562579"
+			}
+			"release-candidate"
+			{
+				"buildid"		"3343988"
+				"pwdrequired"		"1"
+				"timeupdated"		"1543335326"
+			}
+			"release-candidate-dev"
+			{
+				"buildid"		"3343984"
+				"pwdrequired"		"1"
+				"timeupdated"		"1543335286"
+			}
+			"studio-development"
+			{
+				"buildid"		"3111672"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536677311"
+			}
+			"studio-release"
+			{
+				"buildid"		"3111675"
+				"pwdrequired"		"1"
+				"timeupdated"		"1536677346"
+			}
+		}
+	}
+}
