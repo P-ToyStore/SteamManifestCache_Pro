@@ -1,0 +1,318 @@
+"appinfo"
+{
+	"appid"		"228780"
+	"common"
+	{
+		"name"		"Blade Symphony Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"parent"		"225600"
+		"freetodownload"		"1"
+		"gameid"		"228780"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"ValveTestApp228780"
+		"homepage"		""
+		"icon"		""
+		"installscript"		"installscript_ds.vdf"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Blade Symphony"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\win32\\srcds.exe"
+				"arguments"		"-console +maxplayers 16 +map duel_winter"
+				"workingdir"		"bin\\win32\\"
+				"description"		"Launch Dedicated Server"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin\\srcds_run.sh"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Dedicated Server"
+				}
+				"description"		"Launch Dedicated Server"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"225601"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"225600"
+			"sharedinstall"		"2"
+		}
+		"228781"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3593514763180227461"
+					"size"		"144438110"
+					"download"		"37502608"
+				}
+				"release_candidate"
+				{
+					"gid"		"3593514763180227461"
+					"size"		"144438110"
+					"download"		"37502608"
+				}
+				"unharmonious"
+				{
+					"gid"		"5248850657780698129"
+					"size"		"63289855"
+					"download"		"21319040"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"jenkins_builds"
+				{
+					"gid"		"E5CE50219A6937CECDEB4C623E05C29F"
+					"size"		"9055D1B829E05D821608CD8EB0EAA814"
+					"download"		"75019151284D75398DBE8126083F8D61"
+				}
+				"nightly"
+				{
+					"gid"		"7AA8F27D2AC866E1FA75FBBF5A8B3CED"
+					"size"		"2FE66D2BE6AD05FF0B1B9E0D08372E58"
+					"download"		"615D6173B67F4B9A53AC003CDAAC78B3"
+				}
+				"nightly-prod"
+				{
+					"gid"		"64CC7AF852C6BD02484887DBC803C775"
+					"size"		"A3E768DE7F6D66A988E8395F577ADA94"
+					"download"		"B6EA5DFCA50BFFD67DB7CCC8D3D3BDC1"
+				}
+			}
+		}
+		"228782"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6090409651375001043"
+					"size"		"178409151"
+					"download"		"60985936"
+				}
+				"release_candidate"
+				{
+					"gid"		"6090409651375001043"
+					"size"		"178409151"
+					"download"		"60985936"
+				}
+				"unharmonious"
+				{
+					"gid"		"3122610084588606763"
+					"size"		"111648835"
+					"download"		"42602688"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"jenkins_builds"
+				{
+					"gid"		"8F4F11B6671AF995E36796A7E92E1F23"
+					"size"		"71E6B03504C6B50511240E141694A777"
+					"download"		"F5FF09F4F0E7CC1FBFED2EE34E801079"
+				}
+				"nightly"
+				{
+					"gid"		"1EB257A1406352E4F7426ED500BAA3AF"
+					"size"		"A3B2BD56F1EAF22E22F8F55ABB7C122D"
+					"download"		"C41DA7A054DF2951AE7B20972476FC4F"
+				}
+				"nightly-prod"
+				{
+					"gid"		"F9473B0E9F94B6DCC4BCDD046D937C1A"
+					"size"		"3E45E2E210D1E876C842FD0C2D3B47DD"
+					"download"		"B8AE821A222C5467817B86384A5801F1"
+				}
+			}
+		}
+		"228783"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6289540402655901251"
+					"size"		"156325636"
+					"download"		"43395936"
+				}
+				"release_candidate"
+				{
+					"gid"		"6289540402655901251"
+					"size"		"156325636"
+					"download"		"43395936"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"jenkins_builds"
+				{
+					"gid"		"183CADB406301EB7A910DE7759A399B2"
+					"size"		"1F72ADC5D92E1AEEF48E14D4F42A9929"
+					"download"		"D29F0D0F63BCB1659C3827B1C67F9DB5"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10384546"
+				"timeupdated"		"1674594940"
+			}
+			"jenkins_builds"
+			{
+				"buildid"		"10384546"
+				"pwdrequired"		"1"
+				"timeupdated"		"1674498753"
+			}
+			"nightly"
+			{
+				"buildid"		"1569738"
+				"pwdrequired"		"1"
+				"timeupdated"		"1484442007"
+			}
+			"nightly-prod"
+			{
+				"buildid"		"1569740"
+				"pwdrequired"		"1"
+				"timeupdated"		"1484442111"
+			}
+			"release_candidate"
+			{
+				"buildid"		"10384546"
+				"description"		"Main Release Candidate"
+				"timeupdated"		"1674499966"
+			}
+			"unharmonious"
+			{
+				"buildid"		"1536482"
+				"timeupdated"		"1538440637"
+			}
+		}
+	}
+}
