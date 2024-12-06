@@ -1,0 +1,80 @@
+"appinfo"
+{
+	"appid"		"245640"
+	"common"
+	{
+		"name"		"Gateways Editor"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"parent"		"216290"
+		"associations"
+		{
+		}
+		"gameid"		"245640"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Gateways Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GatewaysEditor.exe"
+				"description"		"Launch"
+				"workingdir"		"."
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"245641"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7613216071731054202"
+					"size"		"13415384"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"132577"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
