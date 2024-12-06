@@ -1,0 +1,157 @@
+"appinfo"
+{
+	"appid"		"638100"
+	"common"
+	{
+		"name"		"Kreedz Climbing Dedicated Server"
+		"type"		"Tool"
+		"parent"		"626680"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"9b5271b525119645994adf9a1f23e76fd7e6972d"
+		"logo_small"		"9b5271b525119645994adf9a1f23e76fd7e6972d_thumb"
+		"icon"		"9c9e2463d9ad8d83d12466b78a2cd55a55aec8a3"
+		"clienticon"		"6b5099ffe19613cdfc9a44ceb99415c3496caf23"
+		"clienttga"		"9b330e552fae84896fcc01e3ec56e10120683be8"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"638100"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		"kz"
+	}
+	"config"
+	{
+		"installdir"		"KreedzClimbingDedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game kz"
+				"type"		"server"
+			}
+			"1"
+			{
+				"executable"		"bin\\kz\\LaunchSDKTool.exe"
+				"arguments"		"-tool srcds -args -game kz"
+				"workingdir"		"bin"
+				"description"		"Launch Dedicated Server (No Steam)"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"638101"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8347484663756080731"
+					"size"		"2871630711"
+					"download"		"849150096"
+				}
+			}
+		}
+		"638102"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7060642637474781416"
+					"size"		"112194242"
+					"download"		"35258992"
+				}
+			}
+		}
+		"638103"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8821167072487144790"
+					"size"		"239392"
+					"download"		"94000"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10014198"
+				"timeupdated"		"1669360054"
+			}
+		}
+	}
+}
