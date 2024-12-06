@@ -1,0 +1,161 @@
+"appinfo"
+{
+	"appid"		"378200"
+	"common"
+	{
+		"name"		"Football Manager 2016 Editor"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"e965c6d71dd28677b13059f5036faac5304a00f7"
+		"logo_small"		"e965c6d71dd28677b13059f5036faac5304a00f7_thumb"
+		"clienticon"		"5e4d671ecafb35db369251cd9daec721a7f52cef"
+		"clienttga"		"2a057f087fa448ff735007468d7f479aa393d2a5"
+		"icon"		"5d7e320c1758bd8f47ee29a9cec2d0e807f466e8"
+		"clienticns"		"b6ff5d54b8bbf0a5a1ef71728d6dadc4f4a7ed60"
+		"linuxclienticon"		"1578bb8c990fc5143e0eb1fbb5723c048b73c421"
+		"associations"
+		{
+		}
+		"gameid"		"378200"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Football Manager 2016 Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"editor.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"editor.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"editor"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"378201"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5732301455176362190"
+					"size"		"78132997"
+					"download"		"22046000"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"sega-test"
+				{
+					"gid"		"2D1AD931B1DA78DDE129E4C2914EE433"
+					"size"		"AC0F4980E3D8D2D238737484D16EC1AE"
+					"download"		"E765EFF4D0B0CC7D1F6A1258E62E0E01"
+				}
+				"si-test"
+				{
+					"gid"		"E51A82623BA47381EBAEE45ADEF0D067"
+					"size"		"3DD4574210B5DA3AA1FE3CEE76B2A594"
+					"download"		"D7F2E16EF70718E5DF6AB9F44D5B33A9"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1236598"
+				"timeupdated"		"1469106603"
+			}
+			"sega-test"
+			{
+				"buildid"		"1236598"
+				"pwdrequired"		"1"
+				"timeupdated"		"1469118840"
+			}
+			"si-test"
+			{
+				"buildid"		"1236598"
+				"pwdrequired"		"1"
+				"timeupdated"		"1469027586"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"appidredirect"		"378120"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sports Interactive/Football Manager 2016/cloud/games"
+				"pattern"		"*.fm"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sports Interactive/Football Manager 2016/cloud/games"
+				"pattern"		"*.fmt"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sports Interactive/Football Manager 2016/cloud/games"
+				"pattern"		"*.fmv"
+			}
+			"copied_from_parent"		"1"
+		}
+		"rootoverrides"
+		{
+			"1"
+			{
+				"os"		"macos"
+				"oscompare"		"="
+				"root"		"WinAppDataLocal"
+				"useinstead"		"MacAppSupport"
+			}
+			"2"
+			{
+				"os"		"linux"
+				"oscompare"		"="
+				"root"		"WinAppDataLocal"
+				"useinstead"		"LinuxXdgDataHome"
+			}
+		}
+	}
+}
