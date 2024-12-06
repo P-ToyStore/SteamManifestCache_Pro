@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"393250"
+	"common"
+	{
+		"name"		"Savage Resurrection Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"clienticon"		"01978e6055c733892fa04e7457b6e7f749c16c08"
+		"clienttga"		"a6f7df39e380cd81311e9683eeee3019427c1320"
+		"icon"		"14d04bdbfc25b5618ae98d77f2c772ba09e39c88"
+		"logo"		"0bbdf6021432705ae82c93eac8bc64783bc9940e"
+		"logo_small"		"0bbdf6021432705ae82c93eac8bc64783bc9940e_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"393250"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Savage Resurrection Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Savage/Binaries/Win64/SavageServer-Win64-Shipping.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Savage/Binaries/Linux/SavageServer-Linux-Shipping"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"393253"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3042861362821456802"
+					"size"		"939551329"
+					"download"		"400247312"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"gid"		"CE2B6E4CE113A9294D8D7D016619B000"
+					"size"		"FED773E4ECA76836DB4EBC9D746A2C5D"
+					"download"		"998C91FA0E9621BB68EFD9D3E71BD94D"
+				}
+				"testing"
+				{
+					"gid"		"B5FACC628CF8ED469C3EAF46A091EA66"
+					"size"		"989DB7CD57F669FDF331625B1FA05905"
+					"download"		"F436773B7D0A736C84B09957B8801241"
+				}
+			}
+		}
+		"393255"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2562657548525880596"
+					"size"		"805005332"
+					"download"		"366537520"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"gid"		"FD90AE284202BF5D3196B84BBB252F0B"
+					"size"		"79559EBB7B30FB259E962D7670B1C858"
+					"download"		"AD5BA2BF8CA93CDE7D68FF5D189098B8"
+				}
+				"testing"
+				{
+					"gid"		"ACCF14B77748172A5FC2EF482A714B82"
+					"size"		"C30896E77F632F4C0847C9A059A0E60B"
+					"download"		"E4295D860B26FC46715E4F104F0203B3"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1350771"
+				"timeupdated"		"1474552513"
+			}
+			"development"
+			{
+				"buildid"		"1284851"
+				"pwdrequired"		"1"
+				"timeupdated"		"1471453401"
+			}
+			"testing"
+			{
+				"buildid"		"1350771"
+				"pwdrequired"		"1"
+				"timeupdated"		"1474546591"
+			}
+		}
+	}
+}
