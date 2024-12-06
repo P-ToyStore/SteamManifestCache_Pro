@@ -1,0 +1,196 @@
+"appinfo"
+{
+	"appid"		"2951670"
+	"common"
+	{
+		"name"		"Total War: PHARAOH DYNASTIES - Assembly Kit"
+		"type"		"Tool"
+		"parent"		"2951630"
+		"clienttga"		"f6db08231a6dbf535f90b63bb4e7ab23f7bbc44e"
+		"clienticon"		"4073fc72f7d6714d1487e74277e0cdda33a2e4a1"
+		"icon"		"1f0ed16e5f39a05582b2f08f61aa394bc148719d"
+		"releasestate"		"released"
+		"gameid"		"2951670"
+	}
+	"config"
+	{
+		"installdir"		"Total War PHARAOH DYNASTIES"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"assembly_kit\\binaries\\BOB.modder.x64.exe"
+				"arguments"		"-no_console"
+				"workingdir"		"assembly_kit\\binaries"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Exporter: BOB"
+				}
+				"description"		"Exporter: BOB"
+			}
+			"1"
+			{
+				"executable"		"assembly_kit\\dave\\DaVE.retail.x64.exe"
+				"workingdir"		"assembly_kit\\dave"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Database Editor: Dave"
+				}
+				"description"		"Database Editor: Dave"
+			}
+			"2"
+			{
+				"executable"		"assembly_kit\\binaries\\Tweak.modder.x64.exe"
+				"arguments"		"/standalone TerrainMetadataEditor"
+				"workingdir"		"assembly_kit\\binaries"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Battle Map Editor: Terry"
+				}
+				"description"		"Battle Map Editor: Terry"
+			}
+			"3"
+			{
+				"executable"		"assembly_kit\\binaries\\Tweak.modder.x64.exe"
+				"arguments"		"/standalone VariantEditor"
+				"workingdir"		"assembly_kit\\binaries"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Variant Editor"
+				}
+				"description"		"Variant Editor"
+			}
+			"4"
+			{
+				"executable"		"assembly_kit\\binaries\\browse.bat"
+				"arguments"		"http://wiki.totalwar.com/w/Total_War_WARHAMMER_Assembly_Kit_Manual"
+				"workingdir"		"assembly_kit\\binaries"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Show Assembly Kit Manual"
+				}
+				"description"		"Show Assembly Kit Manual"
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2951671"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"985919540334159602"
+					"size"		"3867015309"
+					"download"		"2370352640"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"launcher_test_2"
+				{
+					"gid"		"947CB1317E9EA6E3F1072BC72645334C"
+					"size"		"DAACEA7C3B8FCBF225067B6E873C80F9"
+					"download"		"08D4896F8F35B9E610844F4ACB2DA8A6"
+				}
+				"nightly"
+				{
+					"gid"		"F03A044564593B698BB273172F8B5552"
+					"size"		"1BB34AC603611FDF4331975868084919"
+					"download"		"949D006729B9AF03127C672C88CDDDE7"
+				}
+				"patch"
+				{
+					"gid"		"C245E095C731021B80840BE3A7A6BAC0"
+					"size"		"E909280A5424363B9B40981F4575DE79"
+					"download"		"A236AD30CC743B02FC48D1F80AC6C271"
+				}
+				"upload_test"
+				{
+					"gid"		"CAA259C69C48DCA42081380FC398505B"
+					"size"		"E721BE1427963FC7AD4C37393CCA5631"
+					"download"		"312B14C0926AB4E7B6DCE656C6AF0E8E"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15604172"
+				"timeupdated"		"1726149634"
+			}
+			"launcher_test_2"
+			{
+				"buildid"		"14601450"
+				"pwdrequired"		"1"
+				"timeupdated"		"1717520231"
+			}
+			"nightly"
+			{
+				"buildid"		"16596250"
+				"pwdrequired"		"1"
+				"timeupdated"		"1733105956"
+			}
+			"patch"
+			{
+				"buildid"		"16115796"
+				"pwdrequired"		"1"
+				"timeupdated"		"1729464097"
+			}
+			"upload_test"
+			{
+				"buildid"		"15073662"
+				"pwdrequired"		"1"
+				"timeupdated"		"1721295101"
+			}
+		}
+	}
+}
