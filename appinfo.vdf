@@ -1,0 +1,115 @@
+"appinfo"
+{
+	"appid"		"460300"
+	"common"
+	{
+		"name"		"Ice Lakes Dedicated Server"
+		"type"		"Tool"
+		"clienttga"		"a838297233a8dbfe27cec53051f98d666f1eb058"
+		"oslist"		"windows,linux"
+		"icon"		"f3e165ab8a2eae979bcbb7e4a70efa15d23abfc3"
+		"logo"		"c4aeed9526ef58f3d03b11f7898bc043d7b1b32f"
+		"logo_small"		"c4aeed9526ef58f3d03b11f7898bc043d7b1b32f_thumb"
+		"clienticon"		"760e8fe888b859ee307717539ff7d879987be8c0"
+		"linuxclienticon"		"9bcf589160c8721da609f2320f34994a6e4cdebb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"460300"
+	}
+	"extended"
+	{
+		"gamedir"		"IceLakes"
+		"serverbrowsername"		"Ice Lakes"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Ice Lakes Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"IceLakes_Server.exe"
+				"arguments"		"-batchmode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"IceLakes_Server.x86"
+				"arguments"		"-batchmode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"460301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2290554916076242563"
+					"size"		"1734418169"
+					"download"		"520389616"
+				}
+				"beta"
+				{
+					"gid"		"2290554916076242563"
+					"size"		"1734418169"
+					"download"		"520389616"
+				}
+			}
+		}
+		"460302"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1864966206358875427"
+					"size"		"1778695879"
+					"download"		"534734464"
+				}
+				"beta"
+				{
+					"gid"		"1864966206358875427"
+					"size"		"1778695879"
+					"download"		"534734464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3035013"
+				"timeupdated"		"1534346604"
+			}
+			"beta"
+			{
+				"buildid"		"3035013"
+				"timeupdated"		"1534346026"
+			}
+		}
+	}
+}
