@@ -1,0 +1,141 @@
+"appinfo"
+{
+	"appid"		"329710"
+	"common"
+	{
+		"name"		"Fortress Forever Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienticon"		"815b73fc7aad255536ceaf24d3115815a1fd56e7"
+		"clienttga"		"fb3469eb37b706446ee638ce3785cda409bd8c8a"
+		"icon"		"3f217a9298a20c210cc48fe2b2aee8b937fa2bc0"
+		"logo"		"b0a1574e805c41826624ce2896060ffd7b173f66"
+		"logo_small"		"b0a1574e805c41826624ce2896060ffd7b173f66_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"329710"
+	}
+	"extended"
+	{
+		"gamedir"		"FortressForever"
+		"serverbrowsername"		"Fortress Forever"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Fortress Forever Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game FortressForever"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game fortressforever"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"2013"
+				}
+				"description_loc"
+				{
+					"english"		"Launch (2013)"
+				}
+				"description"		"Launch (2013)"
+			}
+			"2"
+			{
+				"executable"		"./srcds_run"
+				"arguments"		"-game fortressforever"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"2013"
+				}
+				"description_loc"
+				{
+					"english"		"Launch (2013)"
+				}
+				"description"		"Launch (2013)"
+			}
+		}
+	}
+	"depots"
+	{
+		"329711"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9087959644111766100"
+					"size"		"2395731915"
+					"download"		"1306927360"
+				}
+				"2013"
+				{
+					"gid"		"6493595524796735749"
+					"size"		"1784061538"
+					"download"		"683083104"
+				}
+			}
+		}
+		"329712"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"2013"
+				{
+					"gid"		"7932341968874921316"
+					"size"		"53376131"
+					"download"		"14073824"
+				}
+			}
+		}
+		"329713"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"2013"
+				{
+					"gid"		"6606465692445153757"
+					"size"		"87255716"
+					"download"		"28201248"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3980769"
+				"timeupdated"		"1562210363"
+			}
+			"2013"
+			{
+				"buildid"		"16485599"
+				"description"		"Port of FF to the 2013 Source SDK"
+				"timeupdated"		"1732189607"
+			}
+		}
+	}
+}
