@@ -1,0 +1,151 @@
+"appinfo"
+{
+	"appid"		"620110"
+	"common"
+	{
+		"name"		"The Archotek Project Dedicated Server"
+		"type"		"Tool"
+		"parent"		"608990"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"1a841092663a2a9007ea0449c30d0d83e2516225"
+		"logo_small"		"1a841092663a2a9007ea0449c30d0d83e2516225_thumb"
+		"clienticon"		"7ad2ce1a9c09d0057cacdae77adf5e5b60ad4b80"
+		"clienttga"		"8b24ba7b2f2b0f4658eb1764c4f66f92b03f1f9e"
+		"icon"		"7dd1c884edf15d08559611707d780c61a78b6806"
+		"clienticns"		"ad66fab860ff0af2949b9357bd1cc63a6d85f049"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"620110"
+	}
+	"config"
+	{
+		"installdir"		"The Archotek Project Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ATPServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"ATPServer.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"ATPServer.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"620111"
+		{
+		}
+		"620112"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1478694838181992740"
+					"size"		"4300363441"
+					"download"		"1011035776"
+				}
+				"development"
+				{
+					"gid"		"1478694838181992740"
+					"size"		"4300363441"
+					"download"		"1011035776"
+				}
+				"legacy"
+				{
+					"gid"		"5236715894327647921"
+					"size"		"4300166833"
+					"download"		"1010981472"
+				}
+			}
+		}
+		"620113"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+		}
+		"620114"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8615775121055787031"
+					"size"		"1343427670"
+					"download"		"336291328"
+				}
+				"development"
+				{
+					"gid"		"8615775121055787031"
+					"size"		"1343427670"
+					"download"		"336291328"
+				}
+				"legacy"
+				{
+					"gid"		"8615775121055787031"
+					"size"		"1343427670"
+					"download"		"336291328"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4768267"
+				"timeupdated"		"1583969694"
+			}
+			"development"
+			{
+				"buildid"		"4768267"
+				"timeupdated"		"1583969685"
+			}
+			"legacy"
+			{
+				"buildid"		"4755863"
+				"timeupdated"		"1583969673"
+			}
+		}
+	}
+}
