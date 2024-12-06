@@ -1,0 +1,175 @@
+"appinfo"
+{
+	"appid"		"739120"
+	"common"
+	{
+		"name"		"BattleRush Dedicated Server"
+		"type"		"Tool"
+		"parent"		"734580"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"icon"		"0e1681601b3d4c6f6d5dc180f1201f29a6c765fd"
+		"logo"		"86474edfbc4a33aae8d533b483a71a83454d5bf9"
+		"logo_small"		"86474edfbc4a33aae8d533b483a71a83454d5bf9_thumb"
+		"clienticon"		"5ca648daf3054f4b57721987b7f8b3527b6ca050"
+		"clienttga"		"8ad675cd2a09aff64b0e7d9ed6a7c1e4cf873be1"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"739120"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"BattleRush Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cv2_Base/Binaries/Linux/Cv2_BaseServer_Shipping"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cv2_Base/Binaries/Win64/Cv2_BaseServer_Shipping.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Cv2_Base/Binaries/Linux/Cv2_BaseServer"
+				"description"		"Development build"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"devel"
+				}
+			}
+			"3"
+			{
+				"executable"		"Cv2_Base/Binaries/Win64/Cv2_BaseServer.exe"
+				"description"		"Development build"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"devel"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"739121"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4799816964070848189"
+					"size"		"825448967"
+					"download"		"285826176"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"devel"
+				{
+					"gid"		"8AE85E5817B958153EFFC9F5EF740DF2"
+					"size"		"5DF33A0C0E91F827B87D0778F1B67DE6"
+					"download"		"4FB0B8EB96A5B2CB5BEC5B9981141B75"
+				}
+			}
+		}
+		"739122"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1257568331986116298"
+					"size"		"295953686"
+					"download"		"227389424"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"devel"
+				{
+					"gid"		"F25142E50AD15BEE9CCFD131BB51273C"
+					"size"		"8E5D60195DDED3F4032A10094BD7EFA4"
+					"download"		"3ED0D9104FBBC4A1F48382CB1F0211A6"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2634492"
+				"timeupdated"		"1522139406"
+			}
+			"devel"
+			{
+				"buildid"		"2634490"
+				"pwdrequired"		"1"
+				"timeupdated"		"1522084151"
+			}
+		}
+	}
+}
