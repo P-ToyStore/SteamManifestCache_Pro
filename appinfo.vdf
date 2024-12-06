@@ -1,0 +1,136 @@
+"appinfo"
+{
+	"appid"		"2261800"
+	"common"
+	{
+		"name"		"SCP: Labrat Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1402020"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"d6fed5adb914a2362aa4ff4202caa0a60610158e"
+		"clienticon"		"8f9bd9117c3ef9aba25444c41ac32bfa84572e8c"
+		"clienttga"		"8a5243e6f70a146171b36eb444b8b28bf9b1580d"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"2261800"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"SCP Labrat Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SCPLR_rcon"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"SCPLR_rcon.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2261801"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"365158480203414205"
+					"size"		"2315904986"
+					"download"		"1722502352"
+				}
+				"breach-beta"
+				{
+					"gid"		"8970783982612472148"
+					"size"		"2609817154"
+					"download"		"1934024352"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"labmouse"
+				{
+					"gid"		"0505FD8F3DA8F31455224832029DB6FE"
+					"size"		"0181FA215EEAAD8AE3A72E1D9FA7E10C"
+					"download"		"7EA014D9C5D83DAD98D1DF7241E39965"
+				}
+			}
+		}
+		"2261802"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5895513102273489919"
+					"size"		"2254913516"
+					"download"		"1687538800"
+				}
+				"breach-beta"
+				{
+					"gid"		"5550074590936414148"
+					"size"		"2467261564"
+					"download"		"1854726144"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"labmouse"
+				{
+					"gid"		"AF2E4E089F89905FD4F29A04DD95CEED"
+					"size"		"4FE74773E489FB74DCEEE86B93C0A372"
+					"download"		"C8BA6ACDF9043F7FF59750EE78AB64E5"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12046757"
+				"timeupdated"		"1693433327"
+			}
+			"breach-beta"
+			{
+				"buildid"		"11763346"
+				"description"		" Beta for breach multiplayer mode"
+				"timeupdated"		"1690004119"
+			}
+			"labmouse"
+			{
+				"buildid"		"12046757"
+				"pwdrequired"		"1"
+				"timeupdated"		"1693200611"
+			}
+		}
+	}
+}
