@@ -1,0 +1,106 @@
+"appinfo"
+{
+	"appid"		"653750"
+	"common"
+	{
+		"name"		"Pro Cycling Manager 2017 - Stage and Database Editor"
+		"type"		"Tool"
+		"clienticon"		"05721394a968ceede9378e293dd9371bb86b76df"
+		"clienttga"		"fb6893637390530d2ee393d0b5d5e33466ee138b"
+		"icon"		"fc84583933cc0de538396c33ee43f953f56d7be5"
+		"logo"		"1cf95a31f5e0e8499c2201e4ac3473122a69f369"
+		"logo_small"		"1cf95a31f5e0e8499c2201e4ac3473122a69f369_thumb"
+		"oslist"		"windows"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"associations"
+		{
+		}
+		"gameid"		"653750"
+	}
+	"config"
+	{
+		"installdir"		"Pro Cycling Manager 2017 - Stage and Database Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CTStageEditor_64.exe"
+				"description"		"Stage Editor"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DatabaseEditor\\PCM_Database_Editor.exe"
+				"workingdir"		"DatabaseEditor"
+				"description"		"Database Editor"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"653751"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7775110447534950349"
+					"size"		"884689295"
+					"download"		"860749584"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"candidate"
+				{
+					"gid"		"2FB7DE2F628E4841B2D47F986860C8FC"
+					"size"		"1FE66E8512F4CE60BCD0676B3A4414B3"
+					"download"		"B4C7EE2196C0B46640297B2A359CDB3B"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1902457"
+				"timeupdated"		"1497961518"
+			}
+			"candidate"
+			{
+				"buildid"		"1902457"
+				"pwdrequired"		"1"
+				"timeupdated"		"1497958214"
+			}
+		}
+	}
+}
