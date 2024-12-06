@@ -1,0 +1,83 @@
+"appinfo"
+{
+	"appid"		"366360"
+	"common"
+	{
+		"name"		"Modular Combat Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"parent"		"349480"
+		"oslist"		""
+		"logo"		"13d1da1d56bacd16911a8282ef7dd96601e9c4f7"
+		"logo_small"		"13d1da1d56bacd16911a8282ef7dd96601e9c4f7_thumb"
+		"icon"		"a4dab55f6c7ba3dd2da926cb55894b3ce26eca1c"
+		"clienttga"		"eb07343d16c63ba1f06eaf6236a60d87c1142599"
+		"clienticon"		"971602c4571d926f9a8a113a91373da4eea83d5b"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"366360"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		"modularcombat"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Modular Combat"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"2007\\srcds.exe"
+				"arguments"		"-steam"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"349484"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"depotfromapp"		"349480"
+			"sharedinstall"		"2"
+		}
+		"366361"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"110415543804442932"
+					"size"		"1043349"
+					"download"		"364320"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"649363"
+				"timeupdated"		"1529567677"
+			}
+		}
+	}
+}
