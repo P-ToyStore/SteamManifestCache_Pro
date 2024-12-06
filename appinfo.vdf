@@ -1,0 +1,110 @@
+"appinfo"
+{
+	"appid"		"201890"
+	"common"
+	{
+		"name"		"Nuclear Dawn Authoring Tools"
+		"type"		"Tool"
+		"oslist"		"windows"
+		"osarch"		""
+		"gameid"		"201890"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"Nuclear Dawn Authoring Tools"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"201891"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/SDKLauncher.exe"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Nuclear Dawn"
+	}
+	"depots"
+	{
+		"201891"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3710433621364001997"
+					"size"		"71223342"
+					"download"		"16986368"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"B9130EA93E764D1D592ADAB15CF519C9"
+					"size"		"06C693BC30CF983A108C3E4CEC441CA2"
+					"download"		"B471D739FD354127214EB3E457AD06F1"
+				}
+				"previous"
+				{
+					"gid"		"6E3904A08C4E8D84A1204E4606190854"
+					"size"		"42524CDE94EC3DDE518A26549BA2DBC0"
+					"download"		"05B2B40029372E49EBFC65FD25DF0C6C"
+				}
+			}
+		}
+		"17711"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"17710"
+			"sharedinstall"		"2"
+		}
+		"17715"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"17710"
+			"sharedinstall"		"2"
+		}
+		"17712"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"depotfromapp"		"17710"
+			"sharedinstall"		"2"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3212412"
+				"timeupdated"		"1539564148"
+			}
+			"beta"
+			{
+				"buildid"		"2990997"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533001828"
+			}
+			"previous"
+			{
+				"buildid"		"2791030"
+				"pwdrequired"		"1"
+				"timeupdated"		"1533072926"
+			}
+		}
+	}
+}
