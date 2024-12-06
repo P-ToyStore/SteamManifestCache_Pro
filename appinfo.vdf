@@ -1,0 +1,123 @@
+"appinfo"
+{
+	"appid"		"1178410"
+	"common"
+	{
+		"name"		"Pro Cycling Manager 2020 - Stage and Database Editor"
+		"type"		"Tool"
+		"parent"		"1178400"
+		"clienticon"		"d016c59c859b547330c6e3a0f4738e4e25bf39eb"
+		"clienttga"		"48b60de95035fda1968f007f22f1e5bcbe1ba26e"
+		"icon"		"5fbf857646ead27aa966ab216c4893b6b070b7b8"
+		"logo"		"ddee10777df4a25e986ba6279945118c46c645c9"
+		"logo_small"		"ddee10777df4a25e986ba6279945118c46c645c9_thumb"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1178410"
+	}
+	"config"
+	{
+		"installdir"		"ProCyclingManager2020Tool"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CTStageEditor_64.exe"
+				"description"		"Stage Editor"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DatabaseEditor\\PCM_Database_Editor.exe"
+				"workingdir"		"DatabaseEditor"
+				"description"		"Database Editor"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1178411"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"20797353143470931"
+					"size"		"1072554215"
+					"download"		"1047854096"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"cyanide-stable"
+				{
+					"gid"		"839134903D2C3F348EAF7CACA50ECE34"
+					"size"		"B49520BB22DE391CC828A66A9DE90672"
+					"download"		"62032702D7527838D9098FFEDB3B7871"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5120680"
+				"timeupdated"		"1591277957"
+			}
+			"cyanide-stable"
+			{
+				"buildid"		"5120680"
+				"pwdrequired"		"1"
+				"timeupdated"		"1591277869"
+			}
+		}
+	}
+}
