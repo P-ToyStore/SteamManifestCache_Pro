@@ -1,0 +1,99 @@
+"appinfo"
+{
+	"appid"		"432060"
+	"common"
+	{
+		"name"		"Blacklight: Retribution Community Editor"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"432060_eula_0"
+				"name"		"Blacklight: Retribution Community Editor EULA"
+				"url"		"http://store.steampowered.com//eula/432060_eula_0"
+			}
+		}
+		"logo"		"0eddb6e59abfbbe39f8b6c52c2b63bbfc4076c72"
+		"logo_small"		"0eddb6e59abfbbe39f8b6c52c2b63bbfc4076c72_thumb"
+		"icon"		"a133cdb740e665124d1370ff749397f28f12881e"
+		"clienticon"		"aa0db43057bc748d42d6ed42611adf90becc0dee"
+		"clienttga"		"d42be9c8a1d212509ca9cd21b593c2f549be94a6"
+		"associations"
+		{
+		}
+		"gameid"		"432060"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Blacklight Retribution Community Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win64\\FoxGame-x64-Release.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"432061"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"993230614153170223"
+					"size"		"27078620348"
+					"download"		"15322103488"
+				}
+			}
+		}
+		"workshopdepot"		"432060"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1108290"
+				"timeupdated"		"1462386326"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
