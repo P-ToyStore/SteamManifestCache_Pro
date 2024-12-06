@@ -1,0 +1,130 @@
+"appinfo"
+{
+	"appid"		"953860"
+	"common"
+	{
+		"name"		"Blade Symphony SDK"
+		"type"		"Tool"
+		"parent"		"225600"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"31cb599268257c5833b16a0304cb2c3078efc574"
+		"logo_small"		"31cb599268257c5833b16a0304cb2c3078efc574_thumb"
+		"icon"		"808b009cee829b5b77f05c5bb4ae0099df728da7"
+		"clienttga"		"d1480187eb11a2ccb4bf540e369eb136732b055a"
+		"clienticon"		"c6b422b3d0df030eec5188e2423c544045a4b9a2"
+		"clienticns"		"137195563886aab6dcbae1e4ba8c356cd1577b46"
+		"linuxclienticon"		"54286c386de88305e1b4e56f69b761b3886f0303"
+		"associations"
+		{
+		}
+		"gameid"		"953860"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"Blade Symphony"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\win32\\sdklauncher.exe"
+				"workingdir"		"bin\\win32\\"
+				"description"		"Blade Symphony SDK (x32)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"953861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5411964997264368201"
+					"size"		"39462895"
+					"download"		"13061152"
+				}
+				"release_candidate"
+				{
+					"gid"		"5411964997264368201"
+					"size"		"39462895"
+					"download"		"13061152"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"jenkins_builds"
+				{
+					"gid"		"63501A1D5D55DC221E6FC813FB288AFD"
+					"size"		"4B3AB60CA9545CF64DF938BA7DADDE30"
+					"download"		"CD531EE5EB1905784A109EAB23FBBF6F"
+				}
+			}
+		}
+		"953862"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2639945218633659880"
+					"size"		"42098341"
+					"download"		"13260032"
+				}
+				"release_candidate"
+				{
+					"gid"		"2639945218633659880"
+					"size"		"42098341"
+					"download"		"13260032"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"jenkins_builds"
+				{
+					"gid"		"0E9AD0926F54D718F71447A0583709B8"
+					"size"		"8BDDF9100DD5F71688D70405E0B77A1D"
+					"download"		"AA1B31E6CE35EF400A59651C88D7314B"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10384547"
+				"timeupdated"		"1674594945"
+			}
+			"jenkins_builds"
+			{
+				"buildid"		"10384547"
+				"pwdrequired"		"1"
+				"timeupdated"		"1674498765"
+			}
+			"release_candidate"
+			{
+				"buildid"		"10384547"
+				"description"		"Main Release Candidate"
+				"timeupdated"		"1674499956"
+			}
+		}
+	}
+}
