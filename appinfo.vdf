@@ -1,0 +1,125 @@
+"appinfo"
+{
+	"appid"		"311410"
+	"common"
+	{
+		"name"		"Sky Nations Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"77ccf833d194ac0314fee85d7a98cc6f9c027407"
+		"logo_small"		"77ccf833d194ac0314fee85d7a98cc6f9c027407_thumb"
+		"icon"		"17f8720e4019a68c01e70098bdb6ded19741de7b"
+		"clienticon"		"6fc7b8bb22f0f1d17989e8819961a2117f20c73e"
+		"clienttga"		"003df5fa339fb05dfa38f66e2196538cbed9c930"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"311410"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sky Nations Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DedicatedServer.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"mono"
+				"arguments"		"DedicatedServer.exe"
+				"description"		"Launch Dedicated Server for Linux"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"311411"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2752036899471021565"
+					"size"		"67400823"
+					"download"		"20489536"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1218742"
+				"timeupdated"		"1467989055"
+			}
+		}
+	}
+}
