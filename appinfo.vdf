@@ -1,0 +1,173 @@
+"appinfo"
+{
+	"appid"		"1307050"
+	"common"
+	{
+		"name"		"Spoils of Plunder dedicated server"
+		"type"		"Tool"
+		"parent"		"982250"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"681030ae0d742d8b2988252cd2a814b0163a81b4"
+		"logo_small"		"681030ae0d742d8b2988252cd2a814b0163a81b4_thumb"
+		"icon"		"e258e051009bfce9dff132ba5f4de725261789b3"
+		"clienticon"		"6e8bf9f6b888eb04e567f53bd3f8644aeaa649ba"
+		"clienttga"		"86aae5a3f4d95dc59358f5532d078a0948570383"
+		"linuxclienticon"		"8ff90290b07f94a474b210cdef8a8d558af0237b"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1307050"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"SOPServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HostDuel.bat"
+				"description"		"Launch duel server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"HostRumble.bat"
+				"description"		"Launch rumble server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"SOP\\Binaries\\Linux\\SOPServer-Linux-Shipping"
+				"arguments"		"-rumble"
+				"description"		"Launch rumble server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"SOP\\Binaries\\Linux\\SOPServer-Linux-Shipping"
+				"description"		"Launch duel server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1307051"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1523941918159576744"
+					"size"		"217604013"
+					"download"		"140902640"
+				}
+			}
+		}
+		"1307052"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4991510105517689859"
+					"size"		"764075056"
+					"download"		"237453472"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5357824"
+				"timeupdated"		"1596222195"
+			}
+		}
+	}
+}
