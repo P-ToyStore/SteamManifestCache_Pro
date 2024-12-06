@@ -1,0 +1,120 @@
+"appinfo"
+{
+	"appid"		"1139720"
+	"common"
+	{
+		"name"		"Pro Cycling Manager 2019 - Stage and Database Editor"
+		"type"		"Tool"
+		"parent"		"936140"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"39a228ddc74f1ea8f8aafebea5741a56d7c0666e"
+		"logo_small"		"39a228ddc74f1ea8f8aafebea5741a56d7c0666e_thumb"
+		"icon"		"d047598c5ab0365bd8877d247f03948064cbc7fc"
+		"clienticon"		"15dc68c88404f47877cf4f0e119ddbe3e8eaea1c"
+		"clienttga"		"a2cc2deb3156783f534783359393c231d6cee652"
+		"metacritic_name"		"Pro Cycling Manager 2019 - Stage and Database Editor"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a34e8ed3045ea77409ce929523c33387e0abe96c.jpg"
+		"store_asset_mtime"		"1566918207"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_62"		"1"
+		}
+		"steam_release_date"		"1566324000"
+		"community_hub_visible"		"1"
+		"gameid"		"1139720"
+	}
+	"config"
+	{
+		"installdir"		"Pro Cycling Manager 2019 - Stage and Database Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CTStageEditor_64.exe"
+				"description"		"Stage Editor"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DatabaseEditor\\PCM_Database_Editor.exe"
+				"workingdir"		"DatabaseEditor"
+				"description"		"Database Editor"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1139721"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6251018230562808734"
+					"size"		"1072594711"
+					"download"		"1047865840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4102525"
+				"timeupdated"		"1565731606"
+			}
+		}
+	}
+}
