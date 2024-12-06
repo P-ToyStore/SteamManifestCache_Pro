@@ -1,0 +1,256 @@
+"appinfo"
+{
+	"appid"		"323910"
+	"common"
+	{
+		"name"		"SteamVR Performance Test"
+		"type"		"Tool"
+		"releasestate"		"disabled"
+		"oslist"		"windows"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1659657600"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"SteamVR Performance Test"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b5e74f2dfa81a8babd69b6aab7e1ed7b9467ed0b.jpg"
+		"store_asset_mtime"		"1456760181"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Valve"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"57"
+		}
+		"category"
+		{
+			"category_31"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"bulgarian"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"greek"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"romanian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+			}
+		}
+		"gameid"		"323910"
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"disablestreaming"		"1"
+		"developer"		"Valve"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SteamVRPerformanceTest"
+		"launch"
+		{
+			"3"
+			{
+				"executable"		"bin\\win64\\vr.exe"
+				"arguments"		"-noassert -retail -vrperftest -autofidelity -nosound +map vr_aperture_main -uploadsystemreport"
+				"description"		"SteamVR Performance Test"
+				"type"		"default"
+			}
+			"4"
+			{
+				"executable"		"bin\\win64\\vr.exe"
+				"arguments"		"-noassert -retail -vrperftest -autofidelity -nosound +map vr_aperture_main"
+				"description"		"Without Uploading System Report to Valve"
+				"type"		"option1"
+			}
+		}
+		"vrsupport"		"openvr"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"323911"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2191138767087544039"
+					"size"		"4746214849"
+					"download"		"1971923568"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"previous"
+				{
+					"gid"		"CD76C344C89C12D4AA93660516835144"
+					"size"		"1100C67945E84E2C7BE130270DDCA21D"
+					"download"		"DC8B88F56F2FFF49FCD5CF9C3C5DA835"
+				}
+			}
+		}
+		"323912"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5164879309087810053"
+					"size"		"174145824"
+					"download"		"51443936"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"previous"
+				{
+					"gid"		"E70A49585B6899A60E4B14A5A52FDAA5"
+					"size"		"1BE6674D455A5158E65851EAB2E7884E"
+					"download"		"AA4E9D26CCADFE70805C8978E66D1661"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1042073"
+				"timeupdated"		"1458937063"
+			}
+			"previous"
+			{
+				"buildid"		"997500"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
