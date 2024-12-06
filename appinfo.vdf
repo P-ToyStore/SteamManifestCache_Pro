@@ -1,0 +1,77 @@
+"appinfo"
+{
+	"appid"		"255190"
+	"common"
+	{
+		"name"		"Rise of the Triad Ludicrous Development Kit"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"d3c7b146a5e630ead710fae9c662cc265fbfd228"
+		"logo_small"		"d3c7b146a5e630ead710fae9c662cc265fbfd228_thumb"
+		"icon"		"8c4822a1da9b469eaeb57bb9a4d01f762e767f72"
+		"clienttga"		"7a53b3bd758527e408e85905662403725dd0b10f"
+		"clienticon"		"ef5bc01a1643d5dad764a7f848ca28ad5ebf1d2b"
+		"parent"		"217140"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"gameid"		"255190"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rise of The Triad"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LDKPublisher.exe"
+				"description"		"Ludicrous Editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"255191"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5471793206920285456"
+					"size"		"11431666026"
+					"download"		"8079422192"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"ldk-beta"
+				{
+					"gid"		"872AB14B65699B74D9BDB9F2B0209564"
+					"size"		"993D0252A9B04DF8DA46CF52D16D18E3"
+					"download"		"11204CE1B45CDED6B1551E0C44015FAC"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"631745"
+			}
+			"ldk-beta"
+			{
+				"buildid"		"631745"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
