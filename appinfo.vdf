@@ -1,0 +1,187 @@
+"appinfo"
+{
+	"appid"		"2833050"
+	"common"
+	{
+		"name"		"No Love Lost Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1873120"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"icon"		"9f6c402e26c748e18b85e5c5a593b58688d3e61b"
+		"clienttga"		"46bea63ee70112935ebb604fcb71ea2353814a81"
+		"clienticon"		"fa4218b9d59b8042cb86f013688ee65b8e0b93f5"
+		"releasestate"		"released"
+		"community_hub_visible"		"1"
+		"gameid"		"2833050"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"No Love Lost Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NoLoveLostServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2833051"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4284376105199471782"
+					"size"		"4442550073"
+					"download"		"1263417120"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging_qa"
+				{
+					"gid"		"CFCC450369B8D540337BC10F5E950D1E"
+					"size"		"6AD387DFD4F062502D05E68B1AE22C9D"
+					"download"		"2356896B28654E11EADB1EBEAA7C0411"
+				}
+				"tradeshow"
+				{
+					"gid"		"4630A1B102DE1FD186E9E9AA26DE9901"
+					"size"		"B60488FBCBA72F20E4BEF0245AAF9C49"
+					"download"		"0B8002392ABE94F8386FC963B255C882"
+				}
+				"nightly"
+				{
+					"gid"		"D936D4C2482F1730EEC58331CBE2DC61"
+					"size"		"8ADFB1D2457A43022672090198D80BEC"
+					"download"		"7AEEB77404854B808A55932ED759A8EA"
+				}
+				"staging_prod"
+				{
+					"gid"		"76929FF31EB529DBFB876B0A90866C32"
+					"size"		"D132E117FD2E853A77F5AB82CF976C46"
+					"download"		"C54761977FF948E88843DC126747E55C"
+				}
+			}
+		}
+		"baselanguages"		""
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14189855"
+				"timeupdated"		"1714196806"
+			}
+			"staging_qa"
+			{
+				"buildid"		"13779053"
+				"pwdrequired"		"1"
+				"timeupdated"		"1710800342"
+			}
+			"tradeshow"
+			{
+				"buildid"		"13779053"
+				"pwdrequired"		"1"
+				"timeupdated"		"1710800522"
+			}
+			"nightly"
+			{
+				"buildid"		"14288981"
+				"pwdrequired"		"1"
+				"timeupdated"		"1715079570"
+			}
+			"staging_prod"
+			{
+				"buildid"		"14189855"
+				"pwdrequired"		"1"
+				"timeupdated"		"1714159848"
+			}
+		}
+	}
+}
