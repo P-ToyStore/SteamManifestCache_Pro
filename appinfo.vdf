@@ -1,0 +1,150 @@
+"appinfo"
+{
+	"appid"		"587020"
+	"common"
+	{
+		"name"		"Strike Vector EX Dedicated Server"
+		"type"		"Tool"
+		"parent"		"476360"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"f58dda302bd33fc0672036afa7336680574f995c"
+		"clienticon"		"0f1b8a55eea2e354d38af50e7f00476e9d13d946"
+		"icon"		"a4b566a5c3f8794b24c6327b96fca6dc954a51ad"
+		"logo"		"9904648089db22b57c8cb207a4195be120ee287a"
+		"logo_small"		"9904648089db22b57c8cb207a4195be120ee287a_thumb"
+		"freetodownload"		"1"
+		"metacritic_name"		"Strike Vector EX Dedicated Server"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_786e80ac64b3fff4ed08d7e5081db0adfd25fc33.jpg"
+		"store_asset_mtime"		"1493983811"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1500429600"
+		"gameid"		"587020"
+	}
+	"extended"
+	{
+		"gamedir"		"SVEX"
+		"serverbrowsername"		"StrikeVectorEX Dedicated Server"
+	}
+	"config"
+	{
+		"installdir"		"StrikeVectorEX-DedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SVEX\\Binaries\\Win64\\SVEXServer-Win64-Shipping.exe"
+				"arguments"		"-log"
+				"workingdir"		"SVEX\\Binaries\\Win64\\"
+				"description"		"Strike Vector EX Dedicated Server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"587021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7333664028234471173"
+					"size"		"933284026"
+					"download"		"542332704"
+				}
+				"developpers"
+				{
+					"gid"		"7333664028234471173"
+					"size"		"933284026"
+					"download"		"542332704"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2514974"
+				"timeupdated"		"1518277361"
+			}
+			"developpers"
+			{
+				"buildid"		"2514974"
+				"timeupdated"		"1518276610"
+			}
+		}
+	}
+}
