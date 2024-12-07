@@ -1,0 +1,280 @@
+"appinfo"
+{
+	"appid"		"90"
+	"common"
+	{
+		"type"		"Tool"
+		"name"		"Half-Life Dedicated Server"
+		"oslist"		""
+		"gameid"		"90"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"ValveTestApp90"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Half-Life"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"hlds.exe"
+				"arguments"		"-steam"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"language"		""
+			}
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"11"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"10"
+			"sharedinstall"		"2"
+		}
+		"4"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3422820008550101176"
+					"size"		"36583373"
+					"download"		"11094560"
+				}
+				"steam_legacy"
+				{
+					"gid"		"8690279432129063737"
+					"size"		"25737094"
+					"download"		"8090192"
+				}
+				"beta"
+				{
+					"gid"		"3422820008550101176"
+					"size"		"36583373"
+					"download"		"11094560"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"26CAA9D0D6114EB178FFB73AA2F80DBE"
+					"size"		"E20FC6B3C224A581894BAB4CE217164A"
+					"download"		"56B1A5EC9768595C9ECA395A680DD69B"
+				}
+			}
+		}
+		"5"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2602921513184876182"
+					"size"		"16173789"
+					"download"		"5310992"
+				}
+				"steam_legacy"
+				{
+					"gid"		"1292976893473204445"
+					"size"		"12788205"
+					"download"		"4814512"
+				}
+				"beta"
+				{
+					"gid"		"2602921513184876182"
+					"size"		"16173789"
+					"download"		"5310992"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"40E31FBA91B8CD48A961BB65CE468E14"
+					"size"		"9BAB5A7E65DC34B1FFB494F900904BE6"
+					"download"		"F9498711C5F82093507D488398015AC5"
+				}
+			}
+		}
+		"71"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"language"		""
+			}
+			"depotfromapp"		"70"
+			"sharedinstall"		"2"
+		}
+		"81"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"80"
+			"sharedinstall"		"2"
+			"config"
+			{
+				"mod"		"czero"
+			}
+		}
+		"31"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"30"
+			"sharedinstall"		"2"
+			"config"
+			{
+				"mod"		"dod"
+			}
+		}
+		"21"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"20"
+			"sharedinstall"		"2"
+			"config"
+			{
+				"mod"		"tfc"
+			}
+		}
+		"41"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"40"
+			"sharedinstall"		"2"
+			"config"
+			{
+				"mod"		"dmc"
+			}
+		}
+		"61"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"60"
+			"sharedinstall"		"2"
+			"config"
+			{
+				"mod"		"ricochet"
+			}
+		}
+		"51"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"50"
+			"sharedinstall"		"2"
+			"config"
+			{
+				"mod"		"gearbox"
+			}
+		}
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15961496"
+				"timeupdated"		"1728506475"
+			}
+			"steam_legacy"
+			{
+				"buildid"		"5433925"
+				"description"		"Pre-25th Anniversary Build"
+				"timeupdated"		"1700620170"
+			}
+			"beta"
+			{
+				"buildid"		"15961496"
+				"timeupdated"		"1728506866"
+			}
+			"test"
+			{
+				"buildid"		"15961496"
+				"pwdrequired"		"1"
+				"timeupdated"		"1728506842"
+			}
+		}
+	}
+}
