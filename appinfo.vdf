@@ -1,0 +1,123 @@
+"appinfo"
+{
+	"appid"		"205"
+	"common"
+	{
+		"clienttga"		"cf1ac7ec6ac21d099a2fe81bf269bfd50a550a0c"
+		"icon"		""
+		"logo"		""
+		"logo_small"		""
+		"name"		"Source Dedicated Server"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"type"		"Tool"
+		"gameid"		"205"
+	}
+	"extended"
+	{
+		"developer"		"Valve"
+		"gamedir"		"valve"
+		"homepage"		"http://www.steampowered.com"
+		"icon"		"steam/games/icon_source_ds"
+		"icon2"		"steam/games/icon_source_ds_dull"
+		"noservers"		"1"
+		"order"		"19"
+		"primarycache"		"205"
+		"state"		"eStateUnAvailable"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Source Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-steam"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"208"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3149153229693629388"
+					"size"		"995522479"
+					"download"		"0"
+				}
+			}
+		}
+		"207"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1025719905895126023"
+					"size"		"397557916"
+					"download"		"0"
+				}
+			}
+		}
+		"206"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8460749637658605693"
+					"size"		"1038409978"
+					"download"		"0"
+				}
+			}
+		}
+		"205"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"29462157349265252"
+					"size"		"20223153"
+					"download"		"0"
+				}
+			}
+		}
+		"1004"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3578600867548439549"
+					"size"		"9662208"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1002"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"123345"
+			}
+		}
+	}
+}
