@@ -1,0 +1,115 @@
+"appinfo"
+{
+	"appid"		"255470"
+	"common"
+	{
+		"name"		"Half-Life Deathmatch: Source Dedicated server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienticon"		"d991f95d96e1c76d2acb944bb09447628cd96caa"
+		"clienttga"		"bf3b23c9bf2252c27e6472c65383176002c1643c"
+		"icon"		"b4f572a6cc5a6a84ae84634c31414b9123d2f26b"
+		"linuxclienticon"		"87bda297bfca8fa26490f4a35d634d978c7da319"
+		"clienticns"		"44b51f7d161d4d16f4517d36bd9eab1589b75c9e"
+		"freetodownload"		"1"
+		"gameid"		"255470"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Half-Life Deathmatch Source Dedicated server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game hl1mp"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"255470"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2278144969926205611"
+					"size"		"949719957"
+					"download"		"442437152"
+				}
+				"prerelease"
+				{
+					"gid"		"2278144969926205611"
+					"size"		"949719957"
+					"download"		"442437152"
+				}
+			}
+		}
+		"255471"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2924862230544282892"
+					"size"		"92717248"
+					"download"		"33381872"
+				}
+				"prerelease"
+				{
+					"gid"		"2924862230544282892"
+					"size"		"92717248"
+					"download"		"33381872"
+				}
+			}
+		}
+		"255472"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5572515540873246049"
+					"size"		"66997815"
+					"download"		"17328672"
+				}
+				"prerelease"
+				{
+					"gid"		"5572515540873246049"
+					"size"		"66997815"
+					"download"		"17328672"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6935416"
+				"timeupdated"		"1625258036"
+			}
+			"prerelease"
+			{
+				"buildid"		"6935416"
+				"timeupdated"		"1625258030"
+			}
+		}
+	}
+}
