@@ -1,0 +1,182 @@
+"appinfo"
+{
+	"appid"		"1247090"
+	"common"
+	{
+		"name"		"Stormworks Dedicated Server"
+		"type"		"Tool"
+		"parent"		"573090"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"713442fc5f99903bfc55b17dc8fd45641e734e84"
+		"logo_small"		"713442fc5f99903bfc55b17dc8fd45641e734e84_thumb"
+		"icon"		"b9083429a86ade29e1c536f2ed99ee9e44869153"
+		"clienttga"		"834ef971e259b0e303992ed4652c624be72514f5"
+		"clienticon"		"67fa8bf9b3b1a81c3db10071a38a28314d991a71"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1247090"
+	}
+	"config"
+	{
+		"installdir"		"Stormworks Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"server.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"server64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1247091"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3949075681813259634"
+					"size"		"26624"
+					"download"		"5280"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"experimental"
+				{
+					"gid"		"031FA7105FBE175CF9D8B5140A122714"
+					"size"		"D4ADF08762D2153DCC581357EF6D6146"
+					"download"		"5B7B34640733D8BF14D5FD96D1E7FDEB"
+				}
+				"major-testing"
+				{
+					"gid"		"204AB484F1465086EAD14EDC237D574D"
+					"size"		"38BBB1065879E26DF67B460BBAD8DF74"
+					"download"		"7CCA9946E0426FDD85AD3CF598208BC1"
+				}
+				"minor-testing"
+				{
+					"gid"		"22FDB1065326EF40B7432FAC428F6A75"
+					"size"		"EBC1E1BC60E9C5104B3F261A0386DD3E"
+					"download"		"34CFC666F5212E92C9A74AB529597BD2"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14768962"
+				"timeupdated"		"1718805216"
+			}
+			"experimental"
+			{
+				"buildid"		"13101008"
+				"pwdrequired"		"1"
+				"timeupdated"		"1704460674"
+			}
+			"major-testing"
+			{
+				"buildid"		"13284584"
+				"pwdrequired"		"1"
+				"timeupdated"		"1706290824"
+			}
+			"minor-testing"
+			{
+				"buildid"		"14768962"
+				"pwdrequired"		"1"
+				"timeupdated"		"1718805177"
+			}
+		}
+	}
+}
