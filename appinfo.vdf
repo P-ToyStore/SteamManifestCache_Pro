@@ -1,0 +1,247 @@
+"appinfo"
+{
+	"appid"		"1262260"
+	"common"
+	{
+		"name"		"Maze Slider"
+		"type"		"Game"
+		"logo"		"6c14aff0e6c20eb066fee3999222c0b0407076a9"
+		"logo_small"		"6c14aff0e6c20eb066fee3999222c0b0407076a9_thumb"
+		"icon"		"c530cf8a1faaf492f845636e3752e48db44ef163"
+		"clienticon"		"0e9744045844eb9379b18c9d90f1e8a2a4d507ca"
+		"clienttga"		"071306f5288fb68bd0f9d28401122e97c63e48ef"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667066216"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NanningsGames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"NanningsGames"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Nannings"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1583638997"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1262260"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1664"
+			"2"		"1756"
+			"3"		"3871"
+			"4"		"4094"
+			"5"		"4166"
+			"6"		"4182"
+			"7"		"4234"
+			"8"		"4305"
+			"9"		"4400"
+			"10"		"5350"
+			"11"		"7250"
+			"12"		"7481"
+			"13"		"7948"
+			"14"		"1621"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"NanningsGames"
+		"publisher"		"NanningsGames"
+		"homepage"		"http://www.nannings.nz"
+	}
+	"config"
+	{
+		"installdir"		"Maze Slider"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Maze Slider.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Maze Slider.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"1262261"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5922912279041677731"
+					"size"		"119958136"
+					"download"		"28193680"
+				}
+			}
+		}
+		"1262262"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7901153185957608222"
+					"size"		"131038930"
+					"download"		"29785696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9912514"
+				"timeupdated"		"1668111042"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"NanningsGames/Maze Slider"
+				"pattern"		"savedata"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"NanningsGames/Maze Slider"
+						"replace"		".config/unity3d/NanningsGames/Maze Slider"
+					}
+				}
+			}
+		}
+	}
+}
