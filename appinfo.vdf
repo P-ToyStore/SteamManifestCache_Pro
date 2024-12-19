@@ -1,0 +1,109 @@
+"appinfo"
+{
+	"appid"		"17555"
+	"common"
+	{
+		"name"		"Eternal Silence Dedicated Server"
+		"type"		"Tool"
+		"freeondemand"		"1"
+		"gameid"		"17555"
+	}
+	"extended"
+	{
+		"developer"		"ES Team"
+		"gamedir"		"Eternal-Silence Server"
+		"homepage"		""
+		"icon"		""
+		"loadallbeforelaunch"		"1"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"17551"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Source Dedicated Server"
+		"convertgcfs"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-steam -esmod"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"208"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"207"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"206"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"205"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"17551"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2331363083649090747"
+					"size"		"2096775398"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"0CF778502988D6164089D82CF1847C89"
+					"size"		"1AD3CC2B059E3CA975922F0CB63CD862"
+					"download"		"A4AEFAE760C088A752F2B36203C285CD"
+				}
+			}
+			"depotfromapp"		"17550"
+		}
+		"1004"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"branches"
+		{
+			"beta"
+			{
+				"buildid"		"57943"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
