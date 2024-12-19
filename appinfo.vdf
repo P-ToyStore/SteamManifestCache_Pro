@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"17505"
+	"common"
+	{
+		"name"		"Zombie Panic! Source Dedicated Server"
+		"icon"		"541d222305440c75cd5599d3032ab9590c206a75"
+		"clienttga"		"e16bdba18d468b27f1a16914ded950640575c39c"
+		"logo"		"8c6b32078adf9aca270d4328bea47f01f9f0009a"
+		"logo_small"		"8c6b32078adf9aca270d4328bea47f01f9f0009a_thumb"
+		"clienticon"		"0829095faea0df8a0531fc9582e6e566cd2f4c2a"
+		"type"		"Tool"
+		"freeondemand"		"1"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"17505"
+	}
+	"extended"
+	{
+		"developer"		"Zombie Panic! Team"
+		"gamedir"		"Zombie Panic! Source"
+		"homepage"		"http://www.zombiepanic.org"
+		"icon"		""
+		"loadallbeforelaunch"		"1"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"17501"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"usemms"		""
+		"contenttype"		"3"
+		"installdir"		"Zombie Panic Source Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game zps -steam -secure"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"srcds_run.sh"
+				"arguments"		"-steam -secure"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"686471"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5750844165138253515"
+					"size"		"74745288"
+					"download"		"24235072"
+				}
+				"legacy2.4"
+				{
+					"gid"		"7345369736366925217"
+					"size"		"31421073"
+					"download"		"10100480"
+				}
+				"v3.0.9a"
+				{
+					"gid"		"4543002528562670536"
+					"size"		"100675255"
+					"download"		"32086352"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"eugene"
+				{
+					"gid"		"2E03571235B63DD79E43C377132341FE"
+					"size"		"63EB219445B402E321EE6F17D8E7A060"
+					"download"		"5E330A405CD5897D758B039D5126EF79"
+				}
+				"quality_assurance"
+				{
+					"gid"		"02C4C231C34DF59F58CC238D709E0758"
+					"size"		"9C514D79B92F425DFEBA82A9DEDA9488"
+					"download"		"65F2E1D6C0A714554A655602EE315377"
+				}
+			}
+		}
+		"686472"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4477711647544667794"
+					"size"		"81530366"
+					"download"		"21448256"
+				}
+				"legacy2.4"
+				{
+					"gid"		"4221706886458780388"
+					"size"		"54873368"
+					"download"		"14375344"
+				}
+				"v3.0.9a"
+				{
+					"gid"		"3456975260622561583"
+					"size"		"91877537"
+					"download"		"18136816"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"eugene"
+				{
+					"gid"		"C2F2A257564651DD75F64B9BF68DDB50"
+					"size"		"F3B5B24A9F634894066F457DB5A42FB4"
+					"download"		"9DD12C48E514C5CA2A631AAB148A7619"
+				}
+				"quality_assurance"
+				{
+					"gid"		"D33D1B1CD066FF25951D0DCBF12160C0"
+					"size"		"42D0BC2F6416A9E056E2D7CA522BA7F7"
+					"download"		"02BD3D932316A7ED696583DEA05264F0"
+				}
+			}
+		}
+		"686473"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9124691514828874837"
+					"size"		"7772169516"
+					"download"		"3481998576"
+				}
+				"legacy2.4"
+				{
+					"gid"		"1906675738397121551"
+					"size"		"6182264744"
+					"download"		"2866486720"
+				}
+				"v3.0.9a"
+				{
+					"gid"		"1646989424537902631"
+					"size"		"6972761305"
+					"download"		"2944461136"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"eugene"
+				{
+					"gid"		"A96244DAB9E27C0628C6BD2ACDA3670F"
+					"size"		"E03E1E7C6B05C05D364A65CE094EDF83"
+					"download"		"FB75871D97A4FA7EC585C4EB3D1B406F"
+				}
+				"quality_assurance"
+				{
+					"gid"		"408FD8CB662C9AE9FF5956D518358C5B"
+					"size"		"BB6996AD1C865BBB718F38BDA0AE5744"
+					"download"		"80B1379825F7E2A0AC040D8C9FAAAA49"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16176546"
+				"timeupdated"		"1729839599"
+			}
+			"legacy2.4"
+			{
+				"buildid"		"5567065"
+				"description"		"ZPS v2.4 - NOT SUPPORTED!!!"
+				"timeupdated"		"1601575109"
+			}
+			"v3.0.9a"
+			{
+				"buildid"		"3809221"
+				"description"		"ZPS v3.0.9a - Deprecated"
+				"timeupdated"		"1602784746"
+			}
+			"eugene"
+			{
+				"buildid"		"14136484"
+				"pwdrequired"		"1"
+				"timeupdated"		"1729839089"
+			}
+			"quality_assurance"
+			{
+				"buildid"		"16176546"
+				"pwdrequired"		"1"
+				"timeupdated"		"1729839531"
+			}
+		}
+	}
+}
