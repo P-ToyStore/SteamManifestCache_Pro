@@ -1,0 +1,143 @@
+"appinfo"
+{
+	"appid"		"17575"
+	"common"
+	{
+		"name"		"Pirates, Vikings, and Knights II Dedicated Server"
+		"type"		"Tool"
+		"freeondemand"		"1"
+		"oslist"		"windows,linux"
+		"freetodownload"		"1"
+		"gameid"		"17575"
+	}
+	"extended"
+	{
+		"developer"		"PVKII Team"
+		"gamedir"		"pvkii"
+		"gamemanualurl"		"http://www.pvkii.com/playerguide/playerguide.html"
+		"homepage"		"http://www.pvkii.com"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"17571"
+		"serverbrowsername"		"Pirates, Vikings, and Knights II"
+		"state"		"eStateTool"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Pirates, Vikings, and Knights II Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-steam -game pvkii"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"srcds_run"
+				"arguments"		"-steam -game pvkii"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"331030"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"839705210733431879"
+					"size"		"5081474985"
+					"download"		"2734231888"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"20A2660AED6B57939115E48B65B20A5F"
+					"size"		"0EB70F1A943B286BE55E8855079B5B2C"
+					"download"		"FF2F06889C42A8DD5E4AE8C79B213D7A"
+				}
+			}
+		}
+		"331031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3253077813823460035"
+					"size"		"115660240"
+					"download"		"40110816"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"3FDE6360DBF4F357DD7221361A9E1778"
+					"size"		"2B05DF510E96F604A6DB1535AE66ECDD"
+					"download"		"898CCBE36E25979829584767B9566A5A"
+				}
+			}
+		}
+		"331032"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8094064780773734425"
+					"size"		"95387152"
+					"download"		"25560384"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"E9B326CE108F23438F8F7AF417FA29E6"
+					"size"		"4D5A6ADAD307AB6E6E048C5244479624"
+					"download"		"F06BB8B0C4B9355AE19F45FDEB458B44"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16187474"
+				"timeupdated"		"1729901941"
+			}
+			"beta"
+			{
+				"buildid"		"16187474"
+				"pwdrequired"		"1"
+				"timeupdated"		"1729900979"
+			}
+		}
+	}
+}
