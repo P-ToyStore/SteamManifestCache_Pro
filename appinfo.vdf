@@ -1,0 +1,162 @@
+"appinfo"
+{
+	"appid"		"17585"
+	"common"
+	{
+		"name"		"Dystopia Dedicated Server"
+		"type"		"Tool"
+		"freeondemand"		"1"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"freetodownload"		"1"
+		"gameid"		"17585"
+	}
+	"extended"
+	{
+		"developer"		"Team Dystopia"
+		"gamedir"		"dystopia Server"
+		"homepage"		""
+		"icon"		""
+		"loadallbeforelaunch"		"1"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"17581"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DystopiaDedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-console"
+				"workingdir"		"bin/win32"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"17581"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7649529834308003280"
+					"size"		"4571460360"
+					"download"		"2128844752"
+				}
+				"nightly"
+				{
+					"gid"		"2651542348671413866"
+					"size"		"4482457720"
+					"download"		"2151020032"
+				}
+				"release_candidate"
+				{
+					"gid"		"7649529834308003280"
+					"size"		"4571460360"
+					"download"		"2128844752"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"preonepointfive"
+				{
+					"gid"		"FE26731BEB35028B8E34239D344FC8AF"
+					"size"		"16C5EE54BA3F5DAB54839E18595F50F2"
+					"download"		"69D40F530DDE5AA370929AFDC9FDB9CE"
+				}
+			}
+			"depotfromapp"		"17580"
+		}
+		"806640"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2311467001087771267"
+					"size"		"19698880"
+					"download"		"7069088"
+				}
+				"nightly"
+				{
+					"gid"		"3909158193478232378"
+					"size"		"21595840"
+					"download"		"7655392"
+				}
+				"release_candidate"
+				{
+					"gid"		"2311467001087771267"
+					"size"		"19698880"
+					"download"		"7069088"
+				}
+			}
+		}
+		"806641"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2070697226601717144"
+					"size"		"64233295"
+					"download"		"16828976"
+				}
+				"nightly"
+				{
+					"gid"		"5528420613736394602"
+					"size"		"62077673"
+					"download"		"16432080"
+				}
+				"release_candidate"
+				{
+					"gid"		"2070697226601717144"
+					"size"		"64233295"
+					"download"		"16828976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10309671"
+				"timeupdated"		"1673553989"
+			}
+			"nightly"
+			{
+				"buildid"		"3996161"
+				"timeupdated"		"1562698219"
+			}
+			"release_candidate"
+			{
+				"buildid"		"10309671"
+				"timeupdated"		"1673551050"
+			}
+			"preonepointfive"
+			{
+				"buildid"		"3943280"
+				"pwdrequired"		"1"
+				"timeupdated"		"1561155359"
+			}
+		}
+	}
+}
