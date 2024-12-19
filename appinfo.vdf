@@ -1,0 +1,177 @@
+"appinfo"
+{
+	"appid"		"1809690"
+	"common"
+	{
+		"name"		"Hidden Deep Playtest"
+		"type"		"Beta"
+		"parent"		"976890"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"83bcc7dc26f312438fdf493cfff2b0cc380dfd99"
+		"logo_small"		"83bcc7dc26f312438fdf493cfff2b0cc380dfd99_thumb"
+		"icon"		"e4556d203c63771d827b67b06e4b048f5a1dbd34"
+		"clienticon"		"2d1b22af56af55883de6a37e6faa0d7e0bfd2b4c"
+		"clienttga"		"1062102e5c51e04a501acfdc2b6d41ca970256d1"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1636314849"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1636635378"
+		"community_hub_visible"		"1"
+		"gameid"		"1809690"
+		"exfgls"		"6"
+		"review_score"		"9"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"betaforappid"		"976890"
+		"absolutemousecoordinates"		"0"
+		"remoteplaytogethertestingbranches"		"default,coop-testing,testing"
+		"playtest_type"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Hidden Deep Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"hdeep.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1809691"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8127822310527465291"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"coop-testing"
+				{
+					"gid"		"0DA9BFB44073B518E3266683C61C7A1A"
+					"size"		"FF8944E7EC63114E3A14EE7D7A9FEC21"
+					"download"		"7653A9B009D9952EC54DF8CEF7289A70"
+				}
+				"testing"
+				{
+					"gid"		"656F6781A0D8E9AD2BCF96B1104430B4"
+					"size"		"0598239EE139139E39233943A3BB6BDE"
+					"download"		"3744AA36A076F031BAD15C03E253FD06"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8032897"
+				"timeupdated"		"1642408376"
+			}
+			"coop-testing"
+			{
+				"buildid"		"7896659"
+				"pwdrequired"		"1"
+				"timeupdated"		"1639677477"
+			}
+			"testing"
+			{
+				"buildid"		"7888870"
+				"pwdrequired"		"1"
+				"timeupdated"		"1639583160"
+			}
+		}
+	}
+}
