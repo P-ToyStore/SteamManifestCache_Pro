@@ -1,0 +1,179 @@
+"appinfo"
+{
+	"appid"		"2827050"
+	"common"
+	{
+		"name"		"Project Frontier Playtest"
+		"type"		"Beta"
+		"parent"		"2434700"
+		"icon"		"a4268f4979d18aeaf4aaa696184182613fbdfbaf"
+		"linuxclienticon"		"cad9bafaceeb07d24170d873bbdf05b5993f8a2a"
+		"clienticon"		"6aaccf7d720d9707af4b8c0b26ea1aa1d1866821"
+		"clienttga"		"c80266131583a6b35fdc6bccdf744d6186848e3d"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"2827050_eula_0"
+				"name"		"Project Frontier Playtest EULA"
+				"url"		"https://store.steampowered.com//eula/2827050_eula_0"
+				"version"		"3"
+			}
+		}
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"46.85212205664044"
+				"height_pct"		"90.47418797329743"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"46.85212205664044"
+					"height_pct"		"90.47418797329743"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1709331307"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1708733552"
+		"community_hub_visible"		"1"
+		"gameid"		"2827050"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"playtest_type"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Project Frontier Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Muse.exe"
+				"arguments"		"-OSSOnline -platform_env=playtest -game_env=muse-playtest-external -EpicApp=ProjectFrontier_Prod"
+				"config"
+				{
+					"betakey"		"default"
+				}
+			}
+			"1"
+			{
+				"executable"		"Muse.exe"
+				"arguments"		"-OSSOnline -platform_env=playtest -game_env=muse-playtest-internal-release -EpicApp=ProjectFrontier_Prod"
+				"config"
+				{
+					"betakey"		"playtest-internal-release"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2827051"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4302065950337600958"
+					"size"		"7543000985"
+					"download"		"4375315312"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16645196"
+				"timeupdated"		"1733413093"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
