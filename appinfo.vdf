@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"1905640"
+	"common"
+	{
+		"name"		"OBS Studio Beta"
+		"type"		"Beta"
+		"parent"		"1905180"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"logo"		"4b8ae05e95c7f866b86a3d0e724a3a40bc11ebca"
+		"logo_small"		"4b8ae05e95c7f866b86a3d0e724a3a40bc11ebca_thumb"
+		"icon"		"342ff6a1c4e56643944d732e7aa318389ae966cd"
+		"clienttga"		"7f47da82b83ff3b765e6710c7f4504bdbef3c11d"
+		"clienticns"		"e9f8d7f766686b06835c65167d4de9cdcde940ba"
+		"clienticon"		"c807ea593df8d2a40cda2b0a934555d70f7581d1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"76.74418604651163"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"76.74418604651163"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1645367806"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1667326328"
+		"community_hub_visible"		"1"
+		"gameid"		"1905640"
+		"exfgls"		"9"
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"betaforappid"		"1905180"
+		"playtest_type"		"1"
+		"disableoverlay"		"1"
+		"disableoverlay_osx"		"1"
+		"disableoverlayinjection"		"1"
+	}
+	"config"
+	{
+		"installdir"		"OBS Studio Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launch.sh"
+				"arguments"		"--disable-updater --steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/64bit/obs64.exe"
+				"arguments"		"--disable-updater --steam"
+				"workingdir"		"bin/64bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1905641"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8351449486094017024"
+					"size"		"915848100"
+					"download"		"233742992"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"39ACE1ED3B827653DF11EBC81E9A5E52"
+					"size"		"5AF0C608EFFCD99E6C7C95F7746E36C9"
+					"download"		"002829BFBD931AF7886496253A508622"
+				}
+			}
+		}
+		"1905642"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"172381706187635733"
+					"size"		"470615258"
+					"download"		"145043760"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"18399CAAAB1E0270BD550E86ADDE4931"
+					"size"		"A6208A42731E6168AB85C21398253DFD"
+					"download"		"9BF5D16BB19C53AF3C4CC60FAF8E54A8"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15972475"
+				"timeupdated"		"1728424424"
+			}
+			"staging"
+			{
+				"buildid"		"16478360"
+				"pwdrequired"		"1"
+				"timeupdated"		"1732141135"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
