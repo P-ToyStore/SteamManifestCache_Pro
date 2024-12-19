@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"1665400"
+	"common"
+	{
+		"name"		"ToneStone Beta"
+		"type"		"Beta"
+		"parent"		"1627320"
+		"releasestate"		"released"
+		"logo"		"26de52234dda0bfb53acbbe0a82c47e1250fa4e4"
+		"logo_small"		"26de52234dda0bfb53acbbe0a82c47e1250fa4e4_thumb"
+		"icon"		"efed1a9f5f00fae06a34fd73a34d8a8bf26db1d0"
+		"clienttga"		"1c2e1c2b4d0e881711a9167150b859af0a2d172f"
+		"clienticon"		"df6670076d9b527d8cefa2d6c9be0e1fc1258955"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1635176644"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1635161336"
+		"community_hub_visible"		"1"
+		"gameid"		"1665400"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"betaforappid"		"1627320"
+		"playtest_type"		"1"
+	}
+	"config"
+	{
+		"installdir"		"ToneStone Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"tonestone.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"ToneStone.app/Contents/MacOS/tonestone"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1665402"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7195454754895948159"
+					"size"		"373463387"
+					"download"		"192213568"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"gid"		"67EC923E0D9B7BB1BFD79ED5572BA09B"
+					"size"		"3830C4E53B43F41E8FB5E481938FA7DB"
+					"download"		"B8993A97E9591EA5662BD196340FFC8A"
+				}
+				"focus_testing"
+				{
+					"gid"		"3F54234CF852104309E3B87A7ECC1115"
+					"size"		"6D322CA95180C560B245B3F0CBC1CB11"
+					"download"		"8E70BC609DEF0033515C58B377DC4ECC"
+				}
+			}
+		}
+		"1665403"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3753561895237243788"
+					"size"		"385988446"
+					"download"		"195487088"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"development"
+				{
+					"gid"		"E4ADF575EF8CB9777F1C0118DD8EDB10"
+					"size"		"576A892EEC484B9703EAF900149DFCB0"
+					"download"		"F9FD343ABE4B2503906519311915D8CD"
+				}
+				"focus_testing"
+				{
+					"gid"		"E28E9BB70ABC4B054D1011D27A6868CD"
+					"size"		"2EE4B2E8D9840FAE3096DBE9841FBBDC"
+					"download"		"5917A7F1980A63056BDE7C13B0EF3AD8"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8274977"
+				"timeupdated"		"1645815815"
+			}
+			"development"
+			{
+				"buildid"		"8274977"
+				"pwdrequired"		"1"
+				"timeupdated"		"1645799646"
+			}
+			"focus_testing"
+			{
+				"buildid"		"7810301"
+				"pwdrequired"		"1"
+				"timeupdated"		"1638379101"
+			}
+		}
+	}
+}
