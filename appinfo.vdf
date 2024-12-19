@@ -1,0 +1,116 @@
+"appinfo"
+{
+	"appid"		"17705"
+	"common"
+	{
+		"name"		"Insurgency Mod Dedicated Server"
+		"icon"		"b37d85bd4af6343677871d1823abea09903eda87"
+		"logo"		"5eca94e145762bcd49ea63446d1856495e5b0384"
+		"logo_small"		"386776b6236acb1cc44597d28e648148f4aa4f02"
+		"clienticon"		"b624ab0aba82e175251de9f2e34527daa67c0939"
+		"clienttga"		"13ac3dbab6083e829c54e29daccc4b37355aaab7"
+		"type"		"Tool"
+		"freeondemand"		"1"
+		"oslist"		"windows,linux"
+		"gameid"		"17705"
+	}
+	"extended"
+	{
+		"developer"		"Team Insurgency"
+		"gamedir"		"Insurgency Dedicated Server"
+		"homepage"		"http://www.insmod.net/"
+		"icon"		""
+		"loadallbeforelaunch"		"1"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"17701"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"usemms"		""
+		"contenttype"		"3"
+		"installdir"		"Source Dedicated Server"
+		"convertgcfs"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-steam -insurgency"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"208"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"207"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"206"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"205"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"17702"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3980126950452133007"
+					"size"		"1875841625"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"17700"
+		}
+		"17701"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7556147908182030758"
+					"size"		"20981580"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"17700"
+		}
+		"1004"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"205"
+			"sharedinstall"		"2"
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+		}
+	}
+}
