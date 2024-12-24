@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"1183200"
+	"common"
+	{
+		"name"		"Portal Dogs"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosnotarized"
+		"icon"		"201772f71b505b200c0a896677579842f6a3bf41"
+		"logo"		"48ba5fabc08ac05358b0ea9f3b27f73a28a9b7e5"
+		"logo_small"		"48ba5fabc08ac05358b0ea9f3b27f73a28a9b7e5_thumb"
+		"clienticon"		"1907408f27ee3b190715ecfdc89b9c303e3355fd"
+		"clienttga"		"e802837a3283ee621484e636d71f0500a982b50d"
+		"metacritic_name"		"Portal Dogs"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"34.24737456242707"
+				"height_pct"		"62.53858940869153"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"34.24737456242707"
+					"height_pct"		"62.53858940869153"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1579017153"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Brain Connected"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Brain Connected"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1582624501"
+		"community_hub_visible"		"1"
+		"gameid"		"1183200"
+		"store_tags"
+		{
+			"0"		"5379"
+			"1"		"5537"
+			"2"		"597"
+			"3"		"1625"
+			"4"		"1773"
+			"5"		"4726"
+			"6"		"3871"
+			"7"		"19"
+			"8"		"1664"
+			"9"		"6815"
+			"10"		"1684"
+			"11"		"3942"
+			"12"		"17894"
+			"13"		"1638"
+			"14"		"8122"
+			"15"		"5411"
+			"16"		"4562"
+			"17"		"6691"
+			"18"		"4182"
+			"19"		"492"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Brain Connected"
+		"publisher"		"Brain Connected"
+		"homepage"		"http://portaldogs.com/"
+	}
+	"config"
+	{
+		"installdir"		"Portal Dogs"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"portal_dogs.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"portaldogs.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"5"
+	}
+	"depots"
+	{
+		"1183201"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8199763136887215912"
+					"size"		"60269009"
+					"download"		"49740320"
+				}
+			}
+		}
+		"1183202"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4811023555740631173"
+					"size"		"61382929"
+					"download"		"51267760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5347976"
+				"timeupdated"		"1596052623"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Portal Dogs"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgConfigHome"
+				"addpath"		""
+			}
+		}
+	}
+}
