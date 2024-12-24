@@ -1,0 +1,187 @@
+"appinfo"
+{
+	"appid"		"1045800"
+	"common"
+	{
+		"name"		"Blazing Sails Beta"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"0c5a216bd3450b69711e2fb94922a118287d459a"
+		"clienttga"		"5fa0edd860c6154fb0d168d7684a6bf9a04226aa"
+		"icon"		"bca9d5b449af88eb86e09600ab7099aeaa4956db"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1045800_eula_0"
+				"name"		"Blazing Sails Beta EULA"
+				"url"		"https://store.steampowered.com//eula/1045800_eula_0"
+			}
+		}
+		"associations"
+		{
+		}
+		"gameid"		"1045800"
+		"exfgls"		"8"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"492"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"blazingsailsalpha"
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=1045800"
+	}
+	"config"
+	{
+		"installdir"		"Blazing Sails"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Launch_BlazingSails.exe"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1045801"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7763507609910492663"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"exclusive"
+				{
+					"gid"		"7BFC725C072DC9DD137303BF89433EA8"
+					"size"		"6E733FAACC78242D301C10AE7C7E6D44"
+					"download"		"49A34485A4523EEC2A03597AE561B663"
+				}
+				"fredbranch"
+				{
+					"gid"		"CD52CB1CE638D82018CF18B6D5D4F7B8"
+					"size"		"7FCBDF169AE342E732DEFCBC3BFDE93A"
+					"download"		"5FDD80181C8EA437DE2B1CFA47B292DD"
+				}
+				"internaltesting"
+				{
+					"gid"		"FF0AAB9353AE2A1C7E9C0E06B37194F9"
+					"size"		"B6EE38FDCCFD80665144B4A189FAAD3B"
+					"download"		"48E40A544F2265BED93D17E01DB9628B"
+				}
+				"stresstest"
+				{
+					"gid"		"1AC993A06F1F3B19B5A830E439F80A47"
+					"size"		"EBA753BBB8CB54AE31E91B8003EA1839"
+					"download"		"0923486E55EA57546DEAF0D662FD70B6"
+				}
+				"trailer"
+				{
+					"gid"		"66FEDF0D3A154635DEB11BE70CE851CF"
+					"size"		"8DF29E6C0A356ED1B7ED27DD8B058EF2"
+					"download"		"5B1061CD80AE8A2F8A05DA02C42F7F79"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5461141"
+				"timeupdated"		"1598439269"
+			}
+			"exclusive"
+			{
+				"buildid"		"5048717"
+				"pwdrequired"		"1"
+				"timeupdated"		"1590158903"
+			}
+			"fredbranch"
+			{
+				"buildid"		"5261150"
+				"pwdrequired"		"1"
+				"timeupdated"		"1594136602"
+			}
+			"internaltesting"
+			{
+				"buildid"		"5483999"
+				"pwdrequired"		"1"
+				"timeupdated"		"1598896802"
+			}
+			"stresstest"
+			{
+				"buildid"		"5408069"
+				"pwdrequired"		"1"
+				"timeupdated"		"1598601174"
+			}
+			"trailer"
+			{
+				"buildid"		"5369383"
+				"pwdrequired"		"1"
+				"timeupdated"		"1597317627"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"BlazingSails"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
