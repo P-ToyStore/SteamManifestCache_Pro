@@ -1,0 +1,313 @@
+"appinfo"
+{
+	"appid"		"1562150"
+	"common"
+	{
+		"name"		"Hive P v. S"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"logo"		"b98ac829e83f3f577b1123e6b23c4d1342df9300"
+		"logo_small"		"b98ac829e83f3f577b1123e6b23c4d1342df9300_thumb"
+		"icon"		"a4b30740ecd8e8c0b9d20144eb9d5f9954b38f03"
+		"clienticon"		"caf7805cff29089615db5555c68581f05a1a112c"
+		"clienttga"		"ca0192262201709a56027cc73721e0756b5ad7d0"
+		"clienticns"		"8e576b5cc920104a93636c78d0bb733960dc4311"
+		"linuxclienticon"		"2046c71d7c29ce30f63263793bfa9741f5d44f63"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1562150_eula_0"
+				"name"		"Hive P v. S EULA"
+				"url"		"https://store.steampowered.com//eula/1562150_eula_0"
+				"version"		"2"
+			}
+		}
+		"controllertagwizard"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"68.84498624737928"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"68.84498624737928"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1714073039"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Spelmakare Jens Nilsson AB"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Spelmakare Jens Nilsson AB"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1645447920"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1562150"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"4637"
+			"2"		"1773"
+			"3"		"5796"
+			"4"		"7481"
+			"5"		"3964"
+			"6"		"1755"
+			"7"		"19"
+			"8"		"5154"
+			"9"		"492"
+			"10"		"7743"
+			"11"		"3916"
+			"12"		"4004"
+			"13"		"4182"
+			"14"		"1774"
+			"15"		"5547"
+			"16"		"4885"
+			"17"		"5652"
+			"18"		"3871"
+			"19"		"4094"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Spelmakare Jens Nilsson AB"
+		"publisher"		"Spelmakare Jens Nilsson AB"
+		"homepage"		"https://spelmakare.se/games/hivepvs"
+	}
+	"config"
+	{
+		"installdir"		"hivepvs"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"win-unpacked\\Hive P v. S.exe"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"linux-unpacked\\hivepvs"
+				"arguments"		"--no-sandbox"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"mac-universal\\Hive P v. S.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1562151"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"158661572859852009"
+					"size"		"329841119"
+					"download"		"124928064"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"7F9A1EE07FDCC90A545D267A9FEBD5F2"
+					"size"		"755ED1D91BF64FF8F15437724482DF90"
+					"download"		"198A1C68C55EF12D154EEED99B22767B"
+				}
+			}
+		}
+		"1562152"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5181776621888988493"
+					"size"		"329786423"
+					"download"		"119566880"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"4C757A0D6A7D794724844E0E9319FBA1"
+					"size"		"61B16204DC5E8BA14C534A624D1F8860"
+					"download"		"B47E33B6FF02BCFFAFA25001DDDB1E52"
+				}
+			}
+		}
+		"1562153"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2852782419467529394"
+					"size"		"487493609"
+					"download"		"172363776"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"E17CEEC58AFEBD81345B6BF3AB206155"
+					"size"		"1442A35C7DF32C488E9E84EEB91EDBCA"
+					"download"		"336E3FE615A88DE0D5750D4A110103C4"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16705994"
+				"timeupdated"		"1734221658"
+			}
+			"beta"
+			{
+				"buildid"		"16705994"
+				"pwdrequired"		"1"
+				"timeupdated"		"1733913049"
+			}
+		}
+	}
+}
