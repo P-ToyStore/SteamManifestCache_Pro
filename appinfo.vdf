@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"1627140"
+	"common"
+	{
+		"name"		"Sabre Team"
+		"type"		"Game"
+		"icon"		"c0205aab290059799b4f813fe78280bb58db1570"
+		"clienttga"		"6777969199d0b8015f477e8cf95fc43e48ce4304"
+		"clienticon"		"827148de694c4e40cd08505ac368d1610c574ccf"
+		"logo"		"82702aa1c21b8abd349fdf20057bdceddf23693b"
+		"logo_small"		"82702aa1c21b8abd349fdf20057bdceddf23693b_thumb"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"84.722395441658"
+			}
+		}
+		"store_asset_mtime"		"1622815339"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Krisalis Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"694252800"
+		"steam_release_date"		"1622812980"
+		"community_hub_visible"		"1"
+		"gameid"		"1627140"
+		"store_tags"
+		{
+			"0"		"14139"
+			"1"		"4168"
+			"2"		"5851"
+			"3"		"4325"
+			"4"		"3964"
+			"5"		"1708"
+			"6"		"9"
+			"7"		"4004"
+			"8"		"4747"
+			"9"		"8945"
+			"10"		"21725"
+			"11"		"1741"
+			"12"		"6276"
+			"13"		"6691"
+			"14"		"17305"
+			"15"		"3993"
+			"16"		"599"
+			"17"		"4182"
+			"18"		"4026"
+			"19"		"122"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Krisalis Software"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1627140/"
+	}
+	"config"
+	{
+		"installdir"		"Sabre Team"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1627141"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4873230924222745334"
+					"size"		"45367821"
+					"download"		"17586208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6649292"
+				"timeupdated"		"1620183909"
+			}
+		}
+	}
+}
