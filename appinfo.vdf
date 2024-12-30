@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"1601930"
+	"common"
+	{
+		"name"		"ScubaVenture: The Search for Pirate's Treasure"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"c8702b686085c92d69128eeb4d4f5a55fdd4aab4"
+		"logo_small"		"c8702b686085c92d69128eeb4d4f5a55fdd4aab4_thumb"
+		"icon"		"9e9d0245c96666207d551389e13c0c9a0af41882"
+		"clienticon"		"90e9f0a27fe80b1054fff537dd514850dd8cd1da"
+		"clienttga"		"b16f38ad11608e62812cdf946e4cdcc58c2515a6"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"56.046511627906966"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1620370994"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Softdisk"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1620391927"
+		"community_hub_visible"		"1"
+		"gameid"		"1601930"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"9157"
+			"2"		"21"
+			"3"		"4004"
+			"4"		"3834"
+			"5"		"5652"
+			"6"		"6691"
+			"7"		"3964"
+			"8"		"5379"
+			"9"		"4305"
+			"10"		"3871"
+			"11"		"4182"
+			"12"		"9564"
+			"13"		"1681"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Softdisk"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1601930/"
+	}
+	"config"
+	{
+		"installdir"		"ScubaVenture The Search for Pirate's Treasure"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1601931"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8703428446667172229"
+					"size"		"34876408"
+					"download"		"14110576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6626621"
+				"timeupdated"		"1619761225"
+			}
+		}
+	}
+}
