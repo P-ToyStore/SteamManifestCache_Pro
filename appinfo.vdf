@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"1415830"
+	"common"
+	{
+		"name"		"NECROSIS : RECONFIGURATED"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"f06a720d344bb40f95b50f395ffb6a4fc3153686"
+		"logo"		"13acb4b38003cce62f00ddf7d64e62c21e9fc22f"
+		"logo_small"		"13acb4b38003cce62f00ddf7d64e62c21e9fc22f_thumb"
+		"linuxclienticon"		"c8c150164b006015d58caf5f71570769f5799d84"
+		"clienttga"		"23736d6696122b3c80876ff55c90f5862393909a"
+		"clienticon"		"7414ba637b04380c3ecdb5c2c1f5afd396ce4b1c"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1654823567"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BlackHawk Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BlackHawk Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"NECROSIS"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1600930800"
+		"steam_release_date"		"1600946481"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1415830"
+		"store_tags"
+		{
+			"0"		"4885"
+			"1"		"1663"
+			"2"		"6730"
+			"3"		"1775"
+			"4"		"1774"
+			"5"		"1773"
+			"6"		"4191"
+			"7"		"3839"
+			"8"		"5711"
+			"9"		"19"
+			"10"		"4305"
+			"11"		"3843"
+			"12"		"3859"
+			"13"		"4182"
+			"14"		"492"
+			"15"		"5547"
+			"16"		"4168"
+			"17"		"1659"
+			"18"		"5765"
+			"19"		"5055"
+		}
+		"review_score"		"8"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"BlackHawk Games"
+		"publisher"		"BlackHawk Games"
+		"homepage"		"https://linktr.ee/blackhawkgames"
+	}
+	"config"
+	{
+		"installdir"		"NECROSIS RECONFIGURATED"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"necrosisrec.exe"
+				"description"		"Launch necrosis : reconfigurated"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"1415831"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3660250508344438195"
+					"size"		"17708806395"
+					"download"		"6962430368"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"239497D09BEDDA757172DC438858F392"
+					"size"		"4EEB611149FC9428116F5948B2166431"
+					"download"		"0757863CFA90322277062DB933D59CAE"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10341150"
+				"timeupdated"		"1673971723"
+			}
+			"beta"
+			{
+				"buildid"		"8786209"
+				"pwdrequired"		"1"
+				"timeupdated"		"1653182973"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"7500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"BHWK/necrosisrec"
+				"pattern"		".log"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
