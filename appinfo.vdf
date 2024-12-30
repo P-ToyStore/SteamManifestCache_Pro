@@ -1,0 +1,187 @@
+"appinfo"
+{
+	"appid"		"1297560"
+	"common"
+	{
+		"name"		"Timequest"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"10c904d8b5637da82ac6133822477ca9540328a6"
+		"logo_small"		"10c904d8b5637da82ac6133822477ca9540328a6_thumb"
+		"icon"		"32ef7a483c80feb83a99937fe6e4d101e233b5a2"
+		"clienttga"		"e1ffd791b3250b82d7f85055459c05b5d3ec8d50"
+		"clienticon"		"ca7ee5f81d043f15da52333c233fb5996853a92f"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"61.01876038945619"
+			}
+		}
+		"store_asset_mtime"		"1703013920"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Legend Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"725875200"
+		"steam_release_date"		"1604674496"
+		"community_hub_visible"		"1"
+		"gameid"		"1297560"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"31275"
+			"2"		"1698"
+			"3"		"3942"
+			"4"		"5716"
+			"5"		"9"
+			"6"		"4004"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Legend Entertainment"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+	}
+	"config"
+	{
+		"installdir"		"Timequest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x960.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x960"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x240.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x240"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x480.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x480"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1920.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1920"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1297561"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6786398001256506278"
+					"size"		"46325806"
+					"download"		"38405136"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5786245"
+				"timeupdated"		"1604559503"
+			}
+		}
+	}
+}
