@@ -1,0 +1,466 @@
+"appinfo"
+{
+	"appid"		"1057810"
+	"common"
+	{
+		"name"		"Wolfenstein: Youngblood Deutsche Version"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"a9b555b2dfc545ef2bd49bb400b6b807a18ad15d"
+		"logo_small"		"a9b555b2dfc545ef2bd49bb400b6b807a18ad15d_thumb"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienticon"		"dc47c700a4071656b229520aa8b8357772d9937a"
+		"clienttga"		"37640a50c9d0600401c5fd3c271a81b3cb7a2fbe"
+		"icon"		"7a5bc694645b5d40b644b84f15bada8b40e3a6f8"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1057810_eula_0"
+				"name"		"Wolfenstein: Youngblood German Edition EULA"
+				"url"		"https://store.steampowered.com//eula/1057810_eula_0"
+			}
+		}
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_violence"		"1"
+		"metacritic_name"		"Wolfenstein: Youngblood German Edition"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1570031562"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Machine Games"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Arkane Studios"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Bethesda Softworks"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_35"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_49"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+		}
+		"supported_languages"
+		{
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1564124400"
+		"steam_release_date"		"1564074960"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1057810"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4667"
+			"2"		"4345"
+			"3"		"1685"
+			"4"		"1663"
+			"5"		"4598"
+			"6"		"4508"
+			"7"		"1742"
+			"8"		"5796"
+			"9"		"7208"
+			"10"		"1774"
+			"11"		"3839"
+			"12"		"3942"
+			"13"		"7743"
+			"14"		"4166"
+			"15"		"1775"
+			"16"		"5711"
+			"17"		"3843"
+			"18"		"3859"
+			"19"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"Machine Games"
+		"publisher"		"Bethesda Softworks"
+		"homepage"		"https://wolfenstein.bethesda.net/?utm_source=Steam"
+		"listofdlc"		"1057840,1057841,1068000"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Wolfenstein Youngblood German Edition"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Youngblood_x64vk.exe"
+				"arguments"		"+bnet_env eehm2mn9o1klgwtjfu79"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Youngblood_x64vk.exe"
+				"arguments"		"+bnet_env eeh6hzr4ai75kvt6hrdt +r_allowComputePresent 0"
+				"description"		"Wolfenstein: Youngblood German Edition (Integration Environment)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa-general-test"
+				}
+			}
+			"4"
+			{
+				"executable"		"Youngblood_x64vk.exe"
+				"arguments"		"+bnet_env eehm2mn9o1klgwtjfu79 +com_safemode 1 +r_allowComputePresent 0"
+				"description"		"Wolfenstein: Youngblood Deutsche Version (Safe Mode)"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"Youngblood_x64vk.exe"
+				"arguments"		"bnet_env eehm2mn9o1klgwtjfu79"
+				"description"		"Wolfenstein: Youngblood Deutsche Version (Allow Async Present)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"press-1, press-2"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"german"
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1057811"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6820061605114712160"
+					"size"		"28517853407"
+					"download"		"27128072832"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"gid"		"774783F85AE3F4066CC81BE6CAF22779"
+					"size"		"6B4356C35516D526A9897AA7CE75CB0B"
+					"download"		"C6DED2483CE2B5511BFECAA3F5FE14F7"
+				}
+				"mg-internal-test"
+				{
+					"gid"		"F352FFE626DC35D77CD26ADDBA860555"
+					"size"		"7ACF393086FCA20C88027A551B826B2F"
+					"download"		"CF58D049B21563B7A02D5D6085354BB0"
+				}
+				"press-1"
+				{
+					"gid"		"8682B60DE415E7194EFFF773F7D8CF38"
+					"size"		"7DEFC2C7B3D20455C904D3294AA80121"
+					"download"		"7319BCCA036D1F544273F3259899F3C2"
+				}
+				"press-2"
+				{
+					"gid"		"4CCE7A7B73E8344659CB4E5E6102C456"
+					"size"		"F0E897A7896634EE34B7DF7EAAF651EB"
+					"download"		"0D110A3D3FEAF29F6A54F424E651A803"
+				}
+				"qa-general-test"
+				{
+					"gid"		"ABA818E7D1EB2D9F531B8D4DCEDDD057"
+					"size"		"91073B3FF58F5D3237AD25A579D2D528"
+					"download"		"3D03EB58951F41E1294EBC8F7397912B"
+				}
+			}
+		}
+		"1057812"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"465173436051315716"
+					"size"		"13618981120"
+					"download"		"11216471376"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"gid"		"2E89BEA23404D54CB1BF3B1CE296EC35"
+					"size"		"012556A733ABC2FB407F75EC6A942BC6"
+					"download"		"2C73EDE93EFE3D61F54DAE27C46D9F56"
+				}
+				"mg-internal-test"
+				{
+					"gid"		"7EA656F2FB67E7F66B5C5D8577EAE01D"
+					"size"		"43BDD3DF4C16204D33CA09094E612B2C"
+					"download"		"6DED589EF49F37AC0EA2A8C504B5F6B9"
+				}
+				"press-1"
+				{
+					"gid"		"A1DF7658826A0B9087DC5B2418758E7F"
+					"size"		"B216CD9475F5CDF4EEAF194F2A9F7BAA"
+					"download"		"527E46DF60897CD44B2130BC6200C231"
+				}
+				"press-2"
+				{
+					"gid"		"EC270172842657546B063FEAA0187C68"
+					"size"		"09F33E5DDF6CF37B98EA6FD52C54FB31"
+					"download"		"A84CE36510A315E4805C547DAF4A0AC9"
+				}
+				"qa-general-test"
+				{
+					"gid"		"19FC1A70BE0A091B17AC8B4813073B05"
+					"size"		"5FDCAB59E1E90EAC6AB4CD3ABD959797"
+					"download"		"C7943CFFB3421EFB9466333899597440"
+				}
+			}
+		}
+		"1057813"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1631123797454483891"
+					"size"		"132"
+					"download"		"96"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"gid"		"546CAD88944A7D8F3BACC9A8227E22FE"
+					"size"		"66CED827BAD7ABE2E3320CA13BCB313F"
+					"download"		"6EFE64B3BCBB4A4747AB78070CB6AC9E"
+				}
+				"mg-internal-test"
+				{
+					"gid"		"F2622B6DEB9B79184A7DF9FF0CD460A6"
+					"size"		"3BAEA7A01EAD1906D0FEB023D80599F1"
+					"download"		"3F7E2430E28E39EC4C10ED77FF3150BD"
+				}
+				"press-1"
+				{
+					"gid"		"D1EFB30DA833D6210235BDDCACCF2A6C"
+					"size"		"BD839E9F054776FF5A88BAC2C7739ED2"
+					"download"		"79877216B7FE891FFC4FF06F86E4DC67"
+				}
+				"press-2"
+				{
+					"gid"		"87DB2987F586E0F8696338B2B8CDFFA8"
+					"size"		"E775471C9D16E470187EB86794A87A85"
+					"download"		"CF18B732246D4CA98368F714FA75A79B"
+				}
+				"qa-general-test"
+				{
+					"gid"		"09493AE3BB05197BEC99E6C77FEA540E"
+					"size"		"391597D7888A8A3621E57040C29A771F"
+					"download"		"2A06507315B1C47D9374CF9A34D471DC"
+				}
+			}
+		}
+		"1057814"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6454762572812340534"
+					"size"		"80081560"
+					"download"		"25209328"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"denuvo"
+				{
+					"gid"		"199175FA6C4EECCE875B2083B4809565"
+					"size"		"23B1B3ADE4BEE753009AA50BC79DFCC8"
+					"download"		"DF500AA5EFA1F71387A0F709D4878F2E"
+				}
+				"mg-internal-test"
+				{
+					"gid"		"702785B22512496B3F8A7E21520A3D4F"
+					"size"		"5169E5784E506AA916A3932DA0C2FC51"
+					"download"		"9DD7065C46C3CE10237FEE37C51664CB"
+				}
+				"press-1"
+				{
+					"gid"		"75FAC9B70D44E04812BD98FFE5A5F19D"
+					"size"		"F8C3DAAE36AAA3A56A54F2480F3733AC"
+					"download"		"85EDCA11EEB4DDF95E6AD007FA141B85"
+				}
+				"press-2"
+				{
+					"gid"		"6430216CF700F93C42AEEB6DF69C3DCE"
+					"size"		"9E496771823DD444ADBC327FE066BB8F"
+					"download"		"54EEEE4D8D8ABA5775246F59D7B1B9B2"
+				}
+				"qa-general-test"
+				{
+					"gid"		"179B6F04EBBD4080FAA16342815C3BFC"
+					"size"		"12CBD0644435739404832D046C1793E9"
+					"download"		"B43950F1F9EEE43C143B92E20CBD0D7A"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11991377"
+				"timeupdated"		"1694099007"
+			}
+			"denuvo"
+			{
+				"buildid"		"3925350"
+				"pwdrequired"		"1"
+				"timeupdated"		"1560776003"
+			}
+			"mg-internal-test"
+			{
+				"buildid"		"4008935"
+				"pwdrequired"		"1"
+				"timeupdated"		"1563017482"
+			}
+			"press-1"
+			{
+				"buildid"		"5462643"
+				"pwdrequired"		"1"
+				"timeupdated"		"1598460583"
+			}
+			"press-2"
+			{
+				"buildid"		"5709199"
+				"pwdrequired"		"1"
+				"timeupdated"		"1603191618"
+			}
+			"qa-general-test"
+			{
+				"buildid"		"11991377"
+				"pwdrequired"		"1"
+				"timeupdated"		"1692614799"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"path"		"MachineGames/Wolfenstein Youngblood/base/savegame.user/{64BitSteamID}"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
