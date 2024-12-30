@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"1140140"
+	"common"
+	{
+		"name"		"Summer Meetings"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"2061f0c0a39fb9b66c5ff90b25dc96defe7cd18b"
+		"logo_small"		"2061f0c0a39fb9b66c5ff90b25dc96defe7cd18b_thumb"
+		"icon"		"cf899a341e946e161be9f455b83dead67edc47cb"
+		"clienticon"		"0db1daad102564f54d7bc7c98c83a70ef360af91"
+		"clienttga"		"e301279e95ba15f79ace009ebc7a8a6b2c89a4a6"
+		"languages"
+		{
+			"english"		"1"
+			"polish"		"1"
+		}
+		"name_localized"
+		{
+			"polish"		"Letnie Spotkania"
+		}
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_sex"		"1"
+		"metacritic_name"		"Summer Meetings"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"polish"		"capsule_231x87_polish.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"polish"		"header_polish.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,pl"
+			"library_hero"		"en"
+			"library_logo"		"en,pl"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1666986164"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mikołaj Spychał"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mikołaj Spychał"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Mikołaj Spychał"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1566976131"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1140140"
+		"store_tags"
+		{
+			"0"		"3799"
+			"1"		"4085"
+			"2"		"12095"
+			"3"		"6869"
+			"4"		"9551"
+			"5"		"6426"
+			"6"		"6650"
+			"7"		"6971"
+			"8"		"1742"
+			"9"		"21"
+			"10"		"597"
+			"11"		"492"
+			"12"		"4726"
+			"13"		"11014"
+			"14"		"4136"
+			"15"		"5984"
+			"16"		"4947"
+			"17"		"4305"
+			"18"		"4486"
+			"19"		"1654"
+		}
+		"review_score"		"8"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"Mikołaj Spychał"
+		"publisher"		"Mikołaj Spychał"
+	}
+	"config"
+	{
+		"installdir"		"SummerMeetings"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SummerMeetings.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SummerMeetings.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"SummerMeetings.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"1140141"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6438544380741525445"
+					"size"		"971357219"
+					"download"		"849623088"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5277831"
+				"timeupdated"		"1594461323"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"21000000"
+		"maxnumfiles"		"70"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"RenPy/SummerMeetings"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".renpy/SummerMeetings"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"MacHome"
+				"path"		"/Library/RenPy/SummerMeetings"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
