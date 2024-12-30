@@ -1,0 +1,317 @@
+"appinfo"
+{
+	"appid"		"1367160"
+	"common"
+	{
+		"name"		"Wetlands"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"5d920a4f360e64fa24cfd432973a31346b9302ac"
+		"logo_small"		"5d920a4f360e64fa24cfd432973a31346b9302ac_thumb"
+		"icon"		"fb5db0ec427230b41790120e7f4a82f9778139d8"
+		"clienttga"		"b957c1fad0fb87e8884b0527edafa295255b669b"
+		"clienticon"		"9f5336084cc015b1344f54cbb95ba0efdd032801"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"65.5782474471622"
+			}
+		}
+		"store_asset_mtime"		"1693592608"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"New World Computing"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"New World Computing"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"788947200"
+		"steam_release_date"		"1612533179"
+		"community_hub_visible"		"1"
+		"gameid"		"1367160"
+		"store_tags"
+		{
+			"0"		"56690"
+			"1"		"18594"
+			"2"		"6815"
+			"3"		"4145"
+			"4"		"4255"
+			"5"		"5030"
+			"6"		"6052"
+			"7"		"3942"
+			"8"		"19"
+			"9"		"4115"
+			"10"		"9157"
+			"11"		"4195"
+			"12"		"4166"
+			"13"		"1755"
+			"14"		"6691"
+			"15"		"1774"
+			"16"		"4342"
+			"17"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"New World Computing"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1367160/"
+	}
+	"config"
+	{
+		"installdir"		"Wetlands"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -noconsole -exit"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox_fs.conf -noconsole -exit"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\DOSBox.exe"
+				"arguments"		"-conf dosbox_320x200.conf -noconsole -exit"
+				"description"		"windowed 320x200"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox_320x200.conf -noconsole -exit"
+				"description"		"windowed 320x200"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\DOSBox.exe"
+				"arguments"		"-conf dosbox_640x400.conf -noconsole -exit"
+				"description"		"windowed 640x400"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox_640x400.conf -noconsole -exit"
+				"description"		"windowed 640x400"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"DOSBox\\DOSBox.exe"
+				"arguments"		"-conf dosbox_1280x800.conf -noconsole -exit"
+				"description"		"windowed 1280x800"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"7"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox_1280x800.conf -noconsole -exit"
+				"description"		"windowed 1280x800"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"8"
+			{
+				"executable"		"DOSBox\\DOSBox.exe"
+				"arguments"		"-conf dosbox_2560x1600.conf -noconsole -exit"
+				"description"		"windowed 2560x1600"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"9"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox_2560x1600.conf -noconsole -exit"
+				"description"		"windowed 2560x1600"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1367161"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8172406555390402683"
+					"size"		"513930307"
+					"download"		"503053920"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"internal-test"
+				{
+					"gid"		"1817A76351E0816E2592A988062148CE"
+					"size"		"DF470B473930427066890CDF597BA10E"
+					"download"		"6BDB8478B88175651BFB2FEA1D774145"
+				}
+			}
+		}
+		"1367162"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7442287624317016206"
+					"size"		"7529500"
+					"download"		"4368704"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"internal-test"
+				{
+					"gid"		"5BA44C603219ECC6E0D7115F45CFE13C"
+					"size"		"3782CAD6CB212B42A751C543BEA53A56"
+					"download"		"C43BD6CC2233F06ECCC3D600372B4A9C"
+				}
+			}
+		}
+		"1367163"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6834910798417732496"
+					"size"		"12571765"
+					"download"		"4612864"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"internal-test"
+				{
+					"gid"		"7893EAB6810FE75903298488D7557B04"
+					"size"		"632574955596B60CB0C45545648E29FA"
+					"download"		"80D52763ED39D775A551BC37EC0891DD"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5962346"
+				"timeupdated"		"1607909941"
+			}
+			"internal-test"
+			{
+				"buildid"		"5962346"
+				"pwdrequired"		"1"
+				"timeupdated"		"1607897530"
+			}
+		}
+	}
+}
