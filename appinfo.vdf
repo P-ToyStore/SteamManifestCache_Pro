@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"1058220"
+	"common"
+	{
+		"name"		"Emoji TD"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"e9eff6830fe5907092d19cb02736e122c3f9bd54"
+		"logo_small"		"e9eff6830fe5907092d19cb02736e122c3f9bd54_thumb"
+		"icon"		"f2cb79d8d231687c842a1053bd72df6f1d65afff"
+		"clienttga"		"31d0038bf7840c98ca3ba0a98eef16703bb4bfd7"
+		"clienticns"		"a27b8aabb72e972c22d1195e063cff8c11bb013d"
+		"linuxclienticon"		"d453acad6b0f79971570bfa76d5a5a7f137a8aa9"
+		"clienticon"		"dfb09f747c3f17b606db8cd7b827fe24fa2ddade"
+		"releasestate"		"released"
+		"osextended"		"macos64"
+		"metacritic_name"		"Emoji TD"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1568844870"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kyle Rodgers"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kyle Rodgers"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Emoji Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1556724817"
+		"community_hub_visible"		"1"
+		"gameid"		"1058220"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+		}
+		"review_score"		"7"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Kyle Rodgers"
+		"publisher"		"Kyle Rodgers"
+		"homepage"		"http://emojitd.helixfox.com"
+	}
+	"config"
+	{
+		"installdir"		"Emoji TD"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Emoji TD.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"EmojiTD.app\\Contents\\MacOS\\Emoji TD"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"emojitd.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1058222"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2064672314977929587"
+					"size"		"655755845"
+					"download"		"76584288"
+				}
+			}
+		}
+		"1058223"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6467066029237319367"
+					"size"		"701384699"
+					"download"		"78189632"
+				}
+			}
+		}
+		"1058224"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4078198914244842591"
+					"size"		"663609501"
+					"download"		"78963488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12504085"
+				"timeupdated"		"1697969576"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Kyle's Games/Emoji TD"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Kyle's Games/Emoji TD"
+						"replace"		"com.KylesGames.EmojiTD"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Kyle's Games/Emoji TD"
+						"replace"		".config/unity3d/Kyle's Games/emojitd"
+					}
+				}
+			}
+		}
+	}
+}
