@@ -1,0 +1,232 @@
+"appinfo"
+{
+	"appid"		"525740"
+	"common"
+	{
+		"name"		"Slashy Hero"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"4834188a79784ffab8f48fc1d881553da7c498da"
+		"clienttga"		"f1bfb75febd1cb5789be3367abe6762092bc9e8a"
+		"icon"		"fd578a149ad9cf915b6ebcb6e3b9eaf7a8788054"
+		"clienticns"		"970cc44088a62218b19ffc42b9c68935ba0df03a"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"brazilian"		"1"
+		}
+		"logo"		"fa8b85dd123fffbe24bf70fc4c597a80d7899315"
+		"logo_small"		"fa8b85dd123fffbe24bf70fc4c597a80d7899315_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Slashy Hero"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1479233064"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Gentlebros"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"General Arcade"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"The Gentlebros"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1476834028"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"525740"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+		}
+		"review_score"		"7"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"The Gentlebros"
+		"publisher"		"The Gentlebros"
+		"homepage"		"https://www.thegentlebros.com/slashyhero/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Slashy Hero"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\SlashyHero.exe"
+				"workingdir"		"gameroot"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/SlashyHero.app"
+				"workingdir"		"gameroot"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"767948360"
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"525741"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8676716802625614668"
+					"size"		"43472763"
+					"download"		"39439104"
+				}
+			}
+		}
+		"525742"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1870798603582378244"
+					"size"		"10204295"
+					"download"		"3617296"
+				}
+			}
+		}
+		"525743"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7141129072274240111"
+					"size"		"21719110"
+					"download"		"6062592"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,russian,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1587532"
+				"timeupdated"		"1485258569"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"gameroot"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
