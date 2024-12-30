@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"1601900"
+	"common"
+	{
+		"name"		"Slordax: The Unknown Enemy"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"6e7a5551e3426ec19de3c4a5ca47b7df4cf9dffc"
+		"logo"		"48cfa77dffa175bad668c0060177c93f633c7110"
+		"logo_small"		"48cfa77dffa175bad668c0060177c93f633c7110_thumb"
+		"clienttga"		"83754acf42e0585a93ff9a6caef426119283ab99"
+		"clienticon"		"18bd0610ceeb4ee0f0d66ba56d0e308eb22dc91a"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"65.95820470197103"
+			}
+		}
+		"store_asset_mtime"		"1620370793"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Softdisk"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1620391794"
+		"community_hub_visible"		"1"
+		"gameid"		"1601900"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4255"
+			"2"		"4004"
+			"3"		"4637"
+			"4"		"3964"
+			"5"		"4885"
+			"6"		"1673"
+			"7"		"4791"
+			"8"		"1755"
+			"9"		"1774"
+			"10"		"6691"
+			"11"		"3993"
+			"12"		"4182"
+			"13"		"4291"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Softdisk"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1601900/"
+	}
+	"config"
+	{
+		"installdir"		"Slordax The Unknown Enemy"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1601901"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2969745492986122245"
+					"size"		"34852942"
+					"download"		"13978288"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6535158"
+				"timeupdated"		"1618340818"
+			}
+		}
+	}
+}
