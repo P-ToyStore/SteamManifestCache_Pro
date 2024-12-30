@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"1341830"
+	"common"
+	{
+		"name"		"Steel Thunder"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"ff55f0b3bfbd22e252c3b569466b453935884876"
+		"logo"		"219a6c5ad774c8227b828a0ccb659be21048dad1"
+		"logo_small"		"219a6c5ad774c8227b828a0ccb659be21048dad1_thumb"
+		"clienttga"		"da5ba7c64cf01e0e0e0fe635b6312b3cd1a9a817"
+		"clienticon"		"f2403742918a7047386c6f7cf438d63217d3f425"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"53.15052508751458"
+				"height_pct"		"55.319401567323695"
+			}
+		}
+		"store_asset_mtime"		"1597276195"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Accolade, Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"610009200"
+		"steam_release_date"		"1599227553"
+		"community_hub_visible"		"1"
+		"gameid"		"1341830"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"13276"
+			"2"		"19"
+			"3"		"4168"
+			"4"		"4004"
+			"5"		"5179"
+			"6"		"1678"
+			"7"		"7743"
+			"8"		"13190"
+			"9"		"11104"
+			"10"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Accolade, Inc"
+		"publisher"		"Ziggurat"
+	}
+	"config"
+	{
+		"installdir"		"Steel Thunder"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x800.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x800"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x400.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x400"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x200.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x200"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1600.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1600"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1341831"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8647903219110820984"
+					"size"		"8130537"
+					"download"		"4868384"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5439449"
+				"timeupdated"		"1597959529"
+			}
+		}
+	}
+}
