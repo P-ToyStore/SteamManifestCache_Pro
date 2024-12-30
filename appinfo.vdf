@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"1297550"
+	"common"
+	{
+		"name"		"TKO"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienttga"		"909bdb20fe62e00d3f73fb61e3ec06bd51943acc"
+		"clienticon"		"dcd2ca7d36154c5326c55c09a3be9f5e5430d160"
+		"icon"		"fa127d47a60ae834919301acfb18ef1c7b11f385"
+		"logo"		"a94bcd4dfea0937548aa96553163ca9b1b3d98bb"
+		"logo_small"		"a94bcd4dfea0937548aa96553163ca9b1b3d98bb_thumb"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"67.47803372120637"
+			}
+		}
+		"store_asset_mtime"		"1614919441"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Accolade"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"599644800"
+		"steam_release_date"		"1614952576"
+		"community_hub_visible"		"1"
+		"gameid"		"1297550"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"12190"
+			"2"		"599"
+			"3"		"4004"
+			"4"		"7743"
+			"5"		"3839"
+			"6"		"3964"
+			"7"		"4747"
+			"8"		"3871"
+			"9"		"4305"
+			"10"		"3859"
+			"11"		"4182"
+			"12"		"19"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Accolade"
+		"publisher"		"Ziggurat"
+		"homepage"		"http://www.ziggurat.games"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1297550/"
+	}
+	"config"
+	{
+		"installdir"		"TKO"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1297551"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5443622095615688078"
+					"size"		"40914267"
+					"download"		"19156672"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"6DF4CF8F6DF61E73EBD0F7D1697D0F9C"
+					"size"		"EA527D51D69D2D7DEC4A5240279A77C0"
+					"download"		"0EE3C9FDFE1A676149A116D345C58E1F"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6334597"
+				"timeupdated"		"1614931095"
+			}
+			"beta"
+			{
+				"buildid"		"6291086"
+				"pwdrequired"		"1"
+				"timeupdated"		"1614224014"
+			}
+		}
+	}
+}
