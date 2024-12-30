@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"1507980"
+	"common"
+	{
+		"name"		"Leap of Love - Safe Edition"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"9714a0914ec6079a96b2d3b47639034a48034182"
+		"logo_small"		"9714a0914ec6079a96b2d3b47639034a48034182_thumb"
+		"icon"		"9897cb065f37950aa6bd6f08508fbed7ecb7e8e1"
+		"clienttga"		"a7ab6fc427f775a3785e643064291f7f4d243598"
+		"clienticon"		"a3b8cba7836121cd5ea2b176591dcfe0ebd0aaaa"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_sex"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1609745901"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Andrealphus Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Andreaphus Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1612765825"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1507980"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"3799"
+			"2"		"9551"
+			"3"		"3871"
+			"4"		"1684"
+			"5"		"12095"
+			"6"		"1742"
+			"7"		"6426"
+			"8"		"6650"
+			"9"		"6971"
+			"10"		"5094"
+			"11"		"31275"
+			"12"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Andrealphus Games"
+		"publisher"		"Andreaphus Games"
+	}
+	"config"
+	{
+		"installdir"		"Leap of Love - Safe Edition"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LeapofLove-sfw.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"LeapofLove-sfw.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"beta"
+				}
+			}
+			"3"
+			{
+				"executable"		"LeapofLove-sfw.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1507981"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8797373811393588909"
+					"size"		"338992124"
+					"download"		"189673088"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"1D2A48AD69D90EACD8673716CBF2B259"
+					"size"		"F484F6033E6332C19A565CF3634A5804"
+					"download"		"31378505FAC961A6A47C329F412A6A57"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12422626"
+				"timeupdated"		"1697104850"
+			}
+			"beta"
+			{
+				"buildid"		"12422626"
+				"pwdrequired"		"1"
+				"timeupdated"		"1697104812"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"game/saves"
+				"pattern"		"*.save"
+			}
+		}
+	}
+}
