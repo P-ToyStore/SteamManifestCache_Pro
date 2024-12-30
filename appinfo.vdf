@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"1283860"
+	"common"
+	{
+		"name"		"Super Bounce Ball"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"241aeaf077d79b3a676682879fff9b0617e34647"
+		"logo_small"		"241aeaf077d79b3a676682879fff9b0617e34647_thumb"
+		"icon"		"ffe045ea3568aefad4963e815da5c443d42c3c3c"
+		"clienttga"		"8e46443bd5efe69935818397472c563a0584124d"
+		"clienticon"		"89f7989854edea79b2bda107dec5b86a0645684d"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1667072961"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NanningsGames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"NanningsGames"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Nannings"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1587419298"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1283860"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"1664"
+			"3"		"1756"
+			"4"		"3871"
+			"5"		"4094"
+			"6"		"4166"
+			"7"		"4182"
+			"8"		"4234"
+			"9"		"4400"
+			"10"		"5350"
+			"11"		"7250"
+			"12"		"7481"
+			"13"		"7948"
+			"14"		"1621"
+		}
+	}
+	"extended"
+	{
+		"developer"		"NanningsGames"
+		"publisher"		"NanningsGames"
+		"homepage"		"http://www.nannings.nz"
+	}
+	"config"
+	{
+		"installdir"		"Super Bounce Ball"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Super Bounce Ball.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Super Bounce Ball.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"1283861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7105145841303898560"
+					"size"		"98087825"
+					"download"		"20598352"
+				}
+			}
+		}
+		"1283862"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2288264770453390902"
+					"size"		"110608404"
+					"download"		"23762368"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9813728"
+				"timeupdated"		"1666882756"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"NanningsGames/Super Bounce Ball"
+				"pattern"		"savedata"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"NanningsGames/Super Bounce Ball"
+						"replace"		".config/unity3d/NanningsGames/Super Bounce Ball"
+					}
+				}
+			}
+		}
+	}
+}
