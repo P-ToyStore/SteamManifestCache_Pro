@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"1544740"
+	"common"
+	{
+		"name"		"MicroProse™ Soccer"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienttga"		"8ee7d7696565c5fa3c8a09c930b2926bd5cb9e42"
+		"clienticon"		"890b3ef93da2371c3f2c54a7191ef1d1a554a0cf"
+		"logo"		"0cd6ed6146963bfb900c0aa8b31ed52769fb052d"
+		"logo_small"		"0cd6ed6146963bfb900c0aa8b31ed52769fb052d_thumb"
+		"icon"		"632a0346ebfc4f229e232a8881230392da5706dc"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"72.03752077891238"
+			}
+		}
+		"store_asset_mtime"		"1615940377"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Sensible Software"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"568022400"
+		"steam_release_date"		"1614952499"
+		"community_hub_visible"		"1"
+		"gameid"		"1544740"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"1254546"
+			"2"		"599"
+			"3"		"4004"
+			"4"		"7743"
+			"5"		"3964"
+			"6"		"3871"
+			"7"		"4791"
+			"8"		"3859"
+			"9"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"disableoverlay"		"1"
+		"developer"		"MicroProse"
+		"publisher"		"Ziggurat"
+		"homepage"		"http://www.ziggurat.games"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1544740/"
+	}
+	"config"
+	{
+		"installdir"		"MicroProse Soccer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"internal-test"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"internal-test"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"internal-test"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"internal-test"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"internal-test"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+			"5"
+			{
+				"executable"		"ConsoleLauncher.exe"
+				"type"		"option1"
+				"description_loc"
+				{
+					"english"		"Testing Launcher"
+				}
+				"description"		"Testing Launcher"
+			}
+		}
+	}
+	"depots"
+	{
+		"1544741"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8229218396422632124"
+					"size"		"286998493"
+					"download"		"206837232"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"internal-test"
+				{
+					"gid"		"C0D97A5F3E80D7DDA7E7E83459BB7AE1"
+					"size"		"0BA698838FDBA6B8D836EF54C7986BE6"
+					"download"		"4871F80C16385B3E2CD3E8E36F1832BE"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7282136"
+				"timeupdated"		"1630651079"
+			}
+			"internal-test"
+			{
+				"buildid"		"6391960"
+				"pwdrequired"		"1"
+				"timeupdated"		"1630651042"
+			}
+		}
+	}
+}
