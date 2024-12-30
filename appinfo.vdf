@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"1357550"
+	"common"
+	{
+		"name"		"Psi 5 Trading Co"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"2a2f92c1924a476fa2dee9b3d6987e8703d85d64"
+		"logo_small"		"2a2f92c1924a476fa2dee9b3d6987e8703d85d64_thumb"
+		"icon"		"73b25c9b40c0b86f5c8f70ad7461fdf23230f1f7"
+		"clienttga"		"f0bdf8585ee4a556a73d9559068316ecbaab256a"
+		"clienticon"		"b39bde74d209f79b0a27a2f57fbad498bb8f8dc5"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1593635720"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Accolade, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"533808000"
+		"steam_release_date"		"1601646712"
+		"community_hub_visible"		"1"
+		"gameid"		"1357550"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"16598"
+			"2"		"1755"
+			"3"		"12472"
+			"4"		"1673"
+			"5"		"3942"
+			"6"		"3964"
+			"7"		"7743"
+			"8"		"4004"
+			"9"		"9"
+			"10"		"4295"
+			"11"		"21"
+			"12"		"3993"
+			"13"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Accolade, Inc."
+		"publisher"		"Ziggurat"
+	}
+	"config"
+	{
+		"installdir"		"Psi 5 Trading Co"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x800.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x800"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1600.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1600"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x400.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x400"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x200.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x200"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1357551"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5770159796075846794"
+					"size"		"5897101"
+					"download"		"2839632"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"gid"		"DC0B9EB92AB836E01A17E80C519D65F0"
+					"size"		"9D5E34D6F1D7A6B78E8AE5D66D3F5FBF"
+					"download"		"BD63E8132D398C9BFBA907369E04EA23"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5569949"
+				"timeupdated"		"1600633034"
+			}
+			"internal"
+			{
+				"buildid"		"5554358"
+				"pwdrequired"		"1"
+				"timeupdated"		"1600287564"
+			}
+		}
+	}
+}
