@@ -1,0 +1,182 @@
+"appinfo"
+{
+	"appid"		"1357490"
+	"common"
+	{
+		"name"		"Gunboat"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"f8fcfffc78bae35c7d6fbcb28be8aa974ffeee71"
+		"clienttga"		"72d0c2f07779bfd4b14cd8e1ad058b3a8fa43825"
+		"clienticon"		"48b7357dd9d331f2141ce4204981e76b4abc9932"
+		"logo"		"16fc378d0b354ed8928c987152b4a75bd956c6c0"
+		"logo_small"		"16fc378d0b354ed8928c987152b4a75bd956c6c0_thumb"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"81.91640940394205"
+			}
+		}
+		"store_asset_mtime"		"1594163170"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Accolade, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"654764400"
+		"steam_release_date"		"1599227607"
+		"community_hub_visible"		"1"
+		"gameid"		"1357490"
+		"store_tags"
+		{
+			"0"		"4994"
+			"1"		"19"
+			"2"		"599"
+			"3"		"6910"
+			"4"		"4168"
+			"5"		"1678"
+			"6"		"3993"
+			"7"		"1774"
+			"8"		"11104"
+			"9"		"1693"
+			"10"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Accolade, Inc."
+		"publisher"		"Ziggurat"
+	}
+	"config"
+	{
+		"installdir"		"Gunboat"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x960.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x960"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1920.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1920"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x240.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x240"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x480.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x480"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1357491"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5809878764378671682"
+					"size"		"6289583"
+					"download"		"3190624"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5495084"
+				"timeupdated"		"1599083289"
+			}
+		}
+	}
+}
