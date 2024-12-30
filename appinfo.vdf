@@ -1,0 +1,227 @@
+"appinfo"
+{
+	"appid"		"1618030"
+	"common"
+	{
+		"name"		"Titan Nebula"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"logo"		"ede4a87fcf19a96afa0caf1c9ff639d1b43b283a"
+		"logo_small"		"ede4a87fcf19a96afa0caf1c9ff639d1b43b283a_thumb"
+		"icon"		"b297b19744145391ecf5192cb53f1f9dab851971"
+		"clienttga"		"033a7324b5b61dd9eb8957298d2e7375d5e57123"
+		"clienticon"		"796abbabb49316148d750ee2945f7290b8e89c33"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"61.51162790697674"
+				"height_pct"		"69.60341961529329"
+			}
+		}
+		"store_asset_mtime"		"1620659012"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Pipocation Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Pipocation Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1621011400"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1618030"
+		"store_tags"
+		{
+			"0"		"3814"
+			"1"		"4191"
+			"2"		"19"
+			"3"		"1697"
+			"4"		"4295"
+			"5"		"3942"
+			"6"		"1755"
+			"7"		"4821"
+			"8"		"5752"
+			"9"		"4166"
+			"10"		"5125"
+			"11"		"6730"
+			"12"		"4168"
+			"13"		"1774"
+			"14"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Pipocation Games"
+		"publisher"		"Pipocation Games"
+		"homepage"		"http://www.pipocation.com"
+	}
+	"config"
+	{
+		"installdir"		"X-Bounty"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Titan Nebula.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Titan Nebula.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Titan Nebula.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1618031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1794299061263275257"
+					"size"		"459466874"
+					"download"		"103587600"
+				}
+			}
+		}
+		"1618032"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3114125845092520150"
+					"size"		"481995852"
+					"download"		"110318032"
+				}
+			}
+		}
+		"1618033"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6017441082958884559"
+					"size"		"503515677"
+					"download"		"105244656"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6676043"
+				"timeupdated"		"1620657145"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Pipocation Games/Titan Nebula"
+				"pattern"		"saveData.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"unity.Pipocation Games.Titan Nebula"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/unity3d/Pipocation Games/Titan Nebula"
+			}
+		}
+	}
+}
