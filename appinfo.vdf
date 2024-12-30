@@ -1,0 +1,708 @@
+"appinfo"
+{
+	"appid"		"115100"
+	"common"
+	{
+		"name"		"Costume Quest"
+		"type"		"Game"
+		"clienticon"		"364bad1181d67c414577f7275a70b5ae28518f6c"
+		"logo"		"125ad90dba2c6c3726837ae9c1889d8009f806a9"
+		"logo_small"		"125ad90dba2c6c3726837ae9c1889d8009f806a9_thumb"
+		"icon"		"ba04f2c7aa5a5c8762d088d9a9fe10d67c92e59b"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"57eb5e38232b96a1e65a6c34739a118de5cd11d8"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1659139200"
+			"tested_build_id"		"81338"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Costume Quest"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"54.66744457409572"
+				"height_pct"		"51.51975676842052"
+			}
+		}
+		"store_asset_mtime"		"1669238054"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Double Fine Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Double Fine Productions"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1318640400"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"115100"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"21"
+			"2"		"1719"
+			"3"		"597"
+			"4"		"4182"
+			"5"		"5350"
+			"6"		"1677"
+			"7"		"4726"
+			"8"		"492"
+			"9"		"4136"
+			"10"		"4234"
+			"11"		"1741"
+			"12"		"4325"
+			"13"		"7208"
+			"14"		"1664"
+			"15"		"4195"
+			"16"		"4559"
+			"17"		"7481"
+			"18"		"1684"
+			"19"		"19"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Double Fine Productions"
+		"gamedir"		""
+		"homepage"		"http://www.costumequestgame.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"115101"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Double Fine Productions"
+		"listofdlc"		"115107"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Costume Quest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cq.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cq.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Cq.bin.x86"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"115101"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"347993498395611204"
+					"size"		"666182183"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"B3BD8E92541A7AA438EEBEC26706D5A2"
+					"size"		"3417D97C9AA4CCF098F897515D1AF811"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"115102"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5964903972184121818"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"384F285261E8B13E3624F3F738E5609E"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"115103"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4897098334723953368"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"566A888B711B0883367819679AEA4A04"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"115104"
+		{
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1196063206061464132"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"5316F814E1C7170E1C6EBB5C1BF6EE11"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"115105"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6361500701812216454"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"419658439E81954172EE7EE4C3A33F84"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"115106"
+		{
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6217497835971101300"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"3E89EFFD572C1CB729538B58C8A3654B"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238551"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7997879087164838710"
+					"size"		"635947126"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"BABDC65438FDD101D29826EEF90391A0"
+					"size"		"A3A2E94ABD304BEC53CC231970F9D601"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238552"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2027397432141593325"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"0E383212454437E4226EAAE626F97AD5"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238553"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5384162913955071058"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"8164868C26DA55C85F71DAB5228ED72A"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238554"
+		{
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1677106717195411547"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"A9BBF21A78EC2C4D88981B0CA72C6E8E"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238555"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4038092595314213825"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"826B5ED6F0523C74762B93C270D056E9"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238556"
+		{
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2825788175391144922"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"9712E1E70F16D04D03E83F4470E94C68"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238557"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8490226805788076353"
+					"size"		"628812571"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"E51C0817A01F46867DFAAFF47CFDB4FF"
+					"size"		"28E3AD2E172D86EE0DAF856C8CE9F94C"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238558"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3934805467934635886"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"9E9872C50B6118FC779DBE9A65C9513E"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238559"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3949849824773592288"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"2351FAE96E449C886F97232C3C12F49C"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238560"
+		{
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"895703173811228310"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"539C49DB43F06DAD2CECBEEC21759FED"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238561"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1500045585242422884"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"AF82BBD2CC04D0FDD62673693A220A48"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"238562"
+		{
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3017021090027090861"
+					"size"		"19"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"39109C4C50845138FA846B36CE8C87B6"
+					"size"		"ECF1B073B09D3B77310A73C0B096E2F3"
+					"download"		"28EC422B236A2B68E46BC46234F41F9A"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"81338"
+			}
+			"beta"
+			{
+				"buildid"		"136319"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
