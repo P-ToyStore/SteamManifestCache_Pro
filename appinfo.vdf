@@ -1,0 +1,204 @@
+"appinfo"
+{
+	"appid"		"1305760"
+	"common"
+	{
+		"name"		"Succubus Throne"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"0c71b94a456aba99ab97cf0a4c5513e4fb0903d9"
+		"logo_small"		"0c71b94a456aba99ab97cf0a4c5513e4fb0903d9_thumb"
+		"icon"		"db44fad4df1aec002ab733e5fb2a4fc07464692e"
+		"clienttga"		"f5151280bf19edb56565c7f79e03070d3c0859af"
+		"clienticns"		"c2509a43750755a35b5ca81a1da796dffa3c7193"
+		"linuxclienticon"		"439cd1feabc24042a74389029da8d1613df35dd7"
+		"clienticon"		"fee569e3380a41341ec1a08c642a7eddb4421c0a"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"5"
+			"3"		"4"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_sex"		"1"
+		"restricted_countries"		"CN,DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1667205447"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"7DOTS"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"7DOTS"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1589353200"
+		"steam_release_date"		"1589405214"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1305760"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+			"3"		"12095"
+			"4"		"6650"
+			"5"		"3799"
+			"6"		"1664"
+			"7"		"9130"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"7DOTS"
+		"publisher"		"7DOTS"
+		"homepage"		"https://vk.com/seven_dots"
+	}
+	"config"
+	{
+		"installdir"		"SuccubusThrone"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SuccubusThrone.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SuccubusThrone.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1305761"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6406347193269278357"
+					"size"		"170515780"
+					"download"		"109227040"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4976965"
+				"timeupdated"		"1588517473"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"RenPy/SuccubusThrone/"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".renpy/SuccubusThrone"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"game/saves"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
