@@ -1,0 +1,186 @@
+"appinfo"
+{
+	"appid"		"1145970"
+	"common"
+	{
+		"name"		"Forest Home"
+		"type"		"Game"
+		"logo"		"d7492d226800396c2f5baf2632327ddc18940405"
+		"logo_small"		"d7492d226800396c2f5baf2632327ddc18940405_thumb"
+		"icon"		"73dc6f846de56edf60bbc1e8458687782b8293cf"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"f50a0185c309aec5fde23ebbec549f662a51d9bb"
+		"clienttga"		"8871605e6dc847e9715359edb315464f4b269e3b"
+		"releasestate"		"released"
+		"metacritic_name"		"Forest Home"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50.84841628959276"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1566180441"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Binary Mill"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nextgen Reality Pty. Ltd."
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1568945271"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1145970"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"9"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"The Binary Mill"
+		"publisher"		"Nextgen Reality Pty. Ltd."
+		"homepage"		"https://www.thebinarymill.com/"
+	}
+	"config"
+	{
+		"installdir"		"Forest Home"
+		"steamconfigurator3rdpartynative"		"2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Forest Home.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1145971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5410309792719789428"
+					"size"		"137059969"
+					"download"		"58061184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4567169"
+				"timeupdated"		"1578967334"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"16777216"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"The Binary Mill/Forest Home"
+				"pattern"		"LocalUser"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"The Binary Mill/Forest Home"
+						"replace"		"unity.The Binary Mill.Forest Home"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"The Binary Mill/Forest Home"
+						"replace"		".config/unity3d/The Binary Mill/Forest Home"
+					}
+				}
+			}
+		}
+	}
+}
