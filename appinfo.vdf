@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"1568440"
+	"common"
+	{
+		"name"		"Sands of Fire"
+		"type"		"Game"
+		"logo"		"5c1e1f90c45c622b9e3c7eca1311e3bcfd6150b7"
+		"logo_small"		"5c1e1f90c45c622b9e3c7eca1311e3bcfd6150b7_thumb"
+		"icon"		"8e32d479aaddeaa52f017c1e4d68eec8a6c7dfc5"
+		"clienttga"		"ab83b57e575c262650a002a0e00bfbbee4fba1a2"
+		"clienticon"		"3d8220e7d51a9a8c1f39708f166954fbbfa32af5"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"87.99572548088341"
+			}
+		}
+		"store_asset_mtime"		"1617360398"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Three-Sixty Pacific"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1617359099"
+		"community_hub_visible"		"1"
+		"gameid"		"1568440"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"13276"
+			"2"		"4684"
+			"3"		"4150"
+			"4"		"3964"
+			"5"		"4004"
+			"6"		"3916"
+			"7"		"4168"
+			"8"		"19"
+			"9"		"3987"
+			"10"		"1708"
+			"11"		"3993"
+			"12"		"1678"
+			"13"		"9"
+			"14"		"1774"
+			"15"		"3839"
+			"16"		"4791"
+			"17"		"6691"
+			"18"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Three-Sixty Pacific"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1568440/"
+	}
+	"config"
+	{
+		"installdir"		"Sands of Fire"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1568441"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6823907476369037333"
+					"size"		"35379441"
+					"download"		"14516288"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6430400"
+				"timeupdated"		"1616568709"
+			}
+		}
+	}
+}
