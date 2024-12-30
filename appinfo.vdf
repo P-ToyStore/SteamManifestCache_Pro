@@ -1,0 +1,199 @@
+"appinfo"
+{
+	"appid"		"1482550"
+	"common"
+	{
+		"name"		"I Am the Captain Now"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"72c44ea32e62593b337bbb7f8f6554309cd87ac4"
+		"logo_small"		"72c44ea32e62593b337bbb7f8f6554309cd87ac4_thumb"
+		"icon"		"fd26ed883f794f62829c0509131661b0fbd64706"
+		"clienttga"		"ec2a32ef1c0abc7a8f1ba20ae73822abe2ea3c1a"
+		"clienticon"		"519f08b9050a81c45fef23de73c9a50178acbf38"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"32.26451517468416"
+				"height_pct"		"90.65072627246101"
+			}
+		}
+		"store_asset_mtime"		"1629633824"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"North Lake Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"North Lake Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+			"category_1"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1622130367"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1482550"
+		"store_tags"
+		{
+			"0"		"3859"
+			"1"		"3841"
+			"2"		"1685"
+			"3"		"19"
+			"4"		"21"
+			"5"		"1681"
+			"6"		"5350"
+			"7"		"7368"
+			"8"		"4840"
+			"9"		"4106"
+			"10"		"5711"
+			"11"		"4508"
+			"12"		"1680"
+			"13"		"4191"
+			"14"		"3968"
+			"15"		"26921"
+			"16"		"3955"
+			"17"		"13577"
+			"18"		"4994"
+			"19"		"1644"
+		}
+	}
+	"extended"
+	{
+		"developer"		"North Lake Games"
+		"publisher"		"North Lake Games"
+	}
+	"config"
+	{
+		"installdir"		"I Am the Captain Now"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"I Am the Captain Now.exe"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"1482551"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3516850381208078879"
+					"size"		"671756211"
+					"download"		"127758464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7229979"
+				"timeupdated"		"1629630692"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"North Lake Games\\I Am the Captain Now"
+				"pattern"		"*.fun"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"North Lake Games\\I Am the Captain Now"
+						"replace"		"unity.North Lake Games\\I Am the Captain Now"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		""
+						"replace"		".config/unity3d/North Lake Games\\I Am the Captain Now"
+					}
+				}
+			}
+		}
+	}
+}
