@@ -1,0 +1,268 @@
+"appinfo"
+{
+	"appid"		"1409180"
+	"common"
+	{
+		"name"		"Of Mice and Moggies"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"logo"		"e8e2b1c2840bab580db869809567725e0d5b9ba5"
+		"logo_small"		"e8e2b1c2840bab580db869809567725e0d5b9ba5_thumb"
+		"icon"		"51d11ea0e48ab9c173ef6c16aaeada4ecf329f4a"
+		"clienttga"		"75af497b89e5e0bf38b8e0391c008ec994c634fb"
+		"clienticon"		"97759237fa350761b9b6a38969323bff78a1a2aa"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"32.60368663594468"
+				"height_pct"		"28.122667925212454"
+			}
+		}
+		"store_asset_mtime"		"1629323263"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bippinbits"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bippinbits"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_17"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1614099322"
+		"community_hub_visible"		"1"
+		"gameid"		"1409180"
+		"store_tags"
+		{
+			"0"		"1730"
+			"1"		"1664"
+			"2"		"4026"
+			"3"		"3871"
+			"4"		"97376"
+			"5"		"4791"
+			"6"		"1654"
+			"7"		"7481"
+			"8"		"6869"
+			"9"		"597"
+			"10"		"3964"
+			"11"		"17894"
+			"12"		"5350"
+			"13"		"6129"
+			"14"		"8122"
+			"15"		"4166"
+			"16"		"30358"
+			"17"		"4004"
+			"18"		"4182"
+			"19"		"4726"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Bippinbits"
+		"publisher"		"Bippinbits"
+	}
+	"config"
+	{
+		"installdir"		"Of Mice and Moggies"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Of Mice and Moggies.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"game start for win64"
+				}
+				"description"		"game start for win64"
+			}
+			"1"
+			{
+				"executable"		"OfMiceAndMoggies.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Contents/MacOS/Of Mice and Moggies"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1409182"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7704122637725346088"
+					"size"		"348580352"
+					"download"		"307628608"
+				}
+			}
+		}
+		"1409181"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3935165347307166102"
+					"size"		"349554320"
+					"download"		"308042832"
+				}
+			}
+		}
+		"1409183"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7997960926131812154"
+					"size"		"385674097"
+					"download"		"317223072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7711692"
+				"timeupdated"		"1636929483"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"LinuxHome"
+				"path"		".local/share/godot/app_userdata/Of Mice and Moggies"
+				"pattern"		"*_cloud.txt"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Godot/app_userdata/Of Mice and Moggies"
+				"pattern"		"*_cloud.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		".local/share/godot/app_userdata/Of Mice and Moggies/levels"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"3"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Godot/app_userdata/Of Mice and Moggies/levels"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
