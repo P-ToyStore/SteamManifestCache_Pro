@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"1625960"
+	"common"
+	{
+		"name"		"Loverowind"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"cbff1046f782625437b9e3820fb57c3bb377a7b2"
+		"logo_small"		"cbff1046f782625437b9e3820fb57c3bb377a7b2_thumb"
+		"icon"		"93e8947e69cef42c1fa917cbca16f7ddf2c2bef1"
+		"clienttga"		"676f85b588223a1b0f4a77e69e34302443aadd27"
+		"clienticon"		"73b5285978848423bda0aa9c2bd490358fcebd9b"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"55.414746543778804"
+				"height_pct"		"83.57038887338089"
+			}
+		}
+		"store_asset_mtime"		"1683143443"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tonguç Bodur"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tonguç Bodur"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Tonguç Bodur"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1621427163"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1625960"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"21"
+			"2"		"5900"
+			"3"		"4234"
+			"4"		"3834"
+			"5"		"4191"
+			"6"		"4305"
+			"7"		"3839"
+			"8"		"4166"
+			"9"		"5608"
+			"10"		"5350"
+			"11"		"492"
+			"12"		"1684"
+			"13"		"30358"
+			"14"		"1710"
+			"15"		"1695"
+			"16"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"Tonguç Bodur"
+		"publisher"		"Tonguç Bodur"
+		"homepage"		"https://tongucbodur.com/loverowind"
+	}
+	"config"
+	{
+		"installdir"		"Loverowind"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Loverowind.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1625961"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8950762339945048851"
+					"size"		"2934746319"
+					"download"		"1423413728"
+				}
+				"test"
+				{
+					"gid"		"8950762339945048851"
+					"size"		"2934746319"
+					"download"		"1423413728"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8447068"
+				"timeupdated"		"1648400481"
+			}
+			"test"
+			{
+				"buildid"		"8447068"
+				"description"		"test"
+				"timeupdated"		"1648399568"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Loverowind/Saved/SaveGames"
+				"pattern"		"LevelSave.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Loverowind/Saved/SaveGames"
+				"pattern"		"Finished.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
