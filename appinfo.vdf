@@ -1,0 +1,199 @@
+"appinfo"
+{
+	"appid"		"2252590"
+	"common"
+	{
+		"name"		"Football Manager 2024 Editor"
+		"type"		"Tool"
+		"parent"		"2252570"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"icon"		"4649e5509fdd96f6572a8d97631a1e882e3d428e"
+		"clienticon"		"1622e91509748c1130e024e093fddb116cec3ead"
+		"clienttga"		"feaf5cc2fbe848840a7253c3ce024193a9e026f4"
+		"community_hub_visible"		"1"
+		"gameid"		"2252590"
+	}
+	"config"
+	{
+		"installdir"		"Football Manager 2024 Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"editor.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"editor.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2252591"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8096796925581565160"
+					"size"		"108083151"
+					"download"		"51283632"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"day0"
+				{
+					"gid"		"A1DE84C20F50DB93B54FB020F58838CA"
+					"size"		"CB79477A7A1B2080AD4EEA3339561301"
+					"download"		"8701B3979A7E7C1C044EA011BDCEFBC7"
+				}
+				"temp"
+				{
+					"gid"		"B556936D00054FC5977107EF6639F22B"
+					"size"		"FB3943D2818C2167C3F742B83AB856EA"
+					"download"		"D18D272BF2BDC0F39763058BAEBA8A43"
+				}
+				"nightly"
+				{
+					"gid"		"761AECFFDDB1ED10B2AA983ABC91BABE"
+					"size"		"91A39944732927500F6BC33F72034CE8"
+					"download"		"9CB7F6D02D92F54F1199EA16AE4CAFED"
+				}
+				"si-bvt"
+				{
+					"gid"		"E7274BC7C0558A4134C39FF00F6F1004"
+					"size"		"6889A11C406E3BC728AA44BC25983758"
+					"download"		"CFE5819D343377AAE8ED748F96618953"
+				}
+			}
+		}
+		"2252592"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"578444861672085774"
+					"size"		"120457145"
+					"download"		"36193792"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"day0"
+				{
+					"gid"		"D324D92A6D5163C292B4E8FBCCEC4795"
+					"size"		"4C44B49D35E9C2BFC6699E9DA92BDB03"
+					"download"		"5713223BB7A3E2881F4518B943D388DE"
+				}
+				"temp"
+				{
+					"gid"		"2C45373C95AE9CAE11EF9ADCFFBC2D74"
+					"size"		"E68AD5D994142BECF56150F664688E75"
+					"download"		"6012A35A39A4A0CC427B06F8FFF0A3B6"
+				}
+				"nightly"
+				{
+					"gid"		"AA80F0B395AD82062D6F241C5BF558A4"
+					"size"		"4410D3ED4AA1842272A82659CE815695"
+					"download"		"F7A3AAED20A51069D27C041E4E59DB56"
+				}
+				"si-bvt"
+				{
+					"gid"		"86B25617E6164457D7ED9BC955E7CEAB"
+					"size"		"1E87AD30A914F17CC09C007930FF246D"
+					"download"		"FAF54B591046DEAFDF172019D9D27B8F"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,portuguese,polish,danish,dutch,norwegian,swedish,turkish,greek"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16347917"
+				"timeupdated"		"1733328119"
+			}
+			"day0"
+			{
+				"buildid"		"12629996"
+				"pwdrequired"		"1"
+				"timeupdated"		"1699276834"
+			}
+			"temp"
+			{
+				"buildid"		"12912890"
+				"pwdrequired"		"1"
+				"timeupdated"		"1702051810"
+			}
+			"nightly"
+			{
+				"buildid"		"16347917"
+				"pwdrequired"		"1"
+				"timeupdated"		"1731108075"
+			}
+			"si-bvt"
+			{
+				"buildid"		"16347917"
+				"pwdrequired"		"1"
+				"timeupdated"		"1733135553"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"appidredirect"		"2252570"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sports Interactive/Football Manager 2024/cloud/games"
+				"pattern"		"*.fm"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sports Interactive/Football Manager 2024/cloud"
+				"pattern"		"*.fmf"
+				"recursive"		"1"
+			}
+			"copied_from_parent"		"1"
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
