@@ -1,0 +1,343 @@
+"appinfo"
+{
+	"appid"		"96300"
+	"common"
+	{
+		"name"		"Ravaged Zombie Apocalypse"
+		"logo"		"e1844f6f9a5c6edb1bc623275d2605267ef74c72"
+		"logo_small"		"e1844f6f9a5c6edb1bc623275d2605267ef74c72_thumb"
+		"type"		"Game"
+		"clienticon"		"a0aa38a015fd735e83daab43e32121df9f955249"
+		"clienttga"		"4a2d99a8b10c622ae992f72993c83528e82da315"
+		"icon"		"3d15f576e170b0a9286dd536f63fc804ec47250b"
+		"oslist"		"windows"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ravaged Zombie Apocalypse"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0e768d70385503ba525d764cf1e7cacc7d6d727f.jpg"
+		"store_asset_mtime"		"1376954111"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"2 Dawn Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"2 Dawn Studios"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Reverb Publishing"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_18"		"1"
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1350457200"
+		"steam_release_date"		"1376934900"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"96300"
+		"store_tags"
+		{
+			"0"		"1659"
+			"1"		"19"
+			"2"		"3859"
+			"3"		"1663"
+			"4"		"492"
+			"5"		"1662"
+			"6"		"1685"
+			"7"		"1774"
+			"8"		"1695"
+			"9"		"1667"
+		}
+		"review_score"		"5"
+		"review_percentage"		"45"
+	}
+	"extended"
+	{
+		"developer"		"2 Dawn Studios"
+		"gamedir"		"RavagedGame"
+		"homepage"		"http://www.2dawn.com/"
+		"icon"		""
+		"noservers"		"0"
+		"serverbrowsername"		"Ravaged"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"2 Dawn Studios"
+		"listofdlc"		"96308"
+	}
+	"config"
+	{
+		"installscriptsignature"		"6804fedae2802498654e95bf58bea7730bab013335135d890d75036ea30e1e803d1840b9518e7ed272aa02a6d9844adbcc423cb776cef34e6913d68840846434f7877b44009e83f749de9b3b290d3cfd2c211f6eea850034fd438ba907fe8aad9045a9fc10e5bcb58bc295d9bec66572c9eaa4a4ea22e11792101193ce1013b9"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Ravaged"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\RavagedGame.exe"
+				"arguments"		"-seekfreeloading"
+				"workingdir"		"Binaries\\Win32"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"usemms"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\software\valve\steam\apps\96300"
+			{
+				"dword"
+				{
+					"patchversion"		"1"
+				}
+			}
+		}
+		"run process"
+		{
+			"redistvc"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\96300\\RedistVC"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/q /norestart"
+				"description"		"Microsoft VC Redist Package"
+				"nocleanup"		"1"
+				"ignoreexitcode"		"1"
+			}
+			"redistdx"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\96300\\RedistDX"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"description"		"Microsoft DirectX February 2010 redist"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"96301"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3942895680092726545"
+					"size"		"4520210893"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"gid"		"D3C76D1B87B515B7F0CE0CA3779087F5"
+					"size"		"892A4A7DD9025C39C565CA0ECCF8C653"
+					"download"		"34E3C5C26C202A9655747E118AE8F3E5"
+				}
+			}
+		}
+		"96302"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1960183461470357244"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"gid"		"9F5ADBD348CF6D317A684CC6D1CC0672"
+					"size"		"34E3C5C26C202A9655747E118AE8F3E5"
+					"download"		"34E3C5C26C202A9655747E118AE8F3E5"
+				}
+			}
+		}
+		"96303"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1374210774806317247"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"gid"		"933BCA623E6FB3113E738E961DDEE555"
+					"size"		"34E3C5C26C202A9655747E118AE8F3E5"
+					"download"		"34E3C5C26C202A9655747E118AE8F3E5"
+				}
+			}
+		}
+		"96304"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4514483053627184573"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"gid"		"5D6710D2A2232046EEA51EA1C76B73F3"
+					"size"		"34E3C5C26C202A9655747E118AE8F3E5"
+					"download"		"34E3C5C26C202A9655747E118AE8F3E5"
+				}
+			}
+		}
+		"96305"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5944647152778545356"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"gid"		"461A5E5F3AE7ACE1A63DD650A3DFE190"
+					"size"		"34E3C5C26C202A9655747E118AE8F3E5"
+					"download"		"34E3C5C26C202A9655747E118AE8F3E5"
+				}
+			}
+		}
+		"96306"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+		}
+		"96307"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4061432305707692526"
+					"size"		"98788144"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"dev"
+				{
+					"gid"		"BA6E9E8023892F64CE2DC15157313709"
+					"size"		"C089DCCAFF617CC6A23F2D9CB4BCC9D2"
+					"download"		"34E3C5C26C202A9655747E118AE8F3E5"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"158226"
+			}
+			"dev"
+			{
+				"buildid"		"158226"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+}
