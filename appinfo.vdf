@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"1568430"
+	"common"
+	{
+		"name"		"Discoveries of the Deep"
+		"type"		"Game"
+		"logo"		"3892441c04aecaae946651aab5cf4b7ee5d4c4ba"
+		"logo_small"		"3892441c04aecaae946651aab5cf4b7ee5d4c4ba_thumb"
+		"icon"		"29524b26e9a738b40afffccc127a6b51c59fa7de"
+		"clienttga"		"75e31d118a4b4003527f34f3b22ab9297915e548"
+		"clienticon"		"3c53560a65829e43d4a68415fddd01118edb0ba4"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"75.83709332700072"
+			}
+		}
+		"store_asset_mtime"		"1617360388"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Capstone Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"725875200"
+		"steam_release_date"		"1617359066"
+		"community_hub_visible"		"1"
+		"gameid"		"1568430"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"9157"
+			"2"		"3834"
+			"3"		"19780"
+			"4"		"9"
+			"5"		"6691"
+			"6"		"12472"
+			"7"		"4166"
+			"8"		"4305"
+			"9"		"8369"
+			"10"		"4004"
+			"11"		"4175"
+			"12"		"5794"
+			"13"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Capstone Software"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1568430/"
+	}
+	"config"
+	{
+		"installdir"		"Discoveries of the Deep"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1568431"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2775119538846100645"
+					"size"		"80235901"
+					"download"		"31028080"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6459066"
+				"timeupdated"		"1617374972"
+			}
+		}
+	}
+}
