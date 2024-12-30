@@ -1,0 +1,190 @@
+"appinfo"
+{
+	"appid"		"1255420"
+	"common"
+	{
+		"name"		"Murders in Space"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"b8a28735ab378e4cf46efcd73237b6545efa0c39"
+		"logo_small"		"b8a28735ab378e4cf46efcd73237b6545efa0c39_thumb"
+		"icon"		"209ed85307bb4b0289f76b3f8da4ef3b191c7b9c"
+		"clienticon"		"2c0e85bb26c6fbee22a56f52457d37b95b69f1c6"
+		"clienttga"		"3f647075a5d6aca16ce5c09a2abc7f933084600c"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50.70011668611435"
+				"height_pct"		"52.65970078366185"
+			}
+		}
+		"store_asset_mtime"		"1587751176"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hitech Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1589288819"
+		"community_hub_visible"		"1"
+		"gameid"		"1255420"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1755"
+			"2"		"5613"
+			"3"		"5716"
+			"4"		"1698"
+			"5"		"6378"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Hitech Productions"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+	}
+	"config"
+	{
+		"installdir"		"Murders in Space"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_MIS_w_1280x960.conf -conf dosbox_MIS_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (1280x960)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_MIS_w_320x240.conf -conf dosbox_MIS_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (320x240)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_MIS_w_640x480.conf -conf dosbox_MIS_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (640x480)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_MIS_w_2560x1920.conf -conf dosbox_MIS_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (2560x1920)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_MIS_fs.conf -conf dosbox_MIS_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in full screen mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1255421"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8588874584189838282"
+					"size"		"6267617"
+					"download"		"3220016"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4703948"
+				"timeupdated"		"1582329322"
+			}
+		}
+	}
+}
