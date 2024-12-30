@@ -1,0 +1,212 @@
+"appinfo"
+{
+	"appid"		"1568450"
+	"common"
+	{
+		"name"		"Search for the Titanic"
+		"type"		"Game"
+		"logo"		"39113b86cfbe45e5d3961de5d7e6c0f654f6be94"
+		"logo_small"		"39113b86cfbe45e5d3961de5d7e6c0f654f6be94_thumb"
+		"icon"		"0b825e6869ed821d852c6e08c7b10c00ab6200f7"
+		"clienttga"		"1baaef273e495fe863ac0ff7170d8829f8cb1507"
+		"clienticon"		"c3ecf4996c82632680d996cac0ee716eb677667f"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"50.93023255813955"
+				"height_pct"		"74.31726430776538"
+			}
+		}
+		"store_asset_mtime"		"1617359897"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Capstone Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"599644800"
+		"steam_release_date"		"1617359086"
+		"community_hub_visible"		"1"
+		"gameid"		"1568450"
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"9157"
+			"2"		"8369"
+			"3"		"19780"
+			"4"		"12472"
+			"5"		"6910"
+			"6"		"9"
+			"7"		"8945"
+			"8"		"3987"
+			"9"		"3964"
+			"10"		"4175"
+			"11"		"16689"
+			"12"		"599"
+			"13"		"5794"
+			"14"		"4305"
+			"15"		"7743"
+			"16"		"4004"
+			"17"		"5716"
+			"18"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Capstone Software"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1568450/"
+	}
+	"config"
+	{
+		"installdir"		"Search for the Titanic"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x240.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x240"
+				}
+				"description"		"windowed 320x240"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x480.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x480"
+				}
+				"description"		"windowed 640x480"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x960.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x960"
+				}
+				"description"		"windowed 1280x960"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1920.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1920"
+				}
+				"description"		"windowed 2560x1920"
+			}
+		}
+	}
+	"depots"
+	{
+		"1568451"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8106185834825636477"
+					"size"		"35097664"
+					"download"		"14076656"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6459456"
+				"timeupdated"		"1617060018"
+			}
+		}
+	}
+}
