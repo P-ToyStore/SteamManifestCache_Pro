@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"1544730"
+	"common"
+	{
+		"name"		"Fast Break"
+		"type"		"Game"
+		"clienttga"		"90f89200ece2f943b8c6d65a5ee130f455cb5c32"
+		"clienticon"		"5e3147380700a8d9bf2fdfa7171a931cdb2b2d93"
+		"logo"		"90f58bec9583d57167873a8cf325f79523107625"
+		"logo_small"		"90f58bec9583d57167873a8cf325f79523107625_thumb"
+		"icon"		"f669e6efdf1e86754602d0de198af80b2f427f7c"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"56.74418604651163"
+				"height_pct"		"71.27760626929472"
+			}
+		}
+		"store_asset_mtime"		"1614919898"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Accolade"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"599644800"
+		"steam_release_date"		"1614952536"
+		"community_hub_visible"		"1"
+		"gameid"		"1544730"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"1746"
+			"2"		"599"
+			"3"		"4004"
+			"4"		"3871"
+			"5"		"7743"
+			"6"		"5851"
+			"7"		"3964"
+			"8"		"3859"
+			"9"		"4182"
+			"10"		"12472"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Accolade"
+		"publisher"		"Ziggurat"
+		"homepage"		"http://www.ziggurat.games"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1544730/"
+	}
+	"config"
+	{
+		"installdir"		"Fast Break"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1544731"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5372494009306539273"
+					"size"		"35612870"
+					"download"		"14644864"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6334651"
+				"timeupdated"		"1614932061"
+			}
+		}
+	}
+}
