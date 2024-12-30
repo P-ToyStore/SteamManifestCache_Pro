@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"215060"
+	"common"
+	{
+		"name"		"Painkiller Hell & Damnation Beta"
+		"type"		"Game"
+		"logo"		"4a43f4cb7b0d8fb409a97ef2669aa3a3953d0f51"
+		"logo_small"		"4a43f4cb7b0d8fb409a97ef2669aa3a3953d0f51_thumb"
+		"icon"		"2da1ec069bb154c3f6e73d2e4ee672b15a8842f4"
+		"clienttga"		"5dcd135c7446e99dcf83da73a9b1d78a7d119cbb"
+		"restricted_countries"		"DE"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"215060"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"Painkiller Hell and Damnation Beta"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"installscriptsignature"		"a93f79eff295fa03fd636429f9044c099e21f8a53339d4718e0a85e52c4d07d1971f0e29f3ea2cab4fe59a69f3b3f4466c2fb4c9c3c751a5f46246beb874a2ea77964710df8cf70d8484f2094ebc70bf9ef40bbbbbb4ba6a3359371a7aab5c79082cee6d50f08202e7b5300814df5959efaa848f32f64ecdce307c74acca54f7"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Painkiller Hell & Damnation Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/PKHDGame.exe"
+				"arguments"		"-seekfreeloadingpcconsole -fullscreen"
+				"description"		"Launch Painkiller Hell & Damnation"
+				"workingdir"		"Binaries/Win32"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Binaries/Win32/PKHDGame.exe"
+				"arguments"		"-seekfreeloadingpcconsole -windowed - resx=1280 resy=720"
+				"description"		"Painkiller Hell & Damnation Windowed"
+				"workingdir"		"Binaries/Win32"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Painkiller Hell & Damnation - Give Feedback!.url"
+				"description"		"Give Feedback"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist_x86"
+			{
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"description"		"Microsoft VC Redist Package"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"amdcpudrivers"
+			{
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\amdcpu\\setup.exe"
+				"command 1"		"/s"
+				"nocleanup"		"1"
+				"requirement_os"
+				{
+					"ostype"		"Windows XP"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"215061"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2200008697232289110"
+					"size"		"1519761736"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"preview"
+				{
+					"gid"		"597865FE71029A52B688BFD2873F6AD9"
+					"size"		"D60C20904FBDDA464B184D520C914311"
+					"download"		"EA366D7DB0B0B9876E19F0E71CB6BE0D"
+				}
+				"previewmp"
+				{
+					"gid"		"734F746C6C723A328377D7CD99C9A882"
+					"size"		"136906D278FCCE17E159385B9823E281"
+					"download"		"22EABB7865D4F5F256BE48ADFAD591AA"
+				}
+				"specialmptest"
+				{
+					"gid"		"556E5D2ABADD87B6256B69B73F7CEB82"
+					"size"		"3BF9291C6F9849A592A2934C393C0D94"
+					"download"		"F6E9DD5FB3FA852FCDE1DFF824786439"
+				}
+				"test"
+				{
+					"gid"		"2D59D50AE5F269B92810B61593FC0316"
+					"size"		"579C5EB8AB9F2512DD92646E498D8224"
+					"download"		"9D44ACFF59AC476DA1D36E7ACBF87F03"
+				}
+			}
+		}
+		"215062"
+		{
+		}
+		"215063"
+		{
+		}
+		"215064"
+		{
+		}
+		"215065"
+		{
+		}
+		"215066"
+		{
+		}
+		"215067"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2595126060163730695"
+					"size"		"174524159"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"preview"
+				{
+					"gid"		"22CEF1A0AC9A8CA030F49CAD6441D165"
+					"size"		"65E61CEFB0B7F27E3E8361AC8862EE85"
+					"download"		"EA366D7DB0B0B9876E19F0E71CB6BE0D"
+				}
+				"previewmp"
+				{
+					"gid"		"4FA90CC53D578B924630043D155D1953"
+					"size"		"C35113570FF0761DAF12CC43E20632B3"
+					"download"		"22EABB7865D4F5F256BE48ADFAD591AA"
+				}
+				"specialmptest"
+				{
+					"gid"		"7199F9EBBA3FAA7E925E571CD8CB08AF"
+					"size"		"01FEDFAF90CDD86090C10DE1E5D3B0CF"
+					"download"		"F6E9DD5FB3FA852FCDE1DFF824786439"
+				}
+				"test"
+				{
+					"gid"		"17B849C3FDB5AAA45519EADBE15FD485"
+					"size"		"FB63D6A077DCE5B084FCA0C382459FA2"
+					"download"		"9D44ACFF59AC476DA1D36E7ACBF87F03"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12105"
+			}
+			"preview"
+			{
+				"buildid"		"13730"
+				"pwdrequired"		"1"
+			}
+			"previewmp"
+			{
+				"buildid"		"16859"
+				"pwdrequired"		"1"
+			}
+			"specialmptest"
+			{
+				"buildid"		"16574"
+				"pwdrequired"		"1"
+			}
+			"test"
+			{
+				"buildid"		"12105"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
