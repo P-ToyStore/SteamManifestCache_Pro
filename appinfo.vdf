@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"1482530"
+	"common"
+	{
+		"name"		"GeometryBricks"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"fbbf5c7e9e613eb15ce648edc07451cb3836338e"
+		"logo_small"		"fbbf5c7e9e613eb15ce648edc07451cb3836338e_thumb"
+		"icon"		"98da796ac39fa2cc6db5655982b4423e904b353d"
+		"clienttga"		"c96930c0768b8d91d62cdf617ba57a689c220e20"
+		"clienticon"		"31db03cc72e3028e07f182f2b409e461d332f725"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"50"
+				"height_pct"		"54.48657221282685"
+			}
+		}
+		"store_asset_mtime"		"1619258735"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Marcin Gardyjan"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Marcin Gardyjan"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1623160674"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1482530"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"1664"
+			"3"		"1773"
+			"4"		"17389"
+			"5"		"10437"
+			"6"		"1730"
+			"7"		"5537"
+			"8"		"4400"
+			"9"		"5851"
+			"10"		"3964"
+			"11"		"4791"
+			"12"		"4295"
+			"13"		"4166"
+			"14"		"6129"
+			"15"		"1708"
+			"16"		"7569"
+			"17"		"4182"
+			"18"		"9"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Marcin Gardyjan"
+		"publisher"		"Marcin Gardyjan"
+		"homepage"		"https://www.facebook.com/GeometryBricks-109747377609890"
+	}
+	"config"
+	{
+		"installdir"		"GeometryBricks"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GeometryBricks.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1482531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5118285490153909493"
+					"size"		"111933610"
+					"download"		"56302624"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6453285"
+				"timeupdated"		"1616957545"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"65536"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Marcin Gardyjan/GeometryBricks/Save/{64BitSteamID}/"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Marcin Gardyjan/GeometryBricks/Save/{64BitSteamID}/"
+						"replace"		"Marcin Gardyjan/GeometryBricks/Save/{64BitSteamID}/"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Marcin Gardyjan/GeometryBricks/Save/{64BitSteamID}/"
+						"replace"		".config/Marcin Gardyjan/GeometryBricks/Save/{64BitSteamID}/"
+					}
+				}
+			}
+		}
+	}
+}
