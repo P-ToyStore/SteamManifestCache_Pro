@@ -1,0 +1,245 @@
+"appinfo"
+{
+	"appid"		"1398700"
+	"common"
+	{
+		"name"		"Animal Cafe"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"254000f5a29f1c4f142e06c3f69dd6d2b74506e9"
+		"logo_small"		"254000f5a29f1c4f142e06c3f69dd6d2b74506e9_thumb"
+		"clienticon"		"78a1c638b5b7cc76466a047f4abea9eb0f5c2430"
+		"clienttga"		"92540b4c4e0fa996b52f85affcbea8896ca5ac89"
+		"icon"		"6d8374b0d65475ccc25f1904b29d4cacab39fe58"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		""
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"5"
+			"3"		"4"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_sex"		"1"
+		"restricted_countries"		"CN,DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1654819200"
+			"tested_build_id"		"7254643"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"37.87577713292307"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1629979545"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dharker Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dharker Studios Ltd"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Paradise"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1633089121"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1398700"
+		"store_tags"
+		{
+			"0"		"44868"
+			"1"		"3799"
+			"2"		"4947"
+			"3"		"6426"
+			"4"		"6971"
+			"5"		"9551"
+			"6"		"4085"
+			"7"		"4486"
+			"8"		"11014"
+			"9"		"7208"
+			"10"		"3871"
+			"11"		"4726"
+			"12"		"597"
+			"13"		"1742"
+			"14"		"4305"
+			"15"		"1719"
+			"16"		"12095"
+			"17"		"4182"
+			"18"		"5673"
+			"19"		"6650"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Dharker Studio"
+		"publisher"		"Dharker Studios Ltd"
+		"homepage"		"http://dharker.studio"
+	}
+	"config"
+	{
+		"installdir"		"Animal Cafe"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AnimalCafe.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+			"1"
+			{
+				"executable"		"AnimalCafe-32.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+			"2"
+			{
+				"executable"		"AnimalCafe.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+			"3"
+			{
+				"executable"		"AnimalCafe.sh"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"1398701"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"240639056542493570"
+					"size"		"441619380"
+					"download"		"319287440"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9290995"
+				"timeupdated"		"1660159255"
+			}
+		}
+	}
+}
