@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"1283450"
+	"common"
+	{
+		"name"		"soundStrider"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"0364aa14ccca20acd4b2ddcfffc5fac3ac6c2baf"
+		"clienticns"		"f642137791147d6880abf1da0f9a42b03d18e8eb"
+		"clienttga"		"6b85339c57b187ad1f2b86eea4499cccdccf5322"
+		"icon"		"554a6bdde6802cf1f458bba011ded1372daa7dfd"
+		"linuxclienticon"		"214100f58a4aaa58840a41d3a6ac71885ebfcf3c"
+		"logo"		"6a9f6309d64992365a3fbdd86915971a35e058d4"
+		"logo_small"		"6a9f6309d64992365a3fbdd86915971a35e058d4_thumb"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"58.09770576464899"
+				"height_pct"		"94.98222248608144"
+			}
+		}
+		"store_asset_mtime"		"1594143972"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"shiftBacktick"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"shiftBacktick"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1594400456"
+		"community_hub_visible"		"1"
+		"gameid"		"1283450"
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"5900"
+			"2"		"3871"
+			"3"		"1654"
+			"4"		"1695"
+			"5"		"5125"
+			"6"		"6869"
+			"7"		"597"
+			"8"		"4400"
+			"9"		"4305"
+			"10"		"4094"
+			"11"		"1714"
+			"12"		"4166"
+			"13"		"21"
+			"14"		"4182"
+			"15"		"29855"
+			"16"		"1621"
+			"17"		"492"
+			"18"		"9994"
+			"19"		"13782"
+		}
+	}
+	"extended"
+	{
+		"developer"		"shiftBacktick"
+		"publisher"		"shiftBacktick"
+		"homepage"		"https://soundstrider.shiftbacktick.io"
+	}
+	"config"
+	{
+		"installdir"		"soundStrider"
+		"steamcontrollertemplateindex"		"4"
+		"steamcontrollertouchtemplateindex"		"8"
+		"steamconfigurator3rdpartynative"		"65533"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"soundStrider.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"soundStrider"
+				"arguments"		"--no-sandbox"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"documentation/manual.html"
+				"type"		"manual"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1283453"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2342562871286008501"
+					"size"		"274660272"
+					"download"		"78584496"
+				}
+			}
+		}
+		"1283452"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2046161443791411738"
+					"size"		"204812396"
+					"download"		"72527760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8357981"
+				"timeupdated"		"1647047858"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"soundStrider/Local Storage"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgConfigHome"
+				"addpath"		""
+			}
+		}
+	}
+}
