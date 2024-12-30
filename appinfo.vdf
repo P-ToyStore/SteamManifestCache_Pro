@@ -1,0 +1,197 @@
+"appinfo"
+{
+	"appid"		"1558060"
+	"common"
+	{
+		"name"		"Club Lipstick VR"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"seated"		"1"
+		}
+		"logo"		"052ec041925f88a29701aa4d81375b1bbbf4bcea"
+		"logo_small"		"052ec041925f88a29701aa4d81375b1bbbf4bcea_thumb"
+		"icon"		"9643687cbbb8e956536d1e59cf993ee313c60206"
+		"clienttga"		"425696f1f30674d57324a8a6af5abfef69c50a86"
+		"clienticon"		"8f6311fabf01e1fef618309aadf035f08e6cf85f"
+		"openvr_action_manifest_path"		"Club Lipstick VR_Data\\\\StreamingAssets\\\\SteamVR\\\\actions.json"
+		"openvrsupport"		"1"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"5"
+			"3"		"4"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_sex"		"1"
+		"restricted_countries"		"CN,DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"48.25581395348839"
+				"height_pct"		"75.68273569223462"
+			}
+		}
+		"store_asset_mtime"		"1614652403"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TooDrunkenBrothers"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TooDrunkenBrothers"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1616399964"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1558060"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"21978"
+			"2"		"12095"
+			"3"		"6650"
+			"4"		"3839"
+			"5"		"3968"
+			"6"		"4182"
+			"7"		"1684"
+		}
+		"review_score"		"3"
+		"review_percentage"		"14"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"TooDrunkenBrothers"
+		"publisher"		"TooDrunkenBrothers"
+	}
+	"config"
+	{
+		"installdir"		"Club Lipstick VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Club Lipstick VR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1558061"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8325089312891753480"
+					"size"		"11983482590"
+					"download"		"2143774832"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7497707"
+				"timeupdated"		"1633644545"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000"
+		"maxnumfiles"		"8"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"TooDrunkenBrothers/Club Lipstick VR/save"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"TooDrunkenBrothers/Club Lipstick VR/save"
+						"replace"		".config/unity3d/TooDrunkenBrothers/Club Lipstick VR/save"
+					}
+				}
+			}
+		}
+	}
+}
