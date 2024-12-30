@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"1255410"
+	"common"
+	{
+		"name"		"Purple Saturn Day"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"428965ba539106026247aa4de308673339c346f4"
+		"logo_small"		"428965ba539106026247aa4de308673339c346f4_thumb"
+		"icon"		"72aa718dbe8dfdf4266d11bf836e89de4cec86be"
+		"clienttga"		"4801178b85d0fdd91acb8540ef6373c846929a89"
+		"clienticon"		"2c1fa9f1e77657eced61447bb781b990ed79881a"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"has_adult_content"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1614126023"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ERE Informatique"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Exxos"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"620636400"
+		"steam_release_date"		"1588080976"
+		"community_hub_visible"		"1"
+		"gameid"		"1255410"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"19"
+			"2"		"3942"
+			"3"		"4004"
+			"4"		"1710"
+			"5"		"8093"
+			"6"		"4305"
+		}
+	}
+	"extended"
+	{
+		"developer"		"ERE Informatique"
+		"publisher"		"Ziggurat"
+	}
+	"config"
+	{
+		"installdir"		"Purple Saturn Day"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_PURPLE_w_1280x960.conf -conf dosbox_PURPLE_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (1280x960)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_PURPLE_w_320x240.conf -conf dosbox_PURPLE_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (320x240)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_PURPLE_w_640x480.conf -conf dosbox_PURPLE_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (640x480)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_PURPLE_w_2560x1920.conf -conf dosbox_PURPLE_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (2560x1920)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_PURPLE_fs.conf -conf dosbox_PURPLE_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in full screen mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1255411"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6923999912772628077"
+					"size"		"6201130"
+					"download"		"3237360"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"026379425878D9582677015797437283"
+					"size"		"20E53E9114AB5D970897212B5855B13F"
+					"download"		"0E4BA1ABAE0F7BFA290C413B52EA48F6"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4704091"
+				"timeupdated"		"1582332953"
+			}
+			"beta"
+			{
+				"buildid"		"6406084"
+				"pwdrequired"		"1"
+				"timeupdated"		"1616124759"
+			}
+		}
+	}
+}
