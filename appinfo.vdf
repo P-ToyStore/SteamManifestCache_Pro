@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"1051320"
+	"common"
+	{
+		"name"		"Mahjong: Magic Chips"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+		}
+		"clienticon"		"37d13d154b37de602ad9bbdb65718bec9049f13d"
+		"clienttga"		"2917732099c9d18895b95830d0f1bbf1d6f1cf5d"
+		"icon"		"0c51051784a7ae317366b38c2eed5aac891beaf9"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"bb120e449fcc69be36786f693df7958c1ed41a2a"
+		"logo_small"		"bb120e449fcc69be36786f693df7958c1ed41a2a_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Mahjong: Magic Chips"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1655797806"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"IO Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"IO Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1561446000"
+		"steam_release_date"		"1561478952"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1051320"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"17389"
+			"2"		"1664"
+			"3"		"1770"
+			"4"		"13070"
+			"5"		"1730"
+			"6"		"10437"
+			"7"		"1665"
+			"8"		"6129"
+			"9"		"1738"
+			"10"		"1654"
+			"11"		"5350"
+			"12"		"4057"
+			"13"		"379975"
+			"14"		"1734"
+			"15"		"11123"
+			"16"		"1773"
+			"17"		"4711"
+			"18"		"6815"
+			"19"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"IO Games"
+		"publisher"		"IO Games"
+	}
+	"config"
+	{
+		"installdir"		"Mahjong Puzzle World"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mahjong Puzzle World.exe"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"1051321"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4356634741941155308"
+					"size"		"556227247"
+					"download"		"54453536"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3752746"
+				"timeupdated"		"1555662760"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"IO Games/Mahjong Puzzle World/Saves"
+				"pattern"		"*.*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"IO Games/Mahjong Puzzle World/Saves"
+						"replace"		"com.IOGames.Mahjong"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"IO Games/Mahjong Puzzle World/Saves"
+						"replace"		".config/unity3d/IO Games/Mahjong Puzzle World/Saves"
+					}
+				}
+			}
+		}
+	}
+}
