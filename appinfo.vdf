@@ -1,0 +1,322 @@
+"appinfo"
+{
+	"appid"		"1249200"
+	"common"
+	{
+		"name"		"Ghostrunner Demo"
+		"type"		"Game"
+		"parent"		"1139900"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"b3854181ef463109c6268986469ce9de2af66593"
+		"clienttga"		"6176796d6500a427a40102a2838a7d1d6bf7e4bc"
+		"icon"		"8af4f3de14d50e2061e8bdbd82ec2b34a9ea80ba"
+		"logo"		"424c6e3fc7764a3d199a2557a9456d7d8ac957ed"
+		"logo_small"		"424c6e3fc7764a3d199a2557a9456d7d8ac957ed_thumb"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_violence"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"store_asset_mtime"		"1603906605"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"One More Level"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"3D Realms"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Slipgate Ironworks™"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"All in! Games"
+			}
+			"4"
+			{
+				"type"		"publisher"
+				"name"		"505 Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1601362800"
+		"steam_release_date"		"1588773300"
+		"community_hub_visible"		"1"
+		"gameid"		"1249200"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4345"
+			"2"		"4667"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"demoofappid"		"1139900"
+		"developer"		"One More Level"
+		"publisher"		"All in! Games"
+		"homepage"		"https://ghostrunnergame.com"
+	}
+	"config"
+	{
+		"installdir"		"Ghostrunner Demo"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ghostrunner.exe"
+				"arguments"		"-UsePathForDemo"
+				"description"		"with DirectX 11"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Ghostrunner.exe"
+				"arguments"		"-dx12 -UsePathForDemo"
+				"description"		"with DirectX 12 RTX (experimental)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1249201"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2901599395369548605"
+					"size"		"7014779319"
+					"download"		"3286206864"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"crashes"
+				{
+					"gid"		"7B6F9F91695BAE39EFA86550422816F6"
+					"size"		"157A00FE723C4E37687448B568CC0374"
+					"download"		"804955351BE79953922DD89B69071D0E"
+				}
+				"demo_development"
+				{
+					"gid"		"DC9575740E9DAAC17E06F2DD07E506E3"
+					"size"		"5B15A275DAF0455380E200BCF7A98A5D"
+					"download"		"34F058902733D0E94F66BC413EE577EC"
+				}
+				"demo_development_light"
+				{
+					"gid"		"B971C4D5BC9CEABC985FAE749FF42F4E"
+					"size"		"2E90CAC2A003D061074CF896AD53DB52"
+					"download"		"6CB73F4AF014A213CD3970FA2C7BF7E2"
+				}
+				"demo_shipping"
+				{
+					"gid"		"27C5049D65B5A5C3B2924DDF1B016A50"
+					"size"		"7AEC2B9DB77019DE41C786ABC5A897FD"
+					"download"		"41571D180D19372059324CE6EEB69C2F"
+				}
+				"demo_shipping_light"
+				{
+					"gid"		"B7A7C3FDFD80F2E219A69D12E1684424"
+					"size"		"05441B32CEC5E7F98F99D0AB034C4204"
+					"download"		"00D956C316930D5FD34CA2F7EE609109"
+				}
+				"september_demo"
+				{
+					"gid"		"B48A399A81E1EF023C361A94B77C995A"
+					"size"		"8DC431A4FB661997B3FAFD0C73451F6D"
+					"download"		"033F928E727B834BE576B08E01174FC4"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5615795"
+				"timeupdated"		"1601465196"
+			}
+			"crashes"
+			{
+				"buildid"		"5612019"
+				"pwdrequired"		"1"
+				"timeupdated"		"1601467703"
+			}
+			"demo_development"
+			{
+				"buildid"		"5018703"
+				"pwdrequired"		"1"
+				"timeupdated"		"1589333173"
+			}
+			"demo_development_light"
+			{
+				"buildid"		"4985501"
+				"pwdrequired"		"1"
+				"timeupdated"		"1588690925"
+			}
+			"demo_shipping"
+			{
+				"buildid"		"5001059"
+				"pwdrequired"		"1"
+				"timeupdated"		"1588954660"
+			}
+			"demo_shipping_light"
+			{
+				"buildid"		"5001059"
+				"pwdrequired"		"1"
+				"timeupdated"		"1588954443"
+			}
+			"september_demo"
+			{
+				"buildid"		"5615795"
+				"pwdrequired"		"1"
+				"timeupdated"		"1601459820"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Ghostrunner_Demo/Saved/SaveGames/{64BitSteamID}"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
