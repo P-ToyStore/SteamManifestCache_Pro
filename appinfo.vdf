@@ -1,0 +1,279 @@
+"appinfo"
+{
+	"appid"		"1040310"
+	"common"
+	{
+		"name"		"I Know Everything"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"ebcad23cd2b389e82217bfd04fe3e077f99e8f78"
+		"logo_small"		"ebcad23cd2b389e82217bfd04fe3e077f99e8f78_thumb"
+		"icon"		"78138541688995309ef0d2a56692460337cd202a"
+		"clienttga"		"bda9ebd4a3fce2738b9da19c579a68a3a5072b6d"
+		"clienticon"		"f26f71a9fe96b471c47fb11fcaac8340c6928a3d"
+		"linuxclienticon"		"459b195aa7c4a51ae3786820c470ade26c61b0b8"
+		"clienticns"		"7d40d02e355c6bfc6d2da0ae0c2a8726ef7c484a"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"releasestate"		"released"
+		"metacritic_name"		"I Know Everything"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"russian"		"capsule_231x87_russian.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"russian"		"header_russian.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"ru,en"
+			"library_hero"		"en"
+			"library_logo"		"en,ru"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1572858082"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NLB project"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"NLB project"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"NLB project"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_49"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_44"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1559937822"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1040310"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1036"
+			"3"		"5794"
+			"4"		"1685"
+			"5"		"1775"
+			"6"		"3859"
+			"7"		"3878"
+			"8"		"4182"
+			"9"		"5154"
+			"10"		"5350"
+			"11"		"5390"
+			"12"		"11123"
+			"13"		"1756"
+			"14"		"4486"
+			"15"		"4711"
+			"16"		"6129"
+			"17"		"6426"
+			"18"		"6730"
+			"19"		"11014"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"NLB project"
+		"publisher"		"NLB project"
+	}
+	"config"
+	{
+		"installdir"		"I_Know_Everything"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ike.exe"
+				"arguments"		"res://main.tscn"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ike.x86"
+				"arguments"		"res://main.tscn"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"ike.x86_64"
+				"arguments"		"res://main.tscn"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"ike.app/Contents/MacOS/ike"
+				"arguments"		"res://main.tscn"
+				"workingdir"		"ike.app/Contents/Resources"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"1040311"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6432165962165843476"
+					"size"		"150537574"
+					"download"		"104894560"
+				}
+			}
+		}
+		"1040312"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3719456429549345211"
+					"size"		"151653197"
+					"download"		"103901936"
+				}
+			}
+		}
+		"1040313"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3080407937168993929"
+					"size"		"256942744"
+					"download"		"124850848"
+				}
+			}
+		}
+		"1040314"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8654530668719782773"
+					"size"		"295479950"
+					"download"		"125269872"
+				}
+			}
+		}
+		"1040315"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6141466300163401907"
+					"size"		"155217010"
+					"download"		"104351968"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4830772"
+				"timeupdated"		"1585387511"
+			}
+		}
+	}
+}
