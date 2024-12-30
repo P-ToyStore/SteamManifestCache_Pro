@@ -1,0 +1,201 @@
+"appinfo"
+{
+	"appid"		"1254860"
+	"common"
+	{
+		"name"		"World Championship Boxing Manager™"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"bd6d0ab0e55c2cb28d52d092114a0251714feb18"
+		"logo_small"		"bd6d0ab0e55c2cb28d52d092114a0251714feb18_thumb"
+		"icon"		"f753a5cd0042950a84de7a7c2a119743757849b2"
+		"clienttga"		"b1e75374304d7f7274eea332639c4c7715a67471"
+		"clienticon"		"bbe8e607b4fc76955d4983fe3410f81da5bcc011"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"28.996499416569435"
+				"height_pct"		"65.95820470197103"
+			}
+		}
+		"store_asset_mtime"		"1615855148"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Goliath Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1589288627"
+		"community_hub_visible"		"1"
+		"gameid"		"1254860"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"701"
+			"2"		"12190"
+			"3"		"12472"
+			"4"		"4004"
+			"5"		"9"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Goliath Games"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+	}
+	"config"
+	{
+		"installdir"		"World Championship Boxing Manager"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_WCBM_w_1280x960.conf -conf dosbox_WCBM_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (1280x960)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_WCBM_w_320x240.conf -conf dosbox_WCBM_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (320x240)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_WCBM_w_640x480.conf -conf dosbox_WCBM_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (640x480)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_WCBM_w_2560x1920.conf -conf dosbox_WCBM_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"in windowed mode (2560x1920)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"dosbox.exe -conf dosbox_WCBM_fs.conf -conf dosbox_WCBM_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1254861"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"196794626302360192"
+					"size"		"6254752"
+					"download"		"3243824"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4703978"
+				"timeupdated"		"1582330140"
+			}
+		}
+	}
+}
