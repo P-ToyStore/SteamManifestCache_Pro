@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"13700"
+	"common"
+	{
+		"clienttga"		"4ff0046a3da991a7be9b389efc56f610695aa080"
+		"name"		"Savage 2: A Tortured Soul"
+		"logo"		"969eca037eb44a0b0adc0c46eb11775e4fef114a"
+		"logo_small"		"1bd2a86a6133aefc7808980c42916d6c89f1e3ee"
+		"icon"		"d3aad13848c7910898095af1c002a8ac9020d3ae"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"5fa7f8f2e2eb26a27c0cc46fc8e93c76e722d6ab"
+		"linuxclienticon"		"1e900b22ec38b8b15a9e1ee9a388a87c0e78cc87"
+		"type"		"game"
+		"metacritic_name"		"Savage 2: A Tortured Soul"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"S2 Games, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"S2 Games, LLC"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1200470400"
+		"steam_release_date"		"1210104000"
+		"metacritic_score"		"75"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/savage-2-a-tortured-soul?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"13700"
+		"review_score"		"7"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"S2 Games, LLC"
+		"gamedir"		"Savage 2 A Tortured Soul"
+		"homepage"		"http://savage2.s2games.com"
+		"icon"		"steam/games/icon_Savage 2"
+		"installscript"		"installscript.vdf"
+		"legacykeydisklocation"		"promocode"
+		"legacykeyregistrationmethod"		"disk"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"developer_url"		"http://s2games.com"
+		"publisher"		"S2 Games, LLC"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Savage 2 A Tortured Soul"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"runme.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"savage2.sh"
+				"description"		"Launch with libdir set"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Savage 2"
+				"arguments"		"set sys_useSteam True"
+				"description"		"Launch Mac"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"13702"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9009928423625654828"
+					"size"		"951871639"
+					"download"		"0"
+				}
+				"shared_dev"
+				{
+					"gid"		"9009928423625654828"
+					"size"		"951871639"
+					"download"		"0"
+				}
+			}
+		}
+		"13703"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6157133333544031734"
+					"size"		"40749634"
+					"download"		"0"
+				}
+				"shared_dev"
+				{
+					"gid"		"6157133333544031734"
+					"size"		"40749634"
+					"download"		"0"
+				}
+			}
+		}
+		"13704"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6174107660980780372"
+					"size"		"33818113"
+					"download"		"0"
+				}
+				"shared_dev"
+				{
+					"gid"		"6174107660980780372"
+					"size"		"33818113"
+					"download"		"0"
+				}
+			}
+		}
+		"13705"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4014877891745521963"
+					"size"		"271402594"
+					"download"		"0"
+				}
+				"shared_dev"
+				{
+					"gid"		"4014877891745521963"
+					"size"		"271402594"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"46420"
+			}
+			"shared_dev"
+			{
+				"buildid"		"46420"
+			}
+		}
+	}
+}
