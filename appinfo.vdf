@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"1373770"
+	"common"
+	{
+		"name"		"Sea Legends"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"4934370605d7febe89cf4a66e8b926698cf91905"
+		"logo_small"		"4934370605d7febe89cf4a66e8b926698cf91905_thumb"
+		"icon"		"3fd45411d8e98150d4375844133350ca13fc6220"
+		"clienttga"		"dbb8c59ed8df11ef58616b188086e4fdedcc5223"
+		"clienticon"		"249bb66a4c525ce372c9b82e47f3651aa4f6d283"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"store_asset_mtime"		"1600198940"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mir Dialogue"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Ocean"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"833526000"
+		"steam_release_date"		"1601646702"
+		"community_hub_visible"		"1"
+		"gameid"		"1373770"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"9"
+			"2"		"19"
+			"3"		"1681"
+			"4"		"4994"
+			"5"		"4608"
+			"6"		"6869"
+			"7"		"4202"
+			"8"		"122"
+			"9"		"13577"
+			"10"		"12472"
+			"11"		"1732"
+			"12"		"4195"
+			"13"		"3987"
+			"14"		"1742"
+			"15"		"4305"
+			"16"		"6815"
+			"17"		"6910"
+			"18"		"3993"
+			"19"		"8945"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Mir Dialogue"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://ziggurat.games"
+	}
+	"config"
+	{
+		"installdir"		"Sea Legends"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x800.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x800"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x400.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x400"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x200.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x200"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1600.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1600"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1373771"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4618866338349736091"
+					"size"		"166805649"
+					"download"		"122520752"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5627604"
+				"timeupdated"		"1601638217"
+			}
+		}
+	}
+}
