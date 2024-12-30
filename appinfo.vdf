@@ -1,0 +1,180 @@
+"appinfo"
+{
+	"appid"		"10100"
+	"common"
+	{
+		"name"		"King's Quest Collection"
+		"logo"		"e3168687956138529652a6ce007e9cbc861e54fa"
+		"logo_small"		"e3168687956138529652a6ce007e9cbc861e54fa_thumb"
+		"icon"		"1c67a90b3bf9fd8f87b24dde8b3974d6b493f627"
+		"clienttga"		"a9e8fbbfba345f2e5eab7a9c6e22ebdd10581855"
+		"clienticon"		"5825649fbe18f539019e115002ee45a78d6c5958"
+		"oslist"		"windows"
+		"osarch"		""
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1662076800"
+			"tested_build_id"		"1302774"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"metacritic_name"		"King's Quest&amp;trade; Collection"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1481829456"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sierra"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Activision"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1157094000"
+		"steam_release_date"		"1248332400"
+		"community_hub_visible"		"1"
+		"gameid"		"10100"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"1693"
+			"3"		"1684"
+			"4"		"4004"
+			"5"		"3964"
+			"6"		"1664"
+			"7"		"6691"
+			"8"		"7743"
+			"9"		"4182"
+			"10"		"3871"
+			"11"		"3916"
+			"12"		"7208"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Sierra"
+		"gamedir"		"King's Quest Collection"
+		"gamemanualurl"		"http://store.steampowered.com/manual/10100/"
+		"homepage"		"http://www.activision.com/index.html"
+		"icon"		""
+		"installscript"		"10100_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"10101"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Activision"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"King's Quest Collection"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"2016_KingsQuestCollection/SierraLauncher.exe"
+				"workingdir"		"2016_KingsQuestCollection"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"SierraLauncher.exe"
+				"description"		"King's Quest Collection Legacy"
+				"type"		"option2"
+			}
+		}
+	}
+	"depots"
+	{
+		"10101"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1081379519670294278"
+					"size"		"2275010211"
+					"download"		"757826352"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"06C566CFA5B014ABF17EA541A96691F7"
+					"size"		"643DC89A1230A32FC5BD6B04DAA3E24C"
+					"download"		"75FF6E0F0BA28058D91203B8C9089C8F"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1302774"
+				"timeupdated"		"1472489726"
+			}
+			"beta"
+			{
+				"buildid"		"1302774"
+				"pwdrequired"		"1"
+				"timeupdated"		"1472252713"
+			}
+		}
+	}
+}
