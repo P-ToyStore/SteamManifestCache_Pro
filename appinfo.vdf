@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"1273080"
+	"common"
+	{
+		"name"		"Raptor Boyfriend"
+		"type"		"Game"
+		"logo"		"b410c2a68c04bb230174f116beb8a09d18792418"
+		"logo_small"		"b410c2a68c04bb230174f116beb8a09d18792418_thumb"
+		"icon"		"2ef82d1da9ff1f4f8dbcc1b167325c586c1ca8ba"
+		"clienticon"		"7c98fc24942e431cb1624858b61a601abe55b04b"
+		"clienttga"		"ae2fb9ac25fcec256e1cfbd9504bed2694e17fa5"
+		"linuxclienticon"		"652aa6f700be2cf1092455197885b19253d797c0"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1273080_eula_0"
+				"name"		"Raptor Boyfriend EULA"
+				"url"		"https://store.steampowered.com//eula/1273080_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1658534400"
+			"tested_build_id"		"7549653"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"39.73162193698951"
+				"height_pct"		"83.43464890525149"
+			}
+		}
+		"store_asset_mtime"		"1668200403"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rocket Adrift"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rocket Adrift"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1626367274"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1273080"
+		"store_tags"
+		{
+			"0"		"3799"
+			"1"		"9551"
+			"2"		"1742"
+			"3"		"3871"
+			"4"		"5160"
+			"5"		"5984"
+			"6"		"4947"
+			"7"		"44868"
+			"8"		"6971"
+			"9"		"6426"
+			"10"		"7208"
+			"11"		"6691"
+			"12"		"597"
+			"13"		"492"
+			"14"		"599"
+			"15"		"6815"
+			"16"		"4136"
+			"17"		"4182"
+			"18"		"4486"
+			"19"		"1719"
+		}
+		"review_score"		"8"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"Rocket Adrift"
+		"publisher"		"Rocket Adrift"
+		"homepage"		"https://rocketadrift.com/"
+	}
+	"config"
+	{
+		"installdir"		"Raptor Boyfriend"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"rb_game.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Windows"
+				}
+				"description"		"Windows"
+			}
+			"1"
+			{
+				"executable"		"rb_game.app\\Contents\\MacOS\\rb_game"
+				"workingdir"		"Contents"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Mac"
+				}
+				"description"		"Mac"
+			}
+			"2"
+			{
+				"executable"		"rb_game.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1273081"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8475271998982840895"
+					"size"		"1354492745"
+					"download"		"1026250672"
+				}
+			}
+		}
+		"1273082"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8218545541198760445"
+					"size"		"1175665933"
+					"download"		"974996176"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10050439"
+				"timeupdated"		"1669837045"
+			}
+		}
+	}
+}
