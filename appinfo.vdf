@@ -1,0 +1,192 @@
+"appinfo"
+{
+	"appid"		"1357580"
+	"common"
+	{
+		"name"		"XF5700 Mantis Experimental Fighter"
+		"type"		"Game"
+		"logo"		"30e8ea16bea92a9371efa33b4eb60c917819d593"
+		"logo_small"		"30e8ea16bea92a9371efa33b4eb60c917819d593_thumb"
+		"icon"		"b0b976339c51729368e9bf85de6689d445e94e5f"
+		"clienttga"		"674b8765b005ba3b5e8989e05c791bf5a05cbbae"
+		"clienticon"		"52f2a85febc0369c65e0d65ff38155ba49b023ed"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"55.36756126021007"
+				"height_pct"		"81.15649489432437"
+			}
+		}
+		"store_asset_mtime"		"1600199062"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Paragon Software"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Microplay"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"694252800"
+		"steam_release_date"		"1601646660"
+		"community_hub_visible"		"1"
+		"gameid"		"1357580"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+			"2"		"16598"
+			"3"		"18594"
+			"4"		"1774"
+			"5"		"15045"
+			"6"		"4291"
+			"7"		"4182"
+			"8"		"4191"
+			"9"		"21"
+			"10"		"6691"
+			"11"		"4004"
+			"12"		"1755"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Paragon Software"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+	}
+	"config"
+	{
+		"installdir"		"XF5700 Mantis Experimental Fighter"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x800.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x960"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x400.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x400"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x200.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x200"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1600.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1600"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1357581"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6067654461161101329"
+					"size"		"200113437"
+					"download"		"92528448"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5627697"
+				"timeupdated"		"1601639030"
+			}
+		}
+	}
+}
