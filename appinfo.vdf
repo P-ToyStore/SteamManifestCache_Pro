@@ -1,0 +1,192 @@
+"appinfo"
+{
+	"appid"		"1315910"
+	"common"
+	{
+		"name"		"Bop'N Wrestle"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"81dae0bd861940b0f9bdfad6963c5e6b7f79830e"
+		"logo_small"		"81dae0bd861940b0f9bdfad6963c5e6b7f79830e_thumb"
+		"icon"		"b26c5420dd0a9244e5abee793673bb0400bc0736"
+		"clienttga"		"57896ef6fc6d13db8822a4155ee6e2d9e28bf32b"
+		"clienticon"		"ce0140e6101040279786279361c0cda41e3ddb64"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"57.979102350985514"
+			}
+		}
+		"store_asset_mtime"		"1607065349"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Beam Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"568022400"
+		"steam_release_date"		"1607090041"
+		"community_hub_visible"		"1"
+		"gameid"		"1315910"
+		"store_tags"
+		{
+			"0"		"47827"
+			"1"		"4004"
+			"2"		"7743"
+			"3"		"19"
+			"4"		"1743"
+			"5"		"7368"
+			"6"		"701"
+			"7"		"3964"
+			"8"		"4305"
+			"9"		"3916"
+			"10"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Beam Software"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1315910/"
+	}
+	"config"
+	{
+		"installdir"		"Bop'n Wrestle"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x200.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x200"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x400.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x400"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x800.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x800"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1600.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1600"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1315911"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7900812836944754401"
+					"size"		"8214589"
+					"download"		"4987472"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5920907"
+				"timeupdated"		"1607064996"
+			}
+		}
+	}
+}
