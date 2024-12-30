@@ -1,0 +1,200 @@
+"appinfo"
+{
+	"appid"		"1357540"
+	"common"
+	{
+		"name"		"Altered Destiny"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"ba128e014539f5f56760172bbf98c50cad004512"
+		"logo_small"		"ba128e014539f5f56760172bbf98c50cad004512_thumb"
+		"icon"		"04f3aec272eacbe91227fca75eb0ce3bba3cfceb"
+		"clienttga"		"9828b30842ec2e0dba62c67bc2c0d6a1e2214175"
+		"clienticon"		"44fbe7c2954880c56498d2cd4d69c6eeac2f8056"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"75.45713607219189"
+			}
+		}
+		"store_asset_mtime"		"1593564224"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Accolade, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"654764400"
+		"steam_release_date"		"1596808716"
+		"community_hub_visible"		"1"
+		"gameid"		"1357540"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"1710"
+			"3"		"1714"
+			"4"		"4305"
+			"5"		"1673"
+			"6"		"1684"
+			"7"		"4004"
+			"8"		"1693"
+			"9"		"3942"
+			"10"		"1755"
+			"11"		"7743"
+			"12"		"6691"
+			"13"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Accolade, Inc."
+		"publisher"		"Ziggurat"
+	}
+	"config"
+	{
+		"installdir"		"Altered Destiny"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x960.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x960"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x240.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x240"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x480.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x480"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1920.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1920"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1357541"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5042000215102368073"
+					"size"		"7991084"
+					"download"		"4789152"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"internal"
+				{
+					"gid"		"86DD98D78A0D2123EE7E65C1F5459FFA"
+					"size"		"2556EE69586A88AED62C5D30EE8581A8"
+					"download"		"82B27EAC70153D17736CA8F59A49432D"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5376500"
+				"timeupdated"		"1596663479"
+			}
+			"internal"
+			{
+				"buildid"		"5216296"
+				"pwdrequired"		"1"
+				"timeupdated"		"1593121178"
+			}
+		}
+	}
+}
