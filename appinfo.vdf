@@ -1,0 +1,495 @@
+"appinfo"
+{
+	"appid"		"225140"
+	"common"
+	{
+		"name"		"Duke Nukem 3D: Megaton Edition"
+		"type"		"Game"
+		"icon"		"da6e994d2cd797567f44cf80f816a909468e9393"
+		"logo"		"31eab0a88ec76aadf9867087a6c5f59aa7f811d8"
+		"logo_small"		"31eab0a88ec76aadf9867087a6c5f59aa7f811d8_thumb"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"cfe8a8c8aaee8fd3c2e214e5b9d924979ca8de05"
+		"clienttga"		"81cc823a89bee59af386bb38838b8bdb9b0dca35"
+		"clienticns"		"c9356389df5c9ef8a72d970c769e77e836d6df71"
+		"linuxclienticon"		"1b3a8f3d273b78e64e0726bd9ceb377484b91598"
+		"metacritic_name"		"Duke Nukem 3D"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1364681271"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3D Realms"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"General Arcade"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Devolver Digital"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_17"		"1"
+			"category_30"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"metacritic_score"		"89"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/duke-nukem-3d?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"225140"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"1693"
+			"2"		"19"
+			"3"		"3916"
+			"4"		"1774"
+			"5"		"4004"
+			"6"		"6691"
+			"7"		"1673"
+			"8"		"4182"
+			"9"		"3942"
+			"10"		"3843"
+			"11"		"3839"
+			"12"		"1719"
+			"13"		"3859"
+			"14"		"4136"
+			"15"		"6650"
+			"16"		"4345"
+			"17"		"1669"
+			"18"		"1685"
+			"19"		"1734"
+		}
+		"review_score"		"9"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"3D Realms"
+		"gamedir"		"duke"
+		"homepage"		"http://www.3drealms.com/duke3d/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"serverbrowsername"		"Duke Nukem 3D"
+		"publisher"		"Devolver Digital"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Duke Nukem 3D"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\duke3d.exe"
+				"description"		"Play Duke Nukem 3D (OpenGL)"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/duke3d.sh"
+				"description"		"Play Duke Nukem 3D (OpenGL) "
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/dosbox/dosbox.exe"
+				"arguments"		"-conf dosbox.conf -conf dosbox_setup.conf -noconsole -c exit"
+				"description"		"Play Duke Nukem 3D (Classic)"
+				"workingdir"		"gameroot\\classic"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"bin/duke3d_dosbox.sh"
+				"description"		"Play Duke Nukem 3D (Classic)"
+				"workingdir"		"gameroot/classic"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"bin\\duke3d.exe"
+				"arguments"		"-addon 1"
+				"description"		"Play Duke It Out In D.C"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"bin\\duke3d.exe"
+				"arguments"		"-addon 2"
+				"description"		"Play Duke: Nuclear Winter"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"6"
+			{
+				"executable"		"bin\\duke3d.exe"
+				"arguments"		"-addon 3"
+				"description"		"Play Duke Caribbean: Life's A Beach"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"7"
+			{
+				"executable"		"bin/duke3d.sh"
+				"arguments"		"-addon 1"
+				"description"		"Play Duke It Out In D.C"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"8"
+			{
+				"executable"		"bin/duke3d.sh"
+				"arguments"		"-addon 2"
+				"description"		"Play Duke: Nuclear Winter"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"9"
+			{
+				"executable"		"bin/duke3d.sh"
+				"arguments"		"-addon 3"
+				"description"		"Play Duke Caribbean: Life's A Beach"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"10"
+			{
+				"executable"		"bin/duke3d.sh"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"11"
+			{
+				"executable"		"bin/duke3d_dosbox.sh"
+				"description"		"Play Duke Nukem 3D (Classic)"
+				"workingdir"		"gameroot/classic"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"12"
+			{
+				"executable"		"bin/duke3d.sh"
+				"arguments"		"-addon 1"
+				"description"		"Play Duke It Out In D.C"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"13"
+			{
+				"executable"		"bin/duke3d.sh"
+				"arguments"		"-addon 2"
+				"description"		"Play Duke: Nuclear Winter"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"14"
+			{
+				"executable"		"bin/duke3d.sh"
+				"arguments"		"-addon 3"
+				"description"		"Play Duke Caribbean: Life's A Beach"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"15"
+			{
+				"executable"		"bin\\build.exe"
+				"description"		"Launch Level Editor"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"16"
+			{
+				"executable"		"bin/build_linux.sh"
+				"description"		"Launch Level Editor"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"17"
+			{
+				"executable"		"bin/build_mac.sh"
+				"description"		"Launch Level Editor"
+				"workingdir"		"gameroot"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"225144"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8075503020927235924"
+					"size"		"10697932"
+					"download"		"4221136"
+				}
+				"public_beta"
+				{
+					"gid"		"8075503020927235924"
+					"size"		"10697932"
+					"download"		"4221136"
+				}
+				"sdl1"
+				{
+					"gid"		"571116802053272450"
+					"size"		"10473877"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"old_build"
+				{
+					"gid"		"CA248EB433AE8683DF3A9E2276219EB3"
+					"size"		"9CB9A757CE5A4ACAC0ABE426AB2D2D36"
+					"download"		"0DF5C77A5F950484EB6F792A5004E53A"
+				}
+			}
+		}
+		"225142"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2598555936160334948"
+					"size"		"20747996"
+					"download"		"7775328"
+				}
+				"public_beta"
+				{
+					"gid"		"2598555936160334948"
+					"size"		"20747996"
+					"download"		"7775328"
+				}
+				"sdl1"
+				{
+					"gid"		"1447237379114267804"
+					"size"		"11065768"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"old_build"
+				{
+					"gid"		"CD644EC6426E8B73119A8A640D43AF3D"
+					"size"		"10D4571AEC858386CE8EFC659DBC17AD"
+					"download"		"11FB8AECAD90D7888D5C0D6A603D8CDD"
+				}
+			}
+		}
+		"225143"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3004698743779213760"
+					"size"		"17695606"
+					"download"		"5402272"
+				}
+				"public_beta"
+				{
+					"gid"		"3004698743779213760"
+					"size"		"17695606"
+					"download"		"5402272"
+				}
+				"sdl1"
+				{
+					"gid"		"7940664270652540584"
+					"size"		"16944450"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"old_build"
+				{
+					"gid"		"B6274B72EDBD9DE3D31545982F5E6D75"
+					"size"		"D84E8AC946E3640C30DDAA72186765A9"
+					"download"		"11FB8AECAD90D7888D5C0D6A603D8CDD"
+				}
+			}
+		}
+		"225141"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6597707372479951704"
+					"size"		"430371195"
+					"download"		"296501264"
+				}
+				"public_beta"
+				{
+					"gid"		"6597707372479951704"
+					"size"		"430371195"
+					"download"		"296501264"
+				}
+				"sdl1"
+				{
+					"gid"		"8137925093270097180"
+					"size"		"429390987"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"old_build"
+				{
+					"gid"		"B9E210CFEDCC310981702E2A67B50EE5"
+					"size"		"BD0B87778225AC1983AC74E0B10D5D18"
+					"download"		"11FB8AECAD90D7888D5C0D6A603D8CDD"
+				}
+			}
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"610450"
+			}
+			"old_build"
+			{
+				"buildid"		"1839695"
+				"pwdrequired"		"1"
+				"timeupdated"		"1495529596"
+			}
+			"public_beta"
+			{
+				"buildid"		"610450"
+				"description"		"Public Beta"
+			}
+			"sdl1"
+			{
+				"buildid"		"216533"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
