@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"1483800"
+	"common"
+	{
+		"name"		"Adventure Llama"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"2fe593bf74df76ed6f4dc4d8321b78e105148151"
+		"logo_small"		"2fe593bf74df76ed6f4dc4d8321b78e105148151_thumb"
+		"icon"		"29caca0452eb3a7878eb702dcb55e3c8bb3a4a03"
+		"clienticon"		"fd6c5cd7b47d6ff5ee4a4ce84e9c2af8298655a0"
+		"clienttga"		"597c5cdcbb59eef2847d00d01df0fa77b2e6c0cc"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"portuguese"		"1"
+		}
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"41.37491731473453"
+				"height_pct"		"69.09722222222221"
+			}
+		}
+		"store_asset_mtime"		"1606948822"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Orube Game Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Orube Game Studio"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1608278400"
+		"steam_release_date"		"1607602530"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1483800"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"5379"
+			"2"		"8666"
+			"3"		"1773"
+			"4"		"4106"
+			"5"		"21"
+			"6"		"4747"
+			"7"		"3871"
+			"8"		"4726"
+			"9"		"4136"
+			"10"		"1664"
+			"11"		"4305"
+			"12"		"492"
+			"13"		"4094"
+			"14"		"6129"
+			"15"		"4004"
+			"16"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"Orube Game Studio"
+		"publisher"		"Orube Game Studio"
+		"homepage"		"http://orubegamestudio.com/website/"
+	}
+	"config"
+	{
+		"installdir"		"Adventure Llama"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AdventureLlama.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1483801"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3569319315969706676"
+					"size"		"335979297"
+					"download"		"38621104"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6177520"
+				"timeupdated"		"1612291152"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Orube/Adventure Llama"
+				"pattern"		"PlayerData.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Orube/Adventure Llama/"
+						"replace"		"unity.Orube.AdventureLlama"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Orube/Adventure Llama/"
+						"replace"		".config/unity3d/Orube/Adventure Llama"
+					}
+				}
+			}
+		}
+	}
+}
