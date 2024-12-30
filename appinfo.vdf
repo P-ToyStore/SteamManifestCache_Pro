@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"1395900"
+	"common"
+	{
+		"name"		"Bouncer Story"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"0261ba6f8e82c8c2b45c66730ac6391540b301b2"
+		"logo_small"		"0261ba6f8e82c8c2b45c66730ac6391540b301b2_thumb"
+		"clienticon"		"fa6d31555d3afd9ef5b710388591128530a44ffe"
+		"clienttga"		"eb62018b46cdae32b552ffc99601bf47076ab5c2"
+		"icon"		"586d7965d1f416504dc421d820329a60373fcce3"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"29.77719558163315"
+				"height_pct"		"95.1392406780049"
+			}
+		}
+		"store_asset_mtime"		"1601390707"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Helmi Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Plug In Digital"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Plug In Digital"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1604418787"
+		"community_hub_visible"		"1"
+		"gameid"		"1395900"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"12472"
+			"2"		"6426"
+			"3"		"6971"
+			"4"		"6378"
+			"5"		"4004"
+			"6"		"599"
+			"7"		"8945"
+			"8"		"10235"
+			"9"		"3871"
+			"10"		"3964"
+			"11"		"492"
+			"12"		"9592"
+			"13"		"4486"
+			"14"		"4747"
+			"15"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"Helmi Games"
+		"publisher"		"Plug In Digital"
+		"homepage"		"https://www.helmigames.com/bouncer-story/"
+	}
+	"config"
+	{
+		"installdir"		"Bouncer Story"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BouncerStory/BouncerStory.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BouncerStory.app/Contents/MacOS/BouncerStory"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1395901"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8566914044446297236"
+					"size"		"30344230"
+					"download"		"19198048"
+				}
+			}
+		}
+		"1395902"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8680161980417625532"
+					"size"		"30146142"
+					"download"		"19480336"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5921060"
+				"timeupdated"		"1607067522"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"path"		"bouncer"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataRoaming"
+				"addpath"		""
+			}
+		}
+	}
+}
