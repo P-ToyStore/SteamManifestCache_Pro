@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"1237800"
+	"common"
+	{
+		"name"		"Fields of Glory"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"39588e7b1c8d64c3120e51cee689e96695729351"
+		"logo_small"		"39588e7b1c8d64c3120e51cee689e96695729351_thumb"
+		"icon"		"7658af25dbf050baa8fc0a13f2bb3b4474ca5654"
+		"clienttga"		"8e43cdabe157ad06659afc1b6170c54a5a16c34c"
+		"clienticon"		"850d1f3b81dfe41a2e9793460c98242436976ea3"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_violence"		"1"
+		"metacritic_name"		"Fields of Glory"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"store_asset_mtime"		"1585095635"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Microprose"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"736239600"
+		"steam_release_date"		"1588080904"
+		"community_hub_visible"		"1"
+		"gameid"		"1237800"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"9"
+			"2"		"4667"
+			"3"		"4684"
+			"4"		"3987"
+			"5"		"4004"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"developer"		"Microprose"
+		"publisher"		"Ziggurat"
+	}
+	"config"
+	{
+		"installdir"		"Fields of Glory"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_FoG_w_1280x960.conf -conf dosbox_FoG_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x960"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_FoG_w_320x240.conf -conf dosbox_FoG_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x240"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_FoG_w_640x480.conf -conf dosbox_FoG_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x480"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_FoG_w_2560x1920.conf -conf dosbox_FoG_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1920"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"8"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_FoG_fs.conf -conf dosbox_FoG_auto_launch.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1237801"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2915574170849053201"
+					"size"		"20442143"
+					"download"		"8401152"
+				}
+				"beta"
+				{
+					"gid"		"2915574170849053201"
+					"size"		"20442143"
+					"download"		"8401152"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4961594"
+				"timeupdated"		"1588304512"
+			}
+			"beta"
+			{
+				"buildid"		"4961594"
+				"timeupdated"		"1588186553"
+			}
+		}
+	}
+}
