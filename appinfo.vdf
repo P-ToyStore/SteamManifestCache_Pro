@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"1601890"
+	"common"
+	{
+		"name"		"Rescue Rover Collection"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"53456c4e970d86c3bbc3f0f5307f875cffcc3204"
+		"logo_small"		"53456c4e970d86c3bbc3f0f5307f875cffcc3204_thumb"
+		"icon"		"854f2db5a9d8ef4d8206e02b801db434980d6fb8"
+		"clienttga"		"48a12de845fe09b85c29551bf35b710bfb3a0c3b"
+		"clienticon"		"57f74ec3323ddc80402ae7890b60fb60f19a5c9e"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"62.15863215388269"
+			}
+		}
+		"store_asset_mtime"		"1620370808"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Softdisk"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1620392024"
+		"community_hub_visible"		"1"
+		"gameid"		"1601890"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1664"
+			"2"		"1638"
+			"3"		"4791"
+			"4"		"3968"
+			"5"		"4004"
+			"6"		"5752"
+			"7"		"3871"
+			"8"		"3964"
+			"9"		"4195"
+			"10"		"4305"
+			"11"		"4726"
+			"12"		"1697"
+			"13"		"6691"
+			"14"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Softdisk"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1601890/"
+	}
+	"config"
+	{
+		"installdir"		"Rescue Rover Collection"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1601891"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5550067262192653322"
+					"size"		"35228839"
+					"download"		"14227232"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"beta"
+				{
+					"gid"		"6966585980FCAA38873148482CAFD5E6"
+					"size"		"56446B43F96106C32E0B03804C323AFE"
+					"download"		"78CCD8C4764CBEF26FAC632F19466495"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7306302"
+				"timeupdated"		"1630808192"
+			}
+			"beta"
+			{
+				"buildid"		"7306302"
+				"pwdrequired"		"1"
+				"timeupdated"		"1630807895"
+			}
+		}
+	}
+}
