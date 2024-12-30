@@ -1,0 +1,189 @@
+"appinfo"
+{
+	"appid"		"1471680"
+	"common"
+	{
+		"name"		"Cyclemania"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"c95ffcf631052e2682e2af7489fa1a9c3ec9b5ec"
+		"logo_small"		"c95ffcf631052e2682e2af7489fa1a9c3ec9b5ec_thumb"
+		"icon"		"c2d6a2b46e396edd00368bd77fd4310d638edb34"
+		"clienticon"		"abc5256e0d182c7ae17944a28b634b5d1eb0f888"
+		"clienttga"		"f6ae2272b706223b678c0150be2b088c80ad873e"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"70.51769175967704"
+			}
+		}
+		"store_asset_mtime"		"1605383543"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Compro Games"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Accolade"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Accolade Sports"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"757411200"
+		"steam_release_date"		"1607090098"
+		"community_hub_visible"		"1"
+		"gameid"		"1471680"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"198913"
+			"2"		"701"
+			"3"		"18594"
+			"4"		"4004"
+			"5"		"1734"
+			"6"		"123332"
+			"7"		"4182"
+			"8"		"19"
+			"9"		"21"
+			"10"		"599"
+			"11"		"1773"
+			"12"		"1100687"
+			"13"		"3839"
+			"14"		"6691"
+			"15"		"1719"
+			"16"		"4136"
+			"17"		"5708"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Compro Games"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://ziggurat.games"
+	}
+	"config"
+	{
+		"installdir"		"Cyclemania"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x480.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x480"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x960.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x960"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1920.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1920"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1471681"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3772958715801611031"
+					"size"		"482037907"
+					"download"		"405818224"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5813206"
+				"timeupdated"		"1605061119"
+			}
+		}
+	}
+}
