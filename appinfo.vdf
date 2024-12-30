@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"1137260"
+	"common"
+	{
+		"name"		"Tower Defense: Defender of the Kingdom"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"ab8945efb04b8d1c115f6dcbaec2816ead87ba41"
+		"logo_small"		"ab8945efb04b8d1c115f6dcbaec2816ead87ba41_thumb"
+		"icon"		"510f01a9fccb07218652091842034692146c85b8"
+		"clienttga"		"6f00325661d9be53e98700f942e59002850b325b"
+		"clienticon"		"0d25ceda0a12fe60abb0586c05bbe40053061249"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_violence"		"1"
+		"metacritic_name"		"Defender of the Kingdom: Tower Defense"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"89.1355972453099"
+			}
+		}
+		"store_asset_mtime"		"1566897651"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"IO Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"IO Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1567580400"
+		"steam_release_date"		"1568436777"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1137260"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1645"
+			"2"		"1676"
+			"3"		"3813"
+			"4"		"1643"
+			"5"		"1664"
+			"6"		"1708"
+			"7"		"597"
+			"8"		"4791"
+			"9"		"4172"
+			"10"		"4046"
+			"11"		"4057"
+			"12"		"1684"
+			"13"		"4726"
+			"14"		"4305"
+			"15"		"7250"
+			"16"		"4182"
+			"17"		"4711"
+			"18"		"5350"
+			"19"		"492"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"IO Games"
+		"publisher"		"IO Games"
+	}
+	"config"
+	{
+		"installdir"		"Tower Defense"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Defender of the Kingdom.exe"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"1137261"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6026778101559240315"
+					"size"		"964304472"
+					"download"		"211147616"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4189247"
+				"timeupdated"		"1568273795"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"IO Games\\Defender of the Kingdom\\Saves\\"
+				"pattern"		"*.*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"IO Games\\Defender of the Kingdom\\Saves\\"
+						"replace"		".config/unity3d/IO Games/Defender of the Kingdom/Saves/"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"IOGames\\Defender of the Kingdom\\Saves\\"
+						"replace"		"com.IOGames.TowerDefence"
+					}
+				}
+			}
+		}
+	}
+}
