@@ -1,0 +1,196 @@
+"appinfo"
+{
+	"appid"		"1299710"
+	"common"
+	{
+		"name"		"Return of the Phantom"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"b22cfe91e1aee9a8b97364dfe8edd20852b2c875"
+		"logo_small"		"b22cfe91e1aee9a8b97364dfe8edd20852b2c875_thumb"
+		"icon"		"ba1b9fc2b087ca7a1746cb7a584a8115244287e4"
+		"clienticon"		"157e75668c8dadf9467be91b3e08722b91b22ae5"
+		"clienttga"		"489ca1b0d2c3ecc2150b56bc789f3b7639fb4a33"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"76.97696509142722"
+			}
+		}
+		"store_asset_mtime"		"1591992614"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MPS Labs"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"746866800"
+		"steam_release_date"		"1596808541"
+		"community_hub_visible"		"1"
+		"gameid"		"1299710"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"5613"
+			"3"		"5716"
+			"4"		"8369"
+			"5"		"3987"
+			"6"		"10679"
+			"7"		"1667"
+			"8"		"4064"
+			"9"		"5984"
+			"10"		"15172"
+			"11"		"4182"
+			"12"		"4166"
+			"13"		"1693"
+		}
+		"review_score"		"7"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"MPS Labs"
+		"publisher"		"Ziggurat"
+	}
+	"config"
+	{
+		"installdir"		"Return of the Phantom"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x960.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x960"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x240.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x240"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x480.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x480"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1920.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1920"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1299711"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6273140637155786487"
+					"size"		"153207468"
+					"download"		"51555392"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5376437"
+				"timeupdated"		"1596662584"
+			}
+		}
+	}
+}
