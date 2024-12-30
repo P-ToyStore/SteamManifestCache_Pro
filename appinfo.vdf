@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"1625520"
+	"common"
+	{
+		"name"		"Seance"
+		"type"		"Game"
+		"logo"		"4ee310023f5246593e5f49e96d880d67cf365ec9"
+		"logo_small"		"4ee310023f5246593e5f49e96d880d67cf365ec9_thumb"
+		"icon"		"6d82fed8407fa2f523ad34d505a3d19fcbc2abf7"
+		"clienttga"		"a29c06e1c9fe2d2f6666aa81a0b97668c2f9c0b1"
+		"clienticon"		"d16720aeb5796b307570a50578621c369abed983"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"clienticns"		"164b2ec7fa88be38b2fbd3e93ff8f0e060bdbf2c"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"has_adult_content"		"1"
+		"has_adult_content_violence"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"90.23255813953486"
+				"height_pct"		"85.18166706245547"
+			}
+		}
+		"store_asset_mtime"		"1621791480"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"vm.cabello"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"carolinemlhrs"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1622228501"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1625520"
+		"store_tags"
+		{
+			"0"		"1742"
+			"1"		"5613"
+			"2"		"4085"
+			"3"		"1719"
+			"4"		"1664"
+			"5"		"8369"
+			"6"		"3799"
+			"7"		"122"
+			"8"		"5716"
+			"9"		"6426"
+			"10"		"597"
+			"11"		"4182"
+			"12"		"15172"
+			"13"		"3834"
+			"14"		"1698"
+			"15"		"10808"
+			"16"		"21"
+			"17"		"1651"
+			"18"		"3871"
+			"19"		"7208"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"vm.cabello"
+		"publisher"		"carolinemlhrs"
+	}
+	"config"
+	{
+		"installdir"		"Seance"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Game.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1625521"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7571381042331303884"
+					"size"		"693273451"
+					"download"		"531639328"
+				}
+			}
+		}
+		"1625522"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5326652268212816042"
+					"size"		"1042245113"
+					"download"		"549134816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9847481"
+				"timeupdated"		"1667331964"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.rpgsave"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"save"
+						"replace"		"save"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Contents\\Resources\\app.nw\\save"
+			}
+		}
+		"appidredirect"		"1625520"
+	}
+}
