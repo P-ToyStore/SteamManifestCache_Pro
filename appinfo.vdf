@@ -1,0 +1,149 @@
+"appinfo"
+{
+	"appid"		"319060"
+	"common"
+	{
+		"name"		"Lambda Wars Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"parent"		"270370"
+		"oslist"		"windows"
+		"logo"		"c4caa84924ff69c0c6921c7b5379eabf73f983d0"
+		"logo_small"		"c4caa84924ff69c0c6921c7b5379eabf73f983d0_thumb"
+		"icon"		"14dabc87a5c77a80a86eaca8a67b30b8a462fc62"
+		"clienttga"		"a860ac4fb288f66dd22cd76f078fcb39ae7698bd"
+		"clienticon"		"9d1367b9aeaa2ca973d1d286a8088712d8567271"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"319060"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		"lambdawars"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Lambda Wars Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game lambdawars"
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"319061"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8837973745549879133"
+					"size"		"231524"
+					"download"		"163312"
+				}
+			}
+		}
+		"270371"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3648697680421550019"
+					"size"		"5469774194"
+					"download"		"2644132352"
+				}
+				"dev"
+				{
+					"gid"		"3648697680421550019"
+					"size"		"5469774194"
+					"download"		"2644132352"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"lwgo"
+				{
+					"gid"		"28A9D8E1932716ED7256637D95955FA1"
+					"size"		"9E9ACA24D1FB9C28B78229D1A71EAD39"
+					"download"		"AFDE18A2AF5065A87E9651D322ED407A"
+				}
+			}
+			"depotfromapp"		"270370"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"426875"
+			}
+			"lwgo"
+			{
+				"buildid"		"5819217"
+				"pwdrequired"		"1"
+				"timeupdated"		"1605164504"
+			}
+		}
+	}
+}
