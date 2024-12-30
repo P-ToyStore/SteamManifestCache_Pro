@@ -1,0 +1,351 @@
+"appinfo"
+{
+	"appid"		"392820"
+	"common"
+	{
+		"name"		"Wild Island Quest"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"720c7b55c3b10c4faa58927bcdc065576ded8f48"
+		"clienticns"		"287dd3f095da3edd15f8802cde3a36cd57da905c"
+		"linuxclienticon"		"79637e777413be31d4513ce3c78741229da2a939"
+		"clienticon"		"a2d8eb431a70bc39ae3fa26f20655f9a106f234f"
+		"clienttga"		"96cc6cc33c81afd23762f73c41432257d3c9f5c5"
+		"logo"		"7e676c4d0717be18c3a96f73ff3ef0c4dfdde6fb"
+		"logo_small"		"7e676c4d0717be18c3a96f73ff3ef0c4dfdde6fb_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"osarch"		""
+		"osextended"		"macos64"
+		"metacritic_name"		"Wild Island Quest"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"54.60910151691949"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1572795668"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NLB project"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"NLB project"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"The Adventurous Four"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1441378840"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"392820"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"3799"
+			"3"		"6426"
+			"4"		"11014"
+			"5"		"6971"
+			"6"		"4486"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"NLB project"
+		"publisher"		"NLB project"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Wild_Island_Quest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"wiq-instead.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"wiq"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"WildIslandQuest.app/Contents/MacOS/sdl-instead"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"wiq-instead.exe"
+				"arguments"		"-fullscreen -standalone -game wild_island_quest"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"classic"
+				}
+				"description_loc"
+				{
+					"english"		"Wild Island Quest Classic"
+				}
+				"description"		"Wild Island Quest Classic"
+			}
+			"4"
+			{
+				"executable"		"WildIslandQuestUE.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"392821"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2122266030612377664"
+					"size"		"678447073"
+					"download"		"672493824"
+				}
+				"classic"
+				{
+					"gid"		"2122266030612377664"
+					"size"		"678447073"
+					"download"		"672493824"
+				}
+			}
+		}
+		"392822"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6353131691976218127"
+					"size"		"726695806"
+					"download"		"673554928"
+				}
+				"classic"
+				{
+					"gid"		"6353131691976218127"
+					"size"		"726695806"
+					"download"		"673554928"
+				}
+			}
+		}
+		"392823"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4474891008613354161"
+					"size"		"675659243"
+					"download"		"671253904"
+				}
+				"classic"
+				{
+					"gid"		"4474891008613354161"
+					"size"		"675659243"
+					"download"		"671253904"
+				}
+			}
+		}
+		"392824"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8028270504564202333"
+					"size"		"675553018"
+					"download"		"671201664"
+				}
+				"classic"
+				{
+					"gid"		"8028270504564202333"
+					"size"		"675553018"
+					"download"		"671201664"
+				}
+			}
+		}
+		"392825"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"159203633862465117"
+					"size"		"631178158"
+					"download"		"399399856"
+				}
+				"classic"
+				{
+					"gid"		"2025238941348712444"
+					"size"		"682762965"
+					"download"		"673938816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15099259"
+				"timeupdated"		"1721484421"
+			}
+			"classic"
+			{
+				"buildid"		"15097212"
+				"description"		"Classic Steam version (04 Sep 2015 - 19 Jul 2024)"
+				"timeupdated"		"1721457762"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"appdata/saves/wild_island_quest"
+				"pattern"		"*"
+			}
+			"4"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"WildIslandQuestUE/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"WildIslandQuest.app/Contents/Resources"
+			}
+		}
+	}
+}
