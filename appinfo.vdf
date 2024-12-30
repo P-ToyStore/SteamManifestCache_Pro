@@ -1,0 +1,299 @@
+"appinfo"
+{
+	"appid"		"1423010"
+	"common"
+	{
+		"name"		"Zephyr"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"logo"		"5d25e9b060838187952ac37df6391a0641236ce2"
+		"logo_small"		"5d25e9b060838187952ac37df6391a0641236ce2_thumb"
+		"icon"		"6dc8ff0e83394eb3951fe56a827cb5d72b6c9c99"
+		"clienttga"		"dc3ac86eee2002a8542f5ce21157fb70a2cf014c"
+		"clienticon"		"cb3a7c674a56aef5ab92e20df09da6fa3cc86038"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"49.76744186046511"
+				"height_pct"		"58.35905960579434"
+			}
+		}
+		"store_asset_mtime"		"1693593208"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"New World Computing"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"New World Computing"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"9"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"757411200"
+		"steam_release_date"		"1612533165"
+		"community_hub_visible"		"1"
+		"gameid"		"1423010"
+		"store_tags"
+		{
+			"0"		"4102"
+			"1"		"1663"
+			"2"		"3964"
+			"3"		"4295"
+			"4"		"5030"
+			"5"		"699"
+			"6"		"5923"
+			"7"		"6691"
+			"8"		"1644"
+			"9"		"1774"
+			"10"		"4191"
+			"11"		"19"
+			"12"		"11104"
+			"13"		"4115"
+			"14"		"3942"
+			"15"		"5752"
+			"16"		"1673"
+			"17"		"5363"
+			"18"		"3916"
+			"19"		"3993"
+		}
+	}
+	"extended"
+	{
+		"developer"		"New World Computing"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1423010/"
+	}
+	"config"
+	{
+		"installdir"		"Zephyr"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -noconsole -exit"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox_fs.conf -noconsole -exit "
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\DOSBox.exe"
+				"arguments"		"-conf dosbox_640x400.conf -noconsole -exit"
+				"description"		"windowed 640x400"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox_640x400.conf -noconsole -exit"
+				"description"		"windowed 640x400"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\DOSBox.exe"
+				"arguments"		"-conf dosbox_1280x800.conf -noconsole -exit"
+				"description"		"windowed 1280x800"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox_1280x800.conf -noconsole -exit"
+				"description"		"windowed 1280x800"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"DOSBox\\DOSBox.exe"
+				"arguments"		"-conf dosbox_2560x1600.conf -noconsole -exit"
+				"description"		"windowed 2560x1600"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"7"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox_2560x1600.conf -noconsole -exit"
+				"description"		"windowed 2560x1600"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1423011"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8451300488940139273"
+					"size"		"702789479"
+					"download"		"490461856"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"9671E88D5791E6CF42A01AAA5E704A72"
+					"size"		"D892D816DE921F518CED9BB4B2A84A24"
+					"download"		"942DFAB037DA932BCC9C3299D76187FA"
+				}
+			}
+		}
+		"1423012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6109142157286319724"
+					"size"		"7529560"
+					"download"		"4368848"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"2DD6E08D1585000250B861E615C62241"
+					"size"		"ED5DEEC04220180C9E50193A5359A194"
+					"download"		"2428B016F02F3A7D942AAE95CEEB55EE"
+				}
+			}
+		}
+		"1423013"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2845328751402817877"
+					"size"		"12571854"
+					"download"		"4613040"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"test"
+				{
+					"gid"		"E603C59D37ABAD6A53B3837AAE672D50"
+					"size"		"1B134F9D0E8CE55DCC04762E28734924"
+					"download"		"919528ACD12D8F39053279256B9EBC15"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5959631"
+				"timeupdated"		"1607791679"
+			}
+			"test"
+			{
+				"buildid"		"5952025"
+				"pwdrequired"		"1"
+				"timeupdated"		"1609877925"
+			}
+		}
+	}
+}
