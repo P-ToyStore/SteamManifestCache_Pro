@@ -1,0 +1,356 @@
+"appinfo"
+{
+	"appid"		"1117880"
+	"common"
+	{
+		"name"		"Biolab Wars"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"4a2ed6e5efa8beaa8b4c6ee827d15d85e729562b"
+		"logo_small"		"4a2ed6e5efa8beaa8b4c6ee827d15d85e729562b_thumb"
+		"icon"		"ebc8588bc7d68ec53ff6ac6eeab1681cfecf0130"
+		"clienttga"		"11ef4897e1bb230fa6b390a9826d30a70aa08963"
+		"linuxclienticon"		"6aa0c48cb23abf49d5716c960aa1233310ddc382"
+		"clienticns"		"5c02f30eef932da8e727d814f55bad2b1427cd34"
+		"clienticon"		"981c98b246bb88600eb99453dd5c6cd4dc0ddb91"
+		"releasestate"		"released"
+		"osextended"		"macos64"
+		"languages"
+		{
+			"english"		"1"
+			"brazilian"		"1"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1647648000"
+			"tested_build_id"		"7915533"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Biolab Wars"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"store_asset_mtime"		"1634604428"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"2ndBoss"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"2ndBoss"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Biolab Wars"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1566565066"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1117880"
+		"store_tags"
+		{
+			"0"		"3798"
+			"1"		"3834"
+			"2"		"4885"
+			"3"		"1625"
+			"4"		"1773"
+			"5"		"3871"
+			"6"		"7250"
+			"7"		"19"
+			"8"		"3964"
+			"9"		"3942"
+			"10"		"1638"
+			"11"		"1678"
+			"12"		"6691"
+			"13"		"21"
+			"14"		"4004"
+			"15"		"3916"
+			"16"		"3993"
+			"17"		"4182"
+			"18"		"7948"
+			"19"		"492"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"2ndBoss"
+		"publisher"		"2ndBoss"
+	}
+	"config"
+	{
+		"installdir"		"Biolab Wars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Biolab Wars\\Biolab Wars.exe"
+				"arguments"		"-force-d3d11"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Biolab Wars (Direct3D)"
+				}
+				"description"		"Biolab Wars (Direct3D)"
+			}
+			"1"
+			{
+				"executable"		"Biolab Wars/Biolab Wars.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Biolab Wars/Biolab Wars.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"Biolab Wars\\Biolab Wars.exe"
+				"arguments"		"-force-glcore"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Biolab Wars (OpenGL)"
+				}
+				"description"		"Biolab Wars (OpenGL)"
+			}
+			"5"
+			{
+				"executable"		"Biolab Wars\\Biolab Wars.exe"
+				"arguments"		"-force-vulkan"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Biolab Wars (Vulkan)"
+				}
+				"description"		"Biolab Wars (Vulkan)"
+			}
+			"6"
+			{
+				"executable"		"Biolab Wars - Legacy Edition\\Biolab Wars.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Biolab Wars: Legacy Edition"
+				}
+				"description"		"Biolab Wars: Legacy Edition"
+			}
+			"7"
+			{
+				"executable"		"Biolab Wars - Legacy Edition/Biolab Wars.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Biolab Wars: Legacy Edition"
+				}
+				"description"		"Biolab Wars: Legacy Edition"
+			}
+			"8"
+			{
+				"executable"		"Biolab Wars - Legacy Edition/Biolab Wars.x86_64"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Biolab Wars: Legacy Edition"
+				}
+				"description"		"Biolab Wars: Legacy Edition"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,spanish,brazilian"
+		"hasdepotsindlc"		"1"
+		"1117881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3354872644466284906"
+					"size"		"271029354"
+					"download"		"31060544"
+				}
+			}
+		}
+		"1117882"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7626626860776714551"
+					"size"		"260757174"
+					"download"		"29709792"
+				}
+			}
+		}
+		"1117883"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1194654220636047814"
+					"size"		"276535586"
+					"download"		"30709664"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11046021"
+				"timeupdated"		"1681992184"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"512000"
+		"maxnumfiles"		"10"
+	}
+}
