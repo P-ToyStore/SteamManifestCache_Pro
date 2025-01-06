@@ -30,6 +30,7 @@ Steam 清单缓存
 + 夏萝莉（BA技术宅 疑似男娘
 + [@wxy1343](https://github.com/wxy1343) （清单库先驱，提供了很多启发和思路
 + [@BlankTMing](https://github.com/BlankTMing) （提供了一些技术和清单支持）
++ FQQ（菜玩站长，不时扫货新游戏，跟着沾光，大大的赞）
   
 以上排名不分先后 为了避免被骚扰 所以用化名表示
 
