@@ -1,0 +1,127 @@
+"appinfo"
+{
+	"appid"		"221320"
+	"common"
+	{
+		"name"		"Universe Sandbox Legacy - School Edition"
+		"clienticon"		"b3f53a0ef402f966ac12566a0f42f1cc5943d81c"
+		"clienttga"		"1876d6f390104702027b2b3086b84c0125649ea7"
+		"icon"		"7ccd8ffa244e23fa3aeb058207ab4a50777a1c69"
+		"logo"		"e18118df8174e2e0538be9fc2e9f8fac9e8e5d8c"
+		"logo_small"		"e18118df8174e2e0538be9fc2e9f8fac9e8e5d8c_thumb"
+		"section_type"		"ownersonly"
+		"oslist"		"windows"
+		"osarch"		""
+		"type"		"game"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"221320"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"Universe Sandbox School Edition"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Universe Sandbox SE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Universe Sandbox.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"57fb7a78d240de87e2dce151b5bf442198dd6d054a3a9b16aab94b59c8ba6ba55a38f3a6c3b4c4bdb8a9919713fe4923943de71deb1faa9797328f13e54af0a826617fea8ac3df5add74b62604b0b34294d23ea33da03d1dfa141128a684d1cc55804fb793b9771d217e1f5d8019bf42d8e0219c1823edc60fef1108f2bcb351"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist2008sp1"
+			{
+				"process 1"		"%INSTALLDIR%\\Prerequisites\\vcredist_x86_2008sp1.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\221320"
+			}
+			"vcredist2010sp1"
+			{
+				"process 1"		"%INSTALLDIR%\\Prerequisites\\vcredist_x86_2010sp1.exe"
+				"command 1"		"/passive /promptrestart /showfinalerror"
+				"nocleanup"		"1"
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\221320"
+			}
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\Prerequisites\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\221320"
+			}
+			"install"
+			{
+				"process 1"		"%INSTALLDIR%\\Prerequisites\\NetFx20SP2_x86.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v2.0.50727"
+			}
+			"ubox"
+			{
+				"process 1"		"%INSTALLDIR%\\Prerequisites\\SetupUBOXAssociation.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\221320"
+				"minimumhasrunvalue"		"2"
+			}
+		}
+	}
+	"depots"
+	{
+		"221321"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8461167462706457484"
+					"size"		"105550449"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"4179329817819390124"
+					"size"		"94154391"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16528"
+			}
+			"beta"
+			{
+				"buildid"		"16525"
+			}
+		}
+	}
+}
