@@ -1,0 +1,313 @@
+"appinfo"
+{
+	"appid"		"1388720"
+	"common"
+	{
+		"name"		"Japanese Romaji Adventure"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"ae3b4baa1a572499fb665b570e4db0492b768a66"
+		"logo_small"		"ae3b4baa1a572499fb665b570e4db0492b768a66_thumb"
+		"icon"		"ebe7fd7b98852be20cbe84e1ae05ddc6d740928d"
+		"clienttga"		"4242c2e6c0236d276191fb3b39fe7fdfd1aac1bd"
+		"clienticon"		"f3c131d2e5ab337e2e2d9bdba1eaadbfc7f75b3d"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"43.573318875258394"
+				"height_pct"		"59.62139821513196"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"43.573318875258394"
+					"height_pct"		"59.62139821513196"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1620311552"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"JBO Media"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Angel Star Studios"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Angel Star Studios"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1598639520"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1388720"
+		"store_tags"
+		{
+			"0"		"10437"
+			"1"		"1036"
+			"2"		"4434"
+			"3"		"122"
+			"4"		"3987"
+			"5"		"5350"
+			"6"		"4598"
+			"7"		"3834"
+			"8"		"4325"
+			"9"		"7250"
+			"10"		"3799"
+			"11"		"4791"
+			"12"		"21"
+			"13"		"4182"
+			"14"		"13782"
+			"15"		"1688"
+			"16"		"4085"
+			"17"		"5577"
+			"18"		"3871"
+			"19"		"492"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"JBO Media"
+		"publisher"		"Angel Star Studios"
+		"homepage"		"https://www.AngelStarStudios.com"
+		"listofdlc"		"1429450,1734340,1871530,2106210"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Japanese Romaji Adventure"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Game"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Game.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"KanaAdventureWin\\KanaAdventureWin.exe"
+				"workingdir"		"KanaAdventureWin"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1429450"
+				}
+				"description_loc"
+				{
+					"english"		"Kana Adventure"
+				}
+				"description"		"Kana Adventure"
+			}
+			"4"
+			{
+				"executable"		"JapaneseWorkBookVerbs.exe"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Japanese - Work Book - Verbs"
+				}
+				"description"		"Japanese - Work Book - Verbs"
+			}
+			"5"
+			{
+				"executable"		"JapaneseWorkbookAdjectives.exe"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Japanese - Work Book - Adjectives"
+				}
+				"description"		"Japanese - Work Book - Adjectives"
+			}
+			"6"
+			{
+				"executable"		"New Unity Project.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"2106210"
+				}
+				"description_loc"
+				{
+					"english"		"Japanese - Quiz Time"
+				}
+				"description"		"Japanese - Quiz Time"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,japanese"
+		"hasdepotsindlc"		"1"
+		"1388721"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5428807273638536121"
+					"size"		"571740215"
+					"download"		"446867216"
+				}
+			}
+		}
+		"1388723"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5830880848644666402"
+					"size"		"702640475"
+					"download"		"469076320"
+				}
+			}
+		}
+		"1388724"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"603958391803281790"
+					"size"		"897670212"
+					"download"		"436890640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9468842"
+				"timeupdated"		"1662556588"
+			}
+		}
+	}
+}
