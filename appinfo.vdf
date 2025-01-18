@@ -1,0 +1,294 @@
+"appinfo"
+{
+	"appid"		"214360"
+	"common"
+	{
+		"name"		"Tower Wars"
+		"type"		"Game"
+		"logo"		"4c0065c5489898d092bf778632529efcab3a8b1e"
+		"logo_small"		"4c0065c5489898d092bf778632529efcab3a8b1e_thumb"
+		"clienttga"		"af76684992f1bdec82eb0931593d5745ef944cf5"
+		"clienticon"		"3fff67349e593760a15e662d33a7e5df3ce5aa76"
+		"icon"		"b9eba47bca28bb79559f599925ffec4ffd817e97"
+		"oslist"		"windows,macos"
+		"clienticns"		"dafdb7bd61dfa9768ccadbcad322e652616647f9"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1667347200"
+			"tested_build_id"		"459701"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+				}
+				"5"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Tower Wars"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ceecb15afe275416aaccf700a0c614de147640e2.jpg"
+		"store_asset_mtime"		"1385590188"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SuperVillain Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SuperVillain Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_8"		"1"
+			"category_9"		"1"
+			"category_27"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1344963600"
+		"metacritic_score"		"59"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/tower-wars?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"214360"
+		"store_tags"
+		{
+			"0"		"1645"
+			"1"		"9"
+			"2"		"492"
+			"3"		"1777"
+			"4"		"3859"
+			"5"		"1685"
+			"6"		"19"
+			"7"		"4182"
+			"8"		"3843"
+			"9"		"4026"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"SuperVillain Studios"
+		"gamedir"		"towerwars"
+		"homepage"		"http://www.towerwarsgame.com"
+		"icon"		""
+		"installscript_macos"		"installscript_osx.vdf"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"SuperVillain Studios"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tower Wars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TW.exe"
+				"description"		"Client Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Tower Wars.app"
+				"description"		"Mac Client Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"installscriptsignature"		"0d3ac374843f4f5ac8ea2552b839cdfdb6afbb4037a6cc70f2a63bffbf49d280be6099cf96bcef53a1375a8be0195e8a46d05a5fef3c546c2a33660c5ea64460702898c5a55b96afaee18ce86bbed4f91626c5c18ccd112231e590db236f2f05c83985116c977cce3b1211bc0666f8b9c578131e6dc5a2610eed160bf6fbb820"
+		"installscriptoverride"		"1"
+		"usemms"		"1"
+		"usesfrenemies"		"yes"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214360"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"214361"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5211419598231164065"
+					"size"		"1713540871"
+					"download"		"152225881392"
+				}
+				"beta"
+				{
+					"gid"		"5211419598231164065"
+					"size"		"1713540871"
+					"download"		"152225881392"
+				}
+			}
+		}
+		"214362"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7915315227666127453"
+					"size"		"1699058359"
+					"download"		"158954259200"
+				}
+				"beta"
+				{
+					"gid"		"7915315227666127453"
+					"size"		"1699058359"
+					"download"		"158954259200"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"459701"
+			}
+			"beta"
+			{
+				"buildid"		"459701"
+				"description"		"1.1140.2 RG"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"mods"
+				"pattern"		"*.mod"
+				"recursive"		"1"
+				"platforms"
+				{
+					"1"		"all"
+				}
+			}
+		}
+	}
+}
