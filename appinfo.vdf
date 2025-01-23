@@ -1,0 +1,277 @@
+"appinfo"
+{
+	"appid"		"934930"
+	"common"
+	{
+		"name"		"RDS - The Official Drift Videogame"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"771334165ea06f88e747db5dc873efcfa7433e65"
+		"clienttga"		"e02c0f6377bb8511fec371b98af3ed4dd1e2f571"
+		"icon"		"fb82cfbbcdad21c75a28dea5d0ccf12307e5e12c"
+		"logo"		"975391bf781a08c7f2ea880b377ae39eae8bb6e0"
+		"logo_small"		"975391bf781a08c7f2ea880b377ae39eae8bb6e0_thumb"
+		"openvrsupport"		"1"
+		"linuxclienticon"		"5614772faa72d3d4bb8b41c10c08401ea54c1980"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"61.14772103239977"
+				"height_pct"		"99.65277731786538"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"61.14772103239977"
+					"height_pct"		"99.65277731786538"
+				}
+			}
+		}
+		"store_asset_mtime"		"1697562179"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Drift Physics Crew"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Drift Physics Crew"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+			"1"		"28"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_49"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1559804561"
+		"community_hub_visible"		"1"
+		"gameid"		"934930"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"599"
+			"2"		"701"
+			"3"		"1100687"
+			"4"		"1644"
+			"5"		"3859"
+			"6"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"0"
+		"developer"		"Drift Physics Crew"
+		"publisher"		"Drift Physics Crew"
+		"listofdlc"		"999300,999301,999302,1191850,1210000"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"RDS - The Official Drift Videogame"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RDS.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"RDS.exe"
+				"arguments"		"defaultsettings"
+				"description"		"RDS - The Official Drift Videogame with Default Settings"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"RDS.exe"
+				"arguments"		"testtrack"
+				"description"		"TestTrack"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"beta"
+				}
+			}
+			"4"
+			{
+				"executable"		"RDS.exe"
+				"arguments"		"vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"RDS.exe"
+				"arguments"		"istest"
+				"description"		"Test"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"934931"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8556822131845858992"
+					"size"		"24398689992"
+					"download"		"2255736128"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12463755"
+				"timeupdated"		"1697561706"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"RDS - The Official Drift Videogame"
+				"pattern"		"*.fp4"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
