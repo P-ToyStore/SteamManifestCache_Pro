@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"276060"
+	"common"
+	{
+		"name"		"Sven Co-op Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"parent"		"225840"
+		"clienticon"		"6361d2a6f95216521bafb973d8b654568011f3a3"
+		"clienttga"		"b84db730bd1e2b327ed96f1865ebfcb5388c4c8b"
+		"icon"		"7f36820f3b964e15defb4bcfc66e750e1aee6228"
+		"clienticns"		"77642e9d3340d3a965d725e55979f3b7250d3339"
+		"logo"		"e4249ffb9357ac837f12dd84f1b101d59d7820bb"
+		"logo_small"		"e4249ffb9357ac837f12dd84f1b101d59d7820bb_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"276060"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		"svencoop"
+		"serverbrowsername"		"Sven Co-op"
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=276060"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sven Co-op Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"svends.exe"
+				"description"		"Launch Game Server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"svends_run"
+				"description"		"Launch Game Server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"svencoop/manual/index.html"
+				"description"		"Game Manual"
+				"type"		"manual"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"225841"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7100405834093858048"
+					"size"		"2572858404"
+					"download"		"1351900912"
+				}
+				"release_candidate_public"
+				{
+					"gid"		"7100405834093858048"
+					"size"		"2572858404"
+					"download"		"1351900912"
+				}
+			}
+			"depotfromapp"		"225840"
+		}
+		"276061"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4021068643738023678"
+					"size"		"59568814"
+					"download"		"22097936"
+				}
+				"release_candidate_public"
+				{
+					"gid"		"4021068643738023678"
+					"size"		"59568814"
+					"download"		"22097936"
+				}
+			}
+		}
+		"276062"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2096207717681437861"
+					"size"		"105013609"
+					"download"		"28337712"
+				}
+				"release_candidate_public"
+				{
+					"gid"		"2096207717681437861"
+					"size"		"105013609"
+					"download"		"28337712"
+				}
+			}
+		}
+		"276063"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6418401746187099873"
+					"size"		"8590180"
+					"download"		"2618144"
+				}
+				"release_candidate_public"
+				{
+					"gid"		"6418401746187099873"
+					"size"		"8590180"
+					"download"		"2618144"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16648738"
+				"timeupdated"		"1733563437"
+			}
+			"release_candidate_public"
+			{
+				"buildid"		"16648738"
+				"description"		"Release candidate (public)"
+				"timeupdated"		"1733432577"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
