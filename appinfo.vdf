@@ -1,0 +1,250 @@
+"appinfo"
+{
+	"appid"		"210390"
+	"common"
+	{
+		"name"		"Adam's Venture Episode 2: Solomon's Secret"
+		"type"		"Game"
+		"logo"		"291f1ec072a7487872728cccba03a46ba05bc712"
+		"logo_small"		"291f1ec072a7487872728cccba03a46ba05bc712_thumb"
+		"icon"		"21fba26af0457edf2f9429b1bcd6b7c6038c7856"
+		"clienttga"		"0716603306c8a766ac6ffddc0bf295a50dd16970"
+		"clienticon"		"00e700699da7e3fef459279ba34791d1b139135b"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1681257600"
+			"tested_build_id"		"3450"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"1"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Adam's Venture Episode 2: Solomon's Secret"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b03213c93e2ec57f3332fb763844a1c1c69a9afc.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vertigo Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Iceberg Interactive"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1302246000"
+		"steam_release_date"		"1341248400"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"210390"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"19"
+			"3"		"1664"
+			"4"		"4182"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Vertigo Games"
+		"gamedir"		"Adam's Venture 2"
+		"homepage"		"http://www.adams-venture.com"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"210391"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Iceberg Interactive"
+	}
+	"config"
+	{
+		"installscriptsignature"		"12e9fd30c4fd33eabd48c3791c6cd29ca344c189ed2d7a8438524af9500562366a7536a38e5b1ba04e77c89f06ee0d95a3feee601a554b1195cbc11811a8e74af47d35551d58985694569657d6dacb2fb30893f00069e473a3efad14b7475ccb9ade35da8e7c08e53770c74d177f25fc76efd7f1450ba39c39687df39f6449b4"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Adamsventure2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/VentureGame.exe"
+				"description"		"Launch game"
+				"workingdir"		"Binaries/Win32/"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\iceberg interactive\adams venture 2"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Binaries\\Win32\\VentureGame.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"1"
+				}
+			}
+		}
+		"run process"
+		{
+			".net framework 3.5 redist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210390"
+				"process 1"		"%INSTALLDIR%\\Drivers\\dotnetfx35.exe"
+				"command 1"		"/norestart"
+				"nocleanup"		"1"
+			}
+			"vc redist x86"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210390"
+				"process 1"		"%INSTALLDIR%\\Drivers\\vcredist_x86_vs2008sp1.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210390"
+				"process 1"		"%INSTALLDIR%\\Drivers\\DXRedistCutdown\\DXSETUP.exe"
+				"nocleanup"		"1"
+			}
+			"physx driver"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210390"
+				"process 1"		"%INSTALLDIR%\\Drivers\\PhysX_9.10.0513_SystemSoftware.exe"
+				"nocleanup"		"1"
+			}
+			"amd cpu driver"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210390"
+				"process 1"		"%INSTALLDIR%\\Drivers\\AMD\\amdcpusetup.exe"
+				"command 1"		"/s"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"210391"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2806849168852054021"
+					"size"		"1545159623"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3450"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
