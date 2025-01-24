@@ -1,0 +1,305 @@
+"appinfo"
+{
+	"appid"		"270010"
+	"common"
+	{
+		"name"		"Time Rifters"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"c3cb806d1d2a4ae56a2ec95924fddb26ae997684"
+		"logo_small"		"c3cb806d1d2a4ae56a2ec95924fddb26ae997684_thumb"
+		"icon"		"e804c83aac23f6fc4bfda4e005c0bea64d9e1508"
+		"clienticon"		"f7a5ab2b970d4dc862c267f0cd06c8337ff4eed6"
+		"clienttga"		"3b7eceaf8a951bef1265eace933d17f48c9821f2"
+		"linuxclienticon"		"956eeb843d7c80fd0229163887d684f1166fc494"
+		"clienticns"		"140938e36cd167c6937b8ad98a010a07eb5dca8b"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1648684800"
+			"tested_build_id"		"754360"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Time Rifters"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_21354ac9d56d62c9c6a88f2df506d4a43601e44c.jpg"
+		"store_asset_mtime"		"1568925767"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Proton Studio Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		" "
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_30"		"1"
+			"category_14"		"1"
+			"category_17"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1413910839"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"270010"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"492"
+			"3"		"1774"
+			"4"		"3839"
+			"5"		"4182"
+			"6"		"1663"
+			"7"		"21978"
+			"8"		"10679"
+			"9"		"9"
+			"10"		"8122"
+			"11"		"1645"
+			"12"		"6625"
+			"13"		"1664"
+			"14"		"7481"
+			"15"		"1732"
+			"16"		"3942"
+			"17"		"3859"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Proton Studio Inc"
+		"publisher"		" "
+		"homepage"		"http://www.timerifters.net/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TimeRifters"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TimeRifters.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"Play Time Rifters"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TimeRifters.app"
+				"description"		"Play Time Rifters"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"TimeRifters_DirectToRift.exe"
+				"arguments"		"-UseRift"
+				"description"		"Play Time Rifters (Oculus Rift)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"TimeRifters.app"
+				"arguments"		"-UseRift"
+				"description"		"Play Time Rifters (Oculus Rift)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"270011"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"518100599985981586"
+					"size"		"847382741"
+					"download"		"510219632"
+				}
+				"dk2"
+				{
+					"gid"		"518100599985981586"
+					"size"		"847382741"
+					"download"		"510219632"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"44EBB634FD67D65E1D2E7E182C472272"
+					"size"		"C604FAB4A22BAC4D4DD934FD05770918"
+					"download"		"803C5CEA301E59543924DE78389AAE51"
+				}
+			}
+		}
+		"270012"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3434530768906737310"
+					"size"		"844173438"
+					"download"		"510129808"
+				}
+				"dk2"
+				{
+					"gid"		"3434530768906737310"
+					"size"		"844173438"
+					"download"		"510129808"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"staging"
+				{
+					"gid"		"5C8C911A90F519322E160040BB872CCC"
+					"size"		"30E5BC13581D62DE674B8D041795C5BF"
+					"download"		"C3CBF3625F73AE0496A52133268A18ED"
+				}
+			}
+		}
+		"workshopdepot"		"0"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"754360"
+			}
+			"dk2"
+			{
+				"buildid"		"754360"
+				"description"		"Oculus 0.4.3 SDK"
+			}
+			"staging"
+			{
+				"buildid"		"754360"
+				"pwdrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
