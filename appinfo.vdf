@@ -1,0 +1,177 @@
+"appinfo"
+{
+	"appid"		"504730"
+	"common"
+	{
+		"name"		"MOBIUS FINAL FANTASY"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"58253f20f8ca0133a1482a8d8cee4d0613d35fd3"
+		"logo_small"		"58253f20f8ca0133a1482a8d8cee4d0613d35fd3_thumb"
+		"linuxclienticon"		"287345c188057508282083e5959198161a7a402e"
+		"clienticon"		"774f6a147ccbb3fb20694d2c51e6589b298327d1"
+		"clienttga"		"180ee78254ec4df4e9bf4694d83a08a923492439"
+		"icon"		"df1826525b4be52079ab98804cd75a8004cf211b"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"MOBIUS FINAL FANTASY®"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"japanese"		"header_japanese.jpg"
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_114537d7cc9796591e6ab7e95582a165187bf8d9.jpg"
+		"store_asset_mtime"		"1526624831"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Square Enix"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Square Enix"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_35"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1477945920"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"504730"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"122"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"Square Enix"
+		"publisher"		"Square Enix"
+		"homepage"		"http://www.jp.square-enix.com/MOBIUSFF/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"MOBIUS FINAL FANTASY"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"mobiusff.exe"
+				"arguments"		"-force-d3d11"
+				"description"		"MOBIUS FINAL FANTASY - DirectX11"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"mobiusff.exe"
+				"arguments"		"-force-opengl"
+				"description"		"MOBIUS FINAL FANTASY - OpenGL"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"japanese"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"504731"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8889198292367631652"
+					"size"		"72574704"
+					"download"		"26854288"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4843886"
+				"timeupdated"		"1585709139"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"64"
+	}
+}
