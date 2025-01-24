@@ -1,0 +1,498 @@
+"appinfo"
+{
+	"appid"		"347330"
+	"common"
+	{
+		"name"		"HeartZ: Co-Hope Puzzles"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"2551768f5579617e84e75bc710eee09f683c8633"
+		"clienttga"		"3550b6e0e967e448adb6b4f3e126dc8fa53b795f"
+		"icon"		"49515c6fd81dfba1db8a106971c4496f8a2df8f4"
+		"logo"		"6dc2878335c671d2be8e7cf16125f781ee3f3bc7"
+		"logo_small"		"6dc2878335c671d2be8e7cf16125f781ee3f3bc7_thumb"
+		"linuxclienticon"		"95b791e2d527d63b5a810ac350a08414d891d743"
+		"clienticns"		"ad381fdc632c9295d9bb02f4a2525a76e175110a"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"brazilian"		"1"
+		}
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1686787200"
+			"tested_build_id"		"1137852"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"HeartZ: Co-Hope Puzzles"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7ec2ba29799aaaffa737370ca11909ac24db139f.jpg"
+		"store_asset_mtime"		"1463147050"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Upper Byte"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Spawn Digital"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_43"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1465338175"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"347330"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"492"
+			"3"		"1664"
+		}
+		"review_score"		"7"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Upper Byte"
+		"publisher"		"Spawn Digital"
+		"homepage"		"http://www.heartz-game.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"HeartZ"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HeartZ.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"HeartZ.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"HeartZ.x86"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"HeartZ.x86_64"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"347331"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6229545463227043831"
+					"size"		"640650628"
+					"download"		"130083232"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"show"
+				{
+					"gid"		"0A473B0A24C1E15EEEB9735659D15C8A"
+					"size"		"D2F943CFD28D26F795485CD9A86FAFA4"
+					"download"		"FB2D2C571B5E04EBC7F2E2BF04CD1609"
+				}
+				"unlocked"
+				{
+					"gid"		"7D4435F17C5AD3AB69E100CFA8E64DAB"
+					"size"		"E8C384543A4117C018598D089A0A125B"
+					"download"		"107F8524BA946FE805343899ADD469A1"
+				}
+				"unstable"
+				{
+					"gid"		"F6122110679687ECD037C1E32A6209F9"
+					"size"		"DDF5F95028DF39D43DA43DCA635464A7"
+					"download"		"B393A5899065D4A88C5BB6D690D308C5"
+				}
+			}
+		}
+		"347332"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9033027211548130644"
+					"size"		"644464300"
+					"download"		"132297840"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"show"
+				{
+					"gid"		"92199917ED92231F99E75064F1131C7F"
+					"size"		"B7CAFD0A16158629D06505C6176CE8D8"
+					"download"		"B7CAFD0A16158629D06505C6176CE8D8"
+				}
+				"unlocked"
+				{
+					"gid"		"5848439DF302931B33911E44B63769B5"
+					"size"		"230C884B519B5A1EF3BD364CD30DAB63"
+					"download"		"5F85C19EAC15168AEA4154437E2CA1E2"
+				}
+				"unstable"
+				{
+					"gid"		"4A4D2A8946CEFDE04671E451DC7B0B94"
+					"size"		"2554BFC91478B29A01643955FBDF4196"
+					"download"		"1F4F03348CA2FF05DF47B0E2E93F31D2"
+				}
+			}
+		}
+		"347333"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8266811017668035551"
+					"size"		"641612373"
+					"download"		"123430992"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"show"
+				{
+					"gid"		"C9ECDFF6023F3550F238EA4B94A24FA6"
+					"size"		"B7CAFD0A16158629D06505C6176CE8D8"
+					"download"		"B7CAFD0A16158629D06505C6176CE8D8"
+				}
+				"unlocked"
+				{
+					"gid"		"B06294204D8A5C3E1C0F62236C9736E9"
+					"size"		"FF969B9263390B25F29F379F0E1178A5"
+					"download"		"F322F9D14B85D9E01A2C4C356A7D0F1F"
+				}
+				"unstable"
+				{
+					"gid"		"9672F110BB0EB7CAE18A49A62D1F6C67"
+					"size"		"D052669AC17EA627A2A72CA00DB19B23"
+					"download"		"F2860DCC9196805D9E61114A4EB11655"
+				}
+			}
+		}
+		"347334"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8460086905108378830"
+					"size"		"629099480"
+					"download"		"116955216"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"unlocked"
+				{
+					"gid"		"5E9775D15574FC1AD2A44FB03421BC62"
+					"size"		"89DDF6489EE1817D451805BA9CCE6EC3"
+					"download"		"764ABA2DB6336401D0D4B56565D47692"
+				}
+				"unstable"
+				{
+					"gid"		"31C3E87A08250E963C2A8BAF35ACB573"
+					"size"		"CD13B498D5C2FBD60C0206173516228F"
+					"download"		"B27667C351EFD89DFB157F8B07212708"
+				}
+			}
+		}
+		"347335"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1711355182029260036"
+					"size"		"23932214"
+					"download"		"7519152"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"unlocked"
+				{
+					"gid"		"ED999AC2B9F16691D79F96AC9ADBABC1"
+					"size"		"96B119D932F8B5FF7388B214EFF0CF74"
+					"download"		"D6D06E6AE3678CCF447CC914F2D3ACE9"
+				}
+				"unstable"
+				{
+					"gid"		"88ED8DEF8B73E186E92A22305C55C290"
+					"size"		"A5823BA20AA64B855550E9158170084A"
+					"download"		"0FEB028430512CCD5836EEDBBB9F8D86"
+				}
+			}
+		}
+		"347336"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4499875575165935410"
+					"size"		"24265995"
+					"download"		"7631664"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"unlocked"
+				{
+					"gid"		"61757FE4D3FC5AF0A65415F1541613AB"
+					"size"		"DDA77DBC6EDECB0B5A22FDEE9FF835AB"
+					"download"		"9406328F5E1AB28E8B1DEDB4A4EE4EB9"
+				}
+				"unstable"
+				{
+					"gid"		"F185F8D590C2753122C852A0BB313B53"
+					"size"		"E96D115B9BF65B14DE0B7A6A5CD377EE"
+					"download"		"419C0F365D502CB108C20357609E4353"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1137852"
+				"timeupdated"		"1463748053"
+			}
+			"show"
+			{
+				"buildid"		"784633"
+				"pwdrequired"		"1"
+			}
+			"unlocked"
+			{
+				"buildid"		"1167576"
+				"pwdrequired"		"1"
+				"timeupdated"		"1465289726"
+			}
+			"unstable"
+			{
+				"buildid"		"1137852"
+				"pwdrequired"		"1"
+				"timeupdated"		"1463746479"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"40"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Upper Byte/HeartZ"
+				"pattern"		"Slot*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataRoaming"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"2"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/unity3d/"
+			}
+		}
+	}
+}
