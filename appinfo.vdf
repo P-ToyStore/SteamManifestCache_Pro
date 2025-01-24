@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"398120"
+	"common"
+	{
+		"name"		"AGP::Epica"
+		"type"		"Game"
+		"icon"		"0316336de587bef804904255f0a51683427bc7e3"
+		"logo"		"2f62071edea6829b6f4cdbbb7bf4835ce1afd3e3"
+		"logo_small"		"2f62071edea6829b6f4cdbbb7bf4835ce1afd3e3_thumb"
+		"clienticon"		"e9f911d057f7466df1fb629ccdef7a3a471a125f"
+		"clienttga"		"47b2fd5df75deab6e3b3597280ee36069f422e78"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"398120_eula_0"
+				"name"		"AGP::Epica EULA"
+				"url"		"http://store.steampowered.com//eula/398120_eula_0"
+			}
+		}
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"AGP::Epica"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3bc596e351311e6273e53a834959eac4734085df.jpg"
+		"store_asset_mtime"		"1509276882"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"AGP::Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"AGP::Studios"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"73"
+			"1"		"74"
+			"2"		"1"
+			"3"		"23"
+			"4"		"3"
+			"5"		"28"
+			"6"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1482429682"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"398120"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"19"
+			"2"		"492"
+			"3"		"493"
+			"4"		"599"
+			"5"		"4345"
+			"6"		"4667"
+			"7"		"1708"
+			"8"		"21725"
+		}
+		"review_score"		"4"
+		"review_percentage"		"26"
+	}
+	"extended"
+	{
+		"developer"		"AGP::Studios"
+		"publisher"		"AGP::Studios"
+		"homepage"		"https://discord.gg/FhCdDXz"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"AGPEpica"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Epica.exe"
+				"type"		"none"
+			}
+			"1"
+			{
+				"executable"		"Epica.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"398121"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1035664680579683320"
+					"size"		"5083192403"
+					"download"		"4677137264"
+				}
+				"linuxrollback"
+				{
+					"gid"		"2131816282151916544"
+					"size"		"4471071136"
+					"download"		"4103226720"
+				}
+			}
+		}
+		"398122"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2250438266797134324"
+					"size"		"7907175621"
+					"download"		"7012790896"
+				}
+				"linuxrollback"
+				{
+					"gid"		"3995026789678766382"
+					"size"		"8971908935"
+					"download"		"2930699824"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2901740"
+				"timeupdated"		"1530191611"
+			}
+			"linuxrollback"
+			{
+				"buildid"		"2389903"
+				"description"		"Linux Rollback"
+				"timeupdated"		"1530390257"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"555"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Epica/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
