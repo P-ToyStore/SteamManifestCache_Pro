@@ -1,0 +1,190 @@
+"appinfo"
+{
+	"appid"		"108100"
+	"common"
+	{
+		"name"		"Adam's Venture Episode 1: The Search For The Lost Garden"
+		"logo"		"0ee89e3c8f3001997a77dc021519f3eafec15e81"
+		"logo_small"		"0ee89e3c8f3001997a77dc021519f3eafec15e81_thumb"
+		"icon"		"6763264ac0c59657e550c1e1bc9ef0f05b305537"
+		"clienttga"		"77531c1d3becf9544324c8f2e6fd0230ad9182a8"
+		"clienticon"		"13046daa16f86b466df1586ed0eb1b927960d620"
+		"type"		"game"
+		"metacritic_name"		"Adam's Venture Episode 1: The Search For The Lost Garden"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4c7d70d3f407c0e8b51ab854d9e0d15578feb8fe.jpg"
+		"store_asset_mtime"		"1332876125"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vertigo Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Iceberg Interactive"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1262332800"
+		"steam_release_date"		"1332522000"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"108100"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"492"
+			"3"		"1664"
+			"4"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Vertigo Games"
+		"gamedir"		"Adam's Venture 1"
+		"homepage"		"http://www.adams-venture.com"
+		"icon"		""
+		"installscript"		"108100_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"108101"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Iceberg Interactive"
+		"gamemanualurl"		"https://store.steampowered.com/manual/108100/"
+	}
+	"config"
+	{
+		"installscriptsignature"		"9ec03f1131045d76609146a2bcb0c810efae2114ede2c8f9523316bae06c070de37ab8ce6132826902efdf40a418dabac75114f8455d2a87eb0328583e2452ea139bad9df4dc5bc6bbd9115b23615e7164fd7daae113571596192a767213604bb9d23c956cb5003c8b33449f2fc86fbb689630350c0c9dcab05e72408e02b48f"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Adam's Venture 1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\VentureGame.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\iceberg interactive\adams venture 1"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Binaries\\Win32\\VentureGame.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"1"
+				}
+			}
+		}
+		"run process"
+		{
+			".net framework 3.5 redist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\108100"
+				"process 1"		"%INSTALLDIR%\\Drivers\\dotnetfx35.exe"
+				"command 1"		"/norestart"
+				"nocleanup"		"1"
+			}
+			"vc redist x86"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\108100"
+				"process 1"		"%INSTALLDIR%\\Drivers\\vcredist_x86_vs2008sp1.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\108100"
+				"process 1"		"%INSTALLDIR%\\Drivers\\DXRedistCutdown\\DXSETUP.exe"
+				"nocleanup"		"1"
+			}
+			"physx driver"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\108100"
+				"process 1"		"%INSTALLDIR%\\Drivers\\PhysX_9.10.0513_SystemSoftware.exe"
+				"nocleanup"		"1"
+			}
+			"amd cpu driver"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\108100"
+				"process 1"		"%INSTALLDIR%\\Drivers\\AMD\\amdcpusetup.exe"
+				"command 1"		"/s"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"108101"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4445656009027028981"
+					"size"		"805551435"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"52353"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
