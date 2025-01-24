@@ -1,0 +1,327 @@
+"appinfo"
+{
+	"appid"		"205790"
+	"common"
+	{
+		"name"		"Dota 2 Test"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"releasestate"		"disabled"
+		"parent"		"570"
+		"logo"		"014d1bb1eb6d4e8e428b5a0082b011042843c701"
+		"logo_small"		"014d1bb1eb6d4e8e428b5a0082b011042843c701_thumb"
+		"community_hub_visible"		"1"
+		"gameid"		"205790"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"ValveTestApp205790"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"systemprofile"		"1"
+		"shortname"		"Dota2Test"
+		"installdir"		"dota 2 test"
+		"contenttype"		"3"
+		"checkforupdatesbeforelaunch"		"1"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"game\\bin\\win64\\dota2.exe"
+				"arguments"		"-steam -novconsole"
+				"description"		"Play Dota 2 Test"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"game/dota.sh"
+				"description"		"Play Dota 2 Test"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"game/dota.sh"
+				"description"		"Play Dota 2 Test"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"game\\bin\\win64\\dota2cfg.exe"
+				"arguments"		"-steam -dx11 +dota_combine_models 0"
+				"description"		"Launch Dota 2 Test - Tools"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"313250"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"205791"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4353690694896923986"
+					"size"		"44538310605"
+					"download"		"19288859360"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_test"
+				{
+					"gid"		"586B55DE00D43065BE422D599174D3EF"
+					"size"		"DF3550C45C3D71729BF014B40AF13BFF"
+					"download"		"8B6671C8EC4054775F9C9574072A7241"
+				}
+			}
+		}
+		"205792"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4435792955859792603"
+					"size"		"1734340299"
+					"download"		"825542016"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_test"
+				{
+					"gid"		"B023312F38CD5CCF5C8D281350881319"
+					"size"		"CDAEFEDC9F0843A409A285B1517E3FB0"
+					"download"		"41649FB266D302F220E6BEA6F2222B80"
+				}
+			}
+		}
+		"205793"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3843318707505349562"
+					"size"		"6642074156"
+					"download"		"2066665328"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_test"
+				{
+					"gid"		"8CA2E0723BBCBAC29AE8DB83A0F7BC47"
+					"size"		"27556E4A91AEA727AA64C37916EB365A"
+					"download"		"6BADC688F1E6818092964EB753000D6F"
+				}
+			}
+		}
+		"205794"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5792072367781453069"
+					"size"		"1952218934"
+					"download"		"820252432"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_test"
+				{
+					"gid"		"7CE2B9F3E3826FD877D234A2428ACE88"
+					"size"		"E725D3605CB41657A4C2DFD8A5454729"
+					"download"		"54622DECE228E57811962474715950B9"
+				}
+			}
+		}
+		"205795"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4677643327695866626"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_test"
+				{
+					"gid"		"94EC9AC10AF01D947F8BB4833E76B76B"
+					"size"		"6C1FD1D76FBA21946BB710B7F22E8CC0"
+					"download"		"6C1FD1D76FBA21946BB710B7F22E8CC0"
+				}
+			}
+		}
+		"205796"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8630841422057314878"
+					"size"		"2017728631"
+					"download"		"818779648"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_test"
+				{
+					"gid"		"306063B299576E2B854C906898F6E98A"
+					"size"		"F7AC6338D74DBCFBD0CE66F9E2264DD0"
+					"download"		"A7DC547EFCFF899CDAC82DF6224D79B6"
+				}
+			}
+		}
+		"205797"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1783089775578821294"
+					"size"		"204942409"
+					"download"		"97427568"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_test"
+				{
+					"gid"		"E1AFAA8C4864A14DBB77F43A51075C6B"
+					"size"		"369590F694256CFA888DFC93C64A317F"
+					"download"		"25EA204F061CED6A0C412D0CDBCB9F5E"
+				}
+			}
+		}
+		"205798"
+		{
+			"config"
+			{
+				"language"		"koreana"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3348552094151103139"
+					"size"		"792929446"
+					"download"		"724158160"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_test"
+				{
+					"gid"		"0224D37B6461A0B7C2A75AA408870908"
+					"size"		"43AC88B3B32D774A6C4FD1B9DFBE8090"
+					"download"		"01798A6F82DBFBBBB642214D79631C8C"
+				}
+			}
+		}
+		"205799"
+		{
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3797836979072424794"
+					"size"		"3464769977"
+					"download"		"2525742080"
+				}
+			}
+			"encryptedmanifests"
+			{
+				"private_test"
+				{
+					"gid"		"12C1B9FB081ADDC2EBD9806118D4906F"
+					"size"		"F23A489C1063EB5CCC67E4C72327D332"
+					"download"		"C936B6F12F6630A80B0CAA23603E90C9"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9858672"
+				"timeupdated"		"1667448044"
+			}
+			"private_test"
+			{
+				"buildid"		"1220242"
+				"pwdrequired"		"1"
+				"timeupdated"		"1468096751"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+	}
+}
