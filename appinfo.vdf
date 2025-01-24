@@ -1,0 +1,171 @@
+"appinfo"
+{
+	"appid"		"770340"
+	"common"
+	{
+		"name"		"Iron Armada Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"parent"		"581910"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"clienttga"		"8278438ceaa8afb269de134e0d674f0008d2fe87"
+		"clienticon"		"0f4bce39fcea3b650220e81037af6effd770a86c"
+		"icon"		"4313428901b474f57e8611a0f0e4f07b8b453df4"
+		"logo"		"3d3f2943cd4ef7bdd4d4e70476c9a5287f21e5de"
+		"logo_small"		"3d3f2943cd4ef7bdd4d4e70476c9a5287f21e5de_thumb"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"770340"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Iron Armada Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Run IA Server.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Run IA Server.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"770341"
+		{
+			"config"
+			{
+				"oslist"		"windows,linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2713877492519086479"
+					"size"		"105070411"
+					"download"		"63265760"
+				}
+				"stable"
+				{
+					"gid"		"3657342962497751106"
+					"size"		"105138568"
+					"download"		"63261584"
+				}
+				"testing"
+				{
+					"gid"		"2713877492519086479"
+					"size"		"105070411"
+					"download"		"63265760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6369452"
+				"timeupdated"		"1615520871"
+			}
+			"stable"
+			{
+				"buildid"		"5391446"
+				"description"		"Latest stable build"
+				"timeupdated"		"1611497496"
+			}
+			"testing"
+			{
+				"buildid"		"6369452"
+				"description"		"Testing branch"
+				"timeupdated"		"1615520410"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
