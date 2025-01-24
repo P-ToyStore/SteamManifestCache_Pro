@@ -1,0 +1,254 @@
+"appinfo"
+{
+	"appid"		"2210180"
+	"common"
+	{
+		"name"		"Sapiens League"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"2210180_eula_0"
+				"name"		"Powerz EULA"
+				"url"		"https://store.steampowered.com//eula/2210180_eula_0"
+				"version"		"1"
+			}
+		}
+		"icon"		"926b888ecc59eaa7e10fc94ba27cc24deff2a643"
+		"clienticon"		"f82e59c4d91c512d41831ca556df957c241ca9a4"
+		"clienttga"		"dc07ee0cdb1a5a6c18f35a2841a2bf3ed0b3bc4b"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"92.00528790334891"
+				"height_pct"		"30.70642399137435"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"92.00528790334891"
+					"height_pct"		"30.70642399137435"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1683644803"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PowerZ"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PowerZ"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"PowerZ"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_2"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1674129360"
+		"community_hub_visible"		"1"
+		"gameid"		"2210180"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"3859"
+			"2"		"1036"
+			"3"		"4305"
+			"4"		"1775"
+			"5"		"176981"
+			"6"		"492"
+			"7"		"493"
+		}
+		"review_score"		"7"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"PowerZ"
+		"publisher"		"PowerZ"
+		"homepage"		"https://powerz.tech"
+	}
+	"config"
+	{
+		"installdir"		"Olympiades"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Powerz.exe"
+				"arguments"		"-Culture=fr-FR -PowerzOlympiad"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Powerz.app"
+				"arguments"		"-Culture=fr-FR -PowerzOlympiad"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"dev_env"
+				}
+				"description_loc"
+				{
+					"english"		"(dev_env only)"
+					"french"		"(dev_env ONLY)"
+				}
+				"description"		"(dev_env only)"
+			}
+			"2"
+			{
+				"executable"		"Powerz-Mac-Shipping.app"
+				"arguments"		"-Culture=fr-FR -PowerzOlympiad"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"french"
+		"2210181"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5770450444761105224"
+					"size"		"1860301020"
+					"download"		"1460841344"
+				}
+			}
+		}
+		"2210182"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4745174408548861981"
+					"size"		"2165469025"
+					"download"		"1416688560"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11849504"
+				"timeupdated"		"1690994898"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
