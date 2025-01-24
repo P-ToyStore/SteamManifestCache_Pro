@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"602480"
+	"common"
+	{
+		"name"		"Kartong"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"e07dbb939c536f847153a5de124aa78ab5229edb"
+		"logo_small"		"e07dbb939c536f847153a5de124aa78ab5229edb_thumb"
+		"icon"		"ee34308514f413aa7a7a74cf6ca67402ff481c82"
+		"clienttga"		"2d9bb5fd4c18c590aef827f461815d3ceb289fd1"
+		"clienticon"		"9a939291133f3d135e743e296ce90a7c01e6ad18"
+		"clienticns"		"7cee40924447a99a8a80c84f0803de77cc2042fb"
+		"linuxclienticon"		"e450f6fcfe04c034282f1e1da181f904b406be4d"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"602480_eula_0"
+				"name"		"Kartong EULA"
+				"url"		"http://store.steampowered.com//eula/602480_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Kartong"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_559dee8d59e62553a6563854653bd1ced5cfcb90.jpg"
+		"store_asset_mtime"		"1527766164"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Antler Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Antler Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1522857606"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"602480"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"492"
+			"3"		"597"
+			"4"		"21978"
+			"5"		"1687"
+			"6"		"1663"
+			"7"		"1773"
+			"8"		"1684"
+			"9"		"1716"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Antler Interactive"
+		"publisher"		"Antler Interactive"
+		"homepage"		"https://www.antlerinteractive.com/"
+	}
+	"config"
+	{
+		"installdir"		"Kartong"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Kartong_Project.exe"
+				"arguments"		"-vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Kartong_Project.exe"
+				"description"		"Non VR"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"602481"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4718746415617919921"
+					"size"		"6673936424"
+					"download"		"3428911680"
+				}
+				"4.19"
+				{
+					"gid"		"8865935458939119431"
+					"size"		"6757768163"
+					"download"		"3455822800"
+				}
+				"beta"
+				{
+					"gid"		"4063594817186728180"
+					"size"		"6673907161"
+					"download"		"3428913088"
+				}
+				"kartongmr"
+				{
+					"gid"		"4718746415617919921"
+					"size"		"6673936424"
+					"download"		"3428911680"
+				}
+				"oldkartong"
+				{
+					"gid"		"2155946823729260252"
+					"size"		"2678718309"
+					"download"		"864442496"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3080595"
+				"timeupdated"		"1537268596"
+			}
+			"4.19"
+			{
+				"buildid"		"2659506"
+				"description"		"Old flatscreen build for incompatible monitor setups"
+				"timeupdated"		"1522854029"
+			}
+			"beta"
+			{
+				"buildid"		"2937629"
+				"timeupdated"		"1531335175"
+			}
+			"kartongmr"
+			{
+				"buildid"		"3080595"
+				"description"		"New LIV compatible VR branch with post processing"
+				"timeupdated"		"1535700094"
+			}
+			"oldkartong"
+			{
+				"buildid"		"2209245"
+				"timeupdated"		"1566467160"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
