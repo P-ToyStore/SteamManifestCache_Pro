@@ -1,0 +1,192 @@
+"appinfo"
+{
+	"appid"		"214310"
+	"common"
+	{
+		"name"		"Adam's Venture Episode 3: Revelations"
+		"type"		"Game"
+		"icon"		"94226b58d8ae29751dc73e418ff431cdd8e6410d"
+		"clienticon"		"885bf152f230d6f34966babb36fb4a6acfbba41b"
+		"clienttga"		"33646854493fcf332c6c06e2ef7357a5b08a5a68"
+		"logo"		"b8081a6bde413724b17d30e1a622db26e4355069"
+		"logo_small"		"b8081a6bde413724b17d30e1a622db26e4355069_thumb"
+		"metacritic_name"		"Adam's Venture Episode 3: Revelations"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5873caf2f6bab08028a0303d3766bf53e85e7001.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vertigo Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Iceberg Interactive"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1331280000"
+		"steam_release_date"		"1341248640"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"214310"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"19"
+			"3"		"1664"
+		}
+		"review_score"		"8"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Vertigo Games"
+		"gamedir"		"Adam's Venture Episode 3: Revelations"
+		"homepage"		"http://www.adams-venture.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Iceberg Interactive"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"adams_venture_3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/VentureGame.exe"
+				"description"		"Launch Adam's Venture 3"
+				"workingdir"		"Binaries/Win32/"
+			}
+		}
+		"installscriptsignature"		"4a4d03c81eb68fa12327f35279ca35168d1d6edc2540b11c85ebdb5070f9d337ff2125310062e31b232216bc7a4c691932892e237a2c552a13c239e9b2f36873c304567addef9df1fb7669118990886a02bdb466d48505c4bb04ae37cad191eaac72d916a102c86a7c00b327cd6a402d08723089435f4c22acf2a6dc5bf4511a"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\iceberg interactive\adams venture 3"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Binaries\\Win32\\VentureGame.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"1"
+				}
+			}
+		}
+		"run process"
+		{
+			".net framework 3.5 redist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310"
+				"process 1"		"%INSTALLDIR%\\Drivers\\dotnetfx35.exe"
+				"command 1"		"/norestart"
+				"nocleanup"		"1"
+			}
+			"vc redist x86"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310"
+				"process 1"		"%INSTALLDIR%\\Drivers\\vcredist_x86_vs2008sp1.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310"
+				"process 1"		"%INSTALLDIR%\\Drivers\\DXRedistCutdown\\DXSETUP.exe"
+				"nocleanup"		"1"
+			}
+			"physx driver"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310"
+				"process 1"		"%INSTALLDIR%\\Drivers\\PhysX_9.10.0513_SystemSoftware.exe"
+				"nocleanup"		"1"
+			}
+			"amd cpu driver"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214310"
+				"process 1"		"%INSTALLDIR%\\Drivers\\AMD\\amdcpusetup.exe"
+				"command 1"		"/s"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"214311"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"901143380365729103"
+					"size"		"1298142860"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4418"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
