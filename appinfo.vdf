@@ -1,0 +1,245 @@
+"appinfo"
+{
+	"appid"		"527340"
+	"common"
+	{
+		"name"		"What The Box?"
+		"type"		"Game"
+		"logo"		"01f651444a16e4be56aaf98afbf67b139428a735"
+		"logo_small"		"01f651444a16e4be56aaf98afbf67b139428a735_thumb"
+		"icon"		"dbde8f952551bf8d7c3799bf3286f0431269c9cf"
+		"clienttga"		"8576037aeae698458c04b6d96959262b860367af"
+		"clienticon"		"9abf0f0f5d3944b33ee79dc93025d9f5e53822ae"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"releasestate"		"released"
+		"metacritic_name"		"What The Box?"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4df94f2abf47b6276deeb3a75249cc7c9d486109.jpg"
+		"store_asset_mtime"		"1498160623"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bitten Toast Games Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bitten Toast Games Inc."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_17"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1473663600"
+		"steam_release_date"		"1473710274"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"527340"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"3859"
+			"3"		"4136"
+			"4"		"1663"
+			"5"		"1687"
+			"6"		"5547"
+			"7"		"10397"
+			"8"		"1756"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"Bitten Toast Games Inc."
+		"publisher"		"Bitten Toast Games Inc."
+		"homepage"		"http://whattheboxgame.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"WhatTheBox"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WhatTheBox.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"WhatTheBox_win32.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"WhatTheBox.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"WhatTheBox.x86_64"
+				"arguments"		"LC_ALL=C"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"527341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9182718453884884578"
+					"size"		"316079149"
+					"download"		"111941264"
+				}
+			}
+		}
+		"527342"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8972327257983533751"
+					"size"		"310730797"
+					"download"		"110346416"
+				}
+			}
+		}
+		"527343"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8947879365717241387"
+					"size"		"333347090"
+					"download"		"114924672"
+				}
+			}
+		}
+		"527344"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2385375536434157408"
+					"size"		"359996480"
+					"download"		"126800016"
+				}
+			}
+		}
+		"workshopdepot"		"527340"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2516048"
+				"timeupdated"		"1518339239"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"path"		"DanielSnd/WhatTheBox/SavesDir"
+				"pattern"		"*.wtb"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"DanielSnd/WhatTheBox/SavesDir"
+				"pattern"		"*.wtb"
+			}
+			"2"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"DanielSnd/WhatTheBox/SavesDir"
+				"pattern"		"*.wtb"
+			}
+		}
+	}
+}
