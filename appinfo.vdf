@@ -1,0 +1,267 @@
+"appinfo"
+{
+	"appid"		"2456690"
+	"common"
+	{
+		"name"		"Piece of..Horror"
+		"type"		"Game"
+		"icon"		"649917fd2503594feb1248f70868db58041ec6ac"
+		"clienticon"		"9a82cb7182a0c8a3be090fbba71226800081cbef"
+		"clienttga"		"21c78ad8116f5a5962545e2fb0a9adb99e26e7e0"
+		"linuxclienticon"		"c4a0459200a1cb5a0d801e1a4e667d5d981f7d4e"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"name_localized"
+		{
+			"russian"		"Кусок..Хоррора"
+		}
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"70.139697322468"
+				"height_pct"		"84.19615293279506"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"70.139697322468"
+					"height_pct"		"84.19615293279506"
+				}
+			}
+		}
+		"store_asset_mtime"		"1685457077"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Azzunyan"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Azzunyan"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1686986905"
+		"community_hub_visible"		"1"
+		"gameid"		"2456690"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"21"
+			"2"		"615955"
+			"3"		"4106"
+			"4"		"3839"
+			"5"		"1721"
+			"6"		"1667"
+			"7"		"4175"
+			"8"		"492"
+			"9"		"4342"
+			"10"		"5673"
+			"11"		"4182"
+		}
+		"review_score"		"4"
+		"review_percentage"		"33"
+	}
+	"extended"
+	{
+		"developer"		"Azzunyan"
+		"publisher"		"Azzunyan"
+	}
+	"config"
+	{
+		"installdir"		"piece of..horror"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Horror.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Standard launch with automatic graphics API selection"
+					"russian"		"Стандартный запуск с автоматическим выбором графического API"
+				}
+				"description"		"Standard launch with automatic graphics API selection"
+			}
+			"1"
+			{
+				"executable"		"Horror.exe"
+				"arguments"		"-SM6 -DX12"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"DirectX12 Shader Model 6"
+					"russian"		"DirectX12 Shader Model 6"
+				}
+				"description"		"DirectX12 Shader Model 6"
+			}
+			"2"
+			{
+				"executable"		"Horror.exe"
+				"arguments"		"-Vulkan"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Vulkan API"
+					"russian"		"Vulkan API"
+				}
+				"description"		"Vulkan API"
+			}
+			"3"
+			{
+				"executable"		"Engine\\Extras\\Redist\\en-us\\UEPrereqSetup_x64.exe"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Installing additional components"
+					"russian"		"Установка дополнительных компонентов"
+				}
+				"description"		"Installing additional components"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2456691"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6528589005898916564"
+					"size"		"3386622595"
+					"download"		"2241703744"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11390723"
+				"timeupdated"		"1685892959"
+			}
+		}
+	}
+}
