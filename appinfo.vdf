@@ -1,0 +1,271 @@
+"appinfo"
+{
+	"appid"		"553880"
+	"common"
+	{
+		"name"		"Archangel™: Hellfire"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"c0808386ee8d265b213312b603290a3de1ea7ddc"
+		"logo_small"		"c0808386ee8d265b213312b603290a3de1ea7ddc_thumb"
+		"icon"		"3352e2ac4fca8ad0f804baf9eef9aad20e127ca5"
+		"controllervr"
+		{
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"clienttga"		"3934a071fa610c25fe2473c593da06833b1e7c31"
+		"clienticon"		"41bc8526680d5c3cc8c5a4647198cbb1a8bf7d53"
+		"openvrsupport"		"1"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1687996800"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Archangel™: Hellfire"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_35b64e2a0eb8eed881227085bf6a35c63581d7df.jpg"
+		"store_asset_mtime"		"1536806481"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Skydance Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Skydance Interactive"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1501690260"
+		"community_hub_visible"		"1"
+		"gameid"		"553880"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"113"
+			"2"		"599"
+			"3"		"21978"
+			"4"		"4821"
+		}
+		"review_score"		"5"
+		"review_percentage"		"54"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Skydance Interactive"
+		"publisher"		"Skydance Interactive"
+		"homepage"		"https://archangelgame.com/"
+		"listofdlc"		"933130"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Archangel"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Hellfire\\Hellfire.exe"
+				"arguments"		"-steam -language=english"
+				"description"		"Hellfire"
+				"type"		"vr"
+			}
+			"2"
+			{
+				"executable"		"Hellfire\\Hellfire.exe"
+				"arguments"		"-steam -language=english"
+				"description"		"Hellfire QA"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"qa_branch"
+				}
+			}
+			"3"
+			{
+				"executable"		"Hellfire\\Hellfire.exe"
+				"arguments"		"-steam -language=english -serverAddress=\"https://aa-stage.sdawsapi.com\""
+				"description"		"Hellfire Stage"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"stage_branch"
+				}
+			}
+			"4"
+			{
+				"executable"		"Archangel.exe"
+				"description"		"LBE branch"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"ext_branch"
+				}
+			}
+			"5"
+			{
+				"executable"		"Hellfire\\Hellfire.exe"
+				"arguments"		"-steam -serverAddress=\"https://aa-demo.sdawsapi.com\""
+				"description"		"Hellfire Demo"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"press_channel"
+				}
+			}
+			"6"
+			{
+				"executable"		"Hellfire.exe"
+				"arguments"		"-steam"
+				"description"		"Hellfire LBE Branch"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"lbe_branch"
+				}
+			}
+			"7"
+			{
+				"executable"		"Hellfire\\Hellfire.exe"
+				"arguments"		"-steam -language=english"
+				"description"		"Hellfire Dev - Steam VR"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"dev_branch"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"553881"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7743207340481479884"
+					"size"		"8267608375"
+					"download"		"7985434640"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3461793"
+				"timeupdated"		"1547242525"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
