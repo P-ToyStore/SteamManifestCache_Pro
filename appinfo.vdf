@@ -1,0 +1,193 @@
+"appinfo"
+{
+	"appid"		"553660"
+	"common"
+	{
+		"name"		"PWND"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"553660_eula_0"
+				"name"		"PWND EULA"
+				"url"		"http://store.steampowered.com//eula/553660_eula_0"
+			}
+		}
+		"logo"		"e053ea129fa621abf343ee62272230aa2633341f"
+		"logo_small"		"e053ea129fa621abf343ee62272230aa2633341f_thumb"
+		"icon"		"d86f916fedb63c0ab43417a7f255ac0d768f5c17"
+		"clienticon"		"d71e5211eafef7d48ead2ae74ce2f603a496fbc0"
+		"clienttga"		"0eca5eb6b3c5f1af6ec305130cfb188fdb73def3"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"PWND"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_904aab6a920139b30777bdae6fede52c00942347.jpg"
+		"store_asset_mtime"		"1523035100"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Skydance Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Skydance Interactive"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"37"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_18"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1523034660"
+		"community_hub_visible"		"1"
+		"gameid"		"553660"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"19"
+			"2"		"1663"
+			"3"		"3859"
+			"4"		"1774"
+			"5"		"492"
+			"6"		"597"
+			"7"		"4667"
+			"8"		"1734"
+			"9"		"5547"
+			"10"		"4182"
+			"11"		"4136"
+			"12"		"3839"
+			"13"		"493"
+			"14"		"3843"
+			"15"		"3878"
+			"16"		"4190"
+			"17"		"4747"
+			"18"		"4004"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"Skydance Interactive"
+		"publisher"		"Skydance Interactive"
+		"homepage"		"http://www.pwnd.com"
+	}
+	"config"
+	{
+		"installdir"		"PWND"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PWNDClient.exe"
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"default"
+				}
+			}
+			"1"
+			{
+				"executable"		"PWNDClient.exe"
+				"arguments"		"-serverAddress=\"https://api-devlatest.pwnd.com\""
+				"description"		"Dev LATEST"
+				"type"		"option1"
+				"config"
+				{
+					"betakey"		"dev_latest_branch"
+				}
+			}
+			"2"
+			{
+				"executable"		"PWNDClient.exe"
+				"arguments"		"-serverAddress=\"https://api-demo.pwnd.com\""
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"ext_build"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"553661"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5344627002326894841"
+					"size"		"4609292697"
+					"download"		"4270428768"
+				}
+			}
+		}
+		"553662"
+		{
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2783527"
+				"timeupdated"		"1526589338"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
