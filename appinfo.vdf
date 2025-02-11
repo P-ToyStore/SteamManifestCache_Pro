@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"385890"
+	"common"
+	{
+		"name"		"Golden Rush"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"3a8af9abd3292a04eeeb3c1bd52ae5166a8d82ff"
+		"oslist"		"windows,macos,linux"
+		"icon"		"d060c3eff14bb8e4dfb574adcad76bd0c0b7ed4c"
+		"clienticon"		"2b3420f45e98364f22cdd9519aa757b1f23f9173"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"385890_eula_0"
+				"name"		"GoldenRush EULA"
+				"url"		"http://store.steampowered.com//eula/385890_eula_0"
+			}
+		}
+		"logo"		"9586b6e910b9fad9bd75a2c345d27715e3e4dea5"
+		"logo_small"		"9586b6e910b9fad9bd75a2c345d27715e3e4dea5_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Golden Rush"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_09beaad0b488292d6b4b56682448220f01b853d0.jpg"
+		"store_asset_mtime"		"1444822889"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Forbes Consult Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ELYLAND  INVESTMENT COMPANY Ltd"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"29"
+			"3"		"3"
+			"4"		"2"
+			"5"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1443046080"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"385890"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"493"
+			"2"		"1718"
+			"3"		"19"
+			"4"		"122"
+			"5"		"9"
+			"6"		"128"
+			"7"		"3859"
+		}
+		"review_score"		"5"
+		"review_percentage"		"45"
+	}
+	"extended"
+	{
+		"developer"		"Forbes Consult Ltd"
+		"publisher"		"ELYLAND  INVESTMENT COMPANY Ltd"
+		"listofdlc"		"394370,394410,394420,394421,394422,394423,394424,394425,394426,394427,400820,400821,400822"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"GoldenRush"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GoldenRush.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"GoldenRush.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"./GoldenRush.x86"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"./GoldenRush.x86_64"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"385892"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6651807751740474319"
+					"size"		"197274392"
+					"download"		"169840976"
+				}
+			}
+		}
+		"385893"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2795386279141464043"
+					"size"		"232766686"
+					"download"		"180181744"
+				}
+			}
+		}
+		"385894"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7226825657261286202"
+					"size"		"245671207"
+					"download"		"180972992"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"844604"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
