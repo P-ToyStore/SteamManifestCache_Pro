@@ -1,0 +1,186 @@
+"appinfo"
+{
+	"appid"		"311700"
+	"common"
+	{
+		"name"		"BloodRealm: Battlegrounds"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"clienticon"		"0554d3d614eac9a0bf7024c84b9c0d1343394b44"
+		"clienttga"		"1150b8d7237a6de330dc5c7576f846b880aaf2df"
+		"icon"		"07f4b65de766a6aec7d497ef324bcdee8f39d2da"
+		"clienticns"		"7cee40924447a99a8a80c84f0803de77cc2042fb"
+		"logo"		"af04974fd8f0d40bf71f84423af5f8c4e428d0d2"
+		"logo_small"		"af04974fd8f0d40bf71f84423af5f8c4e428d0d2_thumb"
+		"metacritic_name"		"BloodRealm: Battlegrounds"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_36f729a310ba415e565e1a2174eaa97221948d45.jpg"
+		"store_asset_mtime"		"1418339602"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Redpoint Labs"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Making Fun, inc."
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1423777890"
+		"community_hub_visible"		"1"
+		"gameid"		"311700"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"1666"
+			"2"		"9"
+			"3"		"122"
+			"4"		"3859"
+			"5"		"21"
+		}
+		"review_score"		"5"
+		"review_percentage"		"46"
+	}
+	"extended"
+	{
+		"developer"		"Redpoint Labs"
+		"publisher"		"Making Fun, inc."
+		"homepage"		"http://www.bloodrealm.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"BloodRealm Battlegrounds"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BRSteamAir.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"BRSteamAir.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"311701"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4102537223214629401"
+					"size"		"484441604"
+					"download"		"394806512"
+				}
+				"qa"
+				{
+					"gid"		"6197470665051730480"
+					"size"		"486365915"
+					"download"		"396811104"
+				}
+				"stage"
+				{
+					"gid"		"4236471170205878533"
+					"size"		"486365921"
+					"download"		"396811536"
+				}
+			}
+		}
+		"311702"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"956798352322204270"
+					"size"		"618512315"
+					"download"		"398105808"
+				}
+				"qa"
+				{
+					"gid"		"4661698666498777615"
+					"size"		"620436626"
+					"download"		"400110384"
+				}
+				"stage"
+				{
+					"gid"		"8451531152730407000"
+					"size"		"620436632"
+					"download"		"400110880"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"595949"
+			}
+			"qa"
+			{
+				"buildid"		"595603"
+				"description"		"testing branch"
+			}
+			"stage"
+			{
+				"buildid"		"595844"
+				"description"		"stage"
+			}
+		}
+	}
+}
