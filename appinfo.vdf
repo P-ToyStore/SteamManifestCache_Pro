@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"376570"
+	"common"
+	{
+		"name"		"WildStar"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+		}
+		"clienticon"		"4239216ddc6987defbbcb6f4b2f97cdd78afb932"
+		"clienttga"		"ab0202823fa427f503d4bb8b969b537b5234242f"
+		"icon"		"d6acd260ba9742f669474c0fb81a42d79b960585"
+		"logo"		"0efeffb2442213b8e72ff57d2cadc90a3fa2445d"
+		"logo_small"		"0efeffb2442213b8e72ff57d2cadc90a3fa2445d_thumb"
+		"metacritic_name"		"WildStar"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_052a8a89f1b8825ec7ff406a1e0e4299e51720db.jpg"
+		"store_asset_mtime"		"1462315135"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Carbine Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"NCSOFT"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"29"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_20"		"1"
+			"category_35"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_36"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1401778800"
+		"steam_release_date"		"1465491480"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/wildstar?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"376570"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"128"
+			"2"		"1754"
+			"3"		"1695"
+			"4"		"122"
+			"5"		"3942"
+			"6"		"1775"
+			"7"		"6730"
+			"8"		"3859"
+			"9"		"4747"
+			"10"		"19"
+			"11"		"4136"
+			"12"		"21"
+			"13"		"4106"
+			"14"		"1684"
+			"15"		"1643"
+			"16"		"1685"
+			"17"		"4195"
+			"18"		"1662"
+			"19"		"1663"
+		}
+		"review_score"		"6"
+		"review_percentage"		"74"
+	}
+	"extended"
+	{
+		"developer"		"Carbine Studios"
+		"publisher"		"NCSOFT"
+		"homepage"		"http://www.wildstar-online.com/en/"
+		"listofdlc"		"459360,459361,459362,459363,479060,479061,522500"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"WildStar"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Steam_WildStar.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"\\WildStarDev\\Steam_WildStar.exe"
+				"description"		"WildStarDev"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"448740"
+				}
+			}
+			"2"
+			{
+				"executable"		"\\WildStarQA\\Steam_WildStarQA.exe"
+				"description"		"WildStarQA"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"448741"
+				}
+			}
+			"3"
+			{
+				"executable"		"\\WildStarPTR\\Steam_WildStarPTR.exe"
+				"description"		"WildStar Public Test Realm"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"454710"
+				}
+			}
+		}
+		"noupdatesafterinstall"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"376571"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5266093205276731921"
+					"size"		"17508985368"
+					"download"		"16860282896"
+				}
+			}
+		}
+		"448740"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1001361140036983188"
+					"size"		"12144101030"
+					"download"		"11634067360"
+				}
+			}
+			"dlcappid"		"448740"
+		}
+		"448741"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2256551892466358208"
+					"size"		"17508979585"
+					"download"		"16858445520"
+				}
+			}
+			"dlcappid"		"448741"
+		}
+		"454710"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8071602701891323302"
+					"size"		"17245398188"
+					"download"		"16661923680"
+				}
+			}
+			"dlcappid"		"454710"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2990149"
+				"timeupdated"		"1532979500"
+			}
+		}
+	}
+}
