@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"17770"
+	"common"
+	{
+		"name"		"Firearms: Source"
+		"section_type"		"ownersonly"
+		"logo"		"ca50c5ff0d1f6fd1a7352e7492bf1ea7dcff158d"
+		"logo_small"		"ca50c5ff0d1f6fd1a7352e7492bf1ea7dcff158d_thumb"
+		"clienttga"		"9c3b9ba21431931889b1e06cf14271d99a479168"
+		"icon"		"ecc0bacef16dbb562cd04cb6ca0ae51f8547cc37"
+		"type"		"game"
+		"clienticon"		"a655b8a5ef1f59c35e30e815080e3d8f30a5335c"
+		"clienticns"		"ca646363df67a7b605f997476fb1dc788b3a1cad"
+		"oslist"		"windows"
+		"parent"		"218"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"17770"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"ValveTestApp17770"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"firearms source"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"hl2.exe"
+				"arguments"		"-game firearms"
+				"description"		"Launch"
+				"workingdir"		"."
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"250821"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8542134620202591658"
+					"size"		"973168122"
+					"download"		"345913696"
+				}
+			}
+			"depotfromapp"		"250820"
+		}
+		"250822"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5914501107808599266"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"250820"
+		}
+		"250823"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2121939288083964035"
+					"size"		"1061483697"
+					"download"		"351207232"
+				}
+			}
+			"depotfromapp"		"250820"
+		}
+		"250824"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows,linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"290091891902900738"
+					"size"		"581499700"
+					"download"		"269042640"
+				}
+			}
+			"depotfromapp"		"250820"
+		}
+		"17771"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7109024105746716109"
+					"size"		"2799624093"
+					"download"		"1481706832"
+				}
+				"local"
+				{
+					"gid"		"7109024105746716109"
+					"size"		"2799624093"
+					"download"		"1481706832"
+				}
+			}
+		}
+		"17772"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6989582940408108623"
+					"size"		"40984244"
+					"download"		"12649584"
+				}
+				"local"
+				{
+					"gid"		"5259515288557602899"
+					"size"		"40984244"
+					"download"		"12649584"
+				}
+			}
+		}
+		"17773"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3505143518949478203"
+					"size"		"2580200137"
+					"download"		"1132900288"
+				}
+				"local"
+				{
+					"gid"		"2150493559256784622"
+					"size"		"2580200137"
+					"download"		"1132900288"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1320046"
+				"timeupdated"		"1473160361"
+			}
+			"local"
+			{
+				"buildid"		"1320026"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1473159609"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"firearms/cfg"
+				"pattern"		"fasuserdata.txt"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"firearms/cfg"
+				"pattern"		"config.cfg"
+			}
+		}
+	}
+}
