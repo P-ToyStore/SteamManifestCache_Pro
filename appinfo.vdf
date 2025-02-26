@@ -1,0 +1,300 @@
+"appinfo"
+{
+	"appid"		"1403460"
+	"common"
+	{
+		"name"		"Flavortown"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"846fb6552f6535b0ca40ef18f0c77add7d52eb1f"
+		"logo_small"		"846fb6552f6535b0ca40ef18f0c77add7d52eb1f_thumb"
+		"icon"		"66c8c90c6c7ff500ac63a0bcf379203706cda412"
+		"clienttga"		"c04a539b86b9fd3e735bc7877faa8169fa059cb7"
+		"clienticon"		"94cb42ca5c833f98b9599ef26e97cfb7bae52266"
+		"openvr_action_manifest_path"		"Flavortown\\Config\\SteamVRBindings\\steamvr_manifest.json"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"restricted_countries"		"DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"26.395348837209298"
+				"height_pct"		"45.66611256233675"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"26.395348837209298"
+					"height_pct"		"45.66611256233675"
+				}
+			}
+		}
+		"store_asset_mtime"		"1602250010"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LHOTI"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Creative Liberties"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1604109420"
+		"community_hub_visible"		"1"
+		"gameid"		"1403460"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"21978"
+			"3"		"4106"
+			"4"		"1667"
+			"5"		"8369"
+			"6"		"4195"
+			"7"		"4145"
+			"8"		"4305"
+			"9"		"1751"
+			"10"		"1714"
+			"11"		"4252"
+			"12"		"13190"
+			"13"		"17894"
+			"14"		"1719"
+			"15"		"6378"
+			"16"		"5613"
+			"17"		"1774"
+			"18"		"1721"
+			"19"		"19995"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"LHOTI"
+		"publisher"		"Creative Liberties"
+	}
+	"config"
+	{
+		"installdir"		"Flavortown"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Flavortown\\Binaries\\Win64\\Flavortown-Win64-Shipping.exe"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Flavortown\\Binaries\\Win64\\Flavortown-Win64-Shipping.exe"
+				"arguments"		"hmd=steamvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"hasdepotsindlc"		"0"
+		"1403461"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2164346157940826245"
+					"size"		"1054245932"
+					"download"		"959264752"
+				}
+				"beta"
+				{
+					"gid"		"2164346157940826245"
+					"size"		"1054245932"
+					"download"		"959264752"
+				}
+			}
+		}
+		"1420430"
+		{
+			"dlcappid"		"1420430"
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"1420431"
+		{
+			"dlcappid"		"1420431"
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"1420440"
+		{
+			"dlcappid"		"1420440"
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"1420441"
+		{
+			"dlcappid"		"1420441"
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"1420450"
+		{
+			"dlcappid"		"1420450"
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5839296"
+				"timeupdated"		"1605571225"
+			}
+			"beta"
+			{
+				"buildid"		"5839296"
+				"description"		"Prerelease"
+				"timeupdated"		"1605569434"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"200"
+	}
+}
