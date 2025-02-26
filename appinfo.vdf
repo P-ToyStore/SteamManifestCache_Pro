@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"637310"
+	"common"
+	{
+		"name"		"Stream Service"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"1c26d3fca214a47caf6f3db5b29dad7e6f2d07a7"
+		"logo_small"		"1c26d3fca214a47caf6f3db5b29dad7e6f2d07a7_thumb"
+		"icon"		"6d302473196e171b4969f17e3a18f681fe74723f"
+		"clienttga"		"d3d8a01244d42d576ab96aecc6a826701556789d"
+		"clienticon"		"e9894cce804683ca33b1b97e8c5a1a61c9a12e64"
+		"osextended"		""
+		"restricted_countries"		"DE"
+		"market_presence"		"1"
+		"metacritic_name"		"Stream Service"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"10.877044414233112"
+				"height_pct"		"43.75157293126574"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"10.877044414233112"
+					"height_pct"		"43.75157293126574"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1566465281"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SirGoose"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"IFreezeNO"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1566198000"
+		"steam_release_date"		"1566489480"
+		"community_hub_visible"		"1"
+		"gameid"		"637310"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"599"
+			"3"		"1662"
+			"4"		"379975"
+			"5"		"21"
+			"6"		"7332"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		""
+		"developer"		"SirGoose"
+		"publisher"		"IFreezeNO"
+	}
+	"config"
+	{
+		"installdir"		"stream_service"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"streamservice.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"637311"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8861098717517412057"
+					"size"		"17192516"
+					"download"		"9701680"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4137460"
+				"timeupdated"		"1566760743"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000000"
+		"maxnumfiles"		"5000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+		"appidredirect"		"637310"
+	}
+}
