@@ -1,0 +1,103 @@
+"appinfo"
+{
+	"appid"		"2328800"
+	"common"
+	{
+		"name"		"Pro Basketball Manager 2024 Dataeditor"
+		"type"		"Tool"
+		"parent"		"2328780"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"icon"		"349537c3d627cb2615de169691092ff6d23f8188"
+		"clienticon"		"f0c2364e9bb316880a41b7df5f73a05ee1fb7fa7"
+		"clienttga"		"2371c6a87b465fd224a7c2c812296ee904bf8df8"
+		"clienticns"		"d87436b302c1c76b62a87843aa0a69f40566e6f6"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"2328800"
+	}
+	"config"
+	{
+		"installdir"		"Pro Basketball Manager 2024 Dataeditor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DataEditor.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DATAEDITOR.app/Contents/MacOS/Pro Basketball Manager 2024 DataEditor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2328801"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3530979357844124123"
+					"size"		"2372959618"
+					"download"		"935288320"
+				}
+			}
+		}
+		"2328802"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5337603353786140368"
+					"size"		"2436738097"
+					"download"		"949847056"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,schinese,tchinese,russian,portuguese,turkish,brazilian,greek"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13340321"
+				"timeupdated"		"1707065626"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
