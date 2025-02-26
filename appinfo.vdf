@@ -1,0 +1,79 @@
+"appinfo"
+{
+	"appid"		"3518150"
+	"common"
+	{
+		"name"		"STANDBOX SDK"
+		"type"		"Tool"
+		"parent"		"2246880"
+		"icon"		"644288d78fb440578edcd820104c3ca20767519a"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"clienticon"		"6d3c00a061c8ff609be6843cee50128a856f1f81"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"gameid"		"3518150"
+	}
+	"config"
+	{
+		"installdir"		"STANDBOX SDK"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LaunchDevBuild.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Dev build of STBX"
+				}
+				"description"		"Launch Dev build of STBX"
+			}
+			"1"
+			{
+				"executable"		"SDK\\STANDBOX.uproject"
+				"type"		"editor"
+			}
+		}
+	}
+	"depots"
+	{
+		"3518151"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7721744150562543541"
+					"size"		"2003589245"
+					"download"		"614753360"
+				}
+				"betatests"
+				{
+					"gid"		"7721744150562543541"
+					"size"		"2003589245"
+					"download"		"614753360"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17395582"
+				"timeupdated"		"1739810030"
+			}
+			"betatests"
+			{
+				"buildid"		"17395582"
+				"description"		"Beta testing"
+				"timeupdated"		"1739808552"
+			}
+		}
+	}
+}
