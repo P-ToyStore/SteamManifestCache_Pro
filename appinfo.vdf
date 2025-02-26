@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"27330"
+	"common"
+	{
+		"name"		"Blacklight: Tango Down"
+		"logo"		"b781e73cfee8217c731cdd91106783d5e5e5275d"
+		"logo_small"		"b781e73cfee8217c731cdd91106783d5e5e5275d_thumb"
+		"icon"		"d972912ebdf30469383502b7c61f5ed54be4fc98"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"japanese"		"1"
+		}
+		"clienttga"		"f70a57d87d856e5a3497505392753cc05041b529"
+		"clienticon"		"8e85bab409b7a277e0fce6b9b4e45806277e66c6"
+		"exfgls"		"1"
+		"app_retired_publisher_request"		"1"
+		"type"		"game"
+		"metacritic_name"		"Blacklight: Tango Down"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_62c674851c6d9cfa5affab20fda330a9772d84e1.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zombie Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ignition Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_18"		"1"
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1279130100"
+		"metacritic_score"		"65"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/blacklight-tango-down?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"27330"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"3859"
+			"3"		"3839"
+			"4"		"1774"
+		}
+		"review_score"		"5"
+		"review_percentage"		"41"
+	}
+	"extended"
+	{
+		"developer"		"Zombie Studios"
+		"g4w_gdf"		"Binaries\\Win32\\BLTD.exe"
+		"g4w_type"		"2"
+		"gamedir"		"Blacklight: Tango Down"
+		"homepage"		"http://www.playtangodown.com"
+		"icon"		""
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp27330\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"27331"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"supportscdkeycopytoclipboard"		"0"
+		"publisher"		"Ignition Entertainment"
+	}
+	"config"
+	{
+		"installscriptsignature"		"a0a9f67eda07176897d88dd19c2f597fd4c70fffeb5647c0bf6d2ec5cb82aa16fdee2cae2a6f437355a1ad8047e53b55f3d9071fb408d44cc47840e19b175657bc6be8f8e38fc4145cb3366d36a286c656144d1ab31df2208d6ee6d18b460cac5e5c79e2a18028b5127513a3d1b3f05a54a8d9adc6c87135af377792d7daea0c"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Blacklight Tango Down"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\Binaries\\Win32\\BLTD.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\microsoft\massive\adclient\"
+			{
+				"string"
+				{
+					"locateserver"		"adops.madserver.net"
+				}
+			}
+			"hkey_local_machine\software\wow6432node\microsoft\massive\adclient\"
+			{
+				"string"
+				{
+					"locateserver"		"adops.madserver.net"
+				}
+			}
+			"hkey_local_machine\software\ignition entertainment\blacklight: tango down\"
+			{
+				"string"
+				{
+					"locale"		"[LANGSELECTION]"
+				}
+			}
+		}
+		"run process"
+		{
+			"directxinst"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\27330"
+				"process 1"		"%INSTALLDIR%\\DirectXRedist\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+				"minimumhasrunvalue"		"1"
+			}
+			"vcredist_x86"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\27330"
+				"process 1"		"%INSTALLDIR%\\Redists\\vcredist_x86.exe"
+				"command 1"		"/q /log"
+				"nocleanup"		"1"
+				"minimumhasrunvalue"		"1"
+			}
+			"gfwl_retail"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\27330"
+				"process 1"		"%INSTALLDIR%\\Redists\\gfwlivesetup.exe"
+				"command 1"		"/q /log"
+				"nocleanup"		"1"
+				"minimumhasrunvalue"		"1"
+			}
+			"physxinst"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\27330"
+				"process 1"		"%INSTALLDIR%\\Redists\\PhysX_9.10.0129_SystemSoftware.exe"
+				"command 1"		"/passive"
+				"nocleanup"		"1"
+				"minimumhasrunvalue"		"100129"
+			}
+		}
+	}
+	"depots"
+	{
+		"27331"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8070494813253599469"
+					"size"		"2362178778"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3677"
+			}
+		}
+	}
+}
