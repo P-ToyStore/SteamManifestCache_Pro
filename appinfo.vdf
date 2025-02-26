@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"380670"
+	"common"
+	{
+		"name"		"Final Approach"
+		"type"		"Game"
+		"oslist"		"windows"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+			}
+			"standing"		"1"
+		}
+		"icon"		"9db9593a1045251655195bd603f6ecbe73914a5e"
+		"logo"		"c9dbfd95a88707204dbeb23e85bde25f6c89508c"
+		"logo_small"		"c9dbfd95a88707204dbeb23e85bde25f6c89508c_thumb"
+		"clienttga"		"c7618044a95e04ff5db868b8f48152ceaa6037af"
+		"clienticon"		"949bc34ec42bede555d052609fb0280e2e2ea66c"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"380670_eula_0"
+				"name"		"Final Approach EULA"
+				"url"		"http://store.steampowered.com//eula/380670_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Final Approach"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d62736502e5b870a71da3cb9304b95d5912b03a8.jpg"
+		"store_asset_mtime"		"1507047474"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Phaser Lock Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Phaser Lock Interactive"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_31"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_40"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1459822620"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"380670"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"21978"
+			"1"		"9"
+			"2"		"597"
+			"3"		"492"
+			"4"		"599"
+			"5"		"19"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Phaser Lock Interactive"
+		"publisher"		"Phaser Lock Interactive"
+		"homepage"		"http://www.phaserlock.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Final Approach"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FinalApproachVR.exe"
+				"description"		"Launch"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"FinalApproachVR.exe"
+				"arguments"		"-vrmode Oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"vrsupport"		"openvr"
+	}
+	"depots"
+	{
+		"380671"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6523574705004184554"
+					"size"		"3128370035"
+					"download"		"1361589376"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2150993"
+				"timeupdated"		"1506698785"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Phaser Lock Interactive/Final Approach/{Steam3AccountID}"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
