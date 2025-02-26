@@ -1,0 +1,200 @@
+"appinfo"
+{
+	"appid"		"793190"
+	"common"
+	{
+		"name"		"Daily OVR"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"793190_eula_0"
+				"name"		"DailyVR EULA"
+				"url"		"https://store.steampowered.com//eula/793190_eula_0"
+			}
+		}
+		"logo"		"0072cc38e983edcf8096d176babebc252e29ef9f"
+		"logo_small"		"0072cc38e983edcf8096d176babebc252e29ef9f_thumb"
+		"icon"		"d2df1810a0c4982f4e5720a38e9912d333c26a75"
+		"clienttga"		"f4c83f7ed5c4d1c49d30cbc26ab2b93a3c12902e"
+		"clienticon"		"0014b9a8f984b8786e19dfb600bb6dd83905cfc6"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"osextended"		""
+		"openvr_action_manifest_path"		"controller_settings/actions.json"
+		"openvroverlaysupport"		"1"
+		"openvrsupport"		"1"
+		"metacritic_name"		"Daily OVR"
+		"nokeyboardmouse"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_dae233c8009f86a692c38d1d49e7c75ab3a3a5a8.jpg"
+		"store_asset_mtime"		"1575443190"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TM xR Lab"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TM xR Lab"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Daily OVR Free"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"57"
+		}
+		"category"
+		{
+			"category_52"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1529555423"
+		"community_hub_visible"		"1"
+		"gameid"		"793190"
+		"exfgls"		"6"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"TM xR Lab"
+		"publisher"		"TM xR Lab"
+		"homepage"		"https://tmxrlab.com/"
+	}
+	"config"
+	{
+		"installdir"		"DailyVR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DailyVRLauncher.exe"
+				"description"		"(default browser)"
+				"type"		"openvroverlay"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DailyVRLauncher.exe"
+				"arguments"		"-a"
+				"description"		"(Run as Admin & default browser)"
+				"type"		"openvroverlay"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"hasdepotsindlc"		"1"
+		"793191"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8943177591309881019"
+					"size"		"991905292"
+					"download"		"478765648"
+				}
+				"beta"
+				{
+					"gid"		"7111093097440103168"
+					"size"		"991895020"
+					"download"		"478762288"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4712627"
+				"timeupdated"		"1583115967"
+			}
+			"beta"
+			{
+				"buildid"		"4554159"
+				"description"		"External Testing"
+				"timeupdated"		"1578645983"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
