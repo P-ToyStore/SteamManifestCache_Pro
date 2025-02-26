@@ -1,0 +1,201 @@
+"appinfo"
+{
+	"appid"		"2480680"
+	"common"
+	{
+		"name"		"Touchly Volumetric VR Video Player"
+		"type"		"Application"
+		"icon"		"c27dd65d2aec98f1dc18fac4f59bd586f8d5c9e4"
+		"clienticon"		"f6167ab77b5bca28b0594fac46109fd31a3711c5"
+		"clienttga"		"4d6d4a3290fcf63bfff9fcb73aaa74d921ad76fa"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"74.14187643020595"
+				"height_pct"		"65.95773101012199"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"74.14187643020595"
+					"height_pct"		"65.95773101012199"
+				}
+			}
+		}
+		"store_asset_mtime"		"1688855150"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Touchly SpA"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Touchly SpA"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"57"
+			"1"		"58"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1690551110"
+		"community_hub_visible"		"1"
+		"gameid"		"2480680"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"493"
+			"2"		"784"
+			"3"		"4182"
+			"4"		"4835"
+			"5"		"13782"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"Touchly SpA"
+		"publisher"		"Touchly SpA"
+		"homepage"		"https://touchly.app/"
+	}
+	"config"
+	{
+		"installdir"		"TouchlyVR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OVR/Touchly.exe"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"SteamVR/Touchly.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Renderer/Touchly-Renderer-0.4.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Touchly Renderer"
+				}
+				"description"		"Touchly Renderer"
+			}
+		}
+	}
+	"depots"
+	{
+		"2480681"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5585059231712353269"
+					"size"		"2038878640"
+					"download"		"939200480"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11928833"
+				"timeupdated"		"1691857172"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
