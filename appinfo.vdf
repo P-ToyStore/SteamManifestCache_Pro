@@ -1,0 +1,158 @@
+"appinfo"
+{
+	"appid"		"952440"
+	"common"
+	{
+		"name"		"OVERKILL's The Walking Dead - BETA"
+		"type"		"Game"
+		"releasestate"		"disabled"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"1c03bfac062ccb53e5a3b44a5e822054d9dded24"
+		"clienticon"		"51f55d11baa62cca16700c6f209e4e1ec1a3222a"
+		"icon"		"279741c6ea4790d76778a9e3644b72e8cdbff955"
+		"logo"		"43f2f0d10180d85e82e6092bc17af8280e108593"
+		"logo_small"		"43f2f0d10180d85e82e6092bc17af8280e108593_thumb"
+		"metacritic_name"		"Overkill's The Walking Dead - BETA"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9b63ba0af400d42399c26b007b123d52ebd383ae.jpg"
+		"store_asset_mtime"		"1539701567"
+		"associations"
+		{
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_9"		"1"
+			"category_38"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"952440"
+	}
+	"extended"
+	{
+		"betaforappid"		"717690"
+		"homepage"		"http://www.overkillsthewalkingdead.com"
+	}
+	"config"
+	{
+		"installdir"		"Overkill's The Walking Dead - BETA"
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"7"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OTWD\\Binaries\\Win64\\OTWD-Win64-Shipping.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"OTWD\\Binaries\\Win64\\OTWD.exe"
+				"description"		"OTWD - Beta (development)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"development"
+				}
+			}
+			"2"
+			{
+				"executable"		"OTWD\\Binaries\\Win64\\OTWD-Win64-Shipping.exe"
+				"description"		"OTWD - Beta (shipping_test)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"shipping_test"
+				}
+			}
+			"3"
+			{
+				"executable"		"OTWD\\Binaries\\Win64\\OTWD-Win64-Shipping.exe"
+				"description"		"OTWD - Beta (shipping)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"shipping"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"952441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2576458301982002877"
+					"size"		"1680520"
+					"download"		"658752"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3256454"
+				"timeupdated"		"1540808950"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
