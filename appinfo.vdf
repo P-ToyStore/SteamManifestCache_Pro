@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"216370"
+	"common"
+	{
+		"name"		"Nexuiz Beta"
+		"logo"		"dd32fffabc3fc72b5bc3d1f54d03406a767af7b2"
+		"logo_small"		"dd32fffabc3fc72b5bc3d1f54d03406a767af7b2_thumb"
+		"icon"		"809e2846e3e69634d5bce125c51c6bbb8cce6d61"
+		"clienttga"		"2a21a1c03b8f5f43aabb79d1b3a0119514a7daa4"
+		"clienticon"		"a16acd59f3a963cee4dec03887c4f3884eb79f6b"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"type"		"game"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"216370"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"ValveTestApp216370"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Nexuiz Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bin32\\Nexuiz.exe"
+				"workingdir"		"Bin32\\"
+			}
+			"3"
+			{
+				"executable"		"Bin32\\DedicatedServer.exe"
+				"description"		"Launch Dedicated Server"
+				"workingdir"		"Bin32\\"
+			}
+		}
+		"installscriptsignature"		"38f1eefe9d8cbcfe051887e43f6cf35b96453bb2c784da7518bafaab7884f88c64ca7f20b138809ea523a3dde1079909fe9adf8c89c20193c28c1f3d0a55cf9a8b6908336582e1df871436c6e7e47addad9fa8f9d6f8b082d8c4b566ef2221cc15315862df834ec5b6063c3e967124a453095c33e718d0d3e131e54bf685a1bb"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\illfonic\nexuiz"
+			{
+				"string"
+				{
+					"cd drive"		"C:\\"
+					"displayname"		"Nexuiz"
+					"folder"		"C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\THQ\\IllFonic\\Nexuiz\\"
+					"install dir"		"%INSTALLDIR%"
+					"installed from"		"C:\\"
+					"product guid"		""
+					"product name"		"Nexuiz"
+					"registration"		""
+					"suppresion exe"		""
+				}
+				"string"
+				{
+					"english"
+					{
+						"language"		"English (US)"
+						"locale"		"en_US"
+					}
+					"spanish"
+					{
+						"language"		"Spanish"
+						"locale"		"es"
+					}
+					"french"
+					{
+						"language"		"French"
+						"locale"		"fr_FR"
+					}
+					"german"
+					{
+						"language"		"German"
+						"locale"		"de"
+					}
+					"italian"
+					{
+						"language"		"Italian"
+						"locale"		"it"
+					}
+				}
+			}
+			"hkey_local_machine\software\illfonic\nexuiz\1.0"
+			{
+				"string"
+				{
+					"displayname"		"Nexuiz"
+					"programgroup"		"C:"
+				}
+				"string"
+				{
+					"english"
+					{
+						"languagename"		"English (US)"
+					}
+					"spanish"
+					{
+						"languagename"		"Spanish"
+					}
+					"french"
+					{
+						"languagename"		"French"
+					}
+					"german"
+					{
+						"languagename"		"German"
+					}
+					"italian"
+					{
+						"languagename"		"Italian"
+					}
+				}
+				"dword"
+				{
+					"english"
+					{
+						"language"		"1"
+					}
+					"spanish"
+					{
+						"language"		"5"
+					}
+					"french"
+					{
+						"language"		"2"
+					}
+					"german"
+					{
+						"language"		"3"
+					}
+					"italian"
+					{
+						"language"		"4"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"msvc redist"
+			{
+				"process 1"		"%INSTALLDIR%\\install\\Redistributable\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\install\\DirectX\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"raptr"
+			{
+				"process 1"		"%INSTALLDIR%\\install\\Raptr\\raptr_installer.exe"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"1"
+			}
+		}
+		"delete files"
+		{
+			"removecm01"
+			{
+				"ctf_cm_01.xml"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_01\\CTF_CM_01.xml"
+				"filelist.xml"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_01\\filelist.xml"
+				"level.pak"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_01\\level.pak"
+				"terraintexture.pak"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_01\\terraintexture.pak"
+			}
+			"removecm02"
+			{
+				"ctf_cm_02.xml"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_02\\CTF_CM_02.xml"
+				"filelist.xml"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_02\\filelist.xml"
+				"level.pak"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_02\\level.pak"
+				"terraintexture.pak"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_02\\terraintexture.pak"
+			}
+			"removecm03"
+			{
+				"ctf_cm_03.xml"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_03\\CTF_CM_03.xml"
+				"filelist.xml"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_03\\filelist.xml"
+				"level.pak"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_03\\level.pak"
+				"terraintexture.pak"		"%INSTALLDIR%\\Nexuiz\\Levels\\CTF_CM_03\\terraintexture.pak"
+			}
+		}
+	}
+	"depots"
+	{
+		"216371"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4822099756918769003"
+					"size"		"2081993009"
+					"download"		"1843473248"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1012823"
+			}
+		}
+	}
+}
