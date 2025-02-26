@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"649620"
+	"common"
+	{
+		"name"		"VR Battleship YAMATO"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"xinput"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"logo"		"5d4ebbf044d7a7e62be2a47c7780c26d5bbbfc2b"
+		"logo_small"		"5d4ebbf044d7a7e62be2a47c7780c26d5bbbfc2b_thumb"
+		"icon"		"de2f5f0e0fb55c3901aa11ef0cec22f75dac18dc"
+		"clienticon"		"73b991c86d4a614f1393bcb126d0d6ac74201d7f"
+		"clienttga"		"11948d4687a4206152a4b197ddd0385a6a5df905"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1644278400"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+			}
+		}
+		"metacritic_name"		"VR_Yamato"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a75eb1938e17d26dd43f72e1cf90d3da75b2cdfe.jpg"
+		"store_asset_mtime"		"1554956972"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kanda Technologies"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kanda Technologies Inc."
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1503016151"
+		"community_hub_visible"		"1"
+		"gameid"		"649620"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"21978"
+			"2"		"4150"
+			"3"		"3987"
+			"4"		"1036"
+			"5"		"1678"
+			"6"		"21"
+			"7"		"5794"
+		}
+		"review_score"		"8"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Kanda Technologies"
+		"publisher"		"Kanda Technologies Inc."
+		"homepage"		"http://www.kanda-giken.co.jp/yamato_en.html"
+	}
+	"config"
+	{
+		"installdir"		"VR_Yamato"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"YamatoVR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"YamatoVR.exe"
+				"description"		"Oculus Touch"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"YamatoVR.exe"
+				"arguments"		"-disablehandcontroller"
+				"description"		"XInput Controller"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"649621"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1925765706794321028"
+					"size"		"8858801628"
+					"download"		"2440538272"
+				}
+			}
+		}
+		"baselanguages"		"english,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2306782"
+				"timeupdated"		"1511346415"
+			}
+		}
+	}
+}
