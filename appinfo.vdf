@@ -1,0 +1,261 @@
+"appinfo"
+{
+	"appid"		"1844610"
+	"common"
+	{
+		"name"		"Reality Mixer - Mixed Reality for VR headsets"
+		"type"		"Application"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"openvr_action_manifest_path"		"RealityMixer_action_manifest.json"
+		"openvroverlaysupport"		"1"
+		"clienticon"		"ee3576a6263fa27c62d6a7548d09c0d304d490a6"
+		"clienttga"		"d68045f67d880f4bfe79b6a807a232324263462d"
+		"icon"		"19e53d5d2a7a50f3c65203507bd0de562cf3b9b1"
+		"logo"		"af68f64291dc54a7a07dae1291d0559034293160"
+		"logo_small"		"af68f64291dc54a7a07dae1291d0559034293160_thumb"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1658534400"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1653136509"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Reality Inside Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Reality Inside Ltd."
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"57"
+		}
+		"category"
+		{
+			"category_52"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1706820781"
+		"community_hub_visible"		"1"
+		"gameid"		"1844610"
+		"exfgls"		"6"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Reality Inside Ltd."
+		"publisher"		"Reality Inside Ltd."
+	}
+	"config"
+	{
+		"installdir"		"Reality Mixer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RealityMixer.exe"
+				"type"		"openvroverlay"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1844611"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3608380586299849501"
+					"size"		"9634978"
+					"download"		"5837536"
+				}
+				"beta"
+				{
+					"gid"		"3608380586299849501"
+					"size"		"9634978"
+					"download"		"5837536"
+				}
+				"previous_beta"
+				{
+					"gid"		"9109491744515321002"
+					"size"		"9481890"
+					"download"		"5733568"
+				}
+				"previous_version"
+				{
+					"gid"		"5614721313667993439"
+					"size"		"9476770"
+					"download"		"5731664"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15464612"
+				"timeupdated"		"1724363266"
+			}
+			"beta"
+			{
+				"buildid"		"15464612"
+				"description"		"v.1.3.1.0 - Fixed Camera Support"
+				"timeupdated"		"1724361138"
+			}
+			"previous_beta"
+			{
+				"buildid"		"15098506"
+				"description"		"v.1.2.1.0 - RGB24 Support for External (USB) Cameras"
+				"timeupdated"		"1724361092"
+			}
+			"previous_version"
+			{
+				"buildid"		"14876614"
+				"description"		"v.1.2.0.3 - UI for External (USB) Camera Setup + bug fixes"
+				"timeupdated"		"1724363144"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
