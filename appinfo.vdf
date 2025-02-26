@@ -1,0 +1,243 @@
+"appinfo"
+{
+	"appid"		"2300910"
+	"common"
+	{
+		"name"		"Ultimate Ball"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"name_localized"
+		{
+			"schinese"		"小球去哪儿"
+		}
+		"clienttga"		"fd86f2f4f32759093821c62469b457811646c315"
+		"linuxclienticon"		"f5976cfadb4dc8fbe17c77c301b423d7e5cef32e"
+		"clienticon"		"033499df05e9926555394c7940950c350c7e861b"
+		"icon"		"4767fe29ba319a53d27b9d898a430acde60a0083"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"46.35426943051061"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"46.35426943051061"
+					"height_pct"		"100"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1677687531"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Old Micheal Act"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Micheal Act Limited"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1679557944"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2300910"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+			"2"		"4191"
+			"3"		"4182"
+			"4"		"3968"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Old Micheal Act"
+		"publisher"		"Micheal Act Limited"
+		"listofdlc"		"2739820"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Ultimate Ball"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MiniGame.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2300911"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3979176366107376574"
+					"size"		"109362327"
+					"download"		"41457568"
+				}
+			}
+		}
+		"2739810"
+		{
+			"dlcappid"		"2739810"
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12949370"
+				"timeupdated"		"1703147444"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1024"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"MiniGame"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgDataHome"
+				"addpath"		""
+			}
+		}
+	}
+}
