@@ -1,0 +1,273 @@
+"appinfo"
+{
+	"appid"		"1282900"
+	"common"
+	{
+		"name"		"Bacon Quest - Lovers' Beef Special Edition"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"c1347ef00e7746500eb4b4bd4fdd8f35332c1b20"
+		"logo_small"		"c1347ef00e7746500eb4b4bd4fdd8f35332c1b20_thumb"
+		"icon"		"5be924fa8a3e5fd4373a9902672816c5b5ebf0ae"
+		"clienticon"		"4c072b0f32c48a31f3b040f6620fca45b9ef3f1b"
+		"clienttga"		"2d69211e38a685a381ad8388e0d2c2d097c6a1e1"
+		"clienticns"		"3b8c2f1611cce1f44c02f9188cf7b32349349786"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"4"
+			"3"		"5"
+		}
+		"restricted_countries"		"CN,DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1680134400"
+			"tested_build_id"		"6327953"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1586803356"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Witching Hour Entertainment LLC"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"LarsMidnatt"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Witching Hour Entertainment LLC"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1541577600"
+		"steam_release_date"		"1588154573"
+		"community_hub_visible"		"1"
+		"gameid"		"1282900"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"6650"
+			"2"		"12095"
+			"3"		"1720"
+			"4"		"7208"
+			"5"		"1677"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"developer"		"Witching Hour Entertainment LLC"
+		"publisher"		"Witching Hour Entertainment LLC"
+		"listofdlc"		"1569910"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Bacon Quest - LBSE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Game.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1282901"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6095942535543134003"
+					"size"		"278066294"
+					"download"		"213744112"
+				}
+			}
+		}
+		"1282902"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2218498469920279392"
+					"size"		"290238384"
+					"download"		"213686000"
+				}
+			}
+		}
+		"1569910"
+		{
+			"dlcappid"		"1569910"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9152911421791730182"
+					"size"		"46943527"
+					"download"		"46613776"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6327953"
+				"timeupdated"		"1614844176"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
