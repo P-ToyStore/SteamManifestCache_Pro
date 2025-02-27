@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"1080090"
+	"common"
+	{
+		"name"		"Project ONe プロジェクト・ワン"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"icon"		"f325fd5a205f067a65237abe172a07b5a0b1c299"
+		"logo"		"665ddac1ec95daece45089069800b25df51146eb"
+		"logo_small"		"665ddac1ec95daece45089069800b25df51146eb_thumb"
+		"clienticon"		"29ab8713c217f027ba90d2008f26e3ee8f841234"
+		"clienttga"		"ca82f2deeb40de8d2770bab6c0455ee6f9de200d"
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Project ONe プロジェクト・ワン ～ハロルドはつらいよ～"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8fbcbf46ceef2a32951ce120140e2ab9897911c6.jpg"
+		"store_asset_mtime"		"1558349948"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hellshake Yano"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hellshake Yano."
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1558542877"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1080090"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"122"
+			"2"		"597"
+			"3"		"1664"
+			"4"		"6971"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Hellshake Yano"
+		"publisher"		"Hellshake Yano."
+		"homepage"		"https://store.steampowered.com/app/1080090/"
+		"listofdlc"		"1098880,1128230"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Project ONe"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"--in-process-gpu"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dlc\\TouhouGame.exe"
+				"arguments"		"--in-process-gpu"
+				"description"		"DLC起動"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1098880"
+				}
+			}
+			"2"
+			{
+				"executable"		"dlc2\\Taiko.exe"
+				"arguments"		"--in-process-gpu"
+				"description"		"Taiko Simulator"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1128230"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"hasdepotsindlc"		"1"
+		"1080091"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7050573339880690988"
+					"size"		"323569664"
+					"download"		"297304672"
+				}
+			}
+		}
+		"baselanguages"		"japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3946415"
+				"timeupdated"		"1561309726"
+			}
+		}
+	}
+}
