@@ -1,0 +1,289 @@
+"appinfo"
+{
+	"appid"		"446600"
+	"common"
+	{
+		"name"		"Magi Trials"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"8e4dcdb744078aa5f9677d76c9554a80eae00864"
+		"logo_small"		"8e4dcdb744078aa5f9677d76c9554a80eae00864_thumb"
+		"icon"		"68317a0273b178996306e50b1e90db815be6356a"
+		"clienticon"		"1a56a5d85b22284616d1232b664ff0ea890b9a5e"
+		"clienttga"		"1a56a46890ce171f32a2e5fcf99f8f55b6dbfa4f"
+		"releasestate"		"released"
+		"osarch"		""
+		"osextended"		""
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1669680000"
+			"tested_build_id"		"1564782"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-5"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Magi Trials"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"48.26656402604048"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"48.26656402604048"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1582589809"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dharker Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dharker Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1479409505"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"446600"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+			"3"		"3799"
+			"4"		"6650"
+			"5"		"44868"
+			"6"		"5611"
+			"7"		"4182"
+			"8"		"12095"
+			"9"		"4085"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Dharker Studios"
+		"publisher"		"Dharker Studios"
+		"homepage"		"http://maid4fun.net"
+		"listofdlc"		"549110,549111,549112,549113"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"HSR Magi Trials"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MagiTrials.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"MagiTrials.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"MagiTrials.sh"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"446601"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7243062572209110524"
+					"size"		"378174577"
+					"download"		"315117600"
+				}
+			}
+		}
+		"549110"
+		{
+			"dlcappid"		"549110"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8085298460023030272"
+					"size"		"31344804"
+					"download"		"27279616"
+				}
+			}
+		}
+		"549111"
+		{
+			"dlcappid"		"549111"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3124822013524175601"
+					"size"		"44160219"
+					"download"		"44588304"
+				}
+			}
+		}
+		"549112"
+		{
+			"dlcappid"		"549112"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3946223303437737060"
+					"size"		"8427088"
+					"download"		"8503040"
+				}
+			}
+		}
+		"549113"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"299127231400064415"
+					"size"		"25027001"
+					"download"		"25253040"
+				}
+			}
+			"dlcappid"		"549113"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1564782"
+				"timeupdated"		"1484218247"
+			}
+		}
+	}
+}
