@@ -1,0 +1,244 @@
+"appinfo"
+{
+	"appid"		"352010"
+	"common"
+	{
+		"name"		"Beach Bounce"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"05397a4690ab16cf981a2ee4014355a8fa1c1321"
+		"logo_small"		"05397a4690ab16cf981a2ee4014355a8fa1c1321_thumb"
+		"icon"		"eb9bea29037b75f22523d632c5f4957028d79e17"
+		"clienttga"		"678d04743edd70ed1e3b8db7d3ba28cccbc2e672"
+		"clienticon"		"aae1682b1980b5d53b16ae582603075195cdaead"
+		"releasestate"		"released"
+		"osarch"		""
+		"osextended"		""
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Beach Bounce"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1582560877"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dharker Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dharker Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1439560127"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"352010"
+		"store_tags"
+		{
+			"0"		"6650"
+			"1"		"3799"
+			"2"		"492"
+			"3"		"4085"
+			"4"		"5611"
+			"5"		"597"
+			"6"		"21"
+			"7"		"4182"
+			"8"		"12095"
+			"9"		"4242"
+			"10"		"9130"
+			"11"		"4947"
+			"12"		"9551"
+			"13"		"3871"
+			"14"		"24904"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Dharker Studios"
+		"publisher"		"Dharker Studios"
+		"homepage"		"http://maid4fun.net"
+		"listofdlc"		"394050"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Beach Bounce"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BeachBounce.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BeachBounce.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"BeachBounce.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"352011"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2065166703640135669"
+					"size"		"398409623"
+					"download"		"336750848"
+				}
+			}
+		}
+		"394050"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5173408196253117029"
+					"size"		"68241860"
+					"download"		"55272352"
+				}
+			}
+			"dlcappid"		"394050"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"992463"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5500000"
+		"maxnumfiles"		"105"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"game/saves"
+				"pattern"		"*.save"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"game/saves"
+				"pattern"		"persistent"
+			}
+		}
+	}
+}
