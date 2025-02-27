@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"24670"
+	"common"
+	{
+		"name"		"Trainz Simulator 12"
+		"clienticon"		"d0e964e657f431236764332a4a2502a2c33077d9"
+		"clienttga"		"de981d198e6b09a38fadfe077aa88a053559dd94"
+		"icon"		"bb5c2f6a56fd21e08146075a19a340f3f49af797"
+		"logo"		"9f7bb47982769d26133a2e8bf296ba12341fc7fd"
+		"logo_small"		"9f7bb47982769d26133a2e8bf296ba12341fc7fd_thumb"
+		"type"		"game"
+		"metacritic_name"		"Trainz&amp;trade; Simulator 12"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_91e26ec83a7d3c90cb1c829b6eb711cc7412ad5c.jpg"
+		"store_asset_mtime"		"1384992693"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"N3V Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"N3V Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"24670"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1616"
+			"2"		"3859"
+			"3"		"4182"
+			"4"		"4175"
+			"5"		"3810"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"N3V Games"
+		"dlcavailableonstore"		"1"
+		"dlcpurchasefromingame"		"0"
+		"gamedir"		"TS2012"
+		"homepage"		"http://www.trainzportal.com/product_ts12.php"
+		"icon"		""
+		"installscript"		"ts2012installscript.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp24670\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"24671"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"supportscdkeycopytoclipboard"		"1"
+		"publisher"		"N3V Games"
+		"listofdlc"		"24634,24635,24673,24674,24675,24676,24677,24678,24679,238991,317690,318050,318960"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"trainz.exe"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"TS2012"
+		"installscriptsignature"		"95dcdf8109eea6a8a9561288f8edceaf1900c5598adc319d12efb417b093c6196c9c2a930e4d150b37aa65262f2a28633fca242ffb2ad734799e7d81d250503afa8dd7646433cfa8c828e49807b890ca4cbf052015d380042b921dcacd1f945bae4cbd77f4b07794ddb7300c20904230f0e42af3941abf4f6863361c9c04e800"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"set_key"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\24670"
+				"process 1"		"%INSTALLDIR%\\bin\\trainzutil.exe"
+				"command 1"		"registerkey %CDKEY%"
+			}
+			"sp1_edr"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\24670\\SP1EDR"
+				"process 1"		"%INSTALLDIR%\\bin\\trainzutil.exe"
+				"command 1"		"flagrepairdatabase extended"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"24671"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8873390518926957208"
+					"size"		"568701629"
+					"download"		"0"
+				}
+			}
+		}
+		"24672"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2978639341477847333"
+					"size"		"9512035230"
+					"download"		"0"
+				}
+			}
+		}
+		"24673"
+		{
+			"manifests"
+			{
+			}
+			"dlcappid"		"24673"
+		}
+		"24674"
+		{
+			"optional"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8435551541410273781"
+					"size"		"144467695"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"24674"
+		}
+		"24675"
+		{
+			"optional"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"932898334001685521"
+					"size"		"162999218"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"24675"
+		}
+		"24676"
+		{
+			"optional"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5460752732181915523"
+					"size"		"91885679"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"24676"
+		}
+		"24677"
+		{
+			"manifests"
+			{
+			}
+			"dlcappid"		"24677"
+		}
+		"24678"
+		{
+			"manifests"
+			{
+			}
+			"dlcappid"		"24678"
+		}
+		"238991"
+		{
+			"dlcappid"		"238991"
+		}
+		"24679"
+		{
+			"dlcappid"		"24679"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"135896"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
