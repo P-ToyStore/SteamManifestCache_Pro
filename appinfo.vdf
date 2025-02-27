@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"91330"
+	"common"
+	{
+		"name"		"Iron Front : Liberation 1944"
+		"clienticon"		"26c73a6271d2d997d352345f248329899ac3199a"
+		"clienttga"		"eb151fe5a5fcec401c5c0fc2ef0984b38b41f5e0"
+		"icon"		"e45d6d8134d925e71f504823d86004ddccc37494"
+		"type"		"game"
+		"metacritic_name"		"Iron Front: Liberation 1944"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2d4a86109a06367ed5133d7355e2a27c48eeed19.jpg"
+		"store_asset_mtime"		"1355471347"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"X1 Software"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"AWAR"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Deep Silver"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1337965200"
+		"metacritic_score"		"55"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/iron-front-liberation-1944?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"91330"
+		"store_tags"
+		{
+			"0"		"4150"
+			"1"		"1678"
+			"2"		"4168"
+			"3"		"13276"
+			"4"		"3839"
+			"5"		"4175"
+			"6"		"599"
+			"7"		"1663"
+			"8"		"1774"
+			"9"		"1708"
+			"10"		"19"
+			"11"		"1697"
+			"12"		"9"
+			"13"		"3987"
+			"14"		"3859"
+			"15"		"4182"
+			"16"		"1695"
+			"17"		"8075"
+			"18"		"3810"
+			"19"		"4166"
+		}
+		"review_score"		"5"
+		"review_percentage"		"59"
+	}
+	"extended"
+	{
+		"developer"		"X1 Software"
+		"gamedir"		"IronFront"
+		"homepage"		"http://ironfront.deepsilver.com"
+		"icon"		""
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp91330\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"91331"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"publisher"		"Deep Silver"
+		"gamemanualurl"		"https://store.steampowered.com/manual/91330/"
+		"listofdlc"		"91333"
+	}
+	"config"
+	{
+		"installscriptsignature"		"8c88e0241f7aa4e8cab3fe8c187783d8662f76e10390ab7c074c7f88fcb81a941aece418b1f6dfbe9f0c43e7a72e15453622e81cc5f29809b9bb025ef5e28e95ac2587f8e343329e70524dab0d38c62c0e397098bad165a133abf440a759eb9fe1be03565f72cf38af5af800555a14b65f306b3bd232eef3e6b82196afa23be7"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"IronFront"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ironfront.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\bohemia interactive studio\ironfront"
+			{
+				"string"
+				{
+					"main"		"%INSTALLDIR%"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\40390"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"battleyeif"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\40390"
+				"description"		"BattlEye Anti-Cheat software for Iron Front"
+				"process 1"		"%INSTALLDIR%\\Setup_BattlEye_IronFront.exe"
+				"ignoreexitcode"		"0"
+				"nocleanup"		"0"
+				"minimumhasrunvalue"		"2"
+			}
+		}
+		"arma 2 cd key"
+		{
+			"registrypath"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\IronFront\\KEY"
+		}
+	}
+	"depots"
+	{
+		"91332"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8403696529354224189"
+					"size"		"21666925"
+					"download"		"0"
+				}
+			}
+		}
+		"91331"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4838379554867620500"
+					"size"		"9788778760"
+					"download"		"0"
+				}
+			}
+		}
+		"91333"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2917398349615575727"
+					"size"		"976247664"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"91333"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"31207"
+			}
+		}
+	}
+}
