@@ -1,0 +1,118 @@
+"appinfo"
+{
+	"appid"		"881000"
+	"common"
+	{
+		"name"		"Beholder 2 Beta"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"d12ab6ea9bd457009f6a744e985150be972bbde7"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"a90470fe8b2cb218852e38cfa14706441f01dfd8"
+		"logo_small"		"a90470fe8b2cb218852e38cfa14706441f01dfd8_thumb"
+		"clienticon"		"d5237730bdf98906352796cca53580a61c3d9f0d"
+		"clienttga"		"348e767821b60a3d688d03fc33ca4899710104fb"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"881000"
+	}
+	"config"
+	{
+		"installdir"		"Beholder 2 Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Beholder2.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Beholder2.app\\Contents\\MacOS\\Beholder2"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"881001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7422274110432509556"
+					"size"		"1083811428"
+					"download"		"359731584"
+				}
+			}
+		}
+		"881002"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6036392611162259655"
+					"size"		"1113914850"
+					"download"		"368767440"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2967997"
+				"timeupdated"		"1532338735"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"300"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Warm Lamp Games/Beholder 2 - Beta Test/Saves"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"addpath"		""
+			}
+		}
+	}
+}
