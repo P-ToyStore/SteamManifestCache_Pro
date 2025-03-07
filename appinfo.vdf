@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"807940"
+	"common"
+	{
+		"name"		"War of Criminals"
+		"type"		"Game"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+		}
+		"logo"		"17bad66da7b3f04a0840d66ee3025591d8bfc888"
+		"logo_small"		"17bad66da7b3f04a0840d66ee3025591d8bfc888_thumb"
+		"icon"		"e276780ad823479bf6078c2ca9d8229394ffc557"
+		"clienttga"		"abb72c325dcedff04674d7dac54178fadf1c7a48"
+		"clienticon"		"a7792a12c0780fe61e170a5506213575b5dea686"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticns"		"d70982bf728574b10ae1464364f8c55ba09a8585"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"War of Criminals"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_778151599f214a602d309ed04d744da27a53cc85.jpg"
+		"store_asset_mtime"		"1524216118"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Art Of Adventures"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Art Of Adventures"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1521194492"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"807940"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1774"
+			"3"		"492"
+			"4"		"1697"
+			"5"		"176981"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"developer"		"Art Of Adventures"
+		"publisher"		"Art Of Adventures"
+		"homepage"		"https://art-of-adventures.com"
+	}
+	"config"
+	{
+		"installdir"		"War of Criminals"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"War of Criminals.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"War of Criminals.app\\Contents\\MacOS\\War of Criminals"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese"
+		"hasdepotsindlc"		"0"
+		"807941"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2671756078670962876"
+					"size"		"292832681"
+					"download"		"72970880"
+				}
+			}
+		}
+		"807942"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8589438279995605763"
+					"size"		"343067017"
+					"download"		"86267440"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2599043"
+				"timeupdated"		"1520926931"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"200"
+		"maxnumfiles"		"1"
+		"appidredirect"		"807940"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Games 4 Teens, LLC/War of Criminals"
+				"pattern"		"saveData.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"War of Criminals"
+						"replace"		"com.games4teens.WarofCriminalsmac"
+					}
+				}
+			}
+		}
+	}
+}
