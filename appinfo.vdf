@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"835710"
+	"common"
+	{
+		"name"		"Tactics Maiden Remastered"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"c815a9cbb17004ecad9b92167f0d484447ee8909"
+		"logo_small"		"c815a9cbb17004ecad9b92167f0d484447ee8909_thumb"
+		"icon"		"3e3ef01f3ef8f32b6cb5e1ab756ef7e40c78a28c"
+		"clienttga"		"93648d6c0343e77c2b701497699ea54601f6534e"
+		"clienticon"		"93310dd5daeebade6355c98dd500988f26838303"
+		"linuxclienticon"		"7de31f27a60ec69b1da02e9b0fe4580ca3c8402b"
+		"clienticns"		"81906e26d296a9e463c038675855d876978ce1a3"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Tactics Maiden Remastered"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f834f5c881b332b6f64b4202779590c7bdd5540d.jpg"
+		"store_asset_mtime"		"1556383737"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mangobile"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mangobile"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1538144289"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"835710"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"9"
+			"2"		"14139"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Mangobile"
+		"publisher"		"Mangobile"
+		"homepage"		"http://www.mangobile.com/Mangobile/TacticsMaidenOverview.html"
+	}
+	"config"
+	{
+		"installdir"		"Tactics Maiden"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TacticsMaiden.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TacticsMaiden.x86"
+				"arguments"		"-show-screen-selector"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"TacticsMaiden.app\\Contents\\MacOS\\TacticsMaiden"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"TacticsMaiden.x86_64"
+				"arguments"		"-show-screen-selector"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"835711"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4934395037479165286"
+					"size"		"245742584"
+					"download"		"66818048"
+				}
+			}
+		}
+		"835712"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8233481605906722877"
+					"size"		"289752940"
+					"download"		"78762624"
+				}
+			}
+		}
+		"835713"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7275610252366580239"
+					"size"		"277567258"
+					"download"		"76289184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3943408"
+				"timeupdated"		"1561159305"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"25"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Mangobile/Tactics Maiden"
+				"pattern"		"tactics_maiden_steam*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Mangobile/Tactics Maiden"
+						"replace"		"Mangobile/Tactics Maiden"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Mangobile/Tactics Maiden"
+						"replace"		".config/unity3d/Mangobile/Tactics Maiden"
+					}
+				}
+			}
+		}
+	}
+}
