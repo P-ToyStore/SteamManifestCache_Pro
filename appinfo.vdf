@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"813280"
+	"common"
+	{
+		"name"		"Sky Hawk"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"148f84f38e1f870f0e976349b9e0ee944999e7a9"
+		"clienttga"		"cec48413f3cb2cb1c8273897b569fc8d42bd8067"
+		"icon"		"6c84f8280d706b380ef6e44df60a8042d20fbc0b"
+		"logo"		"c1e0e047ebde755e5c194d1028108cec7327e6d6"
+		"logo_small"		"c1e0e047ebde755e5c194d1028108cec7327e6d6_thumb"
+		"clienticns"		"3c4bec260f8f59e3754509d26070433870e63456"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+		}
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Sky Hawk"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"store_screenshot"		"ss_214a78a27a8a1dc2ea593065ce0e0c70a734604d.jpg"
+		"store_asset_mtime"		"1533529217"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gamenesis"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gamenesis"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1522237554"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"813280"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1678"
+			"2"		"15045"
+			"3"		"4166"
+			"4"		"4791"
+			"5"		"4885"
+			"6"		"5363"
+			"7"		"3968"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Gamenesis"
+		"publisher"		"Gamenesis"
+		"homepage"		"https://steam.gamenesis.com"
+	}
+	"config"
+	{
+		"installdir"		"Sky Hawk"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Sky Hawk.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Sky Hawk.app\\Contents\\MacOS\\Sky Hawk"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"813281"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5244607279457968674"
+					"size"		"463114022"
+					"download"		"175878784"
+				}
+			}
+		}
+		"813282"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8716793466934940129"
+					"size"		"444769294"
+					"download"		"171081120"
+				}
+			}
+		}
+		"baselanguages"		"english,german,schinese,russian,portuguese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2640938"
+				"timeupdated"		"1522231498"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Gamenesis/Sky Hawk"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Gamenesis/Sky Hawk"
+						"replace"		"com.gamenesis.skyhawk"
+					}
+				}
+			}
+		}
+	}
+}
