@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"434830"
+	"common"
+	{
+		"name"		"DragonStone"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"icon"		"cab2204629210fda3f24bcf2965abef3b27de987"
+		"clienttga"		"6f72fa7e3eee88554e1130fa85b7284b666b29c9"
+		"clienticon"		"65dbb0e832cc85edb8d2a315fa89e2baa34ecd9c"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"5"
+			"3"		"4"
+		}
+		"restricted_countries"		"CN,DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1683936000"
+			"tested_build_id"		"11117069"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-2"
+				"requires_h264"		"1"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1682661630"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Entropy Digital Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		" Entropy Digital Entertainment"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_13"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1682616392"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"434830"
+		"store_tags"
+		{
+			"0"		"12095"
+			"1"		"6650"
+			"2"		"5611"
+			"3"		"24904"
+			"4"		"597"
+			"5"		"7208"
+			"6"		"4175"
+			"7"		"21"
+			"8"		"4106"
+			"9"		"11014"
+			"10"		"1698"
+			"11"		"3799"
+			"12"		"3834"
+			"13"		"3871"
+			"14"		"4305"
+			"15"		"3839"
+			"16"		"4166"
+			"17"		"4342"
+			"18"		"1742"
+			"19"		"44868"
+		}
+		"review_score"		"4"
+		"review_percentage"		"33"
+	}
+	"extended"
+	{
+		"developer"		"Entropy Digital Entertainment"
+		"publisher"		" Entropy Digital Entertainment"
+		"homepage"		"http://www.entropyadultgames.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DragonStone"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DragonStone.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Contents\\MacOS\\DragonStone"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"434831"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1518444609480449253"
+					"size"		"2246339666"
+					"download"		"1690296144"
+				}
+			}
+		}
+		"434832"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5774461718922894643"
+					"size"		"2270356997"
+					"download"		"1698560720"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11117069"
+				"timeupdated"		"1682703753"
+			}
+		}
+	}
+}
