@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"569770"
+	"common"
+	{
+		"name"		"StarShip Constructor"
+		"type"		"Game"
+		"releasestate"		"released"
+		"eulas"
+		{
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"ecf071374f16a23a18014bbcd8fe540c9d3aa570"
+		"logo_small"		"ecf071374f16a23a18014bbcd8fe540c9d3aa570_thumb"
+		"icon"		"b13731e87ed10f54059c04c4d93f193dfc9833b7"
+		"clienttga"		"99aa9c1feb684bf76a5458e9957d8a4c9cc19a5e"
+		"clienticon"		"fea0ef1c368e0ae05c9dbdff169b9ac3461c2f0d"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+		}
+		"metacritic_name"		"StarShip Constructor"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"45.977702727782685"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"45.977702727782685"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572331827"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SSCTEAM"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SSCTEAM"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1500519808"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"569770"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1755"
+			"2"		"1643"
+			"3"		"493"
+			"4"		"3810"
+			"5"		"3871"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"developer"		"SSCTEAM"
+		"publisher"		"SSCTEAM"
+	}
+	"config"
+	{
+		"installdir"		"StarShip Constructor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SSC.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese"
+		"workshopdepot"		"569770"
+		"569771"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2172678403795736898"
+					"size"		"508725644"
+					"download"		"163768640"
+				}
+			}
+		}
+		"569772"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3408406"
+				"timeupdated"		"1545136108"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"SSCTEAM/StarShipContructor"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SSCTEAM/StarShipContructor"
+						"replace"		"unity.SSCTEAM.StarShipContructor"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SSCTEAM/StarShipContructor"
+						"replace"		"SSCTEAM/StarShipContructor"
+					}
+				}
+			}
+		}
+	}
+}
