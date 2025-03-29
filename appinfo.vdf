@@ -1,0 +1,272 @@
+"appinfo"
+{
+	"appid"		"359810"
+	"common"
+	{
+		"name"		"Hare In The Hat"
+		"type"		"Game"
+		"logo"		"646a6cb6ef319b95a68552d5a70a4c64bec7c0e7"
+		"logo_small"		"646a6cb6ef319b95a68552d5a70a4c64bec7c0e7_thumb"
+		"icon"		"1e3b5ad75a3c1ee90bfa09784043f7ada45da610"
+		"clienticns"		"2666a4cdfbccf64baa2f3869828f706f5a9c5b0d"
+		"clienticon"		"6ecb221a2c0ed67fc58474d7bce717b98f6d766d"
+		"clienttga"		"5dfed2d513afd7b14a72213ee36944e4dc58486c"
+		"oslist"		"windows,macos,linux"
+		"releasestate"		"released"
+		"osarch"		""
+		"osextended"		"macos64"
+		"metacritic_name"		"Hare In The Hat"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_58be169a51f0948999adfbf6fc170f6c54958f47.jpg"
+		"store_asset_mtime"		"1662330355"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"RunServer"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"RunServer"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1427871600"
+		"steam_release_date"		"1427877939"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"359810"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"1664"
+			"3"		"597"
+			"4"		"4182"
+			"5"		"11123"
+			"6"		"5350"
+			"7"		"1698"
+			"8"		"4195"
+			"9"		"6815"
+			"10"		"1654"
+			"11"		"4562"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"developer"		"RunServer"
+		"publisher"		"RunServer"
+		"homepage"		"http://www.facebook.com/hareinhat"
+		"listofdlc"		"460890"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Hare In The Hat"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HIHW7.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Hare In The Hat.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"HIH2W7.exe"
+				"description"		"Hare In The Hat: The Abyss DLC"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"460890"
+				}
+			}
+			"3"
+			{
+				"executable"		"HIH"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"359811"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6940023749985907485"
+					"size"		"209021913"
+					"download"		"90811808"
+				}
+			}
+		}
+		"359812"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"531034652787209792"
+					"size"		"229355744"
+					"download"		"97427856"
+				}
+			}
+		}
+		"460890"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"460890"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5039302673890871981"
+					"size"		"149142084"
+					"download"		"93824624"
+				}
+			}
+		}
+		"359813"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1656111527165273263"
+					"size"		"227082263"
+					"download"		"96106896"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10075403"
+				"timeupdated"		"1670174965"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacHome"
+				"path"		"Library\\Preferences"
+				"pattern"		"net.runserver.hih_mac.plist"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"HIH"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"HIH2"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
