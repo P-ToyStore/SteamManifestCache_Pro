@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"473780"
+	"common"
+	{
+		"name"		"Splitter Critters"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"29c2305f6ef588085acd6a5b4aab896ccd5c24f1"
+		"logo_small"		"29c2305f6ef588085acd6a5b4aab896ccd5c24f1_thumb"
+		"icon"		"0cf383fb51235531f04bc88db64f8cc91246fd36"
+		"clienticon"		"6d568ce1e550f6e049c7dafabc19db8edb3e601d"
+		"clienttga"		"68624fd41f387adb0464b2e45810c8fce2ba0701"
+		"releasestate"		"released"
+		"metacritic_name"		"Splitter Critters"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ed2a2a483f3c4bc30517ab1112d9cf73c5c55ea5.jpg"
+		"store_asset_mtime"		"1512937141"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"RAC7"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"RAC7"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"norwegian"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1526413828"
+		"community_hub_visible"		"1"
+		"gameid"		"473780"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1664"
+			"2"		"3871"
+			"3"		"4182"
+			"4"		"597"
+		}
+		"review_score"		"7"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"RAC7"
+		"publisher"		"RAC7"
+		"homepage"		"http://www.splittercritters.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Splitter Critters"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SplitterCritters.exe"
+				"description"		"Launch Windows (x86)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SplitterCritters.app"
+				"description"		"Launch OSX (Universal)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"473781"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4845435923157463724"
+					"size"		"125472982"
+					"download"		"64258656"
+				}
+			}
+		}
+		"473782"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5748567478033411583"
+					"size"		"180072900"
+					"download"		"79920800"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,danish,dutch,norwegian,swedish,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2764212"
+				"timeupdated"		"1526010194"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"16384"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"RAC7/Splitter Critters/"
+				"pattern"		"*.png"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"RAC7/Splitter Critters/"
+						"replace"		"RAC7/Splitter Critters/"
+					}
+				}
+			}
+		}
+	}
+}
