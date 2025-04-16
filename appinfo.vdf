@@ -1,0 +1,232 @@
+"appinfo"
+{
+	"appid"		"214640"
+	"common"
+	{
+		"name"		"Call of Duty: Black Ops - Multiplayer OSX"
+		"clienticon"		"8de1d8e370e01dbd307e890e3aa3d7e14b1bf6a2"
+		"clienttga"		"cb8f25b7767beb14e2e112b772aca62b92e957b7"
+		"icon"		"d595fb4b01201cade09e1232f2c41c0866840628"
+		"logo"		"2b07ffc9e420c232858a60a20cdefeebaa9fd5c6"
+		"logo_small"		"2b07ffc9e420c232858a60a20cdefeebaa9fd5c6_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"clienticns"		"bf987c8283284227ad6343c99c501c34657e4023"
+		"oslist"		"macos"
+		"type"		"game"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"214640"
+	}
+	"extended"
+	{
+		"developer"		"Aspyr Media, Inc."
+		"disableoverlay"		"1"
+		"gamedir"		"ValveTestApp214640"
+		"gamemanualurl"		"http://store.steampowered.com/manual/214630/"
+		"homepage"		"http://www.aspyr.com/games/call-of-duty-black-ops"
+		"icon"		""
+		"installscript_macos"		"CoDBlackOps.app/installscript_osx.vdf"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"validoslist"		"macos"
+		"visibleonlywhensubscribed"		"1"
+		"listofdlc"		"214645,214647,214652"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Call of Duty Black Ops - OSX"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CoDBlackOps.app/Contents/MacOS/CoDBlackOps"
+				"arguments"		"-DefaultChildApp AppCoDMP -appid 214640"
+				"description"		"Multiplayer"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"214631"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"depotfromapp"		"214630"
+			"sharedinstall"		"2"
+		}
+		"214634"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2255985982572301876"
+					"size"		"33295105"
+					"download"		"14862080"
+				}
+				"local"
+				{
+					"gid"		"1030975269677604435"
+					"size"		"42865488"
+					"download"		"0"
+				}
+			}
+		}
+		"214633"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"depotfromapp"		"214630"
+			"sharedinstall"		"2"
+		}
+		"214635"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"depotfromapp"		"214630"
+			"sharedinstall"		"2"
+		}
+		"214636"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"depotfromapp"		"214630"
+			"sharedinstall"		"2"
+		}
+		"214637"
+		{
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"depotfromapp"		"214630"
+			"sharedinstall"		"2"
+		}
+		"214638"
+		{
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"macos"
+			}
+			"depotfromapp"		"214630"
+			"sharedinstall"		"2"
+		}
+		"214645"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4854409517998475490"
+					"size"		"404474076"
+					"download"		"389406304"
+				}
+				"local"
+				{
+					"gid"		"4854409517998475490"
+					"size"		"404474076"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"214645"
+		}
+		"214647"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4831137229643636542"
+					"size"		"619031123"
+					"download"		"593004784"
+				}
+				"local"
+				{
+					"gid"		"4831137229643636542"
+					"size"		"619031123"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"214647"
+		}
+		"214643"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"393219267061549774"
+					"size"		"516814175"
+					"download"		"498600480"
+				}
+				"local"
+				{
+					"gid"		"393219267061549774"
+					"size"		"516814175"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"599583"
+			}
+			"local"
+			{
+				"buildid"		"169687"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
