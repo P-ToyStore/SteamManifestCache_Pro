@@ -1,0 +1,185 @@
+"appinfo"
+{
+	"appid"		"907320"
+	"common"
+	{
+		"name"		"Three Kingdoms: Legends of Heroes"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"671a21faffd6bb25cbe93fcacf0406795b47de97"
+		"clienticon"		"ba97b18f79e254d2e469cc98b10c904496c0cc1e"
+		"icon"		"32d8115799c26fbe5c78ad58a99ea4c10847a102"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+		}
+		"logo"		"6b130242b79293f1e9121cf8d439197f67341a58"
+		"logo_small"		"6b130242b79293f1e9121cf8d439197f67341a58_thumb"
+		"metacritic_name"		"梦三英雄传"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"schinese"		"header_schinese.jpg"
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_69a99699f3ac4f38eea510553fe4bd71c4645166.jpg"
+		"store_asset_mtime"		"1544665844"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"HANGZHOU ELECTRONIC SOUL NETWORK TECHNOLOGY CO., LTD"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"HANGZHOU ELECTRONIC SOUL NETWORK TECHNOLOGY CO., LTD"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1541559480"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"907320"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"122"
+			"3"		"599"
+			"4"		"1678"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+		"review_score_bombs"		"6"
+		"review_percentage_bombs"		"73"
+	}
+	"extended"
+	{
+		"developer"		"HANGZHOU ELECTRONIC SOUL NETWORK TECHNOLOGY CO., LTD"
+		"publisher"		"HANGZHOU ELECTRONIC SOUL NETWORK TECHNOLOGY CO., LTD"
+		"gamemanualurl"		"https://store.steampowered.com/manual/907320/"
+		"listofdlc"		"978080"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"DreamThreeKingdom"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"build\\release\\Dream War.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"schinese"
+		"hasdepotsindlc"		"1"
+		"907321"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8265794364350187165"
+					"size"		"355293130"
+					"download"		"258720912"
+				}
+			}
+		}
+		"978080"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"optionaldlc"		"978080"
+			}
+			"dlcappid"		"978080"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5906569315513806527"
+					"size"		"338621721"
+					"download"		"251671520"
+				}
+			}
+		}
+		"907322"
+		{
+			"dlcappid"		"978080"
+			"config"
+			{
+				"oslist"		"windows"
+				"optionaldlc"		"978080"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4310611"
+				"timeupdated"		"1571726665"
+			}
+		}
+		"privatebranches"		"1"
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"2097152000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"write\\project\\dreamwar\\save\\"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
