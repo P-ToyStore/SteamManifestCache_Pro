@@ -1,0 +1,343 @@
+"appinfo"
+{
+	"appid"		"237550"
+	"common"
+	{
+		"name"		"Realms of Arkania: Blade of Destiny"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"1f78d98406dd82ad91078a402cb6c5af00bb72e5"
+		"clienttga"		"447acbd99bca400e61ad472ed75bbcb66a015fef"
+		"icon"		"8bd9112ec90773c80aa0abde74b6c658dbab8ebf"
+		"logo"		"0fc72ab63322da6eeca599a307666e7cb9c0343f"
+		"logo_small"		"0fc72ab63322da6eeca599a307666e7cb9c0343f_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"metacritic_name"		"Realms of Arkania"
+		"small_capsule"
+		{
+			"german"		"capsule_231x87_german.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"german"		"header_german.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"65.42553351843311"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"65.42553351843311"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572879307"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"United Independent Entertainment"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Crafty Studios"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"United Independent Entertainment"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1375156860"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"237550"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"21"
+			"2"		"492"
+			"3"		"1677"
+			"4"		"1684"
+			"5"		"5708"
+			"6"		"4182"
+			"7"		"10695"
+			"8"		"3839"
+			"9"		"4474"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"United Independent Entertainment"
+		"gamedir"		"ValveTestApp237550"
+		"homepage"		"http://www.realmsofarkania.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"United Independent Entertainment"
+		"gamemanualurl"		"https://store.steampowered.com/manual/237550/"
+		"listofdlc"		"264840,264841,387910"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Realms of Arkania"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"schick.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"schick.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"schick.x86"
+				"arguments"		"-logfile output_log.txt"
+				"description"		"Launch x86"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"schick.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"Launch compatible mode"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"schickhd"
+				"arguments"		"-logfile output_log.txt"
+				"description"		"Launch (Betabranch only)"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"Blade of Destiny HD Mod Control.exe"
+				"description"		"lunatic's Mod Manager"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,german"
+		"markdlcdepots"		"1"
+		"237551"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6132666730006708317"
+					"size"		"7256477977"
+					"download"		"4059812048"
+				}
+			}
+		}
+		"237552"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6806504868974763430"
+					"size"		"7225194847"
+					"download"		"3681812432"
+				}
+			}
+		}
+		"237553"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1225090920312878352"
+					"size"		"7246125598"
+					"download"		"4059616624"
+				}
+			}
+		}
+		"264840"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5646362608362520565"
+					"size"		"675966337"
+					"download"		"338492624"
+				}
+			}
+			"dlcappid"		"264840"
+		}
+		"264841"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5774476688977324235"
+					"size"		"493243730"
+					"download"		"324703552"
+				}
+			}
+			"dlcappid"		"264841"
+		}
+		"387910"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6249684251345223263"
+					"size"		"17667987"
+					"download"		"13006112"
+				}
+			}
+			"dlcappid"		"387910"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"811371"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"schick_Data/saves"
+				"pattern"		"*.dsa1save"
+			}
+		}
+	}
+}
