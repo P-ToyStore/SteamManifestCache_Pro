@@ -1,0 +1,282 @@
+"appinfo"
+{
+	"appid"		"1366570"
+	"common"
+	{
+		"name"		"RESONARK X"
+		"type"		"Game"
+		"releasestate"		"released"
+		"name_localized"
+		{
+			"english"		"RESONARK X"
+		}
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"openvr_action_manifest_path"		"ResonarkX_Data\\StreamingAssets\\SteamVR\\actions.json"
+		"logo"		"abb1aad3c2455e9a4a9184b5233651a70458abe7"
+		"logo_small"		"abb1aad3c2455e9a4a9184b5233651a70458abe7_thumb"
+		"icon"		"903cead6c2e2e3361813defe7ef6deb074f65474"
+		"clienttga"		"f83e90c50d6078b403f70410e2f0ac7d8c667e6e"
+		"clienticon"		"3a25abb36f8e35d901afc96ba8e491bcf225ea5a"
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1366570_eula_0"
+				"name"		"RESONARK X EULA"
+				"url"		"https://store.steampowered.com//eula/1366570_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"84.75750577367205"
+				"height_pct"		"62.58856872933396"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"84.75750577367205"
+					"height_pct"		"62.58856872933396"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1604025329"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"sep-neko-ya"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"sep-neko-ya"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1596207612"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1366570"
+		"store_tags"
+		{
+			"0"		"1752"
+			"1"		"61357"
+			"2"		"189941"
+			"3"		"4777"
+			"4"		"597"
+			"5"		"4191"
+			"6"		"21978"
+			"7"		"19"
+			"8"		"4305"
+			"9"		"3942"
+			"10"		"5154"
+			"11"		"4182"
+			"12"		"17770"
+			"13"		"29855"
+			"14"		"143739"
+			"15"		"3934"
+			"16"		"492"
+			"17"		"5673"
+			"18"		"5411"
+			"19"		"1621"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"sep-neko-ya"
+		"publisher"		"sep-neko-ya"
+		"homepage"		"https://sep-neko-ya.github.io/RESONARK/"
+	}
+	"config"
+	{
+		"installdir"		"sepnekoya-rx-v1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ResonarkX.exe"
+				"description"		"RESONARK X VR Mode"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ResonarkX.exe"
+				"arguments"		"--novr"
+				"description"		"RESONARK X Desktop Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,japanese"
+		"1366573"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1901414950875716651"
+					"size"		"371978688"
+					"download"		"204094992"
+				}
+			}
+		}
+		"1366572"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"926881619178461465"
+					"size"		"398507313"
+					"download"		"218939568"
+				}
+			}
+		}
+		"1366571"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4826347243332642959"
+					"size"		"397116261"
+					"download"		"218585808"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10726463"
+				"timeupdated"		"1678343770"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
