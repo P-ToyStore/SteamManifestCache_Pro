@@ -1,0 +1,280 @@
+"appinfo"
+{
+	"appid"		"1623440"
+	"common"
+	{
+		"name"		"TIME BREAKER"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"62255dfff6ab1028668e0968fab2570b856096a0"
+		"clienttga"		"a8d155786416fbb7ef6fc9bfe78bc0d00b63c665"
+		"icon"		"8708c113e3446627e0601e817af240ce467a8236"
+		"logo"		"0102f7d11fbcb6c3b43ebb8ae5fc146d2ce8c4fe"
+		"logo_small"		"0102f7d11fbcb6c3b43ebb8ae5fc146d2ce8c4fe_thumb"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"69.1860465116279"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"69.1860465116279"
+					"height_pct"		"100"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1656425868"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SHK Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SHK Interactive"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1652743200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1623440"
+		"store_tags"
+		{
+			"0"		"1664"
+			"1"		"3968"
+			"2"		"5537"
+			"3"		"16689"
+			"4"		"3839"
+			"5"		"19"
+			"6"		"1625"
+			"7"		"6129"
+			"8"		"1663"
+			"9"		"492"
+			"10"		"597"
+			"11"		"5395"
+			"12"		"4191"
+			"13"		"7250"
+			"14"		"4182"
+			"15"		"21"
+			"16"		"4175"
+			"17"		"5984"
+			"18"		"1738"
+			"19"		"4345"
+		}
+		"review_score"		"7"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"SHK Interactive"
+		"publisher"		"SHK Interactive"
+	}
+	"config"
+	{
+		"installdir"		"TimeBreaker"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TimeBreaker.exe"
+				"arguments"		"-dx12"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play in DirectX 12 version"
+					"french"		"Jouer en version DirectX 12"
+				}
+				"description"		"Play in DirectX 12 version"
+			}
+			"1"
+			{
+				"executable"		"TimeBreaker.exe"
+				"arguments"		"-dx11"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play in DirectX 11 version"
+					"french"		"Jouer en version DirectX 11"
+				}
+				"description"		"Play in DirectX 11 version"
+			}
+			"2"
+			{
+				"executable"		"TimeBreaker.exe"
+				"arguments"		"-vulkan"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play in Vulkan version"
+					"french"		"Jouer en version Vulkan"
+				}
+				"description"		"Play in Vulkan version"
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1623441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4802347928127495903"
+					"size"		"13759445861"
+					"download"		"13553852464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10482647"
+				"timeupdated"		"1675611549"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"TimeBreaker/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
