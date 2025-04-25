@@ -1,0 +1,216 @@
+"appinfo"
+{
+	"appid"		"539640"
+	"common"
+	{
+		"name"		"Racecar.io"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"9f47e87d7f4fb7d89d2034b8575a851886af7f52"
+		"logo_small"		"9f47e87d7f4fb7d89d2034b8575a851886af7f52_thumb"
+		"icon"		"cc4a0ce4ba56ed10b385f7d701f0826b8ddb4f76"
+		"clienttga"		"c3fc385ab9b008c79f81f7a150d0d9548aab0394"
+		"linuxclienticon"		"8d329b6166b7f6d2584cfd9bb4be5f045986511f"
+		"clienticon"		"ac86eb2e1f32346fd0e7dd7ea7afd9264301f387"
+		"clienticns"		"c0f1616d1827ec827809e428f6554ca2eb5709cc"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"metacritic_name"		"Racecar.io"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_42045d68f8bbf6b9185dc87e8c9594669e9b8b13.jpg"
+		"store_asset_mtime"		"1484280265"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kastriot Sulejmani"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Brayden Myers"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"KasSanity"
+			}
+		}
+		"primary_genre"		"29"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"29"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_2"		"1"
+			"category_20"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1476850253"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"539640"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"699"
+			"2"		"128"
+			"3"		"3859"
+		}
+		"review_score"		"5"
+		"review_percentage"		"57"
+	}
+	"extended"
+	{
+		"developer"		"Kastriot Sulejmani"
+		"publisher"		"KasSanity"
+		"homepage"		"http://www.kassanity.com"
+	}
+	"config"
+	{
+		"installdir"		"Racecar.io"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Racecar.io.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Racecar.io.app\\Contents\\MacOS\\Racecar.io"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"539641"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1554689270148541748"
+					"size"		"80909776"
+					"download"		"21531296"
+				}
+			}
+		}
+		"539642"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7365409496296374020"
+					"size"		"85765516"
+					"download"		"23007248"
+				}
+			}
+		}
+		"539643"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8032431416866357688"
+					"size"		"126924351"
+					"download"		"33710064"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1897550"
+				"timeupdated"		"1497729382"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Racecar.io"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Racecar.io"
+						"replace"		"Racecar.io"
+					}
+				}
+			}
+		}
+	}
+}
