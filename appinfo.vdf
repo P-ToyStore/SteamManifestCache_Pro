@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"670080"
+	"common"
+	{
+		"name"		"SuperLuminauts"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"4374633b10e9e8f4cd2fdd59444a953374f20977"
+		"logo_small"		"4374633b10e9e8f4cd2fdd59444a953374f20977_thumb"
+		"icon"		"5436456f554dba1f5ea00ee040d315bc9be0e6b8"
+		"clienticon"		"92b65f116b9aeb7161c22254023582eb50d8e129"
+		"clienttga"		"0813a28734920b6a11a29bf094ab63c6adce7af9"
+		"osextended"		"macos64"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"SuperLuminauts"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_3876d3af4fb9425a752668bab619934781d5fe99.jpg"
+		"store_asset_mtime"		"1613421636"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LampFire"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LampFire"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_37"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_24"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1504240051"
+		"community_hub_visible"		"1"
+		"gameid"		"670080"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"7368"
+		}
+		"review_score"		"4"
+		"review_percentage"		"27"
+	}
+	"extended"
+	{
+		"developer"		"LampFire"
+		"publisher"		"LampFire"
+		"homepage"		"https://www.SuperLuminauts.com"
+	}
+	"config"
+	{
+		"installdir"		"SuperLuminauts"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SuperLuminauts.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"SuperLuminauts.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"670081"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4807200077255596340"
+					"size"		"367420045"
+					"download"		"210410000"
+				}
+			}
+		}
+		"670082"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5642736632210150395"
+					"size"		"362830942"
+					"download"		"208205744"
+				}
+			}
+		}
+		"670083"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3064446790503081663"
+					"size"		"361272926"
+					"download"		"207809680"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6488852"
+				"timeupdated"		"1617564611"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SuperLuminauts"
+				"pattern"		"*.lua"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
