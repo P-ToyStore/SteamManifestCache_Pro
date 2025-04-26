@@ -1,0 +1,179 @@
+"appinfo"
+{
+	"appid"		"110400"
+	"common"
+	{
+		"name"		"inMomentum"
+		"icon"		"87324e8dfe4600bfba46b0726b152505d5b58c4d"
+		"clienttga"		"234c4732c44e7a6ed432bf8a5ce9418f688253ff"
+		"logo"		"ee589e79c3a00b5e0d43b8ab1552cc34b55c0009"
+		"logo_small"		"ee589e79c3a00b5e0d43b8ab1552cc34b55c0009_thumb"
+		"clienticon"		"145679dd57a0441e2b502cd3a05aa783d9feac8d"
+		"eulas"
+		{
+			"0"
+			{
+				"url"		"http://store.steampowered.com/eula/110400_eula"
+				"id"		"110400_eula"
+				"name"		"110400_eula"
+			}
+		}
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"inMomentum"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5773a31c8156ee0c9a91b8e1a6289be743f179ef.jpg"
+		"store_asset_mtime"		"1320437471"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Digital Arrow"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"White Rabbit Interactive"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"34"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1320088980"
+		"metacritic_score"		"59"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/inmomentum?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"110400"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"492"
+			"2"		"4036"
+			"3"		"1734"
+			"4"		"3839"
+			"5"		"3859"
+			"6"		"1625"
+			"7"		"4182"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Digital Arrow"
+		"gamedir"		"inmomentum"
+		"gamemanualurl"		"http://momentum-game.com/gameresource/InMomentumManual.pdf"
+		"homepage"		"http://www.momentum-game.com"
+		"icon"		""
+		"installscript"		"110400_install.vdf"
+		"launcheula"		"http://store.steampowered.com/eula/110400_eula"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"110401"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"White Rabbit Interactive"
+	}
+	"config"
+	{
+		"installscriptsignature"		"4fe69c29a4fc41d9337177e6db18bed0401c5008e36ea01b65cc3b52168d012e7388bb6c91096c9da545315f9fddaf0e478168a49e609e4b2924e4017ae94ab42b7b92be6f5f9f4ad1f09531c868932513471f3d1b248829272063c5fcb89eb5a85c1e15c0c3a43b918ebf33e4fb905dce973542355ca41949a57408b859091d"
+		"installscriptoverride"		"1"
+		"usemms"		""
+		"contenttype"		"3"
+		"installdir"		"inMomentum"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\IMGame.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\110400"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_x86.exe"
+				"command 1"		"/passive /promptrestart /showfinalerror"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\110400"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"net4"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\110400"
+				"process 1"		"%INSTALLDIR%\\Redist\\dotNetFx40_Full_x86_x64.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"110401"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2352129293903988580"
+					"size"		"800589463"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25896"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
