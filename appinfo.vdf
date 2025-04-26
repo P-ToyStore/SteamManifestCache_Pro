@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"222660"
+	"common"
+	{
+		"name"		"Retro/Grade"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"oslist"		"windows"
+		"logo"		"9ff2f07fdd3eee05782f2f8dfbe8ea3052cc7c93"
+		"logo_small"		"9ff2f07fdd3eee05782f2f8dfbe8ea3052cc7c93_thumb"
+		"icon"		"d2c8d0a9f120a5d684114c9f79e80c72668331a7"
+		"clienticon"		"cd6e6ca2d7bd8170324b6ba65ef98d265daf36d4"
+		"clienttga"		"79946abbcd9b043ca4b8716eb6b561086f386fa5"
+		"releasestate"		"released"
+		"metacritic_name"		"Retro/Grade"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_bbb78365044cb792fcd6125b51e7b39070bddb33.jpg"
+		"store_asset_mtime"		"1404856352"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"24 Caret Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"24 Caret Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"222660"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"1752"
+			"3"		"1621"
+			"4"		"4255"
+			"5"		"3942"
+			"6"		"4004"
+			"7"		"1756"
+			"8"		"1773"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"24 Caret Games"
+		"gamedir"		"ValveTestApp222660"
+		"homepage"		"http://www.retrogradegame.com"
+		"icon"		""
+		"languages"		"english,german,french,italian,spanish"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"24 Caret Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"RetroGrade"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RetroGrade.exe"
+				"description"		"Normal launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"1ebad8899a31717e14c707e439cdae1cc45792cbf982763c65e28daaffa0bbb18d41fb7a5fd95d1c6686957eb7d38280a6ec72ebd2d78c7a595c25cdbaa34cad23d1349c2eecb3397f5bed8905215f29868f228f774e343454e6768d86f55e9a6ac062ac112162cedfabf291a451d37833e571ad27a02cd1aca5b5791ace8a9a"
+		"installscriptoverride"		"1"
+		"steamcontrollertemplateindex"		"4"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\redist\\dxinstall\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"222661"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"668867075207046292"
+					"size"		"258534005"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,italian,spanish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"59325"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"5"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
