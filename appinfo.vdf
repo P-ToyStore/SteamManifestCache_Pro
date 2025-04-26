@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"228940"
+	"common"
+	{
+		"name"		"Carnage Racing"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"abbbb7057c55ea8e64631e713fc3715a25cdf3dc"
+		"logo_small"		"abbbb7057c55ea8e64631e713fc3715a25cdf3dc_thumb"
+		"icon"		"7c83fe1ce77f04418a0ff34bb7b82311322dcbf5"
+		"clienttga"		"be649620083e0f8bd28591aca449bfb83de59aed"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"brazilian"		"1"
+		}
+		"clienticon"		"c45e51132a04652a237bddc7c7ecb29b0fb684a6"
+		"clienticns"		"21c75777cc7a9c6efabbd3f0083295feade7d480"
+		"metacritic_name"		"Carnage Racing"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1c9e28890aa1a5acd9bf69b8e84a4807980371e1.jpg"
+		"store_asset_mtime"		"1385030707"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"publisher"
+				"name"		"Jagex"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_27"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1385059440"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"228940"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"19"
+			"2"		"3859"
+			"3"		"113"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"ValveTestApp228940"
+		"homepage"		"www.carnageracing.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Jagex"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Carnage Racing"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CarnageRacing.exe"
+				"description"		"Launch with Console"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CarnageRacing.app"
+				"description"		"Launch with Console"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228941"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"589011959909354740"
+					"size"		"2149481803"
+					"download"		"0"
+				}
+				"capture"
+				{
+					"gid"		"2712509719042976600"
+					"size"		"2150158391"
+					"download"		"0"
+				}
+				"staging"
+				{
+					"gid"		"7562647527244795727"
+					"size"		"2154554483"
+					"download"		"0"
+				}
+			}
+		}
+		"228942"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"98258426893884607"
+					"size"		"2154844954"
+					"download"		"0"
+				}
+				"capture"
+				{
+					"gid"		"1589961894857425371"
+					"size"		"2155520433"
+					"download"		"0"
+				}
+				"staging"
+				{
+					"gid"		"6194780133501670906"
+					"size"		"2165813258"
+					"download"		"0"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"142128"
+			}
+			"capture"
+			{
+				"buildid"		"144710"
+				"description"		"Marketing branch"
+			}
+			"staging"
+			{
+				"buildid"		"144937"
+				"description"		"Staging build branch"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+	}
+}
