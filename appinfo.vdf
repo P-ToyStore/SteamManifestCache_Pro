@@ -1,0 +1,443 @@
+"appinfo"
+{
+	"appid"		"55000"
+	"common"
+	{
+		"name"		"Flotilla"
+		"logo"		"e21b76267005bb2c4b2559af2ca9d5426dac9a48"
+		"logo_small"		"e21b76267005bb2c4b2559af2ca9d5426dac9a48_thumb"
+		"icon"		"96daf48f9a909cdeedfa2b5223470c45020e90b2"
+		"clienttga"		"5a1d0ff75ddabd1ef7a26ad6022917f995e45aa4"
+		"clienticon"		"88e53ec738ccbeba8ca364870c48f1cdc2df47a7"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticns"		"40b68154eb9c7e59b8a9cad5a6c38b4e15014825"
+		"linuxclienticon"		"f618a0d73d58ebfa4927be6c3077fd3d823fdf36"
+		"osextended"		"macos64"
+		"type"		"game"
+		"metacritic_name"		"Flotilla"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1652071873"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blendo Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Blendo Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Blendo Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_18"		"1"
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1269846000"
+		"steam_release_date"		"1271802000"
+		"metacritic_score"		"72"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/flotilla?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"55000"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"3959"
+			"2"		"3834"
+			"3"		"1677"
+			"4"		"3942"
+			"5"		"4136"
+			"6"		"16598"
+			"7"		"1716"
+			"8"		"4191"
+			"9"		"1742"
+			"10"		"1741"
+			"11"		"14139"
+			"12"		"5125"
+			"13"		"19"
+			"14"		"4325"
+			"15"		"1755"
+			"16"		"1708"
+			"17"		"21"
+			"18"		"1685"
+			"19"		"1775"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Blendo Games"
+		"gamedir"		"Flotilla"
+		"homepage"		"http://www.blendogames.com/flotilla"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"55001"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Blendo Games"
+		"gamemanualurl"		"https://store.steampowered.com/manual/55000/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Flotilla"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Flotilla.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./Flotilla"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Flotilla.app/Contents/MacOS/Flotilla"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"3009976402"
+			{
+				"controller_type"		"controller_neptune"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"55001"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"167261428972550581"
+					"size"		"46591606"
+					"download"		"36766496"
+				}
+				"linux32"
+				{
+					"gid"		"2952921402731836017"
+					"size"		"45202756"
+					"download"		"36443856"
+				}
+				"nextversion"
+				{
+					"gid"		"5664159225354588018"
+					"size"		"46591088"
+					"download"		"36765520"
+				}
+				"prev_build"
+				{
+					"gid"		"7971712481863750153"
+					"size"		"45202244"
+					"download"		"36443664"
+				}
+				"xna3_legacy"
+				{
+					"gid"		"6581418429982188761"
+					"size"		"90698805"
+					"download"		"0"
+				}
+			}
+		}
+		"55002"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3248135805637759669"
+					"size"		"78485204"
+					"download"		"45399840"
+				}
+				"linux32"
+				{
+					"gid"		"7485123207899486329"
+					"size"		"76389209"
+					"download"		"44162240"
+				}
+				"nextversion"
+				{
+					"gid"		"4283125757370430231"
+					"size"		"77227466"
+					"download"		"44989104"
+				}
+				"prev_build"
+				{
+					"gid"		"5585564631525857942"
+					"size"		"76388697"
+					"download"		"44162048"
+				}
+				"xna3_legacy"
+				{
+					"gid"		"5585564631525857942"
+					"size"		"76388697"
+					"download"		"44162048"
+				}
+			}
+		}
+		"55003"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"737760183643160185"
+					"size"		"83495476"
+					"download"		"45584272"
+				}
+				"linux32"
+				{
+					"gid"		"4170577465568764655"
+					"size"		"66478585"
+					"download"		"41606912"
+				}
+				"nextversion"
+				{
+					"gid"		"85053137804740498"
+					"size"		"66348898"
+					"download"		"41591632"
+				}
+				"prev_build"
+				{
+					"gid"		"8684944887868352800"
+					"size"		"66478073"
+					"download"		"41606720"
+				}
+				"xna3_legacy"
+				{
+					"gid"		"8684944887868352800"
+					"size"		"66478073"
+					"download"		"41606720"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12090120"
+				"timeupdated"		"1693678736"
+			}
+			"linux32"
+			{
+				"buildid"		"3736809"
+				"description"		"32-bit Linux (Legacy)"
+				"timeupdated"		"1609455099"
+			}
+			"nextversion"
+			{
+				"buildid"		"12096444"
+				"description"		"Next Version"
+				"timeupdated"		"1693672830"
+			}
+			"prev_build"
+			{
+				"buildid"		"7110918"
+				"description"		"Previous build"
+				"timeupdated"		"1693671645"
+			}
+			"xna3_legacy"
+			{
+				"buildid"		"12004290"
+				"description"		"Original 2012 build"
+				"timeupdated"		"1692716441"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"SavedGames/Flotilla"
+				"pattern"		"*.dat"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgDataHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SavedGames/Flotilla"
+						"replace"		"Flotilla"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SavedGames/Flotilla"
+						"replace"		"Flotilla"
+					}
+				}
+			}
+		}
+	}
+}
