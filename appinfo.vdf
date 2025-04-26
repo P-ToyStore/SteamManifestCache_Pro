@@ -1,0 +1,287 @@
+"appinfo"
+{
+	"appid"		"341860"
+	"common"
+	{
+		"name"		"SickBrick"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"e83f04ce297d15b667ca74d554c22ea6f80d4f10"
+		"clienttga"		"a58af4dd13bcf1e9fb2bf2ed5e690ee7bc7a1fa0"
+		"icon"		"497d9daa7fe157b972bf052ab5a0eb13af8f3647"
+		"clienticns"		"681aa9b398a6774bb0051d467bc1e2d3f3eaacc5"
+		"logo"		"9a8ee8bffba9ef80d97ea8aee1cbcc0a542ad94f"
+		"logo_small"		"9a8ee8bffba9ef80d97ea8aee1cbcc0a542ad94f_thumb"
+		"releasestate"		"released"
+		"osarch"		""
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"SickBrick"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5a4b77a553ffcbc18370111a76d13a3b435700ef.jpg"
+		"store_asset_mtime"		"1494839334"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Maxwolf"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Fox"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Maxwolf"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Fox"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1422604800"
+		"steam_release_date"		"1422648060"
+		"community_hub_visible"		"1"
+		"gameid"		"341860"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"21"
+			"3"		"1663"
+			"4"		"3942"
+			"5"		"4234"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Maxwolf"
+		"publisher"		"Maxwolf"
+		"homepage"		"https://sickbrick.ca"
+		"listofdlc"		"571300"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SickBrick"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SickBrick.exe"
+				"description"		"SickBrick"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SickBrick.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"SickBrick.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"SickBrick.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"0"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"341861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5250388342056324934"
+					"size"		"3408940537"
+					"download"		"1014561936"
+				}
+			}
+		}
+		"341864"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3143485599378800240"
+					"size"		"3414109689"
+					"download"		"1016062080"
+				}
+			}
+		}
+		"341863"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9061168533685872502"
+					"size"		"3445509466"
+					"download"		"1021316800"
+				}
+			}
+		}
+		"341862"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8189670562940622137"
+					"size"		"3448691052"
+					"download"		"1025172416"
+				}
+			}
+		}
+		"571300"
+		{
+			"dlcappid"		"571300"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6215282669126795220"
+					"size"		"31731754"
+					"download"		"31747408"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1921410"
+				"timeupdated"		"1498628266"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Maxwolf\\SickBrick"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Maxwolf/SickBrick"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"3"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		".config/unity3d/Maxwolf/SickBrick"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
