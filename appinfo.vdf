@@ -1,0 +1,272 @@
+"appinfo"
+{
+	"appid"		"774561"
+	"common"
+	{
+		"name"		"Rym 9000"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienttga"		"71a9d18b9a10bce73ff215c5408962c76ffc00c3"
+		"linuxclienticon"		"58b0e58b76a78fa11a1d61ac58e07a5c9f45d3e6"
+		"clienticns"		"4e6aaf6f453ad5833003b5feacc3093553e41b81"
+		"logo"		"f7ba12bb12fdd3e7dda08e75a99326b4bdb312aa"
+		"logo_small"		"f7ba12bb12fdd3e7dda08e75a99326b4bdb312aa_thumb"
+		"icon"		"5b1bf21c648987b1089f6d5675ce1175d5041c73"
+		"clienticon"		"b6999fdd33e6ba736cf64f05fe8f46147aafa172"
+		"releasestate"		"released"
+		"osextended"		"macos64"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Rym 9000"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a7b0b37a3eb6c14eb2188aac1a6c16ab6b37861a.jpg"
+		"store_asset_mtime"		"1666985396"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sonoshee"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sonoshee"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1516042821"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"774561"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+			"3"		"4255"
+			"4"		"3871"
+			"5"		"4885"
+			"6"		"1774"
+			"7"		"4821"
+			"8"		"3964"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"Sonoshee"
+		"publisher"		"Sonoshee"
+		"homepage"		"https://sonoshee.itch.io/rym9k"
+	}
+	"config"
+	{
+		"installdir"		"Rym 9000"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Rym 9000.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Rym 9000.x86"
+				"arguments"		"-force-opengl"
+				"description"		"Launch (32bits)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Rym 9000.x86_64"
+				"arguments"		"-force-opengl"
+				"description"		"Launch (64bits)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Rym 9000.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"baselanguages"		"english"
+		"774562"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5467306358251276850"
+					"size"		"404538210"
+					"download"		"202289808"
+				}
+			}
+		}
+		"774563"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5331490056205770483"
+					"size"		"409859426"
+					"download"		"203911184"
+				}
+			}
+		}
+		"774564"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8757392474501958894"
+					"size"		"453406865"
+					"download"		"217799264"
+				}
+			}
+		}
+		"774565"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4260566809815977328"
+					"size"		"453406865"
+					"download"		"217799264"
+				}
+			}
+		}
+		"774566"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8498266631187685563"
+					"size"		"452307049"
+					"download"		"215903008"
+				}
+			}
+		}
+		"774567"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6868815606306653808"
+					"size"		"452307049"
+					"download"		"215890640"
+				}
+			}
+		}
+		"785440"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5497769108077337742"
+					"size"		"594838535"
+					"download"		"461054688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2568432"
+				"timeupdated"		"1519931460"
+			}
+		}
+	}
+}
