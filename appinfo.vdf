@@ -1,0 +1,304 @@
+"appinfo"
+{
+	"appid"		"269730"
+	"common"
+	{
+		"name"		"The Golf Club"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienticon"		"89bd468109583d2dd8be4b5d54aaba6943ace21e"
+		"clienttga"		"2f41c6a58407bd135b9280978d4d9a683d33e543"
+		"icon"		"08a1718d60657d6024b969b9cda5fb5d2616e5f4"
+		"logo"		"d1251fffdb5519ed871113379d33b8742eb988ba"
+		"logo_small"		"d1251fffdb5519ed871113379d33b8742eb988ba_thumb"
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"269730_eula_1"
+				"name"		"The Golf Club EULA 1"
+				"url"		"http://store.steampowered.com//eula/269730_eula_1"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"portuguese"		"1"
+		}
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1651104000"
+			"tested_build_id"		"1881317"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"5"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"6"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"1"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"The Golf Club"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e437e951937e2a2049a4e1448d661218075fbd26.jpg"
+		"store_asset_mtime"		"1414507055"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"HB Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"HB Studios"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"PGA TOUR 2K"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_17"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1408453500"
+		"metacritic_score"		"70"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/the-golf-club?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"269730"
+		"store_tags"
+		{
+			"0"		"7038"
+			"1"		"701"
+			"2"		"599"
+			"3"		"4182"
+			"4"		"3859"
+			"5"		"8122"
+			"6"		"493"
+			"7"		"5125"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"HB Studios"
+		"publisher"		"HB Studios"
+		"homepage"		"http://thegolfclubgame.com"
+		"listofdlc"		"353820"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TheGolfClub"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"golf.exe"
+				"arguments"		"Server=AWS"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"golf.exe"
+				"arguments"		"-show-screen-selector Server=AWS"
+				"description"		"Launch Options"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollerconfigfileids"		"540195488"
+		"steamcontrollertemplateindex"		"1"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"269731"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1572978467351872272"
+					"size"		"3814040388"
+					"download"		"1707506448"
+				}
+				"32-bit"
+				{
+					"gid"		"1572978467351872272"
+					"size"		"3814040388"
+					"download"		"1707506448"
+				}
+				"local"
+				{
+					"gid"		"3658195669097147184"
+					"size"		"3810869636"
+					"download"		"1707425552"
+				}
+			}
+		}
+		"269732"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8272250900936772302"
+					"size"		"3817288004"
+					"download"		"1719285504"
+				}
+				"32-bit"
+				{
+					"gid"		"4142061269794605916"
+					"size"		"3814040388"
+					"download"		"1718329488"
+				}
+				"local"
+				{
+					"gid"		"5077427286398850504"
+					"size"		"3814117252"
+					"download"		"1719189664"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1881317"
+				"timeupdated"		"1497111686"
+			}
+			"32-bit"
+			{
+				"buildid"		"1881322"
+				"timeupdated"		"1497111699"
+			}
+			"local"
+			{
+				"buildid"		"906148"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
