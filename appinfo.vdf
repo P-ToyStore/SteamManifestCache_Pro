@@ -1,0 +1,295 @@
+"appinfo"
+{
+	"appid"		"211180"
+	"common"
+	{
+		"name"		"Unmechanical"
+		"type"		"Game"
+		"clienticon"		"9fd5789dca59aa8ad4591fee4798e9242863fecb"
+		"clienttga"		"0fd5e5b1271edf4c923e33c6dcc91973505fc633"
+		"icon"		"d092c97c31ce6d7eee7cc4fc0a1a3eafc7d72886"
+		"logo"		"2ac3bbf18f9fef3e601eaf303993d71836570890"
+		"logo_small"		"2ac3bbf18f9fef3e601eaf303993d71836570890_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"url"		"http://store.steampowered.com/eula/eula_211180"
+				"id"		"eula_211180"
+				"name"		"eula_211180"
+			}
+		}
+		"oslist"		"windows,macos,linux"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Unmechanical"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ad6ea69ce3432ee9d18fe29f196d596ab36a1554.jpg"
+		"store_asset_mtime"		"1356047745"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Talawa Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Teotl Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+			"russian"
+			{
+				"supported"		"1"
+			}
+			"portuguese"
+			{
+				"supported"		"1"
+			}
+			"polish"
+			{
+				"supported"		"1"
+			}
+			"danish"
+			{
+				"supported"		"1"
+			}
+			"dutch"
+			{
+				"supported"		"1"
+			}
+			"finnish"
+			{
+				"supported"		"1"
+			}
+			"swedish"
+			{
+				"supported"		"1"
+			}
+			"hungarian"
+			{
+				"supported"		"1"
+			}
+			"turkish"
+			{
+				"supported"		"1"
+			}
+		}
+		"metacritic_score"		"74"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/unmechanical?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"211180"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1664"
+			"2"		"21"
+			"3"		"597"
+			"4"		"3968"
+			"5"		"1625"
+			"6"		"5752"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Talawa Games"
+		"gamedir"		"Unmechanical"
+		"homepage"		"http://unmechanical.net/"
+		"icon"		""
+		"launcheula"		"http://store.steampowered.com/eula/eula_211180"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Teotl Studios"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Unmechanical"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/UDK.exe"
+				"arguments"		"-installed"
+				"workingdir"		"Binaries/Win32"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Binaries/Win32/UDKGame.exe"
+				"workingdir"		"Binaries/Win32"
+				"description"		"Play Unmechanical - Save in Steam installation folder"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Unmechanical.app/Contents/MacOS/UDKGame"
+				"arguments"		"-installed"
+				"description"		"Launch"
+				"workingdir"		"Unmechanical.app/Contents/MacOS"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Binaries/Linux/UDKGame-Linux"
+				"arguments"		"-installed"
+				"description"		"Launch"
+				"workingdir"		"Binaries/Linux"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"211181"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5120956326884255382"
+					"size"		"1334392849"
+					"download"		"735315776"
+				}
+			}
+		}
+		"211194"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2515493144061571421"
+					"size"		"1273214267"
+					"download"		"733526160"
+				}
+			}
+		}
+		"211195"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"432257102689070410"
+					"size"		"1583836813"
+					"download"		"823061504"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1988058"
+				"timeupdated"		"1501065806"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
