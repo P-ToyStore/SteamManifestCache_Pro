@@ -1,0 +1,382 @@
+"appinfo"
+{
+	"appid"		"224440"
+	"common"
+	{
+		"name"		"Folk Tale"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"224440_eula_0"
+				"name"		"Folk Tale EULA"
+				"url"		"http://store.steampowered.com/eula/224440_eula_0"
+			}
+		}
+		"logo"		"370b9387e1c8ecd4d364049d5bfc232922e3e7f5"
+		"logo_small"		"370b9387e1c8ecd4d364049d5bfc232922e3e7f5_thumb"
+		"icon"		"77204d41b34d4d9304e0472584135970a2d74fca"
+		"clienttga"		"f661b3fa5fdec8200a1d295506271c7d5e6d4530"
+		"clienticon"		"867c2b7f66294d44b6a9ed53e67ac2039f26184f"
+		"clienticns"		"0cf1cfe6eaea2fd78476ff0636e7c227a53ea033"
+		"linuxclienticon"		"39e10b16092dc5eed909ee468421ca8dd9aa7a14"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1685491200"
+			"tested_build_id"		"1727779"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-2"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Folk Tale"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_efdd0f9255130d5a700db44fcc2e9e50da8c0464.jpg"
+		"store_asset_mtime"		"1489158957"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Games Foundry"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Games Foundry "
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"28"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_30"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"224440"
+		"store_tags"
+		{
+			"0"		"4328"
+			"1"		"9"
+			"2"		"599"
+			"3"		"122"
+			"4"		"1684"
+			"5"		"3810"
+			"6"		"4172"
+			"7"		"492"
+			"8"		"493"
+			"9"		"1662"
+			"10"		"4182"
+			"11"		"8945"
+			"12"		"1676"
+			"13"		"1719"
+			"14"		"1643"
+			"15"		"12472"
+			"16"		"4057"
+			"17"		"6276"
+		}
+		"review_score"		"4"
+		"review_percentage"		"36"
+	}
+	"extended"
+	{
+		"developer"		"Games Foundry"
+		"gamedir"		"ValveTestApp224440"
+		"homepage"		"http://www.gamesfoundry.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Games Foundry "
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Folk Tale"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Folk Tale.exe"
+				"arguments"		"-force-d3d11"
+				"description"		"Play Folk Tale"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Folk Tale.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Folk Tale.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"Folk Tale (Older DirectX 9c)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Folk Tale.x84_64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"preloadonly"		"1"
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"224441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"499062313504989838"
+					"size"		"929691043"
+					"download"		"717105280"
+				}
+				"experimental"
+				{
+					"gid"		"499062313504989838"
+					"size"		"929691043"
+					"download"		"717105280"
+				}
+				"folktale(windows32-bit)"
+				{
+					"gid"		"6986738461133464371"
+					"size"		"1063975269"
+					"download"		"606183408"
+				}
+				"oldtutorial"
+				{
+					"gid"		"3434640767500512616"
+					"size"		"1544293500"
+					"download"		"902729088"
+				}
+			}
+		}
+		"224442"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8547750497997012139"
+					"size"		"944759111"
+					"download"		"711598480"
+				}
+				"experimental"
+				{
+					"gid"		"8547750497997012139"
+					"size"		"944759111"
+					"download"		"711598480"
+				}
+				"folktale(windows32-bit)"
+				{
+					"gid"		"6511867969589925693"
+					"size"		"1034851416"
+					"download"		"0"
+				}
+				"oldtutorial"
+				{
+					"gid"		"794436543566481928"
+					"size"		"1540485606"
+					"download"		"904239664"
+				}
+			}
+		}
+		"224443"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+		}
+		"224444"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1885521806658582286"
+					"size"		"934557619"
+					"download"		"720141648"
+				}
+				"experimental"
+				{
+					"gid"		"1885521806658582286"
+					"size"		"934557619"
+					"download"		"720141648"
+				}
+			}
+		}
+		"workshopdepot"		"224440"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1727779"
+				"timeupdated"		"1490973182"
+			}
+			"experimental"
+			{
+				"buildid"		"1727779"
+				"description"		"Release Candidates"
+				"timeupdated"		"1490969101"
+			}
+			"folktale(windows32-bit)"
+			{
+				"buildid"		"578219"
+				"description"		"Public Windows 32-bit Build"
+			}
+			"oldtutorial"
+			{
+				"buildid"		"511608"
+				"description"		"Original mini-campaign tutorial"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"204857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Folk Tale_Data/StreamingAssets/Data/Saves/Sessions"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
