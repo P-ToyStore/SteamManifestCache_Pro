@@ -1,0 +1,286 @@
+"appinfo"
+{
+	"appid"		"642020"
+	"common"
+	{
+		"name"		"Gordy and the Monster Moon"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"clienticon"		"2417f260957e1de9260b8b66cb1846c3d85f6d35"
+		"clienttga"		"2b74882e89a3f2c8791ed9929601d147011d3fae"
+		"icon"		"e8a81772c2baf330f50ae45457b939aac04147ee"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1696550400"
+			"tested_build_id"		"12313445"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50.93354829365746"
+				"height_pct"		"82.98611111111111"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50.93354829365746"
+					"height_pct"		"82.98611111111111"
+				}
+			}
+		}
+		"store_asset_mtime"		"1693438330"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Twinbeard"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Twinbeard"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_44"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1695993470"
+		"community_hub_visible"		"1"
+		"gameid"		"642020"
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"4106"
+			"2"		"3871"
+			"3"		"4726"
+			"4"		"4791"
+			"5"		"1667"
+			"6"		"7481"
+			"7"		"1695"
+			"8"		"19"
+			"9"		"3964"
+			"10"		"3942"
+			"11"		"5350"
+			"12"		"21"
+			"13"		"4182"
+			"14"		"4231"
+			"15"		"122"
+			"16"		"492"
+		}
+		"review_score"		"8"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Twinbeard"
+		"publisher"		"Twinbeard"
+	}
+	"config"
+	{
+		"installdir"		"Gordy and the Monster Moon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"gordy_windows\\gordy.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+			"1"
+			{
+				"executable"		"gordy_linux/gordy"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"gordy.app\\Contents\\MacOS\\gordy"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"642022"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2045181919578396629"
+					"size"		"2496213"
+					"download"		"857312"
+				}
+			}
+		}
+		"642023"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"763197711459761259"
+					"size"		"11031900"
+					"download"		"1301440"
+				}
+			}
+		}
+		"642024"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8289560601235584417"
+					"size"		"1693382"
+					"download"		"649792"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12439580"
+				"timeupdated"		"1697253041"
+			}
+		}
+	}
+}
