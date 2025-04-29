@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"232810"
+	"common"
+	{
+		"name"		"Godus"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"e2a7637399293a7d2406157e6e4b833d519526ec"
+		"logo_small"		"e2a7637399293a7d2406157e6e4b833d519526ec_thumb"
+		"icon"		"4ee4e78811f8600fa39bc4377129b124b63e42a1"
+		"clienttga"		"09d4c59d95767e489b958a2642082f30b4072099"
+		"clienticon"		"7fc839d5f963607ec2daa2d0b709f8513174ff5c"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Godus"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ef987d8844ce5260d5bd5cf8e16d43acb3657ff6.jpg"
+		"store_asset_mtime"		"1417028105"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"22cans"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"22cans Ltd."
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_14"		"1"
+			"category_33"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+		}
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"232810"
+		"store_tags"
+		{
+			"0"		"5300"
+			"1"		"9"
+			"2"		"599"
+			"3"		"492"
+			"4"		"5153"
+			"5"		"493"
+			"6"		"3810"
+			"7"		"597"
+			"8"		"4182"
+			"9"		"1695"
+			"10"		"3859"
+			"11"		"7113"
+			"12"		"4328"
+			"13"		"12472"
+			"14"		"21"
+			"15"		"4190"
+			"16"		"1721"
+		}
+		"review_score"		"4"
+		"review_percentage"		"24"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"22cans"
+		"gamedir"		"ValveTestApp232810"
+		"homepage"		"http://www.22cans.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"22cans Ltd."
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Godus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"./windows/Godus.exe"
+				"workingdir"		"./windows"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"./mac/godus.app/Contents/MacOS/godus"
+				"workingdir"		"./mac"
+				"description"		"Launch Mac Normal"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"551593557"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"0"
+		"232811"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3279066876688279003"
+					"size"		"951863094"
+					"download"		"356223296"
+				}
+			}
+		}
+		"232812"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2332645652706963362"
+					"size"		"1327946534"
+					"download"		"396214048"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"558834"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"30"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"prf*"
+				"pattern"		"*.bin"
+			}
+		}
+	}
+}
