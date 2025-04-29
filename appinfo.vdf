@@ -1,0 +1,181 @@
+"appinfo"
+{
+	"appid"		"677100"
+	"common"
+	{
+		"name"		"Valnir Rok Dedicated Server"
+		"type"		"Tool"
+		"parent"		"658980"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"clienttga"		"7d8fff3cac62b40d5889a7b5333e440d1f6c3ca3"
+		"clienticon"		"af07ee86649a105e4cbbde7567141d33bba112bb"
+		"icon"		"3ca54c1d09e7d98f67eb7046811780764fa89bec"
+		"logo"		"9faa2679bffaaa9917e1ca5f62bc4a0f373df2c4"
+		"logo_small"		"9faa2679bffaaa9917e1ca5f62bc4a0f373df2c4_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"677100"
+	}
+	"config"
+	{
+		"installdir"		"Valnir Rok Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SFS2X\\sfs2x-standalone.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"SFS2X\\sfs2x.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"677101"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1104941466853617464"
+					"size"		"1220241781"
+					"download"		"301035408"
+				}
+			}
+		}
+		"677102"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6713562120357825786"
+					"size"		"1180838757"
+					"download"		"288950576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6326194"
+				"timeupdated"		"1615140536"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
