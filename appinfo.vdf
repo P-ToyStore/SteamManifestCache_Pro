@@ -1,0 +1,304 @@
+"appinfo"
+{
+	"appid"		"207210"
+	"common"
+	{
+		"name"		"Tony Hawk's Pro Skater HD"
+		"type"		"Game"
+		"clienticon"		"1435f5ce03c420e43742562e33bf3e21f36a5da6"
+		"clienttga"		"76f552ae4e07a49e516a3ccc899138ddd87d2495"
+		"icon"		"ed1c93584f93bedf11433cea3fa636172ed692f8"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"logo"		"39c8aa430672043a990072aab4c3ac6f02db3e7c"
+		"logo_small"		"39c8aa430672043a990072aab4c3ac6f02db3e7c_thumb"
+		"metacritic_name"		"Tony Hawk's Pro Skater HD"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_52c6e26235f5f52cd6397d72b2f6a882b3731ff8.jpg"
+		"store_asset_mtime"		"1348015353"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Robomodo"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Activision"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1347987600"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"207210"
+		"store_tags"
+		{
+			"0"		"1753"
+			"1"		"701"
+			"2"		"5708"
+			"3"		"1773"
+			"4"		"96359"
+			"5"		"4182"
+			"6"		"599"
+			"7"		"1697"
+			"8"		"1693"
+			"9"		"1695"
+			"10"		"3859"
+			"11"		"1756"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Robomodo"
+		"gamedir"		"ValveTestApp207210"
+		"homepage"		"http://www.facebook.com/TonyHawksProSkaterHD"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Activision"
+		"listofdlc"		"207221"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tony Hawk's Pro Skater HD"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"binaries\\Win32\\THHDGame.exe"
+			}
+		}
+		"installscriptsignature"		"4c49047f2296f4265ab2e4c8b5d5c11152f0c355d16296967d537a7ba4a738767f12aba3758c0428f8b718bd9414fc89d13d63cab75d9a4b4d462313fbbc5c794597e56e8a99406b2255cb35b4152a1bfc34a025a8d99fc7e75b91de1f77c03b7ace9d05f2b905a25e5d908de5036abed29b1f4afce3ded8ca770a5ea0869347"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\activision\tony hawk's pro skater hd"
+			{
+				"string"
+				{
+					"installpath"		"%INSTALLDIR%"
+					"version"		"1.0"
+					"spexepath"		"%INSTALLDIR%\\Binaries\\Win32\\THHDGame.exe"
+					"english"
+					{
+						"language"		"ENU"
+					}
+					"french"
+					{
+						"language"		"FRA"
+					}
+					"italian"
+					{
+						"language"		"ITA"
+					}
+					"german"
+					{
+						"language"		"DEU"
+					}
+					"spanish"
+					{
+						"language"		"ESP"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\207210"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+			}
+			"dotnet_3_5_sp1"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\212580"
+				"process 1"		"%INSTALLDIR%\\Redist\\dotnetfx35_SP1.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\207210"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"207211"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3365017105492699611"
+					"size"		"15259136"
+					"download"		"0"
+				}
+			}
+		}
+		"207212"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3756676186535271997"
+					"size"		"1287161243"
+					"download"		"0"
+				}
+			}
+		}
+		"207213"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1029427801341102951"
+					"size"		"41547"
+					"download"		"0"
+				}
+			}
+		}
+		"207214"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4188282582516553578"
+					"size"		"41547"
+					"download"		"0"
+				}
+			}
+		}
+		"207215"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"577387424269011240"
+					"size"		"41547"
+					"download"		"0"
+				}
+			}
+		}
+		"207216"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"332017017774316728"
+					"size"		"41547"
+					"download"		"0"
+				}
+			}
+		}
+		"207221"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6192539392361303290"
+					"size"		"1011176873"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"207221"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"28616"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
