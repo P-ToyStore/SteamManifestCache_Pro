@@ -1,0 +1,301 @@
+"appinfo"
+{
+	"appid"		"629770"
+	"common"
+	{
+		"name"		"Tiny Echo"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienttga"		"9d213c29e2ee3dec7a1a8db8b0b5a020ef030ac8"
+		"clienticon"		"34eb83ebe3e43e9e97d65be286085360fe9ff746"
+		"icon"		"2ae29e1955a0d925fd83951227cb0701371969e9"
+		"logo"		"c9abadc4430e2f4c79a45565c9b364ebdef60a6d"
+		"logo_small"		"c9abadc4430e2f4c79a45565c9b364ebdef60a6d_thumb"
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1686700800"
+			"tested_build_id"		"4750485"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Tiny Echo"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"38.098016336056006"
+				"height_pct"		"38.221325100926144"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"38.098016336056006"
+					"height_pct"		"38.221325100926144"
+				}
+			}
+		}
+		"store_asset_mtime"		"1602954063"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Might and Delight"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Might and Delight"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1504187364"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"629770"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+			"3"		"1698"
+			"4"		"4166"
+			"5"		"4726"
+			"6"		"4182"
+			"7"		"1654"
+			"8"		"6815"
+			"9"		"4234"
+			"10"		"1664"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Might and Delight"
+		"publisher"		"Might and Delight"
+		"homepage"		"http://mightanddelight.com/"
+	}
+	"config"
+	{
+		"installdir"		"Tiny Echo"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TinyEcho.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TinyEcho.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"TinyEcho.x86"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"baselanguages"		"english"
+		"629771"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8340691473448202405"
+					"size"		"2606887695"
+					"download"		"478500976"
+				}
+			}
+		}
+		"629772"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"32"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"618303704146328928"
+					"size"		"2618350021"
+					"download"		"480928432"
+				}
+			}
+		}
+		"629773"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"860457408937435855"
+					"size"		"2617434280"
+					"download"		"480906368"
+				}
+			}
+		}
+		"629774"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1474104197086559599"
+					"size"		"2621730566"
+					"download"		"481716544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4750485"
+				"timeupdated"		"1583501310"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
