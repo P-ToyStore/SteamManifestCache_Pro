@@ -1,0 +1,159 @@
+"appinfo"
+{
+	"appid"		"285290"
+	"common"
+	{
+		"name"		"Little Pink Best Buds Prototype"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"icon"		"4bc28e1db9555dfbabc1869a13d73d8533ab4a1e"
+		"logo"		"35d23f47e84112f57544164bf84fcc132c6428a3"
+		"logo_small"		"35d23f47e84112f57544164bf84fcc132c6428a3_thumb"
+		"clienttga"		"211ee4de32f7e626cc0cd3e7d44585d33a066a14"
+		"clienticon"		"68264f97d255a5fd9603b5726606906b52da6bb2"
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1658958075"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"285290"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Little Pink Best Buds"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"description"		"Little Pink Best Buds!"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"-forcewindowed"
+				"description"		"Little Pink Best Buds! (windowed)"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"-lowqualitygfx"
+				"description"		"Little Pink Best Buds! (lower quality)"
+			}
+			"3"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"-lowqualitygfx -forcewindowed"
+				"description"		"Little Pink Best Buds! (lower quality, windowed)"
+			}
+			"4"
+			{
+				"executable"		"LPBB_README.txt"
+				"description"		"Read Me!"
+			}
+		}
+	}
+	"depots"
+	{
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"285291"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"459165502222461660"
+					"size"		"307530676"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"208181"
+			}
+		}
+	}
+}
