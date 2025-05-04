@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"203560"
+	"common"
+	{
+		"name"		"Containment: The Zombie Puzzler"
+		"type"		"Game"
+		"logo"		"33c0e59afaaab3ae426cddded0e27aae7f37771d"
+		"logo_small"		"33c0e59afaaab3ae426cddded0e27aae7f37771d_thumb"
+		"icon"		"5fc00052457f3f8c0117478302a944c8c3f6f089"
+		"clienttga"		"9e0c74b6102c7b39943411af033d583ef6136fa4"
+		"clienticon"		"56d1b646cb5acd1a0321b3e7552dbae35a640301"
+		"oslist"		"windows,macos,linux"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Containment: The Zombie Puzzler"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0de29b7c88a4fb8ce5dee21993bfd0d1c7eaf4de.jpg"
+		"store_asset_mtime"		"1330667624"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bootsnake Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bootsnake Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1330711200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"203560"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"1664"
+			"3"		"1659"
+			"4"		"4182"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Bootsnake Games"
+		"gamedir"		"Containment"
+		"homepage"		"http://www.bootsnakegames.com/"
+		"icon"		""
+		"installscript"		"203560_install.vdf"
+		"installscript_macos"		"Containment.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"203561"
+		"primarycache_macos"		"203563"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Bootsnake Games"
+	}
+	"config"
+	{
+		"installscriptsignature"		"7bf833da8e67909d8e29b47f7ffc1e4c202efb0e36bb30fc149c3b36d557c9a1668097fa7155cebcb58731211d7f02b6eb0c191bd90986db1da1dd83daf3c1e83224439c18230ffc3a10c57627af1b9fc498d612713d3cfe15a6fa8f39ab76ce497eaec979aeabc199c5d662fb8b70c7c3b12af928121d35c337b5af02777404"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Containment.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Containment.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"containment.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Containment"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\203560"
+				"process 1"		"%INSTALLDIR%\\VCRedist\\vcredist_x86.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"203563"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"166887337513368624"
+					"size"		"566763878"
+					"download"		"36547783568"
+				}
+			}
+		}
+		"203561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5641038084017158739"
+					"size"		"577119858"
+					"download"		"1187595501949"
+				}
+			}
+		}
+		"203564"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8543781969161276834"
+					"size"		"560912606"
+					"download"		"461595106972"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"374911"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"hidecloudui"		"0"
+	}
+}
