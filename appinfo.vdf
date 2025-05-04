@@ -1,0 +1,311 @@
+"appinfo"
+{
+	"appid"		"200490"
+	"common"
+	{
+		"name"		"Memento Mori"
+		"type"		"Game"
+		"logo"		"8f721dc08889bc1d4829c6c184bc71c96baf0d94"
+		"logo_small"		"8f721dc08889bc1d4829c6c184bc71c96baf0d94_thumb"
+		"clienticon"		"5a3283ea40114ce21b8c16862b3e1dc231112c95"
+		"clienttga"		"64046fa89ef2377aed92a397e30c396156935f65"
+		"icon"		"e852c68455b1b194956eec195394f71fa0c24630"
+		"metacritic_name"		"Memento Mori"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"91.44282328109392"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"91.44282328109392"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1582123113"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bohemia Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bohemia Interactive"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Memento Mori"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"czech"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"metacritic_score"		"66"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/memento-mori?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"200490"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"4182"
+			"3"		"7208"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"developer"		"Bohemia Interactive"
+		"developer_url"		"http://www.centauriproduction.com/mementomori.php"
+		"gamedir"		"ValveTestApp200490"
+		"gamemanualurl"		"http://store.steampowered.com/manual/200490/"
+		"homepage"		"http://www.centauriproduction.com/mementomori.php"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Bohemia Interactive"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Memento Mori"
+		"installscriptsignature"		"7578e2f8df7eb2f02132cf4dfb9eee63d7e98a337c790269baca28ba7804f50f6e963fdb10f7e36040afd00942bf4cdb54e3a3e51bfb7e00d27025f4436461d7b3ecbcc68f3a91ebd93c0f30ca7662c770607eb43abd75ee9e81b77648b95f7e5928e16cd849c4c62a076b098ce293128510031b78edbc0c1a89175af53b085f"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"run_game.cmd"
+				"description"		"Play game"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptoverride"		"1"
+		"externalregistrationurl"
+		{
+			"english"		"http://www.centauriproduction.com/mementomori.php"
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"description"		"Microsoft DirectX for Windows"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"wmfdist"
+			{
+				"process 1"		"%INSTALLDIR%\\WMFdist\\WMFdist95.exe"
+				"description"		"Windows Media Component"
+				"command 1"		"/Q:A"
+				"nocleanup"		"1"
+			}
+			"officialgamegroup"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\200490"
+				"description"		"Official Game Group"
+				"process 1"		"%INSTALLDIR%\\MM1_OGG.cmd"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"1"
+			}
+		}
+		"ea oreg"
+		{
+			"string"
+			{
+				"english"
+				{
+					"url"		"http://www.centauriproduction.com/mementomori.php"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"200491"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8246817962626202969"
+					"size"		"2264599631"
+					"download"		"0"
+				}
+			}
+		}
+		"200492"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7429627344081162361"
+					"size"		"155778953"
+					"download"		"0"
+				}
+			}
+		}
+		"200493"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2265202274048535987"
+					"size"		"159341707"
+					"download"		"0"
+				}
+			}
+		}
+		"200494"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5360979892325911347"
+					"size"		"125197829"
+					"download"		"0"
+				}
+			}
+		}
+		"200495"
+		{
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"817778868025290752"
+					"size"		"211750638"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24525"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+	}
+}
