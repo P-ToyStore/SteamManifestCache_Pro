@@ -1,0 +1,241 @@
+"appinfo"
+{
+	"appid"		"95000"
+	"common"
+	{
+		"name"		"Super Splatters"
+		"oslist"		"windows,macos,linux"
+		"logo"		"2a8d9a529dfeb28cce833e76aaa2d799100c0607"
+		"logo_small"		"2a8d9a529dfeb28cce833e76aaa2d799100c0607_thumb"
+		"icon"		"5cd9940728999df0afb677ce73baa16e3e8a3995"
+		"clienttga"		"92564c1c4dc211ae1702dc55c60a5801008cae33"
+		"clienticon"		"3e6e328b6a962af02445a5b5b936ca18e91ffcf6"
+		"type"		"Game"
+		"clienticns"		"5774a2625f888c0b39108aee239fc61e741970bc"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Super Splatters"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_eabd617aa8205273009c3a64c3b570bcbc9767c0.jpg"
+		"store_asset_mtime"		"1444137438"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SpikySnail"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SpikySnail"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1372266000"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/super-splatters?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"95000"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"19"
+			"3"		"1773"
+			"4"		"1664"
+			"5"		"3968"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"SpikySnail"
+		"gamedir"		"ValveTestApp95000"
+		"homepage"		"http://spikysnail.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"SpikySnail"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SuperSplatters"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Splatters.exe"
+				"description"		"Launch with Console"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SuperSplatters.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Splatters.bin.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"RunGameNoSteamRT.sh"
+				"description"		"No Steam Runtime Mode"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"95020"
+		{
+		}
+		"95001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1717067412931434046"
+					"size"		"621322268"
+					"download"		"616432608"
+				}
+				"local"
+				{
+					"gid"		"2432505670260939454"
+					"size"		"308925259"
+					"download"		"0"
+				}
+			}
+		}
+		"95002"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1278265944760054643"
+					"size"		"465047358"
+					"download"		"423265360"
+				}
+			}
+		}
+		"95003"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"673719999203585259"
+					"size"		"489460613"
+					"download"		"473863952"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"599616"
+			}
+			"local"
+			{
+				"buildid"		"41218"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
