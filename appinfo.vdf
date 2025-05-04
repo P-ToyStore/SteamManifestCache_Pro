@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"105300"
+	"common"
+	{
+		"name"		"Critical Mass"
+		"clienticon"		"d59fed4e3ae4d6077f9c25c91793671b55701ab7"
+		"clienttga"		"e6e403f1282e895840abc4885fd8cea8b5ded767"
+		"icon"		"635ef5756892b58c93f436452ab61f7447373acd"
+		"logo"		"18a7a412b1356bbb907ad3deb22ea5104cbbbbab"
+		"logo_small"		"18a7a412b1356bbb907ad3deb22ea5104cbbbbab_thumb"
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1707782400"
+			"tested_build_id"		"25836"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Critical Mass"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_079d1826ba05a220d9787783d3d9f57844dd6d69.jpg"
+		"store_asset_mtime"		"1308589525"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Manic Game Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Manic Game Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1308589200"
+		"metacritic_score"		"81"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/critical-mass?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"105300"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"1664"
+			"3"		"4182"
+			"4"		"1665"
+		}
+		"review_score"		"5"
+		"review_percentage"		"69"
+	}
+	"extended"
+	{
+		"developer"		"Manic Game Studios"
+		"gamedir"		"Critical Mass"
+		"homepage"		"http://www.criticalmassgame.com"
+		"icon"		""
+		"installscript"		"install.vdf"
+		"installscript_macos"		"CriticalMassSteam.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"105301"
+		"primarycache_macos"		"105302"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Manic Game Studios"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Critical Mass"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CriticalMass.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CriticalMassSteam.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"105302"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8590293496786710034"
+					"size"		"47356243"
+					"download"		"0"
+				}
+			}
+		}
+		"105301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7847668271913552122"
+					"size"		"29114495"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25836"
+			}
+		}
+	}
+}
