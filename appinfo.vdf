@@ -1,0 +1,287 @@
+"appinfo"
+{
+	"appid"		"862480"
+	"common"
+	{
+		"name"		"The Spiral Scouts"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"f4a7aa1de703411212be1aa05ccb2a0c411ba46a"
+		"logo_small"		"f4a7aa1de703411212be1aa05ccb2a0c411ba46a_thumb"
+		"icon"		"8bac514bfc134f0387263a38d1fb877628906052"
+		"clienttga"		"032cd95f55e7c440a39493e62148a640c6c679aa"
+		"clienticon"		"731bb425daea5ecaa03e7c659e0d2e4b7140c72d"
+		"clienticns"		"5d72231e3243c54deaad2e513bb51c7a216fb847"
+		"osextended"		"macos64"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1645747200"
+			"tested_build_id"		"3007923"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+			}
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1645569375"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cantaloupe Kids"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Cantaloupe Kids"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1531414477"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"862480"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"1664"
+			"3"		"1719"
+			"4"		"7208"
+			"5"		"4136"
+			"6"		"5611"
+			"7"		"4726"
+			"8"		"12095"
+		}
+		"review_score"		"8"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Cantaloupe Kids"
+		"publisher"		"Cantaloupe Kids"
+	}
+	"config"
+	{
+		"installdir"		"The Spiral Scouts"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheSpiralScouts.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"TheSpiralScouts.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"TheSpiralScouts.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"862481"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6146611116129098513"
+					"size"		"1189345486"
+					"download"		"182504480"
+				}
+			}
+		}
+		"862482"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"466990689072960529"
+					"size"		"1193605846"
+					"download"		"183733952"
+				}
+			}
+		}
+		"862483"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1660781589349726867"
+					"size"		"1205076714"
+					"download"		"185175680"
+				}
+			}
+		}
+		"917620"
+		{
+			"dlcappid"		"917620"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3007923"
+				"timeupdated"		"1533512853"
+			}
+		}
+	}
+}
