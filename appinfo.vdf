@@ -1,0 +1,233 @@
+"appinfo"
+{
+	"appid"		"312310"
+	"common"
+	{
+		"name"		"Ensign-1"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"42e38608e2e80c66b6a35616d164e3038421916e"
+		"logo_small"		"42e38608e2e80c66b6a35616d164e3038421916e_thumb"
+		"clienttga"		"8fe459e4eee5d73467469a4016c29bd16af23d64"
+		"icon"		"d584a0fc9a6b6b82ea9d0f21363596e8aa9af699"
+		"clienticon"		"211bb8eef714dbea3041651777c970934c711943"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ensign-1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_556ac24302676cfa7dcd64103a22c18586d2c0d2.jpg"
+		"store_asset_mtime"		"1404906778"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Only Human Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Only Human Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_17"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1524526321"
+		"community_hub_visible"		"1"
+		"gameid"		"312310"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"599"
+		}
+		"review_score"		"4"
+		"review_percentage"		"26"
+	}
+	"extended"
+	{
+		"developer"		"Only Human Studios"
+		"publisher"		"Only Human Studios"
+		"homepage"		"https://www.onlyhumanstudios.net/ensign-1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Ensign-1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ender3.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Ensign32"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Ensign64"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"SawkrenServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"SawkrenServer32"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"5"
+			{
+				"executable"		"SawkrenServer64"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"312311"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7262491375687138536"
+					"size"		"272931851"
+					"download"		"154597952"
+				}
+			}
+		}
+		"312312"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1159296810708732522"
+					"size"		"275459095"
+					"download"		"144191856"
+				}
+			}
+		}
+		"312313"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9186153090334890293"
+					"size"		"275998027"
+					"download"		"144230464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1512307"
+				"timeupdated"		"1481499309"
+			}
+		}
+	}
+}
