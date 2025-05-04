@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"111400"
+	"common"
+	{
+		"name"		"Bunch Of Heroes"
+		"type"		"Game"
+		"logo"		"50f9c2fc75304598e5f1da3e7e4377945c3c4fcd"
+		"logo_small"		"50f9c2fc75304598e5f1da3e7e4377945c3c4fcd_thumb"
+		"icon"		"591578840823f63734ed517ebdaa219fc3acb2af"
+		"clienticon"		"4c6d6f6cd88137df665ffa66a89f5ceedfa1a36e"
+		"clienttga"		"2907f72a68569d3198b4eb51e7e96a8c9e239542"
+		"languages"
+		{
+			"english"		"1"
+			"spanish"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"czech"		"1"
+		}
+		"metacritic_name"		"Bunch of Heroes"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9b0142a3fd4f0d7c2389334533e9c8f4a9d3b2ae.jpg"
+		"store_asset_mtime"		"1315502859"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nimble Giant Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nimble Giant Entertainment"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1316624400"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"111400"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1685"
+			"3"		"1774"
+			"4"		"3859"
+			"5"		"4637"
+		}
+		"review_score"		"5"
+		"review_percentage"		"48"
+	}
+	"extended"
+	{
+		"developer"		"Nimble Giant Entertainment"
+		"gamedir"		"Bunch of Heroes"
+		"homepage"		"http://www.bunchofheroes.com/"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"111401"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Nimble Giant Entertainment"
+		"listofdlc"		"111402,111403"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installscriptsignature"		"b086c13796b79471cd6869613f57a90aa36bb3931ef32b31daa571706ad6723a07c4680c4d3a4f25be5fc58973e5a15b09e875f85f4e67add65da4474672cee34699f58d2b470553a4870835cc4fb3659a3326ac6d157d545414c1e2b0476c52876d3ff37109d83fd69e597af2e625942f974182b4bc46fb2a8c46093a54c20a"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Bunch of Heroes"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+			}
+			"1"
+			{
+				"description"		"Setup keys"
+				"executable"		"keyconfig.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\ngdstudios\bunchofhheroes"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Game.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"4"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\111400"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"nocleanup"		"1"
+			}
+			"openal"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\111400"
+				"process 1"		"%INSTALLDIR%\\redist\\oalinst.exe"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\111400"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"111401"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8487068473252978630"
+					"size"		"818902839"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25917"
+			}
+		}
+	}
+}
