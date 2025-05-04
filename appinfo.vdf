@@ -1,0 +1,182 @@
+"appinfo"
+{
+	"appid"		"9960"
+	"common"
+	{
+		"name"		"Haunted House (2010)"
+		"clienticon"		"68bff1e015cc0955d74b37d28a0f923ac882e399"
+		"clienttga"		"dbd4be501627cb10be71c532818bdcd0cdaddd81"
+		"icon"		"754c93d816ff1f4cd921f5c9b0cc0f5a4b9ac6e1"
+		"logo"		"759d93cb951623d56c885293ce5fc3d4a551acd7"
+		"logo_small"		"759d93cb951623d56c885293ce5fc3d4a551acd7_thumb"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"9960_eula_0"
+				"name"		"Haunted House EULA"
+				"url"		"http://store.steampowered.com//eula/9960_eula_0"
+			}
+		}
+		"type"		"game"
+		"metacritic_name"		"Haunted House&amp;trade;"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b29b7b351578598039fca407212ceb22b5d40f52.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ImagineEngline"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1285722000"
+		"community_hub_visible"		"1"
+		"gameid"		"9960"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1667"
+		}
+		"review_score"		"5"
+		"review_percentage"		"46"
+	}
+	"extended"
+	{
+		"developer"		"ImagineEngline"
+		"gamedir"		"Haunted House"
+		"homepage"		"http://www.AtariHauntedHouse.com"
+		"icon"		""
+		"installscript"		"9960_install.vdf"
+		"languages"		"english,french,german"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"9961"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Atari"
+	}
+	"config"
+	{
+		"installscriptsignature"		"80c54dc2048850d9637be2cc6884bdef90db0599e9ba6e596557bfacc21442adc5a864657d6d538a6da3206710617b9533131f9807b2098fd9f6655e1e1aa0622b9ec3d5dded808fb9454c0d8bff22aa3157fa79b5651ea6196fc7f14a5d588ea904666ab7eb3b2db96eb8b807f80d4178aad1cbab17c5b4580c61ae4be76dd9"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Haunted House"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\atari\haunted house"
+			{
+				"string"
+				{
+					"install location"		"%INSTALLDIR%"
+					"version"		"116"
+					"region"		"NorthAmerica"
+					"english"
+					{
+						"language"		"1033"
+						"languageos"		"English"
+					}
+					"french"
+					{
+						"language"		"1036"
+						"languageos"		"French"
+					}
+					"german"
+					{
+						"language"		"1031"
+						"languageos"		"German"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"9961"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7370507087554264740"
+					"size"		"430503300"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"baselanguages"		"english,french,german"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"252001"
+			}
+		}
+	}
+}
