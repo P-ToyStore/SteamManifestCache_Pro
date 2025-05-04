@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"603940"
+	"common"
+	{
+		"name"		"Pixel Shopkeeper"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienttga"		"4ccb29f928c8c5ff2983fcf15407fba5ef82b2b0"
+		"clienticon"		"d1236212dc758745466fc6e33640e0657f363c55"
+		"icon"		"5f9a9060d4f2db48c961c881a2bf708227b8b3a0"
+		"logo"		"9317c59a0da596fec5dbf665a04482536a617d96"
+		"logo_small"		"9317c59a0da596fec5dbf665a04482536a617d96_thumb"
+		"metacritic_name"		"Pixel Shopkeeper"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cad2a55eccfb86db8c40fce64b0629175da02038.jpg"
+		"store_asset_mtime"		"1667006867"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Pixel Prototype"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Pixel Prototype"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1500616779"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"603940"
+		"store_tags"
+		{
+			"0"		"12472"
+			"1"		"599"
+			"2"		"3964"
+			"3"		"8945"
+			"4"		"597"
+			"5"		"492"
+			"6"		"1664"
+			"7"		"4845"
+			"8"		"1698"
+			"9"		"1702"
+			"10"		"3871"
+			"11"		"4695"
+			"12"		"9"
+			"13"		"21"
+			"14"		"4182"
+			"15"		"379975"
+			"16"		"4004"
+			"17"		"5350"
+			"18"		"3810"
+			"19"		"4747"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Pixel Prototype"
+		"publisher"		"Pixel Prototype"
+		"homepage"		"http://www.pixelshopkeeper.com"
+	}
+	"config"
+	{
+		"installdir"		"Pixel Shopkeeper"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PixelShopkeeper.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Shopkeeper.app\\Contents\\MacOS\\Shopkeeper"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"PixelShopkeeper.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"603941"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8973975223552683520"
+					"size"		"107100425"
+					"download"		"54003872"
+				}
+				"x86_64"
+				{
+					"gid"		"1184157140459246282"
+					"size"		"107095210"
+					"download"		"54002400"
+				}
+			}
+		}
+		"603942"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3796817249575341422"
+					"size"		"120503965"
+					"download"		"56902992"
+				}
+				"x86_64"
+				{
+					"gid"		"3796817249575341422"
+					"size"		"120503965"
+					"download"		"56902992"
+				}
+			}
+		}
+		"603943"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2804522695096333281"
+					"size"		"121967238"
+					"download"		"57916656"
+				}
+				"x86_64"
+				{
+					"gid"		"2804522695096333281"
+					"size"		"121967238"
+					"download"		"57916656"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13087521"
+				"timeupdated"		"1704323185"
+			}
+			"x86_64"
+			{
+				"buildid"		"13094416"
+				"description"		"Early previews & beta features"
+				"timeupdated"		"1704393954"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"300000"
+		"maxnumfiles"		"12"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"PixelShopkeeper_Data/SaveData"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"SaveData"
+				"pattern"		"*"
+			}
+		}
+	}
+}
