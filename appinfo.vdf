@@ -1,0 +1,177 @@
+"appinfo"
+{
+	"appid"		"219070"
+	"common"
+	{
+		"name"		"Miner Wars Arena "
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"logo"		"9e9c931228a3f09be3d8419f2cbf3bb511d952c4"
+		"logo_small"		"9e9c931228a3f09be3d8419f2cbf3bb511d952c4_thumb"
+		"metacritic_name"		"Miner Wars Arena"
+		"small_capsule"
+		{
+			"english"		"a2961f21d2fa6fd798089df1c23d0ad1834a8bab/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2a5345db3c0ebc01ca94dcbe529033fa43887f5f.jpg"
+		"store_asset_mtime"		"1726583941"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Keen Software House"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Keen Software House"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1346173200"
+		"community_hub_visible"		"1"
+		"gameid"		"219070"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+		"review_score"		"4"
+		"review_percentage"		"36"
+	}
+	"extended"
+	{
+		"developer"		"Keen Software House"
+		"gamedir"		"ValveTestApp219070"
+		"homepage"		"http://arena.minerwars.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"validoslist"		"windows,macos"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Keen Software House"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Miner Wars Arena Special Edition"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Arena.exe"
+				"description"		"Play"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Arena.app"
+				"description"		"Play"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"installscriptsignature"		"3e633538801614f93d145c5b6b577ac099c09ea8e29b12e7e00fa30c2aa5df1fa7169c2021ba7424984dd9e72d1a6b31fd68b3415e5815504260a461f92d6b889f15420044fa0abcb27e74cd30ac1c7cc0796f1ecb159242cf4eda1d514da01f53aa1a721e87a1f477b3c5a09fc63bc82f35b683de16908b611a69a19397c269"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\valusoftcosmi\miner wars arena special edition"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Arena.exe"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\219070"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"219071"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"528705442360226256"
+					"size"		"298128207"
+					"download"		"0"
+				}
+			}
+		}
+		"219072"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1550550960825418473"
+					"size"		"198104726"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10851"
+			}
+		}
+	}
+}
