@@ -1,0 +1,218 @@
+"appinfo"
+{
+	"appid"		"49320"
+	"common"
+	{
+		"name"		"Woody Two-Legs Attack of the Zombie Pirates"
+		"logo"		"55509d9dc6b89dc79a5f8a204f130d2203cd30fe"
+		"logo_small"		"55509d9dc6b89dc79a5f8a204f130d2203cd30fe_thumb"
+		"icon"		"5f587713383e468c8f8e6a45ff560e9f507e630f"
+		"clienttga"		"801e8e6e3d768375873e43ed432bdc843294b278"
+		"clienticon"		"aa4d2f0723e8bff8dbdf6b1bbf1788858ec583a1"
+		"type"		"game"
+		"metacritic_name"		"Woody Two-Legs: Attack of the Zombie Pirates"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6ed941409bd3790fa67a10f6b7fe6b936199b4e2.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nitro Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nitro Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1288382400"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"49320"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1681"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Nitro Games"
+		"gamedir"		"Woody Two-Legs Halloween Special"
+		"homepage"		"http://www.paradoxplaza.com/games/commander-conquest-of-the-americas"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"49321"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Nitro Games"
+	}
+	"config"
+	{
+		"installscriptsignature"		"29c43a3a7bf11efbf60ff99cc1c5eb1f59d45672cd3041f5b5733a5f401ed578103b967c7f892e4cdc6293d7b4e65df806a8d9c358454f367bd06cc0f81aa7db527a8bda6526c017a9b7fc1d13e9dbf6eff8158be0637f90399dca550c4e9054b96d9026defba39ac72f8201fd857031d3b1306fa09818bcac16016e9514c6e7"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Woody Two-Legs Halloween Special"
+		"launch"
+		{
+			"0"
+			{
+				"description"		"Woody Two-Legs"
+				"executable"		"Woody.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\woody two-legs halloween special"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Woody.exe"
+				}
+			}
+		}
+		"run process"
+		{
+			"vcredist"
+			{
+				"process 1"		"%INSTALLDIR%\\Studio_Redistributable\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"description"		"Microsoft VC Redist Package"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"description"		"Microsoft DirectX"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"49322"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7874473186444688342"
+					"size"		"120390431"
+					"download"		"0"
+				}
+			}
+		}
+		"49321"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1464416800880244409"
+					"size"		"340864394"
+					"download"		"0"
+				}
+			}
+		}
+		"49323"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4862203446328767357"
+					"size"		"65134450"
+					"download"		"0"
+				}
+			}
+		}
+		"49324"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9191644252013253736"
+					"size"		"36996388"
+					"download"		"0"
+				}
+			}
+		}
+		"49325"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5584627905007173092"
+					"size"		"36953003"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21537"
+			}
+		}
+	}
+}
