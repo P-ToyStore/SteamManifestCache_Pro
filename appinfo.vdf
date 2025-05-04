@@ -1,0 +1,196 @@
+"appinfo"
+{
+	"appid"		"412410"
+	"common"
+	{
+		"name"		"Castle Chaos"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"bb09cd21bb02e187ba4fe285f7f005a3b6daacdc"
+		"logo_small"		"bb09cd21bb02e187ba4fe285f7f005a3b6daacdc_thumb"
+		"icon"		"d02c88f25aafb3131aabe02778958deec60aa69e"
+		"clienttga"		"1c6a62f6fec7f23eb649600b87bae82a90505c0f"
+		"clienticon"		"98fd3a1ad9c0d65b61b2b1efbcb1d6f7fef59e5e"
+		"releasestate"		"released"
+		"clienticns"		"63e671db186084f9ccdffa43408bf83ae4f05642"
+		"linuxclienticon"		"8d4ddbd32b45895ab075dbebdfafd47d4105f077"
+		"metacritic_name"		"Castle Chaos"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f12745a97886663d249bde3ce9eebe280c12cd96.jpg"
+		"store_asset_mtime"		"1445327326"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Odd Comet Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Odd Comet Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_24"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1449561600"
+		"steam_release_date"		"1449568827"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"412410"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"492"
+			"3"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"57"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Odd Comet Games"
+		"publisher"		"Odd Comet Games"
+		"homepage"		"http://www.oddcometgames.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Castle Chaos"
+		"steamcontrollertemplateindex"		"2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CastleChaos.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CastleChaos.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"CastleChaos.x86"
+				"arguments"		"-force-opengl"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"CastleChaos.x86_64"
+				"arguments"		"-force-opengl"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"412412"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7358996362058564001"
+					"size"		"43903081"
+					"download"		"11051136"
+				}
+			}
+		}
+		"412413"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7780751409693882843"
+					"size"		"82050339"
+					"download"		"22369808"
+				}
+			}
+		}
+		"412414"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6656695373370473411"
+					"size"		"53731586"
+					"download"		"12668624"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"908312"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
