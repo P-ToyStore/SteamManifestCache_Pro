@@ -1,0 +1,363 @@
+"appinfo"
+{
+	"appid"		"251370"
+	"common"
+	{
+		"name"		"Escape Goat"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"8b989cdbeed79d7113484bf6a9a5f4eff19d9dec"
+		"logo_small"		"8b989cdbeed79d7113484bf6a9a5f4eff19d9dec_thumb"
+		"icon"		"cc11ab1317bd34cd4a9f3a1025c69f898b7dcc80"
+		"clienticon"		"b4e7640ecbfe176f05004df5f786e2057854350d"
+		"clienttga"		"6c8a2e8549a39b31548bc3bab070802ed2102c6f"
+		"clienticns"		"b0c92f8f46d0a5bc5d95eb7343543848d03f464b"
+		"linuxclienticon"		"aa003c2838f8268d32a5ef92ada2c6ecd0f215f2"
+		"osarch"		""
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"test_timestamp"		"1668643200"
+			"tested_build_id"		"131020"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+			}
+		}
+		"metacritic_name"		"Escape Goat"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_027411f664a462cc80750135d2b4416479e935d9.jpg"
+		"store_asset_mtime"		"1667943923"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MagicalTimeBean"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"MagicalTimeBean"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_13"		"1"
+			"category_28"		"1"
+			"category_17"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1339657200"
+		"steam_release_date"		"1381335600"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"251370"
+		"store_tags"
+		{
+			"0"		"5537"
+			"1"		"492"
+			"2"		"1664"
+			"3"		"1625"
+			"4"		"3964"
+			"5"		"19"
+			"6"		"8122"
+			"7"		"3871"
+			"8"		"1756"
+			"9"		"4004"
+			"10"		"7481"
+			"11"		"4234"
+			"12"		"4182"
+			"13"		"4026"
+		}
+		"review_score"		"9"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"MagicalTimeBean"
+		"publisher"		"MagicalTimeBean"
+		"homepage"		"http://www.magicaltimebean.com/escape-goat"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Escape Goat"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"EscapeGoat.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./EscapeGoat"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Escape Goat.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"EscapeGoat.exe"
+				"arguments"		"-windowed"
+				"description"		"Launch (Windowed)"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"./EscapeGoat"
+				"arguments"		"-windowed"
+				"description"		"Launch (Windowed)"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"251371"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2765447758728034061"
+					"size"		"42835067"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"7709690589419709341"
+					"size"		"42836091"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"3940272839470165121"
+					"size"		"48589604"
+					"download"		"0"
+				}
+			}
+		}
+		"251372"
+		{
+			"shareddepottype"		"0"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8470980018131338365"
+					"size"		"68523089"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"5923712423533478443"
+					"size"		"68079098"
+					"download"		"41424208"
+				}
+			}
+		}
+		"251373"
+		{
+			"shareddepottype"		"0"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5498487567694017807"
+					"size"		"63548699"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"7808886627166748401"
+					"size"		"79398010"
+					"download"		"44037072"
+				}
+			}
+		}
+		"0"
+		{
+			"shareddepottype"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"131020"
+			}
+			"beta"
+			{
+				"buildid"		"6029157"
+				"description"		"beta version"
+				"timeupdated"		"1609452771"
+			}
+			"local"
+			{
+				"buildid"		"116270"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"4096000"
+		"maxnumfiles"		"69"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Escape Goat/Saved Games"
+				"pattern"		"*.save"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgDataHome"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
