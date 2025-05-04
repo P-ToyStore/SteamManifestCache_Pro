@@ -1,0 +1,186 @@
+"appinfo"
+{
+	"appid"		"246880"
+	"common"
+	{
+		"name"		"Recruits"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"2d209202ef060432aa6aae2f8798ea74e479e557"
+		"logo_small"		"2d209202ef060432aa6aae2f8798ea74e479e557_thumb"
+		"icon"		"c5e70b757996df93db0fb1c595655f4371c2ae52"
+		"clienttga"		"155e86be1231a9aa0d30c0fc9ea155df762b4ceb"
+		"clienticon"		"8f07fa06f20a79d246c7c4785cc005758e5b46d7"
+		"oslist"		"windows"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Recruits"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5611624a4c612540da04765d483705e157b89ad4.jpg"
+		"store_asset_mtime"		"1406783561"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Commotion Games Pty Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Commotion Games Pty Ltd"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1406846599"
+		"community_hub_visible"		"1"
+		"gameid"		"246880"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"493"
+			"3"		"4791"
+		}
+		"review_score"		"4"
+		"review_percentage"		"29"
+	}
+	"extended"
+	{
+		"developer"		"Commotion Games Pty Ltd"
+		"publisher"		"Commotion Games Pty Ltd"
+		"homepage"		"http://www.recruitsgame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Recruits"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/UDK.exe"
+				"description"		"Launch Game"
+				"workingdir"		"Binaries/Win32/"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"246881"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2003921553524378953"
+					"size"		"612390889"
+					"download"		"31433456766"
+				}
+				"64_bit_build"
+				{
+					"gid"		"2711861847678291847"
+					"size"		"630502841"
+					"download"		"4646657767"
+				}
+				"experimental"
+				{
+					"gid"		"2003921553524378953"
+					"size"		"612390889"
+					"download"		"31433456766"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"347100"
+			}
+			"64_bit_build"
+			{
+				"buildid"		"347098"
+			}
+			"experimental"
+			{
+				"buildid"		"347100"
+				"description"		"Be up to date with latest updates"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"5"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Binaries/Win32/SaveData/{64BitSteamID}"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
