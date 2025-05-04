@@ -1,0 +1,263 @@
+"appinfo"
+{
+	"appid"		"58540"
+	"common"
+	{
+		"name"		"Divinity II - The Dragon Knight Saga"
+		"clienticon"		"724bece750449f856c1e3bf68607e4258c0719b7"
+		"clienttga"		"dd3efaf066169d8a86a176c4ced503edaf77f58f"
+		"icon"		"9d05c9695be0f84d549388db650c46b302b46855"
+		"logo"		"3cbf667dfd01a44f7960f032e5886e86908e2805"
+		"logo_small"		"3cbf667dfd01a44f7960f032e5886e86908e2805_thumb"
+		"type"		"game"
+		"metacritic_name"		"Divinity II: The Dragon Knight Saga"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_719ebcf84193b4b6353cc3f11322a0dcc95c3c8e.jpg"
+		"store_asset_mtime"		"1303493490"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Larian Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Focus Home Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1288976400"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/divinity-ii-the-dragon-knight-saga?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"58540"
+		"review_score"		"8"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"cwdoverride"		"bin"
+		"developer"		"Larian Studios"
+		"gamedir"		"Divinity II - Dragon Knight Saga"
+		"gamemanualurl"		"http://store.steampowered.com/manual/58540/"
+		"homepage"		"http://www.divinity2-saga.com/"
+		"icon"		""
+		"installscript"		"58540_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"58541"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Focus Home Interactive"
+	}
+	"config"
+	{
+		"installscriptsignature"		"a3971efa830acb7e47fedc1f1b1182b5cd67457e0268efeccfb2b0040ff5b0b1b8ca015bc86bb07f8e19c69a3330fbd91aae7cc7d9dc9d4e059def42aad61b44dcb68cca3b09d34ed0064889372dd8b9e61a48f6cc910c3a2c9e08b75946bf2faa34473e5dee46a6ce828b31a43d95a035c41c3e1c8f3c08354155415e7ba7cb"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Divinity II - Dragon Knight Saga"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\Divinity2.exe"
+				"workingdir"		"bin"
+			}
+		}
+	}
+	"install"
+	{
+		"copy folders"
+		{
+			"shaders"
+			{
+				"srcfolder1"		"%INSTALLDIR%\\copy\\Shaders"
+				"dstfolder1"		"%ALLUSERSPROFILE%\\Divinity 2\\Shaders\\Generated"
+				"ignoreexitcode"		"1"
+			}
+			"profile"
+			{
+				"srcfolder1"		"%INSTALLDIR%\\copy\\Profile"
+				"dstfolder1"		"%userprofile%\\AppData\\Local\\Divinity 2\\Profile"
+				"ignoreexitcode"		"1"
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\58530"
+				"process 1"		"%INSTALLDIR%\\Support\\DirectX\\Feb2007\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vs80sp1"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\58530"
+				"process 1"		"%INSTALLDIR%\\Support\\VCRedist\\VS80sp1-redist_x86-4053.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+			}
+			"vs90sp1"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\58530"
+				"process 1"		"%INSTALLDIR%\\Support\\VCRedist\\VS90sp1-redist_x86-9.0.30729.17.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+			}
+			"physx version"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\AGEIA Technologies"
+				"process 1"		"%INSTALLDIR%\\Support\\PhysX\\PhysX_9.09.0428_SystemSoftware.exe"
+				"command 1"		"/passive"
+				"nocleanup"		"1"
+				"minimumhasrunvalue"		"9090428"
+			}
+		}
+	}
+	"depots"
+	{
+		"58541"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2992963517848141699"
+					"size"		"7907640714"
+					"download"		"0"
+				}
+			}
+		}
+		"58542"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8419295972824052328"
+					"size"		"6701688702"
+					"download"		"0"
+				}
+			}
+		}
+		"58543"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"722422090774285420"
+					"size"		"433848675"
+					"download"		"0"
+				}
+			}
+		}
+		"58544"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6743854404686820769"
+					"size"		"433976019"
+					"download"		"0"
+				}
+			}
+		}
+		"58545"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3589658197042657263"
+					"size"		"6548339111"
+					"download"		"0"
+				}
+			}
+		}
+		"58546"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"946750605075864371"
+					"size"		"404869633"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11588"
+			}
+		}
+	}
+}
