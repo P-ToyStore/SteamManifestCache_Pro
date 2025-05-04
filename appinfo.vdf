@@ -1,0 +1,239 @@
+"appinfo"
+{
+	"appid"		"1737760"
+	"common"
+	{
+		"name"		"Platonic"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"8226f4bfbce5595408ce39cb479b113ad6bf7023"
+		"logo_small"		"8226f4bfbce5595408ce39cb479b113ad6bf7023_thumb"
+		"icon"		"7b0699cf416ea1f7fe65a153d4a52e831268910e"
+		"clienticon"		"75143964fcf0f0021d80392c2e265c5e3e103435"
+		"clienttga"		"50e3345eae8c01e58352aa5cda56970048e24be4"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1651151361"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FidgetBear Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FidgetBear Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1652449253"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1737760"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1664"
+			"2"		"3834"
+			"3"		"6129"
+			"4"		"4026"
+			"5"		"5900"
+			"6"		"4166"
+			"7"		"30358"
+			"8"		"6869"
+			"9"		"3839"
+			"10"		"5716"
+			"11"		"4305"
+			"12"		"1695"
+			"13"		"1654"
+			"14"		"597"
+			"15"		"4191"
+			"16"		"15277"
+			"17"		"492"
+			"18"		"4182"
+			"19"		"7481"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"FidgetBear Games"
+		"publisher"		"FidgetBear Games"
+	}
+	"config"
+	{
+		"installdir"		"Platonic"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Platonic.exe"
+				"description_loc"
+				{
+					"english"		"platonic test app"
+				}
+				"description"		"platonic test app"
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"1737761"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7477136238494905727"
+					"size"		"330456112"
+					"download"		"101124256"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10200878"
+				"timeupdated"		"1671725419"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"FidgetBear Games/Platonic/saves"
+				"pattern"		"*.tau"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"FidgetBear Games/Platonic/saves"
+						"replace"		"FidgetBear Games/Platonic/saves"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgConfigHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"FidgetBear Games/Platonic/saves"
+						"replace"		"unity3d/FidgetBear Games/Platonic/saves"
+					}
+				}
+			}
+		}
+	}
+}
