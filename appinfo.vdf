@@ -1,0 +1,363 @@
+"appinfo"
+{
+	"appid"		"204560"
+	"common"
+	{
+		"name"		"Confrontation"
+		"type"		"Game"
+		"clienticon"		"0b838ae13ad0de1c7dde3c7991f7eebc1a4342d8"
+		"clienttga"		"73dabfcfd45886295cbc25b47fa84874d944824c"
+		"icon"		"e5e4c0d52604fd3e12821fe32e4849928fb5ccf7"
+		"logo"		"19c175f1941f932c75e7786b4ec089e38c666925"
+		"logo_small"		"19c175f1941f932c75e7786b4ec089e38c666925_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"czech"		"1"
+		}
+		"metacritic_name"		"Confrontation"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e2a5722d2774dafdc20991ade19ae90da887ff11.jpg"
+		"store_asset_mtime"		"1333736965"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cyanide Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Focus Home Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1333645200"
+		"metacritic_score"		"51"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/confrontation?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"204560"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"9"
+			"2"		"19"
+			"3"		"1684"
+			"4"		"21725"
+			"5"		"4182"
+		}
+		"review_score"		"4"
+		"review_percentage"		"25"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Cyanide Studio"
+		"gamedir"		"Confrontation"
+		"gamemanualurl"		"https://partner.steamgames.com/public/store/Manuals/204560/CONFRONTATION_manual_INT.pdf"
+		"homepage"		"https://www.cyanide-studio.com/confrontation"
+		"icon"		""
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp204560\\SteamKey"
+		"nodefaultenglishcontent"		"1"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"204561"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"supportscdkeycopytoclipboard"		"1"
+		"publisher"		"Focus Home Interactive"
+	}
+	"config"
+	{
+		"installscriptsignature"		"5e5df7b0391da108c3141880ef8cf2b6975e1d4e530b8f32a9d39d58aa549de76a78564fffb77a6a9e0de2e144d060d490b7a52a8028f50a4a4cbd2a9fffb64add83a7989175cec7221a6ccf82b52392d540f9fa424dabb2d0d066c6a8cf67c67ebe91911ac3f8172d72ea6c8b9e69dbc982d17f83b345c18fd79242013153a5"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Confrontation"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Confrontation.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\204560"
+				"process 1"		"%INSTALLDIR%\\DirectX 9.0c\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc redist 2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\204560"
+				"process 1"		"%INSTALLDIR%\\Visual Studio Redistribuable\\vcredist_x86_VS2008.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+			}
+		}
+		"run process on uninstall"
+		{
+			"revocation"
+			{
+				"process 1"		"acpc.exe"
+				"command 1"		"/lic:deactivate /nogui"
+			}
+		}
+	}
+	"depots"
+	{
+		"204561"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4441183622745615056"
+					"size"		"2655574081"
+					"download"		"0"
+				}
+			}
+		}
+		"204562"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2699267421961075473"
+					"size"		"153456031"
+					"download"		"0"
+				}
+			}
+		}
+		"204563"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6912030364175662638"
+					"size"		"147179992"
+					"download"		"0"
+				}
+			}
+		}
+		"204564"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"474483495645024894"
+					"size"		"153309881"
+					"download"		"0"
+				}
+			}
+		}
+		"204565"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1257240809942038426"
+					"size"		"151443455"
+					"download"		"0"
+				}
+			}
+		}
+		"204566"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4821139690374402342"
+					"size"		"153472407"
+					"download"		"0"
+				}
+			}
+		}
+		"204567"
+		{
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"663396574745728490"
+					"size"		"156064214"
+					"download"		"0"
+				}
+			}
+		}
+		"204568"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2902826977040857986"
+					"size"		"156858217"
+					"download"		"0"
+				}
+			}
+		}
+		"204569"
+		{
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6632460746388703315"
+					"size"		"153461906"
+					"download"		"0"
+				}
+			}
+		}
+		"204570"
+		{
+			"config"
+			{
+				"language"		"czech"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9095288091695818445"
+					"size"		"153283667"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"baselanguages"		""
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"29948"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Confrontation/Profiles"
+				"pattern"		"*"
+				"recursive"		"1"
+				"platforms"
+				{
+					"1"		"all"
+				}
+			}
+		}
+	}
+}
