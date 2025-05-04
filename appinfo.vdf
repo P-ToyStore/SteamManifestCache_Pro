@@ -1,0 +1,286 @@
+"appinfo"
+{
+	"appid"		"92600"
+	"common"
+	{
+		"name"		"Xotic"
+		"logo"		"1dc57fd3dfe239939dccb294f356b70674899e67"
+		"logo_small"		"1dc57fd3dfe239939dccb294f356b70674899e67_thumb"
+		"icon"		"90353b17444aa8e20d0ca2ac727a4c25c8e9a663"
+		"clienttga"		"ddd4ba9d7766f309ad3a30dc2bb93e7a3090800b"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"clienticon"		"96bc78bdecb7d478cb50bd94520042e37d1b44d3"
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1682985600"
+			"tested_build_id"		"1696"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-1"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Xotic"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e3607d9e7050136739ad52cf3be96069e66d9119.jpg"
+		"store_asset_mtime"		"1316191957"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"WXP Games, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"WXP Games, LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1316192400"
+		"metacritic_score"		"67"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/xotic?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"92600"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1663"
+			"3"		"1773"
+			"4"		"3942"
+			"5"		"3839"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"WXP Games, LLC"
+		"gamedir"		"Xotic"
+		"homepage"		"http://www.xoticgame.com"
+		"icon"		""
+		"installscript"		"xoticinstall.vdf"
+		"languages"		"english,german,french,spanish,italian"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"92601"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"WXP Games, LLC"
+		"listofdlc"		"92620,92621,92622,92623"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installscriptsignature"		"2c13d70596cc03a193fe58bd7da9cf2f945f2320522c708d9e23ffc1e90956c57b009432518548dc2862c9fa6c4bf4c81a1342d10cf18e35fcb62f935341987d7d69cd29f4d573edba3d7ce09688bd59fdc21fa14ab871b7a5bfdcd544e900989841134c5dc7f020a59f895fbf5463bdb5ef7dfb51fe460d94db8bed78997cb6"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Xotic.exe"
+				"arguments"		""
+				"description"		""
+				"workingdir"		""
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Xotic"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\wxp\xotic"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Xotic.exe"
+				}
+				"dword"
+				{
+					"version"		"1"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\WXP\\Xotic"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\WXP\\Xotic"
+				"process 1"		"%INSTALLDIR%\\redist\\VCRedist\\vcredist_2008.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"92601"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8636892747246647652"
+					"size"		"2077783627"
+					"download"		"0"
+				}
+			}
+		}
+		"92622"
+		{
+			"optional"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4115888478431033933"
+					"size"		"131405772"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"92622"
+		}
+		"92621"
+		{
+			"optional"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"304077047119353096"
+					"size"		"74549783"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"92621"
+		}
+		"92620"
+		{
+			"optional"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1637409661547956026"
+					"size"		"154918690"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"92620"
+		}
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,french,spanish,italian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1696"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"/Xotic"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"all"
+				}
+			}
+		}
+	}
+}
