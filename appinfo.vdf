@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"293740"
+	"common"
+	{
+		"name"		"Road Not Taken"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"clienticon"		"6d0b66938c72985589f583a1fecfd1bd713d0a1d"
+		"clienttga"		"2a0d390bc908f5a763b792b597f630fdd4ed5937"
+		"icon"		"c5a2bb58aab1593eb1e69d6a0cc8e4e4018fae9b"
+		"logo"		"a2fcccf7d767d75086cc4ceeae8c8cfbc9e1e81d"
+		"logo_small"		"a2fcccf7d767d75086cc4ceeae8c8cfbc9e1e81d_thumb"
+		"clienticns"		"14d150fb202a0ae9598da5ec7c2f658ffbb1807d"
+		"linuxclienticon"		"67bf0ac7b5537e619ca8527b2de826644d44608e"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Road Not Taken"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7656bb9901f0ef4825f5e938ebfcd8eb91aa0d02.jpg"
+		"store_asset_mtime"		"1407216491"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Spry Fox LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Spry Fox LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_43"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1407254580"
+		"metacritic_score"		"75"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/road-not-taken?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"293740"
+		"store_tags"
+		{
+			"0"		"1716"
+			"1"		"492"
+			"2"		"1664"
+			"3"		"21"
+			"4"		"1677"
+			"5"		"4726"
+			"6"		"4166"
+			"7"		"4026"
+			"8"		"5125"
+		}
+		"review_score"		"8"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Spry Fox LLC"
+		"publisher"		"Spry Fox LLC"
+		"homepage"		"http://spryfox.com/our-games/road-not-taken/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"RoadNotTaken"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"run_osx.sh"
+				"arguments"		"-console"
+				"description"		"Launch with Console"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"RoadNotTaken.exe"
+				"arguments"		"-console"
+				"description"		"Launch with Console"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"293742"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1433148191232076508"
+					"size"		"257701567"
+					"download"		"16023904847"
+				}
+				"testers"
+				{
+					"gid"		"1433148191232076508"
+					"size"		"257701567"
+					"download"		"16023904847"
+				}
+			}
+		}
+		"293741"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"524792345727656307"
+					"size"		"230626720"
+					"download"		"10617398085"
+				}
+				"testers"
+				{
+					"gid"		"524792345727656307"
+					"size"		"230626720"
+					"download"		"10617398085"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"460947"
+			}
+			"testers"
+			{
+				"buildid"		"460947"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saves/{64BitSteamID}"
+				"pattern"		"RoadNotTakenData.dat"
+			}
+		}
+	}
+}
