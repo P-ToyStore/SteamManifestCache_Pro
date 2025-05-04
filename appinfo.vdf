@@ -1,0 +1,158 @@
+"appinfo"
+{
+	"appid"		"414570"
+	"common"
+	{
+		"name"		"Crea Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"logo"		"732bc92d54462df43400daf3761ac39374c66d53"
+		"logo_small"		"732bc92d54462df43400daf3761ac39374c66d53_thumb"
+		"icon"		"1a791cd273035da4f3203996e4aa381fede49a59"
+		"clienttga"		"8e39b912e5a7e42f652b28d5b6383787a08a0b9d"
+		"clienticon"		"a39d7df6b8f5ba16a82bd651bf3f3d37bacc89b0"
+		"clienticns"		"a8596f85936d23bf1aace382371686ac77971ca1"
+		"linuxclienticon"		"bdad765d006d9469edd50d598f0b83f8ddf72553"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"414570"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Crea Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"standalone.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"standalone"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Standalone"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"414571"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5690689484414141726"
+					"size"		"126982038"
+					"download"		"96596192"
+				}
+			}
+		}
+		"414572"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3284477798441038492"
+					"size"		"31615240"
+					"download"		"8559424"
+				}
+			}
+		}
+		"414573"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"92510355467761506"
+					"size"		"46562311"
+					"download"		"6876960"
+				}
+			}
+		}
+		"414574"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"823948547996124839"
+					"size"		"98214306"
+					"download"		"16410480"
+				}
+			}
+		}
+		"414575"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2937532486051214741"
+					"size"		"38008888"
+					"download"		"9935824"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4101544"
+				"timeupdated"		"1565711620"
+			}
+		}
+	}
+}
