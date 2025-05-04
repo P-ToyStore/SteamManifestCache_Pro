@@ -1,0 +1,152 @@
+"appinfo"
+{
+	"appid"		"39900"
+	"common"
+	{
+		"name"		"Coniclysm"
+		"metacritic_url"		"coniclysm"
+		"logo"		"47ff6cb58d15806b28e113fcc2b4a9f7c43a08e6"
+		"logo_small"		"47ff6cb58d15806b28e113fcc2b4a9f7c43a08e6_thumb"
+		"icon"		"3b0fbf8c1d6a712a283f55db9d37ae1d173004ff"
+		"clienttga"		"e3285591cda4c9f6a68dcc24960317a00b0caf48"
+		"clienticon"		"23c36beb87fb66d0703c1332420da4329fda1aca"
+		"oslist"		"windows"
+		"type"		"game"
+		"metacritic_name"		"Coniclysm"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_62d4736a84d464ff0aae54ffc8dd4cdecb90fe07.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ZoopTEK"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ZoopTEK"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"39900"
+		"store_tags"
+		{
+			"0"		"19"
+		}
+		"review_score"		"5"
+		"review_percentage"		"43"
+	}
+	"extended"
+	{
+		"developer"		"ZoopTEK"
+		"gamedir"		"Coniclysm"
+		"homepage"		"http://www.zooptek.net"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"39901"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"ZoopTEK"
+	}
+	"config"
+	{
+		"installscriptsignature"		"90b4f5b2b57f76b2f8d459d8cecf6cee5feae8bb4d6e20e6dc5be9fd2b7f4a68154b774ec44e9384a6d339eedf382f7103e08c48604c143ff596f909269d766267ad98df08f6a74a22d1f6ebf8232d316148a77eb13ac88c22f84a9316dfd090ccdc958bc2fc79eeef5b4ccf2ec10987ceeff8b3d5fe848c3e69b82e9c71c875"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Coniclysm"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Coniclysm.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\valve\steam\apps\39900"
+			{
+				"string"
+				{
+					"path"		"%INSTALLDIR%"
+				}
+			}
+		}
+		"run process"
+		{
+			"dotnet"
+			{
+				"process 1"		"%INSTALLDIR%\\dotnetfx35setup.exe"
+				"command 1"		"/q"
+			}
+			"xnafx31"
+			{
+				"process 1"		"%windir%\\system32\\msiexec.exe"
+				"command 1"		"/i \"%INSTALLDIR%\\xnafx31_redist.msi\" /passive"
+			}
+		}
+	}
+	"depots"
+	{
+		"39901"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6820677779567794868"
+					"size"		"98385113"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21218"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
