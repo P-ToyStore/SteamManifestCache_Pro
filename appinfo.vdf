@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"48950"
+	"common"
+	{
+		"name"		"Greed Corp"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+		}
+		"logo"		"a7521ac7891b0ac947c3676726af0109f0f2638e"
+		"logo_small"		"a7521ac7891b0ac947c3676726af0109f0f2638e_thumb"
+		"icon"		"ecb16de21d500246e6ba462933f43703fa95e7fc"
+		"clienttga"		"14cf5f2df99819c2c3f04fef8f75c244a1ef2857"
+		"clienticon"		"d1b6d9f20c64d9a77ed858bc08cc0d84fd83af60"
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1667260800"
+			"tested_build_id"		"21534"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Greed Corp"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_64378637eaa47c8b2ae40cbfdecfeaf6ac71640b.jpg"
+		"store_asset_mtime"		"1295033544"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vanguard Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vanguard Entertainment Group"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1292004000"
+		"metacritic_score"		"76"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/greed-corp?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"48950"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1677"
+			"2"		"3859"
+			"3"		"1741"
+			"4"		"4182"
+			"5"		"1664"
+			"6"		"7368"
+			"7"		"1717"
+			"8"		"1770"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Vanguard Games"
+		"gamedir"		"Greed Corp"
+		"homepage"		"http://www.greedcorp.com"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"languages"		"english,french,german,spanish"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"48952"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Vanguard Entertainment Group"
+	}
+	"config"
+	{
+		"installscriptsignature"		"5d1f9a2e1770fe291fd7c5c199f8dbcc71c7facb0b8d32d3c49eeed202c1b588e676743a7a2b4df3431f6aa3b02fb14336e8c6bc3d40bc15c31bc07f606823a538cde63b3c611e191923e8aac787a57a896e3766a9ebd24de5ca23859a98ec8cbd2cce32a1bd5e52f7346cb305d31acdb6dc56a28167ac324869f4e2309f4762"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Greed Corp"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\48950"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"48952"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2927209936765565022"
+					"size"		"625703793"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"baselanguages"		"english,french,german,spanish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21534"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"100"
+	}
+}
