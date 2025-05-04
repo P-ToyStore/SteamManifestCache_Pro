@@ -1,0 +1,127 @@
+"appinfo"
+{
+	"appid"		"2070070"
+	"common"
+	{
+		"name"		"Zero World Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1973280"
+		"icon"		"f9152511c927a29551a440f523f69bfdfcf715ef"
+		"clienticon"		"529dad069e890d10a10dcdd1751b9a7345c4398e"
+		"clienttga"		"ffea84a18fcad87345a2c957a43cd5aebe594ccc"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"associations"
+		{
+		}
+		"gameid"		"2070070"
+	}
+	"extended"
+	{
+		"gamedir"		"ZeroWorld"
+		"serverbrowsername"		"Zero World"
+	}
+	"config"
+	{
+		"installdir"		"Zero World Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MGSurvivalServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Zero World Dedicated Server"
+				}
+				"description"		"Zero World Dedicated Server"
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7747775778018907449"
+					"size"		"46727128"
+					"download"		"14307024"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7138471031118904166"
+					"size"		"78382436"
+					"download"		"21254752"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2070071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"354915642267305644"
+					"size"		"607186358"
+					"download"		"436951568"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13388643"
+				"timeupdated"		"1707282791"
+			}
+		}
+	}
+}
