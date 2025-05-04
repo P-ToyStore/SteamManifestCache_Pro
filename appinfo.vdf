@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"291430"
+	"common"
+	{
+		"name"		"Lost Marbles"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"c1b993c8271d6b079ad77bdcb67c298aaa4bb994"
+		"logo_small"		"c1b993c8271d6b079ad77bdcb67c298aaa4bb994_thumb"
+		"icon"		"94b9cf280044559cb973866a65fe1bda5378124d"
+		"oslist"		"windows,macos,linux"
+		"clienttga"		"87a01ee978f6bd1d2b584abe4fe70e0d894e305f"
+		"clienticon"		"1f9e9f39bf89a8efedf81de6a81a72026a33bb68"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Lost Marbles"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b3ad5069b3ca72a7a272cd0a11168cf3654d6b15.jpg"
+		"store_asset_mtime"		"1408986103"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Binary Takeover"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Binary Takeover"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1401483635"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"291430"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"597"
+			"3"		"1664"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"Binary Takeover"
+		"publisher"		"Binary Takeover"
+		"homepage"		"http://binarytakeover.com/lostmarbles"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"LostMarbles"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LostMarbles.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LostMarbles.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"LostMarbles.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"291431"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4143734927026967825"
+					"size"		"329522193"
+					"download"		"126739744"
+				}
+				"local"
+				{
+					"gid"		"3685969483527768533"
+					"size"		"271592515"
+					"download"		"0"
+				}
+			}
+		}
+		"291432"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6941504618553856047"
+					"size"		"354213214"
+					"download"		"128127280"
+				}
+			}
+		}
+		"291433"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1095147083457019932"
+					"size"		"333254651"
+					"download"		"128472000"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"689930"
+			}
+			"local"
+			{
+				"buildid"		"277566"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"settings.txt"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"stats.bin"
+				"recursive"		"1"
+			}
+		}
+	}
+}
