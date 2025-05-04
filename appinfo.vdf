@@ -1,0 +1,575 @@
+"appinfo"
+{
+	"appid"		"330100"
+	"common"
+	{
+		"name"		"BossConstructor"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"28d4d6966f9d1279c2c262cd81e3443077efe0e8"
+		"logo_small"		"28d4d6966f9d1279c2c262cd81e3443077efe0e8_thumb"
+		"icon"		"8de3a76e5b3e94b3c20d7ed554156d1a3723c073"
+		"clienticon"		"f5f270e43ba1933397d70ad4ab594ea214fca0e4"
+		"clienttga"		"efe7a77aad3abb889d9852f3772353a427b2b313"
+		"linuxclienticon"		"c6aaed95c9a6eb8359b8d153b971c71f07e56eb1"
+		"metacritic_name"		"BossConstructor"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50.23236899867952"
+				"height_pct"		"36.651411757996314"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50.23236899867952"
+					"height_pct"		"36.651411757996314"
+				}
+			}
+		}
+		"store_asset_mtime"		"1580479574"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Neomateria Games GmbH"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Neomateria Games GmbH"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_29"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1477338399"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"330100"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"122"
+			"3"		"599"
+			"4"		"1755"
+			"5"		"1643"
+			"6"		"3871"
+			"7"		"4182"
+			"8"		"4791"
+			"9"		"1662"
+			"10"		"1773"
+			"11"		"3834"
+			"12"		"3942"
+			"13"		"3968"
+			"14"		"4295"
+			"15"		"5363"
+			"16"		"1774"
+			"17"		"4885"
+			"18"		"12472"
+		}
+		"review_score"		"6"
+		"review_percentage"		"74"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Neomateria Games GmbH"
+		"publisher"		"Neomateria Games GmbH"
+		"homepage"		"http://bossconstructor.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"BossConstructor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"jre/bin/javaw.exe"
+				"arguments"		"-cp lib/natives-linux.jar;lib/natives-mac.jar;lib/natives-windows.jar;lib/lwjgl.jar;lib/slick.jar;lib/slick-util.jar;lib/lwjgl_util.jar;lib/jorbis-0.0.15.jar;lib/jogg-0.0.7.jar;lib/jinput.jar;lib/luaj-jse-3.0.jar;lib/steamworks4j-1.2.3.jar;build -Xmx500m -Xms400m -XX:MaxDirectMemorySize=256m -Djava.library.path=native -jar bc.jar"
+				"description"		"Launch BossConstructor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"jre/bin/java"
+				"arguments"		"-cp lib/natives-linux.jar:lib/natives-mac.jar:lib/natives-windows.jar:lib/lwjgl.jar:lib/slick.jar:lib/slick-util.jar:lib/lwjgl_util.jar:lib/jorbis-0.0.15.jar:lib/jogg-0.0.7.jar:lib/jinput.jar:lib/luaj-jse-3.0.jar:lib/steamworks4j-1.2.3.jar:build -Xmx512m -Xms256m -XX:MaxDirectMemorySize=256m -Djava.library.path=native -jar bc.jar"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"bcmac.sh"
+				"arguments"		"-cp lib/natives-linux.jar:lib/natives-mac.jar:lib/natives-windows.jar:lib/lwjgl.jar:lib/slick.jar:lib/slick-util.jar:lib/lwjgl_util.jar:lib/jorbis-0.0.15.jar:lib/jogg-0.0.7.jar:lib/jinput.jar:lib/luaj-jse-3.0.jar:lib/steamworks4j-1.2.3.jar:build -Xmx4g -Xms600m -Djava.library.path=native -jar bc.jar"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,russian,brazilian"
+		"workshopdepot"		"330100"
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"330101"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6684358072625847055"
+					"size"		"127560155"
+					"download"		"31845904"
+				}
+				"beta"
+				{
+					"gid"		"6684358072625847055"
+					"size"		"127560155"
+					"download"		"31845904"
+				}
+			}
+		}
+		"330102"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6949495555299784991"
+					"size"		"80890795"
+					"download"		"44763840"
+				}
+				"beta"
+				{
+					"gid"		"6949495555299784991"
+					"size"		"80890795"
+					"download"		"44763840"
+				}
+			}
+		}
+		"330103"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6381115017542232597"
+					"size"		"142154573"
+					"download"		"39009984"
+				}
+				"beta"
+				{
+					"gid"		"6381115017542232597"
+					"size"		"142154573"
+					"download"		"39009984"
+				}
+			}
+		}
+		"330104"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"827728019841597906"
+					"size"		"167982800"
+					"download"		"49379264"
+				}
+				"beta"
+				{
+					"gid"		"827728019841597906"
+					"size"		"167982800"
+					"download"		"49379264"
+				}
+			}
+		}
+		"330105"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4055838268023448912"
+					"size"		"159529110"
+					"download"		"56658480"
+				}
+				"beta"
+				{
+					"gid"		"4055838268023448912"
+					"size"		"159529110"
+					"download"		"56658480"
+				}
+			}
+		}
+		"330106"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7799990167374527131"
+					"size"		"222844779"
+					"download"		"210953504"
+				}
+				"beta"
+				{
+					"gid"		"7799990167374527131"
+					"size"		"222844779"
+					"download"		"210953504"
+				}
+			}
+		}
+		"330107"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7814327226598042613"
+					"size"		"13"
+					"download"		"64"
+				}
+				"beta"
+				{
+					"gid"		"7814327226598042613"
+					"size"		"13"
+					"download"		"64"
+				}
+			}
+		}
+		"330108"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4145656163708064592"
+					"size"		"14"
+					"download"		"64"
+				}
+				"beta"
+				{
+					"gid"		"4145656163708064592"
+					"size"		"14"
+					"download"		"64"
+				}
+			}
+		}
+		"330109"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6620465462096575139"
+					"size"		"13"
+					"download"		"64"
+				}
+				"beta"
+				{
+					"gid"		"6620465462096575139"
+					"size"		"13"
+					"download"		"64"
+				}
+			}
+		}
+		"504160"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6245559864844905238"
+					"size"		"15"
+					"download"		"64"
+				}
+				"beta"
+				{
+					"gid"		"6245559864844905238"
+					"size"		"15"
+					"download"		"64"
+				}
+			}
+		}
+		"504161"
+		{
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3040536951738118982"
+					"size"		"18"
+					"download"		"64"
+				}
+				"beta"
+				{
+					"gid"		"3040536951738118982"
+					"size"		"18"
+					"download"		"64"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3687426"
+				"timeupdated"		"1553760266"
+			}
+			"beta"
+			{
+				"buildid"		"3687426"
+				"description"		"New features and cutting edge bugs."
+				"timeupdated"		"1553760256"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/BossConstructor"
+				"pattern"		"*.ship"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/BossConstructor"
+				"pattern"		"*.ship"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/BossConstructor"
+				"pattern"		"*.state"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"3"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/BossConstructor"
+				"pattern"		"*.state"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"4"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/BossConstructor"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"5"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/BossConstructor"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"6"
+			{
+				"root"		"MacDocuments"
+				"path"		"My Games/BossConstructor"
+				"pattern"		"*.ship"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"7"
+			{
+				"root"		"MacDocuments"
+				"path"		"My Games/BossConstructor"
+				"pattern"		"*.state"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"8"
+			{
+				"root"		"MacDocuments"
+				"path"		"My Games/BossConstructor"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
