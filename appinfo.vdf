@@ -1,0 +1,301 @@
+"appinfo"
+{
+	"appid"		"315110"
+	"common"
+	{
+		"name"		"Woah Dave!"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"652d1dd680f16dce08f104d88e966a2946e00f73"
+		"logo_small"		"652d1dd680f16dce08f104d88e966a2946e00f73_thumb"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"6545c0851f270490681f130b3704edbcee8f32ef"
+		"clienticon"		"ddd13bad891b5a216a5e6dec8d9ef0484e059389"
+		"clienttga"		"5f6a76ce403baff7e2adbbd6a82047906b81ee3d"
+		"icon"		"8ee8e4ab7e59213405830a02a7daf4048c074e8a"
+		"clienticns"		"2cebd4b16f673499a6487cc8698795aee59522bb"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"test_timestamp"		"1668556800"
+			"tested_build_id"		"542868"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"metacritic_name"		"Woah Dave!"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_a6289f3d20b7251f3dab7d10afc0290474e00ad6.jpg"
+		"store_asset_mtime"		"1655322122"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MiniVisions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Choice Provisions"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_24"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1414688460"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"315110"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"3859"
+			"3"		"1773"
+			"4"		"4190"
+			"5"		"1625"
+			"6"		"4004"
+			"7"		"3871"
+			"8"		"3964"
+			"9"		"7368"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"MiniVisions"
+		"publisher"		"Choice Provisions"
+		"homepage"		"http://www.woahdave.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"WoahDave"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WoahDave.app/Contents/MacOS/WoahDave"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"WoahDave.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"WoahDave"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"315111"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"785320410026019031"
+					"size"		"52149285"
+					"download"		"24104832"
+				}
+				"1.0.4"
+				{
+					"gid"		"4985675519872404451"
+					"size"		"51846601"
+					"download"		"1909442656"
+				}
+				"1.0.5"
+				{
+					"gid"		"7201493073077401192"
+					"size"		"51891543"
+					"download"		"16798748864"
+				}
+			}
+		}
+		"315112"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4568809107850122719"
+					"size"		"26087729"
+					"download"		"20622416"
+				}
+				"1.0.4"
+				{
+					"gid"		"470863149701460533"
+					"size"		"40599310"
+					"download"		"10313262736"
+				}
+				"1.0.5"
+				{
+					"gid"		"1423762053192646835"
+					"size"		"51725254"
+					"download"		"688157520"
+				}
+			}
+		}
+		"315113"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"84465681903228511"
+					"size"		"24852110"
+					"download"		"19861520"
+				}
+				"1.0.4"
+				{
+					"gid"		"1143396669781043359"
+					"size"		"17164468"
+					"download"		"296362400"
+				}
+				"1.0.5"
+				{
+					"gid"		"1143396669781043359"
+					"size"		"17164468"
+					"download"		"475195104"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"542868"
+			}
+			"1.0.4"
+			{
+				"buildid"		"459483"
+			}
+			"1.0.5"
+			{
+				"buildid"		"463201"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
