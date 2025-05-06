@@ -1,0 +1,260 @@
+"appinfo"
+{
+	"appid"		"1234730"
+	"common"
+	{
+		"name"		"HereSphere VR Video Player"
+		"type"		"Application"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"openvr_action_manifest_path"		"HereSphere\\Config\\SteamVRBindings\\steamvr_manifest.json"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"9332493cc80a5ae11595aec61caed4231a549535"
+		"logo_small"		"9332493cc80a5ae11595aec61caed4231a549535_thumb"
+		"icon"		"80363de2c236280a05d794e9bdf6d9819d897f2d"
+		"clienticon"		"e1f3df3b72dc792417a47cf11504efb20177af94"
+		"clienttga"		"f47ffd5154ed2c823cf2d10da055d56bdce8b7d1"
+		"openvrsupport"		"1"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1234730_eula_0"
+				"name"		"HereSphere EULA"
+				"url"		"https://store.steampowered.com//eula/1234730_eula_0"
+				"version"		"1"
+			}
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"test_timestamp"		"1658534400"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667002839"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"HereSphere LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"HereSphere LLC"
+			}
+		}
+		"primary_genre"		"58"
+		"genres"
+		{
+			"0"		"57"
+			"1"		"58"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_52"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1614348013"
+		"community_hub_visible"		"1"
+		"gameid"		"1234730"
+		"exfgls"		"6"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"784"
+			"2"		"493"
+			"3"		"21978"
+			"4"		"776177"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"HereSphere LLC"
+		"publisher"		"HereSphere LLC"
+		"homepage"		"https://heresphere.com"
+	}
+	"config"
+	{
+		"installdir"		"HereSphere"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HereSphere.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1234731"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3078258564457464034"
+					"size"		"435495237"
+					"download"		"154791648"
+				}
+				"beta"
+				{
+					"gid"		"3078258564457464034"
+					"size"		"435495237"
+					"download"		"154791648"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18300890"
+				"timeupdated"		"1746559668"
+			}
+			"beta"
+			{
+				"buildid"		"18300890"
+				"description"		"beta test"
+				"timeupdated"		"1746042257"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
