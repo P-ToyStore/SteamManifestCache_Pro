@@ -1,0 +1,260 @@
+"appinfo"
+{
+	"appid"		"953370"
+	"common"
+	{
+		"name"		"ZED"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"d62b7a6a002b4ba242c64b100d8ca32320295859"
+		"logo_small"		"d62b7a6a002b4ba242c64b100d8ca32320295859_thumb"
+		"icon"		"6452d2f910af09e70c6f8b3444d7ea3307e864e4"
+		"clienttga"		"b8357efe284e1da50c96f7bc6bee6eeb8d61ecc2"
+		"clienticon"		"e1b291400ceb68a8c4c96d68c52c655139924b75"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"openvrsupport"		"1"
+		"osextended"		"macos64"
+		"metacritic_name"		"ZED"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f341fa59b4453430b5987106dfe1f8b93b926bb3.jpg"
+		"store_asset_mtime"		"1746035204"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"From Away Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"From Away Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_13"		"1"
+			"category_18"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1559631600"
+		"steam_release_date"		"1559663652"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"953370"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"21"
+			"2"		"492"
+			"3"		"21978"
+			"4"		"5900"
+			"5"		"1664"
+			"6"		"7113"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"From Away Games"
+		"publisher"		"From Away Games"
+	}
+	"config"
+	{
+		"installdir"		"Zed"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"zed.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"zed.sh"
+				"arguments"		"-opengl"
+				"description"		"using OpenGL (recommended)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"zed.exe"
+				"arguments"		"-vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"zed.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"zed.sh"
+				"arguments"		"-vulkan"
+				"description"		"using Vulkan"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"baselanguages"		"english"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"953371"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1576419596759230591"
+					"size"		"18283208982"
+					"download"		"7563698496"
+				}
+			}
+		}
+		"953372"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5643031745193379877"
+					"size"		"19273363712"
+					"download"		"8200102016"
+				}
+			}
+		}
+		"953373"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6250009736121206557"
+					"size"		"10973553213"
+					"download"		"10017961296"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4101641"
+				"timeupdated"		"1565970855"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"5242880"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"zed/Saved/Savegames"
+				"pattern"		"ZedSave.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
