@@ -1,0 +1,265 @@
+"appinfo"
+{
+	"appid"		"104000"
+	"common"
+	{
+		"name"		"iBomber Defense"
+		"logo"		"a66c59fa2b2a6ac826a1222a6fe5b3f5c083566d"
+		"logo_small"		"a66c59fa2b2a6ac826a1222a6fe5b3f5c083566d_thumb"
+		"icon"		"1db2d4c45446d2137faaae2612189bf549546c76"
+		"clienticon"		"2ec78790a9f27214489f4294c4a4f2346e6e6b86"
+		"clienttga"		"ceaba287ac133930cdcedf1561516d4a28815b63"
+		"clienticns"		"be928e70a7f717677d84d39535a516c7e7a31e6b"
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1677283200"
+			"tested_build_id"		"814688"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"iBomber Defense"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_a170ff8b2112c2d0fce1bfb096b4afb5495cd0b0.jpg"
+		"store_asset_mtime"		"1617094356"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cobra Mobile"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Cobra Mobile"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1306425660"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"104000"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1645"
+			"2"		"492"
+			"3"		"597"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Cobra Mobile"
+		"gamedir"		"iBomber Defense"
+		"homepage"		"https://www.cobramobile.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"installscript_macos"		"iBomber Defense.app/installscript_osx.vdf"
+		"installscript_osx"		"iBomber Defense.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Cobra Mobile"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ibomber defense"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"iBomber Defense.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"104002"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8477670700456939041"
+					"size"		"103060365"
+					"download"		"96698032"
+				}
+			}
+		}
+		"104001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9094406936112524323"
+					"size"		"99326911"
+					"download"		"93764304"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"814688"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
