@@ -1,0 +1,296 @@
+"appinfo"
+{
+	"appid"		"269490"
+	"common"
+	{
+		"name"		"Bardbarian"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"2a1b18274d1eb251b87b29cbed12c69ad9559ed6"
+		"logo_small"		"2a1b18274d1eb251b87b29cbed12c69ad9559ed6_thumb"
+		"icon"		"6b0ae27accb8129ddc1b30fab250cc12ba756b52"
+		"clienticon"		"da8c7c27460979af5b02667b454817d3eca7593f"
+		"clienttga"		"578c8f96f9764c8989741a96a57a3f1e15188ad4"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1646179200"
+			"tested_build_id"		"841708"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-1"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Bardbarian"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_698aa63b2dcb53189f9cfa2b05a279e2fb289785.jpg"
+		"store_asset_mtime"		"1446138633"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TreeFortress Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TreeFortress Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"3"
+			"5"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1396368060"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"269490"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1645"
+			"2"		"9"
+			"3"		"597"
+			"4"		"122"
+			"5"		"19"
+			"6"		"21"
+			"7"		"42804"
+			"8"		"3871"
+			"9"		"4182"
+			"10"		"3959"
+			"11"		"1719"
+			"12"		"1684"
+			"13"		"4885"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"TreeFortress Games"
+		"publisher"		"TreeFortress Games"
+		"homepage"		"http://www.bardbarian.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Bardbarian"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bardbarian.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Bardbarian_OSX.app/Contents/MacOS/Bardbarian"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"269491"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3565123993617164113"
+					"size"		"156612485"
+					"download"		"100211616"
+				}
+				"beta"
+				{
+					"gid"		"6406469161384247198"
+					"size"		"156871603"
+					"download"		"100315344"
+				}
+			}
+		}
+		"269492"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4592287833300142763"
+					"size"		"299139562"
+					"download"		"88487840"
+				}
+				"beta"
+				{
+					"gid"		"4592287833300142763"
+					"size"		"299139562"
+					"download"		"88487840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"841708"
+			}
+			"beta"
+			{
+				"buildid"		"1688327"
+				"timeupdated"		"1489437194"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"com.treefortress.Bardbarian/Local Store"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"com.treefortress.Bardbarian/Local Store"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
