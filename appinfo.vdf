@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"625230"
+	"common"
+	{
+		"name"		"Kiln Prototype"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"b2b993f8ff3d6c4a7498aee0d3a783911b1d9e76"
+		"clienticon"		"d24c85b86c5b0cd635b1534536c34704c4652f3a"
+		"icon"		"c1d0f76193f379b32b0119d72b3893ffd5ff72ff"
+		"parent"		"631780"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1700092800"
+			"tested_build_id"		"4167052"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Kiln Prototype"
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1659040013"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"2 Player Productions"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"81"
+		}
+		"category"
+		{
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1495840876"
+		"community_hub_visible"		"1"
+		"gameid"		"625230"
+		"store_tags"
+		{
+			"0"		"15339"
+		}
+	}
+	"extended"
+	{
+		"developer"		"2 Player Productions"
+		"homepage"		"http://www.doublefine.com"
+	}
+	"config"
+	{
+		"installdir"		"Kiln Prototype"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AfKiln.exe"
+				"type"		"none"
+			}
+			"1"
+			{
+				"executable"		"AfKiln.exe"
+				"arguments"		"-fullscreen"
+				"description"		"Launch Full Screen"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"625231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5648418002066059747"
+					"size"		"381743205"
+					"download"		"332510800"
+				}
+				"devtest1"
+				{
+					"gid"		"7422125730621290004"
+					"size"		"380531565"
+					"download"		"331468144"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4167052"
+				"timeupdated"		"1567620898"
+			}
+			"devtest1"
+			{
+				"buildid"		"1785832"
+				"timeupdated"		"1493317831"
+			}
+		}
+	}
+}
