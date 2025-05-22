@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"600660"
+	"common"
+	{
+		"name"		"Kimmy"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"e494afc78c4f018c885d8cca243033d1b2359cfb"
+		"logo_small"		"e494afc78c4f018c885d8cca243033d1b2359cfb_thumb"
+		"icon"		"b27450b135746e9a4d6fe258ca920ce6528bb412"
+		"clienticon"		"8ff4b655342796f72805d9eb05e1b1901f1a4464"
+		"clienttga"		"c9980e832dbec6242f95f5e048eaa1d7f7c8639f"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"metacritic_name"		"Kimmy"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f3d2fe86c10727999a314389d0bf6640dabb7460.jpg"
+		"store_asset_mtime"		"1491284863"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Star Maid Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"N/A"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1492531465"
+		"community_hub_visible"		"1"
+		"gameid"		"600660"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"7208"
+			"2"		"3799"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Star Maid Games"
+		"publisher"		"N/A"
+		"homepage"		"http://ninasays.so/kimmy"
+	}
+	"config"
+	{
+		"installdir"		"Kimmy"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Kimmy.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Kimmy.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"600661"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"600662"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"600668"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8292781537157472394"
+					"size"		"1129173016"
+					"download"		"159469216"
+				}
+			}
+		}
+		"600669"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1428183408418089856"
+					"size"		"1109368666"
+					"download"		"155646144"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1758060"
+				"timeupdated"		"1492177630"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"64"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Cibele Productions LLC/Kimmy/"
+				"pattern"		"*.json"
+				"recursive"		"1"
+			}
+		}
+	}
+}
