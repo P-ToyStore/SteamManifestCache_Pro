@@ -1,0 +1,133 @@
+"appinfo"
+{
+	"appid"		"24180"
+	"common"
+	{
+		"name"		"Everquest: Underfoot"
+		"icon"		"79fa8e3aa842063ae040c84df00f2ab1df19a07d"
+		"clienticon"		"5cc250955f74b3b9e2426853a446ca1346cf9219"
+		"clienttga"		"bd491cd24c1e1b5314397f2df1a71a3130f0dc6d"
+		"logo"		"09a16602d86b2dc0aa3d48054e9f1af918049e9b"
+		"logo_small"		"09a16602d86b2dc0aa3d48054e9f1af918049e9b_thumb"
+		"type"		"game"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_75ffea0893ef8dec1addf764665195f30aedd3f2.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sony Online Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sony Online Entertainment"
+			}
+		}
+		"primary_genre"		"29"
+		"genres"
+		{
+			"0"		"29"
+		}
+		"category"
+		{
+			"category_20"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1260914400"
+		"community_hub_visible"		"1"
+		"gameid"		"24180"
+		"store_tags"
+		{
+		}
+	}
+	"extended"
+	{
+		"developer"		"Sony Online Entertainment"
+		"externalsubscriptionurl2"		"http://www.station.sony.com/steamactivation/?activationcode=%cdkey%&gamecode=EQ"
+		"gamedir"		"EverQuest: Underfoot"
+		"homepage"		"http://everquest.com/everquest.vm"
+		"icon"		""
+		"installscript"		"24120_install.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp24180\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"24121"
+		"serverbrowsername"		""
+		"showcdkeyinmenu"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Sony Online Entertainment"
+	}
+	"config"
+	{
+		"installscriptsignature"		"1a1f1f1213c5612111bb392490dd15aa9cb6a70949123ef9df9020ffc3d2a78501f3cb74fbe8886bad7cffd940debab2463dcda98b681c7acb90282ab7e84845364e16930731e57323e79e252deb89fe91c40660c8cc9b9298b259b3d9e4518e1f713a2fae889b1249642b9a8d9f4ab1ccf0ab423cb706aef739217ce562767d"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"EverQuest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LaunchPad.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"fixtimestamps"
+			{
+				"process 1"		"%INSTALLDIR%\\FixTimestamps.exe"
+				"command 1"		"EverQuest.soe"
+				"minimumhasrunvalue"		"2"
+				"nocleanup"		"0"
+			}
+		}
+	}
+	"depots"
+	{
+		"24121"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2010466778842123964"
+					"size"		"6737866018"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"52184"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
