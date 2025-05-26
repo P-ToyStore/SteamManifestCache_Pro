@@ -1,0 +1,138 @@
+"appinfo"
+{
+	"appid"		"225940"
+	"common"
+	{
+		"name"		"Happy Song Prototype"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"clienticon"		"43619145205763e2a7558700474ae8831e7035f5"
+		"clienttga"		"39ca24fc4ef961b901463aaaddb6083ccd7ecd25"
+		"icon"		"eb541cb030dd9b4b8c733333e955b8ce9eea9cab"
+		"oslist"		"windows"
+		"logo"		"058a2f33d3054c1d99b0b39ea5dba10258a3d026"
+		"logo_small"		"058a2f33d3054c1d99b0b39ea5dba10258a3d026_thumb"
+		"metacritic_name"		"Happy Song Prototype"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4b805214be9b2dc9d2f7b852dde86ee653abdb50.jpg"
+		"store_asset_mtime"		"1353378268"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Double Fine Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Double Fine"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"225940"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Double Fine Productions"
+		"gamedir"		"ValveTestApp225940"
+		"homepage"		"http://www.doublefine.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Double Fine"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Happy Song Prototype"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AFMana.exe"
+				"description"		"Launch "
+			}
+		}
+		"installscriptsignature"		"453374d30d036f91c8ecb0818f88ced500497700abcfe6290ff8684a5b7ee5655d5cf92f53226f4e99face5cd57ec3a771ee5c46c5ff3dc35f854f4782a472780bae75b34c13836bf0336e9f8b74b9e95b49ed99d689ce895ba67bbeba4479aef449578fdebb32680e0c66b439e72d276a53d373a90aad68678edd6fd8a709e3"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\June2010DXSDK\\225940"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\VCRedist2008\\225940"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2008_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vc2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\VCRedist2010\\225940"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2010_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"225941"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5057070725223571821"
+					"size"		"86923876"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"26557"
+			}
+		}
+	}
+}
