@@ -1,0 +1,138 @@
+"appinfo"
+{
+	"appid"		"225960"
+	"common"
+	{
+		"name"		"Costume Quest Prototype"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"clienticon"		"43619145205763e2a7558700474ae8831e7035f5"
+		"clienttga"		"39ca24fc4ef961b901463aaaddb6083ccd7ecd25"
+		"icon"		"eb541cb030dd9b4b8c733333e955b8ce9eea9cab"
+		"oslist"		"windows"
+		"logo"		"16c14b0264fe9f71db9c83adb2d3ad34653306fa"
+		"logo_small"		"16c14b0264fe9f71db9c83adb2d3ad34653306fa_thumb"
+		"metacritic_name"		"Costume Quest Prototype"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4c3c958bf8b51e55048c36fecdf802883b646c39.jpg"
+		"store_asset_mtime"		"1353378326"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Double Fine Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Double Fine"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"225960"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Double Fine Productions"
+		"gamedir"		"ValveTestApp225960"
+		"homepage"		"www.doublefine.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Double Fine"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Costume Quest Prototype"
+		"installscriptsignature"		"6bc229976fcff26e2a8b1101f71412c0ece7018c1d61c20c0f4e4c0e01a19590caa07b937eadf5bda022eb6a3f1eeb0c0c52b9ae50cd0a9d192026e1555b2ea8010b0a6d90cada40ba5a0d348c557a3fb38fbc9bae40c6362267d73d338c4c195756883965bc277c9a10ffa61cf7151baa73e297f39ff5fcce4c8df734835f2f"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AFCQ.exe"
+				"description"		"Launch"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\June2010DXSDK\\225960"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\VCRedist2008\\225960"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2008_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vc2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\VCRedist2010\\225960"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2010_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"225961"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7723633538360916898"
+					"size"		"140178924"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"26320"
+			}
+		}
+	}
+}
