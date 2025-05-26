@@ -1,0 +1,161 @@
+"appinfo"
+{
+	"appid"		"720010"
+	"common"
+	{
+		"name"		"Survived By Beta"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"15016d7739dbd6ba99c4753f75bcdf073cce43b2"
+		"clienticon"		"a281bc73929b31920388d9289b7cba1294efed2e"
+		"icon"		"588793310f03945fd7df73095fd8f57afdeeaedf"
+		"associations"
+		{
+		}
+		"gameid"		"720010"
+	}
+	"extended"
+	{
+		"allowmicrotxnfromrestrictedcountries"		"0"
+		"microtxnrestrictedcountries"		"RU,BY"
+	}
+	"config"
+	{
+		"installdir"		"Survived By Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SurvivedBy.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"default"
+				}
+			}
+			"1"
+			{
+				"executable"		"SurvivedBy.exe"
+				"arguments"		"-hosturl http://test.backend.survivedby.com:9000"
+				"description"		"Backend: Test"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"qabranch"
+				}
+			}
+			"7"
+			{
+				"executable"		"SurvivedBy.exe"
+				"arguments"		"-hosturl http://staging.backend.survivedby.com:9000"
+				"description"		"Playtest Server (Staging)"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"playtest"
+				}
+			}
+			"9"
+			{
+				"executable"		"SurvivedBy.exe"
+				"arguments"		"-hosturl http://test.backend.survivedby.com"
+				"description"		"Backend: Test (for hotfixes)"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"digitalextremes"
+				}
+			}
+			"10"
+			{
+				"executable"		"SurvivedBy.exe"
+				"arguments"		"-hosturl http://press.backend.survivedby.com:9000"
+				"description"		"Press Server"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"press"
+				}
+			}
+			"11"
+			{
+				"executable"		"SurvivedBy.exe"
+				"arguments"		"-hosturl http://test.backend.survivedby.com:9000"
+				"description"		"Backend: Test"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qadebug"
+				}
+			}
+			"12"
+			{
+				"executable"		"SurvivedBy.exe"
+				"arguments"		"-hosturl http://nightly.backend.survivedby.com:9000"
+				"description"		"Backend: Nightly"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qanightly"
+				}
+			}
+			"13"
+			{
+				"executable"		"SurvivedBy.exe"
+				"arguments"		"-hosturl http://staging.backend.survivedby.com:9000"
+				"description"		"Backend: Staging"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"qastaging"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"720011"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4122044098092751330"
+					"size"		"49975827"
+					"download"		"11693200"
+				}
+			}
+		}
+		"720012"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3370143"
+				"timeupdated"		"1544042746"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"3145728"
+		"maxnumfiles"		"32"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"CloudSaves/{64BitSteamID}"
+				"pattern"		"*"
+			}
+		}
+	}
+}
