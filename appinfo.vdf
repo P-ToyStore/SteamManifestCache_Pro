@@ -1,0 +1,187 @@
+"appinfo"
+{
+	"appid"		"228080"
+	"common"
+	{
+		"name"		"Hack n Slash Prototype"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"logo"		"5f88d61d9eb498aa77d69131e227b8e5a6b2aa76"
+		"logo_small"		"5f88d61d9eb498aa77d69131e227b8e5a6b2aa76_thumb"
+		"clienticon"		"43619145205763e2a7558700474ae8831e7035f5"
+		"clienttga"		"39ca24fc4ef961b901463aaaddb6083ccd7ecd25"
+		"icon"		"eb541cb030dd9b4b8c733333e955b8ce9eea9cab"
+		"clienticns"		"92432419bbfe6fa7b6f34ff1a332a6aaacc11630"
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50.37993919210513"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50.37993919210513"
+				}
+			}
+		}
+		"store_asset_mtime"		"1658957141"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"228080"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"Hack n Slash"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Hack n Slash Prototype"
+		"installscriptsignature"		"562569a9cd9858a0ed9ed26fea9525cbc5854cd11049ff0fe5c2b0fcc6bce8d5cb5b8ad260f88aa673a0857688bf042f5e7223ac2dbc9e2fa9a589aafee0a78a79cc787821d98d662a7a163548ef93790170b0d7cbe7ee3a385ea43778f485e6261480f38804a0eeadade7956d4617f106a96bed6dcffd71cce9107df3ed9d6c"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AFHack.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"HacknSlash.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228080"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228080"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2008_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vc2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228080"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2010_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"0"
+		"228081"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8152890910637185026"
+					"size"		"114951442"
+					"download"		"0"
+				}
+			}
+		}
+		"228082"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6603123139015147680"
+					"size"		"100436226"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"67950"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
