@@ -1,0 +1,155 @@
+"appinfo"
+{
+	"appid"		"228100"
+	"common"
+	{
+		"name"		"Autonomous Prototype"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"logo"		"a64ad167faa400dc327f07e1c54e1cd747ebd942"
+		"logo_small"		"a64ad167faa400dc327f07e1c54e1cd747ebd942_thumb"
+		"clienticon"		"3d41d95154d1376b2a71c2f596b499460921758f"
+		"clienttga"		"9435bf38dd549a0a7ccb1687c61b28be6557a930"
+		"icon"		"b211e56d84375a6af8812d489e6f562c5ef01c40"
+		"oslist"		"windows"
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"49.76662777129521"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"49.76662777129521"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1658955240"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"228100"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"Autonomous"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Autonomous Prototype"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher.exe"
+				"description"		"Configure and launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"292f8fb09a4228957d3ce2c3f15b5c77f4c240d628abdac7e15234f0d61e45532d0fa5e568c9cd0e6c8f84037527b30b641aecd9c4c136158bdb6997d4b1e351ab4b15154c100d36614767c9cd4a176bb4e2d2b2ffffeaa1af711cceb4b14439f86265f63cd3fbf932b2eed25a52beb6b272dfc0444f1232ced991483345bdc9"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228100"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228100"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2008_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vc2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228100"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2010_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"228101"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5229075381831316335"
+					"size"		"161538620"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"33332"
+			}
+		}
+	}
+}
