@@ -1,0 +1,154 @@
+"appinfo"
+{
+	"appid"		"228060"
+	"common"
+	{
+		"name"		"Black Lake Prototype"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"b219c05b7046c67027331d7a66c97ce63fe0bbad"
+		"logo_small"		"b219c05b7046c67027331d7a66c97ce63fe0bbad_thumb"
+		"clienticon"		"43619145205763e2a7558700474ae8831e7035f5"
+		"clienttga"		"a876df258f80ff8adc841d669cce4713effe7824"
+		"icon"		"42d3f22b5a35c2cfc6ae7fcda213330a7fe40a5d"
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1658957815"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"228060"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"Black Lake"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Black Lake Prototype"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Black.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"5e8c3eda55a2d409d118f2ee4af18595eaff1e0a5f526dc23e83c3cd539e8e34a50e31c539c57f5d75cf7287026c83bdcf4b6590666f850a4c84cc3ac58d8c9a7707f132e54b576c538cf3c1c147433680f9137aa4607defd4cae99b32e308bc2347a72e75416501478c33020f600c9d9b06096b2b503e0ba564787fbcb0ba07"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228060"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228060"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2008_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vc2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228060"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2010_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"228061"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6866150030238275296"
+					"size"		"185369921"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"32057"
+			}
+		}
+	}
+}
