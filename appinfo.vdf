@@ -1,0 +1,145 @@
+"appinfo"
+{
+	"appid"		"225120"
+	"common"
+	{
+		"name"		"BRAZEN Prototype"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"clienticon"		"43619145205763e2a7558700474ae8831e7035f5"
+		"clienttga"		"39ca24fc4ef961b901463aaaddb6083ccd7ecd25"
+		"icon"		"eb541cb030dd9b4b8c733333e955b8ce9eea9cab"
+		"logo"		"eab298a774cd97f64b52a087d696aacd78d54a6d"
+		"logo_small"		"eab298a774cd97f64b52a087d696aacd78d54a6d_thumb"
+		"oslist"		"windows"
+		"metacritic_name"		"Hausen"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a148e35a2c9121cdfbedeb02e63f5c407cb71a72.jpg"
+		"store_asset_mtime"		"1353378351"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Double Fine Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Double Fine"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_9"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"225120"
+	}
+	"extended"
+	{
+		"developer"		"Double Fine Productions"
+		"gamedir"		"ValveTestApp225120"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Double Fine"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"BRAZEN"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"brazen.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"0e22ce8fe452a09104f98c622cfbc721ee9ba9465b8fac5f90e67e88ad36d389638cc909d03ae55c12b6313f18209d42a6f695c466ec0e26cadc7255a8596f29498653d96f1aedca28635cddfb74699a376e88c21a4a9a99b3df30321c863c46b8438f78bc4c93682457f68e40e999e9683d9d1e62fa0df614661d26060e62a3"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\225120"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\225120"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2008_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vc2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\225120"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2010_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"preloadonly"		"1"
+		"225121"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7568110973316921860"
+					"size"		"515007433"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"28091"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
