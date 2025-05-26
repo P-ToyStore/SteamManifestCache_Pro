@@ -1,0 +1,154 @@
+"appinfo"
+{
+	"appid"		"228040"
+	"common"
+	{
+		"name"		"The White Birch Prototype"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"logo"		"8d96b324da7910a31cb84eca23c0c001ec881432"
+		"logo_small"		"8d96b324da7910a31cb84eca23c0c001ec881432_thumb"
+		"oslist"		"windows"
+		"clienticon"		"796e4019661698be1e73eba96adf3be986371969"
+		"clienttga"		"18552bdcdafbeda18979d730ad21e799869a176f"
+		"icon"		"b7e1cdafad86d396ed17a2c1abebaaaa04d56fd0"
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1658957275"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"228040"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"The White Birch"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The White Birch Prototype"
+		"installscriptsignature"		"64783399469989153c8635a648bb5c0dba1221d14f8bb140f11abf678977fed98b2222a07a8c9ee855b1fa6bbf3316c2a9dd4dd62094e45a07c359447374c82a342f79d5773302af70aa5c0d1dd6d94f50cf0d7253513cd42f04c98f3f8ffa16e6ea7967fde3efb2f82c0d9f7dfe811416553e765026bed2e22b98f7a86151af"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Birch.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228040"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228040"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2008_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vc2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228040"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2010_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"228041"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8985288615964940277"
+					"size"		"113695405"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"32035"
+			}
+		}
+	}
+}
