@@ -1,0 +1,232 @@
+"appinfo"
+{
+	"appid"		"207730"
+	"common"
+	{
+		"name"		"Arena Wars 2"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"icon"		"5c8efdd8b5836383a2c3f895d443061787a7af43"
+		"clienticon"		"883dec30d58a091ebbe6a841677db0352e8c67ac"
+		"clienttga"		"563d14abdf6db4ad0123c609387d5cfa4dc05f78"
+		"logo"		"87d899313e922aac6078b067b820e50515ebc13d"
+		"logo_small"		"87d899313e922aac6078b067b820e50515ebc13d_thumb"
+		"metacritic_name"		"Arena Wars 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8acec24b1db4976b85af40f3546046fca504cd97.jpg"
+		"store_asset_mtime"		"1349985620"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ExDream GmbH"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Just a Game"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1350061200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"207730"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"1676"
+		}
+		"review_score"		"4"
+		"review_percentage"		"32"
+	}
+	"extended"
+	{
+		"developer"		"ExDream GmbH"
+		"gamedir"		"Arena Wars 2"
+		"homepage"		"http://www.arenawars2.com/"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"207731"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Just a Game"
+	}
+	"config"
+	{
+		"installscriptsignature"		"29d06caf805635794d6caa20f6d65c42dace4a7e931024f49625b3ec8b32d355ae7b3b120a8cd89110351ef85a9ea461a087b20ac4d8722b7f7ecd2b3dfeb03f9605a57f9361f9fc45c19ddc348c9cef79bf07b042ff11c2da6698e7d0ae6bcc4674971247699196084b8c0dc73331fcfe0cd7c7a607bdeb534d9f13ac22ec6c"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ArenaWars.exe"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Arena Wars 2"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			".net 4.0 client"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\207730"
+				"process 1"		"%INSTALLDIR%\\Setup\\InstallDotNet.exe"
+				"nocleanup"		"1"
+			}
+			"openal"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\207730"
+				"process 1"		"%INSTALLDIR%\\Setup\\oalinst.exe"
+				"command 1"		"/S"
+				"nocleanup"		"1"
+			}
+			"xvid codec"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\207730"
+				"process 1"		"%INSTALLDIR%\\Setup\\Xvid-1.3.2-20110601.exe"
+				"command 1"		"--mode unattended --unattendedmodeui none --AutoUpdater no --decode_divx DIVX --decode_3ivx 3IVX --decode_other MPEG4"
+				"nocleanup"		"1"
+			}
+			"c++ redistributable x86"
+			{
+				"process 1"		"%INSTALLDIR%\\Setup\\vcredist_x86.exe"
+				"nocleanup"		"1"
+				"command 1"		"/s"
+				"requirement_os"
+				{
+					"is64bitwindows"		"0"
+				}
+			}
+			"c++ redistributable x64"
+			{
+				"process 1"		"%INSTALLDIR%\\Setup\\vcredist_x64.exe"
+				"nocleanup"		"1"
+				"command 1"		"/s"
+				"requirement_os"
+				{
+					"is64bitwindows"		"1"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"207731"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1403812245546040355"
+					"size"		"484071936"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"1403812245546040355"
+					"size"		"484071936"
+					"download"		"0"
+				}
+			}
+		}
+		"207732"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6899403284885995308"
+					"size"		"15036654"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"6899403284885995308"
+					"size"		"15036654"
+					"download"		"0"
+				}
+			}
+		}
+		"207733"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7013239916299881393"
+					"size"		"29596334"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"7013239916299881393"
+					"size"		"29596334"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20932"
+			}
+			"beta"
+			{
+				"buildid"		"20932"
+			}
+		}
+	}
+}
