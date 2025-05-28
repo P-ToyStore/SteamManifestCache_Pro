@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"301360"
+	"common"
+	{
+		"name"		"Kill Fun Yeah"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"eulas"
+		{
+		}
+		"icon"		"7dff3b6e3202506ab23ba619c1c90ac8eb262067"
+		"logo"		"414bde4cc26d97b876bd716e7e675c11384db837"
+		"logo_small"		"414bde4cc26d97b876bd716e7e675c11384db837_thumb"
+		"clienticon"		"f25b72c8def3ab0a871a81898b6dbc56d946e973"
+		"clienttga"		"b2520c7d2e57b4635ece5c9178bdcc0a67911dbb"
+		"clienticns"		"88e874a2aa4d71f667c21863814be1bc218137e4"
+		"linuxclienticon"		"18397ba3b97d800c2f85640348834c3f6d3d1a6a"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Kill Fun Yeah"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e0f1cff3664c61f727f035081a2d7b6ae9e742c8.jpg"
+		"store_asset_mtime"		"1401358106"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Arctic Anteater"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Arctic Anteater"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1401472572"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"301360"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1625"
+			"3"		"3859"
+			"4"		"1774"
+		}
+		"review_score"		"5"
+		"review_percentage"		"44"
+	}
+	"extended"
+	{
+		"legacykeylinkedexternally"		"1"
+		"hadthirdpartycdkey"		"1"
+		"developer"		"Arctic Anteater"
+		"publisher"		"Arctic Anteater"
+		"homepage"		"http://www.killfunyeah.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"KillFunYeah"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"KFY_Client.exe"
+				"description"		"Play Kill Fun Yeah"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"KFY_Client.exe"
+				"arguments"		"--editor"
+				"description"		"Launch Editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"runClient.sh"
+				"description"		"Play Kill Fun Yeah"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"runEditor.sh"
+				"description"		"Launch Editor"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"KFY.app/Contents/Resources/KFY_Client"
+				"description"		"Play Kill Fun Yeah"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"KFY.app/Contents/Resources/KFY_Client"
+				"arguments"		"--editor"
+				"description"		"Launch Editor"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"301361"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4281079587864005380"
+					"size"		"81109484"
+					"download"		"270118938009"
+				}
+			}
+		}
+		"301362"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2055415161260747857"
+					"size"		"81605614"
+					"download"		"3003168308061"
+				}
+			}
+		}
+		"301363"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4715396476670436241"
+					"size"		"93720824"
+					"download"		"41063282034"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"465046"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
