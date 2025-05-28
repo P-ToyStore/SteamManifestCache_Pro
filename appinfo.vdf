@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"299860"
+	"common"
+	{
+		"name"		"Beasts of Prey"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"d31f2817c6a7dea82b4636c46e52ac1865cb58e4"
+		"logo_small"		"d31f2817c6a7dea82b4636c46e52ac1865cb58e4_thumb"
+		"icon"		"d6eb504550bbeaba6d144432814fd9130c673de9"
+		"clienttga"		"3e1dbf57a766956f077409a525cd54f87aff1d01"
+		"clienticon"		"4901d2e173057a119a119135f38354dc890904d3"
+		"metacritic_name"		"Beasts of Prey"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_05b7c7334703649e1f675fd2fa8222aa13a41ce0.jpg"
+		"store_asset_mtime"		"1430765936"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Denurea Invest"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Denurea Invest"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"29"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_9"		"1"
+			"category_31"		"1"
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1401951600"
+		"steam_release_date"		"1402003260"
+		"community_hub_visible"		"1"
+		"gameid"		"299860"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"5160"
+			"2"		"1695"
+			"3"		"1702"
+			"4"		"3810"
+			"5"		"3859"
+			"6"		"21"
+			"7"		"128"
+			"8"		"19"
+			"9"		"3839"
+			"10"		"492"
+			"11"		"1643"
+			"12"		"493"
+			"13"		"1663"
+			"14"		"1685"
+			"15"		"9564"
+			"16"		"3834"
+			"17"		"1775"
+			"18"		"5900"
+			"19"		"9"
+		}
+		"review_score"		"5"
+		"review_percentage"		"41"
+	}
+	"extended"
+	{
+		"developer"		"Denurea Invest"
+		"publisher"		"Denurea Invest"
+		"homepage"		"http://www.beastsofprey.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"BeastsOfPrey"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"bop.app"
+				"description"		"Start Internet Game"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"BoP"
+				"description"		"Start Internet Game"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"BoPServer.exe"
+				"arguments"		"-batchmode -withclient"
+				"description"		"Start Local Game"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"BoP.exe"
+				"description"		"Start Internet Game (faster, but without Local Server)"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"BoP.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"Start with Oculus Rift Mode"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"299861"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5111456511198751757"
+					"size"		"1850070334"
+					"download"		"815483200"
+				}
+			}
+		}
+		"299862"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"374445464550889580"
+					"size"		"1586233101"
+					"download"		"735042000"
+				}
+			}
+		}
+		"299863"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4561615140562459187"
+					"size"		"1609905263"
+					"download"		"743483072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"550029"
+				"timeupdated"		"1504522388"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
