@@ -1,0 +1,204 @@
+"appinfo"
+{
+	"appid"		"947470"
+	"common"
+	{
+		"name"		"Optica"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"b14361f46f0106e88955c64fc69eb0327b400532"
+		"logo_small"		"b14361f46f0106e88955c64fc69eb0327b400532_thumb"
+		"icon"		"015e4e978031ed50c32f39704597d7a51b20299d"
+		"clienticon"		"ace49e2a9190456ff29c7f37589e8f6f71981d75"
+		"clienttga"		"36dc8e37c912ff2b07dba003eb50e95589677db2"
+		"metacritic_name"		"Optica"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_fa0cd1a8b664849cc3f81cee5f0337fa684b0ceb.jpg"
+		"store_asset_mtime"		"1537890806"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Graveck"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"GLITCH"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1541708030"
+		"community_hub_visible"		"1"
+		"gameid"		"947470"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"9"
+			"3"		"1664"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Graveck"
+		"publisher"		"GLITCH"
+		"homepage"		"https://opticagame.com/"
+	}
+	"config"
+	{
+		"installdir"		"Optica"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Optica.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Optica.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"947472"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2609146762820099491"
+					"size"		"97252845"
+					"download"		"35071600"
+				}
+			}
+		}
+		"947471"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1906695063912134844"
+					"size"		"120024842"
+					"download"		"40168336"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3417849"
+				"timeupdated"		"1545338132"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"50000"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"GLITCH Creative/Optica"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
