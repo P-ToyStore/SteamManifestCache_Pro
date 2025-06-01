@@ -1,0 +1,244 @@
+"appinfo"
+{
+	"appid"		"1051330"
+	"common"
+	{
+		"name"		"Crossroads Extreme"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"9bb9c60377156b5260d958332c134fc97c93b334"
+		"clienttga"		"a6690f05d3ec1f5d35169de79121650450a9f5ab"
+		"icon"		"d9345e02b85165f4b3d7ccee9490e5963b1b3865"
+		"logo"		"2597d1ae721280becc308c13bf9ead61f2907f58"
+		"logo_small"		"2597d1ae721280becc308c13bf9ead61f2907f58_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Crossroads Extreme"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1711512376"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"IO Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"IO Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1559977200"
+		"steam_release_date"		"1560012654"
+		"community_hub_visible"		"1"
+		"gameid"		"1051330"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"599"
+			"2"		"1664"
+			"3"		"1732"
+			"4"		"3964"
+			"5"		"6129"
+			"6"		"4136"
+			"7"		"492"
+			"8"		"1773"
+			"9"		"4305"
+			"10"		"4182"
+			"11"		"4026"
+			"12"		"10235"
+			"13"		"9204"
+			"14"		"379975"
+			"15"		"16689"
+			"16"		"3813"
+			"17"		"5851"
+			"18"		"4726"
+			"19"		"4791"
+		}
+	}
+	"extended"
+	{
+		"developer"		"IO Games"
+		"publisher"		"IO Games"
+	}
+	"config"
+	{
+		"installdir"		"Crossroads Extreme"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Crossroads Extreme.exe"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"1051331"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2143034213779902927"
+					"size"		"151485206"
+					"download"		"30726384"
+				}
+				"beta"
+				{
+					"gid"		"2143034213779902927"
+					"size"		"151485206"
+					"download"		"30726384"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5867318"
+				"timeupdated"		"1606127317"
+			}
+			"beta"
+			{
+				"buildid"		"5867318"
+				"description"		"Beta brach"
+				"timeupdated"		"1606106399"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"IO Games/Crossroads Extreme/Saves"
+				"pattern"		"*.*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"IO Games/Crossroads Extreme/Saves"
+						"replace"		"com.IOGames.CrossroadsExtreme"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"IO Games/Crossroads Extreme/Saves"
+						"replace"		".config/unity3d/IO Games/Crossroads Extreme/Saves"
+					}
+				}
+			}
+		}
+	}
+}
