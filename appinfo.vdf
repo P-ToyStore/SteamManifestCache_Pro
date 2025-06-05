@@ -1,0 +1,160 @@
+"appinfo"
+{
+	"appid"		"200350"
+	"common"
+	{
+		"name"		"Starvoid"
+		"type"		"Game"
+		"clienticon"		"7844f42ed36d0c095860ba48aa2ba5af1d98201f"
+		"clienttga"		"ccecac94068978ad76f252ee583e824292aae7ce"
+		"icon"		"69dce19583cd217b0f590cf7f6553fca69307250"
+		"logo"		"aeb0c02567d7acb01a25384ce3a5f71f91b91523"
+		"logo_small"		"aeb0c02567d7acb01a25384ce3a5f71f91b91523_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"200350_eula_0"
+				"name"		"Starvoid EULA"
+				"url"		"https://store.steampowered.com//eula/200350_eula_0"
+				"version"		"1"
+			}
+		}
+		"metacritic_name"		"Starvoid Beta"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4d985730b8c10121f067bf66f6ebf6960be66a9b.jpg"
+		"store_asset_mtime"		"1346273457"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zeal Game Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paradox Interactive"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1346346000"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"200350"
+		"store_tags"
+		{
+			"0"		"1676"
+			"1"		"9"
+		}
+		"review_score"		"4"
+		"review_percentage"		"26"
+	}
+	"extended"
+	{
+		"developer"		"Zeal Game Studios"
+		"gamedir"		"Project Silverado"
+		"homepage"		"http://www.starvoidthegame.com/"
+		"icon"		""
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp200350\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"200351"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"publisher"		"Paradox Interactive"
+	}
+	"config"
+	{
+		"installscriptsignature"		"97e3b3bf457869e2d4ac032c94e73d7bd1c2a789383aff071278dcc5dc388351740eafcd9e1a8bf87995cc3f4b1c2c64ad1d13e36767e94a23230cb6948d8c5cd6bf0678c583f3e4fe20742aeea52f89ca4b575fcb0c6b5f282b5a953d059a0eddf4328ff5edab16923981aac24bfbea8784e0b3fdd5ffc71f7a0ef2c2418164"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"starvoid.exe"
+				"arguments"		"-bundle-dir ."
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Project Silverado"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\200350"
+				"process 1"		"%INSTALLDIR%\\_depend\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\200350"
+				"process 1"		"%INSTALLDIR%\\_depend\\DirectX Feb 2010\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"200351"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7046185652470852473"
+					"size"		"562340825"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13708"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
