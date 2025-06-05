@@ -1,0 +1,403 @@
+"appinfo"
+{
+	"appid"		"373410"
+	"common"
+	{
+		"name"		"The Kindred"
+		"type"		"Game"
+		"logo"		"3a32f575cdfdc9d940e1a5f743e1da175869d562"
+		"logo_small"		"3a32f575cdfdc9d940e1a5f743e1da175869d562_thumb"
+		"clienticon"		"47ea5bebb193f074a390cdbbcbb92ee6ad9b407d"
+		"clienttga"		"8fd00b3932deec24877673ec0557081b5885d55b"
+		"icon"		"846cf30cb34cd76962d3123fd1af3b1adceedc26"
+		"clienticns"		"0ba8633dfa0693b9186161e3988d4734359bcf11"
+		"linuxclienticon"		"3e449df09e07c4d5214f5beb10bef7a154306331"
+		"oslist"		"windows,macos,linux"
+		"releasestate"		"released"
+		"metacritic_name"		"The Kindred"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d1db31913926907007e0ac6029db83afd0f7bdad.jpg"
+		"store_asset_mtime"		"1475490467"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Persistent Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nkidu Games Inc."
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1456336653"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"373410"
+		"store_tags"
+		{
+			"0"		"3810"
+			"1"		"1643"
+			"2"		"4328"
+			"3"		"1662"
+			"4"		"1732"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"developer"		"Persistent Studios"
+		"publisher"		"Nkidu Games Inc."
+		"homepage"		"http://thekindred.net/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TheKindred"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheKindred.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"TheKindred.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"TheKindred.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"TheKindred.App/Contents/MacOS/TheKindred"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"TheKindred.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"(compatibility mode)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"TheKindred.exe"
+				"arguments"		"-show-screen-selector"
+				"description"		"(settings launcher)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"TheKindred.x86_64"
+				"arguments"		"-show-screen-selector"
+				"description"		"(settings launcher)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"7"
+			{
+				"executable"		"TheKindred.x86"
+				"arguments"		"-show-screen-selector"
+				"description"		"(settings launcher)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"8"
+			{
+				"executable"		"TheKindred.App/Contents/MacOS/TheKindred"
+				"arguments"		"-show-screen-selector"
+				"description"		"(settings launcher)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"373411"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5980216917046166641"
+					"size"		"216574165"
+					"download"		"55447472"
+				}
+				"alpha5"
+				{
+					"gid"		"1476740039492161614"
+					"size"		"210289595"
+					"download"		"54134592"
+				}
+				"alpha7"
+				{
+					"gid"		"1114143856958641790"
+					"size"		"215183073"
+					"download"		"54684352"
+				}
+				"alpha8.10"
+				{
+					"gid"		"8621994734232940842"
+					"size"		"216665078"
+					"download"		"55456560"
+				}
+				"alpha8.2"
+				{
+					"gid"		"8921062187429969081"
+					"size"		"216841931"
+					"download"		"55517024"
+				}
+				"alpha8.9"
+				{
+					"gid"		"3754225138587359371"
+					"size"		"216603078"
+					"download"		"55453504"
+				}
+				"unstable"
+				{
+					"gid"		"5980216917046166641"
+					"size"		"216574165"
+					"download"		"55447472"
+				}
+			}
+		}
+		"373412"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1046302867754134625"
+					"size"		"260873656"
+					"download"		"67193136"
+				}
+				"alpha5"
+				{
+					"gid"		"997951815682645480"
+					"size"		"250924160"
+					"download"		"64883168"
+				}
+				"alpha7"
+				{
+					"gid"		"1757182456620292253"
+					"size"		"260463161"
+					"download"		"66795200"
+				}
+				"alpha8.10"
+				{
+					"gid"		"1137119404278737385"
+					"size"		"260963532"
+					"download"		"67204848"
+				}
+				"alpha8.2"
+				{
+					"gid"		"9058952653578254381"
+					"size"		"262136709"
+					"download"		"67625136"
+				}
+				"alpha8.9"
+				{
+					"gid"		"7658455711754871854"
+					"size"		"260906884"
+					"download"		"67202464"
+				}
+				"unstable"
+				{
+					"gid"		"1046302867754134625"
+					"size"		"260873656"
+					"download"		"67193136"
+				}
+			}
+		}
+		"373413"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1060262405317677560"
+					"size"		"261001956"
+					"download"		"69271248"
+				}
+				"alpha5"
+				{
+					"gid"		"7625928355377312359"
+					"size"		"244190534"
+					"download"		"63980288"
+				}
+				"alpha7"
+				{
+					"gid"		"3411124648632719186"
+					"size"		"259883017"
+					"download"		"68600880"
+				}
+				"alpha8.10"
+				{
+					"gid"		"8205549106265461395"
+					"size"		"261091832"
+					"download"		"69280592"
+				}
+				"alpha8.2"
+				{
+					"gid"		"5176850982691404562"
+					"size"		"261556569"
+					"download"		"69425680"
+				}
+				"alpha8.9"
+				{
+					"gid"		"4178909260787138154"
+					"size"		"261035184"
+					"download"		"69278352"
+				}
+				"unstable"
+				{
+					"gid"		"1060262405317677560"
+					"size"		"261001956"
+					"download"		"69271248"
+				}
+			}
+		}
+		"workshopdepot"		"373410"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2320962"
+				"timeupdated"		"1511840650"
+			}
+			"alpha5"
+			{
+				"buildid"		"1356694"
+				"description"		"Only use if you wish to continue an old save game for the Alpha 5 version"
+				"timeupdated"		"1489288593"
+			}
+			"alpha7"
+			{
+				"buildid"		"1764174"
+				"description"		"Only use if you wish to continue an old save game for the Alpha 7 version"
+				"timeupdated"		"1494298515"
+			}
+			"alpha8.10"
+			{
+				"buildid"		"2191792"
+				"timeupdated"		"1508473434"
+			}
+			"alpha8.2"
+			{
+				"buildid"		"1824147"
+				"timeupdated"		"1504832253"
+			}
+			"alpha8.9"
+			{
+				"buildid"		"2170251"
+				"timeupdated"		"1507786931"
+			}
+			"unstable"
+			{
+				"buildid"		"2320962"
+				"description"		"For Testers - Use at own risk!"
+				"timeupdated"		"1511840639"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"20971520"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
