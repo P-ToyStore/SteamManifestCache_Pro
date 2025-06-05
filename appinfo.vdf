@@ -1,0 +1,168 @@
+"appinfo"
+{
+	"appid"		"23130"
+	"common"
+	{
+		"name"		"Mole Control"
+		"logo"		"ea45ed436fadd0b35f4461c952cc6d082d397277"
+		"logo_small"		"ea45ed436fadd0b35f4461c952cc6d082d397277_thumb"
+		"clienticon"		"e7f158a1cab1629195b1430059b9772771ff156c"
+		"clienttga"		"910a91443a227cb30b53d5287b68969b6dcd4846"
+		"icon"		"5dbde6f35fcb51f949387cb002ef70534c0c6e6f"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"metacritic_url"		"pc/molecontrol"
+		"type"		"game"
+		"metacritic_name"		"Mole Control"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_aca525288d7159f52466065c54da207dcf92b9d0.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Remode"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Blitz 1UP"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1271800800"
+		"metacritic_score"		"66"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/mole-control?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"23130"
+	}
+	"extended"
+	{
+		"developer"		"Remode"
+		"gamedir"		"Mole Control"
+		"gamemanualurl"		"http://store.steampowered.com/manual/23130/"
+		"homepage"		"http://www.molecontrolgame.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"23133"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Blitz 1UP"
+	}
+	"config"
+	{
+		"installscriptsignature"		"2211c9a71da2205e7114be81a48eef5e1efbe7ed48ff3849ec729e33f7b13b15e9676d3bc54819b0a23787deb555843449cf74a69949cc2a8f53d0a8a8ddbeb72e14eb23c6a226e21b8b9efcac7b54aee0f5795057b98b5b99705d6ead1e4118bffe4c8f80a604ce29e7383e7c76a0f61c675ba43f182a3884cb4a93a29296da"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Mole Control"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MoleControl.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\remode\molecontrol"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\MoleControl.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"1"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\23160"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"23133"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1984070709365497111"
+					"size"		"274757343"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3616"
+			}
+		}
+	}
+}
