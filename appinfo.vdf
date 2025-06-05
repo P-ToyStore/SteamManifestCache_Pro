@@ -1,0 +1,100 @@
+"appinfo"
+{
+	"appid"		"210370"
+	"common"
+	{
+		"name"		"Starvoid Server"
+		"type"		"Tool"
+		"clienticon"		"7844f42ed36d0c095860ba48aa2ba5af1d98201f"
+		"clienttga"		"ccecac94068978ad76f252ee583e824292aae7ce"
+		"icon"		"69dce19583cd217b0f590cf7f6553fca69307250"
+		"oslist"		"windows"
+		"gameid"		"210370"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"Starvoid Dedicated Server"
+		"homepage"		""
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"210371"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+	}
+	"config"
+	{
+		"installscriptsignature"		"156fd4ac2522c997652a5a6d90db988c446f2b6d5a6bcc8f9a38416f19da21e079be572143bee8ba87ea93324d67851e7ab8bbe65545445fd95c3356d00c1ec4302524d12b1ade6b445d018a36ec63bf1607fade42a6d1622b6ec639b3ee4b8802e6293a7a6aba5204233856622cc3881b46c6499fa4f2d6720dd4ce8afd7d02"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"default_win32_release.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"SVALPHASERVER"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210370"
+				"process 1"		"%INSTALLDIR%\\install\\DirectX Feb 2010\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist_2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\210370"
+				"process 1"		"%INSTALLDIR%\\install\\vcredist_x86_2010.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"210371"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6874234086041704849"
+					"size"		"99437892"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"68226"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"hidecloudui"		"0"
+	}
+}
