@@ -1,0 +1,199 @@
+"appinfo"
+{
+	"appid"		"228020"
+	"common"
+	{
+		"name"		"Spacebase DF-9 Prototype"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"c15fd0fc0492fc3379bf815b0de61c9f9d5977b8"
+		"logo_small"		"c15fd0fc0492fc3379bf815b0de61c9f9d5977b8_thumb"
+		"clienticon"		"ad2b53f18a3a4d5e471505e068edb28e0d467cc2"
+		"clienttga"		"9f7c28ba2e084b12338e75ab930d735bcff2d41b"
+		"icon"		"88f905964ca4d747548acd5c6ee821b7642beca8"
+		"releasestate"		"released"
+		"metacritic_name"		"Spacebase DF-9 Prototype"
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1658956878"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Double Fine"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Double Fine"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"228020"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Double Fine"
+		"gamedir"		"Spacebase DF-9"
+		"homepage"		"http://www.spacebasedf9.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Double Fine"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Spacebase DF-9 Prototype"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Win\\Bin\\moai-fmod-designer.exe"
+				"arguments"		"Data\\Scripts\\config.lua Data\\Scripts\\main.lua"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SpaceBase.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"installscriptsignature"		"7d51253bb86ae12dab64a564d1dc62ef626b0e828d62588554a6b758021cd9ff8fe2e4ad1c8403d6994465bb9359efd6d1f078a5ca58c26e5e20882af6becac6add944f2dc069d5fe02bdbd0df094f451b8aaa9697f104395da6f213591a48ddf2a02729939b6d18b314553079ef95dace30adee9c37d8db6ea29e84d68ef2ef"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228020"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228020"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2008_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vc2010"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\228020"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_2010_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english"
+		"markdlcdepots"		"0"
+		"228021"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3119842292601088089"
+					"size"		"88018642"
+					"download"		"0"
+				}
+			}
+		}
+		"228022"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"885794547610525081"
+					"size"		"90609873"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"67951"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
