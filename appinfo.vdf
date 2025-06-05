@@ -1,0 +1,187 @@
+"appinfo"
+{
+	"appid"		"1286120"
+	"common"
+	{
+		"name"		"Marble It Up! Classic"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"clienttga"		"8641e92736074a385234fd5236e558601da3d8a7"
+		"clienticon"		"37d69640b08ec9e621d5dfd28763cd829f49e02d"
+		"logo"		"8043d47d004619b7882951ec5488ab60a0160f64"
+		"logo_small"		"8043d47d004619b7882951ec5488ab60a0160f64_thumb"
+		"icon"		"866afc61a61e08bf128c3c58b67ac5af688cc35d"
+		"releasestate"		"released"
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"97.46067695807035"
+				"height_pct"		"63.043271141379954"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"97.46067695807035"
+					"height_pct"		"63.043271141379954"
+				}
+			}
+		}
+		"store_asset_mtime"		"1586122363"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1286120"
+	}
+	"config"
+	{
+		"installdir"		"Marble It Up! Classic"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Marble It Up.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Marble It Up.exe"
+				"arguments"		"+LevelTest 1"
+				"description"		"Level Tester"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"3"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"1286121"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1357488758229672071"
+					"size"		"558507436"
+					"download"		"417974992"
+				}
+			}
+		}
+		"1286122"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+		}
+		"workshopdepot"		"1286120"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4862282"
+				"timeupdated"		"1586120521"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Bad Habit/MarbleItUp"
+				"pattern"		"*.mp"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Bad Habit/MarbleItUp"
+						"replace"		"Bad Habit/MarbleItUp"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgConfigHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Bad Habit/MarbleItUp"
+						"replace"		"unity3d/Bad Habit/MarbleItUp"
+					}
+				}
+			}
+		}
+	}
+}
