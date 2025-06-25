@@ -1,0 +1,62 @@
+"appinfo"
+{
+	"appid"		"18112"
+	"common"
+	{
+		"name"		"Shattered Horizon Dedicated Server"
+		"type"		"Tool"
+		"associations"
+		{
+		}
+		"gameid"		"18112"
+	}
+	"extended"
+	{
+		"developer"		"Futuremark"
+		"gamedir"		"Shattered Horizon"
+		"gamemanualurl"		"http://store.steampowered.com/manual/18110/"
+		"homepage"		"http://shatteredhorizon.com/"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"18112"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Shattered Horizon Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"server_exe/sh_server_gui.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"18112"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1120607502387180125"
+					"size"		"260903206"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"52160"
+			}
+		}
+	}
+}
