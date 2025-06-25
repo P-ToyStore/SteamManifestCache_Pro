@@ -1,0 +1,74 @@
+"appinfo"
+{
+	"appid"		"29670"
+	"common"
+	{
+		"name"		"Aion Collectors Edition"
+		"clienticon"		"8885cb99ca6a94008ae20fec8683576660a9b0ee"
+		"icon"		"1a98d64765cf976440046b8c9f728e352bef5964"
+		"clienttga"		"30ca06ef4c2959dc1ba9e041889ec373bbd5ae6d"
+		"logo"		"07337741fd0c3bbf94eabeb304983694f3e5a80e"
+		"logo_small"		"07337741fd0c3bbf94eabeb304983694f3e5a80e_thumb"
+		"type"		"game"
+		"community_hub_visible"		"1"
+		"gameid"		"29670"
+	}
+	"extended"
+	{
+		"allowelevation"		"1"
+		"developer"		"NCSoft"
+		"externalsubscriptionurl2"		"https://secure.ncsoft.com/cgi-bin/serial.pl?serial=%cdkey%"
+		"gamedir"		"AionEUCE"
+		"homepage"		"http://www.aiononline.com/"
+		"icon"		""
+		"inhibitautoversionroll"		"1"
+		"installscript"		"29640_install.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp29670\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"29641"
+		"serverbrowsername"		""
+		"showcdkeyinmenu"		"1"
+		"state"		"eStateAvailable"
+		"supportscdkeycopytoclipboard"		"0"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Aion"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NCWLauncherSetup.exe"
+				"arguments"		"/InstallOrRun=Aion"
+			}
+		}
+	}
+	"depots"
+	{
+		"29641"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2133658898499910452"
+					"size"		"19903900807"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"52229"
+			}
+		}
+	}
+}
