@@ -1,0 +1,305 @@
+"appinfo"
+{
+	"appid"		"21170"
+	"common"
+	{
+		"name"		"Gotham City Impostors"
+		"clienticon"		"cd63fac1872db148bb2aafe6c7b8820b99db1919"
+		"clienttga"		"8710e9a8fa25350810ad0b6910335855c9a7d761"
+		"icon"		"1b0b83ce13da847e18dbdd5dcc69a2fc12850967"
+		"logo"		"42f011c8d541a99029e2ed7d026ba98cc204c3af"
+		"logo_small"		"42f011c8d541a99029e2ed7d026ba98cc204c3af_thumb"
+		"exfgls"		"1"
+		"app_retired_publisher_request"		"1"
+		"type"		"game"
+		"metacritic_name"		"Gotham City Impostors"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_97ac7be04908e54969859c3205bfa56badb6e6ab.jpg"
+		"store_asset_mtime"		"1356026821"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Monolith Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Warner Bros. Interactive Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1328576460"
+		"metacritic_score"		"65"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/gotham-city-impostors?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"21170"
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Monolith Productions"
+		"g4w_gdf"		"engine.exe"
+		"g4w_type"		"2"
+		"gamedir"		"Gotham City Impostors"
+		"homepage"		"http://www.gothamcityimpostors.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"languages"		"english,french,german,italian,spanish"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp21170\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"21171"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"supportscdkeycopytoclipboard"		"1"
+		"publisher"		"Warner Bros. Interactive Entertainment"
+		"listofdlc"		"21200,21201,21202,21203,21204,21205,21206,21207,21208,21209,21210,21211,21212,21213,21214,21215,21216,21217,21218,21219,21220,21221,21222,21223,21224"
+	}
+	"config"
+	{
+		"usemms"		""
+		"installscriptsignature"		"ac75cb30537e57640e9737a66b01ea20b68e0719a9c8a887268f462d58d823e6544be4da90eb5d72c741f7bba44c383b543052d88393475edd5cc0d42e1c79e93ad30aad02772a3e6185bd9efcaa110d042df191628e38676e2ebf8299530c8b3b65d7e9d123725acd4a4868378fb5158b637c6516220221e73b6ea14148fc65"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Impostors.exe"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Gotham City Impostors"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\software\wbgames\gothamcityimpostors\"
+			{
+				"string"
+				{
+					"english"
+					{
+						"locale"		"1033"
+					}
+					"french"
+					{
+						"locale"		"1036"
+					}
+					"italian"
+					{
+						"locale"		"1040"
+					}
+					"german"
+					{
+						"locale"		"1031"
+					}
+					"spanish"
+					{
+						"locale"		"1034"
+					}
+					"installpath"		"%INSTALLDIR%"
+					"installtype"		"Steam"
+				}
+			}
+		}
+		"run process"
+		{
+			"gfwl"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\WBGames\\GothamCityImpostors\\"
+				"process 1"		"%INSTALLDIR%\\redist\\GFWL\\Gfwlivesetup.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\WBGames\\GothamCityImpostors\\"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\WBGames\\GothamCityImpostors\\"
+				"process 1"		"%INSTALLDIR%\\redist\\VisualStudio\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"firewallexception"
+			{
+				"process 1"		"netsh"
+				"command 1"		"firewall add allowedprogram \"%InstallDIR%\\engine.exe\" \"Gotham City Impostors\" ENABLE"
+				"ignoreexitcode"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,french,german,italian,spanish"
+		"21178"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8204967432020827744"
+					"size"		"2008589571"
+					"download"		"0"
+				}
+			}
+		}
+		"21177"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1876958369716629456"
+					"size"		"1506118460"
+					"download"		"0"
+				}
+			}
+		}
+		"21176"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3534790156572397997"
+					"size"		"1590898404"
+					"download"		"0"
+				}
+			}
+		}
+		"21175"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3451928626780008465"
+					"size"		"1198704385"
+					"download"		"0"
+				}
+			}
+		}
+		"21174"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3937403563953128618"
+					"size"		"734055283"
+					"download"		"0"
+				}
+			}
+		}
+		"21173"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6167869297552209938"
+					"size"		"81508975"
+					"download"		"0"
+				}
+			}
+		}
+		"21172"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2164069976983592407"
+					"size"		"353568396"
+					"download"		"0"
+				}
+			}
+		}
+		"21171"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7284722802366965622"
+					"size"		"20558878"
+					"download"		"0"
+				}
+			}
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"65701"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"hidecloudui"		"0"
+	}
+}
