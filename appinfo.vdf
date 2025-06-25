@@ -1,0 +1,193 @@
+"appinfo"
+{
+	"appid"		"230330"
+	"common"
+	{
+		"name"		"FINAL FANTASY® XI: Ultimate Collection Seekers Edition NA"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"fad498f3700eec9fc355b9dc0e14461461c2f213"
+		"clienttga"		"9a72ef339aaaa5d5bdf781ea39614bf87c7bc3c9"
+		"icon"		"33d8fe0caf9854a4add516c78b16c5f2553caa6b"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1648857600"
+			"tested_build_id"		"3846551"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"FINAL FANTASY XI: Seekers of Adoulin (NA)"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"german"		"capsule_231x87_german.jpg"
+			"french"		"capsule_231x87_french.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"german"		"header_german.jpg"
+			"french"		"header_french.jpg"
+		}
+		"store_screenshot"		"ss_02c3910d591ebb3dd849674fefffc2c54c1ed002.jpg"
+		"store_asset_mtime"		"1724695245"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Square Enix"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Square Enix"
+			}
+		}
+		"primary_genre"		"29"
+		"genres"
+		{
+			"0"		"29"
+		}
+		"category"
+		{
+			"category_20"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"230330"
+		"store_tags"
+		{
+			"0"		"128"
+			"1"		"1754"
+			"2"		"122"
+			"3"		"1684"
+			"4"		"4434"
+			"5"		"1742"
+			"6"		"1756"
+		}
+		"review_score"		"8"
+		"review_percentage"		"89"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Square Enix"
+		"gamedir"		"ValveTestApp230330"
+		"homepage"		"http://www.finalfantasyxi.com/"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp230330\\SteamKey"
+		"noservers"		"0"
+		"showcdkeyonlaunch"		"1"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Square Enix"
+		"listofdlc"		"237210,237230"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"FFXINA"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SquareEnix/FINAL FANTASY XI/polboot.exe"
+				"description"		"Final Fantasy XI"
+				"workingdir"		"SquareEnix/FINAL FANTASY XI"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SquareEnix\\PlayOnlineViewer\\polcfg\\polcfg.exe"
+				"description"		"Launch PlayOnline Config Utility"
+			}
+			"2"
+			{
+				"executable"		"SquareEnix\\FINAL FANTASY XI\\ToolsUS\\FINAL FANTASY XI Config.exe"
+				"description"		"Launch FINAL FANTASY XI Config Utility"
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"230331"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8107382152655255647"
+					"size"		"14673307984"
+					"download"		"7271823120"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3846551"
+				"timeupdated"		"1559721854"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
