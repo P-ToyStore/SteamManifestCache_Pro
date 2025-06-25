@@ -1,0 +1,129 @@
+"appinfo"
+{
+	"appid"		"24130"
+	"common"
+	{
+		"name"		"EverQuest: Seeds of Destruction"
+		"logo"		"a3f8565acec1ac0f1f0684722fedcd73e600ede8"
+		"logo_small"		"a3f8565acec1ac0f1f0684722fedcd73e600ede8_thumb"
+		"clienticon"		"25664240e8cffec1430fc2ca5e5232c05f13a719"
+		"clienttga"		"d88ffd2e5a4fd5fd3d8d309ab51e30e35292ac99"
+		"icon"		"f28af300e4b685751749cd093830db46ae06e66f"
+		"type"		"game"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"0000006609.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sony Online Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sony Online Entertainment"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"29"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_20"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1224313200"
+		"steam_release_date"		"1232092860"
+		"community_hub_visible"		"1"
+		"gameid"		"24130"
+	}
+	"extended"
+	{
+		"developer"		"Sony Online Entertainment"
+		"externalsubscriptionurl2"		"http://www.station.sony.com/steamactivation/?activationcode=%cdkey%&gamecode=EQ"
+		"gamedir"		"EverQuest Seeds of Destruction"
+		"homepage"		"http://www.everquest.com"
+		"icon"		""
+		"installscript"		"24120_install.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp24130\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"24121"
+		"serverbrowsername"		""
+		"showcdkeyinmenu"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Sony Online Entertainment"
+		"listofdlc"		"24135"
+	}
+	"config"
+	{
+		"installscriptsignature"		"1a1f1f1213c5612111bb392490dd15aa9cb6a70949123ef9df9020ffc3d2a78501f3cb74fbe8886bad7cffd940debab2463dcda98b681c7acb90282ab7e84845364e16930731e57323e79e252deb89fe91c40660c8cc9b9298b259b3d9e4518e1f713a2fae889b1249642b9a8d9f4ab1ccf0ab423cb706aef739217ce562767d"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"EverQuest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LaunchPad.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"fixtimestamps"
+			{
+				"process 1"		"%INSTALLDIR%\\FixTimestamps.exe"
+				"command 1"		"EverQuest.soe"
+				"minimumhasrunvalue"		"2"
+				"nocleanup"		"0"
+			}
+		}
+	}
+	"depots"
+	{
+		"24121"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1261481101711341081"
+					"size"		"6737866018"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"52183"
+			}
+		}
+	}
+}
