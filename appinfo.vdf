@@ -1,0 +1,201 @@
+"appinfo"
+{
+	"appid"		"295550"
+	"common"
+	{
+		"name"		"Royal Quest"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"295550_eula_0"
+				"name"		"Royal Quest EULA"
+				"url"		"http://store.steampowered.com/eula/295550_eula_0"
+			}
+		}
+		"icon"		"59b34a7185403482b6316838856663ef445dc59e"
+		"clienticon"		"08b06bc7c3e279dd8b4b6dae3210bc3204c47502"
+		"clienttga"		"ffbfccee2ab46dcac00a43e16f6b7638faea3f06"
+		"linuxclienticon"		"08b06bc7c3e279dd8b4b6dae3210bc3204c47502"
+		"clienticns"		"08b06bc7c3e279dd8b4b6dae3210bc3204c47502"
+		"logo"		"c0860d3d0fc65873aa351dc2fb4ca19f52c58b90"
+		"logo_small"		"c0860d3d0fc65873aa351dc2fb4ca19f52c58b90_thumb"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Royal Quest"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6c577b68990e9c26897df1553bc02caba9ada951.jpg"
+		"store_asset_mtime"		"1747206975"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Katauri"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"1C Online Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"1C"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"29"
+			"1"		"3"
+			"2"		"37"
+		}
+		"category"
+		{
+			"category_20"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1407311700"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"295550"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"128"
+			"2"		"122"
+			"3"		"21"
+			"4"		"1754"
+			"5"		"1695"
+			"6"		"1684"
+			"7"		"3859"
+			"8"		"19"
+			"9"		"1646"
+			"10"		"1697"
+			"11"		"4182"
+			"12"		"1685"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"developer"		"Katauri"
+		"publisher"		"1C Online Games"
+		"homepage"		"http://www.royalquest.com"
+		"listofdlc"		"311540,313790,323740"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Royal Quest"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"rqlauncher.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"49b51e52cb72ca6cb68cfb09038e0ac06eff83ed0eb8c94ae1639a7e248a457abaee97c7f2bed01d304a5bfdacdb24ddb5ec00f1fb00845e9002a9d744bddc50a040e69c9cadcce6741cfc457a0414c69b4f55792a09b1ce0e75e754747e1bf49da7e87c8415fc0e8f140a13b622a6ba5b907bf9df8f44e902374c36b6f98c9c"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"firewall"
+		{
+			"royal quest"		"%INSTALLDIR%\\rqmain.exe"
+			"royal quest launcher"		"%INSTALLDIR%\\rqlauncher.exe"
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"295551"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2660490470463896239"
+					"size"		"3995375946"
+					"download"		"3825852848"
+				}
+			}
+		}
+		"295552"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3720456375719686867"
+					"size"		"15486527"
+					"download"		"9566640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3203268"
+				"timeupdated"		"1539258556"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
