@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"705530"
+	"common"
+	{
+		"name"		"Wizard Hunter 2348"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"2a5d46d3fb6778c45a75d4c098e122d939b72d04"
+		"logo_small"		"2a5d46d3fb6778c45a75d4c098e122d939b72d04_thumb"
+		"icon"		"cfb688ee46c52793bbb50cda4d14ffe42042c6aa"
+		"clienttga"		"3a76009db7cd3b79531bf5a8783cda47927fdab8"
+		"clienticon"		"c63b38388e3578b506aa1ec58360d62bdbae0b54"
+		"releasestate"		"released"
+		"metacritic_name"		"Wizard Hunter 2348"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_742e9d0e3b8077a7fb1ee45a19e3b1d79b65ab46.jpg"
+		"store_asset_mtime"		"1504048098"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Foxwarrior Productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Foxwarrior Productions"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_17"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1531763062"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"705530"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1687"
+			"3"		"4637"
+			"4"		"4026"
+			"5"		"4295"
+			"6"		"4508"
+			"7"		"6426"
+			"8"		"8122"
+			"9"		"9541"
+			"10"		"11333"
+			"11"		"30358"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Foxwarrior Productions"
+		"publisher"		"Foxwarrior Productions"
+	}
+	"config"
+	{
+		"installdir"		"Wizard Hunter 2348"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Wizard Hunter 2348.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Wizard_Hunter_2348.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"705530"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"705531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3797973825760868978"
+					"size"		"54492672"
+					"download"		"55089088"
+				}
+				"experimental"
+				{
+					"gid"		"1232728185428078243"
+					"size"		"53832704"
+					"download"		"54422272"
+				}
+				"legacy"
+				{
+					"gid"		"2250240595263926635"
+					"size"		"53884416"
+					"download"		"54473456"
+				}
+			}
+		}
+		"705532"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"experimental"
+				{
+					"gid"		"4238813338925438832"
+					"size"		"93365631"
+					"download"		"46817232"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16977116"
+				"timeupdated"		"1736640187"
+			}
+			"experimental"
+			{
+				"buildid"		"2957959"
+				"timeupdated"		"1531974966"
+			}
+			"legacy"
+			{
+				"buildid"		"3013993"
+				"timeupdated"		"1558824260"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Wizard_Hunter_2348"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Wizard_Hunter_2348"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
