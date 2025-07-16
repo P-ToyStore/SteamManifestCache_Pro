@@ -1,0 +1,93 @@
+"appinfo"
+{
+	"appid"		"2849410"
+	"common"
+	{
+		"name"		"Dragons Legacy - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2520410"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"62d5a72368bd5017e46e8af7775417dae4b9fd14"
+		"clienttga"		"1cf55d3689fa3a5cbef3cb3e5aba74515d405821"
+		"linuxclienticon"		"dbaf8487e2db8f2bcfa6ab87abd97c0d7cc79bb6"
+		"icon"		"8ceaef63b2816ec97fa32e8ae7de5bc0d0ed51e2"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2849410"
+	}
+	"config"
+	{
+		"installdir"		"dragonslegacy_server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DragonsServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DragonsServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2849411"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1155850501740036648"
+					"size"		"1118932768"
+					"download"		"410023168"
+				}
+			}
+		}
+		"2849412"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7269170922732185932"
+					"size"		"2049818137"
+					"download"		"579615376"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13512427"
+				"timeupdated"		"1708465903"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
