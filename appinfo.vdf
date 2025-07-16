@@ -1,0 +1,241 @@
+"appinfo"
+{
+	"appid"		"2934100"
+	"common"
+	{
+		"name"		"Twinworld Survivor"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"b244916812ba59aadd2a51b564a098afe6208e3f"
+		"clienticon"		"ee54f768349880c4d9619e5d1fe9c7f061f4fe3a"
+		"linuxclienticon"		"9e0cfc93351853e561f4f71d7c3f10263a1f468a"
+		"clienticns"		"7489094eabfda0a3f410f0f2be00c0f783eb71b7"
+		"icon"		"ca401ba24599af7567d1d409a4ea1eaa7bf0515c"
+		"aicontenttype"		"1"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"29.88694466866866"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"29.88694466866866"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1716435425"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ghostplay Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ghostplay Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_13"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1717636983"
+		"community_hub_visible"		"1"
+		"gameid"		"2934100"
+		"store_tags"
+		{
+			"0"		"42804"
+			"1"		"597"
+			"2"		"4637"
+			"3"		"3964"
+			"4"		"4885"
+			"5"		"21"
+			"6"		"19"
+			"7"		"4726"
+			"8"		"122"
+			"9"		"4758"
+			"10"		"4182"
+			"11"		"4106"
+			"12"		"4231"
+			"13"		"1774"
+			"14"		"4158"
+			"15"		"1773"
+			"16"		"1716"
+			"17"		"3835"
+			"18"		"7208"
+			"19"		"4255"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ghostplay Games"
+		"publisher"		"Ghostplay Games"
+	}
+	"config"
+	{
+		"installdir"		"Twinworld Survivor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Twinworld Survivor.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2934101"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6382050765990540923"
+					"size"		"1417912727"
+					"download"		"239564896"
+				}
+			}
+		}
+		"2934102"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14597378"
+				"timeupdated"		"1717500830"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"twinworld/Saves"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"twinworld/Saves"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgDataHome"
+				"addpath"		"twinworld/Saves"
+			}
+		}
+	}
+}
