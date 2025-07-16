@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"2395900"
+	"common"
+	{
+		"name"		"Halloween Pinball"
+		"type"		"Game"
+		"icon"		"713e42724f4cab9981406188f6133cb63501abc0"
+		"clienttga"		"8c6b6c23a9725c67bff6a34e50e0b28414863821"
+		"clienticon"		"00dc941819134984c590abedd5187770317f4d65"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"67.5045400534147"
+				"height_pct"		"88.19168038710441"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"67.5045400534147"
+					"height_pct"		"88.19168038710441"
+				}
+			}
+		}
+		"store_asset_mtime"		"1687948574"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Super PowerUp Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Super PowerUp Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1698342675"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2395900"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1773"
+			"2"		"1667"
+			"3"		"6621"
+			"4"		"4004"
+			"5"		"3916"
+			"6"		"7743"
+			"7"		"3839"
+			"8"		"3871"
+			"9"		"4191"
+			"10"		"6691"
+			"11"		"4166"
+			"12"		"4342"
+			"13"		"3968"
+			"14"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Super PowerUp Games"
+		"publisher"		"Super PowerUp Games"
+	}
+	"config"
+	{
+		"installdir"		"Halloween Pinball"
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Halloween Pinball.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"2395901"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5811389376001856999"
+					"size"		"201286638"
+					"download"		"129015552"
+				}
+			}
+		}
+		"baselanguages"		"english,spanish,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11612958"
+				"timeupdated"		"1688378599"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Super PowerUp Games/Halloween Pinball"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Super PowerUp Games/Halloween Pinball"
+						"replace"		"unity.Super PowerUp Games.Halloween Pinball"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Super PowerUp Games/Halloween Pinball"
+						"replace"		".config/unity3d/Super PowerUp Games/Halloween Pinball"
+					}
+				}
+			}
+		}
+	}
+}
