@@ -1,0 +1,239 @@
+"appinfo"
+{
+	"appid"		"2792660"
+	"common"
+	{
+		"name"		"Katana's Path"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"fc4363b40ac87178362fd301e3788e1ebd1bceaa"
+		"clienticon"		"66cb468782ae1c26bd5c7acf6b0c9642877e1f55"
+		"linuxclienticon"		"aeb7993ea98ae1188e71201aedb01549d05220d4"
+		"icon"		"fde7664e7829394bf0e9a742a25b2b2f6b15de90"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"77.74133083411436"
+				"height_pct"		"78.47222222222223"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"77.74133083411436"
+					"height_pct"		"78.47222222222223"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1714244929"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gustavo Lucas"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Retro Head Game Studio"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Retro Head Game Studio"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1711695320"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2792660"
+		"store_tags"
+		{
+			"0"		"5547"
+			"1"		"42804"
+			"2"		"4608"
+			"3"		"1646"
+			"4"		"4026"
+			"5"		"4637"
+			"6"		"3959"
+			"7"		"1716"
+			"8"		"4711"
+			"9"		"3993"
+			"10"		"1734"
+			"11"		"4791"
+			"12"		"1773"
+			"13"		"4667"
+			"14"		"19"
+			"15"		"4115"
+			"16"		"597"
+			"17"		"492"
+			"18"		"1732"
+			"19"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Gustavo Lucas"
+		"publisher"		"Retro Head Game Studio"
+	}
+	"config"
+	{
+		"installdir"		"KatanasPath"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"KatanasPath.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"KatanasPath.exe.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2792661"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8503407210713619395"
+					"size"		"959994576"
+					"download"		"195437296"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14841819"
+				"timeupdated"		"1719389391"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"5"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Katana's Path/save_game/save.kpsave"
+				"pattern"		"*.kpsave"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".godot/app_userdata/Katana's Path/save.kpsave"
+				"pattern"		"*.kpsave"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
