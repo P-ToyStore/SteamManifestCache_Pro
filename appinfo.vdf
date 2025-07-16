@@ -1,0 +1,177 @@
+"appinfo"
+{
+	"appid"		"510080"
+	"common"
+	{
+		"name"		"Worldy Cup"
+		"type"		"Game"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"oslist"		"windows"
+		"logo"		"70f74947be0bd25385e39a6bb1fab25f53832e02"
+		"logo_small"		"70f74947be0bd25385e39a6bb1fab25f53832e02_thumb"
+		"icon"		"04596ce9e4678084985b16533ac7432b5a03042b"
+		"clienticon"		"92497e3572a76d0fdef9001f504e99e7525d8f4b"
+		"clienttga"		"c81f27b1d38094b2664252aa33ed427794aa8d88"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Worldy Cup"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_601709a7a61eba3eb1ecd070c672a5ca1d94b2cb.jpg"
+		"store_asset_mtime"		"1504323669"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tommosaur"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tommosaur"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"18"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1470817043"
+		"community_hub_visible"		"1"
+		"gameid"		"510080"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"701"
+			"2"		"19"
+			"3"		"493"
+			"4"		"21978"
+			"5"		"1254546"
+			"6"		"4182"
+			"7"		"1732"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Tommosaur"
+		"publisher"		"Tommosaur"
+		"homepage"		"http://worldycupgame.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Worldy Cup"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"worldyCup.exe"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"worldyCup.exe"
+				"arguments"		"-snvrmode steamvr"
+				"description"		"in VR for HTC Vive and DK1 and other headsets"
+				"type"		"vr"
+			}
+			"2"
+			{
+				"executable"		"worldyCup.exe"
+				"arguments"		"-snvrmode oculus"
+				"description"		"in VR for Oculus Rift DK 2 and CV only; not DK1"
+				"type"		"othervr"
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"510081"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1609894320235403694"
+					"size"		"836459286"
+					"download"		"170358240"
+				}
+				"beta"
+				{
+					"gid"		"3482757402427862719"
+					"size"		"700137439"
+					"download"		"142586544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2086936"
+				"timeupdated"		"1504311767"
+			}
+			"beta"
+			{
+				"buildid"		"1563046"
+				"timeupdated"		"1484150241"
+			}
+		}
+	}
+}
