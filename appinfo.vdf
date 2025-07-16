@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"38490"
+	"common"
+	{
+		"name"		"Earthworm Jim 2"
+		"clienticon"		"ed0021daad27224c154e922e38d1380d57068f11"
+		"clienttga"		"0ff5f3d6bf92e97809e11dc94719262015fd2095"
+		"icon"		"2cb0c67911486c2b4af6dc29c93e2ea0243df0d0"
+		"logo"		"56e6a90ddb52527d1e9de7d1d2ab0139b8f93ea2"
+		"logo_small"		"56e6a90ddb52527d1e9de7d1d2ab0139b8f93ea2_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"type"		"game"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1668447285"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Shiny Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Inc."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Earthworm Jim"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"830847600"
+		"steam_release_date"		"1257375360"
+		"community_hub_visible"		"1"
+		"gameid"		"38490"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"1693"
+			"3"		"1625"
+			"4"		"3871"
+			"5"		"1719"
+			"6"		"3798"
+			"7"		"5350"
+			"8"		"4182"
+			"9"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"69"
+	}
+	"extended"
+	{
+		"cwdoverride"		"Earthworm Jim 2"
+		"developer"		"Shiny Entertainment"
+		"gamedir"		"Earthworm Jim"
+		"homepage"		"http://www.interplay.com/"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"38481"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Interplay Inc."
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Earthworm Jim"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Earthworm Jim 2\\runme.exe"
+				"workingdir"		"Earthworm Jim 2"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/DOSBox Staging.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./Earthworm Jim 2/ewj2.conf\""
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./Earthworm Jim 2/ewj2.conf\""
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"38481"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2318932251165585160"
+					"size"		"1528113379"
+					"download"		"0"
+				}
+			}
+		}
+		"38491"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1393566360696166430"
+					"size"		"746628025"
+					"download"		"366190416"
+				}
+			}
+		}
+		"38492"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3464254172455730721"
+					"size"		"742766307"
+					"download"		"362518976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19168450"
+				"timeupdated"		"1752110219"
+			}
+		}
+	}
+}
