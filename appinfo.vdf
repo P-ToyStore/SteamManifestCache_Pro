@@ -1,0 +1,144 @@
+"appinfo"
+{
+	"appid"		"46830"
+	"common"
+	{
+		"name"		"Ironclads: Anglo Russian War 1866"
+		"logo"		"f48a50791a6b4f1e758f39bbae8b642102380b1f"
+		"logo_small"		"f48a50791a6b4f1e758f39bbae8b642102380b1f_thumb"
+		"clienticon"		"9f231d881eb79ffe23f5ac39ba259e837b53846d"
+		"clienttga"		"d3a3c712367f6cee8535625917c1ed7ce0ad4075"
+		"icon"		"f8e2204bb444b7472c90847a74e848121d32cda2"
+		"type"		"game"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_00e3fb16722d3c3901acd919aec6d7a2eef21c34.jpg"
+		"store_asset_mtime"		"1296847149"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Totem games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Strategy First"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1308329040"
+		"community_hub_visible"		"1"
+		"gameid"		"46830"
+		"store_tags"
+		{
+			"0"		"9"
+		}
+		"review_score"		"4"
+		"review_percentage"		"33"
+	}
+	"extended"
+	{
+		"developer"		"Totem games"
+		"gamedir"		"Ironclads Anglo Russian War 1866"
+		"homepage"		"http://www.totemgames.ru/"
+		"icon"		""
+		"installscript"		"46830_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"46831"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Strategy First"
+		"gamemanualurl"		"https://store.steampowered.com/manual/46830/"
+	}
+	"config"
+	{
+		"installscriptsignature"		"3b3eeabffc9c7f60d5adc5a82462b3a93b89022f2b76d5e16253f1a7d7a13eda3797de8664583d061b4960197f11b0c8bce3a212e71c651efebe2e0761c88d25a7d0c2f4dbd0c2b12d63e1017cda189158d683a03d095f9c652bf64d932ce8596dccb44085d5cdffff3f06db4e4b0728911276e51454ae014901e1fa5aee0ec6"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Ironclads Anglo Russian War 1866"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ironclads_Anglo_Russian_War.exe"
+				"arguments"		"-Launch"
+			}
+			"1"
+			{
+				"description"		"Configure Ironclads: Anglo Russian War"
+				"executable"		"Config.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\46760"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"visual c++ redistributable"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\46760"
+				"process 1"		"%INSTALLDIR%\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"46831"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6871493912139900243"
+					"size"		"600521029"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21459"
+			}
+		}
+	}
+}
