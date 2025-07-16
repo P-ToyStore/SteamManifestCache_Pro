@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"1662990"
+	"common"
+	{
+		"name"		"Explosiver"
+		"type"		"Game"
+		"logo"		"123426f2c46c626a0da3b2da3bd850e3670e0944"
+		"logo_small"		"123426f2c46c626a0da3b2da3bd850e3670e0944_thumb"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"5241609e6127c81c5601b7e5bfa6419ee5b0d65b"
+		"clienticon"		"020dd95b3bea3c150b5d9c87cabf6dd82dae46c1"
+		"clienttga"		"ad988ea97631923bf537d62477d88c5bd6e48c21"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"26.777251184834114"
+				"height_pct"		"35.348514970781366"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"26.777251184834114"
+					"height_pct"		"35.348514970781366"
+				}
+			}
+		}
+		"store_asset_mtime"		"1747508841"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"GamesBraz"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"HandMade Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"HandMade Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1646449753"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1662990"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"9"
+			"3"		"1774"
+			"4"		"4364"
+			"5"		"1663"
+			"6"		"3834"
+			"7"		"13070"
+			"8"		"3814"
+			"9"		"4684"
+			"10"		"4191"
+			"11"		"3839"
+			"12"		"4145"
+			"13"		"4175"
+			"14"		"1697"
+			"15"		"5179"
+			"16"		"6378"
+			"17"		"6129"
+			"18"		"4236"
+			"19"		"4168"
+		}
+	}
+	"extended"
+	{
+		"developer"		"GamesBraz"
+		"publisher"		"HandMade Games"
+	}
+	"config"
+	{
+		"installdir"		"Explosiver"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Explosiver.exe"
+				"arguments"		"ExecBySteam"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1662991"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2810714315392062549"
+					"size"		"11350915648"
+					"download"		"6472370640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8930042"
+				"timeupdated"		"1655166403"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"50000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"gamedata/cfg/saves/"
+				"pattern"		"*.xml"
+				"recursive"		"1"
+			}
+		}
+	}
+}
