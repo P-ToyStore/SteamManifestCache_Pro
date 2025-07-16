@@ -1,0 +1,244 @@
+"appinfo"
+{
+	"appid"		"613240"
+	"common"
+	{
+		"name"		"Stonekeep"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"ba27ed8ea10ad58c65e32f1ac6811228263b7b21"
+		"logo_small"		"ba27ed8ea10ad58c65e32f1ac6811228263b7b21_thumb"
+		"icon"		"7d1fbf165d47adb1ae03681adf3f59d9529bde62"
+		"clienticon"		"77c5b3c89ffca2375bf3ffb14a8876ec38eb6ff4"
+		"clienttga"		"fd3d27f953928a251c3f1041733be6b8e77e3919"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Stonekeep"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1670617667"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Interplay"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"815817600"
+		"steam_release_date"		"1490382028"
+		"community_hub_visible"		"1"
+		"gameid"		"613240"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"21"
+			"2"		"19"
+			"3"		"1720"
+			"4"		"6691"
+			"5"		"1684"
+			"6"		"1693"
+			"7"		"4161"
+			"8"		"7569"
+			"9"		"18594"
+			"10"		"3839"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Interplay"
+		"publisher"		"Interplay"
+		"homepage"		"https://www.interplay.com"
+	}
+	"config"
+	{
+		"installdir"		"Stonekeep"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Stonekeep.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Launch Settings.bat"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosboxStonekeep.conf\" -conf \"./dosboxStonekeep_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxStonekeep.conf\" -conf \"./dosboxStonekeep_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"613241"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4811946024059430782"
+					"size"		"655263108"
+					"download"		"376240560"
+				}
+			}
+		}
+		"613242"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3200926674868455774"
+					"size"		"651745400"
+					"download"		"377736624"
+				}
+			}
+		}
+		"613243"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7069246246374096263"
+					"size"		"659124619"
+					"download"		"374678976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19168160"
+				"timeupdated"		"1752110059"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"STONEKEEP/SAVEGAME"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
