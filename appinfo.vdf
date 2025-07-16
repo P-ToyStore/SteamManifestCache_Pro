@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"1045070"
+	"common"
+	{
+		"name"		"Please Find Me"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"a99ab3f908ff5e9cec4517d3df7946fcdd4fb135"
+		"clienticon"		"920521f1410bac9bbfac5524d7f197363cc87b85"
+		"icon"		"742c6cd7b507041f61bd14d1eda3b579d3169bd0"
+		"clienticns"		"e4e3042ae021b24468bb1522d266cc74d4963ad8"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"logo"		"b3671f832fea913eb463935cd96feff5a956fb81"
+		"logo_small"		"b3671f832fea913eb463935cd96feff5a956fb81_thumb"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Please Find Me"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3de07230afb1cfc02857616a94025356fe77c0c1.jpg"
+		"store_asset_mtime"		"1584660224"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Камин Игнат Алексеевич"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Kamin Ignat Alekseevich"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Elisey Waylone (Elisey Cherkashin Alekseevich)"
+			}
+			"3"
+			{
+				"type"		"developer"
+				"name"		"MadCat Sound Design"
+			}
+			"4"
+			{
+				"type"		"publisher"
+				"name"		"Камин Игнат Алексеевич"
+			}
+			"5"
+			{
+				"type"		"publisher"
+				"name"		"Kamin Ignat Alekseevich"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1561715745"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1045070"
+		"store_tags"
+		{
+			"0"		"21"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"Камин Игнат Алексеевич"
+		"publisher"		"Камин Игнат Алексеевич"
+	}
+	"config"
+	{
+		"installdir"		"Please Find Me"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PleaseFindMe.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1045071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7104049099372110965"
+					"size"		"4970053869"
+					"download"		"4828224400"
+				}
+			}
+		}
+		"1045072"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4009686"
+				"timeupdated"		"1563060863"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"150000000"
+		"maxnumfiles"		"150"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"PleaseFindMe/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"PleaseFindMe/Saved/Thumbnails"
+				"pattern"		"*.png"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Epic/PleaseFindMe/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"3"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Epic/PleaseFindMe/Saved/Thumbnails"
+				"pattern"		"*.png"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
