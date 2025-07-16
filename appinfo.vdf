@@ -1,0 +1,305 @@
+"appinfo"
+{
+	"appid"		"2909370"
+	"common"
+	{
+		"name"		"Reborn: Dragona PH"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"66cebc127f12a340a7aa294709f92e5c5ae52cfa"
+		"clienttga"		"897ca4e0d8323902d7903c858402f6a2f5dc3104"
+		"icon"		"96df36ea79fa62abd7de966c3d2a6b9b0a2f2ff3"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50.25856496444732"
+				"height_pct"		"52.77777777777778"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"50.25856496444732"
+					"height_pct"		"52.77777777777778"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1717470759"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"xYz, LivePlex"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"xYz"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"29"
+			"5"		"3"
+			"6"		"28"
+			"7"		"2"
+			"8"		"37"
+		}
+		"category"
+		{
+			"category_20"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_1"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1721098745"
+		"community_hub_visible"		"1"
+		"gameid"		"2909370"
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"5395"
+			"2"		"4684"
+			"3"		"1775"
+			"4"		"17305"
+			"5"		"6506"
+			"6"		"122"
+			"7"		"4231"
+			"8"		"9"
+			"9"		"4106"
+			"10"		"4191"
+			"11"		"1697"
+			"12"		"19"
+			"13"		"3987"
+			"14"		"4305"
+			"15"		"4057"
+			"16"		"1702"
+			"17"		"21"
+			"18"		"1662"
+			"19"		"3916"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		""
+		"developer"		"xYz, LivePlex"
+		"publisher"		"xYz"
+		"homepage"		"https://dragona.ph"
+	}
+	"config"
+	{
+		"installdir"		"RebornDragonaPH"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DragonaLauncher.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Dragona PH Launcher ( Always run Launcher )"
+				}
+				"description"		"Dragona PH Launcher ( Always run Launcher )"
+			}
+			"2"
+			{
+				"executable"		"/System/DirectX/DXSETUP.exe"
+				"workingdir"		"/System/DirectX/"
+				"type"		"option2"
+				"description_loc"
+				{
+					"english"		"( DirectX ) If the game is not running install this"
+				}
+				"description"		"( DirectX ) If the game is not running install this"
+			}
+			"3"
+			{
+				"executable"		"/System/vcredist/install.exe"
+				"workingdir"		"/System/vcredist/"
+				"type"		"option3"
+				"description_loc"
+				{
+					"english"		"( VCredits ) Install this after installing DirectX"
+				}
+				"description"		"( VCredits ) Install this after installing DirectX"
+			}
+			"4"
+			{
+				"executable"		"Whitelist.bat"
+				"description_loc"
+				{
+					"english"		"Run this for anti disconnection"
+				}
+				"description"		"Run this for anti disconnection"
+			}
+		}
+	}
+	"depots"
+	{
+		"228981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2909371"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3787553183591987170"
+					"size"		"6609150541"
+					"download"		"2023548576"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17291094"
+				"timeupdated"		"1739014349"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10000"
+	}
+}
