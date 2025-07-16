@@ -1,0 +1,232 @@
+"appinfo"
+{
+	"appid"		"2395820"
+	"common"
+	{
+		"name"		"Safari Pinball"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"6d34588702e8812540e820078be5b6d8006e502d"
+		"clienttga"		"c2f4d7acd1dbd26db519ae1c6c41cc1897fa10a1"
+		"clienticon"		"ee55ed526ea4ed663ea29cb9cfc8a8e1c0d914e6"
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"66.19672958965384"
+				"height_pct"		"90.9692571425302"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"66.19672958965384"
+					"height_pct"		"90.9692571425302"
+				}
+			}
+		}
+		"store_asset_mtime"		"1684838709"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Super PowerUp Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Super PowerUp Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1689938622"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2395820"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1773"
+			"2"		"3916"
+			"3"		"4004"
+			"4"		"6621"
+			"5"		"3871"
+			"6"		"4191"
+			"7"		"3839"
+			"8"		"7743"
+			"9"		"6691"
+			"10"		"3968"
+			"11"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Super PowerUp Games"
+		"publisher"		"Super PowerUp Games"
+	}
+	"config"
+	{
+		"installdir"		"Safari Pinball"
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Safari Pinball.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"2395821"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8393158316523012247"
+					"size"		"245665496"
+					"download"		"170961472"
+				}
+			}
+		}
+		"baselanguages"		"english,spanish,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11613207"
+				"timeupdated"		"1688380717"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Super PowerUp Games/Safari Pinball"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Super PowerUp Games/Safari Pinball"
+						"replace"		"unity.Super PowerUp Games.Safari Pinball"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Super PowerUp Games/Safari Pinball"
+						"replace"		".config/unity3d/Super PowerUp Games/Safari Pinball"
+					}
+				}
+			}
+		}
+	}
+}
