@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"2683200"
+	"common"
+	{
+		"name"		"The Paupers"
+		"type"		"Game"
+		"icon"		"03808f2e7f8542d25658cca5284a51dcd650c905"
+		"clienticon"		"aadd01384c935c102b6ec5802af29f7bcae5f806"
+		"clienttga"		"d87ad601272f67da1a028a484c8387834df51613"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1703834152"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Microtaur"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Microtaur"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1701331817"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2683200"
+		"store_tags"
+		{
+			"0"		"16094"
+			"1"		"4172"
+			"2"		"4057"
+			"3"		"4136"
+			"4"		"19"
+			"5"		"1654"
+			"6"		"1773"
+			"7"		"597"
+			"8"		"9541"
+			"9"		"5350"
+			"10"		"5395"
+			"11"		"9204"
+			"12"		"8666"
+			"13"		"4191"
+			"14"		"4195"
+			"15"		"4305"
+			"16"		"4726"
+			"17"		"10808"
+			"18"		"4252"
+			"19"		"1697"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Microtaur"
+		"publisher"		"Microtaur"
+	}
+	"config"
+	{
+		"installdir"		"The Paupers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"paupers.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"paupers.exe"
+				"arguments"		"--rendering-driver opengl3"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"The Paupers (OpenGL3 - legacy hardware)"
+				}
+				"description"		"The Paupers (OpenGL3 - legacy hardware)"
+			}
+			"2"
+			{
+				"executable"		"The Paupers.app/Contents/MacOS/The Paupers"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"paupers.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2683201"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5986409565984129327"
+					"size"		"181521843"
+					"download"		"87388240"
+				}
+			}
+		}
+		"2683202"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5562064491504960393"
+					"size"		"257462875"
+					"download"		"103389488"
+				}
+			}
+		}
+		"2683203"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8013689790186690226"
+					"size"		"176005099"
+					"download"		"85405280"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13076252"
+				"timeupdated"		"1704535686"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
