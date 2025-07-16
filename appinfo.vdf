@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"1132160"
+	"common"
+	{
+		"name"		"Mendel's Garden"
+		"type"		"Game"
+		"logo"		"943f9152c38bea5ad627a9227dea53d09dc2f780"
+		"logo_small"		"943f9152c38bea5ad627a9227dea53d09dc2f780_thumb"
+		"clienticon"		"0183399df02a0d312ae3563386d56031f077e93e"
+		"clienttga"		"6cd0a71e6bddc586fe849406c61478f9493a5419"
+		"icon"		"3c1e36bf54f9692a6887c204b0aeb062a745e68e"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		""
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Mendel's Garden"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"45.423340961098475"
+				"height_pct"		"75.4571360721919"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"45.423340961098475"
+					"height_pct"		"75.4571360721919"
+				}
+			}
+		}
+		"store_asset_mtime"		"1571748420"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Siddharth Sivaraman"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Siddharth Sivaraman"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Bhumi"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1571922348"
+		"community_hub_visible"		"1"
+		"gameid"		"1132160"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"87918"
+			"2"		"493"
+			"3"		"22602"
+			"4"		"597"
+			"5"		"1702"
+			"6"		"21"
+			"7"		"1654"
+			"8"		"3834"
+			"9"		"4182"
+			"10"		"5851"
+			"11"		"30358"
+			"12"		"599"
+			"13"		"122"
+			"14"		"1732"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Siddharth Sivaraman"
+		"publisher"		"Siddharth Sivaraman"
+	}
+	"config"
+	{
+		"installdir"		"Mendels Garden"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mendels Garden\\Mendels Garden.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Mendels Garden.app\\Contents\\MacOS\\Mendels Garden"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1132161"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"91865546623480291"
+					"size"		"332446403"
+					"download"		"65680800"
+				}
+			}
+		}
+		"1132162"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9172112214434333829"
+					"size"		"325832184"
+					"download"		"64042560"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4318668"
+				"timeupdated"		"1571902284"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Dastan Games/Mendels Garden"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Dastan Games/Mendels Garden"
+						"replace"		"Dastan Games/Mendels Garden"
+					}
+				}
+			}
+		}
+	}
+}
