@@ -1,0 +1,71 @@
+"appinfo"
+{
+	"appid"		"24210"
+	"common"
+	{
+		"name"		"Everquest: Underfoot - Raging Mercenaries"
+		"icon"		"79fa8e3aa842063ae040c84df00f2ab1df19a07d"
+		"clienticon"		"5cc250955f74b3b9e2426853a446ca1346cf9219"
+		"clienttga"		"bd491cd24c1e1b5314397f2df1a71a3130f0dc6d"
+		"logo"		"09a16602d86b2dc0aa3d48054e9f1af918049e9b"
+		"logo_small"		"09a16602d86b2dc0aa3d48054e9f1af918049e9b_thumb"
+		"type"		"game"
+		"community_hub_visible"		"1"
+		"gameid"		"24210"
+	}
+	"extended"
+	{
+		"developer"		"Sony Online Entertainment"
+		"externalsubscriptionurl2"		"http://www.station.sony.com/steamactivation/?activationcode=%cdkey%&gamecode=EQ"
+		"gamedir"		"EverQuest: Underfoot"
+		"homepage"		"http://everquest.station.sony.com/"
+		"icon"		""
+		"inhibitautoversionroll"		"1"
+		"installscript"		"24120_install.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp24210\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"24121"
+		"serverbrowsername"		""
+		"showcdkeyinmenu"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"EverQuest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LaunchPad.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"24121"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"225886389158669143"
+					"size"		"6737866018"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"52185"
+			}
+		}
+	}
+}
