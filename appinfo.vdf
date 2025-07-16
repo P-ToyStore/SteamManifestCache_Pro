@@ -1,0 +1,263 @@
+"appinfo"
+{
+	"appid"		"1749710"
+	"common"
+	{
+		"name"		"Legends of Murder Collection"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"97242728d206a5c6bd80679b10df8778dabb7d31"
+		"logo_small"		"97242728d206a5c6bd80679b10df8778dabb7d31_thumb"
+		"icon"		"ebd6e86d9851f41b8cf257a71e560a5186097766"
+		"clienttga"		"5c7af96724ff5e43553f8516f6555ba158d822b7"
+		"clienticon"		"fe7856f6c4ac2396db270987807bbd1b3f71a4dd"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"44.11048787973045"
+				"height_pct"		"92.46132445545238"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"44.11048787973045"
+					"height_pct"		"92.46132445545238"
+				}
+			}
+		}
+		"store_asset_mtime"		"1632892906"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Softdisk Publishing"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1633097942"
+		"community_hub_visible"		"1"
+		"gameid"		"1749710"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"5716"
+			"2"		"21"
+			"3"		"31275"
+			"4"		"4791"
+			"5"		"3871"
+			"6"		"11014"
+			"7"		"1664"
+			"8"		"5613"
+			"9"		"3834"
+			"10"		"1738"
+			"11"		"4094"
+			"12"		"8369"
+			"13"		"3964"
+			"14"		"5372"
+			"15"		"6378"
+			"16"		"3854"
+			"17"		"4046"
+			"18"		"5984"
+			"19"		"1684"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Softdisk Publishing"
+		"publisher"		"Ziggurat"
+		"homepage"		"http://www.ziggurat.games"
+	}
+	"config"
+	{
+		"installdir"		"Legends of Murder Collection"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf fullscreen.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"full screen"
+				}
+				"description"		"full screen"
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 320x200.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 320x200"
+				}
+				"description"		"windowed 320x200"
+			}
+			"2"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 640x400.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 640x400"
+				}
+				"description"		"windowed 640x400"
+			}
+			"3"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 1280x800.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 1280x800"
+				}
+				"description"		"windowed 1280x800"
+			}
+			"4"
+			{
+				"executable"		"DOSBox\\dosbox.exe"
+				"arguments"		"-noconsole -conf 2560x1600.conf -conf dosbox.conf -conf launch.conf -exit"
+				"workingdir"		"DOSBox\\Configuration"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"windowed 2560x1600"
+				}
+				"description"		"windowed 2560x1600"
+			}
+		}
+	}
+	"depots"
+	{
+		"1749711"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7367641191206771711"
+					"size"		"34848634"
+					"download"		"14010656"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7361078"
+				"timeupdated"		"1631679982"
+			}
+		}
+	}
+}
