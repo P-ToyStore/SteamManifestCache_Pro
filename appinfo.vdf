@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"1871020"
+	"common"
+	{
+		"name"		"休闲拼一拼"
+		"type"		"Game"
+		"logo"		"f30fa36df2f8ba1570a24e0374c6ad4befda8f30"
+		"logo_small"		"f30fa36df2f8ba1570a24e0374c6ad4befda8f30_thumb"
+		"icon"		"397fb4476b7f162f89d39cfbca8e298e80d14806"
+		"clienticon"		"33841e1890e40cbf3bacde5b61a994333e3395e3"
+		"clienttga"		"59d2374b317e28f40ccfa5f3b85adb46ac2191c5"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"32.076780505562795"
+				"height_pct"		"40.53926206244087"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"32.076780505562795"
+					"height_pct"		"40.53926206244087"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1650101728"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"超光兔工作室"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"超光兔工作室"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1644393793"
+		"community_hub_visible"		"1"
+		"gameid"		"1871020"
+		"store_tags"
+		{
+			"0"		"4085"
+			"1"		"597"
+			"2"		"1665"
+			"3"		"1664"
+			"4"		"17389"
+			"5"		"3871"
+			"6"		"18594"
+			"7"		"4726"
+			"8"		"4195"
+			"9"		"4305"
+			"10"		"6815"
+			"11"		"699"
+			"12"		"71389"
+			"13"		"4252"
+			"14"		"4562"
+			"15"		"5673"
+			"16"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"超光兔工作室"
+		"publisher"		"超光兔工作室"
+	}
+	"config"
+	{
+		"installdir"		"Leisure spell"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"pinyipin.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"schinese"
+		"1871021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8693251314096306197"
+					"size"		"295227637"
+					"download"		"226561632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8570632"
+				"timeupdated"		"1650160973"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"25"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
