@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"1746500"
+	"common"
+	{
+		"name"		"AsMagnet"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"0672639b2eb5e7e0bed4a5d74087e424d961fe9b"
+		"clienttga"		"95e5acdae442af4ee6f41670d7f6b5c8e6ba7556"
+		"icon"		"5d606b7055118bfc8e3f9ddb3a4c1b3c2ab55012"
+		"logo"		"1c26ca21878e76358f0170520f5d070ccefc4248"
+		"logo_small"		"1c26ca21878e76358f0170520f5d070ccefc4248_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1631401874"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"StudioYoshiko"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"StudioYoshiko"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1632554272"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1746500"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1664"
+			"3"		"1730"
+			"4"		"4026"
+			"5"		"4191"
+			"6"		"1751"
+			"7"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"StudioYoshiko"
+		"publisher"		"StudioYoshiko"
+	}
+	"config"
+	{
+		"installdir"		"AsMagnet"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AsMagnet.exe"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"1746501"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6892999727046560695"
+					"size"		"164321613"
+					"download"		"24764240"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7343531"
+				"timeupdated"		"1631388846"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
