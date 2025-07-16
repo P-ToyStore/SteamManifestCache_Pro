@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"561110"
+	"common"
+	{
+		"name"		"Disney's The Jungle Book"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"561110_eula_0"
+				"name"		"Disney's The Jungle Book EULA"
+				"url"		"http://store.steampowered.com//eula/561110_eula_0"
+			}
+		}
+		"icon"		"a1e28a31c2b4cd227907486e4106f8c9dbddaac5"
+		"logo"		"86b86f2eb8a45941791d6d6b4a065fbd2ee1dcee"
+		"logo_small"		"86b86f2eb8a45941791d6d6b4a065fbd2ee1dcee_thumb"
+		"clienticon"		"0ea52033d7fe4d8540857df63a7e010472a320c1"
+		"clienttga"		"b9c9365e41784fd3f15bafb4e34e2824a318592a"
+		"osextended"		"macos64"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Disney's The Jungle Book"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"4279481057ecb3d86f039b56c02b47349089f896/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"4279481057ecb3d86f039b56c02b47349089f896/library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_37aae6271e6ddd8d9f8ccbfa5eb01a68ddedf5a5.jpg"
+		"store_asset_mtime"		"1741733764"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Eurocom"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"776934000"
+		"steam_release_date"		"1513618801"
+		"community_hub_visible"		"1"
+		"gameid"		"561110"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"1693"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Eurocom"
+		"publisher"		"Disney"
+	}
+	"config"
+	{
+		"installdir"		"Disney's The Jungle Book"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX/DOSBox.exe"
+				"arguments"		"-conf \"..\\dosbox_jungle.conf\" -conf \"..\\dosbox_jungle_single.conf\" -noconsole -c exit"
+				"workingdir"		"DOSBOX"
+				"description"		"Play Disney's The Jungle Book"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"./dosbox/dosbox.sh"
+				"workingdir"		"dosbox"
+				"description"		"Play Disney's The Jungle Book"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf \"../dosbox_jungle.conf\" -conf \"../dosbox_jungle_single.conf\" -noconsole -c exit"
+				"workingdir"		"dosbox"
+				"description"		"Play Disney's The Jungle Book"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"561111"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6117234513599915015"
+					"size"		"3206079"
+					"download"		"2500992"
+				}
+			}
+		}
+		"561112"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6520898589426183996"
+					"size"		"5775981"
+					"download"		"2790976"
+				}
+			}
+		}
+		"561113"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"382283441170717880"
+					"size"		"4483008"
+					"download"		"1116288"
+				}
+			}
+		}
+		"561114"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7063676451616220501"
+					"size"		"12518644"
+					"download"		"4592864"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4758662"
+				"timeupdated"		"1586210382"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
