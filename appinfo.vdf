@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"1412070"
+	"common"
+	{
+		"name"		"Siege the Day"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"d900996189080cd08eab4bac6057cd89613a654f"
+		"logo_small"		"d900996189080cd08eab4bac6057cd89613a654f_thumb"
+		"icon"		"307c9f653844122619fcfdcb222003bf1367910a"
+		"clienticon"		"916de5cd7d7921829a51b6266794c619789a9710"
+		"clienttga"		"e7faf03acf061c7c7ac919d32b4b3a03eef6af85"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"40.49856259719377"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"40.49856259719377"
+					"height_pct"		"100"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1749590290"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hidden Tower Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hidden Tower Studios"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_23"		"1"
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1703187206"
+		"community_hub_visible"		"1"
+		"gameid"		"1412070"
+		"store_tags"
+		{
+			"0"		"1775"
+			"1"		"4684"
+			"2"		"7332"
+			"3"		"14139"
+			"4"		"1645"
+			"5"		"9"
+			"6"		"1643"
+			"7"		"3810"
+			"8"		"1708"
+			"9"		"3859"
+			"10"		"4191"
+			"11"		"1741"
+			"12"		"1684"
+			"13"		"3968"
+			"14"		"4172"
+			"15"		"1678"
+			"16"		"599"
+			"17"		"4057"
+			"18"		"12472"
+			"19"		"4325"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Hidden Tower Studios"
+		"publisher"		"Hidden Tower Studios"
+	}
+	"config"
+	{
+		"installdir"		"Siege the Day"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SiegeTheDay.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1412071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8712982143500160570"
+					"size"		"5538665292"
+					"download"		"2649463888"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9272477"
+				"timeupdated"		"1659945489"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SiegeTheDay_Data/StreamingAssets/{64BitSteamID}/CastlesSaved"
+				"pattern"		"*.json"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"SiegeTheDay_Data/StreamingAssets/{64BitSteamID}/Preferences"
+				"pattern"		"*.json"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"SiegeTheDay_Data/StreamingAssets/{64BitSteamID}/CastlesSaved"
+				"pattern"		"*.jpg"
+				"recursive"		"1"
+			}
+		}
+	}
+}
