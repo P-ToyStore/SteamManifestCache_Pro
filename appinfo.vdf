@@ -1,0 +1,188 @@
+"appinfo"
+{
+	"appid"		"211140"
+	"common"
+	{
+		"name"		"DYNASTY WARRIORS 7 with Xtreme Legends"
+		"type"		"Game"
+		"clienticon"		"cd1bdbcd3342a56667fb7bc1eecb3d09c05bf1c6"
+		"clienttga"		"dd62f189931504053c6b547a75117798937ed29c"
+		"icon"		"e3b2029181126f776760d07c0890292a8ee2fbc7"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_de5f41b64a92a60983764da022945ee3407970e4.jpg"
+		"store_asset_mtime"		"1340307650"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Omega Force"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tecmo Koei Taiwan Co, Ltd."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"japanese"
+			{
+				"full_audio"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1340319600"
+		"community_hub_visible"		"1"
+		"gameid"		"211140"
+		"store_tags"
+		{
+			"0"		"19"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"Omega Force"
+		"gamedir"		"ValveTestApp211140"
+		"homepage"		"http://www.gamecity.com.tw/smusou6m/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Tecmo Koei Taiwan Co, Ltd."
+	}
+	"config"
+	{
+		"installscriptsignature"		"abf3face463d10ff66a3655f093e08558e95ec88f464781e9bd69841b369d77c491e44c3fa75dedb53f1e855e6e4f530b4f713938ef5439d0a2fbeac617827f6dc6cdb53b288123d0fcf8de53382d0e16eab6210ca7372faf59c236f34b674453cfb80c46b053a5c952587e1fe864d16027d3a84ab7363da584453cc67f1eca7"
+		"contenttype"		"3"
+		"installdir"		"Shin Sangokumusou 6 TC"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SM6TC.exe"
+				"arguments"		""
+				"description"		""
+				"workingdir"		"."
+			}
+		}
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\software\tecmokoei\shin sangokumusou 6 tc"
+			{
+				"string"
+				{
+					"gamefolder"		"%INSTALLDIR%"
+				}
+			}
+			"hkey_current_user\software\tecmokoei\shin sangokumusou 6 tc\install"
+			{
+				"string"
+				{
+					"installinfo"		"%INSTALLDIR%"
+				}
+			}
+			"hkey_current_user\software\tecmokoei\shin sangokumusou 6 tc\pl"
+			{
+				"dword"
+				{
+					"0"		"1"
+					"-1"		"1"
+				}
+			}
+		}
+		"run process"
+		{
+			"vc2005redist"
+			{
+				"process 1"		"%INSTALLDIR%\\redist2005\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"description"		"Microsoft VC 2005 Redist Package"
+				"nocleanup"		"1"
+			}
+			"vc2010redist"
+			{
+				"process 1"		"%INSTALLDIR%\\redist2010\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"description"		"Microsoft VC 2010 Redist Package"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\DX9\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"description"		"DirectX"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"211141"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1565185906305390252"
+					"size"		"11878089166"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"2331511967368772156"
+					"size"		"11878089166"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12055"
+			}
+			"local"
+			{
+				"buildid"		"11957"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+	}
+}
