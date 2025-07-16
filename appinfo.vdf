@@ -1,0 +1,243 @@
+"appinfo"
+{
+	"appid"		"2558090"
+	"common"
+	{
+		"name"		"Logic"
+		"type"		"Game"
+		"icon"		"dea6300ba4c70308148888923365171b2da5cf3d"
+		"clienticon"		"809632be58e7c1e44f8d0f2bd90f5b2d715c93d8"
+		"clienttga"		"5e2db40919090eacb1383e58feb6e6fba85938c0"
+		"linuxclienticon"		"6a507efec49e5571bea9b06e3803835442c71c35"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"68.74018368846504"
+				"height_pct"		"77.511141583819"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"68.74018368846504"
+					"height_pct"		"77.511141583819"
+				}
+			}
+		}
+		"store_asset_mtime"		"1692103256"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"$mitE"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"$mitE"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1695220033"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2558090"
+		"store_tags"
+		{
+			"0"		"6129"
+			"1"		"4182"
+			"2"		"5752"
+			"3"		"4191"
+			"4"		"597"
+			"5"		"1697"
+			"6"		"21"
+			"7"		"1664"
+			"8"		"1625"
+			"9"		"5395"
+			"10"		"5537"
+			"11"		"492"
+			"12"		"3877"
+			"13"		"3968"
+		}
+	}
+	"extended"
+	{
+		"developer"		"$mitE"
+		"publisher"		"$mitE"
+		"homepage"		"https://smiterik.github.io/logic/"
+	}
+	"config"
+	{
+		"installdir"		"Logic"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Logic.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Logic.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2558091"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7328036762962951355"
+					"size"		"242211666"
+					"download"		"102287872"
+				}
+			}
+		}
+		"2558092"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4199787219692491610"
+					"size"		"255553938"
+					"download"		"103750512"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13282190"
+				"timeupdated"		"1706287826"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"SmitE/Logic/{64BitSteamID}"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SmitE/Logic/{64BitSteamID}"
+						"replace"		".config/unity3d/SmitE/Logic/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
