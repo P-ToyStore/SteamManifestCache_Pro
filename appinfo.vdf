@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"551050"
+	"common"
+	{
+		"name"		"Die With Glory"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"f262acf8650aaaa03ab7defa9424b2e439828609"
+		"logo_small"		"f262acf8650aaaa03ab7defa9424b2e439828609_thumb"
+		"icon"		"a46c5e724ab0c18589bf1a8ade5264765e11bcb9"
+		"clienticns"		"783b5736eca0987f098047b8d87bab75c3d6a6d1"
+		"clienticon"		"766d562833a91d608d31cecd73e26ecdd98e2007"
+		"clienttga"		"e1a90cd6a15b7483b6ec5971b043d78c203b038c"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Die With Glory"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0bfacef3da7cb7657e6a07d0e770b74f2b11585a.jpg"
+		"store_asset_mtime"		"1512745112"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Castle"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Veslo Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_35"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1494511259"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"551050"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"492"
+			"3"		"1698"
+			"4"		"4136"
+			"5"		"1684"
+			"6"		"1719"
+			"7"		"3871"
+			"8"		"4182"
+			"9"		"5923"
+			"10"		"6869"
+			"11"		"5350"
+		}
+		"review_score"		"5"
+		"review_percentage"		"63"
+	}
+	"extended"
+	{
+		"developer"		"Castle"
+		"publisher"		"Veslo Games"
+		"homepage"		"http://www.diewithglory.com"
+		"listofdlc"		"803340"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Die With Glory"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Die With Glory.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Die With Glory.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"551052"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3773216449077785116"
+					"size"		"464751295"
+					"download"		"320927792"
+				}
+				"beta"
+				{
+					"gid"		"3773216449077785116"
+					"size"		"464751295"
+					"download"		"320927792"
+				}
+			}
+		}
+		"551051"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"586549875095554911"
+					"size"		"515080757"
+					"download"		"334409264"
+				}
+				"beta"
+				{
+					"gid"		"586549875095554911"
+					"size"		"515080757"
+					"download"		"334409264"
+				}
+			}
+		}
+		"803340"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3990441320333202256"
+					"size"		"39875368"
+					"download"		"39573136"
+				}
+			}
+			"dlcappid"		"803340"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2591276"
+				"timeupdated"		"1520620601"
+			}
+			"beta"
+			{
+				"buildid"		"2586766"
+				"timeupdated"		"1520512151"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"CloudCastle/Die With Glory"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"CloudCastle/Die With Glory"
+			}
+		}
+	}
+}
