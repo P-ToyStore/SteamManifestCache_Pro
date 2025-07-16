@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"2586500"
+	"common"
+	{
+		"name"		"Pixel of Memory"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"20505115a4fcaa968cb1eb5adcef81bdf641a9ba"
+		"clienttga"		"5394d2aec14c679d1bc56ee29da172e099653848"
+		"icon"		"b66887e49eb4f1c5ea1aaf5a2e15580f8c794f90"
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"38.49431320412028"
+				"height_pct"		"71.51079369330748"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"38.49431320412028"
+					"height_pct"		"71.51079369330748"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1697019499"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hiker Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hiker Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1698120314"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2586500"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+			"2"		"1773"
+			"3"		"1664"
+			"4"		"5652"
+			"5"		"3834"
+			"6"		"3871"
+			"7"		"4305"
+			"8"		"3964"
+			"9"		"6691"
+			"10"		"492"
+			"11"		"5350"
+			"12"		"7481"
+			"13"		"4182"
+			"14"		"4004"
+			"15"		"19"
+		}
+		"review_score"		"7"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Hiker Games"
+		"publisher"		"Hiker Games"
+	}
+	"config"
+	{
+		"installdir"		"Pixel Of Memory"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Pixel_Of_Memory.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65524"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"2586501"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8965790434147105552"
+					"size"		"218645887"
+					"download"		"163241856"
+				}
+			}
+		}
+		"2586502"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12538484"
+				"timeupdated"		"1698293469"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Hiker Games/Pixel of Memory/SteamCloud/Steam{64BitSteamID}/"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgConfigHome"
+				"addpath"		"unity3d/"
+			}
+		}
+	}
+}
