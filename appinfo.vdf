@@ -1,0 +1,256 @@
+"appinfo"
+{
+	"appid"		"1678410"
+	"common"
+	{
+		"name"		"They All Come Back"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"2930b4dfb77dbd7d7fc101ec188a8f82f820b253"
+		"logo_small"		"2930b4dfb77dbd7d7fc101ec188a8f82f820b253_thumb"
+		"icon"		"0feb6332944ed6c075eb01f181c6ebb0c3654a54"
+		"clienttga"		"29e8ccf706b7b601dc099d44549c3a3a12e3d479"
+		"clienticon"		"144da6301a75f026e3146ac20d1fc3a41fa0d5ea"
+		"clienticns"		"2098f7213e38777e5b6f056e5c0711d42a840990"
+		"restricted_countries"		"DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1672423905"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"gbae"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"gbae"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"gbae"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1626373091"
+		"community_hub_visible"		"1"
+		"gameid"		"1678410"
+		"store_tags"
+		{
+			"0"		"42804"
+			"1"		"1663"
+			"2"		"4885"
+			"3"		"3814"
+			"4"		"4158"
+			"5"		"9"
+			"6"		"1774"
+			"7"		"17305"
+			"8"		"1716"
+			"9"		"19"
+			"10"		"4191"
+			"11"		"3839"
+			"12"		"1710"
+			"13"		"1659"
+			"14"		"4342"
+			"15"		"10397"
+			"16"		"4004"
+			"17"		"3993"
+			"18"		"4182"
+			"19"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"gbae"
+		"publisher"		"gbae"
+	}
+	"config"
+	{
+		"installdir"		"TheyAllComeBack"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheyAllComeBack.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TheyAllComeBackMac.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1678411"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"700638329479919042"
+					"size"		"150700950"
+					"download"		"70277200"
+				}
+			}
+		}
+		"1678412"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"710810204572160777"
+					"size"		"183375378"
+					"download"		"80589248"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10297780"
+				"timeupdated"		"1673435256"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"4000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"gbae/TheyAllComeBack/{64BitSteamID}"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"gbae/TheyAllComeBack/{64BitSteamID}"
+						"replace"		"gbae/TheyAllComeBack/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
