@@ -1,0 +1,72 @@
+"appinfo"
+{
+	"appid"		"3115910"
+	"common"
+	{
+		"name"		"RAID: World War II Modding Tools"
+		"type"		"Tool"
+		"parent"		"414740"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"icon"		"599fc0e1f6d0b244caf444635031525964cc82e6"
+		"clienticon"		"293d475725d8866ca058af076483d1f033865547"
+		"clienttga"		"bbf6ac0e0890e5fe8ce84c35f59d60520892ff5c"
+		"releasestate"		"released"
+		"gameid"		"3115910"
+	}
+	"config"
+	{
+		"installdir"		"RAID World War II Modding Tools"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DieselBundleBrowser.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Diesel Bundle Browser"
+				}
+				"description"		"Diesel Bundle Browser"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3115911"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5601767027391745723"
+					"size"		"29138223"
+					"download"		"9802208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19094773"
+				"timeupdated"		"1751551799"
+			}
+		}
+	}
+}
