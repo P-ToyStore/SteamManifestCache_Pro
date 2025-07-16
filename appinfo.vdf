@@ -1,0 +1,267 @@
+"appinfo"
+{
+	"appid"		"293720"
+	"common"
+	{
+		"name"		"Dark Raid"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"128c036b8883663a012bf6d18b3c9569c224f7b6"
+		"logo_small"		"128c036b8883663a012bf6d18b3c9569c224f7b6_thumb"
+		"icon"		"7a330bdea0a64c6843f061c988219c0ba673118b"
+		"clienticon"		"cedec2725bad630fe223dad3b2fdf1599ff99313"
+		"clienttga"		"5e455cbff7dafc2444848f3605998f7fffa152b9"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"UntitledApp"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"11.960326721120182"
+				"height_pct"		"24.92401332106138"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"11.960326721120182"
+					"height_pct"		"24.92401332106138"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572781930"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vector Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vector Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1401814339"
+		"community_hub_visible"		"1"
+		"gameid"		"293720"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1663"
+			"3"		"1774"
+			"4"		"3942"
+		}
+		"review_score"		"4"
+		"review_percentage"		"22"
+	}
+	"extended"
+	{
+		"developer"		"Vector Games"
+		"publisher"		"Vector Games"
+		"homepage"		"http://www.darkraid.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dark Raid"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/UDK.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"407be4f0c5f35b4dc42913f3c59ed0853354045dac3366592bd043646debd002867fcabb4a0654094efdb167958995a4b3a24f7d2809cfeb930a540383223e496a099fa9b957057886e715c662738f94d4ef7b57b35871ad7e0f1bf95b88dec785ccd788d376135fd020d11004731b6077114b1aea36ba71c3b5b18a0e645b97"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\vectorgames\darkraid"
+			{
+				"dword"
+				{
+					"english"
+					{
+						"language"		"1"
+					}
+					"turkish"
+					{
+						"language"		"2"
+					}
+					"french"
+					{
+						"language"		"3"
+					}
+					"german"
+					{
+						"language"		"4"
+					}
+					"italian"
+					{
+						"language"		"5"
+					}
+					"spanish"
+					{
+						"language"		"6"
+					}
+					"russian"
+					{
+						"language"		"7"
+					}
+					"portuguese"
+					{
+						"language"		"8"
+					}
+				}
+			}
+		}
+		"firewall"
+		{
+			"dark raid game"		"%INSTALLDIR%\\Binaries\\Win32\\UDK.exe"
+			"dark raid game setup"		"%INSTALLDIR%\\Binaries\\UnSetup.exe"
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"baselanguages"		"english,german,spanish,russian,portuguese,turkish"
+		"293721"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1949354514514577568"
+					"size"		"2861922553"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"297292"
+			}
+		}
+	}
+}
