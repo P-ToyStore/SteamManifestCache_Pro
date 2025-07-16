@@ -1,0 +1,267 @@
+"appinfo"
+{
+	"appid"		"1559070"
+	"common"
+	{
+		"name"		"Yet Another Hard Game"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"ee9ff20a95954ab8ab2b802fd618edf35632692a"
+		"logo_small"		"ee9ff20a95954ab8ab2b802fd618edf35632692a_thumb"
+		"icon"		"becd86fe7c4272e38c76d6f65ed1c0c7879cdce3"
+		"clienttga"		"8a2488466a2dd7681c29ca8843d2743b567c8c81"
+		"clienticon"		"1bf28f869ce2185817961f33e73a97d1e6548670"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1719492308"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Orpticon"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Orpticon"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1615574493"
+		"community_hub_visible"		"1"
+		"gameid"		"1559070"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"1625"
+			"3"		"5379"
+			"4"		"3877"
+			"5"		"3798"
+			"6"		"3871"
+			"7"		"4094"
+			"8"		"493"
+			"9"		"4295"
+			"10"		"4747"
+			"11"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Orpticon"
+		"publisher"		"Orpticon"
+		"homepage"		"https://orad.io/"
+	}
+	"config"
+	{
+		"installdir"		"YAHG"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"YAHG2.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"default"
+				}
+			}
+			"1"
+			{
+				"executable"		"YAHG2.exe"
+				"config"
+				{
+					"betakey"		"beta"
+				}
+				"description_loc"
+				{
+					"english"		"Start YAHG2 Beta"
+				}
+				"description"		"Start YAHG2 Beta"
+			}
+			"2"
+			{
+				"executable"		"MainGame.exe"
+				"config"
+				{
+					"betakey"		"legacy"
+				}
+				"description_loc"
+				{
+					"english"		"Start Legacy"
+				}
+				"description"		"Start Legacy"
+			}
+		}
+	}
+	"depots"
+	{
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1559071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8164848577465326206"
+					"size"		"33803713"
+					"download"		"13194128"
+				}
+				"legacy"
+				{
+					"gid"		"8153772986810058465"
+					"size"		"394519"
+					"download"		"132576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14858481"
+				"timeupdated"		"1719491377"
+			}
+			"legacy"
+			{
+				"buildid"		"6384761"
+				"description"		"the game before the everything update"
+				"timeupdated"		"1719487786"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"25000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"savedata.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"UserLevels"
+				"pattern"		"*.xlkr"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"UserTemplates"
+				"pattern"		"*.xtpl"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
