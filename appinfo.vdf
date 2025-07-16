@@ -1,0 +1,241 @@
+"appinfo"
+{
+	"appid"		"1299720"
+	"common"
+	{
+		"name"		"Les Manley in: Search for the King"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"f0328a6c5f946f13237b2842d65bac8a08d1ccf1"
+		"logo_small"		"f0328a6c5f946f13237b2842d65bac8a08d1ccf1_thumb"
+		"icon"		"c38447fc30513d5950b437646aafe1f3182228cb"
+		"clienttga"		"f2133c44445ea6a75e24c5ac7dc26a115523d881"
+		"clienticon"		"c99866b7e3dfa16ba600e73bf4f9054aa30f24b4"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"43.932322053675605"
+				"height_pct"		"74.69722156257421"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"43.932322053675605"
+					"height_pct"		"74.69722156257421"
+				}
+			}
+		}
+		"store_asset_mtime"		"1604642256"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Accolade Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1604674631"
+		"community_hub_visible"		"1"
+		"gameid"		"1299720"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"4195"
+			"2"		"31275"
+			"3"		"5716"
+			"4"		"6650"
+			"5"		"1719"
+			"6"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Accolade Inc."
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1299720/"
+	}
+	"config"
+	{
+		"installdir"		"Les Manley in Search for the King"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_1280x960.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 1280x960"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_320x240.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 320x240"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_640x480.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 640x480"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_w_2560x1920.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"windowed 2560x1920"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_windows\\DOSBox.exe"
+				"arguments"		"-conf dosbox_fs.conf -conf dosbox_auto_launch.conf -noconsole -exit"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"full screen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1299721"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"469891263757039043"
+					"size"		"10177645"
+					"download"		"6909088"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5791646"
+				"timeupdated"		"1604641712"
+			}
+		}
+	}
+}
