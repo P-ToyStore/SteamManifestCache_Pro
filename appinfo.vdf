@@ -1,0 +1,268 @@
+"appinfo"
+{
+	"appid"		"1621920"
+	"common"
+	{
+		"name"		"trappuzzler"
+		"type"		"Game"
+		"logo"		"98119f90f455fc73e8032d02417fe8f70b76c008"
+		"logo_small"		"98119f90f455fc73e8032d02417fe8f70b76c008_thumb"
+		"icon"		"0b75f81888000fdc688be9cdf2bb35cd45cd74e8"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosnotarized"
+		"clienttga"		"ac47933ebe781f04f156374e18b4136a5b4fe3dc"
+		"clienticon"		"f614e450ae4da0fce100e2608233f8e210df83e5"
+		"releasestate"		"released"
+		"clienticns"		"9e56ed130309f6f843551de2f97b0d6937178105"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"11.926545466827662"
+				"height_pct"		"21.791625244158013"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"11.926545466827662"
+					"height_pct"		"21.791625244158013"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1621506821"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kevin De Keyser"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kevin De Keyser"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1622462680"
+		"community_hub_visible"		"1"
+		"gameid"		"1621920"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"599"
+			"2"		"1664"
+			"3"		"1730"
+			"4"		"3871"
+			"5"		"4400"
+			"6"		"4726"
+			"7"		"4094"
+			"8"		"1697"
+			"9"		"4791"
+			"10"		"5350"
+			"11"		"6129"
+			"12"		"5673"
+			"13"		"15277"
+			"14"		"1654"
+			"15"		"21006"
+			"16"		"7569"
+			"17"		"8122"
+			"18"		"4182"
+			"19"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Kevin De Keyser"
+		"publisher"		"Kevin De Keyser"
+		"homepage"		"https://dekeyser.ch/itch"
+	}
+	"config"
+	{
+		"installdir"		"trappuzzler"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"trappuzzler5.app\\Contents\\MacOS\\trappuzzler5"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Launch macOS version"
+				}
+				"description"		"Launch macOS version"
+			}
+			"1"
+			{
+				"executable"		"trappuzzlerwin32\\trappuzzlerwin.exe"
+				"workingdir"		"trappuzzlerwin32"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+				"description_loc"
+				{
+					"english"		"Launch windows 32-bit ver"
+				}
+				"description"		"Launch windows 32-bit ver"
+			}
+			"2"
+			{
+				"executable"		"trappuzzlerwin64\\trappuzzlerwin.exe"
+				"workingdir"		"trappuzzlerwin64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch windows 64-bit ver"
+				}
+				"description"		"Launch windows 64-bit ver"
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"hasdepotsindlc"		"0"
+		"1621921"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4139920859473112006"
+					"size"		"48774777"
+					"download"		"24568656"
+				}
+			}
+		}
+		"1621922"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"770479319754574234"
+					"size"		"42450277"
+					"download"		"23317792"
+				}
+			}
+		}
+		"1621923"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6634477438041057414"
+					"size"		"44948559"
+					"download"		"24079840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14358003"
+				"timeupdated"		"1715664385"
+			}
+		}
+	}
+}
