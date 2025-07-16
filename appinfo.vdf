@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"2345440"
+	"common"
+	{
+		"name"		"Piscirazzi: Fish Photo Shooter"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"icon"		"54820fa6c03ae197aa04e48324a59600d9f28d5b"
+		"clienticon"		"8c0c87c9bec5612e7cefa0ea0116591b2b605b1a"
+		"clienttga"		"4a5db7685bfd533d1b6cd8332c6bbb68a226ec95"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1750161833"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ben Flavell"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ben Flavell"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1689631206"
+		"community_hub_visible"		"1"
+		"gameid"		"2345440"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"3959"
+			"2"		"9157"
+			"3"		"1654"
+			"4"		"21"
+			"5"		"3964"
+			"6"		"3871"
+			"7"		"1716"
+			"8"		"4004"
+			"9"		"1773"
+			"10"		"3834"
+			"11"		"4305"
+			"12"		"15564"
+			"13"		"4791"
+			"14"		"4182"
+			"15"		"5125"
+			"16"		"1774"
+			"17"		"4166"
+			"18"		"4726"
+			"19"		"809"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ben Flavell"
+		"publisher"		"Ben Flavell"
+	}
+	"config"
+	{
+		"installdir"		"Piscirazzi"
+		"steamcontrollertemplateindex"		"6"
+		"steamdecktouchscreen"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Piscirazzi.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Piscirazzi.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"2345441"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"293620377128762575"
+					"size"		"106765775"
+					"download"		"77924480"
+				}
+			}
+		}
+		"2345442"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4460258223409129279"
+					"size"		"122392270"
+					"download"		"82094624"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18121178"
+				"timeupdated"		"1744763014"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Piscirazzi"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacDocuments"
+				"addpath"		""
+			}
+		}
+	}
+}
