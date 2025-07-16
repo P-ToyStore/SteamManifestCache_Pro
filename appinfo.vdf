@@ -1,0 +1,294 @@
+"appinfo"
+{
+	"appid"		"1598210"
+	"common"
+	{
+		"name"		"Milli & Greg"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"496eaac2d3230ed6706c90d6bf6b1b3547df2995"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"clienticon"		"dc7502d8cd4b0b6137e2851ccab47d7b3294d49f"
+		"icon"		"9a548ae4be8929ac06bca20eab4b55c4ee9a9987"
+		"clienticns"		"4d9ad762a1119d8cdb8a124352aecd6efb3327ce"
+		"linuxclienticon"		"41884dd9391cd38865222bf70c6622e3489ba0b3"
+		"logo"		"743ebb4e11295b725f82a09665b14d2831d97ec5"
+		"logo_small"		"743ebb4e11295b725f82a09665b14d2831d97ec5_thumb"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"39.81545386346587"
+				"height_pct"		"62.59820509775982"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"39.81545386346587"
+					"height_pct"		"62.59820509775982"
+				}
+			}
+		}
+		"store_asset_mtime"		"1632937799"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"2ndBoss"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"2ndBoss"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1635453268"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1598210"
+		"store_tags"
+		{
+			"0"		"7208"
+			"1"		"3877"
+			"2"		"4026"
+			"3"		"5379"
+			"4"		"7481"
+			"5"		"1625"
+			"6"		"3798"
+			"7"		"3964"
+			"8"		"7948"
+			"9"		"19"
+			"10"		"4182"
+			"11"		"3871"
+			"12"		"21"
+			"13"		"4106"
+			"14"		"17894"
+			"15"		"4726"
+			"16"		"4305"
+			"17"		"5350"
+			"18"		"4004"
+			"19"		"1773"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"2ndBoss"
+		"publisher"		"2ndBoss"
+	}
+	"config"
+	{
+		"installdir"		"Milli & Greg"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Milli & Greg.exe"
+				"arguments"		"-force-d3d11"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Milli & Greg (Direct3D)"
+				}
+				"description"		"Milli & Greg (Direct3D)"
+			}
+			"1"
+			{
+				"executable"		"Milli & Greg.exe"
+				"arguments"		"-force-glcore"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Milli & Greg (OpenGL)"
+				}
+				"description"		"Milli & Greg (OpenGL)"
+			}
+			"2"
+			{
+				"executable"		"Milli & Greg.exe"
+				"arguments"		"-force-vulkan"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Milli & Greg (Vulkan)"
+				}
+				"description"		"Milli & Greg (Vulkan)"
+			}
+			"3"
+			{
+				"executable"		"Milli & Greg.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"Milli & Greg.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"1598211"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4865323156309583480"
+					"size"		"182190353"
+					"download"		"30007392"
+				}
+			}
+		}
+		"1598212"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7428731828466019812"
+					"size"		"182721364"
+					"download"		"30123536"
+				}
+			}
+		}
+		"1598213"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3849525145568727360"
+					"size"		"184325803"
+					"download"		"29508544"
+				}
+			}
+		}
+		"baselanguages"		"english,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7935761"
+				"timeupdated"		"1640315912"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"512000"
+		"maxnumfiles"		"10"
+	}
+}
