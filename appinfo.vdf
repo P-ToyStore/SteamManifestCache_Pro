@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"2556670"
+	"common"
+	{
+		"name"		"Spellslinger"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"78b5abf71d30ca1181792500bb4c737a66e58f3a"
+		"clienticon"		"4c3ba360ffe6e29575c023b9de4ea2904c2c8bd6"
+		"clienttga"		"359c569357c12992ebd764f8182a7d9492e9eb3c"
+		"releasestate"		"released"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1695362099"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rin"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rin"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1705044325"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2556670"
+		"store_tags"
+		{
+			"0"		"42804"
+			"1"		"19"
+			"2"		"597"
+			"3"		"5379"
+			"4"		"3964"
+			"5"		"4057"
+			"6"		"1684"
+			"7"		"4182"
+			"8"		"1716"
+			"9"		"3871"
+			"10"		"6730"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Rin"
+		"publisher"		"Rin"
+	}
+	"config"
+	{
+		"installdir"		"Spellslinger"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Spellslinger.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2556671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"577340619492750896"
+					"size"		"231517642"
+					"download"		"33869792"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13154189"
+				"timeupdated"		"1705044222"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"StormSigma/Spellslinger"
+				"pattern"		"*.json"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"StormSigma/Spellslinger"
+						"replace"		"StormSigma/Spellslinger"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"StormSigma/Spellslinger"
+						"replace"		".config/unity3d/StormSigma/Spellslinger"
+					}
+				}
+			}
+		}
+	}
+}
