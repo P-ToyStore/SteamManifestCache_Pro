@@ -1,0 +1,314 @@
+"appinfo"
+{
+	"appid"		"573790"
+	"common"
+	{
+		"name"		"Imperium Galactica"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"6e40480c02e0b3253d4d85d2b783d4c44a5efdaa"
+		"clienttga"		"6e701f1d34649c4f3bea0bfa0e90cad08678a6e5"
+		"icon"		"2ea5106e5a92ac23216159a0785ec91c04a624fe"
+		"logo"		"8b3e5ec4f3e98bf61e08da4949a2377820541b06"
+		"logo_small"		"8b3e5ec4f3e98bf61e08da4949a2377820541b06_thumb"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1673654400"
+			"tested_build_id"		"1564715"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-5"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Imperium Galactica"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1562769904"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Digital Reality"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"THQ Nordic"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Imperium Galactica"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"THQ Nordic"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"857203200"
+		"steam_release_date"		"1484848197"
+		"community_hub_visible"		"1"
+		"gameid"		"573790"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1755"
+			"2"		"1670"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Digital Reality"
+		"publisher"		"THQ Nordic"
+	}
+	"config"
+	{
+		"installdir"		"Imperium Galactica"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX/DOSBox.exe"
+				"arguments"		"-conf dosbox_ig.conf -conf dosbox_ig_single.conf -noconsole -c exit"
+				"workingdir"		"DOSBOX"
+				"description"		"Launch Imperium Galactica"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBOX/DOSBox.exe"
+				"arguments"		"-conf dosbox_ig.conf -conf dosbox_ig_settings.conf -noconsole -c exit"
+				"workingdir"		"DOSBOX"
+				"description"		"Launch Imperium Galactica Settings"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"573791"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6573070588243896969"
+					"size"		"28586916"
+					"download"		"11522608"
+				}
+			}
+		}
+		"573792"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6157027003546183241"
+					"size"		"1112329111"
+					"download"		"939173408"
+				}
+			}
+		}
+		"573793"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2645503585145070913"
+					"size"		"1113406049"
+					"download"		"941595808"
+				}
+			}
+		}
+		"573794"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2032664917380310429"
+					"size"		"1114523642"
+					"download"		"939015664"
+				}
+			}
+		}
+		"573795"
+		{
+			"config"
+			{
+				"language"		"hungarian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2405651491991912874"
+					"size"		"1258684935"
+					"download"		"1048476384"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1564715"
+				"timeupdated"		"1484249532"
+			}
+		}
+	}
+}
