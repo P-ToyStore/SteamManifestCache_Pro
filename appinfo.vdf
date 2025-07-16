@@ -1,0 +1,140 @@
+"appinfo"
+{
+	"appid"		"203300"
+	"common"
+	{
+		"name"		"America's Army: Proving Grounds Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"parent"		"203290"
+		"osarch"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"203300"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"ValveTestApp203300"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/AAGameServer.exe"
+				"workingdir"		"Binaries/Win32/"
+				"description"		"Launch a Dedicated America's Army: Proving Grounds Server"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"AAPG Dedicated Server"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"preloadonly"		"1"
+		"overridescddb"		"1"
+		"203301"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8293858377451486443"
+					"size"		"2215628915"
+					"download"		"970686448"
+				}
+			}
+		}
+		"203302"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5392429432907816915"
+					"size"		"142062333"
+					"download"		"53195952"
+				}
+			}
+		}
+		"203303"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2586890273536726424"
+					"size"		"77148618"
+					"download"		"21171792"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8671920"
+				"timeupdated"		"1651608500"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
