@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"1286380"
+	"common"
+	{
+		"name"		"Best Day Ever"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"b731a75847125fac047abab9922a79e02cd400d2"
+		"logo_small"		"b731a75847125fac047abab9922a79e02cd400d2_thumb"
+		"icon"		"a1c3fd96298adbdead41db79c41ccceb3b3d6e5d"
+		"clienttga"		"daad370f9da12bdc14f19fe97798fc7dc792fe5f"
+		"clienticon"		"96d2dd1e431633077a225529da9f170e662a132d"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"35.401350337584404"
+				"height_pct"		"41.13004300905037"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"35.401350337584404"
+					"height_pct"		"41.13004300905037"
+				}
+			}
+		}
+		"store_asset_mtime"		"1623163304"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ReRolled Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ReRolled Studio"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1623052808"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1286380"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"6426"
+			"2"		"6971"
+			"3"		"4486"
+			"4"		"5094"
+			"5"		"21"
+			"6"		"3799"
+			"7"		"11014"
+			"8"		"4182"
+			"9"		"9592"
+			"10"		"1742"
+			"11"		"4136"
+			"12"		"12472"
+			"13"		"5608"
+			"14"		"4166"
+			"15"		"44868"
+			"16"		"3871"
+			"17"		"4305"
+			"18"		"599"
+			"19"		"10235"
+		}
+		"review_score"		"7"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"ReRolled Studio"
+		"publisher"		"ReRolled Studio"
+		"homepage"		"http://rerolled-studio.com/pages/bestdayever"
+	}
+	"config"
+	{
+		"installdir"		"Best Day Ever"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BestDayEver.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,french"
+		"1286381"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1306139788630174344"
+					"size"		"354026117"
+					"download"		"189489392"
+				}
+			}
+		}
+		"1286382"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7539782"
+				"timeupdated"		"1634301010"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Rerolled/BestDayEver"
+				"pattern"		"*.enc"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Rerolled/BestDayEver"
+						"replace"		"unity.Rerolled.BestDayEver"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Rerolled/BestDayEver"
+						"replace"		".config/unity3d/Rerolled/BestDayEver"
+					}
+				}
+			}
+		}
+	}
+}
