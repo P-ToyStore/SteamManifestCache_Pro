@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"1619540"
+	"common"
+	{
+		"name"		"Avalon"
+		"type"		"Game"
+		"logo"		"af6012838e0cc43616ae142088845b385c42b2fc"
+		"logo_small"		"af6012838e0cc43616ae142088845b385c42b2fc_thumb"
+		"icon"		"d62411e09d25ad3be0402069e2fec9a4d8b94266"
+		"clienttga"		"5c59ff08ddd86301c2aaad09fd45465216c7ccc4"
+		"clienticns"		"61b00cf1be5f19638d62084e8faa332ca8468edd"
+		"clienticon"		"3e4534a8c6bd28678774afa379f65e56aee793a8"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"2"
+			"2"		"3"
+			"3"		"5"
+			"4"		"4"
+		}
+		"restricted_countries"		"CN,DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"53.83720930232558"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"53.83720930232558"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1619838194"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Keys to My Lockheart"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Keys to My Lockheart"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1622812027"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1619540"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"2"
+			"2"		"3"
+			"3"		"4"
+			"4"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1719"
+			"2"		"12095"
+			"3"		"1742"
+			"4"		"6650"
+			"5"		"5984"
+			"6"		"4947"
+			"7"		"3799"
+			"8"		"1697"
+			"9"		"4667"
+			"10"		"4182"
+			"11"		"24904"
+			"12"		"5611"
+		}
+		"review_score"		"8"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"Keys to My Lockheart"
+		"publisher"		"Keys to My Lockheart"
+	}
+	"config"
+	{
+		"installdir"		"Avalon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Avalon.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Avalon.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1619541"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4448397994705983410"
+					"size"		"3270863070"
+					"download"		"3164358896"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6971864"
+				"timeupdated"		"1625248178"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"64"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
