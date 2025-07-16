@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"2398870"
+	"common"
+	{
+		"name"		"OURWORLD"
+		"type"		"Game"
+		"clienttga"		"aeab8fa6ddb75dd8e609396702c031e182f993d1"
+		"clienticon"		"94f65455ad3c33a912363481cce0bdd7b9977e0b"
+		"icon"		"bf1083cf5da784aa4fa5bfacf3cd98016f82e4ee"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50.075528700906375"
+				"height_pct"		"39.58333333333337"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"50.075528700906375"
+					"height_pct"		"39.58333333333337"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1689138372"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blitzball Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Blitzball Inc."
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"29"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_49"		"1"
+			"category_47"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1687429966"
+		"community_hub_visible"		"1"
+		"gameid"		"2398870"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"4191"
+			"2"		"3839"
+			"3"		"1697"
+			"4"		"128"
+			"5"		"15045"
+			"6"		"4168"
+			"7"		"1695"
+			"8"		"1775"
+			"9"		"4182"
+			"10"		"597"
+			"11"		"21"
+			"12"		"1685"
+			"13"		"3859"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Blitzball Inc."
+		"publisher"		"Blitzball Inc."
+		"homepage"		"https://www.blitzballgames.com/"
+	}
+	"config"
+	{
+		"installdir"		"Blitz"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OURWORLD23\\Windows\\OURWORLD23.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2398871"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5155284758395990417"
+					"size"		"5653955010"
+					"download"		"5489471504"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11380008"
+				"timeupdated"		"1688923962"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"sync_while_suspended"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
