@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"2602300"
+	"common"
+	{
+		"name"		"Rockets, Planes, Soldiers"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"18be8192114d42979007ef89fe8faaf980dada04"
+		"clienticon"		"3b977b6df7bdd6352ab8b7843fc2e8e40f0bcd34"
+		"icon"		"6fc2992f9cfe09b4641e837e2f7e481241ebaa1b"
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"39.14819136522755"
+				"height_pct"		"92.55521253858942"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"39.14819136522755"
+					"height_pct"		"92.55521253858942"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1713655674"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Team B"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Team B"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1713139346"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2602300"
+		"store_tags"
+		{
+			"0"		"1770"
+			"1"		"17389"
+			"2"		"9"
+			"3"		"1741"
+			"4"		"5851"
+			"5"		"1654"
+			"6"		"4325"
+			"7"		"4252"
+			"8"		"5350"
+			"9"		"1717"
+			"10"		"7569"
+			"11"		"7368"
+			"12"		"597"
+			"13"		"1775"
+			"14"		"4711"
+			"15"		"5125"
+		}
+		"review_score"		"7"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Team B"
+		"publisher"		"Team B"
+	}
+	"config"
+	{
+		"installdir"		"Rockets Planes Soldiers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RPS.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamcontrollertouchtemplateindex"		"8"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"15"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2602301"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4740789901905668686"
+					"size"		"1081809013"
+					"download"		"421039552"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14122715"
+				"timeupdated"		"1713662619"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"sync_while_suspended"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+		"appidredirect"		"2808970"
+	}
+}
