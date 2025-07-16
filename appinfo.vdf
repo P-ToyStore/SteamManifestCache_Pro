@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"1597780"
+	"common"
+	{
+		"name"		"新城镇"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"29f032c1e3853b802238c64c958cefd9d027fcc4"
+		"clienticon"		"259faa3123d99cde079b6b855afef6f127e9c144"
+		"clienttga"		"ecf57f2a64f965f61ed90220f1cd3342776dc491"
+		"restricted_countries"		"DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"39.65116279069767"
+				"height_pct"		"56.83923058655901"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"39.65116279069767"
+					"height_pct"		"56.83923058655901"
+				}
+			}
+		}
+		"store_asset_mtime"		"1653682067"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"初稿"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"初稿"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1654263381"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1597780"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"599"
+			"2"		"597"
+			"3"		"4328"
+			"4"		"3810"
+			"5"		"4182"
+			"6"		"492"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"初稿"
+		"publisher"		"初稿"
+	}
+	"config"
+	{
+		"installdir"		"PolyCity"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PolyCity.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"schinese"
+		"1597782"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8894423244789045376"
+					"size"		"148891510"
+					"download"		"34658144"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9347321"
+				"timeupdated"		"1660907741"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"ChuGao/PolyCity/SaveData"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"ChuGao/PolyCity/SaveData"
+						"replace"		"unity.ChuGao.AutocloudSample"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"ChuGao/PolyCity/SaveData"
+						"replace"		".config/unity3d/ChuGao/AutocloudSample"
+					}
+				}
+			}
+		}
+	}
+}
