@@ -1,0 +1,258 @@
+"appinfo"
+{
+	"appid"		"664210"
+	"common"
+	{
+		"name"		"Boxed In"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"008278c54b9033920b89bdced1dc76b823330129"
+		"logo_small"		"008278c54b9033920b89bdced1dc76b823330129_thumb"
+		"icon"		"e0cb7f3dde8f8c223c2c529eff3049c4275a49b6"
+		"clienttga"		"ec570e21e76b0b1297424c84c7f11599870bdcc2"
+		"clienticon"		"44dab2653794d2e2554ebbefd8804ccd8a23da69"
+		"openvrsupport"		"1"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"japanese"		"1"
+		}
+		"metacritic_name"		"Boxed In"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"39.65410955678935"
+				"height_pct"		"66.83163650075414"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"39.65410955678935"
+					"height_pct"		"66.83163650075414"
+				}
+			}
+		}
+		"store_asset_mtime"		"1658147360"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Red Chain Games Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Red Chain Games Ltd."
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1513956297"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"664210"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"1664"
+			"3"		"21978"
+			"4"		"1665"
+			"5"		"5350"
+			"6"		"1774"
+			"7"		"4182"
+			"8"		"1662"
+			"9"		"13070"
+			"10"		"4094"
+			"11"		"4400"
+			"12"		"4305"
+			"13"		"3839"
+			"14"		"4166"
+			"15"		"3942"
+			"16"		"1710"
+			"17"		"5154"
+			"18"		"12057"
+			"19"		"4191"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Red Chain Games Ltd."
+		"publisher"		"Red Chain Games Ltd."
+		"homepage"		"https://redchaingames.com/"
+	}
+	"config"
+	{
+		"installdir"		"Boxed In"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Boxed In.exe"
+				"arguments"		"-vrmode None"
+				"description"		"Play without VR"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Boxed In.exe"
+				"arguments"		"-VR -vrmode OpenVR"
+				"description"		"Boxed In (VR)"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"664211"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2304010007994475864"
+					"size"		"1292731251"
+					"download"		"228967872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7349988"
+				"timeupdated"		"1631542039"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
