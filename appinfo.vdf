@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"2002280"
+	"common"
+	{
+		"name"		"Make It In Time"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"378c9e5ca66075a58c76bd56a2afbd03224cf92a"
+		"clienttga"		"b27db21b14eb0a2035724def9a97f06905f7a118"
+		"clienticon"		"0511a6910a4b553e9ec838b770301ccc7bac2e68"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"88.17951997548712"
+				"height_pct"		"62.85223286827693"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"88.17951997548712"
+					"height_pct"		"62.85223286827693"
+				}
+			}
+		}
+		"store_asset_mtime"		"1671185596"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kruntazie Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kruntazie Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1671148911"
+		"community_hub_visible"		"1"
+		"gameid"		"2002280"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3814"
+			"2"		"1774"
+			"3"		"4231"
+			"4"		"1697"
+			"5"		"493"
+			"6"		"492"
+			"7"		"7208"
+			"8"		"3942"
+			"9"		"3993"
+			"10"		"1673"
+			"11"		"4166"
+			"12"		"6730"
+			"13"		"4182"
+			"14"		"4175"
+			"15"		"4191"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Kruntazie Games"
+		"publisher"		"Kruntazie Games"
+		"listofdlc"		"2212432"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Make It In Time"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"\\MIA\\Binaries\\Win64\\MIA.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"baselanguages"		"english"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2002281"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6178822048495164082"
+					"size"		"8396869807"
+					"download"		"7771367872"
+				}
+				"testing"
+				{
+					"gid"		"353953564605897637"
+					"size"		"6426144114"
+					"download"		"5825926016"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10216317"
+				"timeupdated"		"1672052180"
+			}
+			"testing"
+			{
+				"buildid"		"9260314"
+				"description"		"For Testing On Steam"
+				"timeupdated"		"1659751430"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"MIA\\Saved\\SaveGames"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
