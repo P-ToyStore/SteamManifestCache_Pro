@@ -1,0 +1,359 @@
+"appinfo"
+{
+	"appid"		"388440"
+	"common"
+	{
+		"name"		"Big Journey to Home"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"clienticon"		"6e8fb6352b8dfcd5fe165014f5a52633d109290c"
+		"clienttga"		"c97d43ece269b0f5df8c63b0f99e260a1d6ee389"
+		"icon"		"ff269d8f08034ecd7eb1cf5e4ed3c13df763cedf"
+		"logo"		"a0d80ff9a0c396b87817396a3c04a4af32b663ec"
+		"logo_small"		"a0d80ff9a0c396b87817396a3c04a4af32b663ec_thumb"
+		"clienticns"		"1d0a7c4ee44cf13e695fae1c6fe169829696767c"
+		"linuxclienticon"		"947f56b68814b26a3fd61830b82ddace79bf723b"
+		"releasestate"		"released"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"name_localized"
+		{
+			"russian"		"Большое путешествие домой"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Big Journey to Home"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"81.00304039474344"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"81.00304039474344"
+				}
+			}
+		}
+		"store_asset_mtime"		"1593800933"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Light Sword Team"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"The Light Sword Team"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_17"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_13"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_38"		"1"
+			"category_48"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1440090000"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"388440"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"122"
+			"2"		"9"
+			"3"		"1664"
+			"4"		"1685"
+			"5"		"1756"
+			"6"		"4172"
+			"7"		"4182"
+			"8"		"8122"
+			"9"		"4026"
+		}
+		"review_score"		"4"
+		"review_percentage"		"39"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"The Light Sword Team"
+		"publisher"		"The Light Sword Team"
+		"homepage"		"http://bigjourneytohome.ru/"
+		"listofdlc"		"439710"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Big Journey to Home"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"description"		"Launch Windows"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Big Journey to Home.app"
+				"description"		"Launch Mac"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"game"
+				"description"		"Launch Linux"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"old_builds/main.exe"
+				"workingdir"		"old_builds"
+				"description"		"Collection of Builds"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"439710"
+				}
+			}
+			"4"
+			{
+				"executable"		"runner"
+				"description"		"Legacy Version"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"legacy"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"388441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1675625412599938902"
+					"size"		"75752982"
+					"download"		"46037104"
+				}
+				"legacy"
+				{
+					"gid"		"8226188585353721021"
+					"size"		"64665067"
+					"download"		"48309840"
+				}
+			}
+		}
+		"388442"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5095042368531222225"
+					"size"		"110243275"
+					"download"		"53384496"
+				}
+				"legacy"
+				{
+					"gid"		"5391946816893064189"
+					"size"		"64656241"
+					"download"		"48052224"
+				}
+			}
+		}
+		"388443"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2500709429224032942"
+					"size"		"74704990"
+					"download"		"46052640"
+				}
+				"legacy"
+				{
+					"gid"		"3647687391838100562"
+					"size"		"60992980"
+					"download"		"46968400"
+				}
+			}
+		}
+		"439710"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7971840539928482304"
+					"size"		"356482442"
+					"download"		"348967648"
+				}
+				"legacy"
+				{
+					"gid"		"7971840539928482304"
+					"size"		"356482442"
+					"download"		"348967648"
+				}
+			}
+			"dlcappid"		"439710"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17431802"
+				"timeupdated"		"1740013160"
+			}
+			"legacy"
+			{
+				"buildid"		"1022423"
+				"description"		"Legacy version 1.1.1 (x86/dx9)"
+				"timeupdated"		"1594817762"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+	}
+}
