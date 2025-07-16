@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"2264390"
+	"common"
+	{
+		"name"		"Evo"
+		"type"		"Game"
+		"icon"		"cddb6ca76ff81438f29fa36045c3e60b615a8cf3"
+		"clienttga"		"9b6e78bc733e02f100b2bca881bdb78656d42977"
+		"clienticon"		"399fd2b251730895e121e967b32c1df43c8185ea"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"controllertagwizard"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"39.96369389634992"
+				"height_pct"		"94.31534142053073"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"39.96369389634992"
+					"height_pct"		"94.31534142053073"
+				}
+			}
+		}
+		"store_asset_mtime"		"1680283129"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TwistedNail"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TwistedNail"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1701975151"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2264390"
+		"store_tags"
+		{
+			"0"		"9157"
+			"1"		"21"
+			"2"		"30358"
+			"3"		"5537"
+			"4"		"3798"
+			"5"		"5395"
+			"6"		"599"
+			"7"		"4234"
+			"8"		"4305"
+			"9"		"7481"
+			"10"		"4975"
+			"11"		"1742"
+			"12"		"4166"
+			"13"		"1625"
+			"14"		"4726"
+			"15"		"5900"
+			"16"		"4145"
+			"17"		"4182"
+			"18"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"TwistedNail"
+		"publisher"		"TwistedNail"
+	}
+	"config"
+	{
+		"installdir"		"Evo"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"evo_game.exe"
+				"arguments"		"-nohmd"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2264391"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5584802662637420864"
+					"size"		"1714514189"
+					"download"		"1455325760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12937676"
+				"timeupdated"		"1702370497"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"evo_game/Saved/SaveGames"
+				"pattern"		"Game.sav"
+			}
+		}
+	}
+}
