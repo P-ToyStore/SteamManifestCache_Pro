@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"1889630"
+	"common"
+	{
+		"name"		"Hyperbase"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"636ed6cfca621384e8c01feb3468e0b217c799e2"
+		"logo_small"		"636ed6cfca621384e8c01feb3468e0b217c799e2_thumb"
+		"icon"		"de5018a06056b0d137b7fef7e856739672ed4187"
+		"clienttga"		"4a46284b05e9d704b8e9d7fe0387d29e6c3c0167"
+		"clienticon"		"b4a391eaa19acf963fa12f7e87b8d06ec488e505"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"19.186046511627893"
+				"height_pct"		"36.321538826881984"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"19.186046511627893"
+					"height_pct"		"36.321538826881984"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1652985889"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Flotsky"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Flotsky"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1652719431"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1889630"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"3942"
+			"2"		"1773"
+			"3"		"1673"
+			"4"		"3978"
+			"5"		"3834"
+			"6"		"4106"
+			"7"		"5900"
+			"8"		"1738"
+			"9"		"4791"
+			"10"		"4166"
+			"11"		"4295"
+			"12"		"1662"
+			"13"		"4115"
+			"14"		"1664"
+			"15"		"1687"
+			"16"		"9592"
+			"17"		"5154"
+			"18"		"19"
+			"19"		"6971"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Flotsky"
+		"publisher"		"Flotsky"
+	}
+	"config"
+	{
+		"installdir"		"Hyperbase"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HyperBase.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1889631"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3501736062693875223"
+					"size"		"866320590"
+					"download"		"416099472"
+				}
+			}
+		}
+		"baselanguages"		"english,russian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8771183"
+				"timeupdated"		"1652969520"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"200"
+		"sync_while_suspended"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"HyperBase_Data/Saves"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
