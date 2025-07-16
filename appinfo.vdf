@@ -1,0 +1,281 @@
+"appinfo"
+{
+	"appid"		"398180"
+	"common"
+	{
+		"name"		"Euclidean"
+		"type"		"Game"
+		"logo"		"54ad8e4674e3eb5c18420a81dc162aa20efa0200"
+		"logo_small"		"54ad8e4674e3eb5c18420a81dc162aa20efa0200_thumb"
+		"icon"		"60af2b13f44e59c87121a3a3e3f7799bf9edcf09"
+		"clienttga"		"9d2d0b11aa6b1fb8dbb3c48677ede5e5e9c2b032"
+		"clienticon"		"e52ec26adabc138defa90d6d54636dc5e3739531"
+		"oslist"		"windows"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+			}
+			"seated"		"1"
+		}
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Euclidean"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c5fd4cbb885e09067631488b118ea4f64537ae48.jpg"
+		"store_asset_mtime"		"1443227204"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Alpha Wave Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"AAD Productions"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_31"		"1"
+			"category_29"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1443229204"
+		"metacritic_score"		"62"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/euclidean?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"398180"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"7432"
+			"3"		"4166"
+			"4"		"1667"
+			"5"		"3839"
+			"6"		"21978"
+			"7"		"597"
+			"8"		"4400"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"Alpha Wave Entertainment"
+		"publisher"		"AAD Productions"
+		"homepage"		"http://alphawaveentertainment.com/project/euclidean/"
+		"listofdlc"		"538370"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Euclidean"
+		"vrsupport"		"openvr"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Euclidean.exe"
+				"arguments"		"-show-screen-selector -vrmode None"
+				"description"		"32 & 64 bit Windows Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Euclidean.exe"
+				"arguments"		"-vrmode OpenVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Euclidean.exe"
+				"arguments"		"-show-screen-selector -vrmode None"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"Euclidean.exe"
+				"arguments"		"-vrmode OpenVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"398181"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5854536864114578487"
+					"size"		"792936782"
+					"download"		"312487296"
+				}
+			}
+		}
+		"398182"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1487462889167428355"
+					"size"		"798393122"
+					"download"		"313986672"
+				}
+			}
+		}
+		"398183"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3124270039612370468"
+					"size"		"721939286"
+					"download"		"326055312"
+				}
+			}
+		}
+		"538370"
+		{
+			"dlcappid"		"538370"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1481626218463736933"
+					"size"		"43945921"
+					"download"		"32390768"
+				}
+			}
+		}
+		"398184"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4719542646385130630"
+					"size"		"7"
+					"download"		"64"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16904866"
+				"timeupdated"		"1735972021"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
