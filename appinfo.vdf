@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"1898860"
+	"common"
+	{
+		"name"		"whale."
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"e779e2ab1b52c327b173a2da0c18a8fbe351b209"
+		"logo_small"		"e779e2ab1b52c327b173a2da0c18a8fbe351b209_thumb"
+		"icon"		"b0af480eab23fdda1b9db267472e61fe3e75de25"
+		"clienttga"		"74e65fdfbcfd044d0d32cabc0e19c99b107fab5c"
+		"linuxclienticon"		"d18818eca6a5b65f94159e2b6a087d558b3a9c0c"
+		"clienticns"		"c1e80d94b21411f4e09efce32ab6f50c3ca546e4"
+		"clienticon"		"b3200b89eecff965893a5e75fee1305f678ff0e3"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"37.47781492993931"
+				"height_pct"		"56.458966265787225"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"37.47781492993931"
+					"height_pct"		"56.458966265787225"
+				}
+			}
+		}
+		"store_asset_mtime"		"1644967129"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rex K."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rex K."
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1645999422"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1898860"
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"4255"
+			"2"		"1775"
+			"3"		"4736"
+			"4"		"1773"
+			"5"		"3871"
+			"6"		"4791"
+			"7"		"597"
+			"8"		"3987"
+			"9"		"6426"
+			"10"		"1695"
+			"11"		"3964"
+			"12"		"21"
+			"13"		"12472"
+			"14"		"3993"
+			"15"		"3859"
+			"16"		"3843"
+			"17"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Rex K."
+		"publisher"		"Rex K."
+	}
+	"config"
+	{
+		"installdir"		"whale"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"whale.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"The Default Game"
+				}
+				"description"		"The Default Game"
+			}
+		}
+	}
+	"depots"
+	{
+		"1898861"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8412414797953327816"
+					"size"		"135362685"
+					"download"		"60132064"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8283413"
+				"timeupdated"		"1645998029"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.dat"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
