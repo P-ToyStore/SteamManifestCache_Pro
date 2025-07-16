@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"328930"
+	"common"
+	{
+		"name"		"Fleet Defender: The F-14 Tomcat Simulation"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"5c2067d5ee6426f72fd7087668969c18b743f066"
+		"logo_small"		"5c2067d5ee6426f72fd7087668969c18b743f066_thumb"
+		"clienticon"		"abe2c2b4ffb31ddd6e4761131c44bad1875ce91a"
+		"clienttga"		"3e1056fdadb9a3d5824769d96e5450614fb0bcc1"
+		"icon"		"4573a467834901e650f44972573662f99fc82672"
+		"linuxclienticon"		"ce868328bf493026a68561c0cbcbc364514dcebe"
+		"metacritic_name"		"Fleet Defender: The F-14 Tomcat Simulation"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b4d0c14733d60dcc44c9661dd17bdf79f28ae01b.jpg"
+		"store_asset_mtime"		"1418091187"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MicroProse Software, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"766652400"
+		"steam_release_date"		"1414695270"
+		"community_hub_visible"		"1"
+		"gameid"		"328930"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"15045"
+			"2"		"4004"
+			"3"		"1693"
+		}
+		"review_score"		"7"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"MicroProse Software, Inc."
+		"publisher"		"Atari"
+		"homepage"		"http://www.atari.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/328930/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Fleet Defender"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_fleetdefender.conf -conf dosbox_fleetdefender_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_fleetdefender.conf -conf dosbox_fleetdefender_launch_windows.conf -noconsole"
+				"description"		"Play Fleet Defender in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_fleetdefender.conf -conf dosbox_fleetdefender_jukebox_windows.conf -noconsole"
+				"description"		"Fleet Defender - Jukebox"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_fleetdefender_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_fleetdefender_game_daum.sh"
+				"description"		"Play Fleet Defender in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_fleetdefender_jukebox.sh"
+				"description"		"Fleet Defender - Jukebox"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"328931"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4259494548181923627"
+					"size"		"2136373"
+					"download"		"2021472"
+				}
+			}
+		}
+		"328932"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5334162197453810248"
+					"size"		"18522309"
+					"download"		"9639008"
+				}
+			}
+		}
+		"328933"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7434498523783884439"
+					"size"		"17658706"
+					"download"		"7713152"
+				}
+			}
+		}
+		"328934"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"923076845706818999"
+					"size"		"530510622"
+					"download"		"248346464"
+				}
+			}
+		}
+		"328935"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7222072627039352630"
+					"size"		"530510622"
+					"download"		"287823136"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"425463"
+			}
+		}
+	}
+}
