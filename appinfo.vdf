@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"2609720"
+	"common"
+	{
+		"name"		"Raven Simulator"
+		"type"		"Game"
+		"icon"		"02918e7f7f947f44d889faeac887628a901bccc8"
+		"clienticon"		"81a7819239945ab8a24b01c13131464da8f753b7"
+		"clienttga"		"8a971e0cd251fefb3cc22d5bb1d25da24e1ec311"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"38.448074679113205"
+				"height_pct"		"62.918546663500386"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"38.448074679113205"
+					"height_pct"		"62.918546663500386"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1701641436"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zios, Ares World Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ares World Entertainment"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1700768390"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2609720"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"4106"
+			"2"		"4191"
+			"3"		"1697"
+			"4"		"1719"
+			"5"		"4136"
+			"6"		"1695"
+			"7"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Zios, Ares World Entertainment"
+		"publisher"		"Ares World Entertainment"
+	}
+	"config"
+	{
+		"installdir"		"Raven Simulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RavenSimulator.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2609721"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3860486831128894014"
+					"size"		"4336058187"
+					"download"		"4075778816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12640540"
+				"timeupdated"		"1699365756"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"SteamCloudDocuments"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"SteamCloudDocuments"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"SteamCloudDocuments"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SavesDir"
+						"replace"		""
+					}
+				}
+			}
+		}
+	}
+}
