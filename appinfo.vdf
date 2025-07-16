@@ -1,0 +1,59 @@
+"appinfo"
+{
+	"appid"		"25740"
+	"common"
+	{
+		"name"		"Madballs In...Babo:Invasion Dedicated Server"
+		"type"		"Tool"
+		"gameid"		"25740"
+	}
+	"extended"
+	{
+		"developer"		"Playbrains"
+		"gamedir"		"baboinvasion_dedicated"
+		"homepage"		"http://baboinvasion.com"
+		"icon"		""
+		"installscript"		"installscript_dedicated.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"25741"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"baboinvasion_dedicated"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BaboInvasion_Dedicated.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"25741"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2364987203259591575"
+					"size"		"368014344"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"52202"
+			}
+		}
+	}
+}
