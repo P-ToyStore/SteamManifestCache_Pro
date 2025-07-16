@@ -1,0 +1,233 @@
+"appinfo"
+{
+	"appid"		"305840"
+	"common"
+	{
+		"name"		"Shallow Space"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"c536297358fcd02928d9bd161d1f4bd4307f248e"
+		"logo_small"		"c536297358fcd02928d9bd161d1f4bd4307f248e_thumb"
+		"icon"		"2794319180813b009c203c81ce2c7a5002dadde8"
+		"clienticon"		"f4e7d61cdcadd4ea37ce92b61d18dc201bef356a"
+		"clienttga"		"bbfcd989b8c632aa424c8289b71ae9143bbdbe55"
+		"osarch"		"64"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Shallow Space"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4123712b07471a92611d04f97320b78343efc7a5.jpg"
+		"store_asset_mtime"		"1481997508"
+		"associations"
+		{
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"28"
+			"2"		"2"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1445443652"
+		"community_hub_visible"		"1"
+		"gameid"		"305840"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"493"
+			"2"		"599"
+			"3"		"122"
+			"4"		"1755"
+			"5"		"1676"
+			"6"		"19"
+			"7"		"3942"
+			"8"		"1670"
+		}
+		"review_score"		"4"
+		"review_percentage"		"25"
+	}
+	"extended"
+	{
+		"homepage"		"https://shallowspace.co"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ShallowSpace"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"sspace.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"sspace.app\\Contents\\MacOS\\sspace"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"sspace.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"305850"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4896892142089962594"
+					"size"		"1841575254"
+					"download"		"583418400"
+				}
+				"old_alpha"
+				{
+					"gid"		"791903991610916354"
+					"size"		"1749006877"
+					"download"		"465127584"
+				}
+				"testing"
+				{
+					"gid"		"4896892142089962594"
+					"size"		"1841575254"
+					"download"		"583418400"
+				}
+			}
+		}
+		"305851"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8248420258499584729"
+					"size"		"1842392725"
+					"download"		"582657568"
+				}
+				"old_alpha"
+				{
+					"gid"		"7604234618888551593"
+					"size"		"1695578685"
+					"download"		"448458864"
+				}
+				"testing"
+				{
+					"gid"		"8248420258499584729"
+					"size"		"1842392725"
+					"download"		"582657568"
+				}
+			}
+		}
+		"305852"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6016453642504641150"
+					"size"		"1857528041"
+					"download"		"589599088"
+				}
+				"old_alpha"
+				{
+					"gid"		"6830934081285496229"
+					"size"		"1827518461"
+					"download"		"585667632"
+				}
+				"testing"
+				{
+					"gid"		"6016453642504641150"
+					"size"		"1857528041"
+					"download"		"589599088"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1543254"
+				"timeupdated"		"1482943443"
+			}
+			"old_alpha"
+			{
+				"buildid"		"1500685"
+				"description"		"Old Alpha"
+				"timeupdated"		"1481016299"
+			}
+			"testing"
+			{
+				"buildid"		"1543257"
+				"description"		"Overhaul Beta"
+				"timeupdated"		"1482943481"
+			}
+		}
+	}
+}
