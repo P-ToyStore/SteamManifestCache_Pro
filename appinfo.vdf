@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"2486760"
+	"common"
+	{
+		"name"		"Crocogame"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"66e13c32fa360a366080d385e1de3e064fe8b79f"
+		"clienticon"		"6f7a0cb3246a6b6d5bb29b2d23e3d4893edb37c9"
+		"clienttga"		"da169939c9212099abf88c8f031440673eb7102f"
+		"clienticns"		"6f7a0cb3246a6b6d5bb29b2d23e3d4893edb37c9"
+		"linuxclienticon"		"6f7a0cb3246a6b6d5bb29b2d23e3d4893edb37c9"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"48.49282520370646"
+				"height_pct"		"74.98133234650022"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"48.49282520370646"
+					"height_pct"		"74.98133234650022"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1696367747"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"alehooleo"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"alehooleo"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1695803695"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2486760"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"42804"
+			"2"		"5547"
+			"3"		"4885"
+			"4"		"3959"
+			"5"		"4637"
+			"6"		"4758"
+			"7"		"3871"
+			"8"		"3964"
+			"9"		"4791"
+			"10"		"5350"
+			"11"		"1684"
+			"12"		"3916"
+			"13"		"4004"
+			"14"		"3993"
+			"15"		"7481"
+			"16"		"6730"
+			"17"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"alehooleo"
+		"publisher"		"alehooleo"
+	}
+	"config"
+	{
+		"installdir"		"Crocogame"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CrocoGame.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"2486761"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"386088952345964121"
+					"size"		"325439060"
+					"download"		"38495536"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12556232"
+				"timeupdated"		"1698429009"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Alehooleo/Crocogame/{64BitSteamID}/"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Alehooleo/Crocogame/{64BitSteamID}/"
+						"replace"		".config/unity3d/Alehooleo/Crocogame/{64BitSteamID}/"
+					}
+				}
+			}
+		}
+	}
+}
