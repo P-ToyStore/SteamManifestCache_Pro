@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"920550"
+	"common"
+	{
+		"name"		"Puzzle Master"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"e38dc6c20a54a1f4bd6fcb0b0d594afa7d573591"
+		"clienttga"		"85aeab26a87d06db7cd157d0fe97790e7d4a38bf"
+		"icon"		"b5559462429b3bcd831241bba7960636f1924396"
+		"clienticns"		"fc0d621b208b7136fe6524e496b5c2390cc1fff7"
+		"logo"		"e7f66bc9150a1b3ecee1ce9386f30362ad25d5f5"
+		"logo_small"		"e7f66bc9150a1b3ecee1ce9386f30362ad25d5f5_thumb"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"metacritic_name"		"Puzzle Master"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_daa362aab9c59fe72351b965e614a9ed11971198.jpg"
+		"store_asset_mtime"		"1536808521"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SimpleLogic"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SimpleLogic"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1535157716"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"920550"
+		"store_tags"
+		{
+			"0"		"1664"
+			"1"		"4085"
+			"2"		"4182"
+			"3"		"3871"
+			"4"		"1756"
+			"5"		"1654"
+			"6"		"12095"
+			"7"		"6650"
+			"8"		"9130"
+		}
+		"review_score"		"7"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"SimpleLogic"
+		"publisher"		"SimpleLogic"
+	}
+	"config"
+	{
+		"installdir"		"Puzzle Master"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Puzzle Master.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Puzzle Master.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"920551"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"599538997188603765"
+					"size"		"140143275"
+					"download"		"76242240"
+				}
+			}
+		}
+		"920552"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6678140109326604091"
+					"size"		"150598023"
+					"download"		"78365952"
+				}
+			}
+		}
+		"workshopdepot"		"920550"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3727411"
+				"timeupdated"		"1554951462"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"SimpleLogic/Puzzle Master"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SimpleLogic/Puzzle Master"
+						"replace"		"SimpleLogic/Puzzle Master"
+					}
+				}
+			}
+		}
+	}
+}
