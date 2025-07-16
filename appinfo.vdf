@@ -1,0 +1,337 @@
+"appinfo"
+{
+	"appid"		"882150"
+	"common"
+	{
+		"name"		"Sky Link"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"icon"		"c7c3d2673edef2e37c6e10f1bfa4ac52ad86b1b9"
+		"logo"		"7d0ac1db61fc88b0fc0383a4d786b673de012dc4"
+		"logo_small"		"7d0ac1db61fc88b0fc0383a4d786b673de012dc4_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"882150_eula_0"
+				"name"		"Drone Strike Force EULA"
+				"url"		"https://store.steampowered.com//eula/882150_eula_0"
+			}
+		}
+		"clienticon"		"f89a5809937c248d5c84953bf41280aba0c57488"
+		"clienttga"		"d9e1a767619180ab9fbacd30d14593cb2194cb00"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"76.9289033825266"
+				"height_pct"		"55.29801324503314"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"76.9289033825266"
+					"height_pct"		"55.29801324503314"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1626368541"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Odisi Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Odisi Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"29"
+			"2"		"28"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_20"		"1"
+			"category_49"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"full_audio"		"true"
+			}
+			"polish"
+			{
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"full_audio"		"true"
+			}
+			"latam"
+			{
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1565964000"
+		"community_hub_visible"		"1"
+		"gameid"		"882150"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"128"
+			"2"		"3859"
+			"3"		"493"
+			"4"		"15045"
+			"5"		"1774"
+			"6"		"1734"
+			"7"		"1663"
+			"8"		"3878"
+			"9"		"3839"
+			"10"		"1775"
+			"11"		"3814"
+			"12"		"5055"
+			"13"		"5547"
+			"14"		"4255"
+			"15"		"620519"
+			"16"		"4175"
+			"17"		"1697"
+			"18"		"5752"
+			"19"		"7926"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"Odisi Games"
+		"publisher"		"Odisi Games"
+		"homepage"		"https://www.playskylink.com"
+	}
+	"config"
+	{
+		"installdir"		"Sky Link"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"drones.exe"
+				"arguments"		"-gsenv=prod -gskey=e375341k5DPR -gssecret=o8tovzDA628nAqcDkmtsdNdVNmMAutVB"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"default"
+				}
+			}
+			"1"
+			{
+				"executable"		"drones.exe"
+				"arguments"		"-gsenv=dev -gskey=e375341k5DPR -gssecret=o8tovzDA628nAqcDkmtsdNdVNmMAutVB"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"staging"
+				}
+				"description_loc"
+				{
+					"english"		"Launch the client on the staging (S) environment - (Use this one)"
+				}
+				"description"		"Launch the client on the staging (S) environment - (Use this one)"
+			}
+			"2"
+			{
+				"executable"		"drones.exe"
+				"arguments"		"-gsenv=dev -gskey=K368038hczTd -gssecret=LflT7NEFqZeUFLeGwXgRyjnkXWTfE8Zr -bcAppId=14102 -bcAppSecret=42854ecf-1c97-4f6f-b226-1182f548996b -log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"testing"
+				}
+			}
+			"3"
+			{
+				"executable"		"drones.exe"
+				"arguments"		"-gsenv=dev -gskey=n354956kXonS -gssecret=bsMGaF1RhAdNaklMb9vXgn7TM8y0KNXw -log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"development"
+				}
+			}
+			"5"
+			{
+				"executable"		"drones.exe"
+				"arguments"		"-gsenv=dev -gskey=n354956kXonS -gssecret=bsMGaF1RhAdNaklMb9vXgn7TM8y0KNXw -log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"devshipping"
+				}
+			}
+			"6"
+			{
+				"executable"		"drones.exe"
+				"arguments"		"-gsenv=dev -gskey=K368038hczTd -gssecret=LflT7NEFqZeUFLeGwXgRyjnkXWTfE8Zr -bcAppId=14102 -bcAppSecret=42854ecf-1c97-4f6f-b226-1182f548996b -log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"tstshipping"
+				}
+			}
+			"7"
+			{
+				"executable"		"drones.exe"
+				"arguments"		"-gsenv=dev -gskey=P394490wf9jf -gssecret=ZrDqf3nL4gd9AhN72shBePgohl3wnuTu -log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"xxxdevelopment"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"882151"
+		{
+		}
+		"882152"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"586281490389578575"
+					"size"		"21679398243"
+					"download"		"8240292976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7536465"
+				"timeupdated"		"1634320710"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
