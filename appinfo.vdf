@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"2927900"
+	"common"
+	{
+		"name"		"Runner"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"cf1ff465da8786f2cbaca241d6a5bf3502b17ef7"
+		"clienttga"		"e48776e91cb71ebf6d6f1715c914dc5a3e968d45"
+		"clienticon"		"cdf571af51da9d186af54b561a8cb51b66d5c339"
+		"linuxclienticon"		"5eec507d7a3f726a125d61c88e721dba9cc95f87"
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1715912212"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Reval Heavy Industries"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Reval Heavy Industries"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1717398163"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2927900"
+		"store_tags"
+		{
+			"0"		"3877"
+			"1"		"3798"
+			"2"		"5379"
+			"3"		"19"
+			"4"		"5537"
+			"5"		"8666"
+			"6"		"1664"
+			"7"		"1625"
+			"8"		"3871"
+			"9"		"4115"
+			"10"		"7250"
+			"11"		"492"
+			"12"		"3964"
+			"13"		"5030"
+			"14"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Reval Heavy Industries"
+		"publisher"		"Reval Heavy Industries"
+	}
+	"config"
+	{
+		"installdir"		"Runner"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"runner.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"runner.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2927901"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4778911783755409787"
+					"size"		"170567995"
+					"download"		"67430368"
+				}
+			}
+		}
+		"2927902"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6503956165462860671"
+					"size"		"164507937"
+					"download"		"64588640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19034943"
+				"timeupdated"		"1751087932"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"*.data"
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".local/share/godot/app_userdata/Runner"
+				"pattern"		"*.data"
+			}
+		}
+	}
+}
