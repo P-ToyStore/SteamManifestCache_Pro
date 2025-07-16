@@ -1,0 +1,327 @@
+"appinfo"
+{
+	"appid"		"456540"
+	"common"
+	{
+		"name"		"STAR WARS™: Rebel Assault I + II"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"456540_eula_0"
+				"name"		"Star Wars - Rebel Assault 1 and 2 EULA"
+				"url"		"http://store.steampowered.com//eula/456540_eula_0"
+			}
+		}
+		"logo"		"1ea925c18ec25e359935274be8f87038e4f33be8"
+		"logo_small"		"1ea925c18ec25e359935274be8f87038e4f33be8_thumb"
+		"clienticon"		"339fd52b497c4834687c79b4051cb0399d6c65d0"
+		"clienttga"		"a2a6502eca0f5f1bd861dcd373a95e191b9908f9"
+		"icon"		"f4f76d056c5f1e9ad512d8cfd403ea9ebc4f4e92"
+		"releasestate"		"released"
+		"osarch"		""
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1691107200"
+			"tested_build_id"		"474184"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"STAR WARS™: Rebel Assault I + II"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"a73dbf1d297233ddf89ccd5929741cf8731cc7b1/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"a73dbf1d297233ddf89ccd5929741cf8731cc7b1/library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_71fd8e5f031c5191a3acddb110d1bfe2f593e4f8.jpg"
+		"store_asset_mtime"		"1741818028"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LucasArts"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LucasArts"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Lucasfilm"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Disney"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"Star Wars"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_23"		"1"
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"750754800"
+		"steam_release_date"		"1459266443"
+		"community_hub_visible"		"1"
+		"gameid"		"456540"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+			"2"		"18594"
+			"3"		"1693"
+			"4"		"56690"
+			"5"		"6691"
+			"6"		"3942"
+			"7"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"LucasArts"
+		"publisher"		"LucasArts"
+		"gamemanualurl"		"https://store.steampowered.com/manual/456540/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Star Wars - Rebel Assault 1 and 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX\\DOSBox.exe"
+				"arguments"		"-conf \"..\\dosbox_rebel.conf\" -conf \"..\\dosbox_rebel_single.conf\" -noconsole -c exit"
+				"workingdir"		"DOSBOX\\"
+				"description"		"Star Wars - Rebel Assault"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBOX\\DOSBox.exe"
+				"arguments"		"-conf \"..\\dosbox_rebel2.conf\" -conf \"..\\dosbox_rebel2_single.conf\" -noconsole -c exit"
+				"workingdir"		"DOSBOX\\"
+				"description"		"Star Wars - Rebel Assault II"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf dosbox_rebel.conf -conf dosbox_rebel_single.conf -noconsole -c exit"
+				"description"		"Star Wars - Rebel Assault"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox/DOSBox"
+				"arguments"		"-conf dosbox_rebel2.conf -conf dosbox_rebel2_single.conf -noconsole -c exit"
+				"description"		"Star Wars - Rebel Assault II"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"456544"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"531617775206532513"
+					"size"		"1407951082"
+					"download"		"717310800"
+				}
+			}
+		}
+		"456541"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1261031950221533808"
+					"size"		"5761360"
+					"download"		"2785728"
+				}
+			}
+		}
+		"456543"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7597747122577567802"
+					"size"		"1420456332"
+					"download"		"722628768"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4748184"
+				"timeupdated"		"1586195535"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"REBEL"
+				"pattern"		"*.PIL"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"REBEL"
+				"pattern"		"*.PRF"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"REBEL"
+				"pattern"		"*.PTS"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"REBEL2"
+				"pattern"		"*.PIL"
+			}
+			"4"
+			{
+				"root"		"gameinstall"
+				"path"		"REBEL2"
+				"pattern"		"*.PRF"
+			}
+			"5"
+			{
+				"root"		"gameinstall"
+				"path"		"REBEL2"
+				"pattern"		"*.PTS"
+			}
+		}
+	}
+}
