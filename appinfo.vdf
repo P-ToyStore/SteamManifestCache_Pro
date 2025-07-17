@@ -1,0 +1,341 @@
+"appinfo"
+{
+	"appid"		"357650"
+	"common"
+	{
+		"name"		"Project Explore"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"clienticon"		"bb8000220351ef12a6244997be56e36fb939fade"
+		"clienttga"		"aa32347eccb67c4804a01a77204829a350f55822"
+		"icon"		"910f2c6493d578efb99291ce82bb67ed283dd73b"
+		"logo"		"6606c232ffa9e662316e4f82fdfaac07a4d01ded"
+		"logo_small"		"6606c232ffa9e662316e4f82fdfaac07a4d01ded_thumb"
+		"linuxclienticon"		"bcd81cc7548f78992235e0611a2865a8a1351ae6"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1704499200"
+			"tested_build_id"		"2664634"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Project Explore"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3601cc8913ca278189037a48faf01462fdbead65.jpg"
+		"store_asset_mtime"		"1500579138"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fern Nigro"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fern Nigro"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1502431386"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"357650"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"21"
+			"2"		"492"
+			"3"		"19"
+			"4"		"597"
+			"5"		"599"
+			"6"		"3871"
+			"7"		"1695"
+			"8"		"3810"
+			"9"		"493"
+			"10"		"3859"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Fern Nigro"
+		"publisher"		"Fern Nigro"
+		"homepage"		"https://www.fernmakesgames.com/contact.html"
+		"listofdlc"		"411850"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Project Explore"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"client/Project_Explore"
+				"description"		"Ubuntu"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"client/Project Explore.exe"
+				"description"		"Game"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"Project Explore (Stable)/ProjectExplore.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"Legacy"
+				}
+			}
+			"5"
+			{
+				"executable"		"runner"
+				"description"		"Ubuntu"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"Legacy"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"0"
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"411850"
+		{
+			"dlcappid"		"411850"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"96762291302785801"
+					"size"		"177408199"
+					"download"		"178394128"
+				}
+				"legacy"
+				{
+					"gid"		"96762291302785801"
+					"size"		"177408199"
+					"download"		"178394128"
+				}
+			}
+		}
+		"357651"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3127410116554276930"
+					"size"		"42587643"
+					"download"		"30505104"
+				}
+				"legacy"
+				{
+					"gid"		"9014495326477793701"
+					"size"		"86169553"
+					"download"		"76553696"
+				}
+			}
+		}
+		"357652"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5773709409733670743"
+					"size"		"43501921"
+					"download"		"32054992"
+				}
+				"legacy"
+				{
+					"gid"		"4797001371336764797"
+					"size"		"63579223"
+					"download"		"31614752"
+				}
+			}
+		}
+		"workshopdepot"		"357650"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2664634"
+				"timeupdated"		"1522978314"
+			}
+			"legacy"
+			{
+				"buildid"		"1320962"
+				"timeupdated"		"1500579306"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"500"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"/ProjectExplore"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"/ProjectExplore"
+				"pattern"		"*.world"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
