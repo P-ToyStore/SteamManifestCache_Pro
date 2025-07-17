@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"820750"
+	"common"
+	{
+		"name"		"Cryptocurrency Clicker"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"09528426eff7699788788174fac9d3c5389b9ad5"
+		"clienttga"		"a0d81947647bb3abdf92e62cd12bfba92545dc24"
+		"icon"		"53ad07b982aa0f76dce7cc151eb3382089b51520"
+		"logo"		"fd93fe263c3a4d0df4c4f4af781c5d88e26a2413"
+		"logo_small"		"fd93fe263c3a4d0df4c4f4af781c5d88e26a2413_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+		}
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Cryptocurrency Clicker"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3e6123e7ffd5422d76c368482b750558af56c397.jpg"
+		"store_asset_mtime"		"1536052217"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Wonderbox Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Wonderbox Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1523012059"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"820750"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"379975"
+			"2"		"597"
+			"3"		"4182"
+			"4"		"492"
+			"5"		"4695"
+			"6"		"3871"
+			"7"		"4161"
+			"8"		"4195"
+			"9"		"4252"
+			"10"		"4295"
+			"11"		"4845"
+			"12"		"5350"
+			"13"		"5673"
+			"14"		"8945"
+			"15"		"12472"
+			"16"		"5981"
+		}
+		"review_score"		"5"
+		"review_percentage"		"41"
+	}
+	"extended"
+	{
+		"developer"		"Wonderbox Games"
+		"publisher"		"Wonderbox Games"
+		"homepage"		"http://wonderboxgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Cryptocurrency Clicker"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cryptocurrency Clicker.app/Contents/MacOS/Cryptocurrency Clicker"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cryptocurrency Clicker.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"820751"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1635949495295534825"
+					"size"		"441583764"
+					"download"		"20737968"
+				}
+			}
+		}
+		"820752"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1374283327869508816"
+					"size"		"457129485"
+					"download"		"23704992"
+				}
+			}
+		}
+		"baselanguages"		"english,german,schinese,russian,japanese,portuguese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3113597"
+				"timeupdated"		"1536736455"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Wonderbox Games/Cryptocurrency Clicker"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"wonderbox/CryptocurrencyClicker"
+						"replace"		"com.wonderboxgames.CryptocurrencyClickermac"
+					}
+				}
+			}
+		}
+	}
+}
