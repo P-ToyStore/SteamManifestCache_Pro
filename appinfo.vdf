@@ -1,0 +1,171 @@
+"appinfo"
+{
+	"appid"		"650680"
+	"common"
+	{
+		"name"		"Golem Creation Kit"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"bb872ba99ff4cfa22ae5c2d008c7ce1b36e4c442"
+		"logo_small"		"bb872ba99ff4cfa22ae5c2d008c7ce1b36e4c442_thumb"
+		"icon"		"bd3f5dbf3ddb1b9c38fe96c53fdf158e7ae7d90a"
+		"clienticon"		"e0c86332d55c4e7e3f794fff1ecbb597b71b6e65"
+		"clienttga"		"002c3153d1143d23eddc59461957d2078542607e"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Golem Creation Kit"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2056ce67cbffb2bf7d2087f93f6fb2cdef1a13a7.jpg"
+		"store_asset_mtime"		"1751228193"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Illuminated Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"AAD Productions"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1500055464"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"650680"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"3799"
+		}
+		"review_score"		"6"
+		"review_percentage"		"74"
+	}
+	"extended"
+	{
+		"developer"		"Illuminated Games"
+		"publisher"		"AAD Productions"
+		"homepage"		"http://golemcreationkit.com"
+		"listofdlc"		"699520"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Golem Creation Kit"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GCK-1.0-market\\GCK.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"GCK-1.0-market\\GCK.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"GCK-1.0-market\\GCK.sh"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"650681"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3195218355186403448"
+					"size"		"409185326"
+					"download"		"275633696"
+				}
+			}
+		}
+		"699520"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5175970385239237531"
+					"size"		"31965641"
+					"download"		"30932352"
+				}
+			}
+			"dlcappid"		"699520"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3668882"
+				"timeupdated"		"1553199850"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saves"
+				"pattern"		"'*'"
+			}
+		}
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
