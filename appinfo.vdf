@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"410840"
+	"common"
+	{
+		"name"		"Rock God Tycoon"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"eulas"
+		{
+		}
+		"clienticon"		"eaa303ce0d6ded209ffd12df731b3e8aeb44e96c"
+		"clienttga"		"a508847205284405c7059abab687e269abe01cd7"
+		"icon"		"a4f38185c8ca16e839236b9abe555bcfc362627f"
+		"logo"		"36338f9bab64581bbaf22a8beeeeebeda91c3a47"
+		"logo_small"		"36338f9bab64581bbaf22a8beeeeebeda91c3a47_thumb"
+		"osarch"		""
+		"metacritic_name"		"Rock God Tycoon"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_63c8263210aff936201266dbaf07465b370f61bf.jpg"
+		"store_asset_mtime"		"1493835780"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fern Nigro"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Panos Tzimas"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"EmberWulf"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1486993888"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"410840"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"599"
+			"2"		"12472"
+			"3"		"492"
+			"4"		"1621"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"Fern Nigro"
+		"publisher"		"EmberWulf"
+		"homepage"		"https://www.fernmakesgames.com/contact.html"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"RockGodTycoon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RockGodTycoon.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"RockGodTycoon"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"workshopdepot"		"410840"
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"410841"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1367509308104935547"
+					"size"		"462658263"
+					"download"		"437205408"
+				}
+			}
+		}
+		"410842"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2566756177117283473"
+					"size"		"463320886"
+					"download"		"437347120"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2607610"
+				"timeupdated"		"1521142315"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"RockGodTycoon"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/RockGodTycoon"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
