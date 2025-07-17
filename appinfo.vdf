@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"324270"
+	"common"
+	{
+		"name"		"Revenge: Rhobar's myth"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"76f92eb0c5ea00d34d9cdb220e06a34354ead961"
+		"logo_small"		"76f92eb0c5ea00d34d9cdb220e06a34354ead961_thumb"
+		"clienttga"		"57d38e8f7be05ba4f60e70f813927ebd8cc9f339"
+		"icon"		"10bf51d2ca1e4b2c1e1a4ee86dbad667b51a204f"
+		"linuxclienticon"		"6fe9c9c8bce2926475d67149452febd80d04b35f"
+		"clienticon"		"9e57a15c2812989b87a38f6769d4190ab1a59a55"
+		"eulas"
+		{
+		}
+		"metacritic_name"		"Revenge: Rhobar's myth"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_57c7a2f4b3f5104f6ce7232b87baa48ff03eb007.jpg"
+		"store_asset_mtime"		"1459166658"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Polygon Art"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Polygon Art"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1441729977"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"324270"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"3839"
+			"3"		"4057"
+			"4"		"1664"
+			"5"		"1695"
+			"6"		"4166"
+			"7"		"4182"
+			"8"		"5395"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"developer"		"Polygon Art"
+		"publisher"		"Polygon Art"
+		"homepage"		"http://revenge-game.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Revenge Rhobar's myth"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RevengeLauncher.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Revenge.exe"
+				"description"		"Revenge UE4"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"devbuild"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"324271"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1337382340308733515"
+					"size"		"2621205763"
+					"download"		"1976759664"
+				}
+				"legacy"
+				{
+					"gid"		"1337382340308733515"
+					"size"		"2621205763"
+					"download"		"1976759664"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1048231"
+				"timeupdated"		"1522757771"
+			}
+			"legacy"
+			{
+				"buildid"		"1048231"
+				"description"		"Classic Revenge: Rhobar's myth"
+				"timeupdated"		"1493498191"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"200"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"/SaveGames/Story"
+				"pattern"		"*.PA"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"/SaveGames/Freeroam"
+				"pattern"		"*.PA"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
