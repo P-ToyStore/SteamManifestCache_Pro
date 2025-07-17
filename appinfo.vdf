@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"616880"
+	"common"
+	{
+		"name"		"No Stick Shooter"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"icon"		"2f1834d67631a115c0974b4aefd8339a696893c3"
+		"logo"		"e702b0da2094c960a1cdfa91840a27269a280292"
+		"logo_small"		"e702b0da2094c960a1cdfa91840a27269a280292_thumb"
+		"clienticon"		"4d108e2592fc4836371cf760fdfc2917b5222633"
+		"clienttga"		"4074b3b5720395dc0f457dbc72a8aa3cdeb07ea3"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"No Stick Shooter"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2b24ea89a4951dac9365117d497afb1651668ed8.jpg"
+		"store_asset_mtime"		"1496319268"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Happy Robot Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Happy Robot Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1495011600"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"616880"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Happy Robot Games"
+		"publisher"		"Happy Robot Games"
+		"homepage"		"http://www.happyrobotgames.com/no-stick-shooter"
+	}
+	"config"
+	{
+		"installdir"		"No Stick Shooter"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NoStickShooter.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"NoStickShooter.app\\Contents\\MacOS\\NoStickShooter"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,russian,japanese,brazilian"
+		"616881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2984851821356662912"
+					"size"		"186235574"
+					"download"		"80273392"
+				}
+			}
+		}
+		"616882"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4584027548270098044"
+					"size"		"204934226"
+					"download"		"81952480"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1827690"
+				"timeupdated"		"1495027000"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"256000"
+		"maxnumfiles"		"16"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Happy Robot Games/No Stick Shooter"
+				"pattern"		"*.prf"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Happy Robot Games/No Stick Shooter"
+						"replace"		"Happy Robot Games/No Stick Shooter"
+					}
+				}
+			}
+		}
+	}
+}
