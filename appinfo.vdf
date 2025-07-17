@@ -1,0 +1,233 @@
+"appinfo"
+{
+	"appid"		"341730"
+	"common"
+	{
+		"name"		"Dustoff Heli Rescue"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"logo"		"3681d11881971e9dcf288feee44a18b2745f848a"
+		"logo_small"		"3681d11881971e9dcf288feee44a18b2745f848a_thumb"
+		"icon"		"ad7631c8b5995aa5bd4c1305482ef90ef979eff0"
+		"clienticon"		"d76e7a125adfa3ec3ebb7124cb742bedd846b0f7"
+		"clienttga"		"f79047451385deda608c3309a6084321334daf86"
+		"clienticns"		"be04ecf7bd4614d721e4585a1286c60c6d21f17f"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dustoff Heli Rescue"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4cf835c309895339527e2f6b78e4c06809cf3444.jpg"
+		"store_asset_mtime"		"1441734723"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Invictus Games Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Invictus Games Ltd."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1425628800"
+		"steam_release_date"		"1425633637"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"341730"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1773"
+			"3"		"3964"
+			"4"		"1732"
+			"5"		"4004"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Invictus Games Ltd."
+		"publisher"		"Invictus Games Ltd."
+		"homepage"		"http://invictus.com/content/dustoff-heli-rescue-39/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dustoff Heli Rescue"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DustoffPC.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DustoffMacSteam.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"341731"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6303197863104440401"
+					"size"		"563561540"
+					"download"		"146474144"
+				}
+			}
+		}
+		"341732"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4763173865704807028"
+					"size"		"591198720"
+					"download"		"155667840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"549166"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
