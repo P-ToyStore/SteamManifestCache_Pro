@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"612310"
+	"common"
+	{
+		"name"		"GORB"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"f6eb4df2bf0afa1661fe0c46c003a7dfd20a4114"
+		"logo_small"		"f6eb4df2bf0afa1661fe0c46c003a7dfd20a4114_thumb"
+		"icon"		"745e702c25a6f8bef4cce04f900ee204d6695745"
+		"clienticon"		"6cf836c1c1e6e2dbeb651b7e9f6f1b29b14ebe93"
+		"clienttga"		"489a91ee6ed1e42702730a67cba5aefbffad82e8"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1717200000"
+			"tested_build_id"		"2581516"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-1RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"GORB"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_26e68a64bc7ea7f684b63ebf8e6005a73294ed0d.jpg"
+		"store_asset_mtime"		"1491307472"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Jon Gallant"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"jgallant"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1493535600"
+		"steam_release_date"		"1491576520"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"612310"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+			"2"		"599"
+			"3"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Jon Gallant"
+		"publisher"		"jgallant"
+		"homepage"		"http://www.jgallant.com/gorb"
+	}
+	"config"
+	{
+		"installdir"		"GORB"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Gorb.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Gorb.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"GORBMAC.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"612311"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5054045253070224666"
+					"size"		"159589469"
+					"download"		"33534208"
+				}
+			}
+		}
+		"612312"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6901442924194223197"
+					"size"		"169847899"
+					"download"		"36587120"
+				}
+			}
+		}
+		"612313"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6315858927053773146"
+					"size"		"206056865"
+					"download"		"46241840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2581516"
+				"timeupdated"		"1520375099"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
