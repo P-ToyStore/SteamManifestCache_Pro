@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"811860"
+	"common"
+	{
+		"name"		"Cross And Crush"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"icon"		"7d429cdb1a31bb546403c35f7f44ebeea4c21d66"
+		"logo"		"6cd6a251903b46cca8f751a424c281ab7988a8e1"
+		"logo_small"		"6cd6a251903b46cca8f751a424c281ab7988a8e1_thumb"
+		"clienttga"		"7224213138cd40b3d8980721b703fe7aaea50836"
+		"clienticon"		"dd826c729427a029dff5db5c1ce7508e5c560f4c"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+		}
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Cross And Crush"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2dbf3646b53b2fdb9b074454dabb0e139e34e1d9.jpg"
+		"store_asset_mtime"		"1521803114"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tap by Tap"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tap by Tap"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1521785824"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"811860"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"699"
+			"2"		"21"
+			"3"		"1773"
+			"4"		"5363"
+			"5"		"4166"
+			"6"		"7622"
+			"7"		"492"
+			"8"		"4182"
+			"9"		"4305"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Tap by Tap"
+		"publisher"		"Tap by Tap"
+		"homepage"		"http://steam.action-portal.com"
+	}
+	"config"
+	{
+		"installdir"		"Cross And Crush"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cross and Crush.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cross and Crush.app/Contents/MacOS/Cross and Crush"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"811861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8413550166467118316"
+					"size"		"321417412"
+					"download"		"26983120"
+				}
+			}
+		}
+		"811862"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1976199778132385743"
+					"size"		"340206765"
+					"download"		"31893776"
+				}
+			}
+		}
+		"baselanguages"		"english,german,schinese,russian,portuguese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2745330"
+				"timeupdated"		"1525430247"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Playloft/Cross and Crush"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Playloft/Cross and Crush"
+						"replace"		"com.playloft.crossandcrushmac"
+					}
+				}
+			}
+		}
+	}
+}
