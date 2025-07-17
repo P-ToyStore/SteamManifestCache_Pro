@@ -1,0 +1,227 @@
+"appinfo"
+{
+	"appid"		"426170"
+	"common"
+	{
+		"name"		"Defragmented"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"2bd2172e29025062a4b5d0051a7767b91531297f"
+		"logo_small"		"2bd2172e29025062a4b5d0051a7767b91531297f_thumb"
+		"clienticon"		"7cba7c1601b8e44960d9d81e3785acd20751febe"
+		"clienttga"		"04e88c47143f33acdcb557b64a645c8125a903a0"
+		"icon"		"9fec4accc04e0bb53372ab83bd9df338897a11b8"
+		"clienticns"		"112352bbe816b533bea47d7c6a1b32ecf13a0bf1"
+		"linuxclienticon"		"750dc9f99db66260badcb308c3c245acd158793d"
+		"releasestate"		"released"
+		"metacritic_name"		"Defragmented"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f440d7e18383a9ff3ddeed1f8ca64ed7f48c24d5.jpg"
+		"store_asset_mtime"		"1478748080"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Glass Knuckle Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Glass Knuckle Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1455264000"
+		"steam_release_date"		"1455307268"
+		"metacritic_score"		"68"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/defragmented?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"426170"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"122"
+			"3"		"4115"
+			"4"		"1756"
+			"5"		"4637"
+			"6"		"4231"
+			"7"		"1742"
+		}
+		"review_score"		"5"
+		"review_percentage"		"63"
+	}
+	"extended"
+	{
+		"developer"		"Glass Knuckle Games"
+		"publisher"		"Glass Knuckle Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Defragmented"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Defragmented.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Defragmented.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Defragmented.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"426171"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4062888764885446210"
+					"size"		"2378757186"
+					"download"		"509544816"
+				}
+			}
+		}
+		"426172"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1136447983035291694"
+					"size"		"2389010806"
+					"download"		"512406512"
+				}
+			}
+		}
+		"426173"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2298000313158957011"
+					"size"		"2385333017"
+					"download"		"511285280"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1460323"
+				"timeupdated"		"1479236432"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Defragmented_Data/Resources/datafiles"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Defragmented.app/Contents/Resources/datafiles"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Defragmented_Data/Resources/datafiles"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
