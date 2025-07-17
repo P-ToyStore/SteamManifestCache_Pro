@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"288650"
+	"common"
+	{
+		"name"		"HTR+ Slot Car Simulation"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"icon"		"208561a7f46b6c252dbb351448ababe39c3c9eef"
+		"clienticon"		"5dba85cfa210c6b95676f34458e9c666cff2b2bd"
+		"clienttga"		"2ce48f25355aaa51a717c41c553d13db39b779b2"
+		"logo"		"b08c77176e85321ede2491cd3ecf36099441cd30"
+		"logo_small"		"b08c77176e85321ede2491cd3ecf36099441cd30_thumb"
+		"clienticns"		"3785c4d693af387541851aa3606c8c77871878e2"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"HTR Slot Car Simulation"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a8840d03d97cbbf7f0d865f7af559372fd0e418e.jpg"
+		"store_asset_mtime"		"1498061596"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"QUByte Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Libredia Entertainment"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1401394644"
+		"community_hub_visible"		"1"
+		"gameid"		"288650"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"1100687"
+			"2"		"599"
+		}
+		"review_score"		"5"
+		"review_percentage"		"61"
+	}
+	"extended"
+	{
+		"developer"		"QUByte Interactive"
+		"publisher"		"Libredia Entertainment"
+		"homepage"		"http://www.libredia.com/component/k2/item/148-htr%20-high-tech-racing"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"HTR_Plus_High_Tech_Racing"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HTR_Plus.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"HTR_Plus.app/Contents/MacOS/HTR+ High Tech Racing"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"288651"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1249425735011172258"
+					"size"		"1379018430"
+					"download"		"1275367685687"
+				}
+			}
+		}
+		"288652"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9112287564755966960"
+					"size"		"1381769427"
+					"download"		"1469077714287"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"445937"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"327680"
+		"maxnumfiles"		"5"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"TesteQB/99Vidas/"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"TesteQB/99Vidas/"
+						"replace"		".config/unity3d/TesteQB/99Vidas"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"TesteQB/99Vidas/"
+						"replace"		"unity.TesteQB.99Vidas"
+					}
+				}
+			}
+		}
+	}
+}
