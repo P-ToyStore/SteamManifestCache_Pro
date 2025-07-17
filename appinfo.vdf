@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"326470"
+	"common"
+	{
+		"name"		"Space Warp"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"icon"		"b7a189c626e54bac50d75a587a4c394478b63eb7"
+		"clienttga"		"844251936d9e884f71163f8770b71a6e53a2e9b3"
+		"clienticon"		"a713578d2a3bbd3dee1a83071554e296736d0f81"
+		"logo"		"6cfca7c0243819d7b94e5608dc8d7c8c53a20b45"
+		"logo_small"		"6cfca7c0243819d7b94e5608dc8d7c8c53a20b45_thumb"
+		"clienticns"		"9fde8d7767ed5cbce781c4018fecd98352b944db"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Space Warp"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_694224fe27282162853c37bbc74f20fc0cbab7b7.jpg"
+		"store_asset_mtime"		"1414750199"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mind Crew"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mind Crew"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1415126055"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"326470"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"699"
+			"2"		"19"
+			"3"		"1755"
+			"4"		"3871"
+			"5"		"3878"
+			"6"		"3942"
+			"7"		"1773"
+		}
+		"review_score"		"5"
+		"review_percentage"		"69"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Mind Crew"
+		"publisher"		"Mind Crew"
+		"homepage"		"http://www.mindcrew.com/sw"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Space Warp"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SpaceWarp.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Space Warp.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"326471"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"564896276839292277"
+					"size"		"65948740"
+					"download"		"62800720"
+				}
+				"beta"
+				{
+					"gid"		"564896276839292277"
+					"size"		"65948740"
+					"download"		"62800720"
+				}
+				"local"
+				{
+					"gid"		"9103066613035929398"
+					"size"		"62875041"
+					"download"		"61231808"
+				}
+			}
+		}
+		"326472"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3149867544493098221"
+					"size"		"70158497"
+					"download"		"64904176"
+				}
+				"beta"
+				{
+					"gid"		"3149867544493098221"
+					"size"		"70158497"
+					"download"		"64904176"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"452476"
+			}
+			"beta"
+			{
+				"buildid"		"452476"
+				"description"		"Latest Hotfixes"
+			}
+			"local"
+			{
+				"buildid"		"419007"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+	}
+}
