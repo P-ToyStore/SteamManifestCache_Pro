@@ -1,0 +1,247 @@
+"appinfo"
+{
+	"appid"		"386710"
+	"common"
+	{
+		"name"		"C:\\raft"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"d22373ed0ba6100463ce8208716b7440fae5073d"
+		"logo"		"6e5c7aea70ddae399c221eb4e707d1d9db4175bf"
+		"logo_small"		"6e5c7aea70ddae399c221eb4e707d1d9db4175bf_thumb"
+		"clienticon"		"a86783155352d4d7acc306a4ebc53cdb0b92d1f9"
+		"clienttga"		"91ff70076fc97fac0d877ae0065425d2b198c613"
+		"linuxclienticon"		"d61ba33e27c602f3ed36f8b3ce5f22973f02c796"
+		"osarch"		"64"
+		"restricted_countries"		"DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_b52a339b65e90ceab804f20fec426c278719dbcc.jpg"
+		"store_asset_mtime"		"1666841087"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nicholas Hydock"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Luna.red"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1506952507"
+		"community_hub_visible"		"1"
+		"gameid"		"386710"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"122"
+			"3"		"1716"
+			"4"		"1702"
+			"5"		"1720"
+			"6"		"3964"
+			"7"		"4182"
+			"8"		"3834"
+			"9"		"4085"
+			"10"		"4094"
+			"11"		"3871"
+			"12"		"4136"
+			"13"		"10397"
+			"14"		"3916"
+			"15"		"4004"
+			"16"		"5125"
+			"17"		"8945"
+			"18"		"4325"
+			"19"		"4236"
+		}
+		"review_score"		"5"
+		"review_percentage"		"58"
+	}
+	"extended"
+	{
+		"developer"		"Nicholas Hydock"
+		"publisher"		"Luna.red"
+		"homepage"		"https://craft.luna.red"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"c_raft"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"craft.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"jre/bin/java"
+				"arguments"		"-cp ./:craft.jar:lib/* com.nhydock.storymode.DesktopLauncher"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"jre/bin/java"
+				"arguments"		"-cp ./:craft.jar:lib/* com.nhydock.storymode.DesktopLauncher"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"386711"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6581487772678265945"
+					"size"		"193694555"
+					"download"		"119883392"
+				}
+			}
+		}
+		"386712"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4015255844076157698"
+					"size"		"204918445"
+					"download"		"121660464"
+				}
+			}
+		}
+		"386713"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4880059156861343314"
+					"size"		"204187125"
+					"download"		"120441632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2908504"
+				"timeupdated"		"1530373401"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"512000"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"c_raft"
+				"pattern"		"*.sv"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".local/share/c_raft"
+				"pattern"		"*.sv"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
