@@ -1,0 +1,201 @@
+"appinfo"
+{
+	"appid"		"200410"
+	"common"
+	{
+		"name"		"SOL: Exodus"
+		"type"		"Game"
+		"logo"		"ef52797003068ad4c9fe2cb105180359b0e90ca2"
+		"logo_small"		"ef52797003068ad4c9fe2cb105180359b0e90ca2_thumb"
+		"icon"		"1e920df93356eb67c952ef3f4edba3eaad0878df"
+		"clienticon"		"7c7156d8bd794adcfb7675f76dfdf567bde8595d"
+		"clienttga"		"ae77c81174eecaf008222e8f811f2b258ac9d45e"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"SOL: Exodus"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0e864596269cb75bc4365ec52eb563b6e4ed8959.jpg"
+		"store_asset_mtime"		"1334007383"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bit Planet Games, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bit Planet Games, LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1327521600"
+		"metacritic_score"		"57"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/sol-exodus?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"200410"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"599"
+			"3"		"1755"
+			"4"		"16598"
+		}
+		"review_score"		"5"
+		"review_percentage"		"51"
+	}
+	"extended"
+	{
+		"developer"		"Bit Planet Games, LLC"
+		"gamedir"		"Sol Exodus"
+		"homepage"		"http://www.SOLExodus.com"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"200411"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Bit Planet Games, LLC"
+		"listofdlc"		"209990,209991"
+	}
+	"config"
+	{
+		"installscriptsignature"		"25c6a610230ea350ac85dd178cacddd3ee705f0b92305face41f9f77c25a85a2fb6fa7234806d3415968fee6dde3068eca1ff9d7f4a4f1d8da6e7176afaef99b640e8716f97bb23a29e3fee666a94d4c8749cc5d0dadfb8abb81b849792a3ad22533a3de0a2725451f80ca40af45e8dee0e8c9f5b776b91b57c1fba7292a4e2b"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\SOLExodus.exe"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Sol Exodus"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\sei\solexodus"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Binaries\\Win32\\SOLExodus.exe"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\200410"
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\UE3Redist.exe"
+				"command 1"		"-progressonly"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"229032"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"200411"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9015069119496157510"
+					"size"		"3106753194"
+					"download"		"0"
+				}
+			}
+		}
+		"209991"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5347262083563236135"
+					"size"		"332176677"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"209991"
+		}
+		"209990"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7043616430765270207"
+					"size"		"332176702"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"209990"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"243272"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+	}
+}
