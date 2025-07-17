@@ -1,0 +1,173 @@
+"appinfo"
+{
+	"appid"		"317950"
+	"common"
+	{
+		"name"		"KEL Reaper of Entropy"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienticon"		"add3d24533e0549984a51ccbdd147975960c7934"
+		"clienttga"		"29d33b1b0a2a4192eab892138f607e7dfd911a7f"
+		"icon"		"608397f6d95eb3f264d07f6be4e3ae1dd5740f6c"
+		"clienticns"		"6c3c1802593ec70e3e0398d97c523c4add846740"
+		"logo"		"c0f09025f1a65eb28c2f45f777da962e6d56e3bd"
+		"logo_small"		"c0f09025f1a65eb28c2f45f777da962e6d56e3bd_thumb"
+		"eulas"
+		{
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"KEL Reaper of Entropy"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ac407f76d873483ad6857edfed5b5123e1e19b6e.jpg"
+		"store_asset_mtime"		"1408035700"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tavern Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Stained Glass Llama"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1416310079"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"317950"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"122"
+		}
+		"review_score"		"5"
+		"review_percentage"		"46"
+	}
+	"extended"
+	{
+		"developer"		"Tavern Games"
+		"publisher"		"Stained Glass Llama"
+		"homepage"		"http://tavern-games.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"KEL Reaper of Entropy"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\UDK.exe"
+				"arguments"		"-fullscreen"
+				"description"		"Launch on Windows"
+				"workingdir"		"Binaries\\Win32"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"317951"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5196445780039670258"
+					"size"		"502151948"
+					"download"		"309267888"
+				}
+			}
+		}
+		"317952"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5846053401939296070"
+					"size"		"360988642"
+					"download"		"266758352"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"510018"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"2"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Binaries/Win32"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Binaries/Win32"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
