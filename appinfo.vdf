@@ -1,0 +1,216 @@
+"appinfo"
+{
+	"appid"		"364900"
+	"common"
+	{
+		"name"		"Red Bit Ninja"
+		"type"		"Game"
+		"logo"		"f66d7625653033c34c64832ed986c4b9f70983fd"
+		"logo_small"		"f66d7625653033c34c64832ed986c4b9f70983fd_thumb"
+		"icon"		"ec157866ac5d7e33113b2803858d3ee3b13a1a1f"
+		"clienttga"		"1f60d7f4693134de9006797ac70bd12d36a8c53e"
+		"clienticon"		"b38cfe273298b5d5d32fa31fe8ee06482baa06ba"
+		"oslist"		"windows"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1701734400"
+			"tested_build_id"		"930142"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Red Bit Ninja"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d3ed89f23f2def1c1761147a3162b266574d1e47.jpg"
+		"store_asset_mtime"		"1429304044"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Seven Sails Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Seven Sails Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1430722800"
+		"steam_release_date"		"1430400120"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"364900"
+		"store_tags"
+		{
+			"0"		"1628"
+			"1"		"922563"
+			"2"		"5379"
+			"3"		"4026"
+			"4"		"1625"
+			"5"		"1773"
+			"6"		"3871"
+			"7"		"7481"
+			"8"		"19"
+			"9"		"3964"
+			"10"		"1688"
+			"11"		"1708"
+			"12"		"3968"
+			"13"		"21"
+			"14"		"4562"
+			"15"		"3916"
+			"16"		"4004"
+			"17"		"4182"
+			"18"		"492"
+		}
+		"review_score"		"4"
+		"review_percentage"		"28"
+	}
+	"extended"
+	{
+		"developer"		"Seven Sails Games"
+		"publisher"		"Seven Sails Games"
+		"homepage"		"http://www.sevensails.com.br"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Red Bit Ninja"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RedBitNinja.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"364901"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1467562501677347948"
+					"size"		"20965466"
+					"download"		"20343360"
+				}
+			}
+		}
+		"364902"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3010648378927759293"
+					"size"		"20967631"
+					"download"		"20391712"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"930142"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"redbitninja"
+				"pattern"		"*.ini"
+			}
+		}
+	}
+}
