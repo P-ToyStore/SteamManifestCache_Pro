@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"791700"
+	"common"
+	{
+		"name"		"Bird Game"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"b3c4bc5cf84d2c1ba286afa6460da09a05ba41c9"
+		"logo"		"f41a1fa0af7224296602249ce541ed998cc35288"
+		"logo_small"		"f41a1fa0af7224296602249ce541ed998cc35288_thumb"
+		"clienticon"		"94dc59ab554e61f4d482e632f31cc6ed2b21ffb3"
+		"clienttga"		"f7965eae7ab5de593bb7acb787bc83997aa0c1d0"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bird Game"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a242e8b3c0afaa1b25616889cc278e8d5c0e4e27.jpg"
+		"store_asset_mtime"		"1516931357"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bryan Tabor"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bryan Tabor"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1519343934"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"791700"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"19"
+			"3"		"30358"
+			"4"		"15045"
+			"5"		"4026"
+			"6"		"7208"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"developer"		"Bryan Tabor"
+		"publisher"		"Bryan Tabor"
+		"listofdlc"		"826360"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Bird Game"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"birdgame.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"birdgame.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"birdgame.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"1"
+		"791701"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6944547501787738971"
+					"size"		"741878698"
+					"download"		"482107216"
+				}
+			}
+		}
+		"791702"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3882208623927859810"
+					"size"		"756792449"
+					"download"		"485609376"
+				}
+			}
+		}
+		"791703"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3495878687307986722"
+					"size"		"749973599"
+					"download"		"484146672"
+				}
+			}
+		}
+		"826360"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2392708335462747379"
+					"size"		"38800803"
+					"download"		"37574064"
+				}
+			}
+			"dlcappid"		"826360"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2620340"
+				"timeupdated"		"1521591370"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"64"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Bryan Tabor/Bird Game"
+				"pattern"		"*save.save"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxXdgConfigHome"
+				"path"		"unity3d/Bryan Tabor/Bird Game"
+				"pattern"		"*save.save"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Bryan Tabor/Bird Game"
+				"pattern"		"*save.save"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
