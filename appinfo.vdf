@@ -1,0 +1,196 @@
+"appinfo"
+{
+	"appid"		"871590"
+	"common"
+	{
+		"name"		"Nurikabe"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"9a7b3db203e99237f7b53b54704609641594255e"
+		"logo_small"		"9a7b3db203e99237f7b53b54704609641594255e_thumb"
+		"icon"		"c4dc46f663a63be0fbf16bb42528f322b21abd78"
+		"clienticon"		"95f951b33bff6341a747a07cc8f63f2baa07bc24"
+		"clienttga"		"1e3060cfa1036478c835ddfac090d1c656e52839"
+		"clienticns"		"70d7ec79d96191e1276a8faa2b67a87b690d2ff7"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1679616000"
+			"tested_build_id"		"2913118"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Nurikabe"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0cc73870963996a47799cf9f73a7fdfef5edd896.jpg"
+		"store_asset_mtime"		"1530827028"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Without Haste"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Without Haste, LLC"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1533130267"
+		"community_hub_visible"		"1"
+		"gameid"		"871590"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Without Haste"
+		"publisher"		"Without Haste, LLC"
+	}
+	"config"
+	{
+		"installdir"		"Nurikabe"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Nurikabe.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Nurikabe.app\\Contents\\MacOS\\Mac_Runner"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"871591"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4020409355064081314"
+					"size"		"17523376"
+					"download"		"8302864"
+				}
+			}
+		}
+		"871592"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6041512750431165096"
+					"size"		"78114649"
+					"download"		"37886768"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2913118"
+				"timeupdated"		"1530568745"
+			}
+		}
+	}
+}
