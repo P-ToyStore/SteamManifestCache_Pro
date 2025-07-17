@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"360390"
+	"common"
+	{
+		"name"		"Nightside"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"logo"		"7c8ed4c1f43ca174cbfd2850ddf74857fb2af62e"
+		"logo_small"		"7c8ed4c1f43ca174cbfd2850ddf74857fb2af62e_thumb"
+		"icon"		"0d2d09d033e720c585d991f7b5012b3334a2faf7"
+		"clienticns"		"b754a4ad708d0232a62ab619f854cd0d99f9ae12"
+		"linuxclienticon"		"1c231445bddd9affd42865af9df001cbb81bbe82"
+		"clienttga"		"83b43a3c75cc22e9d399e462d02cf2ca2e8ef6af"
+		"clienticon"		"d2a53d29bbcd472909092af4d6bf66bdd729dc9e"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Nightside"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ff90deb9606bb0ab58dfc307421ef46a3fdd7eb6.jpg"
+		"store_asset_mtime"		"1441708551"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"OMNIDREAM CREATIONS"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"OMNIDREAM CREATIONS"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1427958000"
+		"steam_release_date"		"1438873217"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"360390"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"1676"
+			"3"		"3942"
+		}
+		"review_score"		"5"
+		"review_percentage"		"61"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"OMNIDREAM CREATIONS"
+		"publisher"		"OMNIDREAM CREATIONS"
+		"homepage"		"http://nightsiderts.com"
+		"listofdlc"		"400420"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Nightside"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NIGHTSIDE.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"Play Nightside"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"NIGHTSIDE"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"NIGHTSIDE.64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"NIGHTSIDE.exe"
+				"arguments"		"-force-d3d11"
+				"description"		"Play Nightside DX11"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"NIGHTSIDE.exe"
+				"arguments"		"-force-opengl"
+				"description"		"Play Nightside OGL"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"360391"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2166150083073603351"
+					"size"		"2461678144"
+					"download"		"1052003184"
+				}
+			}
+		}
+		"360392"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2878975531885723353"
+					"size"		"2473974225"
+					"download"		"1061025280"
+				}
+			}
+		}
+		"360393"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"862567848388039874"
+					"size"		"259998"
+					"download"		"61136"
+				}
+			}
+		}
+		"360394"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6012721761585976496"
+					"size"		"270745"
+					"download"		"56384"
+				}
+			}
+		}
+		"400420"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2887417541067129065"
+					"size"		"40826551"
+					"download"		"40494480"
+				}
+			}
+			"dlcappid"		"400420"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"947012"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
