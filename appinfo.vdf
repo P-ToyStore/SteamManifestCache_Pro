@@ -1,0 +1,247 @@
+"appinfo"
+{
+	"appid"		"486380"
+	"common"
+	{
+		"name"		"Shigatari"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"b63cad800e1a33e3f3927e144c2369309e595546"
+		"clienttga"		"d31ffc72e86f1840dde8fbbb83569d204ec84356"
+		"icon"		"9ab09617f38c1989c03c07c35c57c78686a09d8b"
+		"linuxclienticon"		"7e314aceb14aa3e7c2a02a347c65179f6f502727"
+		"clienticns"		"20b69cea1aed159b126f5ad8f20d0016b3fbd950"
+		"logo"		"79386d51ff805ab7d0c0db366b5e3de89e127d08"
+		"logo_small"		"79386d51ff805ab7d0c0db366b5e3de89e127d08_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Shigatari"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"66.0443407234539"
+				"height_pct"		"85.18166706245546"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"66.0443407234539"
+					"height_pct"		"85.18166706245546"
+				}
+			}
+		}
+		"store_asset_mtime"		"1578855114"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Super Legit Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Super Legit Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1503703465"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"486380"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"492"
+			"2"		"1716"
+			"3"		"3987"
+			"4"		"4325"
+			"5"		"4026"
+			"6"		"4711"
+			"7"		"21"
+			"8"		"6426"
+			"9"		"4136"
+			"10"		"4608"
+			"11"		"4667"
+		}
+		"review_score"		"8"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"Super Legit Games"
+		"publisher"		"Super Legit Games"
+		"homepage"		"http://www.shigatari.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Shigatari"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Shigatari.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Shigatari.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Shigatari.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"486381"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2446554126054227695"
+					"size"		"457221580"
+					"download"		"376941280"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2089101"
+				"timeupdated"		"1504463087"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"RenPy/Shigatari"
+				"pattern"		"*"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"game/saves"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"RenPy/Shigatari"
+						"replace"		"Library/RenPy/Shigatari"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"RenPy/Shigatari"
+						"replace"		".renpy/Shigatari"
+					}
+				}
+			}
+		}
+	}
+}
