@@ -1,0 +1,243 @@
+"appinfo"
+{
+	"appid"		"1528880"
+	"common"
+	{
+		"name"		"Time to GOLF"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"9be982bf0fcf34d716822d248cd22e1a32bf4187"
+		"clienttga"		"07a2bd998e2575b6b675709e56b629cba2e10d13"
+		"icon"		"9ecba361ae86ef7143229c505be5ce5c404255c2"
+		"logo"		"417fe6f608bd3ba7d710c091edc6121c608ee72f"
+		"logo_small"		"417fe6f608bd3ba7d710c091edc6121c608ee72f_thumb"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"76.86046511627907"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"76.86046511627907"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1613245192"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"nattuhan"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"nattuhan"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1613660714"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1528880"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"597"
+			"3"		"4191"
+			"4"		"4182"
+			"5"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"nattuhan"
+		"publisher"		"nattuhan"
+	}
+	"config"
+	{
+		"installdir"		"time_to_golf"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"time_to_golf.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"GolfMac.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1528881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4700841864360842685"
+					"size"		"203537808"
+					"download"		"59744400"
+				}
+			}
+		}
+		"1528882"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3576160796299708503"
+					"size"		"206202058"
+					"download"		"60249808"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6867242"
+				"timeupdated"		"1623701968"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"nattuhan/time_to_golf"
+				"pattern"		"*.es3"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"nattuhan/time_to_golf"
+			}
+		}
+	}
+}
