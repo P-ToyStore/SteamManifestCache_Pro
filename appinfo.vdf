@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"308560"
+	"common"
+	{
+		"name"		"City Quest"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"a6bbdb60bc6c02d5e2f3cc81e26e5c894f0de690"
+		"clienttga"		"35529575e21bdd6f4da3e02803c874fba4633938"
+		"icon"		"963f656cfd6fcd9711b346f3abfb16bb4afd191b"
+		"clienticns"		"014d906e76c9d10adc57b17c0309f57ae951f7d0"
+		"linuxclienticon"		"546016af7194d08ab26710b24766f8185d8cd0c8"
+		"logo"		"9b4e2b76d01c3d476f28e29d1e388a2cd78e2287"
+		"logo_small"		"9b4e2b76d01c3d476f28e29d1e388a2cd78e2287_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"City Quest"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2ecf0490c46f68e1ab7e9b9e026b5423fc08f150.jpg"
+		"store_asset_mtime"		"1438040514"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Stone Monkey Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Stone Monkey Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1440075638"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"308560"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"1698"
+			"3"		"1719"
+			"4"		"19995"
+			"5"		"3964"
+		}
+		"review_score"		"6"
+		"review_percentage"		"74"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Stone Monkey Studios"
+		"publisher"		"Stone Monkey Studios"
+		"homepage"		"http://CityQuestGame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"CityQuest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CityQuest.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CityQuest.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"CityQuest.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"CityQuest.x86_64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"308561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6973577653076822288"
+					"size"		"508926562"
+					"download"		"253287504"
+				}
+			}
+		}
+		"308562"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"895578941420028341"
+					"size"		"514312736"
+					"download"		"251741936"
+				}
+			}
+		}
+		"308563"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6932706193070622818"
+					"size"		"536508739"
+					"download"		"260203632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"930098"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"CityQuest_Data\\SaveData"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"CityQuest.app/Contents/SaveData"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"CityQuest_Data\\SaveData"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
