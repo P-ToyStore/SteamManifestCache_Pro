@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"323680"
+	"common"
+	{
+		"name"		"Caffeine"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"3f675c39a7f32130ec4bf4cb9ebaa875f17f2764"
+		"logo_small"		"3f675c39a7f32130ec4bf4cb9ebaa875f17f2764_thumb"
+		"clienticon"		"8d4f8557eca95b1351787eba3289ce3daacadc6e"
+		"clienttga"		"59029889511215a326dd19672a74252ecdf9dc17"
+		"icon"		"a5c1b2822890ee50ad7a5c46048419f9c6725692"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Caffeine"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cbd8c5f89c7d197e0f05f7ab2d631410ede24dc7.jpg"
+		"store_asset_mtime"		"1434534540"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Incandescent Imaging"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Incandescent Imaging"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_31"		"1"
+			"category_18"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1444073810"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"323680"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"3839"
+			"3"		"1667"
+			"4"		"1721"
+			"5"		"5900"
+		}
+		"review_score"		"2"
+		"review_percentage"		"18"
+	}
+	"extended"
+	{
+		"developer"		"Incandescent Imaging"
+		"publisher"		"Incandescent Imaging"
+		"homepage"		"http://www.incandescentimaging.net/about-caffeine/"
+		"listofdlc"		"408660"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Caffeine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"\\WindowsNoEditor\\CaffeineGame\\Binaries\\Win64\\CaffeineGame.exe"
+				"description"		"In DirectX 11 Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"\\WindowsNoEditor\\CaffeineGame\\Binaries\\Win64\\CaffeineGame.exe"
+				"arguments"		"-DX12"
+				"description"		"In DirectX 12 Mode (Windows 10 Only)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"\\CaffeineGame.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"\\LinuxNoEditor\\CaffeineGame\\Binaries\\Linux\\CaffeineGame"
+				"arguments"		"-opengl4"
+				"description"		"Start In OpenGL 4 Mode Recommended"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"\\LinuxNoEditor\\CaffeineGame\\Binaries\\Linux\\CaffeineGame"
+				"arguments"		"-opengl3"
+				"description"		"Start In OpenGL 3 Mode"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"323681"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6207347566230681539"
+					"size"		"5042359514"
+					"download"		"1125655936"
+				}
+			}
+		}
+		"323682"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"812942935490371722"
+					"size"		"5908654277"
+					"download"		"1542891760"
+				}
+			}
+		}
+		"323683"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6529610393189243629"
+					"size"		"4973939037"
+					"download"		"1099350688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"889155"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
