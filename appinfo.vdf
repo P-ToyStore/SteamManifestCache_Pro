@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"1034810"
+	"common"
+	{
+		"name"		"Pax Romana: Romulus"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"001736b3467885df5df2edd0ad6e8e92687c660d"
+		"logo_small"		"001736b3467885df5df2edd0ad6e8e92687c660d_thumb"
+		"icon"		"01707260cd4935aeef69a0de7c3890435d968427"
+		"clienttga"		"e86994f78349a6a81d12402632b12117ce7b637a"
+		"clienticon"		"48d81d71b848039885999e04a2a3bb69351a1e7e"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Pax Romana: Romulus"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1583069823"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Locus Ludus"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Locus Ludus"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1558940400"
+		"steam_release_date"		"1559159828"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1034810"
+		"store_tags"
+		{
+			"0"		"87918"
+			"1"		"493"
+			"2"		"21"
+			"3"		"122"
+			"4"		"492"
+			"5"		"5577"
+			"6"		"6948"
+			"7"		"22602"
+			"8"		"3810"
+			"9"		"4182"
+			"10"		"16094"
+			"11"		"1702"
+			"12"		"3964"
+			"13"		"3987"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Locus Ludus"
+		"publisher"		"Locus Ludus"
+		"homepage"		"http://www.locusludus.com/paxromana/"
+		"listofdlc"		"1193440"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Pax Romana Romulus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"1034811"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1389171105027907150"
+					"size"		"444616250"
+					"download"		"284896000"
+				}
+			}
+		}
+		"1193440"
+		{
+			"dlcappid"		"1193440"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3053411982864955736"
+					"size"		"37109797"
+					"download"		"36782304"
+				}
+			}
+			"config"
+			{
+				"optionaldlc"		"1193440"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5253670"
+				"timeupdated"		"1593977954"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saveDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
