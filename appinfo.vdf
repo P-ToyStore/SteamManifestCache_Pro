@@ -1,0 +1,198 @@
+"appinfo"
+{
+	"appid"		"391390"
+	"common"
+	{
+		"name"		"Mayhem Triple"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"db4c44186252a671dae50433f6c903f917aee70d"
+		"logo_small"		"db4c44186252a671dae50433f6c903f917aee70d_thumb"
+		"clienticon"		"128baa6bb1d541196afc684c7bf0e0f57e167e96"
+		"clienttga"		"4033ff10d5d27046f61b6e66357b537e83c8e418"
+		"icon"		"3b0b89f311dfcd619cf893c3493ca6c2e54796b2"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"metacritic_name"		"Mayhem Triple"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_fbf09416c3bff7f30bc0ea43b250793e1d2f4c93.jpg"
+		"store_asset_mtime"		"1666989368"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dustin Gunn"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dustin Gunn"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_13"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1441376237"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"391390"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+			"3"		"4345"
+			"4"		"4667"
+			"5"		"1625"
+		}
+		"review_score"		"7"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Dustin Gunn"
+		"publisher"		"Dustin Gunn"
+		"homepage"		"http://www.sniperdiplomat.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Mayhem Triple"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mayhem3Steam.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"MayhemMaker.exe"
+				"description"		"Level editor allowing users to create their own Mayhem adventures!"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Mayhem3Custom.exe"
+				"description"		"Launch Workshop Mods Client"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"391391"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4109172870396325543"
+					"size"		"72172099"
+					"download"		"60869056"
+				}
+				"test"
+				{
+					"gid"		"4643430698925094122"
+					"size"		"72649537"
+					"download"		"61053904"
+				}
+			}
+		}
+		"workshopdepot"		"391390"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1898857"
+				"timeupdated"		"1497836343"
+			}
+			"test"
+			{
+				"buildid"		"1881016"
+				"timeupdated"		"1497046583"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"99"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Data"
+				"pattern"		"achievementvalues"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*"
+			}
+		}
+	}
+}
