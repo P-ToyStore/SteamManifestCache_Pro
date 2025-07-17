@@ -1,0 +1,335 @@
+"appinfo"
+{
+	"appid"		"528860"
+	"common"
+	{
+		"name"		"Proxy - Ultimate Hacker"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"1f5254f05f0f930e06c171bc4810426ab810b149"
+		"logo"		"02f85efdf0f1ff9d6bee517ab3192b6451e54c7c"
+		"logo_small"		"02f85efdf0f1ff9d6bee517ab3192b6451e54c7c_thumb"
+		"clienticon"		"2233353a99ef330938cf8d2e3c7514339788ad9c"
+		"clienttga"		"e607cdccf2ad951bcd120d5d12b99204a1fa6ab9"
+		"releasestate"		"released"
+		"osextended"		"macos64"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Proxy - Ultimate Hacker"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"67.03617269544927"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"67.03617269544927"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1569905727"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ready Play Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ready Play Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1476428400"
+		"steam_release_date"		"1476486815"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"528860"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"5502"
+			"2"		"1664"
+			"3"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Ready Play Games"
+		"publisher"		"Ready Play Games"
+		"homepage"		"http://getproxygame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Proxy - Ultimate Hacker"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Proxy.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Proxy.x86"
+				"arguments"		"-force-opengl"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Proxy.x86_64"
+				"arguments"		"-force-opengl"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"experimental"
+				}
+			}
+			"3"
+			{
+				"executable"		"Proxy.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"Proxy.x86"
+				"arguments"		"-force-opengl"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+					"betakey"		"experimental"
+				}
+			}
+			"5"
+			{
+				"executable"		"Proxy.x86_64"
+				"arguments"		"-force-opengl"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"Proxy.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"experimental"
+				}
+			}
+			"7"
+			{
+				"executable"		"Proxy.x86_64"
+				"arguments"		"-force-opengl"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"multiplatform"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"528860"
+		"528861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8656715244226097590"
+					"size"		"169506879"
+					"download"		"41064080"
+				}
+			}
+		}
+		"528862"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2027229159980565248"
+					"size"		"213417953"
+					"download"		"52579200"
+				}
+			}
+		}
+		"528863"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8628839887424142930"
+					"size"		"207816593"
+					"download"		"52475072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3414936"
+				"timeupdated"		"1545275558"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"ReadyPlayGames/Proxy"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"ReadyPlayGames/Proxy"
+						"replace"		"unity.ReadyPlayGames.Proxy"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"ReadyPlayGames/Proxy"
+						"replace"		".config/unity3d/ReadyPlayGames/Proxy"
+					}
+				}
+			}
+		}
+	}
+}
