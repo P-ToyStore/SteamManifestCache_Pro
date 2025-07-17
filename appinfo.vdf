@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"820580"
+	"common"
+	{
+		"name"		"Ashley: The Story Of Survival"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"58af520a5234b0fb6f084d2895409a9eaf54c145"
+		"logo"		"a298466e9ab3ff170ac6c3bde8dda63e4b1980f1"
+		"logo_small"		"a298466e9ab3ff170ac6c3bde8dda63e4b1980f1_thumb"
+		"clienticns"		"58318fbe38317c4f002addb4b201cde6be2fc55f"
+		"clienticon"		"e4773c81b9df7c9a444cbb38e6e95e5d2b105339"
+		"clienttga"		"ff50f5d46e2d6f03387cb3493d6aceefce4290a4"
+		"linuxclienticon"		"0e6e61e8ac674cb4bbcbe09fdd6f21cf9347e627"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+		}
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ashley: The Story Of Survival"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_285984832d5c9379378e05026e2b6835ee40e311.jpg"
+		"store_asset_mtime"		"1523619258"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Art Of Adventures"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Art Of Adventures"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1523619944"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"820580"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"599"
+			"2"		"21"
+			"3"		"7208"
+			"4"		"1662"
+			"5"		"3835"
+			"6"		"4166"
+			"7"		"1756"
+			"8"		"379975"
+		}
+		"review_score"		"5"
+		"review_percentage"		"41"
+	}
+	"extended"
+	{
+		"developer"		"Art Of Adventures"
+		"publisher"		"Art Of Adventures"
+		"listofdlc"		"846630"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Ashley The Story Of Survival"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ashley The Story Of Survival.app\\Contents\\MacOS\\Ashley The Story Of Survival"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"Ashley The Story Of Survival.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,schinese,russian,portuguese"
+		"hasdepotsindlc"		"1"
+		"820581"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8307503765393078814"
+					"size"		"262397817"
+					"download"		"83137312"
+				}
+			}
+		}
+		"820582"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1920484996169531719"
+					"size"		"305789522"
+					"download"		"88627136"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2685899"
+				"timeupdated"		"1523614548"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Playloft/Ashley The Story Of Survival"
+				"pattern"		"*.ashley"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Playloft/Ashley The Story Of Survival"
+						"replace"		"com.playloft.AshleyTheStoryOfSurvival"
+					}
+				}
+			}
+		}
+	}
+}
