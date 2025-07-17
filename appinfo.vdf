@@ -1,0 +1,345 @@
+"appinfo"
+{
+	"appid"		"10170"
+	"common"
+	{
+		"name"		"Wolfenstein"
+		"clienticon"		"df03ecf5193a93c201090d4d3d49244819d1f27c"
+		"clienttga"		"a8e84b60c7a334c7400734c51958f6a1fb5a1278"
+		"icon"		"8a39c4ad40bf60c510c106f9659fbf13728bf7ca"
+		"logo"		"f759513b65606c03a7dd4bbe593bb9b6b6e984d8"
+		"logo_small"		"f759513b65606c03a7dd4bbe593bb9b6b6e984d8_thumb"
+		"metacritic_url"		"pc/wolfenstein"
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1750204800"
+			"tested_build_id"		"6051"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-3RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Wolfenstein"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f1952e0457088fd1177c6fdebc080aef84c5c254.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Raven Software"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"id Software"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Activision"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1250578800"
+		"steam_release_date"		"1250665200"
+		"metacritic_score"		"74"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/wolfenstein?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"10170"
+		"store_tags"
+		{
+			"0"		"19"
+		}
+		"review_score"		"8"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"Raven Software"
+		"gamedir"		"Wolfenstein"
+		"homepage"		"http://www.wolfenstein.com"
+		"icon"		""
+		"installscript"		"10170_install.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp10170\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"10171"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"supportscdkeycopytoclipboard"		"1"
+		"publisher"		"Activision"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Wolfenstein"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"sp.bat"
+			}
+			"1"
+			{
+				"description"		"Launch Wolfenstein Multiplayer"
+				"executable"		"mp.bat"
+			}
+			"2"
+			{
+				"description"		"Launch Wolfenstein Server"
+				"executable"		"server.bat"
+			}
+		}
+	}
+	"depots"
+	{
+		"10171"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8099769122392763429"
+					"size"		"6584314212"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"8099769122392763429"
+					"size"		"6584314212"
+					"download"		"0"
+				}
+			}
+		}
+		"10172"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4130058494597876898"
+					"size"		"212797760"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"4130058494597876898"
+					"size"		"212797760"
+					"download"		"0"
+				}
+			}
+		}
+		"10173"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2812300503722212423"
+					"size"		"4431070173"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"2812300503722212423"
+					"size"		"4431070173"
+					"download"		"0"
+				}
+			}
+		}
+		"10174"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8243385843971709151"
+					"size"		"1973872679"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"4658697885848067604"
+					"size"		"1962653735"
+					"download"		"0"
+				}
+			}
+		}
+		"10175"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4918593518200747923"
+					"size"		"1973622840"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"3516600174663552883"
+					"size"		"1962403896"
+					"download"		"0"
+				}
+			}
+		}
+		"10176"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4899404174326262561"
+					"size"		"13536442"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"4899404174326262561"
+					"size"		"13536442"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6051"
+			}
+			"local"
+			{
+				"buildid"		"5908"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
