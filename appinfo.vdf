@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"355100"
+	"common"
+	{
+		"name"		"Dungeon Crawlers HD"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"2d7460915be050de8be6c9159b222cc9825f9729"
+		"logo_small"		"2d7460915be050de8be6c9159b222cc9825f9729_thumb"
+		"icon"		"0a0dab39373be77c0161126c629017dffa570a33"
+		"clienticon"		"1836ca859baa3f5527fd66caf073b2876e7b6eba"
+		"clienttga"		"8534c73a04a6117b5828483cdbd9e83256db73cb"
+		"othervrsupport"		"1"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dungeon Crawlers HD"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d1bbc32e3f23c757bf224ade7382cff0cbcf0658.jpg"
+		"store_asset_mtime"		"1426816566"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Drowning Monkeys Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Drowning Monkeys Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_31"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1433193198"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"355100"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"122"
+			"2"		"492"
+			"3"		"1720"
+			"4"		"14139"
+			"5"		"1677"
+		}
+		"review_score"		"5"
+		"review_percentage"		"45"
+	}
+	"extended"
+	{
+		"developer"		"Drowning Monkeys Games"
+		"publisher"		"Drowning Monkeys Games"
+		"homepage"		"http://www.drowningmonkeys.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dungeon Crawlers HD"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dungeon Crawlers HD.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Dungeon Crawlers HD_DirectToRift.exe"
+				"arguments"		"-force-d3d11"
+				"description"		"Launch Oculus VR Version (READ Release Notes!)"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"DungeonCrawlers HD.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"DCHD.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"DCHD.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+		"vrsupport"		"other"
+	}
+	"depots"
+	{
+		"355101"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"912349512656177820"
+					"size"		"1036424357"
+					"download"		"359404096"
+				}
+			}
+		}
+		"355102"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7829206431220177835"
+					"size"		"1040556830"
+					"download"		"361965168"
+				}
+			}
+		}
+		"355103"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1598091775239851701"
+					"size"		"1060074790"
+					"download"		"367474960"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"776521"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
