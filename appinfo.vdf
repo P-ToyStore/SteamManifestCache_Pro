@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"659260"
+	"common"
+	{
+		"name"		"Canvas Quest"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"b98f02e99f6477bf9a2e478d40a04c195dd47953"
+		"logo_small"		"b98f02e99f6477bf9a2e478d40a04c195dd47953_thumb"
+		"icon"		"bcfe069ab2c1fabc37716137b685e3bb5024b7e2"
+		"clienticon"		"c8542412c60a746295c7520d00fa559d4f439d5c"
+		"clienttga"		"86242688c311660d7e4a447bdd600ef546e774f9"
+		"releasestate"		"released"
+		"metacritic_name"		"Canvas Quest"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"66.62777129521587"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"66.62777129521587"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1560540407"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Chao's Playmate"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Chao's Playmate"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1500171291"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"659260"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"21"
+			"2"		"492"
+			"3"		"5577"
+		}
+		"review_score"		"7"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Chao's Playmate"
+		"publisher"		"Chao's Playmate"
+	}
+	"config"
+	{
+		"installdir"		"Canvas Quest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"arguments"		"-windowed --in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"default"
+				}
+			}
+			"1"
+			{
+				"executable"		"game.exe"
+				"arguments"		"-windowed"
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"integratedgraphicsmode"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"659261"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2802017261098985258"
+					"size"		"755679895"
+					"download"		"606720288"
+				}
+				"integratedgraphicsmode"
+				{
+					"gid"		"9037767260288448378"
+					"size"		"725195133"
+					"download"		"601141184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3566711"
+				"timeupdated"		"1550282578"
+			}
+			"integratedgraphicsmode"
+			{
+				"buildid"		"3540463"
+				"description"		"Use this branch if you have integrated graphics on your computer."
+				"timeupdated"		"1549552044"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"25"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"www/save"
+				"pattern"		"*.rpgsave"
+			}
+		}
+	}
+}
