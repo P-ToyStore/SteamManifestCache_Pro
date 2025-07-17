@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"262100"
+	"common"
+	{
+		"name"		"Trench Run"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"262100_eula_0"
+				"name"		"Trench Run EULA"
+				"url"		"http://store.steampowered.com//eula/262100_eula_0"
+			}
+		}
+		"clienticon"		"009a9df9262a19fe56401bd676b5f2999a80efde"
+		"clienttga"		"432463e20ded85cc1e257623be127c6d111af5e7"
+		"icon"		"470d6cc281ecdf29a1a41a728dfe628d6b32c19c"
+		"linuxclienticon"		"e1ce9b497cc6b2db9b7e27cd5ecbcba5d1e14b53"
+		"logo"		"58160fa84e9522a9d77d05e00525c943ac91159d"
+		"logo_small"		"58160fa84e9522a9d77d05e00525c943ac91159d_thumb"
+		"metacritic_name"		"Trench Run"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6272b49e9d5d06d26165d134f8d52a7f8c864419.jpg"
+		"store_asset_mtime"		"1509137216"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Transhuman Design"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Transhuman Design"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_24"		"1"
+			"category_18"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1460053343"
+		"community_hub_visible"		"1"
+		"gameid"		"262100"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"492"
+			"3"		"3964"
+			"4"		"5363"
+			"5"		"3798"
+			"6"		"7368"
+			"7"		"3871"
+			"8"		"4840"
+			"9"		"1669"
+			"10"		"4667"
+			"11"		"1625"
+			"12"		"1774"
+			"13"		"5379"
+			"14"		"5382"
+			"15"		"4136"
+			"16"		"1678"
+			"17"		"1775"
+			"18"		"3993"
+			"19"		"7481"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Transhuman Design"
+		"publisher"		"Transhuman Design"
+		"homepage"		"https://trenchrun.thd.vg"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Trench Run"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TR.exe"
+				"arguments"		"noautoupdate steam noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TR"
+				"arguments"		"noautoupdate steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"TR.app\\Contents\\MacOS\\TR"
+				"arguments"		"steam noautoupdate"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"262101"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5928633422037476891"
+					"size"		"45025432"
+					"download"		"32861520"
+				}
+			}
+		}
+		"262102"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3660075942635143724"
+					"size"		"52816562"
+					"download"		"31288912"
+				}
+			}
+		}
+		"262103"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2400838456265227587"
+					"size"		"47229848"
+					"download"		"30159744"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2240981"
+				"timeupdated"		"1509342402"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
