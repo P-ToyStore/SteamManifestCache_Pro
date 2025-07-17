@@ -1,0 +1,180 @@
+"appinfo"
+{
+	"appid"		"358420"
+	"common"
+	{
+		"name"		"Xenophage"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"c96bb452cb344008e4ba2703f1d61388b9e1aba9"
+		"logo_small"		"c96bb452cb344008e4ba2703f1d61388b9e1aba9_thumb"
+		"oslist"		"windows,macos"
+		"clienticon"		"cfc2bb045cb48f0c25c74a3d128afaa060f33cb0"
+		"clienttga"		"882fb1810c96c5addd9cea3c874f6f81ceecd5aa"
+		"icon"		"a84be36e920d572c09194cb27a052435bf74c0d1"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Xenophage"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_13b2719ee6f0939b7f3b26f7bd8ab0d01e9057b4.jpg"
+		"store_asset_mtime"		"1430810196"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Argo Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms (Apogee Software)"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"820224000"
+		"steam_release_date"		"1399309080"
+		"community_hub_visible"		"1"
+		"gameid"		"358420"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1743"
+		}
+		"review_score"		"3"
+		"review_percentage"		"14"
+	}
+	"extended"
+	{
+		"developer"		"Argo Games"
+		"publisher"		"3D Realms (Apogee Software)"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358420/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Xenophage"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Xenophage\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\XENO.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Xenophage\\dosbox"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Xenophage.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\XENO.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358421"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7443074602900188064"
+					"size"		"62011642"
+					"download"		"30781504"
+				}
+			}
+		}
+		"358422"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7427957228880930343"
+					"size"		"67134661"
+					"download"		"32228976"
+				}
+			}
+		}
+		"358423"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"587320813013540817"
+					"size"		"41934398"
+					"download"		"22830928"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606174"
+			}
+		}
+	}
+}
