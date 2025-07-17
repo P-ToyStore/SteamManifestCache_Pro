@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"632110"
+	"common"
+	{
+		"name"		"Crimson Keep"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"62c49fa169b6f12bc0b278d481255f41a2f9db31"
+		"logo_small"		"62c49fa169b6f12bc0b278d481255f41a2f9db31_thumb"
+		"icon"		"536d9831b0560a199e39e1d1d88b56bec120a615"
+		"clienticon"		"ebee4eb4f406f9a9447cc109f745d3787665e514"
+		"clienttga"		"106045c893185a103bac4900d9c03edd8c91f8e0"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Crimson Keep"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"42.76952872821175"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"42.76952872821175"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572356822"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ian Atherton"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Ben Rog-Wilhelm"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Merge Publishing"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_13"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1543485702"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"632110"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"122"
+			"2"		"492"
+		}
+		"review_score"		"5"
+		"review_percentage"		"56"
+	}
+	"extended"
+	{
+		"developer"		"Ian Atherton"
+		"publisher"		"Merge Publishing"
+		"homepage"		"http://www.escapecrimsonkeep.com/"
+	}
+	"config"
+	{
+		"installdir"		"Crimson Keep"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CrimsonKeep.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"632111"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4630059374227273400"
+					"size"		"1872288733"
+					"download"		"635526880"
+				}
+			}
+		}
+		"632112"
+		{
+		}
+		"baselanguages"		"english,german,french,spanish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3378356"
+				"timeupdated"		"1544540410"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"50"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataRoaming"
+				"addpath"		"Crimson Keep"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"addpath"		"/.Crimson Keep"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".Crimson Keep"
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"save*.json"
+			}
+		}
+	}
+}
