@@ -1,0 +1,74 @@
+"appinfo"
+{
+	"appid"		"460090"
+	"common"
+	{
+		"name"		"Quadrilateral Cowboy workshop uploader"
+		"type"		"Tool"
+		"oslist"		"windows"
+		"clienttga"		"b87cfe1fcdb64931cc39dd8014d3b16f9030a091"
+		"clienticon"		"c08addd407f3ccaaede4490cb5fc78622a956115"
+		"icon"		"bf5022f3a92394fa1c4888d61b11a1bfd180eb81"
+		"clienticns"		"01df3907a4e0df44b3a1983f137f7eaf704ecd06"
+		"linuxclienticon"		"280655026a9f01f42afcdb56dbc3be9193312799"
+		"logo"		"ad2c6637723c8097c598bf6546e710187ae5e6db"
+		"logo_small"		"ad2c6637723c8097c598bf6546e710187ae5e6db_thumb"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"460090"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"QuadrilateralCowboyWorkshopTool"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"uploader/qc_uploader.exe"
+				"workingdir"		"uploader"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"460090"
+		"460091"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5795316432795095447"
+					"size"		"651456"
+					"download"		"188880"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1399659"
+				"timeupdated"		"1476828596"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"1000"
+	}
+}
