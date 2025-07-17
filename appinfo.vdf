@@ -1,0 +1,180 @@
+"appinfo"
+{
+	"appid"		"430240"
+	"common"
+	{
+		"name"		"Duplexer"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"a70d70b6f2593034d8bfac4b7ac7cbecb202427c"
+		"logo_small"		"a70d70b6f2593034d8bfac4b7ac7cbecb202427c_thumb"
+		"icon"		"44c86b276bd2c4c0d479e746013e55dd001f7c80"
+		"clienticon"		"3e1e894fde03292f00acbda9a2fc3c2a760adfb1"
+		"clienttga"		"36634fb7d76d048bd1b819439285c97cb452aeec"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Duplexer"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0d49e04d46500fbb9edc1a3f5df4cbe015d955a1.jpg"
+		"store_asset_mtime"		"1458155304"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vantage Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vantage Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1454054578"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"430240"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"5537"
+			"2"		"1664"
+			"3"		"3839"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Vantage Games"
+		"publisher"		"Vantage Games"
+		"homepage"		"http://www.vantagegames.co.uk"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Duplexer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"\\Binaries\\Win32\\Duplexer.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+		"installscriptsignature"		"66dfe91d147ca2f1b73e56d4e2ec1f85dbd9df37467ff6a76ac196a07ad3af086722171307f9aceb7bd5980d0f9f5ccfc1a78bad09eae8376f37acef8d09d9c87250acd169bcea05fe1751210a5d2d79e0b299b08827c46eb2905091c4ace97035b7db06d0de70741fffc94064d449568220fc4fa5934fdbc56a0d7b833ebb33"
+		"installscriptoverride"		"1"
+		"steamcontrollertemplateindex"		"3"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"ue3redist"
+			{
+				"process 1"		"%INSTALLDIR%\\BINARIES\\REDIST\\UE3REDIST.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"430241"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4974336722227898904"
+					"size"		"313423594"
+					"download"		"178145008"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1039395"
+				"timeupdated"		"1458822207"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"102400"
+		"maxnumfiles"		"4"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"/UDKGame/Config"
+				"pattern"		"UDKDuplexer.ini"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"/UDKGame/Config"
+				"pattern"		"UDKSystemSettings.ini"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"/UDKGame/Config"
+				"pattern"		"UDKEngine.ini"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"Binaries/Win32"
+				"pattern"		"DuplexerSave.BIN"
+			}
+		}
+	}
+}
