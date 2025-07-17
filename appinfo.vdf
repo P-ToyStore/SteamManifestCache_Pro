@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"551570"
+	"common"
+	{
+		"name"		"Sarab: Duji Tower"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"57ee1f06af84d610843fcf120dcd501c4cd8d697"
+		"logo_small"		"57ee1f06af84d610843fcf120dcd501c4cd8d697_thumb"
+		"icon"		"2d64afc99b99ef2c6d66ae532c2723e2cf972f31"
+		"clienticon"		"d79956d75db78cbd1bc4c19e62f29ba884ce3d91"
+		"clienttga"		"9f4a6e3142146f1624636dec70a8d78f4ea60a83"
+		"metacritic_name"		"Sarab: Duji Tower"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"68.6036020691796"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"68.6036020691796"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1568735058"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Abdulla Hassan Al-Farsi"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Abdulla Hassan Al-Farsi"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Abdulla Al-Farsi"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1479437279"
+		"community_hub_visible"		"1"
+		"gameid"		"551570"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"492"
+			"2"		"21"
+			"3"		"5577"
+			"4"		"1742"
+			"5"		"3834"
+			"6"		"19"
+			"7"		"1664"
+			"8"		"10695"
+		}
+		"review_score"		"7"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Abdulla Hassan Al-Farsi"
+		"publisher"		"Abdulla Hassan Al-Farsi"
+	}
+	"config"
+	{
+		"installdir"		"Sarab Duji Tower"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"-windowed"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"551571"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4326786266019007238"
+					"size"		"462917137"
+					"download"		"446842656"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2097081"
+				"timeupdated"		"1504715821"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"16"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.rvdata2"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"C:\\Users\\[username]\\My Documents\\"
+				"pattern"		"*.rvdata2"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"C:\\Users\\[username]\\AppData\\Local"
+				"pattern"		"*.rvdata2"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"3"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"C:\\Users\\[username]\\AppData\\Roaming"
+				"pattern"		"*.rvdata2"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"4"
+			{
+				"root"		"WinSavedGames"
+				"path"		"C:\\Users\\[username]\\Saved Games"
+				"pattern"		"*.rvdata2"
+			}
+		}
+	}
+}
