@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"688880"
+	"common"
+	{
+		"name"		"Cynoclept: The Game"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"b1a9a9d2d9fbfd265391f4cd5df22f3c8557ec3d"
+		"clienttga"		"dea62a87ff5397c469ea1d5f6e07bb12ad8b7b02"
+		"icon"		"5aa892a66965d5a9ee4443a471d803e4ade46883"
+		"logo"		"375f1cb2bf6f373814d6c56af9bdb73aa4a3234b"
+		"logo_small"		"375f1cb2bf6f373814d6c56af9bdb73aa4a3234b_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"688880_eula_0"
+				"name"		"Cynoclept: The Game EULA"
+				"url"		"http://store.steampowered.com//eula/688880_eula_0"
+			}
+		}
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"metacritic_name"		"Cynoclept: The Game"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572755470"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cynoclept"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Hazzcore"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Icyjolt"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_33"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1738220584"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"688880"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"4345"
+			"3"		"4667"
+			"4"		"10397"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Cynoclept"
+		"publisher"		"Icyjolt"
+		"homepage"		"http://www.cynoclept.com"
+		"listofdlc"		"688960,706140"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"CynocleptTheGame"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cynoclept.exe"
+				"description"		"Cynoclept: The Game"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CynocleptHJ.exe"
+				"description"		"Cynoclept: The Game - Harambe Jump"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"706140"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"688881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1924387283988945114"
+					"size"		"1713446417"
+					"download"		"614901248"
+				}
+			}
+		}
+		"688960"
+		{
+			"dlcappid"		"688960"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2070003"
+				"timeupdated"		"1503724057"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"15"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Saves"
+			}
+		}
+	}
+}
