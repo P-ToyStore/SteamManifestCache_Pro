@@ -1,0 +1,275 @@
+"appinfo"
+{
+	"appid"		"358180"
+	"common"
+	{
+		"name"		"Bio Menace"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"9e3ee1f81a5c8260139ac5c1cd3f21293953ddf4"
+		"logo_small"		"9e3ee1f81a5c8260139ac5c1cd3f21293953ddf4_thumb"
+		"clienticon"		"8c140f505fabe6c6c5939b0320baa07a55de2d9d"
+		"clienttga"		"f9dbdf2cada56efbf9155487852aa4189924866d"
+		"icon"		"8a54c346da1a2328081c2230b6e0ddbd6c55067d"
+		"oslist"		"windows,macos"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1683936000"
+			"tested_build_id"		"606095"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"5"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"6"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_LauncherInteractionIssues"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-2"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Bio Menace"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_dfc2b1299bea57168acc8f60bd19fafdb6251dee.jpg"
+		"store_asset_mtime"		"1430809192"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3D Realms (Apogee Software)"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms (Apogee Software)"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"744361200"
+		"steam_release_date"		"1399308120"
+		"community_hub_visible"		"1"
+		"gameid"		"358180"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1625"
+			"2"		"1693"
+			"3"		"3871"
+			"4"		"4004"
+			"5"		"4182"
+			"6"		"6691"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"3D Realms (Apogee Software)"
+		"publisher"		"3D Realms (Apogee Software)"
+		"homepage"		"https://3drealms.com/catalog/bio-menace_42/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358180/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Bio Menace"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bio menace\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\BMENACE.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Bio menace\\dosbox"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Bio Menace.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\BMENACE.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358181"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4026523306574261611"
+					"size"		"30129382"
+					"download"		"11736272"
+				}
+			}
+		}
+		"358182"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7315115054947914701"
+					"size"		"8530320"
+					"download"		"3140592"
+				}
+			}
+		}
+		"358183"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6589383435811647768"
+					"size"		"10152478"
+					"download"		"3828432"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606095"
+			}
+		}
+	}
+}
