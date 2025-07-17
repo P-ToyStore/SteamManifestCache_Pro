@@ -1,0 +1,189 @@
+"appinfo"
+{
+	"appid"		"1056660"
+	"common"
+	{
+		"name"		"3x3 mini-Shogi"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"d896b3ca43923575eee09193fdff382d97d28817"
+		"clienticon"		"a0e14ccb4263ec79adf5d21ded7f717308f760e5"
+		"icon"		"bb568fd377f29ccfa14b099e181733f9ee83d469"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"481069f34a806a8625bba25423b273b2ef2d66a3"
+		"logo_small"		"481069f34a806a8625bba25423b273b2ef2d66a3_thumb"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1682380800"
+			"tested_build_id"		"3829989"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"3x3 mini-Shogi"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1c70f2f7dfadf6ba67bfabee4b88aab29cdd626f.jpg"
+		"store_asset_mtime"		"1554278986"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"znq."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"znq."
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1555765564"
+		"community_hub_visible"		"1"
+		"gameid"		"1056660"
+		"store_tags"
+		{
+			"0"		"597"
+		}
+		"review_score"		"4"
+		"review_percentage"		"36"
+	}
+	"extended"
+	{
+		"developer"		"znq."
+		"publisher"		"znq."
+	}
+	"config"
+	{
+		"installdir"		"miniShogi"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"mini-Shogi.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1056661"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5083754113548436588"
+					"size"		"8753476"
+					"download"		"4125376"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3829989"
+				"timeupdated"		"1558019170"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"262144"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		".wlr.db"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"ctl.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
