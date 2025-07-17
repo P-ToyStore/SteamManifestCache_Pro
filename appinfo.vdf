@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"671170"
+	"common"
+	{
+		"name"		"Great eSports Manager"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"154d578f2b90b5d23ee5f164d8e1b3c2c3e84c46"
+		"logo_small"		"154d578f2b90b5d23ee5f164d8e1b3c2c3e84c46_thumb"
+		"icon"		"3eba7837f900b22f6572ff0f25195e6870c7fef9"
+		"clienticon"		"c02d24caf3b8e5a32ab16b536101c8756e08c95d"
+		"clienttga"		"8eaea18462244832ddb8a797ddcac1dad837c687"
+		"clienticns"		"4fefcc45164ce7b475f60a23a5dad77a8ffa8206"
+		"linuxclienticon"		"ed82f2a39430b6bb0839f30646b3b7b1bd6754f4"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Great eSports Manager"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e7d4053d47d0999a9e791061d5e20181a55e7aa5.jpg"
+		"store_asset_mtime"		"1687982540"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fedora Collective"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fedora Collective"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+			"3"		"28"
+			"4"		"18"
+			"5"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1502894642"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"671170"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+			"2"		"599"
+			"3"		"492"
+			"4"		"122"
+			"5"		"701"
+			"6"		"12472"
+			"7"		"10397"
+		}
+		"review_score"		"8"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"Fedora Collective"
+		"publisher"		"Fedora Collective"
+	}
+	"config"
+	{
+		"installdir"		"Great eSports Manager"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ESPORTSManager.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"eSportsManager_OSX.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"ESPORTSManager.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"ESPORTSManager.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"671171"
+		{
+		}
+		"671172"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5943794059154501384"
+					"size"		"249857644"
+					"download"		"93310672"
+				}
+			}
+		}
+		"671173"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4823989289859038054"
+					"size"		"291586394"
+					"download"		"96232768"
+				}
+			}
+		}
+		"671174"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2084142348868018216"
+					"size"		"296368255"
+					"download"		"96124576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2057228"
+				"timeupdated"		"1503381565"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"31457280"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"ESPORTSManager_Data/saves"
+				"pattern"		"*.gd"
+			}
+		}
+	}
+}
