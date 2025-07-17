@@ -1,0 +1,172 @@
+"appinfo"
+{
+	"appid"		"421110"
+	"common"
+	{
+		"name"		"AWAKE"
+		"type"		"Game"
+		"logo"		"5d6d4f67df1f9b96c2c3f722ed02f5c563af9ef0"
+		"logo_small"		"5d6d4f67df1f9b96c2c3f722ed02f5c563af9ef0_thumb"
+		"icon"		"bedb6398bf0e32e5aaed2da205d97499d97aa63d"
+		"oslist"		"windows"
+		"clienttga"		"8771f3b1f78505ce0e79db45c30d16a7fa6d579c"
+		"clienticon"		"3650f670be972fbac56a3b6df43543dca8d08e0a"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4f4e6d6ab5c66abc0d53f1444f247e4fc246fd87.jpg"
+		"store_asset_mtime"		"1448481797"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Diios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Yeti Studio©"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1450252800"
+		"steam_release_date"		"1450285194"
+		"community_hub_visible"		"1"
+		"gameid"		"421110"
+		"store_tags"
+		{
+			"0"		"493"
+			"1"		"21"
+			"2"		"492"
+			"3"		"1662"
+		}
+		"review_score"		"4"
+		"review_percentage"		"27"
+	}
+	"extended"
+	{
+		"developer"		"Diios"
+		"publisher"		"Yeti Studio©"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"AWAKE"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AWAKE64bits.exe"
+				"description"		"For 64 bits"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"AWAKE.exe"
+				"description"		"For Windows 32bits"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"421111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3062844203499487875"
+					"size"		"803627469"
+					"download"		"218092256"
+				}
+			}
+		}
+		"421112"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5285711673986275016"
+					"size"		"800125389"
+					"download"		"217069200"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"988855"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
