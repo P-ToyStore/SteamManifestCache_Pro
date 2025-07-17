@@ -1,0 +1,394 @@
+"appinfo"
+{
+	"appid"		"510590"
+	"common"
+	{
+		"name"		"D: The Game"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticns"		"06a8843e06c68614dd6d0c7e13308234d3102ec7"
+		"clienticon"		"c8c1a22e70eede732421544a2d583f3d0812d8e1"
+		"clienttga"		"fae61180f71a641d47a8285b3bc77c5706e7d4b4"
+		"icon"		"db2cb1574b5c73c1060b959433182ebde7affc6b"
+		"linuxclienticon"		"afa82164660b0a6c44b374285fbeca17ad8cf35c"
+		"logo"		"57f426d04b802aee5970b1f3d9a9f25bce3063e4"
+		"logo_small"		"57f426d04b802aee5970b1f3d9a9f25bce3063e4_thumb"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"D: The Game"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1614371718"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"WARP"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Throwback Entertainment"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"796723200"
+		"steam_release_date"		"1477613612"
+		"community_hub_visible"		"1"
+		"gameid"		"510590"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1667"
+			"2"		"1693"
+			"3"		"7782"
+			"4"		"1664"
+			"5"		"6691"
+			"6"		"3839"
+			"7"		"1721"
+			"8"		"7208"
+			"9"		"4166"
+			"10"		"6971"
+			"11"		"16689"
+			"12"		"18594"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"WARP"
+		"publisher"		"Nightdive Studios"
+		"gamemanualurl"		"https://store.steampowered.com/manual/510590/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"D"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_d.conf -conf dosbox_d_launch_windows.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_d.conf -conf dosbox_d_launch_windows.conf -noconsole"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"description"		"Play D: The Game in DOSBox Daum"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_d.conf -conf dosbox_d_config_windows.conf -noconsole"
+				"workingdir"		"dosbox_windows\\"
+				"description"		"D: The Game - Configuration"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"D - The Game.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux/launch_d_game.sh"
+				"workingdir"		"dosbox_linux/"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux/daum/launch_d_game_daum.sh"
+				"workingdir"		"dosbox_linux/daum/"
+				"description"		"Play D: The Game in DOSbox Daum"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux/launch_d_config.sh"
+				"workingdir"		"dosbox_linux/"
+				"description"		"D: The Game - Configuration"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french"
+		"510591"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6380146078309416915"
+					"size"		"966508768"
+					"download"		"626653392"
+				}
+			}
+		}
+		"510592"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7900189885458412295"
+					"size"		"968941148"
+					"download"		"639543792"
+				}
+			}
+		}
+		"510593"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7872638791322523409"
+					"size"		"950394818"
+					"download"		"625766880"
+				}
+			}
+		}
+		"510594"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4600492505289146351"
+					"size"		"955052684"
+					"download"		"621793888"
+				}
+			}
+		}
+		"510595"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"994425740043538504"
+					"size"		"957485064"
+					"download"		"634684288"
+				}
+			}
+		}
+		"510596"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8094486949590498580"
+					"size"		"938938734"
+					"download"		"620907376"
+				}
+			}
+		}
+		"510597"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3255867971446377442"
+					"size"		"970973594"
+					"download"		"638522384"
+				}
+			}
+		}
+		"510598"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6381759755767064909"
+					"size"		"973405974"
+					"download"		"651412784"
+				}
+			}
+		}
+		"510599"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"333168162659442629"
+					"size"		"954859644"
+					"download"		"637635872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1325835"
+				"timeupdated"		"1473387899"
+			}
+		}
+	}
+}
