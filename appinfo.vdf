@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"787440"
+	"common"
+	{
+		"name"		"Sea Battle: Through the Ages"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"7800f05d054b9f1580539fa31b5ae84c7e168f46"
+		"clienttga"		"7e593f0cc2ad396470bde2eddaf4d7b431cf6eae"
+		"icon"		"c686c7aabcde70647a17da37f4cf5df4a4117e28"
+		"logo"		"7f28a296b2b695400e938d71623ab5770880636f"
+		"logo_small"		"7f28a296b2b695400e938d71623ab5770880636f_thumb"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Sea Battle: Through the Ages"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_727bd41fbc64a8f536a182e2a50d6af0578d3ce2.jpg"
+		"store_asset_mtime"		"1519182368"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Real Fighting"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Real Fighting"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1519100993"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"787440"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+			"2"		"492"
+			"3"		"6910"
+			"4"		"1770"
+			"5"		"1677"
+			"6"		"3878"
+			"7"		"4325"
+			"8"		"1741"
+			"9"		"14139"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Real Fighting"
+		"publisher"		"Real Fighting"
+		"homepage"		"https://steam.realfighting.me"
+	}
+	"config"
+	{
+		"installdir"		"Battle Sea 3D"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Sea Battle.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Sea Battle.app\\Contents\\MacOS\\Sea Battle"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,schinese,russian,portuguese"
+		"787441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3913326279080144093"
+					"size"		"300400347"
+					"download"		"45848208"
+				}
+			}
+		}
+		"787442"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1558393152742789896"
+					"size"		"317292642"
+					"download"		"49189552"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2605195"
+				"timeupdated"		"1521081937"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Real Fighting/Sea Battle"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Real Fighting/Sea Battle"
+						"replace"		"com.realfighting.seabattle"
+					}
+				}
+			}
+		}
+	}
+}
