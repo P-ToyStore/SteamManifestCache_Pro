@@ -1,0 +1,429 @@
+"appinfo"
+{
+	"appid"		"233370"
+	"common"
+	{
+		"name"		"The Raven - Legacy of a Master Thief"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"d8b0166716232a0e13d9f52b3581c3db9a8b67b0"
+		"linuxclienticon"		"93afe937a5d58be6f1a9001aa6b56c1fd897bff2"
+		"clienticon"		"2e626fc40b04cfa23d4fda2dc278eff69a891db9"
+		"clienttga"		"0e0c1f9a8704dab456d23c0af20c49334beabdbf"
+		"icon"		"0f8297d566dcbad980b0200bd5ad45a01aa93154"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"logo"		"69bcd50011ed6c84d0dc58049f8fad044c34a000"
+		"logo_small"		"69bcd50011ed6c84d0dc58049f8fad044c34a000_thumb"
+		"metacritic_name"		"The Raven: Legacy of a Master Thief"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"de,en"
+			"library_hero"		"en"
+			"library_logo"		"de,en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"54.66744457409567"
+				"height_pct"		"64.81833293754453"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"german"		"library_600x900_german.jpg"
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"german"		"library_600x900_german_2x.jpg"
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"german"		"logo_german.png"
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"german"		"logo_german_2x.png"
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"54.66744457409567"
+					"height_pct"		"64.81833293754453"
+				}
+			}
+		}
+		"store_asset_mtime"		"1562058352"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"KING Art"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"THQ Nordic"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"metacritic_score"		"74"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/the-raven-legacy-of-a-master-thief?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"233370"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"5613"
+			"3"		"5716"
+			"4"		"1742"
+			"5"		"6378"
+			"6"		"1664"
+			"7"		"4182"
+			"8"		"6052"
+			"9"		"4166"
+			"10"		"769306"
+			"11"		"1756"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"KING Art"
+		"gamedir"		"ValveTestApp233370"
+		"homepage"		"http://www.raven-game.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"THQ Nordic"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Raven"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launcher/TheRavenLauncher.exe"
+				"description"		"Launch The Raven"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"raven/raven_game.app"
+				"arguments"		"-launched"
+				"description"		"Launch The Raven"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"raven/real_raven_game_32.sh"
+				"description"		"Launch The Raven 32bit"
+				"workingdir"		"raven"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"raven/real_raven_game_64.sh"
+				"description"		"Launch The Raven 64bit"
+				"workingdir"		"raven"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english,german"
+		"233371"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8473781187715951359"
+					"size"		"9609951997"
+					"download"		"0"
+				}
+			}
+		}
+		"233372"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5085288959926246386"
+					"size"		"9618765352"
+					"download"		"0"
+				}
+			}
+		}
+		"233373"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8662040249416466856"
+					"size"		"9620421432"
+					"download"		"0"
+				}
+			}
+		}
+		"233380"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4811138862261244792"
+					"size"		"419654217"
+					"download"		"0"
+				}
+			}
+		}
+		"233381"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3239290874447436539"
+					"size"		"1618"
+					"download"		"0"
+				}
+			}
+		}
+		"233382"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8981011044101250730"
+					"size"		"51689628"
+					"download"		"0"
+				}
+			}
+		}
+		"233383"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5883111154249356402"
+					"size"		"3266"
+					"download"		"0"
+				}
+			}
+		}
+		"233374"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"597234719037822124"
+					"size"		"185361984"
+					"download"		"0"
+				}
+			}
+		}
+		"233375"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5758073361409532162"
+					"size"		"168809072"
+					"download"		"0"
+				}
+			}
+		}
+		"233376"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2718338873827205262"
+					"size"		"183159147"
+					"download"		"0"
+				}
+			}
+		}
+		"233377"
+		{
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+		}
+		"233378"
+		{
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"188412"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+	}
+}
