@@ -1,0 +1,197 @@
+"appinfo"
+{
+	"appid"		"492870"
+	"common"
+	{
+		"name"		"FIVE: Champions of Canaan"
+		"type"		"Game"
+		"logo"		"48298e1c81bef3b91736b88531095f1f6dc4147f"
+		"logo_small"		"48298e1c81bef3b91736b88531095f1f6dc4147f_thumb"
+		"icon"		"1a1b56a1c56cc9ba7b0e35af29bdde5019f54b13"
+		"clienttga"		"c685ea6a93c05506527f77d282992650d9e661c4"
+		"clienticon"		"f437a05eab0b98e050dc94a6c20de71241edfccb"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osvrsupport"		"1"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"FIVE: Champions of Canaan"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5d747e2a3130e435bbb360548138b53ca09ac7a4.jpg"
+		"store_asset_mtime"		"1484844125"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kingdom Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kingdom Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1474999086"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"492870"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"122"
+			"2"		"21"
+			"3"		"3987"
+			"4"		"4231"
+			"5"		"5851"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"developer"		"Kingdom Games"
+		"publisher"		"Kingdom Games"
+		"homepage"		"http://www.fivechampionsofcanaan.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"FIVE Champions of Canaan"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Champions.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Champions.exe"
+				"arguments"		"-kingdomGamemode openVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Champions.exe"
+				"arguments"		"-kingdomGamemode osvr"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"OSVR Mode"
+				}
+				"description"		"OSVR Mode"
+			}
+		}
+	}
+	"depots"
+	{
+		"492871"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4888202036271595093"
+					"size"		"2692406179"
+					"download"		"1011459344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1669837"
+				"timeupdated"		"1488588713"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"/Kingdom Games/Five_ Champions of Canaan/ArenaSaves"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/Kingdom Games/Five_ Champions of Canaan/ArenaSaves"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
