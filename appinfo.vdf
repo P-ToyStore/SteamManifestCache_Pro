@@ -1,0 +1,331 @@
+"appinfo"
+{
+	"appid"		"351820"
+	"common"
+	{
+		"name"		"Z.A.R."
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"d3928ce82b40a192b513a9c4e5d844f2fb29140e"
+		"logo_small"		"d3928ce82b40a192b513a9c4e5d844f2fb29140e_thumb"
+		"clienticon"		"a9bc3bc32f93141b877c33db671885ed633ea152"
+		"clienttga"		"39848d395ffab7b4e8eb336a4e9fb2f62458585a"
+		"icon"		"8c64fe30792e9f99ddb6f3f7e29159266ef0637e"
+		"linuxclienticon"		"6df6e5c79d45d87a6c8401648883bccb2bc886b6"
+		"metacritic_name"		"Z.A.R."
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"50"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1569371993"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Maddox Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"883641600"
+		"steam_release_date"		"1430511139"
+		"community_hub_visible"		"1"
+		"gameid"		"351820"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3839"
+			"2"		"1663"
+			"3"		"1774"
+			"4"		"1693"
+			"5"		"6691"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Maddox Games"
+		"publisher"		"Nightdive Studios"
+		"homepage"		"http://www.nightdivestudios.com/?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20z.a.r."
+		"gamemanualurl"		"https://store.steampowered.com/manual/351820/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Z.A.R"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_zar.conf -conf dosbox_zar_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_zar.conf -conf dosbox_zar_launch_windows.conf -noconsole"
+				"description"		"Play Z.A.R. in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_zar.conf -conf dosbox_zar_config_windows.conf -noconsole"
+				"description"		"Z.A.R. - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\launch_zar_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_zar_game_daum.sh"
+				"description"		"Play Z.A.R. in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\launch_zar_config.sh"
+				"description"		"Z.A.R. - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"351821"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"47832581738010659"
+					"size"		"5"
+					"download"		"64"
+				}
+			}
+		}
+		"351822"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1992473973816998416"
+					"size"		"33935337"
+					"download"		"14265088"
+				}
+			}
+		}
+		"351823"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"662835288839883072"
+					"size"		"18199549"
+					"download"		"7906400"
+				}
+			}
+		}
+		"351824"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"929265710136885108"
+					"size"		"673151608"
+					"download"		"607054608"
+				}
+			}
+		}
+		"351825"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5526666188451401469"
+					"size"		"673151608"
+					"download"		"607054608"
+				}
+			}
+		}
+		"351826"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3951441945761751915"
+					"size"		"809288322"
+					"download"		"694195760"
+				}
+			}
+		}
+		"351827"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8751603904030858934"
+					"size"		"809288322"
+					"download"		"694195760"
+				}
+			}
+		}
+		"baselanguages"		"english,russian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"658291"
+			}
+		}
+	}
+}
