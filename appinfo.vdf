@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"851000"
+	"common"
+	{
+		"name"		"Achievement Machine"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"2827ab375b24f6a45f3bf0eac6116a94776eb2fc"
+		"logo_small"		"2827ab375b24f6a45f3bf0eac6116a94776eb2fc_thumb"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"4d43ed2ed075923d27c706e5f8fee901b0d15d2a"
+		"clienttga"		"cf16c7bd9dfb687a089353c4118e2b40eb1828e9"
+		"icon"		"ded7258e9c8669c0123d3e7956d7e7598b9000b1"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+		}
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Achievement Machine"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"store_screenshot"		"ss_ce4361a311925d5ee16d8ac87dcaf5b8ac2eb25d.jpg"
+		"store_asset_mtime"		"1532418554"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gamenesis"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gamenesis"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1527239119"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"851000"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"3871"
+			"3"		"3968"
+			"4"		"4305"
+			"5"		"379975"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"Gamenesis"
+		"publisher"		"Gamenesis"
+		"homepage"		"https://steam.gamenesis.com"
+	}
+	"config"
+	{
+		"installdir"		"Achievement Machine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Achievement Machine.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Achievement Machine.app\\Contents\\MacOS\\Achievement Machine"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,schinese,russian,portuguese"
+		"851001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6575060151954745255"
+					"size"		"196877180"
+					"download"		"24061808"
+				}
+			}
+		}
+		"851002"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3975093828750296551"
+					"size"		"243371013"
+					"download"		"36784624"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2805713"
+				"timeupdated"		"1527234315"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Playloft/Achievement Machine"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Playloft/Achievement Machine"
+						"replace"		"com.playloft.achievementmachine"
+					}
+				}
+			}
+		}
+	}
+}
