@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"983520"
+	"common"
+	{
+		"name"		"Bizango Blast"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"c66690da298af0c8d2bbadfca49a374dc882dbf5"
+		"logo"		"74ec8f3bc03b4918f3ac1b4bdc2d0ebf6253f7b2"
+		"logo_small"		"74ec8f3bc03b4918f3ac1b4bdc2d0ebf6253f7b2_thumb"
+		"icon"		"3659d49ddcc3bd48800330b3d75b60fd06550b7d"
+		"clienticon"		"99b85f8ebee0ccd596c78d4c18d03cee0223b77e"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bizango Blast"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_913c2b6fbec9bd5af3d81bb690d7b5da08f4cc0b.jpg"
+		"store_asset_mtime"		"1543161509"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Olivier Archer"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Olivier Archer"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1544437215"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"983520"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"19"
+			"2"		"492"
+			"3"		"3968"
+			"4"		"21978"
+			"5"		"1664"
+			"6"		"4182"
+			"7"		"599"
+			"8"		"4252"
+			"9"		"4711"
+			"10"		"5350"
+		}
+		"review_score"		"5"
+		"review_percentage"		"52"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Olivier Archer"
+		"publisher"		"Olivier Archer"
+		"homepage"		"https://bizangob.com"
+	}
+	"config"
+	{
+		"installdir"		"Bizango Blast"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BizangoBlast.exe"
+				"description"		"Bizango Blast DirectX 11"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"BizangoBlast.exe"
+				"arguments"		"-DX12"
+				"description"		"Bizango Blast DirectX 12 "
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"BizangoBlast.exe"
+				"arguments"		"-vulkan"
+				"description"		"Bizango Blast Vulkan"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"BizangoBlastvr.exe"
+				"description"		"Bizango Blast VR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"983521"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1170596632995649582"
+					"size"		"711906051"
+					"download"		"199864400"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3905246"
+				"timeupdated"		"1560188818"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"3"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"BizangoBlast/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
