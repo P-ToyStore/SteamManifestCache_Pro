@@ -1,0 +1,249 @@
+"appinfo"
+{
+	"appid"		"561420"
+	"common"
+	{
+		"name"		"Hot Plates"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"24fb3064553c07016117afb1129161ce8ef113ff"
+		"clienticon"		"8c4e6f7964621b9e2fa967017867d9d4d50a7813"
+		"icon"		"124f31409c3da692489cc9ad65a48bde0cded392"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"113b247edc2ca7ee88ed424b216d592b116649df"
+		"logo_small"		"113b247edc2ca7ee88ed424b216d592b116649df_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Hot Plates"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7c39367d7619e6b341940df4da4c9764500cbd9e.jpg"
+		"store_asset_mtime"		"1490392340"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"bluebox interactive"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"RoJarl Entertainment"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"bluebox interactive"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1497632432"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"561420"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"19"
+			"3"		"599"
+			"4"		"12472"
+			"5"		"3942"
+			"6"		"4711"
+			"7"		"1719"
+			"8"		"1734"
+			"9"		"4791"
+			"10"		"3920"
+		}
+		"review_score"		"5"
+		"review_percentage"		"42"
+	}
+	"extended"
+	{
+		"developer"		"bluebox interactive"
+		"publisher"		"bluebox interactive"
+	}
+	"config"
+	{
+		"installdir"		"Hot Plates"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HotPlates.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"HotPlates.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"561421"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7771940447204200091"
+					"size"		"331014707"
+					"download"		"47726624"
+				}
+				"beta"
+				{
+					"gid"		"7771940447204200091"
+					"size"		"331014707"
+					"download"		"47726624"
+				}
+			}
+		}
+		"561422"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3829098929988097316"
+					"size"		"366447317"
+					"download"		"59101280"
+				}
+				"beta"
+				{
+					"gid"		"3829098929988097316"
+					"size"		"366447317"
+					"download"		"59101280"
+				}
+			}
+		}
+		"561423"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3005082999293156375"
+					"size"		"326933003"
+					"download"		"46536720"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2323236"
+				"timeupdated"		"1511903390"
+			}
+			"beta"
+			{
+				"buildid"		"2307329"
+				"description"		"Beta branch. For Tests and Semi-Stable Builds"
+				"timeupdated"		"1511357858"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"3000000"
+		"maxnumfiles"		"999"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"RoJarlEntertainment/Hot Plates"
+				"pattern"		"*.hotpl"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"unity.RoJarlEntertainment.Hot Plates"
+				"pattern"		"*.hotpl"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"RoJarlEntertainment/Hot Plates"
+						"replace"		"unity.RoJarlEntertainment.Hot Plates"
+					}
+				}
+			}
+		}
+	}
+}
