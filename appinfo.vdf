@@ -1,0 +1,302 @@
+"appinfo"
+{
+	"appid"		"418150"
+	"common"
+	{
+		"name"		"The Madness of Little Emma"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"320bf1deb95e74a25cc0287f4d85914d4464e77a"
+		"logo_small"		"320bf1deb95e74a25cc0287f4d85914d4464e77a_thumb"
+		"clienticon"		"9ecf952ddc9822c2c2aa67cbd98c1c23b684a66b"
+		"clienttga"		"10b22a5f720267b25b1feec1630a717b550a3b93"
+		"icon"		"69ec8434b156848d3c2183b8af9219126b46eeea"
+		"linuxclienticon"		"ac118ee071643d84e15434c252e2e7a0935429e6"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1656028800"
+			"tested_build_id"		"2349883"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"The Madness of Little Emma"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b88029a7dbbd08430ee4df62a814111be42fac9a.jpg"
+		"store_asset_mtime"		"1463434113"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bartosz Bojarowski"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bartosz Bojarowski"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1450717124"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"418150"
+		"store_tags"
+		{
+			"0"		"42804"
+			"1"		"492"
+			"2"		"19"
+			"3"		"1625"
+			"4"		"7208"
+			"5"		"1716"
+			"6"		"1756"
+			"7"		"4711"
+			"8"		"1667"
+			"9"		"4026"
+			"10"		"3871"
+			"11"		"122"
+			"12"		"3959"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"Bartosz Bojarowski"
+		"publisher"		"Bartosz Bojarowski"
+		"homepage"		"http://madnessoflittleemma.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Madness of Little Emma"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"start.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"emma"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"emma"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"418151"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9192038608738341444"
+					"size"		"383440568"
+					"download"		"386704784"
+				}
+			}
+		}
+		"418152"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4988494180441107539"
+					"size"		"474952543"
+					"download"		"409639424"
+				}
+			}
+		}
+		"418153"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4331040578468933021"
+					"size"		"383440568"
+					"download"		"386703712"
+				}
+			}
+		}
+		"418154"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6474435073904038894"
+					"size"		"552160499"
+					"download"		"428504544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2349883"
+				"timeupdated"		"1541098223"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"./"
+				"pattern"		"unlockables"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"./"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
