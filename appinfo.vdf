@@ -1,0 +1,285 @@
+"appinfo"
+{
+	"appid"		"330570"
+	"common"
+	{
+		"name"		"Noct"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"10bb71716711ec56e0a44674c88814bce3405deb"
+		"logo_small"		"10bb71716711ec56e0a44674c88814bce3405deb_thumb"
+		"icon"		"239b40e51d1254ec1cbcee4b0fa1d42e87514e88"
+		"clienttga"		"036ca3d8c5f1793d809bee6fface4f22f2c5ad14"
+		"clienticon"		"afef6619b5ebbf0ff3207aa76df2d650106cf9e3"
+		"clienticns"		"4bab9ddaed52d1f4b9f7f510124d4d1edfa585ee"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1681516800"
+			"tested_build_id"		"1452630"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Noct"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7b2f37192e12646d2dad4188e2db4f26639c4943.jpg"
+		"store_asset_mtime"		"1445430668"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"C3SK"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Devolver Digital"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1445455260"
+		"community_hub_visible"		"1"
+		"gameid"		"330570"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"493"
+			"3"		"3978"
+			"4"		"3859"
+			"5"		"1667"
+			"6"		"4637"
+			"7"		"4791"
+			"8"		"4166"
+			"9"		"1662"
+			"10"		"1756"
+			"11"		"3964"
+		}
+		"review_score"		"5"
+		"review_percentage"		"51"
+	}
+	"extended"
+	{
+		"developer"		"C3SK"
+		"publisher"		"Devolver Digital"
+		"homepage"		"http://www.NoctGame.com"
+		"listofdlc"		"413060"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Noct"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Noct.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"Noct.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Noct.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"330572"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4325248113029597436"
+					"size"		"229184455"
+					"download"		"128775408"
+				}
+			}
+		}
+		"330573"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5325948102518496798"
+					"size"		"236019111"
+					"download"		"129728592"
+				}
+			}
+		}
+		"330574"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"101911373872254074"
+					"size"		"235085843"
+					"download"		"130641280"
+				}
+			}
+		}
+		"413060"
+		{
+			"dlcappid"		"413060"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5179028528635491801"
+					"size"		"124287040"
+					"download"		"112633440"
+				}
+			}
+		}
+		"330571"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1452630"
+				"timeupdated"		"1478842390"
+			}
+		}
+	}
+}
