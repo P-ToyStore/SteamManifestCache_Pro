@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"832650"
+	"common"
+	{
+		"name"		"Royal Adventure"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"63d8def2c77e8c6b6dd825f493cd047e22de2d0f"
+		"logo_small"		"63d8def2c77e8c6b6dd825f493cd047e22de2d0f_thumb"
+		"icon"		"d66a2a41f3b65837988f77a9da7d86afb7e68850"
+		"clienticon"		"2410a170d06a6ed6b36bccd9fe9fbabd974bdb80"
+		"clienttga"		"48accd147b6630ef912c11ac4bd18d7a69226968"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Royal Adventure"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ede203d6366600c8152bd391495f23bbad11f4e6.jpg"
+		"store_asset_mtime"		"1522166237"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Qumaron"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Qumaron"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1524158382"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"832650"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"122"
+			"2"		"21"
+			"3"		"9"
+			"4"		"1716"
+			"5"		"14139"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"Qumaron"
+		"publisher"		"Qumaron"
+	}
+	"config"
+	{
+		"installdir"		"Royal Adventure"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RA.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"RA.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"832651"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5141978136089522492"
+					"size"		"394313233"
+					"download"		"94700256"
+				}
+			}
+		}
+		"832652"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4850102407462073247"
+					"size"		"447726628"
+					"download"		"100493696"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2852395"
+				"timeupdated"		"1528806612"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"104847114"
+		"maxnumfiles"		"3"
+		"appidredirect"		"832650"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Qumaron/Royal Adventure"
+				"pattern"		"*.bin"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Qumaron/Royal Adventure"
+						"replace"		"com.qumaron.royaladventure.steam"
+					}
+				}
+			}
+		}
+	}
+}
