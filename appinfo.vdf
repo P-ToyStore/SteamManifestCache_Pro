@@ -1,0 +1,186 @@
+"appinfo"
+{
+	"appid"		"549000"
+	"common"
+	{
+		"name"		"Munch"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"48cdeacfa19679929682c849fe6a3ef844b42529"
+		"clienticon"		"6cf4dfa06c466a9e19d0dcab178e7e8a4051e461"
+		"icon"		"f386ee72288be055524f71783474e4ca2a446700"
+		"logo"		"191aa0ffa86b1b11a1226b9c6b14860386d3b8c2"
+		"logo_small"		"191aa0ffa86b1b11a1226b9c6b14860386d3b8c2_thumb"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Munch VR"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d01519e8f3953e9eb0d847f978c172e457ad9401.jpg"
+		"store_asset_mtime"		"1487368239"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mostly Harmless Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mostly Harmless Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1487368831"
+		"community_hub_visible"		"1"
+		"gameid"		"549000"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"21"
+			"3"		"5350"
+			"4"		"4726"
+			"5"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Mostly Harmless Games"
+		"publisher"		"Mostly Harmless Games"
+		"homepage"		"http://www.munchvr.com"
+	}
+	"config"
+	{
+		"installdir"		"Munch"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Munch.exe"
+				"arguments"		"-vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Munch.exe"
+				"arguments"		" -vrmode oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Munch.x86_64"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"549001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5923384813123883656"
+					"size"		"144219993"
+					"download"		"34155696"
+				}
+			}
+		}
+		"549002"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5676231335291422891"
+					"size"		"180543395"
+					"download"		"41809696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1739427"
+				"timeupdated"		"1491588245"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
