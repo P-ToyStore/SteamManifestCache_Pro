@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"910660"
+	"common"
+	{
+		"name"		"Shudder"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"afdf50add281876ad955ec5f1c923c454bf4aebd"
+		"logo_small"		"afdf50add281876ad955ec5f1c923c454bf4aebd_thumb"
+		"icon"		"993c1c9c4ef4514789a5652b668bcbb4450aed97"
+		"clienttga"		"89e9125fdc6798714f9180348c72afe37ab47824"
+		"clienticon"		"270a2099f07b390f3b1384719fea324da5031b64"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Shudder"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1604841247"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Saberphrog"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Saberphrog"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1535670551"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"910660"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1773"
+			"2"		"3916"
+			"3"		"3942"
+			"4"		"4004"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Saberphrog"
+		"publisher"		"Saberphrog"
+		"homepage"		"https://lemonsquirtle.wixsite.com/shuddergame"
+	}
+	"config"
+	{
+		"installdir"		"Shudder"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"shudderGame.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"910661"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6584088680843829987"
+					"size"		"147221809"
+					"download"		"76556976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3433478"
+				"timeupdated"		"1546091223"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saves"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Saberphrog/Shudder/"
+				"pattern"		"*.DAT"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
