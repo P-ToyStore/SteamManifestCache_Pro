@@ -1,0 +1,353 @@
+"appinfo"
+{
+	"appid"		"255920"
+	"common"
+	{
+		"name"		"The 7th Guest"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"45535b13ac3bd447b7260a5e6f1b104063dc5055"
+		"logo"		"839f463ea80dfd5f5084ad36117181aa5e92f6d0"
+		"logo_small"		"839f463ea80dfd5f5084ad36117181aa5e92f6d0_thumb"
+		"clienticon"		"813b24cdcc3229b8e530006b42ed721d246e2c93"
+		"clienttga"		"0e7b9eaa70441238331ec0022b58ee76a3c54c64"
+		"linuxclienticon"		"f5acaf885441bd468168cb7a0907f33238c0068b"
+		"clienticns"		"e2b7d5b7c3b5ca64493ed9fdca631f8fc2bbafb8"
+		"app_retired_publisher_request"		"1"
+		"osarch"		""
+		"osextended"		"macos64"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1687392000"
+			"tested_build_id"		"2443296"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"7th Guest"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3733dce5dc0c21f99e63a47d1950946fcacf9cd6.jpg"
+		"store_asset_mtime"		"1382140936"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Trilobyte Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"full_audio"		"true"
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"735980400"
+		"steam_release_date"		"1382141520"
+		"community_hub_visible"		"1"
+		"gameid"		"255920"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"1667"
+			"3"		"1664"
+			"4"		"18594"
+			"5"		"1693"
+			"6"		"6691"
+			"7"		"3839"
+			"8"		"4182"
+			"9"		"4166"
+			"10"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"developer"		"Trilobyte Games"
+		"publisher"		"Nightdive Studios"
+		"homepage"		"http://www.nightdivestudios.com/games/the-7th-guest/?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%207th%20guest"
+		"gamemanualurl"		"https://store.steampowered.com/manual/255920/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The 7th Guest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ScummVM_Windows\\scummvm.exe"
+				"arguments"		"--no-console -c scummvm-t7g-opengl.ini t7g"
+				"workingdir"		"ScummVM_Windows\\"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ScummVM_Windows\\scummvm.exe"
+				"arguments"		"--no-console -c scummvm-t7g-safe.ini t7g"
+				"workingdir"		"ScummVM_Windows\\"
+				"description"		"Play in 'Safe Graphics' Mode"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+				"arguments"		"-c scummvm-t7g-opengl.ini t7g"
+				"workingdir"		"ScummVM_Mac\\"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"ScummVM_Mac\\ScummVM.app\\Contents\\MacOS\\scummvm"
+				"arguments"		"-c scummvm-t7g-safe.ini t7g"
+				"workingdir"		"ScummVM_Mac\\"
+				"description"		"Play in 'Safe Graphics' Mode"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"ScummVM_Linux\\launch_the7thguest_opengl.sh"
+				"workingdir"		"ScummVM_Linux\\"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"ScummVM_Linux\\launch_the7thguest_safe.sh"
+				"workingdir"		"ScummVM_Linux\\"
+				"description"		"Play in 'Safe Graphics' Mode"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"255921"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2725097559044271547"
+					"size"		"376391992"
+					"download"		"366384848"
+				}
+				"beta"
+				{
+					"gid"		"5551615103582532448"
+					"size"		"351559975"
+					"download"		"341220320"
+				}
+			}
+		}
+		"255922"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4451228575011416146"
+					"size"		"38886544"
+					"download"		"13005664"
+				}
+				"beta"
+				{
+					"gid"		"1364805529912342737"
+					"size"		"59690906"
+					"download"		"21016160"
+				}
+			}
+		}
+		"255923"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6985827668411175827"
+					"size"		"53236365"
+					"download"		"15042688"
+				}
+				"beta"
+				{
+					"gid"		"1384175098516549138"
+					"size"		"63158443"
+					"download"		"19062624"
+				}
+			}
+		}
+		"255924"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8909263769298775306"
+					"size"		"37369347"
+					"download"		"11460112"
+				}
+				"beta"
+				{
+					"gid"		"8909263769298775306"
+					"size"		"37369347"
+					"download"		"11460112"
+				}
+			}
+		}
+		"255925"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2476435742184862808"
+					"size"		"682293119"
+					"download"		"615825472"
+				}
+				"beta"
+				{
+					"gid"		"2476435742184862808"
+					"size"		"682293119"
+					"download"		"615825472"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2443296"
+				"timeupdated"		"1516158053"
+			}
+			"beta"
+			{
+				"buildid"		"4287628"
+				"description"		"T7G Beta"
+				"timeupdated"		"1571112789"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"102400"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"t7g.*"
+			}
+		}
+	}
+}
