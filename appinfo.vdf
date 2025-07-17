@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"700830"
+	"common"
+	{
+		"name"		"Immersive Poetry"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"b7b7557b98b8d497a6562af6996985d806b7545a"
+		"logo_small"		"b7b7557b98b8d497a6562af6996985d806b7545a_thumb"
+		"icon"		"cdcc0e6ffc3a19d4c2306f675175f476d024e31c"
+		"clienttga"		"0849681caf344c44fffb361f9d80dd1d11d6148c"
+		"clienticon"		"c56a300639108e1257562082ab4cb988d3cca437"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Immersive Poetry"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9c5f43e0c2cc141b1a1dd9a2066f348e94e6f396.jpg"
+		"store_asset_mtime"		"1520693196"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Thalasse Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Thalasse Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_13"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1508156267"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"700830"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"developer"		"Thalasse Games"
+		"publisher"		"Thalasse Games"
+		"homepage"		"http://thalassegames.wixsite.com/thalassegames"
+		"gamemanualurl"		"https://store.steampowered.com/manual/700830/"
+	}
+	"config"
+	{
+		"installdir"		"Immersive Poetry"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindowsNoEditor\\ImmersivePoetry\\Binaries\\Win64\\ImmersivePoetry-Win64-Shipping.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"700831"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8340197641581074128"
+					"size"		"3945913630"
+					"download"		"1666675008"
+				}
+				"dev_branch"
+				{
+					"gid"		"4816108248480551113"
+					"size"		"1880125020"
+					"download"		"1806349280"
+				}
+			}
+		}
+		"700832"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"dev_branch"
+				{
+					"gid"		"6627023624637159009"
+					"size"		"2064579205"
+					"download"		"1944104848"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2742372"
+				"timeupdated"		"1525346040"
+			}
+			"dev_branch"
+			{
+				"buildid"		"2310629"
+				"description"		"Dev Testing"
+				"timeupdated"		"1511437848"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ImmersivePoetry\\Saved\\SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+		"appidredirect"		"700830"
+	}
+}
