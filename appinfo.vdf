@@ -1,0 +1,227 @@
+"appinfo"
+{
+	"appid"		"65200"
+	"common"
+	{
+		"name"		"Dive to the Titanic"
+		"logo"		"93208e1983bfc6b90a160a7113e98d57d8fa6b2a"
+		"logo_small"		"93208e1983bfc6b90a160a7113e98d57d8fa6b2a_thumb"
+		"clienticon"		"cc517d7bfba3d2f3df02fda3fb467049b68ab3ab"
+		"clienttga"		"b1364f9d8ba9eaee58113f7206705d8565f13b9c"
+		"icon"		"f2d9438acfb3e75534e8d7543166234c57ac151b"
+		"type"		"game"
+		"metacritic_name"		"Dive to the Titanic"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"47.0152818878983"
+				"height_pct"		"58.68055555555556"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"47.0152818878983"
+					"height_pct"		"58.68055555555556"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572974257"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TML-Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"astragon Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"astragon Entertainment"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1292313600"
+		"steam_release_date"		"1292621160"
+		"community_hub_visible"		"1"
+		"gameid"		"65200"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"9157"
+		}
+		"review_score"		"4"
+		"review_percentage"		"37"
+	}
+	"extended"
+	{
+		"developer"		"TML-Studios"
+		"gamedir"		"Dive to the Titanic"
+		"homepage"		"www.tml-studios.de"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"65201"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"astragon Entertainment"
+	}
+	"config"
+	{
+		"installscriptsignature"		"80ce482cbd76518e49ba5c0e858f36a303b0fc9607d51a2491e9c6ebffba91051b8d2b086590542d101d93d83757deac1a0b64520c650bfbff0e3eb42f92ba8c759dd375e840e6be4198b7f1301483c9a18ea58d0cf4ce73c127944db4babf81d0be4a34acaa8d8ad549ff987ac8e56d234d2c4ee318bd46419ca1857a022834"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Dive to the Titanic"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Titanic.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\65200"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"quicktime"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\65200"
+				"process 1"		"%INSTALLDIR%\\redist\\QuickTimeInstaller.exe"
+				"command 1"		""
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"65201"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"904901609681893081"
+					"size"		"1087284704"
+					"download"		"0"
+				}
+			}
+		}
+		"65202"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2875241222120142542"
+					"size"		"980173287"
+					"download"		"0"
+				}
+			}
+		}
+		"65203"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4266576273119812657"
+					"size"		"978157141"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23922"
+			}
+		}
+	}
+}
