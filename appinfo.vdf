@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"571340"
+	"common"
+	{
+		"name"		"Seeking Evil: The Wendigo"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"icon"		"5e001b05c33b4eccbc25ddd31a2c0c02559181e2"
+		"logo"		"66d2457142bd9b17ed0a41ae18bceb269f3a69d3"
+		"logo_small"		"66d2457142bd9b17ed0a41ae18bceb269f3a69d3_thumb"
+		"clienticon"		"f35503b31b36663f5b777122ae81481c79d2e619"
+		"clienttga"		"5acbfac8f7cda4da35281641ac8de08a621b1363"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"metacritic_name"		"Seeking Evil: The Wendigo"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_be81c05e6ab81cd299c44c17b9c4d0611c021208.jpg"
+		"store_asset_mtime"		"1752523191"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Copybugpaste"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Copybugpaste"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1505156224"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"571340"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"4106"
+			"2"		"122"
+			"3"		"21978"
+			"4"		"4191"
+			"5"		"3839"
+			"6"		"5923"
+			"7"		"1667"
+			"8"		"1721"
+			"9"		"1710"
+			"10"		"7481"
+			"11"		"1695"
+			"12"		"19"
+			"13"		"9541"
+			"14"		"1684"
+			"15"		"16094"
+			"16"		"1687"
+			"17"		"4064"
+			"18"		"17015"
+			"19"		"5716"
+		}
+		"review_score"		"5"
+		"review_percentage"		"49"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Copybugpaste"
+		"publisher"		"Copybugpaste"
+	}
+	"config"
+	{
+		"installdir"		"SeekingEvilWendigo"
+		"steamcontrollertemplateindex"		"2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SEW.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"SEW.exe"
+				"arguments"		"vr controllers vive -vrmode OpenVR"
+				"description"		"Launch with HTC Vive"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"SEW.exe"
+				"arguments"		"vr controllers oculus -vrmode OpenVR"
+				"description"		"Launch with Oculus Rift"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"571341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"849735813070033953"
+					"size"		"1049969556"
+					"download"		"540561424"
+				}
+				"beta"
+				{
+					"gid"		"849735813070033953"
+					"size"		"1049969556"
+					"download"		"540561424"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2104922"
+				"timeupdated"		"1505156057"
+			}
+			"beta"
+			{
+				"buildid"		"2104922"
+				"timeupdated"		"1504918770"
+			}
+		}
+	}
+}
