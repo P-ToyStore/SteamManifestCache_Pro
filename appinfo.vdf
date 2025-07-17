@@ -1,0 +1,179 @@
+"appinfo"
+{
+	"appid"		"599060"
+	"common"
+	{
+		"name"		"Age of Heroes: Conquest"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"d5c10ad2ea9cd6a2b34f1d4afd13a78751fd8b5b"
+		"clienttga"		"92e55b3a7926e863277c1d22cbc15fdb92360251"
+		"icon"		"60a48889c2bd93487a2a15b453cb20a7346db8b4"
+		"logo"		"08fa866063f87511ab85a46d34be359353182871"
+		"logo_small"		"08fa866063f87511ab85a46d34be359353182871_thumb"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Age of Heroes: Conquest"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_430966174343496d4fdca07155422b76b2a98719.jpg"
+		"store_asset_mtime"		"1491516253"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"5th Planet Games Development ApS"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"5th Planet Games Development ApS"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"29"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_35"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1492460820"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"599060"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"128"
+			"2"		"122"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"5th Planet Games Development ApS"
+		"publisher"		"5th Planet Games Development ApS"
+	}
+	"config"
+	{
+		"installdir"		"Age of Heroes"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Heroes.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Heroes.app\\Contents\\MacOS\\Heroes"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"599061"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3122683797485204928"
+					"size"		"230117582"
+					"download"		"192549824"
+				}
+			}
+		}
+		"599062"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3945643819221067699"
+					"size"		"315270823"
+					"download"		"193853984"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3166301"
+				"timeupdated"		"1538157416"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"100"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"com.fpg.aohc/Local Store/#SharedObjects/#heroes"
+				"pattern"		"*.sol"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"com.fpg.aohc/Local Store/#SharedObjects/#heroes"
+			}
+		}
+	}
+}
