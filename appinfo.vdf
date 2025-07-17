@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"358280"
+	"common"
+	{
+		"name"		"Alien Carnage / Halloween Harry"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"a636fd67fc0c726f5c3e5b29ca7b0ad2fb9b245b"
+		"logo_small"		"a636fd67fc0c726f5c3e5b29ca7b0ad2fb9b245b_thumb"
+		"oslist"		"windows,macos"
+		"clienticon"		"63933511099d5c65ffc6e2b29d2583f07cd7f7aa"
+		"clienttga"		"2896a17d0a7df730e2ec724c191a0313d7dcc559"
+		"icon"		"dd75e13543b629d7ed886d2f17a5a5a22fd979e9"
+		"clienticns"		"710018189ab6294f1c159d83dccd252d1b3a8c6f"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Alien Carnage / Halloween Harry"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_db08d32105bd54181fe9cba9fe0e109acf6b7f27.jpg"
+		"store_asset_mtime"		"1430809008"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Interactive Binary Illusions"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"SubZero Software"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms (Apogee Software)"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"783936000"
+		"steam_release_date"		"1399307940"
+		"community_hub_visible"		"1"
+		"gameid"		"358280"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1625"
+			"2"		"1693"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Interactive Binary Illusions"
+		"publisher"		"3D Realms (Apogee Software)"
+		"homepage"		"https://3drealms.com/catalog/alien-carnage_48/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358280/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Alien Carnage  Halloween Harry"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Alien Carnage\\Dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\Carnage.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Alien Carnage\\Dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Alien Carnage.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\CARNAGE.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358281"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3882501102279291933"
+					"size"		"890774196"
+					"download"		"868863008"
+				}
+			}
+		}
+		"358282"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1875167985428786150"
+					"size"		"857632059"
+					"download"		"853406528"
+				}
+			}
+		}
+		"358283"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4803571372708397333"
+					"size"		"869224106"
+					"download"		"860292032"
+				}
+			}
+		}
+		"358284"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8908826846401164450"
+					"size"		"870796920"
+					"download"		"860955168"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"881927"
+			}
+		}
+	}
+}
