@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"750800"
+	"common"
+	{
+		"name"		"Egress"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"c4eb50cbc1dd0a18e4e48c47bf35a9e8928dbb3f"
+		"logo_small"		"c4eb50cbc1dd0a18e4e48c47bf35a9e8928dbb3f_thumb"
+		"icon"		"510064f0964ac5826c4889a8a8b3768a496bf968"
+		"clienticon"		"8f67884e1db6f59f8149dc6b9aca1cacc5d70f73"
+		"clienttga"		"abba4a3e63999e2db8c834a4ea7849a214066700"
+		"metacritic_name"		"Egress"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5f62617152165cb4db2b11feb7b4ce67e6fd321c.jpg"
+		"store_asset_mtime"		"1571918724"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fazan"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		" Fazan"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_28"		"1"
+			"category_25"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1571900400"
+		"steam_release_date"		"1571936473"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"750800"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"7432"
+			"3"		"29482"
+			"4"		"122"
+			"5"		"176981"
+			"6"		"4604"
+			"7"		"3859"
+			"8"		"1775"
+			"9"		"1697"
+			"10"		"1662"
+			"11"		"3878"
+			"12"		"4166"
+			"13"		"1695"
+			"14"		"3843"
+			"15"		"3834"
+			"16"		"1718"
+		}
+		"review_score"		"5"
+		"review_percentage"		"59"
+	}
+	"extended"
+	{
+		"gamedir"		"Egress"
+		"serverbrowsername"		"Egress"
+		"developer"		"Fazan"
+		"publisher"		" Fazan"
+		"homepage"		"http://playegress.com/"
+	}
+	"config"
+	{
+		"installdir"		"Egress"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Egress.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"egressbeta"
+				}
+			}
+			"1"
+			{
+				"executable"		"NetSystem.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"netsystem"
+				}
+			}
+			"2"
+			{
+				"executable"		"NetSystem\\Binaries\\Win64\\NetSystemServer.exe"
+				"arguments"		"-log"
+				"description"		"netSystemDedicatedServer"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"netsystem"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"750801"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1004864549319602094"
+					"size"		"3614927728"
+					"download"		"3392036000"
+				}
+				"egressbeta"
+				{
+					"gid"		"6889623533814984833"
+					"size"		"3614923632"
+					"download"		"3392031408"
+				}
+				"netsystem"
+				{
+					"gid"		"8609971660941917943"
+					"size"		"1137110692"
+					"download"		"207696832"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4591659"
+				"timeupdated"		"1579621623"
+			}
+			"egressbeta"
+			{
+				"buildid"		"4344275"
+				"timeupdated"		"1573635289"
+			}
+			"netsystem"
+			{
+				"buildid"		"4087431"
+				"timeupdated"		"1565279442"
+			}
+		}
+	}
+}
