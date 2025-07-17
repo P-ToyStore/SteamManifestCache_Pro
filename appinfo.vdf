@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"1234070"
+	"common"
+	{
+		"name"		"Wire Flying Maid"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"4968456bdb926ab5e7313d70ba9823000e872fb4"
+		"logo"		"750480f821dbf8bbf1c643ea028cf367794efe1c"
+		"logo_small"		"750480f821dbf8bbf1c643ea028cf367794efe1c_thumb"
+		"clienttga"		"f37e3239cc9aaad0be53619e9ea88cbf69ea0c79"
+		"clienticon"		"039b3f68c3b185cc206c35a02cc42cb11bc00ea6"
+		"clienticns"		"43d38049874574f755652f4fe798baab2ac0c60c"
+		"linuxclienticon"		"ec236c8203814d5c694ecfdde8e956a122010647"
+		"releasestate"		"released"
+		"metacritic_name"		"Wire Flying Maid"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1580356005"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"IzukawaN"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"IzukawaN"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1581555610"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1234070"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"3871"
+			"4"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"IzukawaN"
+		"publisher"		"IzukawaN"
+	}
+	"config"
+	{
+		"installdir"		"Wire Flying Maid"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Wire Flying Maid/Wire Flying Maid.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1234071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2525927150901834719"
+					"size"		"91071427"
+					"download"		"28738128"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4623773"
+				"timeupdated"		"1580384674"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1024"
+		"maxnumfiles"		"3"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"IzukawaN/Wire Flying Maid/SaveData"
+				"pattern"		"SaveData.es3"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"IzukawaN/Wire Flying Maid/SaveData"
+						"replace"		"IzukawaN/Wire Flying Maid/SaveData"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"IzukawaN/Wire Flying Maid/SaveData"
+						"replace"		".config/unity3d/IzukawaN/Wire Flying Maid/SaveData"
+					}
+				}
+			}
+		}
+	}
+}
