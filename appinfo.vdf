@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"259410"
+	"common"
+	{
+		"name"		"Sneaky Sneaky"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"404e04b516fbbd054ad830e3428fde140dc999a3"
+		"logo_small"		"404e04b516fbbd054ad830e3428fde140dc999a3_thumb"
+		"icon"		"e2f4e406a40bccddab1c357d7e58cfda56e2462b"
+		"clienttga"		"c8de30804011e319db0317705aa067c551f141cd"
+		"clienticon"		"662bf15716107425ba36745fd324405b20c28e3c"
+		"clienticns"		"5fcc5b2684be2c47592de89e9c897282d9eaf154"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Sneaky Sneaky"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0ddf51fa0625d60e15db09b182637ceddcba4d76.jpg"
+		"store_asset_mtime"		"1415390883"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Naiad Entertainment LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Naiad Entertainment LLC"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1415811660"
+		"metacritic_score"		"63"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/sneaky-sneaky?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"259410"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"597"
+			"2"		"122"
+			"3"		"492"
+			"4"		"1687"
+			"5"		"21"
+			"6"		"1664"
+		}
+		"review_score"		"8"
+		"review_percentage"		"89"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Naiad Entertainment LLC"
+		"publisher"		"Naiad Entertainment LLC"
+		"homepage"		"http://naiadentertainment.com/sneaky-sneaky/"
+		"listofdlc"		"333320"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SneakySneaky"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"sneaky.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Sneaky.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"259411"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6825453072329393605"
+					"size"		"330922143"
+					"download"		"47258848480"
+				}
+				"dev"
+				{
+					"gid"		"6825453072329393605"
+					"size"		"330922143"
+					"download"		"47258848480"
+				}
+			}
+		}
+		"259412"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1111443451063943591"
+					"size"		"347753059"
+					"download"		"3080007032"
+				}
+				"dev"
+				{
+					"gid"		"1111443451063943591"
+					"size"		"347753059"
+					"download"		"3080007032"
+				}
+			}
+		}
+		"333320"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1970269820726812828"
+					"size"		"28256100"
+					"download"		"1097571288"
+				}
+				"dev"
+				{
+					"gid"		"1970269820726812828"
+					"size"		"28256100"
+					"download"		"1097571288"
+				}
+			}
+			"dlcappid"		"333320"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"454925"
+			}
+			"dev"
+			{
+				"buildid"		"454925"
+				"description"		"Dev branch for automated builds"
+			}
+		}
+	}
+}
