@@ -1,0 +1,179 @@
+"appinfo"
+{
+	"appid"		"358440"
+	"common"
+	{
+		"name"		"Dark Ages"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"2337ee2089117e9a66c259f2a34a67a8792e3201"
+		"logo_small"		"2337ee2089117e9a66c259f2a34a67a8792e3201_thumb"
+		"clienticon"		"60e912036afcddd218210d9d6394558d5e17d928"
+		"clienttga"		"a41a2c18dfc5a7ed8c43031bba17e3a1a835de6d"
+		"icon"		"46d2645ccacf31ff129de8b7de1d5ca09de237de"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dark Ages"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c8f65620574ce81ed44b13563cafafb0e54016b7.jpg"
+		"store_asset_mtime"		"1430809388"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Scenario Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms (Apogee Software)"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"665395200"
+		"steam_release_date"		"1399308180"
+		"community_hub_visible"		"1"
+		"gameid"		"358440"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1625"
+			"2"		"3871"
+			"3"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"54"
+	}
+	"extended"
+	{
+		"developer"		"Scenario Software"
+		"publisher"		"3D Realms (Apogee Software)"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dark Ages"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dark Ages\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\DARK.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dark Ages\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Dark Ages.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\DARK.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3822783829697124844"
+					"size"		"27851526"
+					"download"		"10358048"
+				}
+			}
+		}
+		"358442"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4538392764044871818"
+					"size"		"6062671"
+					"download"		"1724400"
+				}
+			}
+		}
+		"358443"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6154037205805266654"
+					"size"		"7874605"
+					"download"		"2450208"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"613319"
+			}
+		}
+	}
+}
