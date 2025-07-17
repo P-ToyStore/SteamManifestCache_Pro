@@ -1,0 +1,194 @@
+"appinfo"
+{
+	"appid"		"1468370"
+	"common"
+	{
+		"name"		"Snow Strike"
+		"type"		"Game"
+		"icon"		"a2fee893c84428c42809cb31e6f345f65eee441f"
+		"logo"		"f6fcdf7d27b48f39181281ef47a58f3c332fdc0a"
+		"logo_small"		"f6fcdf7d27b48f39181281ef47a58f3c332fdc0a_thumb"
+		"clienticon"		"afff0e5b2cad5d5fa48c233e0b7578ab6704bde9"
+		"clienttga"		"a9e8f2c60016d010889c0a9adf2bbe8c6da4c574"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"67.09302325581396"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"67.09302325581396"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1604590516"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Epyx, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Pixel Games UK"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"644223600"
+		"steam_release_date"		"1607675174"
+		"community_hub_visible"		"1"
+		"gameid"		"1468370"
+		"store_tags"
+		{
+			"0"		"15045"
+			"1"		"1663"
+			"2"		"19"
+			"3"		"4004"
+			"4"		"599"
+			"5"		"4191"
+			"6"		"4168"
+			"7"		"92092"
+			"8"		"1774"
+			"9"		"3839"
+			"10"		"9803"
+			"11"		"11104"
+			"12"		"3964"
+			"13"		"3993"
+			"14"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Epyx, Inc."
+		"publisher"		"Pixel Games UK"
+	}
+	"config"
+	{
+		"installdir"		"Snow Strike"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox.exe"
+				"arguments"		"-conf strike.conf -noconsole"
+				"description"		"original resolution"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox.exe"
+				"arguments"		"-conf strike720.conf -noconsole"
+				"description"		"720p resolution"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"DOSBox.exe"
+				"arguments"		"-conf strike1080.conf -noconsole"
+				"description"		"1080p resolution"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1468371"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7417936533947729400"
+					"size"		"4519958"
+					"download"		"1602000"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5875257"
+				"timeupdated"		"1606229379"
+			}
+		}
+	}
+}
