@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"623810"
+	"common"
+	{
+		"name"		"Rabbit Story"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"76dbc1245eb3b2ce2702076449df72bb9a5b089f"
+		"logo_small"		"76dbc1245eb3b2ce2702076449df72bb9a5b089f_thumb"
+		"icon"		"aeeb70af8cc0b36c5616c603a9c10709b9a9dd12"
+		"clienticon"		"ea85d7016c166d7808d772fe84af3336279e2aaa"
+		"clienttga"		"3f0aeaf0a0c85d204a060f5c5f3cd5877b185dae"
+		"releasestate"		"released"
+		"metacritic_name"		"Rabbit Story"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0505bc7e7eafcfd90b57467b4d700ec3b20db98d.jpg"
+		"store_asset_mtime"		"1492558474"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Slava Bushuev"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Slava Bushuev"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1494918000"
+		"steam_release_date"		"1494972306"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"623810"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+			"3"		"4726"
+			"4"		"1742"
+			"5"		"5984"
+			"6"		"4305"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"Slava Bushuev"
+		"publisher"		"Slava Bushuev"
+		"homepage"		"http://www.rabbit-story.com/"
+	}
+	"config"
+	{
+		"installdir"		"Rabbit Story"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RabbitStory.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"RabbitStory.app\\Contents\\MacOS\\RabbitStory"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"623811"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3438602505524363103"
+					"size"		"1020960838"
+					"download"		"427682384"
+				}
+			}
+		}
+		"623812"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4412436091551257299"
+					"size"		"1159764090"
+					"download"		"419393184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1824394"
+				"timeupdated"		"1494921369"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"RabbitStory/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
