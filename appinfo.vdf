@@ -1,0 +1,265 @@
+"appinfo"
+{
+	"appid"		"243280"
+	"common"
+	{
+		"name"		"Poof"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"1f37d2aa04491f43e11b5ef3665d7ab580c4fea7"
+		"clienttga"		"a7e7394dc4da2c3d33787eda22a02a6c693ab5ad"
+		"logo"		"6ef97e810f2aa82ba32e6997d38b0e03ee589532"
+		"logo_small"		"6ef97e810f2aa82ba32e6997d38b0e03ee589532_thumb"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"8f0744414cbdfed32110e7d07ab61a92eeeec02e"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"InvitedPartnerApp0"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6a877e8fecde72336389875f89cab77d075f3f44.jpg"
+		"store_asset_mtime"		"1416319984"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Arkedo"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Neko Entertainment"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1383934920"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"243280"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"9"
+			"3"		"1625"
+			"4"		"1645"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Arkedo"
+		"gamedir"		"ValveTestApp243280"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Neko Entertainment"
+		"listofdlc"		"273680"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Poof"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"POOF.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Poof_MonoGame.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Poof.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"installscriptsignature"		"74e07b33827aa20d42fd1d20f7b7e137c2a1835f639d1a314c038818883aadaa1ec25a550d2b6347e80f1e4c675087c1e178883f632580e01ec17cb45a0e28fea2b6edd87892ccda9968ba3bf70c7c4aa575464b32b79d193b8365ade22a60cd0e6b5456c768a172ad1874ef138dae9b3ebe392059fb02abebe41c8f0549a010"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"install"
+			{
+				"process 1"		"%INSTALLDIR%\\Redist\\dotNetFx40_Full_setup.exe"
+				"command 1"		"/norestart /passive"
+				"description"		".NET 4.0 Framework"
+				"nocleanup"		"1"
+			}
+			"xna"
+			{
+				"process 1"		"msiexec.exe"
+				"command 1"		"/quiet /i \"%INSTALLDIR%\\Redist\\xnafx40_refresh_redist.msi\""
+				"description"		"XNA 4.0"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"description"		"DirectX"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"243281"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5987548658059001915"
+					"size"		"63628023"
+					"download"		"0"
+				}
+			}
+		}
+		"243282"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2776917256202997593"
+					"size"		"325254029"
+					"download"		"0"
+				}
+			}
+		}
+		"243283"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8759878888954255540"
+					"size"		"355652641"
+					"download"		"0"
+				}
+			}
+		}
+		"273680"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8494690901491214226"
+					"size"		"50581984"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"273680"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"263496"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"5"
+	}
+}
