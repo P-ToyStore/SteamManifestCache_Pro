@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"1208090"
+	"common"
+	{
+		"name"		"Herbalist simulator"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"74c01978636470c1477b2e1f4d34c30a413441fa"
+		"clienticon"		"316407d797d29fd3909c68d54a22c12f4cdea470"
+		"icon"		"3ff20ef6bc7148b0e7b94b63b59dee14929851c9"
+		"logo"		"3dfa3c1947712f3e6fd40666073010c0a6a72063"
+		"logo_small"		"3dfa3c1947712f3e6fd40666073010c0a6a72063_thumb"
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"openvrsupport"		"1"
+		"metacritic_name"		"Herbalist Simulator"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1579710703"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"EJRGames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"EJRGames"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1579731061"
+		"community_hub_visible"		"1"
+		"gameid"		"1208090"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"597"
+			"2"		"492"
+			"3"		"21"
+			"4"		"4202"
+			"5"		"10235"
+			"6"		"1100688"
+			"7"		"3839"
+			"8"		"21978"
+			"9"		"4191"
+			"10"		"30358"
+			"11"		"5794"
+			"12"		"1702"
+			"13"		"4182"
+		}
+		"review_score"		"4"
+		"review_percentage"		"23"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"EJRGames"
+		"publisher"		"EJRGames"
+	}
+	"config"
+	{
+		"installdir"		"SymulatorZielarza"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SymulatorZielarza.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SymulatorZielarza.exe"
+				"arguments"		"WinVR"
+				"description"		"VR version"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1208091"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2336647466467321116"
+					"size"		"349427252"
+					"download"		"123866832"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4651793"
+				"timeupdated"		"1581072583"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Zapis"
+				"pattern"		"*.dat"
+			}
+		}
+	}
+}
