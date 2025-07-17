@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"671260"
+	"common"
+	{
+		"name"		"GOKEN"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"561081f5aa78de352aa2ae48fcb3c776bb2a743c"
+		"logo_small"		"561081f5aa78de352aa2ae48fcb3c776bb2a743c_thumb"
+		"icon"		"b065c934c277e7d55eba297038a2bdd7dec20f86"
+		"clienttga"		"3b49026be908af2e16cb3efa4ed1b49d91c35d67"
+		"clienticon"		"7c37faf514961c99285159d53a5830a3fb7c15ee"
+		"eulas"
+		{
+		}
+		"linuxclienticon"		"7c0020a84c3b111e4138043b88dd988f1e7943e2"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"GOKEN"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1aa9f69da7961892258dacf98190aa421a0609d6.jpg"
+		"store_asset_mtime"		"1508394456"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"GIANTY Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"GIANTY Inc."
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1506650476"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"671260"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"122"
+			"2"		"4231"
+			"3"		"1695"
+			"4"		"4434"
+			"5"		"493"
+			"6"		"1742"
+			"7"		"4085"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"developer"		"GIANTY Inc."
+		"publisher"		"GIANTY Inc."
+		"homepage"		"https://www.gianty.co.jp/goken/"
+		"listofdlc"		"715770"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"GOKEN"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GOKEN.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"GOKEN.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"4"
+	}
+	"depots"
+	{
+		"671261"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1518743092661254786"
+					"size"		"4157407340"
+					"download"		"878813696"
+				}
+			}
+		}
+		"671262"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1251295589650193815"
+					"size"		"4161971332"
+					"download"		"878758560"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2214900"
+				"timeupdated"		"1508486641"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Gianty/Goken"
+				"pattern"		"*.dat"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Gianty/Goken"
+				"pattern"		"*.dll"
+			}
+		}
+		"rootoverrides"
+		{
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Gianty/Goken"
+						"replace"		".config/unity3d/Gianty/Goken"
+					}
+				}
+			}
+		}
+	}
+}
