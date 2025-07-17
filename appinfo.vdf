@@ -1,0 +1,177 @@
+"appinfo"
+{
+	"appid"		"713170"
+	"common"
+	{
+		"name"		"unBorn"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"ba8fa523539cfddcca4d8cd8198799ec225c1dfa"
+		"clienttga"		"0ebbac85454b29e9d6e88d887e7b8e85f829c543"
+		"icon"		"d3264bc70081ec76caa8b4b2d54b3b17b8478e13"
+		"clienticns"		"7791827cf7291f5ec99a3d59b0f4cb0cfb7cef9b"
+		"linuxclienticon"		"e0166138680dafabf2f1b5759b99040453281505"
+		"logo"		"a3e007f25b0add5725c9048b17b61f69c1cd9b48"
+		"logo_small"		"a3e007f25b0add5725c9048b17b61f69c1cd9b48_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"unBorn"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5e648d93eb14d8a23fc4f320c7c5e0873b4fa45e.jpg"
+		"store_asset_mtime"		"1523141581"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Frenetic Gaming"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Frenetic Gaming"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1531119600"
+		"steam_release_date"		"1531616202"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"713170"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"599"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"developer"		"Frenetic Gaming"
+		"publisher"		"Frenetic Gaming"
+		"homepage"		"http://freneticgaming.board-directory.net/h5-unborn"
+	}
+	"config"
+	{
+		"installdir"		"unBorn"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"unBorn.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"game.ios"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"baselanguages"		"english"
+		"713171"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5194526092320762139"
+					"size"		"218224761"
+					"download"		"141147040"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4010773"
+				"timeupdated"		"1563136984"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"3"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"unBorn"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxXdgConfigHome"
+				"path"		"unBorn"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"MacHome"
+				"path"		"unBorn"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
