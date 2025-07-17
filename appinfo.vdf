@@ -1,0 +1,199 @@
+"appinfo"
+{
+	"appid"		"413740"
+	"common"
+	{
+		"name"		"Mines of Mars"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"icon"		"c31f05578710c65cee2e89a2ed5cee261db8673a"
+		"clienttga"		"9d9fa86a3950afa1995c4ad822ec80e5691add03"
+		"logo"		"2d9c140d0397f2bf1283e65e163d1cdd15a730cc"
+		"logo_small"		"2d9c140d0397f2bf1283e65e163d1cdd15a730cc_thumb"
+		"clienticon"		"c83bde5372630be935fc43b26e6f964ab9e977c4"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Mines of Mars"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_59e1c9bb8ab65290d96facbb1c9134a1a8194744.jpg"
+		"store_asset_mtime"		"1445619269"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Wickey Ware"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Crescent Moon Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1536610793"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"413740"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1625"
+			"2"		"5981"
+		}
+		"review_score"		"5"
+		"review_percentage"		"58"
+	}
+	"extended"
+	{
+		"developer"		"Wickey Ware"
+		"publisher"		"Crescent Moon Games"
+		"homepage"		"http://www.crescentmoongames.com/wordpress/mines-of-mars"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Mines of Mars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MoM.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"MoM.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"MoM.exe"
+				"arguments"		"-windowed"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"413742"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8312279942098135343"
+					"size"		"77871029"
+					"download"		"56082544"
+				}
+			}
+		}
+		"413743"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5609197682845743423"
+					"size"		"65441278"
+					"download"		"56919136"
+				}
+			}
+		}
+		"413741"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3699284"
+				"timeupdated"		"1554143808"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"WickeyWare, LLC/MoM/Documents"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"MoM/Documents"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
