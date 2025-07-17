@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"516410"
+	"common"
+	{
+		"name"		"Football Blitz"
+		"type"		"Game"
+		"logo"		"9689012d040588e33e2cab775a8ed02091685bbd"
+		"logo_small"		"9689012d040588e33e2cab775a8ed02091685bbd_thumb"
+		"clienticon"		"068cba4a86bd14f4c6d69d9eb86075b1582f430e"
+		"clienttga"		"1a00792ed513d0a01a0c299aa54e89868ec720ae"
+		"icon"		"6c3031c7e7367816fe42b855ecf98a1ca91c6cd3"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"eulas"
+		{
+		}
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Football Blitz"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"54.90081680280048"
+				"height_pct"		"94.83282466840544"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"54.90081680280048"
+					"height_pct"		"94.83282466840544"
+				}
+			}
+		}
+		"store_asset_mtime"		"1561670569"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Applava"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Applava"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_37"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1483535311"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"516410"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"19"
+			"2"		"492"
+			"3"		"701"
+		}
+		"review_score"		"5"
+		"review_percentage"		"69"
+	}
+	"extended"
+	{
+		"developer"		"Applava"
+		"publisher"		"Applava"
+		"homepage"		"https://www.applava.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Football Blitz"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FootballBlitz.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"FootballBlitz.app\\Contents\\MacOS\\FootballBlitz"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"516411"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5756409335310949270"
+					"size"		"369403815"
+					"download"		"110102128"
+				}
+			}
+		}
+		"516412"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6607314284637054309"
+					"size"		"382112925"
+					"download"		"111986432"
+				}
+			}
+		}
+		"workshopdepot"		"516410"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1568099"
+				"timeupdated"		"1484335289"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"UAB Applava/Football Blitz"
+						"replace"		"UAB Applava/Football Blitz"
+					}
+				}
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"UAB Applava/Football Blitz"
+				"pattern"		"FootballBlitz.applava"
+			}
+		}
+	}
+}
