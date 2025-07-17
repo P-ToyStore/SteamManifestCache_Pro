@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"614880"
+	"common"
+	{
+		"name"		"Battle for Enlor"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"9a76b37f87b9f1735e606be15a9a0239e1122133"
+		"logo_small"		"9a76b37f87b9f1735e606be15a9a0239e1122133_thumb"
+		"icon"		"f4454d1e67ca7e2e3ffa4a07574753f61a871c73"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"clienttga"		"0df4fb956fcaffb2464de23a196b065257e073d5"
+		"clienticon"		"24f6ded3bbb93dd1eae0095e8a4ae90a28fb493d"
+		"linuxclienticon"		"880fb1a55c58376b140c827139f5cb78224da723"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Battle for Enlor"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"40.21672044498588"
+				"height_pct"		"91.28440064381647"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"40.21672044498588"
+					"height_pct"		"91.28440064381647"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1666993344"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sonera Game Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sonera Game Studio"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1492610425"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"614880"
+		"store_tags"
+		{
+			"0"		"9"
+		}
+		"review_score"		"4"
+		"review_percentage"		"27"
+	}
+	"extended"
+	{
+		"developer"		"Sonera Game Studio"
+		"publisher"		"Sonera Game Studio"
+		"homepage"		"http://www.sonerags.com/"
+	}
+	"config"
+	{
+		"installdir"		"Battle for Enlor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Battle for Enlor.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Battle_for_Enlor/runner"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"614881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"622176532950617182"
+					"size"		"97274760"
+					"download"		"78017360"
+				}
+			}
+		}
+		"614882"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8918396998461952415"
+					"size"		"95979386"
+					"download"		"77364768"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3402795"
+				"timeupdated"		"1544974546"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Battle_for_Enlor"
+				"pattern"		"savedata.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Battle_for_Enlor"
+				"pattern"		"savedata.ini"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
