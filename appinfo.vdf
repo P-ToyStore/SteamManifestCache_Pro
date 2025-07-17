@@ -1,0 +1,93 @@
+"appinfo"
+{
+	"appid"		"916500"
+	"common"
+	{
+		"name"		"Supreme Ruler - Content Editor"
+		"type"		"Tool"
+		"parent"		"314980"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"f32ab1e18de98fc6c6e690de710063017844f833"
+		"clienttga"		"c18bd4976536b059a5139b3931b13bf30a210adf"
+		"icon"		"498f0953d6ff3b7cad70e2d5b3ccdd38ef415e4b"
+		"logo"		"34c678626f52051098d28c76a344d065f1517696"
+		"logo_small"		"34c678626f52051098d28c76a344d065f1517696_thumb"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"916500"
+	}
+	"config"
+	{
+		"installdir"		"Supreme Ruler Content Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ContentEditor.exe"
+				"description"		"Content Editor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"916501"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7645058577794041575"
+					"size"		"8815889"
+					"download"		"3689616"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4912712"
+				"timeupdated"		"1587172949"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.jpg"
+			}
+		}
+	}
+}
