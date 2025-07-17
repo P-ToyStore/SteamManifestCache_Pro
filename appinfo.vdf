@@ -1,0 +1,251 @@
+"appinfo"
+{
+	"appid"		"421260"
+	"common"
+	{
+		"name"		"Militia"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"a2dee87f6c8f976feb7d42d8f78b72db8eb16e09"
+		"logo_small"		"a2dee87f6c8f976feb7d42d8f78b72db8eb16e09_thumb"
+		"icon"		"633aa10c00e00c7185aef85fdd9f10fd39f01ddc"
+		"clienticon"		"d2eb63888067550ae6d282eadea4399ebcaba201"
+		"clienttga"		"e384a817d520d54f581a169802bcedd216f8f622"
+		"releasestate"		"released"
+		"metacritic_name"		"Militia"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b99b3affe8edad9f6d0e04dd45100f9bd39a6fd0.jpg"
+		"store_asset_mtime"		"1448819702"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BrainGoodGames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BrainGoodGames"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1449089754"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"421260"
+		"store_tags"
+		{
+			"0"		"14139"
+			"1"		"1677"
+			"2"		"1770"
+			"3"		"1741"
+			"4"		"17389"
+			"5"		"9"
+			"6"		"3871"
+			"7"		"5125"
+			"8"		"1664"
+			"9"		"4400"
+			"10"		"4094"
+			"11"		"3964"
+			"12"		"1684"
+			"13"		"1708"
+			"14"		"4004"
+			"15"		"4026"
+			"16"		"4182"
+			"17"		"4184"
+			"18"		"492"
+			"19"		"25085"
+		}
+		"review_score"		"8"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"BrainGoodGames"
+		"publisher"		"BrainGoodGames"
+		"homepage"		"http://www.braingoodgames.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Militia"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"militia.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"militia.app\\Contents\\MacOS\\militia"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"militia.x86_64"
+				"arguments"		"-force-opengl -show-screen-selector"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"militia.x86"
+				"arguments"		"-force-opengl -show-screen-selector"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"421261"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"88403554956252120"
+					"size"		"59030050"
+					"download"		"25989648"
+				}
+			}
+		}
+		"421262"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3132001031598303873"
+					"size"		"111221298"
+					"download"		"39494928"
+				}
+			}
+		}
+		"421263"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6277839680942649635"
+					"size"		"108397875"
+					"download"		"40927952"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2714695"
+				"timeupdated"		"1524518521"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"militia_Data/SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"militia.app/Contents/SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"militia_Data/SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
