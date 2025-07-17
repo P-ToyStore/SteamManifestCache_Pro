@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"354930"
+	"common"
+	{
+		"name"		"Slinki"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"clienticon"		"94b101828613da1e995a9e787399d79a6cae37e6"
+		"clienttga"		"4457b4ac3c972d5218a6b94c6e782e22707cdc05"
+		"icon"		"c7af4edde56c87f3cf6ea20a471247e86855355d"
+		"linuxclienticon"		"941af24786c4a97f5d7e64433b3c8fa5d9502f9f"
+		"logo"		"57e7163a6177bd43266785cc5f3442869b0a10c6"
+		"logo_small"		"57e7163a6177bd43266785cc5f3442869b0a10c6_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Slinki"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_74462a1dd9c8671fef21455fb13ded47d1534dc4.jpg"
+		"store_asset_mtime"		"1428919615"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Titan Forged Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Titan Forged Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1429081200"
+		"steam_release_date"		"1429117028"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"354930"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"1625"
+		}
+		"review_score"		"5"
+		"review_percentage"		"58"
+	}
+	"extended"
+	{
+		"developer"		"Titan Forged Games"
+		"publisher"		"Titan Forged Games"
+		"homepage"		"http://titanforgedgames.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Slinki"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Slinki.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Slinki.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Slinki.x86_64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"354931"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2920997377226625580"
+					"size"		"579771140"
+					"download"		"178822608"
+				}
+				"beta"
+				{
+					"gid"		"6007127181564759092"
+					"size"		"579684778"
+					"download"		"178791344"
+				}
+			}
+		}
+		"354932"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9181699851079364279"
+					"size"		"600430775"
+					"download"		"188459424"
+				}
+				"beta"
+				{
+					"gid"		"1854467235747246106"
+					"size"		"600348319"
+					"download"		"188455696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"635225"
+			}
+			"beta"
+			{
+				"buildid"		"4682565"
+				"description"		"Experimental build"
+				"timeupdated"		"1581888190"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"8388608"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"path"		"Titan Forged Games/Slinki"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"Titan Forged Games/Slinki"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
