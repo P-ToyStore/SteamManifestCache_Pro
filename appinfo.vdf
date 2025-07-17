@@ -1,0 +1,85 @@
+"appinfo"
+{
+	"appid"		"3601870"
+	"common"
+	{
+		"name"		"Project DeepWeb Artbook Legacy"
+		"type"		"Tool"
+		"parent"		"975620"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"clienticon"		"f077641afce1984e89ce2efa250181717bef3ce4"
+		"clienttga"		"787040e516f1b348714398988eeab5282c841877"
+		"icon"		"4ee235e7333f345ca176c3b54ea7a90347eaa563"
+		"releasestate"		"released"
+		"gameid"		"3601870"
+	}
+	"config"
+	{
+		"installdir"		"Project DeepWeb Artbook Legacy"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"artbook/Project DeepWeb Artbook.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Project DeepWeb Artbook.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1466981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"dlcappid"		"1466980"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5690794397784427789"
+					"size"		"1182844355"
+					"download"		"1034852032"
+				}
+			}
+			"depotfromapp"		"1466980"
+		}
+		"1466982"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2409720268116820829"
+					"size"		"1180103732"
+					"download"		"1015820016"
+				}
+			}
+			"dlcappid"		"1466980"
+			"depotfromapp"		"1466980"
+		}
+		"branches"
+		{
+		}
+	}
+}
