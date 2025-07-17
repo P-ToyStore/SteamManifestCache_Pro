@@ -1,0 +1,255 @@
+"appinfo"
+{
+	"appid"		"33340"
+	"common"
+	{
+		"name"		"Dawn of Discovery - Venice"
+		"clienticon"		"db924caff9012e37aa29c2ab5a60dc11ac055e2a"
+		"clienttga"		"ed9547226af11d93e4ae9c62ac156e4283b6bacd"
+		"icon"		"eea0f486f11af4379355635a8a833f9dfe6ebd37"
+		"logo"		"a69ea75bc0d8eb3c0b7b35fc6559625b88e77ba4"
+		"logo_small"		"a69ea75bc0d8eb3c0b7b35fc6559625b88e77ba4_thumb"
+		"app_retired_publisher_request"		"1"
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1654041600"
+			"tested_build_id"		"185246"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Dawn of Discovery: Venice"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e7b6733bad985cbf7544ce8f1c02f037b4df45fd.jpg"
+		"store_asset_mtime"		"1392421288"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blue Byte"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Related Designs"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Ubisoft"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"943948800"
+		"steam_release_date"		"1267117200"
+		"metacritic_score"		"78"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dawn-of-discovery-venice?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"33340"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"4328"
+			"2"		"599"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"dependantonapp"		"33210"
+		"developer"		"Blue Byte"
+		"gamedir"		"Dawn of Discovery"
+		"homepage"		"http://dawnofdiscoverygame.us.ubi.com/pc/"
+		"icon"		""
+		"installscript"		"33340_install.vdf"
+		"languages"		"english,french,spanish"
+		"legacykeydisklocation"		"serial.txt"
+		"legacykeyregistrationmethod"		"disk"
+		"mustownapptopurchase"		"33210"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"33211"
+		"serverbrowsername"		""
+		"showcdkeyinmenu"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Ubisoft"
+		"gamemanualurl"		"https://store.steampowered.com/manual/33340/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dawn of Discovery"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Addon.exe"
+			}
+			"1"
+			{
+				"description"		"Play Dawn of Discovery"
+				"executable"		"Anno4.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english,french,spanish"
+		"33211"
+		{
+			"systemdefined"		"1"
+			"depotfromapp"		"33210"
+			"sharedinstall"		"2"
+		}
+		"33212"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"104836871893350242"
+					"size"		"593099887"
+					"download"		"0"
+				}
+			}
+		}
+		"33217"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"depotfromapp"		"33210"
+			"sharedinstall"		"2"
+		}
+		"33216"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"depotfromapp"		"33210"
+			"sharedinstall"		"2"
+		}
+		"33215"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"depotfromapp"		"33210"
+			"sharedinstall"		"2"
+		}
+		"33213"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7461810927083559136"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"33214"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6348357004246606250"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"185246"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
