@@ -1,0 +1,406 @@
+"appinfo"
+{
+	"appid"		"1013070"
+	"common"
+	{
+		"name"		"Estellium Legends"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"5d92b3c62436c4a0d3eeb6c089e5f0fa830b5570"
+		"logo_small"		"5d92b3c62436c4a0d3eeb6c089e5f0fa830b5570_thumb"
+		"icon"		"d2e5a1c1e554f9fa90825118be7fcab8b3067674"
+		"clienttga"		"6dd0530e4d8c9c0b0c9a7932cc7b0cd85b0136db"
+		"clienticon"		"18fb4fce15f329f05defc893cbdfd37d31e0f0e9"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"5"
+			"3"		"4"
+		}
+		"restricted_countries"		"CN,DE"
+		"metacritic_name"		"Estellium Legends"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"53.73395565927654"
+				"height_pct"		"63.29787172367957"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"53.73395565927654"
+					"height_pct"		"63.29787172367957"
+				}
+			}
+		}
+		"store_asset_mtime"		"1576625077"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Team Syukino"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Team Syukino"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1549332784"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1013070"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"4"
+			"3"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"6650"
+			"2"		"12095"
+			"3"		"4085"
+			"4"		"4434"
+			"5"		"3841"
+			"6"		"5577"
+		}
+		"review_score"		"5"
+		"review_percentage"		"55"
+	}
+	"extended"
+	{
+		"developer"		"Team Syukino"
+		"publisher"		"Team Syukino"
+		"listofdlc"		"1028650,1068810,1164950"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Estellium Legends"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"--in-process-gpu"
+				"description"		"with BPP II DLC (Windows)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1164950"
+				}
+			}
+			"2"
+			{
+				"executable"		"Game.app"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"--in-process-gpu"
+				"description"		"with BPP 1 DLC (Windows)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1068810"
+				}
+			}
+			"5"
+			{
+				"executable"		"Game.app"
+				"arguments"		"--in-process-gpu"
+				"description"		"with BPP 1 DLC (Mac)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"1068810"
+				}
+			}
+			"7"
+			{
+				"executable"		"Game.app"
+				"arguments"		"--in-process-gpu"
+				"description"		"with BPP II DLC (Mac)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"1164950"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1013071"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3626433741140021848"
+					"size"		"4604853505"
+					"download"		"1301946992"
+				}
+			}
+		}
+		"1013072"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9193964615580813499"
+					"size"		"1378573525"
+					"download"		"1178512848"
+				}
+			}
+		}
+		"1013074"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7263841321313113978"
+					"size"		"1723320541"
+					"download"		"1185094368"
+				}
+			}
+		}
+		"1013075"
+		{
+			"dlcappid"		"1068810"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3217335411869366459"
+					"size"		"1378573527"
+					"download"		"1178512864"
+				}
+			}
+		}
+		"1013077"
+		{
+			"dlcappid"		"1068810"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1567865999335936412"
+					"size"		"1723320543"
+					"download"		"1185094368"
+				}
+			}
+		}
+		"1068810"
+		{
+			"dlcappid"		"1068810"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7814726902652153487"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"1028651"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"1164950"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7904031478687260045"
+					"size"		"1378573527"
+					"download"		"1178512848"
+				}
+			}
+		}
+		"1028652"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"dlcappid"		"1164950"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7959735449029270610"
+					"size"		"1723320543"
+					"download"		"1185094368"
+				}
+			}
+		}
+		"1164950"
+		{
+			"dlcappid"		"1164950"
+		}
+		"1068811"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7016933280699078374"
+					"size"		"1378573528"
+					"download"		"1178512864"
+				}
+			}
+		}
+		"1068813"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4768238805446129575"
+					"size"		"1723320544"
+					"download"		"1188173200"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4230581"
+				"timeupdated"		"1569477200"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
