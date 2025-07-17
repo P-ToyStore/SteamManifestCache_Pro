@@ -1,0 +1,247 @@
+"appinfo"
+{
+	"appid"		"1306900"
+	"common"
+	{
+		"name"		"BadBee"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"f4ebbb9c49811e4986d806372b29a92704c83297"
+		"logo_small"		"f4ebbb9c49811e4986d806372b29a92704c83297_thumb"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"icon"		"514e431ddda785a10bfc59641d4745e96b146a26"
+		"clienticon"		"aff5fbd0cd0c36a9e035427acbbfdc05faa435ca"
+		"clienttga"		"e1a10b508ef5e460cb5e113f2b60b8f8792c657b"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"32.590529987875854"
+				"height_pct"		"48.864711447492894"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"32.590529987875854"
+					"height_pct"		"48.864711447492894"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667099612"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Arthavan Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bayam Software"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_43"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"vietnamese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1595574000"
+		"steam_release_date"		"1595637008"
+		"community_hub_visible"		"1"
+		"gameid"		"1306900"
+		"store_tags"
+		{
+			"0"		"5379"
+			"1"		"597"
+			"2"		"5537"
+			"3"		"1687"
+			"4"		"1773"
+			"5"		"21"
+			"6"		"9"
+			"7"		"3871"
+			"8"		"4726"
+			"9"		"19"
+			"10"		"1708"
+			"11"		"4182"
+			"12"		"493"
+			"13"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Arthavan Studio"
+		"publisher"		"Bayam Software"
+		"homepage"		"https://bayamsoftware.com/badbee/"
+	}
+	"config"
+	{
+		"installdir"		"BadBee"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BadBee.exe"
+				"description"		"Launch Windows"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BadBee.app\\Contents\\MacOS\\BadBee"
+				"description"		"Launch Mac"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1306901"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2280962502120234895"
+					"size"		"756942079"
+					"download"		"90518336"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5339125"
+				"timeupdated"		"1595901443"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Bayam Software/BadBee"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"/Library/Application Support/com.BayamSoftware.BadBee"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
