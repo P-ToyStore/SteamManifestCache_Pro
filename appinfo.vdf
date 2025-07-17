@@ -1,0 +1,232 @@
+"appinfo"
+{
+	"appid"		"366400"
+	"common"
+	{
+		"name"		"Dead Star"
+		"type"		"Game"
+		"oslist"		"windows"
+		"eulas"
+		{
+		}
+		"clienticon"		"c941944c1c795d6499f250596f7f9ba209057d32"
+		"clienttga"		"937682845e0f324088b2bd2a1ccb325f00b194af"
+		"icon"		"fb45c52b829975694bb8d11565d494f9db6e228e"
+		"logo"		"21a93e5279d7fd30527c485c230a4ef90f981078"
+		"logo_small"		"21a93e5279d7fd30527c485c230a4ef90f981078_thumb"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"brazilian"		"1"
+		}
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Dead Star"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0aed76cbca8783b469baf0fcb5fc8173d53e1ee4.jpg"
+		"store_asset_mtime"		"1461960279"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Armature Studio, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Armature Studio, LLC"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_28"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_43"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1459839600"
+		"steam_release_date"		"1459870320"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"366400"
+		"store_tags"
+		{
+			"0"		"3859"
+			"1"		"1755"
+			"2"		"4637"
+			"3"		"492"
+			"4"		"19"
+			"5"		"4758"
+			"6"		"1718"
+			"7"		"1756"
+			"8"		"493"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"developer"		"Armature Studio, LLC"
+		"publisher"		"Armature Studio, LLC"
+		"homepage"		"http://www.DeadStarGame.com"
+		"listofdlc"		"451440,451442,451443"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DeadStar"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bin64\\DeadStar.exe"
+				"arguments"		"-i $/needle/loaders/startup.sgpr -l $/needle/ui/loadingscreen/scripts/initial_loading_screen.sgpr -d $/needle_win.bpdeps -vc network_ServerAddress=\"auto\" -vc inputRequiresAppFocus=true"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,russian,brazilian"
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"366401"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6501477073037455584"
+					"size"		"3449448392"
+					"download"		"1311727520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1234898"
+				"timeupdated"		"1469542428"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"GameSettings.json"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"KeyMappings.json"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
