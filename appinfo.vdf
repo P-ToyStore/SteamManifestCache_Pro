@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"773510"
+	"common"
+	{
+		"name"		"The Hardest Thing"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"6964d9b59ad37a1d5d1138e95af8c31e83adfc2d"
+		"logo_small"		"6964d9b59ad37a1d5d1138e95af8c31e83adfc2d_thumb"
+		"icon"		"ae1f6e0c29b777003cfb6ed78d62dc6f35ade8bf"
+		"linuxclienticon"		"888f854bd28ca250de5943b895c8c76d3fbcfa5f"
+		"clienticon"		"a47a254befec697ddf117eea259c9f617dbb78f5"
+		"clienttga"		"7968aec5b2a75f41f90ccd02203250fb09d6a0f8"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"The Hardest Thing"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667143087"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ChillFun"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ChillFun"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1516227266"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"773510"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"9"
+			"2"		"21"
+			"3"		"597"
+			"4"		"1664"
+			"5"		"3968"
+			"6"		"3839"
+			"7"		"4182"
+			"8"		"4562"
+			"9"		"4026"
+			"10"		"5350"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"ChillFun"
+		"publisher"		"ChillFun"
+	}
+	"config"
+	{
+		"installdir"		"The Hardest Thing"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"THT.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"773511"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1965067351381874799"
+					"size"		"601297917"
+					"download"		"259786624"
+				}
+			}
+		}
+		"773512"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3337513"
+				"timeupdated"		"1543139267"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"THT_Data"
+				"pattern"		"*.json"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"THT_Data"
+						"replace"		"THT_Data"
+					}
+				}
+			}
+		}
+	}
+}
