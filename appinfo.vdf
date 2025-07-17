@@ -1,0 +1,181 @@
+"appinfo"
+{
+	"appid"		"358330"
+	"common"
+	{
+		"name"		"Pharaoh's Tomb"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"1cf9e181dabfd18373392a7062e0dec50db5f7ee"
+		"logo_small"		"1cf9e181dabfd18373392a7062e0dec50db5f7ee_thumb"
+		"oslist"		"windows,macos"
+		"clienticon"		"c17bbb50cc9df1907b262a1ce09a6eeb8f648f41"
+		"clienttga"		"1ba02feabfabcaa2859312ead03dc73cb8bf320e"
+		"icon"		"67fdb0bb83105a6aeb477f4e256bdd62b3557f16"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Pharaoh's Tomb"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8ee3c31e611c2c0e51a3e83620ce445c1a7524d8.jpg"
+		"store_asset_mtime"		"1430809851"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3D Realms (Apogee Software)"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms (Apogee Software)"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"661161600"
+		"steam_release_date"		"1399309200"
+		"community_hub_visible"		"1"
+		"gameid"		"358330"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1625"
+		}
+		"review_score"		"5"
+		"review_percentage"		"51"
+	}
+	"extended"
+	{
+		"developer"		"3D Realms (Apogee Software)"
+		"publisher"		"3D Realms (Apogee Software)"
+		"homepage"		"https://3drealms.com/catalog/pharaohs-tomb_46/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/358330/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Pharaoh's Tomb"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Pharaoh's tomb\\dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\TOMB.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Pharaoh's tomb\\dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Pharaoh's Tomb.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\TOMB.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"358331"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4119993026028129101"
+					"size"		"28077649"
+					"download"		"11209360"
+				}
+			}
+		}
+		"358332"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5681530581069515841"
+					"size"		"6503179"
+					"download"		"2623312"
+				}
+			}
+		}
+		"358333"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8225457948645775154"
+					"size"		"8100892"
+					"download"		"3301504"
+				}
+			}
+		}
+		"358282"
+		{
+			"depotfromapp"		"358280"
+			"sharedinstall"		"1"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"606144"
+			}
+		}
+	}
+}
