@@ -1,0 +1,254 @@
+"appinfo"
+{
+	"appid"		"545660"
+	"common"
+	{
+		"name"		"Roofbot"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"8619a262b76c6931ba37a0cb4f400d2cef69589d"
+		"logo_small"		"8619a262b76c6931ba37a0cb4f400d2cef69589d_thumb"
+		"icon"		"e3d600df65b1c09c69c11b8fbe76182577c34050"
+		"clienttga"		"a1589062b7b85c1cb9a834287893b6b279ca73e5"
+		"clienticon"		"8689d61b9da450a9fa4dba84d3cf8d55afbb4ae7"
+		"linuxclienticon"		"071b5903b22b1c005f43522abd66cc92e5252039"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Roofbot"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_aae1188ad111b74d31443a5aca8075c109d266b1.jpg"
+		"store_asset_mtime"		"1487089079"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Koreez"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Double Coconut"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1487318400"
+		"steam_release_date"		"1487344538"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"545660"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"21"
+			"3"		"1664"
+			"4"		"1654"
+			"5"		"1756"
+		}
+		"review_score"		"7"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"Koreez"
+		"publisher"		"Double Coconut"
+		"homepage"		"http://doublecoconut.com/roofbot/"
+	}
+	"config"
+	{
+		"installdir"		"Roofbot"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Roofbot.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Roofbot.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"545661"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4274806719996840162"
+					"size"		"312376070"
+					"download"		"106571024"
+				}
+			}
+		}
+		"545662"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9001354892011210312"
+					"size"		"322990380"
+					"download"		"108797792"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1672759"
+				"timeupdated"		"1488960513"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"path"		"doublecoconut/Roofbot"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"doublecoconut/Roofbot"
+						"replace"		"doublecoconut/Roofbot"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"doublecoconut/Roofbot"
+						"replace"		".config/doublecoconut/Roofbot"
+					}
+				}
+			}
+		}
+	}
+}
