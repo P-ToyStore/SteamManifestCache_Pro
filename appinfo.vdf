@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"729090"
+	"common"
+	{
+		"name"		"Tropical Escape"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"50cf23eaa04083f889ec057f99f90684096db55d"
+		"logo_small"		"50cf23eaa04083f889ec057f99f90684096db55d_thumb"
+		"clienticon"		"950bee2a16ccec3631d91eec526bd2bdd3cb32ad"
+		"clienttga"		"8b4376a56a3e1c5fda1a9d6a081be0df135734e9"
+		"icon"		"47ce9fffbb83645926e8a884278afe774602218e"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Tropical Escape"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a84cd7f346bc9d31acacf071ddf8c154965e7a77.jpg"
+		"store_asset_mtime"		"1515540792"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Stefan Stankovic"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Nikola Lackovic"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Stefan Stankovic"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Nikola Lackovic"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"73"
+			"1"		"1"
+			"2"		"25"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1518734043"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"729090"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"4667"
+			"3"		"492"
+			"4"		"1695"
+			"5"		"1702"
+			"6"		"1643"
+			"7"		"4182"
+			"8"		"1662"
+			"9"		"3834"
+			"10"		"3839"
+			"11"		"4175"
+		}
+		"review_score"		"4"
+		"review_percentage"		"29"
+	}
+	"extended"
+	{
+		"developer"		"Stefan Stankovic"
+		"publisher"		"Stefan Stankovic"
+		"homepage"		"http://tropicescape.weebly.com/"
+	}
+	"config"
+	{
+		"installdir"		"Tropical Escape"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TropicalEscape.exe"
+				"arguments"		"-Iowres⠀ -benchIeveI -command"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"729091"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8290769766331341668"
+					"size"		"10267201972"
+					"download"		"3939202912"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2577382"
+				"timeupdated"		"1520270971"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20500000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"TropicalEscape/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
