@@ -1,0 +1,239 @@
+"appinfo"
+{
+	"appid"		"672490"
+	"common"
+	{
+		"name"		"DeDrive"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"19ecb923fb6678fad4ab9e8194c6e59f22b4519c"
+		"logo_small"		"19ecb923fb6678fad4ab9e8194c6e59f22b4519c_thumb"
+		"icon"		"7e3186a5955fa72ad791f653993a727ebc61b659"
+		"clienticon"		"b3bbc99741a05370577a129e9bf770acc71cb78a"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"clienttga"		"afc1312d24a6b295e1366f7f5084d9e2657446cc"
+		"osextended"		""
+		"market_presence"		"1"
+		"metacritic_name"		"DeDrive"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"65.89245627152589"
+				"height_pct"		"32.98651315581512"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"65.89245627152589"
+					"height_pct"		"32.98651315581512"
+				}
+			}
+		}
+		"store_asset_mtime"		"1560689101"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"rydeom"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Cobra"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"RYD-Company"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"9"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_25"		"1"
+			"category_49"		"1"
+			"category_30"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1527715134"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"672490"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"492"
+			"2"		"493"
+		}
+		"review_score"		"7"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		""
+		"developer"		"rydeom"
+		"publisher"		"RYD-Company"
+	}
+	"config"
+	{
+		"installdir"		"DeDrive"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DeDrive.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DeDrive_Linux_64bit.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"672491"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5930867106113988720"
+					"size"		"100896221"
+					"download"		"17699024"
+				}
+			}
+		}
+		"672492"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+			}
+		}
+		"workshopdepot"		"672490"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3429204"
+				"timeupdated"		"1545861524"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+		"appidredirect"		"672490"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
