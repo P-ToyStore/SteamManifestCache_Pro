@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"1375000"
+	"common"
+	{
+		"name"		"Valletine against Darkne"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"900f0d5457dcca788ced764dbf67119440b51a39"
+		"logo_small"		"900f0d5457dcca788ced764dbf67119440b51a39_thumb"
+		"icon"		"f6fd80bf99f0402056f567b51991222b7306fe16"
+		"clienticon"		"385798fdc473c6780126fd7700a2e1f3888e4091"
+		"clienttga"		"8d7ab2d38cc2333096f3707855c7131591e17a7a"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1375000_eula_0"
+				"name"		"Valletine against Darkne EULA"
+				"url"		"https://store.steampowered.com//eula/1375000_eula_0"
+				"version"		"4"
+			}
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"brazilian"		"capsule_231x87_brazilian.jpg"
+		}
+		"header_image"
+		{
+			"brazilian"		"header_brazilian.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,pt-br"
+			"library_hero"		"en,pt-br"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"100"
+				"height_pct"		"59.34650644475103"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+					"brazilian"		"library_600x900_brazilian.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+					"brazilian"		"library_600x900_brazilian_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+					"brazilian"		"library_hero_brazilian.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"100"
+					"height_pct"		"59.34650644475103"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1595977074"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ederson Santos Da Silva"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ederson Santos Da Silva"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1596783600"
+		"steam_release_date"		"1596799792"
+		"community_hub_visible"		"1"
+		"gameid"		"1375000"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+			"2"		"1625"
+			"3"		"5379"
+			"4"		"5350"
+			"5"		"3871"
+			"6"		"7250"
+			"7"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ederson Santos Da Silva"
+		"publisher"		"Ederson Santos Da Silva"
+	}
+	"config"
+	{
+		"installdir"		"Valletine against Darkne"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Valletineagainstdarkne.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamconfigurator3rdpartynative"		"65535"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1375001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7767887970334894832"
+					"size"		"373705344"
+					"download"		"307720512"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5878657"
+				"timeupdated"		"1606285011"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		""
+						"replace"		"[Instalação do Steam]/SteamApps/common/"
+					}
+				}
+			}
+		}
+	}
+}
