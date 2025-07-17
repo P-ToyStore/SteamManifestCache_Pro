@@ -1,0 +1,261 @@
+"appinfo"
+{
+	"appid"		"511390"
+	"common"
+	{
+		"name"		"Base Raid"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"26617158dee59d20920b924a99f5b0e85d3dc887"
+		"clienttga"		"b6ef554115d4869b174dc1f6e76284e972ca7e83"
+		"icon"		"58abffe6e23a465641d8d35034f3cda8795fd1c5"
+		"logo"		"03b9ef7f3cbc55d18dce65d6e5b512fd6415600a"
+		"logo_small"		"03b9ef7f3cbc55d18dce65d6e5b512fd6415600a_thumb"
+		"releasestate"		"released"
+		"linuxclienticon"		"5c45d72d84f0ec997463c7c72b80d5c629078033"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+			"finnish"		"1"
+		}
+		"clienticns"		"2cab1fa27f0a630a1e8e2d7b552b6fba757b0f3d"
+		"restricted_countries"		"DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_36807843d52fb20ccf46541fe875cb6bfb071ee5.jpg"
+		"store_asset_mtime"		"1483192881"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sageose"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sageose"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_17"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"finnish"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1479412812"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"511390"
+		"store_tags"
+		{
+			"0"		"1645"
+			"1"		"1664"
+			"2"		"597"
+			"3"		"3810"
+			"4"		"1676"
+			"5"		"9"
+			"6"		"3871"
+			"7"		"7332"
+			"8"		"19"
+			"9"		"4195"
+			"10"		"5350"
+			"11"		"1708"
+			"12"		"8122"
+			"13"		"1643"
+			"14"		"7926"
+			"15"		"3993"
+			"16"		"4182"
+			"17"		"492"
+			"18"		"493"
+			"19"		"1738"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"Sageose"
+		"publisher"		"Sageose"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Base Raid"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Base_Raid.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Base_Raid.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Base_Raid.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,french,finnish"
+		"511392"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"837948285363740907"
+					"size"		"404646282"
+					"download"		"65491328"
+				}
+			}
+		}
+		"511391"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7174803061519901432"
+					"size"		"370320232"
+					"download"		"54593792"
+				}
+			}
+		}
+		"511393"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"895348693954801065"
+					"size"		"424737482"
+					"download"		"67469744"
+				}
+			}
+		}
+		"workshopdepot"		"511390"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3897732"
+				"timeupdated"		"1559908201"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"400"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.txt"
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"SaveData"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Base_Raid_Data/"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Base_Raid.app/Contents/"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Base_Raid_Data/"
+			}
+		}
+	}
+}
