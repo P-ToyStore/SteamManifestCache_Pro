@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"706400"
+	"common"
+	{
+		"name"		"Death's Maze"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"fb6747a4293094767c1021a049c9dae626780acd"
+		"clienticon"		"5b2293c8ed501c2bcd4c2ec427ef7ee4f6b43013"
+		"icon"		"e24b55182db4aaff2339d9a0616d2c3c9b6f1433"
+		"logo"		"989d7cc6a1b4db3d7f06f412d645fa977f260ec4"
+		"logo_small"		"989d7cc6a1b4db3d7f06f412d645fa977f260ec4_thumb"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"metacritic_name"		"DEATHS MAZE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_17d5f1309f513ca90468fc1d49da3dddef843f7c.jpg"
+		"store_asset_mtime"		"1506658469"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kev Jackson"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Displacement Studios"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Geoffrey Johnson"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Kev Jackson"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1507909080"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"706400"
+		"store_tags"
+		{
+			"0"		"1667"
+			"1"		"1720"
+			"2"		"4758"
+			"3"		"3964"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"Kev Jackson"
+		"publisher"		"Kev Jackson"
+	}
+	"config"
+	{
+		"installdir"		"DEATHS MAZE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DEATHS MAZE.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./DEATHS_MAZE"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"706401"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9005932251548821844"
+					"size"		"24592384"
+					"download"		"24758304"
+				}
+				"beta"
+				{
+					"gid"		"5505949580418869982"
+					"size"		"35589988"
+					"download"		"24932560"
+				}
+			}
+		}
+		"706402"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"beta"
+				{
+					"gid"		"3092417222887320211"
+					"size"		"34810964"
+					"download"		"24303440"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2376217"
+				"timeupdated"		"1513534387"
+			}
+			"beta"
+			{
+				"buildid"		"2763733"
+				"timeupdated"		"1525995527"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"DEATHS_MAZE"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/DEATHS_MAZE"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
