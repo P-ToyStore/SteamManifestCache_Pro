@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"355810"
+	"common"
+	{
+		"name"		"Centauri Sector"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"17def99aa07254087193ebb1bd0e248622614eeb"
+		"logo_small"		"17def99aa07254087193ebb1bd0e248622614eeb_thumb"
+		"clienttga"		"095249ad4fb259e3b8111a8bf12a773ba8986acb"
+		"icon"		"150a91690fcc1531e16f1f5aeb6d04eceb5dde34"
+		"clienticon"		"b9f362e31da374e780d40db164cb308474c75a2d"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Centauri Sector"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_065c2979f2fb2c3380075f80ac7c3e95c7a5cb8a.jpg"
+		"store_asset_mtime"		"1449754169"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"GNeguceanu"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"GNeguceanu"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1435129200"
+		"steam_release_date"		"1435094216"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"355810"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"492"
+			"3"		"1755"
+			"4"		"1774"
+			"5"		"4637"
+			"6"		"21725"
+			"7"		"1676"
+			"8"		"1741"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"GNeguceanu"
+		"publisher"		"GNeguceanu"
+		"homepage"		"http://lw-games.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Centauri Sector"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"centaurisector"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"centaurisector.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"355811"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3212047335968818841"
+					"size"		"128780421"
+					"download"		"88756144"
+				}
+			}
+		}
+		"355812"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1307430966943990318"
+					"size"		"161951703"
+					"download"		"96098880"
+				}
+			}
+		}
+		"355813"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"877709277712401897"
+					"size"		"142217737"
+					"download"		"89392080"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"873001"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"2000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"CentauriSector\\Local Storage\\"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"CentauriSector/Local Storage/"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"CentauriSector/Local Storage/"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
