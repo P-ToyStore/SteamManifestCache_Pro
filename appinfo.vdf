@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"335560"
+	"common"
+	{
+		"name"		"Light Bound"
+		"type"		"Game"
+		"logo"		"38c174ca5075a0c0a62176e6a4c7104f231022f3"
+		"logo_small"		"38c174ca5075a0c0a62176e6a4c7104f231022f3_thumb"
+		"icon"		"6ae8629f01d87b603eb7db0f46c2711a3fc06df0"
+		"clienticon"		"b8d59371637782f6bd69db71e5c9156351b3673c"
+		"clienttga"		"30e707fdc0ffb83f07a387f66480ba1512b9ec15"
+		"oslist"		"windows,macos"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Light Bound"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_62c3ef51c0ee7f6c09ba660a676a6748d8cac853.jpg"
+		"store_asset_mtime"		"1429252719"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Garden Knight Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Garden Knight Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1429815956"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"335560"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"597"
+		}
+		"review_score"		"7"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"Garden Knight Games"
+		"publisher"		"Garden Knight Games"
+		"homepage"		"http://www.light-bound.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Light Bound"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LightBound.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LightBound.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"335561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6459309509260756640"
+					"size"		"339367528"
+					"download"		"111061088"
+				}
+				"beta"
+				{
+					"gid"		"6459309509260756640"
+					"size"		"339367528"
+					"download"		"111061088"
+				}
+			}
+		}
+		"335563"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4941045730042073451"
+					"size"		"376673143"
+					"download"		"113089728"
+				}
+				"beta"
+				{
+					"gid"		"4941045730042073451"
+					"size"		"376673143"
+					"download"		"113089728"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"637715"
+			}
+			"beta"
+			{
+				"buildid"		"637715"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"3"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"LightBound_Data"
+				"pattern"		"*.gkg"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"LightBound_Data"
+				"pattern"		"*.gkg"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Contents"
+				"pattern"		"*.gkg"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
