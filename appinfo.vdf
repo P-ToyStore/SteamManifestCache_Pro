@@ -1,0 +1,247 @@
+"appinfo"
+{
+	"appid"		"436060"
+	"common"
+	{
+		"name"		"Lolly Joe"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"436060_eula_0"
+				"name"		"Lolly Joe EULA"
+				"url"		"http://store.steampowered.com//eula/436060_eula_0"
+			}
+		}
+		"logo"		"1cd80ca64441619a1471594c248c5d787a93ee9c"
+		"logo_small"		"1cd80ca64441619a1471594c248c5d787a93ee9c_thumb"
+		"icon"		"93f8f9b7bf341d4ce8509135c3985f70d3b284b1"
+		"clienttga"		"904399c8584f12a8dda3e923f1abb94cbb40d5d2"
+		"clienticon"		"916a4fb6cb03fc0e6218ffe64261ac9111a52b47"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Lolly Joe"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f545683132a1bb27061c0d93d80b263a05e764c6.jpg"
+		"store_asset_mtime"		"1469658825"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Peter Valencia"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Peter Valencia"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1470453072"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"436060"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"492"
+			"3"		"5395"
+			"4"		"1625"
+			"5"		"4182"
+			"6"		"4726"
+		}
+		"review_score"		"5"
+		"review_percentage"		"61"
+	}
+	"extended"
+	{
+		"developer"		"Peter Valencia"
+		"publisher"		"Peter Valencia"
+		"homepage"		"http://www.happoly.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Lolly Joe"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LollyJoe.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LollyJoe/Binaries/Linux/LollyJoe"
+				"workingdir"		"LollyJoe/Binaries/Linux"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"436061"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6725730476931970678"
+					"size"		"1200499100"
+					"download"		"272049936"
+				}
+			}
+		}
+		"436062"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7641499630338401109"
+					"size"		"1409456134"
+					"download"		"267758416"
+				}
+			}
+		}
+		"436063"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+		}
+		"436064"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1287807"
+				"timeupdated"		"1471567204"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"4096"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"LollyJoe/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"LollyJoe/Saved/SaveGames"
+						"replace"		".config/Epic/LollyJoe/Saved/SaveGames/"
+					}
+				}
+			}
+		}
+	}
+}
