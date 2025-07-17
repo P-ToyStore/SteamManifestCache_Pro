@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"388540"
+	"common"
+	{
+		"name"		"Dr. Bulbaceous"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"b576f8fcf6dbc762598af7ed8f2d853a4757757e"
+		"logo_small"		"b576f8fcf6dbc762598af7ed8f2d853a4757757e_thumb"
+		"icon"		"697bad856b8ae05164af95d73251d358d6b06b6a"
+		"clienticon"		"483be4356f896ae5f47ac28b5955331e165432a7"
+		"clienticns"		"c66fb3800cda10140a6b7eb50f7fafbe44fb1cb8"
+		"linuxclienticon"		"122bf7f6fc8d561f8b24ccaf492aa78d9f73c873"
+		"clienttga"		"7eed66827b80859a153f561ba64b13adbd95efb5"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"portuguese"		"1"
+		}
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dr. Bulbaceous"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9cbbc4db81850f391c7fc13f7340b1e89953c48c.jpg"
+		"store_asset_mtime"		"1443384174"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Wetgenes"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Wetgenes"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1447920189"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"388540"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1664"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Wetgenes"
+		"publisher"		"Wetgenes"
+		"homepage"		"http://bulbaceous.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DrBulbaceous"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"gamecake.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"gamecake.osx"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"gamecake.x32"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"gamecake.x64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+	}
+	"depots"
+	{
+		"388541"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8216090329366038297"
+					"size"		"47981154"
+					"download"		"44485728"
+				}
+				"test"
+				{
+					"gid"		"328638559635120091"
+					"size"		"48865132"
+					"download"		"45338560"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,portuguese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"874158"
+			}
+			"test"
+			{
+				"buildid"		"1239470"
+				"description"		"Latest updates, beware of bugs."
+				"timeupdated"		"1469148462"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"64"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"files/{64BitSteamID}"
+				"pattern"		"*.lua"
+				"recursive"		"1"
+			}
+		}
+	}
+}
