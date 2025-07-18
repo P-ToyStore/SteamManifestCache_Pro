@@ -1,0 +1,109 @@
+"appinfo"
+{
+	"appid"		"2511380"
+	"common"
+	{
+		"name"		"Pro Cycling Manager 2024 - Stage and Database Editor"
+		"type"		"Tool"
+		"parent"		"2494350"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"2caa497184c181544c68294814188f5a2b830455"
+		"clienticon"		"7daf0510b99d2fc6c379117b1089b6630ce68707"
+		"icon"		"753dcf515b206ef96845be41f822b77f9f6e3cee"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"2511380"
+	}
+	"config"
+	{
+		"installdir"		"Pro Cycling Manager 2024 Tool"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CTStageEditor.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Stage Editor"
+				}
+				"description"		"Stage Editor"
+			}
+			"1"
+			{
+				"executable"		"DatabaseEditor\\PCM_Database_Editor.exe"
+				"workingdir"		"DatabaseEditor"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Database Editor"
+				}
+				"description"		"Database Editor"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2511381"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"778060111176650501"
+					"size"		"1072023755"
+					"download"		"1047937888"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14483786"
+				"timeupdated"		"1716560742"
+			}
+		}
+	}
+}
