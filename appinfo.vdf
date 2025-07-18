@@ -1,0 +1,385 @@
+"appinfo"
+{
+	"appid"		"318690"
+	"common"
+	{
+		"name"		"Cargo 3"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienttga"		"630c9a15d3692bfa41139600c611adc7f0f8d9bd"
+		"logo"		"832faef97c7c814a98c77abdc728660c11050cbf"
+		"logo_small"		"832faef97c7c814a98c77abdc728660c11050cbf_thumb"
+		"icon"		"6470a819dfa5ce84a645a208f945e2bff5a137ec"
+		"clienticon"		"af805eff3d7d0b5cb0e818cd768a8d933104c8e7"
+		"clienticns"		"af805eff3d7d0b5cb0e818cd768a8d933104c8e7"
+		"linuxclienticon"		"af805eff3d7d0b5cb0e818cd768a8d933104c8e7"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Cargo 3"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d24da9414ea20c57a8af603763ccdb994cbe196e.jpg"
+		"store_asset_mtime"		"1422762178"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vinci Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vinci Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1418062316"
+		"community_hub_visible"		"1"
+		"gameid"		"318690"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1667"
+			"3"		"3839"
+			"4"		"1774"
+			"5"		"4345"
+			"6"		"1663"
+			"7"		"4166"
+			"8"		"3942"
+			"9"		"4295"
+			"10"		"1756"
+			"11"		"1734"
+		}
+		"review_score"		"4"
+		"review_percentage"		"39"
+	}
+	"extended"
+	{
+		"developer"		"Vinci Games"
+		"publisher"		"Vinci Games"
+		"homepage"		"http://www.cargo3.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Cargo 3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/cargo3.exe"
+				"arguments"		"-fullscreen"
+				"description"		"Play Cargo 3 32bit"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Binaries/Win64/cargo3.exe"
+				"arguments"		"-fullscreen"
+				"description"		"Play Cargo 3 64bit"
+			}
+		}
+		"installscriptsignature"		"24002ebacd4ba1c201fff0bc1cb8c0113baea5997305c1a36d03c1d42bf30c8b312332c724f014d6910254d7806fcd9da584a7c186385deea970d3bb8e77a428e4e26c918596b8273ed2bc835be3f44a58c1d572cb409e5b04562ad107d71a58ab1c5a56f35dd01b7866a47463c16c87adbc3f348de573e996ebe2efd43f2b0c"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\vincigames\cargo3"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_32_path"		"%INSTALLDIR%\\Binaries\\Win32\\Cargo3.exe"
+					"exe_64_path"		"%INSTALLDIR%\\Binaries\\Win64\\Cargo3.exe"
+				}
+				"dword"
+				{
+					"version"		"1.0"
+				}
+			}
+			"hkey_local_machine\software\microsoft\windows\currentversion\uninstall\steam app 318690"
+			{
+				"string"
+				{
+					"publisher"		"Vinci Games"
+					"urlinfoabout"		"www.vincigames.com"
+					"displayversion"		"1.0"
+				}
+				"dword"
+				{
+					"version"		"1.0"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\318690"
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\directx_full_redist\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"0"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\318690"
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86_2005sp1.exe"
+				"command 1"		"/Q"
+				"process 2"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86_2008sp1.exe"
+				"command 2"		"/Q"
+				"nocleanup"		"0"
+			}
+			"vcredist64"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\318690"
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x64.exe"
+				"command 1"		"/Q"
+				"nocleanup"		"0"
+			}
+			"physxredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\318690"
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\UE3Redist.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"0"
+			}
+		}
+	}
+	"depots"
+	{
+		"228981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229010"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229011"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229030"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229032"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"318691"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"739635273328892264"
+					"size"		"7372467742"
+					"download"		"4948643184"
+				}
+				"update4"
+				{
+					"gid"		"739635273328892264"
+					"size"		"7372467742"
+					"download"		"4948643184"
+				}
+			}
+		}
+		"318695"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6612251319009466007"
+					"size"		"5552375529"
+					"download"		"4245538272"
+				}
+				"update4"
+				{
+					"gid"		"6612251319009466007"
+					"size"		"5552375529"
+					"download"		"4245538272"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"502887"
+			}
+			"update4"
+			{
+				"buildid"		"502887"
+			}
+		}
+	}
+}
