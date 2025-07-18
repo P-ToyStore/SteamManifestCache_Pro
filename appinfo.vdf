@@ -1,0 +1,216 @@
+"appinfo"
+{
+	"appid"		"460210"
+	"common"
+	{
+		"name"		"Bearslayer"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"3a7d7b94e265c6efa9b48f8f0e0e020e99be2780"
+		"logo_small"		"3a7d7b94e265c6efa9b48f8f0e0e020e99be2780_thumb"
+		"icon"		"e7259b0c93fdcd906590a8b3bf416e00deb31d55"
+		"clienticon"		"02644944445952031c4a3f38f6944f9c5b74b419"
+		"clienttga"		"71f571b854169233b7614a8f55b585f53dde8d92"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bearslayer"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2e015140f63402ce88f8ebeb3a1aea4a60573f41.jpg"
+		"store_asset_mtime"		"1541027857"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"bool games;"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"bool games;"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1484294400"
+		"steam_release_date"		"1484328957"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"460210"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"19"
+			"2"		"492"
+			"3"		"493"
+			"4"		"21"
+			"5"		"1625"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"bool games;"
+		"publisher"		"bool games;"
+		"homepage"		"http://www.boolgames.com/game/bearslayer"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Bearslayer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bearslayer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Bearslayer Mac.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"run.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"460211"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4061545630231909850"
+					"size"		"187573111"
+					"download"		"60583040"
+				}
+			}
+		}
+		"460212"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4059435597513863567"
+					"size"		"194980564"
+					"download"		"60651056"
+				}
+			}
+		}
+		"460213"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8351959169482670972"
+					"size"		"198821209"
+					"download"		"60956112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1981296"
+				"timeupdated"		"1500834581"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"data"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
