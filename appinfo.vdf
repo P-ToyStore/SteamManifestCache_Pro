@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"858560"
+	"common"
+	{
+		"name"		"Tet VR"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"icon"		"6dfe918d8eae3885fc7d6379546dcb01a52d1cee"
+		"logo"		"33bba555fe4789bcf80b6f2bf231b75314de59f1"
+		"logo_small"		"33bba555fe4789bcf80b6f2bf231b75314de59f1_thumb"
+		"clienticon"		"cc200d054206272b27b205f1621764f095be02d5"
+		"clienttga"		"5e6672d25fca47ff674ea748d078ad12ee7dd2f6"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Tet VR"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1618685009"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"In Your Head Games LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"In Your Head Games LLC"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_9"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1622676083"
+		"community_hub_visible"		"1"
+		"gameid"		"858560"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"In Your Head Games LLC"
+		"publisher"		"In Your Head Games LLC"
+		"homepage"		"https://www.reddit.com/r/InYourHeadGames/"
+	}
+	"config"
+	{
+		"installdir"		"Tet VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TetVR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"858561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2817498077740582775"
+					"size"		"339802280"
+					"download"		"261898064"
+				}
+				"beta"
+				{
+					"gid"		"4702643395330658800"
+					"size"		"339616280"
+					"download"		"261827008"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,russian,portuguese,arabic,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6953553"
+				"timeupdated"		"1625003747"
+			}
+			"beta"
+			{
+				"buildid"		"8881609"
+				"timeupdated"		"1654544025"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"TetVR/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
