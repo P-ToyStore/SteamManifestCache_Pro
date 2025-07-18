@@ -1,0 +1,172 @@
+"appinfo"
+{
+	"appid"		"812900"
+	"common"
+	{
+		"name"		"Bump Bump Bump"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"7313d88bc3c13ceab21ba966b09f3d1f12c4efcc"
+		"clienttga"		"394a54b06bbfef0ec640f969b232236d684d6f6a"
+		"icon"		"87322f8122153c8e5140eef5894a626a7bc2bbf7"
+		"logo"		"6f3fa3e924ccfe9c3d6b42ff8a7d936005279951"
+		"logo_small"		"6f3fa3e924ccfe9c3d6b42ff8a7d936005279951_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bump Bump Bump"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f5ebae3f5e46e84609fbac842ff6d392f15ac6a7.jpg"
+		"store_asset_mtime"		"1520819197"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Golden Frog"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Golden Frog"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1533818450"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"812900"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1664"
+			"3"		"3968"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Golden Frog"
+		"publisher"		"Golden Frog"
+		"homepage"		"http://www.goldenfrogstudio.com/bbb/"
+	}
+	"config"
+	{
+		"installdir"		"Bump Bump Bump"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bbb.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"812901"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9182778190835731377"
+					"size"		"58300839"
+					"download"		"14171472"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2653623"
+				"timeupdated"		"1522700859"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"40000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Golden Frog/Bump Bump Bump"
+				"pattern"		"bbbSave.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/unity3d"
+			}
+		}
+	}
+}
