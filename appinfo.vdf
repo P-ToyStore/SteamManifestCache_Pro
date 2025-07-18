@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"683630"
+	"common"
+	{
+		"name"		"Half Past Disaster"
+		"type"		"Game"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"683630_eula_0"
+				"name"		"Half Past Disaster EULA"
+				"url"		"http://store.steampowered.com//eula/683630_eula_0"
+			}
+		}
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"icon"		"9ec70620edc184aede93d27aa6f4a905749b8d28"
+		"logo"		"18da5eef94b39f82f5a7fe4d7b6d40931db736fe"
+		"logo_small"		"18da5eef94b39f82f5a7fe4d7b6d40931db736fe_thumb"
+		"clienttga"		"9d8771c1cbb794809b90d7e661eecff0246834a0"
+		"clienticon"		"0e264e9c0315c3f7703a788b9ed4e8eaf529e8a3"
+		"clienticns"		"cd2530647137ab94eb725fc1350b06e204d02867"
+		"linuxclienticon"		"a0110624ba9ee5b62e455f591a1883a3d8cd87ec"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Half Past Disaster"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c096ac49a0fce91d3985f1fea114ed4f9634333e.jpg"
+		"store_asset_mtime"		"1501464940"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Golden Age Creative"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Golden Age Creative"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_17"		"1"
+			"category_28"		"1"
+			"category_13"		"1"
+			"category_15"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1507881999"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"683630"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1625"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Golden Age Creative"
+		"publisher"		"Golden Age Creative"
+		"homepage"		"https://www.goldenagecreative.com.au"
+		"listofdlc"		"689630"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Half Past Disaster"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"halfpastdisaster.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"halfpastdisaster.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"683631"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1821890293262924823"
+					"size"		"3983694539"
+					"download"		"149078224"
+				}
+			}
+		}
+		"683632"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1523077538640005514"
+					"size"		"4300112399"
+					"download"		"153750096"
+				}
+			}
+		}
+		"689630"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2497529174882072205"
+					"size"		"60431219"
+					"download"		"59426016"
+				}
+			}
+			"dlcappid"		"689630"
+		}
+		"workshopdepot"		"683630"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2195143"
+				"timeupdated"		"1507875190"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"GoldenAgeCreative"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"GoldenAgeCreative"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		""
+			}
+		}
+	}
+}
