@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"324240"
+	"common"
+	{
+		"name"		"I Will Escape"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienticon"		"4939374fe71cf1942fafdf2fec069004349fbf1e"
+		"clienttga"		"818ded1ede676cb58033afc609a64a0b9a565d35"
+		"icon"		"2a799e0c82a20235063f2b7459a2ca624b76cabc"
+		"linuxclienticon"		"dc246155dda11b7825336724d80070e4aca5e6aa"
+		"clienticns"		"79d9666c6b7d7547ad31d2c5040bcafd75fca797"
+		"logo"		"665a7550cf8b0c61aff6efc5134022c799920bd1"
+		"logo_small"		"665a7550cf8b0c61aff6efc5134022c799920bd1_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"I Will Escape"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cae407be8c627c6c7428d8fd4096480b2c823d5a.jpg"
+		"store_asset_mtime"		"1419265944"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blue Label Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Blue Label Studio"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1419235200"
+		"steam_release_date"		"1419270282"
+		"community_hub_visible"		"1"
+		"gameid"		"324240"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"21"
+			"3"		"1687"
+		}
+		"review_score"		"5"
+		"review_percentage"		"47"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Blue Label Studio"
+		"publisher"		"Blue Label Studio"
+		"homepage"		"http://www.iwillthegame.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/324240/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"I Will Escape"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"IWillEscape_launcher.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"configurator.jar"
+				"description"		"change keybinding and resolution"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"LinuxSteamLauncher"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"configurator.jar"
+				"description"		"change keybinding and resolution"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"IwillEscapeLauncher.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"LaunchConfig"
+				"description"		"change keybinding and resolution"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"324241"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5252805595112220782"
+					"size"		"1409145351"
+					"download"		"580284336"
+				}
+				"beta"
+				{
+					"gid"		"5252805595112220782"
+					"size"		"1409145351"
+					"download"		"580284336"
+				}
+			}
+		}
+		"324242"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+		}
+		"324244"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+			}
+		}
+		"324243"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"494088"
+			}
+			"beta"
+			{
+				"buildid"		"494088"
+				"description"		"Bleeding edge"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
