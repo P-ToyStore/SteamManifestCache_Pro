@@ -1,0 +1,260 @@
+"appinfo"
+{
+	"appid"		"1386020"
+	"common"
+	{
+		"name"		"Lost Remnant: Roaches to Riches"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"61f344443d2419e8c3e486c85b5abc55bf854b65"
+		"logo_small"		"61f344443d2419e8c3e486c85b5abc55bf854b65_thumb"
+		"icon"		"cddd1538d2c93c4f01be3e8d5f3c26aa764e17a8"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"458d78efec238c40fed78d7b9e698bdea9b03640"
+		"clienttga"		"c116f8d24bf2cdaa524946457728335d0cdb8fd9"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1678233600"
+			"tested_build_id"		"5799042"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1606281300"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Jeff Sproul"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Jeff Sproul"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Lost Remnant"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1604588873"
+		"community_hub_visible"		"1"
+		"gameid"		"1386020"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"597"
+			"2"		"21"
+			"3"		"1698"
+			"4"		"3871"
+			"5"		"8945"
+			"6"		"7432"
+			"7"		"4182"
+			"8"		"3834"
+			"9"		"4604"
+			"10"		"492"
+			"11"		"4166"
+			"12"		"599"
+			"13"		"6276"
+			"14"		"3964"
+			"15"		"4305"
+			"16"		"1741"
+		}
+		"review_score"		"7"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"Jeff Sproul"
+		"publisher"		"Jeff Sproul"
+		"homepage"		"https://discord.gg/fxyGfCE"
+	}
+	"config"
+	{
+		"installdir"		"Lost Remnant Roaches to Riches"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Lost Remnant - Roaches to Riches\\Game.exe"
+				"arguments"		"-windowed --in-process-gpu"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1386021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9070502931528117962"
+					"size"		"354742952"
+					"download"		"223363056"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5799042"
+				"timeupdated"		"1604785247"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"5000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
