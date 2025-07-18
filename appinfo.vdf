@@ -1,0 +1,112 @@
+"appinfo"
+{
+	"appid"		"444450"
+	"common"
+	{
+		"name"		"DEADBOLT Level Editor"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienticon"		"8a62c39e26704f5184e25509ff9a07b3367a971b"
+		"clienttga"		"91b1a73982f3cbeec65d10dfbc9e228db8c6bd5e"
+		"icon"		"20855fcc229f09838860c3752ad49e0d0c32514a"
+		"logo"		"2b10ee5364012f2f97bcbd0c567d0baf1f506649"
+		"logo_small"		"2b10ee5364012f2f97bcbd0c567d0baf1f506649_thumb"
+		"associations"
+		{
+		}
+		"gameid"		"444450"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Deadbolt Level Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"deadbolt_map_editor.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Necro Room Editor.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"444450"
+		"444451"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2797782545933509059"
+					"size"		"64887494"
+					"download"		"65628752"
+				}
+			}
+		}
+		"444452"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8570157194268945563"
+					"size"		"68453381"
+					"download"		"62769024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2166348"
+				"timeupdated"		"1506975822"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+		"appidredirect"		"394970"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"deadbolt_game/"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"deadbolt_map_editor/"
+				"pattern"		"*.nc"
+			}
+			"copied_from_parent"		"1"
+		}
+	}
+}
