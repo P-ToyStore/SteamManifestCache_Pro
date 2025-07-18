@@ -1,0 +1,180 @@
+"appinfo"
+{
+	"appid"		"601110"
+	"common"
+	{
+		"name"		"Twin Roads"
+		"type"		"Game"
+		"releasestate"		"released"
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+			"oculus"		"1"
+		}
+		"logo"		"9401f217021b6566ca0a1a0b4c87b481c4d42e74"
+		"logo_small"		"9401f217021b6566ca0a1a0b4c87b481c4d42e74_thumb"
+		"icon"		"53182ac5d4343548a46673d1c37c2fbe4481332d"
+		"clienticon"		"718a4a472c02ceeeca5477785a3676f403fd0a7a"
+		"clienttga"		"38e2109cb6f62cd3515f8fc39b9d791b5379841b"
+		"othervrsupport"		"1"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Twin Roads"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1f154fbcce93c6814ba6b8771d4c76865e9562db.jpg"
+		"store_asset_mtime"		"1498408585"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"WarPI Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"WarPI Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1499278956"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"601110"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+			"3"		"21978"
+			"4"		"4182"
+			"5"		"5395"
+			"6"		"1756"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"WarPI Games"
+		"publisher"		"WarPI Games"
+		"homepage"		"http://warpigames.com/twinroadsvr/"
+	}
+	"config"
+	{
+		"installdir"		"Twin Roads"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TwinRoads.exe"
+				"arguments"		"-vrmode none"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"TwinRoads.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"601111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9037139534361870322"
+					"size"		"366565869"
+					"download"		"81087952"
+				}
+			}
+		}
+		"baselanguages"		"english,spanish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1965251"
+				"timeupdated"		"1500241575"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"WarPI Games/Twin Roads"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
