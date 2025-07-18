@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"2335740"
+	"common"
+	{
+		"name"		"Jeff: The Hungry Fish"
+		"type"		"Game"
+		"icon"		"9d42bf24e7268c929fd1fa679b3ab3938d18465d"
+		"clienttga"		"68135a1bb5e3fd037f99bb5448d6292413cd81cd"
+		"clienticon"		"a3577dc04cdf87dc66fcac7ff32fb0845132417a"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1692859702"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"AQMeg"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"AQMeg"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1693474479"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2335740"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1773"
+			"2"		"1716"
+			"3"		"5379"
+			"4"		"19"
+			"5"		"3871"
+			"6"		"4562"
+			"7"		"4305"
+			"8"		"4726"
+			"9"		"1684"
+			"10"		"492"
+			"11"		"6730"
+			"12"		"12057"
+			"13"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"AQMeg"
+		"publisher"		"AQMeg"
+	}
+	"config"
+	{
+		"installdir"		"Jeff The Hungry Fish"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Jeff The Hungry Fish.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"2335741"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8708526061808174986"
+					"size"		"331388312"
+					"download"		"57919712"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12450042"
+				"timeupdated"		"1697533534"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"6"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"AQMeg/Jeff The Hungry Fish/"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"AQMeg/Jeff The Hungry Fish/"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		"AQMeg/Jeff The Hungry Fish/"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"addpath"		""
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		""
+			}
+		}
+		"sync_while_suspended"		"1"
+	}
+}
