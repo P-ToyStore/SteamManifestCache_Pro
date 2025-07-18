@@ -1,0 +1,106 @@
+"appinfo"
+{
+	"appid"		"2063620"
+	"common"
+	{
+		"name"		"Pro Cycling Manager 2023 - Stage and Database Editor"
+		"type"		"Tool"
+		"parent"		"2063610"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"b0b080725401e775c5623b242a9dcaa333715f03"
+		"clienttga"		"76d312df9786bfd7c9df5a292ca486eef931a39b"
+		"icon"		"09388f307dcf8b81ce176514baa900acf421d560"
+		"gameid"		"2063620"
+	}
+	"config"
+	{
+		"installdir"		"Pro Cycling Manager 2023 Tool"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CTStageEditor.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Stage Editor"
+				}
+				"description"		"Stage Editor"
+			}
+			"1"
+			{
+				"executable"		"DatabaseEditor\\PCM_Database_Editor.exe"
+				"workingdir"		"DatabaseEditor"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Database Editor"
+				}
+				"description"		"Database Editor"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2063621"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2184453551363333320"
+					"size"		"1072238795"
+					"download"		"1047757952"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11369839"
+				"timeupdated"		"1685954227"
+			}
+		}
+	}
+}
