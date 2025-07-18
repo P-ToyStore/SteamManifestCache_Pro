@@ -1,0 +1,427 @@
+"appinfo"
+{
+	"appid"		"290490"
+	"common"
+	{
+		"name"		"The Flock"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"7b4eeecedb52144addd77d412ed4d9e039064242"
+		"logo_small"		"7b4eeecedb52144addd77d412ed4d9e039064242_thumb"
+		"clienticon"		"fe4e750a9896bc1751fe1d53f739d20b96f9922c"
+		"clienttga"		"75aedfd462cb235d3ff4044f93b8ac843908073c"
+		"icon"		"76df00032dc877c35db2a704bed49e3beabd7f9f"
+		"clienticns"		"928bbe438faf0fc6896f251b210ef7adee53352c"
+		"linuxclienticon"		"0a8a5db60e1a9dc2927c3050f5bb2b9e19237d43"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"The Flock"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_67c0c519412a882b5dcfe27866df27ba0a965c2d.jpg"
+		"store_asset_mtime"		"1440154414"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vogelsap"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vogelsap"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1440140400"
+		"steam_release_date"		"1440170673"
+		"metacritic_score"		"36"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/the-flock?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"290490"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"1667"
+			"3"		"3859"
+			"4"		"4064"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"developer"		"Vogelsap"
+		"publisher"		"Vogelsap"
+		"homepage"		"http://www.vogelsap.com/theflock"
+		"listofdlc"		"544060"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TheFlock"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"flock.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"flock.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"flock.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"flock.exe"
+				"arguments"		"-capture"
+				"description"		"The Flock with packet capturing"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"debug"
+				}
+			}
+			"4"
+			{
+				"executable"		"flock.x86"
+				"arguments"		"-capture"
+				"description"		"The Flock with packet capturing"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+					"betakey"		"debug"
+				}
+			}
+			"5"
+			{
+				"executable"		"flock.x86_64"
+				"arguments"		"-capture"
+				"description"		"The Flock with packet capturing"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"debug"
+				}
+			}
+			"6"
+			{
+				"executable"		"flock.exe"
+				"arguments"		"-capture"
+				"description"		"The Flock with packet capturing"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"debug-feature"
+				}
+			}
+			"7"
+			{
+				"executable"		"flock.x86"
+				"arguments"		"-capture"
+				"description"		"The Flock with packet capturing"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+					"betakey"		"debug-feature"
+				}
+			}
+			"8"
+			{
+				"executable"		"flock.x86_64"
+				"arguments"		"-capture"
+				"description"		"The Flock with packet capturing"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"debug-feature"
+				}
+			}
+			"9"
+			{
+				"executable"		"flock.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"10"
+			{
+				"executable"		"flock.app"
+				"arguments"		"-capture"
+				"description"		"The Flock with packet capturing"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"mactastic"
+				}
+			}
+			"11"
+			{
+				"executable"		"beta/flock.exe"
+				"workingdir"		"beta"
+				"description"		"The Flock Public Beta (recommended)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"544060"
+				}
+			}
+			"12"
+			{
+				"executable"		"beta/flock.x86"
+				"workingdir"		"beta"
+				"description"		"The Flock Public Beta (recommended)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+					"ownsdlc"		"544060"
+				}
+			}
+			"13"
+			{
+				"executable"		"beta/flock.x86_64"
+				"workingdir"		"beta"
+				"description"		"The Flock Public Beta (recommended)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"ownsdlc"		"544060"
+				}
+			}
+			"14"
+			{
+				"executable"		"beta/flock.app"
+				"workingdir"		"beta"
+				"description"		"The Flock Public Beta (recommended)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"544060"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		""
+		"290491"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"982139543022049198"
+					"size"		"1801139063"
+					"download"		"685997056"
+				}
+			}
+		}
+		"290492"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4871409622354587537"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"290493"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9055088045534066588"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"544061"
+		{
+			"dlcappid"		"544060"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"249424958097624840"
+					"size"		"1863102143"
+					"download"		"760729536"
+				}
+			}
+		}
+		"544062"
+		{
+			"dlcappid"		"544060"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3081146527464428287"
+					"size"		"1903364284"
+					"download"		"772960064"
+				}
+			}
+		}
+		"544063"
+		{
+			"dlcappid"		"544060"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1440953364277909898"
+					"size"		"1910157802"
+					"download"		"773961776"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2069415"
+				"timeupdated"		"1503695885"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"10"
+	}
+}
