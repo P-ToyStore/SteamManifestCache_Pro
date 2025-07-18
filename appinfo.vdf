@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"394770"
+	"common"
+	{
+		"name"		"Owys"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"71f0fc58ee8c14df94727be60d859251202137f7"
+		"logo_small"		"71f0fc58ee8c14df94727be60d859251202137f7_thumb"
+		"icon"		"611e50f86453c9da50788b7be02043997e79e0a3"
+		"clienttga"		"92588fecd6e103cd168a40ea0791d2c004b745be"
+		"clienticns"		"918de538480e4a506ada62df334093a7db623a40"
+		"clienticon"		"0f6ac0425c8323d11b174ed3aaea29c7e425bff2"
+		"linuxclienticon"		"e10dbae37e08d7fb304865eea3dbce2c9d98e4e1"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Owys"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6127670433c414bc7d3957d11757102ceb35fc58.jpg"
+		"store_asset_mtime"		"1454152096"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gameware Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gameware Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_17"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1440486000"
+		"steam_release_date"		"1440489715"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"394770"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"3843"
+			"2"		"1625"
+		}
+		"review_score"		"4"
+		"review_percentage"		"36"
+	}
+	"extended"
+	{
+		"developer"		"Gameware Studios"
+		"publisher"		"Gameware Studios"
+		"homepage"		"http://www.gamewarestudios.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"owysgame"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Owys.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"owys.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"run.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"394771"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"90605163933658561"
+					"size"		"59035765"
+					"download"		"48596944"
+				}
+			}
+		}
+		"394772"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4957014230724973051"
+					"size"		"64472186"
+					"download"		"53003040"
+				}
+			}
+		}
+		"394773"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8736354796718935184"
+					"size"		"62056818"
+					"download"		"52466960"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"981593"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Owys"
+				"pattern"		"save.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
