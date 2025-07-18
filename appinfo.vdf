@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"439950"
+	"common"
+	{
+		"name"		"Frontier"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"f417491eafccf4e5de23a753ebc54653f51336a8"
+		"logo_small"		"f417491eafccf4e5de23a753ebc54653f51336a8_thumb"
+		"clienticon"		"8343764505838d521d07170b05c530cffc4ffc1c"
+		"clienttga"		"f4a487b9ad65a41b9d1f434be0472c7ce0b93735"
+		"icon"		"7dafd4d1902bb103bd1a1cb6cfbc18cc73e1f359"
+		"eulas"
+		{
+		}
+		"metacritic_name"		"Frontier"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2c70ade6062ee7f54c837e1b47fa00c5e498f1a6.jpg"
+		"store_asset_mtime"		"1456421611"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lacuna Corporation"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lacuna Corporation"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_15"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1457078400"
+		"steam_release_date"		"1457121480"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"439950"
+		"store_tags"
+		{
+			"0"		"1647"
+			"1"		"1662"
+			"2"		"493"
+			"3"		"19"
+			"4"		"122"
+			"5"		"21"
+			"6"		"492"
+			"7"		"4106"
+			"8"		"1695"
+		}
+		"review_score"		"4"
+		"review_percentage"		"34"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Lacuna Corporation"
+		"publisher"		"Lacuna Corporation"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Frontier"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Frontier.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Frontier.app\\Contents\\MacOS\\Frontier"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Frontier.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Frontier.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"439950"
+		"439951"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9056731695586981302"
+					"size"		"1988000689"
+					"download"		"522201600"
+				}
+			}
+		}
+		"439952"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4551058391629870809"
+					"size"		"1602799570"
+					"download"		"472040816"
+				}
+			}
+		}
+		"439953"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"607527359784283719"
+					"size"		"1460455670"
+					"download"		"434446448"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1117729"
+				"timeupdated"		"1462821623"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"StreamingAssets"
+				"pattern"		"*.xml"
+				"recursive"		"1"
+			}
+		}
+	}
+}
