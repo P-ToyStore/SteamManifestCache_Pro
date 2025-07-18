@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"707860"
+	"common"
+	{
+		"name"		"The Power Factory"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"icon"		"a832d5d86d4a4c42d8b624555233c2d8c3f545d4"
+		"logo"		"7f1fe65ceacd2f7bc62e008ba3de2af7b22e24ce"
+		"logo_small"		"7f1fe65ceacd2f7bc62e008ba3de2af7b22e24ce_thumb"
+		"clienticon"		"73fb4d97724edda304d5239b3cf0088e662c31b0"
+		"clienttga"		"5eef666f76c7fda61bf868eedca67a099983c3ab"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"The Power Factory"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7786a4505c2c283c72f303c6b3ae131c6abd6ba0.jpg"
+		"store_asset_mtime"		"1512770322"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mathias"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mathias"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1506680255"
+		"community_hub_visible"		"1"
+		"gameid"		"707860"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"599"
+			"2"		"492"
+			"3"		"493"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Mathias"
+		"publisher"		"Mathias"
+		"homepage"		"http://powerfactorygame.com/"
+	}
+	"config"
+	{
+		"installdir"		"The Power Factory"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"The Power Factory.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"The Power Factory.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"The Power Factory.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"707861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8548450296076810830"
+					"size"		"62790515"
+					"download"		"17147504"
+				}
+				"beta"
+				{
+					"gid"		"8548450296076810830"
+					"size"		"62790515"
+					"download"		"17147504"
+				}
+			}
+		}
+		"707862"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5736969068246312594"
+					"size"		"115650622"
+					"download"		"35661856"
+				}
+				"beta"
+				{
+					"gid"		"5736969068246312594"
+					"size"		"115650622"
+					"download"		"35661856"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2813747"
+				"timeupdated"		"1527553007"
+			}
+			"beta"
+			{
+				"buildid"		"2813747"
+				"description"		"Builds will come here first to be tested"
+				"timeupdated"		"1527553016"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.xml"
+				"recursive"		"1"
+			}
+		}
+	}
+}
