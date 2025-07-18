@@ -1,0 +1,184 @@
+"appinfo"
+{
+	"appid"		"793820"
+	"common"
+	{
+		"name"		"Coffee Crawl"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"47cbb26f94f9748896286f9dbfbf62895fb109ec"
+		"logo_small"		"47cbb26f94f9748896286f9dbfbf62895fb109ec_thumb"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"icon"		"c2e53624884f7a44c650fc9b33db6ca7c1abc662"
+		"clienttga"		"32319c2896c742d1a2de17168440387b25761057"
+		"clienticon"		"53f3c04f00fa09d6e6e0b62dfe021df9c31d4db6"
+		"clienticns"		"53f3c04f00fa09d6e6e0b62dfe021df9c31d4db6"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Coffee Crawl"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c94239100eb3124a50cb296e28d6e91ade23dcf2.jpg"
+		"store_asset_mtime"		"1527662163"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vectorinox"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vectorinox"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1521670780"
+		"community_hub_visible"		"1"
+		"gameid"		"793820"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"19"
+			"3"		"122"
+			"4"		"5577"
+			"5"		"3959"
+			"6"		"4085"
+			"7"		"4026"
+		}
+		"review_score"		"5"
+		"review_percentage"		"69"
+	}
+	"extended"
+	{
+		"developer"		"Vectorinox"
+		"publisher"		"Vectorinox"
+	}
+	"config"
+	{
+		"installdir"		"Coffee Crawl"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Game.app"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"793821"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7454802420462899069"
+					"size"		"421605742"
+					"download"		"350685760"
+				}
+			}
+		}
+		"793822"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7826165888325678407"
+					"size"		"433809915"
+					"download"		"350659536"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3025309"
+				"timeupdated"		"1534007479"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"www/save"
+				"pattern"		"*.rpgsave"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Game.app/Contents/Resources/app.nw/save"
+				"pattern"		"*.rpgsave"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
