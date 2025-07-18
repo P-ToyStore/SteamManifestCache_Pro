@@ -1,0 +1,200 @@
+"appinfo"
+{
+	"appid"		"978120"
+	"common"
+	{
+		"name"		"Ballastic"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"b5a669fb978b1fe706840055246c76c1ed37767b"
+		"logo"		"8bc1d0dd116fc3ce70af52f059abaec55ffacd54"
+		"logo_small"		"8bc1d0dd116fc3ce70af52f059abaec55ffacd54_thumb"
+		"clienttga"		"d9bafa8c754458d1c75511c8d8d5b3b7f833c86e"
+		"clienticon"		"71b46aa097b7ba09df03701301e123589f91f1ca"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ballastic"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6fdb88a0733d5d76353bb5926abafb35446db069.jpg"
+		"store_asset_mtime"		"1541655894"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Matthew J. Pilz"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"linkedPIXEL LLC"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1542171986"
+		"community_hub_visible"		"1"
+		"gameid"		"978120"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"19"
+			"2"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Matthew J. Pilz"
+		"publisher"		"linkedPIXEL LLC"
+		"homepage"		"https://linkedpixel.com/ballastic/"
+	}
+	"config"
+	{
+		"installdir"		"Ballastic"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"2"
+			{
+				"executable"		"Ballastic.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Ballastic"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Ballastic32"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"5"
+			{
+				"executable"		"Ballastic.app\\Contents\\MacOS\\Ballastic"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"978121"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3915573885214880839"
+					"size"		"28245281"
+					"download"		"19037936"
+				}
+			}
+		}
+		"978122"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2915935221099711777"
+					"size"		"42906073"
+					"download"		"24021776"
+				}
+			}
+		}
+		"978123"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4999459064735360236"
+					"size"		"35184663"
+					"download"		"23210064"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3297398"
+				"timeupdated"		"1541962458"
+			}
+		}
+	}
+}
