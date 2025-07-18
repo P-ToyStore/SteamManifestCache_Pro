@@ -1,0 +1,178 @@
+"appinfo"
+{
+	"appid"		"894610"
+	"common"
+	{
+		"name"		"Hungry Kitty Donuts Mania"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"968e1dffba9b9f6067c2ffe9267b5471277eebdb"
+		"clienttga"		"52398fa77ea180791bae83b6a5132758d9f8ffc3"
+		"icon"		"b5ffadcf7e982e7a5f382aac2e057affe14b180c"
+		"clienticns"		"2550872c5b734d576c10792d22d3137ee290cafa"
+		"logo"		"d6eb788442adac6022c9a6b7fa291220aab2d028"
+		"logo_small"		"d6eb788442adac6022c9a6b7fa291220aab2d028_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Hungry Kitty Donuts Mania"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0fbe6f58417f8d626d07a60a3a8b270d4ecf2f1e.jpg"
+		"store_asset_mtime"		"1532364811"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BIG WOOD GAMES"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BIG WOOD GAMES"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1531983600"
+		"steam_release_date"		"1533211034"
+		"community_hub_visible"		"1"
+		"gameid"		"894610"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"9"
+		}
+	}
+	"extended"
+	{
+		"developer"		"BIG WOOD GAMES"
+		"publisher"		"BIG WOOD GAMES"
+	}
+	"config"
+	{
+		"installdir"		"Hungry Kitty Donuts Mania"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HungryKittyDonutsMania.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"HungryKittyDonutsMania.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"894611"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3395295627674721530"
+					"size"		"121356646"
+					"download"		"34307456"
+				}
+			}
+		}
+		"894612"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3099559098720982599"
+					"size"		"169304796"
+					"download"		"45682448"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2969376"
+				"timeupdated"		"1532365508"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"102400"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"BIG WOOD GAMES/HungryKittyDonutsMania"
+				"pattern"		"*.json"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"BIG WOOD GAMES/HungryKittyDonutsMania"
+						"replace"		"BIG WOOD GAMES/HungryKittyDonutsMania"
+					}
+				}
+			}
+		}
+	}
+}
