@@ -1,0 +1,167 @@
+"appinfo"
+{
+	"appid"		"240180"
+	"common"
+	{
+		"name"		"Duke Nukem 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"e7bf4474700bdb8754e04507a42a83f6437ec6e6"
+		"logo_small"		"e7bf4474700bdb8754e04507a42a83f6437ec6e6_thumb"
+		"icon"		"a50daeabd996d9703a76181519687517678d4407"
+		"clienticon"		"5872339588b1658d7daac35bd46e0559b1992373"
+		"clienttga"		"962f27a3035e8650b2ffb8be154a37e103e109b7"
+		"metacritic_name"		"Duke Nukem 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8abad29a0138c038ecdebd7a9d6389171e41c743.jpg"
+		"store_asset_mtime"		"1430809570"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3D Realms"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Interceptor Entertainment"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms (Apogee Software)"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"original_release_date"		"754905600"
+		"steam_release_date"		"1372748400"
+		"community_hub_visible"		"1"
+		"gameid"		"240180"
+		"store_tags"
+		{
+			"0"		"1625"
+			"1"		"1693"
+			"2"		"19"
+			"3"		"3871"
+			"4"		"4004"
+			"5"		"4182"
+			"6"		"1774"
+			"7"		"3916"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"3D Realms"
+		"gamedir"		"ValveTestApp240180"
+		"homepage"		"http://www.3drealms.com/duke2/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"3D Realms (Apogee Software)"
+		"gamemanualurl"		"https://store.steampowered.com/manual/240180/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Duke Nukem 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox\\dosbox.exe"
+				"arguments"		"-conf \"..\\NUKEM2.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"dosbox\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DukeNukemII.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"0"
+		"240181"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3408086939145493586"
+					"size"		"34943159"
+					"download"		"13464896"
+				}
+			}
+		}
+		"240182"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4010572906513961746"
+					"size"		"19024045"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"611848"
+			}
+		}
+	}
+}
