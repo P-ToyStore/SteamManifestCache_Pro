@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"1372010"
+	"common"
+	{
+		"name"		"Cube Shifter"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"6abb8c772236d4bf38dcfc8123deed90a3f99d48"
+		"logo"		"3435500dbc93b7142961a0be2af7bebba9c15d7b"
+		"logo_small"		"3435500dbc93b7142961a0be2af7bebba9c15d7b_thumb"
+		"clienttga"		"01e0479680cc0f7a3a1fd6059d7e2ef249e2c846"
+		"clienticon"		"11e78354d8361df669b457594d885ee7d9c68c02"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1596931436"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ben Phillips"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ben Phillips"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1597399384"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1372010"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4182"
+			"2"		"4106"
+			"3"		"8666"
+			"4"		"5395"
+			"5"		"4191"
+			"6"		"1697"
+			"7"		"4036"
+			"8"		"492"
+			"9"		"4166"
+			"10"		"4747"
+			"11"		"5125"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ben Phillips"
+		"publisher"		"Ben Phillips"
+	}
+	"config"
+	{
+		"installdir"		"Cube Shifter"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cube Shifter.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1372011"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8894384588462300399"
+					"size"		"215641041"
+					"download"		"155030320"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5442884"
+				"timeupdated"		"1598018404"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"3"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"BenPhillips/Cube Shifter"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"BenPhillips/Cube Shifter"
+						"replace"		"unity.BenPhillips.Cube Shifter"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"BenPhillips/Cube Shifter"
+						"replace"		".config/unity3d/BenPhillips/Cube Shifter"
+					}
+				}
+			}
+		}
+	}
+}
