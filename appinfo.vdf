@@ -1,0 +1,204 @@
+"appinfo"
+{
+	"appid"		"779870"
+	"common"
+	{
+		"name"		"Flatwaters"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"e401f4a9b79e4c92f99fd7f5f997728da5558d6e"
+		"logo_small"		"e401f4a9b79e4c92f99fd7f5f997728da5558d6e_thumb"
+		"clienticon"		"ff8232b25678b923ea7cf4d059b4e05343d5ba37"
+		"clienttga"		"21963987b71337285f70e12c0d13ce1d4bc1cbe0"
+		"icon"		"862b539dc948d1f655bd27054d0f91fddcce55e9"
+		"linuxclienticon"		"47abdd61150cdca3feaf8a5852f83b561797a4c2"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Flatwaters: The Curse of Echita"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_330bf438a1b95765d9ac3a83a3407369f13216ba.jpg"
+		"store_asset_mtime"		"1530383574"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lunarhellgames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lunarhellgames"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1530255600"
+		"steam_release_date"		"1530255222"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"779870"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"599"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Lunarhellgames"
+		"publisher"		"Lunarhellgames"
+		"homepage"		"http://lunarhellgames.com/flatwaters.html"
+	}
+	"config"
+	{
+		"installdir"		"Flatwaters"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Flatwaters.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Flatwaters"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"779871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"988770844446994306"
+					"size"		"160353564"
+					"download"		"131394656"
+				}
+			}
+		}
+		"779872"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3302119163246036994"
+					"size"		"157539457"
+					"download"		"128961504"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3093170"
+				"timeupdated"		"1536133238"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Flatwaters"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgConfigHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Flatwaters"
+						"replace"		"Flatwaters"
+					}
+				}
+			}
+		}
+	}
+}
