@@ -1,0 +1,189 @@
+"appinfo"
+{
+	"appid"		"789710"
+	"common"
+	{
+		"name"		"BoyAndLabyrinth"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"81371a2af4eb5d916c4f159b02ae245fd359681c"
+		"logo"		"61bf864e0a75972da21615d4a95f7ea99400ca46"
+		"logo_small"		"61bf864e0a75972da21615d4a95f7ea99400ca46_thumb"
+		"icon"		"064b29c912c7b697c7a57579bd57aa76b19dd7e6"
+		"clienticon"		"0b70782d08d865cd5cae15914687c383be728069"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"BoyAndLabyrinth"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f8566dad1552d526dc6d4d33ee214b6a6e23dff9.jpg"
+		"store_asset_mtime"		"1520318105"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"WBTgame"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"WBTgame"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1522105650"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"789710"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"3964"
+		}
+	}
+	"extended"
+	{
+		"developer"		"WBTgame"
+		"publisher"		"WBTgame"
+	}
+	"config"
+	{
+		"installdir"		"BoyAndLabyrinth"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BAL.exe"
+				"description"		"BALx64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"BAL.exe"
+				"description"		"BALx32"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"0"
+		"789711"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7814887476446565409"
+					"size"		"131263250"
+					"download"		"61896656"
+				}
+				"defaultx86"
+				{
+					"gid"		"7814887476446565409"
+					"size"		"131263250"
+					"download"		"61896656"
+				}
+			}
+		}
+		"789712"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5862065595248818487"
+					"size"		"125521482"
+					"download"		"59994976"
+				}
+				"defaultx86"
+				{
+					"gid"		"5862065595248818487"
+					"size"		"125521482"
+					"download"		"59994976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2655550"
+				"timeupdated"		"1522763069"
+			}
+			"defaultx86"
+			{
+				"buildid"		"2655550"
+				"description"		"public default x86"
+				"timeupdated"		"1522762871"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"BAL_Data/StreamingAssets/saveXML"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
