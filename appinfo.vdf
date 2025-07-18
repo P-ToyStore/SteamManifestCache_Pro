@@ -1,0 +1,158 @@
+"appinfo"
+{
+	"appid"		"94000"
+	"common"
+	{
+		"name"		"Dinner Date"
+		"logo"		"bf3a013fdfcec2d037daf850ad24cfa80207f672"
+		"logo_small"		"bf3a013fdfcec2d037daf850ad24cfa80207f672_thumb"
+		"icon"		"0a994311934f7ddabaa6ddae0642d44b87a8b42d"
+		"clienttga"		"8ba3c16bbebac4a79d265de181cf4ba4b569453b"
+		"clienticon"		"91e7fb57c9144910de83433965eaaa6195d8b4e1"
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_38d1265310b40c3bc49e32b2723b4e04feb883ae.jpg"
+		"store_asset_mtime"		"1298914782"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Stout Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Stout Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1299005340"
+		"community_hub_visible"		"1"
+		"gameid"		"94000"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"4234"
+			"2"		"597"
+			"3"		"13782"
+			"4"		"4182"
+			"5"		"3839"
+			"6"		"5094"
+			"7"		"599"
+			"8"		"1742"
+		}
+		"review_score"		"5"
+		"review_percentage"		"54"
+	}
+	"extended"
+	{
+		"developer"		"Stout Games"
+		"gamedir"		"Dinner Date"
+		"homepage"		"http://thestoutgames.com/:dinnerdate"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"94001"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Stout Games"
+	}
+	"config"
+	{
+		"installscriptsignature"		"9bd466d674115dac68f2f7300cf84c7a15322b9fca83919ae09e055c091482fda8b692e8c6bd83c568ce2131a43bfd8f2f1be567adc4e1f81c13f5dd7eea1d5444d4187f2460aecfc972f0c78549df7b944ab7cfc31e5b537f2ffb8e9901db2ba08796dc963975019552df99166a66b6d7841a0dd07922be872b70702ac36c00"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Dinner Date"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dinner Date.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\94000e"
+				"process 1"		"%INSTALLDIR%\\dependancies\\DX.exe"
+				"command 1"		"/Q"
+				"nocleanup"		"1"
+			}
+			"openal"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\94000e"
+				"process 2"		"%INSTALLDIR%\\dependancies\\AL.exe"
+				"command 2"		"/S"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"94001"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"589174325349455192"
+					"size"		"131582732"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25493"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
