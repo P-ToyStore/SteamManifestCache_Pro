@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"1489340"
+	"common"
+	{
+		"name"		"Retailer Tycoon"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"f3f3b9d88d2eee5e4ee0fb46ca1131ebb648bfee"
+		"clienttga"		"b3cef46bc878fa7e2fb9ef2fd67026b69146ee06"
+		"icon"		"d796a3f43b1ce810cbb523bdb11532e7d5eb1a57"
+		"logo"		"d45b4c81d974062df2fe539f1b600b1a38495da1"
+		"logo_small"		"d45b4c81d974062df2fe539f1b600b1a38495da1_thumb"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"48.48837209302326"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"48.48837209302326"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1611027446"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sevo Tech"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sevo Tech"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1611209157"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1489340"
+		"store_tags"
+		{
+			"0"		"7332"
+			"1"		"597"
+			"2"		"8945"
+			"3"		"4791"
+			"4"		"9"
+			"5"		"3871"
+			"6"		"1676"
+			"7"		"12472"
+			"8"		"3810"
+			"9"		"17305"
+			"10"		"10235"
+			"11"		"16689"
+			"12"		"4726"
+			"13"		"3813"
+			"14"		"6815"
+			"15"		"4695"
+			"16"		"5350"
+			"17"		"6129"
+			"18"		"1654"
+			"19"		"1708"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Sevo Tech"
+		"publisher"		"Sevo Tech"
+	}
+	"config"
+	{
+		"installdir"		"Retailer Tycoon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RetailerTycoon.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"RetailerTycoon.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1489341"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4655422115738105185"
+					"size"		"117928281"
+					"download"		"39880928"
+				}
+			}
+		}
+		"1489342"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5368312510976527233"
+					"size"		"161167624"
+					"download"		"41089488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6228952"
+				"timeupdated"		"1613110037"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"RetailerTycoon_Data/Saves"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
