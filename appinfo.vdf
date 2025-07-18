@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"3388970"
+	"common"
+	{
+		"name"		"Wretch: Divine Ascent Playtest"
+		"type"		"Beta"
+		"parent"		"3081280"
+		"releasestate"		"unavailable"
+		"icon"		"7958e9a111fb117df564ba149cf5eedfdd119b27"
+		"clienticon"		"43a8b54c6f473d714ff2c149e6b5fc2f7c6bc8f7"
+		"clienttga"		"aa2ff5af252f8b54bad703d63daa55a9d86babf3"
+		"name_localized"
+		{
+			"schinese"		"无用之人：登神长阶 Playtest"
+			"tchinese"		"無用之人：登神長階 Playtest"
+		}
+		"small_capsule"
+		{
+			"english"		"aa5277abc714cbc555ec1ca6a86972be35fd11cf/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"21.410869883517847"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"ec41b7f7c739504b3bae655bb8e5dd228e74dce9/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"ec41b7f7c739504b3bae655bb8e5dd228e74dce9/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"7f832ef0c4ca8928bc2e0c0792ae94fcc1666d86/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"7f832ef0c4ca8928bc2e0c0792ae94fcc1666d86/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"7f832ef0c4ca8928bc2e0c0792ae94fcc1666d86/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"21.410869883517847"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"eb845cca31c33c3f1c0eb2b50c6ee906c1249508/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"eb845cca31c33c3f1c0eb2b50c6ee906c1249508/logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"f760722fabbeced0b793cafea2d8d200eda8fa09/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"f760722fabbeced0b793cafea2d8d200eda8fa09/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1735612562"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"gameid"		"3388970"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"playtest_type"		"1"
+	}
+	"config"
+	{
+		"installdir"		"wretch_Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Sunlight.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,schinese,tchinese"
+		"3388971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7838741014209345644"
+					"size"		"2405842880"
+					"download"		"2098478144"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18037978"
+				"timeupdated"		"1744188962"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"5242880"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Sunlight/Saved/SaveGames"
+				"pattern"		"SunlightLocalSave.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sunlight/Saved/SaveGames"
+				"pattern"		"SunlightLocalSave.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
