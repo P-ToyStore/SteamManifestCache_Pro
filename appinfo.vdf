@@ -1,0 +1,250 @@
+"appinfo"
+{
+	"appid"		"2105400"
+	"common"
+	{
+		"name"		"Terrorform"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"2c75ef569882a31d3d409f7c541368e68a82149c"
+		"clienttga"		"b9fe040f32324c158b1a133f22f17b9d4b8b71f0"
+		"clienticon"		"3425e6576d4d43342007904302095cf58f5ec5c5"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"83.43057176196031"
+				"height_pct"		"98.10021372595584"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"83.43057176196031"
+					"height_pct"		"98.10021372595584"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1660867174"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Arctos Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Arctos Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1662419979"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2105400"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"3916"
+			"3"		"1774"
+			"4"		"1773"
+			"5"		"4191"
+			"6"		"3839"
+			"7"		"1667"
+			"8"		"7481"
+			"9"		"3942"
+			"10"		"4667"
+			"11"		"3993"
+			"12"		"4182"
+			"13"		"9541"
+			"14"		"4295"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Arctos Games"
+		"publisher"		"Arctos Games"
+		"homepage"		"https://twitter.com/arctosgames"
+	}
+	"config"
+	{
+		"installdir"		"Terrorform"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Terrorform.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Terrorform.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"2105403"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6925052113399443068"
+					"size"		"229608762"
+					"download"		"85707888"
+				}
+			}
+		}
+		"2105404"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8135959658740594302"
+					"size"		"253658936"
+					"download"		"93112064"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9438959"
+				"timeupdated"		"1662109126"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Arctos Games/Terrorform/"
+				"pattern"		"*.json"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Arctos Games/Terrorform/"
+						"replace"		"Arctos Games/Terrorform/"
+					}
+				}
+			}
+		}
+	}
+}
