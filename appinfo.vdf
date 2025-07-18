@@ -1,0 +1,177 @@
+"appinfo"
+{
+	"appid"		"1063140"
+	"common"
+	{
+		"name"		"UnderSpire"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"3c1a79f3cbae4a6e3348d1d8f95f9f7efa36dece"
+		"clienticns"		"0040165e01e37d0a02bd7fff2a18e45caa97e878"
+		"clienticon"		"ff781b89d70c2ec268300a5f8912a1f621db338b"
+		"icon"		"e5187a8b138bd743ad1ae865170e5b935b33b025"
+		"logo"		"d31d4dd187156f2a94d7e10341074804a7194737"
+		"logo_small"		"d31d4dd187156f2a94d7e10341074804a7194737_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"UnderSpire（兵临尖塔）"
+		"small_capsule"
+		{
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"tchinese"		"capsule_231x87_tchinese.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+			"tchinese"		"header_tchinese.jpg"
+		}
+		"store_screenshot"		"ss_f6f1788891c6ea31058a65e32066ac86d0e353ec.jpg"
+		"store_asset_mtime"		"1568358332"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CoolHeartGame"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"CoolHeartGame"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1562033007"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1063140"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"CoolHeartGame"
+		"publisher"		"CoolHeartGame"
+		"listofdlc"		"1136750,1136751"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"UnderSpire"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"UnderSpire.exe"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"1063141"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6079161967739281330"
+					"size"		"257106515"
+					"download"		"75427424"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4196364"
+				"timeupdated"		"1568464476"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"CoolHeartGame/UnderSpire"
+				"pattern"		"*.json"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"CoolHeartGame/UnderSpire"
+						"replace"		"unity.CoolHeartGame.UnderSpire"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"CoolHeartGame/UnderSpire"
+						"replace"		".config/unity3d/CoolHeartGame/UnderSpire"
+					}
+				}
+			}
+		}
+	}
+}
