@@ -1,0 +1,265 @@
+"appinfo"
+{
+	"appid"		"875520"
+	"common"
+	{
+		"name"		"Freddy's Journey"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"077a6dff807e8fb25c276e8fcff3ffb6430ec995"
+		"logo_small"		"077a6dff807e8fb25c276e8fcff3ffb6430ec995_thumb"
+		"icon"		"c1702e4d3557a6e59f04995432c55b4b86fb61a0"
+		"clienticon"		"0f9a3f80160c56e4e180da682916fa4a1135d79d"
+		"clienttga"		"00fc6aab0394b3137ea47bdcc3301a7c0dbf5d85"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Freddy's Journey"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a1e86aac109e1c6ae32474dec43d3dad2144e202.jpg"
+		"store_asset_mtime"		"1527974095"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Grim World Company"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Grim World Company"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"romanian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1529080461"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"875520"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"3871"
+			"2"		"1625"
+			"3"		"1664"
+			"4"		"1756"
+			"5"		"4094"
+			"6"		"5537"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Grim World Company"
+		"publisher"		"Grim World Company"
+		"homepage"		"https://grimworldcompany.github.io/"
+		"listofdlc"		"890540"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Freddy's Journey"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"fj.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"fj.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"fj.app\\Contents\\MacOS\\fj"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"fj.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,schinese,russian,romanian"
+		"hasdepotsindlc"		"0"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"875521"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4951298750315246109"
+					"size"		"137017365"
+					"download"		"65224416"
+				}
+			}
+		}
+		"890540"
+		{
+			"dlcappid"		"890540"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3744020485883084946"
+					"size"		"69693182"
+					"download"		"65956448"
+				}
+			}
+		}
+		"875522"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"937713834669716479"
+					"size"		"182426293"
+					"download"		"81978480"
+				}
+			}
+		}
+		"875523"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4032523095802513184"
+					"size"		"145611941"
+					"download"		"68613616"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2921824"
+				"timeupdated"		"1530809139"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
