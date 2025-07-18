@@ -1,0 +1,176 @@
+"appinfo"
+{
+	"appid"		"381310"
+	"common"
+	{
+		"name"		"Proton Pulse"
+		"type"		"Game"
+		"oslist"		"windows"
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+			}
+		}
+		"logo"		"5bdb82af1dcdf627f7a211984a34afd51b34f080"
+		"logo_small"		"5bdb82af1dcdf627f7a211984a34afd51b34f080_thumb"
+		"icon"		"2494d52b47a41a769ed8fc98eeef1607598ab619"
+		"clienttga"		"d72add1de24875dfc294bb57584b77b28bfafe8c"
+		"clienticon"		"18ebc6f723c20ee3568d70845282611439666814"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Proton Pulse"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_47a466f872d3f3b559ba2bbd1568905547264fa7.jpg"
+		"store_asset_mtime"		"1458790174"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Justin Moravetz"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Jake Kaufman"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"ZeroTransform"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1459842888"
+		"community_hub_visible"		"1"
+		"gameid"		"381310"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21978"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Justin Moravetz"
+		"publisher"		"ZeroTransform"
+		"homepage"		"http://www.ProtonPulse.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Proton Pulse"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"protonpulse.exe"
+				"description"		"Launch in SteamVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"protonpulse.exe"
+				"arguments"		"-oculus"
+				"description"		"Launch in Oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta-oculus-support"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"381311"
+		{
+		}
+		"381312"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5102396253028612557"
+					"size"		"662551601"
+					"download"		"282555696"
+				}
+				"beta-oculus-support"
+				{
+					"gid"		"7880909679058691"
+					"size"		"685813665"
+					"download"		"291373968"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1038736"
+				"timeupdated"		"1458788774"
+			}
+			"beta-oculus-support"
+			{
+				"buildid"		"1065812"
+				"timeupdated"		"1460179444"
+			}
+		}
+	}
+}
