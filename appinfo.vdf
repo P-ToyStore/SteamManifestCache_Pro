@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"427890"
+	"common"
+	{
+		"name"		"Felt Tip Circus"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"392287ad8904f83ba565ce3f1e8b30cc56cce241"
+		"logo_small"		"392287ad8904f83ba565ce3f1e8b30cc56cce241_thumb"
+		"icon"		"b128ee25721f0295b6920dc1b9e25f10056c3e17"
+		"clienticon"		"dda51332cfe968caf65e29fafebe21b22831457d"
+		"clienttga"		"fb7beb4ff210fb84e79496c0c7d2f87648cb4330"
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+			}
+		}
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Felt Tip Circus"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_af8b3b74d41c2c3a33c00ad252a8cb2430c72c5a.jpg"
+		"store_asset_mtime"		"1459877948"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Alpha Wave Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"AAD Productions"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_31"		"1"
+			"category_30"		"1"
+			"category_17"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1459857217"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"427890"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"Alpha Wave Entertainment"
+		"publisher"		"AAD Productions"
+		"homepage"		"http://alphawaveentertainment.com/project/felt-tip-circus/"
+		"listofdlc"		"469540"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Felt Tip Circus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FTC.exe"
+				"description"		"Steam VR Launch Option"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"FTC Act Uploader/FtcActUploader.exe"
+				"description"		"Launch Workshop Tool"
+				"type"		"editor"
+				"config"
+				{
+					"ownsdlc"		"469540"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"427890"
+		"427891"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4425050853567764491"
+					"size"		"1137711179"
+					"download"		"544315248"
+				}
+				"testing"
+				{
+					"gid"		"4425050853567764491"
+					"size"		"1137711179"
+					"download"		"544315248"
+				}
+			}
+		}
+		"427892"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1670968662930177979"
+					"size"		"1142008859"
+					"download"		"545708944"
+				}
+				"testing"
+				{
+					"gid"		"1670968662930177979"
+					"size"		"1142008859"
+					"download"		"545708944"
+				}
+			}
+		}
+		"469540"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6647285819067498299"
+					"size"		"1200644446"
+					"download"		"1187271392"
+				}
+				"testing"
+				{
+					"gid"		"6647285819067498299"
+					"size"		"1200644446"
+					"download"		"1187271392"
+				}
+			}
+			"dlcappid"		"469540"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1197838"
+				"timeupdated"		"1466794426"
+			}
+			"testing"
+			{
+				"buildid"		"1197838"
+				"description"		"Experimental stuff"
+				"timeupdated"		"1466794432"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"500"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
