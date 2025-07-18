@@ -1,0 +1,288 @@
+"appinfo"
+{
+	"appid"		"429020"
+	"common"
+	{
+		"name"		"LONE WOLF: Horizon"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"7639f74a3b894ca749e264fbbab0c1c31215477a"
+		"logo_small"		"7639f74a3b894ca749e264fbbab0c1c31215477a_thumb"
+		"icon"		"451b79f3c095956e68053cdfc4bba755f7390279"
+		"clienttga"		"740511ec95dab6b1dbd626e271c0d1a9519338ff"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"c7c8d8e6298c4bf0838b758fbcff0adb1ebf90a5"
+		"clienticns"		"6ae83ccf189c76382d9a0859819c2d3d280093ea"
+		"linuxclienticon"		"e6f383acfbed87276b70599788046aa223501bdd"
+		"osarch"		""
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"LONE WOLF: Horizon"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_aeca2a2354fc8a99aac44fc05de2092c6882e65b.jpg"
+		"store_asset_mtime"		"1498545003"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"m4g"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"M4GDEV"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"3"
+			"5"		"2"
+			"6"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1481875200"
+		"steam_release_date"		"1455274801"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"429020"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"492"
+			"3"		"493"
+			"4"		"597"
+			"5"		"122"
+			"6"		"9"
+			"7"		"1695"
+			"8"		"4182"
+		}
+		"review_score"		"4"
+		"review_percentage"		"27"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"vrheadsetstreaming"		"1"
+		"developer"		"m4g"
+		"publisher"		"M4GDEV"
+		"homepage"		"https://m4gdev.github.io"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"lonewolfhorizon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"lonewolfhorizon.exe"
+				"description"		"LONE WOLF: Horizon"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"lonewolfhorizon.app/Contents/MacOS/lonewolfhorizon"
+				"arguments"		"-force-opengl"
+				"description"		"LONE WOLF: Horizon"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"lonewolfhorizon.x86"
+				"arguments"		"-force-opengl"
+				"description"		"LONE WOLF: Horizon (32bit)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"lonewolfhorizon.x86_64"
+				"arguments"		"-force-opengl"
+				"description"		"LONE WOLF: Horizon (64bit)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"lonewolfsimulations.exe"
+				"description"		"LONE WOLF: Simulations (HTC VIVE)"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"606070"
+				}
+			}
+			"5"
+			{
+				"executable"		"lonewolforigins.exe"
+				"description"		"Play LONE WOLF: Origins"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"606040"
+				}
+			}
+			"6"
+			{
+				"executable"		"lonewolforigins.app/Contents/MacOS/lonewolforigins"
+				"arguments"		"-force-opengl"
+				"description"		"Play LONE WOLF: Origins"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"606040"
+				}
+			}
+			"7"
+			{
+				"executable"		"lonewolforigins.x86"
+				"arguments"		"-force-opengl"
+				"description"		"Play LONE WOLF: Origins (32bit)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+					"ownsdlc"		"606040"
+				}
+			}
+			"8"
+			{
+				"executable"		"lonewolforigins.x86_64"
+				"arguments"		"-force-opengl"
+				"description"		"Play LONE WOLF: Origins (64bit)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"ownsdlc"		"606040"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"429021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6386121925221164228"
+					"size"		"1492317715"
+					"download"		"477613360"
+				}
+			}
+		}
+		"429022"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1786431629486957379"
+					"size"		"1539856731"
+					"download"		"493312416"
+				}
+			}
+		}
+		"429023"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"730690629185992221"
+					"size"		"1550238268"
+					"download"		"502220736"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1919833"
+				"timeupdated"		"1498576297"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saveFiles"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
