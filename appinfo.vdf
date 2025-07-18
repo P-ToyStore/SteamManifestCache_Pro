@@ -1,0 +1,309 @@
+"appinfo"
+{
+	"appid"		"1826080"
+	"common"
+	{
+		"name"		"Galactic Defense: Automation"
+		"type"		"Game"
+		"name_localized"
+		{
+			"english"		"Galactic Defense: Automation"
+			"schinese"		"银河边境防御线: 自动化"
+		}
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"icon"		"a90d31dee26c2a88c3cc4914a8bef5fcc3df3e80"
+		"clienttga"		"33700ec9c46e2d9f1cea7f5e23e12437e2c7857a"
+		"clienticon"		"fb19f64a837923b95a5dfc82d786c9a2bfad0e65"
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"zh-cn,en"
+			"library_hero"		"en,zh-cn"
+			"library_logo"		"zh-cn,en"
+			"library_header"		"en,zh-cn"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46.51424287856071"
+				"height_pct"		"97.50717516694807"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"schinese"		"library_600x900_schinese.jpg"
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"schinese"		"library_600x900_schinese_2x.jpg"
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+					"schinese"		"library_hero_schinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+					"schinese"		"library_hero_schinese_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"schinese"		"logo_schinese.png"
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"schinese"		"logo_schinese_2x.png"
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"46.51424287856071"
+					"height_pct"		"97.50717516694807"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+					"schinese"		"library_header_schinese.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1724746043"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Jackson Xie"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Jackson Xie"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Tony Wang"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1731032638"
+		"community_hub_visible"		"1"
+		"gameid"		"1826080"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1676"
+			"2"		"1645"
+			"3"		"3813"
+			"4"		"3959"
+			"5"		"3871"
+			"6"		"5851"
+			"7"		"255534"
+			"8"		"1755"
+			"9"		"7926"
+			"10"		"32322"
+			"11"		"4182"
+			"12"		"599"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Jackson Xie"
+		"publisher"		"Jackson Xie"
+		"homepage"		"https://xjxxjx1017.github.io/jacksonxiegames/"
+	}
+	"config"
+	{
+		"installdir"		"Galactic_Defense_Automation"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"play.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Start Game"
+					"schinese"		"开始游戏"
+				}
+				"description"		"Start Game"
+			}
+			"1"
+			{
+				"executable"		"play.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"bitty_stage.app/Contents/MacOS/bitty_stage"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese,tchinese,japanese"
+		"1826082"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3532703398704674087"
+					"size"		"862486928"
+					"download"		"859009616"
+				}
+				"beta20240707"
+				{
+					"gid"		"3532703398704674087"
+					"size"		"862486928"
+					"download"		"859009616"
+				}
+			}
+		}
+		"1826081"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4991967283601468425"
+					"size"		"867807522"
+					"download"		"856048880"
+				}
+				"beta20240707"
+				{
+					"gid"		"4991967283601468425"
+					"size"		"867807522"
+					"download"		"856048880"
+				}
+			}
+		}
+		"1826083"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8351035006456128210"
+					"size"		"886388653"
+					"download"		"863610384"
+				}
+				"beta20240707"
+				{
+					"gid"		"8351035006456128210"
+					"size"		"886388653"
+					"download"		"863610384"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16414427"
+				"timeupdated"		"1731639257"
+			}
+			"beta20240707"
+			{
+				"buildid"		"16414427"
+				"description"		"beta"
+				"timeupdated"		"1731638717"
+			}
+		}
+	}
+}
