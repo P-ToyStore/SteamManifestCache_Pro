@@ -1,0 +1,276 @@
+"appinfo"
+{
+	"appid"		"880320"
+	"common"
+	{
+		"name"		"魔装術師アカネ / Magic MechSuit Akane"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"f6c0d95ad5a3755b27c5308f779c9a185319299f"
+		"logo_small"		"f6c0d95ad5a3755b27c5308f779c9a185319299f_thumb"
+		"icon"		"e9d2b5cac2b77596f30c4fbaca5cb15dda940e12"
+		"clienticon"		"1f447de95c0d8c51df7afe4e6975e99761bfa9fd"
+		"clienttga"		"81d746023fa0348ad32fe0456a790ddb97f292f1"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"魔装術師アカネ"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"japanese"		"header_japanese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1615378492"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"WaterMagus"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"WaterMagus"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_36"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1532727408"
+		"community_hub_visible"		"1"
+		"gameid"		"880320"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"4821"
+			"1"		"4747"
+			"2"		"492"
+			"3"		"4057"
+			"4"		"3814"
+			"5"		"4094"
+			"6"		"493"
+			"7"		"3955"
+			"8"		"4085"
+			"9"		"6650"
+			"10"		"1721"
+			"11"		"19"
+			"12"		"1775"
+			"13"		"4182"
+			"14"		"3859"
+			"15"		"3835"
+			"16"		"4115"
+		}
+	}
+	"extended"
+	{
+		"developer"		"WaterMagus"
+		"publisher"		"WaterMagus"
+	}
+	"config"
+	{
+		"installdir"		"Magic_MechSuit_Akane"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"akane.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"akane.exe"
+				"description"		"旧ブランチ用"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"dev_1"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"880321"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"793283991988344673"
+					"size"		"1352258570"
+					"download"		"443452272"
+				}
+				"dev_1"
+				{
+					"gid"		"3558795216065878261"
+					"size"		"3646586323"
+					"download"		"1387064400"
+				}
+				"rollback"
+				{
+					"gid"		"3386991999858990437"
+					"size"		"1350453562"
+					"download"		"442856224"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11164098"
+				"timeupdated"		"1683290877"
+			}
+			"dev_1"
+			{
+				"buildid"		"3527393"
+				"timeupdated"		"1552834229"
+			}
+			"rollback"
+			{
+				"buildid"		"6335336"
+				"description"		"rollback"
+				"timeupdated"		"1627901064"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"250000"
+		"maxnumfiles"		"20"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"robo/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
