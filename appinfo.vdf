@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"1454320"
+	"common"
+	{
+		"name"		"LabRat"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"d34f591ca0a9217e6cd4ab86857896c9accead8f"
+		"logo"		"1dae98780b98c0e72edcad8cee483a9ff62e6de0"
+		"logo_small"		"1dae98780b98c0e72edcad8cee483a9ff62e6de0_thumb"
+		"clienticon"		"0c5fc9e207bfd186d53aff6411e4616e42ba3b77"
+		"clienttga"		"083d6c729f1c8e98315ecaa50053f2176d1b215d"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"48.48837209302326"
+				"height_pct"		"90.65542626454527"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"48.48837209302326"
+					"height_pct"		"90.65542626454527"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1603146279"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"John Coday"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mythos Makers"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"John Coday"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1604591504"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1454320"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"1667"
+			"3"		"6815"
+			"4"		"4182"
+			"5"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"John Coday"
+		"publisher"		"Mythos Makers"
+		"homepage"		"https://www.mythosmakers.com/game/labrat"
+		"listofdlc"		"1524260"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Labrat"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LabRat.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BAK/LabRat.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1524260"
+				}
+				"description_loc"
+				{
+					"english"		"Pterodactyl Edition"
+				}
+				"description"		"Pterodactyl Edition"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1454321"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3778321244669770884"
+					"size"		"155669883"
+					"download"		"73094512"
+				}
+				"pterodactyl"
+				{
+					"gid"		"3889994871572241477"
+					"size"		"117741283"
+					"download"		"32769424"
+				}
+			}
+		}
+		"1524260"
+		{
+			"dlcappid"		"1524260"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3766347709403242342"
+					"size"		"117741411"
+					"download"		"32777584"
+				}
+				"pterodactyl"
+				{
+					"gid"		"3136528291656538434"
+					"size"		"117741411"
+					"download"		"32777584"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6079547"
+				"timeupdated"		"1610599414"
+			}
+			"pterodactyl"
+			{
+				"buildid"		"6079541"
+				"description"		"LabRat Pterodactyl Edition"
+				"timeupdated"		"1610599349"
+			}
+		}
+	}
+}
