@@ -1,0 +1,241 @@
+"appinfo"
+{
+	"appid"		"961000"
+	"common"
+	{
+		"name"		"SURVIVORS LEFT: X"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"dd9cfafedf83985f1fd32259103f3180c902cac5"
+		"clienticon"		"f621daa17828cbcd48e9d2bc7c8f6425245aa669"
+		"icon"		"49d14778fea94399e83caee6ac4131f6f69ed915"
+		"logo"		"71d6205850604702c2bc067e1321b2096a2d110b"
+		"logo_small"		"71d6205850604702c2bc067e1321b2096a2d110b_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"SURVIVORS LEFT: X"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"14.512752861634183"
+				"height_pct"		"85.96153909468792"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"14.512752861634183"
+					"height_pct"		"85.96153909468792"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1569179238"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"WINE WITH DISCOUNT GAMES"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"WINE WITH DISCOUNT GAMES"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1568920953"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"961000"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"4182"
+			"3"		"19"
+			"4"		"1654"
+			"5"		"1662"
+			"6"		"1756"
+			"7"		"1773"
+			"8"		"3871"
+			"9"		"3942"
+			"10"		"3964"
+			"11"		"4004"
+			"12"		"4094"
+			"13"		"4136"
+			"14"		"4711"
+			"15"		"5350"
+			"16"		"8093"
+		}
+	}
+	"extended"
+	{
+		"developer"		"WINE WITH DISCOUNT GAMES"
+		"publisher"		"WINE WITH DISCOUNT GAMES"
+	}
+	"config"
+	{
+		"installdir"		"SURVIVERS LEFT X"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SURVIVORS LEFT X.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"961001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"172483217306270911"
+					"size"		"337552137"
+					"download"		"125692592"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4235177"
+				"timeupdated"		"1569578747"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Wine With Discount Games"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		"Application.persistentDataPath"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		"Application.persistentDataPath"
+			}
+		}
+		"appidredirect"		"961000"
+	}
+}
