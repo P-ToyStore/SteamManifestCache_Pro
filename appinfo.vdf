@@ -1,0 +1,196 @@
+"appinfo"
+{
+	"appid"		"1666290"
+	"common"
+	{
+		"name"		"Audioclash Playtest"
+		"type"		"Beta"
+		"parent"		"1658440"
+		"releasestate"		"released"
+		"logo"		"95a95b0719e59eb5977c3cdfef6873e59f9600b5"
+		"logo_small"		"95a95b0719e59eb5977c3cdfef6873e59f9600b5_thumb"
+		"icon"		"25fc39ee8da2d38f8616fbc99c1f85b4831f9d06"
+		"clienttga"		"a73dca951f9c2153b1d0f346ccb6d672f548489e"
+		"clienticon"		"6ca40141dbb063668fa9206cd4bb4b91fac866de"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"spanish"		"1"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"56.12437060676211"
+				"height_pct"		"42.86510873672532"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"56.12437060676211"
+					"height_pct"		"42.86510873672532"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1681998303"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1626368387"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1666290"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"betaforappid"		"1658440"
+		"playtest_type"		"0"
+	}
+	"config"
+	{
+		"installdir"		"Audioclash Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AudioClash.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1666291"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3290647313037987357"
+					"size"		"2126165640"
+					"download"		"891082752"
+				}
+			}
+		}
+		"1666293"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"50018866452058181"
+					"size"		"1723804230"
+					"download"		"641110848"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7365290"
+				"timeupdated"		"1690787728"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"appidredirect"		"1658440"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"GlowForth/AudioClash/Saves"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"GlowForth/AudioClash/Saves"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"copied_from_parent"		"1"
+		}
+	}
+}
