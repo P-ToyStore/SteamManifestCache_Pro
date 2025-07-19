@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"2391030"
+	"common"
+	{
+		"name"		"X-Mode Playtest"
+		"type"		"Beta"
+		"parent"		"2265640"
+		"releasestate"		"released"
+		"icon"		"dd5f71f1f117b407b9a52f560605c6fb8f92f720"
+		"clienttga"		"c91ba3b8fbf2e98ea9d9c2d4581f19ebe584e916"
+		"clienticon"		"104b98385834b21ec408c37cab6a933d21b98ded"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"93.64060676779462"
+				"height_pct"		"80.39658038470671"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"93.64060676779462"
+					"height_pct"		"80.39658038470671"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"b563e1a1cabfb9e92a5235ccaa7d89748a4c7b93/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"b563e1a1cabfb9e92a5235ccaa7d89748a4c7b93/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1743810227"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1743810275"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2391030"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"betaforappid"		"2265640"
+		"playtest_type"		"1"
+		"playtestinvitecount"		"0"
+	}
+	"config"
+	{
+		"installdir"		"X-Mode Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GameClient.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"GameClient.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"baselanguages"		"english"
+		"2391031"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4597391329230440034"
+					"size"		"2275852260"
+					"download"		"411914672"
+				}
+				"beta_test"
+				{
+					"gid"		"4597391329230440034"
+					"size"		"2275852260"
+					"download"		"411914672"
+				}
+			}
+		}
+		"2391033"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7295156725906958675"
+					"size"		"2158585783"
+					"download"		"366691024"
+				}
+				"beta_test"
+				{
+					"gid"		"7295156725906958675"
+					"size"		"2158585783"
+					"download"		"366691024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19115253"
+				"timeupdated"		"1751690728"
+			}
+			"beta_test"
+			{
+				"buildid"		"19115253"
+				"description"		"Used for unstable beta builds"
+				"timeupdated"		"1751689025"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"{64BitSteamID}/XModeClient"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"{64BitSteamID}/XModeClient"
+						"replace"		"{64BitSteamID}/XModeClient"
+					}
+				}
+			}
+		}
+		"appidredirect"		"2265640"
+	}
+}
