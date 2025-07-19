@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"1686970"
+	"common"
+	{
+		"name"		"傻瓜式SGB粗陋心得"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"4a67bff38b9b253dd8a2161e56af81b4228c9c7b"
+		"logo_small"		"4a67bff38b9b253dd8a2161e56af81b4228c9c7b_thumb"
+		"icon"		"fe365834d0a983a1d79b93ae575610f0da1e9387"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienttga"		"0fd9ea9cc6cdb3e1319ed1ad6e1ee93430c3dc38"
+		"clienticon"		"4fcb778c846e291d5df137845aad6ed6e11aa9ec"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"schinese"		"header_schinese.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn"
+			"library_hero"		"en,zh-cn"
+			"library_logo"		"en,zh-cn"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"57.46691994140506"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+					"schinese"		"library_600x900_schinese_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+					"schinese"		"library_600x900_schinese.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+					"schinese"		"library_hero_schinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+					"schinese"		"library_hero_schinese_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"57.46691994140506"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+					"schinese"		"logo_schinese.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+					"schinese"		"logo_schinese_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1626733160"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3C18S"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3C18S"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1627987624"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1686970"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"4182"
+			"2"		"1720"
+			"3"		"4791"
+			"4"		"4191"
+			"5"		"7250"
+			"6"		"4195"
+			"7"		"7481"
+			"8"		"492"
+			"9"		"597"
+			"10"		"6971"
+			"11"		"1654"
+			"12"		"12057"
+		}
+	}
+	"extended"
+	{
+		"developer"		"3C18S"
+		"publisher"		"3C18S"
+	}
+	"config"
+	{
+		"installdir"		"The Experience of SGB"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese"
+		"1686971"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1429465184090467560"
+					"size"		"203600972"
+					"download"		"176980432"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7116637"
+				"timeupdated"		"1627691478"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
