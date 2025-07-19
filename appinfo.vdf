@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"973040"
+	"common"
+	{
+		"name"		"Kobold Slayer"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"logo"		"db4e146fac95d2c622fc4714f10ec746d2115d22"
+		"logo_small"		"db4e146fac95d2c622fc4714f10ec746d2115d22_thumb"
+		"icon"		"5e67f89b0c7313650b50674c9da5f41761fdd101"
+		"clienttga"		"4caa132161936cdc1f2bf9f5c4ea17ac489af84e"
+		"clienticon"		"9a27e06b18ffd148b5f23cf10b88874d6b9c68bd"
+		"clienticns"		"d46fe85a50b577e2a9f6f509adf013d181b6828c"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Kobold Slayer"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5236c6f891d021619cb28926f964ba9553f389ee.jpg"
+		"store_asset_mtime"		"1542129704"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Montino"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Montino"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1543132800"
+		"steam_release_date"		"1543157877"
+		"community_hub_visible"		"1"
+		"gameid"		"973040"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"21"
+			"2"		"1720"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Montino"
+		"publisher"		"Montino"
+		"gamemanualurl"		"https://store.steampowered.com/manual/973040/"
+	}
+	"config"
+	{
+		"installdir"		"Kobold Slayer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dungeon3D/nw"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"Dungeon3D/Game.exe"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dungeon3D/Game.app/Contents/MacOS/nwjs"
+				"arguments"		"--in-process-gpu"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"973041"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4974689331148010581"
+					"size"		"468983744"
+					"download"		"349193360"
+				}
+				"beta"
+				{
+					"gid"		"4974689331148010581"
+					"size"		"468983744"
+					"download"		"349193360"
+				}
+			}
+		}
+		"973042"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6077318355576823551"
+					"size"		"609663382"
+					"download"		"379528448"
+				}
+				"beta"
+				{
+					"gid"		"6077318355576823551"
+					"size"		"609663382"
+					"download"		"379528448"
+				}
+			}
+		}
+		"973043"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4864073190227052260"
+					"size"		"813657544"
+					"download"		"355537584"
+				}
+				"beta"
+				{
+					"gid"		"4864073190227052260"
+					"size"		"813657544"
+					"download"		"355537584"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4139571"
+				"timeupdated"		"1566831044"
+			}
+			"beta"
+			{
+				"buildid"		"4139534"
+				"description"		"beta branch"
+				"timeupdated"		"1566830345"
+			}
+		}
+	}
+}
