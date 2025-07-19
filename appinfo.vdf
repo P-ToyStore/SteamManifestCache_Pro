@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"3728160"
+	"common"
+	{
+		"name"		"SUPER PEOPLE Playtest"
+		"type"		"Beta"
+		"parent"		"3619270"
+		"icon"		"f52b710771a1156ac5216cb6ade53419a9b273f2"
+		"clienticon"		"1567a0ff1b201971a88740128cb014b5b0ac7973"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"releasestate"		"unavailable"
+		"small_capsule"
+		{
+			"english"		"416110894c70817c6901252b678551c886618cf8/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"0a9e69565965658129a540f26d51e6249030a4d9/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"45.67556535147159"
+				"height_pct"		"52.7811951577618"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"bc54904d7a3e425f2251ca45484554768a082444/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"bc54904d7a3e425f2251ca45484554768a082444/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"d2df350969e1673548ac717f6cb3545659a293cd/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"d2df350969e1673548ac717f6cb3545659a293cd/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"d2df350969e1673548ac717f6cb3545659a293cd/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"31a2d687666abf8b939f28a5dcf87a821d0712d6/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"31a2d687666abf8b939f28a5dcf87a821d0712d6/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"45.67556535147159"
+					"height_pct"		"52.7811951577618"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"0a9e69565965658129a540f26d51e6249030a4d9/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"0a9e69565965658129a540f26d51e6249030a4d9/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1747045672"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"gameid"		"3728160"
+		"exfgls"		"9"
+		"review_score"		"4"
+		"review_percentage"		"39"
+	}
+	"extended"
+	{
+		"playtest_type"		"0"
+		"playtestinvitecount"		"0"
+	}
+	"config"
+	{
+		"installdir"		"SUPER PEOPLE RE Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BravoHotelClient.exe"
+				"arguments"		"-ApiPhase=\"cbts\" -ServicePlatform=Steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"서비스"
+				}
+				"description"		"서비스"
+			}
+			"1"
+			{
+				"executable"		"BravoHotelClient.exe"
+				"arguments"		"-ApiPhase=\"reviews\" -ServicePlatform=Steam"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta"
+				}
+				"description_loc"
+				{
+					"english"		"베타 브렌치 시작옵션"
+				}
+				"description"		"베타 브렌치 시작옵션"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3728161"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6526878924313765545"
+					"size"		"33135620635"
+					"download"		"32474810176"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19037561"
+				"timeupdated"		"1751151884"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
