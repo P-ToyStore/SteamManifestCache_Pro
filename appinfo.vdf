@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"1176990"
+	"common"
+	{
+		"name"		"VECTORLORD"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"0d0cf68fd06cc3575e9d2c846f79d2f2bb3aed9e"
+		"logo_small"		"0d0cf68fd06cc3575e9d2c846f79d2f2bb3aed9e_thumb"
+		"icon"		"d60daa4f2a6e79479fa338e13952356c71ac75ea"
+		"clienttga"		"f89978cd60e3f952fb1cb6f02bedb488e7285615"
+		"clienticon"		"93650651f4b03bcb96c301b5a0f69415b17efe76"
+		"releasestate"		"released"
+		"metacritic_name"		"VECTORLORD"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1589138781"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NerveQuake Software Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"NerveQuake Software Inc."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1589815627"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1176990"
+		"store_tags"
+		{
+			"0"		"4255"
+			"1"		"4758"
+			"2"		"5379"
+			"3"		"1774"
+			"4"		"1773"
+			"5"		"3871"
+			"6"		"4791"
+			"7"		"1710"
+			"8"		"19"
+			"9"		"4305"
+			"10"		"3964"
+			"11"		"4252"
+			"12"		"5154"
+			"13"		"3916"
+			"14"		"6691"
+			"15"		"3993"
+			"16"		"4004"
+			"17"		"4182"
+			"18"		"492"
+			"19"		"4885"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"NerveQuake Software Inc."
+		"publisher"		"NerveQuake Software Inc."
+		"homepage"		"https://nervequake.com/"
+	}
+	"config"
+	{
+		"installdir"		"VECTORLORD"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game\\VECTORLORD.EXE"
+				"workingdir"		"game"
+				"description"		"Play VECTORLORD"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1176991"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6648237355923235214"
+					"size"		"310634279"
+					"download"		"274452032"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5072832"
+				"timeupdated"		"1590379712"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"30000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"game/"
+				"pattern"		"char_*.vl"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"game/"
+				"pattern"		"vl_available.vl"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"game/"
+				"pattern"		"localhs.vl"
+			}
+		}
+	}
+}
