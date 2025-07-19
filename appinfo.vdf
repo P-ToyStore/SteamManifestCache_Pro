@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"1013200"
+	"common"
+	{
+		"name"		"True Colors"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1013200_eula_0"
+				"name"		"True Colors EULA"
+				"url"		"https://store.steampowered.com//eula/1013200_eula_0"
+			}
+		}
+		"logo"		"11a5c2f682c680b3fb6d31681af6f747a121c166"
+		"logo_small"		"11a5c2f682c680b3fb6d31681af6f747a121c166_thumb"
+		"icon"		"d235160a904616bd6e5335539444de1a312b76e4"
+		"clienticon"		"23daa3c0a9bcda50f5029cd799e9e2bb89895619"
+		"clienttga"		"9ce99b6860e0852f5b86906051d94fe8e730d7bb"
+		"languages"
+		{
+			"english"		"1"
+			"koreana"		"1"
+		}
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"metacritic_name"		"Truecolors"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1578998292"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Team Newtype"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Team Newtype"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1576326634"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1013200"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"4345"
+			"2"		"3942"
+			"3"		"1721"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Team Newtype"
+		"publisher"		"Team Newtype"
+	}
+	"config"
+	{
+		"installdir"		"True Colors"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ESGame.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"koreana"
+		"1013201"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2726739017097267441"
+					"size"		"9558968419"
+					"download"		"4468299440"
+				}
+				"1.8.4.0-legacy"
+				{
+					"gid"		"1555959878026408496"
+					"size"		"4025648218"
+					"download"		"3807529088"
+				}
+				"preview"
+				{
+					"gid"		"2726739017097267441"
+					"size"		"9558968419"
+					"download"		"4468299440"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4583400"
+				"timeupdated"		"1579330133"
+			}
+			"1.8.4.0-legacy"
+			{
+				"buildid"		"4220377"
+				"timeupdated"		"1569745194"
+			}
+			"preview"
+			{
+				"buildid"		"4583400"
+				"timeupdated"		"1579329790"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"ESGame/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
