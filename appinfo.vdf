@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"2262060"
+	"common"
+	{
+		"name"		"Skyfighter Arcade"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"518ab7836df8d3071ba44877fc88eec885cc8dcb"
+		"clienttga"		"22b8891dbf003d4d5a1ce30dde1b09e7df044110"
+		"clienticon"		"b35f218a9a8bd6ac41d40f9bcd513ef7ecbdaf2c"
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1676861279"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Two Kings 22"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Two Kings 22"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1692441212"
+		"community_hub_visible"		"1"
+		"gameid"		"2262060"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4255"
+			"2"		"4637"
+			"3"		"1716"
+			"4"		"597"
+			"5"		"122"
+			"6"		"4252"
+			"7"		"4736"
+			"8"		"1773"
+			"9"		"1774"
+			"10"		"5547"
+			"11"		"4885"
+			"12"		"56690"
+			"13"		"3798"
+			"14"		"4975"
+			"15"		"3871"
+			"16"		"4791"
+			"17"		"4305"
+			"18"		"4094"
+			"19"		"3964"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Two Kings 22"
+		"publisher"		"Two Kings 22"
+		"homepage"		"https://twokings22.com/skyfighter-arcade/index.html"
+	}
+	"config"
+	{
+		"installdir"		"SkyfighterArcade"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SkyfighterArcade\\SkyfighterArcade.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Play Skyfighter Arcade"
+				}
+				"description"		"Play Skyfighter Arcade"
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65527"
+	}
+	"depots"
+	{
+		"2262061"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5886722596758401751"
+					"size"		"403376156"
+					"download"		"145997568"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11917430"
+				"timeupdated"		"1691722063"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Two Kings 22/SkyfighterArcade/"
+				"pattern"		"SaveFile.es3"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Two Kings 22/SkyfighterArcade/"
+						"replace"		".config/unity3d/Two Kings 22/SkyfighterArcade/"
+					}
+				}
+			}
+		}
+	}
+}
