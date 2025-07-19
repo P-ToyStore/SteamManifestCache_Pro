@@ -1,0 +1,182 @@
+"appinfo"
+{
+	"appid"		"663600"
+	"common"
+	{
+		"name"		"Genie"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"fa0c46becedaaa2658287010c4b508ba8919b4ac"
+		"logo_small"		"fa0c46becedaaa2658287010c4b508ba8919b4ac_thumb"
+		"icon"		"d175f58381a0b2d5c656c65d7d7f2d2d57790280"
+		"clienttga"		"d99f958de67a94226ac879a7aa24c93d9685a8b3"
+		"clienticns"		"126f3ba56b0cc3d122320d2ecee6578558bef7fa"
+		"linuxclienticon"		"fc5d1c663192e20841a04d92dd3ecf36c35e9b4b"
+		"clienticon"		"8b0fa92d8e2b93c26702cc3cb07cfa28d66e2400"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Genie"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3702f6fc3cc8287c677cdfb556d854407996177d.jpg"
+		"store_asset_mtime"		"1499710200"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"X3 Brothers"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"X3 Brothers"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1501560351"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"663600"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"X3 Brothers"
+		"publisher"		"X3 Brothers"
+	}
+	"config"
+	{
+		"installdir"		"Genie"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Genie.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Genie.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Genie.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"663601"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7455419408221097018"
+					"size"		"237222263"
+					"download"		"156213232"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2000595"
+				"timeupdated"		"1501524887"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"160000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"RenPy\\Genie-8487961426"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacHome"
+				"path"		"/Library/RenPy/Genie-8487961426"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		".renpy/Genie-8487961426"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
