@@ -1,0 +1,216 @@
+"appinfo"
+{
+	"appid"		"534210"
+	"common"
+	{
+		"name"		"MegaRats"
+		"type"		"Game"
+		"controllervr"
+		{
+			"kbm"		"1"
+			"xinput"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"5e5985571008ddc09a40ec1eef1cb61be6669037"
+		"clienttga"		"c28ab667815df474431c2473e2814e7e0ca8b72a"
+		"icon"		"f93ab08739c8b48e5bbd8312277322b41aeddc95"
+		"logo"		"231a957773ad768acd8d10a02bc6547e609be447"
+		"logo_small"		"231a957773ad768acd8d10a02bc6547e609be447_thumb"
+		"releasestate"		"released"
+		"eulas"
+		{
+		}
+		"osvrsupport"		"1"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"market_presence"		"1"
+		"metacritic_name"		"MegaRats"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_fe2b3e29fa127315e3bb557dfb854c4067cf26a6.jpg"
+		"store_asset_mtime"		"1479876227"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Red Frizbee Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Jam-Live"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_15"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1478226032"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"534210"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"492"
+			"3"		"599"
+			"4"		"1695"
+			"5"		"1774"
+			"6"		"21978"
+			"7"		"3968"
+			"8"		"1697"
+			"9"		"3810"
+			"10"		"3839"
+		}
+		"review_score"		"5"
+		"review_percentage"		"41"
+	}
+	"extended"
+	{
+		"developer"		"Red Frizbee Studios"
+		"publisher"		"Jam-Live"
+		"homepage"		"http://megarats.redfrizbee.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"MegaRats"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MegaRatsSteam-Windows-32-bit.exe"
+				"description"		"Standard Desktop Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"MegaRatsSteam-Windows-32-bit.exe"
+				"arguments"		"-vr"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"MegaRats VR (HDK,HDK2)"
+				}
+				"description"		"MegaRats VR (HDK,HDK2)"
+			}
+			"2"
+			{
+				"executable"		"MegaRatsSteam-Windows-32-bit.exe"
+				"arguments"		"-openvr"
+				"description"		"MegaRats VR (HTC Vive, Oculus)"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"534211"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4619612232671493386"
+					"size"		"1364662441"
+					"download"		"577380208"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"workshopdepot"		"534210"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1503970"
+				"timeupdated"		"1481126969"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SteamCloud"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+		"appidredirect"		"534210"
+	}
+}
