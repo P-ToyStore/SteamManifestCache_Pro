@@ -1,0 +1,275 @@
+"appinfo"
+{
+	"appid"		"504010"
+	"common"
+	{
+		"name"		"Chernobyl VR Project"
+		"type"		"Application"
+		"oslist"		"windows"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"osarch"		"64"
+		"logo"		"4b987172bcf1a557622284903bdd38dd972554a4"
+		"logo_small"		"4b987172bcf1a557622284903bdd38dd972554a4_thumb"
+		"icon"		"e7cbd3b5af8d69119104bb320086e5092023a4c0"
+		"clienttga"		"61301b43bc91f6ac7d0197ed6d3f7dd9d7533eba"
+		"clienticns"		"b9c306b6ed73771487f37b4fc0ee4deb55b524f1"
+		"clienticon"		"b03238ff5669c6c8fd5c69ec7bd24d8d0e32cdaf"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"metacritic_name"		"Chernobyl VR Project"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1ae40835c3c9d82102d2d1c09491758c7d73ca4e.jpg"
+		"store_asset_mtime"		"1505914425"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Farm 51 Group SA"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"The Farm 51 Group SA"
+			}
+		}
+		"primary_genre"		"54"
+		"genres"
+		{
+			"0"		"54"
+			"1"		"70"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1474873200"
+		"steam_release_date"		"1474905660"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"504010"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"1036"
+			"1"		"493"
+			"2"		"21978"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"enablegameoverlayforapp"		"1"
+		"developer"		"The Farm 51 Group SA"
+		"publisher"		"The Farm 51 Group SA"
+		"homepage"		"http://www.chernobylvrproject.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Chernobyl VR Project"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ChernobylVR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"ChernobylVR.exe"
+				"arguments"		"-vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"releasecandidate"
+				}
+			}
+			"3"
+			{
+				"executable"		"ChernobylVR.exe"
+				"description"		"Run application in 2D mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"releasecandidate"
+				}
+			}
+		}
+		"enablegameoverlayforapp"		"1"
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"0"
+		"504011"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5507424986721814877"
+					"size"		"13201604560"
+					"download"		"6792537344"
+				}
+				"chernobylproject(non-vr)"
+				{
+					"gid"		"5507424986721814877"
+					"size"		"13201604560"
+					"download"		"6792537344"
+				}
+			}
+		}
+		"504012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"504013"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"42388709754581857"
+					"size"		"13183509380"
+					"download"		"13054995232"
+				}
+				"chernobylproject(non-vr)"
+				{
+					"gid"		"42388709754581857"
+					"size"		"13183509380"
+					"download"		"13054995232"
+				}
+			}
+		}
+		"504014"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"chernobylproject(non-vr)"
+				{
+					"gid"		"7791633019305104570"
+					"size"		"12337281878"
+					"download"		"12253993664"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2228032"
+				"timeupdated"		"1509631448"
+			}
+			"chernobylproject(non-vr)"
+			{
+				"buildid"		"3234811"
+				"description"		"Chernobyl Project (Non-VR)"
+				"timeupdated"		"1557395940"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"ChernobylVR/Saved/SaveGame"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
