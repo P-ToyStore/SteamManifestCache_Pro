@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"1497830"
+	"common"
+	{
+		"name"		"Apsis"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"clienttga"		"85801648a39becee2973539a0e2e631776244a87"
+		"clienticon"		"9e85f626cd5aa8faa06c9c604982f23b01f58062"
+		"icon"		"c21f6c6207b623b0f401a4020c02473e58d13341"
+		"clienticns"		"6e4f2693db140a6e9f1e0cc10175bdace513486e"
+		"logo"		"6aa13b46c6e2323f99287dd92311b207011d4dc4"
+		"logo_small"		"6aa13b46c6e2323f99287dd92311b207011d4dc4_thumb"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"35.93023255813958"
+				"height_pct"		"82.52196627879363"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"35.93023255813958"
+					"height_pct"		"82.52196627879363"
+				}
+			}
+		}
+		"store_asset_mtime"		"1643703175"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Friendpatine"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Friendpatine"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1645794312"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1497830"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1773"
+			"2"		"4885"
+			"3"		"3871"
+			"4"		"4562"
+			"5"		"4305"
+			"6"		"4094"
+			"7"		"4791"
+			"8"		"3916"
+			"9"		"4004"
+			"10"		"492"
+			"11"		"3942"
+			"12"		"1755"
+			"13"		"5154"
+			"14"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Friendpatine"
+		"publisher"		"Friendpatine"
+	}
+	"config"
+	{
+		"installdir"		"Apsis"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Windows/Apsis/Apsis.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"OSX/Apsis.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1497831"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8125233427496956951"
+					"size"		"352474490"
+					"download"		"79520256"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8094709"
+				"timeupdated"		"1643257852"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
