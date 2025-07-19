@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"1104150"
+	"common"
+	{
+		"name"		"Ashi"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienttga"		"3b8e677cbabc2722a80664bc4ca81226315df7b2"
+		"clienticon"		"41c39ed38420ac0d10834ea5f2a4c2cc5011b993"
+		"icon"		"d6e9950d5d2a126dfd1af96ab63ac51d10877d9e"
+		"logo"		"4fe98f5ec7af42e83670857f57ca45c3a0952d86"
+		"logo_small"		"4fe98f5ec7af42e83670857f57ca45c3a0952d86_thumb"
+		"name_localized"
+		{
+			"english"		"Ashi"
+			"koreana"		"아시"
+		}
+		"linuxclienticon"		"b914c83e9d94ba7008b1448d7ae4b6113a73dc9f"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"40.23255813953489"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"40.23255813953489"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1639096981"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BnD(DotBox)"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BnD"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Ashi"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1639101671"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1104150"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"5379"
+			"2"		"5537"
+			"3"		"1625"
+			"4"		"21"
+			"5"		"3871"
+			"6"		"4726"
+			"7"		"4182"
+			"8"		"5350"
+			"9"		"3964"
+			"10"		"16094"
+		}
+	}
+	"extended"
+	{
+		"developer"		"BnD(DotBox)"
+		"publisher"		"BnD"
+	}
+	"config"
+	{
+		"installdir"		"Ashi"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ashi.exe"
+				"description"		"Ashi"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"baselanguages"		"english,koreana"
+		"1104151"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3206932055683446792"
+					"size"		"434216318"
+					"download"		"154012160"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8409378"
+				"timeupdated"		"1647864088"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"110000000"
+		"maxnumfiles"		"2"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
