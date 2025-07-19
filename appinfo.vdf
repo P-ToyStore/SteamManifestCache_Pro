@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"994700"
+	"common"
+	{
+		"name"		"Loco Launcher"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"02438dc61287322293bba2b8646b3c4070ad5fa9"
+		"logo_small"		"02438dc61287322293bba2b8646b3c4070ad5fa9_thumb"
+		"icon"		"8a655aeaf5f04092161c4aeca29cdb68711f11e4"
+		"clienticon"		"db092f63816d670fbfe888fde390f3bfb28d7969"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1659646430"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nitro Rabbit Labs"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nitro Rabbit Labs"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1631205578"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"994700"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"1773"
+			"3"		"1625"
+			"4"		"5395"
+			"5"		"4191"
+			"6"		"4195"
+			"7"		"4726"
+			"8"		"4252"
+			"9"		"5363"
+			"10"		"1684"
+			"11"		"493"
+			"12"		"492"
+			"13"		"7481"
+			"14"		"7250"
+			"15"		"3968"
+			"16"		"4182"
+			"17"		"4158"
+			"18"		"3810"
+			"19"		"5652"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Nitro Rabbit Labs"
+		"publisher"		"Nitro Rabbit Labs"
+		"homepage"		"https://nitrorabbitlabs.com"
+	}
+	"config"
+	{
+		"installdir"		"LocoLauncher"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HavocLauncher.exe"
+				"arguments"		"-fullscreen"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"994701"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5722232445148692644"
+					"size"		"4412374628"
+					"download"		"4254212816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10521339"
+				"timeupdated"		"1676009739"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"3000000000"
+		"maxnumfiles"		"50"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
