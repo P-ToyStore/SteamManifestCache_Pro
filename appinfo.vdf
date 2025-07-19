@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"1570150"
+	"common"
+	{
+		"name"		"Flowcubes"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"7c2531454e7e6717cca794e9cb129276abfa9a83"
+		"logo_small"		"7c2531454e7e6717cca794e9cb129276abfa9a83_thumb"
+		"icon"		"9a1568ec305b0afd426953bfd3f502d369bd3ab0"
+		"clienttga"		"50f39b51a05517205b11d914904b56339a429cb6"
+		"clienticon"		"b67d17cc235298ac765c2266bc9503e64250631a"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1616948204"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Martin Pichler"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Martin Pichler"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1619766000"
+		"steam_release_date"		"1619799368"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1570150"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"597"
+			"2"		"1664"
+			"3"		"4191"
+			"4"		"4562"
+			"5"		"4195"
+			"6"		"4305"
+			"7"		"4726"
+			"8"		"4252"
+			"9"		"4166"
+			"10"		"5350"
+			"11"		"4295"
+			"12"		"6129"
+			"13"		"12472"
+			"14"		"30358"
+			"15"		"3916"
+			"16"		"1654"
+			"17"		"3942"
+			"18"		"9803"
+			"19"		"1708"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Martin Pichler"
+		"publisher"		"Martin Pichler"
+		"homepage"		"https://flowcubes.com/"
+	}
+	"config"
+	{
+		"installdir"		"Flowcubes"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Flowcubes.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1570151"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5047573690127962179"
+					"size"		"1360201889"
+					"download"		"135418752"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,schinese,russian,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6581547"
+				"timeupdated"		"1619073998"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Flowcubes_Data/saves"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Contents/saves"
+			}
+		}
+	}
+}
