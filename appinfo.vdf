@@ -1,0 +1,94 @@
+"appinfo"
+{
+	"appid"		"633380"
+	"common"
+	{
+		"name"		"Flight Sim World: SDK + Pro Mission Tool"
+		"type"		"Tool"
+		"parent"		"389280"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"633380_eula_0"
+				"name"		"Flight Sim World: Pro Mission Tool EULA"
+				"url"		"http://store.steampowered.com//eula/633380_eula_0"
+			}
+		}
+		"clienticon"		"25f36c86a80b73b4f69f29846e80a1ce157e3a29"
+		"clienttga"		"a8b27a50f497876fe4290df20f5bcaa9cf726594"
+		"icon"		"2eea62a5f48e48c3070dba27331803b548075384"
+		"logo"		"afe8dc2e4c17b4ecfaf0058858d960f6b300a4a2"
+		"logo_small"		"afe8dc2e4c17b4ecfaf0058858d960f6b300a4a2_thumb"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"633380"
+	}
+	"config"
+	{
+		"installdir"		"FSW"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"tools\\Pro Mission Tool.exe"
+				"workingdir"		"tools"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"633381"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"192419639080665916"
+					"size"		"4076281177"
+					"download"		"1010780368"
+				}
+				"local"
+				{
+					"gid"		"637176030159689978"
+					"size"		"4076317064"
+					"download"		"1010792112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2342508"
+				"timeupdated"		"1512664140"
+			}
+			"local"
+			{
+				"buildid"		"2348026"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1512649476"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"500"
+	}
+}
