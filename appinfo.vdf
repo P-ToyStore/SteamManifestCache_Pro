@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"3404800"
+	"common"
+	{
+		"name"		"Chrono Odyssey Playtest"
+		"type"		"Beta"
+		"parent"		"2873440"
+		"icon"		"28b63d6b0bd5a4e30944cbea0420a4f1a69cf7b8"
+		"clienttga"		"bd9fee6f6020a1c32d3c0659ede6609b31b1b1c0"
+		"clienticon"		"4e195bddccecf4dcfda7bf66d93804195241bb66"
+		"releasestate"		"unavailable"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"3404800_eula_0"
+				"name"		"Chrono Odyssey Playtest EULA"
+				"url"		"https://store.steampowered.com//eula/3404800_eula_0"
+				"version"		"1"
+			}
+		}
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"2adf048681932feb2a893111421d4569537e533b/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"8004d5eb93453f1179a7f1f22b96dfcc60b1c69e/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"91.31944444444446"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"2db18a4efe9959940970ef0c7456dfdfcbbc540b/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"2db18a4efe9959940970ef0c7456dfdfcbbc540b/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"2cce8c55c804b22715151cca896bc0b20d884ad7/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"2cce8c55c804b22715151cca896bc0b20d884ad7/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"2cce8c55c804b22715151cca896bc0b20d884ad7/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"5b963b66692ed7b207fbf45114b8e419786b4851/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"5b963b66692ed7b207fbf45114b8e419786b4851/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"91.31944444444446"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"8004d5eb93453f1179a7f1f22b96dfcc60b1c69e/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"8004d5eb93453f1179a7f1f22b96dfcc60b1c69e/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1750093053"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_28"		"1"
+			"category_55"		"1"
+			"category_56"		"1"
+			"category_57"		"1"
+			"category_58"		"1"
+		}
+		"gameid"		"3404800"
+		"exfgls"		"9"
+		"review_score"		"5"
+		"review_percentage"		"57"
+	}
+	"config"
+	{
+		"installdir"		"Chrono Odyssey Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"xldr_ChronoOdyssey_GL_loader_x64.exe"
+				"arguments"		"GameS.exe -LoginType=Steam -NOSCREENMESSAGES -FrontType=KG"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Chrono Odyssey Playtest"
+				}
+				"description"		"Chrono Odyssey Playtest"
+			}
+			"1"
+			{
+				"executable"		"xldr_ChronoOdyssey_GL_loader_x64.exe"
+				"arguments"		"GameS.exe -LoginType=Steam -ServerType=QAGlobal -LogLevel=DEBUG -NOSCREENMESSAGES -FrontType=KG"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"kakaogames-playtest-qa1"
+				}
+				"description_loc"
+				{
+					"english"		"Chrono Odyssey Playtest qa1"
+				}
+				"description"		"Chrono Odyssey Playtest qa1"
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"3"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3404801"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"978078171860794919"
+					"size"		"42455328484"
+					"download"		"41571206544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18913537"
+				"timeupdated"		"1750257280"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
