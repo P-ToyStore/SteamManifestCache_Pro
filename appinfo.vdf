@@ -1,0 +1,196 @@
+"appinfo"
+{
+	"appid"		"3523370"
+	"common"
+	{
+		"name"		"OVR Input Method Bridge Early Access"
+		"type"		"Beta"
+		"parent"		"3448100"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"openvr_action_manifest_path"		"assets\\actions\\actions.json"
+		"clienttga"		"82fbbfdb4c0135c28cdf9d06cf89985a53c4fd54"
+		"clienticon"		"c8aa4127463d8b3bf51cbcc0b4b7f3f8306eba24"
+		"icon"		"68ef9da1328519216861b670e313416e0405888e"
+		"releasestate"		"released"
+		"openvroverlaysupport"		"1"
+		"small_capsule"
+		{
+			"english"		"f26ca9758f12be576fef88ca46e18543a5d9e14a/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"8503193260501d79301dec349e1a862c1b1ec28f/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"faf66dbad0f58661350be0534e252f8e28a922b0/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"faf66dbad0f58661350be0534e252f8e28a922b0/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"881279cfb9281f154a8e2fb81fcfd4325a418c6e/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"881279cfb9281f154a8e2fb81fcfd4325a418c6e/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"881279cfb9281f154a8e2fb81fcfd4325a418c6e/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"4697a3c21f4e4cba6629dec49d5dc6b6d773660e/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"4697a3c21f4e4cba6629dec49d5dc6b6d773660e/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"abe28c92e04913dce03e4db4ce66f77c7a0f7f82/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"abe28c92e04913dce03e4db4ce66f77c7a0f7f82/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1743057318"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_54"		"1"
+		}
+		"steam_release_date"		"1744801223"
+		"community_hub_visible"		"1"
+		"gameid"		"3523370"
+		"exfgls"		"9"
+		"onlyvrsupport"		"1"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"playtest_type"		"1"
+	}
+	"config"
+	{
+		"installdir"		"OVR Input Method Bridge Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"InputMethodBridge-Launcher.exe"
+				"type"		"openvroverlay"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3523371"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4733231869723689188"
+					"size"		"7485966"
+					"download"		"2723584"
+				}
+				"beta"
+				{
+					"gid"		"7277006769595384245"
+					"size"		"7505934"
+					"download"		"2727216"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19026041"
+				"timeupdated"		"1751026933"
+			}
+			"beta"
+			{
+				"buildid"		"19232873"
+				"description"		"beta branch"
+				"timeupdated"		"1752598217"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
