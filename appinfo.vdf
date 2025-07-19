@@ -1,0 +1,200 @@
+"appinfo"
+{
+	"appid"		"1067280"
+	"common"
+	{
+		"name"		"ReflexShot"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"f07c61ca2ebe02ebbfb1baea9ccbef40cd0b8d07"
+		"clienticon"		"df33695c42dc94f2c46b2bb54b8aedfd66ae88ce"
+		"icon"		"19dfa2dc1c9fa05a1f948d96542756e49f3d3768"
+		"logo"		"8877d603732ba24a5333ce934dbac23e408d2183"
+		"logo_small"		"8877d603732ba24a5333ce934dbac23e408d2183_thumb"
+		"releasestate"		"released"
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+		}
+		"restricted_countries"		"DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ff447e59e4fbb1707f211c56d11b2669f4b57d86.jpg"
+		"store_asset_mtime"		"1555304907"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Thousand Nights Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Thousand Nights Studio"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1557471600"
+		"steam_release_date"		"1557801502"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1067280"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"599"
+			"2"		"492"
+			"3"		"1663"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Thousand Nights Studio"
+		"publisher"		"Thousand Nights Studio"
+		"listofdlc"		"1265600"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"ReflexShot"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FPSPracticeGame.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"baselanguages"		"english,schinese,tchinese"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1067281"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3938460985014910990"
+					"size"		"500819969"
+					"download"		"428829200"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4859253"
+				"timeupdated"		"1585998794"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"20"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocal"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SavesDir"
+						"replace"		"FPSPracticeGame"
+					}
+				}
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+	}
+}
