@@ -1,0 +1,192 @@
+"appinfo"
+{
+	"appid"		"690570"
+	"common"
+	{
+		"name"		"Drone Racer: Canyons"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"679e71cbd00524f6407060a9c738369f6d010ff7"
+		"logo_small"		"679e71cbd00524f6407060a9c738369f6d010ff7_thumb"
+		"icon"		"bf4fb537083b33f66f3e09001bd13d05f73c307a"
+		"clienticon"		"ffc2518a40d76af9572cf3330ab301bb4aef9529"
+		"clienttga"		"a60fe072757edad698c75b35503f293f73772e66"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Drone Racer: Canyons"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_92fad720d222b987119aa2628b7c31a3d8cbd032.jpg"
+		"store_asset_mtime"		"1502903363"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"RedForce Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"RedForce Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_27"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1504016021"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"690570"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"699"
+			"2"		"492"
+			"3"		"3859"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"RedForce Games"
+		"publisher"		"RedForce Games"
+		"homepage"		"https://www.redforcegames.com/"
+	}
+	"config"
+	{
+		"installdir"		"Drone Racer Canyons"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DroneRacerCanyons.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DroneRacerCanyons.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"690571"
+		{
+		}
+		"690572"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5683270847444584325"
+					"size"		"143977140"
+					"download"		"33720512"
+				}
+			}
+		}
+		"690573"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1384335958073436975"
+					"size"		"155437459"
+					"download"		"36573120"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2075850"
+				"timeupdated"		"1504004808"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"RedForce Games/Drone Racer Canyons"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"RedForce Games/Drone Racer Canyons"
+						"replace"		"unity.RedForce Games.Drone Racer Canyons"
+					}
+				}
+			}
+		}
+	}
+}
