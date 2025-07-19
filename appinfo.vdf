@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"1113860"
+	"common"
+	{
+		"name"		"Cyborgs Attack"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"name_localized"
+		{
+			"english"		"Cyborgs Attack"
+		}
+		"logo"		"28b6449efafca4c9f0c07b3b4f870e91fa43580a"
+		"logo_small"		"28b6449efafca4c9f0c07b3b4f870e91fa43580a_thumb"
+		"icon"		"2f3913c76403b1c9e0a373e192f7f3265203662d"
+		"clienttga"		"d10d1c3a5c2bb7f0137ea98d1fe50f316c0f3147"
+		"clienticon"		"3e03d828cd11c6019f4809b6fcf04fc90c490a7a"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1113860_eula_0"
+				"name"		"Cyborgs Attack EULA"
+				"url"		"https://store.steampowered.com//eula/1113860_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1590440683"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Jonathan B Wood"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Jonathan B Wood"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"JBWGAMES LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1607015738"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1113860"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"599"
+			"4"		"1645"
+			"5"		"493"
+			"6"		"3835"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Jonathan B Wood"
+		"publisher"		"Jonathan B Wood"
+		"homepage"		"https://www.jbwgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Cyborgs Attack"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cyborgs Attack.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1113861"
+		{
+			"config"
+			{
+				"language"		""
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6420117680224559418"
+					"size"		"4863206066"
+					"download"		"1905561024"
+				}
+				"test"
+				{
+					"gid"		"6420117680224559418"
+					"size"		"4863206066"
+					"download"		"1905561024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7703074"
+				"timeupdated"		"1636726955"
+			}
+			"test"
+			{
+				"buildid"		"7703074"
+				"description"		"Branch to test latest build"
+				"timeupdated"		"1636726283"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"JBWGAMES LLC/Cyborgs Attack"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"com.jbwgames.cyborgsattack"
+			}
+		}
+	}
+}
