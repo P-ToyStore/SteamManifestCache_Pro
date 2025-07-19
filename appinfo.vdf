@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"1173700"
+	"common"
+	{
+		"name"		"Kontrol Flow"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"b2d9268bb21e511a6bcd75ee145f708d9352d12a"
+		"clienttga"		"a6fc4d868efe6907d278d8c189875a8e63413642"
+		"icon"		"96bc621c659fef452e74ee6fe474bcbf315392c8"
+		"logo"		"bf33769941382d93d30b08d5c12fd24df8f8c6be"
+		"logo_small"		"bf33769941382d93d30b08d5c12fd24df8f8c6be_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Kontrol Flow"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"75.21568139679289"
+				"height_pct"		"88.6515975516956"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"75.21568139679289"
+					"height_pct"		"88.6515975516956"
+				}
+			}
+		}
+		"store_asset_mtime"		"1599472851"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tyler Stansfield Jaggers"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Overidon Omnimedia"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Overidon Omnimedia"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1608019200"
+		"steam_release_date"		"1607969274"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1173700"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"492"
+			"2"		"597"
+			"3"		"1664"
+			"4"		"3964"
+			"5"		"6129"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Tyler Stansfield Jaggers"
+		"publisher"		"Overidon Omnimedia"
+	}
+	"config"
+	{
+		"installdir"		"KontrolFlow"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"KontrolFlow.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1173702"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2696391097541373707"
+					"size"		"141650490"
+					"download"		"65064560"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6150293"
+				"timeupdated"		"1611814425"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"KontrolFlow/save"
+				"pattern"		"*.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"KontrolFlow/save"
+						"replace"		"save"
+					}
+				}
+			}
+		}
+	}
+}
