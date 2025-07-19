@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"2209600"
+	"common"
+	{
+		"name"		"Will_Less Playtest"
+		"type"		"Beta"
+		"parent"		"2197670"
+		"releasestate"		"released"
+		"icon"		"66c4786c0c3a6795d6ebdef1871d3b23b955ae35"
+		"clienttga"		"fabcca812f55912f0867117abdfff72a976666ff"
+		"clienticon"		"3b42de99d9b81b67e4e209848fc24586fe6182a8"
+		"name_localized"
+		{
+			"english"		"Will_Less Playtest"
+			"schinese"		"无边存在：空壳行动 测试"
+			"tchinese"		"無邊存在：空殼行動 测试"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46.68071665047047"
+				"height_pct"		"38.47029112703797"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"46.68071665047047"
+					"height_pct"		"38.47029112703797"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1708500453"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1708658461"
+		"community_hub_visible"		"1"
+		"gameid"		"2209600"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"betaforappid"		"2197670"
+	}
+	"config"
+	{
+		"installdir"		"Willless Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Will-Less.exe"
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"steamcontrollertemplateindex"		"4"
+		"steamcontrollertouchtemplateindex"		"8"
+	}
+	"depots"
+	{
+		"2209601"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8350684623546418487"
+					"size"		"1894203749"
+					"download"		"1494227312"
+				}
+			}
+		}
+		"baselanguages"		"english,schinese,tchinese"
+		"hasdepotsindlc"		"0"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13867875"
+				"timeupdated"		"1711531065"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"52428800"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"yhhy/Will-Less"
+				"pattern"		"*.funJ"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"yhhy/will-less"
+						"replace"		"unity.yhhy.Will-Less"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"yhhy/will-less"
+						"replace"		".config/unity3d/yhhy/Will-Less"
+					}
+				}
+			}
+		}
+		"sync_while_suspended"		"1"
+	}
+}
