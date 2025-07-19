@@ -1,0 +1,186 @@
+"appinfo"
+{
+	"appid"		"630260"
+	"common"
+	{
+		"name"		"Tilted Mind"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"630260_eula_0"
+				"name"		"Tilted Mind EULA"
+				"url"		"http://store.steampowered.com//eula/630260_eula_0"
+			}
+		}
+		"clienticon"		"e95174923a2df39534138a6ebf9de2f1196d0bc7"
+		"clienttga"		"d2aaa182d473d744b65b176df82c6bd733cdd355"
+		"icon"		"a7935a0947f1788582082ab601f7c4258f156e5d"
+		"logo"		"10fbaceabada050b3e1741360e5a853918b9bbfd"
+		"logo_small"		"10fbaceabada050b3e1741360e5a853918b9bbfd_thumb"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Tilted Mind"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_eacee593b5d20e2a7b3e3ca3871b8cd20c56326c.jpg"
+		"store_asset_mtime"		"1494017317"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Paul Svelmoe"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Paul Svelmoe"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1497052778"
+		"community_hub_visible"		"1"
+		"gameid"		"630260"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21978"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Paul Svelmoe"
+		"publisher"		"Paul Svelmoe"
+	}
+	"config"
+	{
+		"installdir"		"Tilted Mind"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MazeTilt.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"MazeTilt.exe"
+				"description"		"with Body Tracking (3 Vive Trackers)"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"MazeTilt.exe"
+				"arguments"		"-only2trackers"
+				"description"		"with Body Tracking (2 Vive Trackers)"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"630261"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"97483838285917488"
+					"size"		"957564642"
+					"download"		"354908272"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1890506"
+				"timeupdated"		"1497470553"
+			}
+		}
+	}
+}
