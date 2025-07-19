@@ -1,0 +1,198 @@
+"appinfo"
+{
+	"appid"		"2257740"
+	"common"
+	{
+		"name"		"Chop Chop Guys Playtest"
+		"type"		"Beta"
+		"parent"		"2008220"
+		"icon"		"97ab06e120615681dd12c9577b4f0351db67aae8"
+		"clienticon"		"450360d461e716af62a01b67ed79c875987789c4"
+		"clienttga"		"c25e0a84b26b63e51a43352003dfa0903c4087c1"
+		"linuxclienticon"		"22df020928ba6b6c688563ec09232928814d63d7"
+		"clienticns"		"0a98c7760be37cce81a25bdde366f2c1490181ba"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"9380d6a27460d4432882df86ef5f906c70147695/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"56.07003876634795"
+				"height_pct"		"73.55622991051811"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"56.07003876634795"
+					"height_pct"		"73.55622991051811"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1723059544"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1723059596"
+		"community_hub_visible"		"1"
+		"gameid"		"2257740"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"betaforappid"		"2008220"
+		"playtest_type"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Chop Chop Guys Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ChopChop.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"ChopChop.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2257741"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"940288126088417614"
+					"size"		"353857690"
+					"download"		"244898144"
+				}
+			}
+		}
+		"2257742"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"steamdeck"		"1"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"709721359223461565"
+					"size"		"329381298"
+					"download"		"207818304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16601746"
+				"timeupdated"		"1733150342"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
