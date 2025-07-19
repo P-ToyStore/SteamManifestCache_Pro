@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"1731850"
+	"common"
+	{
+		"name"		"Prop Factory"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"2b3d536d8e639c26d8fded6f106a44bbf20bfa3f"
+		"linuxclienticon"		"47fcadf39130f586a614ec79b3df021f7f405195"
+		"clienticns"		"47fcadf39130f586a614ec79b3df021f7f405195"
+		"clienticon"		"f596978ce4663af1dcd1d6db621ce6c6e01e82d6"
+		"icon"		"d4212c778efa6ab413eb084ffe558167f4253c49"
+		"logo"		"8971cc395d73c1c107dd987041582170d397d665"
+		"logo_small"		"8971cc395d73c1c107dd987041582170d397d665_thumb"
+		"languages"
+		{
+			"english"		"1"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1629933823"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"lbdl GameStudio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"lbdl GameStudio"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1631272420"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1731850"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1664"
+			"2"		"1738"
+			"3"		"5652"
+			"4"		"4191"
+			"5"		"379975"
+			"6"		"4305"
+			"7"		"29363"
+			"8"		"4791"
+			"9"		"1643"
+			"10"		"492"
+			"11"		"1702"
+			"12"		"3942"
+			"13"		"7332"
+			"14"		"3968"
+			"15"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"lbdl GameStudio"
+		"publisher"		"lbdl GameStudio"
+	}
+	"config"
+	{
+		"installdir"		"Prop Factory"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Prop Factory.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1731851"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1835354552311132937"
+					"size"		"219446294"
+					"download"		"58096176"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7334962"
+				"timeupdated"		"1631240503"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"lbdl GameStudio/Prop Factory"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		".unity.lbdlGameStudio.save"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/unity3d/lbdlGameStudio/save"
+			}
+		}
+	}
+}
