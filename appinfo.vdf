@@ -1,0 +1,169 @@
+"appinfo"
+{
+	"appid"		"878610"
+	"common"
+	{
+		"name"		"Don't Feed The Slimes!"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"595c1f4f38da58b69af6a7096948a31546f54af7"
+		"logo_small"		"595c1f4f38da58b69af6a7096948a31546f54af7_thumb"
+		"icon"		"3f0ae56bff3299686ba5fcd4f0a672d69ec42b02"
+		"clienticon"		"bb17b50edb2a3cd62f1225939d2cb1945b502d08"
+		"clienttga"		"c83a3b3b8bee9718a9afb1d5df48c3b64d4f40c8"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Don't Feed The Slimes!"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_82830d0eafcfe20bc97d9f36f76be972aea72749.jpg"
+		"store_asset_mtime"		"1667143039"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ChillFun"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ChillFun"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1529758714"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"878610"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"21"
+			"2"		"492"
+			"3"		"597"
+			"4"		"493"
+			"5"		"1664"
+			"6"		"3968"
+			"7"		"4182"
+			"8"		"4562"
+			"9"		"5350"
+		}
+	}
+	"extended"
+	{
+		"developer"		"ChillFun"
+		"publisher"		"ChillFun"
+	}
+	"config"
+	{
+		"installdir"		"Don't Feed The Slimes!"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Don't Feed The Slimes!.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"878611"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2142028731190266377"
+					"size"		"83449356"
+					"download"		"48854928"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3179299"
+				"timeupdated"		"1538576363"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Don't Feed The Slimes!_Data"
+				"pattern"		"*.json"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Don't Feed The Slimes!_Data"
+						"replace"		"Don't Feed The Slimes!_Data"
+					}
+				}
+			}
+		}
+	}
+}
