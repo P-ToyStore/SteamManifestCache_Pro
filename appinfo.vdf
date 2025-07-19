@@ -1,0 +1,151 @@
+"appinfo"
+{
+	"appid"		"520230"
+	"common"
+	{
+		"name"		"TwinForce"
+		"type"		"Game"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"27e22c1c6d455d5576357a9087608760972a8b3d"
+		"logo_small"		"27e22c1c6d455d5576357a9087608760972a8b3d_thumb"
+		"clienticon"		"d9f26b9f2a160ccc855ff8493adc7e44713e7d4c"
+		"clienttga"		"086c86f089ba2c919c88cf146c9bc55ec4622501"
+		"icon"		"e6d13579b4f505ecc4b952786acef0e0e726d786"
+		"openvrsupport"		"1"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"TwinForce"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9dbc9bbf143f58cce7a662ad7a3f9cbd8a7e2d5b.jpg"
+		"store_asset_mtime"		"1473891822"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ETI"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ETI"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1474398000"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"520230"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"493"
+			"3"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"ETI"
+		"publisher"		"ETI"
+		"homepage"		"http://www.eti-software.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"TwinForce"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"twinforce.exe"
+				"arguments"		" -window-mode exclusive -screen-fullscreen 1 -vrmode stereo"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"twinforce.exe"
+				"arguments"		"-screen-fullscreen 0 -vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"520231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5233962513094767153"
+					"size"		"97235052"
+					"download"		"27068048"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1359517"
+				"timeupdated"		"1474973561"
+			}
+		}
+	}
+}
