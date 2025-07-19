@@ -1,0 +1,187 @@
+"appinfo"
+{
+	"appid"		"2420490"
+	"common"
+	{
+		"name"		"Zenos Stadium Playtest"
+		"type"		"Beta"
+		"parent"		"1690050"
+		"clienticon"		"a3b7389199118a22715ad93784fd91419ba3c9d2"
+		"clienttga"		"f50c6eac7b3806420fda55c5a4d64ad1de17c1cc"
+		"icon"		"4efaf91d71cde604f365380a3391363e153283dc"
+		"openvrsupport"		"1"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"0fc51025e19014c5d5ac9e84980bdc7ecc334aa5/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"26.07934655775962"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"26.07934655775962"
+					"height_pct"		"50"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"3af5da08ae17f48afcceb3355aaa3ffe1596e530/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"3af5da08ae17f48afcceb3355aaa3ffe1596e530/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1727344941"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_53"		"1"
+		}
+		"steam_release_date"		"1687184197"
+		"community_hub_visible"		"1"
+		"gameid"		"2420490"
+		"exfgls"		"9"
+	}
+	"extended"
+	{
+		"playtest_type"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Virtex Stadium Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"VirtexStadium.exe"
+				"arguments"		"-identityplatform=steam"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Virtex Stadium VR Mode"
+				}
+				"description"		"Virtex Stadium VR Mode"
+			}
+			"1"
+			{
+				"executable"		"VirtexStadium.exe"
+				"arguments"		"-2DMode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Virtex Stadium 2D Mode"
+				}
+				"description"		"Virtex Stadium 2D Mode"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2420491"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7594949032622447444"
+					"size"		"12666755266"
+					"download"		"10518437424"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15016223"
+				"timeupdated"		"1720803252"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
