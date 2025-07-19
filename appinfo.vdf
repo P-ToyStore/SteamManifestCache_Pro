@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"1455020"
+	"common"
+	{
+		"name"		"Tormenta do Tempo"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"89a7d44c8f8090fe0132ed5c5f4eab1185928f0a"
+		"logo_small"		"89a7d44c8f8090fe0132ed5c5f4eab1185928f0a_thumb"
+		"icon"		"662eaf30df08dc2661365bd93f5295841026c077"
+		"clienttga"		"2e5f26564b201db8e8fb40f7f9adeb1829f4de98"
+		"clienticon"		"7c754ce151094d7e0e65cea5ffc82fa1a06a1e08"
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1625091103"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Andre Themistocles"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Andre Themistocles"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1634071487"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1455020"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"122"
+			"2"		"4885"
+			"3"		"1646"
+			"4"		"3942"
+			"5"		"10679"
+			"6"		"4231"
+			"7"		"3871"
+			"8"		"4106"
+			"9"		"4791"
+			"10"		"1742"
+			"11"		"6971"
+			"12"		"19"
+			"13"		"3964"
+			"14"		"1684"
+			"15"		"21"
+			"16"		"4182"
+			"17"		"493"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Andre Themistocles"
+		"publisher"		"Andre Themistocles"
+	}
+	"config"
+	{
+		"installdir"		"TormentaDoTempo"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TormentaDoTempo.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamconfigurator3rdpartynative"		"7"
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"1455021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4561500507395620106"
+					"size"		"105654039"
+					"download"		"81472304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7563077"
+				"timeupdated"		"1634682898"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"50"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
