@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"1759260"
+	"common"
+	{
+		"name"		"Dungescape!"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"39c7c8e62f0dc3791077fb5577bc59b5f76f57ef"
+		"clienttga"		"31efecb4ae62ed235c834b84ced533ceec3ae4a8"
+		"icon"		"543b7371d7eea002996657666d1b5838eece4f14"
+		"logo"		"823a225d649ce9aa7f2afd3290fa4b0609c37135"
+		"logo_small"		"823a225d649ce9aa7f2afd3290fa4b0609c37135_thumb"
+		"controllervr"
+		{
+			"kbm"		"1"
+		}
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"12.476677185336897"
+				"height_pct"		"51.3954767927326"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"12.476677185336897"
+					"height_pct"		"51.3954767927326"
+				}
+			}
+		}
+		"store_asset_mtime"		"1631736134"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ben Barefoot"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Autism Fanaticism Gaming"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Dungescape!"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1633233655"
+		"community_hub_visible"		"1"
+		"gameid"		"1759260"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1664"
+			"2"		"7208"
+			"3"		"3964"
+			"4"		"3871"
+			"5"		"21"
+			"6"		"4791"
+			"7"		"1654"
+			"8"		"1720"
+			"9"		"5350"
+			"10"		"4182"
+			"11"		"7250"
+			"12"		"6691"
+			"13"		"1684"
+			"14"		"4172"
+			"15"		"3916"
+			"16"		"4004"
+			"17"		"492"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Ben Barefoot"
+		"publisher"		"Autism Fanaticism Gaming"
+	}
+	"config"
+	{
+		"installdir"		"Dungescape01"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dungescape01/Game.exe"
+				"arguments"		"-fullscreen"
+				"type"		"default"
+				"description_loc"
+				{
+					"english"		"default"
+				}
+				"description"		"default"
+			}
+			"1"
+			{
+				"executable"		"Dungescape01/Game.exe"
+				"arguments"		"-fullscreen"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dungescape01/Game.exe"
+				"arguments"		"-fullscreen"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1759261"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3098640973672573552"
+					"size"		"49065288"
+					"download"		"36241152"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7355497"
+				"timeupdated"		"1631611266"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
