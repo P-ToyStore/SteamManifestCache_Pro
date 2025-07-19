@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"2240130"
+	"common"
+	{
+		"name"		"Towering"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"icon"		"02419cd26f4a5c44a0a9858ae2b7597d8fdc5335"
+		"clienticon"		"e7ffbe8eefce65f7958710b6e5e2acf574888383"
+		"clienttga"		"5ca6a7d531b2408235b45c2645f5af0885fc7d48"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"54.9906703604704"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"54.9906703604704"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1670866328"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Eugene Tan Jianpeng"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Eugene Tan Jianpeng"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1673020815"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2240130"
+		"store_tags"
+		{
+			"0"		"3877"
+			"1"		"5379"
+			"2"		"5537"
+			"3"		"4026"
+			"4"		"1625"
+			"5"		"1773"
+			"6"		"7208"
+			"7"		"492"
+			"8"		"4182"
+			"9"		"19"
+			"10"		"3871"
+			"11"		"4726"
+			"12"		"7250"
+			"13"		"597"
+			"14"		"3964"
+			"15"		"4305"
+			"16"		"1643"
+			"17"		"5752"
+			"18"		"4004"
+			"19"		"4295"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Eugene Tan Jianpeng"
+		"publisher"		"Eugene Tan Jianpeng"
+	}
+	"config"
+	{
+		"installdir"		"Towering"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Towering.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Towering.app\\Contents\\MacOS\\Towering"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"2240131"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5255534500144306768"
+					"size"		"70034190"
+					"download"		"22641328"
+				}
+			}
+		}
+		"2240132"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6555078766760966660"
+					"size"		"92806652"
+					"download"		"29525504"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10416452"
+				"timeupdated"		"1674811149"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"EugeneTanJianpeng/Towering"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"EugeneTanJianpeng/Towering"
+						"replace"		"EugeneTanJianpeng/Towering"
+					}
+				}
+			}
+		}
+	}
+}
