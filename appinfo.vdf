@@ -1,0 +1,267 @@
+"appinfo"
+{
+	"appid"		"1119430"
+	"common"
+	{
+		"name"		"The Backrooms Simulator"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"decba3b04f4d9b3e221a4eab2ceeaa3fc3dcabe6"
+		"logo_small"		"decba3b04f4d9b3e221a4eab2ceeaa3fc3dcabe6_thumb"
+		"icon"		"d081548deb9574686cc82be6113e178c93a6cbf5"
+		"clienticon"		"2c953b7609a2fcdfcd55f504363622e41fe81dc0"
+		"clienttga"		"4c06fdba005215a4bb2e28b8b7cca656f538f73a"
+		"releasestate"		"released"
+		"osextended"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"openvr_action_manifest_path"		"BackroomsVR/actions.json"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"The Backrooms Simulator"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"96.52777777777777"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"96.52777777777777"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1648600120"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Pixel Plant LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Pixel Plant LLC"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1563865253"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1119430"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"492"
+			"2"		"5900"
+			"3"		"4136"
+			"4"		"10397"
+			"5"		"1667"
+			"6"		"4166"
+			"7"		"1721"
+			"8"		"21"
+			"9"		"3834"
+			"10"		"9204"
+			"11"		"21978"
+			"12"		"3839"
+			"13"		"6869"
+			"14"		"5125"
+			"15"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Pixel Plant LLC"
+		"publisher"		"Pixel Plant LLC"
+		"homepage"		"https://pixelplant.net"
+	}
+	"config"
+	{
+		"installdir"		"The Backrooms Simulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Backrooms/The Backrooms Simulator.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BackroomsVR/The Backrooms Simulator.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"BackroomsOculus/The Backrooms Simulator.exe"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1119431"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8367294622273212641"
+					"size"		"409010177"
+					"download"		"55812848"
+				}
+				"beta"
+				{
+					"gid"		"8367294622273212641"
+					"size"		"409010177"
+					"download"		"55812848"
+				}
+			}
+		}
+		"1119432"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8119754431887659508"
+					"size"		"103756861"
+					"download"		"36054544"
+				}
+				"beta"
+				{
+					"gid"		"8119754431887659508"
+					"size"		"103756861"
+					"download"		"36054544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8982193"
+				"timeupdated"		"1655960167"
+			}
+			"beta"
+			{
+				"buildid"		"8982193"
+				"description"		"test branch"
+				"timeupdated"		"1655857371"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
