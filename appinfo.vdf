@@ -1,0 +1,259 @@
+"appinfo"
+{
+	"appid"		"1969570"
+	"common"
+	{
+		"name"		"Shenanigans"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"a08c1ab8d818726ed9b9c4cf39a24726774659d8"
+		"clienticon"		"cafb44a732d34e59c0bc644f2783b45c682ff488"
+		"clienttga"		"dda0b84b8025f8ee4394fb9b2993dc38e5c499bc"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1695142422"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Benevoland"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Benevoland"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_47"		"1"
+			"category_49"		"1"
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"german"
+			{
+				"supported"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1686174894"
+		"community_hub_visible"		"1"
+		"gameid"		"1969570"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+			"2"		"1770"
+			"3"		"17389"
+			"4"		"4191"
+			"5"		"4305"
+			"6"		"5350"
+			"7"		"1719"
+			"8"		"1708"
+			"9"		"4136"
+			"10"		"492"
+			"11"		"1775"
+			"12"		"4747"
+			"13"		"14139"
+			"14"		"3859"
+			"15"		"4182"
+			"16"		"7178"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Benevoland"
+		"publisher"		"Benevoland"
+		"homepage"		"https://benevo.land"
+	}
+	"config"
+	{
+		"installdir"		"Shenanigans"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Shenanigans.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1969571"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6806119280201243722"
+					"size"		"563353814"
+					"download"		"90213984"
+				}
+				"beta"
+				{
+					"gid"		"6806119280201243722"
+					"size"		"563353814"
+					"download"		"90213984"
+				}
+			}
+		}
+		"baselanguages"		"english,german"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12234797"
+				"timeupdated"		"1695206135"
+			}
+			"beta"
+			{
+				"buildid"		"12234797"
+				"description"		"Beta"
+				"timeupdated"		"1695204023"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"500"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Benevoland/Shenanigans/presets"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Benevoland/Shenanigans/Characters"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Benevoland/Shenanigans/settings.json"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Benevoland/Shenanigans"
+						"replace"		"Benevoland/Shenanigans"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Benevoland/Shenanigans"
+						"replace"		".config/unity3d/Benevoland/Shenanigans"
+					}
+				}
+			}
+		}
+	}
+}
