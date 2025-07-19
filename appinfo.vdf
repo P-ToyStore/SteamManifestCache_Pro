@@ -1,0 +1,177 @@
+"appinfo"
+{
+	"appid"		"1073380"
+	"common"
+	{
+		"name"		"yellowtoy"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"clienticon"		"544403cef625d2814b4a3d19682326665e6dd8d2"
+		"icon"		"9f1770cd33e901dd85c5cc0b717b9398f6664a01"
+		"clienticns"		"544403cef625d2814b4a3d19682326665e6dd8d2"
+		"linuxclienticon"		"13b3e9c5abaa73e102035ae7c8bd390c243bdb16"
+		"logo"		"34e2a16cb3b7507b5931fbd2e1ef4b092a1563c5"
+		"logo_small"		"34e2a16cb3b7507b5931fbd2e1ef4b092a1563c5_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+		}
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"yellowtoy"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"store_screenshot"		"ss_31911765b1edb8368bef71c5d3b7dce8121993e0.jpg"
+		"store_asset_mtime"		"1558576266"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LIKE"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LIKE"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1558328100"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1073380"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"LIKE"
+		"publisher"		"LIKE"
+	}
+	"config"
+	{
+		"installdir"		"yellowtoy"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"yellowtoy.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"yellowtoy.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese"
+		"hasdepotsindlc"		"1"
+		"1073381"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2613020678415788299"
+					"size"		"195328396"
+					"download"		"86085280"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3849251"
+				"timeupdated"		"1558575151"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"5000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
