@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"1154010"
+	"common"
+	{
+		"name"		"Marshmallow Madness"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"b66dfbe4b152c6077dda2fe099b07d0c85f607fa"
+		"logo_small"		"b66dfbe4b152c6077dda2fe099b07d0c85f607fa_thumb"
+		"icon"		"2f4af9a3c719c821a2ca975290fc1b585d3b5016"
+		"clienttga"		"f119b4f84f1f06b20cfb5dc0dcb80b0c9970d6c8"
+		"clienticon"		"3fbce51ce6f72576cdea62b2ee8f3f7e84ae78b2"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Marshmallow Madness"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"54.390294205185555"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"54.390294205185555"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1568124396"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Spaceloom Studios AB"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Spaceloom Studios AB"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1569487444"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1154010"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"493"
+			"3"		"597"
+			"4"		"4182"
+			"5"		"1662"
+			"6"		"1743"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Spaceloom Studios AB"
+		"publisher"		"Spaceloom Studios AB"
+		"homepage"		"https://spaceloom.com"
+	}
+	"config"
+	{
+		"installdir"		"Marshmallow Madness"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Marshmallow Madness.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1154011"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4045181480769065880"
+					"size"		"139093896"
+					"download"		"29364800"
+				}
+				"beta"
+				{
+					"gid"		"1195803845043501938"
+					"size"		"130825302"
+					"download"		"26048896"
+				}
+			}
+		}
+		"1154012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4242055"
+				"timeupdated"		"1569839704"
+			}
+			"beta"
+			{
+				"buildid"		"4190333"
+				"timeupdated"		"1568295751"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
