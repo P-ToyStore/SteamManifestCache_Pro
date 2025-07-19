@@ -1,0 +1,189 @@
+"appinfo"
+{
+	"appid"		"886390"
+	"common"
+	{
+		"name"		"A Roll-Back Story"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"icon"		"4b76cfa9b745d603c5463a93141f999ea59c68d5"
+		"logo"		"6a081366958f993e4151cbc9593dae79d2617fe5"
+		"logo_small"		"6a081366958f993e4151cbc9593dae79d2617fe5_thumb"
+		"clienttga"		"61b704756034c5107f3606011bdb443832b1fbd6"
+		"clienticon"		"17abc58ef9a330ea73095aef17a784f4a482ba41"
+		"clienticns"		"df66c446e331b1ac2dece34efbb08379e3c44feb"
+		"linuxclienticon"		"d43ce39be17591ad67db6553f2381617dcf609c4"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"A Roll-Back Story"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_31f7d70858cf21d746da28644ea6a6ecb27c5662.jpg"
+		"store_asset_mtime"		"1535630195"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"iQuantile"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"iQuantile"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1535697504"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"886390"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"1625"
+			"3"		"4026"
+			"4"		"1628"
+			"5"		"3968"
+		}
+		"review_score"		"5"
+		"review_percentage"		"55"
+	}
+	"extended"
+	{
+		"developer"		"iQuantile"
+		"publisher"		"iQuantile"
+		"homepage"		"https://games.iquantile.com/a-roll-back-story/"
+	}
+	"config"
+	{
+		"installdir"		"A Roll-Back Story"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"A Roll Back Story.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"A Roll-Back Story.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"886391"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4429404105777523360"
+					"size"		"119456412"
+					"download"		"66426688"
+				}
+			}
+		}
+		"886392"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"911065353855243415"
+					"size"		"117129225"
+					"download"		"66545792"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3259312"
+				"timeupdated"		"1540878703"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"iQuantile/A RollBack Story/iQuantile"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxXdgConfigHome"
+				"path"		"unity3d/iQuantile/A RollBack Story/iQuantile"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
