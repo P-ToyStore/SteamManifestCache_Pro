@@ -1,0 +1,387 @@
+"appinfo"
+{
+	"appid"		"212700"
+	"common"
+	{
+		"name"		"Party of Sin"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+		}
+		"logo"		"5c87a6ebd47272a368547e2c4b84c5d2466295b9"
+		"logo_small"		"5c87a6ebd47272a368547e2c4b84c5d2466295b9_thumb"
+		"icon"		"a761d6cdbe4cf3d86d62b75fcb3a8307c86215e1"
+		"clienttga"		"b98b0723ef73f6885e02e40546ac90450d500689"
+		"oslist"		"windows"
+		"metacritic_name"		"Party of Sin"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1202896db59f4fa46f3a28f2cc4d0f84c0bf671c.jpg"
+		"store_asset_mtime"		"1355362855"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Crankshaft Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Crankshaft Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_9"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+			"russian"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1355421600"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"212700"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+			"3"		"1625"
+			"4"		"3841"
+			"5"		"1664"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"developer"		"Crankshaft Games"
+		"gamedir"		"Party of Sin"
+		"homepage"		"http://www.partyofsin.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Crankshaft Games"
+		"listofdlc"		"212710"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Party of Sin"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/PartyOfSin.exe"
+				"arguments"		""
+				"description"		"Launch normally"
+				"workingdir"		"bin"
+			}
+		}
+		"installscriptsignature"		"8efa536c7b6727df8b8d94441544902195639ce485d34c17d0d9ce4dcf217fee8b7cb05ee45b6e8ae4d14aaeab25838d8c8f8c5e777f722d1467afaa3c8cb8fff2888ef4e6d55b3cfd08a6a21663a6e7c3c57eef3a420c15d3dd1bad251da1d5a7a5d96c2046db9bf4cd035dace842cedfc9dfacbf40b24c9e2666abd08f869e"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"install"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v4\\Client"
+				"process 1"		"%INSTALLDIR%\\redist\\dotNetFx40_Client_x86_x64.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+			"xna"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\212700"
+				"process 1"		"msiexec.exe"
+				"command 1"		"/quiet /i \"%INSTALLDIR%\\redist\\xnafx40_redist.msi\""
+				"nocleanup"		"1"
+			}
+			"wmvx86"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\212700"
+				"process 1"		"%INSTALLDIR%\\redist\\WMVx86.bat"
+				"command 1"		""
+				"nocleanup"		"1"
+				"requirement_os"
+				{
+					"is64bitwindows"		"0"
+					"ostype"		"Windows 7"
+				}
+			}
+			"wmvx64"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\212700"
+				"process 1"		"%INSTALLDIR%\\redist\\WMVx64.bat"
+				"command 1"		""
+				"nocleanup"		"1"
+				"requirement_os"
+				{
+					"is64bitwindows"		"1"
+					"ostype"		"Windows 7"
+				}
+			}
+			"wmp_xp"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\212700"
+				"process 1"		"%INSTALLDIR%\\redist\\wmp11-windowsxp-x86-enu.exe"
+				"command 1"		"/Q"
+				"nocleanup"		"1"
+				"requirement_os"
+				{
+					"is64bitwindows"		"0"
+					"ostype"		"Windows XP"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"212701"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5093389120831676109"
+					"size"		"477206237"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"5093389120831676109"
+					"size"		"477206237"
+					"download"		"0"
+				}
+			}
+		}
+		"212702"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1514299338702907083"
+					"size"		"108088943"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"1514299338702907083"
+					"size"		"108088943"
+					"download"		"0"
+				}
+			}
+		}
+		"212704"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1000123527598733650"
+					"size"		"92183622"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"1000123527598733650"
+					"size"		"92183622"
+					"download"		"0"
+				}
+			}
+		}
+		"212705"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3241738444284115824"
+					"size"		"93407609"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"3241738444284115824"
+					"size"		"93407609"
+					"download"		"0"
+				}
+			}
+		}
+		"212706"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6658694237746395944"
+					"size"		"91335614"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"6658694237746395944"
+					"size"		"91335614"
+					"download"		"0"
+				}
+			}
+		}
+		"212707"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4740376153741610056"
+					"size"		"91110983"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"4740376153741610056"
+					"size"		"91110983"
+					"download"		"0"
+				}
+			}
+		}
+		"212708"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6413939888566220722"
+					"size"		"91631622"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"6413939888566220722"
+					"size"		"91631622"
+					"download"		"0"
+				}
+			}
+		}
+		"212710"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3092811881250502471"
+					"size"		"181160716"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"3092811881250502471"
+					"size"		"181160716"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"212710"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"111957"
+			}
+			"beta"
+			{
+				"buildid"		"111957"
+				"description"		"Beta Branch"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"8"
+	}
+}
