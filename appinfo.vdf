@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"1157880"
+	"common"
+	{
+		"name"		"Power Struggle"
+		"type"		"Game"
+		"logo"		"8f9294480c7a1cc995767c947621a8dd258819d4"
+		"logo_small"		"8f9294480c7a1cc995767c947621a8dd258819d4_thumb"
+		"clienttga"		"4448c7ac6a709fd49c9b7f76278adb3a13383ed0"
+		"clienticon"		"bdc70e8f8ca0dffba900a9e28a17375d918d8ad6"
+		"icon"		"88793851223cc11546768b6030d3e61b4bfc0e16"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"metacritic_name"		"Power Struggle"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"68.08359059605793"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"100"
+					"height_pct"		"68.08359059605793"
+				}
+			}
+		}
+		"store_asset_mtime"		"1614367079"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PSS"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"MIRROR Soft"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1580766020"
+		"community_hub_visible"		"1"
+		"gameid"		"1157880"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"5179"
+			"2"		"1741"
+			"3"		"4684"
+			"4"		"7368"
+		}
+	}
+	"extended"
+	{
+		"developer"		"PSS"
+		"publisher"		"MIRROR Soft"
+		"homepage"		"https://www.mirrorsoft.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1157880/"
+	}
+	"config"
+	{
+		"installdir"		"PowerStruggle"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"\"POWERSTG.EXE\" -conf \"dosbox_power-struggle.conf\" -noconsole"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"runPowerStruggle.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1157881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"27158205336725163"
+					"size"		"5526804"
+					"download"		"2319552"
+				}
+			}
+		}
+		"1157882"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4999667973700851826"
+					"size"		"3930408"
+					"download"		"1096816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4837501"
+				"timeupdated"		"1585594541"
+			}
+		}
+	}
+}
