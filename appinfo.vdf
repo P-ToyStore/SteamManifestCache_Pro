@@ -1,0 +1,445 @@
+"appinfo"
+{
+	"appid"		"266230"
+	"common"
+	{
+		"name"		"Last Dream"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"ee67b2fed7ef2e1d1fafa9240f078908bc7e32ab"
+		"logo_small"		"ee67b2fed7ef2e1d1fafa9240f078908bc7e32ab_thumb"
+		"icon"		"87bb51499fb946ce4ff4fac8de01e3964c024dac"
+		"clienttga"		"a1ea6a08aa52b4322034a4db7e53b22c9031c854"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"266230_eula_0"
+				"name"		"Last Dream EULA"
+				"url"		"http://store.steampowered.com/eula/266230_eula_0"
+			}
+		}
+		"clienticon"		"b9182640588b658419adb5152ef3d0f15b0357ab"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1666656000"
+			"tested_build_id"		"1806076"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Last Dream"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_17b395274a87517db92c102f2c13ce0a09221c55.jpg"
+		"store_asset_mtime"		"1598216458"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"White Giant RPG Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"White Giant RPG Studios"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Last Dream"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1394694000"
+		"steam_release_date"		"1394736012"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"266230"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"5577"
+			"2"		"492"
+			"3"		"4434"
+			"4"		"1677"
+			"5"		"1664"
+			"6"		"3964"
+			"7"		"4182"
+			"8"		"1693"
+			"9"		"3871"
+		}
+		"review_score"		"8"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"White Giant RPG Studios"
+		"publisher"		"White Giant RPG Studios"
+		"homepage"		"http://www.whitegiantrpg.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Last Dream"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"LastDream.bin.x86_64"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"LastDream.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"LastDream.bin.i686"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"LastDream_32.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"5"
+			{
+				"executable"		"LastDream_64.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"Game.exe"
+				"description"		"Last Dream (Older Graphics Cards)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"266231"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2931360155809267797"
+					"size"		"1148073480"
+					"download"		"881705696"
+				}
+				"mkxp"
+				{
+					"gid"		"5604634494692246430"
+					"size"		"1149860302"
+					"download"		"881430304"
+				}
+			}
+		}
+		"266232"
+		{
+		}
+		"266233"
+		{
+		}
+		"355360"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2799107594459166109"
+					"size"		"80578172"
+					"download"		"76639728"
+				}
+				"mkxp"
+				{
+					"gid"		"2799107594459166109"
+					"size"		"80578172"
+					"download"		"76639728"
+				}
+			}
+		}
+		"266236"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8042555780284206255"
+					"size"		"896740540"
+					"download"		"820663632"
+				}
+				"mkxp"
+				{
+					"gid"		"7637167547029903286"
+					"size"		"898488099"
+					"download"		"820247776"
+				}
+			}
+		}
+		"266234"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1842524312658675202"
+					"size"		"925974569"
+					"download"		"827288336"
+				}
+				"mkxp"
+				{
+					"gid"		"918099135292387152"
+					"size"		"927532930"
+					"download"		"826814192"
+				}
+			}
+		}
+		"266235"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6316272694318197344"
+					"size"		"888419988"
+					"download"		"817643616"
+				}
+				"mkxp"
+				{
+					"gid"		"5930893232044481396"
+					"size"		"891746971"
+					"download"		"818294912"
+				}
+			}
+		}
+		"266237"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3272863203086246866"
+					"size"		"1148073249"
+					"download"		"880008512"
+				}
+				"mkxp"
+				{
+					"gid"		"4066491032902442898"
+					"size"		"1013640121"
+					"download"		"849353008"
+				}
+			}
+		}
+		"266238"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4140342697927434166"
+					"size"		"1148073249"
+					"download"		"880011424"
+				}
+				"mkxp"
+				{
+					"gid"		"7121362135014324822"
+					"size"		"1028415459"
+					"download"		"850412192"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1806076"
+				"timeupdated"		"1494215637"
+			}
+			"mkxp"
+			{
+				"buildid"		"810140"
+				"description"		"mkxp version"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.rvdata"
+			}
+		}
+	}
+}
