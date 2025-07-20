@@ -1,0 +1,183 @@
+"appinfo"
+{
+	"appid"		"9970"
+	"common"
+	{
+		"name"		"Star Raiders "
+		"clienticon"		"3edd9928c68b2436ad71d8ae19b3e5b6806cc471"
+		"clienttga"		"a96f36f3c1db9afb54e4e1d9722bcd202d0184a0"
+		"icon"		"13118e03180f888362e449665d013796cb3a7047"
+		"logo"		"d6e1ccc4d94fcc083c5fabc038a1a69a822fe529"
+		"logo_small"		"d6e1ccc4d94fcc083c5fabc038a1a69a822fe529_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"9970_eula_0"
+				"name"		"Star Raiders  EULA"
+				"url"		"http://store.steampowered.com//eula/9970_eula_0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"type"		"game"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6dcb3635f88a531845a1c93f6389ea2895f4e2b4.jpg"
+		"store_asset_mtime"		"1305305775"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Incinerator Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1305133200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"9970"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1755"
+		}
+		"review_score"		"3"
+		"review_percentage"		"16"
+	}
+	"extended"
+	{
+		"developer"		"Incinerator Studios"
+		"gamedir"		"Star Raiders"
+		"homepage"		"http://www.atari.com/starraiders"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"9971"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Atari"
+	}
+	"config"
+	{
+		"installscriptsignature"		"a4e048a1ae0f9d2c886df9581c0d3213b33344a0add501ed8c82d97bcb8fc83c062a98c2491c75d781890d83fc32cb6da024eb45619a90c821a06469d5b1824adf8c2ad82b80ff19c629594ca05bc0f579423595181bfc5af69d07e393d815046d152e5e0e6b2413468d4e80dc585ae76a7eff7301ee2207f7128fbb466f5baf"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Star Raiders"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StarRaiders.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\9970"
+				"process 1"		"%INSTALLDIR%\\directx_feb2010_redist.exe"
+				"command 1"		"/Q /T:%TEMP%"
+				"nocleanup"		"1"
+			}
+			"vcredistold"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\9970"
+				"process 1"		"%INSTALLDIR%\\vc2005redist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\9970"
+				"process 1"		"%INSTALLDIR%\\vc2008redist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"9971"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"628585225944473068"
+					"size"		"995886528"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2848"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"hidecloudui"		"0"
+	}
+}
