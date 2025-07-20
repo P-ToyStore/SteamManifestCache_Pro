@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"1211610"
+	"common"
+	{
+		"name"		"Tune the Tone"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"4b4298fde0d059ff20adb7d65f2ae74f0c81b16b"
+		"logo_small"		"4b4298fde0d059ff20adb7d65f2ae74f0c81b16b_thumb"
+		"icon"		"7971ca428d5f7b9117d1c4d8350f7bffdd5c6c28"
+		"linuxclienticon"		"b29d5bf5857623efbe16689ea5e996f3d5ecce89"
+		"clienticon"		"8fe958e15e85f9c4b997bfd4b3c6a067223a473a"
+		"clienttga"		"c2d030d8d3eb8b389333a50cb90db613117ffec2"
+		"metacritic_name"		"Tune the Tone"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"58.76288659793815"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"58.76288659793815"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1587648442"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nerd Owl Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nerd Owl Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1587549645"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1211610"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"493"
+			"2"		"597"
+			"3"		"599"
+			"4"		"1621"
+			"5"		"1752"
+			"6"		"1756"
+			"7"		"4166"
+			"8"		"4711"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Nerd Owl Games"
+		"publisher"		"Nerd Owl Games"
+		"homepage"		"https://www.nerdowlgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Tune the Tone"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Tune the Tone.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1211611"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6247849228069334237"
+					"size"		"729531853"
+					"download"		"564693264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5407416"
+				"timeupdated"		"1597318370"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Nerd Owl Games/Tune the Tone/{64BitSteamID}"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"unity.Nerd Owl Games.Tune the Tone/{64BitSteamID}"
+			}
+		}
+	}
+}
