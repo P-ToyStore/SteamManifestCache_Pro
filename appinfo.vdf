@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"737670"
+	"common"
+	{
+		"name"		"Lost King's Lullaby"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"1b3de551d7105299caa2f4a610c18a7476081949"
+		"logo_small"		"1b3de551d7105299caa2f4a610c18a7476081949_thumb"
+		"icon"		"7023c375cd926314406b99a57a196ad7a6255a0d"
+		"clienticon"		"8af41621ed443b041c9d8c9a83804361f3b2891a"
+		"clienttga"		"f47d0aafb58a98b634f9b69e28ef4a2ebbf0471c"
+		"languages"
+		{
+			"english"		"1"
+			"spanish"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Lost King's Lullaby"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1573489383"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Storeen Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tesura Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1556180303"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"737670"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Storeen Games"
+		"publisher"		"Tesura Games"
+	}
+	"config"
+	{
+		"installdir"		"Lost King's Lullaby"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Lost King's Lullaby.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"737671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6621973696244269209"
+					"size"		"1417464902"
+					"download"		"196657184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3729302"
+				"timeupdated"		"1554996380"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Storeen Games/Lost King's Lullaby"
+				"pattern"		"*.LKL"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Storeen Games/Lost King's Lullaby"
+						"replace"		"unity.Storeen Games.Lost King's Lullaby"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Storeen Games/Lost King's Lullaby"
+						"replace"		"config/unity3d/Storeen Games/Lost King's Lullaby"
+					}
+				}
+			}
+		}
+	}
+}
