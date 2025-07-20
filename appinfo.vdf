@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"835740"
+	"common"
+	{
+		"name"		"Hyper Fighter Boost Mode ON"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"33b120aa656f18c4b174767001c7bc4fbfdc31cf"
+		"logo_small"		"33b120aa656f18c4b174767001c7bc4fbfdc31cf_thumb"
+		"icon"		"77f3c99149ef7fc315a90c13ea46bde8c2e8c3da"
+		"clienttga"		"a23c2c33ff5bcb9891fc31fda1300b1bef7f0874"
+		"clienticon"		"6b678aa49991b2583b85b3e650dcf2f46539a490"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"HyperFighter Boost Mode ON"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cc33e03712b39532879fdb65fd08f3bfe21b1cf1.jpg"
+		"store_asset_mtime"		"1524832451"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Boosted Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Boosted Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1525417200"
+		"steam_release_date"		"1525421177"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"835740"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Boosted Games"
+		"publisher"		"Boosted Games"
+		"homepage"		"http://hyperfightergame.com/"
+	}
+	"config"
+	{
+		"installdir"		"Hyper Fighter Boost Mode ON"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HyperFighter.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"HyperFighterx86.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"835741"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5923109692495558289"
+					"size"		"1404595038"
+					"download"		"1287571024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2864888"
+				"timeupdated"		"1529067771"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"800000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"HyperFighter/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"HyperFighter/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"3"
+			{
+				"root"		"WinSavedGames"
+				"path"		"SavesDir"
+				"pattern"		"hfbmo.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
