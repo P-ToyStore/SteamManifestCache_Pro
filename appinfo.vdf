@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"2702110"
+	"common"
+	{
+		"name"		"Prophecy of the Shadow"
+		"type"		"Game"
+		"icon"		"443fc22f7836d280349f65fa1757bc87adc5c18d"
+		"clienticon"		"ed8a918cd9b68eb38c25b6022f6ce99b97520701"
+		"clienttga"		"31217392bd14d8020dce30cf8463385d520efe1b"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"61.17578579743889"
+				"height_pct"		"65.19783905725905"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"61.17578579743889"
+					"height_pct"		"65.19783905725905"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1702991493"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Strategic Simulations"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"SSI"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1702994070"
+		"community_hub_visible"		"1"
+		"gameid"		"2702110"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"3834"
+			"2"		"5851"
+			"3"		"1684"
+			"4"		"6691"
+			"5"		"3871"
+			"6"		"4182"
+			"7"		"3964"
+			"8"		"1697"
+			"9"		"4791"
+			"10"		"4057"
+			"11"		"5716"
+			"12"		"3916"
+			"13"		"4004"
+			"14"		"1742"
+			"15"		"4474"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Strategic Simulations"
+		"publisher"		"SNEG"
+		"gamemanualurl"		"https://store.steampowered.com/manual/2702110/"
+	}
+	"config"
+	{
+		"installdir"		"Prophecy of the Shadow"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf prophecy-base.conf -conf prophecy-game.conf -conf prophecy-graphics.conf"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf prophecy-graphics.conf"
+				"type"		"config"
+				"description_loc"
+				{
+					"english"		"Graphics settings"
+				}
+				"description"		"Graphics settings"
+			}
+		}
+	}
+	"depots"
+	{
+		"2702111"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6132989452201330497"
+					"size"		"11105658"
+					"download"		"5575072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12903951"
+				"timeupdated"		"1701976994"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME/SSI/PROPHECY/SAVE"
+				"pattern"		"*.*"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"ProphecyoftheShadow_20231129_v1/Prophecy of the Shadow/GAME/SSI/PROPHECY/SAVE"
+				"pattern"		"*.CAT"
+			}
+		}
+	}
+}
