@@ -1,0 +1,201 @@
+"appinfo"
+{
+	"appid"		"1157870"
+	"common"
+	{
+		"name"		"Savage"
+		"type"		"Game"
+		"clienticon"		"76555fba8a04a6fa97e70d2cf4c70fb48ae29f52"
+		"clienttga"		"927ed7d1c917f8781b47529379f0967c5866ce12"
+		"icon"		"837489560b229de39a33b83919c62236020c41dd"
+		"logo"		"bb098881f5007fa00c4003316a438f36f5e40ab9"
+		"logo_small"		"bb098881f5007fa00c4003316a438f36f5e40ab9_thumb"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"metacritic_name"		"Savage"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1614367094"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Probe Software Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"MIRROR Soft"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1577854748"
+		"community_hub_visible"		"1"
+		"gameid"		"1157870"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1625"
+			"2"		"4004"
+			"3"		"1773"
+			"4"		"3798"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Probe Software Ltd."
+		"publisher"		"MIRROR Soft"
+		"homepage"		"https://www.mirrorsoft.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1157870/"
+	}
+	"config"
+	{
+		"installdir"		"Savage"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"\"SAVAGE.exe\" -conf \"dosbox_savage.conf\" -noconsole"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"runSavage.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1157871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7660868619441453539"
+					"size"		"5732461"
+					"download"		"2464880"
+				}
+			}
+		}
+		"1157872"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7729232785921630721"
+					"size"		"9373190"
+					"download"		"3523984"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4577156"
+				"timeupdated"		"1579190985"
+			}
+		}
+	}
+}
