@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"428980"
+	"common"
+	{
+		"name"		"Ethereal Legends"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"f4f994fa387ddf2950072740a5cd9e545ca8b536"
+		"logo_small"		"f4f994fa387ddf2950072740a5cd9e545ca8b536_thumb"
+		"icon"		"8d50ce15b7104f1b9de8024ea0b09d985874c1c2"
+		"clienticon"		"57bc4f294310f86d51bd9546c16a05df7f0d71fc"
+		"clienttga"		"e1c38fe189e084920a47e1be9a22f1a42de29a2f"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"428980_eula_0"
+				"name"		"Ethereal Legends EULA"
+				"url"		"http://store.steampowered.com//eula/428980_eula_0"
+			}
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ethereal Legends"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a3a876b645fd8fe3d8abb11da156ab0655dd6152.jpg"
+		"store_asset_mtime"		"1493157368"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Soverance Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Soverance Studios"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_31"		"1"
+			"category_28"		"1"
+			"category_15"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1487694603"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"428980"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"122"
+			"3"		"492"
+		}
+		"review_score"		"4"
+		"review_percentage"		"25"
+	}
+	"extended"
+	{
+		"developer"		"Soverance Studios"
+		"publisher"		"Soverance Studios"
+		"homepage"		"http://www.ethereallegends.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Ethereal Legends"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ethereal.exe"
+				"description"		"Ethereal Legends"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"428981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7928062671971935341"
+					"size"		"7286607724"
+					"download"		"3263191200"
+				}
+				"test"
+				{
+					"gid"		"7928062671971935341"
+					"size"		"7286607724"
+					"download"		"3263191200"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2750791"
+				"timeupdated"		"1525652416"
+			}
+			"test"
+			{
+				"buildid"		"2750791"
+				"description"		"Beta Version for Testing"
+				"timeupdated"		"1525650825"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Ethereal/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Ethereal/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
