@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"493110"
+	"common"
+	{
+		"name"		"KOTH"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"oslist"		"windows"
+		"clienticon"		"d5c620ca056c9008c28bf430fef79b512d14ea08"
+		"clienttga"		"936691494d84431d3b055ad03782b395412540b6"
+		"icon"		"19f00df249489366e77c10249c0549045c2ecb05"
+		"logo"		"6213b5b0da067fe887dd57c85064db8c71787ec9"
+		"logo_small"		"6213b5b0da067fe887dd57c85064db8c71787ec9_thumb"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"KOTH"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_aa69e198becdd508b61ca214bb8faeb8092646c3.jpg"
+		"store_asset_mtime"		"1749917724"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Abbeytek Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Abbeytek Ltd"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1472760782"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"493110"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+			"2"		"19"
+			"3"		"492"
+			"4"		"4004"
+			"5"		"21978"
+		}
+		"review_score"		"7"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Abbeytek Ltd"
+		"publisher"		"Abbeytek Ltd"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"KOTH"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"koth.exe"
+				"description"		"VR Mode"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"koth.exe"
+				"arguments"		"-novr"
+				"description"		"Desktop Mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"493111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1989185480346287341"
+					"size"		"82780631"
+					"download"		"66261152"
+				}
+				"beta"
+				{
+					"gid"		"1989185480346287341"
+					"size"		"82780631"
+					"download"		"66261152"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18866994"
+				"timeupdated"		"1749900707"
+			}
+			"beta"
+			{
+				"buildid"		"18866994"
+				"description"		"Beta branch"
+				"timeupdated"		"1749900503"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"1"
+	}
+}
