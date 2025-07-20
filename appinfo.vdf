@@ -1,0 +1,282 @@
+"appinfo"
+{
+	"appid"		"1175420"
+	"common"
+	{
+		"name"		"Imbroglio"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"feed282024ad90bce940128fd91c1060856df340"
+		"clienticns"		"cf423fa09daa4970b976201325932d1a4b3d6245"
+		"clienticon"		"0a222827f72af2e25cb8c284173bae509dff8c1a"
+		"icon"		"f2119eab0b685933ff68eb6e0731d3d887c804af"
+		"linuxclienticon"		"cf423fa09daa4970b976201325932d1a4b3d6245"
+		"logo"		"4849b41f984d521d9b75379c37de40c1998e4265"
+		"logo_small"		"4849b41f984d521d9b75379c37de40c1998e4265_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"64.99416569428234"
+				"height_pct"		"79.8622654951318"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"64.99416569428234"
+					"height_pct"		"79.8622654951318"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572685614"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rostislav Pogosian"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rostislav Pogosian"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1572895392"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1175420"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"21"
+			"3"		"1664"
+			"4"		"1730"
+			"5"		"1654"
+			"6"		"3942"
+			"7"		"4166"
+			"8"		"4182"
+			"9"		"4191"
+			"10"		"4252"
+			"11"		"4400"
+			"12"		"5350"
+			"13"		"5411"
+			"14"		"7569"
+			"15"		"13782"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Rostislav Pogosian"
+		"publisher"		"Rostislav Pogosian"
+		"homepage"		"https://imbroglio-game.com/"
+	}
+	"config"
+	{
+		"installdir"		"Imbroglio"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\Game.exe"
+				"workingdir"		"bin"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"Beta"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin\\Game_no_sse.exe"
+				"workingdir"		"bin"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin\\Game.exe"
+				"arguments"		"-w"
+				"workingdir"		"bin"
+				"description"		"window mode"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"bin\\Game.exe"
+				"arguments"		"-l ru"
+				"workingdir"		"bin"
+				"description"		"Russian Language"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"bin\\Game_no_sse.exe"
+				"workingdir"		"bin"
+				"description"		"Old-cpu support"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1175421"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4587312476041488965"
+					"size"		"2204774470"
+					"download"		"716149792"
+				}
+			}
+		}
+		"baselanguages"		"english,russian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4378128"
+				"timeupdated"		"1573506390"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"50"
+		"appidredirect"		"1175420"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Rostislav Pogosian\\Imbroglio\\save"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
