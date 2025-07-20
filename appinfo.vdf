@@ -1,0 +1,251 @@
+"appinfo"
+{
+	"appid"		"1466840"
+	"common"
+	{
+		"name"		"Hyperblade"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"86b0deef601df29b765df1423b466dc7fb9fb537"
+		"logo_small"		"86b0deef601df29b765df1423b466dc7fb9fb537_thumb"
+		"icon"		"decc17ceace41fae4ad0240d7c27307e2044e786"
+		"clienticon"		"ecf4eee7033a8af674e53d4947b15c71ddc3a657"
+		"clienttga"		"96a31a8dc7af880185463dd1c3ac5062b3f45314"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"controllervr"
+		{
+			"oculus"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1634099691"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kavasoft"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kavasoft"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1608192000"
+		"steam_release_date"		"1630427290"
+		"community_hub_visible"		"1"
+		"gameid"		"1466840"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"699"
+			"2"		"1773"
+			"3"		"15045"
+			"4"		"3814"
+			"5"		"4191"
+			"6"		"1697"
+			"7"		"30358"
+			"8"		"3942"
+			"9"		"3993"
+			"10"		"7368"
+			"11"		"3859"
+			"12"		"4182"
+			"13"		"21978"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Kavasoft"
+		"publisher"		"Kavasoft"
+		"homepage"		"https://kava-soft.com/"
+	}
+	"config"
+	{
+		"installdir"		"DroneRacing"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DroneRacing.exe"
+				"arguments"		"-nohmd"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"VRStart.bat"
+				"arguments"		"-vr"
+				"type"		"option1"
+				"description_loc"
+				{
+					"english"		"in VR"
+				}
+				"description"		"in VR"
+			}
+			"2"
+			{
+				"executable"		"VRGamepadStart.bat"
+				"type"		"option2"
+				"description_loc"
+				{
+					"english"		"in VR with Gamepad"
+				}
+				"description"		"in VR with Gamepad"
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1466841"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2041164341260437666"
+					"size"		"16726753748"
+					"download"		"14818955248"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7415358"
+				"timeupdated"		"1634704944"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"500"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
