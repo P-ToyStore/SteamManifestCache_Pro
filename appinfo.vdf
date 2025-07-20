@@ -1,0 +1,184 @@
+"appinfo"
+{
+	"appid"		"552340"
+	"common"
+	{
+		"name"		"Danger Room"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"caa2dfad1efa29136e2e6ba6143dcf945e1776f7"
+		"logo_small"		"caa2dfad1efa29136e2e6ba6143dcf945e1776f7_thumb"
+		"icon"		"8156495bcd6fc4080858e667d3831e919a92dfad"
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"clienticon"		"bdb27a0eef20b4ca8c4188785708cd8b30adae65"
+		"clienttga"		"19ddb8d6c7ec8f902ce8de830fd3328b3ab4bdec"
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"openvrsupport"		"1"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Danger Room"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7d214c53c9194e49575c28006c52090543a58241.jpg"
+		"store_asset_mtime"		"1615269791"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Wong Kang-An"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Wong Kang-An"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1482456766"
+		"community_hub_visible"		"1"
+		"gameid"		"552340"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"21978"
+			"3"		"1774"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Wong Kang-An"
+		"publisher"		"Wong Kang-An"
+	}
+	"config"
+	{
+		"installdir"		"Danger Room"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DangerRoom.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"552341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4821980787774670718"
+					"size"		"276342429"
+					"download"		"65792208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1801643"
+				"timeupdated"		"1493980128"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"DefaultCompany/Danger_Room"
+				"pattern"		"*.gd"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"DefaultCompany/Danger_Room"
+						"replace"		"unity.DefaultCompany.Danger_Room"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"DefaultCompany/Danger_Room"
+						"replace"		".config/unity3d/DefaultCompany/Danger_Room"
+					}
+				}
+			}
+		}
+	}
+}
