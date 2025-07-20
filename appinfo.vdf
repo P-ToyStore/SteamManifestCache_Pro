@@ -1,0 +1,256 @@
+"appinfo"
+{
+	"appid"		"2916210"
+	"common"
+	{
+		"name"		"Warlords I + II"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"f8d41ae0d1143ff710441b7369448239b2618ce7"
+		"clienttga"		"56bc8aba003a322230062e65678b994bca344af4"
+		"icon"		"8fcff9212c4f2bf6ce6183e37b33306494573db2"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"72.35157159487775"
+				"height_pct"		"85.71492178455878"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"72.35157159487775"
+					"height_pct"		"85.71492178455878"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1713343534"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Strategic Studies Group"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Warlords"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1715777945"
+		"community_hub_visible"		"1"
+		"gameid"		"2916210"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1741"
+			"2"		"1684"
+			"3"		"4057"
+			"4"		"4791"
+			"5"		"3916"
+			"6"		"4004"
+			"7"		"3834"
+			"8"		"4172"
+			"9"		"1708"
+			"10"		"3993"
+			"11"		"14139"
+			"12"		"4182"
+			"13"		"4684"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Strategic Studies Group"
+		"publisher"		"SNEG"
+	}
+	"config"
+	{
+		"installdir"		"Warlords I + II"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf warlords-base.conf -conf warlords-game.conf -conf warlords-graphics.conf"
+				"type"		"option1"
+				"description_loc"
+				{
+					"english"		"Warlords 1 "
+				}
+				"description"		"Warlords 1 "
+			}
+			"1"
+			{
+				"executable"		".\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf warlords-2-base.conf -conf warlords-2-game.conf -conf warlords-2-graphics.conf"
+				"type"		"option2"
+				"description_loc"
+				{
+					"english"		"Warlors II Deluxe"
+				}
+				"description"		"Warlors II Deluxe"
+			}
+			"2"
+			{
+				"executable"		".\\DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf warlords-graphics.conf"
+				"description_loc"
+				{
+					"english"		"Graphic Settings Warlords 1"
+				}
+				"description"		"Graphic Settings Warlords 1"
+			}
+			"3"
+			{
+				"executable"		".\\DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf warlords-2-graphics.conf"
+				"description_loc"
+				{
+					"english"		"Graphic Settings Warlords 2"
+				}
+				"description"		"Graphic Settings Warlords 2"
+			}
+		}
+	}
+	"depots"
+	{
+		"2916211"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1496483842475151456"
+					"size"		"76759432"
+					"download"		"71285744"
+				}
+			}
+		}
+		"2916212"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6373184129232118240"
+					"size"		"813391411"
+					"download"		"543104768"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14149004"
+				"timeupdated"		"1713893926"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME/W2DELUXE/SAVES"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME/WARLORDS"
+				"pattern"		"*.SAV"
+			}
+		}
+	}
+}
