@@ -1,0 +1,282 @@
+"appinfo"
+{
+	"appid"		"1510670"
+	"common"
+	{
+		"name"		"ZADETTE"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"logo"		"5719b73fb2523b39fd08030ffddb17ff5d4ff8ea"
+		"logo_small"		"5719b73fb2523b39fd08030ffddb17ff5d4ff8ea_thumb"
+		"icon"		"42f6a58d85ca885a402897066aa6564f9d6498c2"
+		"clienttga"		"7c05c31c4face24445a2ce827edd305f8d57a886"
+		"clienticon"		"614a6f325392acebbf7b043e8a5e7e1719b09a18"
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"45.696878650727406"
+				"height_pct"		"82.63888888888889"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"45.696878650727406"
+					"height_pct"		"82.63888888888889"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667222061"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Le Club des Sacs"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tell Me Films"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1614585429"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1510670"
+		"store_tags"
+		{
+			"0"		"1773"
+			"1"		"19"
+			"2"		"4004"
+			"3"		"1625"
+			"4"		"5379"
+			"5"		"3871"
+			"6"		"7743"
+			"7"		"3798"
+			"8"		"492"
+			"9"		"21"
+			"10"		"3964"
+			"11"		"4094"
+			"12"		"176981"
+			"13"		"4136"
+			"14"		"3916"
+			"15"		"4172"
+			"16"		"4878"
+			"17"		"7250"
+			"18"		"6730"
+			"19"		"4182"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Le Club des Sacs"
+		"publisher"		"Tell Me Films"
+	}
+	"config"
+	{
+		"installdir"		"ZADETTE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"zadette.app\\Contents\\MacOS\\nwjs"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"nw"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"nw"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1510671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8217223712070100951"
+					"size"		"150521759"
+					"download"		"65825856"
+				}
+			}
+		}
+		"1510672"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7647374145062051114"
+					"size"		"212856683"
+					"download"		"70172960"
+				}
+			}
+		}
+		"1510673"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5228216796418488504"
+					"size"		"195202467"
+					"download"		"67709648"
+				}
+			}
+		}
+		"1510674"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6591320991339556715"
+					"size"		"200144336"
+					"download"		"70462848"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8476994"
+				"timeupdated"		"1648769924"
+			}
+		}
+	}
+}
