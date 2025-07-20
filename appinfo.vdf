@@ -1,0 +1,281 @@
+"appinfo"
+{
+	"appid"		"468820"
+	"common"
+	{
+		"name"		"Titans of Space PLUS"
+		"type"		"Game"
+		"oslist"		"windows"
+		"controllervr"
+		{
+			"kbm"		"1"
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"clienttga"		"5dae7c84ac5463ef65be8022a14ec86634332dc9"
+		"clienticon"		"6097cc425f1bf6e8c25c04c7c44a2cfc1de3d50a"
+		"icon"		"2167f025ee0325e3b69e0390522874987623ae31"
+		"logo"		"2a8e07c8af7c37cfb8fd44e10e71fe9f2835b5f8"
+		"logo_small"		"2a8e07c8af7c37cfb8fd44e10e71fe9f2835b5f8_thumb"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"openvr_action_manifest_path"		"actions.json"
+		"metacritic_name"		"Titans of Space PLUS"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"66.66666666666669"
+				"height_pct"		"79.86111111111111"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"66.66666666666669"
+					"height_pct"		"79.86111111111111"
+				}
+			}
+		}
+		"store_asset_mtime"		"1576515612"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"DrashVR LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"DrashVR LLC"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_13"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1576778563"
+		"community_hub_visible"		"1"
+		"gameid"		"468820"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"492"
+			"2"		"21"
+			"3"		"1755"
+			"4"		"21978"
+			"5"		"1036"
+			"6"		"5794"
+			"7"		"493"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"DrashVR LLC"
+		"publisher"		"DrashVR LLC"
+		"homepage"		"http://titansofspacevr.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Titans of Space 2.0"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TitansOfSpace2_0.exe"
+				"arguments"		"-platform_steam -sdk_steamvr -hardware_vive"
+				"description"		"using SteamVR headset"
+				"type"		"vr"
+			}
+			"1"
+			{
+				"executable"		"TitansOfSpace2_0.exe"
+				"arguments"		"-platform_steam -sdk_oculus -hardware_rift"
+				"description"		"on Oculus Rift"
+				"type"		"othervr"
+			}
+			"2"
+			{
+				"executable"		"TitansOfSpace2_0.exe"
+				"arguments"		"-platform_steam -sdk_nonvr -hardware_monitor"
+				"description"		"Launch on Monitor"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"468821"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7612618869724475354"
+					"size"		"2079951452"
+					"download"		"663501056"
+				}
+				"update4a"
+				{
+					"gid"		"8597329900078999227"
+					"size"		"1467896059"
+					"download"		"403197888"
+				}
+				"v255-20190522"
+				{
+					"gid"		"7446229260451279113"
+					"size"		"1831158257"
+					"download"		"622290912"
+				}
+				"v256-20190614"
+				{
+					"gid"		"2336319191477737019"
+					"size"		"1838889572"
+					"download"		"631079104"
+				}
+				"v257b-20190627"
+				{
+					"gid"		"4259986574454579065"
+					"size"		"2000104273"
+					"download"		"636060112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4520405"
+				"timeupdated"		"1577041949"
+			}
+			"update4a"
+			{
+				"buildid"		"1803692"
+				"timeupdated"		"1556241321"
+			}
+			"v255-20190522"
+			{
+				"buildid"		"3848109"
+				"timeupdated"		"1560581977"
+			}
+			"v256-20190614"
+			{
+				"buildid"		"3921202"
+				"timeupdated"		"1561448094"
+			}
+			"v257b-20190627"
+			{
+				"buildid"		"3962022"
+				"timeupdated"		"1568785816"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
