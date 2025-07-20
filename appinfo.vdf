@@ -1,0 +1,174 @@
+"appinfo"
+{
+	"appid"		"457860"
+	"common"
+	{
+		"name"		"Apollo 11 VR"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"oslist"		"windows"
+		"logo"		"8ce03bbbbf1406d7620a9cb415509a60a5b7a127"
+		"logo_small"		"8ce03bbbbf1406d7620a9cb415509a60a5b7a127_thumb"
+		"icon"		"4f5df04f23e9b15993a706903933afe5eeaf6be0"
+		"clienticon"		"6fcbc8cfcd17659f94b06ce9e28250343f82ceba"
+		"clienttga"		"336711348380431a6f3d71ab610eb4f556df7f96"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Apollo 11 VR"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d188ce8a9c0a8001f9444eec4791345acda9548b.jpg"
+		"store_asset_mtime"		"1459244885"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Immersive VR Education Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Immersive VR Education Ltd."
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_13"		"1"
+			"category_18"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1459543400"
+		"community_hub_visible"		"1"
+		"gameid"		"457860"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"21"
+			"2"		"21978"
+			"3"		"1755"
+		}
+		"review_score"		"8"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"Immersive VR Education Ltd."
+		"publisher"		"Immersive VR Education Ltd."
+		"homepage"		"http://www.immersivevreducation.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Apollo 11 VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Apollo11VR-SteamVR.exe"
+				"arguments"		"-platform_steam -sdk_steamvr -hardware_vive"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Apollo11VR-SteamVR.exe"
+				"arguments"		"-platform_steam -sdk_oculus -hardware_rift"
+				"description"		"on Oculus Rift"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Apollo11VR-SteamVR.exe"
+				"arguments"		"-platform_steam -sdk_nonvr -hardware_monitor"
+				"description"		"Launch on Monitor"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"457861"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3405115308175784593"
+					"size"		"5410919647"
+					"download"		"1449112880"
+				}
+				"publicbeta"
+				{
+					"gid"		"66287407573924606"
+					"size"		"5486285377"
+					"download"		"1449111600"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1061728"
+				"timeupdated"		"1460247305"
+			}
+			"publicbeta"
+			{
+				"buildid"		"1155407"
+				"description"		"Public Beta 1.0.4"
+				"timeupdated"		"1465173140"
+			}
+		}
+	}
+}
