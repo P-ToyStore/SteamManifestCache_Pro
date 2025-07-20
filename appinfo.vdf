@@ -1,0 +1,300 @@
+"appinfo"
+{
+	"appid"		"330770"
+	"common"
+	{
+		"name"		"Radial-G : Racing Revolved"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"b7c33fc928607618048212085192d9798adde09f"
+		"logo_small"		"b7c33fc928607618048212085192d9798adde09f_thumb"
+		"icon"		"6e74f1226d46c220bd15a1ec1b5dd73f8775ea4e"
+		"clienttga"		"a835bf6e9756d12e2509780aa66131f49bba42e1"
+		"oslist"		"windows"
+		"clienticon"		"9488e5ab3981c607ad5a8c03a0ca2a386db6c561"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"osvrsupport"		"1"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Radial-G : Racing Revolved"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"49.59159859976665"
+				"height_pct"		"65.80384706720494"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"49.59159859976665"
+					"height_pct"		"65.80384706720494"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572350699"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tammeka Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tammeka Games"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_31"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_33"		"1"
+			"category_27"		"1"
+			"category_36"		"1"
+			"category_49"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1459180355"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"330770"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"21978"
+			"2"		"3942"
+			"3"		"492"
+			"4"		"19"
+			"5"		"4295"
+			"6"		"1773"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Tammeka Games"
+		"publisher"		"Tammeka Games"
+		"homepage"		"http://www.radial-g.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/330770/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Radial-G Racing Revolved"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Radial-G.exe"
+				"description"		"Radial-G (non-VR)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Radial-G.exe"
+				"description"		"on HTC Vive"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Radial-G.exe"
+				"description"		"on Oculus Rift"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"Radial-G.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"on OSVR (beta channel only)"
+				}
+				"description"		"on OSVR (beta channel only)"
+			}
+		}
+		"steamvrsupport"		"1"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"330771"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6771308402617739403"
+					"size"		"4810119716"
+					"download"		"1926407856"
+				}
+				"oculusruntime0.8"
+				{
+					"gid"		"3464445043576776785"
+					"size"		"3985167109"
+					"download"		"1387679088"
+				}
+				"osvr_dedicated"
+				{
+					"gid"		"527790581357851101"
+					"size"		"5779981634"
+					"download"		"2827012208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1351360"
+				"timeupdated"		"1474645807"
+			}
+			"oculusruntime0.8"
+			{
+				"buildid"		"861586"
+				"description"		"Only for Oculus DK2"
+				"timeupdated"		"1460266398"
+			}
+			"osvr_dedicated"
+			{
+				"buildid"		"1353532"
+				"description"		"Dedicated OSVR Build"
+				"timeupdated"		"1474643482"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Radial-G_Data/StreamingAssets"
+				"pattern"		"*.save"
+			}
+		}
+	}
+}
