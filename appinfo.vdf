@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"691680"
+	"common"
+	{
+		"name"		"Ganbatte"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"logo"		"2ca1b2b8c5dfa02729dbfc9b0055b9f02ad92fd0"
+		"logo_small"		"2ca1b2b8c5dfa02729dbfc9b0055b9f02ad92fd0_thumb"
+		"clienticon"		"01acf0e39fb0b77d6e3be64e03a5c690ebf0643b"
+		"clienttga"		"a29a1df9f780f163de1d2c71564602944232851c"
+		"icon"		"5f29aeb2d0d5778408a63701496bb3f8f113b4b9"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"oslist"		"windows"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ganbatte"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_21a5e522bcfc8eb20585f3cf17f88dda75d00fc0.jpg"
+		"store_asset_mtime"		"1523877339"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mimicry"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mimicry"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_25"		"1"
+			"category_2"		"1"
+			"category_49"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1524150046"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"691680"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"493"
+			"2"		"597"
+			"3"		"21978"
+			"4"		"1773"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Mimicry"
+		"publisher"		"Mimicry"
+		"homepage"		"https://ganbattegame.com/"
+	}
+	"config"
+	{
+		"installdir"		"Ganbatte"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GanbatteMultiplayer.exe"
+				"description"		"Steam VR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"GanbatteMultiplayer.exe"
+				"description"		"Oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"691681"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8625343540108578713"
+					"size"		"2381903847"
+					"download"		"624024736"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2660146"
+				"timeupdated"		"1522868108"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"GanbatteMultiplayer/Saved/SaveGames/LevelsInfo/{64BitSteamID}"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
