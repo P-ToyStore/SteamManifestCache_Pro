@@ -1,0 +1,259 @@
+"appinfo"
+{
+	"appid"		"222140"
+	"common"
+	{
+		"name"		"Puddle"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"clienticon"		"cc4b27c2b154fd0e18b635149b022ac3a57dc2ea"
+		"clienttga"		"37eb9c53bc4a45a769b25da6c258cce0cec14de1"
+		"icon"		"7d88863dedac441ee0aaae5e426a9822702dbf93"
+		"logo"		"0b4cd8c8ce4f36ed1768be52db447ce0cdf1ae8e"
+		"logo_small"		"0b4cd8c8ce4f36ed1768be52db447ce0cdf1ae8e_thumb"
+		"clienticns"		"93d5898f5ee2758b6b993e5cb98bb05e42d5c864"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"a1fd6259310e3e5991da2db775980294248d560f"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Puddle"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_10940b67ea3a3b03992631eae9327fa7dc1ee314.jpg"
+		"store_asset_mtime"		"1383228172"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Neko Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Neko Entertainment"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1352484900"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"222140"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"599"
+			"2"		"3968"
+			"3"		"1664"
+			"4"		"19"
+			"5"		"1625"
+			"6"		"597"
+			"7"		"3871"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Neko Entertainment"
+		"gamedir"		"ValveTestApp222140"
+		"homepage"		"http://www.e-neko.com/puddle_steam/puddle_steam.php"
+		"icon"		""
+		"installscript"		"222140_install.vdf"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"validoslist"		"windows,macos,linux"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Neko Entertainment"
+		"listofdlc"		"273670"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"puddle"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launcher.exe"
+				"description"		"Launcher"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Puddle Steam.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Puddle"
+				"description"		"Script that redefine LD_LIBRARY_PATH"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"222141"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5952153792985349006"
+					"size"		"692814493"
+					"download"		"0"
+				}
+			}
+		}
+		"222142"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5507060829100843577"
+					"size"		"710508316"
+					"download"		"0"
+				}
+			}
+		}
+		"222143"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2791219047978663634"
+					"size"		"679406662"
+					"download"		"0"
+				}
+			}
+		}
+		"273670"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5790894276569351848"
+					"size"		"134821294"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"273670"
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"212250"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
