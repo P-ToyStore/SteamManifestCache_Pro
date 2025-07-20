@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"1703070"
+	"common"
+	{
+		"name"		"Airborne Ranger"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"a81a81c1b4eb9bde5e2def6f2e619e89aae4915a"
+		"clienticon"		"e0734367b080281730662594ec0fc3636c1b96f3"
+		"clienttga"		"48158ebd785b266f76cce6e542cc55c14d6131e5"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"58.5998316300345"
+				"height_pct"		"82.98611111111111"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"58.5998316300345"
+					"height_pct"		"82.98611111111111"
+				}
+			}
+		}
+		"store_asset_mtime"		"1670953887"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Microprose"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Microprose Classics"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1671459079"
+		"community_hub_visible"		"1"
+		"gameid"		"1703070"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+			"2"		"9"
+			"3"		"3814"
+			"4"		"4684"
+			"5"		"3871"
+			"6"		"5851"
+			"7"		"4094"
+			"8"		"3964"
+			"9"		"1697"
+			"10"		"4791"
+			"11"		"7743"
+			"12"		"13190"
+			"13"		"3987"
+			"14"		"4168"
+			"15"		"3916"
+			"16"		"4004"
+			"17"		"1687"
+			"18"		"1708"
+			"19"		"1678"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"developer"		"Microprose"
+		"publisher"		"Atari"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1703070/"
+	}
+	"config"
+	{
+		"installdir"		"Airborne Ranger"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox\\dosbox.exe"
+				"arguments"		"-conf dosbox.conf -conf win.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox.conf -conf osx.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1703071"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"297138792146236463"
+					"size"		"5456535"
+					"download"		"4949904"
+				}
+			}
+		}
+		"1703072"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8071532879262559227"
+					"size"		"37835505"
+					"download"		"16383232"
+				}
+			}
+		}
+		"1703073"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8985978767926948697"
+					"size"		"15441282"
+					"download"		"12208192"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7096891"
+				"timeupdated"		"1635805193"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
