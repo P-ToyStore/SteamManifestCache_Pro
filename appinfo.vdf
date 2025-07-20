@@ -1,0 +1,233 @@
+"appinfo"
+{
+	"appid"		"691250"
+	"common"
+	{
+		"name"		"Charlie the Duck"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"dutch"		"1"
+		}
+		"icon"		"1695b9e283a787a7880698c82e453d0d567e33c9"
+		"clienticon"		"9c5a97bf6f79fca46c29885f62687bc4198df748"
+		"clienttga"		"01c105c6d71801aa568159a70fec38722c2101ab"
+		"logo"		"c28a19ab9167d83e9df6db504e65ea7043e55b81"
+		"logo_small"		"c28a19ab9167d83e9df6db504e65ea7043e55b81_thumb"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1698710400"
+			"tested_build_id"		"4413603"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Charlie the Duck"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_42cb99b651fba5c9715ccbe1c67dcfd645930a80.jpg"
+		"store_asset_mtime"		"1505768808"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mike Wiering"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Wiering Software"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1506081469"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"691250"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"492"
+			"3"		"597"
+			"4"		"1625"
+			"5"		"3871"
+			"6"		"3964"
+			"7"		"4004"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"Mike Wiering"
+		"publisher"		"Wiering Software"
+		"listofdlc"		"993710"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Charlie the Duck"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Charlie_the_Duck.exe"
+				"description"		"Charlie the Duck (Windows)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dos-version\\dosbox\\dosbox.exe"
+				"arguments"		"dos-version\\charlie.exe -noconsole"
+				"description"		"Original version running in DosBox (DLC)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"993710"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,dutch"
+		"hasdepotsindlc"		"0"
+		"691251"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8753144316276801998"
+					"size"		"23611046"
+					"download"		"13327472"
+				}
+			}
+		}
+		"993710"
+		{
+			"dlcappid"		"993710"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1923204520209592520"
+					"size"		"4825801"
+					"download"		"1682608"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4113603"
+				"timeupdated"		"1565990137"
+			}
+		}
+	}
+}
