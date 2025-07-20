@@ -1,0 +1,664 @@
+"appinfo"
+{
+	"appid"		"414080"
+	"common"
+	{
+		"name"		"Life is Hard"
+		"type"		"Game"
+		"icon"		"e5f5ac56b50e7fef79d9df7b17deae4d8cb50de8"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"ukrainian"		"1"
+		}
+		"clienticon"		"9c4f602276a568ff1b1eeaf521bbe5d39ebf6705"
+		"clienttga"		"c2f1056aef9501ac077ea0c3a75b12bf2c33844c"
+		"oslist"		"windows,macos,linux"
+		"logo"		"6ec4b0d3d0cef78e5ba65eb3b3f4a2340aec3c71"
+		"logo_small"		"6ec4b0d3d0cef78e5ba65eb3b3f4a2340aec3c71_thumb"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Life is Hard"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"53.20284697508899"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"53.20284697508899"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1560799618"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Pirozhok Studio"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Vitaliy Ruzankin"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Pirozhok Studio"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1628984714"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"414080"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"599"
+			"3"		"21"
+			"4"		"493"
+			"5"		"3964"
+			"6"		"4172"
+			"7"		"7918"
+			"8"		"4166"
+			"9"		"3871"
+			"10"		"5300"
+			"11"		"4695"
+			"12"		"4190"
+			"13"		"1662"
+			"14"		"4328"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Pirozhok Studio"
+		"publisher"		"Pirozhok Studio"
+		"listofdlc"		"417230"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Life is Hard"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LifeIsHard.exe"
+				"description"		"Windows Any"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LifeIsHard.x86"
+				"description"		"Linux x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"LifeIsHard.x86_64"
+				"description"		"Linux x64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"LifeIsHardMacOS.app"
+				"description"		"OSX Any"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"LiH-Configurator.exe"
+				"description"		"LiH-Configurator"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"Alpha_LifeIsHard7.exe"
+				"description"		"'alpha' branch"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"alpha"
+				}
+			}
+			"6"
+			{
+				"executable"		"LiHPreBetav89.exe"
+				"description"		"'legacy' branch"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"legacy"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"414087"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2082985340233002854"
+					"size"		"2162577693"
+					"download"		"195468928"
+				}
+				"legacy"
+				{
+					"gid"		"2032426480035583861"
+					"size"		"682678320"
+					"download"		"34031600"
+				}
+				"no-drm"
+				{
+					"gid"		"4990663049972173181"
+					"size"		"2293087857"
+					"download"		"138100928"
+				}
+				"unstable"
+				{
+					"gid"		"2082985340233002854"
+					"size"		"2162577693"
+					"download"		"195468928"
+				}
+			}
+		}
+		"414081"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5483002781029227275"
+					"size"		"20936493"
+					"download"		"7174480"
+				}
+				"alpha"
+				{
+					"gid"		"8287853653450176499"
+					"size"		"178686190"
+					"download"		"17045312"
+				}
+				"legacy"
+				{
+					"gid"		"6406809375499079422"
+					"size"		"682678320"
+					"download"		"34036112"
+				}
+				"no-drm"
+				{
+					"gid"		"5942149253411356663"
+					"size"		"20785453"
+					"download"		"7286848"
+				}
+				"unstable"
+				{
+					"gid"		"5483002781029227275"
+					"size"		"20936493"
+					"download"		"7174480"
+				}
+			}
+		}
+		"414086"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5956020555435759500"
+					"size"		"71866489"
+					"download"		"15654496"
+				}
+				"alpha"
+				{
+					"gid"		"4917516068268562213"
+					"size"		"25435561"
+					"download"		"8626128"
+				}
+				"legacy"
+				{
+					"gid"		"4917516068268562213"
+					"size"		"25435561"
+					"download"		"8626128"
+				}
+				"no-drm"
+				{
+					"gid"		"6181508371159422875"
+					"size"		"70659687"
+					"download"		"15733712"
+				}
+				"unstable"
+				{
+					"gid"		"5956020555435759500"
+					"size"		"71866489"
+					"download"		"15654496"
+				}
+			}
+		}
+		"414082"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2928859707363167464"
+					"size"		"2197738059"
+					"download"		"188048768"
+				}
+				"alpha"
+				{
+					"gid"		"936644295987976664"
+					"size"		"1466964511"
+					"download"		"103532496"
+				}
+				"legacy"
+				{
+					"gid"		"936644295987976664"
+					"size"		"1466964511"
+					"download"		"103532496"
+				}
+				"no-drm"
+				{
+					"gid"		"4302702589107926083"
+					"size"		"2307167482"
+					"download"		"140920640"
+				}
+				"unstable"
+				{
+					"gid"		"2928859707363167464"
+					"size"		"2197738059"
+					"download"		"188048768"
+				}
+			}
+		}
+		"414084"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5515751986194312486"
+					"size"		"26189648"
+					"download"		"8136128"
+				}
+				"alpha"
+				{
+					"gid"		"6235237957637875745"
+					"size"		"26161598"
+					"download"		"8133568"
+				}
+				"legacy"
+				{
+					"gid"		"6235237957637875745"
+					"size"		"26161598"
+					"download"		"8133568"
+				}
+				"no-drm"
+				{
+					"gid"		"5515751986194312486"
+					"size"		"26189648"
+					"download"		"8136128"
+				}
+				"unstable"
+				{
+					"gid"		"5515751986194312486"
+					"size"		"26189648"
+					"download"		"8136128"
+				}
+			}
+		}
+		"414085"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6329283362668052626"
+					"size"		"26476906"
+					"download"		"8256144"
+				}
+				"alpha"
+				{
+					"gid"		"3715027624297963655"
+					"size"		"26452424"
+					"download"		"8254400"
+				}
+				"legacy"
+				{
+					"gid"		"3715027624297963655"
+					"size"		"26452424"
+					"download"		"8254400"
+				}
+				"no-drm"
+				{
+					"gid"		"6329283362668052626"
+					"size"		"26476906"
+					"download"		"8256144"
+				}
+				"unstable"
+				{
+					"gid"		"6329283362668052626"
+					"size"		"26476906"
+					"download"		"8256144"
+				}
+			}
+		}
+		"414083"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8158163924328558201"
+					"size"		"2236572876"
+					"download"		"214777312"
+				}
+				"alpha"
+				{
+					"gid"		"6811923225419492234"
+					"size"		"1524218207"
+					"download"		"120481952"
+				}
+				"legacy"
+				{
+					"gid"		"6811923225419492234"
+					"size"		"1524218207"
+					"download"		"120481952"
+				}
+				"no-drm"
+				{
+					"gid"		"1642890912492670458"
+					"size"		"2363347849"
+					"download"		"157770064"
+				}
+				"unstable"
+				{
+					"gid"		"8158163924328558201"
+					"size"		"2236572876"
+					"download"		"214777312"
+				}
+			}
+		}
+		"417230"
+		{
+			"dlcappid"		"417230"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5594134850250616139"
+					"size"		"131326195"
+					"download"		"124855232"
+				}
+				"alpha"
+				{
+					"gid"		"6465745723985498401"
+					"size"		"58900374"
+					"download"		"57001216"
+				}
+				"legacy"
+				{
+					"gid"		"6465745723985498401"
+					"size"		"58900374"
+					"download"		"57001216"
+				}
+				"no-drm"
+				{
+					"gid"		"2169429284046824724"
+					"size"		"133098069"
+					"download"		"126520576"
+				}
+				"unstable"
+				{
+					"gid"		"5594134850250616139"
+					"size"		"131326195"
+					"download"		"124855232"
+				}
+			}
+			"config"
+			{
+				"optionaldlc"		"417230"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4606099"
+				"timeupdated"		"1579901252"
+			}
+			"alpha"
+			{
+				"buildid"		"1363373"
+				"description"		"Boomstarter alpha (Aug 2015)"
+				"timeupdated"		"1475103278"
+			}
+			"legacy"
+			{
+				"buildid"		"2165321"
+				"description"		"Steam prerelease (Oct 2015)"
+				"timeupdated"		"1506951964"
+			}
+			"no-drm"
+			{
+				"buildid"		"1969495"
+				"description"		"Contains no DRM protection."
+				"timeupdated"		"1500394830"
+			}
+			"unstable"
+			{
+				"buildid"		"4606099"
+				"description"		"༼ つ ◕_◕ ༽つ"
+				"timeupdated"		"1579900464"
+			}
+		}
+		"privatebranches"		"1"
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"52428800"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"LifeIsHard_Data/Saves"
+				"pattern"		"*.lifeishard"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"LifeIsHard_Data/Saves"
+				"pattern"		"*.lifeishard"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"LifeIsHardMacOS.app/Contents/Resources/Data/Saves"
+				"pattern"		"*.lifeishard"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
