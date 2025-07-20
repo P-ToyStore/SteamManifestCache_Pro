@@ -1,0 +1,386 @@
+"appinfo"
+{
+	"appid"		"2395450"
+	"common"
+	{
+		"name"		"Re-Loaded"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"1380c2800a87812a224befee1267b1d6b209d468"
+		"clienticon"		"2ccf4cb6934aec11c22ba989c4e4d9e16d11057f"
+		"clienttga"		"fde1b69f778ec670f076f27b2113788fb22262d9"
+		"clienticns"		"05bb485c908974e7194b24a370a7aa46401a607e"
+		"linuxclienticon"		"158389e892d99aad813c05b16ae3e6bd64d94393"
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"35.42782944183179"
+				"height_pct"		"81.72809010175388"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"35.42782944183179"
+					"height_pct"		"81.72809010175388"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1687413365"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gremlin Interactive"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Jordan Freeman Group"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Funbox Media Ltd"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"ZOOM Platform Media"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1688061753"
+		"community_hub_visible"		"1"
+		"gameid"		"2395450"
+		"store_tags"
+		{
+			"0"		"4255"
+			"1"		"4637"
+			"2"		"4758"
+			"3"		"1774"
+			"4"		"4975"
+			"5"		"4191"
+			"6"		"18594"
+			"7"		"4791"
+			"8"		"4115"
+			"9"		"5923"
+			"10"		"19"
+			"11"		"3835"
+			"12"		"4195"
+			"13"		"5030"
+			"14"		"3942"
+			"15"		"6691"
+			"16"		"3916"
+			"17"		"4004"
+			"18"		"3993"
+			"19"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"85"
+	}
+	"extended"
+	{
+		"developer"		"Gremlin Interactive"
+		"publisher"		"Funbox Media Ltd"
+		"gamemanualurl"		"https://store.steampowered.com/manual/2395450/"
+	}
+	"config"
+	{
+		"installdir"		"Re-Loaded"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX/dosbox.exe"
+				"arguments"		"-conf z_reloaded.conf -c \"imgmount d z_cdrom.iso -t iso\" -c cls RELOADED.EXE -noconsole -exit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf z_reloaded.conf -c \"imgmount d z_cdrom.iso -t iso\" -c cls RELOADED.EXE -noconsole -exit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"launch.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65533"
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"2395451"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4826342513047328173"
+					"size"		"399274421"
+					"download"		"141737456"
+				}
+			}
+		}
+		"2395457"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5839468442926226036"
+					"size"		"29223928"
+					"download"		"5581168"
+				}
+			}
+		}
+		"2395458"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2811129191345207792"
+					"size"		"10292849"
+					"download"		"3250864"
+				}
+			}
+		}
+		"2395452"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7727846732328061839"
+					"size"		"26813"
+					"download"		"9824"
+				}
+			}
+		}
+		"2395453"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5953855486068359244"
+					"size"		"26052"
+					"download"		"9808"
+				}
+			}
+		}
+		"2395454"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4759817317852997516"
+					"size"		"26063"
+					"download"		"9696"
+				}
+			}
+		}
+		"2395455"
+		{
+			"config"
+			{
+				"language"		"portuguese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8561211743190118192"
+					"size"		"25540"
+					"download"		"9648"
+				}
+			}
+		}
+		"2395456"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"553893733434897500"
+					"size"		"24125"
+					"download"		"9344"
+				}
+			}
+		}
+		"2395459"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6971448857938401135"
+					"size"		"76731979"
+					"download"		"25643840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11566878"
+				"timeupdated"		"1687853100"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"RELOADED.SAV"
+			}
+		}
+	}
+}
