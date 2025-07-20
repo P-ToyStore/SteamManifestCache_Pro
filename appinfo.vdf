@@ -1,0 +1,263 @@
+"appinfo"
+{
+	"appid"		"563680"
+	"common"
+	{
+		"name"		"DragonWingsVR"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"controllervr"
+		{
+			"xinput"		"1"
+			"steamvr"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"563680_eula_0"
+				"name"		"DragonwingsVR EULA"
+				"url"		"http://store.steampowered.com//eula/563680_eula_0"
+			}
+		}
+		"logo"		"a11a1bc22a86c0b62bb525eacd6b6280a7c1c221"
+		"logo_small"		"a11a1bc22a86c0b62bb525eacd6b6280a7c1c221_thumb"
+		"icon"		"6e0587fa704be802cab16a72ea1043118f7d7290"
+		"clienticon"		"60946c4781c9710473171a89f23cd7500bb1cb0f"
+		"clienttga"		"29022a92839f71d0f5cf0ae53fee73059eaf521f"
+		"releasestate"		"released"
+		"osvrsupport"		"1"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"DragonWingsVR"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_51f2d15d062c4110ed90485368b43f0dc9e97251.jpg"
+		"store_asset_mtime"		"1481151912"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Wyrmbyte"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Wyrmbyte"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"9"
+			"4"		"28"
+			"5"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1481487841"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"563680"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"492"
+			"3"		"599"
+			"4"		"701"
+			"5"		"699"
+			"6"		"21978"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Wyrmbyte"
+		"publisher"		"Wyrmbyte"
+		"homepage"		"http://www.dragonwingsvr.com"
+	}
+	"config"
+	{
+		"installdir"		"DragonWingsVR"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"DragonRider32.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"DragonRider.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"DragonRider32.exe"
+				"arguments"		"-vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"DragonRider.exe"
+				"arguments"		"-vr "
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"DragonRider32.exe"
+				"arguments"		"-vr  -ENGINEINI=..//..//Config//EngineOSVR.ini"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+				"description_loc"
+				{
+					"english"		"OSVR Mode"
+				}
+				"description"		"OSVR Mode"
+			}
+			"6"
+			{
+				"executable"		"DragonRider.exe"
+				"arguments"		"-vr  -ENGINEINI=..//..//Config//EngineOSVR.ini"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"OSVR Mode"
+				}
+				"description"		"OSVR Mode"
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"563681"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5315231447650726035"
+					"size"		"502030986"
+					"download"		"373228240"
+				}
+				"local"
+				{
+					"gid"		"1987394851160919449"
+					"size"		"363815897"
+					"download"		"318066096"
+				}
+				"oldcontrols"
+				{
+					"gid"		"4192639293559822494"
+					"size"		"456122669"
+					"download"		"355326304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1537638"
+				"timeupdated"		"1482452691"
+			}
+			"local"
+			{
+				"buildid"		"1488432"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1480470698"
+			}
+			"oldcontrols"
+			{
+				"buildid"		"1507693"
+				"description"		"Original version with old control style."
+				"timeupdated"		"1482428955"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"DragonRider/Saved/SaveGames/"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+	}
+}
