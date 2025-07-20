@@ -1,0 +1,256 @@
+"appinfo"
+{
+	"appid"		"403680"
+	"common"
+	{
+		"name"		"Dexterity Ball 3D"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"8a3f2da5a925a73e32a8c7e307c6f2047a3272bc"
+		"logo_small"		"8a3f2da5a925a73e32a8c7e307c6f2047a3272bc_thumb"
+		"icon"		"4cfec0be83efdbecee93370a9b09367002866b57"
+		"clienttga"		"697f3eea9fe2088da5ea484f741856f07440c7ab"
+		"clienticon"		"2e049ef5f84d4ed72a0ba680245ed7e3429ff43a"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dexterity Ball 3D"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"65.49362305148796"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"65.49362305148796"
+				}
+			}
+		}
+		"store_asset_mtime"		"1592916525"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Quandary Solutions LTD"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Quandary Solutions LTD"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_15"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1449512698"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"403680"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"699"
+			"3"		"3968"
+			"4"		"4026"
+			"5"		"5395"
+			"6"		"5537"
+			"7"		"3859"
+			"8"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"52"
+	}
+	"extended"
+	{
+		"developer"		"Quandary Solutions LTD"
+		"publisher"		"Quandary Solutions LTD"
+		"homepage"		"http://www.dexterityball3d.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DexterityBall3D"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DexterityBall3D.exe"
+				"description"		"Launch Dexterity Ball 3D"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DexterityBall3D.exe"
+				"arguments"		"/safemode"
+				"description"		"Launch Dexterity Ball 3D (Safe Mode)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"DexterityBall3D.exe"
+				"arguments"		"/host"
+				"description"		"Quick launch to host multiplayer game"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"DexterityBall3D.exe"
+				"arguments"		"/client"
+				"description"		"Quick launch to join multiplayer game"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"DexterityBall3D.exe"
+				"arguments"		"/deviceselect"
+				"description"		"Select display monitor and launch Dexterity Ball 3D"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"403681"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7421556606729538351"
+					"size"		"613134916"
+					"download"		"362637216"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"897012"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+	}
+}
