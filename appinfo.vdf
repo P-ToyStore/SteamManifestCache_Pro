@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"2410680"
+	"common"
+	{
+		"name"		"9-Ball Pocket"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"4cb27cace5167b4dbba6fe738a642c247bc78780"
+		"name_localized"
+		{
+			"japanese"		"9ボールポケット"
+		}
+		"clienttga"		"70cb189f7bdd666dbdd7addfab779e1e017b521e"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"1c2f11c89330f33e7646a93add47c6174bf46247"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"53.783400385651554"
+				"height_pct"		"64.60602235200568"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"53.783400385651554"
+					"height_pct"		"64.60602235200568"
+				}
+			}
+		}
+		"store_asset_mtime"		"1686736014"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Super PowerUp Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Super PowerUp Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"28"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_44"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1689772345"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2410680"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"701"
+			"2"		"599"
+			"3"		"1773"
+			"4"		"3871"
+			"5"		"4191"
+			"6"		"4305"
+			"7"		"17927"
+			"8"		"1775"
+			"9"		"3859"
+			"10"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Super PowerUp Games"
+		"publisher"		"Super PowerUp Games"
+	}
+	"config"
+	{
+		"installdir"		"9-Ball Pocket"
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"9-Ball Pocket.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"2410681"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3962367849038032602"
+					"size"		"463125669"
+					"download"		"334285808"
+				}
+			}
+		}
+		"baselanguages"		"english,spanish,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11791023"
+				"timeupdated"		"1690366619"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Super PowerUp Games/9-Ball Pocket"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		""
+						"replace"		"unity.Super PowerUp Games.9-Ball Pocket"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		""
+						"replace"		".config/unity3d/Super PowerUp Games/9-Ball Pocket"
+					}
+				}
+			}
+		}
+	}
+}
