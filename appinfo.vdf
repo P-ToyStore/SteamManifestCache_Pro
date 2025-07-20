@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"975760"
+	"common"
+	{
+		"name"		"Love Room VR"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"kbm"		"1"
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"seated"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"46f4c81810ebca2d5bb282245328071beca34e69"
+		"logo_small"		"46f4c81810ebca2d5bb282245328071beca34e69_thumb"
+		"icon"		"eb4c492456e73eb1969c63cebd918b247bedbdbc"
+		"clienticon"		"1b0b3e4147fb993e386ebd71ffb53f647958b5f8"
+		"clienttga"		"680c079269cde90d5b3b2a6b02cca7787e1677ae"
+		"openvr_action_manifest_path"		"actions.json"
+		"openvrsupport"		"1"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"5"
+			"3"		"4"
+		}
+		"restricted_countries"		"CN,DE"
+		"metacritic_name"		"Love Room"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"japanese"		"header_japanese.jpg"
+		}
+		"store_screenshot"		"ss_de2cfa04f703a9a3a6d992c59174df9bfbe0d737.jpg"
+		"store_asset_mtime"		"1666751542"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FoxPunch"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FoxPunch"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1542927233"
+		"community_hub_visible"		"1"
+		"gameid"		"975760"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"4"
+			"3"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"12095"
+			"1"		"6650"
+			"2"		"5611"
+			"3"		"21978"
+			"4"		"4175"
+			"5"		"597"
+			"6"		"599"
+			"7"		"4182"
+			"8"		"492"
+			"9"		"24904"
+			"10"		"1721"
+			"11"		"1667"
+			"12"		"1664"
+			"13"		"1662"
+			"14"		"9"
+			"15"		"122"
+			"16"		"699"
+			"17"		"701"
+			"18"		"3978"
+			"19"		"4064"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"FoxPunch"
+		"publisher"		"FoxPunch"
+		"gamemanualurl"		"https://store.steampowered.com/manual/975760/"
+		"listofdlc"		"988970"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"LoveRoomVR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"loveroom.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"loveroom.exe"
+				"arguments"		"--non-vr"
+				"description"		"Non-VR / 非VR版"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"loveroom.exe"
+				"arguments"		"--force-virtual-hand"
+				"description"		"Virtual Hand Mode"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"975761"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9216847983730866607"
+					"size"		"318772690"
+					"download"		"91955168"
+				}
+				"il2cpp"
+				{
+					"gid"		"1123840808871449887"
+					"size"		"585790965"
+					"download"		"85348768"
+				}
+				"v1.8"
+				{
+					"gid"		"9018702153601059668"
+					"size"		"607754889"
+					"download"		"98152096"
+				}
+			}
+		}
+		"baselanguages"		"english,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5255348"
+				"timeupdated"		"1594031574"
+			}
+			"il2cpp"
+			{
+				"buildid"		"3630587"
+				"description"		"Select this if normal version doesn't work"
+				"timeupdated"		"1552113011"
+			}
+			"v1.8"
+			{
+				"buildid"		"3371906"
+				"description"		"v1.8"
+				"timeupdated"		"1544706506"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
