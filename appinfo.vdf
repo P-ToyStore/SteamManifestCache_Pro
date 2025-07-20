@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"1302990"
+	"common"
+	{
+		"name"		"MARDEK"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"f8d9d4366e58b0cebd5a79dc8243265087a777c1"
+		"logo_small"		"f8d9d4366e58b0cebd5a79dc8243265087a777c1_thumb"
+		"clienttga"		"a7628df56cec610f271195d82be0a3fbcb1c2444"
+		"clienticon"		"a5fca531860feed71b021cd2f1207b709ec71cce"
+		"icon"		"c1f9afe041f831195f362d8fb472728bb03fa069"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1689724800"
+			"tested_build_id"		"5022570"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-3"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"82.20536756126023"
+				"height_pct"		"76.21705058180956"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"82.20536756126023"
+					"height_pct"		"76.21705058180956"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667392683"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tobias Cornwall"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tobias Cornwall"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1278399600"
+		"steam_release_date"		"1591189696"
+		"community_hub_visible"		"1"
+		"gameid"		"1302990"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"492"
+			"2"		"4325"
+			"3"		"1742"
+			"4"		"1684"
+			"5"		"3964"
+			"6"		"4136"
+			"7"		"4004"
+			"8"		"3942"
+			"9"		"4878"
+			"10"		"5577"
+		}
+		"review_score"		"8"
+		"review_percentage"		"99"
+	}
+	"extended"
+	{
+		"developer"		"Tobias Cornwall"
+		"publisher"		"Tobias Cornwall"
+		"homepage"		"https://alorafane.com"
+	}
+	"config"
+	{
+		"installdir"		"MARDEK"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1302991"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4801311056207652663"
+					"size"		"130619181"
+					"download"		"108678640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5022570"
+				"timeupdated"		"1589392405"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"savebackups"
+				"pattern"		"MARDEK*.sol"
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Macromedia/Flash Player/#SharedObjects"
+				"pattern"		"MARDEK*.sol"
+				"recursive"		"1"
+			}
+		}
+	}
+}
