@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"819740"
+	"common"
+	{
+		"name"		"Deadly Delivery"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"8c33034834f57da070eccf46a6cc0c773a2b7184"
+		"logo_small"		"8c33034834f57da070eccf46a6cc0c773a2b7184_thumb"
+		"icon"		"5b332a56a1bfd26b5fc8c008d05fb7317297f2a8"
+		"clienticon"		"2742c3a6420c146bd69dcf0f0196c798e73d77dc"
+		"clienttga"		"fea77882e32d0aa779bb21939f54ae804e4226e5"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"819740_eula_0"
+				"name"		"Deadly Delivery EULA"
+				"url"		"http://store.steampowered.com//eula/819740_eula_0"
+			}
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Deadly Delivery"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_76f51aa930b730bb059f4d55ce49366a1ee54d26.jpg"
+		"store_asset_mtime"		"1524449351"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Joshua Harrison Blayney"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Joshua Harrison Blayney"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1529527696"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"819740"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"4026"
+			"3"		"699"
+			"4"		"5395"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"developer"		"Joshua Harrison Blayney"
+		"publisher"		"Joshua Harrison Blayney"
+		"homepage"		"http://www.deadlydelivery.com"
+	}
+	"config"
+	{
+		"installdir"		"Deadly Delivery"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"WindowsNoEditor\\Jumping\\Binaries\\Win64\\Jumping-Win64-Shipping.exe"
+				"workingdir"		"WindowsNoEditor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"WindowsNoEditor\\Jumping\\Binaries\\Win32\\Jumping-Win32-Shipping.exe"
+				"workingdir"		"WindowsNoEditor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		""
+		"819741"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"975826028939509258"
+					"size"		"4718633120"
+					"download"		"4291322192"
+				}
+			}
+		}
+		"819743"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2176729538093952234"
+					"size"		"4734600780"
+					"download"		"4297338816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3259259"
+				"timeupdated"		"1540876792"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Jumping/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
