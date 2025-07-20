@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"2707280"
+	"common"
+	{
+		"name"		"Wargame Construction Set III: Age of Rifles 1846-1905"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"aff68bfad1c2da342b9372c14621fc703751bb41"
+		"clienticon"		"a43073f2c723f0f61af8b86122f350159ed29f5d"
+		"clienttga"		"3f596aff2657a24aa764299023ee5dcecf78a376"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"60.24447031431899"
+				"height_pct"		"81.15557006738106"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"60.24447031431899"
+					"height_pct"		"81.15557006738106"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1702990652"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Strategic Simulations"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Wargame Construction Set"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"SSI"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1702994037"
+		"community_hub_visible"		"1"
+		"gameid"		"2707280"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"599"
+			"2"		"4182"
+			"3"		"6691"
+			"4"		"3987"
+			"5"		"5851"
+			"6"		"4004"
+			"7"		"1708"
+			"8"		"1677"
+			"9"		"4325"
+			"10"		"1741"
+			"11"		"1678"
+			"12"		"4684"
+		}
+		"review_score"		"7"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"Strategic Simulations"
+		"publisher"		"SNEG"
+		"gamemanualurl"		"https://store.steampowered.com/manual/2707280/"
+	}
+	"config"
+	{
+		"installdir"		"Wargame Construction Set III Age of Rifles 1846-1905"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\DOSBOX\\dosbox.exe"
+				"arguments"		"-noconsole -conf rifles-eng-base.conf -conf rifles-eng-game.conf -conf rifles-eng-base.conf"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf rifles-eng-graphics.conf"
+				"type"		"config"
+			}
+		}
+	}
+	"depots"
+	{
+		"2707281"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7410095604689371781"
+					"size"		"676557762"
+					"download"		"506937488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12903880"
+				"timeupdated"		"1701976433"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"/GAME/RIFLES/SCENARIO"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"/GAME/RIFLES/WORK"
+				"pattern"		"*.*"
+			}
+		}
+	}
+}
