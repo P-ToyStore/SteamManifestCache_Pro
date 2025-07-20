@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"395140"
+	"common"
+	{
+		"name"		"Miracle Fly"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"be64af8cb2c9f2034354dfa66846c44fdbaa3b54"
+		"logo_small"		"be64af8cb2c9f2034354dfa66846c44fdbaa3b54_thumb"
+		"icon"		"686e24f3b3484d1aeb616e2c6b76075b8849fabc"
+		"clienttga"		"efbb6e59415ba380370237f5ca7bdedb9e764bb1"
+		"clienticon"		"b8ad215449e9e9c4554c723667812689f1ea0de0"
+		"clienticns"		"e14a1185aa6a263bc3402fb8ff01361bddb1042e"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Miracle Fly"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6f24d70d2e8393060255f4ccf76267e79aaef361.jpg"
+		"store_asset_mtime"		"1445008836"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ElagoTech"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ElagoTech"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1445842800"
+		"steam_release_date"		"1445908019"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"395140"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1625"
+			"3"		"4085"
+			"4"		"7208"
+			"5"		"1664"
+			"6"		"5537"
+			"7"		"4726"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"ElagoTech"
+		"publisher"		"ElagoTech"
+		"listofdlc"		"412870"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Miracle Fly"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MiracleFly.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"MiracleFly.app\\Contents\\MacOS\\mfly"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"395141"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5146978134481702891"
+					"size"		"182590866"
+					"download"		"137522816"
+				}
+			}
+		}
+		"412870"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7059779986677302530"
+					"size"		"158241189"
+					"download"		"152379168"
+				}
+			}
+			"dlcappid"		"412870"
+		}
+		"395142"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6619819408558268134"
+					"size"		"196912940"
+					"download"		"131191040"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1614382"
+				"timeupdated"		"1486449137"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"ElagoTech/mfly"
+				"pattern"		"m*.deta"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"ElagoTech/mfly"
+				"pattern"		"m*.deta"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
