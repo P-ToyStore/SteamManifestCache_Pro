@@ -1,0 +1,301 @@
+"appinfo"
+{
+	"appid"		"2702050"
+	"common"
+	{
+		"name"		"Phantasie Memorial Set"
+		"type"		"Game"
+		"icon"		"837bf2aa7a557ca93fbe53141e7a9b65f61ee6e9"
+		"clienticon"		"604d451a59ebdddbbd23adceb5b0d52eb1511317"
+		"clienttga"		"76c917febc2a67eeb00b46360a8564f803bfef88"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"61.40861466821886"
+				"height_pct"		"75.8363263973404"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"61.40861466821886"
+					"height_pct"		"75.8363263973404"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1704635992"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SSI"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Doug Wood"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"SSI"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1702994093"
+		"community_hub_visible"		"1"
+		"gameid"		"2702050"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"10695"
+			"2"		"7743"
+			"3"		"4155"
+			"4"		"21725"
+			"5"		"3916"
+			"6"		"4791"
+			"7"		"3834"
+			"8"		"14139"
+			"9"		"4166"
+			"10"		"1684"
+			"11"		"4004"
+			"12"		"4325"
+			"13"		"4182"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"SSI"
+		"publisher"		"SNEG"
+		"gamemanualurl"		"https://store.steampowered.com/manual/2702050/"
+	}
+	"config"
+	{
+		"installdir"		"Phantasie Memorial Set"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf phantasie1-base.conf -conf phantasie1-game.conf -conf phantasie1 -graphics.conf"
+				"type"		"option1"
+				"description_loc"
+				{
+					"english"		"Phantasie Memorial 1"
+				}
+				"description"		"Phantasie Memorial 1"
+			}
+			"6"
+			{
+				"executable"		"DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf phantasie1-graphics.conf"
+				"type"		"config"
+				"description_loc"
+				{
+					"english"		"Graphic Settings Phantasie Memorial 1"
+				}
+				"description"		"Graphic Settings Phantasie Memorial 1"
+			}
+			"7"
+			{
+				"executable"		"AppleWin.exe"
+				"arguments"		" -f -power-on -d1 \"GAMES\\P2\\PHANT2A.DSK\" -d2 \"GAMES\\P2\\PHANT2B.DSK\""
+				"type"		"option2"
+				"description_loc"
+				{
+					"english"		"Phantasie Memorial 2"
+				}
+				"description"		"Phantasie Memorial 2"
+			}
+			"8"
+			{
+				"executable"		"AppleWin.exe"
+				"arguments"		"-no-full-screen -power-on -d1 \"GAMES\\P2\\PHANT2A.DSK\" -d2 \"GAMES\\P2\\PHANT2B.DSK\""
+				"description_loc"
+				{
+					"english"		"Phantasie Memorial 2 (windowed)"
+				}
+				"description"		"Phantasie Memorial 2 (windowed)"
+			}
+			"9"
+			{
+				"executable"		".\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf phantasie3-base.conf -conf phantasie3-game.conf -conf phantasie3-graphics.conf"
+				"type"		"option3"
+				"description_loc"
+				{
+					"english"		"Phantasie Memorial 3"
+				}
+				"description"		"Phantasie Memorial 3"
+			}
+			"10"
+			{
+				"executable"		"DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf phantasie3-graphics.conf"
+				"type"		"config"
+				"description_loc"
+				{
+					"english"		"Graphic Settings Phantasie Memorial 3"
+				}
+				"description"		"Graphic Settings Phantasie Memorial 3"
+			}
+		}
+	}
+	"depots"
+	{
+		"2702051"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7441502004295632075"
+					"size"		"9832496"
+					"download"		"6277024"
+				}
+			}
+		}
+		"2702052"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4544848295342118252"
+					"size"		"9854065"
+					"download"		"6252400"
+				}
+			}
+		}
+		"2702053"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3614308795897952098"
+					"size"		"3575666"
+					"download"		"1392720"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12960753"
+				"timeupdated"		"1702552079"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"/GAME/PH1"
+				"pattern"		"*.DAT"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"/GAME/PH3"
+				"pattern"		"*.DAT"
+			}
+		}
+	}
+}
