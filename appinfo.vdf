@@ -1,0 +1,268 @@
+"appinfo"
+{
+	"appid"		"592100"
+	"common"
+	{
+		"name"		"Flotilla 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+			"standing"		"1"
+		}
+		"logo"		"6b618de0c05c737076b839ad2e17893f31f47e35"
+		"logo_small"		"6b618de0c05c737076b839ad2e17893f31f47e35_thumb"
+		"icon"		"89bc170f58e7f7c9b1976a6c405dcc2471b5d5f6"
+		"clienttga"		"fd059dac9fa3a27d3a7b871c9f1904ff8126b375"
+		"clienticon"		"7f6868026411e3a26ed5cec38445fdfbed6eac64"
+		"openvrsupport"		"1"
+		"metacritic_name"		"Flotilla 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"56.96378800484965"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"56.96378800484965"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572882873"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blendo Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Blendo Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Blendo Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_17"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1534525270"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"592100"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"14139"
+			"2"		"16598"
+			"3"		"21978"
+			"4"		"1708"
+			"5"		"3839"
+			"6"		"19"
+			"7"		"3942"
+			"8"		"1677"
+			"9"		"1741"
+			"10"		"4325"
+			"11"		"1755"
+			"12"		"1669"
+			"13"		"3968"
+			"14"		"4182"
+			"15"		"492"
+			"16"		"7107"
+			"17"		"597"
+			"18"		"6910"
+			"19"		"113"
+		}
+		"review_score"		"6"
+		"review_percentage"		"74"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Blendo Games"
+		"publisher"		"Blendo Games"
+		"homepage"		"http://blendogames.com/flotilla2"
+	}
+	"config"
+	{
+		"installdir"		"flotilla2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"flotilla_vr2.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"flotilla_vr2.exe"
+				"arguments"		"-rendertomonitor false -resolution 256 256 -developer true -logfile true"
+				"description"		"Flotilla 2 (compatibility mode)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"flotilla2_manual.pdf"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"flotilla2_campaignchooser.exe"
+				"description"		"custom campaign"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"592100"
+		"592101"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1393985817402598964"
+					"size"		"110625104"
+					"download"		"84393696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5156620"
+				"timeupdated"		"1591978924"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"content/maps/local"
+				"pattern"		"*.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
