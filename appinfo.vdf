@@ -1,0 +1,301 @@
+"appinfo"
+{
+	"appid"		"500110"
+	"common"
+	{
+		"name"		"Glider Island"
+		"type"		"Game"
+		"oslist"		"windows"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"xinput"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"clienttga"		"465e671386cf889ed2a9c8981d6814c4541a080d"
+		"clienticon"		"f1f87d6d1e86d3c92cb0f529ac8881b6fd81860c"
+		"icon"		"5534d771c9f916a5033c9f96c81eb245dfef4c51"
+		"logo"		"239153e518f1d391c718f661e5e4edada335a73f"
+		"logo_small"		"239153e518f1d391c718f661e5e4edada335a73f_thumb"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"metacritic_name"		"Glider Island"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"51.28354725787631"
+				"height_pct"		"71.27760626929471"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"51.28354725787631"
+					"height_pct"		"71.27760626929471"
+				}
+			}
+		}
+		"store_asset_mtime"		"1575490611"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Joey Sipos"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"5D Realities"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"9"
+			"4"		"28"
+			"5"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_25"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1493411540"
+		"community_hub_visible"		"1"
+		"gameid"		"500110"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"701"
+			"2"		"21"
+			"3"		"599"
+			"4"		"19"
+			"5"		"699"
+			"6"		"21978"
+			"7"		"15045"
+			"8"		"1654"
+			"9"		"492"
+			"10"		"3839"
+			"11"		"4175"
+		}
+		"review_score"		"7"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Joey Sipos"
+		"publisher"		"5D Realities"
+		"homepage"		"http://5drealities.com/GliderIsland"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Glider Island"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GliderIsland.exe"
+				"description"		"Personal Edition"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"GliderSim.exe"
+				"description"		"Glider Sim (Alpha) - No VR"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"glidersim"
+				}
+			}
+			"4"
+			{
+				"executable"		"GliderSim.exe"
+				"arguments"		"-vrmode openvr"
+				"description"		"Glider Sim (Alpha) - SteamVR"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"glidersim"
+				}
+			}
+			"5"
+			{
+				"executable"		"GliderSim.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"Glider Sim (Alpha) - Oculus"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"glidersim"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"500111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4012131474681773604"
+					"size"		"1081087933"
+					"download"		"546401040"
+				}
+				"arcades"
+				{
+					"gid"		"1283599535098720362"
+					"size"		"691291828"
+					"download"		"266945088"
+				}
+				"glidersim"
+				{
+					"gid"		"1649840739807710327"
+					"size"		"311134680"
+					"download"		"132519104"
+				}
+			}
+		}
+		"500112"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"glidersim"
+				{
+					"gid"		"5953252686606141482"
+					"size"		"1975600531"
+					"download"		"639687248"
+				}
+			}
+		}
+		"500113"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"arcades"
+				{
+					"gid"		"6709693193988244491"
+					"size"		"691291828"
+					"download"		"267029392"
+				}
+			}
+		}
+		"500114"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3801551"
+				"timeupdated"		"1557248885"
+			}
+			"arcades"
+			{
+				"buildid"		"2185068"
+				"description"		"Built for VR Arcades"
+				"timeupdated"		"1507602758"
+			}
+			"glidersim"
+			{
+				"buildid"		"2179305"
+				"description"		"Glider Sim Prototype Demo Free"
+				"timeupdated"		"1507322217"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
