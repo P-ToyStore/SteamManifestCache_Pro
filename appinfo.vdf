@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"930970"
+	"common"
+	{
+		"name"		"Angry Ball VR"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"930970_eula_0"
+				"name"		"Angry Ball VR EULA"
+				"url"		"https://store.steampowered.com//eula/930970_eula_0"
+			}
+			"1"
+			{
+				"id"		"930970_eula_1"
+				"name"		"Angry Ball VR EULA"
+				"url"		"https://store.steampowered.com//eula/930970_eula_1"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"7f2096268d238b839046fa0b228913ef070c8905"
+		"logo_small"		"7f2096268d238b839046fa0b228913ef070c8905_thumb"
+		"icon"		"1b9e1d7e2aa508275f9b5f319e2df72750a2f519"
+		"clienttga"		"99257343d00c6c304781575deb62e567372e4010"
+		"clienticon"		"83da19768023e30968a3d65422970a269f78b90a"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"osextended"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Angry Ball VR"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1d3bd7c931ddd6ef8be7cc5b7c71ed341e3d9685.jpg"
+		"store_asset_mtime"		"1544971969"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MWN TECH.,LTD"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"MWN TECH.,LTD"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"18"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1543975997"
+		"community_hub_visible"		"1"
+		"gameid"		"930970"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"19"
+			"2"		"21978"
+			"3"		"1664"
+			"4"		"1774"
+			"5"		"1663"
+			"6"		"3839"
+			"7"		"4726"
+			"8"		"17894"
+			"9"		"4182"
+			"10"		"701"
+			"11"		"9"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"MWN TECH.,LTD"
+		"publisher"		"MWN TECH.,LTD"
+		"homepage"		"https://www.facebook.com/AngryBallVR"
+	}
+	"config"
+	{
+		"installdir"		"AngryBallVR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AngryBallVR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"930971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4070138289903343058"
+					"size"		"2430783702"
+					"download"		"755154080"
+				}
+			}
+		}
+		"930972"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3882768"
+				"timeupdated"		"1559556084"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"MWN Tech/AngryBall/"
+				"pattern"		"*.ab"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"MWN Tech/AngryBall/"
+				"pattern"		"*.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"MWN Tech/AngryBall/Backup/"
+				"pattern"		"*ab"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
