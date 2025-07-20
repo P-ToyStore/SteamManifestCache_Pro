@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"906120"
+	"common"
+	{
+		"name"		"POLYBIUS"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"oculus"		"1"
+			"xinput"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"logo"		"7560bc58a22a4f50afb08c346897d3880c4dbb8e"
+		"logo_small"		"7560bc58a22a4f50afb08c346897d3880c4dbb8e_thumb"
+		"icon"		"f1d9b7ded74d1cceb2e4d8211f033271929ed51d"
+		"clienticon"		"687b65b712196ebd09dbc8d53dce1d6fc2347532"
+		"clienttga"		"f16769f8af2cdbc7ffd9a1319d446a8ffb508b49"
+		"oslist"		"windows"
+		"osarch"		""
+		"openvrsupport"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1652486400"
+			"tested_build_id"		"4394356"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_LauncherInteractionIssues"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"1"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"POLYBIUS"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b1e40bf16dd33d8eb1505f267b7cbe197b4870fb.jpg"
+		"store_asset_mtime"		"1742484209"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Llamasoft Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Llamasoft Ltd."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1545391080"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"906120"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1714"
+			"2"		"21978"
+			"3"		"1773"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Llamasoft Ltd."
+		"publisher"		"Llamasoft Ltd."
+	}
+	"config"
+	{
+		"installdir"		"POLYBIUS"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Polybius.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Polybius.exe"
+				"arguments"		"-mode 1"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"906121"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5103938989246802616"
+					"size"		"1724137500"
+					"download"		"1649027200"
+				}
+				"beta"
+				{
+					"gid"		"2657802671829052489"
+					"size"		"1684000211"
+					"download"		"1613383024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4394356"
+				"timeupdated"		"1576943863"
+			}
+			"beta"
+			{
+				"buildid"		"3732584"
+				"description"		"VIVE/WMR enabled"
+				"timeupdated"		"1576943923"
+			}
+		}
+	}
+}
