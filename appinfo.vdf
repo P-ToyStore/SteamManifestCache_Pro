@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"392150"
+	"common"
+	{
+		"name"		"#SkiJump"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"166cb3ecfb9d4e637761443d1de595aeb2e84579"
+		"logo_small"		"166cb3ecfb9d4e637761443d1de595aeb2e84579_thumb"
+		"icon"		"a8822cccda37f94b6d0039eaab98afa7aaaee36d"
+		"clienticon"		"67cbf997e87ddee39d211951a64ad614f20bb2f2"
+		"clienttga"		"706eb20bad4e79f6e2de5212e6d9c789e2074f4e"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"metacritic_name"		"#SkiJump"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"55.23923827801201"
+				"height_pct"		"68.748643099124"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"55.23923827801201"
+					"height_pct"		"68.748643099124"
+				}
+			}
+		}
+		"store_asset_mtime"		"1561751610"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"VRUnicorns"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bandello"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"9"
+			"2"		"18"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1561755891"
+		"community_hub_visible"		"1"
+		"gameid"		"392150"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"492"
+			"2"		"699"
+			"3"		"493"
+			"4"		"21978"
+		}
+		"review_score"		"5"
+		"review_percentage"		"63"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"VRUnicorns"
+		"publisher"		"Bandello"
+		"homepage"		"http://www.vrunicorns.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"VRUnicorns #SkiJump"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SkiJump.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SkiJump3Server.exe"
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"server"
+				}
+			}
+			"2"
+			{
+				"executable"		"SkiJump3Matchmaker.exe"
+				"type"		"default"
+				"config"
+				{
+					"betakey"		"matchmaker"
+				}
+			}
+			"3"
+			{
+				"executable"		"SkiJump3Client.exe"
+				"description"		"The BETA build"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ponybeta"
+				}
+			}
+			"4"
+			{
+				"executable"		"SkiJumpPlayTestingWin.exe"
+			}
+			"5"
+			{
+				"executable"		"SkiJumpPlayTestingMac.app"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"392151"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"212603378166331154"
+					"size"		"450761204"
+					"download"		"128511392"
+				}
+			}
+		}
+		"392152"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+			}
+		}
+		"392153"
+		{
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3992850"
+				"timeupdated"		"1562613855"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
