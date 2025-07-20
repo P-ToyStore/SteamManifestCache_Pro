@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"2702130"
+	"common"
+	{
+		"name"		"Renegade: Battle for Jacob's Star"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"dfb201d7d7b0ee96f1806dd0f1b7fd556e585256"
+		"clienticon"		"199e915adb717eaee45f5779bec9862e638d5232"
+		"clienttga"		"95cfa82e0e4a40d5e0bd97059ea2467742c10a02"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"73.98137369033762"
+				"height_pct"		"99.39297693609191"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"73.98137369033762"
+					"height_pct"		"99.39297693609191"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1702991362"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Strategic Simulations"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"SSI"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1702994062"
+		"community_hub_visible"		"1"
+		"gameid"		"2702130"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4182"
+			"2"		"599"
+			"3"		"6691"
+			"4"		"3839"
+			"5"		"15045"
+			"6"		"4295"
+			"7"		"4004"
+			"8"		"3942"
+			"9"		"1755"
+			"10"		"16598"
+			"11"		"4291"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Strategic Simulations"
+		"publisher"		"SNEG"
+		"gamemanualurl"		"https://store.steampowered.com/manual/2702130/"
+	}
+	"config"
+	{
+		"installdir"		"Renegade Battle for Jacob's Star"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf renegade-base.conf -conf renegade-graphics.conf -conf renegade-game.conf"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf renegade-graphics.conf"
+				"type"		"config"
+				"description_loc"
+				{
+					"english"		"Graphic Setttings"
+				}
+				"description"		"Graphic Setttings"
+			}
+		}
+	}
+	"depots"
+	{
+		"2702131"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5938627701136891931"
+					"size"		"795445563"
+					"download"		"520663280"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12931129"
+				"timeupdated"		"1702311567"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME/RENEGADE"
+				"pattern"		"*.LST"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME/RENEGADE"
+				"pattern"		"*.PLR"
+			}
+		}
+	}
+}
