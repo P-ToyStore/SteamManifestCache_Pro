@@ -1,0 +1,200 @@
+"appinfo"
+{
+	"appid"		"1157830"
+	"common"
+	{
+		"name"		"Final Frontier"
+		"type"		"Game"
+		"clienticon"		"e9f891711065393d06c5a4736147d975fb6330ad"
+		"clienttga"		"ff66c7195a0ad5b1f7bb9a78b302370c453b081f"
+		"icon"		"43b81f7ff52b2e5c14d03035fce281acef766fbf"
+		"logo"		"9f2d4a7225fa1d02abcddc62a4d71b6dc68a3229"
+		"logo_small"		"9f2d4a7225fa1d02abcddc62a4d71b6dc68a3229_thumb"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"metacritic_name"		"Final Frontier"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"75.26254375729287"
+				"height_pct"		"87.46141059130848"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"75.26254375729287"
+					"height_pct"		"87.46141059130848"
+				}
+			}
+		}
+		"store_asset_mtime"		"1614361032"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bubble Bus Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"MIRROR Soft"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1581949152"
+		"community_hub_visible"		"1"
+		"gameid"		"1157830"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"4004"
+			"2"		"3942"
+			"3"		"3813"
+			"4"		"4791"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Bubble Bus Software"
+		"publisher"		"MIRROR Soft"
+		"homepage"		"https://mirrorsoft.com"
+	}
+	"config"
+	{
+		"installdir"		"FinalFrontier"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"\"FRONTIER.EXE\" -conf \"dosbox_final-frontier.conf\" -noconsole"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"runFinalFrontier.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1157831"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7149776526883316042"
+					"size"		"5529240"
+					"download"		"2394768"
+				}
+			}
+		}
+		"1157832"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8908512962827358940"
+					"size"		"3932653"
+					"download"		"1171840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4395364"
+				"timeupdated"		"1573857291"
+			}
+		}
+	}
+}
