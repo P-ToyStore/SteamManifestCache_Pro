@@ -1,0 +1,260 @@
+"appinfo"
+{
+	"appid"		"1061220"
+	"common"
+	{
+		"name"		"Discontinue"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1061220_eula_0"
+				"name"		"Discontinue EULA"
+				"url"		"https://store.steampowered.com//eula/1061220_eula_0"
+			}
+		}
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"openvr_action_manifest_path"		"Discontinue_Data/StreamingAssets/SteamVR/actions.json"
+		"icon"		"85862a1fa930fe10f5e6b78611194a388f8b3fc0"
+		"logo"		"2dfa7301bb097db5b9ad1328e7d8f9287e91960d"
+		"logo_small"		"2dfa7301bb097db5b9ad1328e7d8f9287e91960d_thumb"
+		"clienttga"		"426e8b561f39ae6d540b66862c1164201d8619ec"
+		"clienticon"		"9029c90242d9e77ce5bc4aad8185bb293b63b261"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"metacritic_name"		"Discontinue"
+		"nokeyboardmouse"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667395581"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PostBeta"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Blue Knight Games"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"PostBeta"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1560157166"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1061220"
+		"store_tags"
+		{
+			"0"		"21978"
+			"1"		"1773"
+			"2"		"19"
+			"3"		"701"
+			"4"		"5547"
+			"5"		"1662"
+			"6"		"3916"
+			"7"		"4004"
+			"8"		"4115"
+			"9"		"4295"
+			"10"		"3839"
+			"11"		"4191"
+			"12"		"4036"
+			"13"		"492"
+			"14"		"3942"
+			"15"		"3878"
+			"16"		"4182"
+			"17"		"4711"
+			"18"		"7743"
+			"19"		"5154"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"PostBeta"
+		"publisher"		"PostBeta"
+		"homepage"		"https://postbeta.com/discontinue"
+	}
+	"config"
+	{
+		"installdir"		"Discontinue"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Discontinue.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"rifts\\Discontinue.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"with OVRinput for Rift S"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1061221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5061019194377679222"
+					"size"		"386389121"
+					"download"		"120951248"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4329081"
+				"timeupdated"		"1572187023"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
