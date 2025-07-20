@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"306550"
+	"common"
+	{
+		"name"		"Runers"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"6346d559f009f6aa9f5010b99abd78d03045b940"
+		"clienttga"		"657e3c9370dcbccbe528aeb817d5005c3d604e8c"
+		"icon"		"d2a35e0a068f1357aaec5f4318567e0e55b4bbbc"
+		"logo"		"00757451fe8c602687931a123ed8042fa9456717"
+		"logo_small"		"00757451fe8c602687931a123ed8042fa9456717_thumb"
+		"oslist"		"windows"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"russian"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Runers"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_48b7b144835ac2be8eba4e0cd13972a3b2301a5e.jpg"
+		"store_asset_mtime"		"1409655170"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LGK Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mastertronic"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_24"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1409648910"
+		"metacritic_score"		"68"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/runers?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"306550"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"492"
+			"2"		"3959"
+			"3"		"4057"
+			"4"		"1716"
+			"5"		"4791"
+			"6"		"19"
+		}
+		"review_score"		"8"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"LGK Games"
+		"publisher"		"Mastertronic"
+		"homepage"		"http://www.runersgame.com/"
+		"listofdlc"		"317880"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Runers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Runers.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"306551"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2043913849162287286"
+					"size"		"259087032"
+					"download"		"174308656"
+				}
+				"beta"
+				{
+					"gid"		"1249096142711928924"
+					"size"		"256829468"
+					"download"		"161975686832"
+				}
+			}
+		}
+		"317880"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5796902557517554449"
+					"size"		"0"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"5956627860527284576"
+					"size"		"81216306"
+					"download"		"73024956174"
+				}
+			}
+			"dlcappid"		"317880"
+		}
+		"baselanguages"		"english,german,russian,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"664973"
+			}
+			"beta"
+			{
+				"buildid"		"454936"
+				"description"		"Beta Builds"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"9000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saves"
+				"pattern"		"*.rs"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"saves"
+				"pattern"		"*.px"
+			}
+		}
+	}
+}
