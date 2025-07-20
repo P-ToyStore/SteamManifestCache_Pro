@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"1547030"
+	"common"
+	{
+		"name"		"Outcasts of Orion"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienttga"		"d62de048744bda0ba49fb9c1de1b26dff7073b67"
+		"clienticon"		"c76b82b5e09c16301202f430a5b27a5a5d2a4105"
+		"icon"		"62a24732dcb7297755fcc59d3ea1239813d84030"
+		"logo"		"bbf3ac4be8691b44c60575eb598e3ccfad15c239"
+		"logo_small"		"bbf3ac4be8691b44c60575eb598e3ccfad15c239_thumb"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"99.62004274519117"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"99.62004274519117"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1614057557"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"We Are Cats"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"We Are Cats"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1615792800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1547030"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1084988"
+			"2"		"1716"
+			"3"		"3959"
+			"4"		"4975"
+			"5"		"1741"
+			"6"		"14139"
+			"7"		"6815"
+			"8"		"5851"
+			"9"		"4791"
+			"10"		"1673"
+			"11"		"4115"
+			"12"		"4295"
+			"13"		"4004"
+			"14"		"3942"
+			"15"		"1708"
+			"16"		"3993"
+			"17"		"7569"
+			"18"		"1759"
+			"19"		"5125"
+		}
+		"review_score"		"7"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"We Are Cats"
+		"publisher"		"We Are Cats"
+		"homepage"		"https://www.outcastsorion.com/"
+	}
+	"config"
+	{
+		"installdir"		"Outcasts of Orion"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OutcastsOfOrion.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"OutcastsOfOrion.app\\Contents\\MacOS\\game"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1547031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1879175513486003467"
+					"size"		"232143482"
+					"download"		"163048528"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6518508"
+				"timeupdated"		"1618017950"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"200000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"OutcastsOfOrion_Data/Save"
+				"pattern"		"*.save"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"OutcastsOfOrion_Data/Save"
+				"pattern"		"*.prof"
+			}
+		}
+	}
+}
