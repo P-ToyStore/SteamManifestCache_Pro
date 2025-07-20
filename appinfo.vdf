@@ -1,0 +1,241 @@
+"appinfo"
+{
+	"appid"		"1256870"
+	"common"
+	{
+		"name"		"Pirate Island Mini Golf VR"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"cfea91c777da683e195c7b69b17dd016bbcb6a01"
+		"clienticon"		"196308d5543bc60404dd79543721d09f14d371fb"
+		"icon"		"7139217658e555f84056b824800da2287c093b9c"
+		"logo"		"2f4854030a3a17d70ac6df4a4520f16c9921d426"
+		"logo_small"		"2f4854030a3a17d70ac6df4a4520f16c9921d426_thumb"
+		"openvrsupport"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46.266044340723454"
+				"height_pct"		"57.59914509617668"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"46.266044340723454"
+					"height_pct"		"57.59914509617668"
+				}
+			}
+		}
+		"store_asset_mtime"		"1612293912"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Serious Tangents"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Serious Tangents"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"18"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1591639059"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1256870"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"493"
+			"1"		"597"
+			"2"		"701"
+			"3"		"21978"
+			"4"		"22955"
+			"5"		"4166"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Serious Tangents"
+		"publisher"		"Serious Tangents"
+		"homepage"		"http://www.pirateislandminigolf.com"
+	}
+	"config"
+	{
+		"installdir"		"Pirate Island Mini Golf VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Pirate Island Mini Golf VR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1256871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7624248563634537941"
+					"size"		"2696760165"
+					"download"		"1272456848"
+				}
+				"frameratetesting"
+				{
+					"gid"		"3514997654331250400"
+					"size"		"2696648493"
+					"download"		"1272411232"
+				}
+				"testingbranch"
+				{
+					"gid"		"806081467701285340"
+					"size"		"3136014086"
+					"download"		"1661715488"
+				}
+			}
+		}
+		"1256872"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"testingbranch"
+				{
+					"gid"		"4590246064807081337"
+					"size"		"2651522655"
+					"download"		"1263855328"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13905064"
+				"timeupdated"		"1711899569"
+			}
+			"frameratetesting"
+			{
+				"buildid"		"8035379"
+				"description"		"A test branch specifically for single player frame rate observation"
+				"timeupdated"		"1642474815"
+			}
+			"testingbranch"
+			{
+				"buildid"		"7564127"
+				"timeupdated"		"1634698655"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"5"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
