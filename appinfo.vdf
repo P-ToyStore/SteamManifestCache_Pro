@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"2702100"
+	"common"
+	{
+		"name"		"Savage Warriors"
+		"type"		"Game"
+		"clienttga"		"ada8e45ed8304bf44ad37fdfed92244f38c24c26"
+		"clienticon"		"03bde14687f725a3ba22cc2dccf600ef875a3ed0"
+		"icon"		"018c88357fd04c82fdae9d38c78345b389e4cf0c"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"65.8323632130384"
+				"height_pct"		"83.43524592596992"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"65.8323632130384"
+					"height_pct"		"83.43524592596992"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1702991601"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Atreid Concept"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"SSI"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Mindscape"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1702994077"
+		"community_hub_visible"		"1"
+		"gameid"		"2702100"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1743"
+			"2"		"4736"
+			"3"		"1773"
+			"4"		"3916"
+			"5"		"4004"
+			"6"		"6691"
+			"7"		"3871"
+			"8"		"4195"
+			"9"		"12190"
+			"10"		"3993"
+			"11"		"4182"
+			"12"		"4158"
+			"13"		"6915"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Atreid Concept"
+		"publisher"		"SNEG"
+		"gamemanualurl"		"https://store.steampowered.com/manual/2702100/"
+	}
+	"config"
+	{
+		"installdir"		"Savage Warriors"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf savage-warriors-base.conf -conf savage-warriors-graphics.conf -conf savage-warriors-game.conf"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf savage-warriors-graphics.conf"
+				"type"		"config"
+			}
+		}
+	}
+	"depots"
+	{
+		"2702101"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5752075626851427328"
+					"size"		"659227456"
+					"download"		"533434032"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12931221"
+				"timeupdated"		"1702312271"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
