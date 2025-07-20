@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"359420"
+	"common"
+	{
+		"name"		"The Journeyman Project 1: Pegasus Prime"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"icon"		"b114e527bd6d3626ff0ad88cbcd5920c9d3cbea7"
+		"clienticon"		"f0a97468b20abce9ab4c9d7358ae67c96893346b"
+		"clienttga"		"860ba9a724e1db53b8a45fb53ad00ac0ba975874"
+		"logo"		"640f3db50ca6208ac5b096b5ca5b6f5eaed58ad6"
+		"logo_small"		"640f3db50ca6208ac5b096b5ca5b6f5eaed58ad6_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"The Journeyman Project 1: Pegasus Prime"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1f38730b03381ce3ee9aae25acc1022853f9f737.jpg"
+		"store_asset_mtime"		"1487596353"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Presto Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Presto Studios"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_33"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"866703600"
+		"steam_release_date"		"1487599258"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"359420"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+			"3"		"18594"
+			"4"		"1698"
+			"5"		"10679"
+			"6"		"1693"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Presto Studios"
+		"publisher"		"Presto Studios"
+		"homepage"		"http://thejourneymanproject.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/359420/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Journeyman Project 1 Pegasus Prime"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"pegasusMessageProxy.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"865047408,865056234,865039663"
+	}
+	"depots"
+	{
+		"359421"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7435670097484367948"
+					"size"		"3004853235"
+					"download"		"1931517440"
+				}
+				"beta"
+				{
+					"gid"		"7435670097484367948"
+					"size"		"3004853235"
+					"download"		"1931517440"
+				}
+			}
+		}
+		"359422"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8650120813893173303"
+					"size"		"45594078"
+					"download"		"31218528"
+				}
+				"beta"
+				{
+					"gid"		"8650120813893173303"
+					"size"		"45594078"
+					"download"		"31218528"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1647710"
+				"timeupdated"		"1487743268"
+			}
+			"beta"
+			{
+				"buildid"		"1647710"
+				"description"		"Beta branch for testing"
+				"timeupdated"		"1487743276"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Pegasus Prime/Saved games"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Pegasus Prime/Saved games"
+						"replace"		"Pegasus Prime Saves"
+					}
+				}
+			}
+			"3"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Pegasus Prime/Saved games"
+						"replace"		".PegasusPrime"
+					}
+				}
+			}
+		}
+	}
+}
