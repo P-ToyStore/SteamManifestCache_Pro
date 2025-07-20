@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"1157850"
+	"common"
+	{
+		"name"		"Interphase"
+		"type"		"Game"
+		"logo"		"96984aa1a68ed088e2f670c32cb27b1dfec796c4"
+		"logo_small"		"96984aa1a68ed088e2f670c32cb27b1dfec796c4_thumb"
+		"clienticon"		"1cee7182a6ad1623964590de3658997b0234ab54"
+		"clienttga"		"7856add3bf1719152e18d4da180126af32c11adf"
+		"icon"		"4315bc73212f8d86b6a81d8d1d7f72d579f38525"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"metacritic_name"		"Interphase"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1614366056"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Assembly Line"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Image Works"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"MIRROR Soft"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1581526977"
+		"community_hub_visible"		"1"
+		"gameid"		"1157850"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4004"
+			"2"		"15045"
+			"3"		"1774"
+			"4"		"3942"
+		}
+	}
+	"extended"
+	{
+		"developer"		"The Assembly Line"
+		"publisher"		"MIRROR Soft"
+		"homepage"		"https://www.mirrorsoft.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1157850/"
+	}
+	"config"
+	{
+		"installdir"		"Interphase"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"\"INTERPHS.EXE\" -conf \"dosbox_interphase.conf\" -noconsole"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"runInterphase.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1157851"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7948245287970518332"
+					"size"		"5584781"
+					"download"		"2435648"
+				}
+			}
+		}
+		"1157852"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5132514350900003328"
+					"size"		"3988379"
+					"download"		"1212912"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4395514"
+				"timeupdated"		"1573861082"
+			}
+		}
+	}
+}
