@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"111300"
+	"common"
+	{
+		"name"		"Smash Cars"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"clienticon"		"7659238fcb5d03563a20f38237ad18e02738b0d7"
+		"clienttga"		"a661a64121802da75b9bb6c0c4357c42d55a852a"
+		"icon"		"984a7af139d141dc125251b43b05d0a185bf03ad"
+		"logo"		"90275ad5b07919c41c746a2d7da54f26eff6e627"
+		"logo_small"		"90275ad5b07919c41c746a2d7da54f26eff6e627_thumb"
+		"restricted_countries"		"DE"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8a0c76b0433b640b71203c7c5f3f36e4af99bf1d.jpg"
+		"store_asset_mtime"		"1319477939"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Creat Studios Inc"
+			}
+		}
+		"primary_genre"		"0"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"9"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+			"russian"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1318870800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"111300"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"19"
+			"2"		"701"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"developer"		"Creat Studios Inc"
+		"gamedir"		"Smash Cars"
+		"homepage"		"http://www.facebook.com/pages/Smash-Cars/124343614249945"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"111301"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+	}
+	"config"
+	{
+		"installscriptsignature"		"4163b6be7db24573061dc7275bc49c0e520d135c832301ece8ebf082f4b2397136a71ad8f74937a32ce4a8de38b8c190adee38a9f85959240e71d33fba9c2f2de70e21c5382b998a677ce7cdafbfb5e12ba5c4bfe885dac4944834e7177757b7f91e09685198792c225a1b009773bf27c62ea0f729215fc59b4b99e3a6c76507"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Smash Cars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SmashCars.exe"
+			}
+			"1"
+			{
+				"executable"		"SCGamepadConfigLauncher.exe"
+				"description"		"Configure Controller"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\creatstudios\smashcars"
+			{
+				"dword"
+				{
+					"english"
+					{
+						"language"		"1"
+					}
+					"russian"
+					{
+						"language"		"6"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"msvc redistributables"
+			{
+				"process 1"		"%INSTALLDIR%\\install\\vcredist_x86_vs2008sp1.exe"
+				"command 1"		"/q"
+				"nocleanup"		"0"
+				"requirement_os"
+				{
+					"is64bitwindows"		"0"
+				}
+			}
+			"msvc redistributables"
+			{
+				"process 1"		"%INSTALLDIR%\\install\\vcredist_x64_vs2008sp1.exe"
+				"command 1"		"/q"
+				"nocleanup"		"0"
+				"requirement_os"
+				{
+					"is64bitwindows"		"1"
+				}
+			}
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\install\\DirectX\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"0"
+			}
+		}
+	}
+	"depots"
+	{
+		"111301"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"368057009636841046"
+					"size"		"250638797"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"7868637254278175441"
+					"size"		"250638797"
+					"download"		"0"
+				}
+			}
+		}
+		"111302"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7374670735421786748"
+					"size"		"49904"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"1971371924037704495"
+					"size"		"49904"
+					"download"		"0"
+				}
+			}
+		}
+		"111303"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7439075416071318914"
+					"size"		"50636"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"3248819913506571270"
+					"size"		"50636"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"92996"
+			}
+			"local"
+			{
+				"buildid"		"92994"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
