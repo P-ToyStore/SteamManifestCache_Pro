@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"1237170"
+	"common"
+	{
+		"name"		"Qual"
+		"type"		"Game"
+		"clienttga"		"44bc3d7efb44e4254821f7776112025181efc153"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"18b1ebfb780f51c5760f560b765071d52334a3c0"
+		"clienticon"		"3fc3dbaa7ffcce1a2cc8db60c46c07d1689d2c02"
+		"logo"		"1fb065256dc0b406eec2ca44b61e082f71543053"
+		"logo_small"		"1fb065256dc0b406eec2ca44b61e082f71543053_thumb"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"10.64516129032259"
+				"height_pct"		"31.166666666666657"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"10.64516129032259"
+					"height_pct"		"31.166666666666657"
+				}
+			}
+		}
+		"store_asset_mtime"		"1617649869"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Just Making Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Just Making Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1623660156"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1237170"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"122"
+			"2"		"492"
+			"3"		"4885"
+			"4"		"1664"
+			"5"		"3964"
+			"6"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Just Making Games"
+		"publisher"		"Just Making Games"
+	}
+	"config"
+	{
+		"installdir"		"Qual"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Qual.exe"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"1237172"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8777375761309543662"
+					"size"		"601552056"
+					"download"		"141869248"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6863384"
+				"timeupdated"		"1623657380"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"30"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"JustMakingGames/Qual/Save"
+				"pattern"		"*.fun"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"JustMakingGames/Qual/Save"
+						"replace"		"JustMakingGames/Qual/Save"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"JustMakingGames/Qual/Save"
+						"replace"		".config/unity3d/JustMakingGames/Qual/Save"
+					}
+				}
+			}
+		}
+	}
+}
