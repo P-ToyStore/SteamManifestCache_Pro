@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"2707270"
+	"common"
+	{
+		"name"		"Wargame Construction Set II: Tanks!"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"45a12e97640da85c92161b2352c454a3b49112fd"
+		"clienttga"		"b8eed203d55f884a3c5ddd911bafa45df505751b"
+		"icon"		"8f316fcbcfd757998a273ae9bee60ab717adc617"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"74.91268917345755"
+				"height_pct"		"94.07373326605122"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"74.91268917345755"
+					"height_pct"		"94.07373326605122"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1702990873"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Strategic Simulations"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"SSI"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Wargame Construction Set"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1702994045"
+		"community_hub_visible"		"1"
+		"gameid"		"2707270"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"13276"
+			"2"		"4182"
+			"3"		"3993"
+			"4"		"4791"
+			"5"		"6691"
+			"6"		"4684"
+			"7"		"7569"
+			"8"		"4325"
+			"9"		"14139"
+			"10"		"3987"
+			"11"		"4004"
+			"12"		"1708"
+			"13"		"5382"
+			"14"		"4150"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Strategic Simulations"
+		"publisher"		"SNEG"
+		"gamemanualurl"		"https://store.steampowered.com/manual/2707270/"
+	}
+	"config"
+	{
+		"installdir"		"Wargame Construction Set II Tanks!"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf tanks-game.conf -conf tanks-base.conf -conf tanks-graphics.conf"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf tanks-graphics.conf"
+				"type"		"config"
+			}
+		}
+	}
+	"depots"
+	{
+		"2707271"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2704604161973048025"
+					"size"		"10960239"
+					"download"		"4644816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12903795"
+				"timeupdated"		"1701975774"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME/TANKS/SCENARIO"
+				"pattern"		"*.*"
+			}
+		}
+	}
+}
