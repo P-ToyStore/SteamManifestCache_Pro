@@ -1,0 +1,272 @@
+"appinfo"
+{
+	"appid"		"455190"
+	"common"
+	{
+		"name"		"Domain Defense VR"
+		"type"		"Game"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"2"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"82376733b99123730bfa2a3c31dd53468eb33bf4"
+		"clienticon"		"95e60e2cde0a91e3cea3b46c298dea58fdc0aed7"
+		"icon"		"913dc2ff46b5c6e970bbb01950d504a05f9fe1b9"
+		"logo"		"00f52594e1863f2c0c11028fa44f903ce3f7642b"
+		"logo_small"		"00f52594e1863f2c0c11028fa44f903ce3f7642b_thumb"
+		"releasestate"		"released"
+		"osvrsupport"		"1"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Domain Defense VR"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b35cd3572a7c83c1fc92c1c9280686033d375c01.jpg"
+		"store_asset_mtime"		"1494034185"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Inclusion Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Inclusion Studios"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1494532685"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"455190"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"597"
+			"3"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Inclusion Studios"
+		"publisher"		"Inclusion Studios"
+		"homepage"		"http://www.inclusionstudios.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Domain Defense VR"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"DomainDefenseVR.exe"
+				"arguments"		"-osvr -gamepad -steam"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"with OSVR and Gamepad Controls"
+				}
+				"description"		"with OSVR and Gamepad Controls"
+			}
+			"3"
+			{
+				"executable"		"DomainDefenseVR.exe"
+				"arguments"		"-steam -steamvr -gamepad -vrmode OpenVR"
+				"description"		"Gamepad Controls"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"DomainDefenseVR.exe"
+				"arguments"		"-steam -steamvr -motion -vrmode OpenVR"
+				"description"		"Motion Controls"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"DomainDefenseVR.exe"
+				"arguments"		"-steam -oculusSDK -vrmode Oculus"
+				"description"		"All Controls"
+				"type"		"othervr"
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"455191"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2207050223274261270"
+					"size"		"470017173"
+					"download"		"167732928"
+				}
+				"beta"
+				{
+					"gid"		"2207050223274261270"
+					"size"		"470017173"
+					"download"		"167732928"
+				}
+			}
+		}
+		"455192"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1880655"
+				"timeupdated"		"1497113168"
+			}
+			"beta"
+			{
+				"buildid"		"1880655"
+				"timeupdated"		"1497034972"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"path"		"Domain Defense VR"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		"~/.config/unity3d/Inclusion Studios/Domain Defense VR"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"MacHome"
+				"path"		"SavesDir"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
