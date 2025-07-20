@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"1992020"
+	"common"
+	{
+		"name"		"Demons Happened"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"dd9ac6650c0d35581bf073e6009af34ceefbc1e2"
+		"clienticon"		"c316ba02ed293851e5eb6ea8c953523bafa4b666"
+		"clienttga"		"6c41bd46467d736ba875ebe4324ffb62624e1bed"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"66.51162790697671"
+				"height_pct"		"73.02303490857278"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"66.51162790697671"
+					"height_pct"		"73.02303490857278"
+				}
+			}
+		}
+		"store_asset_mtime"		"1661548867"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Delusional Scrapyard"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Delusional Scrapyard"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1658748051"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1992020"
+		"store_tags"
+		{
+			"0"		"4637"
+			"1"		"1664"
+			"2"		"4026"
+			"3"		"4106"
+			"4"		"3871"
+			"5"		"4791"
+			"6"		"3835"
+			"7"		"7481"
+			"8"		"7250"
+			"9"		"6971"
+			"10"		"19"
+			"11"		"4094"
+			"12"		"9541"
+			"13"		"4182"
+			"14"		"492"
+			"15"		"4195"
+			"16"		"4758"
+			"17"		"1774"
+			"18"		"1759"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Delusional Scrapyard"
+		"publisher"		"Delusional Scrapyard"
+	}
+	"config"
+	{
+		"installdir"		"DemonsHappened"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ProjectRedone.exe"
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamcontrollertouchtemplateindex"		"2"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65533"
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1992021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7844139879030636164"
+					"size"		"105556709"
+					"download"		"74214784"
+				}
+				"beta"
+				{
+					"gid"		"7844139879030636164"
+					"size"		"105556709"
+					"download"		"74214784"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19164532"
+				"timeupdated"		"1752084541"
+			}
+			"beta"
+			{
+				"buildid"		"19164532"
+				"description"		"Beta testing"
+				"timeupdated"		"1752084204"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"30000000"
+		"maxnumfiles"		"2000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"DelusionalScrapyard/DemonsHappened/{64BitSteamID}/saves"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
