@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"1532640"
+	"common"
+	{
+		"name"		"El Mucho"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"611e05690b0421b93a4c57d93464890c126c9f80"
+		"clienttga"		"7cf82312f5c014d9651a4bec2837ccc96ec7cf29"
+		"icon"		"35d7aec8924c51a3923689845c9dbeecb714904b"
+		"logo"		"cf00b63574af9e416ab90df0e68034257990a344"
+		"logo_small"		"cf00b63574af9e416ab90df0e68034257990a344_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"spanish"		"1"
+		}
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1666983653"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Andreas Dahm"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lobo Corp."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"El Mucho"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1645374276"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1532640"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"17305"
+			"2"		"14139"
+			"3"		"21725"
+			"4"		"3964"
+			"5"		"4136"
+			"6"		"122"
+			"7"		"597"
+			"8"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Andreas Dahm"
+		"publisher"		"Lobo Corp."
+		"homepage"		"https://lobothedark.itch.io/el-mucho"
+	}
+	"config"
+	{
+		"installdir"		"El Mucho"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ElMucho.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"El Mucho the game"
+				}
+				"description"		"El Mucho the game"
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+		"steamconfigurator3rdpartynative"		"2"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,spanish"
+		"1532641"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7711019779641759357"
+					"size"		"259981971"
+					"download"		"139166816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8926776"
+				"timeupdated"		"1655133217"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Lobo Corp/ElMucho/SaveGames"
+				"pattern"		"*.elm"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Lobo Corp/ElMucho"
+				"pattern"		"ElMuchoData.json"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
