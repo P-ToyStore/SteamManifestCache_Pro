@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"613850"
+	"common"
+	{
+		"name"		"Radiant Crusade"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"xinput"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"aa360b8070bb4690e322f0d965c4a114050c1dde"
+		"logo_small"		"aa360b8070bb4690e322f0d965c4a114050c1dde_thumb"
+		"icon"		"ee38988fd410d47d93ddb49fd24d274ad24902b5"
+		"clienttga"		"cacb6654b7e10be3a8c475ec47208454fdab1f9a"
+		"clienticon"		"4dd2d622e116dfa57a6244f8b4500f242e3ac337"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"613850_eula_0"
+				"name"		"Radiant Crusade EULA"
+				"url"		"http://store.steampowered.com//eula/613850_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Radiant Crusade"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_837f6876f9a710d8e9932387aebbf793e3fa19b6.jpg"
+		"store_asset_mtime"		"1512314716"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Radiance Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Radiance Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"9"
+			"3"		"3"
+			"4"		"28"
+			"5"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_29"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1491375600"
+		"steam_release_date"		"1491447180"
+		"community_hub_visible"		"1"
+		"gameid"		"613850"
+		"store_tags"
+		{
+			"0"		"11104"
+			"1"		"1100687"
+			"2"		"19"
+			"3"		"9"
+			"4"		"599"
+			"5"		"492"
+			"6"		"699"
+			"7"		"122"
+			"8"		"21978"
+			"9"		"1644"
+			"10"		"1645"
+			"11"		"4231"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Radiance Games"
+		"publisher"		"Radiance Games"
+		"homepage"		"http://radiantcrusade.com/"
+	}
+	"config"
+	{
+		"installdir"		"Radiant Crusade"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RadiantCrusade.exe"
+				"arguments"		"-vrmode none"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"RadiantCrusade.exe"
+				"arguments"		"-vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"RadiantCrusade.exe"
+				"arguments"		"-vrmode oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"613851"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8249470542512717660"
+					"size"		"1283287081"
+					"download"		"388235200"
+				}
+				"experimental"
+				{
+					"gid"		"8249470542512717660"
+					"size"		"1283287081"
+					"download"		"388235200"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2240092"
+				"timeupdated"		"1509294472"
+			}
+			"experimental"
+			{
+				"buildid"		"2240092"
+				"timeupdated"		"1509294040"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
