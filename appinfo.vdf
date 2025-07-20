@@ -1,0 +1,212 @@
+"appinfo"
+{
+	"appid"		"1331400"
+	"common"
+	{
+		"name"		"The Oort Cloud 2020"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"b663fd439b2237bc85c1ed880cb2988b63a72ec1"
+		"logo_small"		"b663fd439b2237bc85c1ed880cb2988b63a72ec1_thumb"
+		"clienticon"		"2b2aafeea14c84fd11b20c0cb94b3f8b5ddbefbd"
+		"clienttga"		"a06f14ba6a8c4d1c2dd4417dae0f4c5a51827085"
+		"icon"		"a29eab72101b6b85ce33d02260eff0da10725546"
+		"restricted_countries"		"DE"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"93.54453390238464"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"93.54453390238464"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1589993898"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"DMU Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"DMU Software"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1591939570"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1331400"
+		"store_tags"
+		{
+			"0"		"19"
+		}
+	}
+	"extended"
+	{
+		"developer"		"DMU Software"
+		"publisher"		"DMU Software"
+	}
+	"config"
+	{
+		"installdir"		"The Oort Cloud 2020"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheOortCloud.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1331401"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5111012790473615971"
+					"size"		"3411650472"
+					"download"		"1129487376"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5153949"
+				"timeupdated"		"1591939469"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"TheOortCloud/Saved/SaveGames"
+				"pattern"		"Profile*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"TheOortCloud/Saved/SaveGames"
+				"pattern"		"SelectedProfile.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
