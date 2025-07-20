@@ -1,0 +1,259 @@
+"appinfo"
+{
+	"appid"		"1574670"
+	"common"
+	{
+		"name"		"Kaboom!"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"e2f71a3b312bac8ef5c40e210a8b80420c726b37"
+		"logo_small"		"e2f71a3b312bac8ef5c40e210a8b80420c726b37_thumb"
+		"icon"		"e8978f6a1c5d31bb0bf160dbabe6e7f73433721b"
+		"clienticon"		"8bc308cc6f7dbdfccb286890026bb4e869204df5"
+		"clienttga"		"c1b11125a054f85e16ec81e3085f5a29492e672b"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"64.88372093023261"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"64.88372093023261"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1626209851"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CubeCoders Limited"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"CubeCoders Limited"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_18"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1627671614"
+		"community_hub_visible"		"1"
+		"gameid"		"1574670"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"1773"
+			"3"		"3859"
+			"4"		"176981"
+			"5"		"5711"
+			"6"		"1775"
+			"7"		"5350"
+			"8"		"4791"
+			"9"		"5395"
+			"10"		"4195"
+			"11"		"4305"
+			"12"		"1697"
+			"13"		"4136"
+			"14"		"3916"
+			"15"		"5752"
+			"16"		"3993"
+			"17"		"7481"
+			"18"		"4191"
+			"19"		"493"
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"Kaboom"
+		"serverbrowsername"		"Kaboom!"
+		"developer"		"CubeCoders Limited"
+		"publisher"		"CubeCoders Limited"
+		"homepage"		"https://kaboom.gg"
+	}
+	"config"
+	{
+		"installdir"		"Kaboom"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Kaboom.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Kaboom.exe"
+				"arguments"		"+safemode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Kaboom! in Safe Mode"
+				}
+				"description"		"Kaboom! in Safe Mode"
+			}
+			"2"
+			{
+				"executable"		"Kaboom.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Kaboom.x86_64"
+				"arguments"		"+safemode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Kaboom! in Safe Mode"
+				}
+				"description"		"Kaboom! in Safe Mode"
+			}
+		}
+	}
+	"depots"
+	{
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1574671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1882205478277281769"
+					"size"		"332863317"
+					"download"		"78177664"
+				}
+			}
+		}
+		"1574672"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1997233080050584946"
+					"size"		"376482770"
+					"download"		"84724304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7262899"
+				"timeupdated"		"1630083189"
+			}
+		}
+	}
+}
