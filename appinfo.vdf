@@ -1,0 +1,304 @@
+"appinfo"
+{
+	"appid"		"2414320"
+	"common"
+	{
+		"name"		"Veil of Darkness"
+		"type"		"Game"
+		"icon"		"14bbe66b7ff3fafb55391346e7a50f0d2d85be22"
+		"clienttga"		"7b38744b826e28d27e69d72ccbcf9e7906b6f6e8"
+		"clienticon"		"13c2e9d3b0b2822ff170ee1206d379fde7186cd6"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1733529600"
+			"tested_build_id"		"11377598"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-3RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"75.61117578579746"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"75.61117578579746"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1686041583"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Event Horizon Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SNEG"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"SSI"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"SNEG"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1686052819"
+		"community_hub_visible"		"1"
+		"gameid"		"2414320"
+		"store_tags"
+		{
+			"0"		"4106"
+			"1"		"1667"
+			"2"		"19"
+			"3"		"5851"
+			"4"		"4018"
+			"5"		"3834"
+			"6"		"21"
+			"7"		"6691"
+			"8"		"5094"
+			"9"		"6869"
+			"10"		"1742"
+			"11"		"3964"
+			"12"		"4004"
+			"13"		"4166"
+			"14"		"5716"
+			"15"		"4182"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Event Horizon Software"
+		"publisher"		"SNEG"
+		"gamemanualurl"		"https://store.steampowered.com/manual/2414320/"
+	}
+	"config"
+	{
+		"installdir"		"Veil of Darkness"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-noconsole -conf vod-eng-base.conf -conf vod-eng-graphics.conf -conf vod-eng-game.conf -noconsole -conf vod-ger-base.conf -conf vod-ger-graphics.conf -conf vod-ger-game.conf -noconsole -conf vod-fre-base.conf -conf vod-fre-graphics.conf -conf vod-fre-game.conf -noconsole -conf vod-es-base.conf -conf vod-es-graphics.conf -conf vod-es-game.conf"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		".\\DOSBOX\\ConfigTool.exe"
+				"arguments"		"-conf vod-eng-graphics.conf"
+				"type"		"config"
+				"description_loc"
+				{
+					"english"		"Graphics settings"
+				}
+				"description"		"Graphics settings"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish"
+		"2414321"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"656741570419806460"
+					"size"		"11945529"
+					"download"		"6591040"
+				}
+			}
+		}
+		"2414322"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+			}
+		}
+		"2414323"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+			}
+		}
+		"2414324"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11377598"
+				"timeupdated"		"1685699188"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"20971520"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME/VEIL/SAVES"
+				"pattern"		"*.*"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"GAME/VEIL"
+				"pattern"		"*.SAV"
+			}
+		}
+	}
+}
