@@ -1,0 +1,257 @@
+"appinfo"
+{
+	"appid"		"1604390"
+	"common"
+	{
+		"name"		"PROVIDER"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"47a33cca62b612af711255dc1e71334670990e32"
+		"logo_small"		"47a33cca62b612af711255dc1e71334670990e32_thumb"
+		"icon"		"65914baf0cf2dbd52ee62a347c62223fc1ede6e1"
+		"clienttga"		"0cc371a92bd8bf0a9af4705a76f8222b1db23e42"
+		"clienticon"		"025e37118a61363c164c650c86b360aee794d8f8"
+		"linuxclienticon"		"2882369cd240fd0f9240401a4a6865b4c659720b"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1637952387"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CakeNeq Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"CakeNeq Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1637968723"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1604390"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"1646"
+			"2"		"4637"
+			"3"		"4106"
+			"4"		"1732"
+			"5"		"4975"
+			"6"		"5851"
+			"7"		"3854"
+			"8"		"9803"
+			"9"		"1742"
+			"10"		"19"
+			"11"		"3964"
+			"12"		"4094"
+			"13"		"3942"
+			"14"		"4057"
+			"15"		"4754"
+			"16"		"16094"
+			"17"		"5716"
+			"18"		"4166"
+			"19"		"5608"
+		}
+	}
+	"extended"
+	{
+		"absolutemousecoordinates"		"1"
+		"developer"		"CakeNeq Games"
+		"publisher"		"CakeNeq Games"
+		"homepage"		"https://www.cakeneq.com/"
+	}
+	"config"
+	{
+		"installdir"		"PROVIDER"
+		"steamconfigurator3rdpartynative"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"provider_source.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"provider_source"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"PROVIDER (executable)"
+				}
+				"description"		"PROVIDER (executable)"
+			}
+			"2"
+			{
+				"executable"		"providergame.sh"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Fix Steam Libs"
+				}
+				"description"		"Fix Steam Libs"
+			}
+		}
+	}
+	"depots"
+	{
+		"1604391"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"144544104704470472"
+					"size"		"146249118"
+					"download"		"78559744"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9756742"
+				"timeupdated"		"1666208831"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"6000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"provider_source/spookyfiles/"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxXdgConfigHome"
+				"path"		"provider_source/spookyfiles/"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
