@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"204220"
+	"common"
+	{
+		"name"		"Snapshot"
+		"type"		"Game"
+		"logo"		"5e0f448c6fa62e33c8142d2738690b4bc55bed19"
+		"logo_small"		"5e0f448c6fa62e33c8142d2738690b4bc55bed19_thumb"
+		"icon"		"322122b6f0560b73c5c36ff5009907d8087fd146"
+		"clienttga"		"a2fdebd09e3c30dc70c901810a0db03130886d00"
+		"clienticon"		"69e4ad3a01c139bec1b917d38cf668126bd2c02a"
+		"oslist"		"windows,macos,linux"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Snapshot"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_49d0bcfd196aafd080c57e948eca69cc9a712cec.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Retro Affect"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Retro Affect"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"34"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"metacritic_score"		"74"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/snapshot?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"204220"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"597"
+			"3"		"1625"
+			"4"		"1664"
+			"5"		"5537"
+			"6"		"4182"
+			"7"		"3871"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Retro Affect"
+		"gamedir"		""
+		"homepage"		"http://www.retroaffect.com"
+		"icon"		""
+		"installscript"		"204220_install.vdf"
+		"installscript_macos"		"Snapshot.app/installscript_osx.vdf"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Retro Affect"
+		"listofdlc"		"219380"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"snapshot.exe"
+				"description"		"Launch Snapshot"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Snapshot.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"snapshot"
+				"description"		"Launch Snapshot"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"snapshot"
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"204221"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3051871232197728537"
+					"size"		"486734108"
+					"download"		"0"
+				}
+			}
+		}
+		"219381"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5073469555361663854"
+					"size"		"382103605"
+					"download"		"0"
+				}
+			}
+		}
+		"219380"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7926596785380269235"
+					"size"		"185364454"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"219380"
+		}
+		"204222"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6168961993512209900"
+					"size"		"388749973"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"102954"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
