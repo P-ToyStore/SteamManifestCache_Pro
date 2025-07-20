@@ -1,0 +1,197 @@
+"appinfo"
+{
+	"appid"		"911320"
+	"common"
+	{
+		"name"		"TimeOver"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"icon"		"dcafb7eed5982b0d72fa33f6dedae2f737f2d703"
+		"logo"		"432203ecbc2000654d4e587fe6d2ba2ac7c88d0f"
+		"logo_small"		"432203ecbc2000654d4e587fe6d2ba2ac7c88d0f_thumb"
+		"clienticon"		"860b38b58483fed9a008cef900bcfcaf230adb19"
+		"clienttga"		"73f76f0d1e0cd0818609074f260eb906f9307804"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"TimeOver"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2f5910df6f2758c0cc68ad3f3d7f0ae14dc8e411.jpg"
+		"store_asset_mtime"		"1549665020"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lambert Enzo"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Jechoux Guillaume"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"BinaryChill"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1553198433"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"911320"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"493"
+			"3"		"21"
+			"4"		"122"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Lambert Enzo"
+		"publisher"		"BinaryChill"
+		"homepage"		"http://binarychill.fr/game/timeover"
+	}
+	"config"
+	{
+		"installdir"		"Timeover"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Timeover.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,french"
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"911322"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3699083312033780099"
+					"size"		"121080414"
+					"download"		"81010880"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3668858"
+				"timeupdated"		"1553197113"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"/BinaryChill/Timeover/Save"
+				"pattern"		"PlayerStat.save"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"/Save"
+						"replace"		"unity.BinaryChill.Timeover"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"/Save"
+						"replace"		".config/unity3d/BinaryChill/Timeover/Save/"
+					}
+				}
+			}
+		}
+	}
+}
