@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"514670"
+	"common"
+	{
+		"name"		"Satellite Command"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"eulas"
+		{
+		}
+		"logo"		"33fd004f8a4b32706ed29d6722076c62e31001f9"
+		"logo_small"		"33fd004f8a4b32706ed29d6722076c62e31001f9_thumb"
+		"icon"		"92b779cbc0d6050434bbed42e722baab1cb2f2e1"
+		"clienticon"		"3053892227d1ddaa68318009a43220cfa3b082c9"
+		"clienttga"		"722be48218f554c7dd45c1247bdffe5cac9ae437"
+		"releasestate"		"released"
+		"metacritic_name"		"Satellite Command"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"52.32417252832846"
+				"height_pct"		"84.86364284092667"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"52.32417252832846"
+					"height_pct"		"84.86364284092667"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1612660752"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Stormtide"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Stormtide"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1481875200"
+		"steam_release_date"		"1481907637"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"514670"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"492"
+			"2"		"3810"
+			"3"		"597"
+			"4"		"1755"
+			"5"		"1036"
+			"6"		"5794"
+			"7"		"3968"
+			"8"		"16598"
+			"9"		"4182"
+			"10"		"9"
+			"11"		"12472"
+			"12"		"9204"
+			"13"		"4191"
+			"14"		"5350"
+			"15"		"4295"
+			"16"		"4166"
+			"17"		"4695"
+			"18"		"5673"
+			"19"		"1662"
+		}
+		"review_score"		"5"
+		"review_percentage"		"63"
+	}
+	"extended"
+	{
+		"developer"		"Stormtide"
+		"publisher"		"Stormtide"
+		"homepage"		"http://jambax.co.uk/satellite-command/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Satellite Command"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GESGame.exe"
+				"arguments"		"-SatComWithSteam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"514671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"141264035663223561"
+					"size"		"1069179529"
+					"download"		"970094896"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6385279"
+				"timeupdated"		"1615844739"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"GESGame/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
