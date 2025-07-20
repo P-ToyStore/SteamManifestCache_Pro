@@ -1,0 +1,183 @@
+"appinfo"
+{
+	"appid"		"499940"
+	"common"
+	{
+		"name"		"Ascension VR"
+		"type"		"Game"
+		"oslist"		"windows"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"clienticon"		"87bf3c5d0dec011a5b7268555965d6c13d7251d3"
+		"clienttga"		"032cf5120dc1e35a2fbd13430558ae6ba31d446f"
+		"icon"		"4c63c47f74a6475af4e98a123782917aed66c509"
+		"logo"		"931678b76ab969684097008e40a66cb6e95509e3"
+		"logo_small"		"931678b76ab969684097008e40a66cb6e95509e3_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Ascension VR"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_31c79546d9429a9d2da63af368b825bb9ca89431.jpg"
+		"store_asset_mtime"		"1469477758"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Temple Gates Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Temple Gates Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_28"		"1"
+			"category_49"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1470070673"
+		"community_hub_visible"		"1"
+		"gameid"		"499940"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"21978"
+			"3"		"1666"
+			"4"		"32322"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Temple Gates Games"
+		"publisher"		"Temple Gates Games"
+		"homepage"		"http://www.TempleGatesGames.com/AscensionVR"
+		"listofdlc"		"557200"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Ascension VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ascension.exe"
+				"arguments"		"-openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Ascension.exe"
+				"arguments"		"-oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Ascension.exe"
+				"arguments"		"-novr -widescreen"
+				"description"		"Non-VR Widescreen"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"dev-branch"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"499941"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1900297667417906630"
+					"size"		"566273374"
+					"download"		"421494464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1517277"
+				"timeupdated"		"1481684778"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
