@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"1948210"
+	"common"
+	{
+		"name"		"Mineralis"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"24c6af002a2f2a06f2b80d8ea79450a6b0532879"
+		"clienticon"		"53200c710ef9928936aa4a40c3b7ef8ea59e8070"
+		"icon"		"9f3151c67239e33fd0342f73e9f416cf56cb294d"
+		"releasestate"		"released"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"69.71317393710778"
+				"height_pct"		"59.73953338903658"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"69.71317393710778"
+					"height_pct"		"59.73953338903658"
+				}
+			}
+		}
+		"store_asset_mtime"		"1666273833"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Studio Esagames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Studio Esagames"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1666272015"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1948210"
+		"store_tags"
+		{
+			"0"		"4434"
+			"1"		"122"
+			"2"		"6426"
+			"3"		"1742"
+			"4"		"1708"
+			"5"		"15277"
+			"6"		"4166"
+			"7"		"3834"
+			"8"		"3964"
+			"9"		"1721"
+			"10"		"1678"
+			"11"		"4474"
+			"12"		"4004"
+			"13"		"1684"
+			"14"		"10695"
+			"15"		"6971"
+			"16"		"4085"
+			"17"		"21"
+			"18"		"4182"
+			"19"		"5608"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Studio Esagames"
+		"publisher"		"Studio Esagames"
+	}
+	"config"
+	{
+		"installdir"		"Mineralis"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mineralis.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"1948211"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4464672752657191622"
+					"size"		"1633270789"
+					"download"		"1298409248"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10630521"
+				"timeupdated"		"1677251481"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.rmmzsave"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"save"
+						"replace"		"Contents/Resources/app.nw/save"
+					}
+				}
+			}
+		}
+	}
+}
