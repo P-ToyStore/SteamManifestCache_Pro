@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"499900"
+	"common"
+	{
+		"name"		"Pulse Shift"
+		"type"		"Game"
+		"oslist"		"windows"
+		"clienticon"		"6b91e1c011779d06a13a34871df89ebe1cf7ec2b"
+		"clienttga"		"5b8f7f9344acc0bbee68b190fcae125a1661f1c0"
+		"icon"		"2903d7d08f0466fe203fb828a2933076913b58ee"
+		"logo"		"35ec69229e16273a86777881821659d051e67adf"
+		"logo_small"		"35ec69229e16273a86777881821659d051e67adf_thumb"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1699574400"
+			"tested_build_id"		"1668187"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Pulse Shift"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cf5900e18ab954266858346608f282a440d76c39.jpg"
+		"store_asset_mtime"		"1470688721"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3 Core Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3 Core Studio"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1358928000"
+		"steam_release_date"		"1472488775"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"499900"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1664"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"3 Core Studio"
+		"publisher"		"3 Core Studio"
+		"homepage"		"http://3corestudio.blogspot.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Pulse Shift"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PShift.exe"
+				"arguments"		"run_engine run_ts"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Configurator.exe"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"PShift.exe"
+				"arguments"		"open_extras"
+				"description"		"Open Extras"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"499901"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4241966430769183161"
+					"size"		"229755625"
+					"download"		"187502288"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1668187"
+				"timeupdated"		"1488541153"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"51200"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"3 Core Studio/Pulse Shift/UserSettings/Profiles/{64BitSteamID}/"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
