@@ -1,0 +1,161 @@
+"appinfo"
+{
+	"appid"		"1005780"
+	"common"
+	{
+		"name"		"Card Adventures"
+		"type"		"Game"
+		"clienttga"		"eeb0c6f3af7e0f0cdb830c21b13309d4a6ed648f"
+		"clienticon"		"d673bfcaf0f5bbcb8cd9a8b39ddadce2e1078d60"
+		"icon"		"7c4d5e7298dfa244778a92884773575a6bc05b7a"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"a04215b18844886b3e234ccd6731301cf14c0a66"
+		"logo_small"		"a04215b18844886b3e234ccd6731301cf14c0a66_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Card Adventures"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_40dfa44457a7abe3a0214c805beabf49834e7a51.jpg"
+		"store_asset_mtime"		"1667142983"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ChillFun"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ChillFun"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+			"4"		"2"
+			"5"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1548958047"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1005780"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"493"
+			"2"		"9"
+			"3"		"122"
+			"4"		"492"
+			"5"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"ChillFun"
+		"publisher"		"ChillFun"
+	}
+	"config"
+	{
+		"installdir"		"Card Adventures"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Card Game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"1005781"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2100291600307365311"
+					"size"		"332502720"
+					"download"		"281086896"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3568190"
+				"timeupdated"		"1550359241"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Card Game_Data"
+				"pattern"		"*.json"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Card Game_Data"
+						"replace"		"Card Game_Data"
+					}
+				}
+			}
+		}
+	}
+}
