@@ -1,0 +1,179 @@
+"appinfo"
+{
+	"appid"		"352170"
+	"common"
+	{
+		"name"		"MadOut"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"bab84e327027c7ba8f796bb17f74dced93243da4"
+		"clienticns"		"3d1076ba662b6c24c825b36f572fb8435c21e600"
+		"logo"		"b28ec12837ddc6dcfe2b2769d1db87ba9aaba0e7"
+		"logo_small"		"b28ec12837ddc6dcfe2b2769d1db87ba9aaba0e7_thumb"
+		"icon"		"418e1aac5cd4f8d89f7cd36e771fe74da1ce3637"
+		"clienttga"		"8a6d4388a6b0b49bc39584753b80a9ebed15f159"
+		"clienticon"		"cc729ad2400a65c68e742d9b7e384e36d39a23a1"
+		"releasestate"		"released"
+		"metacritic_name"		"MadOut"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ecb77472a09fdb1ceb14324fb1590df2d57b1c22.jpg"
+		"store_asset_mtime"		"1433574939"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nuligine"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"MadOut Games"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Nuligine"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"MadOut Games"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"9"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1433574000"
+		"steam_release_date"		"1433523255"
+		"community_hub_visible"		"1"
+		"gameid"		"352170"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"19"
+			"2"		"492"
+			"3"		"1100687"
+			"4"		"599"
+		}
+		"review_score"		"4"
+		"review_percentage"		"37"
+	}
+	"extended"
+	{
+		"developer"		"Nuligine"
+		"publisher"		"Nuligine"
+		"homepage"		"http://nuligine.ru"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"MadOut"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Windows/Launcher.exe"
+				"description"		"Launch"
+				"workingdir"		"Windows"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Linux/Launcher"
+				"description"		"Launch"
+				"workingdir"		"Linux"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Linux64/Launcher"
+				"description"		"Launch"
+				"workingdir"		"Linux64"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"MadOut.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"352171"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"770437202205557718"
+					"size"		"162829014"
+					"download"		"136575888"
+				}
+			}
+		}
+		"baselanguages"		"english,russian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"655636"
+			}
+		}
+	}
+}
