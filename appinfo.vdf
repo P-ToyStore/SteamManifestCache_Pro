@@ -1,0 +1,65 @@
+"appinfo"
+{
+	"appid"		"19940"
+	"common"
+	{
+		"name"		"The Settlers 6 - Gold Editor"
+		"type"		"Tool"
+		"gameid"		"19940"
+	}
+	"extended"
+	{
+		"developer"		""
+		"disableoverlay"		"1"
+		"gamedir"		"The Settlers 6 Gold"
+		"homepage"		""
+		"icon"		""
+		"installscript"		"19930_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"19931"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Settlers 6 Gold"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"base\\bin\\S6MapEditor.exe"
+			}
+			"1"
+			{
+				"description"		"The Eastern Realm Editor"
+				"executable"		"extra1\\bin\\s6MapEditor.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"19931"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8981027791565835241"
+					"size"		"3888837010"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"52168"
+			}
+		}
+	}
+}
