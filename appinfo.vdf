@@ -1,0 +1,193 @@
+"appinfo"
+{
+	"appid"		"1222650"
+	"common"
+	{
+		"name"		"Space Impossible Dedicated Server"
+		"type"		"Tool"
+		"parent"		"416240"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"clienticon"		"b33f3f180e068baa9b9fe71813f04c1193dbc4bc"
+		"clienttga"		"de0c2afade8ea2d26086caa50c57795d8508fb1f"
+		"icon"		"c9cdcb47ac5081275c20ef557c4d83488235cb42"
+		"clienticns"		"e604eb159f86fa6483d51fa9ea11755b1b6fb804"
+		"linuxclienticon"		"bfb1f83ec55a6ba7a957c9e2e3550275189dd60e"
+		"logo"		"c2449b84bf03aa4e446ff21ceeb92b2795f2f593"
+		"logo_small"		"c2449b84bf03aa4e446ff21ceeb92b2795f2f593_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1222650"
+	}
+	"config"
+	{
+		"installdir"		"Space Impossible Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SIDedicatedServer.exe"
+				"arguments"		"-config serverconfig.txt -console -batchmode -nographics"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SIDedicatedServer.x86_64"
+				"arguments"		"-config serverconfig.txt -console -batchmode -nographics"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"SIDedicatedServer.app"
+				"arguments"		"-config serverconfig.txt -console -batchmode -nographics"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8904491048620934740"
+					"size"		"68697032"
+					"download"		"20552544"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5587033981095108078"
+					"size"		"107476144"
+					"download"		"29272144"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1222651"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4081360274579348949"
+					"size"		"85702339"
+					"download"		"3182624"
+				}
+			}
+		}
+		"1222652"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5948597521536449382"
+					"size"		"93159863"
+					"download"		"16796160"
+				}
+			}
+		}
+		"1222653"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8626478094803913595"
+					"size"		"108383171"
+					"download"		"16893744"
+				}
+			}
+		}
+		"1222654"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1605363844915864892"
+					"size"		"101153196"
+					"download"		"26636800"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18629588"
+				"timeupdated"		"1748369239"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
