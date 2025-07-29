@@ -1,0 +1,319 @@
+"appinfo"
+{
+	"appid"		"252430"
+	"common"
+	{
+		"name"		"Dusty Revenge"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"e272d611520b5e20b55f18dbf238c9b716800156"
+		"logo_small"		"e272d611520b5e20b55f18dbf238c9b716800156_thumb"
+		"icon"		"52e6e1d88ed1bc4036383344879d6e2ff0887fe4"
+		"clienttga"		"4d2a91cfb6d750b9fbb0489e16c2012dfad6aa48"
+		"clienticon"		"8b9583bfb0150c7bd0b3682006091995b57d10c0"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1658534400"
+			"tested_build_id"		"907707"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Dusty Revenge:Co-Op Edition"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2d74dabaad08629828a79097d88f65f41cf540c4.jpg"
+		"store_asset_mtime"		"1392202602"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PD Design Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PD Design Studio"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1392659580"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"252430"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4158"
+			"2"		"1625"
+			"3"		"3841"
+			"4"		"1685"
+			"5"		"492"
+			"6"		"3871"
+			"7"		"3798"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"developer"		"PD Design Studio"
+		"publisher"		"PD Design Studio"
+		"homepage"		"http://www.dustyrevenge.com"
+		"listofdlc"		"297050"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DustyRevenge"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DustyRevengeCoopSteam.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DustyRevengeCoOp.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"252431"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3882832751550493809"
+					"size"		"3198915436"
+					"download"		"1614730208"
+				}
+			}
+		}
+		"252432"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6091741422416547202"
+					"size"		"3780050100"
+					"download"		"4890300324143"
+				}
+			}
+		}
+		"252433"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6836275616249281309"
+					"size"		"168451002"
+					"download"		"0"
+				}
+			}
+		}
+		"252441"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4497546086469063859"
+					"size"		"3183725380"
+					"download"		"0"
+				}
+			}
+		}
+		"297050"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"optionaldlc"		"297050"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7522416494533460166"
+					"size"		"739312269"
+					"download"		"164308960"
+				}
+			}
+			"dlcappid"		"297050"
+		}
+		"297870"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4723339655636604260"
+					"size"		"741191587"
+					"download"		"1475562318201"
+				}
+			}
+			"dlcappid"		"297870"
+		}
+		"252434"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"907707"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+}
