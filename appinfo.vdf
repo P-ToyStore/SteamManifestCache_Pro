@@ -1,0 +1,126 @@
+"appinfo"
+{
+	"appid"		"3700670"
+	"common"
+	{
+		"name"		"Funk Engine"
+		"type"		"Tool"
+		"parent"		"3647600"
+		"icon"		"52cd35eb6bc0593a4c43bf7782026de343b4e078"
+		"clienticon"		"e8f54b1db5c037f0d82071cd7c8795f90e4df8fd"
+		"clienttga"		"d65a03168348d5e8c99c4e825c62c78465f21fe3"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		""
+		"gameid"		"3700670"
+		"exfgls"		"9"
+	}
+	"config"
+	{
+		"installdir"		"Funk Engine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FunkEngine.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"A mapping tool for Midnight Riff"
+				}
+				"description"		"A mapping tool for Midnight Riff"
+			}
+			"1"
+			{
+				"executable"		"FunkEngine.x86_64"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"A mapping tool for Midnight Riff"
+				}
+				"description"		"A mapping tool for Midnight Riff"
+			}
+			"2"
+			{
+				"executable"		"ProjectFunkEngine.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"A mapping tool for Midnight Riff"
+				}
+				"description"		"A mapping tool for Midnight Riff"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese"
+		"3700671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4840022766527910301"
+					"size"		"185827356"
+					"download"		"60783280"
+				}
+			}
+		}
+		"3700672"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3853671939151167889"
+					"size"		"347204049"
+					"download"		"117533856"
+				}
+			}
+		}
+		"3700673"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1130233794114866402"
+					"size"		"157996132"
+					"download"		"65284720"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19339142"
+				"timeupdated"		"1753335652"
+			}
+		}
+	}
+}
