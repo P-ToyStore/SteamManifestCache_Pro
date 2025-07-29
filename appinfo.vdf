@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"597860"
+	"common"
+	{
+		"name"		"Nightmare Boy"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"d8a66244bcc665ae6da65b662a6b6b25130a2f98"
+		"clienttga"		"4cd858a11daaba1c04041d3f693388d0fd94e173"
+		"icon"		"0450622bf1f0f2b66de0a32cbaf1a10610927442"
+		"logo"		"0946141ce6d27ec28e9076cd6897f5e33691d214"
+		"logo_small"		"0946141ce6d27ec28e9076cd6897f5e33691d214_thumb"
+		"oslist"		"windows"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Nightmare Boy"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f952e08a2f076ffa916f259adb85784af505a7fb.jpg"
+		"store_asset_mtime"		"1510053182"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Vanir Project"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BadLand Publishing"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_43"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1508947547"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"597860"
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"1628"
+			"2"		"3798"
+			"3"		"4026"
+			"4"		"1625"
+			"5"		"3871"
+			"6"		"4726"
+			"7"		"4136"
+			"8"		"7481"
+			"9"		"6971"
+			"10"		"19"
+			"11"		"4195"
+			"12"		"4305"
+			"13"		"6815"
+			"14"		"3964"
+			"15"		"4604"
+			"16"		"21"
+			"17"		"4004"
+			"18"		"4182"
+			"19"		"492"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"The Vanir Project"
+		"publisher"		"BadLand Publishing"
+		"listofdlc"		"636610"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Nightmare Boy"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NightmareBoy.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"597861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6420018453649690008"
+					"size"		"1489967698"
+					"download"		"259015696"
+				}
+			}
+		}
+		"597862"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9187918063685055062"
+					"size"		"1585284439"
+					"download"		"258428256"
+				}
+			}
+		}
+		"597863"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"636610"
+		{
+			"dlcappid"		"636610"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8198223964476859296"
+					"size"		"70071786"
+					"download"		"67016272"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2389646"
+				"timeupdated"		"1513855354"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"TheVanirProject/NightmareBoy"
+				"pattern"		"steamsdf1.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"597860/remote/myDir/steamsdf1.dat"
+			}
+		}
+	}
+}
