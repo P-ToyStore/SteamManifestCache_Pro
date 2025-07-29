@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"570820"
+	"common"
+	{
+		"name"		"Dusty Raging Fist"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"4eadf9502276367ee206a8b3b1c3c103174a98ad"
+		"logo_small"		"4eadf9502276367ee206a8b3b1c3c103174a98ad_thumb"
+		"icon"		"54e075a126c53d1f1baad051375d938603dd3b3f"
+		"clienttga"		"6d8056a6b35e28956d8f9e6c7cc5093178d26131"
+		"clienticon"		"e77e504917067c4e0d2361e80d6ab1adc63adbc5"
+		"clienticns"		"f399a9a684f6e04faa506b090d2fbe76fc5a66d2"
+		"linuxclienticon"		"4fd7a9ed1cea2147690a52ac8afb739424a8667b"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dusty Raging Fist"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_68cb0d7b662aac762f2b67002d31510b4be18ad1.jpg"
+		"store_asset_mtime"		"1485929505"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PD Design Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PD Design Studio"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_24"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1557278937"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"570820"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+			"3"		"4158"
+		}
+		"review_score"		"5"
+		"review_percentage"		"57"
+	}
+	"extended"
+	{
+		"developer"		"PD Design Studio"
+		"publisher"		"PD Design Studio"
+		"homepage"		"http://www.dustyragingfist.com"
+	}
+	"config"
+	{
+		"installdir"		"Dusty Raging Fist"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DRF.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"DRF.app\\Contents\\MacOS\\DRF"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"570822"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4908617377355072062"
+					"size"		"4888333116"
+					"download"		"1437486096"
+				}
+			}
+		}
+		"570824"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5248017576210093154"
+					"size"		"4889973058"
+					"download"		"1437641072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3684125"
+				"timeupdated"		"1553682397"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"PD Design Studio/Dusty Raging Fist"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"PD Design Studio/Dusty Raging Fist"
+						"replace"		"DRF.app/Contents"
+					}
+				}
+			}
+		}
+	}
+}
