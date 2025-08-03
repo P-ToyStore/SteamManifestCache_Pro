@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"205330"
+	"common"
+	{
+		"name"		"Law & Order: Legacies"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+		}
+		"clienticon"		"741dc06cdaf16a2f026f6e03617f5fec6f61d0a8"
+		"clienttga"		"e9b8b6ce906831c3cd9fee546fd1abc6f8d54c7a"
+		"icon"		"9c768b4047684492f23ab399e852a27f47b465cb"
+		"clienticns"		"3c22987519d5c6dd01f725280ba7374fa09adffc"
+		"logo"		"81c0c8f7c09a72bdc55f035df2c55f3239436ea7"
+		"logo_small"		"81c0c8f7c09a72bdc55f035df2c55f3239436ea7_thumb"
+		"metacritic_name"		"Law &amp; Order: Legacies"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3c2383eec32a1d7b6fc694aeaf1102e30bf02c20.jpg"
+		"store_asset_mtime"		"1327533658"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Telltale Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Telltale Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"metacritic_score"		"53"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/law-order-legacies?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"205330"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+			"2"		"6378"
+			"3"		"1698"
+		}
+		"review_score"		"8"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"Telltale Games"
+		"gamedir"		"LawAndOrder"
+		"homepage"		"http://www.telltalegames.com/lawandorder"
+		"icon"		""
+		"installscript_macos"		"LawAndOrder101.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"205331"
+		"primarycache_macos"		"205332"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Telltale Games"
+	}
+	"config"
+	{
+		"shortname"		"Law_and_Order"
+		"installdir"		"lawandorder"
+		"contenttype"		"3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LawAndOrder101.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LawAndOrder101.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"installscriptoverride"		"1"
+		"installscriptsignature"		"2739b6011a82332e7e92e6e34db50833ad03bcbf406d4aed15e70f07e3fd3f0ec3f239781b2bfb1cf469c9ef871030bebcb5da486544c4a73c8008c29c39559e1b0ceeee6a52deae578dab7cc4d67996ddcd15ce1db6af3e76670e29c9ef406e3bf5e052ba0eebb6d72ab3c15f5d744c4e654a6fc1d999563e9368f2dcb41b67"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\telltale games\lawandorder101.exe"
+			{
+				"string"
+				{
+					"distribution"		"Telltale"
+					"franchise"		"LawAndOrder100"
+					"install location"		"%INSTALLDIR%\\"
+					"manual"		"Manual.pdf"
+					"readme"		"Readme.txt"
+					"savegamefoldername"		"Law and Order - Legacies"
+					"version"		"1.0.0.0"
+					"english"
+					{
+						"language"		"english"
+						"language id"		"1033"
+					}
+					"german"
+					{
+						"language"		"german"
+						"language id"		"1031"
+					}
+					"french"
+					{
+						"language"		"french"
+						"language id"		"1036"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\201830"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"205331"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8422947538701403747"
+					"size"		"1646735810"
+					"download"		"0"
+				}
+			}
+		}
+		"205332"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1007667226613784494"
+					"size"		"1826000892"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"29963"
+			}
+		}
+	}
+}
