@@ -1,0 +1,259 @@
+"appinfo"
+{
+	"appid"		"203810"
+	"common"
+	{
+		"name"		"Dear Esther"
+		"type"		"Game"
+		"logo"		"39f2f2baf454fabdd8a6161e9353ebd9ee335ed2"
+		"logo_small"		"39f2f2baf454fabdd8a6161e9353ebd9ee335ed2_thumb"
+		"icon"		"f1ff3d3ea4499d02ea72971ff0d77456a1908fad"
+		"clienttga"		"d3742303a8734860bbe1052220e1fe7cb635fbeb"
+		"clienticon"		"324a836c5452d3e9c223117f9b2bd3aa1c54e789"
+		"clienticns"		"bf50936961693e5d3d2f77f6b2ed3e7bad040c63"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		""
+		"app_retired_publisher_request"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1652486400"
+			"tested_build_id"		"29916"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Dear Esther"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_274f15a9183b1fdf87a4877ad181c1084aeca083.jpg"
+		"store_asset_mtime"		"1362441942"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Chinese Room"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Robert Briscoe"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Secret Mode"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"metacritic_score"		"75"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dear-esther?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"203810"
+		"store_tags"
+		{
+			"0"		"5900"
+			"1"		"492"
+			"2"		"3834"
+			"3"		"3839"
+			"4"		"4166"
+			"5"		"4234"
+			"6"		"1742"
+			"7"		"597"
+			"8"		"21"
+			"9"		"1756"
+			"10"		"4182"
+			"11"		"5094"
+			"12"		"5716"
+			"13"		"1654"
+			"14"		"5411"
+			"15"		"13782"
+			"16"		"11014"
+			"17"		"7948"
+			"18"		"7250"
+			"19"		"5608"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"The Chinese Room"
+		"gamedir"		"Dear Esther"
+		"homepage"		"http://www.dear-esther.com"
+		"icon"		""
+		"installscript_macos"		"installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"203811"
+		"primarycache_macos"		"203812"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"Secret Mode"
+		"listofdlc"		"203813"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dear Esther"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dearesther.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dearesther_osx.sh"
+				"arguments"		"-game dearesther -steam"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"203813"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3919517269493997902"
+					"size"		"57450202"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"203813"
+		}
+		"203812"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"299613826712237837"
+					"size"		"1450952831"
+					"download"		"0"
+				}
+			}
+		}
+		"203811"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4340130866753611411"
+					"size"		"1485648039"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"29916"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
