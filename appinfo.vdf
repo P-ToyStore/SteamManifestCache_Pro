@@ -1,0 +1,314 @@
+"appinfo"
+{
+	"appid"		"426750"
+	"common"
+	{
+		"name"		"Yooka-Laylee - Toybox"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"6e89dd4cb50e725e47e05b4d73c1c4b4298b35b2"
+		"clienttga"		"fb32aff27e4b83a1307cc3c0d69ab0d1d590ae59"
+		"icon"		"3285046fb5f11df2251519ff893500e32145a7c7"
+		"clienticns"		"5c8262361447285df6c7459565e6bf807ce88a6d"
+		"linuxclienticon"		"d926a28abd635259e44f97d8f8eb824ef7b179bc"
+		"logo"		"2c27f9dfa84b820c7ceb10685a64c3d54d95271f"
+		"logo_small"		"2c27f9dfa84b820c7ceb10685a64c3d54d95271f_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Yooka-Laylee - Toybox"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_fd5d2cbd73fccba0c9349653fa71baddf15b3237.jpg"
+		"store_asset_mtime"		"1469541446"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Playtonic Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Team17 Digital Ltd"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1514221200"
+		"community_hub_visible"		"1"
+		"gameid"		"426750"
+		"store_tags"
+		{
+			"0"		"5395"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Playtonic Games"
+		"publisher"		"Team17 Digital Ltd"
+		"gamemanualurl"		"https://store.steampowered.com/manual/426750/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"YookaLayleeToybox"
+		"steamcontrollertemplateindex"		"2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Toybox64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Toybox32.exe"
+				"arguments"		"-nolog"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Toybox.app\\Contents\\MacOS\\Toybox"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Toybox.x86"
+				"arguments"		"-nolog"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"Toybox.x86_64"
+				"arguments"		"-nolog"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"Toybox64.exe"
+				"arguments"		"-show-screen-selector"
+				"description"		"Show Launcher"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"Toybox32.exe"
+				"arguments"		"-show-screen-selector"
+				"description"		"Show Launcher"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"7"
+			{
+				"executable"		"Toybox.app\\Contents\\MacOS\\Toybox"
+				"arguments"		"-show-screen-selector"
+				"description"		"Show Launcher"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"8"
+			{
+				"executable"		"Toybox.x86"
+				"arguments"		"-show-screen-selector"
+				"description"		"Show Launcher"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"9"
+			{
+				"executable"		"Toybox.x86_64"
+				"arguments"		"-show-screen-selector"
+				"description"		"Show Launcher"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"426751"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1318003029434297168"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"426752"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6668201738512472019"
+					"size"		"852661060"
+					"download"		"317007760"
+				}
+			}
+		}
+		"426753"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"733665977963858657"
+					"size"		"847961020"
+					"download"		"315800720"
+				}
+			}
+		}
+		"426754"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6798437739968317988"
+					"size"		"904920006"
+					"download"		"333146512"
+				}
+			}
+		}
+		"426755"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6740156146954250418"
+					"size"		"888580305"
+					"download"		"327849504"
+				}
+			}
+		}
+		"438470"
+		{
+			"dlcappid"		"438470"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1501575"
+				"timeupdated"		"1481627518"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"64000"
+		"maxnumfiles"		"4"
+		"appidredirect"		"360830"
+	}
+}
