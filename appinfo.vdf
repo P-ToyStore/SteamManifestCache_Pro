@@ -1,0 +1,197 @@
+"appinfo"
+{
+	"appid"		"45900"
+	"common"
+	{
+		"name"		"CID The Dummy"
+		"clienticon"		"23943e7c9a372f4635d974f85f6a15b30823688a"
+		"clienttga"		"1a9e6592a76a1cbc15b33ba19b02763d5cf8b0b1"
+		"icon"		"72a5335cf43ac2928bb686606bbd206aa98d3593"
+		"logo"		"9ce6f4806bd3561629595848fbb9eecdccaeff78"
+		"logo_small"		"9ce6f4806bd3561629595848fbb9eecdccaeff78_thumb"
+		"oslist"		"windows,macos,linux"
+		"type"		"game"
+		"metacritic_name"		"CID the Dummy"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ed2edb84024c45f7ee23b6d54078cd88adaa2d3a.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TWELVE GAMES"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TWELVE GAMES"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1262973600"
+		"community_hub_visible"		"1"
+		"gameid"		"45900"
+		"store_tags"
+		{
+			"0"		"19"
+		}
+		"review_score"		"4"
+		"review_percentage"		"23"
+	}
+	"extended"
+	{
+		"developer"		"TWELVE GAMES"
+		"developer_url"		"www.twelvegames.com"
+		"gamedir"		"CID The Dummy"
+		"homepage"		"http://www.twelvegames.com/games/cid-the-dummy/"
+		"icon"		""
+		"installscript"		"45900_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"45901"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"TWELVE GAMES"
+		"gamemanualurl"		"https://store.steampowered.com/manual/45900/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"CID The Dummy"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CIDTHEDUMMY.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/cxsteamwrapper"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Cid The Dummy.app/Contents/MacOS/Cid The Dummy"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"0"
+		"45901"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6809246155061094780"
+					"size"		"1455076452"
+					"download"		"0"
+				}
+			}
+		}
+		"45902"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5951105631204071239"
+					"size"		"1602081376"
+					"download"		"0"
+				}
+			}
+		}
+		"45903"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1269522245980027000"
+					"size"		"1565684945"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"204943"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
