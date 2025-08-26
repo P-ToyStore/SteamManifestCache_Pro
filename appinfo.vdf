@@ -1,0 +1,907 @@
+"appinfo"
+{
+	"appid"		"508450"
+	"common"
+	{
+		"name"		"NASCAR Heat Evolution"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienticon"		"39f6c8dc0799961b2f5400e175068cd97ceea212"
+		"clienttga"		"28a044b766a940a8e502c71ecfcc35496942c352"
+		"icon"		"86c8075e4c8abaff1c904febd475188d664855c9"
+		"logo"		"31fcc5a3df6946bebcc8c1f4552b4d9ff46e9b55"
+		"logo_small"		"31fcc5a3df6946bebcc8c1f4552b4d9ff46e9b55_thumb"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1674691200"
+			"tested_build_id"		"1646134"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-5"
+				"requires_h264"		"1"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"NASCAR Heat Evolution"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5080b3123d0c1440c3462e8f437a235e4bbbfb34.jpg"
+		"store_asset_mtime"		"1475004520"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Monster Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dusenberry Martin Racing"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"NASCAR Heat Franchise"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_43"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1473750000"
+		"steam_release_date"		"1473710197"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"508450"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"1100687"
+			"2"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"56"
+	}
+	"extended"
+	{
+		"developer"		"Monster Games"
+		"publisher"		"Dusenberry Martin Racing"
+		"homepage"		"http://www.nascarheat.com/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/508450/"
+		"listofdlc"		"524630,525180,525181,525182,525183,525184,525185,525186,525187,525188,537390,537391,537392,537400,538350,538351,538352,538353,538360,539060,539070,540380,554880,555860,555861,555862,555863,555864,555865,561810,561811,561812,561813,561814,561815,561816,561890,587080,587500"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"NASCAR Heat Evolution"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NASCARHeatEvolution.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"NASCARHeatEvolution.exe"
+				"arguments"		"-MGI-reset-graphics-settings"
+				"description"		"Reset Graphic Settings"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"ControllerConfig\\ControllerConfig.exe"
+				"description"		"Configure Controllers"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"508451"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3400234238400665120"
+					"size"		"8197986656"
+					"download"		"6775578080"
+				}
+			}
+		}
+		"524630"
+		{
+			"dlcappid"		"524630"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7352075714264462780"
+					"size"		"8794277"
+					"download"		"7575424"
+				}
+			}
+		}
+		"525180"
+		{
+			"dlcappid"		"525180"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1561363325436663185"
+					"size"		"5368254"
+					"download"		"4712992"
+				}
+			}
+		}
+		"525184"
+		{
+			"dlcappid"		"525184"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1755343391724720614"
+					"size"		"30904162"
+					"download"		"26556768"
+				}
+			}
+		}
+		"525182"
+		{
+			"dlcappid"		"525182"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5670613180987635831"
+					"size"		"26971201"
+					"download"		"23088336"
+				}
+			}
+		}
+		"525183"
+		{
+			"dlcappid"		"525183"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5691388184787002199"
+					"size"		"8639547"
+					"download"		"7370544"
+				}
+			}
+		}
+		"525181"
+		{
+			"dlcappid"		"525181"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2406885614573103871"
+					"size"		"875686"
+					"download"		"874480"
+				}
+			}
+		}
+		"525188"
+		{
+			"dlcappid"		"525188"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7166090824183716517"
+					"size"		"5012386"
+					"download"		"4408384"
+				}
+			}
+		}
+		"525186"
+		{
+			"dlcappid"		"525186"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2707990396041319427"
+					"size"		"16056532"
+					"download"		"13788304"
+				}
+			}
+		}
+		"525185"
+		{
+			"dlcappid"		"525185"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8160422807863911480"
+					"size"		"25682466"
+					"download"		"22105216"
+				}
+			}
+		}
+		"525187"
+		{
+			"dlcappid"		"525187"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7856483817847748154"
+					"size"		"28581439"
+					"download"		"24562064"
+				}
+			}
+		}
+		"537400"
+		{
+			"dlcappid"		"537400"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2542361628119956141"
+					"size"		"859737"
+					"download"		"861328"
+				}
+			}
+		}
+		"537390"
+		{
+			"dlcappid"		"537390"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8399342891336472315"
+					"size"		"12948451"
+					"download"		"11102384"
+				}
+			}
+		}
+		"537391"
+		{
+			"dlcappid"		"537391"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2736754674745884949"
+					"size"		"27085415"
+					"download"		"23229488"
+				}
+			}
+		}
+		"537392"
+		{
+			"dlcappid"		"537392"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"586088129731932877"
+					"size"		"26474552"
+					"download"		"22598176"
+				}
+			}
+		}
+		"538352"
+		{
+			"dlcappid"		"538352"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8728555609430667437"
+					"size"		"35620241"
+					"download"		"30568560"
+				}
+			}
+		}
+		"538350"
+		{
+			"dlcappid"		"538350"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1209678975527731911"
+					"size"		"1253900"
+					"download"		"1247968"
+				}
+			}
+		}
+		"538351"
+		{
+			"dlcappid"		"538351"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8996464899525592408"
+					"size"		"15642126"
+					"download"		"13733264"
+				}
+			}
+		}
+		"538353"
+		{
+			"dlcappid"		"538353"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3256498179271524000"
+					"size"		"35844303"
+					"download"		"30713840"
+				}
+			}
+		}
+		"538360"
+		{
+			"dlcappid"		"538360"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4349472004612795016"
+					"size"		"5401039"
+					"download"		"4729584"
+				}
+			}
+		}
+		"539060"
+		{
+			"dlcappid"		"539060"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5136860568520705117"
+					"size"		"26067499"
+					"download"		"22368832"
+				}
+			}
+		}
+		"539070"
+		{
+			"dlcappid"		"539070"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"243567344975806634"
+					"size"		"5635395"
+					"download"		"4950624"
+				}
+			}
+		}
+		"540380"
+		{
+			"dlcappid"		"540380"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8228123098809022074"
+					"size"		"34020145"
+					"download"		"29067552"
+				}
+			}
+		}
+		"554880"
+		{
+			"dlcappid"		"554880"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3541346078325045361"
+					"size"		"2404904"
+					"download"		"2399200"
+				}
+			}
+		}
+		"555861"
+		{
+			"dlcappid"		"555861"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5280323278284001334"
+					"size"		"5272059"
+					"download"		"4609376"
+				}
+			}
+		}
+		"555860"
+		{
+			"dlcappid"		"555860"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"173647084258011614"
+					"size"		"6107731"
+					"download"		"5353824"
+				}
+			}
+		}
+		"555865"
+		{
+			"dlcappid"		"555865"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7172254057404563434"
+					"size"		"33439975"
+					"download"		"28633232"
+				}
+			}
+		}
+		"555862"
+		{
+			"dlcappid"		"555862"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2263878501702802511"
+					"size"		"28084285"
+					"download"		"24079488"
+				}
+			}
+		}
+		"555863"
+		{
+			"dlcappid"		"555863"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4053450281450500332"
+					"size"		"29973015"
+					"download"		"25758176"
+				}
+			}
+		}
+		"555864"
+		{
+			"dlcappid"		"555864"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"933164804086093295"
+					"size"		"27129188"
+					"download"		"23242112"
+				}
+			}
+		}
+		"561810"
+		{
+			"dlcappid"		"561810"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5040962853555669218"
+					"size"		"5338821"
+					"download"		"4682080"
+				}
+			}
+		}
+		"561813"
+		{
+			"dlcappid"		"561813"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7346796321430296487"
+					"size"		"28033501"
+					"download"		"23986864"
+				}
+			}
+		}
+		"561812"
+		{
+			"dlcappid"		"561812"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2465078246886447757"
+					"size"		"2094003"
+					"download"		"2072864"
+				}
+			}
+		}
+		"561811"
+		{
+			"dlcappid"		"561811"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2426755075280951944"
+					"size"		"5409952"
+					"download"		"4735552"
+				}
+			}
+		}
+		"561816"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"561816"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3472965839444673964"
+					"size"		"27356923"
+					"download"		"23422576"
+				}
+			}
+		}
+		"561814"
+		{
+			"dlcappid"		"561814"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4180583312565730295"
+					"size"		"29011645"
+					"download"		"24844416"
+				}
+			}
+		}
+		"561815"
+		{
+			"dlcappid"		"561815"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8295176770183635591"
+					"size"		"28615165"
+					"download"		"24679632"
+				}
+			}
+		}
+		"561890"
+		{
+			"dlcappid"		"561890"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5323012206505038676"
+					"size"		"149945231"
+					"download"		"128560624"
+				}
+			}
+		}
+		"587080"
+		{
+			"dlcappid"		"587080"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"587500"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3181060544089134401"
+					"size"		"97396894"
+					"download"		"83250864"
+				}
+			}
+			"dlcappid"		"587500"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1646134"
+				"timeupdated"		"1487690496"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
