@@ -1,0 +1,245 @@
+"appinfo"
+{
+	"appid"		"1763290"
+	"common"
+	{
+		"name"		"Fight Club - All Stars"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"3c9893ad2edb76a0c5a0aed4eff126686c277159"
+		"clienticon"		"fd74bac47ac06360c2dec77191ec0a94fe241505"
+		"clienttga"		"7ad0ba5c7370e10bb67e29d7741b79db02bb6173"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"64.5997432373334"
+				"height_pct"		"80.65145188527403"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"64.5997432373334"
+					"height_pct"		"80.65145188527403"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1654588087"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Alex Mas"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Alex Mas"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+			"3"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1682060432"
+		"community_hub_visible"		"1"
+		"gameid"		"1763290"
+		"store_tags"
+		{
+			"0"		"1743"
+			"1"		"3968"
+			"2"		"4840"
+			"3"		"3841"
+			"4"		"7368"
+			"5"		"19"
+			"6"		"7108"
+			"7"		"492"
+			"8"		"7481"
+			"9"		"4182"
+			"10"		"4562"
+			"11"		"599"
+			"12"		"1697"
+			"13"		"4136"
+			"14"		"1775"
+			"15"		"1685"
+			"16"		"701"
+			"17"		"493"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Alex Mas"
+		"publisher"		"Alex Mas"
+	}
+	"config"
+	{
+		"installdir"		"Fight Club - All Stars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Fight Club.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Fight Club.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1763292"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2132128788428474423"
+					"size"		"307505044"
+					"download"		"61425360"
+				}
+			}
+		}
+		"1763293"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7963848106400881262"
+					"size"		"332114286"
+					"download"		"66658576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9057688"
+				"timeupdated"		"1656944141"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Save"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
