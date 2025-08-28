@@ -1,0 +1,293 @@
+"appinfo"
+{
+	"appid"		"1181780"
+	"common"
+	{
+		"name"		"Ascendants Rising"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"1e0173fc9b655a3e89ee0440d07b2cb15e4f5077"
+		"clienticon"		"55376cb0e2567ad89ba7da47eb3ed005a2f5cac5"
+		"icon"		"f6bece41b30ef8a1462e30f4f5b040b2f032add2"
+		"logo"		"ab42bc7a9dff68abad812cd7dd2e26d6b10b5405"
+		"logo_small"		"ab42bc7a9dff68abad812cd7dd2e26d6b10b5405_thumb"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"51.51162790697674"
+				"height_pct"		"54.11405973772395"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"51.51162790697674"
+					"height_pct"		"54.11405973772395"
+				}
+			}
+		}
+		"store_asset_mtime"		"1623950474"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Limitless Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Limitless Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1624604683"
+		"community_hub_visible"		"1"
+		"gameid"		"1181780"
+		"store_tags"
+		{
+			"0"		"4747"
+			"1"		"19"
+			"2"		"4236"
+			"3"		"122"
+			"4"		"1720"
+			"5"		"1685"
+			"6"		"4231"
+			"7"		"6730"
+			"8"		"5125"
+			"9"		"1697"
+			"10"		"4191"
+			"11"		"3843"
+			"12"		"4252"
+			"13"		"3859"
+			"14"		"4057"
+			"15"		"1684"
+			"16"		"4295"
+			"17"		"3942"
+			"18"		"7432"
+			"19"		"493"
+		}
+		"review_score"		"4"
+		"review_percentage"		"26"
+	}
+	"extended"
+	{
+		"developer"		"Limitless Games"
+		"publisher"		"Limitless Games"
+		"homepage"		"https://www.ascendantsrising.com"
+	}
+	"config"
+	{
+		"installdir"		"AscendantsRising"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindowsClient/AscendantsRisingClient.exe"
+				"arguments"		"-NoSteam -EOSConfig=RelClient"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Default"
+				}
+				"description"		"Default"
+			}
+			"1"
+			{
+				"executable"		"WindowsClient/AscendantsRisingClient.exe"
+				"arguments"		"-NoSteam -log -EOSConfig=RelClient -STORE=STEAM"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_shipping"
+				}
+				"description_loc"
+				{
+					"english"		"QA ShippingParameters"
+				}
+				"description"		"QA ShippingParameters"
+			}
+			"2"
+			{
+				"executable"		"WindowsClient/AscendantsRisingClient.exe"
+				"arguments"		"-log -EOSConfig=DevClient -STORE=STEAM"
+				"config"
+				{
+					"betakey"		"qa_test"
+				}
+				"description_loc"
+				{
+					"english"		"QA"
+				}
+				"description"		"QA"
+			}
+			"3"
+			{
+				"executable"		"WindowsClient/AscendantsRisingClient.exe"
+				"arguments"		"-log -EOSConfig=DevClient"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"Lobby"
+				}
+				"description_loc"
+				{
+					"english"		"Lobby"
+				}
+				"description"		"Lobby"
+			}
+			"4"
+			{
+				"executable"		"WindowsClient/AscendantsRisingClient.exe"
+				"arguments"		"-log -EOSConfig=DevClient"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"pr_br"
+				}
+				"description_loc"
+				{
+					"english"		"pr_br"
+				}
+				"description"		"pr_br"
+			}
+			"5"
+			{
+				"executable"		"WindowsClient/AscendantsRisingClient.exe"
+				"arguments"		"-log -EOSConfig=DevClient"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"alex_test"
+				}
+				"description_loc"
+				{
+					"english"		"alex_test"
+				}
+				"description"		"alex_test"
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1181781"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8443693302697092924"
+					"size"		"3550875815"
+					"download"		"3251512112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8267829"
+				"timeupdated"		"1647293511"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
