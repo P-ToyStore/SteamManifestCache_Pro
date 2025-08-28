@@ -1,0 +1,292 @@
+"appinfo"
+{
+	"appid"		"862390"
+	"common"
+	{
+		"name"		"FlyInside Flight Simulator"
+		"type"		"Game"
+		"controllervr"
+		{
+			"kbm"		"1"
+			"oculus"		"1"
+			"xinput"		"1"
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"logo"		"da61f4cb33affe79a74180ed67133c1db6df7c49"
+		"logo_small"		"da61f4cb33affe79a74180ed67133c1db6df7c49_thumb"
+		"icon"		"0af442f9df656f805a59ae4a5235fc5251a1c4fd"
+		"clienticon"		"295a11b579304e0af14eea81c615d7a1983cc219"
+		"clienttga"		"13bbfb6faac4d33a80223c5523efbd21b7aff353"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"862390_eula_0"
+				"name"		"FlyInside Flight Simulator EULA"
+				"url"		"https://store.steampowered.com//eula/862390_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"FlyInside Flight Simulator"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"98.59976662777132"
+				"height_pct"		"87.46141059130849"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"98.59976662777132"
+					"height_pct"		"87.46141059130849"
+				}
+			}
+		}
+		"store_asset_mtime"		"1571682987"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FlyInside Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FlyInside Inc."
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_15"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1545339337"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"862390"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"599"
+			"2"		"15045"
+			"3"		"493"
+			"4"		"21978"
+			"5"		"3968"
+			"6"		"4175"
+			"7"		"4166"
+			"8"		"4182"
+			"9"		"1695"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"FlyInside Inc."
+		"publisher"		"FlyInside Inc."
+		"homepage"		"https://flyinside-fsx.com/Home/Sim"
+	}
+	"config"
+	{
+		"installdir"		"FlyInside Flight Simulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FlyInsideSimulator.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"FlyInsideSimulator.exe"
+				"arguments"		"-start_in_steam_vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"FlyInsideSimulator.exe"
+				"arguments"		"-start_in_oculus_vr"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"862391"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3449930234383828508"
+					"size"		"16553372503"
+					"download"		"6074081296"
+				}
+				"beta"
+				{
+					"gid"		"4771693320198388122"
+					"size"		"16881151129"
+					"download"		"6206593152"
+				}
+				"beta2"
+				{
+					"gid"		"7503340297072253529"
+					"size"		"18921201278"
+					"download"		"6635584272"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4049190"
+				"timeupdated"		"1564182037"
+			}
+			"beta"
+			{
+				"buildid"		"6119956"
+				"timeupdated"		"1611274579"
+			}
+			"beta2"
+			{
+				"buildid"		"6642139"
+				"timeupdated"		"1620080019"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
