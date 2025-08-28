@@ -1,0 +1,3 @@
+### [1285930] TYPICAL RUSSIAN QUARANTINE  
+**Build Id** `5192828`  
+**Last Update Time** `2020/06/20 16:55`  
