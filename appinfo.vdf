@@ -1,0 +1,67 @@
+"appinfo"
+{
+	"appid"		"3469360"
+	"common"
+	{
+		"name"		"Boo! Are you scared? TCG | Workshop Uploader"
+		"type"		"Tool"
+		"parent"		"3380740"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"0c264f7f9441b5c3378cc6123e19aad1499c4828"
+		"clienttga"		"cf10b20610c4164bb89b88a1c7032a9cc6a9307d"
+		"icon"		"ade66f4620b71778bcca3d0e39b9131fed813739"
+		"releasestate"		"released"
+		"gameid"		"3469360"
+	}
+	"config"
+	{
+		"installdir"		"BooAreYouScaredTCGWorkshopUploader"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WorkshopUploader.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"3469361"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"872866090658622457"
+					"size"		"87123712"
+					"download"		"23759488"
+				}
+			}
+		}
+		"workshopdepot"		"3469360"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17094307"
+				"timeupdated"		"1737565992"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"*.data"
+			}
+		}
+	}
+}
