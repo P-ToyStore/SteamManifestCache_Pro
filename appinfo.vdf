@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"2071040"
+	"common"
+	{
+		"name"		"ドライブドリフトX"
+		"type"		"Game"
+		"clienticon"		"b35e51ec2e7492733f4af1bdc6c7eddd69899b38"
+		"clienttga"		"89497a27e9054a16cbdee93958064e7739a2cb16"
+		"icon"		"b051844009f724a07a692b01fc5aaf5e46f917cc"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"59.45157526254374"
+				"height_pct"		"67.0972636447309"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"59.45157526254374"
+					"height_pct"		"67.0972636447309"
+				}
+			}
+		}
+		"store_asset_mtime"		"1664500873"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SAT-BOX"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SAT-BOX"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1665011310"
+		"community_hub_visible"		"1"
+		"gameid"		"2071040"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"19"
+			"2"		"597"
+			"3"		"4191"
+			"4"		"1773"
+			"5"		"5395"
+			"6"		"4182"
+			"7"		"3859"
+			"8"		"492"
+			"9"		"7368"
+			"10"		"3841"
+			"11"		"1685"
+		}
+	}
+	"extended"
+	{
+		"developer"		"SAT-BOX"
+		"publisher"		"SAT-BOX"
+	}
+	"config"
+	{
+		"installdir"		"DriveDriftX"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DRIVE_DRIFT_X.exe"
+				"arguments"		"-screen-fullscreen 1"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"FullScreen"
+					"japanese"		"フルスクリーン"
+				}
+				"description"		"FullScreen"
+			}
+			"1"
+			{
+				"executable"		"DRIVE_DRIFT_X.exe"
+				"arguments"		"-screen-fullscreen 0 -screen-width 1600 -screen-height 900"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Windowed (1600 x 900)"
+					"japanese"		"ウィンドウモード (1600 x 900)"
+				}
+				"description"		"Windowed (1600 x 900)"
+			}
+			"2"
+			{
+				"executable"		"DRIVE_DRIFT_X.exe"
+				"arguments"		"-screen-fullscreen 0 -screen-width 1280 -screen-height 720"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Windowed (1280 x 720)"
+					"japanese"		"ウィンドウモード (1280 x 720)"
+				}
+				"description"		"Windowed (1280 x 720)"
+			}
+		}
+	}
+	"depots"
+	{
+		"2071041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7651343716832603588"
+					"size"		"215285993"
+					"download"		"131296848"
+				}
+			}
+		}
+		"2071042"
+		{
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"987076173449694347"
+					"size"		"215286001"
+					"download"		"131304944"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9664523"
+				"timeupdated"		"1665030916"
+			}
+		}
+	}
+}
