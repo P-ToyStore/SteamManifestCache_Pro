@@ -1,0 +1,322 @@
+"appinfo"
+{
+	"appid"		"2091620"
+	"common"
+	{
+		"name"		"Septaroad Voyager"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"826778a6d6516a984c13586f41a0498834d7510f"
+		"clienticon"		"a1383154f97352ba5a56e627c340a433919d2f7c"
+		"clienttga"		"ecefe0452cb90ba60988e15e49669295c78aee86"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"2091620_eula_0"
+				"name"		"Septaroad Voyager EULA"
+				"url"		"https://store.steampowered.com//eula/2091620_eula_0"
+				"version"		"1"
+			}
+		}
+		"aicontenttype"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"40.437077968449"
+				"height_pct"		"25.105104880414174"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"40.437077968449"
+					"height_pct"		"25.105104880414174"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1721245711"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rockwell Studios, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rockwell Studios, LLC"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_17"		"1"
+			"category_28"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1685638538"
+		"community_hub_visible"		"1"
+		"gameid"		"2091620"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"4434"
+			"2"		"1684"
+			"3"		"10695"
+			"4"		"3964"
+			"5"		"4975"
+			"6"		"4085"
+			"7"		"3834"
+			"8"		"3813"
+			"9"		"5350"
+			"10"		"4057"
+			"11"		"4166"
+			"12"		"4747"
+			"13"		"3993"
+			"14"		"7481"
+			"15"		"8122"
+			"16"		"1695"
+			"17"		"6730"
+			"18"		"1669"
+			"19"		"5125"
+		}
+		"review_score"		"7"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Rockwell Studios, LLC"
+		"publisher"		"Rockwell Studios, LLC"
+		"homepage"		"https://rockwell-studios.com/septaroad-voyager/"
+	}
+	"config"
+	{
+		"installdir"		"Septaroad Voyager"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win64\\SRVGame.exe"
+				"arguments"		"-user -forcecontrollerappid 2091620 -DX11"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Binaries\\Win64\\SRVGame.exe"
+				"arguments"		"editor -NoGADWarning -DX11"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Binaries\\Win32\\SRVGame.exe"
+				"arguments"		"?win32=true -user -forcecontrollerappid 2091620 -DX11"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Septaroad Voyager 32-bit"
+				}
+				"description"		"Septaroad Voyager 32-bit"
+			}
+			"4"
+			{
+				"executable"		"Binaries\\Win64\\SRVGame.exe"
+				"arguments"		"SRV_StartMenu?game=SRVGame.SRVGameInfo -NoGADWarning -DX11 -forcecontrollerappid 2091620"
+				"config"
+				{
+					"betakey"		"beta"
+				}
+				"description_loc"
+				{
+					"english"		"64 bit Test Level DX11"
+				}
+				"description"		"64 bit Test Level DX11"
+			}
+			"5"
+			{
+				"executable"		"Binaries\\Win32\\SRVGame.exe"
+				"arguments"		"SRV_StartMenu.umap?game=SRVGame.SRVGameInfo?win32=true -NoGADWarning -DX11 -forcecontrollerappid 2091620"
+				"config"
+				{
+					"betakey"		"beta"
+				}
+				"description_loc"
+				{
+					"english"		"32 bit Test Level DX11"
+				}
+				"description"		"32 bit Test Level DX11"
+			}
+			"8"
+			{
+				"executable"		"Binaries\\Win32\\SRVGame.exe"
+				"arguments"		"?win32=true -user -forcecontrollerappid 2091620 -DX11"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65535"
+		"steamcontrollerconfigdetails"
+		{
+			"3201415412"
+			{
+				"controller_type"		"controller_xbox360"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2091621"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7755703171013984114"
+					"size"		"8850639816"
+					"download"		"4844809440"
+				}
+				"beta"
+				{
+					"gid"		"7755703171013984114"
+					"size"		"8850639816"
+					"download"		"4844809440"
+				}
+			}
+		}
+		"workshopdepot"		"2091620"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15810133"
+				"timeupdated"		"1727190091"
+			}
+			"beta"
+			{
+				"buildid"		"15810133"
+				"description"		"testing"
+				"timeupdated"		"1727190050"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SRVGame\\Saves\\{64BitSteamID}"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
