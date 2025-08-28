@@ -1,0 +1,375 @@
+"appinfo"
+{
+	"appid"		"939450"
+	"common"
+	{
+		"name"		"Forklift Simulator 2019"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"b35dd4046280ccce5d891e5c16531d4ec3e706d5"
+		"logo_small"		"b35dd4046280ccce5d891e5c16531d4ec3e706d5_thumb"
+		"icon"		"0000b9bbe31eb3cbc10c6967e25c1fa575cd4306"
+		"clienticon"		"771f05107cd9d2576d0bbd1bcbef853d100940d1"
+		"clienttga"		"6f5f6f4033d18b7f760d0182768a634d142b8b19"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"939450_eula_0"
+				"name"		"Forklift Simulator 2019 EULA"
+				"url"		"https://store.steampowered.com//eula/939450_eula_0"
+			}
+		}
+		"metacritic_name"		"Forklift Simulator 2019"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"koreana"		"capsule_231x87_koreana.jpg"
+			"portuguese"		"capsule_231x87_portuguese.jpg"
+			"latam"		"capsule_231x87_latam.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"spanish"		"capsule_231x87_spanish.jpg"
+			"russian"		"capsule_231x87_russian.jpg"
+			"brazilian"		"capsule_231x87_brazilian.jpg"
+			"french"		"capsule_231x87_french.jpg"
+			"german"		"capsule_231x87_german.jpg"
+			"italian"		"capsule_231x87_italian.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"latam"		"header_latam.jpg"
+			"koreana"		"header_koreana.jpg"
+			"russian"		"header_russian.jpg"
+			"portuguese"		"header_portuguese.jpg"
+			"schinese"		"header_schinese.jpg"
+			"french"		"header_french.jpg"
+			"spanish"		"header_spanish.jpg"
+			"german"		"header_german.jpg"
+			"japanese"		"header_japanese.jpg"
+			"italian"		"header_italian.jpg"
+			"brazilian"		"header_brazilian.jpg"
+		}
+		"store_screenshot"		"ss_44ae04b5737d7bc63c51fc8db7ceab3a40a8ac8e.jpg"
+		"store_asset_mtime"		"1709669100"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blind Squirrel Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Blind Squirrel Publishing"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Forklift Simulator 2019"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"9"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1604683001"
+		"community_hub_visible"		"1"
+		"gameid"		"939450"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"492"
+			"2"		"597"
+			"3"		"699"
+			"4"		"1100687"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Blind Squirrel Games"
+		"publisher"		"Blind Squirrel Publishing"
+	}
+	"config"
+	{
+		"installdir"		"Forklift Simulator 2019"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FL_Engine/FL-Simulator.exe"
+				"arguments"		"../FL_Content/FLS-CON-004/startup.json -vrmode None"
+				"workingdir"		"FL_Engine"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"FL_Engine/FL-Simulator.exe"
+				"arguments"		"../FL_Content/FLS-CON-004/startup.json -vrmode OpenVR"
+				"workingdir"		"FL_Engine"
+				"type"		"vr"
+			}
+			"2"
+			{
+				"executable"		"FL_Engine/FL-Simulator.exe"
+				"arguments"		"../FL_Content/FLS-CON-004/startup.json -vrmode None -show-screen-selector"
+				"workingdir"		"FL_Engine"
+				"type"		"config"
+			}
+		}
+		"steamconfigurator3rdpartynative"		"77"
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"baselanguages"		"english,japanese"
+		"939451"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3312154938860641173"
+					"size"		"1495916374"
+					"download"		"1313260272"
+				}
+			}
+		}
+		"939452"
+		{
+			"manifests"
+			{
+			}
+		}
+		"939453"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+			}
+		}
+		"939454"
+		{
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+			}
+		}
+		"941270"
+		{
+			"manifests"
+			{
+			}
+			"dlcappid"		"941270"
+			"config"
+			{
+				"optionaldlc"		"941270"
+			}
+		}
+		"939456"
+		{
+			"dlcappid"		"941270"
+			"config"
+			{
+				"language"		"english"
+				"optionaldlc"		"941270"
+			}
+			"manifests"
+			{
+			}
+		}
+		"939457"
+		{
+			"dlcappid"		"941270"
+			"config"
+			{
+				"language"		"japanese"
+				"optionaldlc"		"941270"
+			}
+			"manifests"
+			{
+			}
+		}
+		"940931"
+		{
+			"dlcappid"		"940931"
+			"manifests"
+			{
+			}
+			"config"
+			{
+				"optionaldlc"		"940931"
+			}
+		}
+		"939459"
+		{
+			"dlcappid"		"940931"
+			"config"
+			{
+				"language"		"english"
+				"optionaldlc"		"940931"
+			}
+			"manifests"
+			{
+			}
+		}
+		"940933"
+		{
+			"dlcappid"		"940931"
+			"config"
+			{
+				"language"		"japanese"
+				"optionaldlc"		"940931"
+			}
+			"manifests"
+			{
+			}
+		}
+		"940932"
+		{
+			"dlcappid"		"940932"
+			"manifests"
+			{
+			}
+			"config"
+			{
+				"optionaldlc"		"940932"
+			}
+		}
+		"940935"
+		{
+			"dlcappid"		"940932"
+			"config"
+			{
+				"language"		"english"
+				"optionaldlc"		"940932"
+			}
+			"manifests"
+			{
+			}
+		}
+		"940936"
+		{
+			"dlcappid"		"940932"
+			"config"
+			{
+				"language"		"japanese"
+				"optionaldlc"		"940932"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3459101"
+				"timeupdated"		"1547171792"
+			}
+		}
+		"privatebranches"		"1"
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
