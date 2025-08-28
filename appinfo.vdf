@@ -1,0 +1,341 @@
+"appinfo"
+{
+	"appid"		"617850"
+	"common"
+	{
+		"name"		"Jaws Of Extinction"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"85735d7bdc40da112cb15d52e924d4145e680ee0"
+		"logo_small"		"85735d7bdc40da112cb15d52e924d4145e680ee0_thumb"
+		"icon"		"f539298eae33247743b42eddd7b46f89e22b188d"
+		"clienticon"		"aa2a227bb177bc0d56ce62f93a539667988ffa40"
+		"clienttga"		"5e4aa26288f056f5a86147ff4ba4f33827dc5c2d"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"617850_eula_0"
+				"name"		"Jaws Of Extinction EULA"
+				"url"		"http://store.steampowered.com//eula/617850_eula_0"
+			}
+		}
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"metacritic_name"		"Jaws Of Extinction™"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33.750249152502406"
+				"height_pct"		"81.90470065173224"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"33.750249152502406"
+					"height_pct"		"81.90470065173224"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1716841237"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blood Eater Games"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Immortal Hand Studios"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Forthright Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"28"
+			"5"		"2"
+			"6"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_9"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1558632300"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"617850"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"122"
+			"2"		"19"
+			"3"		"1662"
+			"4"		"492"
+			"5"		"599"
+			"6"		"1659"
+			"7"		"9"
+			"8"		"493"
+			"9"		"4345"
+			"10"		"4667"
+			"11"		"3978"
+			"12"		"3859"
+			"13"		"1695"
+			"14"		"3810"
+			"15"		"4182"
+			"16"		"1702"
+			"17"		"7208"
+			"18"		"1697"
+		}
+		"review_score"		"5"
+		"review_percentage"		"55"
+	}
+	"extended"
+	{
+		"absolutemousecoordinates"		"0"
+		"remoteplaytogethertestingbranches"		"multiplayerstaging"
+		"developer"		"Blood Eater Games"
+		"publisher"		"Forthright Entertainment"
+		"homepage"		"http://www.playjoe.gg"
+	}
+	"config"
+	{
+		"installdir"		"Jaws Of Extinction"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"JoEGame_A.exe"
+				"arguments"		"-D3D12"
+				"description"		"Jaws of Extinction (DirectX 12)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"JoEGame_A.exe"
+				"arguments"		"-DX11"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Jaws of Extinction (DirectX 11)"
+				}
+				"description"		"Jaws of Extinction (DirectX 11)"
+			}
+			"3"
+			{
+				"executable"		"JoEGame_A.exe"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"No Launch Options"
+				}
+				"description"		"No Launch Options"
+			}
+			"4"
+			{
+				"executable"		"JoEGame_A.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"617851"
+		{
+		}
+		"985579"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8113886077451595663"
+					"size"		"61957100544"
+					"download"		"58188115040"
+				}
+				"staging"
+				{
+					"gid"		"8113886077451595663"
+					"size"		"61957100544"
+					"download"		"58188115040"
+				}
+			}
+		}
+		"617859"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"617857"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14512970"
+				"timeupdated"		"1716890317"
+			}
+			"staging"
+			{
+				"buildid"		"14512970"
+				"description"		"Experimental Branch"
+				"timeupdated"		"1716890338"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
