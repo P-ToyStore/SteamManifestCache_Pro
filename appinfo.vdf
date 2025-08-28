@@ -1,0 +1,233 @@
+"appinfo"
+{
+	"appid"		"517130"
+	"common"
+	{
+		"name"		"Soundboxing"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+		}
+		"clienticon"		"f2a6fd83e06f176ff7bc5ca4d6f8aaf7a8c5d7f8"
+		"clienttga"		"70cfc8ce7acc19998054fa118574c156c0ed65fa"
+		"icon"		"2cf32fecff7cd713477d09afacccb9c544470a1f"
+		"logo"		"2acacdfc6a7a8f56d95ef4326bfa76bdaf39ea9b"
+		"logo_small"		"2acacdfc6a7a8f56d95ef4326bfa76bdaf39ea9b_thumb"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Soundboxing"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1ab8dddb39643ed7bb197ab43d32fe55b15b9ff6.jpg"
+		"store_asset_mtime"		"1494572974"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Maxint LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Maxint LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1475171915"
+		"community_hub_visible"		"1"
+		"gameid"		"517130"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21978"
+			"2"		"1621"
+			"3"		"1752"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Maxint LLC"
+		"publisher"		"Maxint LLC"
+		"homepage"		"https://www.soundboxing.co"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Soundboxing"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"OpenVR\\OpenVR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Oculus\\Oculus.exe"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"OpenVR\\Soundboxing.exe"
+				"description"		"[Beta] SteamVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta"
+				}
+			}
+			"4"
+			{
+				"executable"		"Oculus\\Soundboxing.exe"
+				"description"		"[Beta] Oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta"
+				}
+			}
+			"5"
+			{
+				"executable"		"OpenVR\\Soundboxing.exe"
+				"description"		"[2.0] SteamVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"v2.0"
+				}
+			}
+			"6"
+			{
+				"executable"		"Oculus\\Soundboxing.exe"
+				"description"		"[2.0] Oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"v2.0"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"517131"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8299381390540130769"
+					"size"		"1439142644"
+					"download"		"448427728"
+				}
+				"beta"
+				{
+					"gid"		"2004670027195472114"
+					"size"		"734243478"
+					"download"		"346039184"
+				}
+			}
+		}
+		"517132"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5556569949958616857"
+					"size"		"1438839436"
+					"download"		"448313088"
+				}
+				"beta"
+				{
+					"gid"		"3129737286877725043"
+					"size"		"757283162"
+					"download"		"356274464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2765178"
+				"timeupdated"		"1526037364"
+			}
+			"beta"
+			{
+				"buildid"		"5873371"
+				"description"		"Beta branch"
+				"timeupdated"		"1606259041"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
