@@ -1,0 +1,120 @@
+"appinfo"
+{
+	"appid"		"50900"
+	"common"
+	{
+		"name"		"Professor FizzWhizzle"
+		"clienticon"		"e3272804c8bcc7de8e237a97cef833aa27849fa9"
+		"clienttga"		"2ba974b2c3f914202e3bae203dea2e10c4fa4678"
+		"icon"		"1ce472ee70fb2940cefaacfdf8f48c872aa65cb4"
+		"logo"		"fa940ac6f7524d7b69872ad00f43a01cf3b1f015"
+		"logo_small"		"fa940ac6f7524d7b69872ad00f43a01cf3b1f015_thumb"
+		"type"		"game"
+		"metacritic_name"		"Professor Fizzwizzle"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_47cf676aee064a759fb8827574deec4a603895b4.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Big Fish Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Big Fish Games"
+			}
+		}
+		"primary_genre"		"33"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1125298800"
+		"community_hub_visible"		"1"
+		"gameid"		"50900"
+	}
+	"extended"
+	{
+		"developer"		"Big Fish Games"
+		"gamedir"		"Professor FizzWhizzle"
+		"homepage"		"http://www.bigfishgames.com/download-games/627/professorfizzwizzl/index.html"
+		"icon"		""
+		"installscript"		"50901_install.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"50901"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Big Fish Games"
+	}
+	"config"
+	{
+		"installscriptsignature"		"0facb0081f60ebe5d5a76d4cbc89f9a1dbc76ee4dd6832e1c8b6f809d565c8d925125992372874dbccbfdce8d43cc634a3dcaee96ba56d64282daa1ee5b0a97a686a4735e980ec2fb3d2d5b953e0b12c37fdf2d8205d0f831eed860510e95bf88db1202ed6e4f6f18dbe8451934db5fc4adb7a5b2e3f9a61d79fb9afaad336d3"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Professor FizzWhizzle"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Professor Fizzwizzle.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"activation"
+			{
+				"process 1"		"%INSTALLDIR%\\ActivatorFile.exe"
+				"command 1"		"###SET#PROPERTY_USERID#ONE_TIME_UNLOCK_PROFESSOR#SET#PROPERTY_GAMELICENSE#6C2C-A9CB-4912-A906"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"50901"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2694661942800404645"
+					"size"		"22174064"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23787"
+			}
+		}
+	}
+}
