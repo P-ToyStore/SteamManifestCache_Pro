@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"654090"
+	"common"
+	{
+		"name"		"High clear VR"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"clienttga"		"de95ccb5b7e00c0cbdd7df87ab141a52bd1013ad"
+		"clienticon"		"f3b60f7672024b7fd86d7f4b483209a4479e8f2f"
+		"icon"		"5e65b2a2fc4e071e83bc4b2320d32b826f13d153"
+		"logo"		"83cd135c57980e984da7899686e9f3a8fd3c16dc"
+		"logo_small"		"83cd135c57980e984da7899686e9f3a8fd3c16dc_thumb"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"High clear VR"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b82b3b4c480a6342630c87cf8dffa26e3eca0b02.jpg"
+		"store_asset_mtime"		"1501667067"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FiveStarGames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FiveStarGames"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_49"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1498460400"
+		"steam_release_date"		"1498689392"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"654090"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"701"
+			"3"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"FiveStarGames"
+		"publisher"		"FiveStarGames"
+	}
+	"config"
+	{
+		"installdir"		"High clear VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HighClear.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"baselanguages"		"english"
+		"654091"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"207301537947407190"
+					"size"		"595577873"
+					"download"		"97145792"
+				}
+			}
+		}
+		"654092"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2017213"
+				"timeupdated"		"1502089774"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"FiveStar Games/High clear VR"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"FiveStar Games/High clear VR"
+						"replace"		"unity.FiveStar Games.High clear VR"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"FiveStar Games/High clear VR"
+						"replace"		".config/unity3d/FiveStar Games/High clear VR"
+					}
+				}
+			}
+		}
+	}
+}
