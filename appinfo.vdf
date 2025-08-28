@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"1346300"
+	"common"
+	{
+		"name"		"RealFit"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"controllervr"
+		{
+			"oculus"		"1"
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"logo"		"375269bb4ba933fa96d25624c0a436aa426fe00a"
+		"logo_small"		"375269bb4ba933fa96d25624c0a436aa426fe00a_thumb"
+		"icon"		"8493f54f449a505d24572649f3f6d1e9f1e2c9d5"
+		"clienticon"		"e9bb4eba97faa27102081a759720de4a0da1ce51"
+		"clienttga"		"92f5d6a6c0fa2dfab85d02da22e6574e364f15a3"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1346300_eula_0"
+				"name"		"RealFit EULA"
+				"url"		"https://store.steampowered.com//eula/1346300_eula_0"
+			}
+		}
+		"openvr_action_manifest_path"		"RealFit_Data/StreamingAssets/SteamVR/actions.json"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"34.280670217305726"
+				"height_pct"		"56.36863098030929"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"34.280670217305726"
+					"height_pct"		"56.36863098030929"
+				}
+			}
+		}
+		"store_asset_mtime"		"1603576867"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"RealFit VR Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"RealFit VR Ltd"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"18"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1598623055"
+		"community_hub_visible"		"1"
+		"gameid"		"1346300"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"493"
+			"2"		"5350"
+			"3"		"21978"
+			"4"		"4835"
+			"5"		"597"
+			"6"		"30358"
+			"7"		"1755"
+			"8"		"4004"
+			"9"		"492"
+			"10"		"4182"
+			"11"		"12190"
+			"12"		"19"
+			"13"		"4305"
+			"14"		"4094"
+			"15"		"4252"
+			"16"		"4191"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"RealFit VR Ltd"
+		"publisher"		"RealFit VR Ltd"
+		"homepage"		"https://www.realfit.co/"
+	}
+	"config"
+	{
+		"installdir"		"RealFit"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RealFit.exe"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"RealFit.exe"
+				"arguments"		"-liv"
+				"description"		"with LIV mixed reality support"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1346301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4113018994792996639"
+					"size"		"357982620"
+					"download"		"173229216"
+				}
+				"alpha"
+				{
+					"gid"		"2479014799609221133"
+					"size"		"444764274"
+					"download"		"247486400"
+				}
+				"beta"
+				{
+					"gid"		"4113018994792996639"
+					"size"		"357982620"
+					"download"		"173229216"
+				}
+				"ignore-openvr-user-active-state"
+				{
+					"gid"		"2479014799609221133"
+					"size"		"444764274"
+					"download"		"247486400"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7503610"
+				"timeupdated"		"1633798680"
+			}
+			"alpha"
+			{
+				"buildid"		"8112396"
+				"description"		"Development alpha testing builds"
+				"timeupdated"		"1643511491"
+			}
+			"beta"
+			{
+				"buildid"		"7503610"
+				"description"		"Development beta testing builds"
+				"timeupdated"		"1633798667"
+			}
+			"ignore-openvr-user-active-state"
+			{
+				"buildid"		"8112396"
+				"description"		"Test workaround for app pausing if OpenVR (incorrectly) reports inactive user"
+				"timeupdated"		"1643511848"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
