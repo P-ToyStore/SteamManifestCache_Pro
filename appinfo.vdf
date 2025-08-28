@@ -1,0 +1,220 @@
+"appinfo"
+{
+	"appid"		"684270"
+	"common"
+	{
+		"name"		"Silicon Zeroes"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"03e43113b5c6d984851bfc4ae981e0b125765683"
+		"logo_small"		"03e43113b5c6d984851bfc4ae981e0b125765683_thumb"
+		"clienticon"		"ef565862e1b817c1e3673f3c6eddd352b18ec713"
+		"clienttga"		"e921eb57174e20b45f4e5c87cfb9b73287c5245e"
+		"icon"		"d35e2cf68ed787fb24dcb79c85c2c83450d06238"
+		"releasestate"		"released"
+		"clienticns"		"c6e0eef92d6e7a6f91360e79fc0f773d807b39e9"
+		"osextended"		"macos64"
+		"metacritic_name"		"Silicon Zeroes"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_94d39f1fb45e306ec6f8f1998bca1bf79ba1099e.jpg"
+		"store_asset_mtime"		"1505673054"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PleasingFungus Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PleasingFungus Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1505750280"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"684270"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"492"
+			"2"		"5432"
+			"3"		"1664"
+			"4"		"4182"
+			"5"		"4026"
+			"6"		"5502"
+			"7"		"1036"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"PleasingFungus Games"
+		"publisher"		"PleasingFungus Games"
+		"homepage"		"http://pleasingfungus.com/"
+	}
+	"config"
+	{
+		"installdir"		"Silicon Zeroes"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Silicon Zeroes.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Silicon Zeroes.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"SiliconZeroes.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"684271"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8650279782620171042"
+					"size"		"122950850"
+					"download"		"102952176"
+				}
+			}
+		}
+		"684272"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7896550436585869980"
+					"size"		"253556828"
+					"download"		"179755680"
+				}
+			}
+		}
+		"715420"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3555888065631855949"
+					"size"		"90340680"
+					"download"		"81929856"
+				}
+			}
+		}
+		"684273"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3914051236425363179"
+					"size"		"116079844"
+					"download"		"100166480"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2245961"
+				"timeupdated"		"1509469489"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"5242880"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"profiles"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"Silicon Zeroes/"
+			}
+		}
+	}
+}
