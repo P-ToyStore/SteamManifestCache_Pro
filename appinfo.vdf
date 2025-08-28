@@ -1,0 +1,274 @@
+"appinfo"
+{
+	"appid"		"683000"
+	"common"
+	{
+		"name"		"Evasion"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+			"standing"		"1"
+		}
+		"logo"		"a9f5b4a0da4a6c98b73373aeca9ffed85236ccc8"
+		"logo_small"		"a9f5b4a0da4a6c98b73373aeca9ffed85236ccc8_thumb"
+		"icon"		"31e8499e0b87a2d7a280995f229ecb4de87913da"
+		"clienttga"		"675a14f14230edee300dbdde40811085a6f380a3"
+		"clienticon"		"78ae9436ee6000253b1527359be8767a74cdf622"
+		"releasestate"		"released"
+		"linuxclienticon"		"618e710cca7fbc04cf7eaab605e6ed9edf898504"
+		"clienticns"		"78ae9436ee6000253b1527359be8767a74cdf622"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Evasion"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"82.1420090239848"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"82.1420090239848"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667230742"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Archiact"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Archiact"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_22"		"1"
+			"category_49"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1539057692"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"683000"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"21978"
+			"1"		"3859"
+			"2"		"1663"
+			"3"		"1774"
+			"4"		"4885"
+			"5"		"4255"
+			"6"		"19"
+			"7"		"6730"
+			"8"		"3942"
+			"9"		"4106"
+			"10"		"4191"
+			"11"		"3839"
+			"12"		"7250"
+			"13"		"5711"
+			"14"		"1755"
+			"15"		"4835"
+			"16"		"4155"
+			"17"		"21"
+			"18"		"1673"
+			"19"		"5363"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Archiact"
+		"publisher"		"Archiact"
+		"homepage"		"https://www.evasionvrgame.com"
+	}
+	"config"
+	{
+		"installdir"		"Evasion"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Evasion.exe"
+				"description"		"PC Steam Default/Live Branch"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Evasion.exe"
+				"description"		"QA PTW "
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qabuild"
+				}
+			}
+			"2"
+			{
+				"executable"		"Evasion.exe"
+				"description"		"QA Release Beta Branch"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"QaRelease"
+				}
+			}
+			"3"
+			{
+				"executable"		"Evasion.exe"
+				"arguments"		"-demo"
+				"description"		"Archiact Private Demo Branch"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"archiactdemo"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"683001"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5057548709528941489"
+					"size"		"13778974603"
+					"download"		"6003453152"
+				}
+			}
+		}
+		"683002"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3962259"
+				"timeupdated"		"1562100567"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
