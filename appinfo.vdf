@@ -1,0 +1,178 @@
+"appinfo"
+{
+	"appid"		"1027280"
+	"common"
+	{
+		"name"		"MocuMocuVRM"
+		"type"		"Application"
+		"releasestate"		"released"
+		"logo"		"9738a52f1206cddc184c1ae7877ea1db20a2832e"
+		"logo_small"		"9738a52f1206cddc184c1ae7877ea1db20a2832e_thumb"
+		"icon"		"57c307ff8222909b7485d6d5ee529875283ee7db"
+		"oslist"		"windows"
+		"osarch"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"clienticon"		"5aff1a06e09fe1f62a48e59a184740b02261c2cb"
+		"clienttga"		"40d0d38523a4abda714de2427e82490efcc6f5af"
+		"openvrsupport"		"1"
+		"metacritic_name"		"MocuMocuVRM"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cd09520088b7c0a933d5fe80b57c6daf93106dba.jpg"
+		"store_asset_mtime"		"1551091611"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vrai"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vrai"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"57"
+		}
+		"category"
+		{
+			"category_52"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1550748015"
+		"community_hub_visible"		"1"
+		"gameid"		"1027280"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Vrai"
+		"publisher"		"Vrai"
+		"homepage"		"http://www.vrai.jp/vr_mocuvrm_en.html"
+	}
+	"config"
+	{
+		"installdir"		"MocuMocuVRM"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MocuMocuVRM.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"MocuMocuVRM.exe"
+				"arguments"		"-window"
+				"description"		"Window Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"MocuMocuVRM.exe"
+				"arguments"		"-lookingglass"
+				"description"		"The Looking Glass Mode"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1027281"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"49611595573788187"
+					"size"		"471651906"
+					"download"		"169807904"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4104509"
+				"timeupdated"		"1565783270"
+			}
+		}
+	}
+}
