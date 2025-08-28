@@ -1,0 +1,190 @@
+"appinfo"
+{
+	"appid"		"1090190"
+	"common"
+	{
+		"name"		"Winds of Change - The Opening Act"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"e584d2d2f9fdfb536902fe9d425c03c9788db336"
+		"logo"		"e5951fd818ad9ab57088a6bf93563f5750706f83"
+		"logo_small"		"e5951fd818ad9ab57088a6bf93563f5750706f83_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienttga"		"4ea2eaba0cd6f07593f4f032acdf2fb5f5ceae6e"
+		"clienticon"		"e30541af22d9d0f8da6b752abfe2d6446812f399"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Winds of Change - The Opening Act"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_07983f89e336ba38db74e1f56abfb5b0cc8f0b65.jpg"
+		"store_asset_mtime"		"1559324354"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tall Tail Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tall Tail Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"37"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1559322376"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1090190"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"113"
+			"2"		"492"
+			"3"		"1742"
+			"4"		"3799"
+			"5"		"122"
+			"6"		"599"
+			"7"		"1698"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Tall Tail Studios"
+		"publisher"		"Tall Tail Studios"
+	}
+	"config"
+	{
+		"installdir"		"Winds of Change - The Opening Act"
+		"steamcontrollertemplateindex"		"3"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindsofChange.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"WindsofChange.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"WindsofChange.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1090191"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8022676367085903234"
+					"size"		"815799825"
+					"download"		"730697504"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3835392"
+				"timeupdated"		"1558140635"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"209715200"
+		"maxnumfiles"		"100"
+		"appidredirect"		"594130"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"RenPy/WindsofChange-1508869298"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"addpath"		"/Library/"
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"RenPy/WindsofChange-1508869298"
+						"replace"		".renpy/WindsofChange-1508869298"
+					}
+				}
+			}
+		}
+	}
+}
