@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"1331090"
+	"common"
+	{
+		"name"		"进击的哥布林"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"d3a70f36d0d92a2816c9b60af14263f74455e6f0"
+		"logo_small"		"d3a70f36d0d92a2816c9b60af14263f74455e6f0_thumb"
+		"icon"		"3d53d3d3cae4ba094b5b2798100410c5c57cc9c8"
+		"clienticon"		"4df3dd133ab456000b980829a4c8bdf1b08dff17"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1603602205"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"leeve_weky"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"leeve_weky"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1592204400"
+		"steam_release_date"		"1592221243"
+		"community_hub_visible"		"1"
+		"gameid"		"1331090"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"597"
+			"3"		"1645"
+			"4"		"1684"
+			"5"		"1676"
+		}
+		"review_score"		"7"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"leeve_weky"
+		"publisher"		"leeve_weky"
+	}
+	"config"
+	{
+		"installdir"		"进击的哥布林"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GoblinTotalWar.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+		"steamcontrollertouchtemplateindex"		"8"
+	}
+	"depots"
+	{
+		"baselanguages"		"schinese"
+		"1331091"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6841422794007971931"
+					"size"		"648414564"
+					"download"		"152307312"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5785665"
+				"timeupdated"		"1604546352"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"GoblinClound"
+				"pattern"		"*.goblin"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"GoblinClound"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"GoblinClound"
+			}
+		}
+	}
+}
