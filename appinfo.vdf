@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"538870"
+	"common"
+	{
+		"name"		"EVE: Valkyrie"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"controllervr"
+		{
+			"xinput"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"logo"		"2fe5356278c386db2635862dcd8143d11704fc37"
+		"logo_small"		"2fe5356278c386db2635862dcd8143d11704fc37_thumb"
+		"icon"		"0712d97943f2a90735597b161dab4520f034901c"
+		"clienttga"		"0f460cca364c08fad97624f27f0de1d781c246ae"
+		"clienticon"		"f6432e086f2d79868f56813eb555ea3eb4678216"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"EVE: Valkyrie"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5855993d03c468e28af58947cec9aa3bb5bb7e62.jpg"
+		"store_asset_mtime"		"1492513636"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CCP"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"CCP"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1479382380"
+		"metacritic_score"		"69"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/eve-valkyrie?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"538870"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3859"
+			"2"		"1755"
+			"3"		"3942"
+			"4"		"21978"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"CCP"
+		"publisher"		"CCP"
+		"homepage"		"https://www.evevalkyrie.com/"
+		"listofdlc"		"540800,540801,540802,540803,540804,540805"
+	}
+	"config"
+	{
+		"installdir"		"EVE Valkyrie"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindowsNoEditor\\VkGame\\Binaries\\Win64\\EVE-Valkyrie.exe"
+				"arguments"		"-steam -vr -windowed -tenant=live"
+				"workingdir"		"WindowsNoEditor\\VkGame\\Binaries\\Win64"
+				"type"		"vr"
+			}
+			"1"
+			{
+				"executable"		"WindowsNoEditor\\VkGame\\Binaries\\Win64\\EVE-Valkyrie.exe"
+				"arguments"		"-steam -vr -windowed -tenant=live"
+				"workingdir"		"WindowsNoEditor\\VkGame\\Binaries\\Win64"
+				"type"		"othervr"
+			}
+			"2"
+			{
+				"executable"		"WindowsNoEditor\\VkGame\\Binaries\\Win64\\EVE Valkyrie.exe"
+				"arguments"		"-2d -tenant=playtest -fullscreen -nohmd -steam -region=us-east-1"
+				"description"		"Alpha branch"
+				"type"		"option2"
+				"config"
+				{
+					"betakey"		"alpha"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"888235065"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,beta,local"
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"538871"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8962511047513496614"
+					"size"		"20749123554"
+					"download"		"7077951392"
+				}
+				"local"
+				{
+					"gid"		"8931334062131636389"
+					"size"		"21036326391"
+					"download"		"6855850960"
+				}
+			}
+		}
+		"540800"
+		{
+			"dlcappid"		"540800"
+		}
+		"540801"
+		{
+			"dlcappid"		"540801"
+		}
+		"540802"
+		{
+			"dlcappid"		"540802"
+		}
+		"540803"
+		{
+			"dlcappid"		"540803"
+		}
+		"540804"
+		{
+			"dlcappid"		"540804"
+		}
+		"540805"
+		{
+			"dlcappid"		"540805"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1943918"
+				"timeupdated"		"1499855052"
+			}
+			"local"
+			{
+				"buildid"		"1757698"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1492165959"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
