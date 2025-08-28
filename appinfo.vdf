@@ -1,0 +1,285 @@
+"appinfo"
+{
+	"appid"		"1729660"
+	"common"
+	{
+		"name"		"Hyper Bullet"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"clienttga"		"c40b5658db12c52eb49e757d3860fe1932decb74"
+		"clienticon"		"3955e8e7639f07348aec7740fb1fb3300feee343"
+		"icon"		"7678f5511b80150f52565718fc9e47390a524ad4"
+		"logo"		"aacd5a888db845e0182b83e19ce592ed72af4678"
+		"logo_small"		"aacd5a888db845e0182b83e19ce592ed72af4678_thumb"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"47.724620770128354"
+				"height_pct"		"91.64133777368716"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"47.724620770128354"
+					"height_pct"		"91.64133777368716"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1754382799"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tony Wang"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tony Wang"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1633504190"
+		"community_hub_visible"		"1"
+		"gameid"		"1729660"
+		"store_tags"
+		{
+			"0"		"4637"
+			"1"		"7743"
+			"2"		"4004"
+			"3"		"4758"
+			"4"		"19"
+			"5"		"3964"
+			"6"		"6691"
+			"7"		"1773"
+			"8"		"4252"
+			"9"		"1774"
+			"10"		"4791"
+			"11"		"3871"
+			"12"		"3916"
+			"13"		"597"
+			"14"		"4559"
+			"15"		"4182"
+			"16"		"492"
+			"17"		"1714"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Tony Wang"
+		"publisher"		"Tony Wang"
+		"homepage"		"https://paladin-t.github.io/games/hb/"
+	}
+	"config"
+	{
+		"installdir"		"Hyper Bullet"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"x86\\bitty.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"x64\\bitty.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"bitty.app\\Contents\\MacOS\\bitty"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"x86\\bitty"
+				"workingdir"		"x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"x64\\bitty"
+				"workingdir"		"x64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1729661"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1963267379215988575"
+					"size"		"36163282"
+					"download"		"20453088"
+				}
+			}
+		}
+		"1729662"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8247036854992865508"
+					"size"		"45016956"
+					"download"		"19096976"
+				}
+			}
+		}
+		"1729663"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"42883411975138442"
+					"size"		"57002553"
+					"download"		"24651856"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7451193"
+				"timeupdated"		"1632988313"
+			}
+		}
+	}
+}
