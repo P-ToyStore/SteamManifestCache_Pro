@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"2208300"
+	"common"
+	{
+		"name"		"Terrarium Builder"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"2e5e2c6232f6e12d600e3bfbe8d70ef6f65bf999"
+		"clienticon"		"e501558dace1457493c3b911d65839b2b7b2ba6b"
+		"clienttga"		"e5c09e82d5c265b4465dca58ccec78c4dcfbd79f"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33.807369101486756"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"33.807369101486756"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1676615154"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Errant Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Errant Interactive"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1676618467"
+		"community_hub_visible"		"1"
+		"gameid"		"2208300"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"4328"
+			"2"		"220585"
+			"3"		"1654"
+			"4"		"87918"
+			"5"		"3810"
+			"6"		"4191"
+			"7"		"4175"
+			"8"		"1643"
+			"9"		"492"
+			"10"		"4182"
+			"11"		"7332"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Errant Interactive"
+		"publisher"		"Errant Interactive"
+	}
+	"config"
+	{
+		"installdir"		"Terrarium Builder"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TerrariumBuilder.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2208301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8660163288557366966"
+					"size"		"1818462628"
+					"download"		"1711770608"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10649197"
+				"timeupdated"		"1677528096"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"2000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"TerrariumBuilder/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"TerrariumBuilder/Saved/SaveGames/Snapshots"
+				"pattern"		"*.png"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
