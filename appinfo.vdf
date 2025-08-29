@@ -1,0 +1,243 @@
+"appinfo"
+{
+	"appid"		"3021150"
+	"common"
+	{
+		"name"		"GooGooRise"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"8fb6c48d6a77d62ba4272189f90480c01277fa0b"
+		"clienttga"		"32ed7bd33484ce42b6873d2d0d53f347be65884a"
+		"clienticon"		"68a6eee94840629ccac67681bd6d22a3936d3206"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+		}
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1718802572"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"B2CGame"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"B2CGame"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_60"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1718793797"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3021150"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1721"
+			"2"		"4026"
+			"3"		"3877"
+			"4"		"19"
+			"5"		"3964"
+			"6"		"122"
+			"7"		"3871"
+			"8"		"4106"
+			"9"		"4231"
+			"10"		"5379"
+			"11"		"5537"
+			"12"		"3834"
+			"13"		"4726"
+			"14"		"6691"
+			"15"		"21006"
+			"16"		"1654"
+			"17"		"4036"
+			"18"		"3968"
+			"19"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"B2CGame"
+		"publisher"		"B2CGame"
+	}
+	"config"
+	{
+		"installdir"		"GooGooRise"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GooGooRise\\GooGooRise.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3021151"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8381251691772126283"
+					"size"		"129162774"
+					"download"		"54081664"
+				}
+			}
+		}
+		"baselanguages"		"english,schinese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14809342"
+				"timeupdated"		"1719138951"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"5"
+		"sync_while_suspended"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"B2CGame\\GooGooRise\\Save"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
