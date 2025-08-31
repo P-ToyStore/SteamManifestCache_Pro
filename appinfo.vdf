@@ -1,0 +1,218 @@
+"appinfo"
+{
+	"appid"		"263940"
+	"common"
+	{
+		"name"		"Red Baron Pack"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"22554896e9c3f3014f878ead8506bd2bb86b294b"
+		"logo_small"		"22554896e9c3f3014f878ead8506bd2bb86b294b_thumb"
+		"clienticon"		"0ceef5091111481b74974e5f2ba12697e2b7d213"
+		"clienttga"		"dd052e46afdebe48d3dab7c6a2392a19cef04cb2"
+		"icon"		"dee6f580bcd4ebdf98c4a271a6dc8dd8deab1252"
+		"metacritic_name"		"Red Baron Pack"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1575393575"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mad Otter Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mad Otter Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"661593600"
+		"steam_release_date"		"1452189630"
+		"community_hub_visible"		"1"
+		"gameid"		"263940"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"5382"
+			"2"		"15045"
+			"3"		"1693"
+		}
+		"review_score"		"8"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Mad Otter Games"
+		"publisher"		"Mad Otter Games"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Red Baron"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Red Baron\\DOSBOX\\DOSBox.exe"
+				"arguments"		"-conf \"..\\dosboxred1.conf\" -conf \"..\\dosboxred1_single.conf\" -noconsole -c exit"
+				"workingdir"		"Red Baron\\DOSBOX\\"
+				"description"		"Red Baron Classic"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Red Baron 3D\\Baron.exe"
+				"description"		"Red Baron 3D"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Red Baron 3D\\Baronmmp.exe"
+				"description"		"Red Baron 3D Multiplayer"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"263941"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3690678563947174291"
+					"size"		"610712441"
+					"download"		"402436336"
+				}
+			}
+		}
+		"263942"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"optionaldlc"		"429030"
+			}
+			"dlcappid"		"429030"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5006038834146552838"
+					"size"		"135824148"
+					"download"		"135287264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"923091"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+}
