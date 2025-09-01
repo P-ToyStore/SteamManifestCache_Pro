@@ -1,0 +1,132 @@
+"appinfo"
+{
+	"appid"		"24170"
+	"common"
+	{
+		"name"		"Star Wars Galaxies"
+		"icon"		"81a059ace1c883700a724d185372f03657f90fc6"
+		"clienticon"		"371909a14deb7d10377aae10d397e8be56b8cc0a"
+		"clienttga"		"7dbb24495a96acbb2d52e4f67b0ab5430e178246"
+		"logo"		"13e5fc5971feab4f966c5ded4bc10b2996f3202d"
+		"logo_small"		"13e5fc5971feab4f966c5ded4bc10b2996f3202d_thumb"
+		"app_retired_publisher_request"		"1"
+		"type"		"game"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_25bf127624a107533affb100ad4df5fc1593a74e.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sony Online Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LucasArts"
+			}
+		}
+		"primary_genre"		"29"
+		"genres"
+		{
+			"0"		"29"
+		}
+		"category"
+		{
+			"category_20"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1056610800"
+		"community_hub_visible"		"1"
+		"gameid"		"24170"
+		"store_tags"
+		{
+			"0"		"128"
+		}
+		"review_score"		"7"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Sony Online Entertainment"
+		"externalsubscriptionurl2"		"http://www.station.sony.com/steamactivation/?activationcode=%cdkey%&gamecode=SWG"
+		"gamedir"		"Star Wars Galaxies"
+		"homepage"		"http://www.starwarsgalaxies.com "
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp24170\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"24171"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"publisher"		"LucasArts"
+		"gamemanualurl"		"https://store.steampowered.com/manual/24170/"
+	}
+	"config"
+	{
+		"installscriptsignature"		"9f641f30f80da625afca6464134cc4a1e1066057b1d713a00f0d6dcabbf5275dfbe2d42d9e0642bdf920dfb2db4fe38365f5bfe88567a6d01ec5341e6d36ae7c1b71fd3d4f014ed89900aced7b0da7edeced9cdaa14f6f111726d7ae2ce7c33d57734bfacb26b372ec1a83dfafa70b488af53961a6176ff6fc5c47f2d67fccc7"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Star Wars Galaxies"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LaunchPad.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"fixtimestamps"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\24170"
+				"process 1"		"%INSTALLDIR%\\FixTimestamps.exe"
+				"command 1"		"SWG.soe"
+			}
+		}
+	}
+	"depots"
+	{
+		"24171"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3073382294063000394"
+					"size"		"6091931880"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3630"
+			}
+		}
+	}
+}
