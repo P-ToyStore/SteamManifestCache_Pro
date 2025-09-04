@@ -1,0 +1,153 @@
+"appinfo"
+{
+	"appid"		"2536350"
+	"common"
+	{
+		"name"		"ZSGO Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2268560"
+		"icon"		"4662786dfcb3878624d99514808cf8341a71183d"
+		"clienttga"		"44076be93ad2e721f449a9268e5d687c21e5a0a4"
+		"clienticon"		"77d382c5f0f298e4079bc26d85d69a38f1352a99"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"name_localized"
+		{
+			"german"		"Zombie-Überlebensspiel Online Dedizierter Server"
+		}
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"2536350"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"ZSGO Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ZSGOServer.exe"
+				"arguments"		"-log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8904491048620934740"
+					"size"		"68697032"
+					"download"		"20552544"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5587033981095108078"
+					"size"		"107476144"
+					"download"		"29272144"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2536351"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8261256561783278608"
+					"size"		"2109179605"
+					"download"		"1950246912"
+				}
+				"0.4.12"
+				{
+					"gid"		"4796451585370756277"
+					"size"		"1332628633"
+					"download"		"1166878240"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19845155"
+				"timeupdated"		"1756935070"
+			}
+			"0.4.12"
+			{
+				"buildid"		"15695104"
+				"description"		"New Apoc Vehicles v.0.4.12\t"
+				"timeupdated"		"1729794166"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
