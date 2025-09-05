@@ -1,0 +1,308 @@
+"appinfo"
+{
+	"appid"		"1306970"
+	"common"
+	{
+		"name"		"Diluvian Ultra"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"f3d4927d9872bf8ea8866ddf225f3513428b7603"
+		"logo_small"		"f3d4927d9872bf8ea8866ddf225f3513428b7603_thumb"
+		"icon"		"5a93018e7070781441042985071d558f60d71ac3"
+		"clienttga"		"8b3e6f03b61a6ffa3ec42f4a0854f5c7fa0761ef"
+		"clienticon"		"3800a2a62d2c9368b247a0c1d4a418628762ccee"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticns"		"8b3e6f03b61a6ffa3ec42f4a0854f5c7fa0761ef"
+		"linuxclienticon"		"8b3e6f03b61a6ffa3ec42f4a0854f5c7fa0761ef"
+		"controllertagwizard"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"60.65287536812813"
+				"height_pct"		"92.52986831264136"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"60.65287536812813"
+					"height_pct"		"92.52986831264136"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1723724512"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cresthelm Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fulqrum Publishing"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Fulqrum"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1695920293"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1306970"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"1023537"
+			"2"		"3834"
+			"3"		"1774"
+			"4"		"12057"
+			"5"		"3839"
+			"6"		"4975"
+			"7"		"4191"
+			"8"		"3854"
+			"9"		"6702"
+			"10"		"19"
+			"11"		"7250"
+			"12"		"3964"
+			"13"		"4106"
+			"14"		"4252"
+			"15"		"3942"
+			"16"		"5030"
+			"17"		"3952"
+			"18"		"4018"
+			"19"		"5154"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"Cresthelm Studios"
+		"publisher"		"Fulqrum Publishing"
+		"homepage"		"https://diluvianultra.com/"
+	}
+	"config"
+	{
+		"installdir"		"Diluvian Ultra"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launcher.exe"
+				"arguments"		"-dx11"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Diluvian Ultra (DX11)"
+				}
+				"description"		"Diluvian Ultra (DX11)"
+			}
+			"1"
+			{
+				"executable"		"launcher.exe"
+				"arguments"		"-dx12"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Diluvian Ultra (DX12) (Experimental)"
+				}
+				"description"		"Diluvian Ultra (DX12) (Experimental)"
+			}
+			"2"
+			{
+				"executable"		"launcher.exe"
+				"arguments"		"-vulkan"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Diluvian Ultra (Vulkan)  (Experimental)"
+				}
+				"description"		"Diluvian Ultra (Vulkan)  (Experimental)"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1306971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1429071158739724843"
+					"size"		"6124316707"
+					"download"		"1830860560"
+				}
+			}
+		}
+		"1306972"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5929792169617166166"
+					"size"		"70063290"
+					"download"		"70842960"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19841856"
+				"timeupdated"		"1757075254"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"DiluvianUltra\\Saved\\SaveGames"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
