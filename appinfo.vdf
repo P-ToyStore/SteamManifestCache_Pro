@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"1975160"
+	"common"
+	{
+		"name"		"Be"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"controllervr"
+		{
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"icon"		"9e0861e47cb80800a450983430221913b49daf49"
+		"clienticon"		"1eb6f04f52d522e46eb878c71a834d363737e2e6"
+		"clienttga"		"d89e91f7d87eec75301b7fda18932cffa7b94c3f"
+		"openvrsupport"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"60.81395348837209"
+				"height_pct"		"53.03965803847066"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"60.81395348837209"
+					"height_pct"		"53.03965803847066"
+				}
+			}
+		}
+		"store_asset_mtime"		"1656049692"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"shinywhitebox ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"shinywhitebox ltd"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1659382480"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1975160"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"597"
+			"2"		"3810"
+			"3"		"1643"
+			"4"		"30358"
+			"5"		"3834"
+			"6"		"5900"
+			"7"		"1654"
+			"8"		"4191"
+			"9"		"3839"
+			"10"		"4175"
+			"11"		"21978"
+			"12"		"9204"
+			"13"		"9157"
+			"14"		"1695"
+			"15"		"3968"
+			"16"		"7332"
+			"17"		"6625"
+			"18"		"1685"
+			"19"		"3859"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"shinywhitebox ltd"
+		"publisher"		"shinywhitebox ltd"
+	}
+	"config"
+	{
+		"installdir"		"Be"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Be.exe"
+				"arguments"		"--novr"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Non VR"
+				}
+				"description"		"Non VR"
+			}
+			"1"
+			{
+				"executable"		"Be.exe"
+				"arguments"		"--vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"VR"
+				}
+				"description"		"VR"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1975161"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5166343602662160159"
+					"size"		"1897027845"
+					"download"		"926508624"
+				}
+				"beta"
+				{
+					"gid"		"5166343602662160159"
+					"size"		"1897027845"
+					"download"		"926508624"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9567233"
+				"timeupdated"		"1663829073"
+			}
+			"beta"
+			{
+				"buildid"		"9567233"
+				"description"		"Public beta builds of Be"
+				"timeupdated"		"1663824825"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
