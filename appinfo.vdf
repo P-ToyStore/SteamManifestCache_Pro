@@ -1,0 +1,247 @@
+"appinfo"
+{
+	"appid"		"1339360"
+	"common"
+	{
+		"name"		"Soulace"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"360_required"		"1"
+			}
+		}
+		"logo"		"71049e758948e67de7d84e6c638c8b70fc41a239"
+		"logo_small"		"71049e758948e67de7d84e6c638c8b70fc41a239_thumb"
+		"icon"		"9615fd3bcd41dd5fe11c89dfc9e13daa7f1ea10d"
+		"clienticon"		"dd9cd407c61c801c74229b88088281c5d2167a93"
+		"releasestate"		"released"
+		"osvrsupport"		"1"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"56.32498964881245"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"56.32498964881245"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1646220924"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sander Bos"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sander Bos"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1624241057"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1339360"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"4604"
+			"1"		"21"
+			"2"		"1698"
+			"3"		"21978"
+			"4"		"9204"
+			"5"		"1714"
+			"6"		"3834"
+			"7"		"3799"
+			"8"		"3839"
+			"9"		"492"
+			"10"		"4145"
+			"11"		"30358"
+			"12"		"1710"
+			"13"		"4182"
+			"14"		"7250"
+			"15"		"1742"
+			"16"		"5411"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Sander Bos"
+		"publisher"		"Sander Bos"
+		"homepage"		"https://www.sander-bos.nl/soulace"
+	}
+	"config"
+	{
+		"installdir"		"Windows_content"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Soulace_Oculus\\Soulace.exe"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"OculusVR (For Oculus Headsets)"
+				}
+				"description"		"OculusVR (For Oculus Headsets)"
+			}
+			"1"
+			{
+				"executable"		"Soulace_vive\\SoulaceVive.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"SteamVR (For HTCVive Headsets)"
+				}
+				"description"		"SteamVR (For HTCVive Headsets)"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"0"
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1339361"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5396911370713428942"
+					"size"		"12452555530"
+					"download"		"6027698720"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7269333"
+				"timeupdated"		"1630254670"
+			}
+		}
+	}
+}
