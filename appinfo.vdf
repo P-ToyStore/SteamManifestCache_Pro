@@ -1,0 +1,400 @@
+"appinfo"
+{
+	"appid"		"1913200"
+	"common"
+	{
+		"name"		"Mark's Magnificent Marble Maze"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"c9fabedeeb5934ab381f7d9c2e999e283260d011"
+		"clienttga"		"60797efc746d7d3108a27e6b48aa774bec99a6fd"
+		"clienticon"		"fea3898ea8a1dd470cfdbcbc85251a5623d918dd"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1658966400"
+			"tested_build_id"		"9075397"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1655166641"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mark Schramm"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mark Schramm"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1659458904"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1913200"
+		"store_tags"
+		{
+			"0"		"1654"
+			"1"		"1664"
+			"2"		"4166"
+			"3"		"5537"
+			"4"		"4191"
+			"5"		"597"
+			"6"		"4175"
+			"7"		"3968"
+			"8"		"4182"
+			"9"		"21978"
+			"10"		"492"
+			"11"		"1621"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"Mark Schramm"
+		"publisher"		"Mark Schramm"
+		"homepage"		"http://mmmm.game"
+	}
+	"config"
+	{
+		"installdir"		"Marks Magnificent Marble Maze"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MMMM.exe"
+				"arguments"		"-force-d3d11"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"MMMM.exe"
+				"arguments"		"-force-d3d12"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch DX12 Mode"
+				}
+				"description"		"Launch DX12 Mode"
+			}
+			"2"
+			{
+				"executable"		"MMMM.exe"
+				"arguments"		"-force-vulkan"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Vulkan Mode"
+				}
+				"description"		"Launch Vulkan Mode"
+			}
+			"3"
+			{
+				"executable"		"MMMM.x86_64"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamdecktouchscreen"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"2809213521"
+			{
+				"controller_type"		"controller_neptune"
+				"enabled_branches"		"default,beta,qatest"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"1913201"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1913505851275400217"
+					"size"		"2202212173"
+					"download"		"1012359728"
+				}
+				"mixcast"
+				{
+					"gid"		"2679111606464895024"
+					"size"		"2163976267"
+					"download"		"1005986432"
+				}
+				"beta"
+				{
+					"gid"		"2015358721578321401"
+					"size"		"4562652510"
+					"download"		"1940419504"
+				}
+			}
+		}
+		"1913202"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8114485072159335555"
+					"size"		"1928107633"
+					"download"		"916842048"
+				}
+				"mixcast"
+				{
+					"gid"		"3623900329428318780"
+					"size"		"1904125336"
+					"download"		"913702784"
+				}
+				"beta"
+				{
+					"gid"		"3128204724273648732"
+					"size"		"4324036565"
+					"download"		"1841179184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9694928"
+				"timeupdated"		"1665464326"
+			}
+			"mixcast"
+			{
+				"buildid"		"9083874"
+				"description"		"Tilt Five Mixcast enabled build"
+				"timeupdated"		"1657261209"
+			}
+			"beta"
+			{
+				"buildid"		"18711528"
+				"description"		"public beta of upcoming versions"
+				"timeupdated"		"1748919321"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"300"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Mark Schramm/MMMM/save"
+				"pattern"		"*"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Mark Schramm/MMMM/save/zen_1"
+				"pattern"		"*"
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Mark Schramm/MMMM/save/zen_2"
+				"pattern"		"*"
+			}
+			"4"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Mark Schramm/MMMM/save/zen_3"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/unity3d/"
+			}
+		}
+	}
+}
