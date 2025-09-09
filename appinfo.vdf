@@ -1,0 +1,270 @@
+"appinfo"
+{
+	"appid"		"879200"
+	"common"
+	{
+		"name"		"KIN"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"icon"		"ec889dab9dae77ed0c78396e107931090d78ea06"
+		"logo"		"bf2ccc9efac2a9a83d68a53327a3927fc762f620"
+		"logo_small"		"bf2ccc9efac2a9a83d68a53327a3927fc762f620_thumb"
+		"clienttga"		"67d7ab0c3a2ee1e626df043600e319b0266d7995"
+		"linuxclienticon"		"8b55d0ddb47500bd310c0af99fd870137855705a"
+		"clienticon"		"42597a303a0ec6517e6828fe8b73f154df5f14c5"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"KIN"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"47.6740510924588"
+				"height_pct"		"43.827297546214076"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"47.6740510924588"
+					"height_pct"		"43.827297546214076"
+				}
+			}
+		}
+		"store_asset_mtime"		"1564409362"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"House of Secrets"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"House of Secrets"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1513843200"
+		"steam_release_date"		"1570199815"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"879200"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+			"3"		"5395"
+			"4"		"5537"
+			"5"		"21978"
+			"6"		"1625"
+			"7"		"1646"
+			"8"		"3942"
+			"9"		"4182"
+			"10"		"4305"
+		}
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"House of Secrets"
+		"publisher"		"House of Secrets"
+		"homepage"		"http://www.kin-game.com"
+	}
+	"config"
+	{
+		"installdir"		"KIN"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"KIN.exe"
+				"description"		"VR with 2D fallback"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"KIN.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"VR with 2D fallback"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"KIN.exe"
+				"arguments"		"-vrmode none"
+				"description"		"Forced 2D Mode"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"879201"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9042705161889002010"
+					"size"		"2525465862"
+					"download"		"346804048"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4255047"
+				"timeupdated"		"1570132446"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"80000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"House of Secrets/KIN"
+				"pattern"		"*.bin"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"House of Secrets/KIN"
+						"replace"		"House of Secrets/KIN"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"House of Secrets/KIN"
+						"replace"		".config/unity3d/House of Secrets/KIN"
+					}
+				}
+			}
+		}
+	}
+}
