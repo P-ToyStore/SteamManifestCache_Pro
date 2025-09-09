@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"808220"
+	"common"
+	{
+		"name"		"SCP-087 VR Survivor"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"50a48636b42b8a8653d32eae5793613fc4097299"
+		"logo_small"		"50a48636b42b8a8653d32eae5793613fc4097299_thumb"
+		"icon"		"e8aa2432b309e3fa892b5ea9d9441dc9cae66dad"
+		"clienticon"		"b3e57fc4980fad6cadc70696e8ae694bf7a3a230"
+		"clienttga"		"beacef911d6ab06c58a40d2807a1fb8503bc11d1"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"808220_eula_0"
+				"name"		"VR Quest: SCP-087 EULA"
+				"url"		"https://store.steampowered.com//eula/808220_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1710892800"
+			"tested_build_id"		"3510558"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-1RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"SCP-087 VR Survivor"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_eb2db3f3e6465a224949322ee16e5202925f0659.jpg"
+		"store_asset_mtime"		"1548767442"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"AlexTheCreator"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"AlexTheCreator"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"28"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1548732907"
+		"community_hub_visible"		"1"
+		"gameid"		"808220"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"493"
+			"2"		"21"
+			"3"		"599"
+			"4"		"19"
+			"5"		"1667"
+			"6"		"21978"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"AlexTheCreator"
+		"publisher"		"AlexTheCreator"
+	}
+	"config"
+	{
+		"installdir"		"SCP087VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Survivor/SCPSurvivor.exe"
+				"workingdir"		"Survivor"
+				"description"		"SCP-087 VR Survivor"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Stairs/VRQSCP-087.exe"
+				"workingdir"		"Stairs"
+				"description"		"SCP-087 original lore in VR"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"808221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8671055279402971930"
+					"size"		"548040579"
+					"download"		"137585536"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3510558"
+				"timeupdated"		"1548730125"
+			}
+		}
+	}
+}
