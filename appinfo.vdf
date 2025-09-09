@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"434600"
+	"common"
+	{
+		"name"		"Blue Bird"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"ba0348c961a676339a0d99e45d72cf0ba5879d5e"
+		"logo_small"		"ba0348c961a676339a0d99e45d72cf0ba5879d5e_thumb"
+		"clienttga"		"1135acfdf6231589dfb2bbe9e8fc7e2cf786ed10"
+		"clienticon"		"ee1a3b398ae174d7fa0193e647bb16a4f6564b32"
+		"icon"		"bd0cf43915b720667139c7060dbeff33e6e36a51"
+		"clienticns"		"c84435d80a53dac9f07a8eb684f45d09b040cab6"
+		"linuxclienticon"		"0f968a095b5e87cb8b2ddea9a26489fde4faa4a4"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"thai"		"1"
+		}
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Blue Bird"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1785de4f032204ddc6d4864de9a46b5a9c9c5b87.jpg"
+		"store_asset_mtime"		"1469909950"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Deadline Soft"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Deadline Soft"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"73"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"thai"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1492145998"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"434600"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"4667"
+			"2"		"3799"
+			"3"		"4085"
+			"4"		"6650"
+		}
+		"review_score"		"5"
+		"review_percentage"		"46"
+	}
+	"extended"
+	{
+		"developer"		"Deadline Soft"
+		"publisher"		"Deadline Soft"
+		"homepage"		"http://www.deadlinesoft.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Blue Bird"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BlueBird.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BlueBird.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"BlueBird.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,thai"
+		"hasdepotsindlc"		"1"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"434601"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8405452906541918673"
+					"size"		"291461889"
+					"download"		"216303712"
+				}
+				"experiment"
+				{
+					"gid"		"1287264454572471935"
+					"size"		"274829480"
+					"download"		"201403344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1774374"
+				"timeupdated"		"1492840612"
+			}
+			"experiment"
+			{
+				"buildid"		"1946570"
+				"description"		"Experiment Build for Testing and It's Open for everyone (Like a New Function, Fix a bug) Before release it in default branch."
+				"timeupdated"		"1499531096"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"15"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"game/saves/"
+				"pattern"		"*.save"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"game/saves/"
+				"pattern"		"persistent"
+			}
+		}
+	}
+}
