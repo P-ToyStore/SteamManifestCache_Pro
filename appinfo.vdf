@@ -1,0 +1,651 @@
+"appinfo"
+{
+	"appid"		"314230"
+	"common"
+	{
+		"name"		"Rodina"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"ff313ab957c52940d17fc16d6fc6675d10d27b66"
+		"logo_small"		"ff313ab957c52940d17fc16d6fc6675d10d27b66_thumb"
+		"icon"		"9d773b4e26ff323577d8df274a628b1b3cf18edf"
+		"clienticon"		"f5eb998e8422f4b43bb1aba409ccdfa37f74279a"
+		"clienttga"		"de1430045dad66bb40b6908d447fbc415f95a51c"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1668124800"
+			"tested_build_id"		"9054642"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-5"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Rodina"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a433c2c90f2f831a1d8d3dfbedd00d342101051e.jpg"
+		"store_asset_mtime"		"1676356099"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Elliptic Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Elliptic Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1406584973"
+		"community_hub_visible"		"1"
+		"gameid"		"314230"
+		"store_tags"
+		{
+			"0"		"1755"
+			"1"		"3834"
+			"2"		"1695"
+			"3"		"492"
+			"4"		"3810"
+			"5"		"3942"
+			"6"		"19"
+			"7"		"493"
+			"8"		"4182"
+			"9"		"16598"
+			"10"		"21"
+			"11"		"1756"
+			"12"		"3839"
+			"13"		"4166"
+			"14"		"599"
+			"15"		"5125"
+			"16"		"1673"
+			"17"		"1742"
+			"18"		"1734"
+			"19"		"7481"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Elliptic Games"
+		"publisher"		"Elliptic Games"
+		"homepage"		"http://www.elliptic-games.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rodina"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Rodina_Steam.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"314231"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2730282064272070480"
+					"size"		"214045662"
+					"download"		"153049264"
+				}
+				"beta"
+				{
+					"gid"		"2730282064272070480"
+					"size"		"214045662"
+					"download"		"153049264"
+				}
+				"version_1.2.0"
+				{
+					"gid"		"2180245003389649213"
+					"size"		"138465580"
+					"download"		"111251120"
+				}
+				"version_1.2.1"
+				{
+					"gid"		"8815259311756246074"
+					"size"		"138900537"
+					"download"		"111425280"
+				}
+				"version_1.2.2"
+				{
+					"gid"		"6923986980709850734"
+					"size"		"154561653"
+					"download"		"118803632"
+				}
+				"version_1.2.3"
+				{
+					"gid"		"9086788177616306957"
+					"size"		"154560873"
+					"download"		"118803424"
+				}
+				"version_1.2.4"
+				{
+					"gid"		"996581791246844410"
+					"size"		"154724805"
+					"download"		"117711424"
+				}
+				"version_1.2.5"
+				{
+					"gid"		"2553685973925302806"
+					"size"		"152457785"
+					"download"		"117284336"
+				}
+				"version_1.3.0"
+				{
+					"gid"		"996021856823087423"
+					"size"		"152502596"
+					"download"		"117289712"
+				}
+				"version_1.3.1"
+				{
+					"gid"		"2487895831242455830"
+					"size"		"155500152"
+					"download"		"117863520"
+				}
+				"version_1.3.2"
+				{
+					"gid"		"8265257460504476563"
+					"size"		"155686029"
+					"download"		"117893312"
+				}
+				"version_1.3.3"
+				{
+					"gid"		"2510116876475322438"
+					"size"		"158786131"
+					"download"		"118209920"
+				}
+				"version_1.3.4"
+				{
+					"gid"		"6953998542522799489"
+					"size"		"159400560"
+					"download"		"118233296"
+				}
+				"version_1.4.0"
+				{
+					"gid"		"3157347315529085807"
+					"size"		"164648312"
+					"download"		"118669120"
+				}
+				"version_1.4.1"
+				{
+					"gid"		"895970841473149775"
+					"size"		"163267558"
+					"download"		"118470160"
+				}
+				"version_1.4.2"
+				{
+					"gid"		"175925815217974345"
+					"size"		"188597103"
+					"download"		"143109200"
+				}
+				"version_1.5.0"
+				{
+					"gid"		"2415343963635130639"
+					"size"		"189349985"
+					"download"		"143193744"
+				}
+				"version_1.6.0"
+				{
+					"gid"		"4572510296941031764"
+					"size"		"215184340"
+					"download"		"154820032"
+				}
+				"version_1.6.1"
+				{
+					"gid"		"563062526749861335"
+					"size"		"215755380"
+					"download"		"155012800"
+				}
+				"version_1.6.2"
+				{
+					"gid"		"1128806614275280681"
+					"size"		"216549115"
+					"download"		"155112832"
+				}
+				"version_1.6.3"
+				{
+					"gid"		"2043546736512948432"
+					"size"		"217492482"
+					"download"		"155616416"
+				}
+				"version_1.6.4"
+				{
+					"gid"		"5522909666085840427"
+					"size"		"218593372"
+					"download"		"156192560"
+				}
+				"dev"
+				{
+					"gid"		"6059193840278888771"
+					"size"		"230498058"
+					"download"		"158351568"
+				}
+			}
+		}
+		"314232"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8388286966245466834"
+					"size"		"26445824"
+					"download"		"6326144"
+				}
+				"beta"
+				{
+					"gid"		"8388286966245466834"
+					"size"		"26445824"
+					"download"		"6326144"
+				}
+				"version_1.2.0"
+				{
+					"gid"		"5413067032677391573"
+					"size"		"41740800"
+					"download"		"7293664"
+				}
+				"version_1.2.1"
+				{
+					"gid"		"3245786992782881057"
+					"size"		"41968128"
+					"download"		"7340880"
+				}
+				"version_1.2.2"
+				{
+					"gid"		"502542406481280892"
+					"size"		"42445312"
+					"download"		"7432144"
+				}
+				"version_1.2.3"
+				{
+					"gid"		"1561834195681780442"
+					"size"		"20840960"
+					"download"		"4689168"
+				}
+				"version_1.2.4"
+				{
+					"gid"		"426840613585724155"
+					"size"		"21731328"
+					"download"		"5015504"
+				}
+				"version_1.2.5"
+				{
+					"gid"		"6914072166750879225"
+					"size"		"22097408"
+					"download"		"5091664"
+				}
+				"version_1.3.0"
+				{
+					"gid"		"3456487158940581841"
+					"size"		"23745024"
+					"download"		"5454576"
+				}
+				"version_1.3.1"
+				{
+					"gid"		"1796786962116759002"
+					"size"		"23941120"
+					"download"		"5497808"
+				}
+				"version_1.3.2"
+				{
+					"gid"		"5417791538912344019"
+					"size"		"24385024"
+					"download"		"5710480"
+				}
+				"version_1.3.3"
+				{
+					"gid"		"1655103281550216547"
+					"size"		"24894464"
+					"download"		"5880560"
+				}
+				"version_1.3.4"
+				{
+					"gid"		"4885567381864480922"
+					"size"		"25110528"
+					"download"		"5949744"
+				}
+				"version_1.4.0"
+				{
+					"gid"		"1599845633164903917"
+					"size"		"25213440"
+					"download"		"5984208"
+				}
+				"version_1.4.1"
+				{
+					"gid"		"1830490462893910019"
+					"size"		"25224192"
+					"download"		"5984464"
+				}
+				"version_1.4.2"
+				{
+					"gid"		"5064672733354629173"
+					"size"		"25521152"
+					"download"		"6106464"
+				}
+				"version_1.5.0"
+				{
+					"gid"		"6447828572690400243"
+					"size"		"25462784"
+					"download"		"6089648"
+				}
+				"version_1.6.0"
+				{
+					"gid"		"5634756523729083259"
+					"size"		"26290688"
+					"download"		"6278352"
+				}
+				"version_1.6.1"
+				{
+					"gid"		"578286659126325291"
+					"size"		"26350592"
+					"download"		"6293504"
+				}
+				"version_1.6.2"
+				{
+					"gid"		"3178391213331811687"
+					"size"		"26379776"
+					"download"		"6298224"
+				}
+				"version_1.6.3"
+				{
+					"gid"		"7232974350551084230"
+					"size"		"26405888"
+					"download"		"6300128"
+				}
+				"version_1.6.4"
+				{
+					"gid"		"4568414355419698261"
+					"size"		"26435072"
+					"download"		"6313280"
+				}
+				"dev"
+				{
+					"gid"		"8028644001345167468"
+					"size"		"26530304"
+					"download"		"6361008"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10958618"
+				"timeupdated"		"1680918844"
+			}
+			"beta"
+			{
+				"buildid"		"10958618"
+				"timeupdated"		"1680911752"
+			}
+			"version_1.2.0"
+			{
+				"buildid"		"894376"
+				"timeupdated"		"1460849283"
+			}
+			"version_1.2.1"
+			{
+				"buildid"		"1084087"
+				"timeupdated"		"1469936376"
+			}
+			"version_1.2.2"
+			{
+				"buildid"		"1273551"
+				"timeupdated"		"1471399297"
+			}
+			"version_1.2.3"
+			{
+				"buildid"		"1281344"
+				"timeupdated"		"1480199510"
+			}
+			"version_1.2.4"
+			{
+				"buildid"		"1548393"
+				"timeupdated"		"1494390542"
+			}
+			"version_1.2.5"
+			{
+				"buildid"		"1856179"
+				"timeupdated"		"1510624155"
+			}
+			"version_1.3.0"
+			{
+				"buildid"		"2294973"
+				"timeupdated"		"1521167178"
+			}
+			"version_1.3.1"
+			{
+				"buildid"		"2631061"
+				"timeupdated"		"1527020242"
+			}
+			"version_1.3.2"
+			{
+				"buildid"		"2907400"
+				"timeupdated"		"1533067724"
+			}
+			"version_1.3.3"
+			{
+				"buildid"		"2998391"
+				"timeupdated"		"1538088485"
+			}
+			"version_1.3.4"
+			{
+				"buildid"		"3163235"
+				"timeupdated"		"1544076313"
+			}
+			"version_1.4.0"
+			{
+				"buildid"		"3384474"
+				"timeupdated"		"1549064512"
+			}
+			"version_1.4.1"
+			{
+				"buildid"		"3542227"
+				"timeupdated"		"1562908895"
+			}
+			"version_1.4.2"
+			{
+				"buildid"		"4008615"
+				"timeupdated"		"1588451395"
+			}
+			"version_1.5.0"
+			{
+				"buildid"		"6715697"
+				"description"		"version 1.5"
+				"timeupdated"		"1639799478"
+			}
+			"version_1.6.0"
+			{
+				"buildid"		"7923543"
+				"description"		"version 1.6.0"
+				"timeupdated"		"1652762094"
+			}
+			"version_1.6.1"
+			{
+				"buildid"		"8588133"
+				"description"		"version 1.6.1"
+				"timeupdated"		"1652762107"
+			}
+			"version_1.6.2"
+			{
+				"buildid"		"8759567"
+				"description"		"version 1.6.2"
+				"timeupdated"		"1656793518"
+			}
+			"version_1.6.3"
+			{
+				"buildid"		"9054642"
+				"description"		"version 1.6.3"
+				"timeupdated"		"1676346912"
+			}
+			"version_1.6.4"
+			{
+				"buildid"		"10552914"
+				"description"		"version 1.6.4"
+				"timeupdated"		"1681358589"
+			}
+			"dev"
+			{
+				"buildid"		"18060139"
+				"timeupdated"		"1744768075"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"UserData"
+				"pattern"		"*.egs"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"UserData"
+				"pattern"		"*.egi"
+			}
+		}
+	}
+}
