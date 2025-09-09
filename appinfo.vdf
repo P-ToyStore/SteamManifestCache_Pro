@@ -1,0 +1,197 @@
+"appinfo"
+{
+	"appid"		"346490"
+	"common"
+	{
+		"name"		"Toy Wars Invasion"
+		"type"		"Game"
+		"logo"		"36ff119b9afeb348f8e872fd03708ce3aae23fff"
+		"logo_small"		"36ff119b9afeb348f8e872fd03708ce3aae23fff_thumb"
+		"icon"		"fadd1c7737b5c6b86cd36d7db7a0cab9d08f2fad"
+		"clienttga"		"eeb2b72071718f12a43d90eca752d6b39c976b56"
+		"clienticon"		"f0666b87a695375e6619b9d139c2635ed03b66b3"
+		"oslist"		"windows"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1710892800"
+			"tested_build_id"		"661233"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"1"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"1"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Toy Wars Invasion"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e4dc171ea7686fae21f590bc2d50cc0822c96f4b.jpg"
+		"store_asset_mtime"		"1423370640"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Web Interactive Solutions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Web Interactive Solutions"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1432854025"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"346490"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Web Interactive Solutions"
+		"publisher"		"Web Interactive Solutions"
+		"homepage"		"http://www.toywarsinvasion.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Toy Wars Invasion"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"\\binaries\\Win32\\ToyWarsInvasion.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"346491"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4656377333765464865"
+					"size"		"2164765961"
+					"download"		"1471716912"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"661233"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"5"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"UDKGame\\Config"
+				"pattern"		"UDKTWConfig.ini"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"UDKGame\\Config"
+				"pattern"		"UDKTWConfig2.ini"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"UDKGame\\Config"
+				"pattern"		"UDKTWConfig3.ini"
+			}
+		}
+	}
+}
