@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"1022170"
+	"common"
+	{
+		"name"		"VehiCraft"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1022170_eula_0"
+				"name"		"VehiCraft EULA"
+				"url"		"https://store.steampowered.com//eula/1022170_eula_0"
+			}
+		}
+		"logo"		"617eb80f81af2031896d106862db6fa29309b649"
+		"logo_small"		"617eb80f81af2031896d106862db6fa29309b649_thumb"
+		"icon"		"e490103a7ba6c8d541c645eed46cdf103f653162"
+		"clienticon"		"04ff54a361a36f081b664010c1d97bd9a07609bc"
+		"clienttga"		"ccb1449b01bb80d02682cbc39cba9c8aa10bdb40"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"VehiCraft"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_dcd5479d49ce1747a4f409db0f63d29e14e48ef8.jpg"
+		"store_asset_mtime"		"1554353780"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Heart Fragment Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Heart Fragment Studio"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1553281132"
+		"community_hub_visible"		"1"
+		"gameid"		"1022170"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"493"
+			"2"		"597"
+			"3"		"599"
+			"4"		"3810"
+			"5"		"13276"
+			"6"		"1643"
+			"7"		"19"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Heart Fragment Studio"
+		"publisher"		"Heart Fragment Studio"
+	}
+	"config"
+	{
+		"installdir"		"VehiCraft"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Windows/32 bits/VehiCraft32.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"Windows/64 bits/VehiCraft64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"1022170"
+		"1022171"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2101144415135146806"
+					"size"		"550708262"
+					"download"		"116172688"
+				}
+				"pre-released"
+				{
+					"gid"		"2101144415135146806"
+					"size"		"550708262"
+					"download"		"116172688"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3705471"
+				"timeupdated"		"1554353204"
+			}
+			"pre-released"
+			{
+				"buildid"		"3705471"
+				"description"		"Test branch"
+				"timeupdated"		"1554303863"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000000000"
+		"maxnumfiles"		"5000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Windows/32 bits/VehiCraft32_Data/Garage/USER_VEHICLES"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Windows/64 bits/VehiCraft64_Data/Garage/USER_VEHICLES"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
