@@ -1,0 +1,258 @@
+"appinfo"
+{
+	"appid"		"787720"
+	"common"
+	{
+		"name"		"Block'hood VR"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"a8318c1d3b6c5cfb7e8b2ff5be6d3e65ce35b3dc"
+		"logo_small"		"a8318c1d3b6c5cfb7e8b2ff5be6d3e65ce35b3dc_thumb"
+		"icon"		"ac51581fb47cce4a505b9b462327f10c409d56b0"
+		"clienticon"		"da7f9526cad3c897f7bfe23a07a175ddea827cca"
+		"clienttga"		"ccc12461925ac06220210c77ce0e66c47508e5a7"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"0"
+			"test_timestamp"		"1644278400"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+				}
+			}
+			"steamos_tests"
+			{
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Block'hood VR"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7ac5dc67a5d33f779feca7de454f94dc71716566.jpg"
+		"store_asset_mtime"		"1524008568"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Plethora-Project"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"General Arcade"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Devolver Digital"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1524156567"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"787720"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"9"
+			"2"		"492"
+			"3"		"21978"
+		}
+		"review_score"		"4"
+		"review_percentage"		"25"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Plethora-Project"
+		"publisher"		"Devolver Digital"
+		"homepage"		"https://www.plethora-project.com/blockhood"
+	}
+	"config"
+	{
+		"installdir"		"Block'hood VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BLOCKHOOD VR v0_1_2.exe"
+				"description"		"Autodetect"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"BLOCKHOOD VR v0_1_2.exe"
+				"arguments"		"-vrmode openvr"
+				"description"		"HTC Vive"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"BLOCKHOOD VR v0_1_2.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"Oculus Rift"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"787721"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8275421294712220737"
+					"size"		"2829642680"
+					"download"		"451689792"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2703201"
+				"timeupdated"		"1524141921"
+			}
+		}
+	}
+}
