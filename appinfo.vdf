@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"1096690"
+	"common"
+	{
+		"name"		"Mighty Fight Federation"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"0ade734ae7a9433ed406e92842ee0fbefde73b78"
+		"logo_small"		"0ade734ae7a9433ed406e92842ee0fbefde73b78_thumb"
+		"icon"		"075bb10ec2533493659c4c2e38718d63220cb411"
+		"clienticon"		"609ddd554728c6e7ccdef1a599e7eeac6d67c8f4"
+		"clienttga"		"8a76acd3a6ef0c1d26bb371c87351e59485272d8"
+		"clienticns"		"c0c13b05f190d40f863423eb3a3c88687e12c9ad"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1614709880"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Komi Games Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Forthright Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_44"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1614585600"
+		"steam_release_date"		"1614377334"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1096690"
+		"store_tags"
+		{
+			"0"		"4777"
+			"1"		"6506"
+			"2"		"4158"
+			"3"		"6915"
+			"4"		"1743"
+			"5"		"1775"
+			"6"		"1773"
+			"7"		"4191"
+			"8"		"7481"
+			"9"		"19"
+			"10"		"4085"
+			"11"		"4305"
+			"12"		"1719"
+			"13"		"6691"
+			"14"		"3916"
+			"15"		"4004"
+			"16"		"3993"
+			"17"		"4840"
+			"18"		"3859"
+			"19"		"7368"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Komi Games Inc."
+		"publisher"		"Forthright Entertainment"
+		"homepage"		"http://www.fightmighty.com"
+		"listofdlc"		"1700750"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"MightyFight"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"mff.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1096691"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3231100287185024841"
+					"size"		"3375729814"
+					"download"		"2270098896"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7817906"
+				"timeupdated"		"1638490733"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"32000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Komi Games/Mighty Fight/{64BitSteamID}"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Komi Games/Mighty Fight/{64BitSteamID}"
+						"replace"		"com.komi.mightyfight/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
