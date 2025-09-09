@@ -1,0 +1,279 @@
+"appinfo"
+{
+	"appid"		"218860"
+	"common"
+	{
+		"name"		"Cabela's® Dangerous Hunts 2013"
+		"type"		"Game"
+		"logo"		"3087e86ab0c6a8a76f720e67fed9eb1697679d5e"
+		"logo_small"		"3087e86ab0c6a8a76f720e67fed9eb1697679d5e_thumb"
+		"clienttga"		"98a0e24f27d7fa6685a50182968cf3a7bc3ac615"
+		"clienticon"		"cf50018bf08541713e0464b8b15301764d2357a2"
+		"icon"		"0d3d46f4cb349bba8c69eb0e8dc89e1be6ec9d4d"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+		}
+		"metacritic_name"		"Cabela's® Dangerous Hunts 2013"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a0c0ec7efecb4492855fe2c409fbea01a74bc925.jpg"
+		"store_asset_mtime"		"1358981865"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cauldron"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Activision"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1350964800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"218860"
+		"store_tags"
+		{
+			"0"		"13190"
+			"1"		"9564"
+			"2"		"19"
+		}
+		"review_score"		"5"
+		"review_percentage"		"42"
+	}
+	"extended"
+	{
+		"developer"		"Cauldron"
+		"gamedir"		"ValveTestApp218860"
+		"homepage"		"http://www.activisionhunts.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Activision"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Cabela's Dangerous Hunts"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dh_2013.exe"
+			}
+		}
+		"installscriptsignature"		"97f98c6155dd2d0b09ff35aef0952013ce42af841d7f2368cebd736c6428d60dc04dd1b6b62168ae31bf051c334afc3ff268d84afb33c985f815ffda861e279ece1773857c61658509b2b4379405d18c02737354974121c630df164bd623f72692613f084639892722aabb2c369f9c053b85cc5b83c9b3ea002db6bc8780b749"
+		"installscriptoverride"		"1"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100B5A19DFC9BCB7480277C78B8E6ABD47A30CC3CED3F92F7CEA0D7E3FFACF4A07C3E5C6F3A6E429529E17A272E0EB06D920103490AC093B1EE13D58517F2475021994B20AC232BD4090A41DF81996B68D4DCCB88EF84ED1AE6113BC0C267447E02A0D28F9E3AE01A60C11525534C87325AE34B2A94EC7237687EB810F51ECF8FF9020111"
+		"checkguid"		"CloakNTEngine.dll"
+		"checkguids"		"cloakntengine.dll"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\activision\cabela's dangerous hunts 2013"
+			{
+				"string"
+				{
+					"installpath"		"%INSTALLDIR%"
+					"version"		"1.0"
+					"spexepath"		"%INSTALLDIR%\\dh_2013.exe"
+					"english"
+					{
+						"language"		"ENU"
+					}
+					"french"
+					{
+						"language"		"FRA"
+					}
+					"italian"
+					{
+						"language"		"ITA"
+					}
+					"german"
+					{
+						"language"		"DEU"
+					}
+					"spanish"
+					{
+						"language"		"ESP"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\218860"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_x86.exe"
+				"command 1"		"/passive /norestart"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\218860"
+				"process 1"		"%INSTALLDIR%\\Redist\\DirectX\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"218861"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3483681758900523739"
+					"size"		"223744"
+					"download"		"0"
+				}
+			}
+		}
+		"218862"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1183186953737365727"
+					"size"		"5992058040"
+					"download"		"0"
+				}
+			}
+		}
+		"218863"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4395565968145888038"
+					"size"		"3"
+					"download"		"0"
+				}
+			}
+		}
+		"218864"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"340436061243440691"
+					"size"		"3"
+					"download"		"0"
+				}
+			}
+		}
+		"218865"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1479582931556564247"
+					"size"		"3"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21671"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"2000000"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"/Cabela's DH 2013"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
