@@ -1,0 +1,298 @@
+"appinfo"
+{
+	"appid"		"408340"
+	"common"
+	{
+		"name"		"Gravity Lab"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+			"seated"		"1"
+		}
+		"logo"		"da718034e7d36474afd48f086bf23662de3871c4"
+		"logo_small"		"da718034e7d36474afd48f086bf23662de3871c4_thumb"
+		"icon"		"49d7f002ae714ec4af885f4f40bd19c71056865c"
+		"clienttga"		"728ee41cb214844da2424b7638eefb00e043c795"
+		"clienticon"		"ab959d1378015899a48f3a26a043169d9fe1c678"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"408340_eula_0"
+				"name"		"GravLab - Gravitational Testing Facility & Observations EULA"
+				"url"		"http://store.steampowered.com//eula/408340_eula_0"
+			}
+		}
+		"osarch"		""
+		"openvr_action_manifest_path"		"actions.json"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Gravity Lab - Gravitational Testing Facility &amp;amp; Observations"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"1"
+				"height_pct"		"2"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"1"
+					"height_pct"		"2"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1658220501"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mark Schramm"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mark Schramm"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_31"		"1"
+			"category_17"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1477033200"
+		"steam_release_date"		"1495106286"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"408340"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"599"
+			"2"		"21978"
+			"3"		"1664"
+			"4"		"3968"
+			"5"		"3810"
+			"6"		"492"
+			"7"		"3834"
+			"8"		"16689"
+			"9"		"3839"
+			"10"		"1719"
+			"11"		"3942"
+			"12"		"8122"
+			"13"		"4182"
+			"14"		"1755"
+			"15"		"1756"
+			"16"		"493"
+		}
+		"review_score"		"7"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"vrheadsetstreaming"		"1"
+		"developer"		"Mark Schramm"
+		"publisher"		"Mark Schramm"
+		"homepage"		"http://www.GravitationalTestingFacilityAndObservations.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"GravityLab"
+		"vrsupport"		"openvr"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GravLab.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Gravity Lab"
+				}
+				"description"		"Gravity Lab"
+			}
+			"1"
+			{
+				"executable"		"GravLab.exe"
+				"arguments"		"-vrmode Oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Force Oculus backend"
+				}
+				"description"		"Force Oculus backend"
+			}
+			"2"
+			{
+				"executable"		"GravLab.exe"
+				"arguments"		"-vrmode OpenVR"
+				"type"		"none"
+				"description_loc"
+				{
+					"english"		"Force OpenVR backend"
+				}
+				"description"		"Force OpenVR backend"
+			}
+		}
+	}
+	"depots"
+	{
+		"408341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4300598081509254671"
+					"size"		"2786059658"
+					"download"		"715435056"
+				}
+				"beta"
+				{
+					"gid"		"4300598081509254671"
+					"size"		"2786059658"
+					"download"		"715435056"
+				}
+				"historicbuild"
+				{
+					"gid"		"7387703084304766351"
+					"size"		"1080732527"
+					"download"		"132650160"
+				}
+				"previousrelease"
+				{
+					"gid"		"3943280149426141375"
+					"size"		"2751881194"
+					"download"		"742588528"
+				}
+			}
+		}
+		"workshopdepot"		"408340"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7202634"
+				"timeupdated"		"1629203260"
+			}
+			"beta"
+			{
+				"buildid"		"7202634"
+				"timeupdated"		"1629203278"
+			}
+			"historicbuild"
+			{
+				"buildid"		"819656"
+				"timeupdated"		"1597410545"
+			}
+			"previousrelease"
+			{
+				"buildid"		"6728255"
+				"timeupdated"		"1629200231"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"100"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
