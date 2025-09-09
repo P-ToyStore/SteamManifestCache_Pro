@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"777760"
+	"common"
+	{
+		"name"		"Charlie II"
+		"type"		"Game"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"dutch"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"icon"		"1695b9e283a787a7880698c82e453d0d567e33c9"
+		"logo"		"5095f61dd8e669ddd62dfa0459d2a21268afddf8"
+		"logo_small"		"5095f61dd8e669ddd62dfa0459d2a21268afddf8_thumb"
+		"clienttga"		"01c105c6d71801aa568159a70fec38722c2101ab"
+		"clienticon"		"9c5a97bf6f79fca46c29885f62687bc4198df748"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Charlie II"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1aa6fa135b264a1f30e8797f9ac7065e55e9f074.jpg"
+		"store_asset_mtime"		"1518132679"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mike Wiering"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Wiering Software"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1519059778"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"777760"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"21"
+			"3"		"492"
+			"4"		"1625"
+			"5"		"3871"
+			"6"		"4004"
+			"7"		"3964"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"developer"		"Mike Wiering"
+		"publisher"		"Wiering Software"
+		"listofdlc"		"851360"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Charlie II"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Charlie2.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,dutch"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"777761"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"829824055790653969"
+					"size"		"32310641"
+					"download"		"30255760"
+				}
+			}
+		}
+		"851360"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2285390837637378196"
+					"size"		"281519"
+					"download"		"143264"
+				}
+			}
+			"dlcappid"		"851360"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5962697"
+				"timeupdated"		"1607907738"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000"
+		"maxnumfiles"		"4"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.SAV"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.INI"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
