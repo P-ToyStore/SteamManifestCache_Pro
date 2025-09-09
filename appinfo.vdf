@@ -1,0 +1,278 @@
+"appinfo"
+{
+	"appid"		"1161220"
+	"common"
+	{
+		"name"		"Time Squared"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1161220_eula_0"
+				"name"		"Time Squared EULA"
+				"url"		"https://store.steampowered.com//eula/1161220_eula_0"
+			}
+		}
+		"logo"		"381eab6ad96232b7a74bd4069c13f4590f4398c8"
+		"logo_small"		"381eab6ad96232b7a74bd4069c13f4590f4398c8_thumb"
+		"icon"		"f281c94e9801d7d7fd76cd3d82eed5c827d37e96"
+		"clienttga"		"b423974ba063a6b8c5ec16103927315136902099"
+		"linuxclienticon"		"35a18e3adb64b9fd964462dea52aceccd2f614fc"
+		"clienticns"		"5621af8720c642addceaf9ef34fe58ae615cc516"
+		"clienticon"		"35a18e3adb64b9fd964462dea52aceccd2f614fc"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"metacritic_name"		"Time Squared"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"40.303813833225604"
+				"height_pct"		"48.263888888888914"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"40.303813833225604"
+					"height_pct"		"48.263888888888914"
+				}
+			}
+		}
+		"store_asset_mtime"		"1573390772"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FUSIS Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FUSIS Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Time Squared"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1573459200"
+		"steam_release_date"		"1573426856"
+		"community_hub_visible"		"1"
+		"gameid"		"1161220"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+			"3"		"493"
+			"4"		"1663"
+			"5"		"1695"
+			"6"		"1774"
+		}
+	}
+	"extended"
+	{
+		"developer"		"FUSIS Games"
+		"publisher"		"FUSIS Games"
+		"homepage"		"https://timesquared.games"
+	}
+	"config"
+	{
+		"installdir"		"Time Squared"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		".\\bin\\win_x64_release\\TimeSquared.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"launch.bat"
+				"description"		"Test Branch"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"testingbranch"
+				}
+			}
+			"3"
+			{
+				"executable"		".\\bin\\win_x64_release\\GameLauncher.exe"
+				"description"		"DO NOT USE THIS ONE"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"testingbranch"
+				}
+			}
+			"4"
+			{
+				"executable"		"TimeSquared.exe"
+				"description"		"Unity Test Branch"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"newtestingbranch"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1161221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1628888149409632518"
+					"size"		"35101997092"
+					"download"		"17935716976"
+				}
+			}
+		}
+		"1161222"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4383981"
+				"timeupdated"		"1576742183"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
