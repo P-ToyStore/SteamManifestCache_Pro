@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"214210"
+	"common"
+	{
+		"name"		"Cabela's® Hunting Expeditions"
+		"type"		"Game"
+		"clienticon"		"35a22dcaf0332b456daa77ef4c725323b555871b"
+		"clienttga"		"84dca845ce41f10471a6cbe9770d54863caade18"
+		"icon"		"954561a430bea6d9617930ca11425652eeeef718"
+		"logo"		"3b61e29fd34a6b2a2a924652bfd257bea1a39849"
+		"logo_small"		"3b61e29fd34a6b2a2a924652bfd257bea1a39849_thumb"
+		"metacritic_name"		"Cabela's Hunting Expedition"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4dcd3f60437c73eaf2a5078eaede60c55062ec96.jpg"
+		"store_asset_mtime"		"1360005419"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fun Labs"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Activision"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1350964800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"214210"
+		"store_tags"
+		{
+			"0"		"9564"
+			"1"		"13190"
+		}
+		"review_score"		"4"
+		"review_percentage"		"24"
+	}
+	"extended"
+	{
+		"developer"		"Fun Labs"
+		"gamedir"		"ValveTestApp214210"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Activision"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Cabela's Hunting Expedition"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/CSA2_Main.exe"
+				"description"		"Launch"
+				"workingdir"		"bin"
+			}
+		}
+		"installscriptsignature"		"7d5757ab755fbf7ea582fa280c71315fb710b28c44b13a884799e3ddd451699bbac03d24c871708b8c37d636b61dd2b7a14c22da840c4a361ef3798275f8ef5a2725843ab9fc58baac6740dfffbb481f700423b12a7492282f47e4a026a7886ac3b6f3db292f7eb0c16f3e05caa4ae09c8940096cce8d98d8fb3f9f65c3d06cb"
+		"installscriptoverride"		"1"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100AB63F50FD27CB0DA0F94BB9A6AE4F69FBF49B679887EAF7061689EC0DB7709B866FF7F51B074A8254DD791E207977FC6A1418325ADB76745BB7ED401A3000E785E56D2DD62B39EAEA68D3FBF1781EE570CCE87F80B46329BDE1C8D334BD5EF598CDF4B771786D6168CA111053E252D96EAECF8A814F4EBD86A1E26CC6186FAFF020111"
+		"checkguid"		"GameDll10r.dll"
+		"checkguids"		"gamedll10r.dll"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\activision\cabelas hunting expeditions"
+			{
+				"string"
+				{
+					"installpath"		"%INSTALLDIR%"
+					"exepath"		"%INSTALLDIR%\\bin\\CSA2_Main.exe"
+				}
+			}
+			"hkey_local_machine\software\activision\cabelas hunting expeditions"
+			{
+				"string"
+				{
+					"english"
+					{
+						"language"		"ENU"
+					}
+					"french"
+					{
+						"language"		"FRA"
+					}
+					"italian"
+					{
+						"language"		"ITA"
+					}
+					"german"
+					{
+						"language"		"DEU"
+					}
+					"spanish"
+					{
+						"language"		"ESP"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214210"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/passive /norestart"
+				"nocleanup"		"1"
+			}
+			"dotnet_3_5_sp1"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214210"
+				"process 1"		"%INSTALLDIR%\\redist\\dotnetfx35_SP1.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\214210"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"214211"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2400196304699538734"
+					"size"		"3795968"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"4292164960026536037"
+					"size"		"3795968"
+					"download"		"0"
+				}
+			}
+		}
+		"214212"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"447812748884640799"
+					"size"		"5233654768"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"1886538147278972584"
+					"size"		"5233654768"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18383"
+			}
+			"local"
+			{
+				"buildid"		"18269"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"4"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"all"
+				}
+			}
+		}
+	}
+}
