@@ -1,0 +1,363 @@
+"appinfo"
+{
+	"appid"		"80000"
+	"common"
+	{
+		"name"		"APOX"
+		"logo"		"4fdb56ce91dcbb8ebcf46a81e5d60ba1ab6ea9ec"
+		"logo_small"		"4fdb56ce91dcbb8ebcf46a81e5d60ba1ab6ea9ec_thumb"
+		"icon"		"6639f3a4b14b7e998995e560200e2e590773eb10"
+		"clienttga"		"a63c6f225376b1dfab771f2fdedecedfed5a66ec"
+		"clienticon"		"a16266e9f9495c51b613fcc9cd35e7c9cebdffc9"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+		}
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"APOX"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5c3eacb6b75ff38704c999dd529c2f3f2c4a9ffd.jpg"
+		"store_asset_mtime"		"1295483575"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BlueGiant Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BlueGiant Interactive"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1295548200"
+		"metacritic_score"		"48"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/apox?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"80000"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"492"
+			"3"		"1676"
+			"4"		"3835"
+		}
+		"review_score"		"4"
+		"review_percentage"		"28"
+	}
+	"extended"
+	{
+		"developer"		"BlueGiant Interactive"
+		"gamedir"		"APOX"
+		"homepage"		"http://www.apoxgame.com/"
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"80001"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"BlueGiant Interactive"
+		"listofdlc"		"80010"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installscriptsignature"		"2f2b410960a7afb9aad292aefb22f44340cddbab409baf7de408c545434391500b22e5df6e8396a57b052de5af3235d4d0bb6ac1f7acf007b78052076c91eee0ad6dc008329f81d290e10218f9e2cadf092bc3742aa7ca5fd6656b01268c15b822460927f6a593274fa9c601a4fb40aacebb72f84beed14d6de333833d773e11"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"APOX"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GameClient/APOX.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\80000"
+				"process 1"		"%INSTALLDIR%\\GameClient\\DirectX\\dxsetup.exe"
+				"command 1"		"/silent"
+			}
+		}
+	}
+	"depots"
+	{
+		"80001"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4508644656366137518"
+					"size"		"2800151133"
+					"download"		"0"
+				}
+				"private"
+				{
+					"gid"		"4508644656366137518"
+					"size"		"2800151133"
+					"download"		"0"
+				}
+			}
+		}
+		"80010"
+		{
+			"optional"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6712240923405592227"
+					"size"		"340585983"
+					"download"		"0"
+				}
+				"private"
+				{
+					"gid"		"6712240923405592227"
+					"size"		"340585983"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"80010"
+		}
+		"80002"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3428755217767166035"
+					"size"		"106218070"
+					"download"		"0"
+				}
+				"private"
+				{
+					"gid"		"3428755217767166035"
+					"size"		"106218070"
+					"download"		"0"
+				}
+			}
+		}
+		"80003"
+		{
+			"config"
+			{
+				"language"		"portuguese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3920860039182087946"
+					"size"		"59318952"
+					"download"		"0"
+				}
+				"private"
+				{
+					"gid"		"3920860039182087946"
+					"size"		"59318952"
+					"download"		"0"
+				}
+			}
+		}
+		"80004"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5583481467188641765"
+					"size"		"66367171"
+					"download"		"0"
+				}
+				"private"
+				{
+					"gid"		"5583481467188641765"
+					"size"		"66367171"
+					"download"		"0"
+				}
+			}
+		}
+		"80005"
+		{
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2919114597160890474"
+					"size"		"65975601"
+					"download"		"0"
+				}
+				"private"
+				{
+					"gid"		"2919114597160890474"
+					"size"		"65975601"
+					"download"		"0"
+				}
+			}
+		}
+		"80006"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7974294280772043152"
+					"size"		"71431945"
+					"download"		"0"
+				}
+				"private"
+				{
+					"gid"		"7974294280772043152"
+					"size"		"71431945"
+					"download"		"0"
+				}
+			}
+		}
+		"80007"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4399439934794163986"
+					"size"		"73954534"
+					"download"		"0"
+				}
+				"private"
+				{
+					"gid"		"4399439934794163986"
+					"size"		"73954534"
+					"download"		"0"
+				}
+			}
+		}
+		"80008"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2797129933964987039"
+					"size"		"119144753"
+					"download"		"0"
+				}
+				"private"
+				{
+					"gid"		"2797129933964987039"
+					"size"		"119144753"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19814"
+			}
+			"private"
+			{
+				"buildid"		"19814"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
