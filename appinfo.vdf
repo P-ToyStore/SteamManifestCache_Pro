@@ -1,0 +1,288 @@
+"appinfo"
+{
+	"appid"		"1749980"
+	"common"
+	{
+		"name"		"Somni"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"49278a5da32ea320623865273241cfdf70401e88"
+		"logo_small"		"49278a5da32ea320623865273241cfdf70401e88_thumb"
+		"icon"		"d451baec92daa46290317c158a7024f063d6134b"
+		"clienttga"		"e78a19edd5f365155e05c187f153dba460a309e7"
+		"clienticon"		"0ab97e0009ed1576e2cc3b52510ee7dde8045437"
+		"openvr_action_manifest_path"		"Somni/Config/SteamVRBindings/steamvr_manifest.json"
+		"openxrsupport"		"1"
+		"openvrsupport"		"1"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"66.57577679137603"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"66.57577679137603"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1663035072"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Antler"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Antler"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_23"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1633784663"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1749980"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"4191"
+			"2"		"1667"
+			"3"		"21978"
+			"4"		"3839"
+			"5"		"4175"
+			"6"		"9541"
+			"7"		"3859"
+			"8"		"8369"
+			"9"		"3843"
+			"10"		"10808"
+			"11"		"3978"
+			"12"		"492"
+			"13"		"19"
+			"14"		"493"
+			"15"		"3968"
+			"16"		"8945"
+			"17"		"4182"
+			"18"		"29855"
+			"19"		"3934"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Antler"
+		"publisher"		"Antler"
+		"homepage"		"https://antlercrew.weebly.com/"
+	}
+	"config"
+	{
+		"installdir"		"Somni"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Somni.exe"
+				"arguments"		"vrcalibratemap -vr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Somni.exe"
+				"arguments"		"-nohmd"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1749981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5941058713816342213"
+					"size"		"7608166978"
+					"download"		"6318178096"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9574711"
+				"timeupdated"		"1663901289"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Somni"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
