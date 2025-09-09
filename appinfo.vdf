@@ -1,0 +1,253 @@
+"appinfo"
+{
+	"appid"		"1938290"
+	"common"
+	{
+		"name"		"Vactics"
+		"type"		"Game"
+		"clienticon"		"55f01823cb48863ba8f7269bbf9707730a3237c2"
+		"clienttga"		"58ed91248766cb58c6e53b59e65d2515979afdec"
+		"icon"		"c439a358425d67388ae9c20c046c194da548fd8a"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"52.79069767441864"
+				"height_pct"		"39.36119686535267"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"52.79069767441864"
+					"height_pct"		"39.36119686535267"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1693521671"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Lemur Conspiracy"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"The Lemur Conspiracy"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1687244572"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1938290"
+		"store_tags"
+		{
+			"0"		"14139"
+			"1"		"3959"
+			"2"		"3964"
+			"3"		"1708"
+			"4"		"5125"
+			"5"		"5752"
+			"6"		"6730"
+			"7"		"9"
+			"8"		"12057"
+			"9"		"1716"
+			"10"		"3871"
+			"11"		"4821"
+			"12"		"3835"
+			"13"		"7481"
+			"14"		"3942"
+			"15"		"1717"
+			"16"		"4295"
+			"17"		"4182"
+		}
+		"review_score"		"8"
+		"review_percentage"		"98"
+	}
+	"extended"
+	{
+		"developer"		"The Lemur Conspiracy"
+		"publisher"		"The Lemur Conspiracy"
+		"homepage"		"https://vacticsgame.com"
+	}
+	"config"
+	{
+		"installdir"		"Vactics"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Vactics.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Vactics.app"
+				"workingdir"		"standaloneBuild"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1938292"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5299122566285103768"
+					"size"		"449304752"
+					"download"		"235372496"
+				}
+			}
+		}
+		"1938293"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"961698430832926170"
+					"size"		"489092491"
+					"download"		"256754288"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15723141"
+				"timeupdated"		"1728194728"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"3000000"
+		"maxnumfiles"		"200"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"path"		"The Lemur Conspiracy/Vactics/"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"The Lemur Conspiracy/Vactics/"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
