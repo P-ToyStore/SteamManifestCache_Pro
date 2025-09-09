@@ -1,0 +1,245 @@
+"appinfo"
+{
+	"appid"		"1572220"
+	"common"
+	{
+		"name"		"Guns and Grapples"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"027fb6ba7a02b1241e9f18881a38efef4d2c25f0"
+		"logo"		"c28a3f3891f4b687fc236f7e7a5c31cdb23df7b4"
+		"logo_small"		"c28a3f3891f4b687fc236f7e7a5c31cdb23df7b4_thumb"
+		"clienticon"		"27b33d51debc61b470195ed0cfffe9adf4505339"
+		"clienttga"		"359a3d3d49ca56eaacb626069d8b51fff4a673c8"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1624218497"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bit Shifters"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bit Shifters"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1635775397"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1572220"
+		"store_tags"
+		{
+			"0"		"3877"
+			"1"		"19"
+			"2"		"4255"
+			"3"		"3968"
+			"4"		"4026"
+			"5"		"3993"
+			"6"		"1688"
+			"7"		"5379"
+			"8"		"5390"
+			"9"		"4758"
+			"10"		"1646"
+			"11"		"4036"
+			"12"		"597"
+			"13"		"4182"
+			"14"		"4885"
+			"15"		"1773"
+			"16"		"1774"
+			"17"		"4562"
+			"18"		"4136"
+			"19"		"1625"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Bit Shifters"
+		"publisher"		"Bit Shifters"
+	}
+	"config"
+	{
+		"installdir"		"Guns and Grapples"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Guns n Grapples.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1572221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3231542096073322212"
+					"size"		"445313291"
+					"download"		"65562080"
+				}
+			}
+		}
+		"1572222"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7596021"
+				"timeupdated"		"1635188696"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"120000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"The Bit Shifters/Guns n Grapples"
+				"pattern"		"CampaignData.sav"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"The Bit Shifters/Guns n Grapples"
+				"pattern"		"CustomSeedData.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"The Bit Shifters\\Guns n Grapples"
+						"replace"		"unity.TheBitShifters/GunsnGrapples"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"The Bit Shifters/Guns n Grapples"
+						"replace"		".config/unity3d/TheBitShifters/GunsnGrapples"
+					}
+				}
+			}
+		}
+	}
+}
