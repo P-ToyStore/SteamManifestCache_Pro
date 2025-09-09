@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"1165020"
+	"common"
+	{
+		"name"		"Legend of Everything"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"045a5f21acfec8265a02816cffcbdf8fb7f7607c"
+		"clienttga"		"ab3ce1116a18b2e7ececcac23570959ed2551140"
+		"icon"		"6f717ff3be5048d852e31582acc21badf73a0e98"
+		"logo"		"d5084271b5dc32a62c338805ccd110f81b072c10"
+		"logo_small"		"d5084271b5dc32a62c338805ccd110f81b072c10_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"metacritic_name"		"Legend of Everything"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"98.95995645221655"
+				"height_pct"		"80.76326110516368"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"98.95995645221655"
+					"height_pct"		"80.76326110516368"
+				}
+			}
+		}
+		"store_asset_mtime"		"1571675788"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kidalang"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Culture Select"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1573264779"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1165020"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+			"2"		"492"
+			"3"		"6650"
+			"4"		"3799"
+			"5"		"4085"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Kidalang"
+		"publisher"		"Culture Select"
+	}
+	"config"
+	{
+		"installdir"		"Legend of Everything"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LegendofEverything.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LegendofEverything.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"LegendofEverything.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1165021"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4386296387027660053"
+					"size"		"432333311"
+					"download"		"348360864"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4289982"
+				"timeupdated"		"1571161996"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"300"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"RenPy/LegendofEverything-1555090331"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"RenPy/LegendofEverything-1555090331"
+						"replace"		"Library/RenPy/LegendofEverything-1555090331"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"RenPy/LegendofEverything-1555090331"
+						"replace"		".renpy/LegendofEverything-1555090331"
+					}
+				}
+			}
+		}
+	}
+}
