@@ -1,0 +1,188 @@
+"appinfo"
+{
+	"appid"		"677040"
+	"common"
+	{
+		"name"		"Cloudborn"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"clienticon"		"d28778f2a64c470a3ef26c196177df6289416272"
+		"icon"		"09cf4acf244267ebc9170fa6ded878297825c135"
+		"logo"		"fdb042f90b2eb2c7090725899ec348c8eeb12580"
+		"logo_small"		"fdb042f90b2eb2c7090725899ec348c8eeb12580_thumb"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"677040_eula_0"
+				"name"		"Cloudborn EULA"
+				"url"		"http://store.steampowered.com//eula/677040_eula_0"
+			}
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Cloudborn"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b56e462999fad019cba32a748f11b545d44305ba.jpg"
+		"store_asset_mtime"		"1519911599"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Logtown Studios AB"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Logtown Studios AB"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1519986981"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"677040"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"21978"
+		}
+		"review_score"		"5"
+		"review_percentage"		"51"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Logtown Studios AB"
+		"publisher"		"Logtown Studios AB"
+		"homepage"		"http://www.logtownstudios.com/games/cloudborn/"
+	}
+	"config"
+	{
+		"installdir"		"Cloudborn"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cloudborn.exe"
+				"arguments"		"-vrmode OpenVR"
+				"description"		"Cloudborn"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cloudborn.exe"
+				"arguments"		"-vrmode Oculus"
+				"description"		"Cloudborn"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"677041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1352345445364800818"
+					"size"		"5021097314"
+					"download"		"1491020400"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2570129"
+				"timeupdated"		"1519986947"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"LogtownStudios/Cloudborn/saved/saves/{Steam3AccountID}/"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
