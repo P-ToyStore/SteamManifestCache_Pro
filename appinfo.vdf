@@ -1,0 +1,196 @@
+"appinfo"
+{
+	"appid"		"504470"
+	"common"
+	{
+		"name"		"Salvaged"
+		"type"		"Game"
+		"oslist"		"windows"
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"logo"		"5103a727d991c8d369474f6e604d77f7104db232"
+		"logo_small"		"5103a727d991c8d369474f6e604d77f7104db232_thumb"
+		"controllervr"
+		{
+			"kbm"		"1"
+			"xinput"		"1"
+		}
+		"icon"		"46bb69d8c6ef69d5f98ed3a375f7e2cc6a6d5918"
+		"clienticon"		"e5a75432adfd2e0203681664114a6d6c23b9cde2"
+		"clienttga"		"449a5c10384e3a911e8b477f186d1423c48e30c2"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Salvaged"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_65f98a9c68bdd14cc5efb1df46ab84bc5729dbe3.jpg"
+		"store_asset_mtime"		"1478260922"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Opposable Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Opposable Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"2"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1479376910"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"504470"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"493"
+		}
+		"review_score"		"5"
+		"review_percentage"		"42"
+	}
+	"extended"
+	{
+		"developer"		"Opposable Games"
+		"publisher"		"Opposable Games"
+		"homepage"		"http://salvagedgame.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Salvaged"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Salvaged.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Salvaged.exe"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Salvaged.exe"
+				"arguments"		"-Oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"beta"
+				}
+			}
+			"3"
+			{
+				"executable"		"Salvaged.exe"
+				"arguments"		"-Vive"
+				"type"		"vr"
+				"config"
+				{
+					"betakey"		"beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"504471"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5314688475686597984"
+					"size"		"6992038735"
+					"download"		"1614819248"
+				}
+				"beta"
+				{
+					"gid"		"789969352048222330"
+					"size"		"11796827431"
+					"download"		"2658936224"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1440203"
+				"timeupdated"		"1478537691"
+			}
+			"beta"
+			{
+				"buildid"		"1633847"
+				"timeupdated"		"1487185940"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Opposable Games/Salvaged"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
