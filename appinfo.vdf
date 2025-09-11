@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"753110"
+	"common"
+	{
+		"name"		"Chronicles of Vinland"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+		}
+		"clienticon"		"91f64f6380c2fa934b46eda6406f49d0933c8cf8"
+		"clienttga"		"a68f114f2af916deee67532ebfd7ffa595212d63"
+		"icon"		"000fa0f2f845a0c89288adccf76048b2fe8c09e3"
+		"logo"		"57cc5892f569956baa774135ee51625e3f16e541"
+		"logo_small"		"57cc5892f569956baa774135ee51625e3f16e541_thumb"
+		"releasestate"		"released"
+		"clienticns"		"d8b75e118da85ac68606e082f77dca1aa0a40696"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Chronicles of Vinland"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e3036e174e8c0a2f4c63a59d370d6b99f4db1c7e.jpg"
+		"store_asset_mtime"		"1545027138"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gamenesis"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gamenesis"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1527131525"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"753110"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"597"
+			"2"		"8945"
+			"3"		"4328"
+			"4"		"3871"
+			"5"		"5851"
+			"6"		"4182"
+			"7"		"4695"
+			"8"		"492"
+			"9"		"1643"
+			"10"		"7332"
+			"11"		"4305"
+			"12"		"493"
+			"13"		"1742"
+			"14"		"3834"
+			"15"		"4598"
+			"16"		"5350"
+			"17"		"4166"
+			"18"		"5094"
+			"19"		"13190"
+		}
+		"review_score"		"5"
+		"review_percentage"		"41"
+	}
+	"extended"
+	{
+		"developer"		"Gamenesis"
+		"publisher"		"Gamenesis"
+		"homepage"		"https://steam.gamenesis.com"
+	}
+	"config"
+	{
+		"installdir"		"Chronicles of Vinland"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Chronicles of Vinland.app/Contents/MacOS/Chronicles of Vinland"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"Chronicles of Vinland.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,schinese,russian"
+		"753111"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4226671734026502345"
+					"size"		"171825596"
+					"download"		"41087760"
+				}
+			}
+		}
+		"753112"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1182769743679742425"
+					"size"		"156084282"
+					"download"		"37859984"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3269736"
+				"timeupdated"		"1542016456"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Wonderbox Games/Chronicles Of Vinland"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"WonderBox Games/Chronicles Of Vinland"
+						"replace"		"com.wonderboxgames.chroniclesofvinland"
+					}
+				}
+			}
+		}
+	}
+}
