@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"465750"
+	"common"
+	{
+		"name"		"Tank Battle: North Africa"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"0e1d27e68c7ebd3ee8602d9317947841d2f93f16"
+		"logo_small"		"0e1d27e68c7ebd3ee8602d9317947841d2f93f16_thumb"
+		"icon"		"c41e3a7c7945d0a69e52e4bfde5c887ae9b9d1b9"
+		"clienticon"		"2a9c83707813fb5fb29f5d47a2841621f098faf7"
+		"clienttga"		"00678c27595cede26e617bba2bb24b654151939f"
+		"clienticns"		"b1be4134b285ff99c31c9ebe432aa4da4ac24cf5"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"osextended"		""
+		"metacritic_name"		"Tank Battle: North Africa"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"82.49427917620139"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"82.49427917620139"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1578669573"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"HexWar Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hunted Cow Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1468346457"
+		"community_hub_visible"		"1"
+		"gameid"		"465750"
+		"store_tags"
+		{
+			"0"		"9"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"developer"		"HexWar Games"
+		"publisher"		"Hunted Cow Games"
+		"homepage"		"https://www.huntedcow.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tank Battle North Africa"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TankBattleNorthAfrica.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TankBattleNorthAfrica.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"465752"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2298998145732834241"
+					"size"		"220215304"
+					"download"		"177825776"
+				}
+			}
+		}
+		"465753"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8963611177672317058"
+					"size"		"201302402"
+					"download"		"168054624"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16267176"
+				"timeupdated"		"1757973093"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"26214400"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"TankBattleNorthAfrica/savedgames/"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"com.hexwar.tankbattlenorthafrica/savedgames/"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
