@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"214130"
+	"common"
+	{
+		"name"		"Aerofly FS 1 Flight Simulator"
+		"type"		"Game"
+		"clienticon"		"7e9efd0f86ea7037cd69ed0774b118f76fce47cd"
+		"clienttga"		"689a580e772f344a3c1594b65f6c0276bf8be7b1"
+		"icon"		"e413dea28f705c2da5c8266671dd4107b00fef8d"
+		"logo"		"b08220e7d7e16dcd62890a1dfadc7ce2b8ffee2f"
+		"logo_small"		"b08220e7d7e16dcd62890a1dfadc7ce2b8ffee2f_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"oslist"		"windows"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"Aerofly FS 1 Flight Simulator"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b005aae238b8335dac18c8fec27a14b894603352.jpg"
+		"store_asset_mtime"		"1350693515"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"IPACS"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"IPACS"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1350508860"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"214130"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"15045"
+			"2"		"492"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"developer"		"IPACS"
+		"gamedir"		"Aerofly FS"
+		"homepage"		"https://www.aerofly.com"
+		"icon"		""
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\TestApp214130\\SteamKey"
+		"noservers"		"0"
+		"showcdkeyinmenu"		"1"
+		"showcdkeyonlaunch"		"1"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"IPACS"
+		"gamemanualurl"		"https://store.steampowered.com/manual/214130/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"aerofly FS"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"aerofly-fs.exe"
+				"description"		"Launch"
+			}
+			"1"
+			{
+				"executable"		"aerofly-fs.exe"
+				"arguments"		"-noconfigs"
+				"description"		"Launch with default settings"
+			}
+		}
+		"installscriptsignature"		"2e73993eb269abed3906e7ebc43b4f1e1c6a4878238db2980907094504675e5c4fd0d88cb431bce964d1ab8a426e7647cd8cff0c0405322f9941523c3788e6a93702e47c6ae2ee2d993adc967051f9fb02c0bdf054c389354b7882cd5479bce7322fc96088b2c2361e95010a812e0efb8bc766d49a669a27a876cdcec6c26cbd"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\software\ipacs\aerofly fs"
+			{
+				"string"
+				{
+					"installpath"		"%INSTALLDIR%"
+					"exepath"		"%INSTALLDIR%\\aerofly-fs.exe"
+					"versionstring"		"1.0.7"
+				}
+				"dword"
+				{
+					"version"		"010007"
+					"steam"		"1"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"214131"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3589528497342081163"
+					"size"		"22946020659"
+					"download"		"17688927808"
+				}
+			}
+		}
+		"261170"
+		{
+			"dlcappid"		"261170"
+		}
+		"261171"
+		{
+			"dlcappid"		"261171"
+		}
+		"261172"
+		{
+			"dlcappid"		"261172"
+		}
+		"261173"
+		{
+			"dlcappid"		"261173"
+		}
+		"261174"
+		{
+			"dlcappid"		"261174"
+		}
+		"markdlcdepots"		"1"
+		"baselanguages"		"english,german"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"751941"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"200000"
+		"maxnumfiles"		"5"
+	}
+}
