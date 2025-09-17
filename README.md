@@ -1,0 +1,3 @@
+### [3050220] THE KING OF FIGHTERS XIII GLOBAL MATCH  
+**Build Id** `19143709`  
+**Last Update Time** `2025/09/17 15:00`  
