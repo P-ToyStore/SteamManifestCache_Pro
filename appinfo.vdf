@@ -1,0 +1,313 @@
+"appinfo"
+{
+	"appid"		"2620590"
+	"common"
+	{
+		"name"		"Marron's Day"
+		"type"		"Game"
+		"icon"		"c34d065b3740ca5f133748ae54705aaaa541b372"
+		"clienticon"		"b596e8b84465c286814cd0954b9fa3dbba986659"
+		"clienttga"		"61216626f6514150120049239e140f53bb8ef6d5"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+		}
+		"name_localized"
+		{
+			"japanese"		"マロンの日"
+		}
+		"controllertagwizard"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"4327ea051df4523ada22b5103e823debcea1f239/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"68.78646441073514"
+				"height_pct"		"81.91489213683099"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"68.78646441073514"
+					"height_pct"		"81.91489213683099"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1751372945"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"npckc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"RAWRLAB Games"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"npckc"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"npckc"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_66"		"1"
+			"category_75"		"1"
+			"category_79"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1732798865"
+		"steam_deck_blog_url"		"https://steamcommunity.com/app/2620590/discussions/0/4140565152677838913/"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2620590"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"122"
+			"2"		"4726"
+			"3"		"3964"
+			"4"		"1742"
+			"5"		"5350"
+			"6"		"5608"
+			"7"		"3834"
+			"8"		"1684"
+			"9"		"4004"
+			"10"		"44868"
+			"11"		"1654"
+			"12"		"4791"
+			"13"		"3871"
+			"14"		"597"
+			"15"		"4136"
+			"16"		"17894"
+			"17"		"11014"
+			"18"		"4166"
+			"19"		"4562"
+		}
+		"review_score"		"7"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"npckc"
+		"publisher"		"RAWRLAB Games"
+		"homepage"		"https://marronsday.npckc.net"
+	}
+	"config"
+	{
+		"installdir"		"Marron's Day"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"marronsday.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Windows (Default)"
+				}
+				"description"		"Windows (Default)"
+			}
+			"1"
+			{
+				"executable"		"marronsday.osx.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"macOS (Default)"
+				}
+				"description"		"macOS (Default)"
+			}
+			"2"
+			{
+				"executable"		"./marronsday"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Linux (Default)"
+				}
+				"description"		"Linux (Default)"
+			}
+		}
+	}
+	"depots"
+	{
+		"2620591"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7764777223529388951"
+					"size"		"35868793"
+					"download"		"19817920"
+				}
+			}
+		}
+		"2620592"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6041393582012510703"
+					"size"		"4042116"
+					"download"		"2297600"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16561835"
+				"timeupdated"		"1732771203"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		".RAWRLAB/marronsday"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacHome"
+				"path"		"Library/Application Support/.RAWRLAB/marronsday"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		".local/share/.RAWRLAB/marronsday"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
