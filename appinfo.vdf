@@ -1,0 +1,157 @@
+"appinfo"
+{
+	"appid"		"61000"
+	"common"
+	{
+		"name"		"DCS: Black Shark"
+		"clienticon"		"e43a8ae3e2689001f25afdf2cabf92ae3c4eb4af"
+		"clienttga"		"07d16b93f8c837e74d1d40e7d784250de84e8a6d"
+		"icon"		"babfabe259761ac6d5c4e915b59544842e664deb"
+		"logo"		"7f336edbbee4fcd6555d5bada8ec377214fd8d36"
+		"logo_small"		"7f336edbbee4fcd6555d5bada8ec377214fd8d36_thumb"
+		"type"		"game"
+		"metacritic_name"		"DCS: Black Shark"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cf972b341f8f314b2b44c7c97de5098c0bafd2f0.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Eagle Dynamics"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"The Fighter Collection"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1238569200"
+		"steam_release_date"		"1278710520"
+		"metacritic_score"		"82"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dcs-black-shark?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"61000"
+		"store_tags"
+		{
+			"0"		"15045"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Eagle Dynamics"
+		"gamedir"		"DCS Black Shark"
+		"gamemanualurl"		"http://www.digitalcombatsimulator.com/index.php?end_pos=2199&scr=products&lang=en"
+		"homepage"		"http://www.digitalcombatsimulator.com/"
+		"icon"		""
+		"installscript"		"61000_install.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\SOFTWARE\\Eagle Dynamics\\Black Shark\\keys\\LastNumber"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"61001"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"The Fighter Collection"
+	}
+	"config"
+	{
+		"installscriptsignature"		"7ff3673bdd4dd3a68d82182fcb38329b437eaa45ccfa5fe12055d86b61ca478e3c57fe42441db243877afd280e715f1eef9c18a0be828993a3e071335180cbcea6b35f38625c63110a17dba181b2644bbb5544f6030f3caf8e554a3107c0c89872fd4b8b0ba8d9853cbaaddebbd574da9f95e38be8f67435b638808d6e14f953"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"DCS Black Shark"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\x86\\stable\\Launcher.exe"
+				"arguments"		"--console"
+			}
+			"1"
+			{
+				"description"		"Play DCS: Black Shark Multiplayer"
+				"executable"		"Multiplayer.bat"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\eagle dynamics\blackshark"
+			{
+				"string"
+				{
+					"installer language"		"1033"
+					"path"		"%INSTALLDIR%"
+				}
+				"dword"
+				{
+					"installlang"		"0"
+					"installtype"		"0"
+					"version"		"131073"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"61001"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"502706141305073300"
+					"size"		"5316667495"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23869"
+			}
+		}
+	}
+}
