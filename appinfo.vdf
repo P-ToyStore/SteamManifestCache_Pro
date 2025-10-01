@@ -1,0 +1,261 @@
+"appinfo"
+{
+	"appid"		"1223160"
+	"common"
+	{
+		"name"		"CyberLink PowerDVD 20 Ultra"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"clienticon"		"a6488cba37292cce94ca8763baeac2c33abdf225"
+		"clienttga"		"1ccde2562bb724985796288a77fd10dcfca6d16d"
+		"icon"		"c53f14afee57361854384eb527ecc6b2f194c1f2"
+		"logo"		"ae57241059c4aa0668ce20ce8bdd41a736914574"
+		"logo_small"		"ae57241059c4aa0668ce20ce8bdd41a736914574_thumb"
+		"controllervr"
+		{
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+		}
+		"app_retired_publisher_request"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"10"
+				"height_pct"		"2"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"10"
+					"height_pct"		"2"
+				}
+			}
+		}
+		"store_asset_mtime"		"1754573694"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CyberLink"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"CyberLink"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"51"
+			"1"		"57"
+		}
+		"category"
+		{
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1586847600"
+		"steam_release_date"		"1587989785"
+		"community_hub_visible"		"1"
+		"gameid"		"1223160"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"872"
+			"2"		"776177"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"CyberLink"
+		"publisher"		"CyberLink"
+		"homepage"		"https://www.cyberlink.com/products/powerdvd-ultra/features_en_US.html"
+	}
+	"config"
+	{
+		"installdir"		"PowerDVD 20 Ultra"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PDVDLP.exe"
+				"arguments"		"launchFromSteam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"PDVDLP.exe"
+				"arguments"		"enterVRmode launchFromSteam skipWelcomeDlg"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"PDVDLP.exe"
+				"arguments"		"enterVRmode launchFromSteam skipWelcomeDlg"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1223161"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7843835806416465322"
+					"size"		"525849750"
+					"download"		"502269232"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4878166"
+				"timeupdated"		"1588061471"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
