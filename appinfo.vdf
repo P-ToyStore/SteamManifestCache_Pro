@@ -1,0 +1,187 @@
+"appinfo"
+{
+	"appid"		"786280"
+	"common"
+	{
+		"name"		"Armored Squad"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"13c6b20f3ddaaa21516d5ef941633904e8c92d31"
+		"logo_small"		"13c6b20f3ddaaa21516d5ef941633904e8c92d31_thumb"
+		"icon"		"09ded22017954f1da8c133215613b3370f8aee32"
+		"clienttga"		"521a441b80cf59364a98252e84a62fac54435d25"
+		"clienticon"		"8cefc2ed25ca70e948cbf1263623d49ca0d57d7f"
+		"releasestate"		"released"
+		"metacritic_name"		"Armored Squad"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3eefbcee0cd9ed1147bfd579ad1a609c1841977a.jpg"
+		"store_asset_mtime"		"1516125031"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FoxForceGames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FoxForceGames"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"29"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_18"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1511942400"
+		"steam_release_date"		"1517952706"
+		"community_hub_visible"		"1"
+		"gameid"		"786280"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"128"
+		}
+		"review_score"		"7"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"developer"		"FoxForceGames"
+		"publisher"		"FoxForceGames"
+		"homepage"		"http://www.ArmoredSquad.com"
+	}
+	"config"
+	{
+		"installdir"		"Armored Squad"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ArmoredSquad.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"786281"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"85049388922240038"
+					"size"		"488210234"
+					"download"		"125712688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20259533"
+				"timeupdated"		"1759667131"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"FoxForceGames/ArmoredSquad/SavedGames"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"FoxForceGames/ArmoredSquad/SavedGames"
+						"replace"		"unity.FoxForceGames.ArmoredSquad"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"FoxForceGames/ArmoredSquad/SavedGames"
+						"replace"		".config/unity3d/FoxForceGames/ArmoredSquad"
+					}
+				}
+			}
+		}
+	}
+}
