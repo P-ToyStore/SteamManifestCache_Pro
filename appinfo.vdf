@@ -1,0 +1,533 @@
+"appinfo"
+{
+	"appid"		"1325730"
+	"common"
+	{
+		"name"		"Keysight"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"logo"		"b35df94924923b7c07dd3dd7d6e77037c5195816"
+		"logo_small"		"b35df94924923b7c07dd3dd7d6e77037c5195816_thumb"
+		"icon"		"608dd0364fb633fed9eda3294146308aa4429fad"
+		"clienticon"		"c984ae2f644f16c1025d403a359418a5af562862"
+		"clienttga"		"f8bf4eed0ea63ee3ebcc81c6734c981e649e4724"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1658534400"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1754417004"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Jack Sweet"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Jack Sweet"
+			}
+		}
+		"primary_genre"		"53"
+		"genres"
+		{
+			"0"		"53"
+			"1"		"58"
+		}
+		"category"
+		{
+			"category_18"		"1"
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1593514847"
+		"community_hub_visible"		"1"
+		"gameid"		"1325730"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"5411"
+			"1"		"8253"
+			"2"		"1752"
+			"3"		"599"
+			"4"		"9204"
+			"5"		"1643"
+			"6"		"4191"
+			"7"		"1654"
+			"8"		"784"
+			"9"		"5125"
+			"10"		"84"
+			"11"		"1714"
+			"12"		"19"
+			"13"		"4166"
+			"14"		"4182"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Jack Sweet"
+		"publisher"		"Jack Sweet"
+	}
+	"config"
+	{
+		"installdir"		"Keysight"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Keysight\\Binaries\\Win64\\Keysight-Win64-Shipping.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Keysight-Mac-Shipping.app/Contents/MacOS/Keysight-Mac-Shipping"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"Keysight.app/Contents/MacOS/Keysight"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"legacy"
+				}
+			}
+			"5"
+			{
+				"executable"		"Keysight.app/Contents/MacOS/Keysight"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"legacy2"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1325731"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8998213993541567840"
+					"size"		"1287695680"
+					"download"		"547833408"
+				}
+				"legacy"
+				{
+					"gid"		"1388857117090476157"
+					"size"		"399840167"
+					"download"		"224994576"
+				}
+				"legacy2"
+				{
+					"gid"		"7419248706789835580"
+					"size"		"516207942"
+					"download"		"237158992"
+				}
+				"legacy3"
+				{
+					"gid"		"441241025072065161"
+					"size"		"678843810"
+					"download"		"353853632"
+				}
+				"legacy4"
+				{
+					"gid"		"3323465169693041444"
+					"size"		"724594387"
+					"download"		"382165040"
+				}
+				"1.4.1"
+				{
+					"gid"		"5135901858889878247"
+					"size"		"723065895"
+					"download"		"382375792"
+				}
+				"1.5.0"
+				{
+					"gid"		"2025067562971343048"
+					"size"		"841427330"
+					"download"		"425468384"
+				}
+				"beta"
+				{
+					"gid"		"8998213993541567840"
+					"size"		"1287695680"
+					"download"		"547833408"
+				}
+			}
+		}
+		"1325732"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1845123941492519635"
+					"size"		"1114267151"
+					"download"		"649131296"
+				}
+				"legacy"
+				{
+					"gid"		"8665880909297683846"
+					"size"		"449012459"
+					"download"		"192419680"
+				}
+				"legacy2"
+				{
+					"gid"		"3094020383015889424"
+					"size"		"494368365"
+					"download"		"238007312"
+				}
+				"legacy3"
+				{
+					"gid"		"4814481778802881252"
+					"size"		"687631095"
+					"download"		"381090128"
+				}
+				"legacy4"
+				{
+					"gid"		"2156275757415355716"
+					"size"		"935689565"
+					"download"		"375780192"
+				}
+				"1.4.1"
+				{
+					"gid"		"5960188721967065664"
+					"size"		"810041580"
+					"download"		"363363472"
+				}
+				"1.5.0"
+				{
+					"gid"		"5272763896085948966"
+					"size"		"835045268"
+					"download"		"452905232"
+				}
+				"beta"
+				{
+					"gid"		"1845123941492519635"
+					"size"		"1114267151"
+					"download"		"649131296"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20255297"
+				"timeupdated"		"1759613195"
+			}
+			"legacy"
+			{
+				"buildid"		"5428377"
+				"description"		"1.1.3b - pre-menu rework. Very old and bad."
+				"timeupdated"		"1607780981"
+			}
+			"legacy2"
+			{
+				"buildid"		"6140896"
+				"description"		"1.2.2c - pre-particle rework"
+				"timeupdated"		"1622113215"
+			}
+			"legacy3"
+			{
+				"buildid"		"7030239"
+				"description"		"1.3.1 - pre-second menu rework"
+				"timeupdated"		"1633419436"
+			}
+			"legacy4"
+			{
+				"buildid"		"7927657"
+				"description"		"1.4.0 - final chance to up-convert data"
+				"timeupdated"		"1640187107"
+			}
+			"1.4.1"
+			{
+				"buildid"		"8245110"
+				"description"		"Last update prior to render-to-video update"
+				"timeupdated"		"1652264247"
+			}
+			"1.5.0"
+			{
+				"buildid"		"9455948"
+				"description"		"Last update prior to camera and state machine reworks"
+				"timeupdated"		"1666128108"
+			}
+			"beta"
+			{
+				"buildid"		"20255297"
+				"description"		"This will be the first place new features are published"
+				"timeupdated"		"1759613170"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Keysight/Saved/Light bars"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Keysight/Saved/Particles"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Keysight/Saved/Presets"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"Keysight/Saved/Presets (backup)"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"4"
+			{
+				"root"		"gameinstall"
+				"path"		"Keysight/Saved/Pulses"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"5"
+			{
+				"root"		"gameinstall"
+				"path"		"Keysight/Saved/SaveGames"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"6"
+			{
+				"root"		"gameinstall"
+				"path"		"Keysight/Saved/Textures"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"7"
+			{
+				"root"		"gameinstall"
+				"path"		"Keysight/Saved/Textures (randomizer enabled)"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocal"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
