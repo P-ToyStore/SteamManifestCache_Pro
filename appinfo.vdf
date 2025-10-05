@@ -1,0 +1,168 @@
+"appinfo"
+{
+	"appid"		"475370"
+	"common"
+	{
+		"name"		"BrainBread 2 Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"icon"		"bcac28b1b2c19e4ce04ef1bdc166bdb54566c998"
+		"logo"		"40adc9d73e8d98840d17ef5b6934c96e4d9806b8"
+		"logo_small"		"40adc9d73e8d98840d17ef5b6934c96e4d9806b8_thumb"
+		"clienttga"		"f7c4bb8558dc1e4ca1980978974e903fcdf8a15b"
+		"clienticon"		"e68927fec1c250b87d08a3997e8947bcea586009"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"475370"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"brainbread2ds"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game brainbread2"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8904491048620934740"
+					"size"		"68697032"
+					"download"		"20552544"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5587033981095108078"
+					"size"		"107476144"
+					"download"		"29272144"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"475371"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1601414567032482509"
+					"size"		"1816646973"
+					"download"		"484474432"
+				}
+			}
+		}
+		"475372"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6997549298094533974"
+					"size"		"93262104"
+					"download"		"30628176"
+				}
+			}
+		}
+		"475373"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8483826951449922316"
+					"size"		"69960278"
+					"download"		"19052224"
+				}
+			}
+		}
+		"475374"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8691390406380101584"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20254406"
+				"timeupdated"		"1759688703"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
