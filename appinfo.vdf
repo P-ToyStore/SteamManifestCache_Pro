@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"3130700"
+	"common"
+	{
+		"name"		"VRM Adjuster"
+		"type"		"Application"
+		"icon"		"e596c34394a4e90c0fe0aa50757f4bf4fd39dd58"
+		"clienttga"		"a605c2bf8a7dc2b464eceb716471c0f5a08f7ca5"
+		"clienticon"		"ca28c2b674445e77b15bb48e2745459d38545c9f"
+		"clienticns"		"554769ee01c57e2a19d7c896d98e68d94a7c30d3"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"small_capsule"
+		{
+			"english"		"dd18a08d1058cce813bced44a67857c5de206bba/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"20.50989299639133"
+				"height_pct"		"51.203137747172605"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"20.50989299639133"
+					"height_pct"		"51.203137747172605"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1731837297"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nap Harmonia"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nap Harmonia"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"51"
+			"1"		"57"
+		}
+		"category"
+		{
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1729239694"
+		"community_hub_visible"		"1"
+		"gameid"		"3130700"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"872"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Nap Harmonia"
+		"publisher"		"Nap Harmonia"
+		"homepage"		"https://napharmonia.com/"
+	}
+	"config"
+	{
+		"installdir"		"VRM Adjuster"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"VRMAdjuster.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"VRMAdjuster.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"3130701"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5543565223667426700"
+					"size"		"138271340"
+					"download"		"43675808"
+				}
+			}
+		}
+		"3130702"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1527900383633291680"
+					"size"		"166994825"
+					"download"		"54705856"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20268310"
+				"timeupdated"		"1759745334"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"200"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Nap Harmonia/VRMAdjuster/SavesData"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Nap Harmonia/VRMAdjuster/SavesData"
+						"replace"		"Nap Harmonia/VRMAdjuster/SaveData"
+					}
+				}
+			}
+		}
+	}
+}
