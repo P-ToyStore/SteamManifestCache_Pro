@@ -1,0 +1,257 @@
+"appinfo"
+{
+	"appid"		"289460"
+	"common"
+	{
+		"name"		"RC Cars"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"367c72806df43304cb62880ebb0e3e9be4bcfe51"
+		"logo_small"		"367c72806df43304cb62880ebb0e3e9be4bcfe51_thumb"
+		"clienticon"		"9ad860a1fdcf84045bfd91ba5321bc66072fc021"
+		"clienttga"		"ca704ead4d590110ff44448ccea0c29b078e4ed2"
+		"icon"		"c935f15ed63a1f423d89d4250de8b702f40510ff"
+		"metacritic_name"		"RC Cars"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_d7ba6021b7b4e45a9fb5c1c72436ced03340456e.jpg"
+		"store_asset_mtime"		"1752660926"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Creat Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fulqrum Publishing"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Fulqrum"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1071129600"
+		"steam_release_date"		"1398246406"
+		"metacritic_score"		"65"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/rc-cars?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"289460"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"597"
+			"2"		"3859"
+			"3"		"4182"
+			"4"		"19"
+			"5"		"6650"
+			"6"		"14720"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"developer"		"Creat Studio"
+		"publisher"		"Fulqrum Publishing"
+		"gamemanualurl"		"https://store.steampowered.com/manual/289460/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"RCCars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launcher-x64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"launcher-ia32.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"289461"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8227524722896230500"
+					"size"		"985786348"
+					"download"		"736476672"
+				}
+			}
+		}
+		"289462"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"788894589156620671"
+					"size"		"157255481"
+					"download"		"0"
+				}
+			}
+		}
+		"289463"
+		{
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8747451636597400951"
+					"size"		"7369974"
+					"download"		"2096304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20319773"
+				"timeupdated"		"1760105166"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"52428800"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Faces"
+				"pattern"		"*.tga"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"GhostRecords"
+				"pattern"		"*.scg"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Players"
+				"pattern"		"*.scp"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
