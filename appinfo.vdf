@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"208250"
+	"common"
+	{
+		"name"		"Combat Wings: The Great Battles of World War II"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+		}
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2118b6f5f9cb6865376f778743d642a690a46795.jpg"
+		"store_asset_mtime"		"1341014829"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"City Interactive S.A."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"City Interactive S.A."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"208250"
+	}
+	"extended"
+	{
+		"developer"		"City Interactive S.A."
+		"gamedir"		"ValveTestApp208250"
+		"homepage"		"http://combatwingsgame.com/"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"City Interactive S.A."
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Combat Wings TGBoWWII"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CombatWings.exe"
+				"description"		"Launch Combat Wings: The Great Battles of World War II"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Launcher\\CombatWings_Launcher.exe"
+				"description"		"Combat Wings: The Great Battles of World War II options"
+				"workingdir"		"Launcher\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"521f1c6ca0048efa9a88c388008a7de70395b5f0d69b8c945dc5eba2f04655571c6d164e681898d4fcabda3e0e0152744e097fdd71703df4207867fe56a93d7fda40e180ca67a3e98f5d97502fa3d0e0f03d40ff1f807c9085242e8d67338827137a210e8b65782627aa0f640da6037f14d4c3291cca3e4c8ab4cdce96263a0b"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\Win32Libs\\dxwebsetup.exe"
+				"command 1"		"/Q"
+				"nocleanup"		"1"
+			}
+			"microsoft .net framework 3.5"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\NET Framework Setup\\NDP\\v3.5"
+				"process 1"		"%INSTALLDIR%\\Win32Libs\\dotNetFx35setup.exe"
+				"command 1"		"/q /norestart"
+				"nocleanup"		"1"
+			}
+			"microsoft visual c++ 2008 sp1 redistributable package (x86)"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{3C3D696B-0DB7-3C6D-A356-3DB8CE541918}"
+				"process 1"		"%INSTALLDIR%\\Win32Libs\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"208251"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3336940260591785347"
+					"size"		"2934735144"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"38868"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"20480"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"NAND/steam/"
+				"pattern"		"profile.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Nand/steam/"
+				"pattern"		"profile.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
