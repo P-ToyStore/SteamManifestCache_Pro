@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"2644070"
+	"common"
+	{
+		"name"		"Apartus"
+		"type"		"Game"
+		"icon"		"81997cf49baf7c2abd9e095e5201dbe3726b8898"
+		"clienttga"		"e7af638d430d2fa5df3c5276376a00bfb6f06cde"
+		"clienticon"		"f5329e74fd6053afdf1a65655bcf197e4d7031a6"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"71.65769758912111"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"71.65769758912111"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1712097271"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mothachail Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mothachail Studios"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1713305098"
+		"community_hub_visible"		"1"
+		"gameid"		"2644070"
+		"store_tags"
+		{
+			"0"		"14139"
+			"1"		"4231"
+			"2"		"4106"
+			"3"		"122"
+			"4"		"19"
+			"5"		"4975"
+			"6"		"4046"
+			"7"		"4325"
+			"8"		"1684"
+			"9"		"4236"
+			"10"		"21"
+			"11"		"4172"
+			"12"		"1702"
+			"13"		"3916"
+			"14"		"492"
+			"15"		"3993"
+			"16"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Mothachail Studios"
+		"publisher"		"Mothachail Studios"
+		"homepage"		"https://apartusgame.carrd.co"
+	}
+	"config"
+	{
+		"installdir"		"Apartus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"2644071"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"762627733651888102"
+					"size"		"2728380928"
+					"download"		"2197353216"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14126049"
+				"timeupdated"		"1713722903"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"sync_while_suspended"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.RPGSAVE"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+		"appidredirect"		"2644070"
+	}
+}
