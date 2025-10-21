@@ -1,0 +1,143 @@
+"appinfo"
+{
+	"appid"		"2058450"
+	"common"
+	{
+		"name"		"Swords 'n Magic and Stuff Dedicated Server"
+		"type"		"Tool"
+		"parent"		"810040"
+		"releasestate"		"released"
+		"icon"		"d024b4233bdefc63b50769dbcc3d2e792a2c539f"
+		"clienticon"		"f594ec5db60da4f7e45b540af0df8b877c066443"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"2058450"
+	}
+	"config"
+	{
+		"installdir"		"Swords 'n Magic and Stuff Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SNMASServer.exe"
+			}
+			"1"
+			{
+				"executable"		"SNM2020/Content/Docs/Dedicated-Server-README.txt"
+				"type"		"manual"
+				"description_loc"
+				{
+					"english"		"Readme"
+				}
+				"description"		"Readme"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8904491048620934740"
+					"size"		"68697032"
+					"download"		"20552544"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5587033981095108078"
+					"size"		"107476144"
+					"download"		"29272144"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2058451"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"722198511150761464"
+					"size"		"1471611193"
+					"download"		"496607456"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20472624"
+				"timeupdated"		"1761005429"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
