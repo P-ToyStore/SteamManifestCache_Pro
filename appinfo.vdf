@@ -1,0 +1,102 @@
+"appinfo"
+{
+	"appid"		"1566300"
+	"common"
+	{
+		"name"		"botc"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1566300"
+		"exfgls"		"8"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1676"
+			"2"		"122"
+			"3"		"1662"
+			"4"		"17305"
+			"5"		"10695"
+			"6"		"4975"
+			"7"		"4172"
+			"8"		"17389"
+			"9"		"1775"
+			"10"		"3859"
+		}
+	}
+	"config"
+	{
+		"installdir"		"BOTC"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BOTC_Remake.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BOTC_Remake.exe"
+				"arguments"		"-dx11"
+				"type"		"option1"
+				"description_loc"
+				{
+					"schinese"		"botc（DirectX 11）"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1566301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5102229541948122234"
+					"size"		"696699437"
+					"download"		"418093952"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19614667"
+				"timeupdated"		"1755274184"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"botc/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
