@@ -1,0 +1,273 @@
+"appinfo"
+{
+	"appid"		"204510"
+	"common"
+	{
+		"name"		"The Expendables 2 Videogame"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"logo"		"cb05cdad8b132044f8e1a0746a3c76da99b221e8"
+		"logo_small"		"cb05cdad8b132044f8e1a0746a3c76da99b221e8_thumb"
+		"icon"		"ed6b83eb13046807972a466b93b00946dbca490a"
+		"clienttga"		"5d3d7fc4ecee24e9017e11b7b0320aa162ead715"
+		"clienticon"		"2b68dda5f270bac17c350248c934450f55ed80be"
+		"eulas"
+		{
+			"0"
+			{
+				"url"		"http://store.steampowered.com/eula/eula_204510"
+				"id"		"eula_204510"
+				"name"		"eula_204510"
+			}
+		}
+		"metacritic_name"		"Expendables 2"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_37d66e34dd7ec4e59b190767079e6ea43df09175.jpg"
+		"store_asset_mtime"		"1345241027"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zootfly"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ubisoft"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1345503600"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"204510"
+		"store_tags"
+		{
+			"0"		"19"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"developer"		"Zootfly"
+		"dlcavailableonstore"		"0"
+		"dlcpurchasefromingame"		"0"
+		"gamedir"		"The Expendables 2 Videogame"
+		"homepage"		"http://theexpendables2film.com/"
+		"icon"		""
+		"languages"		"english,spanish,german,french,italian"
+		"launcheula"		"http://store.steampowered.com/eula/eula_204510"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"204511"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Ubisoft"
+		"listofdlc"		"204521,204522,204523,204524,204525"
+	}
+	"config"
+	{
+		"installscriptsignature"		"3941436cd85490e9612230cf996041707cfe043726b7ed4e076870850e715f91b93edfeb7f4246195bfbcac1fbc1f215af03d4a04cc212241e44b74cbb7acbf335ff46204e68a70573e2d8f0ca299ac35683310c1df8bb281f0437b91d637db02f17e2bece457e2d550bc07b6ac5bdd474334321aa6df29844cb5af4d3ecc55b"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"The Expendables 2 Videogame"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ex2_win.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist"
+			{
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"description"		"Microsoft VC Redist Package"
+				"nocleanup"		"1"
+			}
+			"directxsetup"
+			{
+				"process 1"		"%INSTALLDIR%\\redist\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"description"		"Microsoft DirectX Setup"
+				"nocleanup"		"1"
+			}
+		}
+		"run process on uninstall"
+		{
+			"zootfly directory cleanup"
+			{
+				"process 1"		"cmd.exe"
+				"command 1"		" /c rd /s /q %USER_MYDOCS%\\ZootFly\\"
+				"description"		"ZootFly Directory Cleanup"
+			}
+		}
+	}
+	"depots"
+	{
+		"204525"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2103699954207056565"
+					"size"		"2"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"204525"
+		}
+		"204524"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"163298780560587280"
+					"size"		"2"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"204524"
+		}
+		"204523"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1067554427200414722"
+					"size"		"2"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"204523"
+		}
+		"204522"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6833855743703468421"
+					"size"		"2"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"204522"
+		}
+		"204521"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8331040415752500738"
+					"size"		"2"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"204521"
+		}
+		"204511"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8937588945379662439"
+					"size"		"1438191853"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"baselanguages"		"english,spanish,german,french,italian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"29947"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"0"
+	}
+}
