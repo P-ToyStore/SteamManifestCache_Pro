@@ -1,0 +1,347 @@
+"appinfo"
+{
+	"appid"		"992240"
+	"common"
+	{
+		"name"		"Trawel"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"clienticon"		"43d5a7bc71ee139a169b71e33346a6196c6901d1"
+		"clienttga"		"5990db9c9332b6645308875ce172eaf1405732e1"
+		"icon"		"35de336f309fa246d0b06fcbfc5360d010b1bda9"
+		"logo"		"b0c6ff9df9afcb9f4f4e2bd7ce6ae13f713411ea"
+		"logo_small"		"b0c6ff9df9afcb9f4f4e2bd7ce6ae13f713411ea_thumb"
+		"osextended"		""
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"30.715935334873024"
+				"height_pct"		"47.72036484736921"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"30.715935334873024"
+					"height_pct"		"47.72036484736921"
+				}
+			}
+		}
+		"store_asset_mtime"		"1710030219"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"realDragon"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"realDragon"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1561010456"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"992240"
+		"store_tags"
+		{
+			"0"		"31275"
+			"1"		"4486"
+			"2"		"4474"
+			"3"		"3810"
+			"4"		"3834"
+			"5"		"1720"
+			"6"		"6730"
+			"7"		"1695"
+			"8"		"5125"
+			"9"		"122"
+			"10"		"4325"
+			"11"		"1684"
+			"12"		"4236"
+			"13"		"4172"
+			"14"		"21"
+			"15"		"3916"
+			"16"		"3993"
+			"17"		"4182"
+			"18"		"493"
+			"19"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"realDragon"
+		"publisher"		"realDragon"
+	}
+	"config"
+	{
+		"installdir"		"Trawel"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RunTrawel.bat"
+				"arguments"		"autoconnect"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"RunTrawel.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"RunTrawelWithTerminal.sh"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"xterm mode"
+				}
+				"description"		"xterm mode"
+			}
+			"6"
+			{
+				"executable"		"TerminalTrawel.bat"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Terminal Only"
+				}
+				"description"		"Terminal Only"
+			}
+			"7"
+			{
+				"executable"		"RunTrawel.bat"
+				"arguments"		"autoconnect noguiinput"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Terminal Input (experimental)"
+				}
+				"description"		"Terminal Input (experimental)"
+			}
+			"8"
+			{
+				"executable"		"TerminalTrawel.sh"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"beta"
+				}
+				"description_loc"
+				{
+					"english"		"Terminal Only"
+				}
+				"description"		"Terminal Only"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"992241"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6950945383890677649"
+					"size"		"235956118"
+					"download"		"97479120"
+				}
+				"beta"
+				{
+					"gid"		"6950945383890677649"
+					"size"		"235956118"
+					"download"		"97479120"
+				}
+				"previous"
+				{
+					"gid"		"2679294092472451548"
+					"size"		"235465463"
+					"download"		"96976432"
+				}
+				"legacy_2022"
+				{
+					"gid"		"7011690969111492580"
+					"size"		"413055973"
+					"download"		"213545920"
+				}
+			}
+		}
+		"992242"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7728254317662638179"
+					"size"		"235763246"
+					"download"		"105020192"
+				}
+				"beta"
+				{
+					"gid"		"7728254317662638179"
+					"size"		"235763246"
+					"download"		"105020192"
+				}
+				"previous"
+				{
+					"gid"		"6416669749817646165"
+					"size"		"235646896"
+					"download"		"104961280"
+				}
+				"legacy_2022"
+				{
+					"gid"		"7569466407097316820"
+					"size"		"518504899"
+					"download"		"319424112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20571541"
+				"timeupdated"		"1761689495"
+			}
+			"beta"
+			{
+				"buildid"		"20571541"
+				"description"		"public beta branch"
+				"timeupdated"		"1761644442"
+			}
+			"previous"
+			{
+				"buildid"		"17814324"
+				"description"		"last stable game build"
+				"timeupdated"		"1761455130"
+			}
+			"legacy_2022"
+			{
+				"buildid"		"6759143"
+				"description"		"trawel before 2023 rewrites"
+				"timeupdated"		"1690816472"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.save"
+			}
+		}
+	}
+}
