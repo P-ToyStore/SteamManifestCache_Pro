@@ -1,0 +1,261 @@
+"appinfo"
+{
+	"appid"		"948220"
+	"common"
+	{
+		"name"		"ColorTool"
+		"type"		"Application"
+		"logo"		"057e6199a41700dba667985e85c14a615f9d0f5a"
+		"logo_small"		"057e6199a41700dba667985e85c14a615f9d0f5a_thumb"
+		"icon"		"0693cc42429d96347f52abc60905f2ef59393040"
+		"clienticon"		"b91e7abfef04f894553d69dca359e6773afbc0b6"
+		"clienttga"		"2a2990b9747952384e24219e5b8ca23369c30158"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"metacritic_name"		"ColorTool"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"56.53442240373399"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"56.53442240373399"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572528414"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Manuel Riecke"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Manuel Riecke"
+			}
+		}
+		"primary_genre"		"53"
+		"genres"
+		{
+			"0"		"53"
+			"1"		"70"
+		}
+		"category"
+		{
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1541509229"
+		"community_hub_visible"		"1"
+		"gameid"		"948220"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"84"
+			"1"		"493"
+			"2"		"8013"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"Manuel Riecke"
+		"publisher"		"Manuel Riecke"
+	}
+	"config"
+	{
+		"installdir"		"ColorTool"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ColorTool.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ColorTool.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"ColorTool.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"948221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6492489027501405241"
+					"size"		"60518077"
+					"download"		"26255568"
+				}
+				"build-05"
+				{
+					"gid"		"8396608418105102875"
+					"size"		"48669727"
+					"download"		"16791616"
+				}
+				"test"
+				{
+					"gid"		"7456292003932502741"
+					"size"		"60518717"
+					"download"		"26255632"
+				}
+			}
+		}
+		"948222"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8622624454613831077"
+					"size"		"71048036"
+					"download"		"28592896"
+				}
+				"build-05"
+				{
+					"gid"		"3652242178794286167"
+					"size"		"60183792"
+					"download"		"18836592"
+				}
+				"test"
+				{
+					"gid"		"356887462142646433"
+					"size"		"71048916"
+					"download"		"28592816"
+				}
+			}
+		}
+		"948223"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6756540798098202497"
+					"size"		"109603241"
+					"download"		"37209024"
+				}
+				"build-05"
+				{
+					"gid"		"402204125134035685"
+					"size"		"59361153"
+					"download"		"17657088"
+				}
+				"test"
+				{
+					"gid"		"6671708780633734264"
+					"size"		"109604121"
+					"download"		"37208944"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10084790"
+				"timeupdated"		"1670292401"
+			}
+			"build-05"
+			{
+				"buildid"		"5803164"
+				"description"		"Last version"
+				"timeupdated"		"1648814571"
+			}
+			"test"
+			{
+				"buildid"		"10587925"
+				"timeupdated"		"1676836024"
+			}
+		}
+	}
+}
