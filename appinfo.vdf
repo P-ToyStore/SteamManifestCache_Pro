@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"630900"
+	"common"
+	{
+		"name"		"Illwinter's Floorplan Generator"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"clienticon"		"ff54242b38593b081178d018cbe7e541935f8698"
+		"clienttga"		"f3b1a8897cffcfab3a023c73a6ce46ea47f8b049"
+		"icon"		"706fc77c144007902eecfa628bc65e55c269a49a"
+		"clienticns"		"7c419b7d167b86af335bc2296ede16902c150515"
+		"linuxclienticon"		"3bb995336fc33736c136b1bcef55cb3b85e8c5d3"
+		"logo"		"06e7d80ae47b05a75a8c15b3801dad96bb3a591c"
+		"logo_small"		"06e7d80ae47b05a75a8c15b3801dad96bb3a591c_thumb"
+		"osextended"		"macosapplesilicon"
+		"metacritic_name"		"Illwinter's Floorplan Generator"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"67.69499417927823"
+				"height_pct"		"86.09422324998742"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"67.69499417927823"
+					"height_pct"		"86.09422324998742"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667485186"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Illwinter Game Design"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Illwinter Game Design"
+			}
+		}
+		"primary_genre"		"53"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"53"
+			"2"		"57"
+		}
+		"category"
+		{
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1525423549"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"630900"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"84"
+			"1"		"122"
+			"2"		"87"
+			"3"		"8013"
+			"4"		"17389"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Illwinter Game Design"
+		"publisher"		"Illwinter Game Design"
+		"homepage"		"http://www.illwinter.com/floorplan"
+	}
+	"config"
+	{
+		"installdir"		"Illfloor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"win32\\illfloor.exe"
+				"workingdir"		"win32"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"illfloor.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"illfloor_mac"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"win64\\illfloor.exe"
+				"workingdir"		"win64"
+				"description"		"64-bit version"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"630901"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6137205320885168431"
+					"size"		"136386472"
+					"download"		"44860288"
+				}
+				"legacy"
+				{
+					"gid"		"5026777286853549080"
+					"size"		"130526026"
+					"download"		"43086544"
+				}
+			}
+		}
+		"workshopdepot"		"630900"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20542459"
+				"timeupdated"		"1761831129"
+			}
+			"legacy"
+			{
+				"buildid"		"9916379"
+				"description"		"old intel mac version"
+				"timeupdated"		"1714748642"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"50000000000"
+		"maxnumfiles"		"10000"
+	}
+}
