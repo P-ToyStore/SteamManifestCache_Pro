@@ -1,0 +1,164 @@
+"appinfo"
+{
+	"appid"		"561690"
+	"common"
+	{
+		"name"		"Emission VR"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"0e2873e0ba8aad6121e9319a7617c7ab0d049da0"
+		"clienttga"		"273da66a9c52198014a77fd5bf5e30665ef12a62"
+		"icon"		"374b12b85a93a144907c934ef6d16ed3f15a5d49"
+		"logo"		"2fb7da8a4fc8516805d281ec242196fcbc4c6fa1"
+		"logo_small"		"2fb7da8a4fc8516805d281ec242196fcbc4c6fa1_thumb"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"osvrsupport"		"1"
+		"metacritic_name"		"Emission VR"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f72f862a74d57ed5141ef0aaa5a0bd4a99187196.jpg"
+		"store_asset_mtime"		"1481021489"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"VRSpec Team"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"VRSpec Team"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1480579200"
+		"steam_release_date"		"1480540889"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"561690"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"492"
+			"3"		"21978"
+			"4"		"1664"
+		}
+	}
+	"extended"
+	{
+		"developer"		"VRSpec Team"
+		"publisher"		"VRSpec Team"
+	}
+	"config"
+	{
+		"installdir"		"Emission VR"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Emission.exe"
+				"arguments"		"-screen-quality Fantastic -screen-fullscreen 0 -screen-height 768 -screen-width 1024"
+				"description"		"SteamVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Emission.exe"
+				"arguments"		"-screen-quality Fantastic -screen-fullscreen 0 -screen-height 768 -screen-width 1024"
+				"description"		"Oculus Rift in Oculus VR Mode"
+				"type"		"othervr"
+			}
+			"2"
+			{
+				"executable"		"Emission.exe"
+				"arguments"		"-screen-quality Fantastic -show-screen-selector -screen-fullscreen 1 -screen-height 1080 -screen-width 1920"
+				"description"		"Non-VR Mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"561691"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2313823759317285380"
+					"size"		"485897565"
+					"download"		"248001136"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1497839"
+				"timeupdated"		"1480889674"
+			}
+		}
+	}
+}
