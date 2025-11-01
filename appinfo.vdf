@@ -1,0 +1,477 @@
+"appinfo"
+{
+	"appid"		"340960"
+	"common"
+	{
+		"name"		"Pulsen"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"1638fdf7f1b9721c88e82459bed87d39c1604a3f"
+		"logo_small"		"1638fdf7f1b9721c88e82459bed87d39c1604a3f_thumb"
+		"icon"		"945433da33eb66cb4c2c44cd8c97a5c592827851"
+		"clienticon"		"929febcbdc2835b7ff222cca8c8b97c4040d9dfb"
+		"clienttga"		"b323361a99d09aab218025208c71c90e32c682e7"
+		"clienticns"		"38023ac69c62bf4cd9c4bde28799194bcb99d903"
+		"linuxclienticon"		"1c6f4ca31d9472057c23590c3d094326e5b3b111"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"340960_eula_0"
+				"name"		"Pulsen EULA"
+				"url"		"http://store.steampowered.com//eula/340960_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+		}
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1673049600"
+			"tested_build_id"		"7231343"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-6"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Pulsen"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_781e40f5695e927f2b67a14db71db7516620d3b2.jpg"
+		"store_asset_mtime"		"1472663282"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"4-Panel Footprint"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"4-Panel Footprint"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"18"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_24"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_15"		"1"
+			"category_32"		"1"
+			"category_22"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1438004706"
+		"community_hub_visible"		"1"
+		"gameid"		"340960"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"701"
+			"2"		"1752"
+			"3"		"1773"
+			"4"		"3871"
+			"5"		"4191"
+			"6"		"4726"
+			"7"		"4136"
+			"8"		"8253"
+			"9"		"599"
+			"10"		"4305"
+			"11"		"4085"
+			"12"		"3964"
+			"13"		"5350"
+			"14"		"5154"
+			"15"		"4004"
+			"16"		"7368"
+			"17"		"3859"
+			"18"		"4182"
+			"19"		"1621"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"4-Panel Footprint"
+		"publisher"		"4-Panel Footprint"
+		"homepage"		"http://pulsengame.com"
+		"listofdlc"		"370370,370371"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Pulsen"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Program\\run_from_steam.cmd"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Program\\run_editor_from_steam.cmd"
+				"description"		"Editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"370373"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"340961"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5267747208337362747"
+					"size"		"704628862"
+					"download"		"671332464"
+				}
+				"beta-stable"
+				{
+					"gid"		"5267747208337362747"
+					"size"		"704628862"
+					"download"		"671332464"
+				}
+				"editor"
+				{
+					"gid"		"8413005631723878654"
+					"size"		"410023569"
+					"download"		"382364352"
+				}
+				"testing-unstable"
+				{
+					"gid"		"5267747208337362747"
+					"size"		"704628862"
+					"download"		"671332464"
+				}
+			}
+		}
+		"370373"
+		{
+			"dlcappid"		"370373"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5685289409049617998"
+					"size"		"5130732"
+					"download"		"4773632"
+				}
+				"beta-stable"
+				{
+					"gid"		"5685289409049617998"
+					"size"		"5130732"
+					"download"		"4773632"
+				}
+				"editor"
+				{
+					"gid"		"862142572350394022"
+					"size"		"5130764"
+					"download"		"4773664"
+				}
+				"testing-unstable"
+				{
+					"gid"		"5685289409049617998"
+					"size"		"5130732"
+					"download"		"4773632"
+				}
+			}
+		}
+		"370370"
+		{
+			"dlcappid"		"370370"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6967145031687762030"
+					"size"		"47890926"
+					"download"		"47855904"
+				}
+				"beta-stable"
+				{
+					"gid"		"6967145031687762030"
+					"size"		"47890926"
+					"download"		"47855904"
+				}
+				"editor"
+				{
+					"gid"		"9075818704774376433"
+					"size"		"43889918"
+					"download"		"43740144"
+				}
+				"testing-unstable"
+				{
+					"gid"		"6967145031687762030"
+					"size"		"47890926"
+					"download"		"47855904"
+				}
+			}
+		}
+		"370371"
+		{
+			"dlcappid"		"370371"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1066699487693491668"
+					"size"		"44064855"
+					"download"		"44498288"
+				}
+				"beta-stable"
+				{
+					"gid"		"1066699487693491668"
+					"size"		"44064855"
+					"download"		"44498288"
+				}
+				"editor"
+				{
+					"gid"		"3351538134589683092"
+					"size"		"38133719"
+					"download"		"38482880"
+				}
+				"testing-unstable"
+				{
+					"gid"		"1066699487693491668"
+					"size"		"44064855"
+					"download"		"44498288"
+				}
+			}
+		}
+		"370372"
+		{
+			"dlcappid"		"370372"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3614077439159332304"
+					"size"		"1927"
+					"download"		"1616"
+				}
+				"beta-stable"
+				{
+					"gid"		"3614077439159332304"
+					"size"		"1927"
+					"download"		"1616"
+				}
+				"editor"
+				{
+					"gid"		"2276241728909668163"
+					"size"		"33280247"
+					"download"		"33218752"
+				}
+				"testing-unstable"
+				{
+					"gid"		"3614077439159332304"
+					"size"		"1927"
+					"download"		"1616"
+				}
+			}
+		}
+		"370382"
+		{
+			"dlcappid"		"370382"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5834287739340772479"
+					"size"		"145077239"
+					"download"		"145604736"
+				}
+				"beta-stable"
+				{
+					"gid"		"5834287739340772479"
+					"size"		"145077239"
+					"download"		"145604736"
+				}
+				"editor"
+				{
+					"gid"		"6256478160106287873"
+					"size"		"75756391"
+					"download"		"75782176"
+				}
+				"testing-unstable"
+				{
+					"gid"		"5834287739340772479"
+					"size"		"145077239"
+					"download"		"145604736"
+				}
+			}
+		}
+		"370380"
+		{
+			"dlcappid"		"370380"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1784615856133957265"
+					"size"		"51365687"
+					"download"		"51660800"
+				}
+				"beta-stable"
+				{
+					"gid"		"1784615856133957265"
+					"size"		"51365687"
+					"download"		"51660800"
+				}
+				"testing-unstable"
+				{
+					"gid"		"1784615856133957265"
+					"size"		"51365687"
+					"download"		"51660800"
+				}
+			}
+			"config"
+			{
+				"optionaldlc"		"370380"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13225820"
+				"timeupdated"		"1705734314"
+			}
+			"beta-stable"
+			{
+				"buildid"		"13225820"
+				"description"		"Stable, but has most of the new features"
+				"timeupdated"		"1705732976"
+			}
+			"editor"
+			{
+				"buildid"		"1358820"
+				"description"		"Working version of the Pulsen Editor"
+				"timeupdated"		"1547362807"
+			}
+			"testing-unstable"
+			{
+				"buildid"		"13225820"
+				"description"		"Bleeding edge; all the new stuff, songs, etc"
+				"timeupdated"		"1705732983"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1"
+		"maxnumfiles"		"1"
+	}
+}
