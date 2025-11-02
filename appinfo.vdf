@@ -1,0 +1,417 @@
+"appinfo"
+{
+	"appid"		"431950"
+	"common"
+	{
+		"name"		"Age of Fear 4: The Iron Killer"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"97548d5b66da7b4beffe814c9a59bc1aa541ea11"
+		"clienticns"		"e594aa9bf442eab2a0d02ed020ba1c95b502d03b"
+		"linuxclienticon"		"6032f1cf997a7c8866c6d44a263152b4ffd52652"
+		"clienticon"		"ae32d70c9deb85ef01e01e3c0b3c5c5ae98e49f2"
+		"clienttga"		"e4847c9106fa74b4de8dd40202eaabdda69aa2c2"
+		"logo"		"efaec2adc3d6ca4b3fe440db2d3e7cf962a02fe8"
+		"logo_small"		"efaec2adc3d6ca4b3fe440db2d3e7cf962a02fe8_thumb"
+		"osextended"		"macos64"
+		"metacritic_name"		"Age of Fear 4: The Iron Killer"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1683125583"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Leslaw Sliwko"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Age of Fear"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Age of Fear"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_17"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1619802107"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"431950"
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"21725"
+			"2"		"17305"
+			"3"		"1741"
+			"4"		"17389"
+			"5"		"7208"
+			"6"		"9"
+			"7"		"3871"
+			"8"		"4791"
+			"9"		"1695"
+			"10"		"1742"
+			"11"		"4604"
+			"12"		"1684"
+			"13"		"4172"
+			"14"		"1708"
+			"15"		"1669"
+			"16"		"4166"
+			"17"		"1702"
+			"18"		"1678"
+			"19"		"21"
+		}
+		"review_score"		"8"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Leslaw Sliwko"
+		"publisher"		"Age of Fear"
+		"listofdlc"		"1217540,1311170"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Age-of-Fear-4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"aof4-start-windows.bat"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./aof4-start-linux.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+			"2"
+			{
+				"executable"		"./aof4-start-macosx.command"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"aof4-start-windows.bat"
+				"arguments"		"-config"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Configuration"
+				}
+				"description"		"Configuration"
+			}
+			"4"
+			{
+				"executable"		"./aof4-start-linux.sh"
+				"arguments"		"-config"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Configuration"
+				}
+				"description"		"Configuration"
+			}
+			"5"
+			{
+				"executable"		"./aof4-start-macosx.command"
+				"arguments"		"-config"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Configuration"
+				}
+				"description"		"Configuration"
+			}
+			"6"
+			{
+				"executable"		"aof4-start-windows-console.bat"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play Age of Fear 4: The Iron Killer (Log Console)"
+				}
+				"description"		"Play Age of Fear 4: The Iron Killer (Log Console)"
+			}
+			"7"
+			{
+				"executable"		"aof4-start-windows-console.bat"
+				"arguments"		"-workshop"
+				"description"		"Workshop Manager"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"8"
+			{
+				"executable"		"./aof4-start-macosx.command"
+				"arguments"		"-workshop"
+				"description"		"Workshop Manager"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"9"
+			{
+				"executable"		"./aof4-start-linux.sh"
+				"arguments"		"-workshop"
+				"description"		"Workshop Manager"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"10"
+			{
+				"executable"		"aof4-start-windows-64.bat"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play Age of Fear 4: The Iron Killer (Force 64bit)"
+				}
+				"description"		"Play Age of Fear 4: The Iron Killer (Force 64bit)"
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"workshopdepot"		"431950"
+		"hasdepotsindlc"		"0"
+		"baselanguages"		"english"
+		"431951"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6880333044172156974"
+					"size"		"7136943915"
+					"download"		"5768054480"
+				}
+			}
+		}
+		"1311170"
+		{
+			"dlcappid"		"1311170"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2406509755873791918"
+					"size"		"208414291"
+					"download"		"208163520"
+				}
+			}
+		}
+		"1217540"
+		{
+			"dlcappid"		"1217540"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4510536021854431636"
+					"size"		"55544705"
+					"download"		"55547712"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20639336"
+				"timeupdated"		"1762085841"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Age-of-Fear-4"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".config/"
+			}
+			"2"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
