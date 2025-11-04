@@ -1,0 +1,3 @@
+### [3359910] KIZUNA ENCOUNTER: SUPER TAG BATTLE  
+**Build Id** `20562169`  
+**Last Update Time** `2025/11/04 08:38`  
