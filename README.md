@@ -1,0 +1,3 @@
+### [3359900] REAL BOUT FATAL FURY 2: THE NEWCOMERS  
+**Build Id** `20601647`  
+**Last Update Time** `2025/11/04 08:37`  
