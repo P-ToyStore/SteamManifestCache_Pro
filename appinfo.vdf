@@ -1,0 +1,121 @@
+"appinfo"
+{
+	"appid"		"2511330"
+	"common"
+	{
+		"name"		"Pro Cycling Manager 25 - Tools"
+		"type"		"Tool"
+		"parent"		"2511310"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"fcf4403c6784a625ae86a4f4ec9cc4c3fa7b4690"
+		"clienticon"		"45f167d0fb9f392d04b5c0c7c6b5dd49ab9b50bc"
+		"icon"		"375f6e57c1b28e75699d10a666b258dc390e70bb"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"2511330"
+	}
+	"config"
+	{
+		"installdir"		"Pro Cycling Manager 2025 - Tools"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StageEditor\\CTStageEditor.exe"
+				"workingdir"		"StageEditor"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Stage Editor"
+				}
+				"description"		"Stage Editor"
+			}
+			"1"
+			{
+				"executable"		"Modding\\Modding PCM.pdf"
+				"type"		"manual"
+				"description_loc"
+				{
+					"english"		"Modding manual"
+				}
+				"description"		"Modding manual"
+			}
+			"2"
+			{
+				"executable"		"SQLiteExporter\\SqliteExporterUI.exe"
+				"workingdir"		"SQLiteExporter"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"SqliteExporter"
+				}
+				"description"		"SqliteExporter"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2511331"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8529538024972403960"
+					"size"		"9725603148"
+					"download"		"3382744992"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18753153"
+				"timeupdated"		"1749195851"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
