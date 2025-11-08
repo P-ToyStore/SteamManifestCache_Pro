@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"540390"
+	"common"
+	{
+		"name"		"Project 1v1 Closed Technical Test"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"b1d692b7b1be625bf50e8518a7703ecb60169523"
+		"clienttga"		"d0ac83abfcfc6dd8f0b830a3b3738f0847e37216"
+		"icon"		"355e067ac3153d898f5e9a68e5706854f75de219"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"540390_eula_0"
+				"name"		"Project 1v1 Closed Technical Test EULA"
+				"url"		"http://store.steampowered.com//eula/540390_eula_0"
+			}
+		}
+		"osextended"		""
+		"associations"
+		{
+		}
+		"gameid"		"540390"
+	}
+	"config"
+	{
+		"installdir"		"Project 1v1"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"MahoganyGame-Win64-Shipping.exe"
+				"description"		"Play Project 1v1 Closed Technical Test 2"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"MahoganyGame-Win64-Shipping.exe"
+				"arguments"		"-sparkEnv=stable -fullcrashdumpalways"
+				"description"		"Play Project 1v1 (shipping)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"gbxmain_x"
+				}
+			}
+			"3"
+			{
+				"executable"		"MahoganyGame-Win64-Shipping.exe"
+				"arguments"		"-fullcrashdumpalways"
+				"description"		"Play Project 1v1 (shipping)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"gbxctt_x"
+				}
+			}
+			"4"
+			{
+				"executable"		"MahoganyGame.exe"
+				"arguments"		"-sparkEnv=stable -fullcrashdumpalways"
+				"description"		"Play Project 1v1 (dev)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"gbxmain"
+				}
+			}
+			"5"
+			{
+				"executable"		"MahoganyGame.exe"
+				"arguments"		"-fullcrashdumpalways"
+				"description"		"Play Project 1v1 (dev)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"gbxctt"
+				}
+			}
+			"6"
+			{
+				"executable"		"MahoganyGame-Win64-Shipping.exe"
+				"arguments"		"-sparkEnv=stable -fullcrashdumpalways"
+				"description"		"Play Project 1v1 (shipping)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"stable_x"
+				}
+			}
+			"8"
+			{
+				"executable"		"MahoganyGame.exe"
+				"arguments"		"-sparkEnv=stable -fullcrashdumpalways"
+				"description"		"Play Project 1v1 (dev)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"stable"
+				}
+			}
+			"10"
+			{
+				"executable"		"MahoganyGame.exe"
+				"arguments"		"-sparkEnv=stable -fullcrashdumpalways"
+				"description"		"Play Project 1v1 (Truth Labs)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"gbxuserresearch"
+				}
+			}
+			"11"
+			{
+				"executable"		"MahoganyGame.exe"
+				"arguments"		"-sparkEnv=stable -fullcrashdumpalways -designPaths=Guildhall/DesignData -factoryPaths=Guildhall/Factory"
+				"description"		"Play Project 1v1 (SMU-Guildhall)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"guildhall"
+				}
+			}
+			"12"
+			{
+				"executable"		"MahoganyGame-Win64-Shipping.exe"
+				"description"		"Play Project 1v1 Council"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"gbxcouncil_x"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"540391"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3571050607719702351"
+					"size"		"1"
+					"download"		"48"
+				}
+			}
+		}
+		"540392"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3963701977989773135"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2180607"
+				"timeupdated"		"1565215349"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
