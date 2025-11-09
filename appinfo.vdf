@@ -1,0 +1,140 @@
+"appinfo"
+{
+	"appid"		"2223650"
+	"common"
+	{
+		"name"		"Motor Town: Behind The Wheel - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1369670"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"a579afcebdede718c088b0633d8e360a8ea81472"
+		"clienttga"		"2e389128918a1ed34fad979bac38e0e7eae5bde3"
+		"clienticon"		"eb6167ade88c187f3cc82603faa4f17859d0054e"
+		"releasestate"		"released"
+		"gameid"		"2223650"
+	}
+	"config"
+	{
+		"installdir"		"Motor Town Behind The Wheel - Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MotorTown\\Binaries\\Win64\\MotorTownServer-Win64-Shipping.exe"
+				"arguments"		"Jeju_World?listen? -server -log -useperfthreads"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8904491048620934740"
+					"size"		"68697032"
+					"download"		"20552544"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5587033981095108078"
+					"size"		"107476144"
+					"download"		"29272144"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2223651"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7766542651663955866"
+					"size"		"43"
+					"download"		"96"
+				}
+				"mod-test"
+				{
+					"gid"		"6697745122598157304"
+					"size"		"1625057760"
+					"download"		"1412083440"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10222124"
+				"timeupdated"		"1762692504"
+			}
+			"mod-test"
+			{
+				"buildid"		"20298211"
+				"description"		"Closed test to prevent modded vehicle"
+				"timeupdated"		"1759919843"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
