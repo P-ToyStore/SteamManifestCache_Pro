@@ -1,0 +1,283 @@
+"appinfo"
+{
+	"appid"		"463070"
+	"common"
+	{
+		"name"		"Mecha Ritz: Steel Rondo"
+		"type"		"Game"
+		"icon"		"59a5801feb2894edc073dcbf8d849398692ab367"
+		"oslist"		"windows,linux"
+		"logo"		"c989d0c83d98acd8064879a774b06b8c04e19a92"
+		"logo_small"		"c989d0c83d98acd8064879a774b06b8c04e19a92_thumb"
+		"clienticon"		"20c1ac1a571e829974cca232ec94413547ca9665"
+		"clienttga"		"42b3fa9f353e857a2a4e7ee9f1532294b2579d1c"
+		"releasestate"		"released"
+		"name_localized"
+		{
+			"schinese"		"利兹之心：钢铁轮舞曲"
+		}
+		"osarch"		""
+		"osextended"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Mecha Ritz: Steel Rondo"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1666777384"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"HEY"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hanaji Games"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Gamera Game"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1463554800"
+		"steam_release_date"		"1465541941"
+		"community_hub_visible"		"1"
+		"gameid"		"463070"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"4255"
+			"3"		"4885"
+		}
+		"review_score"		"8"
+		"review_percentage"		"98"
+	}
+	"extended"
+	{
+		"developer"		"HEY"
+		"publisher"		"Hanaji Games"
+		"homepage"		"https://www.hanaji.com/mecha-ritz"
+		"listofdlc"		"470870"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Mecha Ritz Steel Rondo"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"MECHA_SR.exe"
+				"description"		"Play Mecha Ritz: Steel Rondo"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"classic/MECHA_SR_old.exe"
+				"workingdir"		"classic/"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play Mecha Ritz: Steel Rondo v1.53"
+				}
+				"description"		"Play Mecha Ritz: Steel Rondo v1.53"
+			}
+			"5"
+			{
+				"executable"		"classic/Launcher.exe"
+				"workingdir"		"classic/"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Configure Mecha Ritz: Steel Rondo v1.53"
+				}
+				"description"		"Configure Mecha Ritz: Steel Rondo v1.53"
+			}
+			"6"
+			{
+				"executable"		"mecharitz"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese,japanese"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"463071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8797118281539282144"
+					"size"		"668403649"
+					"download"		"238466496"
+				}
+			}
+		}
+		"470870"
+		{
+			"dlcappid"		"470870"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5183881979012389444"
+					"size"		"70426251"
+					"download"		"68853024"
+				}
+			}
+		}
+		"463072"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+		}
+		"463073"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4468177526944930201"
+					"size"		"404833288"
+					"download"		"225002816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9908916"
+				"timeupdated"		"1668079896"
+			}
+		}
+	}
+}
