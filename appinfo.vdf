@@ -1,0 +1,115 @@
+"appinfo"
+{
+	"appid"		"1017000"
+	"common"
+	{
+		"name"		"Warhammer: Chaosbane Beta"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"af3a6c3c49cfe854e69d445b34cb8dae688a0bde"
+		"clienticon"		"df34ca7c0de86923abcb39a40c6e790a448b016e"
+		"icon"		"43eac883fc75637e83b70186bb7bd3f17e3a81d7"
+		"logo"		"e623f476ffeeb3e17bf3306cf4082a0b0b4c350b"
+		"logo_small"		"e623f476ffeeb3e17bf3306cf4082a0b0b4c350b_thumb"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1017000"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"122"
+		}
+	}
+	"config"
+	{
+		"installdir"		"Warhammer Chaosbane Beta"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Exe/Chaosbane.exe"
+				"workingdir"		"Exe"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"Exe/Detect.exe"
+				"workingdir"		"Exe"
+				"type"		"config"
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1017001"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"143755341309425658"
+					"size"		"16046478800"
+					"download"		"5677931248"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,brazilian,latam"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3750483"
+				"timeupdated"		"1555598709"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Data/Save"
+				"pattern"		"*"
+			}
+		}
+	}
+}
