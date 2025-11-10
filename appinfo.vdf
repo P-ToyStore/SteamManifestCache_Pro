@@ -1,0 +1,267 @@
+"appinfo"
+{
+	"appid"		"837190"
+	"common"
+	{
+		"name"		"TANGLEWOOD"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"bb09c57fe3a36690611981fdf89a3ed1204ef11d"
+		"logo_small"		"bb09c57fe3a36690611981fdf89a3ed1204ef11d_thumb"
+		"icon"		"c637ad7cfa513098967642c004f7b1a62c2d7e82"
+		"clienticon"		"ca28639233b541e2d4ec5162b1a3486e24ff4306"
+		"clienttga"		"a4a5ee81a08cd6a809e468ea9391189e63789d5f"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Tanglewood"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_screenshot"		"ss_004fee57e8c9d1f647e5acc05793f7dc22224440.jpg"
+		"store_asset_mtime"		"1637933527"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Big Evil Corporation"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Big Evil Corporation"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1534250592"
+		"metacritic_score"		"79"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/tanglewood?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"837190"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"4004"
+			"2"		"1625"
+			"3"		"3834"
+			"4"		"3798"
+			"5"		"5537"
+			"6"		"3964"
+			"7"		"6691"
+			"8"		"1773"
+			"9"		"3871"
+			"10"		"4726"
+			"11"		"19"
+			"12"		"4085"
+			"13"		"4305"
+			"14"		"4036"
+			"15"		"21"
+			"16"		"4182"
+			"17"		"1756"
+			"18"		"1693"
+			"19"		"5708"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Big Evil Corporation"
+		"publisher"		"Big Evil Corporation"
+		"homepage"		"http://www.tanglewoodgame.com"
+	}
+	"config"
+	{
+		"installdir"		"TANGLEWOOD"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"tanglewd_win_32.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"tanglewd_win_64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"tanglewd_linux_64.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"tanglewood.app/Contents/MacOS/tanglewd_osx_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"837191"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3128062330372694089"
+					"size"		"38656022"
+					"download"		"19853456"
+				}
+				"beta"
+				{
+					"gid"		"9174318714635468874"
+					"size"		"38690005"
+					"download"		"19394752"
+				}
+			}
+		}
+		"837192"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9139307140208284593"
+					"size"		"43255388"
+					"download"		"21301568"
+				}
+				"beta"
+				{
+					"gid"		"1656476005716355755"
+					"size"		"43271451"
+					"download"		"21317744"
+				}
+			}
+		}
+		"837193"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8699316243049662503"
+					"size"		"49494893"
+					"download"		"19306320"
+				}
+				"beta"
+				{
+					"gid"		"5298709907797750795"
+					"size"		"49510956"
+					"download"		"19322496"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3094858"
+				"timeupdated"		"1536169696"
+			}
+			"beta"
+			{
+				"buildid"		"3201229"
+				"timeupdated"		"1539207984"
+			}
+		}
+	}
+}
