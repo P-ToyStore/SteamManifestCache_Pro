@@ -1,0 +1,255 @@
+"appinfo"
+{
+	"appid"		"664060"
+	"common"
+	{
+		"name"		"Willful"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"e9ab4da659e1e7de9e9a9c4a941ef0cdcb8fa823"
+		"logo_small"		"e9ab4da659e1e7de9e9a9c4a941ef0cdcb8fa823_thumb"
+		"icon"		"1c061ac7011eff1b7b5aa5f0707b263e75b3855b"
+		"clienttga"		"67bbbb7139f95e8f33f6a43dfbc4d7683279a0d8"
+		"linuxclienticon"		"dc43fba41502d04f22f418cb2e2a2d79caf80c64"
+		"clienticns"		"4acb3af9c9981a7b70a550485d486d5653aadbc0"
+		"clienticon"		"cedd635e3ffd293c5d745abb64ddd4624af1e5c7"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1741996800"
+			"tested_build_id"		"1979533"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-experimental"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Willful"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0a91d72d7c9b2979a6da1814e11d11787fc325da.jpg"
+		"store_asset_mtime"		"1499208069"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Luke Vincent"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Luke Vincent"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1502294813"
+		"community_hub_visible"		"1"
+		"gameid"		"664060"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1625"
+			"2"		"19"
+			"3"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Luke Vincent"
+		"publisher"		"Luke Vincent"
+	}
+	"config"
+	{
+		"installdir"		"Willful"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Willful.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"willful.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Willful.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"664061"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2015902301877483186"
+					"size"		"149465711"
+					"download"		"54388240"
+				}
+			}
+		}
+		"664062"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6557807509950537513"
+					"size"		"120119911"
+					"download"		"47650256"
+				}
+			}
+		}
+		"664063"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7350324141829919145"
+					"size"		"189813858"
+					"download"		"58137072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1979533"
+				"timeupdated"		"1500695667"
+			}
+		}
+	}
+}
