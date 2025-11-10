@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"885170"
+	"common"
+	{
+		"name"		"My Russian Trip"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"clienticon"		"5365b9a79271d52ba024bbedc59ba4c8e3fbba21"
+		"icon"		"d82d4268a043d9550c711d7746cedb37ad01a807"
+		"logo"		"5ff66803b34a37c1ad373a0b9dc6fd643dfb81f9"
+		"logo_small"		"5ff66803b34a37c1ad373a0b9dc6fd643dfb81f9_thumb"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+		}
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"My Russian Trip"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"german"		"capsule_231x87_german.jpg"
+			"japanese"		"capsule_231x87_japanese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+			"german"		"header_german.jpg"
+			"japanese"		"header_japanese.jpg"
+		}
+		"store_screenshot"		"ss_26dac4d03fdbf4d45f1b30fdb0e6563de94173e9.jpg"
+		"store_asset_mtime"		"1531998255"
+		"associations"
+		{
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1532695080"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"885170"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"3799"
+			"3"		"4085"
+			"4"		"4182"
+			"5"		"4195"
+			"6"		"19"
+			"7"		"1742"
+			"8"		"4136"
+			"9"		"4166"
+			"10"		"4947"
+			"11"		"5372"
+			"12"		"8369"
+			"13"		"15172"
+			"14"		"21006"
+			"15"		"21"
+			"16"		"4305"
+			"17"		"5923"
+			"18"		"6426"
+			"19"		"1719"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"config"
+	{
+		"installdir"		"My Russian Trip"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"My Russian Trip.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"My Russian Trip.app/Contents/MacOS/My Russian Trip"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,schinese,russian"
+		"885171"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6426754893070471290"
+					"size"		"388162791"
+					"download"		"33747136"
+				}
+				"betatest"
+				{
+					"gid"		"6426754893070471290"
+					"size"		"388162791"
+					"download"		"33747136"
+				}
+			}
+		}
+		"885172"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7751095218488740613"
+					"size"		"401982066"
+					"download"		"36390832"
+				}
+				"betatest"
+				{
+					"gid"		"7751095218488740613"
+					"size"		"401982066"
+					"download"		"36390832"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3033598"
+				"timeupdated"		"1534313375"
+			}
+			"betatest"
+			{
+				"buildid"		"3033598"
+				"timeupdated"		"1534312050"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Coffee-Powered Games/My Russian Trip"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Coffee-Powered Games/My Russian Trip"
+						"replace"		"com.coffeepoweredgames.MyRussianTripmac"
+					}
+				}
+			}
+		}
+	}
+}
