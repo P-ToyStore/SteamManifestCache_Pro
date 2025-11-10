@@ -1,0 +1,244 @@
+"appinfo"
+{
+	"appid"		"1120310"
+	"common"
+	{
+		"name"		"Game Dashboard"
+		"type"		"Application"
+		"oslist"		"windows"
+		"osarch"		""
+		"icon"		"c773c20dcf5e741d78f692ac246341e01097377c"
+		"clienticon"		"6eb5cbf7f8d29ccb10174b2c096b3ea6408dff3a"
+		"clienttga"		"fccc82b3de68b2fb30c9f48c64f3875b10e32592"
+		"logo"		"b3cc0b88f7efa875581344256ae88e5cfca8f92e"
+		"logo_small"		"b3cc0b88f7efa875581344256ae88e5cfca8f92e_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1120310_eula_0"
+				"name"		"Game Dashboard EULA"
+				"url"		"https://store.steampowered.com//eula/1120310_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"metacritic_name"		"Game Dashboard"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1680351207"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Disruptive Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Disruptive Software"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"57"
+			"1"		"60"
+		}
+		"category"
+		{
+			"category_23"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1566921985"
+		"community_hub_visible"		"1"
+		"gameid"		"1120310"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"13906"
+			"2"		"5055"
+			"3"		"5407"
+			"4"		"8013"
+		}
+		"review_score"		"7"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Disruptive Software"
+		"publisher"		"Disruptive Software"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1120310/"
+	}
+	"config"
+	{
+		"installdir"		"GameDashboard"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"gamedash32.exe"
+				"description"		"Launch both loaders"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"gamedash32.exe"
+				"arguments"		"1"
+				"description"		"Loader for 32-bit games"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"gamedash64.exe"
+				"arguments"		"1"
+				"description"		"Loader for 64-bit games"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"gamedash32.exe"
+				"arguments"		"2"
+				"description"		"Loader for 32-bit games (minimized)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"gamedash64.exe"
+				"arguments"		"2"
+				"description"		"Loader for 64-bit games (minimized)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1120311"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8241762905725386729"
+					"size"		"1790144"
+					"download"		"1308960"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10018534"
+				"timeupdated"		"1669401132"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"GameDashboard"
+				"pattern"		"userdata.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
