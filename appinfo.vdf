@@ -1,0 +1,165 @@
+"appinfo"
+{
+	"appid"		"1030280"
+	"common"
+	{
+		"name"		"翔的堕落人生"
+		"type"		"Game"
+		"logo"		"9241c73d6c3fe1bde309d15d31a08c771c18b253"
+		"logo_small"		"9241c73d6c3fe1bde309d15d31a08c771c18b253_thumb"
+		"icon"		"d63db7b29cfc8e3da3f28e69ed0fe27955c19976"
+		"clienticon"		"8979e0b1b8ac0958e836b92e6f7af91b1619ece9"
+		"clienttga"		"c3e7504ccb43ecd63f5a86b226b17281dd74c9db"
+		"oslist"		"windows"
+		"osarch"		""
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+		}
+		"metacritic_name"		"翔的堕落人生"
+		"small_capsule"
+		{
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"schinese"		"header_schinese.jpg"
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c134a6864fe946801bca3d96864d903ce43b557b.jpg"
+		"store_asset_mtime"		"1551880586"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"H  Legion"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"H  Legion"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+			"4"		"28"
+			"5"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1552633200"
+		"steam_release_date"		"1552653244"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1030280"
+		"store_tags"
+		{
+			"0"		"5577"
+			"1"		"12095"
+		}
+		"review_score"		"4"
+		"review_percentage"		"28"
+	}
+	"extended"
+	{
+		"developer"		"H  Legion"
+		"publisher"		"H  Legion"
+	}
+	"config"
+	{
+		"installdir"		"xiang"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"schinese"
+		"1030281"
+		{
+			"config"
+			{
+				"language"		"schinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"213158135860546442"
+					"size"		"280886389"
+					"download"		"157392816"
+				}
+			}
+		}
+		"1030282"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3636538"
+				"timeupdated"		"1552356092"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"90000000000"
+		"maxnumfiles"		"10000"
+		"appidredirect"		"1030280"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"/SteamApps/common/xiang/"
+			}
+		}
+	}
+}
