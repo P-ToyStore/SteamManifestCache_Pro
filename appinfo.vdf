@@ -1,0 +1,244 @@
+"appinfo"
+{
+	"appid"		"356170"
+	"common"
+	{
+		"name"		"Tile Rider"
+		"type"		"Game"
+		"logo"		"3b1f1567a8e388e0d2ede9fada20ca56aca5d1c2"
+		"logo_small"		"3b1f1567a8e388e0d2ede9fada20ca56aca5d1c2_thumb"
+		"clienttga"		"19092ddc1e2b8257c3751a410fd446fbe6d149a0"
+		"oslist"		"windows,linux"
+		"icon"		"af86d43669864d92b05e49ec7961cbc6d094e1b8"
+		"clienticon"		"d0cd7474cbb9a338c22eb6a75070d29e7e538d3f"
+		"linuxclienticon"		"281cf89132d397aec23f8908a406643a50afccea"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Tile Rider"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d0c742116b07ae4cb562785d27f4df014189c13a.jpg"
+		"store_asset_mtime"		"1432237667"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"7 Soft Pillows"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"7 Soft Pillows"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1433440800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"356170"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"699"
+			"2"		"492"
+			"3"		"1664"
+			"4"		"21"
+			"5"		"1756"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"developer"		"7 Soft Pillows"
+		"publisher"		"7 Soft Pillows"
+		"homepage"		"http://tileridergame.com/"
+		"listofdlc"		"362440"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tile Rider"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TileRider"
+				"arguments"		"-invertGamePadY"
+				"description"		"FullScreen"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"TileRider.exe"
+				"description"		"FullScreen"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"TileRider.exe"
+				"arguments"		"-window -noantialis"
+				"description"		"Safe Mode"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"TileRider"
+				"arguments"		"-window -noantialis -invertGamePadY"
+				"description"		"Safe Mode"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,italian,spanish,russian"
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"356171"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7175939018037313134"
+					"size"		"39860249"
+					"download"		"36903664"
+				}
+			}
+		}
+		"356172"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1783795462497246514"
+					"size"		"99258945"
+					"download"		"40690848"
+				}
+			}
+		}
+		"362440"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4903228882773938383"
+					"size"		"40497331"
+					"download"		"34726400"
+				}
+			}
+			"dlcappid"		"362440"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"904255"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+	}
+}
