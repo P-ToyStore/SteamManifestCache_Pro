@@ -1,0 +1,525 @@
+"appinfo"
+{
+	"appid"		"1240410"
+	"common"
+	{
+		"name"		"Halo Infinite - Insider"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"cf7027613ad8a92663e8db1b7ad703bfc4465c48"
+		"logo_small"		"cf7027613ad8a92663e8db1b7ad703bfc4465c48_thumb"
+		"icon"		"c0a6f9923e351073c20a8148e22854a545f8dd4e"
+		"clienttga"		"3328a5ac5504bbf285d7940f3c48bfd7c34a013d"
+		"associations"
+		{
+		}
+		"gameid"		"1240410"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"installdir"		"Halo Infinite Insider"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HaloInfinite.exe"
+				"arguments"		"-enable_wer"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"default"
+				}
+			}
+			"1"
+			{
+				"executable"		"game_Profile.exe"
+				"arguments"		"-initfrom init_benchmark.txt"
+				"type"		"benchmark"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_amd"
+				}
+			}
+			"2"
+			{
+				"executable"		"game_Profile.exe"
+				"arguments"		"-initfrom init_benchmark.txt"
+				"type"		"benchmark"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_intel"
+				}
+			}
+			"3"
+			{
+				"executable"		"game_Profile.exe"
+				"arguments"		"-initfrom init_benchmark.txt"
+				"type"		"benchmark"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_nvidia"
+				}
+			}
+			"4"
+			{
+				"executable"		"HaloInfinite.exe"
+				"arguments"		"-title_id 64088028"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"forerunner"
+				}
+			}
+			"5"
+			{
+				"executable"		"HaloInfinite.exe"
+				"arguments"		"-title_id 64088028"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"forerunner_qa"
+				}
+			}
+			"6"
+			{
+				"executable"		"HaloInfinite.exe"
+				"arguments"		"-title_id 64088028"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"pilot"
+				}
+			}
+			"7"
+			{
+				"executable"		"game_Profile.exe"
+				"arguments"		"-initfrom init_benchmark.txt"
+				"type"		"benchmark"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_ms"
+				}
+			}
+			"8"
+			{
+				"executable"		"game_Profile.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_amd"
+				}
+				"description_loc"
+				{
+					"english"		"Profile"
+				}
+				"description"		"Profile"
+			}
+			"9"
+			{
+				"executable"		"HaloInfinite.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_amd"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+			"10"
+			{
+				"executable"		"HaloInfinite.exe"
+				"arguments"		"-d3d breadcrumbs"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"forerunner_qa"
+				}
+				"description_loc"
+				{
+					"english"		"with Breadcrumbs"
+				}
+				"description"		"with Breadcrumbs"
+			}
+			"11"
+			{
+				"executable"		"HaloInfinite.exe"
+				"arguments"		"-d3d breadcrumbs"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"xip_qa"
+				}
+				"description_loc"
+				{
+					"english"		"with Breadcrumbs"
+				}
+				"description"		"with Breadcrumbs"
+			}
+			"12"
+			{
+				"executable"		"HaloInfinite.exe"
+				"arguments"		"-d3d breadcrumbs"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"qa_current_rc"
+				}
+				"description_loc"
+				{
+					"english"		"with Breadcrumbs"
+				}
+				"description"		"with Breadcrumbs"
+			}
+			"13"
+			{
+				"executable"		"game_Profile.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_nvidia"
+				}
+				"description_loc"
+				{
+					"english"		"Profile"
+				}
+				"description"		"Profile"
+			}
+			"14"
+			{
+				"executable"		"game_Profile.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_intel"
+				}
+				"description_loc"
+				{
+					"english"		"Profile"
+				}
+				"description"		"Profile"
+			}
+			"15"
+			{
+				"executable"		"HaloInfinite.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_nvidia"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+			"16"
+			{
+				"executable"		"HaloInfinite.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_intel"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+			"17"
+			{
+				"executable"		"game_Profile.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_ms"
+				}
+				"description_loc"
+				{
+					"english"		"Profile"
+				}
+				"description"		"Profile"
+			}
+			"18"
+			{
+				"executable"		"HaloInfinite.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_ms"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+			"19"
+			{
+				"executable"		"game_Profile.exe"
+				"arguments"		"-initfrom init_benchmark.txt"
+				"type"		"benchmark"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_intel2"
+				}
+			}
+			"20"
+			{
+				"executable"		"game_Profile.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_intel2"
+				}
+				"description_loc"
+				{
+					"english"		"Profile"
+				}
+				"description"		"Profile"
+			}
+			"21"
+			{
+				"executable"		"HaloInfinite.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_intel2"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+			"22"
+			{
+				"executable"		"game_Profile.exe"
+				"arguments"		"-initfrom init_benchmark.txt"
+				"type"		"benchmark"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_ms2"
+				}
+			}
+			"23"
+			{
+				"executable"		"game_Profile.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_ms2"
+				}
+				"description_loc"
+				{
+					"english"		"Profile"
+				}
+				"description"		"Profile"
+			}
+			"24"
+			{
+				"executable"		"HaloInfinite.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_ms2"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+			"25"
+			{
+				"executable"		"game_Profile.exe"
+				"arguments"		"-initfrom init_benchmark.txt"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_amd2"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Benchmark"
+				}
+				"description"		"Launch Benchmark"
+			}
+			"26"
+			{
+				"executable"		"game_Profile.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_amd2"
+				}
+				"description_loc"
+				{
+					"english"		"Profile"
+				}
+				"description"		"Profile"
+			}
+			"27"
+			{
+				"executable"		"HaloInfinite.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_amd2"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+			"28"
+			{
+				"executable"		"game_Profile.exe"
+				"arguments"		"-initfrom init_benchmark.txt"
+				"type"		"benchmark"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_nvidia2"
+				}
+			}
+			"29"
+			{
+				"executable"		"game_Profile.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_nvidia2"
+				}
+				"description_loc"
+				{
+					"english"		"Profile"
+				}
+				"description"		"Profile"
+			}
+			"30"
+			{
+				"executable"		"HaloInfinite.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"ihv_nvidia2"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1240411"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8892607067602386755"
+					"size"		"19"
+					"download"		"64"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,polish,dutch,brazilian,latam"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5340236"
+				"timeupdated"		"1633367421"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"50"
+	}
+}
