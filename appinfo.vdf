@@ -1,0 +1,410 @@
+"appinfo"
+{
+	"appid"		"360950"
+	"common"
+	{
+		"name"		"Descent: Underground"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"f071549b681dbb54e31b31aad639730d473daada"
+		"clienttga"		"4e21567a1729fe31872cc64482130e2a07d09ebb"
+		"icon"		"53d879c48dbba795fb01ebb5d5aac252051a6fbe"
+		"logo"		"2a440ff4c1477a249a928036555eaf29369e8f8c"
+		"logo_small"		"2a440ff4c1477a249a928036555eaf29369e8f8c_thumb"
+		"clienticns"		"31dab729b55c75de0e799188876bf241e6862a52"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"360950_eula_0"
+				"name"		"Descent: Underground EULA"
+				"url"		"http://store.steampowered.com//eula/360950_eula_0"
+			}
+		}
+		"linuxclienticon"		"3bbc5a7b6fe42add022add680dc1ec6b6a993a68"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"osvrsupport"		"1"
+		"metacritic_name"		"Descent: Underground"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_46093b140883bca0535d2fd86896baeb1e8c42fd.jpg"
+		"store_asset_mtime"		"1445539551"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Descendent Studios Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Descendent Studios Inc."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_31"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_2"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_43"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1445525948"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"360950"
+		"store_tags"
+		{
+			"0"		"4835"
+			"1"		"1755"
+			"2"		"3859"
+			"3"		"3942"
+			"4"		"3839"
+			"5"		"19"
+			"6"		"492"
+			"7"		"1663"
+			"8"		"493"
+			"9"		"21978"
+			"10"		"5547"
+			"11"		"1774"
+			"12"		"4004"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Descendent Studios Inc."
+		"publisher"		"Descendent Studios Inc."
+		"homepage"		"http://descendentstudios.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Descent Underground"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launcher\\Descent.exe"
+				"arguments"		"--steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"launcher\\Descent.exe"
+				"arguments"		"--manual"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"launcher/descent.sh"
+				"arguments"		"--steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"launcher/descent.sh"
+				"arguments"		"--manual"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"launcher/Descent.app/Contents/MacOS/Descent"
+				"arguments"		"--steam"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"8"
+			{
+				"executable"		"launcher/Descent.app/Contents/MacOS/Descent"
+				"arguments"		"--manual"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"9"
+			{
+				"executable"		"launcher\\Descent.exe"
+				"arguments"		"--steam --vr=steamvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"10"
+			{
+				"executable"		"launcher\\Descent.exe"
+				"arguments"		"--steam --vr=oculusvr"
+				"description"		"OculusVR"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"11"
+			{
+				"executable"		"launcher/descent.sh"
+				"arguments"		"--steam --vr=steamvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"12"
+			{
+				"executable"		"launcher/Descent.app/Contents/MacOS/Descent"
+				"arguments"		"--steam --vr=steamvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"13"
+			{
+				"executable"		"launcher\\Descent.exe"
+				"arguments"		"--steam --vr=osvr"
+				"description"		"Launch in OSVR mode"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"vrsupport"		"other"
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"360951"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1037314573698753362"
+					"size"		"13460657916"
+					"download"		"4896263024"
+				}
+			}
+		}
+		"360952"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8402278022267580025"
+					"size"		"336453594"
+					"download"		"86235568"
+				}
+			}
+		}
+		"360953"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8672533514994068155"
+					"size"		"17124157078"
+					"download"		"5605079216"
+				}
+			}
+		}
+		"360954"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8065423205340953264"
+					"size"		"277132786"
+					"download"		"52250560"
+				}
+			}
+		}
+		"360955"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4764265406899059061"
+					"size"		"15227059296"
+					"download"		"4807576864"
+				}
+			}
+		}
+		"360956"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4881505128685124161"
+					"size"		"520838531"
+					"download"		"57767776"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1992643"
+				"timeupdated"		"1501190802"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
