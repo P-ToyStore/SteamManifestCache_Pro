@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"259700"
+	"common"
+	{
+		"name"		"Dead Sky"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"a8cae529808cfe806e129962935728dffe16e06c"
+		"clienttga"		"40aacbed50d11d61592d7b27313a7a632544454c"
+		"icon"		"4983c1d5f4b1ffd5ffc7c03ef14ebdce6fb02978"
+		"linuxclienticon"		"59528d59626add65d15518593a41e8bfab79cef7"
+		"clienticns"		"38ef42ebc21cd8826e79983abafd660118eb4543"
+		"logo"		"e45c4ca71ff3e191feaa773f19623ede60577718"
+		"logo_small"		"e45c4ca71ff3e191feaa773f19623ede60577718_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dead Sky"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c8388300ba31751f953b722e9413e3c3b97096cb.jpg"
+		"store_asset_mtime"		"1384928180"
+		"associations"
+		{
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1385146704"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"259700"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"1659"
+		}
+		"review_score"		"4"
+		"review_percentage"		"36"
+	}
+	"extended"
+	{
+		"homepage"		"http://shoreboundstudios.com/site/dead-sky"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DeadSky"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DeadSky.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DeadSky.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"Launch using D3D9"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"DeadSky.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"DeadSky"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"baselanguages"		"english"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"259701"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1158150323572510813"
+					"size"		"1249538862"
+					"download"		"1641646560883"
+				}
+				"beta"
+				{
+					"gid"		"1158150323572510813"
+					"size"		"1249538862"
+					"download"		"1641646560883"
+				}
+			}
+		}
+		"259702"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4470361508480814459"
+					"size"		"1241059612"
+					"download"		"1020442550987"
+				}
+				"beta"
+				{
+					"gid"		"4470361508480814459"
+					"size"		"1241059612"
+					"download"		"1020442550987"
+				}
+			}
+		}
+		"259703"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1399363519199952848"
+					"size"		"1282981685"
+					"download"		"1020706745289"
+				}
+				"beta"
+				{
+					"gid"		"1399363519199952848"
+					"size"		"1282981685"
+					"download"		"1020706745289"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"425505"
+			}
+			"beta"
+			{
+				"buildid"		"425505"
+			}
+		}
+	}
+}
