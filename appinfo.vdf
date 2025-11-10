@@ -1,0 +1,212 @@
+"appinfo"
+{
+	"appid"		"447010"
+	"common"
+	{
+		"name"		"Bird of Light"
+		"type"		"Game"
+		"logo"		"89420f27dda95c5049e1826f3e59663bf62c8692"
+		"logo_small"		"89420f27dda95c5049e1826f3e59663bf62c8692_thumb"
+		"icon"		"7fe5795bfeb566ce044f5018057d3a189ce1fa12"
+		"clienttga"		"38a4c25e6cdd30c7720232e0a73444f3ee599478"
+		"clienticon"		"8aec87b08fa9d0239c7c01fea7ff97a383df187a"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bird of Light"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_65f5dbef63a3d86d7c15d521e6a5da66e7892b27.jpg"
+		"store_asset_mtime"		"1468603831"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Roach Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1468603170"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"447010"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"9"
+			"2"		"21"
+			"3"		"597"
+			"4"		"1664"
+		}
+		"review_score"		"7"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Roach Interactive"
+		"homepage"		"http://www.roachinteractive.com/birdoflight.html"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Bird of Light"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bird_of_light.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bird_of_light.app\\Contents\\MacOS\\bird_of_light"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"beta"
+				}
+			}
+			"2"
+			{
+				"executable"		"bird_of_light.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"447011"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8202967991548096095"
+					"size"		"223008194"
+					"download"		"50635296"
+				}
+				"beta"
+				{
+					"gid"		"8202967991548096095"
+					"size"		"223008194"
+					"download"		"50635296"
+				}
+			}
+		}
+		"447012"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3854444557130476746"
+					"size"		"268600513"
+					"download"		"63209232"
+				}
+				"beta"
+				{
+					"gid"		"3854444557130476746"
+					"size"		"268600513"
+					"download"		"63209232"
+				}
+			}
+		}
+		"447013"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"165427632542273168"
+					"size"		"229904163"
+					"download"		"52431248"
+				}
+				"beta"
+				{
+					"gid"		"165427632542273168"
+					"size"		"229904163"
+					"download"		"52431248"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1310172"
+				"timeupdated"		"1472648187"
+			}
+			"beta"
+			{
+				"buildid"		"1310172"
+				"description"		"Public testing"
+				"timeupdated"		"1472646463"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
