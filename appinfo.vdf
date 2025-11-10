@@ -1,0 +1,99 @@
+"appinfo"
+{
+	"appid"		"2935470"
+	"common"
+	{
+		"name"		"Pro Basketball Manager 2025 Dataeditor"
+		"type"		"Tool"
+		"parent"		"2935400"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"71fb8770443abdc5b352802ac88b82522d58df47"
+		"clienttga"		"424091e013afd7377356b9fb56e87a64a2d25317"
+		"clienticon"		"28a9ced651e700cea8cefd170ed52a14b2bf1693"
+		"clienticns"		"9bdc2451b028a58b2f91d3dcaeb5102f565b9d3e"
+		"releasestate"		"released"
+		"gameid"		"2935470"
+	}
+	"config"
+	{
+		"installdir"		"Pro Basketball Manager 2025 Dataeditor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DataEditor.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DATAEDITOR.app/Contents/MacOS/Pro Basketball Manager 2025 DataEditor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2935471"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9160474438950074840"
+					"size"		"2402503025"
+					"download"		"935436928"
+				}
+			}
+		}
+		"2935472"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2325597079592266732"
+					"size"		"2466098500"
+					"download"		"950357088"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,schinese,tchinese,russian,portuguese,turkish,brazilian,greek"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17149415"
+				"timeupdated"		"1738010690"
+			}
+		}
+	}
+}
