@@ -1,0 +1,258 @@
+"appinfo"
+{
+	"appid"		"205060"
+	"common"
+	{
+		"name"		"BIT.TRIP CORE"
+		"type"		"Game"
+		"clienticon"		"2e69b67709938dccbf396b32a421396d62ff819f"
+		"clienttga"		"05c0a22021d73dbf75da91704b957dce3b40e71e"
+		"icon"		"37860e7e8aee63a65b2a665c3a7c125ce8169d43"
+		"clienticns"		"7ca7eae1c460ee8f737be5446230011911b6e270"
+		"logo"		"0151485e139e4ab9ff32bab122684d71bd227a94"
+		"logo_small"		"0151485e139e4ab9ff32bab122684d71bd227a94_thumb"
+		"oslist"		"windows,macos"
+		"metacritic_name"		"BIT.TRIP CORE"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_7625cf3f755591c7424434798cd88058b17ba183.jpg"
+		"store_asset_mtime"		"1655156060"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gaijin Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gaijin Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1349197200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"205060"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"1752"
+			"3"		"1621"
+		}
+		"review_score"		"5"
+		"review_percentage"		"58"
+	}
+	"extended"
+	{
+		"developer"		"Gaijin Games"
+		"gamedir"		"ValveTestApp205060"
+		"homepage"		"http://totallychoice.com/games/bittrip-core"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Gaijin Games"
+		"listofdlc"		"205063"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installscriptsignature"		"3a664acc526207b8b3969ce9a3ad6e92342252680a93f3712c943aed2b0c9a4d204c098234056d2dfbdce2b355bdeb38c9da27000f68a7f13c84e43f5fe2d2a743f47d7daa1697d3ef9a9ab4fb2bd492dcc693b2cb0350c3fef30b3a07bfe91b47272dc1bd910363e3a39ff460fb1c8b4ad111280bb6f79e0a6dcae0249ba0a1"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BIT.TRIP CORE.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BIT.TRIP.CORE.app"
+				"description"		"OS X launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"BIT.TRIP CORE"
+		"steamcontrollertemplateindex"		"3"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx 9"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205060"
+				"process 1"		"%INSTALLDIR%\\dep\\dxwebsetup.exe"
+				"command 1"		"/Q"
+				"nocleanup"		"1"
+			}
+			"openal"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205060"
+				"process 1"		"%INSTALLDIR%\\dep\\oalinst.exe"
+				"command 1"		"/s"
+				"nocleanup"		"1"
+			}
+			"vc 2010 x86 redistributable"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205060"
+				"process 1"		"%INSTALLDIR%\\dep\\vcredist_x86.exe"
+				"command 1"		"/passive /promptrestart /showfinalerror"
+				"nocleanup"		"1"
+			}
+			"dotnet fullframework 4.0"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\205060"
+				"process 1"		"%INSTALLDIR%\\dep\\dotNetInstallerWrapper.exe"
+				"command 1"		"\"%INSTALLDIR%\\dep\\dotNetFx40_Full_setup.exe\" /passive /promptrestart"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"205061"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1153843708588568400"
+					"size"		"105741376"
+					"download"		"0"
+				}
+				"updates"
+				{
+					"gid"		"1153843708588568400"
+					"size"		"105741376"
+					"download"		"0"
+				}
+			}
+		}
+		"205062"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3135573949438603117"
+					"size"		"125456215"
+					"download"		"96578144"
+				}
+				"updates"
+				{
+					"gid"		"3135573949438603117"
+					"size"		"125456215"
+					"download"		"96578144"
+				}
+			}
+		}
+		"205063"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2818943392907073034"
+					"size"		"20565807"
+					"download"		"0"
+				}
+				"updates"
+				{
+					"gid"		"2818943392907073034"
+					"size"		"20565807"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"205063"
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1155757"
+				"timeupdated"		"1464736381"
+			}
+			"updates"
+			{
+				"buildid"		"1155757"
+				"timeupdated"		"1464687297"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"131072"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"0"
+	}
+}
