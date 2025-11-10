@@ -1,0 +1,188 @@
+"appinfo"
+{
+	"appid"		"61010"
+	"common"
+	{
+		"name"		"Digital Combat Simulator: A-10C Warthog"
+		"clienticon"		"65767ff66092a7261c2b48206be070acbc43c56f"
+		"clienttga"		"6da6afb5401c3307097f81e94bcffcee954c4c44"
+		"icon"		"b5218edd34fb165b3baa1598dec1517e51af58a6"
+		"logo"		"eb3d1be3c3c975f07f05a6ae6e90601058fea0bf"
+		"logo_small"		"eb3d1be3c3c975f07f05a6ae6e90601058fea0bf_thumb"
+		"type"		"game"
+		"metacritic_name"		"DCS: A-10C Warthog"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_87adfad4d9fed1b00d4023410851f5c613a448b5.jpg"
+		"store_asset_mtime"		"1371928608"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Eagle Dynamics"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"The Fighter Collection"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_13"		"1"
+			"category_12"		"1"
+			"category_28"		"1"
+			"category_17"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"metacritic_score"		"87"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/dcs-a-10c-warthog?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"61010"
+		"store_tags"
+		{
+			"0"		"599"
+		}
+		"review_score"		"8"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"Eagle Dynamics"
+		"gamedir"		"Digital Combat Simulator: A-10C Warthog"
+		"homepage"		"http://www.digitalcombatsimulator.com/index.php?end_pos=2452&amp;scr=default&amp;lang=en"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp61010\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"61011"
+		"serverbrowsername"		""
+		"showcdkeyinmenu"		"1"
+		"state"		"eStateAvailable"
+		"supportscdkeycopytoclipboard"		"1"
+		"publisher"		"The Fighter Collection"
+		"gamemanualurl"		"https://store.steampowered.com/manual/61010/"
+	}
+	"config"
+	{
+		"installscriptsignature"		"4b6271d89779d445902abd53c9b1ee61fbd1c08c12a715d8937c328ff9409f755cf21b6ef2d2a38e891c7f931325ddce222366082980e77f9352afbcc7d6b6c8853a5bc1a4fd21d94fc0c0fbc353d86d601144425ad8cc2ab4a3c6c02c334e5c5dcf1fdfbfe0f7d1d644244bc9022548e73bf66f8caa633c5000875d9dddd02a"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"DCS A-10C Warthog"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/run.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\61010"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"61011"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6919185064897761278"
+					"size"		"7299384470"
+					"download"		"0"
+				}
+			}
+		}
+		"61012"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1381060722851357031"
+					"size"		"295849699"
+					"download"		"0"
+				}
+			}
+		}
+		"61013"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3702958902715114814"
+					"size"		"312876624"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23872"
+			}
+		}
+	}
+}
