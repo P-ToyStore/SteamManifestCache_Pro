@@ -1,0 +1,331 @@
+"appinfo"
+{
+	"appid"		"351810"
+	"common"
+	{
+		"name"		"MadSpace: To Hell and Beyond"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"8553014e0bd089068c24a4fa1cc1e2937871c8ee"
+		"logo_small"		"8553014e0bd089068c24a4fa1cc1e2937871c8ee_thumb"
+		"clienticon"		"6c7ecc7ee1cefb76bc38aadd62ecf104ee745f61"
+		"clienttga"		"daa856ade0630208a1feb128e7fc0dab9aa1c440"
+		"icon"		"42a9782c47fddd99685e8a10cea830af3022b141"
+		"linuxclienticon"		"3d4228e89b4421741249afc1086adcf56792c434"
+		"metacritic_name"		"MadSpace: To Hell and Beyond"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1569376037"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Maddox Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"852105600"
+		"steam_release_date"		"1430511165"
+		"community_hub_visible"		"1"
+		"gameid"		"351810"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"1774"
+			"3"		"3839"
+			"4"		"1693"
+			"5"		"3942"
+			"6"		"4182"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Maddox Games"
+		"publisher"		"Nightdive Studios"
+		"homepage"		"http://www.nightdivestudios.com/?utm_source=steampowered.com&amp;utm_medium=product&amp;utm_campaign=website%20-%20madspace"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"MadSpace"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_madspace.conf -conf dosbox_madspace_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_madspace.conf -conf dosbox_madspace_launch_windows.conf -noconsole"
+				"description"		"Play MadSpace: To Hell and Beyond in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_madspace.conf -conf dosbox_madspace_config_windows.conf -noconsole"
+				"description"		"MadSpace: To Hell and Beyond - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"dosbox_linux\\launch_madspace_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_madspace_game_daum.sh"
+				"description"		"Play MadSpace: To Hell and Beyond in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\launch_madspace_config.sh"
+				"description"		"MadSpace: To Hell and Beyond - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"351811"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8740239559431712372"
+					"size"		"5"
+					"download"		"64"
+				}
+			}
+		}
+		"351812"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2998684285867861666"
+					"size"		"33935336"
+					"download"		"14265088"
+				}
+			}
+		}
+		"351813"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7534013840732606596"
+					"size"		"18199624"
+					"download"		"7906432"
+				}
+			}
+		}
+		"351814"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3489115714692927618"
+					"size"		"620678978"
+					"download"		"542499024"
+				}
+			}
+		}
+		"351815"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3580331386474227006"
+					"size"		"620678978"
+					"download"		"542499024"
+				}
+			}
+		}
+		"351816"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2874321742135784884"
+					"size"		"710943990"
+					"download"		"601289680"
+				}
+			}
+		}
+		"351817"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"575345599708520273"
+					"size"		"710943990"
+					"download"		"601289680"
+				}
+			}
+		}
+		"baselanguages"		"english,russian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"643790"
+			}
+		}
+	}
+}
