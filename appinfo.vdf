@@ -1,0 +1,244 @@
+"appinfo"
+{
+	"appid"		"1165280"
+	"common"
+	{
+		"name"		"Shuffle World"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"22553b17c716d49298081b925d0054af54a79d98"
+		"clienttga"		"e0faa441c0732e728f2bee1b00a82b8eb9e71bb2"
+		"icon"		"33ae864919878672fad6c7b510951c80d7fd55f4"
+		"logo"		"0561f0ad1ce92bf827eeb977b88db0723cf23196"
+		"logo_small"		"0561f0ad1ce92bf827eeb977b88db0723cf23196_thumb"
+		"metacritic_name"		"Shuffle World"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667072135"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NanningsGames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"NanningsGames"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Nannings"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1570605400"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1165280"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1664"
+			"3"		"5537"
+			"4"		"1621"
+			"5"		"1625"
+			"6"		"1756"
+			"7"		"3871"
+			"8"		"3964"
+			"9"		"4004"
+			"10"		"4182"
+			"11"		"5411"
+			"12"		"7481"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"developer"		"NanningsGames"
+		"publisher"		"NanningsGames"
+		"homepage"		"http://www.nannings.nz"
+	}
+	"config"
+	{
+		"installdir"		"Shuffle World"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Shuffle World.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Shuffle World.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1165281"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4599801652827643976"
+					"size"		"220948178"
+					"download"		"57076608"
+				}
+			}
+		}
+		"1165282"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1816444967062987396"
+					"size"		"231986182"
+					"download"		"58647632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9836503"
+				"timeupdated"		"1667216027"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"NanningsGames/Shuffle World"
+				"pattern"		"savedata"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"NanningsGames/Shuffle World"
+						"replace"		".config/unity3d/NanningsGames/Shuffle World"
+					}
+				}
+			}
+		}
+	}
+}
