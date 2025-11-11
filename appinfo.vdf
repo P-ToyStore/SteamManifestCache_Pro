@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"1110990"
+	"common"
+	{
+		"name"		"Dead Matter Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"parent"		"575440"
+		"releasestate"		"unavailable"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"7ba56e12ea4e3e941483c45b38fe649f0c8c4c00"
+		"logo"		"3e3f3061d17a3e3ab7ecbac609395426ce8acc08"
+		"logo_small"		"3e3f3061d17a3e3ab7ecbac609395426ce8acc08_thumb"
+		"clienticon"		"2d4906e955856c77472ddfde7dc39a2f48414aa2"
+		"clienttga"		"96bb1515a1e9a9254554ee57f4dea422cd30fd53"
+		"associations"
+		{
+		}
+		"gameid"		"1110990"
+		"exfgls"		"8"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Dead Matter Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DeadMatterServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DeadMatterServer.sh"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8904491048620934740"
+					"size"		"68697032"
+					"download"		"20552544"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5587033981095108078"
+					"size"		"107476144"
+					"download"		"29272144"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1110991"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3520151996102260760"
+					"size"		"16220205179"
+					"download"		"1705781728"
+				}
+				"automatic-nightly"
+				{
+					"gid"		"3520151996102260760"
+					"size"		"16220205179"
+					"download"		"1705781728"
+				}
+			}
+		}
+		"1110992"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2306062461526497069"
+					"size"		"5193681978"
+					"download"		"1148387520"
+				}
+				"automatic-nightly"
+				{
+					"gid"		"2306062461526497069"
+					"size"		"5193681978"
+					"download"		"1148387520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12153976"
+				"timeupdated"		"1694366820"
+			}
+			"automatic-nightly"
+			{
+				"buildid"		"12153976"
+				"description"		"Automated nightly builds"
+				"timeupdated"		"1694366278"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
