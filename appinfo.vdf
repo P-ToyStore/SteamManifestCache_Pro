@@ -1,0 +1,460 @@
+"appinfo"
+{
+	"appid"		"1230000"
+	"common"
+	{
+		"name"		"Curse of Eternity"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"logo"		"4bf4cc914d7e1f44ec09481e2666138ee9c49c3a"
+		"logo_small"		"4bf4cc914d7e1f44ec09481e2666138ee9c49c3a_thumb"
+		"icon"		"e367bebcd7d279275c674a04a9b3666609a6a607"
+		"clienticon"		"bc535823012520729cff17cc19a170463a5fc86d"
+		"clienttga"		"a9c18a497b608f79dd9fd128bf7a43fb905afcf9"
+		"clienticns"		"7dff494f5c322e6150bd43a0e83848401a93ecfb"
+		"linuxclienticon"		"aff218baada2e809a5ca34db2defa32125d11a6f"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1230000_eula_0"
+				"name"		"Curse of Eternity EULA"
+				"url"		"https://store.steampowered.com//eula/1230000_eula_0"
+				"version"		"1"
+			}
+		}
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"53.49282090881336"
+				"height_pct"		"69.65925925925926"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"53.49282090881336"
+					"height_pct"		"69.65925925925926"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1669895876"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Imakeda Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Imakeda Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1669894636"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1230000"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"29482"
+			"2"		"4026"
+			"3"		"4231"
+			"4"		"122"
+			"5"		"1697"
+			"6"		"3835"
+			"7"		"3854"
+			"8"		"4608"
+			"9"		"7481"
+			"10"		"19"
+			"11"		"4252"
+			"12"		"1684"
+			"13"		"4057"
+			"14"		"4604"
+			"15"		"4166"
+			"16"		"21"
+			"17"		"4342"
+			"18"		"3993"
+			"19"		"4182"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"Imakeda Games"
+		"publisher"		"Imakeda Games"
+		"homepage"		"http://www.curseofeternity.com/"
+	}
+	"config"
+	{
+		"installdir"		"Curse of Eternity"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Curse of Eternity.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Curse of Eternity.app\\Contents\\MacOS\\Curse of Eternity"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Curse of Eternity.x64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"Curse of Eternity.exe"
+				"arguments"		"-force-glcore"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (OpenGL Core)"
+				}
+				"description"		"Play CoE (OpenGL Core)"
+			}
+			"4"
+			{
+				"executable"		"Curse of Eternity.exe"
+				"arguments"		"-force-vulkan"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (Vulkan)"
+				}
+				"description"		"Play CoE (Vulkan)"
+			}
+			"5"
+			{
+				"executable"		"Curse of Eternity.exe"
+				"arguments"		"-force-d3d11"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (D3D11)"
+				}
+				"description"		"Play CoE (D3D11)"
+			}
+			"6"
+			{
+				"executable"		"Curse of Eternity.exe"
+				"arguments"		"-force-d3d12"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (D3D12)"
+				}
+				"description"		"Play CoE (D3D12)"
+			}
+			"7"
+			{
+				"executable"		"Curse of Eternity.app\\Contents\\MacOS\\Curse of Eternity"
+				"arguments"		"-force-glcore"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (OpenGL Core)"
+				}
+				"description"		"Play CoE (OpenGL Core)"
+			}
+			"8"
+			{
+				"executable"		"Curse of Eternity.app\\Contents\\MacOS\\Curse of Eternity"
+				"arguments"		"-force-vulkan"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (Vulkan)"
+				}
+				"description"		"Play CoE (Vulkan)"
+			}
+			"9"
+			{
+				"executable"		"Curse of Eternity.app\\Contents\\MacOS\\Curse of Eternity"
+				"arguments"		"-force-metal"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (Metal)"
+				}
+				"description"		"Play CoE (Metal)"
+			}
+			"10"
+			{
+				"executable"		"Curse of Eternity.x64"
+				"arguments"		"-force-glcore"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (OpenGL Core)"
+				}
+				"description"		"Play CoE (OpenGL Core)"
+			}
+			"11"
+			{
+				"executable"		"Curse of Eternity.x64"
+				"arguments"		"-force-vulkan"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (Vulkan)"
+				}
+				"description"		"Play CoE (Vulkan)"
+			}
+			"12"
+			{
+				"executable"		"Curse of Eternity.x64"
+				"arguments"		"-force-wayland"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Play CoE (Wayland)"
+				}
+				"description"		"Play CoE (Wayland)"
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65533"
+	}
+	"depots"
+	{
+		"1230001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5111876519524985579"
+					"size"		"3703590327"
+					"download"		"1167674720"
+				}
+			}
+		}
+		"1230002"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"514262144529394725"
+					"size"		"3726335857"
+					"download"		"1173844384"
+				}
+			}
+		}
+		"1230003"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3411911419744345838"
+					"size"		"3732586834"
+					"download"		"1168943600"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20785248"
+				"timeupdated"		"1763048673"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10485760"
+		"maxnumfiles"		"50"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Imakeda Games/Curse of Eternity/Saves"
+						"replace"		"com.ImakedaGames.CurseofEternity/Saves"
+					}
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Imakeda Games/Curse of Eternity/Saves"
+						"replace"		".config/unity3d/Imakeda Games/Curse of Eternity/Saves"
+					}
+				}
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Imakeda Games/Curse of Eternity/Saves"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
