@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"3112400"
+	"common"
+	{
+		"name"		"Peacequarium Playtest"
+		"type"		"Beta"
+		"parent"		"3109830"
+		"icon"		"2345c6ecae961977005684cd4f423c10036994a7"
+		"clienticon"		"e00a5d64d2a91ac1aec525b463036c3a1d7a147b"
+		"clienttga"		"8965bac31e4b874d7631a08bed8165c4eb478ace"
+		"clienticns"		"243a901e805a7d035ab621de0d29d12957507f0c"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"releasestate"		"released"
+		"market_presence"		"1"
+		"small_capsule"
+		{
+			"english"		"3886407ed51707820f878903ab47d6210bf1e74d/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"102.39601287961075"
+				"height_pct"		"81.9453646638231"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"102.39601287961075"
+					"height_pct"		"81.9453646638231"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1723682386"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1749693768"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3112400"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"playtest_type"		"1"
+		"playtestinvitecount"		"3"
+		"playtestinviteendtime"		"1765497600"
+	}
+	"config"
+	{
+		"installdir"		"Peacequarium Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Peacequarium.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Peacequarium.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"3112401"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1715418828463074332"
+					"size"		"243778422"
+					"download"		"62050336"
+				}
+			}
+		}
+		"3112402"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5864338153145158100"
+					"size"		"260517922"
+					"download"		"69857888"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20807395"
+				"timeupdated"		"1763168705"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Gamer To Game Developer/Peacequarium"
+				"pattern"		"*.es3"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Gamer To Game Developer/Peacequarium"
+						"replace"		"Gamer To Game Developer/Peacequarium"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Gamer To Game Developer/Peacequarium"
+						"replace"		".config/unity3d/Gamer To Game Developer/Peacequarium"
+					}
+				}
+			}
+		}
+		"appidredirect"		"3109830"
+	}
+}
