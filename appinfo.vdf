@@ -1,0 +1,264 @@
+"appinfo"
+{
+	"appid"		"302270"
+	"common"
+	{
+		"name"		"Dungeon Defenders Eternity"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"a806dc1658de6d30ce263b0b56e01ddf03e50565"
+		"logo_small"		"a806dc1658de6d30ce263b0b56e01ddf03e50565_thumb"
+		"clienticon"		"fe4dee4ab21ebaf7b8e7bfd4195df7bfb9d9d978"
+		"clienttga"		"2c643efef0f636a05931ef10010daa940229e405"
+		"icon"		"8cbead471aaeb7baa89a3c3d138633319731caba"
+		"clienticns"		"ee2599066b63b5e1316d788e47da00626648d399"
+		"linuxclienticon"		"34d94d2d26d73a8ed19604332fdd603487f8c70f"
+		"eulas"
+		{
+			"1"
+			{
+				"id"		"302270_eula_1"
+				"name"		"Dungeon Defenders Eternity EULA 1"
+				"url"		"http://store.steampowered.com//eula/302270_eula_1"
+			}
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dungeon Defenders Eternity"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0c491960ea97ec0838e1cb4a07cd7ae49ccf18cf.jpg"
+		"store_asset_mtime"		"1406054151"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nom Nom Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Trendy Entertainment"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_30"		"1"
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1406043240"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"302270"
+		"store_tags"
+		{
+			"0"		"1645"
+			"1"		"1685"
+			"2"		"122"
+			"3"		"3859"
+			"4"		"9"
+			"5"		"4231"
+			"6"		"493"
+			"7"		"19"
+			"8"		"21"
+			"9"		"492"
+			"10"		"4236"
+			"11"		"4182"
+			"12"		"3843"
+			"13"		"1684"
+			"14"		"597"
+			"15"		"1697"
+			"16"		"128"
+		}
+		"review_score"		"5"
+		"review_percentage"		"49"
+	}
+	"extended"
+	{
+		"developer"		"Nom Nom Games"
+		"publisher"		"Trendy Entertainment"
+		"homepage"		"http://www.dungeondefenderseternity.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DunDefEternity"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DungeonDefendersEternity\\Binaries\\Win32\\DunDefGame.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DungeonDefendersEternity\\Binaries\\Linux\\DunDefGame"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"DungeonDefendersEternity\\DunDef.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"LaunchScript.sh"
+				"arguments"		"LinkSteam.sh"
+				"description"		"Link Steam Libraries"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"LaunchScript.sh"
+				"arguments"		"UnlinkSteam.sh"
+				"description"		"Unlink Steam Libraries"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"DungeonDefendersEternity\\Binaries\\Win32\\DunDefGame.exe"
+				"arguments"		"-OFFLINE"
+				"description"		"Play Offline"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"6"
+			{
+				"executable"		"DungeonDefendersEternity\\Binaries\\Linux\\DunDefGame"
+				"arguments"		"-OFFLINE"
+				"description"		"Play Offline"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"7"
+			{
+				"executable"		"DungeonDefendersEternity\\DunDef.app"
+				"arguments"		"-OFFLINE"
+				"description"		"Play Offline"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"302271"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6856278602862189346"
+					"size"		"6692760146"
+					"download"		"2656104000"
+				}
+			}
+		}
+		"302272"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8255197914236678467"
+					"size"		"7035489855"
+					"download"		"2646526176"
+				}
+			}
+		}
+		"302273"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3184321298546128232"
+					"size"		"6981136000"
+					"download"		"2642943344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"694623"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"appidredirect"		"302270"
+	}
+}
