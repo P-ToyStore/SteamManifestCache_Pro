@@ -1,0 +1,96 @@
+"appinfo"
+{
+	"appid"		"1317"
+	"common"
+	{
+		"clienttga"		"7cfa1c9305c6f83fe907ec30c092eddc6b35ac9e"
+		"icon"		""
+		"logo"		""
+		"logo_small"		""
+		"name"		"Sin Episodes SDK"
+		"type"		"Tool"
+		"gameid"		"1317"
+	}
+	"extended"
+	{
+		"developer"		"Ritual"
+		"gamedir"		"SinEpisodesSDK"
+		"homepage"		""
+		"icon"		"steam/games/icon_sine"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"1318"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\SDKlauncher.exe"
+				"arguments"		"-game launcher"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"SinEpisodesSDK"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"1304"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"74397030359252841"
+					"size"		"76898036"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1300"
+		}
+		"1318"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5123054550892372992"
+					"size"		"44777977"
+					"download"		"0"
+				}
+			}
+		}
+		"1004"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3578600867548439549"
+					"size"		"9662208"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1002"
+		}
+		"markdlcdepots"		"0"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"98936"
+			}
+		}
+	}
+}
