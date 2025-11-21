@@ -1,0 +1,3 @@
+### [4126080] BEYBLADE X EVOBATTLE SOUNDTRACK  
+**Build Id** `20884875`  
+**Last Update Time** `2025/11/21 11:41`  
