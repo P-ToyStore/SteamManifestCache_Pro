@@ -1,0 +1,89 @@
+"appinfo"
+{
+	"appid"		"410950"
+	"common"
+	{
+		"name"		"Hatred Editor"
+		"type"		"Tool"
+		"oslist"		"windows"
+		"logo"		"721b19b0aa532ae4b09c14ae62ea6e0915d7c8b8"
+		"logo_small"		"721b19b0aa532ae4b09c14ae62ea6e0915d7c8b8_thumb"
+		"icon"		"091055fcdf2d144959f83cacd2b526b8068e2c95"
+		"clienticon"		"faa357e744d013d2507b70a021d57c553aa37b08"
+		"clienttga"		"4e479e1cf017787879d1972b5354e36da2723029"
+		"parent"		"341940"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"410950_eula_0"
+				"name"		"Hatred Editor EULA"
+				"url"		"http://store.steampowered.com//eula/410950_eula_0"
+			}
+		}
+		"associations"
+		{
+		}
+		"gameid"		"410950"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"HatredEditor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Engine\\Binaries\\Win64\\UE4Editor.exe"
+				"arguments"		"Hatred"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"Engine\\Binaries\\Win64\\UE4Editor.exe"
+				"arguments"		"Hatred -log"
+				"type"		"option1"
+				"description_loc"
+				{
+					"english"		"Logging"
+				}
+				"description"		"Logging"
+			}
+		}
+	}
+	"depots"
+	{
+		"410951"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5240131690765484486"
+					"size"		"20745646019"
+					"download"		"11343660416"
+				}
+			}
+		}
+		"workshopdepot"		"410950"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20920303"
+				"timeupdated"		"1764073707"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
