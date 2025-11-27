@@ -1,0 +1,218 @@
+"appinfo"
+{
+	"appid"		"617270"
+	"common"
+	{
+		"name"		"Hoggy 2"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"clienticon"		"fa8436d2426e8cc95a4324881e2922918de39fa6"
+		"clienttga"		"f130697dcc839ec78374945a92d370a9ca9effbc"
+		"icon"		"8c8074bbaecd40540711c3b31df238b97f7845db"
+		"clienticns"		"0042733440b112c29d1bf6e2d35a613c74c925f5"
+		"logo"		"284c161e394855fb52b3295de397188f8d5dad39"
+		"logo_small"		"284c161e394855fb52b3295de397188f8d5dad39_thumb"
+		"releasestate"		"released"
+		"osextended"		""
+		"metacritic_name"		"Hoggy 2"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7c82a788fd2c690cf02d537cfbca8cf04c46306f.jpg"
+		"store_asset_mtime"		"1493645174"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Raptisoft"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Raptisoft"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_17"		"1"
+			"category_28"		"1"
+			"category_43"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1494419568"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"617270"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Raptisoft"
+		"publisher"		"Raptisoft"
+		"homepage"		"http://www.hoggy.com"
+	}
+	"config"
+	{
+		"installdir"		"Hoggy 2"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Hoggy2.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Hoggy2"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65535"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"617271"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8371427868251844813"
+					"size"		"45973163"
+					"download"		"23649568"
+				}
+				"beta"
+				{
+					"gid"		"8371427868251844813"
+					"size"		"45973163"
+					"download"		"23649568"
+				}
+			}
+		}
+		"617272"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8115503674212262524"
+					"size"		"49831979"
+					"download"		"24502240"
+				}
+				"beta"
+				{
+					"gid"		"8115503674212262524"
+					"size"		"49831979"
+					"download"		"24502240"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20939812"
+				"timeupdated"		"1764241513"
+			}
+			"beta"
+			{
+				"buildid"		"20939812"
+				"description"		"Pre-live builds"
+				"timeupdated"		"1764101131"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Hoggy2/makermall"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Hoggy2/savegames"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
