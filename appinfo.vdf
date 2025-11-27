@@ -1,0 +1,492 @@
+"appinfo"
+{
+	"appid"		"1205550"
+	"common"
+	{
+		"name"		"New World Public Test Realm"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"clienttga"		"b4cecb811bfdbbb5da76d0b1ea0b5f9efc449558"
+		"clienticon"		"35cb0c4a41ddd6ab7098e8c1137faa421919006d"
+		"icon"		"082cb546221edf8c9e68d0abda0421ce3c55ee71"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1205550_eula_0"
+				"name"		"New World Public Test Realm EULA"
+				"url"		"https://store.steampowered.com//eula/1205550_eula_0"
+				"version"		"3"
+			}
+		}
+		"logo"		"fc470c27442c6c1cecef38d2df50e57fbb0f8f42"
+		"logo_small"		"fc470c27442c6c1cecef38d2df50e57fbb0f8f42_thumb"
+		"exfgls"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1651104000"
+			"tested_build_id"		"8601548"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"55.134189031505244"
+				"height_pct"		"57.599145096176684"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"55.134189031505244"
+					"height_pct"		"57.599145096176684"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1674060687"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"gameid"		"1205550"
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		""
+		"homepage"		"https://www.newworld.com"
+	}
+	"config"
+	{
+		"installdir"		"New World Public Test Realm"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"NewWorldLauncher.exe"
+				"arguments"		"-Cluster iad-prod"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"New World Public Test Realm"
+				}
+				"description"		"New World Public Test Realm"
+			}
+			"2"
+			{
+				"executable"		"bin65\\NewWorld.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1210580"
+				}
+				"description_loc"
+				{
+					"english"		"GM Client "
+				}
+				"description"		"GM Client "
+			}
+			"3"
+			{
+				"executable"		"bin.debug\\NewWorld.exe"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1258720"
+				}
+				"description_loc"
+				{
+					"english"		"Release Client for Debugging"
+				}
+				"description"		"Release Client for Debugging"
+			}
+			"5"
+			{
+				"executable"		"NewWorldLauncher.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"alpha"
+				}
+				"description_loc"
+				{
+					"english"		"New World PTR - QA Release Testing"
+				}
+				"description"		"New World PTR - QA Release Testing"
+			}
+			"9"
+			{
+				"executable"		"NewWorldLauncher.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"scale-test"
+				}
+				"description_loc"
+				{
+					"english"		"New World PTR - Scale Test"
+				}
+				"description"		"New World PTR - Scale Test"
+			}
+			"10"
+			{
+				"executable"		"NewWorldLauncher.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"default-test"
+				}
+				"description_loc"
+				{
+					"english"		"New World PTR - Default-Test"
+				}
+				"description"		"New World PTR - Default-Test"
+			}
+			"11"
+			{
+				"executable"		"Bin64\\NewWorld.exe"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"graphics"
+				}
+				"description_loc"
+				{
+					"english"		"New World Debug Client for Graphics Beta"
+				}
+				"description"		"New World Debug Client for Graphics Beta"
+			}
+			"12"
+			{
+				"executable"		"Bin64\\NewWorld.exe"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"graphics-retail"
+				}
+				"description_loc"
+				{
+					"english"		"New World Retail Client for Graphics Beta"
+				}
+				"description"		"New World Retail Client for Graphics Beta"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1205551"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2599863629740315734"
+					"size"		"82787970548"
+					"download"		"73672588608"
+				}
+			}
+		}
+		"1210580"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1210580"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5391665789206368920"
+					"size"		"207961256"
+					"download"		"55495712"
+				}
+			}
+		}
+		"1205552"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"135389969197714374"
+					"size"		"39"
+					"download"		"96"
+				}
+			}
+		}
+		"1258720"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1258720"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3048995655699392825"
+					"size"		"465174143"
+					"download"		"114616000"
+				}
+			}
+		}
+		"1210581"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+			}
+		}
+		"1210582"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+			}
+		}
+		"1210583"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+			}
+		}
+		"1210584"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+			}
+		}
+		"1210585"
+		{
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"manifests"
+			{
+			}
+		}
+		"1210586"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+			}
+		}
+		"1210587"
+		{
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+			}
+		}
+		"1210588"
+		{
+			"config"
+			{
+				"language"		"latam"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13547262"
+				"timeupdated"		"1708717981"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
