@@ -1,0 +1,227 @@
+"appinfo"
+{
+	"appid"		"611020"
+	"common"
+	{
+		"name"		"CityBattle | Virtual Earth"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"6ae5ba637d927b217ef959fc1d841e827bdc5069"
+		"logo_small"		"6ae5ba637d927b217ef959fc1d841e827bdc5069_thumb"
+		"icon"		"4383e3f3dc4403d922d611704780ffd4d9fc5cec"
+		"clienttga"		"1d269beaf7f31ac6460942a2344973a92396e719"
+		"clienticon"		"ba18289155db7fb444b3a9d66ba0a2f7d2990d74"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"611020_eula_0"
+				"name"		"CityBattle | Virtual Earth EULA"
+				"url"		"https://store.steampowered.com//eula/611020_eula_0"
+			}
+		}
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"CityBattle | Virtual Earth"
+		"small_capsule"
+		{
+			"russian"		"capsule_231x87_russian.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"russian"		"header_russian.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"74.73745624270714"
+				"height_pct"		"97.11469959629542"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"74.73745624270714"
+					"height_pct"		"97.11469959629542"
+				}
+			}
+		}
+		"store_asset_mtime"		"1576157134"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LLC RIKOR IMT"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LLC RIKOR IMT"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"29"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_1"		"1"
+			"category_35"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1538477340"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"611020"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"19"
+			"2"		"1774"
+			"3"		"1663"
+			"4"		"128"
+			"5"		"5711"
+			"6"		"3839"
+			"7"		"4155"
+			"8"		"1685"
+			"9"		"3878"
+			"10"		"5752"
+			"11"		"4295"
+			"12"		"1734"
+			"13"		"3859"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=611020"
+		"developer"		"LLC RIKOR IMT"
+		"publisher"		"LLC RIKOR IMT"
+		"homepage"		"http://virtualearthonline.net"
+	}
+	"config"
+	{
+		"installdir"		"CityBattle  Virtual Earth"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WarguardGameLauncher.exe"
+				"arguments"		"override-auth-server=https://api.live.cb.rikorgames.com override-warguard-server=https://api.live.cb.idcgames.com override-global-server=https://api.live.cb.idcgames.com"
+				"description"		"Default configuration"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"611021"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"806063755947842729"
+					"size"		"24350622164"
+					"download"		"8719197376"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4554271"
+				"timeupdated"		"1578653218"
+			}
+		}
+	}
+}
