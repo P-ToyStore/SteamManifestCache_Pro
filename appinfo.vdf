@@ -1,0 +1,298 @@
+"appinfo"
+{
+	"appid"		"2788200"
+	"common"
+	{
+		"name"		"Boink"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"2d1d343bc8ffc03c3762e6fb7a7b092575e813fe"
+		"clienticon"		"6d29aae14c66680790942e0f0273277226d04a23"
+		"clienttga"		"3dc15f982458cf45636f35f5d5d996c75321d7b9"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1716336000"
+			"tested_build_id"		"4151128"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"24.2562929061785"
+				"height_pct"		"31.003040394743465"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"24.2562929061785"
+					"height_pct"		"31.003040394743465"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1710604757"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lettuce Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lettuce Studios"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1710539908"
+		"community_hub_visible"		"1"
+		"gameid"		"2788200"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"615955"
+			"2"		"9"
+			"3"		"379975"
+			"4"		"6129"
+			"5"		"1654"
+			"6"		"4182"
+			"7"		"1643"
+			"8"		"493"
+			"9"		"492"
+			"10"		"599"
+			"11"		"3871"
+			"12"		"3968"
+		}
+		"review_score"		"7"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Lettuce Studios"
+		"publisher"		"Lettuce Studios"
+	}
+	"config"
+	{
+		"installdir"		"Boink"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Boink.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Boink.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Linux"
+				}
+				"description"		"Linux"
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+		"steamcontrollertouchtemplateindex"		"8"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"2788202"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2767879729903057561"
+					"size"		"136865579"
+					"download"		"63999072"
+				}
+			}
+		}
+		"2788203"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3582372554559149518"
+					"size"		"128071755"
+					"download"		"61965568"
+				}
+			}
+		}
+		"2788201"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3581858004622653918"
+					"size"		"138331203"
+					"download"		"66063504"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20993056"
+				"timeupdated"		"1764458201"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"5"
+	}
+}
