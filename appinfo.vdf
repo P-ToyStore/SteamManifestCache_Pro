@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"514340"
+	"common"
+	{
+		"name"		"Aliens Go Home Run"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"4836aac26efe043cf4bcb100d13c4bd421f9913d"
+		"logo_small"		"4836aac26efe043cf4bcb100d13c4bd421f9913d_thumb"
+		"icon"		"775d92fe3ef4b5039db0b8b6f426b3310faf0813"
+		"clienticon"		"cf311ce62eb24fda6e28509aa57eab04cb4ab5ec"
+		"clienttga"		"84c1c280df66ffa564edd6a3ff2a995bf53a8178"
+		"metacritic_name"		"Aliens Go Home Run"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e72210634dbdd63eb4b1016edaced287ba1ea8c6.jpg"
+		"store_asset_mtime"		"1527800825"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ANIM•ACE"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ANIM•ACE"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_17"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_30"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1485537111"
+		"metacritic_score"		"84"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/aliens-go-home-run?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"514340"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1673"
+			"3"		"1773"
+			"4"		"1756"
+			"5"		"3871"
+			"6"		"4182"
+			"7"		"7208"
+			"8"		"4195"
+			"9"		"3964"
+			"10"		"4004"
+			"11"		"4305"
+			"12"		"4562"
+			"13"		"4885"
+			"14"		"7481"
+			"15"		"8122"
+			"16"		"3942"
+			"17"		"4136"
+			"18"		"4726"
+			"19"		"5727"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"ANIM•ACE"
+		"publisher"		"ANIM•ACE"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"AGHR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AGHR.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"AGHR.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"514341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"869649535045202610"
+					"size"		"146472186"
+					"download"		"46626512"
+				}
+			}
+		}
+		"514342"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"514343"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"baselanguages"		"english"
+		"workshopdepot"		"514340"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21043722"
+				"timeupdated"		"1764795045"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"1024"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"AGHR_Data"
+				"pattern"		"bitfield"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"AGHR_Data"
+				"pattern"		"*.ini"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"AGHR_Data"
+				"pattern"		"*.csv"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"AGHR_Data/CustomLevels"
+				"pattern"		"*.aghr"
+			}
+			"4"
+			{
+				"root"		"gameinstall"
+				"path"		"AGHR_Data"
+				"pattern"		"stats"
+			}
+		}
+	}
+}
