@@ -1,0 +1,152 @@
+"appinfo"
+{
+	"appid"		"884110"
+	"common"
+	{
+		"name"		"SCP: 5K - Community Dedicated Server"
+		"type"		"Tool"
+		"parent"		"872670"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"3d0cf9e8cf56d512929144f59b1db54fe8ce9b3e"
+		"logo_small"		"3d0cf9e8cf56d512929144f59b1db54fe8ce9b3e_thumb"
+		"icon"		"468e44c0258fb87dc5953d932bd054e814b72084"
+		"clienticon"		"b72916c7288eceb8fe7a385bb6a068bc700bab84"
+		"clienttga"		"29a850f7271f985753102727458b99c373c31a06"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"884110"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"SCP Pandemic Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindowsServer/PandemicServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"WindowsServer/PandemicServer.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8904491048620934740"
+					"size"		"68697032"
+					"download"		"20552544"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5587033981095108078"
+					"size"		"107476144"
+					"download"		"29272144"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"884111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8382599296230921938"
+					"size"		"4354662360"
+					"download"		"1752966240"
+				}
+			}
+		}
+		"884112"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6930347984531616550"
+					"size"		"5366685220"
+					"download"		"1867547536"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20928305"
+				"timeupdated"		"1764897574"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
