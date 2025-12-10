@@ -1,0 +1,149 @@
+"appinfo"
+{
+	"appid"		"2245910"
+	"common"
+	{
+		"name"		"Jump King Worldsmith"
+		"type"		"Tool"
+		"parent"		"1061090"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"name_localized"
+		{
+			"english"		"Jump King Worldsmith"
+		}
+		"clienttga"		"fc4039b9a936c69440e998989ec72f07640bedb0"
+		"clienticon"		"69f68e5bed4531ed609c449c7d62cb1dcc66f342"
+		"icon"		"944412958fdb647110ea72818c956034d7163afb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"2245910_eula_0"
+				"name"		"Jump King Worldsmith EULA"
+				"url"		"https://store.steampowered.com//eula/2245910_eula_0"
+				"version"		"3"
+			}
+		}
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"2245910"
+	}
+	"extended"
+	{
+		"disableoverlay"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Jump King Workshop"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"JKWorldsmith.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"workshopdepot"		"2245910"
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2245911"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4407248824885684730"
+					"size"		"452278851"
+					"download"		"152642496"
+				}
+				"legacy"
+				{
+					"gid"		"4821480451368499778"
+					"size"		"1079402"
+					"download"		"341264"
+				}
+				"beta"
+				{
+					"gid"		"4407248824885684730"
+					"size"		"452278851"
+					"download"		"152642496"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21120803"
+				"timeupdated"		"1765313367"
+			}
+			"legacy"
+			{
+				"buildid"		"13529991"
+				"description"		"Legacy 'Workshop Manager' branch"
+				"timeupdated"		"1708598873"
+			}
+			"beta"
+			{
+				"buildid"		"21120803"
+				"description"		"Worldsmith's beta branch (could be unstable!)"
+				"timeupdated"		"1765313297"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"*.set"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"*.exe.config"
+			}
+		}
+	}
+}
