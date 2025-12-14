@@ -1,0 +1,138 @@
+"appinfo"
+{
+	"appid"		"4250830"
+	"common"
+	{
+		"name"		"Half-Life Legacy Dedicated Server"
+		"type"		"Tool"
+		"parent"		"3619040"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"fb85cc5216f898402761bb960d88d81d12100d29"
+		"icon"		"fb85cc5216f898402761bb960d88d81d12100d29"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"4250830"
+	}
+	"config"
+	{
+		"installdir"		"LegacyDS"
+		"uselaunchcommandline"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AppIDMan.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"AppIDMan"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"4250831"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4555410092129302223"
+					"size"		"11711364"
+					"download"		"4179776"
+				}
+			}
+		}
+		"3416643"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3891389874634585127"
+					"size"		"273452446"
+					"download"		"114849520"
+				}
+			}
+			"depotfromapp"		"3416640"
+		}
+		"3807189"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4526470118015730983"
+					"size"		"61719951"
+					"download"		"22870736"
+				}
+			}
+			"depotfromapp"		"3807180"
+		}
+		"3807187"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3500398994438096294"
+					"size"		"28757441"
+					"download"		"11162816"
+				}
+			}
+			"depotfromapp"		"3807180"
+		}
+		"3619041"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7256712168349631425"
+					"size"		"252035339"
+					"download"		"153165952"
+				}
+			}
+			"depotfromapp"		"3619040"
+		}
+		"3619042"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5713172075124306309"
+					"size"		"194149875"
+					"download"		"62235776"
+				}
+			}
+			"depotfromapp"		"3619040"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21149674"
+				"timeupdated"		"1765468896"
+			}
+		}
+	}
+}
