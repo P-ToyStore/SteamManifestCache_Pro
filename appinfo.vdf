@@ -1,0 +1,166 @@
+"appinfo"
+{
+	"appid"		"1875500"
+	"common"
+	{
+		"name"		"Treason Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1786950"
+		"clienttga"		"32125fbac667e80197071890c550ea4e1d8f382f"
+		"clienticon"		"aa57178f5ce969c469298960cdd277072f3fa81f"
+		"icon"		"3f0384d2cf4e5f5cc04329273e16462ee572a0aa"
+		"logo"		"631b460ea3ae4ef28501a31f404c9e3aa94a0b81"
+		"logo_small"		"631b460ea3ae4ef28501a31f404c9e3aa94a0b81_thumb"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1875500"
+	}
+	"config"
+	{
+		"installdir"		"Treason Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game treason"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"srcds_run"
+				"arguments"		"-game treason"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"app_mappings"
+		{
+			"0"
+			{
+				"platform"		"linux"
+				"tool"		"SteamLinuxRuntime_sniper"
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1875501"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8059189263945739893"
+					"size"		"2363299339"
+					"download"		"1221189776"
+				}
+				"linux_testing"
+				{
+					"gid"		"186219335085655143"
+					"size"		"2355590848"
+					"download"		"1218510928"
+				}
+			}
+		}
+		"1875502"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8895119656845853649"
+					"size"		"65530323"
+					"download"		"21497072"
+				}
+				"linux_testing"
+				{
+					"gid"		"2590963597744058812"
+					"size"		"65518035"
+					"download"		"21494560"
+				}
+			}
+		}
+		"1875503"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7167934794904934135"
+					"size"		"95058072"
+					"download"		"39692080"
+				}
+				"linux_testing"
+				{
+					"gid"		"6513025398045950010"
+					"size"		"95053976"
+					"download"		"39689152"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21215408"
+				"timeupdated"		"1765925203"
+			}
+			"linux_testing"
+			{
+				"buildid"		"20336342"
+				"description"		" Linux testing branch"
+				"timeupdated"		"1760096766"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
