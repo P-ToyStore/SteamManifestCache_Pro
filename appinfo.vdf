@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"1026370"
+	"common"
+	{
+		"name"		"My Fair Princess"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"260699af038ec35c645e043da2b067e6213ad3ea"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"d8ff5e833b882dd0883845eac3fcc8aa54e7ed3f"
+		"clienticon"		"7723243edb5e0c021362d1668054362814e14e1c"
+		"logo"		"5bc173f3eb3679051bcfefcbbbb9c344ef913792"
+		"logo_small"		"5bc173f3eb3679051bcfefcbbbb9c344ef913792_thumb"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1692748800"
+			"tested_build_id"		"4378849"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"My Fair Princess"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"98.19136522753791"
+				"height_pct"		"67.47803372120637"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"98.19136522753791"
+					"height_pct"		"67.47803372120637"
+				}
+			}
+		}
+		"store_asset_mtime"		"1573237465"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PeasSoft"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sol Press"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1573237629"
+		"community_hub_visible"		"1"
+		"gameid"		"1026370"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+			"2"		"492"
+			"3"		"12095"
+			"4"		"3799"
+			"5"		"4085"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"PeasSoft"
+		"publisher"		"Sol Press"
+	}
+	"config"
+	{
+		"installdir"		"My Fair Princess"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ntleas\\x86\\ntleas.exe"
+				"arguments"		"kimihime.exe \"C932\" \"L1041\" \"FMS Gothic\" \"P4\""
+				"description"		"My Fair Princess through Locale Emulation"
+				"type"		"option1"
+			}
+			"1"
+			{
+				"executable"		"kimihime.exe"
+				"description"		"My Fair Princess directly"
+				"type"		"option1"
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1026372"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7012176343055488990"
+					"size"		"1522476"
+					"download"		"486736"
+				}
+			}
+		}
+		"1026371"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5969470558391624542"
+					"size"		"3233277892"
+					"download"		"2910855872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4378849"
+				"timeupdated"		"1573522692"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"300"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Save"
+				"pattern"		"*.*"
+			}
+		}
+	}
+}
