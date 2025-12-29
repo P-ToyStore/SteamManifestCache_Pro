@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"451450"
+	"common"
+	{
+		"name"		"Hollywood Hills Mansion (With VR Home Theater)"
+		"type"		"Application"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"3319640d67af6347ddc9d5ba42563b1927ac44d3"
+		"logo_small"		"3319640d67af6347ddc9d5ba42563b1927ac44d3_thumb"
+		"icon"		"3141241ec960e96ffea8796ebb1e74a86e48c14b"
+		"clienttga"		"9f7f44763c424483f71e3dfeb03748978e72261b"
+		"clienticon"		"9af6da5f55897725f00504b3c23cdde017d81a4e"
+		"clienticns"		"8f13be04bc22c19d0d7001221c4375ee032e5df8"
+		"linuxclienticon"		"d85e10699d47d33e2b2157d92d61d62fa6ce0bdf"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Hollywood Hills Mansion (With Home Theater)"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d70f86a057c51d0d7c0b9728862c28224ae2e1ae.jpg"
+		"store_asset_mtime"		"1486166638"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LOOT Interactive, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LOOT Interactive, LLC"
+			}
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_31"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1486062000"
+		"community_hub_visible"		"1"
+		"gameid"		"451450"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"LOOT Interactive, LLC"
+		"publisher"		"LOOT Interactive, LLC"
+		"homepage"		"http://www.lootinteractive.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"HollywoodHillsMansion"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"VoyageR.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"VoyageR.exe"
+				"arguments"		"-vrmode OpenVR"
+				"description"		"HHM Vive"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"VoyageR.exe"
+				"arguments"		"-vrmode Oculus"
+				"description"		"HHM"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"VoyageR.exe"
+				"arguments"		"-vrmode None"
+				"description"		"Launch HHM Non-VR"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"enablegameoverlayforapp"		"1"
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"451451"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"168780462070215154"
+					"size"		"1510595445"
+					"download"		"528045712"
+				}
+			}
+		}
+		"734180"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3271373299986468571"
+					"size"		"7857027208"
+					"download"		"7768360512"
+				}
+			}
+			"dlcappid"		"734180"
+		}
+		"734181"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3212562179024444365"
+					"size"		"7568907183"
+					"download"		"7469110592"
+				}
+			}
+			"dlcappid"		"734181"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2198020"
+				"timeupdated"		"1508192054"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
