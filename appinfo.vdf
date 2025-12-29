@@ -1,0 +1,197 @@
+"appinfo"
+{
+	"appid"		"1052150"
+	"common"
+	{
+		"name"		"WoozyHero 乌贼英雄"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienttga"		"7c2ec4e50dc8ca28c1b2f6ed2059c83a58f0c9ca"
+		"logo"		"4aab0620e223f32e4ea4ec490e2e456cf9b01692"
+		"logo_small"		"4aab0620e223f32e4ea4ec490e2e456cf9b01692_thumb"
+		"icon"		"1c61a25c26e5f8b88a4a5fa290e85ab4d984a691"
+		"clienticon"		"37527f8610588bdf25a960f9393b00261ba2a2e8"
+		"releasestate"		"released"
+		"clienticns"		"d33443083398624017c3c91d5f8cb5bab93f5579"
+		"osextended"		"macos64"
+		"metacritic_name"		"WoozyHero 乌贼英雄"
+		"small_capsule"
+		{
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"schinese"		"header_schinese.jpg"
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0eb938a421330b68ea19481acefca826dd6fe899.jpg"
+		"store_asset_mtime"		"1581252728"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PhyzixMind"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PhyzixMind"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1563346800"
+		"steam_release_date"		"1567867500"
+		"community_hub_visible"		"1"
+		"gameid"		"1052150"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"492"
+			"3"		"9"
+		}
+		"review_score"		"7"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"PhyzixMind"
+		"publisher"		"PhyzixMind"
+	}
+	"config"
+	{
+		"installdir"		"WoozyHero"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WoozyHero.exe"
+				"description"		"woozy hero game"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"woozyhero.app\\Contents\\MacOS\\woozyhero"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese"
+		"1052151"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5601713572914153729"
+					"size"		"326993302"
+					"download"		"59766864"
+				}
+			}
+		}
+		"1052152"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5047554644656267955"
+					"size"		"312394693"
+					"download"		"80821904"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4656627"
+				"timeupdated"		"1581223943"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"PhyzixMind/WoozyHero/{64BitSteamID} "
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"PhyzixMind/WoozyHero/{64BitSteamID} "
+						"replace"		"com.phyzikMind.woozyhero/{64BitSteamID} "
+					}
+				}
+			}
+		}
+	}
+}
