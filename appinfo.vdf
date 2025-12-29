@@ -1,0 +1,298 @@
+"appinfo"
+{
+	"appid"		"745090"
+	"common"
+	{
+		"name"		"ROMBIE"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"logo"		"f725f069e5d5a4dc4f87a3e95135dccd9ec56092"
+		"logo_small"		"f725f069e5d5a4dc4f87a3e95135dccd9ec56092_thumb"
+		"icon"		"3415b400973caa68842120258996792c850cd2d7"
+		"clienticon"		"0e9603d2870214770c061ff0506236e92f884429"
+		"clienttga"		"0026326c478c6ddf5fc69aea88a4b99d8633e38e"
+		"openvrsupport"		"1"
+		"metacritic_name"		"ROMBIE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5709743bcdf4cbb0b1cb4d27f852e87d8785cae9.jpg"
+		"store_asset_mtime"		"1519527370"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Phr00t's Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Phr00t's Software"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1521830266"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"745090"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"122"
+			"2"		"492"
+			"3"		"21978"
+			"4"		"1695"
+			"5"		"3839"
+			"6"		"1687"
+			"7"		"3942"
+			"8"		"4004"
+			"9"		"4161"
+			"10"		"4295"
+			"11"		"5030"
+			"12"		"5125"
+			"13"		"5752"
+			"14"		"5796"
+			"15"		"6971"
+			"16"		"1663"
+			"17"		"4231"
+		}
+		"review_score"		"7"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Phr00t's Software"
+		"publisher"		"Phr00t's Software"
+		"homepage"		"http://www.phr00t.com/"
+	}
+	"config"
+	{
+		"installdir"		"ROMBIE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ROMBIE.exe"
+				"arguments"		"-show-screen-selector -vrmode none"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ROMBIE.exe"
+				"arguments"		"-force-d3d11"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"ROMBIE.app"
+				"arguments"		"-show-screen-selector"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"ROMBIE.x86"
+				"arguments"		"-show-screen-selector"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"ROMBIE.x86_64"
+				"arguments"		"-show-screen-selector"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"745091"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3595335432539906899"
+					"size"		"424676100"
+					"download"		"235447824"
+				}
+				"beta"
+				{
+					"gid"		"3595335432539906899"
+					"size"		"424676100"
+					"download"		"235447824"
+				}
+			}
+		}
+		"745094"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7344775568746309457"
+					"size"		"419262724"
+					"download"		"233636352"
+				}
+				"beta"
+				{
+					"gid"		"7344775568746309457"
+					"size"		"419262724"
+					"download"		"233636352"
+				}
+			}
+		}
+		"745092"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4662637295122010373"
+					"size"		"448732469"
+					"download"		"237230640"
+				}
+				"beta"
+				{
+					"gid"		"4662637295122010373"
+					"size"		"448732469"
+					"download"		"237230640"
+				}
+			}
+		}
+		"745093"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"534426122541547170"
+					"size"		"451595902"
+					"download"		"242382080"
+				}
+				"beta"
+				{
+					"gid"		"534426122541547170"
+					"size"		"451595902"
+					"download"		"242382080"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3130794"
+				"timeupdated"		"1537278174"
+			}
+			"beta"
+			{
+				"buildid"		"3130794"
+				"timeupdated"		"1537236899"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"800000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Phr00t's Software/ROMBIE"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
