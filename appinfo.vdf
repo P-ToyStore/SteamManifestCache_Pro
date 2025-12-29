@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"880770"
+	"common"
+	{
+		"name"		"Cybrus"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"3c5efd1357d84d1913e4f550a0751ed0aeff343a"
+		"clienticon"		"99372fd99abf8559dbffd884c67bcd061e2cf38e"
+		"clienttga"		"8d174ef997b2130b21c9187662359f3dbbbb9ae4"
+		"logo"		"e9d1d691458b88703e64db05bd54d8503c4c9e2d"
+		"logo_small"		"e9d1d691458b88703e64db05bd54d8503c4c9e2d_thumb"
+		"metacritic_name"		"Cybrus"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_732e806b2def417bdba583fda9d0c7bee477beac.jpg"
+		"store_asset_mtime"		"1534065411"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ThatGuyGilby"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ThatGuyGilby"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"2"
+			"5"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1535054417"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"880770"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"9"
+			"2"		"21"
+			"3"		"122"
+			"4"		"492"
+			"5"		"493"
+			"6"		"3959"
+			"7"		"4885"
+		}
+	}
+	"extended"
+	{
+		"developer"		"ThatGuyGilby"
+		"publisher"		"ThatGuyGilby"
+	}
+	"config"
+	{
+		"installdir"		"Cybrus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cybrus.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cybrus.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Cybrus.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Cybrus.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"880771"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8272992182859869662"
+					"size"		"51432286"
+					"download"		"13386400"
+				}
+			}
+		}
+		"880772"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8437276809599171367"
+					"size"		"63313414"
+					"download"		"17375968"
+				}
+			}
+		}
+		"880773"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8471419786407555124"
+					"size"		"100910061"
+					"download"		"31488912"
+				}
+			}
+		}
+		"workshopdepot"		"880770"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3079180"
+				"timeupdated"		"1535665415"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"ThatGuyGilby/Cybrus"
+				"pattern"		"*.csav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"ThatGuyGilby/Cybrus"
+						"replace"		"unity.ThatGuyGilby.Cybrus"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"ThatGuyGilby/Cybrus"
+						"replace"		".config/unity3d/ThatGuyGilby/Cybrus"
+					}
+				}
+			}
+		}
+	}
+}
