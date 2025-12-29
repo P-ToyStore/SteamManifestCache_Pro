@@ -1,0 +1,194 @@
+"appinfo"
+{
+	"appid"		"27050"
+	"common"
+	{
+		"name"		"FATALE"
+		"logo"		"69fd2d4df7954e6cb47c2ff025a6fe4f722d41df"
+		"logo_small"		"69fd2d4df7954e6cb47c2ff025a6fe4f722d41df_thumb"
+		"icon"		"3559ff0395380d6af5cf77d2cf1697d47fe00a20"
+		"clienttga"		"76b9a719b6d71f0690557f85d682c7ea48a67919"
+		"clienticon"		"8088635cbf8abe9663eb1770b6565eb23f9e0e2d"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"8154e832f55abeb327f4b32810decd2924c4d0db"
+		"type"		"game"
+		"metacritic_name"		"Fatale"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6e3ff4c8e2fcbb60427b1f8722261a87acbacc55.jpg"
+		"store_asset_mtime"		"1667029288"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tale of Tales"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tale of Tales"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"27050"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"597"
+			"3"		"4234"
+			"4"		"5186"
+			"5"		"6650"
+		}
+		"review_score"		"5"
+		"review_percentage"		"56"
+	}
+	"extended"
+	{
+		"developer"		"Tale of Tales"
+		"gamedir"		"FATALE"
+		"homepage"		"http://tale-of-tales.com/Fatale"
+		"icon"		""
+		"installscriptosx"		"FATALE.app/installscript_osx.vdf"
+		"installscript_macos"		"FATALE.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"macos,windows"
+		"publisher"		"Tale of Tales"
+		"gamemanualurl"		"https://store.steampowered.com/manual/27050/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"FATALE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FATALE.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"FATALE.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Fatale.x86"
+				"description"		"Launch Linux 32-bit"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Fatale.x86_64"
+				"description"		"Launch Linux 64-bit"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"27052"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"737456540282926842"
+					"size"		"297523111"
+					"download"		"0"
+				}
+			}
+		}
+		"27051"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1212210009403296446"
+					"size"		"234715317"
+					"download"		"0"
+				}
+			}
+		}
+		"27053"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4964772990088222350"
+					"size"		"270238987"
+					"download"		"0"
+				}
+			}
+		}
+		"markdlcdepots"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"194992"
+			}
+		}
+	}
+}
