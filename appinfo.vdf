@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"815440"
+	"common"
+	{
+		"name"		"Time Transit VR"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"360_required"		"1"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"614dd02496aaa3292a22cec06006e43dba54783a"
+		"logo_small"		"614dd02496aaa3292a22cec06006e43dba54783a_thumb"
+		"icon"		"2ed76d992c2867f951ecf9170537ce717987703e"
+		"clienticon"		"dd49e1f37ec3e92a304ea70e87c33107e423fd96"
+		"clienttga"		"b4653ae9fa5afad24332a59c5c9b460c4af4af03"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"815440_eula_0"
+				"name"		"Time Transit VR EULA"
+				"url"		"https://store.steampowered.com//eula/815440_eula_0"
+			}
+		}
+		"metacritic_name"		"Time Transit VR"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e02a08e2662ffa5d5db9627fcd11fe63835ef824.jpg"
+		"store_asset_mtime"		"1551362833"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FreetimeStudio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FreetimeStudio"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1551171947"
+		"community_hub_visible"		"1"
+		"gameid"		"815440"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"FreetimeStudio"
+		"publisher"		"FreetimeStudio"
+		"homepage"		"http://timetransitvr.com/"
+	}
+	"config"
+	{
+		"installdir"		"TimeTransitVR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TimeTransitVR\\Binaries\\Win64\\TimeTransitVR-Win64-Shipping.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"815441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5389702930800037369"
+					"size"		"21619369620"
+					"download"		"10218813152"
+				}
+				"beta"
+				{
+					"gid"		"5389702930800037369"
+					"size"		"21619369620"
+					"download"		"10218813152"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4608917"
+				"timeupdated"		"1580064993"
+			}
+			"beta"
+			{
+				"buildid"		"4608917"
+				"description"		"Get new features faster, but may also break"
+				"timeupdated"		"1580064971"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"50000"
+		"maxnumfiles"		"5"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"PaleoVR/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
