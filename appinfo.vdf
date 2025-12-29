@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"262610"
+	"common"
+	{
+		"name"		"Liquid Rhythm"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"262610_eula_0"
+				"name"		"Liquid Rhythm Intro EULA"
+				"url"		"http://store.steampowered.com/eula/262610_eula_0"
+			}
+		}
+		"clienticns"		"e6d91889452432c5cf30b4203cafa17cb45d9c5e"
+		"clienticon"		"07111bc9140d4be3c6c3b4a489912bde99148cc6"
+		"clienttga"		"46eb58ed203b127c5459a6e46f008017c80e0f0a"
+		"icon"		"095db02ddbfac30f11a1204a445045ee324b0814"
+		"logo"		"5a5a2f78663a6ffb7c0c6a0aa6b1c6e389818e86"
+		"logo_small"		"5a5a2f78663a6ffb7c0c6a0aa6b1c6e389818e86_thumb"
+		"metacritic_name"		"Liquid Rhythm"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6b8acf88bc7578382b88da2cc8d2f4c489de27c4.jpg"
+		"store_asset_mtime"		"1396039033"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"WaveDNA"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"WaveDNA"
+			}
+		}
+		"primary_genre"		"52"
+		"genres"
+		{
+			"0"		"52"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1396029060"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"262610"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"1027"
+			"1"		"1621"
+			"2"		"8013"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"WaveDNA"
+		"publisher"		"WaveDNA"
+		"homepage"		"http://www.wavedna.com"
+		"listofdlc"		"267830,268120,268121,268122,268123,268124,268125"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"LiquidRhythm"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LiquidRhythm.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LiquidRhythm.app/Contents/MacOS/LiquidRhythm"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"262611"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"767759920899828749"
+					"size"		"674642880"
+					"download"		"384207184"
+				}
+				"beta"
+				{
+					"gid"		"1028503033323842008"
+					"size"		"674640330"
+					"download"		"384205584"
+				}
+				"local"
+				{
+					"gid"		"4223193800137737215"
+					"size"		"487318428"
+					"download"		"0"
+				}
+				"patchrelease"
+				{
+					"gid"		"3477933629967274303"
+					"size"		"665723349"
+					"download"		"2751715796737"
+				}
+			}
+		}
+		"262612"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6256056750228936299"
+					"size"		"540788753"
+					"download"		"367159616"
+				}
+				"beta"
+				{
+					"gid"		"7664617080697274237"
+					"size"		"540779506"
+					"download"		"367158256"
+				}
+				"local"
+				{
+					"gid"		"1636181520602447037"
+					"size"		"355173413"
+					"download"		"0"
+				}
+				"patchrelease"
+				{
+					"gid"		"7527563378039393574"
+					"size"		"388527623"
+					"download"		"2868133603114"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"711200"
+			}
+			"beta"
+			{
+				"buildid"		"631247"
+				"description"		"1.3.4 Preview (Uninstall Liquid Rhythm before applying Beta -- update doesn't work)"
+			}
+			"local"
+			{
+				"buildid"		"300758"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+			"patchrelease"
+			{
+				"buildid"		"424113"
+				"description"		"Special patch release branch"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
