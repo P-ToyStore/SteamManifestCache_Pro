@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"1704630"
+	"common"
+	{
+		"name"		"Dogfight: 80 Years of Aerial Warfare"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"8e17ec97175be8e3b3f785b3dc19b05ac3eda6d2"
+		"logo"		"bd21c316af59d7752976125326d8679c996ff625"
+		"logo_small"		"bd21c316af59d7752976125326d8679c996ff625_thumb"
+		"clienticon"		"fab3dc2215e106b2bd282a932ad9a9894cc82738"
+		"clienttga"		"0ff32fccbdde506db3cee9a3cf1499388c663a4c"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"71.57048249763481"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"71.57048249763481"
+				}
+			}
+		}
+		"store_asset_mtime"		"1642631489"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Microprose"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Microprose Flight Series"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"748681200"
+		"steam_release_date"		"1642800060"
+		"community_hub_visible"		"1"
+		"gameid"		"1704630"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"9"
+			"2"		"4684"
+			"3"		"6691"
+			"4"		"3987"
+			"5"		"4004"
+			"6"		"4168"
+			"7"		"3993"
+			"8"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Microprose"
+		"publisher"		"Atari"
+	}
+	"config"
+	{
+		"installdir"		"Dogfight 80 Years of Aerial Warfare"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox\\dosbox.exe"
+				"arguments"		"-conf dosbox.conf -conf win.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox.conf -conf osx.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1704631"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7230897761445949790"
+					"size"		"23765546"
+					"download"		"15816224"
+				}
+			}
+		}
+		"1704632"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"713390281589904537"
+					"size"		"37835505"
+					"download"		"16383232"
+				}
+			}
+		}
+		"1704633"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4309152983902539274"
+					"size"		"15441282"
+					"download"		"12208192"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7097551"
+				"timeupdated"		"1627431163"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
