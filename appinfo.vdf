@@ -1,0 +1,283 @@
+"appinfo"
+{
+	"appid"		"1122460"
+	"common"
+	{
+		"name"		"Alien Infection"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"icon"		"c16be69f3f1a28bd8acc34ba433ec13f4453b905"
+		"logo"		"028e5b89eea8e9be3508182c6b9825d171df5560"
+		"logo_small"		"028e5b89eea8e9be3508182c6b9825d171df5560_thumb"
+		"clienttga"		"22dc61d4a0c2e85e682050281394588fdd3c5a85"
+		"clienticon"		"b3e408b00907a21bba214df6fd1c929a62eefc38"
+		"clienticns"		"483e1d6fdc7f21c3ebf6c59c67fa981dc8318507"
+		"linuxclienticon"		"161c26ea5e7de1004b4c4ab20d77ec986f7e221d"
+		"openvrsupport"		"1"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Alien Infection"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"56.40279394644935"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"56.40279394644935"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1563034501"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vice Age"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vice Age"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1571943840"
+		"community_hub_visible"		"1"
+		"gameid"		"1122460"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"4345"
+			"3"		"4667"
+			"4"		"21978"
+			"5"		"4758"
+			"6"		"4004"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Vice Age"
+		"publisher"		"Vice Age"
+	}
+	"config"
+	{
+		"installdir"		"Alien Infection"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Alien Infection.exe"
+				"description"		"Launch game"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Alien Infection.app"
+				"description"		"Launch game"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Alien Infection.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Alien Infection.exe"
+				"arguments"		"-vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Alien Infection.app"
+				"arguments"		" -vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1122461"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5545161306099077272"
+					"size"		"772226202"
+					"download"		"265123040"
+				}
+			}
+		}
+		"1122462"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8143652438534567895"
+					"size"		"783645980"
+					"download"		"271567120"
+				}
+			}
+		}
+		"1122463"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4942726889609225534"
+					"size"		"778275446"
+					"download"		"271029520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4322062"
+				"timeupdated"		"1571962619"
+			}
+		}
+	}
+}
