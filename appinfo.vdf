@@ -1,0 +1,218 @@
+"appinfo"
+{
+	"appid"		"580940"
+	"common"
+	{
+		"name"		"Redneck Rampage Rides Again"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"1c4c014f392d744df92ca05b4c9d2752c0fa6ed5"
+		"logo_small"		"1c4c014f392d744df92ca05b4c9d2752c0fa6ed5_thumb"
+		"icon"		"2062b98cbffeeb386cf83c6e4e8e31184343c410"
+		"clienticon"		"7deb712def10a14898f3f0429bfe9d3e316fcdf5"
+		"clienttga"		"418bb05a9577a3ed5d2ee1067e45bbf23a289d82"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Redneck Rampage Rides Again"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1761327330"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Xatrix Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Redneck Rampage"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"862383600"
+		"steam_release_date"		"1496706212"
+		"community_hub_visible"		"1"
+		"gameid"		"580940"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1663"
+			"2"		"6691"
+			"3"		"21"
+			"4"		"3839"
+			"5"		"1774"
+			"6"		"1693"
+			"7"		"1719"
+			"8"		"4136"
+		}
+		"review_score"		"7"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"Xatrix Entertainment"
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"https://www.interplay.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/580940/"
+	}
+	"config"
+	{
+		"installdir"		"Redneck Rampage Rides Again"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Redneck client.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosboxRR.conf\" -conf \"./dosboxRR_rides_again.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxRR.conf\" -conf \"./dosboxRR_rides_again.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"580941"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6417409210607143021"
+					"size"		"459711866"
+					"download"		"277680416"
+				}
+			}
+		}
+		"580942"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6497917387132659924"
+					"size"		"456194267"
+					"download"		"279176560"
+				}
+			}
+		}
+		"580943"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1724848340907848794"
+					"size"		"463573589"
+					"download"		"281348224"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19168130"
+				"timeupdated"		"1752108653"
+			}
+		}
+	}
+}
