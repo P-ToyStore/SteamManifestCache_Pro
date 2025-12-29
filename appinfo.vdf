@@ -1,0 +1,239 @@
+"appinfo"
+{
+	"appid"		"1032070"
+	"common"
+	{
+		"name"		"Mostly Scared of Spiders"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"logo"		"05d92e09f8c5ef7b141f5fd448d3683935c80ae6"
+		"logo_small"		"05d92e09f8c5ef7b141f5fd448d3683935c80ae6_thumb"
+		"icon"		"e65fec859b0ceaa0b6a0e39a3de8dabf959c34bc"
+		"clienticns"		"c2e0a7c9668bbd5660ce768d2effcbbdd4e8ff97"
+		"linuxclienticon"		"1165a23780457e08b6a21249319b29eb419eb694"
+		"clienttga"		"c04e37d9e041e87d4e54cf853c8b42caf7323645"
+		"clienticon"		"40b2239815dc842c1c8f7a6663653f6dae23ec27"
+		"releasestate"		"released"
+		"osextended"		"macos64,macosnotarized"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Mostly Scared of Spiders"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"19.376583155228374"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"19.376583155228374"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572948370"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"HeroHead studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"HeroHead studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1559222064"
+		"community_hub_visible"		"1"
+		"gameid"		"1032070"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"4345"
+			"3"		"4667"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"HeroHead studios"
+		"publisher"		"HeroHead studios"
+	}
+	"config"
+	{
+		"installdir"		"Mostly Scared of Spiders"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MostlyScaredOfSpiders.app\\Contents\\MacOS\\MostlyScaredOfSpiders"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"MostlyScaredOfSpiders\\Mostly scared of spiders.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1032071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8369506563785461831"
+					"size"		"65095480"
+					"download"		"28078672"
+				}
+			}
+		}
+		"1032072"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"964517938983478028"
+					"size"		"88608640"
+					"download"		"32268576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11877267"
+				"timeupdated"		"1691303270"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"HeroHead studios/Mostly scared of spiders"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"HeroHead studios/Mostly scared of spiders"
+						"replace"		"unity.HeroHead studios.Mostly scared of spiders"
+					}
+				}
+			}
+		}
+	}
+}
