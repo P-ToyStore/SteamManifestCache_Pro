@@ -1,0 +1,262 @@
+"appinfo"
+{
+	"appid"		"659870"
+	"common"
+	{
+		"name"		"Don't Die!"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"252947eb694f3492a4cbaa6a68dca84ef399b6a3"
+		"clienttga"		"e75ddd05ac6d9a7d5e9acbd6af076bb7db74e183"
+		"icon"		"542b946ea1947d99517832e16a02aa20c2e04fd4"
+		"logo"		"c7dbdaa93eac381645151127c576392a2303acad"
+		"logo_small"		"c7dbdaa93eac381645151127c576392a2303acad_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Don't Die!"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_73233bca623bf2e8221fbe9009ce263db6008e9a.jpg"
+		"store_asset_mtime"		"1505764171"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Michael Cox"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Templarius Studios"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1507741251"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"659870"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"9"
+			"3"		"1664"
+			"4"		"5537"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Michael Cox"
+		"publisher"		"Templarius Studios"
+	}
+	"config"
+	{
+		"installdir"		"Don't Die!"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Don't Die!.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Don't Die!.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Don't Die!.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Don't Die!.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"659873"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4080464495059574464"
+					"size"		"60791387"
+					"download"		"15881696"
+				}
+			}
+		}
+		"659874"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3992223767048771937"
+					"size"		"66147419"
+					"download"		"17509296"
+				}
+			}
+		}
+		"659871"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2013969704423366506"
+					"size"		"110543245"
+					"download"		"29755904"
+				}
+			}
+		}
+		"659872"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7904156035244461327"
+					"size"		"111596790"
+					"download"		"31251728"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2572874"
+				"timeupdated"		"1520062368"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Templarius Studios/Don't Die!"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Templarius Studios/Don't Die!"
+						"replace"		"unity.Templarius Studios.Don't Die!"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Templarius Studios/Don't Die!"
+						"replace"		".config/unity3d/Templarius Studios/Don't Die!"
+					}
+				}
+			}
+		}
+	}
+}
