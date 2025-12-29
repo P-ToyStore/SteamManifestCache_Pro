@@ -1,0 +1,233 @@
+"appinfo"
+{
+	"appid"		"652880"
+	"common"
+	{
+		"name"		"Samsara"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+		}
+		"clienticon"		"037a8f65d6f7f1ca2e4fc9abfab5edb2658bf96b"
+		"clienttga"		"9c4886be485ef0ba1716ca34d52e5d5d98b1349a"
+		"icon"		"bdd555dee77bdf19552bfa017d179b96470f6a4c"
+		"clienticns"		"ace72cf4a990ed48997143dd41402b88f7bc04a0"
+		"logo"		"56bd31fa5616f7b16f1e3f6c98207b4a041b11d5"
+		"logo_small"		"56bd31fa5616f7b16f1e3f6c98207b4a041b11d5_thumb"
+		"metacritic_name"		"Samsara"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2b2df5d10e2397b2c40dbb1486bbcb8e72392ff4.jpg"
+		"store_asset_mtime"		"1524705627"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"JaffaJam"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"JaffaJam"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_43"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1517960951"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"652880"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"9"
+			"3"		"1664"
+		}
+		"review_score"		"7"
+		"review_percentage"		"96"
+	}
+	"extended"
+	{
+		"developer"		"JaffaJam"
+		"publisher"		"JaffaJam"
+		"homepage"		"http://www.samsara-game.com/"
+	}
+	"config"
+	{
+		"installdir"		"Samsara"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Samsara.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Samsara.app\\Contents\\MacOS\\Samsara"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"652881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5211223001940661500"
+					"size"		"277376476"
+					"download"		"109331232"
+				}
+			}
+		}
+		"652882"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4380212459898852345"
+					"size"		"330735065"
+					"download"		"123699248"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,brazilian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2536823"
+				"timeupdated"		"1519003422"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Marker Studio/Samsara"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
