@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"318260"
+	"common"
+	{
+		"name"		"Supreme: Pizza Empire"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"1b84a309d1d5476db4cd58482167af12a6cbd66f"
+		"clienttga"		"d6ee31459100a1af61309331cb7984fa8f5f85e3"
+		"icon"		"4e9373bcc47c2997e0dfc202bd155cfc6b02412d"
+		"clienticns"		"c7c563d45fbe80a755154215d18245e37fe79cf4"
+		"logo"		"0f73abee21a9be2c557886598cf51c29fdb92cdb"
+		"logo_small"		"0f73abee21a9be2c557886598cf51c29fdb92cdb_thumb"
+		"linuxclienticon"		"b7520a09b3aa3d62146625fa32edb4f4055a207d"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Supreme"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e22371724c4e62b3ec9245c9039a7bf8b18fd5fa.jpg"
+		"store_asset_mtime"		"1434040693"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nexeon Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nexeon Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1420840749"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"318260"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"599"
+			"3"		"12472"
+			"4"		"9"
+		}
+		"review_score"		"5"
+		"review_percentage"		"63"
+	}
+	"extended"
+	{
+		"developer"		"Nexeon Studios"
+		"publisher"		"Nexeon Studios"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Supreme"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Supreme.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Supreme.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Supreme.x86_64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Supreme.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"318261"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3441264471581500274"
+					"size"		"115854132"
+					"download"		"39617248"
+				}
+				"classic"
+				{
+					"gid"		"2261601839047517631"
+					"size"		"809882760"
+					"download"		"199858656"
+				}
+			}
+		}
+		"318262"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2621667339497763384"
+					"size"		"147472412"
+					"download"		"42382480"
+				}
+				"classic"
+				{
+					"gid"		"6161054576409561303"
+					"size"		"843634048"
+					"download"		"205978352"
+				}
+			}
+		}
+		"318263"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1106778180316972849"
+					"size"		"142485760"
+					"download"		"42444640"
+				}
+				"classic"
+				{
+					"gid"		"1564272845865745691"
+					"size"		"838183707"
+					"download"		"187350576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"879633"
+			}
+			"classic"
+			{
+				"buildid"		"572129"
+				"description"		"First Game Incarnation"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1024000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
