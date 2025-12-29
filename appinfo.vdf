@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"37300"
+	"common"
+	{
+		"name"		"DinerTown Tycoon"
+		"logo"		"05fafbd4bb8da0afb4854fe2d50f8465b1228a1b"
+		"logo_small"		"05fafbd4bb8da0afb4854fe2d50f8465b1228a1b_thumb"
+		"clienticon"		"387869ef62950a1a7b1e99bea47c8a3c1acc3052"
+		"clienttga"		"69b307b594029bd44414d80f86784a585e9d7172"
+		"icon"		"bf5cc9ca82606797a4da20e5467902b82375b966"
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1738972800"
+			"tested_build_id"		"19552"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-4RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d8fefd92b28b388f908acc7211f40b411f07ade2.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PlayFirst"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PlayFirst"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1254466800"
+		"community_hub_visible"		"1"
+		"gameid"		"37300"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"597"
+			"2"		"12472"
+		}
+		"review_score"		"5"
+		"review_percentage"		"56"
+	}
+	"extended"
+	{
+		"developer"		"PlayFirst"
+		"gamedir"		"DinerTown Tycoon"
+		"homepage"		"http://www.playfirst.com/game/dinertown-tycoon"
+		"icon"		""
+		"installscript"		"37300_install.vdf"
+		"installscriptosx"		"DinerTown Tycoon.app/installscript_osx.vdf"
+		"installscript_macos"		"DinerTown Tycoon.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"PlayFirst"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DinerTown Tycoon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DinerTown Tycoon.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DinerTown Tycoon.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"37302"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9210648694067487031"
+					"size"		"34860431"
+					"download"		"0"
+				}
+			}
+		}
+		"37301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2716353604725498610"
+					"size"		"37402720"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19552"
+			}
+		}
+	}
+}
