@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"274700"
+	"common"
+	{
+		"name"		"868-HACK"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"icon"		"a03e37ab099c3d056225a3a89c10253a24daf609"
+		"logo"		"a45c5d202bee71aac08f068d2a542ccada4455f5"
+		"logo_small"		"a45c5d202bee71aac08f068d2a542ccada4455f5_thumb"
+		"clienttga"		"7d6331c6d312ce33849980dddce47925b0ca106b"
+		"clienticon"		"7f490bb4397efda5102e0e8dfc2187243b69bf03"
+		"clienticns"		"e2b92d51d555e638bbc302fb8130750a708fceeb"
+		"metacritic_name"		"868-HACK"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_583c2030df7d52f6ab89e1a06f8fe37911110e23.jpg"
+		"store_asset_mtime"		"1421163510"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Michael Brough"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Michael Brough"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"868-HACK"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1422345600"
+		"steam_release_date"		"1422342293"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"274700"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"1716"
+			"3"		"5502"
+		}
+		"review_score"		"8"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"Michael Brough"
+		"publisher"		"Michael Brough"
+		"homepage"		"http://www.smestorp.com/"
+		"listofdlc"		"646930"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"868-HACK"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"868-HACK.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"868-HACK.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"hasdepotsindlc"		"0"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"274701"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2100354463062420394"
+					"size"		"6503700"
+					"download"		"3994416"
+				}
+			}
+		}
+		"274702"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"108050769676307835"
+					"size"		"7847891"
+					"download"		"3914576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16737992"
+				"timeupdated"		"1734107480"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"524288"
+		"maxnumfiles"		"6"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"868-hack"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"868-hack"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"868-hack"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
