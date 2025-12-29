@@ -1,0 +1,220 @@
+"appinfo"
+{
+	"appid"		"1233020"
+	"common"
+	{
+		"name"		"Betrayal"
+		"type"		"Game"
+		"logo"		"40b47c980f027b4d197ff5009e843990cb980a96"
+		"logo_small"		"40b47c980f027b4d197ff5009e843990cb980a96_thumb"
+		"clienttga"		"11d6c9fc34d5e0503185cfc3139361727a698d58"
+		"clienticon"		"18b87a26fa7a86efbfabed6cc2f487c373dc8198"
+		"icon"		"febc42200fb1a427d9c647bc2793617d610a0123"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"metacritic_name"		"Betrayal"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46.32438739789965"
+				"height_pct"		"83.66183804322014"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"46.32438739789965"
+					"height_pct"		"83.66183804322014"
+				}
+			}
+		}
+		"store_asset_mtime"		"1581698102"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Floppy Electronic Services Ltd."
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Rainbird Softwatre"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1583854829"
+		"community_hub_visible"		"1"
+		"gameid"		"1233020"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"599"
+			"2"		"4004"
+			"3"		"5851"
+			"4"		"1684"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Floppy Electronic Services Ltd."
+		"publisher"		"Ziggurat"
+		"homepage"		"https://ziggurat.games"
+	}
+	"config"
+	{
+		"installdir"		"Betrayal"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"\"BETRAYAL.COM\" -conf \"dosbox_betrayal.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"runBetrayal.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1233021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6254801829591962217"
+					"size"		"5897172"
+					"download"		"2734048"
+				}
+			}
+		}
+		"1233022"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2278802241396023511"
+					"size"		"4300866"
+					"download"		"1511360"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4837487"
+				"timeupdated"		"1585594579"
+			}
+		}
+	}
+}
