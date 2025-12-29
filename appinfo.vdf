@@ -1,0 +1,336 @@
+"appinfo"
+{
+	"appid"		"215390"
+	"common"
+	{
+		"name"		"Damage Inc"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"logo"		"e8de52de9e8fb76ecbbc7d8853ce3acbcbdf81aa"
+		"logo_small"		"e8de52de9e8fb76ecbbc7d8853ce3acbcbdf81aa_thumb"
+		"icon"		"a6d7c1476b53a041a447e7169be5cdccc958caea"
+		"clienticon"		"df76cae1b69f85d75cf4f4bb066758a37b42204e"
+		"clienttga"		"0d3362834952f5e52bb428acc74179a22ef82ca0"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1695081600"
+			"tested_build_id"		"18027"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Damage Inc"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_30277c6488a529ea519916bd3998f2eedbd52fbb.jpg"
+		"store_asset_mtime"		"1345326156"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Trickstar Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mad Catz"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"215390"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+			"2"		"15045"
+			"3"		"4150"
+		}
+		"review_score"		"5"
+		"review_percentage"		"63"
+	}
+	"extended"
+	{
+		"developer"		"Trickstar Games"
+		"gamedir"		"ValveTestApp215390"
+		"homepage"		"http://www.damageincthegame.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Mad Catz"
+		"gamemanualurl"		"https://store.steampowered.com/manual/215390/"
+		"listofdlc"		"215430,215431,215432,215433,215434,215435,215436,215437"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Damage Inc"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"description"		"Play Damage Inc"
+			}
+		}
+		"installscriptsignature"		"33c652958cd661207033cceab93e794dfae22ab52bb45180ccb74049cef8209650e60650f47efeca1c754bbe91621b8107e125d61713d49449c9291ad57e3fb60cb665bf26f3c333b728a10674372507a008744b65ec7b6ac38a33530319ee5e6e10102294b07f537435ae1bd505856af65ce5ca7cc5a1bf4b292dd7c411f92e"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\madcatz\damageinc"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\Game.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"12"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\215390"
+				"process 1"		"%INSTALLDIR%\\Support\\directx_Jun2010\\DXSetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vc++ redist x86"
+			{
+				"process 1"		"%INSTALLDIR%\\Support\\vcredist_x86.exe"
+				"requirement_os"
+				{
+					"is64bitwindows"		"0"
+				}
+				"command 1"		"/q:a"
+			}
+			"dotnet fx 2.0 x86"
+			{
+				"process 1"		"%INSTALLDIR%\\Support\\NetFx20SP2_x86.exe"
+				"requirement_os"
+				{
+					"is64bitwindows"		"0"
+				}
+				"command 1"		"/q /norestart"
+			}
+		}
+	}
+	"depots"
+	{
+		"215391"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7336181999389183081"
+					"size"		"5517118469"
+					"download"		"0"
+				}
+			}
+		}
+		"215430"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4031578002958824684"
+					"size"		"1708978"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"215430"
+		}
+		"215431"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5599657574383518435"
+					"size"		"1709115"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"215431"
+		}
+		"215432"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2811601697698993458"
+					"size"		"1708903"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"215432"
+		}
+		"215433"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1114003655741980941"
+					"size"		"1708812"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"215433"
+		}
+		"215434"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3356931812769682282"
+					"size"		"1708865"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"215434"
+		}
+		"215435"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8904558661739946088"
+					"size"		"1708550"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"215435"
+		}
+		"215436"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8391713100972268892"
+					"size"		"1707936"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"215436"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18027"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+	}
+}
