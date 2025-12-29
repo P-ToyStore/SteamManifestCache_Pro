@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"652510"
+	"common"
+	{
+		"name"		"ESCAPE Room: Reality"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"ebd89c7e61e0ae1d0879d426272c247cc25fc49c"
+		"logo_small"		"ebd89c7e61e0ae1d0879d426272c247cc25fc49c_thumb"
+		"icon"		"fd61ee7054aef58fbd041210f23f19fca7ed7ebe"
+		"clienttga"		"a25b1a26c61f73101b93e3596dbb4c2f22576325"
+		"clienticon"		"2d7b18cc2c04759898177c773e9171ba0ce396b5"
+		"metacritic_name"		"ESCAPE Room: Reality"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"67.32385261797026"
+				"height_pct"		"91.66666666666666"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"67.32385261797026"
+					"height_pct"		"91.66666666666666"
+				}
+			}
+		}
+		"store_asset_mtime"		"1686653280"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Team Neetbytes"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Team Neetbytes"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1498015059"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"652510"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1664"
+			"2"		"8369"
+			"3"		"5716"
+			"4"		"5613"
+			"5"		"3799"
+			"6"		"4434"
+			"7"		"1742"
+			"8"		"597"
+			"9"		"3964"
+			"10"		"3871"
+			"11"		"4085"
+			"12"		"122"
+			"13"		"1662"
+			"14"		"3834"
+			"15"		"4026"
+			"16"		"4182"
+			"17"		"5577"
+			"18"		"1698"
+			"19"		"1738"
+		}
+		"review_score"		"7"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Team Neetbytes"
+		"publisher"		"Team Neetbytes"
+		"homepage"		"http://neetbytes.com"
+	}
+	"config"
+	{
+		"installdir"		"ESCAPE Room Reality"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"arguments"		"--in-process-gpu"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"game.app"
+				"arguments"		"--in-process-gpu"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"652511"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8386359983577704878"
+					"size"		"460911985"
+					"download"		"314370896"
+				}
+			}
+		}
+		"652512"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3969306016725276752"
+					"size"		"351480955"
+					"download"		"156383968"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10315625"
+				"timeupdated"		"1673613439"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"www/save"
+				"pattern"		"*.rpgsave"
+			}
+		}
+	}
+}
