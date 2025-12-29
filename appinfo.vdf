@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"918530"
+	"common"
+	{
+		"name"		"The Dark Room"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"logo"		"dd34ba87c72e4e62c73848c2d0bb46de65a3c38a"
+		"logo_small"		"dd34ba87c72e4e62c73848c2d0bb46de65a3c38a_thumb"
+		"icon"		"eb1e928e2314d408b1f219913abc397ff4251124"
+		"clienticon"		"9b6f3d44ff65c3d97470f830d81630b797b3ca83"
+		"clienttga"		"8dcd01eb45b0db9ad58030a96345fdd1ceda5ec1"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"The Dark Room"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_30028a1b629f3046cca8f4a42b0a6305374529ee.jpg"
+		"store_asset_mtime"		"1536559050"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Developers At Large"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"John Robertson"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"John Robertson"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1537426800"
+		"steam_release_date"		"1537424842"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"918530"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"493"
+			"1"		"21"
+			"2"		"492"
+			"3"		"4345"
+			"4"		"4667"
+			"5"		"1719"
+			"6"		"19995"
+			"7"		"122"
+			"8"		"4166"
+			"9"		"31275"
+			"10"		"1664"
+			"11"		"4004"
+		}
+		"review_score"		"8"
+		"review_percentage"		"89"
+	}
+	"extended"
+	{
+		"developer"		"Developers At Large"
+		"publisher"		"John Robertson"
+	}
+	"config"
+	{
+		"installdir"		"The Dark Room"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DarkRoomUnreal.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DarkRoomUnreal.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"DarkRoomUnreal.exe"
+				"arguments"		"-windowed"
+				"description"		"The Dark Room in windowed mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"DarkRoomUnreal.app/Contents/MacOS/DarkRoomUnreal"
+				"arguments"		"-windowed"
+				"description"		"The Dark Room in windowed mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"73"
+	}
+	"depots"
+	{
+		"918531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"104456111345287154"
+					"size"		"534658402"
+					"download"		"260179488"
+				}
+			}
+		}
+		"918532"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1874216671662532807"
+					"size"		"736627034"
+					"download"		"390979808"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3220060"
+				"timeupdated"		"1539764329"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"DarkRoomUnreal/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"Epic"
+			}
+		}
+	}
+}
