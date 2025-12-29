@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"941200"
+	"common"
+	{
+		"name"		"Red Beard Labyrinth"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"2ff209d350b11a6cdda5154a2d57d00a6891d295"
+		"logo_small"		"2ff209d350b11a6cdda5154a2d57d00a6891d295_thumb"
+		"icon"		"5bfbc11b2029646757bc744951d605e4b141dc96"
+		"linuxclienticon"		"61468b4cb7602a118790d1ff59ebaddc7a2fa5f4"
+		"clienticon"		"b8d9975c64274e2d19325f4803943ac301661882"
+		"clienttga"		"898bdfbc60db8ca6af45e634d55b436efe0eaa90"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Red Beard Labyrinth"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_990a15e7053845aa88d9f524f81feed5cb6164af.jpg"
+		"store_asset_mtime"		"1543766781"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NikFamilyGames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"NikFamilyGames"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1540487080"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"941200"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"NikFamilyGames"
+		"publisher"		"NikFamilyGames"
+	}
+	"config"
+	{
+		"installdir"		"Red Beard Labyrinth"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Red Beard Labyrinth.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Red Beard Labyrinth.app\\Contents\\MacOS\\Red Beard Labyrinth"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Red Beard Labyrinth.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"hasdepotsindlc"		"0"
+		"941201"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3511753175592221572"
+					"size"		"889519425"
+					"download"		"389318064"
+				}
+			}
+		}
+		"941202"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4266167370770840611"
+					"size"		"925415317"
+					"download"		"415081840"
+				}
+			}
+		}
+		"941203"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5793438160042900895"
+					"size"		"967286977"
+					"download"		"453540064"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3410522"
+				"timeupdated"		"1545178158"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"NikFamilyGames/Red Beard Labyrinth"
+				"pattern"		"*.xml"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"NikFamilyGames/Red Beard Labyrinth"
+						"replace"		"com.NikFamilyGames.RedBeardLabyrinth"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"NikFamilyGames/Red Beard Labyrinth"
+						"replace"		".config/unity3d/NikFamilyGames/Red Beard Labyrinth"
+					}
+				}
+			}
+		}
+	}
+}
