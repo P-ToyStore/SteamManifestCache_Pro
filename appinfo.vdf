@@ -1,0 +1,182 @@
+"appinfo"
+{
+	"appid"		"698410"
+	"common"
+	{
+		"name"		"Ski Hard: Lorsbruck 1978"
+		"type"		"Game"
+		"logo"		"1af5f37e6bf133448e38d1227efa76bb2232f870"
+		"logo_small"		"1af5f37e6bf133448e38d1227efa76bb2232f870_thumb"
+		"icon"		"5cabaff754b082cd5437719ca9eb9c5e0f952b8a"
+		"clienticon"		"5c69bab03870d1674cd1cfddeb86a3057220a1cc"
+		"clienttga"		"81c8d178cfab4df575621e9df916c3be074c9bdc"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ski Hard: Lorsbruck 1978"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_12043ec7401c08b714b4f82c47c4e6c55c25b83a.jpg"
+		"store_asset_mtime"		"1517275280"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Odd Chamber"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Odd Chamber"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1518191833"
+		"community_hub_visible"		"1"
+		"gameid"		"698410"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"701"
+			"3"		"4026"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Odd Chamber"
+		"publisher"		"Odd Chamber"
+		"homepage"		"http://oddchamber.com/lorsbruck1978"
+	}
+	"config"
+	{
+		"installdir"		"Ski Hard - Lorsbruck 1978"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SkiHardLorsbruck1978.exe"
+				"arguments"		"stlaunch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SkiHardLorsbruck1978.app"
+				"arguments"		"stlaunch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"698412"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1003999132253518467"
+					"size"		"171042040"
+					"download"		"72709168"
+				}
+			}
+		}
+		"698411"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5770035397785731519"
+					"size"		"183840937"
+					"download"		"75509104"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2514591"
+				"timeupdated"		"1518256619"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Odd Chamber/Ski Hard_ Lorsbruck 1978"
+				"pattern"		"local_scores.json"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Odd Chamber/Ski Hard_ Lorsbruck 1978"
+						"replace"		"com.oddchamber.lorsbruck"
+					}
+				}
+			}
+		}
+	}
+}
