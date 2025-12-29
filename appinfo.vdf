@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"829040"
+	"common"
+	{
+		"name"		"Light Borrower"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"52f6cd7dc3df3b02a673376b8df1796e237d843b"
+		"logo_small"		"52f6cd7dc3df3b02a673376b8df1796e237d843b_thumb"
+		"icon"		"8982badd9e5301364d0a960949b0003f290941e9"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticns"		"8ec5d36c8c3652da274eb26da6020ccc0d55d39d"
+		"clienticon"		"1818ae1c4332fe96755518bc70294f88293ec252"
+		"clienttga"		"44cabbc29ebffc7c24e54976e239ba3df3ec73ff"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Light Borrower"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_731a3a7dfbe9ff36e786c1797fd89bc149f14f85.jpg"
+		"store_asset_mtime"		"1530162653"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Jon Pulsipher"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Jon Pulsipher"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1530166427"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"829040"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"1664"
+		}
+		"review_score"		"7"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"developer"		"Jon Pulsipher"
+		"publisher"		"Jon Pulsipher"
+	}
+	"config"
+	{
+		"installdir"		"Light Borrower"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LBLaunchBuild.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LBLaunchBuildMac.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"829041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"609842106955315218"
+					"size"		"353383746"
+					"download"		"96220816"
+				}
+			}
+		}
+		"829042"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6754931409946911034"
+					"size"		"377106166"
+					"download"		"101435920"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2935512"
+				"timeupdated"		"1531283781"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"BitOddGames/LightBorrower/Saves"
+				"pattern"		"*.lbsave"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"BitOddGames/LightBorrower/Saves"
+						"replace"		"unity.BitOddGames.LightBorrower/Saves"
+					}
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"BitOddGames/LightBorrower/Saves"
+						"replace"		".config/unity3d/BitOddGames/LightBorrower/Saves"
+					}
+				}
+			}
+		}
+	}
+}
