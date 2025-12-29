@@ -1,0 +1,475 @@
+"appinfo"
+{
+	"appid"		"1397300"
+	"common"
+	{
+		"name"		"Kyma"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosnotarized"
+		"icon"		"639e6fc589f8248eace22c0e7588b371bdb0a844"
+		"clienttga"		"36b4aeef6e26cbcf60418996566d78dc715f1378"
+		"clienticon"		"8e372a6a2cc1c5ad2ba9bbac7e852d921d3638ec"
+		"logo"		"c2249ec67886af9f554b8c63f56598d313adbc2b"
+		"logo_small"		"c2249ec67886af9f554b8c63f56598d313adbc2b_thumb"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"french"		"capsule_231x87_french.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"french"		"header_french.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,fr"
+			"library_hero"		"en,fr"
+			"library_logo"		"en,fr"
+			"library_header"		"en,fr"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+					"french"		"library_600x900_french.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+					"french"		"library_600x900_french_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+					"french"		"library_hero_french.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+					"french"		"library_hero_french_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+					"french"		"logo_french.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+					"french"		"library_header_french.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1713817726"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kidness"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Kidness"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+			"3"		"28"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1616687389"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1397300"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"10235"
+			"2"		"597"
+			"3"		"599"
+			"4"		"1695"
+			"5"		"87918"
+			"6"		"1654"
+			"7"		"1702"
+			"8"		"5981"
+			"9"		"3834"
+			"10"		"3810"
+			"11"		"4136"
+			"12"		"3871"
+			"13"		"1643"
+			"14"		"4726"
+			"15"		"4182"
+			"16"		"4231"
+			"17"		"492"
+			"18"		"9551"
+			"19"		"5125"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Kidness"
+		"publisher"		"Kidness"
+		"homepage"		"https://kymamakersisland.net/"
+	}
+	"config"
+	{
+		"installdir"		"Kyma"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"kyma.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+			"1"
+			{
+				"executable"		"jre-mac/bin/java"
+				"arguments"		"--module-path \"jfx-mac/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media -jar -Dglass.win.uiScale=1 -Dglass.win.minHiDPI=1 -Djavafx.animation.fullspeed=true -Dprism.forceGPU=true -Djavafx.pulseLogger=false -Dquantum.multithreaded=false kyma.jar"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+			"2"
+			{
+				"executable"		"jre-linux/bin/java"
+				"arguments"		"--module-path \"jfx-linux/lib\" --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media -jar -Djavafx.animation.fullspeed=true -Dprism.forceGPU=true -Djavafx.pulseLogger=false -Dglass.win.uiScale=1 -Dglass.win.minHiDPI=1 -Dquantum.multithreaded=false kyma.jar"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,french"
+		"hasdepotsindlc"		"0"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1397301"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1770720875465785329"
+					"size"		"546154322"
+					"download"		"512389488"
+				}
+				"prerelease"
+				{
+					"gid"		"1770720875465785329"
+					"size"		"546154322"
+					"download"		"512389488"
+				}
+				"5.1.6"
+				{
+					"gid"		"3441802080952082532"
+					"size"		"326185545"
+					"download"		"305411664"
+				}
+				"5.0.134"
+				{
+					"gid"		"6463602988383062477"
+					"size"		"321335411"
+					"download"		"300732624"
+				}
+				"old-alpha-4.2.204"
+				{
+					"gid"		"7993780269482702749"
+					"size"		"410535074"
+					"download"		"388182160"
+				}
+				"old-alpha-3.2.29"
+				{
+					"gid"		"7820351201440483111"
+					"size"		"703345193"
+					"download"		"629503008"
+				}
+			}
+		}
+		"1397302"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6239859716192635149"
+					"size"		"379994617"
+					"download"		"133744960"
+				}
+				"prerelease"
+				{
+					"gid"		"6239859716192635149"
+					"size"		"379994617"
+					"download"		"133744960"
+				}
+				"5.1.6"
+				{
+					"gid"		"6239859716192635149"
+					"size"		"379994617"
+					"download"		"133744960"
+				}
+				"5.0.134"
+				{
+					"gid"		"6239859716192635149"
+					"size"		"379994617"
+					"download"		"133744960"
+				}
+				"old-alpha-4.2.204"
+				{
+					"gid"		"4106725775147294338"
+					"size"		"351302134"
+					"download"		"125017632"
+				}
+				"old-alpha-3.2.29"
+				{
+					"gid"		"4106725775147294338"
+					"size"		"351302134"
+					"download"		"125017632"
+				}
+			}
+		}
+		"1397303"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5897543658548757017"
+					"size"		"47555340"
+					"download"		"30404144"
+				}
+				"prerelease"
+				{
+					"gid"		"5897543658548757017"
+					"size"		"47555340"
+					"download"		"30404144"
+				}
+				"5.1.6"
+				{
+					"gid"		"5897543658548757017"
+					"size"		"47555340"
+					"download"		"30404144"
+				}
+				"5.0.134"
+				{
+					"gid"		"5897543658548757017"
+					"size"		"47555340"
+					"download"		"30404144"
+				}
+				"old-alpha-4.2.204"
+				{
+					"gid"		"5013797153736239517"
+					"size"		"228349111"
+					"download"		"87838752"
+				}
+				"old-alpha-3.2.29"
+				{
+					"gid"		"5013797153736239517"
+					"size"		"228349111"
+					"download"		"87838752"
+				}
+			}
+		}
+		"1397304"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6286499671787047685"
+					"size"		"354248294"
+					"download"		"128090544"
+				}
+				"prerelease"
+				{
+					"gid"		"6286499671787047685"
+					"size"		"354248294"
+					"download"		"128090544"
+				}
+				"5.1.6"
+				{
+					"gid"		"6286499671787047685"
+					"size"		"354248294"
+					"download"		"128090544"
+				}
+				"5.0.134"
+				{
+					"gid"		"6286499671787047685"
+					"size"		"354248294"
+					"download"		"128090544"
+				}
+				"old-alpha-4.2.204"
+				{
+					"gid"		"6027793440631756237"
+					"size"		"329837209"
+					"download"		"121062336"
+				}
+				"old-alpha-3.2.29"
+				{
+					"gid"		"6027793440631756237"
+					"size"		"329837209"
+					"download"		"121062336"
+				}
+			}
+		}
+		"1397305"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20964971"
+				"timeupdated"		"1764244523"
+			}
+			"prerelease"
+			{
+				"buildid"		"20964971"
+				"description"		"Pre-release (unstable)"
+				"timeupdated"		"1764244456"
+			}
+			"5.1.6"
+			{
+				"buildid"		"15433725"
+				"description"		"5.1.6"
+				"timeupdated"		"1738853398"
+			}
+			"5.0.134"
+			{
+				"buildid"		"14195100"
+				"description"		"5.0.134"
+				"timeupdated"		"1724097570"
+			}
+			"old-alpha-4.2.204"
+			{
+				"buildid"		"11527076"
+				"description"		"(old - unstable)"
+				"timeupdated"		"1710194726"
+			}
+			"old-alpha-3.2.29"
+			{
+				"buildid"		"10916984"
+				"description"		"(old- unstable)"
+				"timeupdated"		"1680512613"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"kyma"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
