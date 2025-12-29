@@ -1,0 +1,379 @@
+"appinfo"
+{
+	"appid"		"962150"
+	"common"
+	{
+		"name"		"Tactics V: \"Obsidian Brigade\""
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"4af3e11cbd421870ff72cc6321bfb0d83eefffb8"
+		"logo_small"		"4af3e11cbd421870ff72cc6321bfb0d83eefffb8_thumb"
+		"icon"		"4119dcc67489a32e0329db97c80cb08dd1c1a1cb"
+		"clienttga"		"76ec7d47736246f2dc6676957ea92b6d098413b4"
+		"clienticon"		"f48eca278be2095396589ab934241bef826df3b8"
+		"metacritic_name"		"Tactics V: &amp;quot;Obsidian Brigade&amp;quot;"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"52.68378063010502"
+				"height_pct"		"78.7223937307053"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"52.68378063010502"
+					"height_pct"		"78.7223937307053"
+				}
+			}
+		}
+		"store_asset_mtime"		"1669178754"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"From Nothing Game Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"From Nothing Game Studios"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_37"		"1"
+			"category_28"		"1"
+			"category_39"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_44"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_9"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1565326871"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"962150"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"122"
+			"2"		"1677"
+			"3"		"14139"
+			"4"		"1708"
+			"5"		"17305"
+			"6"		"21725"
+			"7"		"4325"
+			"8"		"1741"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"From Nothing Game Studios"
+		"publisher"		"From Nothing Game Studios"
+		"homepage"		"http://fromnothinggamestudios.com/games/tactics-v"
+		"listofdlc"		"1010680"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Tactics V"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TacticsV.exe"
+				"arguments"		"-force-glcore"
+				"description"		"using OpenGl Core"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TacticsV.app\\Contents\\MacOS\\TacticsV"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"TacticsV.x86_64"
+				"arguments"		"-force-glcore"
+				"description"		"using OpenGL Core"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"TacticsV.exe"
+				"arguments"		"-force-vulkan"
+				"description"		"using Vulkan"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"TacticsV.x86_64"
+				"description"		"using Vulkan"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"TacticsV.exe"
+				"arguments"		"-force-d3d11"
+				"description"		"using DirectX 11"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"6"
+			{
+				"executable"		"TacticsV.exe"
+				"arguments"		"-force-driver-type-warp"
+				"description"		"using Warp"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"publicbeta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"0"
+		"962151"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2730902449963292820"
+					"size"		"738133750"
+					"download"		"528184496"
+				}
+				"publicbeta"
+				{
+					"gid"		"1277235500226737465"
+					"size"		"716983589"
+					"download"		"520230976"
+				}
+			}
+		}
+		"962152"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7678876646379051157"
+					"size"		"739983560"
+					"download"		"520315888"
+				}
+				"publicbeta"
+				{
+					"gid"		"5555599578374398477"
+					"size"		"690585551"
+					"download"		"509733712"
+				}
+			}
+		}
+		"962153"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6088287202862914230"
+					"size"		"755934293"
+					"download"		"519709200"
+				}
+				"publicbeta"
+				{
+					"gid"		"6088287202862914230"
+					"size"		"755934293"
+					"download"		"519709200"
+				}
+			}
+		}
+		"1010680"
+		{
+			"dlcappid"		"1010680"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4629027206007813885"
+					"size"		"169487040"
+					"download"		"78128864"
+				}
+				"publicbeta"
+				{
+					"gid"		"4629027206007813885"
+					"size"		"169487040"
+					"download"		"78128864"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11331906"
+				"timeupdated"		"1685161117"
+			}
+			"publicbeta"
+			{
+				"buildid"		"11336964"
+				"description"		"Public Beta Branch"
+				"timeupdated"		"1685283760"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"12"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"FromNothingGameStudios/TacticsV"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"FromNothingGameStudios/TacticsV"
+						"replace"		"unity.FromNothingGameStudios.TacticsFive"
+					}
+				}
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"FromNothingGameStudios/TacticsV"
+						"replace"		".config/unity3d/FromNothingGameStudios/TacticsV"
+					}
+				}
+			}
+		}
+	}
+}
