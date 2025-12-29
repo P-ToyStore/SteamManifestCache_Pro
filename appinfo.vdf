@@ -1,0 +1,338 @@
+"appinfo"
+{
+	"appid"		"392600"
+	"common"
+	{
+		"name"		"Volvox"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"3e424154ef1137714b8c349fa11f4c0013dc4868"
+		"clienticon"		"0b85f95812895e7263593e766266f3cd5cbeead4"
+		"clienttga"		"5eed4e631bdbabdcef0b7f74344e80b3c67cdb01"
+		"clienticns"		"fced7e6fe19e07ded522ea3e3ddfb63449d262c8"
+		"logo"		"fb9dde79e316895d572d2d6581a50537399e9f18"
+		"logo_small"		"fb9dde79e316895d572d2d6581a50537399e9f18_thumb"
+		"linuxclienticon"		"19c490cc0a5b2c74dd1946a422e799ba188e75f6"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1708128000"
+			"tested_build_id"		"1539492"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Volvox"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_15d16e8df1e25535411af809f7a120fea7b7e45c.jpg"
+		"store_asset_mtime"		"1449477032"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Neotenia"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Neotenia"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1449507885"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"392600"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1664"
+			"2"		"4026"
+			"3"		"17337"
+			"4"		"5350"
+		}
+		"review_score"		"7"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Neotenia"
+		"publisher"		"Neotenia"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Volvox"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Volvox.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Volvox.app\\Contents\\MacOS\\Volvox"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Volvox.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Volvox.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"392601"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4372179352449788690"
+					"size"		"146509301"
+					"download"		"51841664"
+				}
+				"testing"
+				{
+					"gid"		"5225010007042526722"
+					"size"		"138665745"
+					"download"		"48975696"
+				}
+			}
+		}
+		"392602"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4470978924265790576"
+					"size"		"191385995"
+					"download"		"62345104"
+				}
+				"testing"
+				{
+					"gid"		"7584483094751100401"
+					"size"		"183538493"
+					"download"		"59481024"
+				}
+			}
+		}
+		"392603"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8075095953274990643"
+					"size"		"178567374"
+					"download"		"61700400"
+				}
+				"testing"
+				{
+					"gid"		"8440758731041438391"
+					"size"		"170719870"
+					"download"		"58835088"
+				}
+			}
+		}
+		"392604"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+		}
+		"392605"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+		}
+		"392606"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+		}
+		"392607"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+		}
+		"392608"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1539492"
+				"timeupdated"		"1482562624"
+			}
+			"testing"
+			{
+				"buildid"		"934711"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
