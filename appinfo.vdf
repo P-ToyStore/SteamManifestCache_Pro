@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"457980"
+	"common"
+	{
+		"name"		"Adele: Following the Signs"
+		"type"		"Game"
+		"logo"		"e4c1cea5ecfd546dce868f994bc4cc4b84ed6cd6"
+		"logo_small"		"e4c1cea5ecfd546dce868f994bc4cc4b84ed6cd6_thumb"
+		"clienticon"		"b77d0fb415eb9e9a0630047b7b6343a8ece7040f"
+		"clienttga"		"67b7dea8c5149a758162634a46a1040229334da6"
+		"icon"		"9fb2d10f8e8ca4aa20228f18ee009d5053399851"
+		"linuxclienticon"		"d921903e5713957e42b3b303a6860f9f299a6151"
+		"clienticns"		"369c10f61dbab62dadba877e2cb9766585c15715"
+		"oslist"		"windows,macos,linux"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Adele: Following the Signs"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_eade7e6af98f09f5f161a0f54aa910b69edfdee7.jpg"
+		"store_asset_mtime"		"1459970362"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Unosquare"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Unosquare"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1464896164"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"457980"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"1625"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"developer"		"Unosquare"
+		"publisher"		"Unosquare"
+		"homepage"		"http://www.adelegame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Adele Following the Signs"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Adele.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Adele.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Adele.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Adele.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"457981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6563089383668857439"
+					"size"		"4965789715"
+					"download"		"1874474896"
+				}
+			}
+		}
+		"457982"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2186170063995275149"
+					"size"		"4799758105"
+					"download"		"1870051264"
+				}
+			}
+		}
+		"457983"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"606855578232216213"
+					"size"		"4988170840"
+					"download"		"1883121696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1240620"
+				"timeupdated"		"1469206870"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"3"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Unosquare/Adele"
+				"pattern"		"*.afts"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Unosquare/Adele"
+						"replace"		"unity.Unosquare.Adele"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Unosquare/Adele"
+						"replace"		".config/unity3d/Unosquare/Adele"
+					}
+				}
+			}
+		}
+	}
+}
