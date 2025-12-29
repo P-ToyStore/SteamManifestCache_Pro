@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"270330"
+	"common"
+	{
+		"name"		"Ku: Shroud of the Morrigan"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"02145d1326bb52f124c393b92f595ad1fbc0e907"
+		"logo_small"		"02145d1326bb52f124c393b92f595ad1fbc0e907_thumb"
+		"icon"		"9809e43658e357eeb2c7a2d88d475dd7320327f5"
+		"clienticon"		"16e128d8bf5400a287d4f75ca6994b06f3076229"
+		"clienttga"		"f9a049cdf1f4a0be6e0707efb1804cc5c5b8ca5e"
+		"linuxclienticon"		"16e128d8bf5400a287d4f75ca6994b06f3076229"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"16e128d8bf5400a287d4f75ca6994b06f3076229"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ku: Shroud of the Morrigan"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_90ed7e67fe39371a626b016988b45b241491acae.jpg"
+		"store_asset_mtime"		"1394117256"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"bitSmith Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"bitSmith Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1395071243"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"270330"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"19"
+		}
+		"review_score"		"4"
+		"review_percentage"		"25"
+	}
+	"extended"
+	{
+		"developer"		"bitSmith Games"
+		"publisher"		"bitSmith Games"
+		"homepage"		"http://www.kuthegame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"KuEp1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"kuSOTM.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"kuSOTMLinux"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"kuSOTM.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"270331"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7497600779714781153"
+					"size"		"1026892827"
+					"download"		"0"
+				}
+			}
+		}
+		"270332"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5567899850410197027"
+					"size"		"1055789002"
+					"download"		"0"
+				}
+			}
+		}
+		"270333"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8991263372082341803"
+					"size"		"1031093902"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"226159"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"/kuSOTM_Data/"
+				"pattern"		"savegame.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"/kuSOTMLinux_Data/"
+				"pattern"		"savegame.dat"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"/Contents/"
+				"pattern"		"savegame.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
