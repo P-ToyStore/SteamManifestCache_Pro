@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"1333810"
+	"common"
+	{
+		"name"		"Space Mining"
+		"type"		"Game"
+		"logo"		"a3a9813597b226e93d396c7723a34efcd2a137ee"
+		"logo_small"		"a3a9813597b226e93d396c7723a34efcd2a137ee_thumb"
+		"icon"		"0ce70f456fc359e8a6c9b7767e8c8f868ceef2e7"
+		"clienttga"		"d19854c801e2f920be2fec7ff13d51d0f2e543d0"
+		"clienticon"		"cc123cd7bf8be807c778ff9fa188dd7a648c46a8"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"43.47826086956525"
+				"height_pct"		"75.07717881738303"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"43.47826086956525"
+					"height_pct"		"75.07717881738303"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1590847912"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Roberto Trasarti"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Roberto Trasarti"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1592599687"
+		"community_hub_visible"		"1"
+		"gameid"		"1333810"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"597"
+			"2"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Roberto Trasarti"
+		"publisher"		"Roberto Trasarti"
+		"homepage"		"https://www.facebook.com/Space-Mining-100268975036040"
+	}
+	"config"
+	{
+		"installdir"		"SpaceMining"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SpaceMining\\launcher_mac.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"SpaceMining\\launcher_win.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1333813"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"242226992379641904"
+					"size"		"246043526"
+					"download"		"101502560"
+				}
+			}
+		}
+		"1333814"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6723632662075862261"
+					"size"		"266556809"
+					"download"		"99181840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6937412"
+				"timeupdated"		"1624694807"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SpaceMining/profile"
+				"pattern"		"*.sps"
+			}
+		}
+	}
+}
