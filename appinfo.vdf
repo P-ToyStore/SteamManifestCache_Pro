@@ -1,0 +1,307 @@
+"appinfo"
+{
+	"appid"		"919730"
+	"common"
+	{
+		"name"		"Project Z"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+		}
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"09f84f2fa872f83c35a87bcc59260d02151efe90"
+		"logo_small"		"09f84f2fa872f83c35a87bcc59260d02151efe90_thumb"
+		"icon"		"7a8db00cc9709eb09962fe3f836ea77b5890f035"
+		"osextended"		"macos64,macosnotarized"
+		"clienticon"		"79b7b9f3173fe0121e5f92e23b978e616fa8d8df"
+		"clienttga"		"51d56f5e511ceb88f739e314f4854687565a3352"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"metacritic_name"		"Project Z"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1568648719"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"SlinDev"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SlinDev"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1572370039"
+		"community_hub_visible"		"1"
+		"gameid"		"919730"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"21"
+			"3"		"1667"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"SlinDev"
+		"publisher"		"SlinDev"
+		"homepage"		"https://slindev.com/project-z/"
+	}
+	"config"
+	{
+		"installdir"		"Project Z"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ProjectZ.app/Contents/MacOS/ProjectZ"
+				"arguments"		"--pancake"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"ProjectZ"
+				"arguments"		"--pancake"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"ProjectZ.exe"
+				"arguments"		"--pancake"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"ProjectZ.exe"
+				"arguments"		"--openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"ProjectZ.exe"
+				"arguments"		"--oculusvr"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"ProjectZ"
+				"arguments"		"--openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"ProjectZ.app/Contents/MacOS/ProjectZ"
+				"arguments"		"--openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"919731"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1856465024071845970"
+					"size"		"582872169"
+					"download"		"205842896"
+				}
+			}
+		}
+		"919732"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9087027792815056025"
+					"size"		"511164629"
+					"download"		"138817040"
+				}
+			}
+		}
+		"919733"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6002856793666199172"
+					"size"		"523570845"
+					"download"		"138861968"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4464286"
+				"timeupdated"		"1575583777"
+			}
+		}
+	}
+}
