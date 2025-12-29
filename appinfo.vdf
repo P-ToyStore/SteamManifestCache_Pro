@@ -1,0 +1,255 @@
+"appinfo"
+{
+	"appid"		"429360"
+	"common"
+	{
+		"name"		"Lupinball"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"clienticon"		"fda8eb8aa9d5589535f796c054f2d33b0d36a453"
+		"clienttga"		"a6747b2d61ca26e2bf089fdded4cca05bd2e37a9"
+		"icon"		"614694aeb868ada11d1db1dc0791c0e348d2edf2"
+		"logo"		"2c1032ea1392bbee90b55768ccecf516e617a350"
+		"logo_small"		"2c1032ea1392bbee90b55768ccecf516e617a350_thumb"
+		"releasestate"		"released"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Lupinball"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_5762dfcea2f0a98396cfa4a797064c0e60274ee3.jpg"
+		"store_asset_mtime"		"1502348288"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Craftven"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Craftven"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"18"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_33"		"1"
+			"category_15"		"1"
+			"category_22"		"1"
+			"category_1"		"1"
+			"category_2"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1502980226"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"429360"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"701"
+			"4"		"9"
+			"5"		"3859"
+			"6"		"3964"
+			"7"		"4136"
+			"8"		"3878"
+			"9"		"1756"
+			"10"		"17015"
+			"11"		"4840"
+		}
+		"review_score"		"8"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"Craftven"
+		"publisher"		"Craftven"
+		"homepage"		"http://www.lupinball.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Lupinball"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"lupinball.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Lupinball.app\\Contents\\MacOS\\Lupinball"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"931241042"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese,russian,brazilian"
+		"429361"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8511390207347263714"
+					"size"		"372680778"
+					"download"		"194530192"
+				}
+			}
+		}
+		"429362"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3060029482448265806"
+					"size"		"422908287"
+					"download"		"207947072"
+				}
+			}
+		}
+		"705190"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5959697243715813937"
+					"size"		"45331255"
+					"download"		"45249216"
+				}
+			}
+			"dlcappid"		"705190"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2405930"
+				"timeupdated"		"1514768817"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Craftven/Lupinball"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Craftven/Lupinball"
+						"replace"		"unity.Craftven.Lupinball"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Craftven/Lupinball"
+						"replace"		".config/unity3d/Craftven/Lupinball"
+					}
+				}
+			}
+		}
+	}
+}
