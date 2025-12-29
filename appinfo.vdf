@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"995000"
+	"common"
+	{
+		"name"		"Escape Legacy VR"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"logo"		"b27ec423ad4372af160e75361ba47e02e6ea8fbb"
+		"logo_small"		"b27ec423ad4372af160e75361ba47e02e6ea8fbb_thumb"
+		"icon"		"c5bc5845a392ba24608877d9f1c0cb1fc9193092"
+		"clienttga"		"0bd108fd17f49b0d26a753607aad01c33be2c146"
+		"clienticon"		"5d08719ecd2ddf3cf082672cfc6baecaffeec762"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"995000_eula_0"
+				"name"		"Escape Legacy VR EULA"
+				"url"		"https://store.steampowered.com//eula/995000_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"clienticns"		"fe74b279ef754132ba764aeb4b9fa91d3b4093b7"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"0"
+			"test_timestamp"		"1711584000"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+				}
+			}
+			"steamos_tests"
+			{
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Escape Legacy VR"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ec5ab59fbf25c65126d1706fbe3864b96b10cccc.jpg"
+		"store_asset_mtime"		"1543932997"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Storming Tech"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Storming Tech"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1545317609"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"995000"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+			"3"		"21978"
+			"4"		"5716"
+			"5"		"599"
+			"6"		"4182"
+			"7"		"6129"
+			"8"		"8369"
+			"9"		"1664"
+			"10"		"4166"
+			"11"		"4175"
+			"12"		"5350"
+			"13"		"1698"
+			"14"		"1738"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Storming Tech"
+		"publisher"		"Storming Tech"
+		"homepage"		"http://www.Storming-Tech.com"
+	}
+	"config"
+	{
+		"installdir"		"Escape Legacy VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"EscapeLegacy_VRVER.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"EscapeLegacy_VRVER.app\\Contents\\MacOS\\EscapeLegacy_VRVER"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"995001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9131496503777395752"
+					"size"		"3034436207"
+					"download"		"2931502016"
+				}
+			}
+		}
+		"995002"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8311106507504592374"
+					"size"		"3304833362"
+					"download"		"3045552624"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3495009"
+				"timeupdated"		"1548261099"
+			}
+		}
+	}
+}
