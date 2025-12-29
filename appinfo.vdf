@@ -1,0 +1,257 @@
+"appinfo"
+{
+	"appid"		"615250"
+	"common"
+	{
+		"name"		"M.A.X.: Mechanized Assault & Exploration"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"6fb80ad42e37088f0466072a73e7231139533ac1"
+		"logo_small"		"6fb80ad42e37088f0466072a73e7231139533ac1_thumb"
+		"icon"		"6e55b2b3407e2db7e53eaef7ee46a6962e342c35"
+		"clienticon"		"c22d06b7cad3c2d13f5441f4d97ca42a1286327f"
+		"clienttga"		"398b057cd4190c5d52f0868165eab9f140166265"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"M.A.X.: Mechanized Assault &amp;amp; Exploration"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1668624507"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Interplay Entertainment Corp."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"M.A.X."
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_2"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"901868400"
+		"steam_release_date"		"1491597297"
+		"community_hub_visible"		"1"
+		"gameid"		"615250"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"3942"
+			"3"		"4791"
+			"4"		"1693"
+			"5"		"1741"
+			"6"		"4295"
+			"7"		"1676"
+			"8"		"1677"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Interplay Entertainment Corp."
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"https://www.interplay.com"
+	}
+	"config"
+	{
+		"installdir"		"M.A.X. Mechanized Assault & Exploration"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch M.A.X. Single Player.bat"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Single Player"
+				}
+				"description"		"Single Player"
+			}
+			"1"
+			{
+				"executable"		"Launch M.A.X. Network Client.bat"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Network Client"
+				}
+				"description"		"Network Client"
+			}
+			"2"
+			{
+				"executable"		"Launch M.A.X. Host Server.bat"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Host Server"
+				}
+				"description"		"Host Server"
+			}
+			"3"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosboxMAX1.conf\" -conf \"./dosboxMAX1_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxMAX1.conf\" -conf \"./dosboxMAX1_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"615251"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2688339697844705217"
+					"size"		"432100795"
+					"download"		"278596576"
+				}
+			}
+		}
+		"615252"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5955868497017617099"
+					"size"		"439479172"
+					"download"		"280767776"
+				}
+			}
+		}
+		"615253"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7024218121398449956"
+					"size"		"435617861"
+					"download"		"277100320"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19167771"
+				"timeupdated"		"1752108285"
+			}
+		}
+	}
+}
