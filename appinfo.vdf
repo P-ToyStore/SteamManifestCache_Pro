@@ -1,0 +1,442 @@
+"appinfo"
+{
+	"appid"		"315860"
+	"common"
+	{
+		"name"		"Celestian Tales: Old North"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"a1bfc39dd0780851af12d7e4dc54a340e7871687"
+		"logo_small"		"a1bfc39dd0780851af12d7e4dc54a340e7871687_thumb"
+		"icon"		"e529d22161931172f0631d24be50c314ce187374"
+		"clienttga"		"6b256fa971779c3bd345f6c0066c31c399040860"
+		"clienticon"		"d39d5ed01d899455300e99b236b2c47b0853fcff"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1689465600"
+			"tested_build_id"		"2460175"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-2"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Celestian Tales: Old North"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2805d5e71edc15644b804d692b3c8381a271afa6.jpg"
+		"store_asset_mtime"		"1443079694"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ekuator Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Digital Tribe"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1439190000"
+		"steam_release_date"		"1439216529"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"315860"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"492"
+			"2"		"4434"
+			"3"		"1677"
+			"4"		"1756"
+			"5"		"4085"
+			"6"		"1684"
+			"7"		"1742"
+			"8"		"4182"
+			"9"		"7208"
+		}
+		"review_score"		"5"
+		"review_percentage"		"69"
+	}
+	"extended"
+	{
+		"developer"		"Ekuator Games"
+		"publisher"		"Digital Tribe"
+		"homepage"		"http://www.ekuatorgames.com/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/315860/"
+		"listofdlc"		"413330,462610,462611"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Celestian Tales Old North"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CTON Win32.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"CTON MacOSX.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"CTON Linux.x86"
+				"description"		"Launch Linux 32"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"CTON Linux.x86_64"
+				"description"		"Launch Linux 64"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"315861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5382975480571375686"
+					"size"		"1273444362"
+					"download"		"527989744"
+				}
+			}
+		}
+		"315863"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3615963923819503978"
+					"size"		"1285599372"
+					"download"		"518686480"
+				}
+			}
+		}
+		"315864"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4243386473083467383"
+					"size"		"1287807605"
+					"download"		"519365216"
+				}
+			}
+		}
+		"413330"
+		{
+			"dlcappid"		"413330"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1547851905087715440"
+					"size"		"236213405"
+					"download"		"238260224"
+				}
+			}
+		}
+		"413331"
+		{
+			"dlcappid"		"462610"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2444746843516338051"
+					"size"		"61773347"
+					"download"		"62616752"
+				}
+			}
+		}
+		"462611"
+		{
+			"dlcappid"		"462611"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5406364098449158241"
+					"size"		"3"
+					"download"		"48"
+				}
+			}
+		}
+		"462610"
+		{
+			"dlcappid"		"462610"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"890927428406480955"
+					"size"		"3"
+					"download"		"48"
+				}
+			}
+		}
+		"413333"
+		{
+			"dlcappid"		"462610"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3204455607879830928"
+					"size"		"63349730"
+					"download"		"64215056"
+				}
+			}
+		}
+		"413334"
+		{
+			"dlcappid"		"462610"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6308016482036674659"
+					"size"		"63369097"
+					"download"		"64234656"
+				}
+			}
+		}
+		"413335"
+		{
+			"dlcappid"		"462611"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9132147390253997117"
+					"size"		"6132088"
+					"download"		"6215568"
+				}
+			}
+		}
+		"413337"
+		{
+			"dlcappid"		"462611"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4118216803200808599"
+					"size"		"6127880"
+					"download"		"6210752"
+				}
+			}
+		}
+		"413338"
+		{
+			"dlcappid"		"462611"
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2198200749198905353"
+					"size"		"6130804"
+					"download"		"6213712"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2460175"
+				"timeupdated"		"1516680083"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Celestian Tales Old North"
+				"pattern"		"*.cton"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacDocuments"
+				"path"		"Celestian Tales Old North"
+				"pattern"		"*.cton"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"Celestian Tales Old North"
+				"pattern"		"*.cton"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
