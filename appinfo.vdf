@@ -1,0 +1,257 @@
+"appinfo"
+{
+	"appid"		"1958120"
+	"common"
+	{
+		"name"		"Rail Walkers"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"fc40eccfe6ea721069f272e27dc16c0f93775dc8"
+		"clienticns"		"f8b3370c405b3bcc064a83639cb71c9ea9a60a6a"
+		"clienticon"		"d882c2cfddde90f495ed13f85eb65ae7739072d1"
+		"clienttga"		"fee27f7e59a4f922563ae8381a6ae03dd47dfa2b"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1649912911"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"John Hnidec"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"John Hnidec"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1652841663"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1958120"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"56690"
+			"2"		"1645"
+			"3"		"5547"
+			"4"		"5752"
+			"5"		"4168"
+			"6"		"4684"
+			"7"		"3993"
+			"8"		"1697"
+			"9"		"492"
+			"10"		"4191"
+			"11"		"12057"
+			"12"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"John Hnidec"
+		"publisher"		"John Hnidec"
+		"homepage"		"http://railwalkers-app.com"
+	}
+	"config"
+	{
+		"installdir"		"Rail Walkers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Rail Walkers.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Rail Walkers.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1958122"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4677392819353731891"
+					"size"		"378132048"
+					"download"		"120568864"
+				}
+				"beta"
+				{
+					"gid"		"4677392819353731891"
+					"size"		"378132048"
+					"download"		"120568864"
+				}
+			}
+		}
+		"1958123"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1080581398482529010"
+					"size"		"400145136"
+					"download"		"126941824"
+				}
+				"beta"
+				{
+					"gid"		"1080581398482529010"
+					"size"		"400145136"
+					"download"		"126941824"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8715855"
+				"timeupdated"		"1652239210"
+			}
+			"beta"
+			{
+				"buildid"		"8715855"
+				"description"		"shiny new untested releases"
+				"timeupdated"		"1652239196"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"John Hnidec Software/Rail Walkers/{64BitSteamID}"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"John Hnidec Software/Rail Walkers/{64BitSteamID}"
+						"replace"		"John Hnidec Software/Rail Walkers/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
