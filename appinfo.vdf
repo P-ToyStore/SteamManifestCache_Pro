@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"629040"
+	"common"
+	{
+		"name"		"Skytropolis"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"logo"		"824fe896eced9dfe9e9573458f6564b5961f7f3f"
+		"logo_small"		"824fe896eced9dfe9e9573458f6564b5961f7f3f_thumb"
+		"clienticon"		"37849aac4ca349a2eed8d02b3fb5fa7d08d06c7c"
+		"clienttga"		"f3255643438b6c9d34263aa54b8827cf0ce38505"
+		"icon"		"5ceea99dc249fedf1a483ca5aa7ea14482ec3c4a"
+		"clienticns"		"6527a4d27ff3441c8821b08ec7b528709b668050"
+		"openvrsupport"		"1"
+		"metacritic_name"		"Skytropolis"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_82bc2e2197dd9bf02e3c8fcd84e42fbb06f1c16b.jpg"
+		"store_asset_mtime"		"1508795542"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mythical City Games"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"LNG Studios"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1509648346"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"629040"
+		"store_tags"
+		{
+			"0"		"220585"
+			"1"		"599"
+			"2"		"492"
+			"3"		"21978"
+			"4"		"4328"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Mythical City Games"
+		"homepage"		"http://www.skytropolisgame.com"
+	}
+	"config"
+	{
+		"installdir"		"Skytropolis"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Skytropolis.exe"
+				"arguments"		"-vrmode SteamVR"
+				"description"		"Launch Skytropolis VR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Skytropolis.exe"
+				"arguments"		"-vrmode none"
+				"description"		"Launch Skytropolis Desktop (non-VR)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Skytropolis.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"629041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3777291726307935103"
+					"size"		"583172000"
+					"download"		"382445856"
+				}
+				"beta"
+				{
+					"gid"		"3777291726307935103"
+					"size"		"583172000"
+					"download"		"382445856"
+				}
+			}
+		}
+		"629042"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4539637162544445794"
+					"size"		"593254135"
+					"download"		"387082224"
+				}
+				"beta"
+				{
+					"gid"		"4539637162544445794"
+					"size"		"593254135"
+					"download"		"387082224"
+				}
+			}
+		}
+		"workshopdepot"		"629040"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3052069"
+				"timeupdated"		"1534957719"
+			}
+			"beta"
+			{
+				"buildid"		"3052069"
+				"timeupdated"		"1534957728"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"1000"
+	}
+}
