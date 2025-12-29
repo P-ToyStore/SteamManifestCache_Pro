@@ -1,0 +1,263 @@
+"appinfo"
+{
+	"appid"		"587440"
+	"common"
+	{
+		"name"		"Galactic Keep"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"97d815db14292f74362d724f828bbef5f9d2c514"
+		"clienttga"		"4343ccd84280f01bb1766729d505fe38d7b50c7b"
+		"icon"		"762654b90a18c71d9e352576adde152ff010717c"
+		"clienticns"		"1f45501c32d4c4723d82ab28e34d90aba6e4f648"
+		"logo"		"8c9f2561ebf16139bdb335992da5f6703bea09b9"
+		"logo_small"		"8c9f2561ebf16139bdb335992da5f6703bea09b9_thumb"
+		"osextended"		"macos64,macosnotarized"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Galactic Keep"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"88.55835240274598"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"88.55835240274598"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667312005"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gilded Skull Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gilded Skull Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1491451370"
+		"community_hub_visible"		"1"
+		"gameid"		"587440"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"9"
+			"2"		"599"
+			"3"		"1770"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Gilded Skull Games"
+		"publisher"		"Gilded Skull Games"
+		"homepage"		"http://www.galactickeep.com"
+	}
+	"config"
+	{
+		"installdir"		"Galactic Keep"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Galactic Keep.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Galactic Keep.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"587441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8811191453934196953"
+					"size"		"620001178"
+					"download"		"452001680"
+				}
+			}
+		}
+		"587442"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1353674751014986266"
+					"size"		"628404618"
+					"download"		"455652464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1759133"
+				"timeupdated"		"1492529003"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"4096000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"sav"
+				"pattern"		"chars.dat"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"sav"
+				"pattern"		"locker.dat"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"sav"
+				"pattern"		"mission.dat"
+			}
+			"4"
+			{
+				"root"		"gameinstall"
+				"path"		"sav"
+				"pattern"		"unlocked.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinMyDocuments"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"sav"
+						"replace"		"Gilded Skull Games/Galactic Keep"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"sav"
+						"replace"		"Galactic Keep"
+					}
+				}
+			}
+		}
+	}
+}
