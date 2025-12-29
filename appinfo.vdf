@@ -1,0 +1,233 @@
+"appinfo"
+{
+	"appid"		"770860"
+	"common"
+	{
+		"name"		"Annwn: The Otherworld"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"d9e14155c39940f6e7f32326ea13da1ad1cc7055"
+		"logo_small"		"d9e14155c39940f6e7f32326ea13da1ad1cc7055_thumb"
+		"icon"		"0a1f443f2253b32a3a145d53a9676c46b729fe9c"
+		"clienttga"		"d1b19ce9d169bc245075b9c799bb23f306cbdd9d"
+		"clienticon"		"8c4c5b3e93bd732d7a682003414ff03e2ea0dfa6"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Annwn: the Otherworld"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"75.53391222717673"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"75.53391222717673"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572915029"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Quantum Soup Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Patternwalk Studios"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"welsh"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1554015600"
+		"steam_release_date"		"1555290191"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"770860"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"9"
+			"2"		"4004"
+			"3"		"1687"
+		}
+		"review_score"		"7"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Quantum Soup Studios"
+		"publisher"		"Patternwalk Studios"
+	}
+	"config"
+	{
+		"installdir"		"Annwn"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Annwn.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"770861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"983620814191120843"
+					"size"		"208357762"
+					"download"		"106142864"
+				}
+			}
+		}
+		"770862"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9085584636657791090"
+					"size"		"88623079"
+					"download"		"44813520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10170789"
+				"timeupdated"		"1671750683"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"32768"
+		"maxnumfiles"		"100"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Annwn/"
+						"replace"		"Quantum Soup Studios"
+					}
+				}
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Quantum Soup Studios/Annwn/"
+				"pattern"		"*.annwn"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
