@@ -1,0 +1,343 @@
+"appinfo"
+{
+	"appid"		"872750"
+	"common"
+	{
+		"name"		"Guard Duty"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"778ac6d00668bb9b4572974c786f935f115666e7"
+		"logo_small"		"778ac6d00668bb9b4572974c786f935f115666e7_thumb"
+		"icon"		"0a4fd903f2731fed9af105643b5fecdf1ec2ba9a"
+		"clienticon"		"1bb9e96e968694fc435656863c827454d9fe0b88"
+		"clienttga"		"35373e6db9ceef16d481d9e3291eda9a296c6211"
+		"osextended"		"macos64,macosnotarized"
+		"metacritic_name"		"Guard Duty"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"96.875"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"100"
+					"height_pct"		"96.875"
+				}
+			}
+		}
+		"store_asset_mtime"		"1753272701"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Headware Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Headware Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1556812918"
+		"metacritic_score"		"73"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/guard-duty?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"872750"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"3964"
+			"3"		"1698"
+			"4"		"4305"
+			"5"		"1710"
+			"6"		"1684"
+			"7"		"7113"
+			"8"		"1654"
+			"9"		"3942"
+			"10"		"5153"
+			"11"		"4172"
+			"12"		"1742"
+			"13"		"3871"
+			"14"		"4182"
+			"15"		"4004"
+			"16"		"9541"
+			"17"		"4166"
+			"18"		"4975"
+			"19"		"10679"
+		}
+		"review_score"		"8"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"developer"		"Headware Games"
+		"publisher"		"Headware Games"
+		"homepage"		"https://www.headwaregames.com"
+		"listofdlc"		"1076890"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Guard Duty"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GuardDuty.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"winsetup.exe"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"./Start.sh"
+				"arguments"		"--fullscreen"
+				"description"		"using OpenGL (Fullscreen)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"./Start.sh"
+				"arguments"		"--windowed"
+				"description"		"using OpenGL (Windowed)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"Guard Duty.app/Contents/MacOS/Guard Duty"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"872751"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8999523072031107884"
+					"size"		"1606131915"
+					"download"		"1015850896"
+				}
+			}
+		}
+		"872752"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4035533151895632230"
+					"size"		"1628903053"
+					"download"		"1020724656"
+				}
+			}
+		}
+		"872753"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"807864731343207636"
+					"size"		"1611043300"
+					"download"		"1016408096"
+				}
+			}
+		}
+		"1076890"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2170556672061593096"
+					"size"		"71522942"
+					"download"		"69388160"
+				}
+			}
+			"dlcappid"		"1076890"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5453553"
+				"timeupdated"		"1598304788"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"150000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"path"		"Guard Duty"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinSavedGames"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Guard Duty"
+						"replace"		"Guard Duty"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinSavedGames"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Guard Duty"
+						"replace"		".local/share/ags/Guard Duty"
+					}
+				}
+			}
+		}
+	}
+}
