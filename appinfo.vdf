@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"1014470"
+	"common"
+	{
+		"name"		"F8S"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"a7946587789f670c69887bce22bf5ab279b893d5"
+		"logo_small"		"a7946587789f670c69887bce22bf5ab279b893d5_thumb"
+		"icon"		"559962ab8c511fa7f2c2be484fed6e76f0bd9fe4"
+		"clienticon"		"3c29ff92ee8d0282075f0fe1d5b615f87929e740"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Fates - 8 Stories"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_95d0e7d7cf5b3244ccd9bff85d2319c9b4fae5fc.jpg"
+		"store_asset_mtime"		"1548232614"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Horizon Psytech &amp; Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gabriele Barone"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Giacomo Garcea"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Fates8Stories"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1549386279"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1014470"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"492"
+			"2"		"21"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"Horizon Psytech &amp; Games"
+		"publisher"		"Gabriele Barone"
+	}
+	"config"
+	{
+		"installdir"		"Fates - 8 Stories"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"arguments"		"--in-process-gpu"
+				"description"		"Lancio"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Game.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"MACOSX"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"baselanguages"		"italian"
+		"1014471"
+		{
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7656796760083411538"
+					"size"		"814419183"
+					"download"		"455395568"
+				}
+				"macosx"
+				{
+					"gid"		"5617997241798562722"
+					"size"		"806484295"
+					"download"		"444428208"
+				}
+			}
+		}
+		"1014472"
+		{
+		}
+		"1014473"
+		{
+			"config"
+			{
+				"language"		"italian"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5448651241021420695"
+					"size"		"1128533305"
+					"download"		"455262416"
+				}
+				"macosx"
+				{
+					"gid"		"3199579805776554484"
+					"size"		"1128423668"
+					"download"		"455211664"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5019903"
+				"timeupdated"		"1589357739"
+			}
+			"macosx"
+			{
+				"buildid"		"3576083"
+				"description"		"Per Mac"
+				"timeupdated"		"1550614186"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.rpgsave"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.rpgsave"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
