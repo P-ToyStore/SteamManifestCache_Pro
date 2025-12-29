@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"1269560"
+	"common"
+	{
+		"name"		"Square Fast"
+		"type"		"Game"
+		"logo"		"c28467570d8a8816d8cff5574408f4e6cc1cb414"
+		"logo_small"		"c28467570d8a8816d8cff5574408f4e6cc1cb414_thumb"
+		"icon"		"7ab907665fc4b34f549696dac6f420614aebde01"
+		"clienttga"		"350a6209bfd4cd1f7845be9800b735ec55206461"
+		"clienticon"		"94f89ab49fddf66ba7946da6600cd06c95cf2798"
+		"clienticns"		"841eac4b08f5f4d216cbce232952e9a1898ec64f"
+		"linuxclienticon"		"7024edffad493e5162992b0984c49eebd91815a7"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1585912317"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Maksim Chugunov"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Maksim Chugunov"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1587899071"
+		"community_hub_visible"		"1"
+		"gameid"		"1269560"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"1752"
+			"3"		"1734"
+			"4"		"1756"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Maksim Chugunov"
+		"publisher"		"Maksim Chugunov"
+		"homepage"		"http://squarefast.info/"
+	}
+	"config"
+	{
+		"installdir"		"Square Fast"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"squarefast.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"squarefast.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"squarefast.app\\Contents\\MacOS\\squarefast"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1269561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5767295118085515462"
+					"size"		"64115565"
+					"download"		"34194752"
+				}
+			}
+		}
+		"1269562"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6366775677439255826"
+					"size"		"73459866"
+					"download"		"36587984"
+				}
+			}
+		}
+		"1269563"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8289876042341424997"
+					"size"		"78354256"
+					"download"		"36320784"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4855139"
+				"timeupdated"		"1585912637"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
