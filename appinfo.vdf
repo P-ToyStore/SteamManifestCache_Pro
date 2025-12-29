@@ -1,0 +1,277 @@
+"appinfo"
+{
+	"appid"		"522080"
+	"common"
+	{
+		"name"		"Gemstone Keeper"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"icon"		"1848a725f8c2e1e1a62ac70f3d383c510425b0f0"
+		"logo"		"4c46237bc1188e75a7b6bf38ff4f322056d8dea5"
+		"logo_small"		"4c46237bc1188e75a7b6bf38ff4f322056d8dea5_thumb"
+		"clienticon"		"56ac65986d64edd19323256b6046c62e71e8a0b0"
+		"clienttga"		"79b20c733c40949663349d152219d1bfd0c90f83"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Gemstone Keeper"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572301026"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gamepopper"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gamepopper"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1490979722"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"522080"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"21"
+			"3"		"4758"
+			"4"		"1716"
+			"5"		"3871"
+			"6"		"4637"
+		}
+		"review_score"		"5"
+		"review_percentage"		"58"
+	}
+	"extended"
+	{
+		"developer"		"Gamepopper"
+		"publisher"		"Gamepopper"
+		"homepage"		"http://gamepopper.co.uk/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"GemstoneKeeper"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GemstoneKeeper.exe"
+				"description"		"Windows Specific Build"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"runGemstoneKeeper.sh"
+				"description"		"Linux Specific Build"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"522081"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1789153394003106008"
+					"size"		"19903409"
+					"download"		"16540368"
+				}
+				"beta"
+				{
+					"gid"		"1789153394003106008"
+					"size"		"19903409"
+					"download"		"16540368"
+				}
+				"legacy"
+				{
+					"gid"		"7055261960592540102"
+					"size"		"19630441"
+					"download"		"16471888"
+				}
+			}
+		}
+		"522082"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2905695114007364837"
+					"size"		"18676609"
+					"download"		"15974592"
+				}
+				"beta"
+				{
+					"gid"		"2905695114007364837"
+					"size"		"18676609"
+					"download"		"15974592"
+				}
+				"legacy"
+				{
+					"gid"		"1882979527775639692"
+					"size"		"18776290"
+					"download"		"15991968"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9873806"
+				"timeupdated"		"1668623962"
+			}
+			"beta"
+			{
+				"buildid"		"9873806"
+				"description"		"Unstable build"
+				"timeupdated"		"1667599250"
+			}
+			"legacy"
+			{
+				"buildid"		"2830316"
+				"description"		"Use if new build doesn't work."
+				"timeupdated"		"1554839442"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"/"
+				"pattern"		"*.dat"
+			}
+		}
+	}
+}
