@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"600180"
+	"common"
+	{
+		"name"		"Light Strike Array"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.7"
+				"360_required"		"1"
+			}
+		}
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"logo"		"2199e0dd06a61b15791a78a6920a6614a698c4c6"
+		"logo_small"		"2199e0dd06a61b15791a78a6920a6614a698c4c6_thumb"
+		"icon"		"0abc652ee25ce87db79defb8263016bb6c6ce50c"
+		"clienticon"		"7776222cc22dd42234b5a378b10a24cb7d62c3d9"
+		"clienttga"		"9a6b980b46f3a6bd8ea38a41f0ece0cdf35a947e"
+		"openvrsupport"		"1"
+		"openvr_controller_bindings"
+		{
+			"0"
+			{
+				"controller_type"		"knuckles"
+				"url"		"vr-input-workshop://2205915425"
+			}
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Light Strike Array"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f9f902668f97a139902467d458e084b98c3cdfa6.jpg"
+		"store_asset_mtime"		"1513801134"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Unwieldly Systems"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Unwieldly Systems"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"2"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_2"		"1"
+			"category_49"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1513972886"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"600180"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"492"
+			"3"		"493"
+			"4"		"21978"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"gamedir"		"LightStrikeArray"
+		"developer"		"Unwieldly Systems"
+		"publisher"		"Unwieldly Systems"
+		"homepage"		"http://lsa.gg"
+	}
+	"config"
+	{
+		"installdir"		"Light Strike Array"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LightStrikeArray.exe"
+				"arguments"		"-vr -steamvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"600181"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3825999148546144911"
+					"size"		"905427989"
+					"download"		"512478832"
+				}
+				"alpha"
+				{
+					"gid"		"3786584163884334219"
+					"size"		"910939173"
+					"download"		"513833280"
+				}
+				"legacy"
+				{
+					"gid"		"8932344118245411227"
+					"size"		"1066417224"
+					"download"		"351262944"
+				}
+				"local"
+				{
+					"gid"		"8193291021855197911"
+					"size"		"1654750293"
+					"download"		"635240928"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5446973"
+				"timeupdated"		"1598126236"
+			}
+			"alpha"
+			{
+				"buildid"		"5423945"
+				"description"		"CI builds"
+				"timeupdated"		"1597700011"
+			}
+			"legacy"
+			{
+				"buildid"		"2828895"
+				"description"		"pre-matchmaking update branch"
+				"timeupdated"		"1533491616"
+			}
+			"local"
+			{
+				"buildid"		"5448953"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1598210872"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+	}
+}
