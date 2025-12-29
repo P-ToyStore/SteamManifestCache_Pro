@@ -1,0 +1,193 @@
+"appinfo"
+{
+	"appid"		"420500"
+	"common"
+	{
+		"name"		"Rynn's Adventure: Trouble in the Enchanted Forest"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"logo"		"2771266843e5bd04078401498654ef3e3b1f4aad"
+		"logo_small"		"2771266843e5bd04078401498654ef3e3b1f4aad_thumb"
+		"icon"		"aa61c9cbeb221fd47cb749ec1f9ba626f57303ea"
+		"clienticon"		"6bc828afa45659b1687ea75cd7b943477a8d8056"
+		"clienttga"		"07cee5b04eea0f79a7ac2e7e6da366131fd698a2"
+		"clienticns"		"c852269070deb9a8cfae3622dddef933ca2b503f"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Rynn's Adventure: Trouble in the Enchanted Forest"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_650bba64208ef81b1a2a233b112004a692145a72.jpg"
+		"store_asset_mtime"		"1460916978"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Arcane Four Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Arcane Four Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1459439934"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"420500"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1625"
+			"2"		"4026"
+			"3"		"19"
+			"4"		"21"
+			"5"		"3871"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"developer"		"Arcane Four Studios"
+		"publisher"		"Arcane Four Studios"
+		"homepage"		"https://arcanefourstudios.com/rynns-adventure/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rynn's Adventure Trouble in the Enchanted Forest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"rynngame.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Rynn's Adventure.app\\Contents\\MacOS\\Rynn's Adventure"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"420501"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3004330583487282293"
+					"size"		"884204250"
+					"download"		"144518752"
+				}
+			}
+		}
+		"420502"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1424249231747462535"
+					"size"		"891187969"
+					"download"		"146489488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1169483"
+				"timeupdated"		"1465424999"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"65536"
+		"maxnumfiles"		"16"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Arcane Four Studios/Rynn_s Adventure"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Arcane Four Studios/Rynn_s Adventure"
+						"replace"		"unity.Arcane Four Studios.Rynn's Adventure"
+					}
+				}
+			}
+		}
+	}
+}
