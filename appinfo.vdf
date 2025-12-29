@@ -1,0 +1,194 @@
+"appinfo"
+{
+	"appid"		"540690"
+	"common"
+	{
+		"name"		"Hellenica"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"b95e0f4c374362f98deec5fc71ef9a4a56cc26d5"
+		"logo_small"		"b95e0f4c374362f98deec5fc71ef9a4a56cc26d5_thumb"
+		"icon"		"ca789e4d8da42e352081ed703945222af03fd5ce"
+		"clienticon"		"0382e628850a800f1c7fda0c59d8eda5b6c2ffe6"
+		"clienttga"		"585f68b35c7883fc95d9f289286cf7e519350088"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Hellenica"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_047fade65c5098d30a6d86ffc7ddb89ded1a4965.jpg"
+		"store_asset_mtime"		"1484654593"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Dragonloft"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"The Dragonloft"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1485190978"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"540690"
+		"store_tags"
+		{
+			"0"		"14139"
+			"1"		"9"
+			"2"		"122"
+			"3"		"21725"
+			"4"		"1708"
+			"5"		"492"
+			"6"		"17305"
+			"7"		"1741"
+			"8"		"3964"
+			"9"		"5851"
+			"10"		"4434"
+			"11"		"7208"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"developer"		"The Dragonloft"
+		"publisher"		"The Dragonloft"
+		"homepage"		"http://www.thedragonloft.com/"
+	}
+	"config"
+	{
+		"installdir"		"Hellenica"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Hellenica.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Hellenica.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"848504746"
+	}
+	"depots"
+	{
+		"540691"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5195632637857454875"
+					"size"		"556477065"
+					"download"		"245753504"
+				}
+			}
+		}
+		"540692"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5785570757842045159"
+					"size"		"599125917"
+					"download"		"256411888"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1610580"
+				"timeupdated"		"1486240114"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"The Dragonloft/Hellenica/persist"
+				"pattern"		"profile*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"The Dragonloft/Hellenica/persist"
+						"replace"		"unity.The Dragonloft.Hellenica/persist"
+					}
+				}
+			}
+		}
+	}
+}
