@@ -1,0 +1,316 @@
+"appinfo"
+{
+	"appid"		"1286980"
+	"common"
+	{
+		"name"		"String Tyrant"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"95c980a7811bead7833e52cdbe2925e2ebff606b"
+		"logo_small"		"95c980a7811bead7833e52cdbe2925e2ebff606b_thumb"
+		"icon"		"5ab172d27eb069bf1b479585593bed2badd966e0"
+		"clienticon"		"e631fa52d6dcf7f8b2e7a56f16bd11fe6c49b7e1"
+		"clienttga"		"afd6f6403be1406005f2e7b866a7f3989e018545"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1712707200"
+			"tested_build_id"		"5770051"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NotFullyFunctionalWithoutExternalKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_NotFullyFunctionalWithoutExternalKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-1RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667030071"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bottled Starlight"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bottled Starlight"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1588921200"
+		"steam_release_date"		"1591292174"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1286980"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"7208"
+			"3"		"44868"
+			"4"		"1667"
+			"5"		"4325"
+			"6"		"31275"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Bottled Starlight"
+		"publisher"		"Bottled Starlight"
+		"homepage"		"https://hopremastered.wordpress.com/string-tyrant/"
+	}
+	"config"
+	{
+		"installdir"		"String Tyrant"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StringTyrantSteamSDL.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"StringTyrantSDLOSX"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1286981"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2980647915982298984"
+					"size"		"450994268"
+					"download"		"241739632"
+				}
+				"beta"
+				{
+					"gid"		"2980647915982298984"
+					"size"		"450994268"
+					"download"		"241739632"
+				}
+			}
+		}
+		"1286982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1819175717314830938"
+					"size"		"18754909"
+					"download"		"5456080"
+				}
+				"beta"
+				{
+					"gid"		"1819175717314830938"
+					"size"		"18754909"
+					"download"		"5456080"
+				}
+			}
+		}
+		"1286983"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5904403977945816175"
+					"size"		"8163760"
+					"download"		"2404912"
+				}
+				"beta"
+				{
+					"gid"		"5904403977945816175"
+					"size"		"8163760"
+					"download"		"2404912"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5770051"
+				"timeupdated"		"1604289876"
+			}
+			"beta"
+			{
+				"buildid"		"5770051"
+				"timeupdated"		"1604289885"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"*.tls"
+			}
+		}
+	}
+}
