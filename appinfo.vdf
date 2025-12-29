@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"362370"
+	"common"
+	{
+		"name"		"Dog Fight"
+		"type"		"Game"
+		"clienticon"		"dd1cd92afbc911a869816df12603386f773a4252"
+		"clienttga"		"5fb1ae2767a1ef7f318c82b487f8f3edbe38d1e6"
+		"icon"		"22e494470a33ca0dcc204aaf01072ef0cbf574e3"
+		"logo"		"297c0a4d88118b3dc64e60badfe7ecc549df4506"
+		"logo_small"		"297c0a4d88118b3dc64e60badfe7ecc549df4506_thumb"
+		"oslist"		"windows,linux"
+		"releasestate"		"released"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dog Fight"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_759a29622e44b09c88fc6893b5eaadf07152bde7.jpg"
+		"store_asset_mtime"		"1452928872"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"bitshift"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"bitshift"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1454090400"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"362370"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"3859"
+			"4"		"1685"
+			"5"		"15045"
+			"6"		"1773"
+			"7"		"3841"
+			"8"		"3843"
+			"9"		"7368"
+		}
+	}
+	"extended"
+	{
+		"developer"		"bitshift"
+		"publisher"		"bitshift"
+		"homepage"		"http://bitshift.io/dog-fight/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Dog Fight"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DogFight.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"DogFight.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"DogFight.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"362371"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+		}
+		"362372"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8002452785842441173"
+					"size"		"478757842"
+					"download"		"131719136"
+				}
+			}
+		}
+		"362373"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8183019802071637731"
+					"size"		"915963874"
+					"download"		"216020336"
+				}
+			}
+		}
+		"362374"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4172508540686189443"
+					"size"		"429691471"
+					"download"		"134943488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1069505"
+				"timeupdated"		"1461298371"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"DogFight/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"DogFight/Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
