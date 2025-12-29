@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"757040"
+	"common"
+	{
+		"name"		"Desert Golfing"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"61404c1679407fbf61dc9747a064d3c0eae5a09a"
+		"clienttga"		"c7b17a227e900499ac01c5c10e0b4b91abb011b2"
+		"icon"		"0691d25c181bbaaf2bbb3163488c21f437a6d16c"
+		"logo"		"900e071f353822b9f264071aee8fe22436f9d0dc"
+		"logo_small"		"900e071f353822b9f264071aee8fe22436f9d0dc_thumb"
+		"metacritic_name"		"Desert Golfing"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"78.99649941656946"
+				"height_pct"		"64.2840180479696"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"78.99649941656946"
+					"height_pct"		"64.2840180479696"
+				}
+			}
+		}
+		"store_asset_mtime"		"1573000716"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Captain Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Captain Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1409554800"
+		"steam_release_date"		"1513643342"
+		"community_hub_visible"		"1"
+		"gameid"		"757040"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"492"
+			"2"		"7038"
+			"3"		"4094"
+		}
+		"review_score"		"8"
+		"review_percentage"		"98"
+	}
+	"extended"
+	{
+		"developer"		"Captain Games"
+		"publisher"		"Captain Games"
+		"homepage"		"http://www.captain-games.com"
+	}
+	"config"
+	{
+		"installdir"		"Desert Golfing"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Golf.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DesertGolfing.app\\Contents\\MacOS\\DesertGolfing"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"757041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4997429394377605705"
+					"size"		"1604013"
+					"download"		"730400"
+				}
+			}
+		}
+		"757042"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8417169607144192573"
+					"size"		"7694459"
+					"download"		"2948064"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2400857"
+				"timeupdated"		"1514428323"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"save.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"CaptainGames/DesertGolfing"
+				"pattern"		"save.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
