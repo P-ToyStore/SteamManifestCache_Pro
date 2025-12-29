@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"779810"
+	"common"
+	{
+		"name"		"VR Austria"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"logo"		"5dd51689d63eaf8e54d94e1356c122de29f74429"
+		"logo_small"		"5dd51689d63eaf8e54d94e1356c122de29f74429_thumb"
+		"icon"		"c3898fc630ae7d9918ca6ba89803ecc3a5354823"
+		"clienticon"		"69363c29eb3107f47d41ed8b740627dbe1badde6"
+		"clienttga"		"6dcc52e58739cee411c8398e9cee2bb13bfe7e01"
+		"metacritic_name"		"VR Austria"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4436531fef5b117ba7b0775de55ecc3c4ba90e72.jpg"
+		"store_asset_mtime"		"1522310635"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FreshFX Media GmbH"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FreshFX Media GmbH"
+			}
+		}
+		"primary_genre"		"58"
+		"genres"
+		{
+			"0"		"58"
+		}
+		"category"
+		{
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"danish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"swedish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1522738800"
+		"steam_release_date"		"1526028450"
+		"community_hub_visible"		"1"
+		"gameid"		"779810"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"784"
+			"1"		"21978"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"0"
+		"developer"		"FreshFX Media GmbH"
+		"publisher"		"FreshFX Media GmbH"
+		"listofdlc"		"788950"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"VRAustria"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"VRAustria.exe"
+				"description"		"SteamVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"VRAustria.exe"
+				"description"		"Oculus-SDK"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"VRAustria.exe"
+				"arguments"		"-4KResolutionPack"
+				"description"		"SteamVR 4KResolutionPack"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"788950"
+				}
+			}
+			"3"
+			{
+				"executable"		"VRAustria.exe"
+				"arguments"		"-4KResolutionPack"
+				"description"		"Oculus-SDK 4KResolutionPack"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"788950"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german"
+		"779811"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5615057868980512816"
+					"size"		"1181030735"
+					"download"		"950526048"
+				}
+			}
+		}
+		"788950"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4637834935652418681"
+					"size"		"3840398557"
+					"download"		"3734202416"
+				}
+			}
+			"dlcappid"		"788950"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3106733"
+				"timeupdated"		"1536931918"
+			}
+		}
+	}
+}
