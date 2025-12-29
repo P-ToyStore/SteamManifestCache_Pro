@@ -1,0 +1,257 @@
+"appinfo"
+{
+	"appid"		"556230"
+	"common"
+	{
+		"name"		"Off-Road Paradise: Trial 4x4"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"a76694348481ef8ce1a40280b0f35c7904283110"
+		"logo_small"		"a76694348481ef8ce1a40280b0f35c7904283110_thumb"
+		"icon"		"54faedc142fbea742ea2bf1eb207065c1116fa95"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"kbm"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"clienttga"		"09441e1f0b87034a0bb04178b7d7cd40f1cbbdc7"
+		"clienticns"		"b3ef2afd7c2c46564193f53cf5c4dec040b069a7"
+		"clienticon"		"29916a3219ee1d0b4b0c8055b09842bfb3878bce"
+		"openvroverlaysupport"		"1"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1692748800"
+			"tested_build_id"		"1899775"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedLocalMultiplayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Off-Road Paradise: Trial 4x4"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f7e43d59b1bb0e9a60c1fae9d26d7fab429f2c32.jpg"
+		"store_asset_mtime"		"1510824460"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ivanovich Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ivanovich Games"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"9"
+			"5"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_37"		"1"
+			"category_33"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1481270400"
+		"steam_release_date"		"1486409803"
+		"community_hub_visible"		"1"
+		"gameid"		"556230"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"19"
+			"2"		"21"
+			"3"		"597"
+			"4"		"492"
+			"5"		"701"
+			"6"		"7622"
+			"7"		"21978"
+		}
+		"review_score"		"5"
+		"review_percentage"		"62"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Ivanovich Games"
+		"publisher"		"Ivanovich Games"
+		"homepage"		"http://www.ivanovichgames.com"
+	}
+	"config"
+	{
+		"installdir"		"OffRoad_Paradise"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OffRoad.exe"
+				"arguments"		"NoVR"
+				"description"		"No VR"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"OffRoad.exe"
+				"arguments"		"VIVE"
+				"description"		"Virtual Reality"
+				"type"		"openvroverlay"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"556232"
+		{
+			"config"
+			{
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3161481174200143776"
+					"size"		"816540123"
+					"download"		"223575600"
+				}
+				"beta"
+				{
+					"gid"		"3161481174200143776"
+					"size"		"816540123"
+					"download"		"223575600"
+				}
+			}
+		}
+		"556231"
+		{
+			"config"
+			{
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4498420532465772750"
+					"size"		"811296731"
+					"download"		"221851632"
+				}
+				"beta"
+				{
+					"gid"		"4498420532465772750"
+					"size"		"811296731"
+					"download"		"221851632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1899775"
+				"timeupdated"		"1497879551"
+			}
+			"beta"
+			{
+				"buildid"		"1899775"
+				"timeupdated"		"1497878584"
+			}
+		}
+	}
+}
