@@ -1,0 +1,179 @@
+"appinfo"
+{
+	"appid"		"843920"
+	"common"
+	{
+		"name"		"Hungry Piggy vs Chicken"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienttga"		"ccd30ee0093e7faae7ae310a23482b1a7457446d"
+		"clienticns"		"81aa860f04f0e09f757c769106fd6deec2a30a6e"
+		"clienticon"		"75a772103213c9b82225573831f6e61f7c23caa5"
+		"icon"		"17a83eb84806fa638eafe3cd334a9ed82715a0a5"
+		"logo"		"93ed5dc9f475a794717cd6873e00efad675eb984"
+		"logo_small"		"93ed5dc9f475a794717cd6873e00efad675eb984_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Hungry Piggy vs Chicken"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3992f50da5dfcfec01b4c8bcc932ac6162582d8d.jpg"
+		"store_asset_mtime"		"1523667468"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BIG WOOD GAMES"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BIG WOOD GAMES"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1525071600"
+		"steam_release_date"		"1525072404"
+		"community_hub_visible"		"1"
+		"gameid"		"843920"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"BIG WOOD GAMES"
+		"publisher"		"BIG WOOD GAMES"
+		"homepage"		"http://bigwoodgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Hungry Piggy vs Chicken"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HungryPiggyVsChicken.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"HungryPiggyVsChicken.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"843921"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7712463381532127437"
+					"size"		"129555355"
+					"download"		"34220240"
+				}
+			}
+		}
+		"843922"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1589698584109841033"
+					"size"		"143897269"
+					"download"		"37535920"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2728442"
+				"timeupdated"		"1524853006"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"102400"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"BIG WOOD GAMES/Hungry Piggy vs Chicken"
+				"pattern"		"*.json"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"BIG WOOD GAMES/Hungry Piggy vs Chicken"
+						"replace"		"unity.BIG WOOD GAMES.Hungry Piggy vs Chicken"
+					}
+				}
+			}
+		}
+	}
+}
