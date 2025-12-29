@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"775490"
+	"common"
+	{
+		"name"		"Super Steampunk Pinball 2D"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"918145034128e980370d6805db4b10d7708ffd75"
+		"logo_small"		"918145034128e980370d6805db4b10d7708ffd75_thumb"
+		"icon"		"1ee071aa45f541ae6cbb63fe6dba0cb5c255b6ff"
+		"clienticon"		"38089fd1b47ee5b214eea956793ea34de5c32636"
+		"clienttga"		"dc7d711f08b8259dedcb49f915bdc57602ce5064"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Super Steampunk Pinball 2D"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_255b02ba68044afa8e473106157f264019574a0b.jpg"
+		"store_asset_mtime"		"1609098783"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"NCC Moore"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Steve McRae"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Devonian Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_28"		"1"
+			"category_25"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1516364130"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"775490"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"6621"
+			"3"		"492"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"NCC Moore"
+		"publisher"		"Devonian Interactive"
+		"listofdlc"		"781400"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"SSP2D"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Super Steampunk Pinball 2D.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ssp2d.app\\Contents\\MacOS\\ssp2d"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"ssp2d.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"ssp2d.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"775491"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2540922883728787803"
+					"size"		"535039107"
+					"download"		"23156064"
+				}
+			}
+		}
+		"781400"
+		{
+			"dlcappid"		"781400"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"513631078141445638"
+					"size"		"10496426"
+					"download"		"10170896"
+				}
+			}
+		}
+		"775492"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1218814553573105998"
+					"size"		"539989194"
+					"download"		"25845808"
+				}
+			}
+		}
+		"775493"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8161544312056573020"
+					"size"		"571614606"
+					"download"		"35618560"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3414619"
+				"timeupdated"		"1545269067"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000"
+		"maxnumfiles"		"3"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.data"
+			}
+		}
+	}
+}
