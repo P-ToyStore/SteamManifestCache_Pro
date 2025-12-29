@@ -1,0 +1,255 @@
+"appinfo"
+{
+	"appid"		"1188000"
+	"common"
+	{
+		"name"		"Pulstario"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"349ecd33b6d638bf610264f5361f523e4a834122"
+		"logo_small"		"349ecd33b6d638bf610264f5361f523e4a834122_thumb"
+		"icon"		"8c078c0deafb732e9e0fd01465eb03923545a69c"
+		"clienticon"		"4979711c8e5abc6082fbb4fdf518f4dc0f60cf30"
+		"clienttga"		"6e669122027253cdab99d3f66b2173536b64f72c"
+		"metacritic_name"		"Pulstario"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572545853"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fred Wood"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fred Wood"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1577088000"
+		"steam_release_date"		"1577114422"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1188000"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+		}
+		"review_score"		"7"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"Fred Wood"
+		"publisher"		"Fred Wood"
+		"homepage"		"http://pulstario.com"
+		"listofdlc"		"1190330,1190331"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Pulstario"
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"65533"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Pulstario.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Pulstario"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1188001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8539648272673309398"
+					"size"		"156802738"
+					"download"		"133079520"
+				}
+				"testing"
+				{
+					"gid"		"6428270730901609408"
+					"size"		"164789161"
+					"download"		"134519536"
+				}
+			}
+		}
+		"1188003"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4196714471993230548"
+					"size"		"161633359"
+					"download"		"137080064"
+				}
+				"testing"
+				{
+					"gid"		"4196714471993230548"
+					"size"		"161633359"
+					"download"		"137080064"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11482872"
+				"timeupdated"		"1686870425"
+			}
+			"testing"
+			{
+				"buildid"		"15413913"
+				"description"		"Testing for new version of Pulstario"
+				"timeupdated"		"1724025376"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20480"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"pulstario"
+				"pattern"		"*.runs"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"pulstario"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
