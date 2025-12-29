@@ -1,0 +1,288 @@
+"appinfo"
+{
+	"appid"		"1233610"
+	"common"
+	{
+		"name"		"Tactical Warfare Simulator"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+			"seated"		"1"
+		}
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"clienticon"		"508daf5e438e1268d55647df151aedd2a270e8c7"
+		"clienttga"		"fc7fa0181b5408e61421457b612d43cdb78fb596"
+		"icon"		"fbc18593e3cef01617e7c00edbd4d2ba4e252012"
+		"logo"		"169c20a5101c4bfb4ca2b9dad2e4eb8630a1af64"
+		"logo_small"		"169c20a5101c4bfb4ca2b9dad2e4eb8630a1af64_thumb"
+		"openxrsupport"		"1"
+		"nokeyboardmouse"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1671582459"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hollow World Games llc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hollow World Games llc"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Tactical Warfare Simulator"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1608573360"
+		"community_hub_visible"		"1"
+		"gameid"		"1233610"
+		"store_tags"
+		{
+			"0"		"15045"
+			"1"		"9204"
+			"2"		"4684"
+			"3"		"3813"
+			"4"		"4168"
+			"5"		"1678"
+			"6"		"5382"
+			"7"		"1775"
+			"8"		"4106"
+			"9"		"4191"
+			"10"		"21978"
+			"11"		"7481"
+			"12"		"11104"
+			"13"		"599"
+			"14"		"19"
+			"15"		"4175"
+			"16"		"1708"
+			"17"		"21"
+			"18"		"3993"
+			"19"		"3859"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Hollow World Games llc"
+		"publisher"		"Hollow World Games llc"
+		"homepage"		"http://tacticalwarfaresimulator.com/"
+	}
+	"config"
+	{
+		"installdir"		"Tactical Warfare Simulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TacticalWarfareSimulator.exe"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TacticalWarfareSimulator.exe"
+				"arguments"		"-novr"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"TacticalWarfareSimulator.app/Contents/MacOS/TacticalWarfareSimulator"
+				"workingdir"		"TacticalWarfareSimulator.app/Comtents/MacOS/"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1233611"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9186642587420187657"
+					"size"		"2421457053"
+					"download"		"840448016"
+				}
+				"previous_build"
+				{
+					"gid"		"2943774379291671065"
+					"size"		"2803581618"
+					"download"		"985110864"
+				}
+			}
+		}
+		"1233612"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4248590835025151118"
+					"size"		"2462443804"
+					"download"		"851196800"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11675531"
+				"timeupdated"		"1689093727"
+			}
+			"previous_build"
+			{
+				"buildid"		"6847887"
+				"description"		"Previous Version"
+				"timeupdated"		"1627989719"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"30"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Squadrons"
+				"pattern"		"*"
+			}
+		}
+	}
+}
