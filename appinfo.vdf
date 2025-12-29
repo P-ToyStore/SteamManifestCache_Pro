@@ -1,0 +1,252 @@
+"appinfo"
+{
+	"appid"		"501270"
+	"common"
+	{
+		"name"		"Robots In The Wild"
+		"type"		"Game"
+		"logo"		"77f149caeddb4c0835ab04fc1602c9ece07d7497"
+		"logo_small"		"77f149caeddb4c0835ab04fc1602c9ece07d7497_thumb"
+		"icon"		"7bf37d33500213288f1e0915f50873df8ff6b2ed"
+		"clienttga"		"1c4e54b20ae7199ec0e7f8f30ee2043a8e2ed0f8"
+		"clienticon"		"16bede7dfe6488b2c128618c116410e185d36894"
+		"clienticns"		"16bede7dfe6488b2c128618c116410e185d36894"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"501270_eula_0"
+				"name"		"Robots In The Wild EULA"
+				"url"		"http://store.steampowered.com//eula/501270_eula_0"
+			}
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Robots In The Wild"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_fc286c42d2af21b3390e272f93fd39faf818f5a8.jpg"
+		"store_asset_mtime"		"1485978557"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Heatbox Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Heatbox Games"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1487143746"
+		"community_hub_visible"		"1"
+		"gameid"		"501270"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"493"
+			"2"		"9"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Heatbox Games"
+		"publisher"		"Heatbox Games"
+		"homepage"		"http://www.robots-in-the-wild.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Robots In The Wild"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Robots In The Wild.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Robots In The Wild.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Robots In The Wild Test.exe"
+				"description"		"Developer Test"
+				"type"		"none"
+				"config"
+				{
+					"betakey"		"devtest"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"501271"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5805287280447473820"
+					"size"		"66115072"
+					"download"		"66887328"
+				}
+				"devtest"
+				{
+					"gid"		"5805287280447473820"
+					"size"		"66115072"
+					"download"		"66887328"
+				}
+			}
+		}
+		"501272"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1769132776646705158"
+					"size"		"90846701"
+					"download"		"64439904"
+				}
+				"devtest"
+				{
+					"gid"		"1769132776646705158"
+					"size"		"90846701"
+					"download"		"64439904"
+				}
+			}
+		}
+		"501273"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"devtest"
+				{
+					"gid"		"6275518627948423345"
+					"size"		"66201088"
+					"download"		"66972096"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1664681"
+				"timeupdated"		"1488408708"
+			}
+			"devtest"
+			{
+				"buildid"		"1676777"
+				"timeupdated"		"1488934216"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"100"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.txt"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
