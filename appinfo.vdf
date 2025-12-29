@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"713070"
+	"common"
+	{
+		"name"		"Pray for Death"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"76970a1f8c10caa58f614c67503cbcb5ee01cc4e"
+		"clienttga"		"a6b3a940bad767cd1f53b3831a2967d260e4e0a3"
+		"icon"		"2cbc45f464e2dfc36513377600efdd0655ee3cd1"
+		"logo"		"dcc1770dac6ec663854a41af5c2a4f81e8e8b6fb"
+		"logo_small"		"dcc1770dac6ec663854a41af5c2a4f81e8e8b6fb_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Pray for Death"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1761325802"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Light Shock Software s.n.c"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"820483200"
+		"steam_release_date"		"1508517443"
+		"community_hub_visible"		"1"
+		"gameid"		"713070"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1743"
+			"2"		"4736"
+			"3"		"1684"
+			"4"		"7368"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Light Shock Software s.n.c"
+		"publisher"		"Interplay"
+		"homepage"		"https://www.interplay.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/713070/"
+	}
+	"config"
+	{
+		"installdir"		"Pray for Death"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox/dosbox.exe"
+				"arguments"		"-conf \"dosboxPRAY.conf\" -conf \"dosboxPRAY_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosboxPRAY.conf\" -conf \"./dosboxPRAY_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxPRAY.conf\" -conf \"./dosboxPRAY_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"713071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7067723113957984089"
+					"size"		"326738218"
+					"download"		"228122192"
+				}
+			}
+		}
+		"713072"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7376566701609970374"
+					"size"		"334117439"
+					"download"		"230293760"
+				}
+			}
+		}
+		"713073"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5052150797849669815"
+					"size"		"330255928"
+					"download"		"226626144"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19167772"
+				"timeupdated"		"1752108393"
+			}
+		}
+	}
+}
