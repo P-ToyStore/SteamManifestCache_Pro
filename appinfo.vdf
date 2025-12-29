@@ -1,0 +1,251 @@
+"appinfo"
+{
+	"appid"		"384090"
+	"common"
+	{
+		"name"		"Sketch Tales"
+		"type"		"Game"
+		"oslist"		"windows"
+		"icon"		"ba00b99b3aebeb659ff253d3227dff82ddab6235"
+		"clienticon"		"19dda60d89714b2f9f629e775a09b495e4245c2d"
+		"clienttga"		"4aed7318d146cb16923dfe4717e78ceb39f2f867"
+		"logo"		"9075634ad58b014a68f1f9ea4d8d788f48300183"
+		"logo_small"		"9075634ad58b014a68f1f9ea4d8d788f48300183_thumb"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Sketch Tales"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"russian"		"capsule_231x87_russian.jpg"
+			"ukrainian"		"capsule_231x87_ukrainian.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7ad2e9c38d79be1bf04bcb5c5e88747da8b2d7d4.jpg"
+		"store_asset_mtime"		"1466613788"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"8D Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"8D Studio"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1443468579"
+		"community_hub_visible"		"1"
+		"gameid"		"384090"
+		"store_tags"
+		{
+			"0"		"493"
+			"1"		"21"
+			"2"		"3810"
+			"3"		"492"
+			"4"		"19"
+			"5"		"122"
+			"6"		"1695"
+			"7"		"4231"
+			"8"		"3839"
+			"9"		"6815"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"8D Studio"
+		"publisher"		"8D Studio"
+		"homepage"		"http://sketch-tales.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sketch Tales"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SketchTales.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SketchTales.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"in dx9 mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"SketchTales.app/Contents/MacOS/SketchTales"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Multiplayer/SketchTales.exe"
+				"description"		"multiplayer"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"noupdatesafterinstall"		"1"
+	}
+	"depots"
+	{
+		"384091"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1031916390538933909"
+					"size"		"468444888"
+					"download"		"315703824"
+				}
+				"experimental"
+				{
+					"gid"		"7575000070835893095"
+					"size"		"525632429"
+					"download"		"348857664"
+				}
+			}
+		}
+		"384092"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+			}
+		}
+		"384093"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5103982665626296331"
+					"size"		"164744240"
+					"download"		"126401360"
+				}
+				"experimental"
+				{
+					"gid"		"2351204093705286547"
+					"size"		"260463027"
+					"download"		"196694880"
+				}
+			}
+		}
+		"384094"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6623391703169609927"
+					"size"		"164744240"
+					"download"		"125798160"
+				}
+				"experimental"
+				{
+					"gid"		"3406052779133966056"
+					"size"		"260463027"
+					"download"		"196694880"
+				}
+			}
+		}
+		"workshopdepot"		"384090"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"937597"
+			}
+			"experimental"
+			{
+				"buildid"		"1471616"
+				"timeupdated"		"1670065163"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+	}
+}
