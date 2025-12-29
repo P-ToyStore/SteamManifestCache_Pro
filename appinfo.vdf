@@ -1,0 +1,252 @@
+"appinfo"
+{
+	"appid"		"809530"
+	"common"
+	{
+		"name"		"Hypergate"
+		"type"		"Game"
+		"logo"		"d50aa6da5b3d65df4d159334f3d7dfc7650d31dc"
+		"logo_small"		"d50aa6da5b3d65df4d159334f3d7dfc7650d31dc_thumb"
+		"clienticon"		"c7b3ecefe70ba03533d09c53d154ed1794cf8ddd"
+		"clienttga"		"e458ed2681dca271429821e7e50e90f580113f16"
+		"icon"		"17d6c3685627dd339f906f7e563f75d0a3c5d0a2"
+		"linuxclienticon"		"169618b49f79072d5e9aca0fcdf724ec7b68d968"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Hypergate"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1584580650"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Geoff Nagy"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Geoff Nagy"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_47"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1545369905"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"809530"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"1755"
+			"4"		"3942"
+			"5"		"15045"
+			"6"		"16598"
+			"7"		"599"
+			"8"		"1663"
+			"9"		"1774"
+			"10"		"3839"
+			"11"		"4295"
+			"12"		"4835"
+			"13"		"1773"
+			"14"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"89"
+	}
+	"extended"
+	{
+		"developer"		"Geoff Nagy"
+		"publisher"		"Geoff Nagy"
+		"homepage"		"http://www.hypergate.ca"
+	}
+	"config"
+	{
+		"installdir"		"Hypergate"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/hypergate.exe"
+				"workingdir"		"bin"
+				"description"		"Launch Hypergate"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/hypergate"
+				"workingdir"		"bin"
+				"description"		"Launch Hypergate"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1613873029"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,beta-test,input-testing,window-debug"
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"809531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8266452782953510451"
+					"size"		"441928756"
+					"download"		"391169664"
+				}
+			}
+		}
+		"809532"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1856654102514981589"
+					"size"		"443328442"
+					"download"		"391667616"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4898376"
+				"timeupdated"		"1586910661"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"20"
+	}
+}
