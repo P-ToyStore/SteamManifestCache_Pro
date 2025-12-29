@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"328780"
+	"common"
+	{
+		"name"		"Vampires: Guide Them to Safety!"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"01459ba8e6dd25409ae71ef6c4a8ce062f4d4fb3"
+		"logo_small"		"01459ba8e6dd25409ae71ef6c4a8ce062f4d4fb3_thumb"
+		"clienticon"		"c9300a3d5824a4c07f69fae9b39541ea80ad83d9"
+		"clienttga"		"23a647012d2f606a81afbc2f2610325ce2d78615"
+		"icon"		"dab81280fb11582dabdb5e5bfe72b3ccb02e33f7"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"czech"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Vampires: Guide Them to Safety!"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4db1749e48db562e09cfbc85c8e3708a8ff73a86.jpg"
+		"store_asset_mtime"		"1413463326"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CBE software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"CBE software"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1413982630"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"328780"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"4018"
+			"2"		"1664"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"CBE software"
+		"publisher"		"CBE software"
+		"homepage"		"http://www.cbe-software.com"
+		"listofdlc"		"329180"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Vampires Guide Them to Safety"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"vampires.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./Vampires.app/Contents/MacOS/Vampires"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"328781"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7217749642962631099"
+					"size"		"266429283"
+					"download"		"111239536"
+				}
+				"testing"
+				{
+					"gid"		"7217749642962631099"
+					"size"		"266429283"
+					"download"		"111239536"
+				}
+			}
+		}
+		"328782"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4106100097473418992"
+					"size"		"270416042"
+					"download"		"112563536"
+				}
+				"testing"
+				{
+					"gid"		"4106100097473418992"
+					"size"		"270416042"
+					"download"		"112563536"
+				}
+			}
+		}
+		"329180"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9140416035782125845"
+					"size"		"259116925"
+					"download"		"308587223720"
+				}
+				"testing"
+				{
+					"gid"		"9140416035782125845"
+					"size"		"259116925"
+					"download"		"308587223720"
+				}
+			}
+			"dlcappid"		"329180"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"421515"
+			}
+			"testing"
+			{
+				"buildid"		"421515"
+				"description"		"Testing branch"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"vampires_Data/data"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Vampires.app/Contents/Data"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
