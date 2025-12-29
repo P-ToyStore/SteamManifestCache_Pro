@@ -1,0 +1,232 @@
+"appinfo"
+{
+	"appid"		"811080"
+	"common"
+	{
+		"name"		"Total Esports Action Manager"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"logo"		"35de60297835d5108dd138ff0938329797f49c9c"
+		"logo_small"		"35de60297835d5108dd138ff0938329797f49c9c_thumb"
+		"clienticon"		"4ef864881da78f6405625a734fc4fd5709935d4f"
+		"clienttga"		"1eef726a02a101a994464adbff6e790355e7759b"
+		"icon"		"4cbe849e02d33631e78cab6d705cc0ac33ff9083"
+		"clienticns"		"71a0973308f817877ecde8c514f9c944ee12299b"
+		"osextended"		"macos64"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Total eSports Action Manager"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"51.047729918509894"
+				"height_pct"		"71.50320588933747"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"51.047729918509894"
+					"height_pct"		"71.50320588933747"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572327456"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mighty Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mighty Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"18"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1554252934"
+		"community_hub_visible"		"1"
+		"gameid"		"811080"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"9"
+			"2"		"599"
+		}
+		"review_score"		"4"
+		"review_percentage"		"37"
+	}
+	"extended"
+	{
+		"developer"		"Mighty Games"
+		"publisher"		"Mighty Games"
+	}
+	"config"
+	{
+		"installdir"		"TotalEsportsActionManager"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TEAM.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"TEAM.app/Contents/MacOS/TEAM"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"811081"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6410429394856057206"
+					"size"		"520259586"
+					"download"		"131465600"
+				}
+			}
+		}
+		"811082"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7762234860873564208"
+					"size"		"523788063"
+					"download"		"130182224"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3849813"
+				"timeupdated"		"1558594674"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"path"		"com.mightygamesgroup.esportsmanager"
+				"pattern"		"*.online"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Mighty Games/TEAM/"
+				"pattern"		"*.online"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
