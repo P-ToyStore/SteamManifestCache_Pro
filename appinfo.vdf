@@ -1,0 +1,220 @@
+"appinfo"
+{
+	"appid"		"559250"
+	"common"
+	{
+		"name"		"Ghostlight Manor"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"clienticon"		"9ec98b4f98b5cbfd1290e8612abb9071e3ae2516"
+		"clienttga"		"551421a982992381e139fc739de2374c3e61bc8e"
+		"icon"		"fb0a1510c299e948686708972ea855b93a82b491"
+		"clienticns"		"3ce367707beb58fafcf5b7106cb249bf6489e046"
+		"logo"		"11848a4a196690a3beb29dc79dfdc5e84153f08f"
+		"logo_small"		"11848a4a196690a3beb29dc79dfdc5e84153f08f_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ghostlight Manor"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3c7f5fb41a9a7566df6c70e7fd07a5bd0865bfa6.jpg"
+		"store_asset_mtime"		"1548883765"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Digital Future Lab"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Functional Unicorn"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_1"		"1"
+			"category_29"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1481422095"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"559250"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"21"
+			"2"		"492"
+			"3"		"9"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Digital Future Lab"
+		"publisher"		"Functional Unicorn"
+		"homepage"		"http://digitalfuturelab.com/ghostlight/"
+		"listofdlc"		"571170"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Ghostlight Manor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ghostlight Manor.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Ghostlight Manor.app\\Contents\\MacOS\\Ghostlight Manor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"938657895"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default,beta"
+			}
+		}
+	}
+	"depots"
+	{
+		"559251"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6220031106775130634"
+					"size"		"1384581809"
+					"download"		"328996112"
+				}
+			}
+		}
+		"559252"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4914356687890683482"
+					"size"		"1398137676"
+					"download"		"331153872"
+				}
+			}
+		}
+		"571170"
+		{
+			"dlcappid"		"571170"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"506205912677911052"
+					"size"		"638784071"
+					"download"		"531553600"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3514201"
+				"timeupdated"		"1548816917"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.gd"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Ghostlight Manor_Data"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Ghostlight Manor.app/Contents"
+			}
+		}
+	}
+}
