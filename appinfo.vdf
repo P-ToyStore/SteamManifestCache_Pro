@@ -1,0 +1,254 @@
+"appinfo"
+{
+	"appid"		"348460"
+	"common"
+	{
+		"name"		"Bierzerkers"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"4e7cb849f09d40b92fd14472b977db4a5d3fcae0"
+		"logo_small"		"4e7cb849f09d40b92fd14472b977db4a5d3fcae0_thumb"
+		"clienttga"		"a177fd11ac4b5b600e3ba6be721ccbc6c0ac8e94"
+		"clienticon"		"8b8ed62a8ba6bbbdc9fa0ef28c61b406eafac98f"
+		"icon"		"83b760db03dabe21872cb79890a6270fc26a46af"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bierzerkers"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d6b186afdebf6befaff3601a22cec876d85755cd.jpg"
+		"store_asset_mtime"		"1456450312"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Shield Break Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Shield Break Studios"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1456423560"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"348460"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3859"
+			"2"		"492"
+			"3"		"1718"
+			"4"		"11634"
+		}
+		"review_score"		"5"
+		"review_percentage"		"47"
+	}
+	"extended"
+	{
+		"developer"		"Shield Break Studios"
+		"publisher"		"Shield Break Studios"
+		"homepage"		"http://www.bierzerkers.com"
+		"listofdlc"		"422290,437300,437301,437302,437303"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Bierzerkers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Local\\VikingGame\\Binaries\\Win64\\VikingGame.exe"
+				"arguments"		"-pak"
+				"description"		"Launch"
+				"workingdir"		"Local\\VikingGame\\Binaries\\Win64"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Local\\VikingGame\\Binaries\\Win32\\VikingGame.exe"
+				"arguments"		"-pak"
+				"description"		"Launch"
+				"workingdir"		"Local\\VikingGame\\Binaries\\Win32"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"VikingGame\\Binaries\\Mac\\Bierzerkers.app\\Contents\\MacOS\\Bierzerkers"
+				"arguments"		"-pak"
+				"workingdir"		"VikingGame\\Binaries\\Mac"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Local\\VikingGame\\Binaries\\Win64\\VikingGame.exe"
+				"arguments"		"-pak -nosteam"
+				"workingdir"		"Local\\VikingGame\\Binaries\\Win64"
+				"description"		"LAN Game"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"usemms"		"1"
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"348461"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7243159530122116668"
+					"size"		"6442311514"
+					"download"		"825466128"
+				}
+				"local"
+				{
+					"gid"		"5035757589147013541"
+					"size"		"3571601220"
+					"download"		"870736544"
+				}
+			}
+		}
+		"348462"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2308169507307775246"
+					"size"		"2944435378"
+					"download"		"701442800"
+				}
+			}
+		}
+		"404120"
+		{
+			"dlcappid"		"404120"
+		}
+		"348463"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1759490"
+				"timeupdated"		"1492219190"
+			}
+			"local"
+			{
+				"buildid"		"1662100"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1488319612"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
