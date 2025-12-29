@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"910230"
+	"common"
+	{
+		"name"		"Fortified Swiss"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"5b287ccb61de42ff511b0fc12194c02df19e6c90"
+		"logo_small"		"5b287ccb61de42ff511b0fc12194c02df19e6c90_thumb"
+		"clienticon"		"405a361b775716778972fbb7723ce98afeac61d1"
+		"clienttga"		"0d36fea676f4be53b648aa21e5ae374ef901a5b7"
+		"icon"		"fe361248c906f6434ed160375c9ca930a20342df"
+		"clienticns"		"405a361b775716778972fbb7723ce98afeac61d1"
+		"metacritic_name"		"Fortified Swiss"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"32f3a79cba928cad71e26a02d7bf844cd0294291/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"32f3a79cba928cad71e26a02d7bf844cd0294291/library_capsule_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_691fb93d47a88daf13544e134492a5f4eb28abe4.jpg"
+		"store_asset_mtime"		"1756940066"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rat Wrath Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rat Wrath Studios"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1542960661"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"910230"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"9"
+			"2"		"122"
+			"3"		"1645"
+			"4"		"1756"
+			"5"		"4026"
+			"6"		"5411"
+			"7"		"17305"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Rat Wrath Studios"
+		"publisher"		"Rat Wrath Studios"
+		"homepage"		"https://ratwrathstudios.com/"
+	}
+	"config"
+	{
+		"installdir"		"Fortified Swiss"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Fortified Swiss.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"OSXFOLDER\\FortifiedSwiss.app\\Contents\\MacOS\\FortifiedSwiss\\FortifiedSwiss.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"910231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2157776737421754584"
+					"size"		"2412740390"
+					"download"		"935789056"
+				}
+			}
+		}
+		"910232"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6756029744221178985"
+					"size"		"2429226142"
+					"download"		"944416416"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19777236"
+				"timeupdated"		"1756420227"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Rat Wrath Studios/Fortified Swiss/{64BitSteamID}"
+				"pattern"		"*.gd"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Rat Wrath Studios/Fortified Swiss/{64BitSteamID}"
+						"replace"		" unity.ratwrathstudios.fortifiedswiss/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
