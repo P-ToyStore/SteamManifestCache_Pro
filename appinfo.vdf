@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"711870"
+	"common"
+	{
+		"name"		"Degauss"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"clienticns"		"40f02bede6c8a16425274929e33a3629fa157559"
+		"clienticon"		"7aeb86991883af168a908d881625f812011be276"
+		"clienttga"		"48b6e1ca225a0aa9c5d3599e96630c70cf19f86e"
+		"icon"		"7dac2aa5eafc2b409ac871b59d50fd35318ac794"
+		"logo"		"01facf49708f5e3a025f01d7c5ae9efbbd9c9f78"
+		"logo_small"		"01facf49708f5e3a025f01d7c5ae9efbbd9c9f78_thumb"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Degauss"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0023ea5708da5c89e7d53baad5028ae5114e9b02.jpg"
+		"store_asset_mtime"		"1510607100"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FrozenCrate, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FrozenCrate, LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1509712406"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"711870"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"FrozenCrate, LLC"
+		"publisher"		"FrozenCrate, LLC"
+		"homepage"		"https://degaussgame.com"
+	}
+	"config"
+	{
+		"installdir"		"Degauss"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Degauss.app/Contents/MacOS/Degauss"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"Degauss.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Degauss"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"711871"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5087885991511370465"
+					"size"		"28767302"
+					"download"		"20338960"
+				}
+			}
+		}
+		"711872"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"501168830742583715"
+					"size"		"24474141"
+					"download"		"19645136"
+				}
+			}
+		}
+		"711873"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6145237851744641745"
+					"size"		"46899519"
+					"download"		"24629936"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2246534"
+				"timeupdated"		"1509481793"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"8192"
+		"maxnumfiles"		"16"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Degauss/sync/"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataRoaming"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgDataHome"
+				"addpath"		""
+			}
+		}
+	}
+}
