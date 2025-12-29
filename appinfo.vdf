@@ -1,0 +1,250 @@
+"appinfo"
+{
+	"appid"		"461220"
+	"common"
+	{
+		"name"		"Beglitched"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"icon"		"e1d6237cb57d3f9c44d04c0e9d1431c8b7aa57ef"
+		"logo"		"facd61cc4b30004dbf6920b070c8991c6412165b"
+		"logo_small"		"facd61cc4b30004dbf6920b070c8991c6412165b_thumb"
+		"clienticon"		"b019363a66734e73c727e17a2f652a238a8509a7"
+		"clienttga"		"804a0d97a6e7338dd8f37a6eca2bb4166110e728"
+		"releasestate"		"released"
+		"osarch"		""
+		"metacritic_name"		"Beglitched"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b4563528f02c1f06cd4cf43253c7cea1aa169639.jpg"
+		"store_asset_mtime"		"1475087887"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hexecutable"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hexecutable"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1475823600"
+		"steam_release_date"		"1475812686"
+		"community_hub_visible"		"1"
+		"gameid"		"461220"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"1664"
+			"3"		"1665"
+			"4"		"4726"
+			"5"		"3964"
+			"6"		"5502"
+		}
+		"review_score"		"8"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"Hexecutable"
+		"publisher"		"Hexecutable"
+		"homepage"		"http://beglitched.net"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Beglitched"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Beglitched.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Beglitched.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Beglitched.exe"
+				"arguments"		"-window"
+				"description"		"Beglitched in Windowed Mode."
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Beglitched.app"
+				"arguments"		"-window"
+				"description"		"Beglitched in Windowed Mode."
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"Beglitched.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"5"
+			{
+				"executable"		"Beglitched.x86"
+				"arguments"		"-window"
+				"description"		"Beglitched in Windowed Mode."
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"6"
+			{
+				"executable"		"Beglitched.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"7"
+			{
+				"executable"		"Beglitched.x86_64"
+				"arguments"		"-window"
+				"description"		"Beglitched in Windowed Mode."
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"461221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"925895069608895268"
+					"size"		"122612049"
+					"download"		"45305712"
+				}
+			}
+		}
+		"461222"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4042133232704487238"
+					"size"		"127205768"
+					"download"		"46291008"
+				}
+			}
+		}
+		"461223"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1867075965468914223"
+					"size"		"151053504"
+					"download"		"53927728"
+				}
+			}
+		}
+		"461224"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2197009192701160754"
+					"size"		"151053504"
+					"download"		"53927728"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1414213"
+				"timeupdated"		"1477435504"
+			}
+		}
+	}
+}
