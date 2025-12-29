@@ -1,0 +1,288 @@
+"appinfo"
+{
+	"appid"		"1104250"
+	"common"
+	{
+		"name"		"Poly Mole"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"logo"		"6ccedfce75378a43462e69eafb21732abd10fc45"
+		"logo_small"		"6ccedfce75378a43462e69eafb21732abd10fc45_thumb"
+		"clienttga"		"c18f3f84e7a0d5e72e5b702ffddd7e62815a16f3"
+		"clienticon"		"12aa6c70fbdaafbdf3a7528800768984d1954f33"
+		"icon"		"f1c3815cfac7f78f1f59a86f677231d29f8bc196"
+		"clienticns"		"9b4166e16aee6e0500df6b8d5a6142d3a6bab4bc"
+		"linuxclienticon"		"50ca80b0057654a4066ea9de2926bcf04c0e1683"
+		"metacritic_name"		"Poly Mole"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1566024771"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Haubna"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Haubna"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_17"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1562932614"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1104250"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"1664"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"Haubna"
+		"publisher"		"Haubna"
+	}
+	"config"
+	{
+		"installdir"		"Poly Mole"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"jdk\\bin\\javaw.exe"
+				"arguments"		"-Xmx2G -Xms2G -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -Xmn128M -jar Game.jar"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"jdk\\bin\\java"
+				"arguments"		"-Xmx2G -Xms2G -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -Xmn128M -jar Game.jar"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"jdk\\Contents\\Home\\bin\\java"
+				"arguments"		"-Xmx2G -Xms2G -XX:+UseConcMarkSweepGC -XX:-UseAdaptiveSizePolicy -Xmn128M -XstartOnFirstThread -jar Game.jar"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish,russian,brazilian"
+		"workshopdepot"		"1104250"
+		"1104251"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2782476020723125341"
+					"size"		"638973814"
+					"download"		"323168656"
+				}
+			}
+		}
+		"1104252"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1279917492733018055"
+					"size"		"652638803"
+					"download"		"327578688"
+				}
+			}
+		}
+		"1104253"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3214141400244799723"
+					"size"		"638037647"
+					"download"		"321137696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4011853"
+				"timeupdated"		"1563183066"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.data"
+			}
+		}
+	}
+}
