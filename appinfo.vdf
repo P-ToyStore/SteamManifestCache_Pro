@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"448720"
+	"common"
+	{
+		"name"		"Puzzle Box"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"clienttga"		"a569b597e49d3e4ed8328d09aa274d871f28cfca"
+		"clienticns"		"f38a6154a4e1d2547bfaac0473ba3163fc54e471"
+		"clienticon"		"51962550ee1d64dca5ef243568595f034542b90a"
+		"icon"		"8faf9b6d673a3f8628721720324e57893b72ab33"
+		"logo"		"e560af486619052c0fa6be40358b79b06769b5dc"
+		"logo_small"		"e560af486619052c0fa6be40358b79b06769b5dc_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Puzzle Box"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ddc540789f85d5ddcc6b9374970022fbc1fff4e7.jpg"
+		"store_asset_mtime"		"1513853535"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BplusGames"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"OtakuMaker.com"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1461308400"
+		"steam_release_date"		"1461355794"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"448720"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"3964"
+			"2"		"1625"
+			"3"		"1756"
+			"4"		"4166"
+			"5"		"19"
+			"6"		"21"
+			"7"		"492"
+			"8"		"9"
+			"9"		"1664"
+			"10"		"4004"
+			"11"		"4106"
+			"12"		"4136"
+			"13"		"4182"
+			"14"		"5537"
+			"15"		"3871"
+			"16"		"4085"
+			"17"		"4252"
+			"18"		"8122"
+			"19"		"3810"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"BplusGames"
+		"publisher"		"OtakuMaker.com"
+		"homepage"		"http://puzzlebox.bplus.at/"
+		"listofdlc"		"464860,500860"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Puzzle Box"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"win32\\PuzzleBox.exe"
+				"arguments"		"-windowed"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"PuzzleBox.app\\Contents\\MacOS\\PuzzleBox"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dlcwin\\PuzzleBox.exe"
+				"arguments"		"-windowed"
+				"description"		"Puzzle Box - Level Pack DLC #1"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"500860"
+				}
+			}
+			"3"
+			{
+				"executable"		"PuzzleBox.app\\Contents\\MacOS\\PuzzleBox"
+				"description"		"Puzzle Box - Level Pack DLC #1"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"500860"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"448721"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8518785245268831707"
+					"size"		"232970206"
+					"download"		"102407120"
+				}
+			}
+		}
+		"448722"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2238178703372894231"
+					"size"		"244260017"
+					"download"		"104934432"
+				}
+			}
+		}
+		"464860"
+		{
+			"dlcappid"		"464860"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2085889198851129182"
+					"size"		"54900901"
+					"download"		"54535744"
+				}
+			}
+		}
+		"500860"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"782205417270702254"
+					"size"		"233129463"
+					"download"		"102420576"
+				}
+			}
+			"dlcappid"		"500860"
+		}
+		"500861"
+		{
+			"dlcappid"		"500860"
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7053331437759162045"
+					"size"		"244416025"
+					"download"		"104954800"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1223574"
+				"timeupdated"		"1468321913"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000000"
+		"maxnumfiles"		"512"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Bplus/Puzzle Box"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
