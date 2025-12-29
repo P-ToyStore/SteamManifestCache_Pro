@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"547250"
+	"common"
+	{
+		"name"		"Oscar Mike VR"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+		}
+		"clienticon"		"5cc9c6bdee0cad08f0d2f82f2f3eb0ef7b3c96fd"
+		"clienttga"		"381fa1a7640f7b73fc00dfff65af8c3afc222d46"
+		"icon"		"147c3b8ec189c0622408879f6cda6d942ae92b6d"
+		"logo"		"8cb60b782a85f46ec01de8cb0a96f6f1d4698abc"
+		"logo_small"		"8cb60b782a85f46ec01de8cb0a96f6f1d4698abc_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"547250_eula_0"
+				"name"		"Oscar Mike VR EULA"
+				"url"		"http://store.steampowered.com//eula/547250_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Oscar Mike VR"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8d7040bba7e74fff284507e711bbcefb50e03520.jpg"
+		"store_asset_mtime"		"1480220812"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"For Loop Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"For Loop Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"73"
+			"1"		"1"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_49"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1480579623"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"547250"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"493"
+			"3"		"4667"
+			"4"		"1663"
+			"5"		"1774"
+			"6"		"3859"
+			"7"		"5711"
+			"8"		"21978"
+		}
+	}
+	"extended"
+	{
+		"developer"		"For Loop Games"
+		"publisher"		"For Loop Games"
+		"homepage"		"http://oscarmikevr.com"
+	}
+	"config"
+	{
+		"installdir"		"OscarMikeVR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Munch\\Binaries\\Win64\\Munch.exe"
+				"workingdir"		"Munch\\Binaries\\Win64\\"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"547251"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3228233695586827603"
+					"size"		"3720540036"
+					"download"		"3567277984"
+				}
+				"beta"
+				{
+					"gid"		"4062531282673857835"
+					"size"		"3720540548"
+					"download"		"3567275328"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1557366"
+				"timeupdated"		"1483902361"
+			}
+			"beta"
+			{
+				"buildid"		"1551904"
+				"description"		"Latest content and code"
+				"timeupdated"		"1483582027"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Munch/Saved"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
