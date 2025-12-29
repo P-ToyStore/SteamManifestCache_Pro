@@ -1,0 +1,291 @@
+"appinfo"
+{
+	"appid"		"377940"
+	"common"
+	{
+		"name"		"Slam"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"ec860826c3aad28a6eda79431078e2484e8fca6e"
+		"clienttga"		"f387a741e8759e2415a2d2b022e052e1b649d3e5"
+		"icon"		"409a8516c8ed2195d7500396dd66ded98889e841"
+		"logo"		"c420290ae081fdd5624cf3d52257ef19d75a105d"
+		"logo_small"		"c420290ae081fdd5624cf3d52257ef19d75a105d_thumb"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+			}
+		}
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Slam"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d2e19196442af387d23cd887044fac6526571690.jpg"
+		"store_asset_mtime"		"1468254572"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Aera Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Aera Studios"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1468221193"
+		"community_hub_visible"		"1"
+		"gameid"		"377940"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"9"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Aera Studios"
+		"publisher"		"Aera Studios"
+		"homepage"		"http://www.aerastudios.com/games/slam/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Slam"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"slam.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"slam.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"slam.x86"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"slam.x86_64"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"slam.exe"
+				"arguments"		"-show-screen-selector"
+				"description"		"Select Resolution"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"slam.app"
+				"arguments"		"-show-screen-selector"
+				"description"		"Select Resolution"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"slam.x86"
+				"arguments"		"-show-screen-selector"
+				"description"		"Select Resolution"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"7"
+			{
+				"executable"		"slam.x86_64"
+				"arguments"		"-show-screen-selector"
+				"description"		"Select Resolution"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"8"
+			{
+				"executable"		"slam.exe"
+				"arguments"		"-vrmode OpenVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"377941"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"786346181705304199"
+					"size"		"290965447"
+					"download"		"71652800"
+				}
+				"beta"
+				{
+					"gid"		"786346181705304199"
+					"size"		"290965447"
+					"download"		"71652800"
+				}
+			}
+		}
+		"377942"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6128786772055583135"
+					"size"		"333688194"
+					"download"		"83300320"
+				}
+				"beta"
+				{
+					"gid"		"6128786772055583135"
+					"size"		"333688194"
+					"download"		"83300320"
+				}
+			}
+		}
+		"377943"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4727828785778025752"
+					"size"		"326801049"
+					"download"		"82631488"
+				}
+				"beta"
+				{
+					"gid"		"4727828785778025752"
+					"size"		"326801049"
+					"download"		"82631488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1224113"
+				"timeupdated"		"1468343419"
+			}
+			"beta"
+			{
+				"buildid"		"1224113"
+				"timeupdated"		"1468343428"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"50"
+	}
+}
