@@ -1,0 +1,249 @@
+"appinfo"
+{
+	"appid"		"1040590"
+	"common"
+	{
+		"name"		"Killer Chambers"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"icon"		"35ef75d7a9a56bfc8ad4eb510c84df95804ce88c"
+		"clienticon"		"d26812bc4f563946ced00efe3ebadaf22290d883"
+		"clienttga"		"858558c06f52aaa00e03e843738babc6b4604035"
+		"logo"		"2630041019a189b7c2124bae7cf97ed0ca809118"
+		"logo_small"		"2630041019a189b7c2124bae7cf97ed0ca809118_thumb"
+		"metacritic_name"		"Killer Chambers"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"60.990099009901"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"60.990099009901"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667151490"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Village Bench"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Village Bench"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1554483666"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1040590"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"4885"
+			"3"		"3964"
+			"4"		"4026"
+			"5"		"4182"
+			"6"		"1684"
+			"7"		"4136"
+			"8"		"5537"
+			"9"		"1625"
+			"10"		"3877"
+		}
+		"review_score"		"8"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Village Bench"
+		"publisher"		"Village Bench"
+		"homepage"		"https://www.villagebench.com/killer-chambers/"
+	}
+	"config"
+	{
+		"installdir"		"KillerChambers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"KillerChambers.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Killerchambers.x86_64"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"2795245777"
+			{
+				"controller_type"		"controller_neptune"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"1040591"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2483715684617171199"
+					"size"		"91526124"
+					"download"		"49250384"
+				}
+			}
+		}
+		"1040592"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6524643195558331596"
+					"size"		"105951921"
+					"download"		"53450784"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8569195"
+				"timeupdated"		"1650116288"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"15"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"*.kc"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocal"
+				"addpath"		"KillerChambers"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".local/share/KillerChambers"
+			}
+		}
+	}
+}
