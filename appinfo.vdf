@@ -1,0 +1,288 @@
+"appinfo"
+{
+	"appid"		"291610"
+	"common"
+	{
+		"name"		"Growing Pains"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"3a19a5247f7d67056565012e4c8cb51352ed8bc2"
+		"logo_small"		"3a19a5247f7d67056565012e4c8cb51352ed8bc2_thumb"
+		"icon"		"500de997787a987c0754e1c4b4c57b979e52bcf0"
+		"clienticon"		"0dc2698cf29240ed31e9bef9f2a0d44729ef7bb8"
+		"clienttga"		"6c89adee5803a23ec907d1ee61e07055d4338b07"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"2f87f9655c7fc6bb9e182fd20b8c90bd45e7312e"
+		"clienticns"		"8504ec2cd8aaa5427a1ee61b978e309298c4c3ff"
+		"osarch"		""
+		"osextended"		"macos64"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Growing Pains"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_582a9a31e6e9ce4e8a5328fbadce27cfa5a2faeb.jpg"
+		"store_asset_mtime"		"1403537470"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Smudged Cat Games Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Smudged Cat Games Ltd"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1401295727"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"291610"
+		"store_tags"
+		{
+			"0"		"492"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Smudged Cat Games Ltd"
+		"publisher"		"Smudged Cat Games Ltd"
+		"homepage"		"http://www.smudgedcat.com/growingpains.htm"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Growing Pains"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GrowingPains.exe"
+				"description"		"Launch"
+				"workingdir"		"."
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./GrowingPains"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Growing Pains.app/Contents/MacOS/GrowingPains"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"291611"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5693168286671876830"
+					"size"		"98674356"
+					"download"		"0"
+				}
+				"linux32"
+				{
+					"gid"		"5693168286671876830"
+					"size"		"98674356"
+					"download"		"0"
+				}
+			}
+		}
+		"291613"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7187076012472242729"
+					"size"		"42971298"
+					"download"		"23118400"
+				}
+				"linux32"
+				{
+					"gid"		"7088683295473589916"
+					"size"		"50246573"
+					"download"		"24784272"
+				}
+			}
+		}
+		"291614"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8414418130008739841"
+					"size"		"55385076"
+					"download"		"26000832"
+				}
+				"linux32"
+				{
+					"gid"		"113286800787234880"
+					"size"		"40385422"
+					"download"		"22422976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6029151"
+				"timeupdated"		"1609452645"
+			}
+			"linux32"
+			{
+				"buildid"		"4181755"
+				"description"		"32-bit Linux (Legacy)"
+				"timeupdated"		"1609452636"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"SavedGames/GrowingPains/GrowingPains/Player1/"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxXdgDataHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SavedGames/GrowingPains/GrowingPains/Player1/"
+						"replace"		"GrowingPains/GrowingPains/Player1/"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"SavedGames/GrowingPains/GrowingPains/Player1/"
+						"replace"		"GrowingPains/GrowingPains/Player1/"
+					}
+				}
+			}
+		}
+	}
+}
