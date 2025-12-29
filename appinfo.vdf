@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"711230"
+	"common"
+	{
+		"name"		"Titus the Fox"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"8df237ed12fb04e30373a48b97e5d8c79b17ed27"
+		"logo_small"		"8df237ed12fb04e30373a48b97e5d8c79b17ed27_thumb"
+		"clienticon"		"0fb63dff6e7d25ad9a599f6da0870e9a91741fe9"
+		"clienttga"		"bb3de7634b28a1012a1d29b5e3c89599b061acc2"
+		"icon"		"5469ebcfc12cd51f2c133e4f28aee361e5984f4e"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Titus the Fox"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1757371697"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Titus Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"694252800"
+		"steam_release_date"		"1506724500"
+		"community_hub_visible"		"1"
+		"gameid"		"711230"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"122"
+			"3"		"1625"
+			"4"		"3798"
+			"5"		"3871"
+			"6"		"5379"
+			"7"		"1756"
+			"8"		"5350"
+		}
+		"review_score"		"7"
+		"review_percentage"		"85"
+	}
+	"extended"
+	{
+		"developer"		"Titus Interactive"
+		"publisher"		"Interplay"
+		"homepage"		"https://www.interplay.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/711230/"
+	}
+	"config"
+	{
+		"installdir"		"Titus the Fox"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox/dosbox.exe"
+				"arguments"		"-conf \"./dosbox_titus.conf\" -conf \"./dosbox_titus_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosbox_titus.conf\" -conf \"./dosbox_titus_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosbox_titus.conf\" -conf \"./dosbox_titus_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"711231"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6578232139709354957"
+					"size"		"43251422"
+					"download"		"17473360"
+				}
+			}
+		}
+		"711232"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2826604820876077065"
+					"size"		"39733819"
+					"download"		"18969488"
+				}
+			}
+		}
+		"711233"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6595857927915025170"
+					"size"		"47113141"
+					"download"		"21141168"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19168167"
+				"timeupdated"		"1752110088"
+			}
+		}
+	}
+}
