@@ -1,0 +1,254 @@
+"appinfo"
+{
+	"appid"		"624060"
+	"common"
+	{
+		"name"		"Shattered Steel"
+		"type"		"Game"
+		"logo"		"e1fb5e61e06a578e03eec57c784a92266f41774c"
+		"logo_small"		"e1fb5e61e06a578e03eec57c784a92266f41774c_thumb"
+		"icon"		"50b68ecae5cbbf2179348de4114e0c5ca9344c3a"
+		"clienttga"		"62437f9e240c5fdd4bdabdec07d69f638f7109fb"
+		"clienticon"		"f3cfda31648e123a04470fc29de475c31bb2af15"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Shattered Steel"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1670451202"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BioWare"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"844066800"
+		"steam_release_date"		"1493836128"
+		"community_hub_visible"		"1"
+		"gameid"		"624060"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+			"2"		"4821"
+			"3"		"1774"
+			"4"		"3839"
+			"5"		"3942"
+			"6"		"4295"
+			"7"		"1663"
+			"8"		"4191"
+			"9"		"1755"
+			"10"		"6691"
+			"11"		"4166"
+			"12"		"11104"
+			"13"		"3859"
+			"14"		"4182"
+			"15"		"8122"
+			"16"		"5752"
+			"17"		"3993"
+			"18"		"1673"
+			"19"		"5030"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"developer"		"BioWare"
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"https://www.interplay.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/624060/"
+	}
+	"config"
+	{
+		"installdir"		"Shattered Steel"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch ShatteredSteel Single Player.bat"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch ShatteredSteel Single Player"
+				}
+				"description"		"Launch ShatteredSteel Single Player"
+			}
+			"1"
+			{
+				"executable"		"Launch ShatteredSteel Network Client.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Launch ShatteredSteel Host Server.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch ShatteredSteel Host Server"
+				}
+				"description"		"Launch ShatteredSteel Host Server"
+			}
+			"3"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosboxShatteredSteel.conf\" -conf \"./dosboxShatteredSteel_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxShatteredSteel.conf\" -conf \"./dosboxShatteredSteel_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"624061"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2257675116939445644"
+					"size"		"748382894"
+					"download"		"463622688"
+				}
+			}
+		}
+		"624062"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8332285552741449890"
+					"size"		"755761073"
+					"download"		"465793888"
+				}
+			}
+		}
+		"624063"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4325225438061843048"
+					"size"		"751899354"
+					"download"		"462126080"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19168155"
+				"timeupdated"		"1752110015"
+			}
+		}
+	}
+}
