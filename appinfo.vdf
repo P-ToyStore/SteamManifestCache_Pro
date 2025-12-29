@@ -1,0 +1,212 @@
+"appinfo"
+{
+	"appid"		"51020"
+	"common"
+	{
+		"name"		"Unwell Mel"
+		"clienticon"		"53bf4b50f69984683dfd794ed7cdde546fa11a88"
+		"clienttga"		"06be92c9ab898c884aef3c3f0ccb3dadfb83e82d"
+		"icon"		"d782d0a38c3feab9690e8b8290c1c96766a27c9b"
+		"logo"		"bbb817c3533d632a29f36d50c1dc21995aa0f02c"
+		"logo_small"		"bbb817c3533d632a29f36d50c1dc21995aa0f02c_thumb"
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1686614400"
+			"tested_build_id"		"23795"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-8.0-2"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9647fa64e55a1fcdd15b43fc0e645e51b9f7a4d4.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Big Fish Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BFG Entertainment"
+			}
+		}
+		"primary_genre"		"33"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1238050800"
+		"community_hub_visible"		"1"
+		"gameid"		"51020"
+		"store_tags"
+		{
+			"0"		"597"
+		}
+		"review_score"		"7"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Big Fish Games"
+		"gamedir"		"Unwell Mel"
+		"homepage"		"http://www.bigfishgames.com/download-games/4677/unwell-mel/index.html"
+		"icon"		""
+		"installscriptosx"		"UnwellMel.app/installscript_osx.vdf"
+		"installscript_macos"		"UnwellMel.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"BFG Entertainment"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Unwell Mel"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"UnwelMel.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"UnwellMel.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"51022"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5674188296218692934"
+					"size"		"34469266"
+					"download"		"0"
+				}
+			}
+		}
+		"51021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5019846861340530188"
+					"size"		"34407579"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23795"
+			}
+		}
+	}
+}
