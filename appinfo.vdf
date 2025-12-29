@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"1703090"
+	"common"
+	{
+		"name"		"Solo Flight"
+		"type"		"Game"
+		"clienticon"		"1dc8334a179860df70269733384af7150d1008f3"
+		"clienttga"		"3eb27044b24c329c9ba98e6a31d81285d9fb68ae"
+		"icon"		"2d525bdba77e3071dc3ec733e74c615ad9a57f35"
+		"logo"		"a7f699da6fc32c6580c205b993d4f95d23bb86d3"
+		"logo_small"		"a7f699da6fc32c6580c205b993d4f95d23bb86d3_thumb"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50.80943571910362"
+				"height_pct"		"62.488174077578044"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50.80943571910362"
+					"height_pct"		"62.488174077578044"
+				}
+			}
+		}
+		"store_asset_mtime"		"1642801084"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Microprose"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Microprose Classics"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Microprose Flight Sims"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"411638400"
+		"steam_release_date"		"1642800000"
+		"community_hub_visible"		"1"
+		"gameid"		"1703090"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"15045"
+			"2"		"4004"
+			"3"		"9204"
+			"4"		"4684"
+			"5"		"7743"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"Microprose"
+		"publisher"		"Atari"
+	}
+	"config"
+	{
+		"installdir"		"Solo Flight"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox\\dosbox.exe"
+				"arguments"		"-conf dosbox.conf -conf win.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox.conf -conf osx.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1703091"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4249849868764913450"
+					"size"		"4128255"
+					"download"		"3832800"
+				}
+			}
+		}
+		"1703092"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7817611002524643647"
+					"size"		"37835505"
+					"download"		"16383232"
+				}
+			}
+		}
+		"1703093"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4303019289813435337"
+					"size"		"15441282"
+					"download"		"12208192"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7096896"
+				"timeupdated"		"1635805003"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
