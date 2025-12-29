@@ -1,0 +1,300 @@
+"appinfo"
+{
+	"appid"		"532900"
+	"common"
+	{
+		"name"		"Outskirts"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"626d112de94cb63900e8202776e7eaf92d17a830"
+		"clienttga"		"405b4859331abdc1f66444cd833dceede51f3c88"
+		"icon"		"2116efb07a5126ba7d6474d884e6a4e67f171e31"
+		"clienticns"		"41179ffc16b51afce31cc13b72aa0e0e6b25d501"
+		"logo"		"ab88495f92ada342550609dc682298c7e57dd817"
+		"logo_small"		"ab88495f92ada342550609dc682298c7e57dd817_thumb"
+		"linuxclienticon"		"a2518f8e214d675e1e37124bbfbb511e747fa4e2"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1697673600"
+			"tested_build_id"		"2165798"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Outskirts"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_114611062b0fdb83f3eaf3bcf32d643a6135b183.jpg"
+		"store_asset_mtime"		"1503322868"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rezo Zero"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rezo Zero"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1505921938"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"532900"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"4255"
+			"3"		"4885"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Rezo Zero"
+		"publisher"		"Rezo Zero"
+		"homepage"		"http://outskirts-game.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Outskirts"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Outskirts.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Outskirts.app/Contents/MacOS/Outskirts"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Outskirts.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Outskirts.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"532901"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7509904754755793304"
+					"size"		"301831439"
+					"download"		"98633824"
+				}
+			}
+		}
+		"532905"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"975162857457298354"
+					"size"		"307176719"
+					"download"		"100302240"
+				}
+			}
+		}
+		"532902"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4775715436328156220"
+					"size"		"354090821"
+					"download"		"112194528"
+				}
+			}
+		}
+		"532903"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1649778535083615944"
+					"size"		"314164670"
+					"download"		"101570608"
+				}
+			}
+		}
+		"532904"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"676105666533309392"
+					"size"		"313676843"
+					"download"		"101887504"
+				}
+			}
+		}
+		"714310"
+		{
+			"dlcappid"		"714310"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2930812112649701498"
+					"size"		"69762227"
+					"download"		"68083696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2165798"
+				"timeupdated"		"1506963692"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
