@@ -1,0 +1,446 @@
+"appinfo"
+{
+	"appid"		"327930"
+	"common"
+	{
+		"name"		"Darklands"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"6240ce688060afc83f04f5f09aabdcf64eb591a1"
+		"logo"		"35a5d01839c8701dca575b8327d7a97af0043cdc"
+		"logo_small"		"35a5d01839c8701dca575b8327d7a97af0043cdc_thumb"
+		"clienticon"		"3ae08bdf756d80481638cb1bd7679ec662417887"
+		"clienttga"		"6cd66a9231c025e00279f8256fd5bb37ca482fa2"
+		"icon"		"8ed06ce5cb1b9a08e560c396410f6d9ff73ec883"
+		"linuxclienticon"		"f62ca8de1337f3e5d1c46f16f5a3d46dedc83ef5"
+		"metacritic_name"		"Darklands"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"60.63880313464735"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"60.63880313464735"
+				}
+			}
+		}
+		"store_asset_mtime"		"1591136511"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MPS Labs"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"MicroProse"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Ziggurat"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"694252800"
+		"steam_release_date"		"1413579509"
+		"community_hub_visible"		"1"
+		"gameid"		"327930"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"21"
+			"2"		"4172"
+			"3"		"1693"
+			"4"		"1695"
+			"5"		"3987"
+			"6"		"4004"
+			"7"		"4182"
+			"8"		"3810"
+			"9"		"3916"
+			"10"		"3964"
+			"11"		"6691"
+			"12"		"7107"
+		}
+		"review_score"		"8"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"MPS Labs"
+		"publisher"		"Ziggurat"
+		"homepage"		"https://www.ziggurat.games/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/327930/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Darklands"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_darklands.conf -conf dosbox_darklands_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_darklands.conf -conf dosbox_darklands_launch_windows.conf -noconsole"
+				"description"		"Play Darklands in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_darklands.conf -conf dosbox_darklands_config_windows.conf -noconsole"
+				"description"		"Darklands - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Darklands.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_darklands_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_darklands_game_daum.sh"
+				"description"		"Play Darklands in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_darklands_config.sh"
+				"description"		"Darklands - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german"
+		"327931"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2437009133215401604"
+					"size"		"91542397"
+					"download"		"83976672"
+				}
+				"beta"
+				{
+					"gid"		"1608126032613199735"
+					"size"		"34035391"
+					"download"		"32568256"
+				}
+			}
+		}
+		"327932"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2959336667533698316"
+					"size"		"18522114"
+					"download"		"9638576"
+				}
+				"beta"
+				{
+					"gid"		"2959336667533698316"
+					"size"		"18522114"
+					"download"		"9638576"
+				}
+			}
+		}
+		"327933"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1694178703771587136"
+					"size"		"57052942"
+					"download"		"28749504"
+				}
+				"beta"
+				{
+					"gid"		"6003767053438791300"
+					"size"		"120301155"
+					"download"		"94085664"
+				}
+			}
+		}
+		"327934"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8855815406877771345"
+					"size"		"39597779"
+					"download"		"16480368"
+				}
+				"beta"
+				{
+					"gid"		"4805480158199372062"
+					"size"		"283620690"
+					"download"		"259030736"
+				}
+			}
+		}
+		"327935"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8608745008980894066"
+					"size"		"17457347"
+					"download"		"8684032"
+				}
+				"beta"
+				{
+					"gid"		"8608745008980894066"
+					"size"		"17457347"
+					"download"		"8684032"
+				}
+			}
+		}
+		"327936"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2904223636230370515"
+					"size"		"33921472"
+					"download"		"25209088"
+				}
+				"beta"
+				{
+					"gid"		"8736161179926271409"
+					"size"		"91572031"
+					"download"		"75467824"
+				}
+			}
+		}
+		"327937"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7803018425044182523"
+					"size"		"16439840"
+					"download"		"12581648"
+				}
+				"beta"
+				{
+					"gid"		"2372043457007308813"
+					"size"		"246094004"
+					"download"		"233423136"
+				}
+			}
+		}
+		"327938"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2227262184450694808"
+					"size"		"33921466"
+					"download"		"25209088"
+				}
+				"beta"
+				{
+					"gid"		"7620825329144354851"
+					"size"		"91572025"
+					"download"		"75467824"
+				}
+			}
+		}
+		"327939"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1083895137027112476"
+					"size"		"16439755"
+					"download"		"12581808"
+				}
+				"beta"
+				{
+					"gid"		"2780229178898519797"
+					"size"		"246093919"
+					"download"		"233423296"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"409898"
+			}
+			"beta"
+			{
+				"buildid"		"467763"
+			}
+		}
+	}
+}
