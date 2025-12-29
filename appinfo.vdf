@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"624070"
+	"common"
+	{
+		"name"		"Dragon Wars"
+		"type"		"Game"
+		"logo"		"ede5d572207bb93ad20ecd6c550368c999594f3e"
+		"logo_small"		"ede5d572207bb93ad20ecd6c550368c999594f3e_thumb"
+		"icon"		"248c7202a04d3128a76bb8c78fe3606b404552bf"
+		"clienttga"		"8c8efdfbb3935082c3cc459b41f7655270f139d0"
+		"clienticon"		"4f045d912c4ce293819830118c41e4a67946ca11"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"releasestate"		"released"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Dragon Wars"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667329325"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Interplay Entertainment Corp."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1495835366"
+		"community_hub_visible"		"1"
+		"gameid"		"624070"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"21"
+			"2"		"1720"
+			"3"		"3839"
+			"4"		"10695"
+			"5"		"4474"
+			"6"		"4747"
+			"7"		"1684"
+			"8"		"3955"
+			"9"		"3871"
+			"10"		"4975"
+			"11"		"1742"
+			"12"		"3964"
+			"13"		"7569"
+			"14"		"4325"
+			"15"		"19"
+			"16"		"4172"
+			"17"		"4182"
+			"18"		"3834"
+			"19"		"3916"
+		}
+		"review_score"		"7"
+		"review_percentage"		"89"
+	}
+	"extended"
+	{
+		"developer"		"Interplay Entertainment Corp."
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"https://www.interplay.com"
+	}
+	"config"
+	{
+		"installdir"		"Dragon Wars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Dragon Wars.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\DOSBox Staging.app\\Contents\\MacOS\\DOSBox"
+				"arguments"		"-conf \"./dosboxDragonWars.conf\" -conf \"./dosboxDragonWars_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"\"-conf\" \"./dosboxDragonWars.conf\" \"-conf\" \"./dosboxDragonWars_single.conf\" \"-noconsole\""
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"624071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"724498032345063505"
+					"size"		"56697489"
+					"download"		"35513312"
+				}
+			}
+		}
+		"624072"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1633109700765644092"
+					"size"		"60215092"
+					"download"		"34017184"
+				}
+			}
+		}
+		"624073"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7868539245947121023"
+					"size"		"64076791"
+					"download"		"37684976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18889725"
+				"timeupdated"		"1752019852"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"DRAGON"
+				"pattern"		"DATA1"
+			}
+		}
+	}
+}
