@@ -1,0 +1,227 @@
+"appinfo"
+{
+	"appid"		"50910"
+	"common"
+	{
+		"name"		"PF and the Molten Mystery"
+		"clienticon"		"98f8ddcbbe661f95020a888a9c731f39d35bd6f3"
+		"clienttga"		"c97adddc5751f7be0889acfbed67396d19750707"
+		"icon"		"e3b268297fb4d7740d5dd37a7fd77617a12916f0"
+		"logo"		"fd6b13cee200a706fdaf0ac5a95c97c388dbf573"
+		"logo_small"		"fd6b13cee200a706fdaf0ac5a95c97c388dbf573_thumb"
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1682553600"
+			"tested_build_id"		"99924"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1b9f48e452146556e93c07c9d92c7c60af75a708.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Big Fish Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BFG Entertainment"
+			}
+		}
+		"primary_genre"		"33"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1182668400"
+		"community_hub_visible"		"1"
+		"gameid"		"50910"
+		"store_tags"
+		{
+			"0"		"597"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Big Fish Games"
+		"gamedir"		"PF and the Molten Mystery"
+		"homepage"		"http://www.bigfishgames.com/download-games/1706/professor-fizzwizzle-and-the-molten-mystery/index.html"
+		"icon"		""
+		"installscriptosx"		"Professor Fizzwizzle and the Molten Mystery.app/installscript_osx.vdf"
+		"installscript_macos"		"Professor Fizzwizzle and the Molten Mystery.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"BFG Entertainment"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"PF and the Molten Mystery"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PFMM.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Professor Fizzwizzle and the Molten Mystery.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"50912"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8472148933549401497"
+					"size"		"25187367"
+					"download"		"0"
+				}
+			}
+		}
+		"50911"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5613083644038620813"
+					"size"		"19022405"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"99924"
+			}
+		}
+	}
+}
