@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"446070"
+	"common"
+	{
+		"name"		"ecotone"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"b07cf490fe01949960cfc42c3a3ae4983a22bfed"
+		"clienttga"		"e5e2694b679298377df210b0b4bfbcf005a0e235"
+		"icon"		"02953a4ac7f05a5cce89cc233ef44a3d21c2b459"
+		"logo"		"c025ab0dde240a8be2cd7fe8e56e352ebb78d01c"
+		"logo_small"		"c025ab0dde240a8be2cd7fe8e56e352ebb78d01c_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"ecotone"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_bf37c4b0305e40d3f957ebbea16cf54cb1d6e3b6.jpg"
+		"store_asset_mtime"		"1484557222"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sundae Factory"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Sundae Factory"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1462553982"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"446070"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"492"
+			"3"		"1625"
+			"4"		"5537"
+			"5"		"493"
+			"6"		"4166"
+			"7"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Sundae Factory"
+		"publisher"		"Sundae Factory"
+		"homepage"		"http://ecotone.sundae-factory.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ecotone"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ecotone.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ecotone.app/Contents/MacOS/ecotone"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"ecotone"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"446071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7595568272223501311"
+					"size"		"147768341"
+					"download"		"130305600"
+				}
+			}
+		}
+		"446072"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7295141838497876771"
+					"size"		"152836155"
+					"download"		"125229600"
+				}
+			}
+		}
+		"446073"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6635842223277157468"
+					"size"		"160371213"
+					"download"		"126052656"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1156160"
+				"timeupdated"		"1464711701"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"ecotone"
+			}
+		}
+	}
+}
