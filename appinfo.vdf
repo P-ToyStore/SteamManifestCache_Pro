@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"269350"
+	"common"
+	{
+		"name"		"Montas"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"e2129eaea212f6998a854ff63f759d619d9827ce"
+		"logo_small"		"e2129eaea212f6998a854ff63f759d619d9827ce_thumb"
+		"icon"		"c835e0bd11f1809f8831fc94e40df20c66b1ec5e"
+		"clienttga"		"84b5931913b0f7b8308290a87845f7d09a2d54c5"
+		"clienticon"		"36546f1bb5d3b8581d50afaee1afa2db81b8bf7c"
+		"clienticns"		"3195ecc1fdb7b285cdc3c44c748b09f66cdc88c0"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"269350_eula_0"
+				"name"		"Montas EULA"
+				"url"		"http://store.steampowered.com/eula/269350_eula_0"
+			}
+		}
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Montas"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e1471ec3f2d3e09b469bc57c511d5919f12cbd0b.jpg"
+		"store_asset_mtime"		"1408712511"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Organic Humans"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Organic Humans"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_31"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1395678000"
+		"community_hub_visible"		"1"
+		"gameid"		"269350"
+		"store_tags"
+		{
+			"0"		"1667"
+			"1"		"21"
+			"2"		"492"
+			"3"		"493"
+			"4"		"21978"
+			"5"		"1662"
+			"6"		"3834"
+			"7"		"3839"
+		}
+		"review_score"		"4"
+		"review_percentage"		"37"
+	}
+	"extended"
+	{
+		"developer"		"Organic Humans"
+		"publisher"		"Organic Humans"
+		"homepage"		"http://montasgame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Montas"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/UDK.exe"
+				"description"		"Launch Montas"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Montas.app/Contents/MacOS/UDKGame"
+				"description"		"Launch Montas"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"269351"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4169254510637742485"
+					"size"		"1498397054"
+					"download"		"139513841807"
+				}
+				"local"
+				{
+					"gid"		"536929919214100069"
+					"size"		"781343864"
+					"download"		"0"
+				}
+			}
+		}
+		"269352"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1943064296297626898"
+					"size"		"747150687"
+					"download"		"45918948632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"442247"
+			}
+			"local"
+			{
+				"buildid"		"187282"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"UDKGame\\Save"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
