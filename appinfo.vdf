@@ -1,0 +1,264 @@
+"appinfo"
+{
+	"appid"		"1200150"
+	"common"
+	{
+		"name"		"Hyperwheel Overdrive"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"682a1629e84db9f7fb15c2c8b76921c0d0be8eda"
+		"clienttga"		"8c238ff0c2b61dcdb074551e047d44d57ea401cf"
+		"icon"		"57ecdd97b9e061a441af0b2674dc37a6046d74fd"
+		"logo"		"3856b9435cd9114cfebbe2f73e07a53cd4fb62b6"
+		"logo_small"		"3856b9435cd9114cfebbe2f73e07a53cd4fb62b6_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1200150_eula_0"
+				"name"		"Hyperwheel Overdrive EULA"
+				"url"		"https://store.steampowered.com//eula/1200150_eula_0"
+			}
+		}
+		"openvr_action_manifest_path"		"Hyperwheel Overdrive_Data\\StreamingAssets\\SteamVR\\actions.json"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"47.391928245656246"
+				"height_pct"		"84.52680838473323"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"47.391928245656246"
+					"height_pct"		"84.52680838473323"
+				}
+			}
+		}
+		"store_asset_mtime"		"1679433736"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Neon Engine"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Neon Engine"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1658341414"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1200150"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"21978"
+			"1"		"11104"
+			"2"		"4102"
+			"3"		"19"
+			"4"		"699"
+			"5"		"1663"
+			"6"		"3839"
+			"7"		"3859"
+			"8"		"1775"
+			"9"		"1644"
+			"10"		"1774"
+			"11"		"5547"
+			"12"		"3942"
+			"13"		"4295"
+			"14"		"1100687"
+			"15"		"3993"
+			"16"		"12057"
+			"17"		"4182"
+			"18"		"3934"
+			"19"		"1697"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Neon Engine"
+		"publisher"		"Neon Engine"
+		"homepage"		"https://neonengine.net/hyperwheel"
+	}
+	"config"
+	{
+		"installdir"		"Hyperwheel Overdrive"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Hyperwheel Overdrive.exe"
+				"arguments"		"-vrmode auto"
+				"type"		"vr"
+				"description_loc"
+				{
+					"english"		"using last loaded VR Mode"
+				}
+				"description"		"using last loaded VR Mode"
+			}
+			"2"
+			{
+				"executable"		"Hyperwheel Overdrive.exe"
+				"arguments"		"-vrmode openvr"
+				"type"		"vr"
+			}
+			"3"
+			{
+				"executable"		"Hyperwheel Overdrive.exe"
+				"arguments"		"-vrmode oculus"
+				"type"		"othervr"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1200151"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1469903921743958957"
+					"size"		"4760104822"
+					"download"		"937817872"
+				}
+				"beta"
+				{
+					"gid"		"3730111570078373728"
+					"size"		"5697141921"
+					"download"		"1195996864"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11601774"
+				"timeupdated"		"1688159144"
+			}
+			"beta"
+			{
+				"buildid"		"14100924"
+				"description"		"Public beta branch"
+				"timeupdated"		"1713470727"
+			}
+		}
+	}
+}
