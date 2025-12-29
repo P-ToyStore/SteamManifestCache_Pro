@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"367710"
+	"common"
+	{
+		"name"		"Afterlife Empire"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"logo"		"fa60b0776210cc3bd09bc7b963a6e2bb9f3788f3"
+		"logo_small"		"fa60b0776210cc3bd09bc7b963a6e2bb9f3788f3_thumb"
+		"icon"		"a3694435adf30c488e73996a2a228ed36d2f7cd9"
+		"clienttga"		"bac4d5aaaff01c66b48e06264947d6c4fc94388d"
+		"clienticon"		"1a28ff3b6a989f3463255c333a505073b5563ad2"
+		"clienticns"		"d6fd671f41867fc6985b407e248faff115fc3737"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Afterlife Empire"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cbca7d56b4b1b06fcc02987ffaf47f5ae1fef607.jpg"
+		"store_asset_mtime"		"1440118989"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Autobotika"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Game Nation Inc"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"The Fine Young Capitalists"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1440185885"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"367710"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"9"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"developer"		"Autobotika"
+		"publisher"		"The Fine Young Capitalists"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Afterlife Empire"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Afterlife Empire.exe"
+				"description"		"Run Game Windowed"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Afterlife Empire.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Afterlife Empire.exe"
+				"arguments"		"Fullscreen w1920 h1080"
+				"description"		"Run Game Fullscreen 1080P"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Afterlife Empire.exe"
+				"arguments"		"Fullscreen w1280 h720"
+				"description"		"Run Game Fullscreen 720P"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"Afterlife Empire.exe"
+				"arguments"		"MultiMid"
+				"description"		"Compatibility Mode run if there is a OpenGL Error"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"Afterlife Empire.exe"
+				"arguments"		"MultiLow"
+				"description"		"Safe Mode, Run if there is still an OpenGL Error"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"367711"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8416299348582948970"
+					"size"		"291119685"
+					"download"		"238522592"
+				}
+			}
+		}
+		"367712"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2095449652184130148"
+					"size"		"244077926"
+					"download"		"219910832"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"824116"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
