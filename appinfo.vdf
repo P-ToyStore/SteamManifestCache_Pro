@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"752560"
+	"common"
+	{
+		"name"		"Noahmund"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"spanish"		"1"
+			"japanese"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"63a602e69d08258a2de131981076951fefe37701"
+		"logo_small"		"63a602e69d08258a2de131981076951fefe37701_thumb"
+		"icon"		"b49756b85e237acc7230fe7f4c62c532f8e85714"
+		"clienticon"		"d2f0cedca016ca0abb65a262259ec6cab05349c5"
+		"clienttga"		"219bf603c3b3bcdf0c0d8a92861c45f0eb5f1c86"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Noahmund"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ec7df4e2e1755b584afcd7b1475ecf5d72f0711a.jpg"
+		"store_asset_mtime"		"1530632436"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Estudio Ábrego"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Estudio Ábrego"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Shinyuden"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"73"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_28"		"1"
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1533253697"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"752560"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"4667"
+			"3"		"122"
+			"4"		"9"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Estudio Ábrego"
+		"publisher"		"Estudio Ábrego"
+		"homepage"		"http://www.noahmund.com"
+		"listofdlc"		"891280,896260"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Noahmund"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Noahmund.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"752561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3850076355009184859"
+					"size"		"6614199085"
+					"download"		"2391740416"
+				}
+			}
+		}
+		"891280"
+		{
+			"dlcappid"		"891280"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3550537069377929117"
+					"size"		"2038201118"
+					"download"		"1792682448"
+				}
+			}
+		}
+		"896260"
+		{
+			"dlcappid"		"896260"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8038054917682335690"
+					"size"		"47433647"
+					"download"		"46273504"
+				}
+			}
+			"config"
+			{
+				"optionaldlc"		"896260"
+			}
+		}
+		"896280"
+		{
+			"dlcappid"		"896280"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3554317"
+				"timeupdated"		"1549990252"
+			}
+		}
+		"privatebranches"		"1"
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"EstudioAbrego/Noahmund/Saves"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"EstudioAbrego/Noahmund/Saves"
+				"pattern"		"*.png"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
