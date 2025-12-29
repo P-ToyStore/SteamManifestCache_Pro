@@ -1,0 +1,289 @@
+"appinfo"
+{
+	"appid"		"726870"
+	"common"
+	{
+		"name"		"Anchorhead"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"9f75ccca58b759f2263fd429d2b0ce69809a103e"
+		"logo_small"		"9f75ccca58b759f2263fd429d2b0ce69809a103e_thumb"
+		"icon"		"57ec3153fa60f00cb12bdd965a2026677a4c69e4"
+		"clienticon"		"bb6149952faf0a7ca3ec162490d6e4d644d168b7"
+		"clienttga"		"18c55b424c8da80e4445461cdf37b2f807a5127d"
+		"clienticns"		"dc17f65450b382110b802cb950fa180423a48c94"
+		"linuxclienticon"		"88ebf2ae1b2356716915c50fb4f6de6e7c94567e"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1665187200"
+			"tested_build_id"		"2425193"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Anchorhead"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ddfb83cda00f41bffc60a56c93464232efd7e5f7.jpg"
+		"store_asset_mtime"		"1511723786"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Michael Gentry"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Michael Gentry"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1517414330"
+		"community_hub_visible"		"1"
+		"gameid"		"726870"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"1667"
+			"3"		"11014"
+			"4"		"7432"
+			"5"		"31275"
+			"6"		"1742"
+			"7"		"1664"
+		}
+		"review_score"		"7"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"developer"		"Michael Gentry"
+		"publisher"		"Michael Gentry"
+		"homepage"		"http://www.anchorhead-game.com"
+	}
+	"config"
+	{
+		"installdir"		"Anchorhead"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Anchorhead.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Anchorhead.app\\Contents\\MacOS\\Anchorhead"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Anchorhead-launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"726871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4782638139077650631"
+					"size"		"157035695"
+					"download"		"57728896"
+				}
+				"test"
+				{
+					"gid"		"8968358845851068735"
+					"size"		"157020847"
+					"download"		"57725856"
+				}
+			}
+		}
+		"726872"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5489107431906782238"
+					"size"		"126709819"
+					"download"		"51410320"
+				}
+				"test"
+				{
+					"gid"		"8075882536589487687"
+					"size"		"126694971"
+					"download"		"51407280"
+				}
+			}
+		}
+		"726873"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2931745211334758683"
+					"size"		"151378843"
+					"download"		"55024224"
+				}
+				"test"
+				{
+					"gid"		"4721058140530890784"
+					"size"		"151363995"
+					"download"		"55021184"
+				}
+			}
+		}
+		"726874"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"760450384831843039"
+					"size"		"156701271"
+					"download"		"55872576"
+				}
+				"test"
+				{
+					"gid"		"2356636108655513010"
+					"size"		"156686473"
+					"download"		"55869632"
+				}
+			}
+		}
+		"726875"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4882070521842086825"
+					"size"		"151413791"
+					"download"		"54732800"
+				}
+				"test"
+				{
+					"gid"		"8964377818796363198"
+					"size"		"151398993"
+					"download"		"54729856"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2425193"
+				"timeupdated"		"1515560131"
+			}
+			"test"
+			{
+				"buildid"		"2515772"
+				"timeupdated"		"1518320118"
+			}
+		}
+	}
+}
