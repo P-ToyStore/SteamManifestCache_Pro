@@ -1,0 +1,184 @@
+"appinfo"
+{
+	"appid"		"653960"
+	"common"
+	{
+		"name"		"DinoBlaster"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"2d8a63ac253fbc22627ae54d4edb7d7920a67e54"
+		"logo_small"		"2d8a63ac253fbc22627ae54d4edb7d7920a67e54_thumb"
+		"icon"		"5e554b02e2221d7024e74ce55cf141b5a857a6be"
+		"clienttga"		"b78d94a332a4d2463e6ecac62946b36afd6de436"
+		"clienticon"		"73ab7976fb26968ac7ee876063411053655b6b52"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"DinoBlaster"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_fde8d7258bb1991de350bf7a612a960891788779.jpg"
+		"store_asset_mtime"		"1497418105"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Casey Labrack"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Casey Labrack"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_18"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1515023713"
+		"community_hub_visible"		"1"
+		"gameid"		"653960"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Casey Labrack"
+		"publisher"		"Casey Labrack"
+		"homepage"		"http://www.rundino.run"
+	}
+	"config"
+	{
+		"installdir"		"DinoBlaster"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DinoBlaster.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DinoBlaster.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"653961"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2829372172037248320"
+					"size"		"331236765"
+					"download"		"76198336"
+				}
+			}
+		}
+		"653962"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"959062134882083675"
+					"size"		"344489969"
+					"download"		"78749056"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2408905"
+				"timeupdated"		"1514952373"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Shastabolicious/DinoBlaster"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Shastabolicious/DinoBlaster"
+						"replace"		"Shastabolicious/DinoBlaster"
+					}
+				}
+			}
+		}
+	}
+}
