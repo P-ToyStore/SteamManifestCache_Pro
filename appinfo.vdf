@@ -1,0 +1,290 @@
+"appinfo"
+{
+	"appid"		"1260020"
+	"common"
+	{
+		"name"		"PowerSlave (DOS Classic Edition)"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"fdfa545c4506cbabfe2e02fd6c7b2a8e26276d61"
+		"logo_small"		"fdfa545c4506cbabfe2e02fd6c7b2a8e26276d61_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"cefc4927e2539b60af287e53d60a316dcee8b378"
+		"clienticon"		"832964660b076d504e68c8151b12cda22e73ced4"
+		"clienttga"		"1b59b4662f4602e10ae0cb469c90b8d313302e9a"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"57.99299883313887"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"57.99299883313887"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1674746358"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lobotomy Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Throwback Entertainment"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"MIRROR Soft"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"PowerSlave"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1627427939"
+		"community_hub_visible"		"1"
+		"gameid"		"1260020"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4345"
+			"2"		"4667"
+			"3"		"6691"
+			"4"		"3839"
+			"5"		"1663"
+			"6"		"1774"
+			"7"		"4004"
+			"8"		"1693"
+			"9"		"1023537"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Lobotomy Software"
+		"publisher"		"Throwback Entertainment"
+		"homepage"		"https://mirrorsoft.com/index.php/project/powerslave/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1260020/"
+	}
+	"config"
+	{
+		"installdir"		"PowerslaveCE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-exit -noconsole -conf \"dosbox_powerslave.conf\" ^ -c \"mount e '..\\PowerslaveCE'\" ^ -c \"e:\" ^ -c \"imgmount d Powerslave_DOS_(1996).cue -t cdrom\" ^ -c \"cd PWRSLAVE\" ^ -c \"PS.exe -noconsole\" ^ -c \"exit\""
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-exit -noconsole -conf \"dosbox_powerslave.conf\" ^ -c \"mount e '..\\PowerslaveCE'\" ^ -c \"e:\" ^ -c \"imgmount d Powerslave_DOS_(1996).cue -t cdrom\" ^ -c \"cd PWRSLAVE\" ^ -c \"MENU.exe -noconsole\" ^ -c \"exit\""
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-exit -noconsole -conf \"dosbox_powerslave.conf\" ^ -c \"mount e '..\\PowerslaveCE'\" ^ -c \"e:\" ^ -c \"imgmount d Powerslave_DOS_(1996).cue -t cdrom\" ^ -c \"cd PWRSLAVE\" ^ -c \"EXPSDEHK.exe -noconsole\" ^ -c \"exit\""
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Powerslave.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"runPowerslave.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"runPowerslaveMenu.sh"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"runPowerslaveDehacker.sh"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1260021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5780581032945348407"
+					"size"		"514216065"
+					"download"		"361003744"
+				}
+			}
+		}
+		"1260022"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3859356249795156017"
+					"size"		"497086329"
+					"download"		"359949968"
+				}
+			}
+		}
+		"1260023"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5909283767235312891"
+					"size"		"513983931"
+					"download"		"359870880"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7101914"
+				"timeupdated"		"1627491258"
+			}
+		}
+	}
+}
