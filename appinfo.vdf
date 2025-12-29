@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"1197390"
+	"common"
+	{
+		"name"		"Robot Island"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"logo"		"8e062f612245060b35b1322e5ecf2eb76c9d5657"
+		"logo_small"		"8e062f612245060b35b1322e5ecf2eb76c9d5657_thumb"
+		"icon"		"bef8aa77339a358e2e24300b80356a5d9207f523"
+		"clienttga"		"fdcdf28708a6d5b6a696eb7c3458a7d95f817b2b"
+		"clienticon"		"33f7d882b87920f665a716ff110b4e14aa5b35bd"
+		"releasestate"		"released"
+		"metacritic_name"		"Robot Island"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"47.24348199039381"
+				"height_pct"		"26.29253730245648"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"47.24348199039381"
+					"height_pct"		"26.29253730245648"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1589574660"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"New Beings"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"New Beings"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1592328786"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1197390"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"3799"
+			"2"		"5752"
+			"3"		"1742"
+			"4"		"3942"
+			"5"		"1755"
+			"6"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"New Beings"
+		"publisher"		"New Beings"
+		"homepage"		"http://newbeings.com"
+	}
+	"config"
+	{
+		"installdir"		"Robot Island"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"robotisland/Robot Island.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"robotisland.app/Contents/MacOS/robotisland"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1197391"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"413785645084436720"
+					"size"		"1380409071"
+					"download"		"223280224"
+				}
+			}
+		}
+		"1197392"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1891509345595426928"
+					"size"		"1374477501"
+					"download"		"220142416"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5152912"
+				"timeupdated"		"1591918035"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"New Beings/Robot Island"
+				"pattern"		"saveData.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"New Beings/Robot Island"
+						"replace"		"New Beings/Robot Island"
+					}
+				}
+			}
+		}
+	}
+}
