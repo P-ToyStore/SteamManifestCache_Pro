@@ -1,0 +1,252 @@
+"appinfo"
+{
+	"appid"		"1398420"
+	"common"
+	{
+		"name"		"One Last Dungeon"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"5d0e125d70e489185572db50d4e72829a2d5b4bc"
+		"logo_small"		"5d0e125d70e489185572db50d4e72829a2d5b4bc_thumb"
+		"icon"		"4678379b04821a27919bdc2ce40477eb4d03cc07"
+		"clienticon"		"1d4658c6a2dceeb1827ad6ac8df48db86f3be0cd"
+		"clienttga"		"4b3f79565b9cd9453c68710522c5f16f2a8520cd"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"47.571692842689146"
+				"height_pct"		"66.65089877010408"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"47.571692842689146"
+					"height_pct"		"66.65089877010408"
+				}
+			}
+		}
+		"store_asset_mtime"		"1607811996"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Thawmus"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Thawmus"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1608829962"
+		"community_hub_visible"		"1"
+		"gameid"		"1398420"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"9"
+			"2"		"1716"
+			"3"		"1666"
+			"4"		"4231"
+			"5"		"4182"
+			"6"		"791774"
+			"7"		"1720"
+			"8"		"3959"
+			"9"		"492"
+			"10"		"3871"
+			"11"		"21"
+			"12"		"4085"
+			"13"		"1684"
+			"14"		"32322"
+		}
+		"review_score"		"7"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Thawmus"
+		"publisher"		"Thawmus"
+	}
+	"config"
+	{
+		"installdir"		"One Last Dungeon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"One Last Dungeon.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Contents\\MacOS\\One Last Dungeon"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1398421"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4093532018950723184"
+					"size"		"1255704497"
+					"download"		"138304336"
+				}
+			}
+		}
+		"1398422"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7542686038458259958"
+					"size"		"1256370487"
+					"download"		"138680032"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6236009"
+				"timeupdated"		"1613242158"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Thawmusu Productions/One Last Dungeon"
+				"pattern"		"*.data"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"MacAppSupport"
+				"path"		"unity.Thawmusu Productions.One Last Dungeon"
+				"pattern"		"*.data"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"unity.Thawmusu Productions.One Last Dungeon"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"addpath"		"Thawmusu Productions/One Last Dungeon"
+			}
+		}
+	}
+}
