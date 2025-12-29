@@ -1,0 +1,201 @@
+"appinfo"
+{
+	"appid"		"404420"
+	"common"
+	{
+		"name"		"Sun Dogs"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"logo"		"b8375f88c1f34a278a5cc2be6939e8b29f4979e3"
+		"logo_small"		"b8375f88c1f34a278a5cc2be6939e8b29f4979e3_thumb"
+		"clienticon"		"fd5b961b7a8ab00d427a8cadfa00ee756d874df0"
+		"clienttga"		"1447d8741084169af4078ba502d43cde4bb1f62d"
+		"icon"		"c5eef28fb79b1b308cf0dd0b9bc6dcda5b9e33d8"
+		"clienticns"		"ffd737231fef1adc1d010a816bac1a43e5a169de"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Sun Dogs"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e2679a454b4e5188b77e61c8270e81da5c4e017d.jpg"
+		"store_asset_mtime"		"1442625539"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Royal Polygon"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Royal Polygon"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_17"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1446115777"
+		"community_hub_visible"		"1"
+		"gameid"		"404420"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+			"3"		"11014"
+			"4"		"1755"
+			"5"		"4094"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"Royal Polygon"
+		"publisher"		"Royal Polygon"
+		"homepage"		"http://www.sundogsgame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sun Dogs"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"sundogs.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Sun Dogs.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"404421"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"478286578505271511"
+					"size"		"104162090"
+					"download"		"75407344"
+				}
+			}
+		}
+		"404422"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2915713253077793431"
+					"size"		"145214375"
+					"download"		"86063888"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1210696"
+				"timeupdated"		"1467594929"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"60"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"sundogs_Data\\Story"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"sundogs_Data\\Story"
+				"pattern"		"*.sde"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Sun Dogs.app\\Contents\\Story"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"Sun Dogs.app\\Contents\\Story"
+				"pattern"		"*.sde"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
