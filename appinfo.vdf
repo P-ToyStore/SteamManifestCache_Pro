@@ -1,0 +1,276 @@
+"appinfo"
+{
+	"appid"		"745560"
+	"common"
+	{
+		"name"		"Overclocked"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"c1b92591ca7c34ddbb291191d9d6f99ed30ccc5d"
+		"clienttga"		"bd1ff31f9a688a51c088caf11b7ff5da597d7737"
+		"icon"		"ab2368bdb2d7aeee445fcaf90e78c430519039e1"
+		"logo"		"c89889ad1cc3fb33277fa2cfb91c30dcefe9feda"
+		"logo_small"		"c89889ad1cc3fb33277fa2cfb91c30dcefe9feda_thumb"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1706745600"
+			"tested_build_id"		"3283571"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+				"hdr_support"		"0"
+			}
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3fc5e9e76da6c869c00256ab268ee46b74e4181d.jpg"
+		"store_asset_mtime"		"1750451931"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Magnesium Ninja"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Magnesium Ninja"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"37"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1539132906"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"745560"
+		"exfgls"		"3"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"113"
+			"2"		"492"
+			"3"		"1625"
+			"4"		"4026"
+			"5"		"7208"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Magnesium Ninja"
+		"publisher"		"Magnesium Ninja"
+		"isfreeapp"		"1"
+		"listofdlc"		"937510"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Overclocked"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Overclocked.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Overclocked.app\\Contents\\MacOS\\Overclocked"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"745561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3786030637075076646"
+					"size"		"234618746"
+					"download"		"101241152"
+				}
+			}
+		}
+		"745562"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3358507455036371854"
+					"size"		"269268576"
+					"download"		"110852304"
+				}
+			}
+		}
+		"937510"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2327736163046707881"
+					"size"		"288628297"
+					"download"		"288826208"
+				}
+			}
+			"dlcappid"		"937510"
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3283571"
+				"timeupdated"		"1541557482"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Overclocked"
+				"pattern"		"oc_save_*"
+			}
+		}
+		"rootoverrides"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Overclocked"
+						"replace"		"com.magnesiumninja.overclocked"
+					}
+				}
+			}
+		}
+	}
+}
