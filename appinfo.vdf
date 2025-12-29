@@ -1,0 +1,177 @@
+"appinfo"
+{
+	"appid"		"734450"
+	"common"
+	{
+		"name"		"Grimante"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"3cc018d63be2f44174e4bae680651980b9bd9b1c"
+		"logo_small"		"3cc018d63be2f44174e4bae680651980b9bd9b1c_thumb"
+		"icon"		"fc6d543d8e1bfa5e994262e8b6ca53c35377a92d"
+		"clienticon"		"77ab843aed0baa3f6d97bb0ec7db4ff3c05ee39f"
+		"clienttga"		"2259fb9a1c03a8be25e01e18b1c022d55fe06313"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Grimante"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9140a0cdf0a898ec267cb1482baa9eedee18da9a.jpg"
+		"store_asset_mtime"		"1516770758"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"aftermonk"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"aftermonk"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1518109324"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"734450"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"aftermonk"
+		"publisher"		"aftermonk"
+		"homepage"		"http://www.grimante.com/"
+	}
+	"config"
+	{
+		"installdir"		"Grimante"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"grimante.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Grimante.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"734451"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1713883314195163778"
+					"size"		"73409528"
+					"download"		"39384624"
+				}
+			}
+		}
+		"734452"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"832732933594135341"
+					"size"		"116142117"
+					"download"		"49018672"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2515159"
+				"timeupdated"		"1518287481"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Godot/app_userdata/Grimante"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacHome"
+				"path"		"/.godot/app_userdata/Grimante"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
