@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"569870"
+	"common"
+	{
+		"name"		"Experiment Gone Rogue"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"icon"		"b53baaf2e9629778623b33c953ebec5672f519c1"
+		"clienticon"		"b8c7bf45f7a9f122ffcb78adafa88e1507ef73de"
+		"clienttga"		"6e292618c14bdfa53e2a65cd3969f17fc8243281"
+		"logo"		"338fede5ed51a89287f35fba87f4141a596c90a6"
+		"logo_small"		"338fede5ed51a89287f35fba87f4141a596c90a6_thumb"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Experiment Gone Rogue"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_426909cf3b994e8e4a2f4730ef145dec9e45e675.jpg"
+		"store_asset_mtime"		"1545123085"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Repulse"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"SZH"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_29"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1545318360"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"569870"
+		"onlyvrsupport"		"1"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"6650"
+			"3"		"21978"
+			"4"		"3942"
+			"5"		"493"
+			"6"		"1774"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Repulse"
+		"publisher"		"SZH"
+		"homepage"		"http://www.repulse.com/experiment-gone-rogue/"
+	}
+	"config"
+	{
+		"installdir"		"Experiment Gone Rogue"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ExperimentGoneRogueVR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ExperimentGoneRogueVR.exe"
+				"arguments"		"-vrmode oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"569871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4893100772536402513"
+					"size"		"13425533231"
+					"download"		"3639151808"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3416386"
+				"timeupdated"		"1545318247"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"4000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"CupcakesVR/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
