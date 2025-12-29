@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"37340"
+	"common"
+	{
+		"name"		"Fitness Dash"
+		"clienticon"		"084edf664a3ed337cf038b3b960bd170817e612b"
+		"clienttga"		"e6eda4ece0c0d105ea94075a3b235901fd774b59"
+		"icon"		"66679f4f804e763a96478016076f6691ba7fb7fc"
+		"logo"		"0d19685ad250df8d8f9e113883535209bb5da198"
+		"logo_small"		"0d19685ad250df8d8f9e113883535209bb5da198_thumb"
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1702080000"
+			"tested_build_id"		"19560"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c50b9454164847f4af75852dcbb387088cfb8d3b.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sarbakan"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PlayFirst"
+			}
+		}
+		"primary_genre"		"33"
+		"genres"
+		{
+			"0"		"33"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1230710400"
+		"steam_release_date"		"1273166700"
+		"community_hub_visible"		"1"
+		"gameid"		"37340"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"16689"
+		}
+		"review_score"		"6"
+		"review_percentage"		"73"
+	}
+	"extended"
+	{
+		"developer"		"Sarbakan"
+		"gamedir"		"Fitness Dash"
+		"homepage"		""
+		"icon"		""
+		"installscriptosx"		"Fitness Dash.app/installscript_osx.vdf"
+		"installscript_macos"		"Fitness Dash.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"PlayFirst"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Fitness Dash"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"fitnessdash.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Fitness Dash.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"37342"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8310671020466220350"
+					"size"		"24680459"
+					"download"		"0"
+				}
+			}
+		}
+		"37341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6182907715294378853"
+					"size"		"23441378"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19560"
+			}
+		}
+	}
+}
