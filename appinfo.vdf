@@ -1,0 +1,145 @@
+"appinfo"
+{
+	"appid"		"220960"
+	"common"
+	{
+		"name"		"ACDSee 15"
+		"type"		"Application"
+		"clienticon"		"020c81f9c04707e6c90c915dfadf26fc53dccb99"
+		"clienttga"		"f18e28c80514c69968ceb8e88e6ed39ef691ae8c"
+		"icon"		"e01b51160d2bc95dfd352561271e30afbdc2a397"
+		"oslist"		"windows"
+		"metacritic_name"		"ACDSee 15"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8158dc831a6353400d90d0509fcde71969d56832.jpg"
+		"store_asset_mtime"		"1354573260"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ACD Systems International Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ACD Systems International Inc."
+			}
+		}
+		"primary_genre"		"55"
+		"genres"
+		{
+			"0"		"55"
+		}
+		"category"
+		{
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"220960"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"809"
+		}
+		"review_score"		"5"
+		"review_percentage"		"59"
+	}
+	"extended"
+	{
+		"developer"		"ACD Systems International Inc."
+		"gamedir"		"ValveTestApp220960"
+		"homepage"		"http://www.acdsee.com/en/products/acdsee-15"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"ACD Systems International Inc."
+		"gamemanualurl"		"https://store.steampowered.com/manual/220960/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ACDSee 15"
+		"installscriptsignature"		"4d8dea6c6734be4081bd7a8406d181f590aaac6685135d4dd2b4d945f1c2e92064789f1ff6ef3f9538eeacce4a3ae47c33e6c454d2fc7ec9227e0c64dfe813eee4c7f13fd01fa363a4d508e2e22e50f214a3e3386320a0c30810d7d8def2daae0aa6fd3ed87a3cb14b16cee025ee88f5f9e6469942180e1c9901f51738345d12"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"acdseefs15.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"install"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\220960"
+				"process 1"		"%INSTALLDIR%\\setup\\setup.exe"
+				"command 1"		"/s /v\"/qn INSTALLDIR=\\\"%INSTALLDIR%\\\" SHELL_INTEGRATION_LEVEL=\\\"Free\\\"\""
+			}
+		}
+		"run process on uninstall"
+		{
+			"uninstall"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\220960"
+				"process 1"		"%WinDir%\\System32\\msiexec.exe"
+				"command 1"		"/qn /x {3F0753D5-C717-4D04-A759-61686FF27E5C}"
+			}
+		}
+	}
+	"depots"
+	{
+		"220961"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3163730482912995171"
+					"size"		"178955590"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24109"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
