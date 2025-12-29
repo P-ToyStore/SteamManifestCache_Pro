@@ -1,0 +1,272 @@
+"appinfo"
+{
+	"appid"		"383690"
+	"common"
+	{
+		"name"		"Mu Complex"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"eulas"
+		{
+		}
+		"logo"		"6cd4291e80c2c1dafc73a05b3d9e4603995f24fe"
+		"logo_small"		"6cd4291e80c2c1dafc73a05b3d9e4603995f24fe_thumb"
+		"icon"		"3a98bc4248969b31d3e5dc469658f7efde3be09c"
+		"clienttga"		"a223153cee92d110b43e3c49c8eae232b02bdccc"
+		"clienticns"		"6e3e7853e81bd185a128ed3cc82cb0c61eca0261"
+		"linuxclienticon"		"bbaa64657e87a011cd913edbadfe394b7d7b9f8a"
+		"clienticon"		"6f6bb46133758348ba3755d663affb6c834da566"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1698710400"
+			"tested_build_id"		"841289"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Mu Complex"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_56976458ad6b43db232b49031146008ad813b439.jpg"
+		"store_asset_mtime"		"1444312248"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"studiocime"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"studiocime"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1445648358"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"383690"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"5502"
+			"3"		"1664"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"studiocime"
+		"publisher"		"studiocime"
+		"homepage"		"http://www.mucomplex.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"mucomplex"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"mucomplex.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"start_mc.sh"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"start_mc.sh"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"383691"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3507655514832937175"
+					"size"		"127739366"
+					"download"		"93850208"
+				}
+			}
+		}
+		"383692"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5089837507882365101"
+					"size"		"152532407"
+					"download"		"96141424"
+				}
+			}
+		}
+		"383693"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3054696519469416509"
+					"size"		"133910193"
+					"download"		"92542544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"841289"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.save"
+				"recursive"		"1"
+			}
+		}
+	}
+}
