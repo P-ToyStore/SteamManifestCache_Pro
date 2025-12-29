@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"433130"
+	"common"
+	{
+		"name"		"WarBirds Dogfights"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"679fd49558471da090fb12e901d70e44e983fc17"
+		"logo_small"		"679fd49558471da090fb12e901d70e44e983fc17_thumb"
+		"clienticon"		"c8a4024e2ab231548c0530fb16bcc41391bd540b"
+		"clienttga"		"ce0a786d8e8f056b7f48fa6855a702faab32f60d"
+		"icon"		"f7ae50673f561c16a8cd35e6c420d0a78a1a379a"
+		"oslist"		"windows"
+		"clienticns"		"12eacd282f2ae8284ffa52d1dc4292617b011018"
+		"metacritic_name"		"WarBirds Dogfights 2016"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"26.671310183753633"
+				"height_pct"		"66.27246925260171"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"26.671310183753633"
+					"height_pct"		"66.27246925260171"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1685139013"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"iEntertainment Network Inc"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"iEntertainment Network Inc"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"29"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1452776305"
+		"community_hub_visible"		"1"
+		"gameid"		"433130"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+			"2"		"128"
+		}
+		"review_score"		"4"
+		"review_percentage"		"33"
+	}
+	"extended"
+	{
+		"developer"		"iEntertainment Network Inc"
+		"publisher"		"iEntertainment Network Inc"
+		"homepage"		"http://www.TotalSims.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"WarBirds Dogfights"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"wb3_steam.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"wb3_steam.exe"
+				"arguments"		"/devicedlg"
+				"description"		"Display Options"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dogfights.app/Contents/MacOS/WarBirds"
+				"workingdir"		"Dogfights.app/Contents/Resources"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"433131"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7128530182606326376"
+					"size"		"6299742328"
+					"download"		"2288974144"
+				}
+				"dogfightsmac"
+				{
+					"gid"		"8170325568530756398"
+					"size"		"5916368294"
+					"download"		"2182605824"
+				}
+			}
+		}
+		"433132"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1802713752055462237"
+					"size"		"5266418577"
+					"download"		"2060211296"
+				}
+				"dogfightsmac"
+				{
+					"gid"		"4841986697497459783"
+					"size"		"5902799544"
+					"download"		"2175557104"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8208842"
+				"timeupdated"		"1644954111"
+			}
+			"dogfightsmac"
+			{
+				"buildid"		"2587515"
+				"timeupdated"		"1520527572"
+			}
+		}
+	}
+}
