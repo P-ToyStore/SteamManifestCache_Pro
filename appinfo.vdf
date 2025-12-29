@@ -1,0 +1,310 @@
+"appinfo"
+{
+	"appid"		"284260"
+	"common"
+	{
+		"name"		"PANORAMICAL"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"d2648f67c4750630464e86728cc4df73bc8fba9a"
+		"logo_small"		"d2648f67c4750630464e86728cc4df73bc8fba9a_thumb"
+		"icon"		"6a18c268699a230e7cd08968b5579036b7ba0fde"
+		"clienttga"		"dc02167e8a0ac992362ed7e6ac333880eb364d48"
+		"clienticon"		"316ffdde80f83ab4c0ba8d6ca43ad3e50c42c3b1"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1663891200"
+			"tested_build_id"		"785527"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"PANORAMICAL"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_047c3bb4181d0f563fb561f4537f56f9bcad700b.jpg"
+		"store_asset_mtime"		"1667408742"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fernando Ramallo"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"David Kanaga"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Finji"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1442473200"
+		"steam_release_date"		"1442509237"
+		"community_hub_visible"		"1"
+		"gameid"		"284260"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"4166"
+			"2"		"13782"
+			"3"		"4182"
+			"4"		"1714"
+			"5"		"7481"
+			"6"		"1621"
+			"7"		"5900"
+			"8"		"4305"
+			"9"		"1756"
+		}
+		"review_score"		"8"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"Fernando Ramallo"
+		"publisher"		"Finji"
+		"homepage"		"http://www.panoramic.al"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"PANORAMICAL"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Panoramical.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Panoramical.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Panoramical.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"284261"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5978266979567351227"
+					"size"		"862099221"
+					"download"		"475604560"
+				}
+			}
+		}
+		"284264"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1051979494339223303"
+					"size"		"866137317"
+					"download"		"474007312"
+				}
+			}
+		}
+		"284262"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5830998233360163173"
+					"size"		"869501485"
+					"download"		"483919184"
+				}
+			}
+		}
+		"284263"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5302254975006760797"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"785527"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"500000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"/"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"/"
+				"pattern"		"*.cfg"
+			}
+		}
+	}
+}
