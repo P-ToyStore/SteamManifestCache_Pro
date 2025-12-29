@@ -1,0 +1,250 @@
+"appinfo"
+{
+	"appid"		"700880"
+	"common"
+	{
+		"name"		"Kingdom: The Far Reaches"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"3bc2dcd5921f7bdd21d599fca023024ded5afa30"
+		"logo_small"		"3bc2dcd5921f7bdd21d599fca023024ded5afa30_thumb"
+		"clienticon"		"d2d5dc1c97c3aa8b6cbf718e3631179a37459af3"
+		"clienttga"		"bfe5e4845d05df52144c6cf86f55c2bc78465ab4"
+		"icon"		"ea3e95be3361d05967870829498033e4301f8b0f"
+		"releasestate"		"released"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Kingdom: The Far Reaches"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1668619563"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Interplay"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"820310400"
+		"steam_release_date"		"1504891612"
+		"community_hub_visible"		"1"
+		"gameid"		"700880"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"18594"
+			"2"		"1684"
+			"3"		"6815"
+			"4"		"6426"
+			"5"		"4562"
+			"6"		"4486"
+			"7"		"11014"
+			"8"		"19"
+			"9"		"4172"
+			"10"		"1773"
+			"11"		"4057"
+			"12"		"3834"
+			"13"		"3871"
+			"14"		"1698"
+			"15"		"597"
+			"16"		"6691"
+			"17"		"122"
+			"18"		"1742"
+			"19"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Interplay"
+		"publisher"		"Interplay"
+		"homepage"		"http://www.interplay.com"
+	}
+	"config"
+	{
+		"installdir"		"Kingdom The Far Reaches"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Kingdom.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Launch Manual.bat"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./config/dosboxKingdom.conf\" -conf \"./config/dosboxKingdom_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./config/dosboxKingdom.conf\" -conf \"./config/dosboxKingdom_doc.conf\" -noconsole"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./config/dosboxKingdom.conf\" -conf \"./config/dosboxKingdom_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./config/dosboxKingdom.conf\" -conf \"./config/dosboxKingdom_doc.conf\" -noconsole"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"700881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1560402106605731152"
+					"size"		"484475030"
+					"download"		"263787248"
+				}
+			}
+		}
+		"700882"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7945420934347627156"
+					"size"		"491854210"
+					"download"		"266118624"
+				}
+			}
+		}
+		"700883"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3040554588015350523"
+					"size"		"487992707"
+					"download"		"261175696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19167506"
+				"timeupdated"		"1752103328"
+			}
+		}
+	}
+}
