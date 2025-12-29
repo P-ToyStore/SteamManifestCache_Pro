@@ -1,0 +1,183 @@
+"appinfo"
+{
+	"appid"		"549660"
+	"common"
+	{
+		"name"		"Wondee"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"b579735284026c350dc187eef6fa7725d010559d"
+		"clienttga"		"fea4b2cd4d45869c220a2edfc677e14154eff127"
+		"icon"		"30d161bd9df6b04db8533f6f9ddac3598a52bc3c"
+		"clienticns"		"80aadd8c1a9bd20e2a5197c045dd1f9f9586064f"
+		"logo"		"ad3e36003d7fb1ddf351b0d91d051491aa5e7d88"
+		"logo_small"		"ad3e36003d7fb1ddf351b0d91d051491aa5e7d88_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Wondee"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a49a392a0f0fd914c0d6f2c185dbd3d1bb8efe62.jpg"
+		"store_asset_mtime"		"1478821582"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Garret Polk"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Garret Polk"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1481052083"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"549660"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Garret Polk"
+		"publisher"		"Garret Polk"
+		"homepage"		"http://www.garretpolk.com/wondee.html"
+	}
+	"config"
+	{
+		"installdir"		"Wondee"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"wondee.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"wondee.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"549663"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"971834016900590456"
+					"size"		"137305835"
+					"download"		"70322368"
+				}
+			}
+		}
+		"549662"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6493847426755592424"
+					"size"		"119022780"
+					"download"		"67544688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2808265"
+				"timeupdated"		"1527292912"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Longsword Studios/Wondee"
+				"pattern"		"scores.bin"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Longsword Studios/Wondee"
+						"replace"		"com.longswordstudios.wondee"
+					}
+				}
+			}
+		}
+	}
+}
