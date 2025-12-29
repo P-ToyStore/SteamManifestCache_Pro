@@ -1,0 +1,307 @@
+"appinfo"
+{
+	"appid"		"767240"
+	"common"
+	{
+		"name"		"BASIC8"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"091538b9eb2333bbc3a3ae772f84a5fba6fc4cce"
+		"clienttga"		"407e92baeda549b7c4f1486f32007782b54ca0c7"
+		"icon"		"1707d97bbe222fb0005c7f9d5d937ee04ea43b7d"
+		"logo"		"e5d544de1b65fc4b45a302c42351d2fe98372c6f"
+		"logo_small"		"e5d544de1b65fc4b45a302c42351d2fe98372c6f_thumb"
+		"osextended"		"macos64"
+		"metacritic_name"		"BASIC8"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"1098a8df4ae8b7cdec52ee7a50d25199f6c3a389/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"bf4e99db979dad46b8b4037aab1fa45a561c361d/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"83.37222870478413"
+				"height_pct"		"90.1215810052666"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"97a92ff455f02c88e261ef3f3efc30a0dc556547/library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"97a92ff455f02c88e261ef3f3efc30a0dc556547/library_hero_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"97a92ff455f02c88e261ef3f3efc30a0dc556547/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"83.37222870478413"
+					"height_pct"		"90.1215810052666"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"bf4e99db979dad46b8b4037aab1fa45a561c361d/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"bf4e99db979dad46b8b4037aab1fa45a561c361d/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1764128353"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tony Wang"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tony Wang"
+			}
+		}
+		"primary_genre"		"60"
+		"genres"
+		{
+			"0"		"51"
+			"1"		"53"
+			"2"		"54"
+			"3"		"56"
+			"4"		"57"
+			"5"		"60"
+		}
+		"category"
+		{
+			"category_17"		"1"
+			"category_18"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1514945337"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"767240"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"13906"
+			"1"		"84"
+			"2"		"87"
+			"3"		"1036"
+			"4"		"872"
+			"5"		"1445"
+			"6"		"5432"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"enablegameoverlayforapp"		"1"
+		"developer"		"Tony Wang"
+		"publisher"		"Tony Wang"
+		"homepage"		"https://paladin-t.github.io/b8/"
+	}
+	"config"
+	{
+		"installdir"		"BASIC8"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"x86\\b8.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"x64\\b8.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"b8.app\\Contents\\MacOS\\b8"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"x86\\b8"
+				"workingdir"		"x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"x64\\b8"
+				"workingdir"		"x64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		""
+		"workshopdepot"		"767240"
+		"767241"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7420912533544376877"
+					"size"		"31835721"
+					"download"		"16375360"
+				}
+			}
+		}
+		"767242"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7268622504488629939"
+					"size"		"29416321"
+					"download"		"10904608"
+				}
+			}
+		}
+		"767243"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6010216761374957445"
+					"size"		"48329483"
+					"download"		"21789184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14229913"
+				"timeupdated"		"1714543450"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
