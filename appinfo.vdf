@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"978110"
+	"common"
+	{
+		"name"		"Mutland"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"icon"		"ee028bd54bb1819437fceb9ac6b5156b1f25cda7"
+		"logo"		"cf0f16102ed970e2f03946cb85b24dd06653e757"
+		"logo_small"		"cf0f16102ed970e2f03946cb85b24dd06653e757_thumb"
+		"clienttga"		"7332f20623f808924a266959fdf2e7265f0175bf"
+		"clienticon"		"230c7a3c2d3299d2ae8e5cef3d0b6103a0b9bf38"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"978110_eula_0"
+				"name"		"Mutland EULA"
+				"url"		"https://store.steampowered.com//eula/978110_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Mutland"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b4ad5cba6975cfb79fa8b9d7acb34bbf10b60cbf.jpg"
+		"store_asset_mtime"		"1543817541"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Riovox"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Riovox"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1545351420"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"978110"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Riovox"
+		"publisher"		"Riovox"
+	}
+	"config"
+	{
+		"installdir"		"Mutland"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Mutland.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Mutland.app\\Contents\\MacOS\\Mutland"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"noupdatesafterinstall"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese"
+		"978111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7841846903718062977"
+					"size"		"301577787"
+					"download"		"47589728"
+				}
+			}
+		}
+		"978112"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8773743113556191224"
+					"size"		"315861348"
+					"download"		"50212896"
+				}
+			}
+		}
+		"978113"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5573656359085251521"
+					"size"		"301718551"
+					"download"		"47743392"
+				}
+			}
+		}
+		"978114"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3303262119760116340"
+					"size"		"315861348"
+					"download"		"50205888"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3486043"
+				"timeupdated"		"1548039574"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"999999999"
+		"maxnumfiles"		"999"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Riovox/Mutland"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Riovox/Mutland"
+						"replace"		"unity.Riovox.Mutland"
+					}
+				}
+			}
+		}
+	}
+}
