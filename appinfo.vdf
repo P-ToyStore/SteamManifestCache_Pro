@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"549950"
+	"common"
+	{
+		"name"		"Vaccine"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"8267c5143488d1679a5253e7eda2aa4b5c72d03b"
+		"logo_small"		"8267c5143488d1679a5253e7eda2aa4b5c72d03b_thumb"
+		"icon"		"f1faef4c90369a997cf745457f83ebc7f38b06ab"
+		"clienttga"		"82dc70f649f5c378b669fea8d1c8bfcb7335696a"
+		"linuxclienticon"		"5c5360c1d3478c58af9f12ed6a1541d5f2a211aa"
+		"clienticns"		"ef6676d12233bffc3ca76b523f7fe57ba49a0d6e"
+		"clienticon"		"07023125233be4f0e4bca2219d0458547bbc8485"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+		}
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Vaccine"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_52947416d6e1b564ea45fd2a42183d4b0aed212f.jpg"
+		"store_asset_mtime"		"1492579441"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"RNC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"RNC"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"73"
+			"1"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1487664000"
+		"steam_release_date"		"1487696452"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"549950"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4667"
+			"2"		"3978"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"developer"		"RNC"
+		"publisher"		"RNC"
+		"homepage"		"http://www.rainynightcreations.com"
+	}
+	"config"
+	{
+		"installdir"		"Vaccine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"VACCINE.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Vaccine.app\\Contents\\MacOS\\Vaccine"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Vaccine.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Vaccine.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,spanish"
+		"549951"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3343629257137232883"
+					"size"		"342557594"
+					"download"		"161452976"
+				}
+			}
+		}
+		"549952"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6502120696432025649"
+					"size"		"370504367"
+					"download"		"173698448"
+				}
+			}
+		}
+		"549953"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5566277136387842785"
+					"size"		"358884446"
+					"download"		"169247600"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1767260"
+				"timeupdated"		"1492601795"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Save_Data"
+				"pattern"		"*.dat"
+			}
+		}
+	}
+}
