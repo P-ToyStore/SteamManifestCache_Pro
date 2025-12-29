@@ -1,0 +1,268 @@
+"appinfo"
+{
+	"appid"		"273580"
+	"common"
+	{
+		"name"		"Descent 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"a4a20733bdc817e340fbc6cbe28ade2e2c617648"
+		"logo_small"		"a4a20733bdc817e340fbc6cbe28ade2e2c617648_thumb"
+		"icon"		"57d95b2f2b1f570e8f5a86a04d9cc01f9c58330b"
+		"clienttga"		"1af9750fd6a71fa6414e625c0d04c5396dc1cf96"
+		"clienticon"		"b424fd209b4eef1d36942ef13c47969188d47e0b"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1665532800"
+			"tested_build_id"		"7427328"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-7.0-4"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Descent 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667243345"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Parallax"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Inc."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Descent"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1392839880"
+		"community_hub_visible"		"1"
+		"gameid"		"273580"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1693"
+			"2"		"4835"
+			"3"		"1663"
+			"4"		"3916"
+			"5"		"1774"
+			"6"		"4004"
+			"7"		"3942"
+			"8"		"1755"
+			"9"		"3839"
+			"10"		"4182"
+			"11"		"3859"
+			"12"		"6691"
+			"13"		"1756"
+			"14"		"21"
+			"15"		"15045"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Parallax"
+		"publisher"		"Interplay Inc."
+		"homepage"		"https://www.interplay.com/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/273580/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Descent 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launch descent 2.bat"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/DOSBox Staging.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./config/dosboxDescent2.conf\" -conf \"./config/dosboxDescent2_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./config/dosboxDescent2.conf\" -conf \"./config/dosboxDescent2_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"273581"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5138613324642089980"
+					"size"		"765224470"
+					"download"		"597198752"
+				}
+			}
+		}
+		"273582"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5255861632599825131"
+					"size"		"772603637"
+					"download"		"556973008"
+				}
+			}
+		}
+		"273583"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3608116289765673068"
+					"size"		"768742156"
+					"download"		"553048624"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18889309"
+				"timeupdated"		"1752019702"
+			}
+		}
+	}
+}
