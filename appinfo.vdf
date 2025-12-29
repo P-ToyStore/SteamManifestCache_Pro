@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"838840"
+	"common"
+	{
+		"name"		"Secret of Harrow Manor"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"019b6d5c9f5f4ff422f6555c21083138e89f6071"
+		"logo"		"17b0b196ccbed9225cce86b29a27278173ac35e8"
+		"logo_small"		"17b0b196ccbed9225cce86b29a27278173ac35e8_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"9d503a4d7136b58c1d993efbcc09977e3f913c6a"
+		"clienttga"		"50c1c94923682bff7dcb767ab7517387f2e7362b"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Secret of Harrow Manor"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cb31c9bb411704d4a570e218c34446da761fbd9a.jpg"
+		"store_asset_mtime"		"1525309557"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Only Human Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Only Human Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1524560489"
+		"community_hub_visible"		"1"
+		"gameid"		"838840"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+		"review_score"		"4"
+		"review_percentage"		"33"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Only Human Studios"
+		"publisher"		"Only Human Studios"
+		"homepage"		"http://www.onlyhumanstudios.net/secret-of-harrow-manor"
+	}
+	"config"
+	{
+		"installdir"		"Secret of Harrow Manor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SoHM-WindowsVR/Secret of Harrow Manor.exe"
+				"arguments"		"-vrmode none"
+				"workingdir"		"SoHM-Windows"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SoHM-WindowsVR/Secret of Harrow Manor.exe"
+				"workingdir"		"SoHM-WindowsVR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"SoHM-MacOSX.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"HarrowManor.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"HarrowManor.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"2"
+	}
+	"depots"
+	{
+		"838841"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5193604846832714406"
+					"size"		"3601242240"
+					"download"		"1449270496"
+				}
+			}
+		}
+		"838842"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"718159367528928801"
+					"size"		"3915335576"
+					"download"		"1487126288"
+				}
+			}
+		}
+		"838843"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8086601802689878839"
+					"size"		"3915419528"
+					"download"		"1494091952"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5723489"
+				"timeupdated"		"1603397228"
+			}
+		}
+	}
+}
