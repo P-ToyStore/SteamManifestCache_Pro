@@ -1,0 +1,232 @@
+"appinfo"
+{
+	"appid"		"664240"
+	"common"
+	{
+		"name"		"RetroWar"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"3bf43be408e8f5f959b71bdc779a9b155ace3711"
+		"logo_small"		"3bf43be408e8f5f959b71bdc779a9b155ace3711_thumb"
+		"clienticns"		"3184af72be96ea30b99e8d0ff56691246dd18028"
+		"clienticon"		"5726ea5dee555c041951b4aa3587f4c0f2b1d723"
+		"clienttga"		"457ca3c560ce92d4752cfa054025a4be1f539c28"
+		"icon"		"f25f2d7236b1ac5d55d9dcaba5a6143eaeb60984"
+		"osextended"		""
+		"metacritic_name"		"RetroWar"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_58fecc790436b05554370b86f0779e259884dbc4.jpg"
+		"store_asset_mtime"		"1561115539"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Electron Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Electron Studio"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1560757280"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"664240"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"493"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Electron Studio"
+		"publisher"		"Electron Studio"
+		"homepage"		"http://electronstudio.co.uk"
+	}
+	"config"
+	{
+		"installdir"		"RetroWar"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"RetroWar.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"RetroWar.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"RetroWar.exe"
+				"arguments"		"-parsec"
+				"description"		"Parsec online mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta"
+				}
+			}
+			"4"
+			{
+				"executable"		"RetroWar"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"664242"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"350190125740534051"
+					"size"		"316135399"
+					"download"		"146707424"
+				}
+				"beta"
+				{
+					"gid"		"4880614544423256378"
+					"size"		"341673882"
+					"download"		"167402464"
+				}
+				"v1-stable"
+				{
+					"gid"		"350190125740534051"
+					"size"		"316135399"
+					"download"		"146707424"
+				}
+			}
+		}
+		"664241"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5285654408747357758"
+					"size"		"332701153"
+					"download"		"164632560"
+				}
+				"beta"
+				{
+					"gid"		"1522141038488669954"
+					"size"		"332354427"
+					"download"		"164284656"
+				}
+			}
+		}
+		"664243"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"192972235391786385"
+					"size"		"340911827"
+					"download"		"173533040"
+				}
+				"beta"
+				{
+					"gid"		"7790766480115867306"
+					"size"		"339339217"
+					"download"		"172046976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4524531"
+				"timeupdated"		"1577202150"
+			}
+			"beta"
+			{
+				"buildid"		"4522109"
+				"timeupdated"		"1577109948"
+			}
+			"v1-stable"
+			{
+				"buildid"		"3954628"
+				"timeupdated"		"1564685107"
+			}
+		}
+	}
+}
