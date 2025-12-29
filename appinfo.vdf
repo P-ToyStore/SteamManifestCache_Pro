@@ -1,0 +1,183 @@
+"appinfo"
+{
+	"appid"		"669650"
+	"common"
+	{
+		"name"		"Tiny Thief"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"655a33f88e64566652abf0aa8883fed5473c6edc"
+		"logo_small"		"655a33f88e64566652abf0aa8883fed5473c6edc_thumb"
+		"icon"		"4c5019e63dacd5d40288dead8c82897cfcdeb910"
+		"clienticon"		"9782f11bd56b9b66da22d56672e45cc5feb5eebb"
+		"clienttga"		"8f7beb9522aa48a048e0dd3d1e3057f43df86c2f"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Tiny Thief"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_22b9c8ee37abde1a8621412e1113b9370cb5c3b5.jpg"
+		"store_asset_mtime"		"1498900183"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"taecg"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"taecg"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1501727020"
+		"community_hub_visible"		"1"
+		"gameid"		"669650"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"taecg"
+		"publisher"		"taecg"
+	}
+	"config"
+	{
+		"installdir"		"TinyThief"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TinyThief.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TinyThief.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"hasdepotsindlc"		"0"
+		"669651"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"99473006798999815"
+					"size"		"115835869"
+					"download"		"30680672"
+				}
+			}
+		}
+		"669652"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6211020362029101883"
+					"size"		"129945717"
+					"download"		"33873840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1996415"
+				"timeupdated"		"1501312364"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"taecg/Tiny Thief"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"taecg/Tiny Thief"
+						"replace"		"com.taecg.TinyThief"
+					}
+				}
+			}
+		}
+	}
+}
