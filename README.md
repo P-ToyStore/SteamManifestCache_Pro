@@ -1,0 +1,3 @@
+### [645730] RESONANCE OF FATE™/END OF ETERNITY™ 4K/HD EDITION  
+**Build Id** `3514636`  
+**Last Update Time** `2019/02/18 14:10`  
