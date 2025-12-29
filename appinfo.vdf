@@ -1,0 +1,330 @@
+"appinfo"
+{
+	"appid"		"339570"
+	"common"
+	{
+		"name"		"Enemy"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"305c22ee533e06719c7b090d32a87601155b9c88"
+		"clienttga"		"b12443efe22dccc5ac51fee7af5a65b8972ced84"
+		"icon"		"546a0ed1496b7144791a5fb8798667306a4442f4"
+		"clienticns"		"79111b80b267fb58ef8d0aeca9b8556785b4b971"
+		"linuxclienticon"		"3dcceb1793d466865485231b1975596a7ca5e523"
+		"logo"		"7bbf3da91c01c6551deaff7261c4939c92be836c"
+		"logo_small"		"7bbf3da91c01c6551deaff7261c4939c92be836c_thumb"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1741132800"
+			"tested_build_id"		"2654802"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Enemy"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4e3787b8437567d5b798379986e8ca56f312b80c.jpg"
+		"store_asset_mtime"		"1424157885"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tom Johnson"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tom Johnson"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_17"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1426607993"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"339570"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"122"
+			"2"		"492"
+			"3"		"14139"
+			"4"		"1716"
+			"5"		"1677"
+			"6"		"1732"
+		}
+		"review_score"		"8"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Tom Johnson"
+		"publisher"		"Tom Johnson"
+		"homepage"		"http://enemygame.net/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Enemy"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"enemy.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"enemy"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"enemy.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"enemy_editor.exe"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"339571"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9001227667170272173"
+					"size"		"1122978812"
+					"download"		"455711584"
+				}
+				"classic"
+				{
+					"gid"		"8805456029048974864"
+					"size"		"1215845316"
+					"download"		"473630160"
+				}
+			}
+		}
+		"339572"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"705164482996663515"
+					"size"		"29841961"
+					"download"		"6187712"
+				}
+				"classic"
+				{
+					"gid"		"5501128239981132849"
+					"size"		"30451853"
+					"download"		"6310896"
+				}
+			}
+		}
+		"339573"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1976368541783887562"
+					"size"		"174216854"
+					"download"		"13133216"
+				}
+				"classic"
+				{
+					"gid"		"1976368541783887562"
+					"size"		"174216854"
+					"download"		"13133216"
+				}
+			}
+		}
+		"339574"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2268894077777137547"
+					"size"		"159388738"
+					"download"		"41422432"
+				}
+				"classic"
+				{
+					"gid"		"2268894077777137547"
+					"size"		"159388738"
+					"download"		"41422432"
+				}
+			}
+		}
+		"workshopdepot"		"339570"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2654802"
+				"timeupdated"		"1522743708"
+			}
+			"classic"
+			{
+				"buildid"		"1962682"
+				"description"		"Enemy version 0.9"
+				"timeupdated"		"1522688516"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+	}
+}
