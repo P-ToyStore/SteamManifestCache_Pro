@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"448140"
+	"common"
+	{
+		"name"		"Night light"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"clienttga"		"475e0dfebe666dca8081b8f10c4094046da87e56"
+		"linuxclienticon"		"d83c2feda1c5ae55b8d2db741ea7f333ae3c8533"
+		"clienticns"		"d83c2feda1c5ae55b8d2db741ea7f333ae3c8533"
+		"clienticon"		"d83c2feda1c5ae55b8d2db741ea7f333ae3c8533"
+		"icon"		"7f684379af170b2303c959fb1ca0696d6d445db4"
+		"logo"		"8ea76e50a2ae4d2b5b68d836825e32e2f359dc9c"
+		"logo_small"		"8ea76e50a2ae4d2b5b68d836825e32e2f359dc9c_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Night light"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9450c796bd4f713fc7fb565120bd4c3ee08217f0.jpg"
+		"store_asset_mtime"		"1483349375"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nightmaker"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightmaker"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"SimplexGameStudio"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1468312486"
+		"community_hub_visible"		"1"
+		"gameid"		"448140"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"492"
+			"3"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Nightmaker"
+		"publisher"		"Nightmaker"
+		"listofdlc"		"502610"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Night light"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NIGHTLIGHT.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"NightLight.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"NightLightNightmare.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"502610"
+				}
+			}
+			"3"
+			{
+				"executable"		"NightLightNightmare.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"502610"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"448141"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5753721598262812583"
+					"size"		"304636982"
+					"download"		"71198496"
+				}
+			}
+		}
+		"448142"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8809267642970311569"
+					"size"		"159603133"
+					"download"		"27225728"
+				}
+			}
+		}
+		"502610"
+		{
+			"dlcappid"		"502610"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4055729309299306610"
+					"size"		"447001943"
+					"download"		"57191744"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2077430"
+				"timeupdated"		"1504041642"
+			}
+		}
+	}
+}
