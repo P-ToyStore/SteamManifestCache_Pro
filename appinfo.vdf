@@ -1,0 +1,279 @@
+"appinfo"
+{
+	"appid"		"355370"
+	"common"
+	{
+		"name"		"Vidar"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"bae4d8db161d9e59d708334a65333f390d23b2ab"
+		"logo_small"		"bae4d8db161d9e59d708334a65333f390d23b2ab_thumb"
+		"clienticon"		"f2b87715e3bc16ceaa18fc1ae0bfeb946f8762a0"
+		"icon"		"3ef822e173b93383b7beccd57bee88aeac314de6"
+		"osarch"		"64"
+		"clienttga"		"ee997577ac0f20ebeb23528f481f145c3abef0f3"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1650499200"
+			"tested_build_id"		"1954091"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Vidar"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0b0b1ed2601f25c04499f3201331fc18c1ee7944.jpg"
+		"store_asset_mtime"		"1502496925"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Razbury Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Razbury Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1497489454"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"355370"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"122"
+			"3"		"5577"
+			"4"		"1664"
+			"5"		"493"
+		}
+		"review_score"		"7"
+		"review_percentage"		"87"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Razbury Games"
+		"publisher"		"Razbury Games"
+		"homepage"		"http://www.vidarthegame.com"
+		"listofdlc"		"630590"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Vidar"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Vidar.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"launch64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"1"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"355371"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2410010562836811873"
+					"size"		"574234130"
+					"download"		"361263200"
+				}
+			}
+		}
+		"355372"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6918483402418181981"
+					"size"		"437253330"
+					"download"		"315182832"
+				}
+			}
+		}
+		"355374"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2837074458365108436"
+					"size"		"474873490"
+					"download"		"327734960"
+				}
+			}
+		}
+		"630590"
+		{
+			"dlcappid"		"630590"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"552905653041431505"
+					"size"		"53103152"
+					"download"		"53053824"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1954091"
+				"timeupdated"		"1499830227"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
