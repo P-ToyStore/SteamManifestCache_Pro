@@ -1,0 +1,285 @@
+"appinfo"
+{
+	"appid"		"937520"
+	"common"
+	{
+		"name"		"Critter Kart"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"logo"		"dad7e7be9516f604f76a38dc8bfc6653c3b454ac"
+		"logo_small"		"dad7e7be9516f604f76a38dc8bfc6653c3b454ac_thumb"
+		"icon"		"924ea5f0b0be069434f425eaec220d86a92b74b1"
+		"clienticns"		"36aaceb7e2f503a12c1f1d9c33cf2f88051f6d96"
+		"clienticon"		"f724be058eb45ff8005833aa52bbc59354135f65"
+		"clienttga"		"b89874101e4f4dbb9c7be8ad1ccba4a02df1135d"
+		"linuxclienticon"		"1fa9483f4660ad920974b796117531dd6eb107c0"
+		"osextended"		"macos64"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Critter Kart"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"62.24727867321716"
+				"height_pct"		"27.472938026655697"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"62.24727867321716"
+					"height_pct"		"27.472938026655697"
+				}
+			}
+		}
+		"store_asset_mtime"		"1668562563"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"James Roznick"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"James Roznick"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_44"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1568386819"
+		"community_hub_visible"		"1"
+		"gameid"		"937520"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"492"
+			"2"		"597"
+			"3"		"21978"
+			"4"		"3968"
+			"5"		"4182"
+			"6"		"7368"
+			"7"		"10816"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"0"
+		"developer"		"James Roznick"
+		"publisher"		"James Roznick"
+		"homepage"		"https://www.critterkartracing.com/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/937520/"
+	}
+	"config"
+	{
+		"installdir"		"Critter Kart"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CritterKart.exe"
+				"arguments"		"-vrmode none"
+				"description"		"Critter Kart"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CritterKart.exe"
+				"arguments"		"-vrmode oculus"
+				"description"		"Critter Kart"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"CritterKart.exe"
+				"arguments"		"-vrmode openvr"
+				"description"		"Critter Kart"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Critter Kart.app\\Contents\\MacOS\\Critter Kart"
+				"arguments"		"-vrmode none"
+				"description"		"Critter Kart"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"CritterKart.x86_64"
+				"arguments"		"-vrmode none"
+				"description"		"Critter Kart"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+		"steamcontrollertemplateindex"		"2"
+	}
+	"depots"
+	{
+		"937521"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1432813757998411732"
+					"size"		"2058386778"
+					"download"		"467766784"
+				}
+			}
+		}
+		"937522"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1308333855526867121"
+					"size"		"2194650652"
+					"download"		"521066576"
+				}
+			}
+		}
+		"937523"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3546722850200128987"
+					"size"		"2086090771"
+					"download"		"514882352"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5069267"
+				"timeupdated"		"1590263821"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
