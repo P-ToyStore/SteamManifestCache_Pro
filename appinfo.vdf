@@ -1,0 +1,239 @@
+"appinfo"
+{
+	"appid"		"440770"
+	"common"
+	{
+		"name"		"Drawn Story"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"cff6990ce79643c0c01e94259428431cf51fb0f9"
+		"logo_small"		"cff6990ce79643c0c01e94259428431cf51fb0f9_thumb"
+		"icon"		"02aecd61019a1b28a72dfbeb6228fc54b8b39637"
+		"clienticon"		"91c3829931ac9af5b5e1675f46d889ef12dec4e7"
+		"clienttga"		"944d3462999bbf519b5e518ecdaf73a32a3e767b"
+		"clienticns"		"b3a4809df471d66f8ce52c2238c6c6fa3e83378c"
+		"osarch"		""
+		"osextended"		"macos64"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Drawn Story"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a46fc83fe77fcaa3fd002710d637361d84783bd4.jpg"
+		"store_asset_mtime"		"1455176016"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vitaly Rekubratskiy"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vitaly Rekubratskiy"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1455259775"
+		"community_hub_visible"		"1"
+		"gameid"		"440770"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"493"
+		}
+		"review_score"		"4"
+		"review_percentage"		"33"
+	}
+	"extended"
+	{
+		"developer"		"Vitaly Rekubratskiy"
+		"publisher"		"Vitaly Rekubratskiy"
+		"homepage"		"http://drawnstory.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DrawnStory"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"drawnstory.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DrawnStory.app/Contents/MacOS/drawnstory"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"drawnstory.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"440771"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5704828493058214605"
+					"size"		"450952471"
+					"download"		"369678208"
+				}
+				"local"
+				{
+					"gid"		"5148956898620081949"
+					"size"		"59686353"
+					"download"		"54932496"
+				}
+			}
+		}
+		"440772"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2571405237443388475"
+					"size"		"96366750"
+					"download"		"66575488"
+				}
+				"local"
+				{
+					"gid"		"8219392860723199052"
+					"size"		"48124950"
+					"download"		"14995088"
+				}
+			}
+		}
+		"440778"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8699755815606006595"
+					"size"		"86554501"
+					"download"		"64186752"
+				}
+			}
+		}
+		"440779"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8097538068423017987"
+					"size"		"85638831"
+					"download"		"64137696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2749902"
+				"timeupdated"		"1525618685"
+			}
+			"local"
+			{
+				"buildid"		"972279"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
