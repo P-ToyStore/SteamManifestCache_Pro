@@ -1,0 +1,390 @@
+"appinfo"
+{
+	"appid"		"1208460"
+	"common"
+	{
+		"name"		"Super Crystal Hunter"
+		"type"		"Game"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1208460_eula_0"
+				"name"		"Super Crystal Hunter EULA"
+				"url"		"https://store.steampowered.com//eula/1208460_eula_0"
+			}
+		}
+		"languages"
+		{
+			"english"		"1"
+			"spanish"		"1"
+		}
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"icon"		"e2dc365ab82e0ce36bcd32a3d8b651dd9cc87cd9"
+		"clienticon"		"de51d5f63eaef4d0c06c77e85e1221aa1e5368cd"
+		"clienttga"		"8d800124012dcd50050cd64e61c3c6b967be8448"
+		"logo"		"15fcc2b3d0c51d0078db066f95332455470b0d3d"
+		"logo_small"		"15fcc2b3d0c51d0078db066f95332455470b0d3d_thumb"
+		"clienticns"		"aaf9aa75cf6d48062f10cf5ecc5bb1596267786d"
+		"linuxclienticon"		"ea4ff3862f2fe6f60ae595f2bace8e32d9dbede3"
+		"metacritic_name"		"Super Crystal Hunter"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1580054249"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Netherware Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Netherware Entertainment"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1581926400"
+		"steam_release_date"		"1581849496"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1208460"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"21"
+			"3"		"122"
+			"4"		"3871"
+			"5"		"4085"
+			"6"		"3964"
+			"7"		"1719"
+			"8"		"4136"
+			"9"		"1684"
+			"10"		"4057"
+			"11"		"4172"
+			"12"		"4004"
+			"13"		"6971"
+			"14"		"1773"
+			"15"		"8093"
+			"16"		"4106"
+			"17"		"1664"
+			"18"		"4434"
+			"19"		"3810"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Netherware Entertainment"
+		"publisher"		"Netherware Entertainment"
+		"homepage"		"https://netherwareentertainment.com/games/super-crystal-hunter"
+		"listofdlc"		"1222530"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Super Crystal Hunter"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"game.x64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"game.app/Contents/MacOS/parent"
+				"arguments"		"game.app/Contents/MacOS/runtime"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"sketchpack.bat"
+				"description"		"Sketch Pack"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1222530"
+				}
+			}
+			"4"
+			{
+				"executable"		"sketchpack.sh"
+				"description"		"Sketch Pack"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"ownsdlc"		"1222530"
+				}
+			}
+			"5"
+			{
+				"executable"		"sketchpack.sh"
+				"description"		"Sketch Pack"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"1222530"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,spanish"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1208461"
+		{
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"1208462"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4624005248603861051"
+					"size"		"14321389"
+					"download"		"8961856"
+				}
+			}
+		}
+		"1208463"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3449703063813283730"
+					"size"		"10869577"
+					"download"		"3955184"
+				}
+			}
+		}
+		"1208464"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4317856567488006471"
+					"size"		"11230411"
+					"download"		"3651936"
+				}
+			}
+		}
+		"1208465"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7860156154285549539"
+					"size"		"12586842"
+					"download"		"4426512"
+				}
+			}
+		}
+		"1208466"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"619797778867305875"
+					"size"		"1592"
+					"download"		"320"
+				}
+			}
+		}
+		"1208467"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2691883119149800941"
+					"size"		"1592"
+					"download"		"320"
+				}
+			}
+		}
+		"1222530"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1743780403052044000"
+					"size"		"838707"
+					"download"		"845792"
+				}
+			}
+			"dlcappid"		"1222530"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6822475"
+				"timeupdated"		"1623037158"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"31457280"
+		"maxnumfiles"		"15"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"."
+				"pattern"		"*.lsd"
+			}
+		}
+	}
+}
