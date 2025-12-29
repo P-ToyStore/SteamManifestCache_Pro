@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"437080"
+	"common"
+	{
+		"name"		"Space Rift - Episode 1"
+		"type"		"Game"
+		"oslist"		"windows"
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"logo"		"ec21ae70b471bca52d36005b7126c553635f91d6"
+		"logo_small"		"ec21ae70b471bca52d36005b7126c553635f91d6_thumb"
+		"icon"		"2cb931c8614596883d45f68c8c08d20e301e19e2"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"clienticon"		"b15fdc356bc108d0d52ec581112924ad67c131f9"
+		"clienttga"		"85d9d0b8a11bf106a7808ed4b8b71e894927d9e0"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Space Rift"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2d1354eb3c6373345e9a83d15a14d70b8a51a6be.jpg"
+		"store_asset_mtime"		"1478181482"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vibrant Core"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"bitComposer Interactive GmbH"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1470150018"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"437080"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"21"
+			"2"		"599"
+			"3"		"21978"
+			"4"		"1755"
+			"5"		"492"
+			"6"		"4166"
+			"7"		"4182"
+			"8"		"16598"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Vibrant Core"
+		"publisher"		"bitComposer Interactive GmbH"
+		"homepage"		"http://www.spacerift-thegame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Space Rift"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SpaceRift.exe"
+				"description"		"Space Rift (SteamVR)"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"SpaceRift.exe"
+				"description"		"Space Rift (Oculus SDK)"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"SpaceRift.exe"
+				"arguments"		"-nonvr"
+				"description"		"Space Rift (Non-VR)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"437081"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8600765727480807840"
+					"size"		"3374058901"
+					"download"		"1215625872"
+				}
+			}
+		}
+		"515080"
+		{
+			"dlcappid"		"515080"
+		}
+		"515081"
+		{
+			"dlcappid"		"515080"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1297251"
+				"timeupdated"		"1472120479"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"12"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/Space Rift"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
