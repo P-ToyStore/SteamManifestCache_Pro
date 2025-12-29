@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"818030"
+	"common"
+	{
+		"name"		"Alicia Quatermain 3: The Mystery of the Flaming Gold"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"9b814370b21f4bc697ee17afbc922da7dcafbbcd"
+		"clienttga"		"4b8d6e19a4202b9fab994b1fa45a7c58693f3c0e"
+		"icon"		"ffadacbc83413e79e4f8abb53ddb459fd6ac904f"
+		"logo"		"ebae67b99a34d35245e21af621def7e05f606521"
+		"logo_small"		"ebae67b99a34d35245e21af621def7e05f606521_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"russian"		"1"
+		}
+		"metacritic_name"		"Alicia Quatermain 3: The Mystery of the Flaming Gold"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_efb4aa3f15a1cd1053d9d98e29e751d648ca045f.jpg"
+		"store_asset_mtime"		"1543498147"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Jetdogs Studios"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Whalebox"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Jetdogs Studios"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1545231401"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"818030"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"21"
+			"2"		"16689"
+			"3"		"8945"
+			"4"		"597"
+			"5"		"1664"
+			"6"		"492"
+			"7"		"4182"
+			"8"		"5350"
+			"9"		"7208"
+			"10"		"1698"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Jetdogs Studios"
+		"publisher"		"Jetdogs Studios"
+	}
+	"config"
+	{
+		"installdir"		"Alicia Quatermain and Mystery of the Flaming Gold"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AliciaQuatermain3_CE.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"AliciaQuatermain3_CE.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"818031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8296465959175306975"
+					"size"		"650454773"
+					"download"		"284933600"
+				}
+			}
+		}
+		"818032"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1640230206696399239"
+					"size"		"693420257"
+					"download"		"297239584"
+				}
+			}
+		}
+		"baselanguages"		"english,german,russian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3563783"
+				"timeupdated"		"1550225968"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"150"
+		"maxnumfiles"		"10000"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"WhaleboxStudio/AliciaQuatermain3_CE"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"WhaleboxStudio/AliciaQuatermain3_CE"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
