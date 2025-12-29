@@ -1,0 +1,349 @@
+"appinfo"
+{
+	"appid"		"246300"
+	"common"
+	{
+		"name"		"Paranormal"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"f273fdafcfe89c6f43765776f44910c89042e973"
+		"logo_small"		"f273fdafcfe89c6f43765776f44910c89042e973_thumb"
+		"icon"		"9401ea6732e8166f471c44d6d49df69c5618c663"
+		"clienttga"		"264f9241e561aeb63ed51d4bc26e60925bf93760"
+		"clienticon"		"0f1564694fe5215118ea641ad5d49b4f26fd5ddc"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1674518400"
+			"tested_build_id"		"3320239"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Paranormal"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_41d12560ace7956b7bf8bdfb72b98fa84ba1a7d0.jpg"
+		"store_asset_mtime"		"1445596356"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Matt Cohen"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Matt Cohen"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"28"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_29"		"1"
+			"category_33"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1350630000"
+		"steam_release_date"		"1379005200"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"246300"
+		"store_tags"
+		{
+			"0"		"1667"
+			"1"		"492"
+			"2"		"493"
+			"3"		"21"
+			"4"		"599"
+			"5"		"19"
+			"6"		"3839"
+		}
+		"review_score"		"5"
+		"review_percentage"		"56"
+	}
+	"extended"
+	{
+		"developer"		"Matt Cohen"
+		"publisher"		"Matt Cohen"
+		"homepage"		"https://twitter.com/MattDementous"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"paranormal"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/UDK.exe"
+				"description"		"Paranormal"
+				"workingdir"		"Binaries/Win32"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Paranormal.app"
+				"description"		"Paranormal"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"WindowsNoEditor/Paranormal.exe"
+				"workingdir"		"WindowsNoEditor"
+				"description"		"Paranormal: UE4 ALPHA V007"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"PT1/ParanormalPT1.app"
+				"description"		"Paranormal: UE4 Playable Teaser 1"
+				"workingdir"		"PT1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"WindowsNoEditor/Paranormal.exe"
+				"workingdir"		"WindowsNoEditor"
+				"description"		"Paranormal: UE4 ALPHA V003 (32-bit)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"549866133"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"246301"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3011192012541452289"
+					"size"		"2724084493"
+					"download"		"2164669296"
+				}
+				"beta"
+				{
+					"gid"		"3011192012541452289"
+					"size"		"2724084493"
+					"download"		"2164669296"
+				}
+			}
+		}
+		"246302"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6044321999920917207"
+					"size"		"2739848280"
+					"download"		"1418971232"
+				}
+				"beta"
+				{
+					"gid"		"6044321999920917207"
+					"size"		"2739848280"
+					"download"		"1418971232"
+				}
+			}
+		}
+		"246303"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6862064431039296076"
+					"size"		"3823654405"
+					"download"		"1718428912"
+				}
+				"beta"
+				{
+					"gid"		"6862064431039296076"
+					"size"		"3823654405"
+					"download"		"1718428912"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3320239"
+				"timeupdated"		"1542636170"
+			}
+			"beta"
+			{
+				"buildid"		"3320239"
+				"timeupdated"		"1542635304"
+			}
+		}
+	}
+}
