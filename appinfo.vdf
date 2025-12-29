@@ -1,0 +1,268 @@
+"appinfo"
+{
+	"appid"		"517510"
+	"common"
+	{
+		"name"		"Flatshot"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"051c1ab614dd5a0fe80ae251a7b7a793d8f3c995"
+		"logo_small"		"051c1ab614dd5a0fe80ae251a7b7a793d8f3c995_thumb"
+		"icon"		"7135ed922e4912ef1600674720e533742345b2af"
+		"clienttga"		"459e24a23a6596705374392346251dd4bad8eff9"
+		"clienticon"		"4586619569d06911c44bae0056ccb4b5e34bf93a"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Flatshot"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3cf6ac8163c35995ab9c4f2aa803ac141ae66da8.jpg"
+		"store_asset_mtime"		"1511757523"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Turupawn"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Ceteco"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"bobbyliciou5"
+			}
+			"3"
+			{
+				"type"		"developer"
+				"name"		"morghan831"
+			}
+			"4"
+			{
+				"type"		"developer"
+				"name"		"immac"
+			}
+			"5"
+			{
+				"type"		"publisher"
+				"name"		"Rosalila"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1514008089"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"517510"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"4885"
+			"3"		"4255"
+		}
+		"review_score"		"5"
+		"review_percentage"		"66"
+	}
+	"extended"
+	{
+		"developer"		"Turupawn"
+		"publisher"		"Rosalila"
+		"homepage"		"http://www.flatshotgame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Flatshot"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Flatshot.exe"
+				"description"		"Play Flatshot"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"flatshot_init.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Flatshot.exe"
+				"arguments"		"config"
+				"description"		"Configure Inputs"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"flatshot_config.sh"
+				"description"		"Configure Inputs"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"flatshot_optirun.sh"
+				"description"		"Run with Optirun (Nvidia drivers)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"Flatshot.exe"
+				"arguments"		"fullscreen"
+				"description"		"Play Flatshot Fullscreen"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"6"
+			{
+				"executable"		"flatshot_fullscreen.sh"
+				"description"		"Play Flatshot Fullscreen"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"7"
+			{
+				"executable"		"flatshot_fullscreen.sh"
+				"description"		"Play Flatshot Fullscreen with Optirun"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"517511"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4369817242937188794"
+					"size"		"22976725"
+					"download"		"13088400"
+				}
+			}
+		}
+		"517512"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5510602322748079794"
+					"size"		"21543346"
+					"download"		"13471136"
+				}
+			}
+		}
+		"workshopdepot"		"517510"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2402463"
+				"timeupdated"		"1514516071"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
