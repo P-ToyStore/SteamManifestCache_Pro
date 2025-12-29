@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"752060"
+	"common"
+	{
+		"name"		"Subwar 2050"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"a0c8c1cd5acc40b9f5e33e7f920de86c5b9ea150"
+		"clienttga"		"a37171f6e2fe4da74bbca2003c0a64fc1f5db6f4"
+		"icon"		"619201410c81fb068d117d8ee824c30f55fdd121"
+		"logo"		"e4ec965ad456aaf0792d03cce30d762c5d26c73d"
+		"logo_small"		"e4ec965ad456aaf0792d03cce30d762c5d26c73d_thumb"
+		"releasestate"		"released"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Subwar 2050"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1670618264"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Particle Systems Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"725961600"
+		"steam_release_date"		"1511981833"
+		"community_hub_visible"		"1"
+		"gameid"		"752060"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+			"2"		"9"
+			"3"		"9157"
+			"4"		"6691"
+			"5"		"4182"
+			"6"		"1663"
+			"7"		"3942"
+			"8"		"19780"
+			"9"		"21"
+			"10"		"1774"
+			"11"		"3834"
+			"12"		"1678"
+			"13"		"4166"
+			"14"		"4835"
+			"15"		"11104"
+			"16"		"4191"
+			"17"		"4175"
+			"18"		"6910"
+			"19"		"5708"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Particle Systems Ltd."
+		"publisher"		"Interplay"
+		"homepage"		"http://www.interplay.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/752060/"
+	}
+	"config"
+	{
+		"installdir"		"Subwar 2050"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox/dosbox.exe"
+				"arguments"		"-conf \"./dosboxSUBWAR.conf\" -conf \"./dosboxSUBWAR_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\DOSBox Staging.app\\Contents\\MacOS\\dosbox"
+				"arguments"		"-conf \"./dosboxSUBWAR.conf\" -conf \"./dosboxSUBWAR_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxSUBWAR.conf\" -conf \"./dosboxSUBWAR_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"752061"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5038585038658808194"
+					"size"		"61637548"
+					"download"		"29124976"
+				}
+			}
+		}
+		"752062"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2481893976829425642"
+					"size"		"58119951"
+					"download"		"30621104"
+				}
+			}
+		}
+		"752063"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4254883750874145006"
+					"size"		"64311806"
+					"download"		"32118208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18667384"
+				"timeupdated"		"1749271686"
+			}
+		}
+	}
+}
