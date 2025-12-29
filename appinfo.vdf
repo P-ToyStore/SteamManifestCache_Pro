@@ -1,0 +1,438 @@
+"appinfo"
+{
+	"appid"		"379420"
+	"common"
+	{
+		"name"		"Polynomial 2"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"logo"		"9742a603fd601a5bc8558a02d212bc49a05712ba"
+		"logo_small"		"9742a603fd601a5bc8558a02d212bc49a05712ba_thumb"
+		"icon"		"fa302261e0f8cc84cb02d1187b3171c4c32ac3cf"
+		"clienticon"		"848bc95ebbd05838676cafc89d0708e31fff8ed2"
+		"clienttga"		"481ff031262f1fe8c7d4d25a0b6dbc4b444f7d3a"
+		"linuxclienticon"		"38e0596309a9c7afa229210f8ef5da67564a3e91"
+		"clienticns"		"ef92061dbe4288d11cbd81d19d7aad6ed9fe32a1"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Polynomial 2"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_85b3a8df109340c10d2e8b6c5e979f4dee7fc7c1.jpg"
+		"store_asset_mtime"		"1502457022"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dmytry Lavrov"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Alexey Lavrov"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Dmytry Lavrov"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_33"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_22"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1464721080"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"379420"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"3942"
+			"3"		"1755"
+			"4"		"1714"
+			"5"		"1621"
+			"6"		"1695"
+			"7"		"1752"
+			"8"		"5125"
+			"9"		"21978"
+			"10"		"16598"
+			"11"		"15045"
+			"12"		"3834"
+			"13"		"3839"
+			"14"		"493"
+			"15"		"4835"
+			"16"		"599"
+			"17"		"4305"
+			"18"		"1773"
+			"19"		"597"
+		}
+		"review_score"		"8"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Dmytry Lavrov"
+		"publisher"		"Dmytry Lavrov"
+		"homepage"		"http://dmytry.com/games/polynomial2"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Polynomial 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Polynomial2_32"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"Polynomial2_64"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Polynomial2.exe"
+				"arguments"		"--no_vr=1"
+				"description"		"Launch (32 bit no VR)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Polynomial2_osx.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"Polynomial2.exe"
+				"arguments"		"--steam_openvr=1"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"5"
+			{
+				"executable"		"bin_w64/Polynomial2_64.exe"
+				"arguments"		"--steam_openvr=1"
+				"description"		"64-bit"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"bin_w64/Polynomial2_64.exe"
+				"arguments"		"--no_vr=1"
+				"description"		"Launch (64 bit no vr)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"7"
+			{
+				"executable"		"bin_w64/Polynomial2_64.exe"
+				"arguments"		"--vr_api=1"
+				"description"		"experimentally"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollerconfigfileids"		"858229646"
+		"steamcontrollertemplateindex"		"1"
+	}
+	"depots"
+	{
+		"379421"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1257417576726039130"
+					"size"		"366704285"
+					"download"		"303709568"
+				}
+				"linux_vr_alpha"
+				{
+					"gid"		"48170053660404150"
+					"size"		"320819864"
+					"download"		"279542816"
+				}
+				"very_old_version"
+				{
+					"gid"		"4847777602378716399"
+					"size"		"239672991"
+					"download"		"196673376"
+				}
+				"latest_build"
+				{
+					"gid"		"1257417576726039130"
+					"size"		"366704285"
+					"download"		"303709568"
+				}
+				"maybe_broken"
+				{
+					"gid"		"1257417576726039130"
+					"size"		"366704285"
+					"download"		"303709568"
+				}
+				"old_version"
+				{
+					"gid"		"2562758499132590332"
+					"size"		"323612588"
+					"download"		"280166320"
+				}
+			}
+		}
+		"379422"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7889060936624258592"
+					"size"		"374919005"
+					"download"		"312088144"
+				}
+				"linux_vr_alpha"
+				{
+					"gid"		"1795469521160918955"
+					"size"		"343751664"
+					"download"		"288823984"
+				}
+				"very_old_version"
+				{
+					"gid"		"8460920653054247094"
+					"size"		"259791638"
+					"download"		"205333472"
+				}
+				"latest_build"
+				{
+					"gid"		"7889060936624258592"
+					"size"		"374919005"
+					"download"		"312088144"
+				}
+				"maybe_broken"
+				{
+					"gid"		"7889060936624258592"
+					"size"		"374919005"
+					"download"		"312088144"
+				}
+				"old_version"
+				{
+					"gid"		"3177720071993386748"
+					"size"		"343760419"
+					"download"		"288834400"
+				}
+			}
+		}
+		"379423"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7614357811480471639"
+					"size"		"372954516"
+					"download"		"288956496"
+				}
+				"linux_vr_alpha"
+				{
+					"gid"		"2276259709118507865"
+					"size"		"372551687"
+					"download"		"288842384"
+				}
+				"very_old_version"
+				{
+					"gid"		"2870368271289189939"
+					"size"		"288582741"
+					"download"		"205348192"
+				}
+				"latest_build"
+				{
+					"gid"		"7614357811480471639"
+					"size"		"372954516"
+					"download"		"288956496"
+				}
+				"maybe_broken"
+				{
+					"gid"		"7614357811480471639"
+					"size"		"372954516"
+					"download"		"288956496"
+				}
+				"old_version"
+				{
+					"gid"		"1157333787213817979"
+					"size"		"372547578"
+					"download"		"288841056"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19473250"
+				"timeupdated"		"1754331631"
+			}
+			"linux_vr_alpha"
+			{
+				"buildid"		"1997609"
+				"description"		"Linux VR testing"
+				"timeupdated"		"1501432427"
+			}
+			"very_old_version"
+			{
+				"buildid"		"1444201"
+				"timeupdated"		"1488129805"
+			}
+			"latest_build"
+			{
+				"buildid"		"19473250"
+				"description"		"Latest build of the game, may not work at all"
+				"timeupdated"		"1754331541"
+			}
+			"maybe_broken"
+			{
+				"buildid"		"19473250"
+				"timeupdated"		"1754329441"
+			}
+			"old_version"
+			{
+				"buildid"		"1686485"
+				"timeupdated"		"1754331603"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Polynomial2"
+				"pattern"		"cloud*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacHome"
+				"path"		"Library/Preferences/com.pandromeda.dmytry/Polynomial2"
+				"pattern"		"cloud*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		".polynomial2"
+				"pattern"		"cloud*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
