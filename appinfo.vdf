@@ -1,0 +1,254 @@
+"appinfo"
+{
+	"appid"		"386510"
+	"common"
+	{
+		"name"		"Pyramid Raid"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"ede256683b7c333271d9bc53f63ebea31bc1ca60"
+		"logo_small"		"ede256683b7c333271d9bc53f63ebea31bc1ca60_thumb"
+		"icon"		"d879944ea0627766b12ce795ac557333a83e5804"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"clienticon"		"dd1d2b07097d1503eba8700e4f03aca75cc15c2c"
+		"clienticns"		"70a8b251736233e5b14d9ea22a8d2fdeebd783a7"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1729036800"
+			"tested_build_id"		"897448"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Pyramid Raid"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b45762c0848cd3eb7b9e72ac923db8e46ba8a54a.jpg"
+		"store_asset_mtime"		"1443515025"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Travian Games GmbH"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Travian Games GmbH"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1450170450"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"386510"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"113"
+			"4"		"1625"
+			"5"		"3859"
+			"6"		"493"
+		}
+		"review_score"		"5"
+		"review_percentage"		"59"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Travian Games GmbH"
+		"publisher"		"Travian Games GmbH"
+		"homepage"		"http://www.pyramid-raid.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Pyramid Raid"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PyramidRaid.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"PyramidRaid.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"PyramidRaid_PROEDITOR.exe"
+				"description"		"Launch ProModeEditor"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"beta"
+				}
+			}
+			"3"
+			{
+				"executable"		"PyramidRaid_PROEDITOR.app"
+				"description"		"Launch ProModeEditor"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"beta"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"386511"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3674040006433274934"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"386512"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5339835545481395427"
+					"size"		"830294368"
+					"download"		"146404096"
+				}
+			}
+		}
+		"386513"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2397968733209894769"
+					"size"		"856480828"
+					"download"		"154448384"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"897448"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
