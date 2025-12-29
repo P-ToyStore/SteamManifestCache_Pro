@@ -1,0 +1,259 @@
+"appinfo"
+{
+	"appid"		"1586740"
+	"common"
+	{
+		"name"		"RATOMON"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"2ca8a2557eeba11d04e93919b79489059fa385ca"
+		"clienttga"		"2ed80bef4d8294dbf44bc6f066d334de9082c2a2"
+		"icon"		"04689df9166052da27253197eab0fad64e8a95c4"
+		"linuxclienticon"		"56ab0728bd7be1b8b5ee3a6b79c4c0201229b894"
+		"logo"		"05be43445d2a2672f2e4a39125663e26e450acb2"
+		"logo_small"		"05be43445d2a2672f2e4a39125663e26e450acb2_thumb"
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"72.07960773002594"
+				"height_pct"		"89.04282200097362"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"72.07960773002594"
+					"height_pct"		"89.04282200097362"
+				}
+			}
+		}
+		"store_asset_mtime"		"1656521839"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"justalexi"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"justalexi"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1634138339"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1586740"
+		"store_tags"
+		{
+			"0"		"4637"
+			"1"		"5125"
+			"2"		"4172"
+			"3"		"42804"
+			"4"		"1759"
+			"5"		"4182"
+			"6"		"19"
+			"7"		"4604"
+			"8"		"3964"
+			"9"		"3871"
+			"10"		"7481"
+			"11"		"1720"
+			"12"		"4758"
+			"13"		"4598"
+			"14"		"4791"
+			"15"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"justalexi"
+		"publisher"		"justalexi"
+	}
+	"config"
+	{
+		"installdir"		"Ratomon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RATOMON.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ratomon.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1586741"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1486773495357735295"
+					"size"		"352624632"
+					"download"		"74389312"
+				}
+			}
+		}
+		"1586742"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2913698517099489600"
+					"size"		"397986785"
+					"download"		"76073984"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7763487"
+				"timeupdated"		"1637677190"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"justalexi/RATOMON"
+				"pattern"		"*.json"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"justalexi/RATOMON"
+						"replace"		"unity.justalexi.RATOMON"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"justalexi/RATOMON"
+						"replace"		".config/unity3d/justalexi/RATOMON"
+					}
+				}
+			}
+		}
+	}
+}
