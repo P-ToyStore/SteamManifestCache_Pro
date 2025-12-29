@@ -1,0 +1,195 @@
+"appinfo"
+{
+	"appid"		"295870"
+	"common"
+	{
+		"name"		"The Dungeoning"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"a9b33bab74d7c1e87cf68e2adf88e890e2b3fe1b"
+		"logo_small"		"a9b33bab74d7c1e87cf68e2adf88e890e2b3fe1b_thumb"
+		"icon"		"590d13accc5c3580c95de96acfef2cb0d758c5a2"
+		"clienttga"		"3d9e05588d3993deac7318ac64f125098ce0f950"
+		"clienticon"		"0176932ff2b05b1468b47b9958011fb2900d5b0c"
+		"linuxclienticon"		"b12626c3ef007a025752c9592e68355bac31d069"
+		"clienticns"		"eefa2df0837201721f57dd461e5e9f94bf9328a0"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"The Dungeoning"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b4a10a3695ae06a23c34f0c7e62e5efbe13c2bb0.jpg"
+		"store_asset_mtime"		"1436724088"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nick Donnelly"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nick Donnelly"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1398322800"
+		"steam_release_date"		"1399046460"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"295870"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"42804"
+			"2"		"492"
+			"3"		"19"
+			"4"		"1716"
+			"5"		"1625"
+			"6"		"3959"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"Nick Donnelly"
+		"publisher"		"Nick Donnelly"
+		"homepage"		"http://www.TheDungeoning.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Dungeoning"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheDungeoning_107.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"start.bat"
+				"description"		"Launch 64bit / compatability"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"./start.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"TheDungeoning.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"295871"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3114727225954163659"
+					"size"		"158062592"
+					"download"		"95426048"
+				}
+			}
+		}
+		"295872"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7313560122128306012"
+					"size"		"34276930"
+					"download"		"33892944"
+				}
+			}
+		}
+		"295873"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4392888018904836809"
+					"size"		"34519255"
+					"download"		"34050320"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"743739"
+			}
+		}
+	}
+}
