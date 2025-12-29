@@ -1,0 +1,239 @@
+"appinfo"
+{
+	"appid"		"1786100"
+	"common"
+	{
+		"name"		"Helium Electric"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"4a60a20570656d8efbef0b92d736b8f90c51be7e"
+		"logo_small"		"4a60a20570656d8efbef0b92d736b8f90c51be7e_thumb"
+		"icon"		"f6a09a83e3ccb2a7b333df0b04745475b7aa78cd"
+		"clienticon"		"9cac2aa77814e2d721e700da25a5a24166032b08"
+		"clienttga"		"18bab445014d8081ec2415ee365c3f65115cd26f"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"76.48011138210398"
+				"height_pct"		"98.10785241248817"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"76.48011138210398"
+					"height_pct"		"98.10785241248817"
+				}
+			}
+		}
+		"store_asset_mtime"		"1634300927"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"2Bit Couch Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"2Bit Couch Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1639570086"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1786100"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"9"
+			"2"		"16689"
+			"3"		"3871"
+			"4"		"3964"
+			"5"		"7743"
+			"6"		"4598"
+			"7"		"4166"
+			"8"		"492"
+			"9"		"6426"
+			"10"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"2Bit Couch Games"
+		"publisher"		"2Bit Couch Games"
+		"homepage"		"https://2bitcouchgames.com/"
+	}
+	"config"
+	{
+		"installdir"		"Helium Electric"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"he.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Helium Electric.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"heliumElectric.x86_64"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1786101"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3193034945811610267"
+					"size"		"78293352"
+					"download"		"45969696"
+				}
+				"testing"
+				{
+					"gid"		"1121917655684085447"
+					"size"		"75954659"
+					"download"		"44847488"
+				}
+			}
+		}
+		"1786102"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7297978980063276672"
+					"size"		"128152087"
+					"download"		"57246064"
+				}
+			}
+		}
+		"1786103"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6755488662392351642"
+					"size"		"87910310"
+					"download"		"48291872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7762180"
+				"timeupdated"		"1637663683"
+			}
+			"testing"
+			{
+				"buildid"		"7558577"
+				"description"		"for tests only"
+				"timeupdated"		"1634634916"
+			}
+		}
+	}
+}
