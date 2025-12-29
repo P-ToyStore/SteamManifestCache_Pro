@@ -1,0 +1,278 @@
+"appinfo"
+{
+	"appid"		"100400"
+	"common"
+	{
+		"name"		"Silo 2"
+		"type"		"Application"
+		"logo"		"41c7594d027ddc1b00a9c0deac698a9d20b9bd4a"
+		"logo_small"		"41c7594d027ddc1b00a9c0deac698a9d20b9bd4a_thumb"
+		"icon"		"fdd6feff644beee175e8568fac44895fc916e0a4"
+		"clienticon"		"d0cb76b9a6fc703db4be96ec8fe7c7509e3c62d6"
+		"clienttga"		"d0d9570abe4b4c0ffd0112e242c6c4f29a7bccd1"
+		"clienticns"		"e248183d6613586bded20c5c5b6b6fb53efbec9a"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"metacritic_name"		"Silo 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2452a6a6f7da668f1681b73e762eafbe484960b2.jpg"
+		"store_asset_mtime"		"1618475680"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nevercenter Ltd. Co."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nevercenter Ltd. Co."
+			}
+		}
+		"primary_genre"		"51"
+		"genres"
+		{
+			"0"		"51"
+		}
+		"category"
+		{
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1355904000"
+		"steam_release_date"		"1352975880"
+		"community_hub_visible"		"1"
+		"gameid"		"100400"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"872"
+			"1"		"8013"
+		}
+		"review_score"		"6"
+		"review_percentage"		"71"
+	}
+	"extended"
+	{
+		"developer"		"Nevercenter Ltd. Co."
+		"gamedir"		"ValveTestApp100400"
+		"homepage"		"http://nevercenter.com/silo"
+		"icon"		""
+		"installscript"		"installscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"100401"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Nevercenter Ltd. Co."
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Silo 2.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/silo"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Silo 2.3.app"
+				"description"		"Launch Silo 2.3"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"beta_2.3"
+				}
+			}
+			"3"
+			{
+				"executable"		"Silo 2.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Silo.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Silo_2"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"100401"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1876273129597395786"
+					"size"		"54917535"
+					"download"		"30681424"
+				}
+				"public_beta"
+				{
+					"gid"		"7746315218032760103"
+					"size"		"54846854"
+					"download"		"30638960"
+				}
+				"silo_2.3"
+				{
+					"gid"		"3430110549452824417"
+					"size"		"48650150"
+					"download"		"24129344"
+				}
+			}
+		}
+		"100402"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6284522975212261876"
+					"size"		"43230808"
+					"download"		"15489488"
+				}
+				"public_beta"
+				{
+					"gid"		"6284522975212261876"
+					"size"		"43230808"
+					"download"		"15489488"
+				}
+				"silo_2.3"
+				{
+					"gid"		"6284522975212261876"
+					"size"		"43230808"
+					"download"		"15489488"
+				}
+			}
+		}
+		"100403"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7208879428585128010"
+					"size"		"55812932"
+					"download"		"25932944"
+				}
+				"public_beta"
+				{
+					"gid"		"2049642525471325652"
+					"size"		"55707365"
+					"download"		"25878432"
+				}
+				"silo_2.3"
+				{
+					"gid"		"5290244335420906846"
+					"size"		"39350575"
+					"download"		"11720704"
+				}
+			}
+		}
+		"100404"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8365123159972153255"
+					"size"		"54917535"
+					"download"		"30680672"
+				}
+				"public_beta"
+				{
+					"gid"		"2744668695170236747"
+					"size"		"54846854"
+					"download"		"30638208"
+				}
+				"silo_2.3"
+				{
+					"gid"		"7148753397220408640"
+					"size"		"51046968"
+					"download"		"15398112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3355820"
+				"timeupdated"		"1543606409"
+			}
+			"public_beta"
+			{
+				"buildid"		"2840108"
+				"description"		"beta test future versions of silo"
+				"timeupdated"		"1528326248"
+			}
+			"silo_2.3"
+			{
+				"buildid"		"2059543"
+				"description"		"legacy version of Silo"
+				"timeupdated"		"1503446358"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
