@@ -1,0 +1,265 @@
+"appinfo"
+{
+	"appid"		"609410"
+	"common"
+	{
+		"name"		"Iron Tides"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticon"		"ced38332735c0486b1945065d9fd327f9b61bfa0"
+		"clienttga"		"38f88e97f97f66786c39677410b077d3580deb5e"
+		"icon"		"0170d6e59b28701717034ab07881de8d34923e22"
+		"logo"		"fc3cde51668148f0a5da887008942581895d4f02"
+		"logo_small"		"fc3cde51668148f0a5da887008942581895d4f02_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Iron Tides"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3765c63b5272f05a8d8f8e61515d55b9e31e4165.jpg"
+		"store_asset_mtime"		"1499107609"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Crash Wave Games Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Crash Wave Games Inc."
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+			"4"		"2"
+			"5"		"70"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_17"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1500915668"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"609410"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"597"
+			"3"		"21"
+			"4"		"493"
+			"5"		"599"
+			"6"		"4325"
+			"7"		"1708"
+			"8"		"14139"
+			"9"		"1677"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"developer"		"Crash Wave Games Inc."
+		"publisher"		"Crash Wave Games Inc."
+		"homepage"		"https://irontides.com"
+	}
+	"config"
+	{
+		"installdir"		"Iron Tides"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"irontides.exe"
+				"description"		"Windows Default"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"irontides.app"
+				"description"		"Mac Default"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"irontides.x86_64"
+				"description"		"Linux Default"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"609411"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7982661596546146361"
+					"size"		"700835393"
+					"download"		"208907648"
+				}
+				"main_beta"
+				{
+					"gid"		"1384813892728479930"
+					"size"		"690196974"
+					"download"		"207082368"
+				}
+			}
+		}
+		"609412"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3161143653648935578"
+					"size"		"742928621"
+					"download"		"223007104"
+				}
+				"main_beta"
+				{
+					"gid"		"8792065558057171770"
+					"size"		"732633190"
+					"download"		"221221936"
+				}
+			}
+		}
+		"609413"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5507538840390135044"
+					"size"		"641143070"
+					"download"		"195504160"
+				}
+				"main_beta"
+				{
+					"gid"		"5507538840390135044"
+					"size"		"641143070"
+					"download"		"195504160"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2543232"
+				"timeupdated"		"1519186661"
+			}
+			"main_beta"
+			{
+				"buildid"		"2474152"
+				"description"		"Beta test branch"
+				"timeupdated"		"1519186676"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Crash Wave Games/Iron Tides"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Crash Wave Games/Iron Tides"
+						"replace"		"Crash Wave Games/Iron Tides"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Crash Wave Games/Iron Tides"
+						"replace"		".config/unity3d/Crash Wave Games/Iron Tides"
+					}
+				}
+			}
+		}
+	}
+}
