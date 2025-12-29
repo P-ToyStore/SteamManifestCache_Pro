@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"660760"
+	"common"
+	{
+		"name"		"Bouncing Odyssey"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"eef3862faa1095b6fe8114045ebbe5f4a1dc417b"
+		"logo_small"		"eef3862faa1095b6fe8114045ebbe5f4a1dc417b_thumb"
+		"icon"		"b2f88f178da8a3eb577b94a153e189a2ff5fd500"
+		"clienttga"		"ed50d17d4aa4179b9302cbb4676f20bfc1569a32"
+		"clienticon"		"cc49de12c5c2fdd3294617f1cdd3d55afe3ba750"
+		"clienticns"		"adf196949fb67e5400ca2243cee010baf6a48bff"
+		"linuxclienticon"		"c00b08d18b7b7298aebf0b24d2d4623cc442f5e6"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bouncing Odyssey"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_fa29b4b6694bd43ae5035e46508e39c0bc123805.jpg"
+		"store_asset_mtime"		"1512836582"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BigMouthedDog Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lukáš Kotík"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1513538002"
+		"community_hub_visible"		"1"
+		"gameid"		"660760"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1664"
+		}
+	}
+	"extended"
+	{
+		"developer"		"BigMouthedDog Studio"
+		"publisher"		"Lukáš Kotík"
+		"homepage"		"http://www.bigmoutheddog.com/"
+	}
+	"config"
+	{
+		"installdir"		"Bouncing Odyssey"
+		"steamconfigurator3rdpartynative"		"7"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bo-lin64-v10"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"bo-win64-v10.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Bouncing Odyssey.app/Contents/MacOS/Bouncing Odyssey"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"660761"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3751052232653542979"
+					"size"		"90666561"
+					"download"		"76748304"
+				}
+			}
+		}
+		"660762"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"66066192344981054"
+					"size"		"100874576"
+					"download"		"79291920"
+				}
+			}
+		}
+		"660763"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4188012117544055459"
+					"size"		"132916077"
+					"download"		"86606160"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2336567"
+				"timeupdated"		"1512325029"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000"
+		"maxnumfiles"		"1"
+		"appidredirect"		"660760"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Godot/app_userdata/Bouncing Odyssey"
+				"pattern"		"savegame.bin"
+			}
+		}
+		"rootoverrides"
+		{
+			"2"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Godot/app_userdata/Bouncing Odyssey"
+						"replace"		".godot/app_userdata/Bouncing Odyssey"
+					}
+				}
+			}
+			"3"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Godot/app_userdata/Bouncing Odyssey"
+						"replace"		"/.godot/app_userdata/Bouncing Odyssey"
+					}
+				}
+			}
+		}
+	}
+}
