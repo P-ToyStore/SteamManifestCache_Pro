@@ -1,0 +1,269 @@
+"appinfo"
+{
+	"appid"		"236970"
+	"common"
+	{
+		"name"		"Jack Keane 2 - The Fire Within"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"f45c1df9b7bb4f4e00b3b9abff13e7d3fd17ae0c"
+		"clienttga"		"7879933fc81c2873c71ad9eaff756eb4d4a5ee63"
+		"icon"		"db2fb8e9bf4c5baaf4c1bada5db8ee35cb9f5bcc"
+		"logo"		"0821a21fcdc69dac10f5e2c477c09acaa8f6bd05"
+		"logo_small"		"0821a21fcdc69dac10f5e2c477c09acaa8f6bd05_thumb"
+		"oslist"		"windows"
+		"metacritic_name"		"Jack Keane 2 - The Fire Within"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"29.692443520608037"
+				"height_pct"		"45.49399505939243"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"29.692443520608037"
+					"height_pct"		"45.49399505939243"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1573057639"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Deck 13"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"astragon Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"astragon Entertainment"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"236970"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+		}
+		"review_score"		"5"
+		"review_percentage"		"49"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		"Deck 13"
+		"gamedir"		"ValveTestApp236970"
+		"homepage"		"http://www.jack-keane.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"astragon Entertainment"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Jack Keane 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"JackKeane2.exe"
+				"description"		"Launch Jack Keane 2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"43654e47e5e43e92791386018a5e9428c0c41c64d7a49bd406fc4716df94f43a53313847cfa4072d703def4d07a56554318496d1f7ea83879dca03d7bfa9964c363f1227b1794982f8cfc43d22261ba381c1e55de900fe02e4c8601a8b081addc0208bffe89b3c46bcc9d246e01d11c745a63f27d5a09ed790302ba13fb24158"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"vcredist 2005"
+			{
+				"process 1"		"%INSTALLDIR%\\ThirdParty\\vcredist.exe"
+				"command 1"		"/q"
+				"description"		"Microsoft Visual C++ 2005 Redist"
+				"nocleanup"		"1"
+			}
+			"vcredist 2010"
+			{
+				"process 1"		"%INSTALLDIR%\\ThirdParty\\vcredist2010_x86.exe"
+				"command 1"		"/q"
+				"description"		"Microsoft Visual C++ 2010 Redist"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"0"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"236971"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"837864281786644787"
+					"size"		"2306307865"
+					"download"		"0"
+				}
+			}
+		}
+		"236972"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5930269051508171403"
+					"size"		"518322779"
+					"download"		"429482144"
+				}
+			}
+		}
+		"236973"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5083401911402758679"
+					"size"		"962"
+					"download"		"384"
+				}
+			}
+		}
+		"baselanguages"		""
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1223830"
+				"timeupdated"		"1470729668"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
