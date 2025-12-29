@@ -1,0 +1,245 @@
+"appinfo"
+{
+	"appid"		"436870"
+	"common"
+	{
+		"name"		"Tank Brawl"
+		"type"		"Game"
+		"oslist"		"windows"
+		"icon"		"a7b1fa8d4c6994ec75437da2b618fe75069b6c95"
+		"clienticon"		"47094b689c78308c31020428776445ff01dc268b"
+		"clienttga"		"6025612c243fdc38bbf17a63df1e8d6b6962a790"
+		"clienticns"		"0252df11feb5be4afb4fa62842e6c9e5db7201ca"
+		"logo"		"7e543757d5b76074e422ff7d2e4fb4e731621949"
+		"logo_small"		"7e543757d5b76074e422ff7d2e4fb4e731621949_thumb"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Tank Brawl"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b01b4cfdedf39afe70e8d45b2682414ff3295145.jpg"
+		"store_asset_mtime"		"1490750115"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Phung Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Phung Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_30"		"1"
+			"category_17"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_1"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1461135600"
+		"steam_release_date"		"1461164428"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"436870"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"492"
+			"3"		"122"
+			"4"		"13276"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"Phung Games"
+		"publisher"		"Phung Games"
+		"homepage"		"http://www.tankbrawl.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Tank Brawl"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"binaries\\win32\\udk.exe"
+				"arguments"		"-d3d11 -windowed"
+				"description"		"Windowed"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"binaries\\win32\\udk.exe"
+				"arguments"		"-d3d11 -fullscreen"
+				"description"		"Fullscreen"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"binaries\\win32\\udk.exe"
+				"arguments"		"-d3d9 -windowed"
+				"description"		"DX9  Windowed"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"4"
+			{
+				"executable"		"binaries\\win32\\udk.exe"
+				"arguments"		"-d3d9 -fullscreen"
+				"description"		"DX9 Fullscreen"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"436871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1414642928078423419"
+					"size"		"514942918"
+					"download"		"338808672"
+				}
+				"beta"
+				{
+					"gid"		"3745041498012703822"
+					"size"		"514942629"
+					"download"		"338808608"
+				}
+				"local"
+				{
+					"gid"		"4873613009624365881"
+					"size"		"555311557"
+					"download"		"372488416"
+				}
+			}
+		}
+		"436872"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8148273872044575619"
+					"size"		"402009117"
+					"download"		"277232448"
+				}
+				"beta"
+				{
+					"gid"		"8148273872044575619"
+					"size"		"402009117"
+					"download"		"277232448"
+				}
+			}
+		}
+		"workshopdepot"		"436870"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1187848"
+				"timeupdated"		"1466334622"
+			}
+			"beta"
+			{
+				"buildid"		"1187687"
+				"timeupdated"		"1466313150"
+			}
+			"local"
+			{
+				"buildid"		"1053058"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1459527856"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
