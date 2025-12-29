@@ -1,0 +1,317 @@
+"appinfo"
+{
+	"appid"		"1880310"
+	"common"
+	{
+		"name"		"Oogy: Can You Help"
+		"type"		"Game"
+		"logo"		"d2eef35f81ca24200992b3c23a98711c7baed428"
+		"logo_small"		"d2eef35f81ca24200992b3c23a98711c7baed428_thumb"
+		"icon"		"11088b6bfc1c5015f9c8c7533c9648dd4878bed4"
+		"linuxclienticon"		"f6e88a955f3b48f18a02fcf4a62a0d324c2ebffc"
+		"clienticns"		"a35827871e8de37218a7fbd053f1d3337966a522"
+		"clienticon"		"523a2ad3557e96f5c9fee9a84b02ea785028e21a"
+		"clienttga"		"e85f3d8b6387eff6513a83e2b5bd7e3c74915c6d"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"38.26230167091218"
+				"height_pct"		"75.34691603465313"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"38.26230167091218"
+					"height_pct"		"75.34691603465313"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1651086297"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Julian Weiss"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Julian Weiss"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_13"		"1"
+			"category_22"		"1"
+			"category_41"		"1"
+			"category_23"		"1"
+			"category_42"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1646284050"
+		"steam_deck_blog_url"		"https://steamcommunity.com/app/1880310/eventcomments/3274689286971345816"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1880310"
+		"store_tags"
+		{
+			"0"		"3959"
+			"1"		"1666"
+			"2"		"19995"
+			"3"		"6426"
+			"4"		"7481"
+			"5"		"15172"
+			"6"		"32322"
+			"7"		"6971"
+			"8"		"1742"
+			"9"		"4325"
+			"10"		"492"
+			"11"		"6815"
+			"12"		"21"
+			"13"		"7569"
+			"14"		"4182"
+			"15"		"1628"
+			"16"		"7702"
+			"17"		"922563"
+			"18"		"1091588"
+		}
+	}
+	"extended"
+	{
+		"remoteplaycursorscale"		"3.0"
+		"absolutemousecoordinates"		"1"
+		"developer"		"Julian Weiss"
+		"publisher"		"Julian Weiss"
+		"homepage"		"https://oogycanyouhelp.com"
+	}
+	"config"
+	{
+		"installdir"		"Oogy Can You Help"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"oogy_can_you_help.exe"
+				"arguments"		"-windowed"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Oogy_Can_You_Help.app/Contents/MacOS/Oogy_Can_You_Help"
+				"workingdir"		"Oogy_Can_You_Help.app/Contents/MacOS"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"./oogy_can_you_help"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamcontrollertouchtemplateindex"		"1"
+		"steamconfigurator3rdpartynative"		"65535"
+		"steamcontrollertouchconfigdetails"
+		{
+			"2779691793"
+			{
+				"controller_type"		"controller_mobile_touch"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"1880311"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2578723038315468672"
+					"size"		"942751645"
+					"download"		"721260752"
+				}
+			}
+		}
+		"1880312"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4762715012904531549"
+					"size"		"961855992"
+					"download"		"720382576"
+				}
+			}
+		}
+		"1880313"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3768952151279613722"
+					"size"		"942751645"
+					"download"		"720480448"
+				}
+			}
+		}
+		"1880314"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2057759565228967242"
+					"size"		"961855992"
+					"download"		"720220640"
+				}
+			}
+		}
+		"1880315"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"398434791095725805"
+					"size"		"1056854515"
+					"download"		"727179328"
+				}
+			}
+		}
+		"1880316"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3096409895644558243"
+					"size"		"1056854515"
+					"download"		"727179328"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8620380"
+				"timeupdated"		"1650908029"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"9000"
+	}
+}
