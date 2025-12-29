@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"1035500"
+	"common"
+	{
+		"name"		"Escape from the tomb tower"
+		"type"		"Game"
+		"logo"		"99e5a2ecf1a78cd695bfba8ffb7c9dfdcce1793b"
+		"logo_small"		"99e5a2ecf1a78cd695bfba8ffb7c9dfdcce1793b_thumb"
+		"icon"		"e25c113ea8ee40f36e58057f7a6c950727132264"
+		"clienttga"		"b231fedc68aef97830c634c59b6a61acabcacff9"
+		"clienticon"		"cf14cb8e6f0c2f97c2b7ee5096c0e62e939cbc87"
+		"linuxclienticon"		"5fdbee83402be7ebcceceee8c04c8a6c4cca214f"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"releasestate"		"released"
+		"metacritic_name"		"Escape from the tomb tower"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4a6f1e4ba6fbfe445b27c32ae56b23ddb1203d79.jpg"
+		"store_asset_mtime"		"1550345416"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ivan Pichugin"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ivan Pichugin"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1552923426"
+		"community_hub_visible"		"1"
+		"gameid"		"1035500"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Ivan Pichugin"
+		"publisher"		"Ivan Pichugin"
+	}
+	"config"
+	{
+		"installdir"		"Escape from the tomb tower"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"EscapeFromTheTombTower.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"EscapeFromTheTombTower.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,russian"
+		"1035501"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"620837384358302063"
+					"size"		"470727852"
+					"download"		"196006640"
+				}
+			}
+		}
+		"1035502"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6817186469546218772"
+					"size"		"437522488"
+					"download"		"175100992"
+				}
+			}
+		}
+		"1035503"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2073862408973091257"
+					"size"		"627658158"
+					"download"		"240734816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3653184"
+				"timeupdated"		"1552775922"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"EscapeFromTheTombTower"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/Epic/EscapeFromTheTombTower"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
