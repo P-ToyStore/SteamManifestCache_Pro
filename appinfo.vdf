@@ -1,0 +1,239 @@
+"appinfo"
+{
+	"appid"		"431770"
+	"common"
+	{
+		"name"		"Rivalry"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"797c7653c2a95319a1f7dcb70f661e234f068424"
+		"logo"		"fb35ea384c25c5a6bc77c4bcdec6b7b370b889e0"
+		"logo_small"		"fb35ea384c25c5a6bc77c4bcdec6b7b370b889e0_thumb"
+		"clienticon"		"751dec5950ab6ae2890b742ea74678be3fece181"
+		"clienttga"		"87a403eb736654b47cf3f05580d41ca9ba1267e4"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Rivalry"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0e0e05ae71f4b2d323bc969cddd1a77408d0c1e2.jpg"
+		"store_asset_mtime"		"1452680171"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Kew McParlane"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"My64K"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_24"		"1"
+			"category_37"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1453449600"
+		"steam_release_date"		"1453498812"
+		"community_hub_visible"		"1"
+		"gameid"		"431770"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"597"
+			"2"		"492"
+			"3"		"493"
+			"4"		"599"
+			"5"		"7368"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"Kew McParlane"
+		"publisher"		"My64K"
+		"homepage"		"http://my64k.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rivalry"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Rivalry.exe"
+				"arguments"		"-screen-width 1920 -screen-height 1080 -screen-fullscreen 1 "
+				"description"		"Rivary Windows"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Rivalry.app"
+				"arguments"		"-screen-width 1920 -screen-height 1080 -screen-fullscreen 1"
+				"description"		"Rivalry OSX"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Rivalry.x86_64"
+				"arguments"		"-force-opengl -screen-width 1920 -screen-height 1080 -screen-fullscreen 1"
+				"description"		"Original Linux 64 bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"431771"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5511078107236968110"
+					"size"		"216159826"
+					"download"		"32365680"
+				}
+				"beta"
+				{
+					"gid"		"5511078107236968110"
+					"size"		"216159826"
+					"download"		"32365680"
+				}
+				"original"
+				{
+					"gid"		"2280834766224072305"
+					"size"		"95372113"
+					"download"		"10203216"
+				}
+			}
+		}
+		"431772"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5222741767463693781"
+					"size"		"228717944"
+					"download"		"35464944"
+				}
+				"beta"
+				{
+					"gid"		"5222741767463693781"
+					"size"		"228717944"
+					"download"		"35464944"
+				}
+				"original"
+				{
+					"gid"		"4023240537159174539"
+					"size"		"137880230"
+					"download"		"21253520"
+				}
+			}
+		}
+		"431773"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1945976672693362051"
+					"size"		"271125136"
+					"download"		"48253408"
+				}
+				"beta"
+				{
+					"gid"		"1945976672693362051"
+					"size"		"271125136"
+					"download"		"48253408"
+				}
+				"original"
+				{
+					"gid"		"2692019278347532401"
+					"size"		"133463846"
+					"download"		"21418464"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10756466"
+				"timeupdated"		"1678715917"
+			}
+			"beta"
+			{
+				"buildid"		"10756466"
+				"description"		"Open Beta - Latest Unity Version"
+				"timeupdated"		"1678715704"
+			}
+			"original"
+			{
+				"buildid"		"942552"
+				"description"		"Original version released early 2016"
+				"timeupdated"		"1478759877"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
