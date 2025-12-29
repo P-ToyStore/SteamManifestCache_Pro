@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"889400"
+	"common"
+	{
+		"name"		"StickyBots"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"d17ad51e67319703db5be51cfa12236ec6d8f3e4"
+		"logo_small"		"d17ad51e67319703db5be51cfa12236ec6d8f3e4_thumb"
+		"icon"		"9e9e6e388cae5e0c4ace80f23e59d0ecdfc12cb8"
+		"clienticon"		"5ad0108d70d365da85b14d5d678ee30f8e1dbd5c"
+		"clienttga"		"f7682c0fc67779c7b83289fa40bff149e8257841"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"StickyBots"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9b3abc9faa5efb5db942eced40ddec3c6aa65668.jpg"
+		"store_asset_mtime"		"1536850098"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Potion Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Potion Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1542787200"
+		"steam_release_date"		"1542819197"
+		"community_hub_visible"		"1"
+		"gameid"		"889400"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"493"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"gamedir"		"StickyBots"
+		"serverbrowsername"		"StickyBots"
+		"developer"		"Potion Games"
+		"publisher"		"Potion Games"
+		"homepage"		"https://www.StickyBotsGame.com"
+	}
+	"config"
+	{
+		"installdir"		"StickyBots"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"blank1\\Binaries\\Win64\\blank1-Win64-Shipping.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"blank1\\Binaries\\Win64\\blank1.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"beta"
+				}
+			}
+			"2"
+			{
+				"executable"		"blank1\\Binaries\\Mac\\blank1-Mac-Shipping.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"889401"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3356447487454642167"
+					"size"		"459264261"
+					"download"		"84285664"
+				}
+				"beta"
+				{
+					"gid"		"2848311141806506922"
+					"size"		"459314205"
+					"download"		"84322832"
+				}
+			}
+		}
+		"889402"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3580787513069199777"
+					"size"		"1020421180"
+					"download"		"206828128"
+				}
+				"beta"
+				{
+					"gid"		"3703635539684771432"
+					"size"		"1020231770"
+					"download"		"206582752"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3838723"
+				"timeupdated"		"1558325164"
+			}
+			"beta"
+			{
+				"buildid"		"3813662"
+				"timeupdated"		"1557534970"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"250000"
+		"maxnumfiles"		"5"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"blank1/Saved/SaveGames"
+				"pattern"		"BugSPSavedGame.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
