@@ -1,0 +1,242 @@
+"appinfo"
+{
+	"appid"		"338350"
+	"common"
+	{
+		"name"		"Farm World"
+		"type"		"Game"
+		"clienticon"		"43b3182683f954f31705dd9f77de82fa79af14de"
+		"clienttga"		"91c9f78b6c2b5a3176ccc292d7eb7231f6b7d079"
+		"icon"		"7f7ce752592c51558af942685ed48ec6fac035e2"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"f69a89414ddd451b53ebef12b5fa609882a49b91"
+		"logo_small"		"f69a89414ddd451b53ebef12b5fa609882a49b91_thumb"
+		"releasestate"		"released"
+		"clienticns"		"f99a9338156fe1850a35c5d66196f13da20967c9"
+		"metacritic_name"		"Farm World"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9d586219eae60a7bc5bd44db4b731315deb090ad.jpg"
+		"store_asset_mtime"		"1489072293"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"b-alive gmbh"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"b-alive gmbh"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1491412024"
+		"community_hub_visible"		"1"
+		"gameid"		"338350"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"9"
+			"3"		"599"
+			"4"		"1695"
+			"5"		"1643"
+			"6"		"4175"
+			"7"		"4695"
+			"8"		"12472"
+			"9"		"3810"
+			"10"		"3964"
+			"11"		"4166"
+			"12"		"4711"
+			"13"		"4726"
+			"14"		"5851"
+			"15"		"5350"
+			"16"		"6041"
+			"17"		"8945"
+		}
+		"review_score"		"5"
+		"review_percentage"		"47"
+	}
+	"extended"
+	{
+		"developer"		"b-alive gmbh"
+		"publisher"		"b-alive gmbh"
+		"homepage"		"http://www.b-alive.de"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Farm World"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FarmWorld-STEAM-Windows.exe"
+				"arguments"		"-console"
+				"description"		"FarmWorld-windows-launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"FarmWorld-STEAM-OSX.app\\Contents\\MacOS\\FarmWorld-STEAM-OSX"
+				"description"		"FarmWorld-OSX-launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"338351"
+		{
+		}
+		"338352"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4109023645524969199"
+					"size"		"181450173"
+					"download"		"163419376"
+				}
+				"beta"
+				{
+					"gid"		"4109023645524969199"
+					"size"		"181450173"
+					"download"		"163419376"
+				}
+			}
+		}
+		"338353"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2425121093041384100"
+					"size"		"182919234"
+					"download"		"164597488"
+				}
+				"beta"
+				{
+					"gid"		"2425121093041384100"
+					"size"		"182919234"
+					"download"		"164597488"
+				}
+			}
+		}
+		"baselanguages"		"english,german"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2518321"
+				"timeupdated"		"1518457545"
+			}
+			"beta"
+			{
+				"buildid"		"2518321"
+				"timeupdated"		"1518436730"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saveaddon2"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"FarmWorld-STEAM-OSX/saveaddon2"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
