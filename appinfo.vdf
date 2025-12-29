@@ -1,0 +1,239 @@
+"appinfo"
+{
+	"appid"		"752430"
+	"common"
+	{
+		"name"		"Arcade Love"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+		}
+		"logo"		"3b44694608eb38fe6d6faba529f8328f926e503e"
+		"logo_small"		"3b44694608eb38fe6d6faba529f8328f926e503e_thumb"
+		"icon"		"091a7cf466449996a3d70bb7e39a950d7dec00c8"
+		"clienticon"		"340ca2293a8d124adef253b8ec63f179258cb5e5"
+		"clienttga"		"e8c3e00a493b8636396ca5eba51a5f622321bf69"
+		"releasestate"		"released"
+		"metacritic_name"		"Arcade Love"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"91.97908305413656"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"91.97908305413656"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1666986996"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TRIANGLE SERVICE"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TRIANGLE SERVICE"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_44"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1529392306"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"752430"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"492"
+			"3"		"4255"
+			"4"		"1773"
+			"5"		"4885"
+			"6"		"3871"
+			"7"		"1719"
+			"8"		"4004"
+			"9"		"4136"
+			"10"		"1775"
+			"11"		"7481"
+			"12"		"4182"
+			"13"		"3859"
+			"14"		"4840"
+			"15"		"7368"
+			"16"		"1756"
+			"17"		"1774"
+		}
+	}
+	"extended"
+	{
+		"developer"		"TRIANGLE SERVICE"
+		"publisher"		"TRIANGLE SERVICE"
+		"homepage"		"https://triangleservice.co.jp/GL/"
+	}
+	"config"
+	{
+		"installdir"		"ArcadeLove"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GL_pc.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"752431"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7252176092824466298"
+					"size"		"189328705"
+					"download"		"164975776"
+				}
+			}
+		}
+		"baselanguages"		"english,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7792940"
+				"timeupdated"		"1638170540"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"16777216"
+		"maxnumfiles"		"1024"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"savedata"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
