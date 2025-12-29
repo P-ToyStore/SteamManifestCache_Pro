@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"769580"
+	"common"
+	{
+		"name"		"Kingdom of Blades"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+			"standing"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"icon"		"6836ef06edda5a6599cdaad3601ebf842bebeffb"
+		"clienttga"		"928612cb4c80c0488c39e2a7fdf2ecaf3a737ef8"
+		"clienticon"		"87aa0da148cc78cec21844ecc2887ef6524ca8de"
+		"logo"		"7f7bd8174e7160f1e64cf6d1608a6520060f6855"
+		"logo_small"		"7f7bd8174e7160f1e64cf6d1608a6520060f6855_thumb"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Kingdom of Blades"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"store_screenshot"		"ss_71e19fd4643d2a6b38adcf363b1f71d627a7ed11.jpg"
+		"store_asset_mtime"		"1522138425"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Chesstar Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vive Studios"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_23"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1519437610"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"769580"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"21978"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Chesstar Studios"
+		"publisher"		"Vive Studios"
+		"homepage"		"http://kobvr.com/site/en/"
+	}
+	"config"
+	{
+		"installdir"		"Kingdom of Blades"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"KingdomofBlades\\KingdomofBlades.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"769581"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8606807679323600138"
+					"size"		"1629797038"
+					"download"		"436028784"
+				}
+			}
+		}
+		"769582"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6702454899309837461"
+					"size"		"1629797038"
+					"download"		"436244448"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2821934"
+				"timeupdated"		"1529483372"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Chesstar/KingdomofBlades"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Chesstar/KingdomofBlades"
+						"replace"		"unity.Chesstar.KingdomofBlades"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Chesstar/KingdomofBlades"
+						"replace"		".config/unity3d/Chesstar/KingdomofBlades"
+					}
+				}
+			}
+		}
+	}
+}
