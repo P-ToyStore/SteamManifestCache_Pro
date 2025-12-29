@@ -1,0 +1,197 @@
+"appinfo"
+{
+	"appid"		"727860"
+	"common"
+	{
+		"name"		"Space Quiz"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"spanish"		"1"
+		}
+		"icon"		"2aab69790ffa486b0cb18f4b1208b7596c71f691"
+		"logo"		"797f5316c5d803bd2f2e6b57b9d706ceb15fb7c3"
+		"logo_small"		"797f5316c5d803bd2f2e6b57b9d706ceb15fb7c3_thumb"
+		"clienticon"		"fd3f77368a8f7ece755f63bb465afeab9f002580"
+		"clienttga"		"69698230df000a1f6c0b30784f35aedc9102b4e0"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Space Quiz"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_66e3a1b799612309efae1c774dddb3d02ce1f2ae.jpg"
+		"store_asset_mtime"		"1507882342"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Little Smart Planet"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Little Smart Planet"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"29"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_20"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1509087600"
+		"steam_release_date"		"1509089349"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"727860"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+			"2"		"128"
+			"3"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Little Smart Planet"
+		"publisher"		"Little Smart Planet"
+		"homepage"		"http://spacequizapp.com/"
+	}
+	"config"
+	{
+		"installdir"		"Space Quiz"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"spacequiz.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"spacequiz.app\\Contents\\MacOS\\spacequiz"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,spanish"
+		"727861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5772819771436157152"
+					"size"		"1004189887"
+					"download"		"371775040"
+				}
+			}
+		}
+		"727862"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7724367767962466810"
+					"size"		"1018647167"
+					"download"		"375878688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2723556"
+				"timeupdated"		"1524741663"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"spacequiz_Data/SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"spacequiz.app/Content/SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
