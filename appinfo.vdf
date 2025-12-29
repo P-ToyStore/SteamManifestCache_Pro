@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"676620"
+	"common"
+	{
+		"name"		"Robots: create AI"
+		"type"		"Game"
+		"logo"		"aa4968b801a360fe9d367de77775a803da558b36"
+		"logo_small"		"aa4968b801a360fe9d367de77775a803da558b36_thumb"
+		"icon"		"e8dbb36e3edc2cd6b92e9fb39e3818c0a870d795"
+		"clienttga"		"7088c9b582212d37e51e5c61107e4064d8ee0f9a"
+		"clienticon"		"b98687db4ee13f54bc8859d2a63413a17ee5326c"
+		"clienticns"		"c8639bf536d899805ca0592ebcf4085eba7ad8a6"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Robots: create AI"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_2b154ba70ed5d7d4ce6ac1ffb891b446fe5b2e61.jpg"
+		"store_asset_mtime"		"1502254798"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"xuan"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"xuan"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1505124951"
+		"community_hub_visible"		"1"
+		"gameid"		"676620"
+		"store_tags"
+		{
+			"0"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"xuan"
+		"publisher"		"xuan"
+	}
+	"config"
+	{
+		"installdir"		"Robots"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Robots.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Robots.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,schinese"
+		"676621"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9158662918215140646"
+					"size"		"15740388"
+					"download"		"4606608"
+				}
+			}
+		}
+		"676622"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9162371467374553394"
+					"size"		"6906060"
+					"download"		"2289072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2125094"
+				"timeupdated"		"1505645784"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"20000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacHome"
+				"path"		"Library/Caches"
+				"pattern"		"RobotsData.xml"
+			}
+			"1"
+			{
+				"root"		"MacHome"
+				"path"		"Library/Caches"
+				"pattern"		"RobotsNormalCodes.xml"
+			}
+			"2"
+			{
+				"root"		"MacHome"
+				"path"		"Library/Caches"
+				"pattern"		"RobotsRandomLevel.xml"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"MacHome"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocal"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Library/Caches"
+						"replace"		"Robots"
+					}
+				}
+			}
+		}
+	}
+}
