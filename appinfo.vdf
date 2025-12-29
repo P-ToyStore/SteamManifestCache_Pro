@@ -1,0 +1,353 @@
+"appinfo"
+{
+	"appid"		"542220"
+	"common"
+	{
+		"name"		"Rumpus"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienttga"		"54393f1f43c8fd0ac5b70427356c249371aa58bd"
+		"icon"		"6a53265b81f48b99e7393c6cc481ac309ae0e5f7"
+		"logo"		"2bed2c5b0057cdccce9c88d8b4b7ba2706a8663d"
+		"logo_small"		"2bed2c5b0057cdccce9c88d8b4b7ba2706a8663d_thumb"
+		"clienticon"		"533f710334fc2cc9f88b1af6aa257837f70fc545"
+		"clienticns"		"1688ccd5a7d934baae66ca673a3d13ac72999659"
+		"linuxclienticon"		"bab3d39fc2bcd369b541376ab2e4b00f0a15fcbe"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Rumpus"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8e93d496cb0b28fe8744946229c680ec059ba4ca.jpg"
+		"store_asset_mtime"		"1491948387"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Polyraptor Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Polyraptor Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_37"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_9"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1491980400"
+		"steam_release_date"		"1492012061"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"542220"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Polyraptor Games"
+		"publisher"		"Polyraptor Games"
+		"homepage"		"http://www.rumpusgame.com"
+	}
+	"config"
+	{
+		"installdir"		"Rumpus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"rumpus.exe"
+				"description"		"Play RUMPUS"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"rumpus.exe"
+				"arguments"		"input"
+				"description"		"Configure input devices"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"rumpus.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"rumpus.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"rumpus.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"rumpus.app"
+				"arguments"		"input"
+				"description"		"Configure input devices"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"rumpus.x86"
+				"arguments"		"input"
+				"description"		"Configure input devices"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"7"
+			{
+				"executable"		"rumpus.x86_64"
+				"arguments"		"input"
+				"description"		"Configure input devices"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,german,french,spanish,russian,brazilian"
+		"542221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2726659572987799072"
+					"size"		"1626462198"
+					"download"		"64653104"
+				}
+				"beta"
+				{
+					"gid"		"2726659572987799072"
+					"size"		"1626462198"
+					"download"		"64653104"
+				}
+			}
+		}
+		"542222"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6842081016783278978"
+					"size"		"1664768313"
+					"download"		"75623632"
+				}
+				"beta"
+				{
+					"gid"		"6842081016783278978"
+					"size"		"1664768313"
+					"download"		"75623632"
+				}
+			}
+		}
+		"542223"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3510212289589024001"
+					"size"		"1649718915"
+					"download"		"73778368"
+				}
+				"beta"
+				{
+					"gid"		"3510212289589024001"
+					"size"		"1649718915"
+					"download"		"73778368"
+				}
+			}
+		}
+		"workshopdepot"		"542220"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1771120"
+				"timeupdated"		"1492813780"
+			}
+			"beta"
+			{
+				"buildid"		"1771120"
+				"description"		"Last update test before it goes live"
+				"timeupdated"		"1492720340"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Polyraptor/Rumpus/sync"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Polyraptor/Rumpus/sync"
+						"replace"		"unity.Polyraptor.Rumpus/sync"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Polyraptor/Rumpus/sync"
+						"replace"		".config/unity3d/Polyraptor/Rumpus/sync"
+					}
+				}
+			}
+		}
+	}
+}
