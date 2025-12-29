@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"764880"
+	"common"
+	{
+		"name"		"Brazilian Adventure"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"9f758b1f4a78fee0d9f7d68e40a6b8a416d995e5"
+		"logo_small"		"9f758b1f4a78fee0d9f7d68e40a6b8a416d995e5_thumb"
+		"clienticon"		"d8bf5b61bb1a11959978c5f8a04f25a2541f86dd"
+		"clienttga"		"4856f135471eedf5a7152ce05dd77e1696c4ce74"
+		"icon"		"1156e42633c599d6492c90ddf32cb6386e21698b"
+		"metacritic_name"		"Brazilian Adventure"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"russian"		"capsule_231x87_russian.jpg"
+			"french"		"capsule_231x87_french.jpg"
+			"german"		"capsule_231x87_german.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"russian"		"header_russian.jpg"
+			"french"		"header_french.jpg"
+			"german"		"header_german.jpg"
+		}
+		"store_screenshot"		"ss_a32acabd227067582295c4f86dd4d30383a9c369.jpg"
+		"store_asset_mtime"		"1513381322"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"'What Day is it?' Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"What Day is it?' Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1521475552"
+		"community_hub_visible"		"1"
+		"gameid"		"764880"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"597"
+			"3"		"1738"
+		}
+	}
+	"extended"
+	{
+		"developer"		"'What Day is it?' Games"
+		"publisher"		"What Day is it?' Games"
+		"homepage"		"http://www.whatdayisitgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Brazilian Adventure"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Brazilian Adventure.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Brazilian.app\\Contents\\MacOS\\Brazilian"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,russian"
+		"764881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2667858756671597064"
+					"size"		"809557375"
+					"download"		"730630432"
+				}
+			}
+		}
+		"764882"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4388496288889171505"
+					"size"		"738433832"
+					"download"		"700455744"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2614305"
+				"timeupdated"		"1521412049"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"256000"
+		"maxnumfiles"		"4"
+		"savefiles"
+		{
+			"2"
+			{
+				"root"		"MacAppSupport"
+				"path"		"What day is it Games/Brazilian Adventure"
+				"pattern"		"options.xml"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataRoaming"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"What day is it Games/Brazilian Adventure"
+						"replace"		"What Day Is It Games\\Brazilian Adventure\\"
+					}
+				}
+			}
+		}
+	}
+}
