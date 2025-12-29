@@ -1,0 +1,272 @@
+"appinfo"
+{
+	"appid"		"1356790"
+	"common"
+	{
+		"name"		"Exp Parasite"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosnotarized"
+		"icon"		"aab0593f96e01f419ced28fe1719b4a197afb088"
+		"logo"		"8e6cfb3a7dcd80505b1ac3408c7bfa700b29243d"
+		"logo_small"		"8e6cfb3a7dcd80505b1ac3408c7bfa700b29243d_thumb"
+		"clienttga"		"253790c7912b898968c6c227e0a1cf208906284f"
+		"clienticon"		"51ff954cb7438f1c4f72bceb785b1231c08c4004"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1597724339"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zimogor"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Greyhead Studio LLC"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1600283610"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1356790"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"1625"
+			"2"		"3798"
+			"3"		"3964"
+			"4"		"4004"
+			"5"		"7250"
+			"6"		"492"
+			"7"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Zimogor"
+		"publisher"		"Greyhead Studio LLC"
+		"homepage"		"https://greyheadstudio.com/parasite/"
+	}
+	"config"
+	{
+		"installdir"		"Exp Parasite"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Exp Parasite.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"ExpParasite.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"ExpParasite.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1356791"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1597268022193325558"
+					"size"		"89793694"
+					"download"		"39480640"
+				}
+			}
+		}
+		"1356792"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5186318661468330031"
+					"size"		"98408670"
+					"download"		"41752336"
+				}
+			}
+		}
+		"1356793"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3583478451763085111"
+					"size"		"97271478"
+					"download"		"42644960"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5430811"
+				"timeupdated"		"1597825522"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"3"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Greyhead Studio/Exp Parasite"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Greyhead Studio/Exp Parasite"
+						"replace"		"unity.GreyheadStudio.ExpParasite"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Greyhead Studio/Exp Parasite"
+						"replace"		".config/unity3d/Greyhead Studio/Exp Parasite"
+					}
+				}
+			}
+		}
+	}
+}
