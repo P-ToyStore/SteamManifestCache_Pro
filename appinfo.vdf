@@ -1,0 +1,207 @@
+"appinfo"
+{
+	"appid"		"683840"
+	"common"
+	{
+		"name"		"Galaxia Conquestum"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"d5bc091f7758af3e46e65ff029ac286e4b3f85bb"
+		"logo_small"		"d5bc091f7758af3e46e65ff029ac286e4b3f85bb_thumb"
+		"clienticon"		"7d82adbc65f90faaf68a6100819adda7102748fa"
+		"clienttga"		"1c0988711a999b3787244f7cc0bd6ad881aa8b54"
+		"icon"		"bec333c148be9066cc4adcc7b804e6b0dbe7bd53"
+		"linuxclienticon"		"525766e78735f487bd42a7c7cd299b04b4600ba6"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Galaxia Conquestum"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_95e9ae25c63015028af81f347c6a3ee42797cf9a.jpg"
+		"store_asset_mtime"		"1667672051"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Alien Octopus Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Alien Octopus Studio"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1375340400"
+		"steam_release_date"		"1505483751"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"683840"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"9"
+			"2"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Alien Octopus Studio"
+		"publisher"		"Alien Octopus Studio"
+		"homepage"		"http://www.alienoctopusstudio.com/games/galaxia-conquestum/"
+	}
+	"config"
+	{
+		"installdir"		"Galaxia Conquestum"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"gc.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"runner"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"1128174473"
+			{
+				"controller_type"		"controller_steamcontroller_gordon"
+				"enabled_branches"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"683841"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8212738239012063953"
+					"size"		"54627800"
+					"download"		"44616000"
+				}
+			}
+		}
+		"683842"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3697735180570629609"
+					"size"		"53158788"
+					"download"		"43573312"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2121868"
+				"timeupdated"		"1505485483"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Galaxia_Conquestum"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocal"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Galaxia_Conquestum"
+						"replace"		"Galaxia_Conquestum"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Galaxia_Conquestum"
+						"replace"		".config/Galaxia_Conquestum"
+					}
+				}
+			}
+		}
+	}
+}
