@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"859970"
+	"common"
+	{
+		"name"		"Math Classroom Challenge"
+		"type"		"Game"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"logo"		"b80297c1260e780c739c4d932a9e472f46481ecd"
+		"logo_small"		"b80297c1260e780c739c4d932a9e472f46481ecd_thumb"
+		"icon"		"62e5df7e4788cd1660b1f336abc0bfbfd0bb4eda"
+		"clienticon"		"76c5d5569d24e1d721499450589899966bed1b09"
+		"clienttga"		"ef8b2c37331d23fceff5dbfdce028ac9f628a3cf"
+		"releasestate"		"released"
+		"osextended"		"macos64,macosnotarized"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"metacritic_name"		"Math Classroom Challenge"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_dc61bb8254149c4b3a93948018d4d016cc9ed234.jpg"
+		"store_asset_mtime"		"1621066603"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Titan Deep Space Company"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Titan Deep Space Company"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1527145200"
+		"steam_release_date"		"1528372315"
+		"community_hub_visible"		"1"
+		"gameid"		"859970"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1036"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Titan Deep Space Company"
+		"publisher"		"Titan Deep Space Company"
+		"homepage"		"https://titandscompany.com"
+	}
+	"config"
+	{
+		"installdir"		"Math Classroom Challenge"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Math CC.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"MCLC.exe"
+				"arguments"		"VR"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"math_vr"
+				}
+			}
+			"2"
+			{
+				"executable"		"MCLC.exe"
+				"arguments"		"VR2"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Math_Classroom_Challenge.app\\Contents\\MacOS\\Math_Classroom_Challenge"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"859971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1131480932521739009"
+					"size"		"729026398"
+					"download"		"607522448"
+				}
+				"betamac"
+				{
+					"gid"		"329300804932193985"
+					"size"		"1837719148"
+					"download"		"1543976448"
+				}
+				"math_vr"
+				{
+					"gid"		"4479004806281571015"
+					"size"		"1858315307"
+					"download"		"1559368816"
+				}
+			}
+		}
+		"859972"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6344623224582206552"
+					"size"		"1200136150"
+					"download"		"1009490928"
+				}
+				"betamac"
+				{
+					"gid"		"6344623224582206552"
+					"size"		"1200136150"
+					"download"		"1009490928"
+				}
+				"math_vr"
+				{
+					"gid"		"6344623224582206552"
+					"size"		"1200136150"
+					"download"		"1009490928"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20267877"
+				"timeupdated"		"1759743415"
+			}
+			"betamac"
+			{
+				"buildid"		"3869205"
+				"description"		"Beta Mac"
+				"timeupdated"		"1559150910"
+			}
+			"math_vr"
+			{
+				"buildid"		"4578180"
+				"description"		"VR Math Classroom Challenge"
+				"timeupdated"		"1620918362"
+			}
+		}
+	}
+}
