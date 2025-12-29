@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"586230"
+	"common"
+	{
+		"name"		"Kult of Ktulu: Olympic"
+		"type"		"Game"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+		}
+		"logo"		"283b1826c4fab93d6ee063f5b79e7d23cf466756"
+		"logo_small"		"283b1826c4fab93d6ee063f5b79e7d23cf466756_thumb"
+		"clienticon"		"56ef75080d9b98d84a861be2fc35eaf0c644fe3c"
+		"clienttga"		"00a1d345b2e522974da76960ec299ab497a4f09d"
+		"icon"		"b977bbb65bd4bfc58ca0445976fa66a428bc881d"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienticns"		"152b6d913b4a33fb8b4893a1a8be59745c95faae"
+		"metacritic_name"		"Kult of Ktulu: Olympic"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4fb08680edf8665105a442ae80aaa04d81dc61d5.jpg"
+		"store_asset_mtime"		"1485872403"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Grand Cauldron"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Morrigan Games"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1486630120"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"586230"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"21"
+			"2"		"492"
+			"3"		"7432"
+		}
+		"review_score"		"7"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Grand Cauldron"
+		"publisher"		"Morrigan Games"
+	}
+	"config"
+	{
+		"installdir"		"Kult of Ktulu Olympic"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"kokolympic.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"kokolympic.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"586231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"147546821851140770"
+					"size"		"127823502"
+					"download"		"40625840"
+				}
+			}
+		}
+		"586232"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6079893641303138411"
+					"size"		"139161718"
+					"download"		"44546544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1837403"
+				"timeupdated"		"1716381493"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Grand Cauldron/Olympic/{64BitSteamID}/"
+				"pattern"		"kokolympic.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Grand Cauldron/Olympic/{64BitSteamID}/"
+						"replace"		"unity.Grand Cauldron.Olympic/{64BitSteamID}/"
+					}
+				}
+			}
+		}
+	}
+}
