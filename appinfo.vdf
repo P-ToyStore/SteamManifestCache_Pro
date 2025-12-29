@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"683240"
+	"common"
+	{
+		"name"		"Apocalypse Knights 2.0"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"330085729d98a15f4c4b9f22c5a8ae53e4d43d44"
+		"logo_small"		"330085729d98a15f4c4b9f22c5a8ae53e4d43d44_thumb"
+		"icon"		"d95f49d2a7b2615279d5e2ae2218a6395cdc3c6d"
+		"clienticon"		"745648a14cb123510bd46d044014a6717343584f"
+		"clienttga"		"d5b4b36de995f040cbe9537e38a9783a278f3d0b"
+		"releasestate"		"released"
+		"clienticns"		"4cb8e792ce1d5433655472fd8e5a4fa7a6a81430"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Apocalypse Knights 2.0"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_147275fdce1c87cf1e8119e06680b8614800b339.jpg"
+		"store_asset_mtime"		"1502452449"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"InterServ International"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"InterServ International"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"thai"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1504066009"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"683240"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"122"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"developer"		"InterServ International"
+		"publisher"		"InterServ International"
+		"homepage"		"http://www.interserv.com.tw"
+	}
+	"config"
+	{
+		"installdir"		"Apocalypse Knights"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AK.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"AK.app\\Contents\\MacOS\\AK"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"683241"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5399995275257837198"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"683242"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4308531889027808254"
+					"size"		"507838500"
+					"download"		"177221840"
+				}
+			}
+		}
+		"683243"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7009719414631018487"
+					"size"		"522889237"
+					"download"		"181585024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2068091"
+				"timeupdated"		"1503665165"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"InterServ/Apocalypse Knights/Save/{64BitSteamID}"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"InterServ/Apocalypse Knights/Save/{64BitSteamID}"
+						"replace"		"com.InterServ.ApocalypseKnights/Save/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
