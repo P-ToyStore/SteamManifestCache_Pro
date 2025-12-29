@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"616000"
+	"common"
+	{
+		"name"		"Riptale"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"73bc9fd9db7a86528b7c12521e720298f55645b4"
+		"logo_small"		"73bc9fd9db7a86528b7c12521e720298f55645b4_thumb"
+		"icon"		"339a8ae23fab209414d2bd5e2bd2f43bd8f047af"
+		"clienttga"		"b220122adaf7a335ac5763adfb493e1907bc78ef"
+		"clienticon"		"ab593425173f9d4f72c1e18971c38cf877ad647c"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Riptale"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_73f82298354c2c537f73b89670a2997b31d35800.jpg"
+		"store_asset_mtime"		"1493285153"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Super God"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Super God"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1493305609"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"616000"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"42804"
+			"2"		"19"
+			"3"		"21"
+			"4"		"3871"
+			"5"		"3959"
+			"6"		"1756"
+			"7"		"1716"
+			"8"		"3964"
+			"9"		"5228"
+			"10"		"1625"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Super God"
+		"publisher"		"Super God"
+		"homepage"		"http://supergod.fi/games/"
+		"listofdlc"		"632790"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Riptale"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Riptale\\Riptale.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Riptale\\runner"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Riptale\\Riptale.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"1"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"616001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4535153598611922251"
+					"size"		"29793043"
+					"download"		"16698160"
+				}
+				"beta"
+				{
+					"gid"		"4535153598611922251"
+					"size"		"29793043"
+					"download"		"16698160"
+				}
+			}
+		}
+		"616002"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1917792334073837913"
+					"size"		"28725900"
+					"download"		"16192896"
+				}
+			}
+		}
+		"616003"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4769061002213481770"
+					"size"		"36081122"
+					"download"		"20065376"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1860330"
+				"timeupdated"		"1496330571"
+			}
+			"beta"
+			{
+				"buildid"		"1854152"
+				"timeupdated"		"1496138709"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Riptale_Alpha/"
+				"pattern"		"*.ini"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
