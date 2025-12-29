@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"1703060"
+	"common"
+	{
+		"name"		"Conflict in Vietnam"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"a02b4bed3628341173d7d091496c24c1d196c944"
+		"logo_small"		"a02b4bed3628341173d7d091496c24c1d196c944_thumb"
+		"icon"		"84e5c77bd52e66d20a2a213f041971eb1ed2e57d"
+		"clienticon"		"c2020c91df5e39dfce971c86ed89676f8a08a0f0"
+		"clienttga"		"c279c1f8f5a96a4fde5c11718a82371bb156984d"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"74.21369066284197"
+				"height_pct"		"58.06054872280038"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"74.21369066284197"
+					"height_pct"		"58.06054872280038"
+				}
+			}
+		}
+		"store_asset_mtime"		"1636734420"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Microprose"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Microprose Classics"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Sid Meier's Command Series"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"519634800"
+		"steam_release_date"		"1638292680"
+		"community_hub_visible"		"1"
+		"gameid"		"1703060"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1770"
+			"2"		"1676"
+			"3"		"1741"
+			"4"		"4684"
+			"5"		"3871"
+			"6"		"4791"
+			"7"		"7743"
+			"8"		"3987"
+			"9"		"4168"
+			"10"		"3916"
+			"11"		"4004"
+			"12"		"1678"
+			"13"		"4150"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Microprose"
+		"publisher"		"Atari"
+	}
+	"config"
+	{
+		"installdir"		"Conflict in Vietnam"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox\\dosbox.exe"
+				"arguments"		"-conf dosbox.conf -conf win.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox.conf -conf osx.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1703061"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4242006497714344060"
+					"size"		"42352412"
+					"download"		"36429168"
+				}
+			}
+		}
+		"1703062"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"53342504309555575"
+					"size"		"37835505"
+					"download"		"16383232"
+				}
+			}
+		}
+		"1703063"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8811643481339933913"
+					"size"		"15441282"
+					"download"		"12208192"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7097139"
+				"timeupdated"		"1627424124"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
