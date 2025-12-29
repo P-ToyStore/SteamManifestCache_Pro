@@ -1,0 +1,274 @@
+"appinfo"
+{
+	"appid"		"517670"
+	"common"
+	{
+		"name"		"Cowbots and Aliens"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+			}
+		}
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"icon"		"61a3a7c2e6c6fbab76d2556b78f869c1a3ba131b"
+		"clienticon"		"261bc7a1f6e443df6cea5043830dfa996dea20eb"
+		"clienttga"		"52ceef9bfa76faafead7f917d3060fbde672607d"
+		"logo"		"ba85b45e8208fa9a822a15b7f93018a3837856b9"
+		"logo_small"		"ba85b45e8208fa9a822a15b7f93018a3837856b9_thumb"
+		"releasestate"		"released"
+		"osextended"		""
+		"openvrsupport"		"1"
+		"openxrsupport"		"1"
+		"metacritic_name"		"Cowbots and Aliens"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"56.126021003500576"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"56.126021003500576"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1662493909"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Wizard Games Inc"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Chicken Waffle"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Chicken Waffle"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_2"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_49"		"1"
+			"category_9"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1703458980"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"517670"
+		"store_tags"
+		{
+			"0"		"3859"
+			"1"		"1663"
+			"2"		"1775"
+			"3"		"3878"
+			"4"		"1774"
+			"5"		"5055"
+			"6"		"1773"
+			"7"		"21978"
+			"8"		"3839"
+			"9"		"4747"
+			"10"		"19"
+			"11"		"3843"
+			"12"		"597"
+			"13"		"4195"
+			"14"		"4305"
+			"15"		"1647"
+			"16"		"4182"
+			"17"		"3968"
+			"18"		"21"
+			"19"		"4835"
+		}
+		"review_score"		"8"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"Wizard Games Inc"
+		"publisher"		"Chicken Waffle"
+		"homepage"		"http://www.cowbotsandaliens.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Cowbots and Aliens"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"cba.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"classic"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cowbots.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch SteamDeck"
+				}
+				"description"		"Launch SteamDeck"
+			}
+			"2"
+			{
+				"executable"		"CowbotsAndAliens.exe"
+				"arguments"		"-NoVR"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"without VR"
+				}
+				"description"		"without VR"
+			}
+			"3"
+			{
+				"executable"		"CowbotsAndAliens.exe"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"517671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6519502376391951360"
+					"size"		"1393169254"
+					"download"		"357250144"
+				}
+			}
+		}
+		"517672"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12884917"
+				"timeupdated"		"1701921844"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
