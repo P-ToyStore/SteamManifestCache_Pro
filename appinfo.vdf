@@ -1,0 +1,244 @@
+"appinfo"
+{
+	"appid"		"1501390"
+	"common"
+	{
+		"name"		"KING PONG"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"cac082435dfbe5063dae195734e7567bb48feeb5"
+		"clienticon"		"e9938c5b113884ad27ff2a715f848861d28a1b5b"
+		"clienttga"		"4dffb990d92ba2fd798ab04c3dc19cde0c24636f"
+		"logo"		"39f8101179ff8ef873b27a37809e6ca08be70f6f"
+		"logo_small"		"39f8101179ff8ef873b27a37809e6ca08be70f6f_thumb"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"360_required"		"1"
+			}
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"100"
+				"height_pct"		"96.96586608606262"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"100"
+					"height_pct"		"96.96586608606262"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1750429590"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Iconik"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Iconik"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Plug In Digital"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"18"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1613656902"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1501390"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"701"
+			"2"		"1773"
+			"3"		"5055"
+			"4"		"21978"
+			"5"		"4777"
+			"6"		"3839"
+			"7"		"4747"
+			"8"		"4191"
+			"9"		"4305"
+			"10"		"5350"
+			"11"		"3942"
+			"12"		"1710"
+			"13"		"1775"
+			"14"		"5154"
+			"15"		"10808"
+			"16"		"5752"
+			"17"		"493"
+			"18"		"4295"
+			"19"		"3859"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Iconik"
+		"publisher"		"Iconik"
+		"homepage"		"https://kingpong-vr.com/"
+	}
+	"config"
+	{
+		"installdir"		"KING PONG"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"KingPong.exe"
+				"arguments"		"-steamvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"OpenXR"
+				}
+				"description"		"OpenXR"
+			}
+			"1"
+			{
+				"executable"		"KingPong.exe"
+				"arguments"		"-oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"KingPong.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"dev-openxr"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,french"
+		"1501391"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2037546043462682472"
+					"size"		"1258296213"
+					"download"		"526348928"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8684066"
+				"timeupdated"		"1654854734"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
