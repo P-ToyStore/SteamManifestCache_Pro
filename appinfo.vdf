@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"925600"
+	"common"
+	{
+		"name"		"Afterlifes"
+		"type"		"Game"
+		"logo"		"7fdd5f37c3f85ad0942db52d6c01da3825683a6c"
+		"logo_small"		"7fdd5f37c3f85ad0942db52d6c01da3825683a6c_thumb"
+		"icon"		"ee884d770e1417475619e6642a5e9aa70f33f4b7"
+		"clienttga"		"a2a1074b1e7365b0b85fe4bd577b5fa26cf927a0"
+		"clienticon"		"d237ea354bcda636692bfae2dfa209a67d711347"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"925600_eula_0"
+				"name"		"Afterlifes EULA"
+				"url"		"https://store.steampowered.com//eula/925600_eula_0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Afterlifes"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"5cb5c7f64afb67e6ee23021b2fb9a1b74cc4d605/logo.png"
+				}
+			}
+		}
+		"store_screenshot"		"ss_55cac64de8fe1f0754f639d96cbbfc4993b12de1.jpg"
+		"store_asset_mtime"		"1746219706"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nockdev Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nockdev Entertainment"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1562180434"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"925600"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"21"
+			"3"		"493"
+			"4"		"4667"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Nockdev Entertainment"
+		"publisher"		"Nockdev Entertainment"
+		"homepage"		"http://afterlifesgame.com"
+	}
+	"config"
+	{
+		"installdir"		"Afterlifes"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Afterlifes.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Afterlifes.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Afterlifes.x64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"925601"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7698571612333218804"
+					"size"		"2308162830"
+					"download"		"459190816"
+				}
+				"roadtobeta"
+				{
+					"gid"		"5468319922966045986"
+					"size"		"2014861621"
+					"download"		"1032818672"
+				}
+			}
+		}
+		"925609"
+		{
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4520792"
+				"timeupdated"		"1577058500"
+			}
+			"roadtobeta"
+			{
+				"buildid"		"6077612"
+				"description"		"Road to Beta"
+				"timeupdated"		"1610566158"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
