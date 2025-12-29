@@ -1,0 +1,196 @@
+"appinfo"
+{
+	"appid"		"366550"
+	"common"
+	{
+		"name"		"Zeuxis : procedural texture generator"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"f6d0ca3f08312dc357b56baa559067fecc1023ae"
+		"logo_small"		"f6d0ca3f08312dc357b56baa559067fecc1023ae_thumb"
+		"clienticon"		"2fe6ae9aa447c49c27bc41c8e7ccfa8f301f256e"
+		"clienttga"		"ec2c9b56ee480be85d0545e97e1047f4e75225ca"
+		"icon"		"6f06db11bea665836265f7492f990555642954df"
+		"linuxclienticon"		"a17ffde0334039eb4c2dc7989492f02702b415e3"
+		"metacritic_name"		"Zeuxis : procedural texture generator"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c207a42d6f9e4a7500d5b04809a9eb6bf70b5b0f.jpg"
+		"store_asset_mtime"		"1432759649"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Martin Veilleux"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Martin Veilleux"
+			}
+		}
+		"primary_genre"		"53"
+		"genres"
+		{
+			"0"		"53"
+		}
+		"category"
+		{
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1433253580"
+		"community_hub_visible"		"1"
+		"gameid"		"366550"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"84"
+		}
+		"review_score"		"6"
+		"review_percentage"		"79"
+	}
+	"extended"
+	{
+		"developer"		"Martin Veilleux"
+		"publisher"		"Martin Veilleux"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"zeuxis_ptg"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"zeuxis.exe"
+				"description"		"Zeuxis 1.06 32bit"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"version_106"
+				}
+			}
+			"1"
+			{
+				"executable"		"launcher.sh"
+				"arguments"		"zeuxis.bin"
+				"description"		"Zeuxis 1.06 32bit"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"version_106"
+				}
+			}
+			"2"
+			{
+				"executable"		"launcher.sh"
+				"description"		"Zeuxis 1.11"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"zeuxis_steam_x64.exe"
+				"description"		"Zeuxis 1.11 64bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"zeuxis_steam_x86.exe"
+				"description"		"Zeuxis 1.11 32bit"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"366551"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2608812023272501005"
+					"size"		"64210"
+					"download"		"15024"
+				}
+			}
+		}
+		"366552"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7363596322573052718"
+					"size"		"1192275"
+					"download"		"363616"
+				}
+			}
+		}
+		"366553"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7824193820625955139"
+					"size"		"1266240"
+					"download"		"515360"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3232467"
+				"timeupdated"		"1540090831"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1024"
+		"maxnumfiles"		"1"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
