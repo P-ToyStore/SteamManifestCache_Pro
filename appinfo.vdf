@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"718120"
+	"common"
+	{
+		"name"		"Jack B. Nimble"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"logo"		"de18085fca819715159aa8b3053ebbd9798c3994"
+		"logo_small"		"de18085fca819715159aa8b3053ebbd9798c3994_thumb"
+		"icon"		"a5a26ae7e851fc85f1611f2894597a91de9c8989"
+		"clienttga"		"6bb6c9adc758480dbb2f236f4abba3faa8044f3a"
+		"clienticon"		"930afb7a1a71f7146fad9826be273a11c25a1d14"
+		"clienticns"		"164f68af1e8dd814b826a130b0a3fd5142e18f0b"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7b293174ae3978aa9a3a2052bc7ef70dfd5b4ad0.jpg"
+		"store_asset_mtime"		"1532298759"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Sean Noonan"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Noonan Design"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1532451683"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"718120"
+		"store_tags"
+		{
+			"0"		"3964"
+			"1"		"1773"
+			"2"		"8666"
+			"3"		"3798"
+			"4"		"3877"
+			"5"		"5379"
+			"6"		"597"
+			"7"		"4026"
+			"8"		"1625"
+			"9"		"3871"
+			"10"		"4726"
+			"11"		"5125"
+			"12"		"7250"
+			"13"		"19"
+			"14"		"4085"
+			"15"		"4094"
+			"16"		"4004"
+			"17"		"117648"
+			"18"		"5350"
+			"19"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"Sean Noonan"
+		"publisher"		"Noonan Design"
+		"homepage"		"http://www.jackbnimblegame.com"
+	}
+	"config"
+	{
+		"installdir"		"Jack B. Nimble"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"jackb.nimble.app\\Contents\\MacOS\\nwjs"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+	}
+	"depots"
+	{
+		"718121"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"341372109200884936"
+					"size"		"290802996"
+					"download"		"156153200"
+				}
+			}
+		}
+		"718122"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1108019187527928825"
+					"size"		"622616895"
+					"download"		"159230448"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2947941"
+				"timeupdated"		"1531701149"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"250"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"JackB.Nimble"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"JackB.Nimble"
+						"replace"		"JackB.Nimble"
+					}
+				}
+			}
+		}
+	}
+}
