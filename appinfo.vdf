@@ -1,0 +1,324 @@
+"appinfo"
+{
+	"appid"		"1129690"
+	"common"
+	{
+		"name"		"3x64"
+		"type"		"Game"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1129690_eula_0"
+				"name"		"3x64 EULA"
+				"url"		"https://store.steampowered.com//eula/1129690_eula_0"
+			}
+		}
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"languages"
+		{
+			"english"		"1"
+			"polish"		"1"
+			"czech"		"1"
+		}
+		"logo"		"2630d51cd65639a8ffa75ae187a83de2750fab26"
+		"logo_small"		"2630d51cd65639a8ffa75ae187a83de2750fab26_thumb"
+		"icon"		"63628abde968cadffe522e3c82223e6d82840eca"
+		"clienttga"		"df4fcebb1b94a8e1b3bddf517b7581d69fe4492f"
+		"clienticon"		"be633019ac01fba0d823bbad149a38e8c9bac75f"
+		"linuxclienticon"		"8c77c8d091c72ea943fa0e825e03faa064b6b78f"
+		"releasestate"		"released"
+		"metacritic_name"		"3x64"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"czech"		"header_czech.jpg"
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"cs,en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"45.093224436350255"
+				"height_pct"		"98.0067086202802"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"45.093224436350255"
+					"height_pct"		"98.0067086202802"
+				}
+				"image"
+				{
+					"czech"		"logo_czech.png"
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1745487222"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lightning Soft"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lightning Soft"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_66"		"1"
+			"category_68"		"1"
+			"category_75"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1572537882"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1129690"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"19"
+			"3"		"1664"
+			"4"		"1665"
+			"5"		"4305"
+			"6"		"3878"
+			"7"		"1773"
+			"8"		"3871"
+			"9"		"4400"
+			"10"		"1654"
+			"11"		"5350"
+			"12"		"4004"
+			"13"		"1702"
+			"14"		"6129"
+			"15"		"3916"
+			"16"		"5154"
+			"17"		"7481"
+			"18"		"7569"
+			"19"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"Lightning Soft"
+		"publisher"		"Lightning Soft"
+		"homepage"		"https://3x64.lightningsoft.org"
+		"listofdlc"		"1282620"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"3x64"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"3x64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"3x64.x86_64"
+				"arguments"		"+x"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"build.app/Contents/MacOS/3x64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"MacOS"
+				}
+				"description"		"MacOS"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,polish,czech"
+		"hasdepotsindlc"		"1"
+		"1129691"
+		{
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"1129692"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6871976601187376880"
+					"size"		"171209817"
+					"download"		"46490048"
+				}
+			}
+		}
+		"1129693"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8226977729680736708"
+					"size"		"181356816"
+					"download"		"47888800"
+				}
+			}
+		}
+		"1129696"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8007543850107243148"
+					"size"		"199855743"
+					"download"		"54987792"
+				}
+			}
+		}
+		"1129694"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6710741298340408155"
+					"size"		"163938561"
+					"download"		"44187568"
+				}
+			}
+		}
+		"1129695"
+		{
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8075621"
+				"timeupdated"		"1643040022"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
