@@ -1,0 +1,372 @@
+"appinfo"
+{
+	"appid"		"956000"
+	"common"
+	{
+		"name"		"Su Hack"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"46cf514d063822f00d67ef6a396636ea395715d4"
+		"logo_small"		"46cf514d063822f00d67ef6a396636ea395715d4_thumb"
+		"icon"		"d3bad55455e5256bbcfa9ceed17328cb4c229ff6"
+		"clienticon"		"c753bfe44b0afab4c0abd2ce2b4a7ce5b28d28bd"
+		"clienttga"		"1dc4f9eda5315fcbef4955e301adb87a9b9d8632"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"956000_eula_0"
+				"name"		"Su Hack EULA"
+				"url"		"https://store.steampowered.com//eula/956000_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"osextended"		""
+		"metacritic_name"		"Su Hack"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"91.1764705882353"
+				"height_pct"		"42.70833333333332"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"91.1764705882353"
+					"height_pct"		"42.70833333333332"
+				}
+			}
+		}
+		"store_asset_mtime"		"1577122638"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Eric L."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"EL TECH"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"29"
+			"3"		"28"
+			"4"		"2"
+			"5"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_27"		"1"
+			"category_15"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1541189712"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"956000"
+		"store_tags"
+		{
+			"0"		"5502"
+			"1"		"599"
+			"2"		"6378"
+			"3"		"1687"
+			"4"		"1680"
+			"5"		"9"
+			"6"		"492"
+			"7"		"128"
+			"8"		"597"
+			"9"		"1775"
+			"10"		"3859"
+			"11"		"493"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Eric L."
+		"publisher"		"EL TECH"
+		"homepage"		"http://suhack.com"
+		"listofdlc"		"962530"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Su Hack"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"suhack.exe"
+				"arguments"		"-windowed"
+				"description"		"Default no beta"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"suLinux.x86_64"
+				"description"		"Linux X64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"linux_beta"
+				}
+			}
+			"2"
+			{
+				"executable"		"suLinux.x86_64"
+				"description"		"64 Bits Linux"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"alpha_closed"
+				}
+			}
+			"3"
+			{
+				"executable"		"suLinux.x86_64"
+				"description"		"Linux 64 bits Default"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"default "
+				}
+			}
+			"4"
+			{
+				"executable"		"suhack.exe"
+				"arguments"		"-w 1920 -h 1080"
+				"description"		"1980 * 1080 display beta. keep ALT pressed for choice"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"beta"
+				}
+			}
+			"5"
+			{
+				"executable"		"suhackx86.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+					"betakey"		"beta_win32bits"
+				}
+			}
+			"6"
+			{
+				"executable"		"suhack.exe"
+				"arguments"		"-width 1560 -h 720 -windowed"
+				"description"		"1560 * 720 display beta"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"beta"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"956001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7962464394976309540"
+					"size"		"146298287"
+					"download"		"35482160"
+				}
+				"alpha_closed"
+				{
+					"gid"		"1419619896595905287"
+					"size"		"93382067"
+					"download"		"19278192"
+				}
+				"beta"
+				{
+					"gid"		"7962464394976309540"
+					"size"		"146298287"
+					"download"		"35482160"
+				}
+				"linux_beta"
+				{
+					"gid"		"706795618242279643"
+					"size"		"106382595"
+					"download"		"23061952"
+				}
+			}
+		}
+		"956002"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8149209058567774644"
+					"size"		"188580525"
+					"download"		"41788624"
+				}
+				"alpha_closed"
+				{
+					"gid"		"4082431980875705136"
+					"size"		"136662482"
+					"download"		"32745728"
+				}
+				"beta"
+				{
+					"gid"		"8149209058567774644"
+					"size"		"188580525"
+					"download"		"41788624"
+				}
+				"linux_beta"
+				{
+					"gid"		"2254012535791492837"
+					"size"		"317086333"
+					"download"		"63459152"
+				}
+			}
+		}
+		"956003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11765579"
+				"timeupdated"		"1690055279"
+			}
+			"alpha_closed"
+			{
+				"buildid"		"3407625"
+				"description"		"bugged often"
+				"timeupdated"		"1545120084"
+			}
+			"beta"
+			{
+				"buildid"		"11765579"
+				"description"		"Beta Windows 64Bits"
+				"timeupdated"		"1690055250"
+			}
+			"linux_beta"
+			{
+				"buildid"		"4009177"
+				"description"		"Linux Client"
+				"timeupdated"		"1563033002"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
