@@ -1,0 +1,187 @@
+"appinfo"
+{
+	"appid"		"765780"
+	"common"
+	{
+		"name"		"Little Smart Planet"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"ad9f22eb462963626ec9dc578c68ec87a2738418"
+		"clienttga"		"f391cc04966a88fac86706813685876825dff8c8"
+		"icon"		"55008f9b8ea6247af4dc0824e3996ef999b7a319"
+		"logo"		"a67f5e490d5b1f2a85cd39bbec9d042abf44d7e8"
+		"logo_small"		"a67f5e490d5b1f2a85cd39bbec9d042abf44d7e8_thumb"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Little Smart Planet"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_16217b5badc3bcfb509c72c1afc381314f622430.jpg"
+		"store_asset_mtime"		"1512491049"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Little Smart Planet"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Little Smart Planet"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1514275200"
+		"steam_release_date"		"1514282831"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"765780"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Little Smart Planet"
+		"publisher"		"Little Smart Planet"
+		"homepage"		"http://www.littlesmartplanet.com/"
+	}
+	"config"
+	{
+		"installdir"		"Little Smart Planet"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"lsp.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"lsp.app\\Contents\\MacOS\\lsp"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,spanish,brazilian"
+		"hasdepotsindlc"		"0"
+		"765781"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7490829511058727159"
+					"size"		"920627605"
+					"download"		"227594496"
+				}
+			}
+		}
+		"765782"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1436806840785823664"
+					"size"		"935609236"
+					"download"		"231951264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2707049"
+				"timeupdated"		"1524231442"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"lsp_Data/SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"lsp.app/Content/SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
