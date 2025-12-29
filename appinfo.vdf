@@ -1,0 +1,262 @@
+"appinfo"
+{
+	"appid"		"670180"
+	"common"
+	{
+		"name"		"Castles II: Siege & Conquest"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"16287337da0423a497bb3ff845bb63fd1d0a5fd9"
+		"logo_small"		"16287337da0423a497bb3ff845bb63fd1d0a5fd9_thumb"
+		"icon"		"87245c01d8deb89bd8289a5e0eb9c5121eae3449"
+		"clienticon"		"35586636c3f04a3795ed2cac9ca552be56634447"
+		"clienttga"		"d76e58b844c5efcdf1570f54d221d507bf6735d7"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1757548800"
+			"tested_build_id"		"18889706"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_UnsupportedGraphicsPerformance"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Castles II: Siege &amp;amp; Conquest"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667153489"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Quicksilver Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Castles"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"694252800"
+		"steam_release_date"		"1503098207"
+		"community_hub_visible"		"1"
+		"gameid"		"670180"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"122"
+			"2"		"3987"
+			"3"		"1643"
+			"4"		"1708"
+			"5"		"3813"
+			"6"		"4161"
+			"7"		"8945"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Quicksilver Software"
+		"publisher"		"Interplay"
+		"homepage"		"https://www.interplay.com"
+	}
+	"config"
+	{
+		"installdir"		"Castles II Siege & Conquest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox/dosbox.exe"
+				"arguments"		"-conf \"config/dosboxCastles2.conf\" -conf \"config/dosboxCastles2_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/DOSBox Staging.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"config/dosboxCastles2.conf\" -conf \"config/dosboxCastles2_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"config/dosboxCastles2.conf\" -conf \"config/dosboxCastles2_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"670181"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2317081178739807069"
+					"size"		"800870889"
+					"download"		"452160960"
+				}
+			}
+		}
+		"670182"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4954098184658814374"
+					"size"		"797353276"
+					"download"		"453657072"
+				}
+			}
+		}
+		"670183"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6500620388888037930"
+					"size"		"804732600"
+					"download"		"455828752"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18889706"
+				"timeupdated"		"1752019301"
+			}
+		}
+	}
+}
