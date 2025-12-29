@@ -1,0 +1,212 @@
+"appinfo"
+{
+	"appid"		"734490"
+	"common"
+	{
+		"name"		"Minimancer"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"4323c2bf74f3d3bccd6a61e7a143019c0b645902"
+		"logo_small"		"4323c2bf74f3d3bccd6a61e7a143019c0b645902_thumb"
+		"icon"		"903b0d197756f7aca7361269268a6e443c5a9b12"
+		"clienttga"		"5e5a9740475536b5d116b485a823e0eb1ca974f4"
+		"clienticon"		"a18b9888e2350111b478cfad19e108fbe06be564"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Minimancer"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_893888cc1e7cf7b8f1706c900f0817a0f7f56b8f.jpg"
+		"store_asset_mtime"		"1508166840"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"James Flannery"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"James Flannery"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1510934417"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"734490"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"597"
+			"2"		"492"
+			"3"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"James Flannery"
+		"publisher"		"James Flannery"
+		"homepage"		"http://www.minimancer.co.uk"
+	}
+	"config"
+	{
+		"installdir"		"Minimancer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Minimancer.exe"
+				"description"		"Launch in 64-bit mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Minimancer.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Minimancer.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Minimancer.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Minimancer_32.exe"
+				"description"		"Launch in 32-bit mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"734491"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7694013164869300969"
+					"size"		"393175326"
+					"download"		"86897808"
+				}
+			}
+		}
+		"734492"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"181809213109047481"
+					"size"		"245060351"
+					"download"		"87290304"
+				}
+			}
+		}
+		"734493"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3231252175141812391"
+					"size"		"246756098"
+					"download"		"89712384"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2377939"
+				"timeupdated"		"1513857071"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saves"
+				"pattern"		"*.save"
+			}
+		}
+	}
+}
