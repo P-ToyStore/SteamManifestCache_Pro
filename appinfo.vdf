@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"785870"
+	"common"
+	{
+		"name"		"Admine"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+		}
+		"icon"		"4334b4d9fe84af961b394c08691507aa10164a20"
+		"logo"		"6e3a01f8344b0406ff6574a8e3bb530623753e72"
+		"logo_small"		"6e3a01f8344b0406ff6574a8e3bb530623753e72_thumb"
+		"linuxclienticon"		"ed572ae1a3e73300622ead279a2fcadf800aa337"
+		"clienticon"		"3e796127e9efb67e03a181c7cfc21cb6b1e0680e"
+		"clienttga"		"5b322c47ff0e6bece9d4598ce3800477d062d037"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Admine"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"russian"		"header_russian.jpg"
+		}
+		"store_screenshot"		"ss_c5d1c94ecf99e7dd72b2b18f1d3479f2b229571f.jpg"
+		"store_asset_mtime"		"1516385035"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Irbynx"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Irbynx"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_17"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1518803641"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"785870"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1664"
+			"2"		"5125"
+			"3"		"5851"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Irbynx"
+		"publisher"		"Irbynx"
+	}
+	"config"
+	{
+		"installdir"		"Admine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"linuxbin/adminegame"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"winbin/adminegame.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"winbin/adminegameDevdebug.exe"
+				"description"		"Play Admine (Developer Mode)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"linuxbin/adminegameDevdebug"
+				"description"		"Play Admine (Developer Mode)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian"
+		"785871"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5464610486128224879"
+					"size"		"305641902"
+					"download"		"254205008"
+				}
+			}
+		}
+		"785872"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4845735393208120638"
+					"size"		"9606701"
+					"download"		"2074880"
+				}
+			}
+		}
+		"785873"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6282200497170341382"
+					"size"		"8336352"
+					"download"		"2986528"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2538317"
+				"timeupdated"		"1519054162"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"sav"
+				"pattern"		"*.json"
+			}
+		}
+	}
+}
