@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"437340"
+	"common"
+	{
+		"name"		"Toys of War"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"91427640707534e4d64abc146b7b0616cf710a56"
+		"logo_small"		"91427640707534e4d64abc146b7b0616cf710a56_thumb"
+		"icon"		"b61af3827ebdf7bcaa4c169f9593ba5c69169acc"
+		"clienticon"		"1054480fb13985c2aea8f41e6085c7d5583b6b45"
+		"clienttga"		"cdd450c487a604e48cf867d1a7e3b51de1950310"
+		"clienticns"		"d0471e76bd8bbae1929440068fef9afafa5f3a8b"
+		"linuxclienticon"		"e26580e4198a6391dfd8ad6be30550e626b7412d"
+		"releasestate"		"released"
+		"metacritic_name"		"Toys of War"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"75.83709332700072"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"75.83709332700072"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572313878"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"2Bit Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"2Bit Studios"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_44"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1551316222"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"437340"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"4840"
+			"3"		"7368"
+			"4"		"4182"
+			"5"		"493"
+			"6"		"1773"
+		}
+		"review_score"		"7"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"2Bit Studios"
+		"publisher"		"2Bit Studios"
+		"homepage"		"http://2bitstudios.com.au/games/toys-of-war"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Toys of War"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ToW.exe"
+				"description"		"Launch for Windows"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ToW.x86"
+				"arguments"		"-force-opengl"
+				"description"		"Launch for Linux"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"ToW.app"
+				"description"		"Launch for Mac (Universal)"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"437341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"765916147556498941"
+					"size"		"320196158"
+					"download"		"158881552"
+				}
+			}
+		}
+		"437342"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1379691769752393007"
+					"size"		"334586087"
+					"download"		"154417872"
+				}
+			}
+		}
+		"437343"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6777461608385471495"
+					"size"		"254040856"
+					"download"		"134167952"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4050366"
+				"timeupdated"		"1564234516"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
