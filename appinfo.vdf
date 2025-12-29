@@ -1,0 +1,271 @@
+"appinfo"
+{
+	"appid"		"1265260"
+	"common"
+	{
+		"name"		"SpaceFoes"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"925dc06e3f6faf4eb359d0185fdc823248553e01"
+		"logo"		"5aa14e35e897d7500fb469bb7fab4b8f36b09e0e"
+		"logo_small"		"5aa14e35e897d7500fb469bb7fab4b8f36b09e0e_thumb"
+		"icon"		"aed19ef9d2f52369d82d95de25f822b9df810e7c"
+		"clienticon"		"3346bab08815246f50eacfdde1acfee556c65b11"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"22.33653406492911"
+				"height_pct"		"51.736111111111114"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"22.33653406492911"
+					"height_pct"		"51.736111111111114"
+				}
+			}
+		}
+		"store_asset_mtime"		"1584213404"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Alexandre Yoshinaga"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Alexandre Yoshinaga"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1586694903"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1265260"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"21"
+			"3"		"492"
+			"4"		"4255"
+			"5"		"1773"
+			"6"		"3798"
+			"7"		"4004"
+			"8"		"1755"
+			"9"		"3916"
+			"10"		"4026"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Alexandre Yoshinaga"
+		"publisher"		"Alexandre Yoshinaga"
+	}
+	"config"
+	{
+		"installdir"		"SpaceFoes"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SpaceFoes.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SpaceFoes.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1265261"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8576701480786618297"
+					"size"		"296863474"
+					"download"		"105060256"
+				}
+				"test"
+				{
+					"gid"		"8576701480786618297"
+					"size"		"296863474"
+					"download"		"105060256"
+				}
+			}
+		}
+		"1265262"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1497928032795871361"
+					"size"		"315927340"
+					"download"		"109644368"
+				}
+				"test"
+				{
+					"gid"		"1497928032795871361"
+					"size"		"315927340"
+					"download"		"109644368"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4926251"
+				"timeupdated"		"1587491005"
+			}
+			"test"
+			{
+				"buildid"		"4926251"
+				"description"		"testing version branch"
+				"timeupdated"		"1587490600"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"AlexandreSalesYoshinaga/SpaceFoes/"
+				"pattern"		"configuration.bin"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"AlexandreSalesYoshinaga/SpaceFoes/"
+				"pattern"		"game.bin"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"AlexandreSalesYoshinaga/SpaceFoes/"
+						"replace"		".config/unity3d/AlexandreSalesYoshinaga/SpaceFoes/"
+					}
+				}
+			}
+		}
+	}
+}
