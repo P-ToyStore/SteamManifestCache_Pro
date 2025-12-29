@@ -1,0 +1,311 @@
+"appinfo"
+{
+	"appid"		"451990"
+	"common"
+	{
+		"name"		"Cranks and Goggles"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"86e5d7e0994d3f01c63cc95529157426e03ccec3"
+		"logo_small"		"86e5d7e0994d3f01c63cc95529157426e03ccec3_thumb"
+		"icon"		"e0bc1c18210d7dcdb7ed4adb4f653c53a4d1eead"
+		"clienticon"		"f12c7d40f60be293f67ff61cf917cdf88624d10d"
+		"clienttga"		"78fbea6c900ea7bcc8d3b6514a801b68dc308102"
+		"clienticns"		"0b9c6108cf9d6f6dac99ffd319f71215ceff1b16"
+		"languages"
+		{
+			"english"		"1"
+			"portuguese"		"1"
+			"turkish"		"1"
+		}
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1765584000"
+			"tested_build_id"		"3680481"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_GamepadNotEnabledByDefault"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-10.0-beta"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Cranks and Goggles"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3cd1f495c5bbf077b78bd8ee33d96a823058674b.jpg"
+		"store_asset_mtime"		"1490808761"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Play Native Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Play Native Entertainment"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"9"
+			"3"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1482349073"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"451990"
+		"store_tags"
+		{
+			"0"		"699"
+			"1"		"492"
+			"2"		"701"
+			"3"		"597"
+			"4"		"3859"
+			"5"		"4026"
+			"6"		"4166"
+			"7"		"3987"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Play Native Entertainment"
+		"publisher"		"Play Native Entertainment"
+		"homepage"		"http://cranksandgoggles.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Cranks and Goggles"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CranksAndGoggles.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CranksAndGoggles.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"451991"
+		{
+			"config"
+			{
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"463661808290181425"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"451992"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4100379275954510739"
+					"size"		"751076258"
+					"download"		"119957488"
+				}
+			}
+		}
+		"451993"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3857491576886976876"
+					"size"		"802351036"
+					"download"		"134082352"
+				}
+			}
+		}
+		"451994"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7036011640297920761"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"451995"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5638882064983342728"
+					"size"		"756633202"
+					"download"		"121730800"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3680481"
+				"timeupdated"		"1553598137"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000"
+		"maxnumfiles"		"10"
+	}
+}
