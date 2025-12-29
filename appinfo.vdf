@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"565550"
+	"common"
+	{
+		"name"		"Redneck Rampage"
+		"type"		"Game"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"565550_eula_0"
+				"name"		"Redneck Rampage EULA"
+				"url"		"http://store.steampowered.com//eula/565550_eula_0"
+			}
+		}
+		"clienttga"		"89e7d546a44654e8ef081ba855087a1900147c71"
+		"clienticon"		"7bdcae5a61044c18217644e7105c0ea8cd6a1706"
+		"icon"		"5d8ff9aa237c45baf9e2d9fabe1209f5d361ee37"
+		"logo"		"b74511b952a59eb9ab57448232060dc0682f0f52"
+		"logo_small"		"b74511b952a59eb9ab57448232060dc0682f0f52_thumb"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Redneck Rampage"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1670444835"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Xatrix Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Redneck Rampage"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"862383600"
+		"steam_release_date"		"1483564970"
+		"community_hub_visible"		"1"
+		"gameid"		"565550"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"19"
+			"2"		"4667"
+			"3"		"1693"
+			"4"		"5611"
+			"5"		"1774"
+			"6"		"3839"
+			"7"		"4136"
+			"8"		"1719"
+			"9"		"6691"
+			"10"		"1023537"
+			"11"		"4345"
+			"12"		"21"
+			"13"		"597"
+			"14"		"4182"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Xatrix Entertainment"
+		"publisher"		"Interplay"
+		"homepage"		"https://www.interplay.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/565550/"
+	}
+	"config"
+	{
+		"installdir"		"Redneck Rampage"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Redneck Rampage.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosboxRR.conf\" -conf \"./dosboxRR_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxRR.conf\" -conf \"./dosboxRR_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"565551"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"117757016733243681"
+					"size"		"533798614"
+					"download"		"369542352"
+				}
+			}
+		}
+		"565552"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4603768079643146364"
+					"size"		"534822108"
+					"download"		"366244592"
+				}
+			}
+		}
+		"565553"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2367419261923272438"
+					"size"		"538683827"
+					"download"		"369912400"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19168124"
+				"timeupdated"		"1752108607"
+			}
+		}
+	}
+}
