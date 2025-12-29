@@ -1,0 +1,263 @@
+"appinfo"
+{
+	"appid"		"301500"
+	"common"
+	{
+		"name"		"BOMB"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"49ba242333e584fdb236e07d3d22240bb93b3356"
+		"logo_small"		"49ba242333e584fdb236e07d3d22240bb93b3356_thumb"
+		"icon"		"7f3f4e9a545744e278bfcbacad459eee0ce20031"
+		"clienticon"		"d1dd3a80fbc3e2cee7e7e584606d35918d8d9387"
+		"clienttga"		"cfafe70b6c0a677cb49daa73391a4b6ec357f4df"
+		"linuxclienticon"		"750164a9910ecf7f9033e46c27587986118867f9"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"BOMB"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8f117cc06ea33b361121160ea87a1c632ebb00d2.jpg"
+		"store_asset_mtime"		"1438168932"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"La Moustache Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"La Moustache Studio"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_27"		"1"
+			"category_29"		"1"
+			"category_17"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1438412400"
+		"steam_release_date"		"1438189560"
+		"community_hub_visible"		"1"
+		"gameid"		"301500"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"492"
+			"2"		"19"
+			"3"		"21"
+			"4"		"15045"
+			"5"		"1773"
+			"6"		"4252"
+			"7"		"8075"
+			"8"		"4182"
+		}
+		"review_score"		"5"
+		"review_percentage"		"63"
+	}
+	"extended"
+	{
+		"gamedir"		"BOMB"
+		"developer"		"La Moustache Studio"
+		"publisher"		"La Moustache Studio"
+		"homepage"		"http://lamoustache-studio.fr/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"BOMB"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\release\\BOMB.exe"
+				"description"		"Launch"
+				"workingdir"		"bin\\release"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/release/run.sh"
+				"description"		"Launch"
+				"workingdir"		"bin/release"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/release/BOMB.app/Contents/MacOS/BOMB"
+				"description"		"Launch"
+				"workingdir"		"bin/release"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,french"
+		"301501"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7933890805211204447"
+					"size"		"1402168509"
+					"download"		"524337536"
+				}
+			}
+		}
+		"301502"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8890826458379022069"
+					"size"		"46472874"
+					"download"		"11893424"
+				}
+			}
+		}
+		"301503"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4979167295101040098"
+					"size"		"55571152"
+					"download"		"13110000"
+				}
+			}
+		}
+		"301504"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6914882632603474007"
+					"size"		"28029311"
+					"download"		"6445184"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"980357"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"128000"
+		"maxnumfiles"		"3"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"BOMB/save"
+				"pattern"		"*.cfg"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		"./BOMB/save"
+				"pattern"		"*.cfg"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
