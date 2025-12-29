@@ -1,0 +1,309 @@
+"appinfo"
+{
+	"appid"		"580520"
+	"common"
+	{
+		"name"		"Water Planet"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"xinput"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"logo"		"fc10ea62da389cdceaa0924e24997e490955f77f"
+		"logo_small"		"fc10ea62da389cdceaa0924e24997e490955f77f_thumb"
+		"icon"		"af9b8c737fc0418231deb96e1fed5ff81a3b70be"
+		"clienticon"		"0b3b28872d59e9dcdbaf91a8c6b2ccb3c659d4a7"
+		"clienttga"		"bd80b4bd4c0460c5eff7d50f2ee10ffd6f2d6563"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienticns"		"9b458f1d991ff11050e5d44ff1523315f86c8f08"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"swedish"		"1"
+		}
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Water Planet"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"100"
+				"height_pct"		"79.8622654951318"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"100"
+					"height_pct"		"79.8622654951318"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572634341"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Revera Corporation"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"The Revera Corporation"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_13"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1507237216"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"580520"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"599"
+			"3"		"21978"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"The Revera Corporation"
+		"publisher"		"The Revera Corporation"
+		"homepage"		"http://waterplanet.tv"
+		"listofdlc"		"701690"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"WaterPlanet"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WaterPlanet\\Binaries\\Win64\\WaterPlanet.exe"
+				"arguments"		"-nosplash"
+				"description"		"VR - English"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"WaterPlanet\\Binaries\\Win64\\WaterPlanet.exe"
+				"arguments"		"-nosplash -desktop"
+				"description"		"Desktop Mode - English"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"WaterPlanet\\Binaries\\Win64\\WaterPlanet.exe"
+				"arguments"		"-nosplash -Spanish"
+				"description"		"VR - Spanish"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"WaterPlanet\\Binaries\\Win64\\WaterPlanet.exe"
+				"arguments"		"-nosplash -desktop -Spanish"
+				"description"		"Desktop Mode - Spanish"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"WaterPlanet\\Binaries\\Win64\\WaterPlanet.exe"
+				"arguments"		"-nosplash -French"
+				"description"		"VR - French"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"WaterPlanet\\Binaries\\Win64\\WaterPlanet.exe"
+				"arguments"		"-nosplash -desktop -French"
+				"description"		"Desktop Mode - French"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"580521"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8180278630080190278"
+					"size"		"3469268366"
+					"download"		"1287344992"
+				}
+			}
+		}
+		"701690"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2120457989830046263"
+					"size"		"100536094"
+					"download"		"100493056"
+				}
+			}
+			"dlcappid"		"701690"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2460120"
+				"timeupdated"		"1516837602"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
