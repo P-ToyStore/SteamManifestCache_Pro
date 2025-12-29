@@ -1,0 +1,338 @@
+"appinfo"
+{
+	"appid"		"371300"
+	"common"
+	{
+		"name"		"Knee Deep"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"72a9510d2906d85ac585a7c872d6813ef4caf5ef"
+		"logo_small"		"72a9510d2906d85ac585a7c872d6813ef4caf5ef_thumb"
+		"icon"		"35f4654cf64c882b21927bdd28e74b605dc0c76a"
+		"clienticns"		"af04e89b2aaad82fd046ce811e2fad21121bcd26"
+		"linuxclienticon"		"3e626a44966bc892135780e6a67104cfe19be974"
+		"clienttga"		"67e365c373d78ef154d764b27114f7ef335426f1"
+		"clienticon"		"3b42a4369960341ffb1c17b893fcab47c6ed2a5e"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"xinput"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Knee Deep"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e6e4b88e3c3bd92febb9adb4998a2ad3abaa008d.jpg"
+		"store_asset_mtime"		"1478535957"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Prologue Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Prologue Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_43"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1436191366"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"371300"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"5716"
+			"2"		"492"
+			"3"		"6426"
+			"4"		"6052"
+			"5"		"7208"
+			"6"		"1697"
+			"7"		"5923"
+			"8"		"6378"
+			"9"		"1742"
+			"10"		"4064"
+			"11"		"4166"
+			"12"		"4182"
+			"13"		"4342"
+			"14"		"5094"
+			"15"		"4136"
+			"16"		"5611"
+			"17"		"597"
+			"18"		"1651"
+			"19"		"1756"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Prologue Games"
+		"publisher"		"Prologue Games"
+		"homepage"		"http://kneedeepgame.com"
+		"listofdlc"		"371870,372300,372301,372310"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Knee Deep"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Knee Deep.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Knee Deep.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Knee Deep.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Knee Deep.x86_64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Knee Deep.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"Knee Deep.exe"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"371301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3686326694262775545"
+					"size"		"2233223808"
+					"download"		"957063152"
+				}
+			}
+		}
+		"371302"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3047816973962924885"
+					"size"		"2306395906"
+					"download"		"1002836432"
+				}
+			}
+		}
+		"371303"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8647359469660757630"
+					"size"		"2327779825"
+					"download"		"1014073312"
+				}
+			}
+		}
+		"371304"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7477044967495931577"
+					"size"		"2238428800"
+					"download"		"956910832"
+				}
+			}
+		}
+		"372300"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2133989254211861969"
+					"size"		"21462252"
+					"download"		"17627824"
+				}
+			}
+			"dlcappid"		"372300"
+		}
+		"372301"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"308859515791280514"
+					"size"		"34908784"
+					"download"		"28325792"
+				}
+			}
+			"dlcappid"		"372301"
+		}
+		"372310"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3947550970543974670"
+					"size"		"45142796"
+					"download"		"45034800"
+				}
+			}
+			"dlcappid"		"372310"
+		}
+		"371870"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4592269961579444131"
+					"size"		"41129723"
+					"download"		"41078848"
+				}
+			}
+			"dlcappid"		"371870"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1557449"
+				"timeupdated"		"1483907879"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"20"
+	}
+}
