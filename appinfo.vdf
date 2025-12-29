@@ -1,0 +1,181 @@
+"appinfo"
+{
+	"appid"		"734870"
+	"common"
+	{
+		"name"		"Houston, We Have Spinach!"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"324cc9968737bbd5b4497372e95b26b1d900dad3"
+		"logo_small"		"324cc9968737bbd5b4497372e95b26b1d900dad3_thumb"
+		"icon"		"fec1496a0db4accf9ee9b2dc2e94ed7e86c0e5df"
+		"clienticon"		"a19db2b1c8e0a38433eb7295787102ca68134c92"
+		"clienttga"		"d7887d44093279a7c7f2e8fb0b62b355f145f311"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Houston, We Have Spinach!"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6ff4d8e3ffe12f748d4ea9049535569eed136f37.jpg"
+		"store_asset_mtime"		"1512599097"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Acme Nerd Games, LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Acme Nerd Games, LLC"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"28"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1511546919"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"734870"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"493"
+			"2"		"599"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Acme Nerd Games, LLC"
+		"publisher"		"Acme Nerd Games, LLC"
+		"homepage"		"http://houstonwehavespinach.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/734870/"
+	}
+	"config"
+	{
+		"installdir"		"Houston, We Have Spinach!"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HWHS_app.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"HWHS.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"734871"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6689916606058457700"
+					"size"		"385240238"
+					"download"		"61972288"
+				}
+			}
+		}
+		"734872"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7262189995297061725"
+					"size"		"367462135"
+					"download"		"58400144"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2480415"
+				"timeupdated"		"1517283781"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Acme Nerd Games/Houston,We Have Spinach!"
+				"pattern"		"*.hwhssave"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Acme Nerd Games/Houston,We Have Spinach!"
+						"replace"		"unity.Acme Nerd Games.Houston, We Have Spinach!"
+					}
+				}
+			}
+		}
+	}
+}
