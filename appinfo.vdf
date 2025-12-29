@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"669350"
+	"common"
+	{
+		"name"		"Outracer"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"3cb671618b49159dd5d294a5e48b401d2101bf36"
+		"logo_small"		"3cb671618b49159dd5d294a5e48b401d2101bf36_thumb"
+		"icon"		"099ab476a95f4d75f9e1710f1b2d06f57af55f71"
+		"clienticon"		"137109b4741efce0d25ad079d11e683faf1006fa"
+		"clienttga"		"b1ae1b3d89468dcafa98f52cd65f5735855f7c72"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Outracer"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_179198b35d7a7384f2555698214b6d4b6bfc037d.jpg"
+		"store_asset_mtime"		"1498745022"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Outlier Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Outlier Interactive"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_17"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1502834422"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"669350"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"699"
+			"2"		"19"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Outlier Interactive"
+		"publisher"		"Outlier Interactive"
+		"homepage"		"https://www.outracer.com/"
+		"listofdlc"		"697420"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Outracer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Outracer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Outracer.app\\Contents\\MacOS\\Outracer"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Outracer.x86"
+				"description"		"Run in 32-bit Mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Outracer.x86_64"
+				"description"		"in 64-bit Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"Outracer.exe"
+				"arguments"		"-popupwindow"
+				"description"		"in Borderless Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"Outracer.app\\Contents\\MacOS\\Outracer"
+				"arguments"		"-popupwindow"
+				"description"		"in Borderless Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"669351"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8798163973440665022"
+					"size"		"751449062"
+					"download"		"311556176"
+				}
+			}
+		}
+		"669352"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8888099944769421464"
+					"size"		"765246453"
+					"download"		"316347664"
+				}
+			}
+		}
+		"669353"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1461947990200544579"
+					"size"		"787001358"
+					"download"		"321911376"
+				}
+			}
+		}
+		"697420"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3214958240211103501"
+					"size"		"27652172"
+					"download"		"27083888"
+				}
+			}
+			"dlcappid"		"697420"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2237199"
+				"timeupdated"		"1509135561"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1024000"
+		"maxnumfiles"		"1000"
+	}
+}
