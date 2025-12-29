@@ -1,0 +1,312 @@
+"appinfo"
+{
+	"appid"		"1178290"
+	"common"
+	{
+		"name"		"Dezatopia"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosnotarized"
+		"clienticon"		"e3cd82ca1e87983bc2788353f3e3909dc7ea2b9b"
+		"clienttga"		"50e9c03d4ba0932fe8554b992e80896722804258"
+		"icon"		"76b97d586423da323eb2ebc885ee8156bf48392e"
+		"logo"		"b9eea8543d3c100d4d5a375d5196b52c88b6b68a"
+		"logo_small"		"b9eea8543d3c100d4d5a375d5196b52c88b6b68a_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Dezatopia"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"44.84618504142814"
+				"height_pct"		"93.60309589310154"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"44.84618504142814"
+					"height_pct"		"93.60309589310154"
+				}
+			}
+		}
+		"store_asset_mtime"		"1612197858"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"HEY"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hanaji Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_28"		"1"
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1579791680"
+		"community_hub_visible"		"1"
+		"gameid"		"1178290"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"4255"
+			"3"		"1773"
+			"4"		"4004"
+			"5"		"4637"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"HEY"
+		"publisher"		"Hanaji Games"
+	}
+	"config"
+	{
+		"installdir"		"Dezatopia"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dezatopia.exe"
+				"description"		"Play Dezatopia"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"dezatopia.app"
+				"description"		"Play Dezatopia"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dezatopia"
+				"description"		"Play Dezatopia"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"dezatopia32.exe"
+				"description"		"Play Dezatopia"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"dezatopia.exe"
+				"arguments"		"--directx"
+				"description"		"Dezatopia (DirectX mode)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"dezatopia32.exe"
+				"arguments"		"--directx"
+				"description"		"Dezatopia (DirectX mode)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1178291"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6928326474340351526"
+					"size"		"642006427"
+					"download"		"219522544"
+				}
+			}
+		}
+		"1178292"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1812712564715856807"
+					"size"		"640342468"
+					"download"		"219402512"
+				}
+			}
+		}
+		"1178293"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"457898706552663117"
+					"size"		"638352723"
+					"download"		"218217904"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4675662"
+				"timeupdated"		"1581658511"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"hanaji/dezatopia"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"hanaji/dezatopia"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"hanaji/dezatopia"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
