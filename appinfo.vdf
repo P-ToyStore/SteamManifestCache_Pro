@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"1399380"
+	"common"
+	{
+		"name"		"NUI"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"clienticon"		"e134eb22ea32ff781203f0225fa20f158a777c4e"
+		"clienttga"		"462a4272b06eb5b20ccc5aec77ad3c04bae7656a"
+		"icon"		"4da655d1e88ae331843da809645c2cd76f37e897"
+		"clienticns"		"88d3e38f109efd6927ee591e91b5fb5a7f172b7e"
+		"linuxclienticon"		"f91640ba59b7c4b5c4a89d700b63d6ad47442abd"
+		"logo"		"fd547edc53ddaf64dcaa529768ff742bb5b15c5d"
+		"logo_small"		"fd547edc53ddaf64dcaa529768ff742bb5b15c5d_thumb"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1599404643"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"DavidPixel"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"DavidPixel"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1600358668"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1399380"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"5537"
+			"2"		"1625"
+			"3"		"4094"
+			"4"		"5379"
+			"5"		"4182"
+			"6"		"1664"
+			"7"		"5094"
+			"8"		"3964"
+			"9"		"7250"
+			"10"		"492"
+			"11"		"3871"
+			"12"		"3993"
+			"13"		"4400"
+			"14"		"3968"
+		}
+	}
+	"extended"
+	{
+		"developer"		"DavidPixel"
+		"publisher"		"DavidPixel"
+		"homepage"		"http://davidandpixels.com/"
+	}
+	"config"
+	{
+		"installdir"		"NUI"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NUI.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"NUI_MAC.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1399381"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4252279959602718443"
+					"size"		"704703373"
+					"download"		"85964656"
+				}
+			}
+		}
+		"1399382"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5981729322874612505"
+					"size"		"709963285"
+					"download"		"87867616"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5749509"
+				"timeupdated"		"1603896410"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"512"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games/NUI/Saves/"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"DavidPixel/"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
