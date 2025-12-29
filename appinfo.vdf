@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"377220"
+	"common"
+	{
+		"name"		"Deficis"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"eulas"
+		{
+		}
+		"logo"		"21d9a845ee7f84d5be90e24e8d339d9a0b8b7a92"
+		"logo_small"		"21d9a845ee7f84d5be90e24e8d339d9a0b8b7a92_thumb"
+		"icon"		"115238eb04d4a26a2a3450d9801824009e19e4ff"
+		"clienttga"		"bd41f0331064d920d481b35cc80e53883ef34b1d"
+		"clienticon"		"a536734002b90d84725d1fb68854a035ac6f7792"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Deficis"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_026537326952d7208be4ad7e1982b5a5200c9eca.jpg"
+		"store_asset_mtime"		"1438324603"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Gneu LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Gneu LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1438326000"
+		"steam_release_date"		"1438325607"
+		"community_hub_visible"		"1"
+		"gameid"		"377220"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"493"
+			"3"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Gneu LLC"
+		"publisher"		"Gneu LLC"
+		"homepage"		"http://deficis.gneu.org/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Deficis"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Deficis.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"Deficis.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"377221"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7183942024798469486"
+					"size"		"126408870"
+					"download"		"66422656"
+				}
+				"beta"
+				{
+					"gid"		"5920898230343351533"
+					"size"		"136831965"
+					"download"		"75522928"
+				}
+			}
+		}
+		"377222"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2825162448326817998"
+					"size"		"141302315"
+					"download"		"71346496"
+				}
+				"beta"
+				{
+					"gid"		"8126503021812747262"
+					"size"		"152516801"
+					"download"		"80486416"
+				}
+			}
+		}
+		"377223"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+		}
+		"377224"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"715122"
+			}
+			"beta"
+			{
+				"buildid"		"830633"
+				"description"		"Beta Development"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saved\\Persist"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
