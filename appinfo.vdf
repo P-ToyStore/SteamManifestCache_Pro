@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"415900"
+	"common"
+	{
+		"name"		"Bugspeed Collider"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"2e42b29ceeda31e247964471c24d056e0fcb26b4"
+		"logo_small"		"2e42b29ceeda31e247964471c24d056e0fcb26b4_thumb"
+		"icon"		"8606a9597c322ee4ab2058bced6ba777b7f214a4"
+		"clienticon"		"fc07acf9674dea406e0bbc0afd87622fb2b652d6"
+		"clienttga"		"2ac35accb56b75e1f685cac6e6dbf97eeba1cf77"
+		"clienticns"		"fc07acf9674dea406e0bbc0afd87622fb2b652d6"
+		"linuxclienticon"		"fc07acf9674dea406e0bbc0afd87622fb2b652d6"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bugspeed Collider"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_9bfc2502d9e7b06ca4430a9f398d0e04cb1f86a9.jpg"
+		"store_asset_mtime"		"1475206473"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Skelefactor"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Skelefactor"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_24"		"1"
+			"category_28"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1475729825"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"415900"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Skelefactor"
+		"publisher"		"Skelefactor"
+		"homepage"		"http://www.skelefactor.com/"
+		"listofdlc"		"548250"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Bugspeed Collider"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BugspeedCollider.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BugspeedColliderMac.app/Contents/MacOS/BugspeedColliderMac"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"415901"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5406747156358810906"
+					"size"		"346074739"
+					"download"		"105446512"
+				}
+				"testing"
+				{
+					"gid"		"5658284506720970250"
+					"size"		"346074219"
+					"download"		"105444816"
+				}
+			}
+		}
+		"415902"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6213147130324811583"
+					"size"		"356144430"
+					"download"		"107138768"
+				}
+				"testing"
+				{
+					"gid"		"4515268981251069861"
+					"size"		"356143942"
+					"download"		"107135856"
+				}
+			}
+		}
+		"548250"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"847375093127961547"
+					"size"		"82743023"
+					"download"		"77268992"
+				}
+				"testing"
+				{
+					"gid"		"5473776345782697173"
+					"size"		"82743023"
+					"download"		"77268992"
+				}
+			}
+			"dlcappid"		"548250"
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1544640"
+				"timeupdated"		"1483043852"
+			}
+			"testing"
+			{
+				"buildid"		"1483045"
+				"description"		"This is the branch for testing Steam builds before posting to default."
+				"timeupdated"		"1480222904"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Skelefactor/Bugspeed Collider"
+				"pattern"		"bugInfo.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Skelefactor/Bugspeed Collider"
+				"pattern"		"bugInfo.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
