@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"842470"
+	"common"
+	{
+		"name"		"Cranes"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"logo"		"727169135fb2be50ecf4dd811037ca03ff065fca"
+		"logo_small"		"727169135fb2be50ecf4dd811037ca03ff065fca_thumb"
+		"icon"		"7b607962c0393c0a4f19f24f7e2c9a314172f727"
+		"clienttga"		"e25794799318793919f8a25443494f29655f7636"
+		"clienticon"		"7adef44d510c10dd09fcea6cb02ecab9f8d2b52b"
+		"languages"
+		{
+			"english"		"1"
+			"hungarian"		"1"
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Cranes"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_cc31f367088717c610d8059ef461aebf747623a5.jpg"
+		"store_asset_mtime"		"1523004704"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tibromatic Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tibromatic Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1525460429"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"842470"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"599"
+			"3"		"6129"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Tibromatic Games"
+		"publisher"		"Tibromatic Games"
+	}
+	"config"
+	{
+		"installdir"		"Cranes"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"cranes.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"crane"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"crane.app/Contents/MacOS/crane"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"842471"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1437924174020272857"
+					"size"		"83920567"
+					"download"		"27773808"
+				}
+			}
+		}
+		"842472"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4864495229539519192"
+					"size"		"89147508"
+					"download"		"30711152"
+				}
+			}
+		}
+		"842473"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1185399265398766968"
+					"size"		"102974759"
+					"download"		"32463008"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3226099"
+				"timeupdated"		"1539887330"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"4"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Tibromatic Games/Cranes"
+				"pattern"		"scores.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Tibromatic Games/Cranes"
+						"replace"		".config/unity3d/Tibromatic Games/Cranes"
+					}
+				}
+			}
+		}
+	}
+}
