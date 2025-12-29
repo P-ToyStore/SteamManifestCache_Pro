@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"1704640"
+	"common"
+	{
+		"name"		"The Ancient Art of War in the Skies"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"e9cfa6c24f6d186428bef1945057db794072cdbb"
+		"logo_small"		"e9cfa6c24f6d186428bef1945057db794072cdbb_thumb"
+		"icon"		"45f5dd3b645d20e8c5a82cb23a498e4fff1b00c1"
+		"clienticon"		"823b2ca9be4a6187a3f9675396f77bf3846c35c8"
+		"clienttga"		"8e47ccddc15287b191cd8e77ec60aa92c68f6b91"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1642687193"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Microprose"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Microprose Classics"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Atari"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"719650800"
+		"steam_release_date"		"1642686840"
+		"community_hub_visible"		"1"
+		"gameid"		"1704640"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"9"
+			"2"		"15045"
+			"3"		"4684"
+			"4"		"3871"
+			"5"		"3987"
+			"6"		"6691"
+			"7"		"4168"
+			"8"		"4004"
+			"9"		"1678"
+			"10"		"4150"
+			"11"		"3993"
+			"12"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Microprose"
+		"publisher"		"Atari"
+	}
+	"config"
+	{
+		"installdir"		"The Ancient Art of War in the Skies"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox\\dosbox.exe"
+				"arguments"		"-conf dosbox.conf -conf win.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf dosbox.conf -conf osx.conf -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1704641"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1029471861826009570"
+					"size"		"4966588"
+					"download"		"2305168"
+				}
+			}
+		}
+		"1704642"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"572212020903663680"
+					"size"		"37835505"
+					"download"		"16383232"
+				}
+			}
+		}
+		"1704643"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3975715276823657542"
+					"size"		"15441282"
+					"download"		"12208192"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7092436"
+				"timeupdated"		"1627362747"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
