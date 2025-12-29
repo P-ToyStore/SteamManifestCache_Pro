@@ -1,0 +1,367 @@
+"appinfo"
+{
+	"appid"		"1237070"
+	"common"
+	{
+		"name"		"The Cyclist: Tactics"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"logo"		"5c957dcc5017325429c155452b0562815fe74087"
+		"logo_small"		"5c957dcc5017325429c155452b0562815fe74087_thumb"
+		"icon"		"6930020b60a126cc31e4449317c57eafd05fa474"
+		"linuxclienticon"		"b130deedf8d99245bc61548b77cd3863b7488ee2"
+		"clienticon"		"11d4378f35c7b8b77a58028c439a6bb342c65ba0"
+		"clienttga"		"9be9569066630e7863bb3bdf330145ca1c9147a8"
+		"clienticns"		"539255c53b8b239bd84028f12a5c7b4a3dca2c32"
+		"releasestate"		"released"
+		"metacritic_name"		"The Cyclist: Tactics"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1657893819"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Camshaft Software Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Camshaft Software Ltd"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"18"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_24"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1627556428"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1237070"
+		"store_tags"
+		{
+			"0"		"19568"
+			"1"		"12472"
+			"2"		"599"
+			"3"		"14139"
+			"4"		"1770"
+			"5"		"701"
+			"6"		"1708"
+			"7"		"9"
+			"8"		"1741"
+			"9"		"1677"
+			"10"		"3871"
+			"11"		"4791"
+			"12"		"6815"
+			"13"		"3841"
+			"14"		"7368"
+			"15"		"4182"
+			"16"		"492"
+			"17"		"1742"
+			"18"		"597"
+			"19"		"1721"
+		}
+		"review_score"		"8"
+		"review_percentage"		"96"
+	}
+	"extended"
+	{
+		"absolutemousecoordinates"		"0"
+		"remoteplaytogethertestingbranches"		"development_1_2"
+		"developer"		"Camshaft Software Ltd"
+		"publisher"		"Camshaft Software Ltd"
+	}
+	"config"
+	{
+		"installdir"		"TheCyclistTactics"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cyclist.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Tools\\RaceEditor/The_Cyclist_Race_Builder.exe"
+				"arguments"		"Tools/RaceEditor/"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"The Cyclist: Tactics - Race Editor"
+				}
+				"description"		"The Cyclist: Tactics - Race Editor"
+			}
+			"2"
+			{
+				"executable"		"Tools/WorkshopTool/Cyclist_Workshop_Publishing_Tool.exe"
+				"workingdir"		"Tools/WorkshopTool/"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"The Cyclist: Tactics - Workshop Upload Tool"
+				}
+				"description"		"The Cyclist: Tactics - Workshop Upload Tool"
+			}
+			"3"
+			{
+				"executable"		"Tools\\RaceEditor/The_Cyclist_Race_Builder.exe"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"development_1_2"
+				}
+				"description_loc"
+				{
+					"english"		"The Cyclist Tactics - Race Editor (Updated)"
+				}
+				"description"		"The Cyclist Tactics - Race Editor (Updated)"
+			}
+			"4"
+			{
+				"executable"		"Cyclist.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"1237070"
+		"baselanguages"		"english,german,french,italian,spanish,portuguese"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1237071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"219188417237009019"
+					"size"		"438421486"
+					"download"		"401510800"
+				}
+				"open_beta"
+				{
+					"gid"		"219188417237009019"
+					"size"		"438421486"
+					"download"		"401510800"
+				}
+				"version1_1"
+				{
+					"gid"		"776207041336618802"
+					"size"		"538432083"
+					"download"		"486065648"
+				}
+			}
+		}
+		"1237072"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6127732576260459194"
+					"size"		"452598090"
+					"download"		"389542448"
+				}
+				"open_beta"
+				{
+					"gid"		"1145483572536687830"
+					"size"		"455036838"
+					"download"		"389783312"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14747599"
+				"timeupdated"		"1718663226"
+			}
+			"open_beta"
+			{
+				"buildid"		"11969818"
+				"description"		"Open Beta Build. Quality may vary!"
+				"timeupdated"		"1692313310"
+			}
+			"version1_1"
+			{
+				"buildid"		"7342543"
+				"description"		"Game Version 1.0.7"
+				"timeupdated"		"1657900965"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Cyclist/save_games/{64BitSteamID}"
+				"pattern"		"*.sdb"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Cyclist/save_games/{64BitSteamID}"
+						"replace"		"com.camshaftsoftware.cyclist/save_games/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
