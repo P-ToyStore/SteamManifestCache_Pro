@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"786540"
+	"common"
+	{
+		"name"		"Brick vs. Paddle"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"8f5baf3363ff3be3802f93c80220784b6d458df9"
+		"logo"		"c4aee4346097cad315cb846a8e1b7d42031f132d"
+		"logo_small"		"c4aee4346097cad315cb846a8e1b7d42031f132d_thumb"
+		"clienttga"		"42739bda3197019ff27b928f04a468bc2a7d822c"
+		"clienticon"		"fee1001d40f92c5df999cfa678bb90979111f6bb"
+		"linuxclienticon"		"004c36a67668b341b32540c22dbd4eb879a6c7c1"
+		"clienticns"		"f8f6a6c07b8f2662e857b633f3848b5aafc4b30e"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Brick vs. Paddle"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e75116a478f3dd08628281eda50a84cf6eab7150.jpg"
+		"store_asset_mtime"		"1518502205"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Viaticum Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Viaticum Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1522995036"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"786540"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Viaticum Games"
+		"publisher"		"Viaticum Games"
+		"homepage"		"http://bvp.viaticum.ca"
+	}
+	"config"
+	{
+		"installdir"		"Brick vs. Paddle"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Brick vs Paddle.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Brick_vs_Paddle"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Brick_vs_Paddle.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"baselanguages"		"english"
+		"786541"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4292910418834490150"
+					"size"		"324832355"
+					"download"		"246216448"
+				}
+				"testing"
+				{
+					"gid"		"4292910418834490150"
+					"size"		"324832355"
+					"download"		"246216448"
+				}
+			}
+		}
+		"786542"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6600999454269675062"
+					"size"		"325255242"
+					"download"		"245744832"
+				}
+				"testing"
+				{
+					"gid"		"6600999454269675062"
+					"size"		"325255242"
+					"download"		"245744832"
+				}
+			}
+		}
+		"786543"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1672736366911879773"
+					"size"		"343296411"
+					"download"		"255026256"
+				}
+				"testing"
+				{
+					"gid"		"1672736366911879773"
+					"size"		"343296411"
+					"download"		"255026256"
+				}
+			}
+		}
+		"786544"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3885369"
+				"timeupdated"		"1559619188"
+			}
+			"testing"
+			{
+				"buildid"		"3885369"
+				"description"		"Unstable, testing new features."
+				"timeupdated"		"1559618711"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Brick_vs_Paddle"
+				"pattern"		"PlayerProgress.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Brick_vs_Paddle"
+				"pattern"		"PlayerStats.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
