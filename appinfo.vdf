@@ -1,0 +1,265 @@
+"appinfo"
+{
+	"appid"		"579980"
+	"common"
+	{
+		"name"		"Lost Eden"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"21e88967f296c9226afe3ceb94bac1fefb2a6383"
+		"logo_small"		"21e88967f296c9226afe3ceb94bac1fefb2a6383_thumb"
+		"icon"		"796d343be0ac8383bb4b57bae1e9f14021d91bec"
+		"clienttga"		"259571442cb37c91c5ad79233a3f25ecadf68921"
+		"clienticon"		"fddbf9db945202cf30bd43905f6f107d55b524ae"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Lost Eden"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1668620338"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cryo Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"788947200"
+		"steam_release_date"		"1487004328"
+		"community_hub_visible"		"1"
+		"gameid"		"579980"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"9"
+			"2"		"5160"
+			"3"		"3839"
+			"4"		"4166"
+			"5"		"122"
+			"6"		"1698"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Cryo Interactive"
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"http://www.interplay.com"
+	}
+	"config"
+	{
+		"installdir"		"Lost Eden"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Lost Eden.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"config/dosbox_eden.conf\" -conf \"config/dosbox_eden_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./config/dosbox_eden.conf\" -conf \"./config/dosbox_eden_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"579981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3220653788434240247"
+					"size"		"1410274075"
+					"download"		"519216608"
+				}
+			}
+		}
+		"579982"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7280177832945546048"
+					"size"		"1417653397"
+					"download"		"521548112"
+				}
+			}
+		}
+		"579983"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4107684314032647399"
+					"size"		"1413791682"
+					"download"		"517880320"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19167763"
+				"timeupdated"		"1752108171"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"20"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"losteden"
+				"pattern"		"*.SAV"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"losteden_fr"
+				"pattern"		"*.SAV"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"losteden_de"
+				"pattern"		"*.SAV"
+				"recursive"		"1"
+			}
+		}
+	}
+}
