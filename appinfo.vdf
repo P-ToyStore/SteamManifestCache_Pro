@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"745870"
+	"common"
+	{
+		"name"		"Prehistorik"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"93bf0b0e66b80c78b05365a0101b5de22e98b3c7"
+		"clienttga"		"ee8d4228a41b1f4f0bdc642c71cfbc47fdf1e32c"
+		"icon"		"8c39aee8f5ff73e0d23a6b3423f0fdb592dca3fd"
+		"logo"		"268f66fac2c5592bf760c09c9386874bb8868d91"
+		"logo_small"		"268f66fac2c5592bf760c09c9386874bb8868d91_thumb"
+		"releasestate"		"released"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Prehistorik"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1668803152"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Titus Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Prehistorik"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"662716800"
+		"steam_release_date"		"1510945014"
+		"community_hub_visible"		"1"
+		"gameid"		"745870"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"1693"
+			"3"		"122"
+			"4"		"3798"
+			"5"		"3871"
+			"6"		"1625"
+			"7"		"5379"
+		}
+		"review_score"		"7"
+		"review_percentage"		"82"
+	}
+	"extended"
+	{
+		"developer"		"Titus Interactive"
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"https://www.interplay.com"
+	}
+	"config"
+	{
+		"installdir"		"Prehistorik"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Prehistorik.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosboxPrehistorik1.conf\" -conf \"./dosboxPrehistorik1_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxPrehistorik1.conf\" -conf \"./dosboxPrehistorik1_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"745871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7343147874981530214"
+					"size"		"39440503"
+					"download"		"18648448"
+				}
+			}
+		}
+		"745872"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4174426907515118527"
+					"size"		"46819825"
+					"download"		"20820112"
+				}
+			}
+		}
+		"745873"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3099727143741857690"
+					"size"		"42958106"
+					"download"		"17152320"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19167778"
+				"timeupdated"		"1752108435"
+			}
+		}
+	}
+}
