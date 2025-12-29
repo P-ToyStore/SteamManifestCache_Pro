@@ -1,0 +1,257 @@
+"appinfo"
+{
+	"appid"		"700750"
+	"common"
+	{
+		"name"		"The Battle Of Mahjong"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"icon"		"d09d0e2115407f1cd7e644dac844cf760841a6a2"
+		"logo"		"e73494447590e6cbc67fa44d51f9126421aa7519"
+		"logo_small"		"e73494447590e6cbc67fa44d51f9126421aa7519_thumb"
+		"clienttga"		"f0e471e698cd96a789c04c548b0aa8941912ffc4"
+		"clienticns"		"2ccd5f0a5f95e053b1dc9e4641df353f7023e0f5"
+		"clienticon"		"57b5b6a6ba5ea9727419796024daf0cd4fc14985"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1752883200"
+			"tested_build_id"		"2378903"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotSupported"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"5"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-4RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"The Battle Of Mahjong"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_bebdc87e4e08ab303af246c390ffd7d2a77843c9.jpg"
+		"store_asset_mtime"		"1505201008"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"KUSOne Studio Limited"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"West Dos (HK) LTD."
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1505458800"
+		"steam_release_date"		"1505416372"
+		"community_hub_visible"		"1"
+		"gameid"		"700750"
+		"store_tags"
+		{
+			"0"		"597"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"developer"		"KUSOne Studio Limited"
+		"publisher"		"West Dos (HK) LTD."
+		"homepage"		"https://www.facebook.com/battleofmahjong/"
+	}
+	"config"
+	{
+		"installdir"		"The Battle Of Mahjong"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MJ.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"MJ64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"MJ.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese,tchinese"
+		"700751"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2902296836796915757"
+					"size"		"705820717"
+					"download"		"273370032"
+				}
+			}
+		}
+		"700752"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7408604555254240160"
+					"size"		"733860752"
+					"download"		"281843168"
+				}
+			}
+		}
+		"700753"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"710087636167374553"
+					"size"		"709602861"
+					"download"		"274426304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2378903"
+				"timeupdated"		"1513620774"
+			}
+		}
+	}
+}
