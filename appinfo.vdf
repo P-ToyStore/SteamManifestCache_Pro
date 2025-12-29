@@ -1,0 +1,281 @@
+"appinfo"
+{
+	"appid"		"333990"
+	"common"
+	{
+		"name"		"Conclave"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"clienticon"		"e6e8434b2bbc9ad1b72dd9e16e3c190354f6934b"
+		"clienttga"		"d44d4c87f231219fcb56a1d02615b5e55cefe86b"
+		"icon"		"b324f3cde4dcd9e0f13728cd13e0b64c17c62162"
+		"logo"		"64c47ad53996a5471b4406d620399567f44e1ecd"
+		"logo_small"		"64c47ad53996a5471b4406d620399567f44e1ecd_thumb"
+		"releasestate"		"released"
+		"osarch"		""
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1693267200"
+			"tested_build_id"		"1708678"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Conclave"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1572487780"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"10x10 Room"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"10x10 Room"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1484939446"
+		"community_hub_visible"		"1"
+		"gameid"		"333990"
+		"store_tags"
+		{
+			"0"		"1677"
+			"1"		"10695"
+			"2"		"17389"
+			"3"		"122"
+			"4"		"3871"
+			"5"		"3854"
+			"6"		"1742"
+			"7"		"4325"
+			"8"		"14139"
+			"9"		"17770"
+			"10"		"4508"
+			"11"		"1684"
+			"12"		"4057"
+			"13"		"31275"
+			"14"		"21"
+			"15"		"4094"
+			"16"		"21725"
+			"17"		"3859"
+			"18"		"4182"
+			"19"		"3843"
+		}
+		"review_score"		"6"
+		"review_percentage"		"76"
+	}
+	"extended"
+	{
+		"developer"		"10x10 Room"
+		"publisher"		"10x10 Room"
+		"homepage"		"https://www.playconclave.com/"
+		"listofdlc"		"584030"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Conclave"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"conclave.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Conclave.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"333991"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4970742648896663968"
+					"size"		"60602975"
+					"download"		"21360624"
+				}
+			}
+		}
+		"333992"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2698781842648406801"
+					"size"		"161323352"
+					"download"		"43362928"
+				}
+			}
+		}
+		"333993"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"584030"
+		{
+			"dlcappid"		"584030"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6516775454418586398"
+					"size"		"19103908"
+					"download"		"19140640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1708678"
+				"timeupdated"		"1490377926"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
