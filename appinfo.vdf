@@ -1,0 +1,246 @@
+"appinfo"
+{
+	"appid"		"1939810"
+	"common"
+	{
+		"name"		"Sanctum Breach: Rebirth"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"9a780f8ecb4c354fd016c38d594cab87e2119722"
+		"clienticon"		"b3c8e79d11696e16d3851c05f84bece9e2e7b961"
+		"clienttga"		"58446d53a7913ac5f9bfb95532005f61bdb4a4a5"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1694044800"
+			"tested_build_id"		"11666112"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"87.63127187864646"
+				"height_pct"		"65.19829019235333"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"87.63127187864646"
+					"height_pct"		"65.19829019235333"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667675269"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Reroll Gaming"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Reroll Gaming"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"3"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1651770028"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1939810"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"4231"
+			"2"		"1646"
+			"3"		"4791"
+			"4"		"5851"
+			"5"		"1720"
+			"6"		"6730"
+			"7"		"3993"
+			"8"		"4747"
+			"9"		"4155"
+			"10"		"19"
+			"11"		"4604"
+			"12"		"4191"
+			"13"		"4175"
+			"14"		"5125"
+			"15"		"1684"
+			"16"		"4172"
+			"17"		"21"
+			"18"		"4166"
+			"19"		"1695"
+		}
+		"review_score"		"5"
+		"review_percentage"		"61"
+	}
+	"extended"
+	{
+		"developer"		"Reroll Gaming"
+		"publisher"		"Reroll Gaming"
+	}
+	"config"
+	{
+		"installdir"		"Sanctum Breach Rebirth"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Windows\\SanctumBreachRebirth.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Sanctum Breach: Rebirth (DirectX)"
+				}
+				"description"		"Sanctum Breach: Rebirth (DirectX)"
+			}
+			"1"
+			{
+				"executable"		"Windows\\SanctumBreachRebirth.exe"
+				"arguments"		"-vulkan"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Sanctum Breach: Rebirth (Vulkan)"
+				}
+				"description"		"Sanctum Breach: Rebirth (Vulkan)"
+			}
+		}
+	}
+	"depots"
+	{
+		"1939811"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2970113735817701122"
+					"size"		"31255423244"
+					"download"		"13463445168"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12012365"
+				"timeupdated"		"1692790963"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
