@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"342100"
+	"common"
+	{
+		"name"		"Sym"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+		}
+		"logo"		"deb18003782285b2a973f188c11542e2ef077548"
+		"logo_small"		"deb18003782285b2a973f188c11542e2ef077548_thumb"
+		"icon"		"e329c7ca0ce1981c99aca7327483764e684eac78"
+		"clienttga"		"ef387d7293dda6429859e4c0328b3fb0362b1ceb"
+		"clienticon"		"0b6525506d14279ddc17565eb3eba15052ffadcf"
+		"clienticns"		"53008e39148233c51b160b8b6e8885e72dba4109"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Sym"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ffa6526a2051f5092706755455c59536678a334c.jpg"
+		"store_asset_mtime"		"1421837554"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Atrax Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mastertronic"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_17"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1431014408"
+		"metacritic_score"		"61"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/sym?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"342100"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"5537"
+			"2"		"1625"
+		}
+		"review_score"		"7"
+		"review_percentage"		"86"
+	}
+	"extended"
+	{
+		"developer"		"Atrax Games"
+		"publisher"		"Mastertronic"
+		"homepage"		"http://www.atraxgames.com/sym/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Sym"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Sym.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SymMac.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,russian,polish,brazilian"
+		"workshopdepot"		"342100"
+		"342101"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2340204078099872535"
+					"size"		"337378276"
+					"download"		"307613264"
+				}
+			}
+		}
+		"342102"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1753151767173868717"
+					"size"		"469079456"
+					"download"		"309919488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"798914"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"9000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Sym\\Local Store\\#SharedObjects\\Sym.swf"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Sym/Local Store/#SharedObjects/Sym.swf"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
