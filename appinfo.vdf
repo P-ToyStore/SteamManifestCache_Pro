@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"414330"
+	"common"
+	{
+		"name"		"We Are Chicago"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"ca86d81f240049f10a00c48fcff303d294fb6d67"
+		"logo_small"		"ca86d81f240049f10a00c48fcff303d294fb6d67_thumb"
+		"icon"		"67d87fcf8638024ec8a0256f6499bbf3211527bc"
+		"linuxclienticon"		"4d0c9a6f52960e9f9113d860a1c313d4bd8c2673"
+		"clienticns"		"14a908e5693e11b4c8e5d0411405d3172b872ed4"
+		"clienticon"		"8f16a3a7bf7eb6a52db9c5b9e7660af30b948401"
+		"clienttga"		"a90ae73ccec1ac1a22d64db0dc478523058e706b"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"We Are Chicago"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c404ad4c8d22c9fd721d20c9b0932601b3146a81.jpg"
+		"store_asset_mtime"		"1484592296"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Culture Shock Games LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Culture Shock Games LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_13"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1486627200"
+		"steam_release_date"		"1486659720"
+		"metacritic_score"		"49"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/we-are-chicago?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"414330"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"599"
+			"3"		"1742"
+			"4"		"4486"
+			"5"		"3834"
+			"6"		"7702"
+		}
+		"review_score"		"5"
+		"review_percentage"		"42"
+	}
+	"extended"
+	{
+		"developer"		"Culture Shock Games LLC"
+		"publisher"		"Culture Shock Games LLC"
+		"homepage"		"http://www.wearechicagogame.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"WeAreChicago"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WeAreChicagoWindows.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"WeAreChicagoOSX.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"WeAreChicagoLinux"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"VideoCodecInstaller.sh"
+				"description"		"Install Video Codecs"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"414331"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6492076256321629186"
+					"size"		"7313511753"
+					"download"		"1757528432"
+				}
+			}
+		}
+		"414332"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6678180210490911080"
+					"size"		"7331127457"
+					"download"		"1765856608"
+				}
+			}
+		}
+		"414333"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4642974455130367176"
+					"size"		"7253269340"
+					"download"		"1741727728"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1708429"
+				"timeupdated"		"1490227672"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
