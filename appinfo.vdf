@@ -1,0 +1,245 @@
+"appinfo"
+{
+	"appid"		"945140"
+	"common"
+	{
+		"name"		"dev_me"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"de18dd367c7346830aa7c873b7e8f91af0085f44"
+		"logo_small"		"de18dd367c7346830aa7c873b7e8f91af0085f44_thumb"
+		"clienticon"		"bdbe2a1acd78f981195608a25ff97a158538506d"
+		"clienttga"		"4ec9ead2ead53af8689b3f1d8ffc6b15ab7861fb"
+		"icon"		"5598af75626fd3d963ccdfdcf826b31e834383b4"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"metacritic_name"		"dev_me"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_da2d2df8a314480db080d8ae71e80b8eb3e462f7.jpg"
+		"store_asset_mtime"		"1546720596"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Egor Magurin"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Shilov"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Indovers Studio"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1590877563"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"945140"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"9"
+			"2"		"492"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"Egor Magurin"
+		"publisher"		"Indovers Studio"
+		"homepage"		"https://www.dev-me.net/"
+	}
+	"config"
+	{
+		"installdir"		"dev_me"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dev_me.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dev_me.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"945141"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8198386730018703800"
+					"size"		"109875518"
+					"download"		"53130384"
+				}
+			}
+		}
+		"945142"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1650165741312425701"
+					"size"		"114192653"
+					"download"		"54684080"
+				}
+			}
+		}
+		"945143"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3839289854597336807"
+					"size"		"103954190"
+					"download"		"51155472"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3813109"
+				"timeupdated"		"1557517040"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Indovers Studio/dev_me"
+				"pattern"		"*.game"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"dev_me_Data/MMData/InventoryEngine"
+				"pattern"		"*.binary"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Indovers Studio/dev_me"
+						"replace"		"Indovers Studio/dev_me"
+					}
+				}
+			}
+		}
+	}
+}
