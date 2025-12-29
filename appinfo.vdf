@@ -1,0 +1,224 @@
+"appinfo"
+{
+	"appid"		"369830"
+	"common"
+	{
+		"name"		"Toonstruck"
+		"type"		"Game"
+		"clienticon"		"7d52fca9d69b0914a6b3fd49dcf60910effc2b59"
+		"clienttga"		"7d93eecafb0b4df8f1e8ff6ec1125a13e052bdbd"
+		"icon"		"58ce0adfae05a447ec174ecd03f0df8146a2a346"
+		"logo"		"bc691577d638e0275e538e52018b033714733300"
+		"logo_small"		"bc691577d638e0275e538e52018b033714733300_thumb"
+		"oslist"		"windows,macos,linux"
+		"releasestate"		"released"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Toonstruck"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1670964058"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Burst"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1479239220"
+		"community_hub_visible"		"1"
+		"gameid"		"369830"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1698"
+			"2"		"18594"
+			"3"		"1719"
+			"4"		"1664"
+			"5"		"4195"
+			"6"		"4562"
+			"7"		"4136"
+			"8"		"6815"
+			"9"		"4305"
+			"10"		"3871"
+			"11"		"4182"
+			"12"		"1697"
+			"13"		"19995"
+			"14"		"1742"
+			"15"		"3834"
+			"16"		"15172"
+			"17"		"1738"
+			"18"		"4252"
+			"19"		"7948"
+		}
+		"review_score"		"8"
+		"review_percentage"		"96"
+	}
+	"extended"
+	{
+		"developer"		"Burst"
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"https://www.interplay.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/369830/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Toonstruck"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Toonstruck.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ScummVM/ScummVM.app/Contents/MacOS/scummvm"
+				"arguments"		"-p ./Toonstruck -f toon"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"PlayGame.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"369831"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6495315830348044373"
+					"size"		"1044023351"
+					"download"		"883152288"
+				}
+			}
+		}
+		"369832"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1113840277694259475"
+					"size"		"1285999602"
+					"download"		"1002881712"
+				}
+			}
+		}
+		"369833"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2413630856034681470"
+					"size"		"1100635302"
+					"download"		"901815728"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18711857"
+				"timeupdated"		"1748991126"
+			}
+		}
+	}
+}
