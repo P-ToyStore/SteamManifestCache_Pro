@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"952460"
+	"common"
+	{
+		"name"		"Lovecraft Quest - A Comix Game"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"11bc72034ab46de4630766815affd9bf7a79b834"
+		"clienttga"		"eacf6e38636d5b0168d2d16db2e77c96767cc3e1"
+		"icon"		"22e091898f0c8eefbbf39bea9a7dca6c6537c7e2"
+		"clienticns"		"cd5465d1cc0a4899aebce30625ec47f5354508e2"
+		"logo"		"22c9ae3eb04e9bda5a40cd26e25b23f5df380eec"
+		"logo_small"		"22c9ae3eb04e9bda5a40cd26e25b23f5df380eec_thumb"
+		"osextended"		"macos64"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"metacritic_name"		"Lovecraft Quest - A Comix Game"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a0c3a90a0c1e978ba8021682315b053dac85e449.jpg"
+		"store_asset_mtime"		"1549342615"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"OGUREC APPS"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"OGUREC APPS"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1542171371"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"952460"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"7432"
+			"3"		"4667"
+			"4"		"1751"
+			"5"		"4486"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"OGUREC APPS"
+		"publisher"		"OGUREC APPS"
+		"homepage"		"https://www.facebook.com/lovecraftquest/"
+	}
+	"config"
+	{
+		"installdir"		"lovecraft-quest-a-comix-game"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Lovecraft-Quest.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Lovecraft-Quest"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Lovecraft-Quest.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"952461"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7247364082444347795"
+					"size"		"216064066"
+					"download"		"84092384"
+				}
+			}
+		}
+		"952462"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5004158917535235050"
+					"size"		"238651387"
+					"download"		"89949392"
+				}
+			}
+		}
+		"952463"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"608756310689920310"
+					"size"		"261583014"
+					"download"		"96239344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3425930"
+				"timeupdated"		"1545645933"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacHome"
+				"path"		"/.prefs"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"MacHome"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"/.prefs"
+						"replace"		"%USERPROFILE%/.prefs"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"MacHome"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".prefs"
+			}
+		}
+	}
+}
