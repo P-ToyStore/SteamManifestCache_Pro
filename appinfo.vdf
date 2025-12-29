@@ -1,0 +1,227 @@
+"appinfo"
+{
+	"appid"		"510180"
+	"common"
+	{
+		"name"		"NDE Rescue"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"clienttga"		"fa8e64e20b52581d89d34e6de2e6c3a1b162471c"
+		"clienticon"		"757b278126f133012165853fb139fd6e8f5038d7"
+		"icon"		"fa905e1b49e9864696984289a8afdda42730cbb3"
+		"osarch"		""
+		"logo"		"229904de08be68ef7885a398dd3d9b105ada5a1d"
+		"logo_small"		"229904de08be68ef7885a398dd3d9b105ada5a1d_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"NDE Rescue"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0d2c5554165eb61d5d9814c53c070909176c71c9.jpg"
+		"store_asset_mtime"		"1471988029"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"6L6 Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"KSCM Consulting"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1472713200"
+		"steam_release_date"		"1472723900"
+		"community_hub_visible"		"1"
+		"gameid"		"510180"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+		}
+	}
+	"extended"
+	{
+		"developer"		"6L6 Interactive"
+		"publisher"		"KSCM Consulting"
+		"homepage"		"http://www.nderescue.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"NDE Rescue"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nde_rescue64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"nde_rescue32.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"nde_rescue-osx.app/Contents/MacOS/nde_rescue-osx"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish,russian,japanese,czech,turkish"
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"510182"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"933171613655536157"
+					"size"		"96772689"
+					"download"		"33356768"
+				}
+			}
+		}
+		"510183"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3201053370056075347"
+					"size"		"91453030"
+					"download"		"33767920"
+				}
+			}
+		}
+		"510184"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"709658323153615171"
+					"size"		"92629670"
+					"download"		"34434048"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1298036"
+				"timeupdated"		"1472077236"
+			}
+		}
+	}
+}
