@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"514530"
+	"common"
+	{
+		"name"		"Rally Racers"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"f67980e3ae32bc4cd98a0b1cbdea5330948db85a"
+		"logo_small"		"f67980e3ae32bc4cd98a0b1cbdea5330948db85a_thumb"
+		"icon"		"4cb00aac4512c8b8f233e98116d2b40100a1afb7"
+		"clienticon"		"eab36264314aeaf4402c9ded2e9fc31189f4224b"
+		"clienttga"		"556703e4afe1a931c68beeb26b6adc9f5818a557"
+		"clienticns"		"8a923f34fe2e4cddf1220ad39cd6e58cdd1580c4"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Rees' Rally Racers"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8205e2bfdfa564399f81c27b138b46bd407eacd8.jpg"
+		"store_asset_mtime"		"1516617698"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"West Coast Games Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"West Coast Games Ltd"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"9"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_35"		"1"
+			"category_25"		"1"
+			"category_43"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1513875388"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"514530"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"699"
+			"2"		"492"
+			"3"		"9"
+			"4"		"9271"
+		}
+	}
+	"extended"
+	{
+		"developer"		"West Coast Games Ltd"
+		"publisher"		"West Coast Games Ltd"
+		"homepage"		"http://www.west-coast.wales/games/rees-rally-racers/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rally Racers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ReesRallyRacers.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"RallyRacers.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,spanish"
+		"514531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8914715235901191575"
+					"size"		"594493594"
+					"download"		"539235744"
+				}
+			}
+		}
+		"514532"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8407709688729785099"
+					"size"		"700585052"
+					"download"		"610712976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2792977"
+				"timeupdated"		"1526911849"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"20000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"West Coast Software Ltd/Rees Rally Racers/Profiles"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"West Coast Software Ltd/Rees Rally Racers"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"West Coast Software Ltd/Rees Rally Racers/SaveData"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"MacHome"
+				"path"		"West Coast Software Ltd/Rally Racers/SaveData"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
