@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"669340"
+	"common"
+	{
+		"name"		"The Royal Cosmonautical Society"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"669340_eula_0"
+				"name"		"The Royal Cosmonautical Society EULA"
+				"url"		"http://store.steampowered.com//eula/669340_eula_0"
+			}
+		}
+		"logo"		"0f9605fc01eeec8c359fbee6f7697e6709c147d1"
+		"logo_small"		"0f9605fc01eeec8c359fbee6f7697e6709c147d1_thumb"
+		"icon"		"9c3540e39b2bd7828011feedfd58bba4295e14d4"
+		"clienttga"		"a0db348d1b69609020c2ce8f60e53adf5774fb60"
+		"clienticns"		"5f72823dd05381a6c759d883aff5ee2928cdfd5f"
+		"clienticon"		"618902a6899877bcc1ec7e7e805266565b6b5312"
+		"metacritic_name"		"The Royal Cosmonautical Society"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_10f6f1a169e345bdc66fbf9d366a4e5fb6ddbd0c.jpg"
+		"store_asset_mtime"		"1499644065"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Chromosphere Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Chromosphere Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1502379128"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"669340"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"21"
+		}
+		"review_score"		"7"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Chromosphere Games"
+		"publisher"		"Chromosphere Games"
+	}
+	"config"
+	{
+		"installdir"		"The Royal Cosmonautical Society"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RoyalCosmoSociety.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"RoyalCosmoSociety.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"669341"
+		{
+			"config"
+			{
+				"osarch"		"32"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1454926638085316969"
+					"size"		"161742558"
+					"download"		"26566496"
+				}
+			}
+		}
+		"669342"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4706293572016521719"
+					"size"		"167017883"
+					"download"		"28179472"
+				}
+			}
+		}
+		"669343"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2521930019280048895"
+					"size"		"212323002"
+					"download"		"40390272"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2016426"
+				"timeupdated"		"1502048783"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Chromosphere Games/Royal Cosmonautical Society/"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Chromosphere Games/Royal Cosmonautical Society/"
+						"replace"		"ChromosphereGames.RoyalCosmonauticalSociety/"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocalLow"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Chromosphere Games/Royal Cosmonautical Society/"
+						"replace"		"Chromosphere Games/Royal Cosmonautical Society/"
+					}
+				}
+			}
+		}
+	}
+}
