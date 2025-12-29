@@ -1,0 +1,251 @@
+"appinfo"
+{
+	"appid"		"1392140"
+	"common"
+	{
+		"name"		"Project Gravity"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"d58aac675630c5f91ce4cd3aae96248fb4baf174"
+		"logo_small"		"d58aac675630c5f91ce4cd3aae96248fb4baf174_thumb"
+		"icon"		"7e3fcdafd09ba6201ecb807f2b63262c8b526809"
+		"clienttga"		"8e894bb99687f8ce16f4439e1579e1a530067a10"
+		"clienticon"		"a5330f94de6e6c8dbc58bfebfabf406e7e06649a"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"czech"		"1"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"16.16279069767441"
+				"height_pct"		"40.501068629779176"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"16.16279069767441"
+					"height_pct"		"40.501068629779176"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1601195879"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Štěpán Meister"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Štěpán Meister"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1600700412"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1392140"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"1774"
+			"2"		"5796"
+			"3"		"4885"
+			"4"		"19"
+			"5"		"3839"
+			"6"		"4182"
+			"7"		"5395"
+			"8"		"6730"
+			"9"		"4191"
+			"10"		"492"
+			"11"		"3968"
+			"12"		"7926"
+			"13"		"4252"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Štěpán Meister"
+		"publisher"		"Štěpán Meister"
+		"homepage"		"https://www.stepanmeister.com/project-gravity"
+	}
+	"config"
+	{
+		"installdir"		"Project Gravity"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ProjectGravity.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ProjectGravity.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,czech"
+		"1392141"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2396508599243016058"
+					"size"		"2610092099"
+					"download"		"738925184"
+				}
+			}
+		}
+		"1392142"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7638402196637535441"
+					"size"		"2700152467"
+					"download"		"752190736"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9090728"
+				"timeupdated"		"1657352051"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"MeisterStudios/ProjectGravity"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/unity3d/MeisterStudios/ProjectGravity"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
