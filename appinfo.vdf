@@ -1,0 +1,241 @@
+"appinfo"
+{
+	"appid"		"534680"
+	"common"
+	{
+		"name"		"Dolphin Up"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"6248f03b9a3756f4a19a59169986405909728242"
+		"logo_small"		"6248f03b9a3756f4a19a59169986405909728242_thumb"
+		"clienticon"		"df0231a82199125db4b45b7aeaaec7c2e050167e"
+		"clienttga"		"cde78fe8769453fbb85e1f276fa4c1fea4b71086"
+		"icon"		"04924a762d7ccf296ff77fdb11ece671bd66491f"
+		"releasestate"		"released"
+		"clienticns"		"dffc75c1ced0b30c637d0c329b34ed62117061fd"
+		"linuxclienticon"		"0cba1ba42a0018a5484c9c2796c83bb5c188ac87"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Dolphin Up"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b3f45691060ddaaac20710d8dad42e33b7cf0521.jpg"
+		"store_asset_mtime"		"1493401388"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rawkins Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rawkins Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1493914357"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"534680"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+			"3"		"701"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Rawkins Games"
+		"publisher"		"Rawkins Games"
+		"homepage"		"http://rawkins.com/dolphin-up"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DolphinUp"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DolphinUp.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DolphinUp.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"DolphinUp"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"534681"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5051607210645708191"
+					"size"		"54970152"
+					"download"		"46766064"
+				}
+				"beta"
+				{
+					"gid"		"5051607210645708191"
+					"size"		"54970152"
+					"download"		"46766064"
+				}
+			}
+		}
+		"534682"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8042431304567895191"
+					"size"		"67968498"
+					"download"		"49924576"
+				}
+				"beta"
+				{
+					"gid"		"8042431304567895191"
+					"size"		"67968498"
+					"download"		"49924576"
+				}
+			}
+		}
+		"534683"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3048792534749404825"
+					"size"		"54358077"
+					"download"		"46508576"
+				}
+				"beta"
+				{
+					"gid"		"3048792534749404825"
+					"size"		"54358077"
+					"download"		"46508576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2533984"
+				"timeupdated"		"1518841896"
+			}
+			"beta"
+			{
+				"buildid"		"2533984"
+				"timeupdated"		"1518841754"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"/"
+				"pattern"		".monkeystate"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"DolphinUp.app/Contents/Resources"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
