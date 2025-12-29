@@ -1,0 +1,176 @@
+"appinfo"
+{
+	"appid"		"707750"
+	"common"
+	{
+		"name"		"DrumSim"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"kbm"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"clienticon"		"51040b5e957603eaa8a9b0d3cc5be2ab977fd122"
+		"clienttga"		"6df370f6879e722e9848590aa259965a83cdace4"
+		"icon"		"0848b94e9f663c04ad174483ea1da85039e1eba7"
+		"clienticns"		"5e4a08d4b77785bf1f8deaaf24204250afa240cc"
+		"logo"		"097f17d6b5b996919f39161edd064ea6a6586bdc"
+		"logo_small"		"097f17d6b5b996919f39161edd064ea6a6586bdc_thumb"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"DrumSim"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0773962d8752a83fa46127a66d8eec1ea8aa1afd.jpg"
+		"store_asset_mtime"		"1504636615"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Holodeck"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Revintu"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1506350484"
+		"community_hub_visible"		"1"
+		"gameid"		"707750"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"599"
+			"2"		"21978"
+		}
+		"review_score"		"3"
+		"review_percentage"		"18"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"The Holodeck"
+		"publisher"		"Revintu"
+	}
+	"config"
+	{
+		"installdir"		"DrumSim"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Build.exe"
+				"description"		"Run Game"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Build.app"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Build.exe"
+				"arguments"		"-show-screen-selector"
+				"description"		"Configuration"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"707751"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6794243974912445398"
+					"size"		"145089331"
+					"download"		"43635520"
+				}
+			}
+		}
+		"707752"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7684848439624536896"
+					"size"		"151609009"
+					"download"		"45118816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2242405"
+				"timeupdated"		"1509379566"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
