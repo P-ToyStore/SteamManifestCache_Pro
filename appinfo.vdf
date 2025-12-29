@@ -1,0 +1,346 @@
+"appinfo"
+{
+	"appid"		"709710"
+	"common"
+	{
+		"name"		"Jung's Labyrinth"
+		"type"		"Game"
+		"name_localized"
+		{
+			"czech"		"Jungův Labyrint"
+		}
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"logo"		"b125ce9c52fada0ac5f5ac8e3637549651577993"
+		"logo_small"		"b125ce9c52fada0ac5f5ac8e3637549651577993_thumb"
+		"icon"		"a9b4d7d34c3adb111baa5296888b641b975f174e"
+		"clienttga"		"85366f96f0dd3930389d59e4da1a465facd1e759"
+		"clienticns"		"e7bff2857f028ae31ebf43ba3396b725739cbcb3"
+		"linuxclienticon"		"e7bff2857f028ae31ebf43ba3396b725739cbcb3"
+		"clienticon"		"0098e81e9d8b649e381fe1e1fdf2f395974a1ea4"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"47.82819124182893"
+				"height_pct"		"74.64993632060813"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"47.82819124182893"
+					"height_pct"		"74.64993632060813"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1612972423"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Jan Jileček"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Jan Jileček"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1599202800"
+		"steam_release_date"		"1599267747"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"709710"
+		"store_tags"
+		{
+			"0"		"5900"
+			"1"		"4166"
+			"2"		"3834"
+			"3"		"3839"
+			"4"		"1742"
+			"5"		"492"
+			"6"		"21"
+			"7"		"5716"
+			"8"		"4234"
+			"9"		"4182"
+			"10"		"7432"
+			"11"		"15172"
+			"12"		"5608"
+			"13"		"16094"
+			"14"		"15277"
+			"15"		"5186"
+			"16"		"4342"
+			"17"		"198631"
+			"18"		"11014"
+			"19"		"1036"
+		}
+		"review_score"		"6"
+		"review_percentage"		"70"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Jan Jileček"
+		"publisher"		"Jan Jileček"
+		"homepage"		"https://jungslabyrinth.netlify.app/info/"
+	}
+	"config"
+	{
+		"installdir"		"Jung's Labyrinth"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Jung's Labyrinth.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Contents/MacOS/Jung's Labyrinth"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Jung's Labyrinth.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Jung's Labyrinth.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"virtual_reality"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"709712"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5178799401926407270"
+					"size"		"5768337518"
+					"download"		"2526218128"
+				}
+				"virtual_reality"
+				{
+					"gid"		"7481611987816415912"
+					"size"		"5791109872"
+					"download"		"2525744320"
+				}
+			}
+		}
+		"709713"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3917025784549063438"
+					"size"		"6033701723"
+					"download"		"2591227904"
+				}
+				"virtual_reality"
+				{
+					"gid"		"8851048475779669217"
+					"size"		"5754291018"
+					"download"		"2531949440"
+				}
+			}
+		}
+		"709714"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6606422168900767396"
+					"size"		"5812321728"
+					"download"		"2564301520"
+				}
+				"virtual_reality"
+				{
+					"gid"		"6606422168900767396"
+					"size"		"5812321728"
+					"download"		"2564301520"
+				}
+			}
+		}
+		"709715"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3267059540648979973"
+					"size"		"68945295"
+					"download"		"18710064"
+				}
+				"virtual_reality"
+				{
+					"gid"		"3267059540648979973"
+					"size"		"68945295"
+					"download"		"18710064"
+				}
+			}
+		}
+		"709711"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"virtual_reality"
+				{
+					"gid"		"5253475516769024107"
+					"size"		"5791109872"
+					"download"		"2526717456"
+				}
+			}
+		}
+		"709716"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6239309"
+				"timeupdated"		"1613349824"
+			}
+			"virtual_reality"
+			{
+				"buildid"		"5573971"
+				"timeupdated"		"1600698957"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
