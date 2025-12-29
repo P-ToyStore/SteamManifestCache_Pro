@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"27020"
+	"common"
+	{
+		"name"		"The Graveyard"
+		"logo"		"e5f85d7599aec19f69f8023cc616e332d9f9a2b5"
+		"logo_small"		"e5f85d7599aec19f69f8023cc616e332d9f9a2b5_thumb"
+		"icon"		"6eb0be1f92fab1d7af4dd4158664e1862c8f798c"
+		"clienttga"		"ba4a569b371d191d76cbc56f97e04f536d8afa29"
+		"clienticon"		"31d3fce53e7ccf1bf8e243ac86af68afe44ac587"
+		"oslist"		"windows,macos,linux"
+		"requireskbmouse"		"1"
+		"type"		"game"
+		"metacritic_name"		"The Graveyard"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"0000007626.jpg"
+		"store_asset_mtime"		"1667032130"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tale of Tales"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tale of Tales"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1206082800"
+		"steam_release_date"		"1236636000"
+		"community_hub_visible"		"1"
+		"gameid"		"27020"
+		"store_tags"
+		{
+			"0"		"5900"
+			"1"		"492"
+			"2"		"4234"
+			"3"		"7208"
+			"4"		"4166"
+			"5"		"599"
+			"6"		"10397"
+			"7"		"1667"
+			"8"		"1721"
+			"9"		"4182"
+			"10"		"5186"
+			"11"		"4085"
+			"12"		"4136"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"Tale of Tales"
+		"gamedir"		"The Graveyard"
+		"homepage"		"http://www.tale-of-tales.com/TheGraveyard/"
+		"icon"		""
+		"installscriptosx"		"The Graveyard.app/installscript_osx.vdf"
+		"installscript_macos"		"The Graveyard.app/installscript_osx.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"27021"
+		"primarycache_mac"		"27022"
+		"primarycache_macos"		"27022"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"macos,windows"
+		"developer_url"		"http://www.tale-of-tales.com"
+		"publisher"		"Tale of Tales"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"The Graveyard"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheGraveyard.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"The Graveyard.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"TheGraveyard.x86"
+				"description"		"Launch Linux 32-bit"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"TheGraveyard.x86_64"
+				"description"		"Launch Linux 64-bit"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"27022"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4237421630508178547"
+					"size"		"116380953"
+					"download"		"0"
+				}
+			}
+		}
+		"27021"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"622961398686419189"
+					"size"		"49520969"
+					"download"		"0"
+				}
+			}
+		}
+		"27023"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3087432905101424224"
+					"size"		"93031707"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"194981"
+			}
+		}
+	}
+}
