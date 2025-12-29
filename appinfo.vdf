@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"1200600"
+	"common"
+	{
+		"name"		"Nine Circles of Hell"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"icon"		"8ab07192c9436a6eb03cb1089588f45624eb1639"
+		"clienticon"		"abedc2b25254ea32bab9c45e822b51e0168f8e8b"
+		"clienttga"		"8be50e00508c0f51b945b73c99fa8112884c074e"
+		"clienticns"		"93decac5baa4ffa88d984fa4170504aa14301974"
+		"linuxclienticon"		"9df49d261eda59653b6a5c7b819036257009efcd"
+		"logo"		"a2ae4df9ca9fd77cfcda0f8ecbbb5a7c5d31ed3c"
+		"logo_small"		"a2ae4df9ca9fd77cfcda0f8ecbbb5a7c5d31ed3c_thumb"
+		"metacritic_name"		"Nine Circles of Hell"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"67.62765309504684"
+				"height_pct"		"38.542087448727095"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"67.62765309504684"
+					"height_pct"		"38.542087448727095"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1576631530"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ZigZagJazz LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ZigZagJazz LLC"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_27"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1577973511"
+		"community_hub_visible"		"1"
+		"gameid"		"1200600"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"597"
+			"3"		"1677"
+			"4"		"3968"
+			"5"		"599"
+			"6"		"1770"
+			"7"		"3859"
+			"8"		"4182"
+			"9"		"5350"
+		}
+	}
+	"extended"
+	{
+		"developer"		"ZigZagJazz LLC"
+		"publisher"		"ZigZagJazz LLC"
+		"homepage"		"http://www.zigzagjazz.com"
+	}
+	"config"
+	{
+		"installdir"		"NCoH"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"jreW64-12.0.2\\bin\\javaw.exe"
+				"arguments"		"-Duser.home=. -jar NCoH.jar"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"jreMac-12.0.2/bin/NCoH"
+				"arguments"		"-Duser.home=. -Xdock:name=NCoH -Xdock:icon=NCoH.icns -jar NCoH.jar"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1200601"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2428720322939448833"
+					"size"		"127987289"
+					"download"		"126223136"
+				}
+			}
+		}
+		"1200602"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8341211105165648162"
+					"size"		"46251690"
+					"download"		"31173568"
+				}
+			}
+		}
+		"1200603"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2165416506090952652"
+					"size"		"44978454"
+					"download"		"30326576"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4523309"
+				"timeupdated"		"1577154485"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"10"
+	}
+}
