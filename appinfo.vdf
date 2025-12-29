@@ -1,0 +1,316 @@
+"appinfo"
+{
+	"appid"		"365500"
+	"common"
+	{
+		"name"		"quadrant"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"ea4cfd22a6aebaebd14f9dd6fce93ebafcab896d"
+		"clienttga"		"387f6e2340c919f333a396b20e4b709620b5a618"
+		"icon"		"951cdac257e8034700451dee28e169587a46127b"
+		"linuxclienticon"		"899c4bc234402acece283d6019a94ffa2e868d73"
+		"clienticns"		"0712b0f10299d11ce8333d625e231f1575914007"
+		"logo"		"de45a1e14dd7defe750bbc26562617fa7052a878"
+		"logo_small"		"de45a1e14dd7defe750bbc26562617fa7052a878_thumb"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"metacritic_name"		"quadrant"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c373795625c10c209e63d588a0f657e7cde5e6ca.jpg"
+		"store_asset_mtime"		"1430078468"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"undef"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"undef"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1430477911"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"365500"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1752"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"undef"
+		"publisher"		"undef"
+		"homepage"		"http://quadrantgame.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"quadrant"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"quadrant.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"quadrant.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"run.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"workshop\\uploadWorkshopItem.exe"
+				"description"		"upload workshop item"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"365501"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7646085273256210958"
+					"size"		"81179273"
+					"download"		"67264512"
+				}
+				"testing"
+				{
+					"gid"		"7646085273256210958"
+					"size"		"81179273"
+					"download"		"67264512"
+				}
+			}
+		}
+		"365502"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"107802180283890099"
+					"size"		"83376618"
+					"download"		"67442928"
+				}
+				"testing"
+				{
+					"gid"		"107802180283890099"
+					"size"		"83376618"
+					"download"		"67442928"
+				}
+			}
+		}
+		"365503"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1037202070926100471"
+					"size"		"64361721"
+					"download"		"64912080"
+				}
+				"testing"
+				{
+					"gid"		"1037202070926100471"
+					"size"		"64361721"
+					"download"		"64912080"
+				}
+			}
+		}
+		"workshopdepot"		"365500"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15407412"
+				"timeupdated"		"1723930399"
+			}
+			"testing"
+			{
+				"buildid"		"15407412"
+				"timeupdated"		"1723930233"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"path"		"quadrant/saves"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"quadrant/logs"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"love/quadrant/saves"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"love/quadrant/logs"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+			"4"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"quadrant/saves"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"5"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"quadrant/logs"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"6"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"quadrant"
+				"pattern"		"trainingRecord"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"7"
+			{
+				"root"		"MacAppSupport"
+				"path"		"quadrant"
+				"pattern"		"trainingRecord"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"8"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"love/quadrant"
+				"pattern"		"trainingRecord"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
