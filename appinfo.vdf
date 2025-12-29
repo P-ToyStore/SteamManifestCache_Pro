@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"965490"
+	"common"
+	{
+		"name"		"Propaganda Llama"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"c9782d51e7cc9c5b75165ad7658e7f32c970cad3"
+		"logo_small"		"c9782d51e7cc9c5b75165ad7658e7f32c970cad3_thumb"
+		"icon"		"ae5460481e8084eaee072a8f79cf4517b09328a8"
+		"clienticon"		"683f30df2bc473bd35a7d7211b035203e48bf7bb"
+		"clienttga"		"3a1759428f7094a5321f03372c213dd159df7426"
+		"releasestate"		"released"
+		"metacritic_name"		"Propaganda Llama"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ed88c92fbfa38247a710a196228c1790727ab566.jpg"
+		"store_asset_mtime"		"1540512128"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Space Wagon Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Electric Monk Media"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1543286136"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"965490"
+		"store_tags"
+		{
+			"0"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Space Wagon Games"
+		"publisher"		"Electric Monk Media"
+		"homepage"		"http://www.propagandallama.com"
+	}
+	"config"
+	{
+		"installdir"		"Propaganda Llama"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"propaganda_llama.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"propaganda_llama.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"72"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"965491"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3201546889526184652"
+					"size"		"732951549"
+					"download"		"666016896"
+				}
+			}
+		}
+		"965492"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3601459792516302732"
+					"size"		"1336111814"
+					"download"		"1128999856"
+				}
+			}
+		}
+		"965493"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5904810948337981634"
+					"size"		"702405873"
+					"download"		"645451456"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3352228"
+				"timeupdated"		"1543524972"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"12"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saved/SaveGames"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		"Epic/propaganda_llama"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataLocal"
+				"addpath"		"propaganda_llama"
+			}
+		}
+	}
+}
