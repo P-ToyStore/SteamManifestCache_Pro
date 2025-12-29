@@ -1,0 +1,305 @@
+"appinfo"
+{
+	"appid"		"405340"
+	"common"
+	{
+		"name"		"Siegecraft Commander"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+			}
+		}
+		"logo"		"004ad3df27b7bef5d8040c8a5e28f83bf63e7d9e"
+		"logo_small"		"004ad3df27b7bef5d8040c8a5e28f83bf63e7d9e_thumb"
+		"icon"		"94960dcfca54e3f0aee8d9f7f60a45738de43b15"
+		"clienttga"		"a95a0caf2b0b5aeaf8f38e8535a331186881c5c2"
+		"clienticon"		"523e79008abbeac97ad705a93a2cd71a342e101a"
+		"clienticns"		"47f8782835b66ba842060ffd4dc19e18b4d36054"
+		"linuxclienticon"		"34ccf916a3cac25cef93ae986210dad839bb58b9"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"osarch"		""
+		"metacritic_name"		"Siegecraft Commander"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1668660529"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Blowfish Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Blowfish Studios"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Blowfish Studios"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_36"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_27"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_43"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1484615736"
+		"metacritic_score"		"53"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/siegecraft-commander?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"405340"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"1676"
+			"3"		"7332"
+			"4"		"492"
+			"5"		"3859"
+			"6"		"4182"
+			"7"		"1741"
+			"8"		"1677"
+			"9"		"1684"
+			"10"		"4136"
+			"11"		"21978"
+		}
+		"review_score"		"5"
+		"review_percentage"		"63"
+	}
+	"extended"
+	{
+		"developer"		"Blowfish Studios"
+		"publisher"		"Blowfish Studios"
+		"homepage"		"http://siegecraftcommander.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Siegecraft Commander"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SiegecraftCommander.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SiegecraftCommander.app"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"SiegecraftCommanderVR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"405341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4823715857666908413"
+					"size"		"1407680010"
+					"download"		"426214176"
+				}
+			}
+		}
+		"405342"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"127958576997602318"
+					"size"		"1426317074"
+					"download"		"431422240"
+				}
+			}
+		}
+		"405343"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3533493768823202898"
+					"size"		"1610626845"
+					"download"		"430265648"
+				}
+			}
+		}
+		"405344"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3648589517135313791"
+					"size"		"1513493010"
+					"download"		"466086928"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1693844"
+				"timeupdated"		"1489624917"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Save/{64BitSteamID}"
+				"pattern"		"*"
+			}
+		}
+	}
+}
