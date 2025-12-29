@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"675910"
+	"common"
+	{
+		"name"		"Visual Out"
+		"type"		"Game"
+		"logo"		"61b439de58ce5803cb2332840dbe8a99e9993d25"
+		"logo_small"		"61b439de58ce5803cb2332840dbe8a99e9993d25_thumb"
+		"clienticon"		"461f70392399f64c19653ef36442b4c14571ba85"
+		"clienttga"		"a9b1dcebcc991f54398ae6481e62d1ad6c97145d"
+		"icon"		"dad466933b7a2e26bf02869d4bfb473821a583fb"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Visual Out"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7953d608aaff4af9244fdbd0d92c8374c7f5d4e9.jpg"
+		"store_asset_mtime"		"1502827419"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"MadameBerry Games LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"MadameBerry Games LLC"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1521118873"
+		"community_hub_visible"		"1"
+		"gameid"		"675910"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"21"
+			"3"		"1628"
+		}
+		"review_score"		"7"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"MadameBerry Games LLC"
+		"publisher"		"MadameBerry Games LLC"
+		"homepage"		"http://madameberry.com/games#visualout"
+	}
+	"config"
+	{
+		"installdir"		"VisualOut"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"visualout.app\\Contents\\MacOS\\nwjs"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"nw"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"675911"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5149141759864130536"
+					"size"		"154702096"
+					"download"		"80066752"
+				}
+				"test"
+				{
+					"gid"		"6733022900855176356"
+					"size"		"154701237"
+					"download"		"80066224"
+				}
+			}
+		}
+		"675912"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7468685174228677460"
+					"size"		"222093693"
+					"download"		"89066240"
+				}
+				"test"
+				{
+					"gid"		"6262124892460973607"
+					"size"		"222091070"
+					"download"		"89065232"
+				}
+			}
+		}
+		"675913"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"372043649467975779"
+					"size"		"213699828"
+					"download"		"88379232"
+				}
+				"test"
+				{
+					"gid"		"7161738961003689516"
+					"size"		"213698970"
+					"download"		"88378704"
+				}
+			}
+		}
+		"675914"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"82938751042291020"
+					"size"		"208198512"
+					"download"		"85770656"
+				}
+				"test"
+				{
+					"gid"		"281172188987295224"
+					"size"		"208197654"
+					"download"		"85770128"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2889817"
+				"timeupdated"		"1529789901"
+			}
+			"test"
+			{
+				"buildid"		"2875227"
+				"timeupdated"		"1529412074"
+			}
+		}
+	}
+}
