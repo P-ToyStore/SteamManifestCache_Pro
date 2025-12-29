@@ -1,0 +1,215 @@
+"appinfo"
+{
+	"appid"		"580930"
+	"common"
+	{
+		"name"		"Redneck Deer Huntin'"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"e1c9a4334425e4c9e308b0dd9a4f12c865596e7d"
+		"clienttga"		"b83d5c78650e62622c757f5bce4a3d15fde92033"
+		"icon"		"f3e3764ab609da14f194e391d3777c91096b1367"
+		"logo"		"d1fac55f45e0759804d7f15476694b844e6d4b8c"
+		"logo_small"		"d1fac55f45e0759804d7f15476694b844e6d4b8c_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Redneck Deer Huntin'"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1670444529"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Xatrix Entertainment"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Redneck Rampage"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"883641600"
+		"steam_release_date"		"1498001028"
+		"community_hub_visible"		"1"
+		"gameid"		"580930"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"9564"
+			"2"		"1663"
+			"3"		"1774"
+			"4"		"4667"
+			"5"		"3839"
+			"6"		"122"
+		}
+		"review_score"		"4"
+		"review_percentage"		"38"
+	}
+	"extended"
+	{
+		"developer"		"Xatrix Entertainment"
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"https://www.interplay.com"
+	}
+	"config"
+	{
+		"installdir"		"Redneck Deer Huntin'"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Redneck.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosboxRR.conf\" -conf \"./dosboxRR_hunting.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxRR.conf\" -conf \"./dosboxRR_hunting.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"580931"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8550058490849099226"
+					"size"		"439927105"
+					"download"		"214635712"
+				}
+			}
+		}
+		"580932"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5489167346908119158"
+					"size"		"447306427"
+					"download"		"216807392"
+				}
+			}
+		}
+		"580933"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2254993337755867282"
+					"size"		"443444704"
+					"download"		"213044288"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19168135"
+				"timeupdated"		"1752108566"
+			}
+		}
+	}
+}
