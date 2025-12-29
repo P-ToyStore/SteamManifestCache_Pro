@@ -1,0 +1,228 @@
+"appinfo"
+{
+	"appid"		"819040"
+	"common"
+	{
+		"name"		"Ashi: Lake of Light"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"d3403f94b6d800dd3b6c5978e89767cd76d24b3f"
+		"logo_small"		"d3403f94b6d800dd3b6c5978e89767cd76d24b3f_thumb"
+		"icon"		"dc6b87402343c295567089fe899273e41ad682fa"
+		"clienticns"		"fb676d964dcfa28d39ad30af0e5ac9e18e43ae1f"
+		"clienticon"		"a86527b90dae05d0e8cdbebc6e4752ff985c619b"
+		"clienttga"		"8374ccbc92c9c2dcaa7f0caa452f3ff747d2e21e"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Ashi: Lake of Light"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_32610091ab0aeb18a7204b39e368223e40b4df5a.jpg"
+		"store_asset_mtime"		"1541128325"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nick Cellini"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1530860400"
+		"steam_release_date"		"1530794989"
+		"community_hub_visible"		"1"
+		"gameid"		"819040"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1664"
+			"3"		"4094"
+			"4"		"4166"
+			"5"		"4182"
+			"6"		"4305"
+			"7"		"5350"
+			"8"		"1654"
+			"9"		"1714"
+			"10"		"4057"
+			"11"		"4252"
+			"12"		"4400"
+			"13"		"6129"
+			"14"		"13782"
+			"15"		"15045"
+			"16"		"15954"
+			"17"		"4791"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Nick Cellini"
+		"homepage"		"http://ashigame.com"
+	}
+	"config"
+	{
+		"installdir"		"Ashi"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Ashi.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Ashi.app/Contents/MacOS/Ashi"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"819041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7927191724896632459"
+					"size"		"151229584"
+					"download"		"57936064"
+				}
+				"beta"
+				{
+					"gid"		"7927191724896632459"
+					"size"		"151229584"
+					"download"		"57936064"
+				}
+				"previous-version"
+				{
+					"gid"		"4105075314375336824"
+					"size"		"128108042"
+					"download"		"48682048"
+				}
+			}
+		}
+		"819042"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2168075988233577023"
+					"size"		"172632564"
+					"download"		"63057168"
+				}
+				"beta"
+				{
+					"gid"		"2168075988233577023"
+					"size"		"172632564"
+					"download"		"63057168"
+				}
+				"previous-version"
+				{
+					"gid"		"6181390720207895110"
+					"size"		"198152293"
+					"download"		"63951520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3269497"
+				"timeupdated"		"1541127559"
+			}
+			"beta"
+			{
+				"buildid"		"3269497"
+				"timeupdated"		"1541125760"
+			}
+			"previous-version"
+			{
+				"buildid"		"2920989"
+				"timeupdated"		"1534144523"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Nick Cellini/Ashi"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Nick Cellini/Ashi"
+						"replace"		"Nick Cellini/Ashi"
+					}
+				}
+			}
+		}
+	}
+}
