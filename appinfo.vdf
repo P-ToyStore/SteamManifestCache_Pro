@@ -1,0 +1,227 @@
+"appinfo"
+{
+	"appid"		"672940"
+	"common"
+	{
+		"name"		"Galaxy of Drones"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"49c4b041a580c92bebc2843ff75a084042810a31"
+		"clienttga"		"59e1ad9cd1fa2883a9cdb50ef9f9c484593604bd"
+		"icon"		"64d12c18e275f6be143b4b244fd1a5ee00b849a3"
+		"clienticns"		"448b3604ab01080e91450527098d8fcfd1676f74"
+		"logo"		"a8f823bd4f3df1569d2b68b29e40d94424ac1dc3"
+		"logo_small"		"a8f823bd4f3df1569d2b68b29e40d94424ac1dc3_thumb"
+		"linuxclienticon"		"11808a137e6a1b6bf3e05453838b8ab73ee393d1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Galaxy of Drones"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_765ddb47dcea0c70eae17ce4c8304996d3b23db7.jpg"
+		"store_asset_mtime"		"1501083888"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Koodilab"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Koodilab"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1501608839"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"672940"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"1645"
+			"3"		"3942"
+			"4"		"1677"
+			"5"		"1741"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Koodilab"
+		"publisher"		"Koodilab"
+		"homepage"		"https://koodilab.com"
+	}
+	"config"
+	{
+		"installdir"		"Galaxy of Drones"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Galaxy of Drones.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Galaxy of Drones.app/Contents/MacOS/Galaxy of Drones"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Galaxy of Drones.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"672941"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6979068192314583572"
+					"size"		"217811379"
+					"download"		"41992464"
+				}
+			}
+		}
+		"672942"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5740661023391566419"
+					"size"		"278905198"
+					"download"		"57621856"
+				}
+			}
+		}
+		"672943"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5086320451978982199"
+					"size"		"225927416"
+					"download"		"44306528"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3933967"
+				"timeupdated"		"1560963775"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"2"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Koodilab/Galaxy of Drones"
+				"pattern"		"*.txt"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Koodilab/Galaxy of Drones"
+						"replace"		"Koodilab/Galaxy of Drones"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Koodilab/Galaxy of Drones"
+						"replace"		".config/unity3d/Koodilab/Galaxy of Drones"
+					}
+				}
+			}
+		}
+	}
+}
