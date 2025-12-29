@@ -1,0 +1,301 @@
+"appinfo"
+{
+	"appid"		"456150"
+	"common"
+	{
+		"name"		"SpaceSys"
+		"type"		"Application"
+		"clienticon"		"f0d8afa0e2de596740956691235d8eedd382c2d4"
+		"clienttga"		"fff44419af5cf352e975e5712a0f503383475960"
+		"icon"		"d0f1306e1c891dbe8ebf9def069e07e42f65ff4f"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+		}
+		"logo"		"87ea1d81ac6f45fa26fb164ad24e75295a5a58a3"
+		"logo_small"		"87ea1d81ac6f45fa26fb164ad24e75295a5a58a3_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"456150_eula_0"
+				"name"		"SpaceSys EULA"
+				"url"		"http://store.steampowered.com//eula/456150_eula_0"
+			}
+		}
+		"openvrsupport"		"1"
+		"releasestate"		"released"
+		"metacritic_name"		"SpaceSys"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_882c8edbd0f3f5816b551b0adfbcabb32090ef5a.jpg"
+		"store_asset_mtime"		"1667389073"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3DEA"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"SpaceSys Inc."
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"SpaceSys Inc."
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"57"
+			"1"		"70"
+		}
+		"category"
+		{
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1521571953"
+		"community_hub_visible"		"1"
+		"gameid"		"456150"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"493"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"3DEA"
+		"publisher"		"SpaceSys Inc."
+		"homepage"		"http://spacesys.co"
+		"gamemanualurl"		"https://store.steampowered.com/manual/456150/"
+		"listofdlc"		"774341,774342"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SpaceSys"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Bin\\3DeaConfigUI.exe"
+				"workingdir"		"Bin"
+				"description"		"SpaceSys Configuration"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Bin\\3DeaUILauncher.exe"
+				"description"		"SpaceSys Main Application"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Bin\\3DeaUILauncher.exe"
+				"arguments"		"/VREnabled"
+				"description"		"SpaceSys VR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"null"
+		{
+			"sharedinstall"		""
+			"depotfromapp"		"774341"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"456151"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7238297852447335726"
+					"size"		"115591573"
+					"download"		"50024016"
+				}
+			}
+		}
+		"456155"
+		{
+			"sharedinstall"		""
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2369115079729662819"
+					"size"		"13920152"
+					"download"		"5612176"
+				}
+			}
+		}
+		"456152"
+		{
+			"sharedinstall"		""
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"300871276315821605"
+					"size"		"133074692"
+					"download"		"127996864"
+				}
+			}
+		}
+		"456153"
+		{
+			"sharedinstall"		""
+			"dlcappid"		"774342"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2158883357164541613"
+					"size"		"118521542"
+					"download"		"109316160"
+				}
+			}
+			"config"
+			{
+				"optionaldlc"		"774342"
+			}
+		}
+		"456154"
+		{
+			"sharedinstall"		""
+			"dlcappid"		"774341"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4587204431904782161"
+					"size"		"237658451"
+					"download"		"237263680"
+				}
+			}
+			"config"
+			{
+				"optionaldlc"		"774341"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2538556"
+				"timeupdated"		"1519059430"
+			}
+		}
+		"appmanagesdlc"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"3Dea"
+				"pattern"		"*.xml"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"3Dea/Cache"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"3Dea/GFolder"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
