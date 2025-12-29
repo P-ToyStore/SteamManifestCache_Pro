@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"704940"
+	"common"
+	{
+		"name"		"BOX IT"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"f63f7841d0d256287c2e33392d39a3927fe14b80"
+		"logo_small"		"f63f7841d0d256287c2e33392d39a3927fe14b80_thumb"
+		"icon"		"73327a8c5ab8ab2610eae0ecd31944b03756f328"
+		"clienttga"		"7bc65b25dfc0c2d47e8c8d1f7ede4944ab15b21a"
+		"clienticon"		"b46c4196126d773508be4f277d9ce4536d55ddfb"
+		"metacritic_name"		"BOX IT"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_f265c4dda63bad5d4c7033ba628a3a16197432a5.jpg"
+		"store_asset_mtime"		"1518969610"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Phoenix Coalition"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Phoenix Coalition"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_30"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1528129585"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"704940"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1664"
+			"3"		"4182"
+			"4"		"4166"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Phoenix Coalition"
+		"publisher"		"Phoenix Coalition"
+		"listofdlc"		"801460,801461,801462,801930"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"BOXIT"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"UGC.exe"
+				"description"		"Workshop Tools"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"704941"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5777169094977592158"
+					"size"		"2376039476"
+					"download"		"1188173856"
+				}
+			}
+		}
+		"801461"
+		{
+			"dlcappid"		"801461"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4715827901430785705"
+					"size"		"8"
+					"download"		"64"
+				}
+			}
+		}
+		"801460"
+		{
+			"dlcappid"		"801460"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3728378851553513363"
+					"size"		"8"
+					"download"		"64"
+				}
+			}
+		}
+		"801462"
+		{
+			"dlcappid"		"801462"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7161536256269924395"
+					"size"		"8"
+					"download"		"64"
+				}
+			}
+		}
+		"801930"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4696530799117447198"
+					"size"		"11"
+					"download"		"64"
+				}
+			}
+			"dlcappid"		"801930"
+		}
+		"workshopdepot"		"704940"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2829921"
+				"timeupdated"		"1528035174"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"BOXIT/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
