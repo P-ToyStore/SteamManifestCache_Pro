@@ -1,0 +1,82 @@
+"appinfo"
+{
+	"appid"		"507090"
+	"common"
+	{
+		"name"		"SteamVR Tracking HDK"
+		"section_type"		"ownersonly"
+		"type"		"Application"
+		"logo"		"c51f018ed53ab58467c11e0b42f094fc6d299348"
+		"logo_small"		"c51f018ed53ab58467c11e0b42f094fc6d299348_thumb"
+		"icon"		"7f286d5ee22905b51663e0cea505e1c2f7500f36"
+		"clienttga"		"087b47cc9a36daa4285b10e95a09dbcb758d9d5f"
+		"clienticon"		"2fb5c1af881b576a47a02f0f2abb0f397a48ab97"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"507090"
+		"exfgls"		"6"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SteamVR Tracking HDK"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"vpython27.bat"
+				"arguments"		"hmd_designer_gui.py"
+				"workingdir"		"tools\\scripts\\hmd_designer_gui"
+				"description"		"HMD Designer GUI"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"startexplorer.cmd"
+				"arguments"		"design"
+				"description"		"Explorer in design files"
+				"type"		"option2"
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"507091"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1929760962115402869"
+					"size"		"1594732516"
+					"download"		"709090064"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2855979"
+				"timeupdated"		"1528999342"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
