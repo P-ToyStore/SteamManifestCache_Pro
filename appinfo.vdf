@@ -1,0 +1,221 @@
+"appinfo"
+{
+	"appid"		"963470"
+	"common"
+	{
+		"name"		"A Sound Plan"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"icon"		"a62f8f09b67a7e4abd47a0fe438d95f54797d862"
+		"logo"		"9e371dccae5dfe27092880306a3da997a7d1fbbe"
+		"logo_small"		"9e371dccae5dfe27092880306a3da997a7d1fbbe_thumb"
+		"clienttga"		"05f358ece637f9a92128f1820150ce6062a8be8b"
+		"clienticns"		"d9fef4ba8d4625c0a3605a5dc73a7968e52a4dd7"
+		"linuxclienticon"		"d9fef4ba8d4625c0a3605a5dc73a7968e52a4dd7"
+		"clienticon"		"244bc9fa741f191f75adfef11217aa361b90e2da"
+		"osextended"		""
+		"metacritic_name"		"A Sound Plan"
+		"nokeyboardmouse"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_edadd87908f72d8a10bcb09c148723a0c57f9208.jpg"
+		"store_asset_mtime"		"1660543643"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Studio Kumiho"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Studio Kumiho"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"18"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_37"		"1"
+			"category_9"		"1"
+			"category_39"		"1"
+			"category_28"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_49"		"1"
+			"category_43"		"1"
+			"category_44"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1556636966"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"963470"
+		"store_tags"
+		{
+			"0"		"7368"
+			"1"		"492"
+			"2"		"4736"
+			"3"		"19"
+			"4"		"3841"
+			"5"		"3964"
+			"6"		"4758"
+			"7"		"4637"
+			"8"		"1773"
+			"9"		"5055"
+			"10"		"3859"
+			"11"		"7481"
+			"12"		"1659"
+			"13"		"176981"
+			"14"		"1774"
+			"15"		"5547"
+			"16"		"3871"
+			"17"		"7178"
+			"18"		"4004"
+			"19"		"701"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Studio Kumiho"
+		"publisher"		"Studio Kumiho"
+		"homepage"		"https://www.studiokumiho.com/"
+	}
+	"config"
+	{
+		"installdir"		"A Sound Plan"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Etc\\ZombieStealth_SteamRelease.exe"
+				"workingdir"		"Etc\\"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"A_Sound_Plan_OSX_Steam.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Etc/ZombieStealth_SteamRelease"
+				"arguments"		"LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH"
+				"workingdir"		"Etc/"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"65535"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"963471"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7404467901628329480"
+					"size"		"238562605"
+					"download"		"182343936"
+				}
+			}
+		}
+		"963472"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4611746081415709983"
+					"size"		"247856229"
+					"download"		"185880928"
+				}
+			}
+		}
+		"963473"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6535365171979971825"
+					"size"		"242063105"
+					"download"		"182726384"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4618278"
+				"timeupdated"		"1580272857"
+			}
+		}
+	}
+}
