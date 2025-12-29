@@ -1,0 +1,241 @@
+"appinfo"
+{
+	"appid"		"315930"
+	"common"
+	{
+		"name"		"Bravada"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"languages"
+		{
+			"english"		"1"
+			"russian"		"1"
+			"ukrainian"		"1"
+		}
+		"icon"		"d97a2c6f1922bed6c1d7554bcedea7de145b9ddb"
+		"clienticon"		"0b5cfa006dec8f2c8fb3d9e98b8eede357d43ff5"
+		"clienttga"		"9aa68897f3e7a4a4d27cd12197e16fd13eb12350"
+		"linuxclienticon"		"9db0aa14f74b61b0b83aceee02873cdf65fad91d"
+		"clienticns"		"76645f9bb8fe14e78e2f3742cb3556dd08a142dc"
+		"logo"		"3ef54d47c0411945c635b386d0a75fe0cbd2fc81"
+		"logo_small"		"3ef54d47c0411945c635b386d0a75fe0cbd2fc81_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bravada"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_17f4cd4cdc7b51d6f52ec14c321ea4506f7fb145.jpg"
+		"store_asset_mtime"		"1414062811"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Interbellum team"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interbellum team"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1408715820"
+		"metacritic_score"		"70"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/bravada?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"315930"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"9"
+			"2"		"492"
+			"3"		"7918"
+		}
+		"review_score"		"8"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"Interbellum team"
+		"publisher"		"Interbellum team"
+		"homepage"		"http://interbellum.ru/bravada/index_eng.html"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Bravada"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bravada.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Bravada.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Bravada.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian,ukrainian"
+		"315931"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5102094357258832743"
+					"size"		"317551127"
+					"download"		"626721214305"
+				}
+			}
+		}
+		"315932"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2001126803699176613"
+					"size"		"330208295"
+					"download"		"632767603890"
+				}
+			}
+		}
+		"315933"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"328935895459683227"
+					"size"		"315931654"
+					"download"		"660768967835"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"379566"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Bravada.app/save"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
