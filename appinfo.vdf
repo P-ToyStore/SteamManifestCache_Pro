@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"749140"
+	"common"
+	{
+		"name"		"Prehistorik 2"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"97a40f135754e4a355fe6b6a71db22ee3e1335b1"
+		"logo_small"		"97a40f135754e4a355fe6b6a71db22ee3e1335b1_thumb"
+		"clienticon"		"80b72bd49d6a1f41c6ad4a9723dfa3263a0475f9"
+		"clienttga"		"8667d8f374afc810348825e2c5dad9757c5f635e"
+		"icon"		"41f22948a3d86fc5c0a2adb64cd3f13f49bd4a30"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Prehistorik 2"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1632184735"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Titus Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Prehistorik"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"725875200"
+		"steam_release_date"		"1511896063"
+		"community_hub_visible"		"1"
+		"gameid"		"749140"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"19"
+			"2"		"1625"
+			"3"		"3871"
+			"4"		"4004"
+			"5"		"3798"
+			"6"		"5379"
+			"7"		"122"
+			"8"		"1693"
+		}
+		"review_score"		"8"
+		"review_percentage"		"89"
+	}
+	"extended"
+	{
+		"developer"		"Titus Interactive"
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"https://www.interplay.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/749140/"
+	}
+	"config"
+	{
+		"installdir"		"Prehistorik 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch Prehistorik 2.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/dosbox.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"./dosboxPrehistorik2.conf\" -conf \"./dosboxPrehistorik2_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"./dosboxPrehistorik2.conf\" -conf \"./dosboxPrehistorik2_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"749141"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5399921641476503456"
+					"size"		"47086923"
+					"download"		"26001824"
+				}
+			}
+		}
+		"749142"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7684818022116140624"
+					"size"		"54466245"
+					"download"		"28173488"
+				}
+			}
+		}
+		"749143"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6067027674696112661"
+					"size"		"50604527"
+					"download"		"24505696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19167783"
+				"timeupdated"		"1752108491"
+			}
+		}
+	}
+}
