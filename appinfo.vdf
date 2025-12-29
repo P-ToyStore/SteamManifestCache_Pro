@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"983040"
+	"common"
+	{
+		"name"		"Koboomballs"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"f5a3647cb1ebf712c292487453a937f142764368"
+		"logo_small"		"f5a3647cb1ebf712c292487453a937f142764368_thumb"
+		"icon"		"352c9720202363654dbf233cc9569a2153a6ec06"
+		"clienticon"		"ad2d2eda99be76c24aa49f5eb951bc45be0b3b33"
+		"clienttga"		"8c3b1424560d586bce3c319b6956412480766b91"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Koboomballs"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_7aa1832fd3c20ffe66e29dff29c542639b7080b6.jpg"
+		"store_asset_mtime"		"1542845972"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Yargybot"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Yargybot"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1543632686"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"983040"
+		"store_tags"
+		{
+			"0"		"19"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Yargybot"
+		"publisher"		"Yargybot"
+		"homepage"		"http://www.yargybot.com"
+	}
+	"config"
+	{
+		"installdir"		"Koboomballs"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Koboomballs.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Koboomballs.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"Koboomballs.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"983041"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6595460496849108136"
+					"size"		"49605537"
+					"download"		"21825216"
+				}
+				"local"
+				{
+					"gid"		"3139842829051997641"
+					"size"		"49605537"
+					"download"		"21825216"
+				}
+			}
+		}
+		"983042"
+		{
+			"config"
+			{
+				"oslist"		"windows,linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"212635432843460329"
+					"size"		"149275780"
+					"download"		"35674192"
+				}
+				"local"
+				{
+					"gid"		"212635432843460329"
+					"size"		"149275780"
+					"download"		"35674192"
+				}
+			}
+		}
+		"983043"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3218693768442939489"
+					"size"		"101733100"
+					"download"		"39884736"
+				}
+				"local"
+				{
+					"gid"		"5862809357707496495"
+					"size"		"101733100"
+					"download"		"39884736"
+				}
+			}
+		}
+		"baselanguages"		"english,spanish,schinese,tchinese,russian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3396092"
+				"timeupdated"		"1544750581"
+			}
+			"local"
+			{
+				"buildid"		"3396090"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1544750499"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Yargybot/Koboomballs"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxXdgConfigHome"
+				"path"		"unity3d/Yargybot/Koboomballs"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
