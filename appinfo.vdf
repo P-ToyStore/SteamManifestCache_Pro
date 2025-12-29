@@ -1,0 +1,257 @@
+"appinfo"
+{
+	"appid"		"415090"
+	"common"
+	{
+		"name"		"KByte"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"ba5f498d91612bacbe8acbd3f78d1bf6df797a35"
+		"logo_small"		"ba5f498d91612bacbe8acbd3f78d1bf6df797a35_thumb"
+		"icon"		"0911f9eb313e75c4c16bb27d93372bb69f20cfb0"
+		"clienticon"		"0500e1a2fadc7fdf5cdcb5e789ce06c8ef5893f6"
+		"clienttga"		"4e888af02c3ba03fd1c94baecf061d2d3ecf7363"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"KByte"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e31141bde62424e65990907afca6cdcc80007ccf.jpg"
+		"store_asset_mtime"		"1486749349"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Daniel Gili"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Joaquín Godoy"
+			}
+			"2"
+			{
+				"type"		"developer"
+				"name"		"Emilio Martinez"
+			}
+			"3"
+			{
+				"type"		"developer"
+				"name"		"Bruno Carro"
+			}
+			"4"
+			{
+				"type"		"publisher"
+				"name"		"Boxel Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1487955664"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"415090"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"19"
+			"2"		"492"
+			"3"		"1625"
+		}
+		"review_score"		"7"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Daniel Gili"
+		"publisher"		"Boxel Games"
+		"homepage"		"http://www.boxelgames.com"
+		"listofdlc"		"814760"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"KByte"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"KByte.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"KByte.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"KByte.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Kbyte.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"415091"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5037700727585259210"
+					"size"		"230739002"
+					"download"		"71051936"
+				}
+			}
+		}
+		"415092"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7675801287121811717"
+					"size"		"280300918"
+					"download"		"86140096"
+				}
+			}
+		}
+		"814760"
+		{
+			"dlcappid"		"814760"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5769793662906737823"
+					"size"		"65353388"
+					"download"		"65278608"
+				}
+			}
+		}
+		"415093"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3067282859019377786"
+					"size"		"281267928"
+					"download"		"84593776"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2686577"
+				"timeupdated"		"1523630008"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Boxel Games/KByte"
+				"pattern"		"playerInfo.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"LinuxXdgDataHome"
+				"path"		"Boxel Games/Kbyte"
+				"pattern"		"playerInfo.dat"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"MacAppSupport"
+				"path"		"unity.Boxel Games.Kbyte"
+				"pattern"		"playerInfo.dat"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
