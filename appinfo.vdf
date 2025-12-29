@@ -1,0 +1,272 @@
+"appinfo"
+{
+	"appid"		"1548010"
+	"common"
+	{
+		"name"		"Flipol"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"icon"		"ffe5a3cb0a656ceb5843aaac79b3dfd4bdba3a4d"
+		"logo"		"9e77bdf25107bc313ba3b92389d9706a2d982da6"
+		"logo_small"		"9e77bdf25107bc313ba3b92389d9706a2d982da6_thumb"
+		"clienticon"		"1ad6e322b6ebdcd92c721bcc060ac82708a3461b"
+		"clienttga"		"5e403125a1cef2c613781d1b2cbc7516708c7395"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"49.65116279069767"
+				"height_pct"		"49.62004274519117"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"49.65116279069767"
+					"height_pct"		"49.62004274519117"
+				}
+			}
+		}
+		"store_asset_mtime"		"1623944873"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Derin"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Derin"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_22"		"1"
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1614331626"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1548010"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"1664"
+			"3"		"4094"
+			"4"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Derin"
+		"publisher"		"Derin"
+	}
+	"config"
+	{
+		"installdir"		"Flipol"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Flipol.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Flipol.app\\Contents\\MacOS\\Flipol"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Flipol.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1548014"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"414834349896337185"
+					"size"		"47188332"
+					"download"		"14709408"
+				}
+			}
+		}
+		"1548011"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1402505776415052244"
+					"size"		"47188332"
+					"download"		"14709408"
+				}
+			}
+		}
+		"1548012"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6028472415852697492"
+					"size"		"110014959"
+					"download"		"29789328"
+				}
+			}
+		}
+		"1548013"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5795907334006435056"
+					"size"		"64915131"
+					"download"		"20346592"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6671005"
+				"timeupdated"		"1620539275"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1024"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Derin/Flipol"
+				"pattern"		"save.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Derin/Flipol"
+						"replace"		"unity.Derin.Flipol"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Derin/Flipol"
+						"replace"		".config/unity3d/Derin/Flipol"
+					}
+				}
+			}
+		}
+	}
+}
