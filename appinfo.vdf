@@ -1,0 +1,269 @@
+"appinfo"
+{
+	"appid"		"1772160"
+	"common"
+	{
+		"name"		"Nonlinear System Tools"
+		"type"		"Application"
+		"releasestate"		"released"
+		"logo"		"e6c98bb2da22e920fff6672305a1c00d576663ea"
+		"logo_small"		"e6c98bb2da22e920fff6672305a1c00d576663ea_thumb"
+		"icon"		"2a6a156b391c905be69f63d0ec6b7cd23ea4ecef"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"2a4755328866dc005f9462f64284a00e42f6c557"
+		"clienttga"		"ac1ca23de3d13ae533a45ec4091b814f37ae3eda"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1658534400"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1634670011"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Martin Petkovski"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Return Zero"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"57"
+			"1"		"60"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1638549434"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1772160"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"493"
+			"2"		"13906"
+			"3"		"1742"
+			"4"		"6869"
+		}
+	}
+	"extended"
+	{
+		"enablegameoverlayforapp"		"1"
+		"developer"		"Martin Petkovski"
+		"publisher"		"Return Zero"
+		"homepage"		"https://www.najjak.com/nst"
+	}
+	"config"
+	{
+		"installdir"		"NST"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NSTEditor.exe"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"NST Editor"
+				}
+				"description"		"NST Editor"
+			}
+			"1"
+			{
+				"executable"		"NSTReader.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"NST Reader"
+				}
+				"description"		"NST Reader"
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1772161"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4712752149638936281"
+					"size"		"13295766"
+					"download"		"5427568"
+				}
+			}
+		}
+		"workshopdepot"		"1772160"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8532359"
+				"timeupdated"		"1649621747"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+	}
+}
