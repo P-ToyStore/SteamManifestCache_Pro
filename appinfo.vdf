@@ -1,0 +1,276 @@
+"appinfo"
+{
+	"appid"		"566420"
+	"common"
+	{
+		"name"		"Marinatide"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"5b2e0e5c235d531078792a2ab8fdc72f54ba5a59"
+		"clienticon"		"ff52b3bc20f6a95091a2666cd82c1c364bfee7db"
+		"icon"		"628a8ec2066815307a8f456403e116bd0dbc295d"
+		"linuxclienticon"		"b6009e34317a634101c09657097e56e46fbadc67"
+		"logo"		"b1e52db8e872127efad3705b9478f94258a416fb"
+		"logo_small"		"b1e52db8e872127efad3705b9478f94258a416fb_thumb"
+		"clienticns"		"1fa4e8ed3bdc8b7c60e400f5454966953250c617"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Marinatide"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e7686b0794b4f5064391007b955997d93491a06e.jpg"
+		"store_asset_mtime"		"1508429286"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Viistopro"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Viistopro"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1508454763"
+		"community_hub_visible"		"1"
+		"gameid"		"566420"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Viistopro"
+		"publisher"		"Viistopro"
+		"homepage"		"http://www.marinatide.com/"
+	}
+	"config"
+	{
+		"installdir"		"Marinatide"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Marinatide.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Marinatide.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Marinatide.x86"
+				"description"		"32-bit Linux systems are not officially supported"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Marinatide.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"566421"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5573843605263325466"
+					"size"		"807485363"
+					"download"		"220764560"
+				}
+			}
+		}
+		"566422"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4321987884439952085"
+					"size"		"818175415"
+					"download"		"224431600"
+				}
+			}
+		}
+		"566423"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"799597182504740186"
+					"size"		"856922158"
+					"download"		"237168128"
+				}
+			}
+		}
+		"566424"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"566425"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+		}
+		"566426"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"566427"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+			}
+		}
+		"566428"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+			}
+		}
+		"566429"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2228384"
+				"timeupdated"		"1508932446"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"{64BitSteamID}"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Marinatide_data/savegame"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Marinatide_data/savegame"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		"Marinatide.app/Contents/savegame"
+			}
+		}
+	}
+}
