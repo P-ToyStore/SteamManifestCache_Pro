@@ -1,0 +1,185 @@
+"appinfo"
+{
+	"appid"		"492400"
+	"common"
+	{
+		"name"		"Thunder Gun: Revenge of the Mutants"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"clienticon"		"c1d1c8737ea324f3df2fea817fa66c8dbcedded3"
+		"clienttga"		"86576c42580e2184c6f0055500991148035055d3"
+		"icon"		"8dc2615fd61dc0dd45207e1ad25eda9ce5e5bb4c"
+		"clienticns"		"560314697f3226bb8f18056e4e5d6aa6dd483713"
+		"logo"		"da717392d1fcd1814186796a0dbf85908a8f8403"
+		"logo_small"		"da717392d1fcd1814186796a0dbf85908a8f8403_thumb"
+		"releasestate"		"released"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Thunder Gun: Revenge of the Mutants"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ab7b4939cb96d38e5838440abb8079a648c057a4.jpg"
+		"store_asset_mtime"		"1473062799"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Potato Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Potato Interactive"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1474527600"
+		"steam_release_date"		"1474553017"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"492400"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Potato Interactive"
+		"publisher"		"Potato Interactive"
+		"homepage"		"http://www.rottentater.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Thunder Gun Revenge of the Mutants"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TGRotM.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"TGRotM.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"492401"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2776824119245555074"
+					"size"		"24507265"
+					"download"		"16338560"
+				}
+			}
+		}
+		"492402"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8997078629511763328"
+					"size"		"28113025"
+					"download"		"18149200"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1349932"
+				"timeupdated"		"1474511186"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"4"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"TGRotM"
+				"pattern"		"*.ini"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"TGRotM"
+						"replace"		"com.potatointeractive.tgrotm"
+					}
+				}
+			}
+		}
+	}
+}
