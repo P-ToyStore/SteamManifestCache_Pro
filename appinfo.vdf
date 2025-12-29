@@ -1,0 +1,220 @@
+"appinfo"
+{
+	"appid"		"447960"
+	"common"
+	{
+		"name"		"XCavalypse"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"logo"		"51b522a052524033a7ae84be4214cea7a70f5421"
+		"logo_small"		"51b522a052524033a7ae84be4214cea7a70f5421_thumb"
+		"icon"		"46c518b46bb8882488cea8fd1dfebd884d2a8fc3"
+		"clienticon"		"1d3b71ab04da9e834f258fbe3d5b614f85d97169"
+		"clienttga"		"2c9faae7800b6a26517d45adb560852a3857f1cb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"447960_eula_0"
+				"name"		"XCavalypse EULA"
+				"url"		"http://store.steampowered.com//eula/447960_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"linuxclienticon"		"d0c40333db5b1c1319353aab642a6a206b9be7e2"
+		"playareavr"
+		{
+			"standing"		"1"
+			"seated"		"1"
+		}
+		"osarch"		"64"
+		"openvrsupport"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"XCavalypse"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e7e32f5f7dfadfa763527f757cc4da25fe717b42.jpg"
+		"store_asset_mtime"		"1469482034"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"davevillz"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"davevillz"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_25"		"1"
+			"category_27"		"1"
+			"category_29"		"1"
+			"category_18"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1465235953"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"447960"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"493"
+			"2"		"597"
+			"3"		"599"
+			"4"		"1659"
+		}
+		"review_score"		"5"
+		"review_percentage"		"60"
+	}
+	"extended"
+	{
+		"developer"		"davevillz"
+		"publisher"		"davevillz"
+		"homepage"		"http://www.xcavalypse.com"
+		"listofdlc"		"516770"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"XCavalypse"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"XCav.exe"
+				"arguments"		"-fullscreen"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"XCav/Binaries/Linux/XCav-Linux-Shipping"
+				"arguments"		"-fullscreen"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"XCavalypseVR/XCavVR.exe"
+				"workingdir"		"XCavalypseVR"
+				"description"		"XCavalypse VR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"516770"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"447961"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6912250812249928082"
+					"size"		"2108926439"
+					"download"		"828844496"
+				}
+			}
+		}
+		"447962"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5545843013890435247"
+					"size"		"2955131214"
+					"download"		"899206240"
+				}
+			}
+		}
+		"516770"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8856009953745038140"
+					"size"		"2156492038"
+					"download"		"882238080"
+				}
+			}
+			"dlcappid"		"516770"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1370591"
+				"timeupdated"		"1475485920"
+			}
+		}
+	}
+}
