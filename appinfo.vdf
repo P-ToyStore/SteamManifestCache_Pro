@@ -1,0 +1,185 @@
+"appinfo"
+{
+	"appid"		"1032080"
+	"common"
+	{
+		"name"		"Boxed Out"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"ef018613abeae2364e1d51bec36a829516d93cb5"
+		"logo"		"feb60170a2592f502f9b49fdb517ad9638d4310e"
+		"logo_small"		"feb60170a2592f502f9b49fdb517ad9638d4310e_thumb"
+		"clienttga"		"e84346dbb5156109b8fb44fe34d6ba2a4d2a3a2d"
+		"clienticns"		"9ad669ce5556730fd7325a43803bcaa01ec84245"
+		"linuxclienticon"		"9ad669ce5556730fd7325a43803bcaa01ec84245"
+		"clienticon"		"9ad669ce5556730fd7325a43803bcaa01ec84245"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		""
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Boxed Out"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_686914671eef829c967e9e1eab358b005362ba6a.jpg"
+		"store_asset_mtime"		"1564062536"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Napat Saeung"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Napat Saeung"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1565267763"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1032080"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"597"
+			"2"		"1664"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Napat Saeung"
+		"publisher"		"Napat Saeung"
+		"homepage"		"https://boxedoutgame.com/"
+	}
+	"config"
+	{
+		"installdir"		"Boxed Out"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Boxed Out.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Boxed Out.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1032082"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"333650249887345895"
+					"size"		"174497014"
+					"download"		"63355632"
+				}
+			}
+		}
+		"1032083"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4484284267025269651"
+					"size"		"187790864"
+					"download"		"66523456"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4086711"
+				"timeupdated"		"1565267484"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Napat Saeung/Boxed Out"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Napat Saeung/Boxed Out"
+						"replace"		"Napat Saeung/Boxed Out"
+					}
+				}
+			}
+		}
+	}
+}
