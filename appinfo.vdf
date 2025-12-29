@@ -1,0 +1,245 @@
+"appinfo"
+{
+	"appid"		"325160"
+	"common"
+	{
+		"name"		"Bik - A Space Adventure"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"7ac3a05f3d89f7b3f1398069529766fa899bfa7f"
+		"clienticon"		"2a15a5bbaddca8ea20a0a5ffde505ddaf718f226"
+		"clienttga"		"6fb6cfe39dbdd7ccb6dab44dfbec30005607d642"
+		"clienticns"		"b7dc830d8557d9230bff6be1291e1690ee984d1c"
+		"linuxclienticon"		"d9e0b9b8ccdc815337fa0d13b48ba2357f7a25bd"
+		"logo"		"beda963fd3a6e2bd3604c0274f78dcc8dc9a9d86"
+		"logo_small"		"beda963fd3a6e2bd3604c0274f78dcc8dc9a9d86_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Bik - A Space Adventure"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_baf1fe8297b31659db9b82e3d65e52ef7f678301.jpg"
+		"store_asset_mtime"		"1412026686"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zotnip"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Zotnip"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1413302547"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"325160"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"492"
+			"2"		"3964"
+			"3"		"1755"
+			"4"		"1698"
+			"5"		"4182"
+			"6"		"1697"
+			"7"		"1719"
+			"8"		"1742"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Zotnip"
+		"publisher"		"Zotnip"
+		"homepage"		"http://www.bikgame.com"
+		"listofdlc"		"326290"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Bik"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bik.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Bik.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Bik.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"Bik.x86_64"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"325162"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"426984405180836842"
+					"size"		"256281960"
+					"download"		"32306184403"
+				}
+			}
+		}
+		"325163"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7052045460996876713"
+					"size"		"261779720"
+					"download"		"35732184140"
+				}
+			}
+		}
+		"325164"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2349897235580190910"
+					"size"		"283638963"
+					"download"		"35738106843"
+				}
+			}
+		}
+		"326290"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"514836777898901796"
+					"size"		"191171881"
+					"download"		"5099194120"
+				}
+			}
+			"dlcappid"		"326290"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"412627"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Bik"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"1"
+			{
+				"root"		"WinSavedGames"
+				"path"		"Bik"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		"Zotnip/Bik"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+		}
+	}
+}
