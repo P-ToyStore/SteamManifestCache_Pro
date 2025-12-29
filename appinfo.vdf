@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"395470"
+	"common"
+	{
+		"name"		"ICARUS.1"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienttga"		"af04c5d295759cac91f11cda13fc23ef882369ae"
+		"clienticon"		"7f76702985ce74e415ef24dc17111e340acc27e2"
+		"icon"		"e0efd24f064bb709376f06956ccf6c38d5b9c680"
+		"logo"		"f080c41b968d117641b5a00f137905bcfa54ad04"
+		"logo_small"		"f080c41b968d117641b5a00f137905bcfa54ad04_thumb"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"ICARUS.1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_dca25b8d3c4bb85f09c400b80d2f39be65caa1b5.jpg"
+		"store_asset_mtime"		"1477945576"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"electrolyte"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"electrolyte"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1479370328"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"395470"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"3942"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"developer"		"electrolyte"
+		"publisher"		"electrolyte"
+		"homepage"		"http://www.icarus1.com"
+		"listofdlc"		"631610"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ICARUS1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ICARUS.1.exe"
+				"description"		"Launch ICARUS.1"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ICARUS.1.app\\Contents\\MacOS\\ICARUS.1"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"ICARUS.0.exe"
+				"description"		"Launch PROTOTYPE EDITION"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"631610"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"395471"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"417715547152491605"
+					"size"		"508869795"
+					"download"		"181887728"
+				}
+				"beta"
+				{
+					"gid"		"417715547152491605"
+					"size"		"508869795"
+					"download"		"181887728"
+				}
+			}
+		}
+		"395472"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1105515092482067828"
+					"size"		"214321182"
+					"download"		"58339680"
+				}
+				"beta"
+				{
+					"gid"		"1105515092482067828"
+					"size"		"214321182"
+					"download"		"58339680"
+				}
+			}
+		}
+		"631610"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"827592409517879664"
+					"size"		"174093692"
+					"download"		"42036560"
+				}
+				"beta"
+				{
+					"gid"		"827592409517879664"
+					"size"		"174093692"
+					"download"		"42036560"
+				}
+			}
+			"dlcappid"		"631610"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1805725"
+				"timeupdated"		"1494183799"
+			}
+			"beta"
+			{
+				"buildid"		"1805725"
+				"timeupdated"		"1494183391"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"ICARUS.1_Data/"
+				"pattern"		"*.txt"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
