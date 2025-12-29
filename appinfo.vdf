@@ -1,0 +1,217 @@
+"appinfo"
+{
+	"appid"		"275030"
+	"common"
+	{
+		"name"		"Punch! ViaCAD 2D/3D v9 + 3D Printing PowerPack LT"
+		"type"		"Application"
+		"releasestate"		"released"
+		"clienticns"		"da99db1959e028cdff8a0c86a3cff9e93f7c2444"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"275030_eula_0"
+				"name"		"ViaCAD 2D/3D v9 EULA"
+				"url"		"http://store.steampowered.com/eula/275030_eula_0"
+			}
+		}
+		"oslist"		"windows,macos"
+		"clienticon"		"4b34d911e5a53a60be3e8d6771afda4a837085b9"
+		"clienttga"		"cc9ba680188a22304fe4fa752bdc027c7e91530c"
+		"icon"		"365ef5d58a0bd6dcfc1d1ed4c3e9eb4bf67b3467"
+		"logo"		"c7caaff652cd3cb91c3d2b5906795cc52f794740"
+		"logo_small"		"c7caaff652cd3cb91c3d2b5906795cc52f794740_thumb"
+		"metacritic_name"		"ViaCAD 2D/3D v9"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_22f1d38d4d895dd1cb70c8f2673bb0023d7e3fd9.jpg"
+		"store_asset_mtime"		"1506445866"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Evolution Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PunchCAD"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Encore Software"
+			}
+		}
+		"primary_genre"		"53"
+		"genres"
+		{
+			"0"		"51"
+			"1"		"53"
+		}
+		"category"
+		{
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1468432860"
+		"community_hub_visible"		"1"
+		"gameid"		"275030"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"84"
+			"1"		"872"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"Evolution Software"
+		"publisher"		"PunchCAD"
+		"listofdlc"		"504120"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ViaCAD 3D 9"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"exe\\ViaCAD3D.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ViaCAD 2D3D 9.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"baselanguages"		"english"
+		"275031"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8439868411464870240"
+					"size"		"1252399818"
+					"download"		"546075904"
+				}
+			}
+		}
+		"275032"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"548682983374512484"
+					"size"		"1469304085"
+					"download"		"601246960"
+				}
+			}
+		}
+		"504120"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2203320963308546108"
+					"size"		"147129217"
+					"download"		"136435280"
+				}
+			}
+			"dlcappid"		"504120"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1277649"
+				"timeupdated"		"1471036677"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"200000000"
+		"maxnumfiles"		"500"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"ViaCAD"
+				"pattern"		"*.vc3"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinMyDocuments"
+				"addpath"		"Punch!/"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacDocuments"
+				"addpath"		"Punch!/"
+			}
+		}
+	}
+}
