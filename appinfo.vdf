@@ -1,0 +1,500 @@
+"appinfo"
+{
+	"appid"		"467290"
+	"common"
+	{
+		"name"		"Starship Titanic"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"8eda4392948c67c9d95d7f70aa84f13a20835ae3"
+		"logo_small"		"8eda4392948c67c9d95d7f70aa84f13a20835ae3_thumb"
+		"clienticon"		"a78f5a9828e634329eb11b6e9002b7331a4d0fa9"
+		"clienttga"		"f056e94605edb0c46f510b80d53ac79ab4ff0801"
+		"icon"		"1e42c3910c9459160d3f0ec5714bbb1d0b328822"
+		"osarch"		""
+		"osextended"		"macos64"
+		"metacritic_name"		"Starship Titanic"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1569375249"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Digital Village"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nightdive Studios"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Completely Unexpected Productions"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"891504000"
+		"steam_release_date"		"1477591911"
+		"community_hub_visible"		"1"
+		"gameid"		"467290"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"597"
+			"2"		"1698"
+			"3"		"1664"
+			"4"		"1719"
+			"5"		"3942"
+			"6"		"1742"
+			"7"		"4136"
+			"8"		"3839"
+			"9"		"15277"
+			"10"		"1651"
+		}
+		"review_score"		"8"
+		"review_percentage"		"81"
+	}
+	"extended"
+	{
+		"developer"		"The Digital Village"
+		"publisher"		"Nightdive Studios"
+		"gamemanualurl"		"https://store.steampowered.com/manual/467290/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Starship Titanic"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ScummVM\\scummvm.exe"
+				"arguments"		"--no-console -c \"scummvm-titanic.ini\" titanic-win"
+				"workingdir"		"ScummVM\\"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"ScummVM\\ScummVM.app\\Contents\\MacOS\\scummvm"
+				"arguments"		"-c scummvm-titanic.ini titanic-win"
+				"workingdir"		"ScummVM\\"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"ScummVM\\launch_titanic.sh"
+				"workingdir"		"ScummVM\\"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"467291"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3501580437184134872"
+					"size"		"289263652"
+					"download"		"282063968"
+				}
+				"beta"
+				{
+					"gid"		"3501580437184134872"
+					"size"		"289263652"
+					"download"		"282063968"
+				}
+			}
+		}
+		"467292"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1520026363400219011"
+					"size"		"1282864807"
+					"download"		"903903632"
+				}
+				"beta"
+				{
+					"gid"		"1520026363400219011"
+					"size"		"1282864807"
+					"download"		"903903632"
+				}
+			}
+		}
+		"467293"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2582278559592201755"
+					"size"		"1213183085"
+					"download"		"975042256"
+				}
+				"beta"
+				{
+					"gid"		"2582278559592201755"
+					"size"		"1213183085"
+					"download"		"975042256"
+				}
+			}
+		}
+		"467294"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1024619141471360072"
+					"size"		"183710235"
+					"download"		"110993760"
+				}
+				"beta"
+				{
+					"gid"		"1024619141471360072"
+					"size"		"183710235"
+					"download"		"110993760"
+				}
+			}
+		}
+		"467295"
+		{
+			"sharedinstall"		""
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7134222255639531537"
+					"size"		"183319013"
+					"download"		"107431040"
+				}
+				"beta"
+				{
+					"gid"		"7134222255639531537"
+					"size"		"183319013"
+					"download"		"107431040"
+				}
+			}
+		}
+		"467296"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1619993989997523966"
+					"size"		"159566229"
+					"download"		"56884944"
+				}
+				"beta"
+				{
+					"gid"		"1619993989997523966"
+					"size"		"159566229"
+					"download"		"56884944"
+				}
+			}
+		}
+		"467297"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6585921761523753688"
+					"size"		"260"
+					"download"		"240"
+				}
+				"beta"
+				{
+					"gid"		"6585921761523753688"
+					"size"		"260"
+					"download"		"240"
+				}
+			}
+		}
+		"467298"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6942800743744195655"
+					"size"		"259"
+					"download"		"240"
+				}
+				"beta"
+				{
+					"gid"		"6942800743744195655"
+					"size"		"259"
+					"download"		"240"
+				}
+			}
+		}
+		"467299"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2476709680426707011"
+					"size"		"263"
+					"download"		"240"
+				}
+				"beta"
+				{
+					"gid"		"2476709680426707011"
+					"size"		"263"
+					"download"		"240"
+				}
+			}
+		}
+		"4272640"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2681364775167832323"
+					"size"		"262"
+					"download"		"240"
+				}
+				"beta"
+				{
+					"gid"		"2681364775167832323"
+					"size"		"262"
+					"download"		"240"
+				}
+			}
+		}
+		"4272641"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"559009410398166049"
+					"size"		"263"
+					"download"		"240"
+				}
+				"beta"
+				{
+					"gid"		"559009410398166049"
+					"size"		"263"
+					"download"		"240"
+				}
+			}
+		}
+		"4272642"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"517278343486371414"
+					"size"		"262"
+					"download"		"240"
+				}
+				"beta"
+				{
+					"gid"		"517278343486371414"
+					"size"		"262"
+					"download"		"240"
+				}
+			}
+		}
+		"baselanguages"		"english,german"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21267281"
+				"timeupdated"		"1766209890"
+			}
+			"beta"
+			{
+				"buildid"		"21267281"
+				"description"		"Starship Beta"
+				"timeupdated"		"1766209906"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"13107200"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Saves"
+				"pattern"		"titanic-win.*"
+			}
+		}
+	}
+}
