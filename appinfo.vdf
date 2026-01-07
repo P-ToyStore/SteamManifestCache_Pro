@@ -1,0 +1,293 @@
+"appinfo"
+{
+	"appid"		"2443300"
+	"common"
+	{
+		"name"		"Elite Status: Platinum Concierge"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"7bc4bf4eee950b2a8f0388938199c6bc464f1e01"
+		"clienticon"		"bab0500b860025fbcf4982a082f3243285275370"
+		"clienttga"		"9ea846b3ab95ecead3bfab6db46538d5d6a63ccf"
+		"clienticns"		"bc83872d4ac5ff211b678d2b54f22ce0629da242"
+		"linuxclienticon"		"16cdf76e9420fc2a214d3849280d688cb1123d39"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1693008000"
+			"tested_build_id"		"2443300"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1690922760"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Choice of Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Choice of Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1690467004"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2443300"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"11014"
+			"2"		"4486"
+			"3"		"31275"
+			"4"		"4845"
+			"5"		"6378"
+			"6"		"5984"
+			"7"		"4747"
+			"8"		"492"
+			"9"		"6426"
+			"10"		"6971"
+			"11"		"1742"
+			"12"		"4182"
+			"13"		"4947"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"developer"		"Choice of Games"
+		"publisher"		"Choice of Games"
+		"homepage"		"https://www.choiceofgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Elite Status Platinum Concierge"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"EliteStatusPlatinumConcierge.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Elite Status Platinum Concierge.app/Contents/MacOS/Elite Status Platinum Concierge"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"EliteStatusPlatinumConcierge"
+				"arguments"		"--no-sandbox"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"2951004733"
+			{
+				"controller_type"		"controller_neptune"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+		"steamdecktouchscreen"		"4"
+	}
+	"depots"
+	{
+		"2443301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3515803531954073857"
+					"size"		"240449920"
+					"download"		"79550672"
+				}
+			}
+		}
+		"2443302"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2664696966405773762"
+					"size"		"13193026"
+					"download"		"4777152"
+				}
+			}
+		}
+		"2443303"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1498490158529308918"
+					"size"		"243019405"
+					"download"		"74140736"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21390172"
+				"timeupdated"		"1767737894"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10000"
+	}
+}
