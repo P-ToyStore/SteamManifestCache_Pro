@@ -1,0 +1,284 @@
+"appinfo"
+{
+	"appid"		"1867640"
+	"common"
+	{
+		"name"		"Oriental Stars"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"89835a771844cd2294689d7e9e184b86110e54cc"
+		"logo_small"		"89835a771844cd2294689d7e9e184b86110e54cc_thumb"
+		"icon"		"7af033aabbac51d632ad80da2ccb149b43d9a45c"
+		"clienttga"		"8925e845d3c7fa3d009daf1261188c89b16105b6"
+		"linuxclienticon"		"77e37ff79c43cb346ef4ae69f836ecf9f48fade7"
+		"clienticon"		"859deb3a4754c4b167174accca791e7c8ecf7451"
+		"controllervr"
+		{
+			"steamvr"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"seated"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"name_localized"
+		{
+		}
+		"openvrsupport"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1694395620"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"杭州垂云翼科技有限责任公司"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"杭州垂云翼科技有限责任公司"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"二十八星宿"
+			}
+		}
+		"primary_genre"		"54"
+		"genres"
+		{
+			"0"		"54"
+		}
+		"category"
+		{
+			"category_52"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1672993048"
+		"community_hub_visible"		"1"
+		"gameid"		"1867640"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"1036"
+			"1"		"492"
+			"2"		"21978"
+			"3"		"493"
+			"4"		"87"
+			"5"		"1755"
+			"6"		"3834"
+			"7"		"9204"
+			"8"		"29363"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"杭州垂云翼科技有限责任公司"
+		"publisher"		"杭州垂云翼科技有限责任公司"
+	}
+	"config"
+	{
+		"installdir"		"Oriental Stars"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Oriental Stars.exe"
+				"arguments"		"mod=DP"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"PC模式(鼠标操控)"
+				}
+				"description"		"PC模式(鼠标操控)"
+			}
+			"1"
+			{
+				"executable"		"Oriental Stars.exe"
+				"arguments"		"mod=VR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"VR模式(手柄控制)"
+				}
+				"description"		"VR模式(手柄控制)"
+			}
+			"3"
+			{
+				"executable"		"Oriental Stars.exe"
+				"arguments"		"mod=Editor"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"进入星图编辑器(测试)"
+				}
+				"description"		"进入星图编辑器(测试)"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"schinese"
+		"hasdepotsindlc"		"0"
+		"1867641"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"543673405556709000"
+					"size"		"2957296628"
+					"download"		"760858336"
+				}
+			}
+		}
+		"1867642"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"1867643"
+		{
+		}
+		"1867644"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21406202"
+				"timeupdated"		"1767769146"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"102400"
+		"maxnumfiles"		"20"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Horoscope_Data/StreamingAssets"
+				"pattern"		"*.csv"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
