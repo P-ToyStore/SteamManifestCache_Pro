@@ -1,0 +1,270 @@
+"appinfo"
+{
+	"appid"		"726230"
+	"common"
+	{
+		"name"		"The Superlatives: Aetherfall"
+		"type"		"Game"
+		"clienticon"		"328af1e078a20e433cd87cb6989083137ac68d12"
+		"clienttga"		"b11e4729987c1204694e177d9b8ad2c8135797e0"
+		"icon"		"7c3a3095add51a2410436007187216a4355d7ff7"
+		"clienticns"		"367850f8669926bf024003a9cd617c43d21c0182"
+		"linuxclienticon"		"fc6df0e8bd39fb5228dc7ec85e51628bb51b0662"
+		"logo"		"16d0af0c56d7d043b80fe9b807edcbb4f99d2ca3"
+		"logo_small"		"16d0af0c56d7d043b80fe9b807edcbb4f99d2ca3_thumb"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"releasestate"		"released"
+		"osextended"		"macos64,macosapplesilicon"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1686873600"
+			"tested_build_id"		"10934003"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"1"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"The Superlatives: Aetherfall"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1c0e1489b29c27c155e973b2259be283919f3ecf.jpg"
+		"store_asset_mtime"		"1507147130"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Choice of Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Choice of Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"The Superlatives"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_13"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1508429136"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"726230"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"21"
+			"2"		"122"
+			"3"		"6426"
+			"4"		"31275"
+			"5"		"4486"
+		}
+		"review_score"		"7"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Choice of Games"
+		"publisher"		"Choice of Games"
+		"homepage"		"https://www.choiceofgames.com/"
+	}
+	"config"
+	{
+		"installdir"		"The Superlatives Aetherfall"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheSuperlativesAetherfall.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"The Superlatives Aetherfall.app/Contents/MacOS/The Superlatives Aetherfall"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"TheSuperlativesAetherfall"
+				"arguments"		"--no-sandbox"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"2951004733"
+			{
+				"controller_type"		"controller_neptune"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"726231"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1721684074267454386"
+					"size"		"237972581"
+					"download"		"79919120"
+				}
+			}
+		}
+		"726232"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2943879910678270502"
+					"size"		"11074731"
+					"download"		"5280448"
+				}
+			}
+		}
+		"726233"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5699039804107507607"
+					"size"		"240541550"
+					"download"		"74516240"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21394293"
+				"timeupdated"		"1767739005"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10000"
+	}
+}
