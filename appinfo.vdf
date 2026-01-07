@@ -1,0 +1,291 @@
+"appinfo"
+{
+	"appid"		"2411390"
+	"common"
+	{
+		"name"		"Top Villain: Total Domination"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienticon"		"84772f871f69e9ad8346818212d151c41a1f7e56"
+		"clienttga"		"bed6ca81d28ecc11db66fbba0c84c1ea9515b1ee"
+		"clienticns"		"51a5f0da2bccdd63303b758b265aae1b3b1ef222"
+		"linuxclienticon"		"b2f708118cb58da15dfd79ebd92ee6ef8e9c515a"
+		"icon"		"1c2d935526785382703d8e2a81204fc0adc31e89"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1697760000"
+			"tested_build_id"		"11964857"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"1"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1692039113"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Choice of Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Choice of Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1692274953"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2411390"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"4486"
+			"2"		"31275"
+			"3"		"3839"
+			"4"		"1719"
+			"5"		"1751"
+			"6"		"19995"
+			"7"		"5923"
+			"8"		"1651"
+			"9"		"1671"
+			"10"		"492"
+			"11"		"597"
+			"12"		"4747"
+			"13"		"6426"
+			"14"		"6971"
+			"15"		"1742"
+			"16"		"4182"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Choice of Games"
+		"publisher"		"Choice of Games"
+		"homepage"		"https://www.choiceofgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Top Villain Total Domination"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TopVillainTotalDomination.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Top Villain Total Domination.app/Contents/MacOS/Top Villain Total Domination"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"TopVillainTotalDomination"
+				"arguments"		"--no-sandbox"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"2951004733"
+			{
+				"controller_type"		"controller_neptune"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+		"steamdecktouchscreen"		"4"
+	}
+	"depots"
+	{
+		"2411391"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3844044804607562584"
+					"size"		"236521750"
+					"download"		"78954368"
+				}
+			}
+		}
+		"2411392"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2703871825723421658"
+					"size"		"9565854"
+					"download"		"4152160"
+				}
+			}
+		}
+		"2411393"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5980161889119770849"
+					"size"		"239070243"
+					"download"		"73518336"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21394356"
+				"timeupdated"		"1767739049"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10000"
+	}
+}
