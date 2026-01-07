@@ -1,0 +1,289 @@
+"appinfo"
+{
+	"appid"		"1285160"
+	"common"
+	{
+		"name"		"Depanneur Nocturne"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"icon"		"ac3ebe54b45ffd429b154e15b3f5437398031972"
+		"logo"		"48141b9b20081a27bef685b9b1d3288d9f5c6826"
+		"logo_small"		"48141b9b20081a27bef685b9b1d3288d9f5c6826_thumb"
+		"clienticns"		"4912e3161876677ca74f7524ed24d290d47d09c6"
+		"linuxclienticon"		"958ad519b28d45db867e50547c8582fd7dc9a233"
+		"clienticon"		"e42526cad44095e00a8dc977d06bab2b2e59cfc9"
+		"clienttga"		"a3327f00751f0e83d3fd8c3dceabc640b9c5466d"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"35.317364214790516"
+				"height_pct"		"82.93650628010452"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"35.317364214790516"
+					"height_pct"		"82.93650628010452"
+				}
+			}
+		}
+		"store_asset_mtime"		"1693520960"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"KO_OP"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"KO_OP"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1590512459"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1285160"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"3839"
+			"2"		"4191"
+			"3"		"4726"
+			"4"		"6052"
+			"5"		"1710"
+			"6"		"4136"
+			"7"		"6426"
+			"8"		"6971"
+			"9"		"15172"
+			"10"		"17894"
+			"11"		"3834"
+			"12"		"597"
+			"13"		"10808"
+			"14"		"5900"
+			"15"		"4234"
+			"16"		"1654"
+			"17"		"492"
+			"18"		"4166"
+			"19"		"4947"
+		}
+		"review_score"		"8"
+		"review_percentage"		"96"
+	}
+	"extended"
+	{
+		"developer"		"KO_OP"
+		"publisher"		"KO_OP"
+	}
+	"config"
+	{
+		"installdir"		"Depanneur Nocturne"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DepanneurNocturne.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DepanneurNocturne.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"DepanneurNocturne.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"3"
+			{
+				"executable"		"DepanneurNocturne.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"DepanneurNocturne.app/Contents/MacOS/DepanneurNocturne"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"beta"
+				}
+				"description_loc"
+				{
+					"english"		"Testing new launch string"
+				}
+				"description"		"Testing new launch string"
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,french"
+		"1285161"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9061283947552513107"
+					"size"		"197707317"
+					"download"		"50217936"
+				}
+			}
+		}
+		"1285162"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5956831937964504415"
+					"size"		"212820795"
+					"download"		"54737696"
+				}
+			}
+		}
+		"1285163"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8971153445585548526"
+					"size"		"250311982"
+					"download"		"68480320"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21413072"
+				"timeupdated"		"1767814978"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
