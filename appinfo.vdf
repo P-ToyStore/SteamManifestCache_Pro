@@ -1,0 +1,290 @@
+"appinfo"
+{
+	"appid"		"2627240"
+	"common"
+	{
+		"name"		"Escape from Death"
+		"type"		"Game"
+		"clienticon"		"35e2eb56f8ff443b9b42f1b5a01bbf1d6c6bffac"
+		"clienttga"		"2b6bb64cccc764576b3052751f1f0276b4fd8ab8"
+		"clienticns"		"8af3a6d6773fd29619f3d1004e0a4be9f71c00ec"
+		"linuxclienticon"		"90c7dcbb0c2a41d49c8c39d1680dde58c8fadf65"
+		"icon"		"16f1a20c57f9778cbb01c2cd61a003a9349cb20e"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1698105600"
+			"tested_build_id"		"12424779"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1696527665"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Choice of Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Choice of Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1697118392"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2627240"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"11014"
+			"2"		"4486"
+			"3"		"3839"
+			"4"		"4166"
+			"5"		"4342"
+			"6"		"4604"
+			"7"		"9541"
+			"8"		"1684"
+			"9"		"3952"
+			"10"		"1667"
+			"11"		"3854"
+			"12"		"10808"
+			"13"		"31275"
+			"14"		"4747"
+			"15"		"6426"
+			"16"		"6971"
+			"17"		"1742"
+			"18"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Choice of Games"
+		"publisher"		"Choice of Games"
+		"homepage"		"https://www.choiceofgames.com"
+	}
+	"config"
+	{
+		"installdir"		"Escape from Death"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"EscapeFromDeath.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Escape from Death.app/Contents/MacOS/Escape from Death"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"EscapeFromDeath"
+				"arguments"		"--no-sandbox"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2627241"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8064508086348367653"
+					"size"		"236679861"
+					"download"		"78866624"
+				}
+			}
+		}
+		"2627242"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3712175275674282814"
+					"size"		"11039217"
+					"download"		"5437872"
+				}
+			}
+		}
+		"2627243"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5917701969774569954"
+					"size"		"239231934"
+					"download"		"73462736"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21390188"
+				"timeupdated"		"1767737972"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10000"
+	}
+}
