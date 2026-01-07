@@ -1,0 +1,280 @@
+"appinfo"
+{
+	"appid"		"343370"
+	"common"
+	{
+		"name"		"SLAMMED!"
+		"type"		"Game"
+		"releasestate"		"released"
+		"disableoverlay"		"1"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"bfcd494224000deeaf4a6f24f0a14489d1d917c6"
+		"clienttga"		"402b9694b9f0d3f2e0ee780fde83008c045f4add"
+		"icon"		"843e02ee9452e5399b597a7e2aede297ad368b2f"
+		"clienticns"		"0fdca6509131d9e126e9e59f4f4a608525ac9fcb"
+		"linuxclienticon"		"2cca521b2163fecc754f297834b65f98598e5b15"
+		"logo"		"a0f3a572659f8a35108a21f8eb4917c765663328"
+		"logo_small"		"a0f3a572659f8a35108a21f8eb4917c765663328_thumb"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1680220800"
+			"tested_build_id"		"10867442"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"SLAMMED!"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_54aaa5eaeb0274ed0e1da0eda53631206d4f1c1a.jpg"
+		"store_asset_mtime"		"1421817457"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Choice of Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Choice of Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_13"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1372402800"
+		"steam_release_date"		"1422639523"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"343370"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"122"
+			"2"		"4486"
+			"3"		"47827"
+			"4"		"31275"
+			"5"		"7208"
+			"6"		"11014"
+			"7"		"44868"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Choice of Games"
+		"publisher"		"Choice of Games"
+		"homepage"		"https://www.choiceofgames.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"SLAMMED"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SLAMMED.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Slammed.app/Contents/MacOS/Slammed"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"SLAMMED"
+				"arguments"		"--no-sandbox"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"2951004733"
+			{
+				"controller_type"		"controller_neptune"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+		}
+		"steamdecktouchscreen"		"4"
+	}
+	"depots"
+	{
+		"343371"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1904870181270686547"
+					"size"		"237174448"
+					"download"		"78811568"
+				}
+				"xplegacy"
+				{
+					"gid"		"4371668793331678607"
+					"size"		"63195322"
+					"download"		"22694240"
+				}
+			}
+		}
+		"343372"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3055997232666880606"
+					"size"		"10421698"
+					"download"		"4412416"
+				}
+				"xplegacy"
+				{
+					"gid"		"5301566656281866384"
+					"size"		"8920431"
+					"download"		"3461040"
+				}
+			}
+		}
+		"343373"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3485070073175503263"
+					"size"		"239716793"
+					"download"		"73365408"
+				}
+				"xplegacy"
+				{
+					"gid"		"7975739501834884721"
+					"size"		"104425025"
+					"download"		"29310560"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21394192"
+				"timeupdated"		"1767738910"
+			}
+			"xplegacy"
+			{
+				"buildid"		"960563"
+				"description"		"Archieved for Windows XP"
+				"timeupdated"		"1489774463"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+	}
+}
