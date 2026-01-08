@@ -1,0 +1,82 @@
+"appinfo"
+{
+	"appid"		"4019340"
+	"common"
+	{
+		"name"		"Half-Life Legacy Mod Tools"
+		"type"		"Tool"
+		"parent"		"3619040"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"fb85cc5216f898402761bb960d88d81d12100d29"
+		"icon"		"fb85cc5216f898402761bb960d88d81d12100d29"
+		"releasestate"		"released"
+		"community_hub_visible"		"1"
+		"gameid"		"4019340"
+	}
+	"config"
+	{
+		"installdir"		"Half-Life Legacy Mod Tools"
+		"uselaunchcommandline"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Harbinger/Harbinger2.exe"
+				"workingdir"		"Harbinger"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Harbinger 2 (Workshop Addon Uploader)"
+				}
+				"description"		"Harbinger 2 (Workshop Addon Uploader)"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"4019341"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1436454914361650218"
+					"size"		"136004868"
+					"download"		"50623360"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21416790"
+				"timeupdated"		"1767833474"
+			}
+		}
+	}
+}
