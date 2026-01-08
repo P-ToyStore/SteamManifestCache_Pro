@@ -1,0 +1,435 @@
+"appinfo"
+{
+	"appid"		"3416670"
+	"common"
+	{
+		"name"		"Half-Life: Cross Product - Aura SDK"
+		"type"		"Tool"
+		"parent"		"3416640"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"8bc286be24d7c93d4972c968e3161150edcbb2d6"
+		"clienttga"		"a480d0af7c6c3282a44c5cadf76f55aa3a6284dc"
+		"clienticon"		"bc8501dfe3a910be1b8cb4bdf35cf4e8923a8111"
+		"releasestate"		"released"
+		"community_hub_visible"		"1"
+		"gameid"		"3416670"
+	}
+	"config"
+	{
+		"installdir"		"Cross Product SDK"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ContentTest/hl.exe"
+				"arguments"		"-game zamnhlmp +net_graph 2 -dev"
+				"workingdir"		"ContentTest/"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Content Test ZAMNHLMP"
+				}
+				"description"		"Content Test ZAMNHLMP"
+			}
+			"1"
+			{
+				"executable"		"ContentTest/zamnhlmp_tag_test"
+				"arguments"		"-game zamnhlmp +net_graph 2 -dev"
+				"workingdir"		"ContentTest/"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Content Test ZAMNHLMP"
+				}
+				"description"		"Content Test ZAMNHLMP"
+			}
+			"2"
+			{
+				"executable"		"Tools/Harbinger/Harbinger.exe"
+				"workingdir"		"Tools/Harbinger"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"experimental"
+				}
+				"description_loc"
+				{
+					"english"		"Harbinger (Workshop Addon Uploader)"
+				}
+				"description"		"Harbinger (Workshop Addon Uploader)"
+			}
+			"3"
+			{
+				"executable"		"Tools/Harbinger/Harbinger"
+				"workingdir"		"Tools/Harbinger"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"experimental"
+				}
+				"description_loc"
+				{
+					"english"		"Harbinger (Workshop Addon Uploader)"
+				}
+				"description"		"Harbinger (Workshop Addon Uploader)"
+			}
+			"4"
+			{
+				"executable"		"Welcome to Aura SDK.doc"
+				"type"		"manual"
+			}
+			"5"
+			{
+				"executable"		"Tools/Sapien/Sapien.exe"
+				"workingdir"		"Tools/Sapien/"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Sapien (BSP Editor)"
+				}
+				"description"		"Launch Sapien (BSP Editor)"
+			}
+			"6"
+			{
+				"executable"		"Tools/Sapien/Sapien"
+				"workingdir"		"Tools/Sapien/"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Sapien (BSP Editor)"
+				}
+				"description"		"Launch Sapien (BSP Editor)"
+			}
+			"7"
+			{
+				"executable"		"Tools/Spectra/Spectra.exe"
+				"workingdir"		"Tools/Spectra/"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"experimental"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Spectra (PNG>TGA converter)"
+				}
+				"description"		"Launch Spectra (PNG>TGA converter)"
+			}
+			"8"
+			{
+				"executable"		"Tools/Spectra/Spectra"
+				"workingdir"		"Tools/Spectra/"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"experimental"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Spectra (PNG>TGA converter)"
+				}
+				"description"		"Launch Spectra (PNG>TGA converter)"
+			}
+			"9"
+			{
+				"executable"		"Tools/Helix/Helix.exe"
+				"workingdir"		"Tools/Helix/"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Helix (asset manager)"
+				}
+				"description"		"Launch Helix (asset manager)"
+			}
+			"10"
+			{
+				"executable"		"Tools/Helix/Helix"
+				"workingdir"		"Tools/Helix/"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Helix (asset manager)"
+				}
+				"description"		"Launch Helix (asset manager)"
+			}
+			"11"
+			{
+				"executable"		"Tools/Tessera/Tessera.exe"
+				"workingdir"		"Tools/Tessera/"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Tessera (sprite & texture creator)"
+				}
+				"description"		"Launch Tessera (sprite & texture creator)"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3416671"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2158638383835609570"
+					"size"		"183677494"
+					"download"		"58355072"
+				}
+				"experimental"
+				{
+					"gid"		"6038826289185137207"
+					"size"		"148453904"
+					"download"		"10735920"
+				}
+				"upcoming"
+				{
+					"gid"		"2158638383835609570"
+					"size"		"183677494"
+					"download"		"58355072"
+				}
+			}
+		}
+		"3416672"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2915025217799657116"
+					"size"		"273452404"
+					"download"		"138612912"
+				}
+				"upcoming"
+				{
+					"gid"		"2915025217799657116"
+					"size"		"273452404"
+					"download"		"138612912"
+				}
+			}
+		}
+		"3416673"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7239638660283886637"
+					"size"		"54994975"
+					"download"		"21872096"
+				}
+				"upcoming"
+				{
+					"gid"		"7239638660283886637"
+					"size"		"54994975"
+					"download"		"21872096"
+				}
+			}
+		}
+		"3416674"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"245971443556305266"
+					"size"		"109685265"
+					"download"		"39489520"
+				}
+				"upcoming"
+				{
+					"gid"		"245971443556305266"
+					"size"		"109685265"
+					"download"		"39489520"
+				}
+			}
+		}
+		"3416675"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6313320439482020667"
+					"size"		"1246720"
+					"download"		"381648"
+				}
+				"upcoming"
+				{
+					"gid"		"6313320439482020667"
+					"size"		"1246720"
+					"download"		"381648"
+				}
+			}
+		}
+		"3416676"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7176803666496697797"
+					"size"		"1162316"
+					"download"		"420448"
+				}
+				"upcoming"
+				{
+					"gid"		"7176803666496697797"
+					"size"		"1162316"
+					"download"		"420448"
+				}
+			}
+		}
+		"3416677"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7327565000511501889"
+					"size"		"689447527"
+					"download"		"444168336"
+				}
+				"upcoming"
+				{
+					"gid"		"7327565000511501889"
+					"size"		"689447527"
+					"download"		"444168336"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21416747"
+				"timeupdated"		"1767833182"
+			}
+			"experimental"
+			{
+				"buildid"		"19548269"
+				"description"		"Aura EX"
+				"timeupdated"		"1754872353"
+			}
+			"upcoming"
+			{
+				"buildid"		"21416747"
+				"description"		"Upcoming SDK Version"
+				"timeupdated"		"1767833115"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"*.wsm"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"*.ini"
+				"recursive"		"1"
+			}
+		}
+	}
+}
