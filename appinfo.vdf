@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"2985640"
+	"common"
+	{
+		"name"		"Revelation of Decay Playtest"
+		"type"		"Beta"
+		"parent"		"2975680"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"c4489a62ba62fd7c178ec79b966a86c855e768e8"
+		"clienttga"		"ac14ac6b0b0e75d3a1ad8bfebb5e78b5a39b401c"
+		"clienticon"		"313877d6437b7a4a38f00b0f4974834652982b50"
+		"clienticns"		"313877d6437b7a4a38f00b0f4974834652982b50"
+		"linuxclienticon"		"313877d6437b7a4a38f00b0f4974834652982b50"
+		"releasestate"		"unavailable"
+		"small_capsule"
+		{
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"zh-cn,en"
+			"library_hero"		"en,zh-cn"
+			"library_logo"		"zh-cn,en"
+			"library_header"		"zh-cn,en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"schinese"		"library_600x900_schinese.jpg"
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"schinese"		"library_600x900_schinese_2x.jpg"
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+					"schinese"		"library_hero_schinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+					"schinese"		"library_hero_schinese_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"schinese"		"logo_schinese.png"
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"schinese"		"logo_schinese_2x.png"
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"schinese"		"library_header_schinese.jpg"
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1715954113"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"gameid"		"2985640"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"playtest_type"		"0"
+	}
+	"config"
+	{
+		"installdir"		"Revelation of Decay Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Revelation of Decay.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Start Now"
+					"schinese"		"启动！"
+				}
+				"description"		"Start Now"
+			}
+		}
+	}
+	"depots"
+	{
+		"2985641"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5730799452373968170"
+					"size"		"653824"
+					"download"		"58752"
+				}
+			}
+		}
+		"baselanguages"		"schinese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15457458"
+				"timeupdated"		"1724315097"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"200"
+		"appidredirect"		"2975680"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"WolfyCat/RelevationOfDecay/SteamUser_{Steam3AccountID}/storage"
+				"pattern"		"*.json"
+				"recursive"		"1"
+			}
+			"copied_from_parent"		"1"
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"WolfyCat/RelevationOfDecay/SteamUser_{Steam3AccountID}/storage"
+						"replace"		"unity.WolfyCat.RelevationOfDecay/SteamUser_{Steam3AccountID}/storage"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"WolfyCat/RelevationOfDecay/SteamUser_{Steam3AccountID}/storage"
+						"replace"		".config/unity3d/WolfyCat/RelevationOfDecay/SteamUser_{Steam3AccountID}/storage"
+					}
+				}
+			}
+		}
+	}
+}
