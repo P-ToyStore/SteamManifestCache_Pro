@@ -1,0 +1,226 @@
+"appinfo"
+{
+	"appid"		"289240"
+	"common"
+	{
+		"name"		"Perimeter: Emperor's Testament"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"7d2666eeb4af1a39c5138c3e23a16d626e21a119"
+		"logo_small"		"7d2666eeb4af1a39c5138c3e23a16d626e21a119_thumb"
+		"icon"		"b6533700aed83c6228dcfa8d58ccc7cf8bf166f6"
+		"clienticon"		"209a87bb413c3c77d8c7768048e9002a348947ef"
+		"clienttga"		"d2ec392df5040116f35fb4c111136b5b3a90cb41"
+		"metacritic_name"		"Perimeter: Emperor's Testament"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+		}
+		"store_screenshot"		"ss_f9e26adeb1c6cd3a84716b5e91cf096d2fea915c.jpg"
+		"store_asset_mtime"		"1752584671"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"K-D Lab"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fulqrum Publishing"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Fulqrum"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"1156834800"
+		"steam_release_date"		"1400792880"
+		"metacritic_score"		"72"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/perimeter-emperors-testament?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"289240"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1755"
+			"2"		"1676"
+			"3"		"3942"
+		}
+		"review_score"		"5"
+		"review_percentage"		"65"
+	}
+	"extended"
+	{
+		"developer"		"K-D Lab"
+		"publisher"		"Fulqrum Publishing"
+		"gamemanualurl"		"https://store.steampowered.com/manual/289240/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"PerimeterET"
+		"launch"
+		{
+			"2"
+			{
+				"executable"		"launcher-x64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"launcher-ia32.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"Config.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Configure"
+				}
+				"description"		"Configure"
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"289241"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6597038895746009087"
+					"size"		"2761766940"
+					"download"		"1121700592"
+				}
+			}
+		}
+		"289242"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8102711536480625372"
+					"size"		"209006490"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21618645"
+				"timeupdated"		"1769180461"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"314572800"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Resource\\Saves"
+				"pattern"		"*.*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
