@@ -1,0 +1,137 @@
+"appinfo"
+{
+	"appid"		"2612550"
+	"common"
+	{
+		"name"		"The Front Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2285150"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"b7b36c7cbae2ce11ad2551e99e7f851cf9d5817d"
+		"clienticon"		"804ba91167063defab62c26b4b43472a3818409e"
+		"clienttga"		"9a3ed149952faff5e6e047e3f118ecf4cc054465"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2612550"
+	}
+	"config"
+	{
+		"installdir"		"The Front Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ProjectWar/Binaries/Win64/TheFrontServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2612551"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4573617048752368079"
+					"size"		"3309124308"
+					"download"		"3066189760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21612269"
+				"timeupdated"		"1769152249"
+			}
+		}
+	}
+}
