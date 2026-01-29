@@ -1,0 +1,284 @@
+"appinfo"
+{
+	"appid"		"666660"
+	"common"
+	{
+		"name"		"Castles"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"9eb4af1b9d77b3e2ca87191c6985d7a8ab31a4d8"
+		"logo_small"		"9eb4af1b9d77b3e2ca87191c6985d7a8ab31a4d8_thumb"
+		"icon"		"b45eaa9977bc5f64be0d65fe2e2b39450710a548"
+		"clienticon"		"e4893342265268067bf0efe8f5da8d0cc1a43fd7"
+		"clienttga"		"67dd3f364e0d60a50818c4f0a0ef2a9956da2da4"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"metacritic_name"		"Castles"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667007588"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Quicksilver Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"interplay"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Castles"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"662803200"
+		"steam_release_date"		"1500071808"
+		"community_hub_visible"		"1"
+		"gameid"		"666660"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"21"
+			"2"		"1643"
+			"3"		"3813"
+			"4"		"3987"
+			"5"		"4161"
+			"6"		"4791"
+			"7"		"5851"
+			"8"		"8945"
+			"9"		"12472"
+			"10"		"16689"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"developer"		"Quicksilver Software"
+		"publisher"		"interplay"
+		"homepage"		"https://www.interplay.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/666660/"
+	}
+	"config"
+	{
+		"installdir"		"Castles"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox/dosbox.exe"
+				"arguments"		"-conf \"config/dosboxCastles1.conf\" -conf \"config/dosbox_menu.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox/DOSBox Staging.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"config/dosboxCastles1.conf\" -conf \"config/dosbox_menu.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"config/dosboxCastles1.conf\" -conf \"config/dosbox_menu.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"DOSBox/dosbox.exe"
+				"arguments"		"-conf \"TNC/config/dosboxCastles1.conf\" -conf \"TNC/config/dosbox_menu.conf\" -noconsole"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"4352750"
+				}
+				"description_loc"
+				{
+					"english"		"Castles: The Northern Campaign"
+				}
+				"description"		"Castles: The Northern Campaign"
+			}
+			"4"
+			{
+				"executable"		"DOSBox/DOSBox Staging.app/Contents/MacOS/DOSBox"
+				"arguments"		"-conf \"TNC/config/dosboxCastles1.conf\" -conf \"TNC/config/dosbox_menu.conf\" -noconsole"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"4352750"
+				}
+				"description_loc"
+				{
+					"english"		"Castles: The Northern Campaign"
+				}
+				"description"		"Castles: The Northern Campaign"
+			}
+			"5"
+			{
+				"executable"		"dosbox/dosbox"
+				"arguments"		"-conf \"TNC/config/dosboxCastles1.conf\" -conf \"TNC/config/dosbox_menu.conf\" -noconsole"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"ownsdlc"		"4352750"
+				}
+				"description_loc"
+				{
+					"english"		"Castles: The Northern Campaign"
+				}
+				"description"		"Castles: The Northern Campaign"
+			}
+			"6"
+			{
+				"executable"		"TNC/Manual.pdf"
+				"type"		"manual"
+				"config"
+				{
+					"ownsdlc"		"4352750"
+				}
+				"description_loc"
+				{
+					"english"		"Castles: The Northern Campaign Manual"
+				}
+				"description"		"Castles: The Northern Campaign Manual"
+			}
+		}
+	}
+	"depots"
+	{
+		"666661"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6447704615776198224"
+					"size"		"40574775"
+					"download"		"17459504"
+				}
+			}
+		}
+		"666662"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1871954958929013955"
+					"size"		"43553087"
+					"download"		"22318368"
+				}
+			}
+		}
+		"666663"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1539368369485153568"
+					"size"		"44887119"
+					"download"		"21902880"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21692436"
+				"timeupdated"		"1769654534"
+			}
+		}
+	}
+}
