@@ -1,0 +1,121 @@
+"appinfo"
+{
+	"appid"		"3018440"
+	"common"
+	{
+		"name"		"VTOL VR Mod Uploader"
+		"type"		"Tool"
+		"parent"		"3018410"
+		"clienticon"		"419787a9a751f52b8f4331adccf1b73c1bf63673"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"icon"		"b67dbe165122aeecdb3b2065d6b70a57ceaba4bb"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"gameid"		"3018440"
+	}
+	"config"
+	{
+		"installdir"		"VTOL VR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"@Mod Loader\\Mod Uploader\\Mod Uploader.exe"
+				"workingdir"		"@Mod Loader\\Mod Uploader"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"@Mod Loader\\Mod Uploader\\Mod Uploader"
+				"workingdir"		"@Mod Loader\\Mod Uploader"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Linux Native"
+				}
+				"description"		"Linux Native"
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"3018440"
+		"3018441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7274203165025617918"
+					"size"		"111619477"
+					"download"		"43076096"
+				}
+				"itemlisting"
+				{
+					"gid"		"2007442350896608127"
+					"size"		"111619477"
+					"download"		"43076096"
+				}
+			}
+		}
+		"3018442"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2865724667554663093"
+					"size"		"105999095"
+					"download"		"43136848"
+				}
+				"itemlisting"
+				{
+					"gid"		"3789264877975988973"
+					"size"		"105999095"
+					"download"		"43136848"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21732951"
+				"timeupdated"		"1769903730"
+			}
+			"itemlisting"
+			{
+				"buildid"		"21732403"
+				"description"		"Testing out listing Items before joining MP lobby"
+				"timeupdated"		"1769897775"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000000000"
+		"maxnumfiles"		"10000"
+	}
+}
