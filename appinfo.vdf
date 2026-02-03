@@ -1,0 +1,143 @@
+"appinfo"
+{
+	"appid"		"696640"
+	"common"
+	{
+		"name"		"Radline + Dedicated Server (obsolete)"
+		"type"		"Tool"
+		"parent"		"592390"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"icon"		"370dd41d82e620053da7d03f6fd2308b25c553ac"
+		"logo"		"385e43d4b78ca5d3000bc3ac3e2807029ea8038d"
+		"logo_small"		"385e43d4b78ca5d3000bc3ac3e2807029ea8038d_thumb"
+		"clienttga"		"17e0b26ffdaae8f4a4cbbf7213ca7c47e285deb4"
+		"clienticon"		"75575ae286c457c84a337b4f5ea5e77df4d3e840"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"696640"
+	}
+	"extended"
+	{
+		"gamedir"		"radline"
+		"serverbrowsername"		"Radline: Quarantine"
+	}
+	"config"
+	{
+		"installdir"		"Radline Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Radline/Binaries/Win64/RadlineServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Radline/Binaries/Linux/RadlineServer"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"696641"
+		{
+			"config"
+			{
+				"oslist"		"windows,linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"464076992091257637"
+					"size"		"12699505769"
+					"download"		"5128728096"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2070484"
+				"timeupdated"		"1503752687"
+			}
+		}
+	}
+}
