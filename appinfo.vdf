@@ -1,0 +1,127 @@
+"appinfo"
+{
+	"appid"		"232130"
+	"common"
+	{
+		"name"		"Killing Floor 2 - Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"freetodownload"		"1"
+		"gameid"		"232130"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"KF2"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"kf2server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win64/KFServer.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"232131"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6733711387145597791"
+					"size"		"31977736861"
+					"download"		"8754688832"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14007421"
+				"timeupdated"		"1721826461"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
