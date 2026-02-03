@@ -1,0 +1,133 @@
+"appinfo"
+{
+	"appid"		"553650"
+	"common"
+	{
+		"name"		"VIAR Server"
+		"type"		"Tool"
+		"parent"		"551610"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"292811c8af4070a491088af6dfe1e8dde47c3a2c"
+		"logo_small"		"292811c8af4070a491088af6dfe1e8dde47c3a2c_thumb"
+		"icon"		"52c90647dc3f7fd548ddb2b626afbe2e6847cc55"
+		"clienttga"		"4e28672515ce73f009a2e504fc585ff07f13b19a"
+		"clienticon"		"c226381ae1b8f057da35505acf9d7c2a9eb26f98"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"553650"
+	}
+	"extended"
+	{
+		"gamedir"		"VIAR_Server"
+		"serverbrowsername"		"VIAR Dedicated Server Browser"
+	}
+	"config"
+	{
+		"installdir"		"VIAR server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"VIAR_SERVER.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"VIAR_Server_w64.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"553651"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9070464456020566220"
+					"size"		"2995681611"
+					"download"		"832871008"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3599430"
+				"timeupdated"		"1551268616"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
