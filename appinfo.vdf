@@ -1,0 +1,137 @@
+"appinfo"
+{
+	"appid"		"598010"
+	"common"
+	{
+		"name"		"SQUIDS FROM SPACE Dedicated Server"
+		"type"		"Tool"
+		"parent"		"437610"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"a4f8a4c6cc529a9989782059237fe0a5a634149f"
+		"clienticon"		"3538f95debe0cf1ca086788d399e749cd6375596"
+		"icon"		"9fb62ab0a7ad57e7b112a7ae31ebcbf063e396c3"
+		"logo"		"3063b5fa5ba276128a3ec9fb452f8383858d13d4"
+		"logo_small"		"3063b5fa5ba276128a3ec9fb452f8383858d13d4_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"598010"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Squids From Space Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"./Server/SquidServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"598011"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3631076348499709157"
+					"size"		"449246287"
+					"download"		"312632672"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2134281"
+				"timeupdated"		"1505949105"
+			}
+		}
+	}
+}
