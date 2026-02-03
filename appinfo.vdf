@@ -1,0 +1,124 @@
+"appinfo"
+{
+	"appid"		"680020"
+	"common"
+	{
+		"name"		"Wasteworld Server"
+		"type"		"Tool"
+		"parent"		"658170"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"dabe894ad446172f7fcd64212a5c2317ca740135"
+		"logo_small"		"dabe894ad446172f7fcd64212a5c2317ca740135_thumb"
+		"icon"		"a11a819dad1d72d799c35e791ae727c0c860f19b"
+		"clienttga"		"51769ea49125ee9a2f5aed1a52297248842df9ca"
+		"clienticon"		"b9a659e6c5f06f191686569bfef0264df3fcad6d"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"680020"
+	}
+	"config"
+	{
+		"installdir"		"KiP Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"test2.exe"
+				"arguments"		"-batchmode -nographics -map Level1"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"680021"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1764541643659207580"
+					"size"		"1084825876"
+					"download"		"459175152"
+				}
+			}
+		}
+		"658171"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8898699655536222367"
+					"size"		"1067707347"
+					"download"		"454549248"
+				}
+			}
+			"depotfromapp"		"658170"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3005631"
+				"timeupdated"		"1533378469"
+			}
+		}
+	}
+}
