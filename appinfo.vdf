@@ -1,0 +1,146 @@
+"appinfo"
+{
+	"appid"		"612940"
+	"common"
+	{
+		"name"		"Decaying Substance Dedicated Server"
+		"type"		"Tool"
+		"parent"		"611840"
+		"releasestate"		"released"
+		"logo"		"0a9853092e4048e099552ca4e005f4a15a8a617e"
+		"logo_small"		"0a9853092e4048e099552ca4e005f4a15a8a617e_thumb"
+		"icon"		"0be7b809bc6a72291740c61fa1d32d9890e43cc0"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"b12b71c652ea3c7bf39efffcf3bb5ded88a95cf6"
+		"clienticon"		"f0c7e93fff3c94e0897b8e713d9a4dd20355bf17"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"612940"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Decaying Substance Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Decay\\Binaries\\Win64\\DecayServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"612941"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2858554256095020427"
+					"size"		"1026127954"
+					"download"		"179625152"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3857615"
+				"timeupdated"		"1558772949"
+			}
+		}
+	}
+}
