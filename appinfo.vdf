@@ -1,0 +1,76 @@
+"appinfo"
+{
+	"appid"		"4225260"
+	"common"
+	{
+		"name"		"StarRupture Playtest Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1631270"
+		"name_localized"
+		{
+			"schinese"		"《星际裂变》游戏测试专用服务器"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"4bd90f5e37bd62bbf3d498634547227a7308dcf6"
+		"icon"		"4bd90f5e37bd62bbf3d498634547227a7308dcf6"
+		"releasestate"		"released"
+		"gameid"		"4225260"
+	}
+	"config"
+	{
+		"installdir"		"StarRupture Playtest Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StarRuptureServerEOS.exe"
+				"arguments"		"-Log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"StarRupture Dedicated Server"
+				}
+				"description"		"StarRupture Dedicated Server"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"4225261"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7412926219342253723"
+					"size"		"20364396349"
+					"download"		"2231580272"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21054408"
+				"timeupdated"		"1764859275"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
