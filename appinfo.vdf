@@ -1,0 +1,139 @@
+"appinfo"
+{
+	"appid"		"562720"
+	"common"
+	{
+		"name"		"Neptune: Arena FPS Dedicated server"
+		"type"		"Tool"
+		"parent"		"556780"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"c32203cebfb11dae3e21a2b38ee4bbe88c430cfb"
+		"clienticon"		"c206d9dda1e05a7756960bbe2012c277734defa6"
+		"icon"		"16f72c0b785d539fe5ec1cf6a4c6bb9ffc379a6d"
+		"logo"		"fb3023f4b72625628c917ea87168b3acc1da9bc8"
+		"logo_small"		"fb3023f4b72625628c917ea87168b3acc1da9bc8_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"562720_eula_0"
+				"name"		"Neptune: Arena FPS Dedicated server EULA"
+				"url"		"http://store.steampowered.com//eula/562720_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"562720"
+	}
+	"config"
+	{
+		"installdir"		"Neptune Arena FPS Dedicated server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Neptune\\Binaries\\Win64\\NeptuneServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"562721"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4637139865272700983"
+					"size"		"2964034483"
+					"download"		"774713312"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1902620"
+				"timeupdated"		"1497963020"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
