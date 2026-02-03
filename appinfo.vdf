@@ -1,0 +1,119 @@
+"appinfo"
+{
+	"appid"		"679600"
+	"common"
+	{
+		"name"		"Pantropy dedicated server"
+		"type"		"Tool"
+		"parent"		"677180"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"636e3a591dbd91a9cb30a74cb149395b46579b12"
+		"logo_small"		"636e3a591dbd91a9cb30a74cb149395b46579b12_thumb"
+		"icon"		"ccc79941bc620df5e0bb724b6f42a8d6f70e709a"
+		"clienttga"		"4c953fa768b6300268f990297922e5a4ee89fdcb"
+		"clienticon"		"163941c3a20d577a757a67bf2f47f6c4d06af9d9"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"679600"
+	}
+	"config"
+	{
+		"installdir"		"PantropyServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PantropyServer.exe"
+				"arguments"		"batchmode nographics"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"679601"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3834327196876031428"
+					"size"		"14392642054"
+					"download"		"2425504304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6841115"
+				"timeupdated"		"1623743814"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
