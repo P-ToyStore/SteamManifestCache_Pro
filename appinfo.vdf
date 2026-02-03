@@ -1,0 +1,137 @@
+"appinfo"
+{
+	"appid"		"598850"
+	"common"
+	{
+		"name"		"Hellion Dedicated Server"
+		"type"		"Tool"
+		"parent"		"588210"
+		"releasestate"		"released"
+		"icon"		"66680bbd642aa7f9032e8a81d11d9814f1da6264"
+		"logo"		"c264f5302f70b23887c360927fc1bc664128783a"
+		"logo_small"		"c264f5302f70b23887c360927fc1bc664128783a_thumb"
+		"clienticon"		"6e07435fdd4d383142a5bb01c5ae17d6dd20e0de"
+		"clienttga"		"d7f4035c6775b2745af9a4da1cf0c4f2e2a3263f"
+		"oslist"		"windows"
+		"osarch"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"598850"
+	}
+	"config"
+	{
+		"installdir"		"Hellion Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HELLION_Dedicated.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"598851"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8521234559282681105"
+					"size"		"14383335"
+					"download"		"2793936"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4108572"
+				"timeupdated"		"1565878001"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
