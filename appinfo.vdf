@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"1418350"
+	"common"
+	{
+		"name"		"California Games II"
+		"type"		"Game"
+		"logo"		"ef8b1eec50cf628aa77d68c953e70279b03c69ed"
+		"logo_small"		"ef8b1eec50cf628aa77d68c953e70279b03c69ed_thumb"
+		"icon"		"ae7c977e78b676934a6b0065442de6318ca38752"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"755e8e4a1ce7c4b39e7bf65082dafd5408de5948"
+		"clienttga"		"585fc410353a6faec3f66b6fe59f61d3ccfacf3b"
+		"releasestate"		"released"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"53.6046511627907"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"53.6046511627907"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1601369497"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Epyx, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Pixel Games UK"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"California Games"
+			}
+		}
+		"primary_genre"		"18"
+		"genres"
+		{
+			"0"		"18"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"644223600"
+		"steam_release_date"		"1601370197"
+		"community_hub_visible"		"1"
+		"gameid"		"1418350"
+		"store_tags"
+		{
+			"0"		"701"
+			"1"		"13577"
+			"2"		"3964"
+			"3"		"1644"
+			"4"		"3871"
+			"5"		"4191"
+			"6"		"5154"
+			"7"		"1773"
+			"8"		"15045"
+			"9"		"1697"
+			"10"		"599"
+			"11"		"4195"
+			"12"		"4182"
+			"13"		"17770"
+			"14"		"4004"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Epyx, Inc."
+		"publisher"		"Pixel Games UK"
+		"gamemanualurl"		"https://store.steampowered.com/manual/1418350/"
+	}
+	"config"
+	{
+		"installdir"		"California Games II"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox.exe"
+				"arguments"		"-conf cgii.conf -noconsole"
+				"description"		"original resolution"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox.exe"
+				"arguments"		"-conf cgii720.conf -noconsole"
+				"description"		"720p resolution"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"DOSBox.exe"
+				"arguments"		"-conf cgii1080.conf -noconsole"
+				"description"		"1080p resolution"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1418351"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7992322855085213267"
+					"size"		"5199474"
+					"download"		"2250432"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5515088"
+				"timeupdated"		"1599552806"
+			}
+		}
+	}
+}
