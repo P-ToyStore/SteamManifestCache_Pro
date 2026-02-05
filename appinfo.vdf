@@ -1,0 +1,137 @@
+"appinfo"
+{
+	"appid"		"2823750"
+	"common"
+	{
+		"name"		"Wild Omission Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2348700"
+		"icon"		"966a69c6f610f6561665462f750605a719cd842f"
+		"clienticon"		"79ce7846f3fcc59d774dedca2beeacc7dc4f49cc"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2823750"
+	}
+	"config"
+	{
+		"installdir"		"Wild Omission Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WildOmissionServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Server Binary, assumes user has knowledge of server setup"
+				}
+				"description"		"Server Binary, assumes user has knowledge of server setup"
+			}
+			"1"
+			{
+				"executable"		"WildOmissionServerConfigurator.exe"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Graphical Server Configurator Tool, best for users not familliar with working on the raw files"
+				}
+				"description"		"Graphical Server Configurator Tool, best for users not familliar with working on the raw files"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2823751"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5331882799866927394"
+					"size"		"244953314"
+					"download"		"150828880"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21758058"
+				"timeupdated"		"1770252980"
+			}
+		}
+	}
+}
