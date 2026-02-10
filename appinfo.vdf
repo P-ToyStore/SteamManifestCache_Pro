@@ -1,0 +1,180 @@
+"appinfo"
+{
+	"appid"		"3858660"
+	"common"
+	{
+		"name"		"RoadCraft - Public Test Server"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"53d902032c28354532bf07f94576f490898dfbb1"
+		"clienttga"		"e2adf8b2b9b9ef6b5a036000dc181eaadd2085ad"
+		"icon"		"6f5726e39bffd74ae397c7cff7f376ac4282ec0c"
+		"releasestate"		"released"
+		"gameid"		"3858660"
+		"store_tags"
+		{
+		}
+	}
+	"config"
+	{
+		"installdir"		"RoadCraft - Public Test Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"root\\bin\\pc\\road_builder_steam_release.exe"
+				"workingdir"		"root\\bin\\pc"
+				"type"		"option1"
+				"config"
+				{
+					"betakey"		"test"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+			"1"
+			{
+				"executable"		"root\\bin\\pc\\road_builder_steam_retail.exe"
+				"workingdir"		"root\\bin\\pc\\"
+				"type"		"option2"
+				"config"
+				{
+					"betakey"		"test"
+				}
+				"description_loc"
+				{
+					"english"		"Dev Retail"
+				}
+				"description"		"Dev Retail"
+			}
+			"2"
+			{
+				"executable"		"root\\bin\\pc\\Roadcraft - Retail.exe"
+				"workingdir"		"root\\bin\\pc"
+				"type"		"option1"
+				"config"
+				{
+					"betakey"		"test_retail"
+				}
+				"description_loc"
+				{
+					"english"		"without EGS"
+				}
+				"description"		"without EGS"
+			}
+			"3"
+			{
+				"executable"		"root\\bin\\pc\\Roadcraft - Retail.exe"
+				"workingdir"		"root\\bin\\pc"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"root\\bin\\pc\\road_builder_steam_profile.exe"
+				"workingdir"		"root\\bin\\pc"
+				"type"		"option3"
+				"config"
+				{
+					"betakey"		"test"
+				}
+				"description_loc"
+				{
+					"english"		"Profile"
+				}
+				"description"		"Profile"
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"3551342645"
+			{
+				"controller_type"		"controller_ps5"
+				"enabled_branches"		"default"
+				"use_action_block"		"false"
+			}
+			"3522699458"
+			{
+				"controller_type"		"controller_ps5"
+				"enabled_branches"		"test_retail"
+				"use_action_block"		"false"
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65528"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3858661"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2826929854251273675"
+					"size"		"41494532783"
+					"download"		"34934822720"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21852792"
+				"timeupdated"		"1770735485"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"524288000"
+		"maxnumfiles"		"200"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Saber/RoadCraft PTS/storage/steam/user/{64BitSteamID}/Main/config"
+				"pattern"		"*.cfg"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Saber/RoadCraft PTS/storage/steam/user/{64BitSteamID}"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
