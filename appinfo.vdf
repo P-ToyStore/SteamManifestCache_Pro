@@ -1,0 +1,138 @@
+"appinfo"
+{
+	"appid"		"3349480"
+	"common"
+	{
+		"name"		"The Lord of the Rings: Return to Moria™ Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2933130"
+		"clienttga"		"aa6f6a47cf9848e04e14d85fc946cdea7ee42970"
+		"clienticon"		"b3ce224943edef3ce697d513e211c71d70a68c23"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"3349480_eula_0"
+				"name"		"Return to Moria Dedicated Server EULA"
+				"url"		"https://store.steampowered.com//eula/3349480_eula_0"
+				"version"		"2"
+			}
+		}
+		"icon"		"29286f2af71b4c1752abf62428e2b60761f7e69a"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"3349480"
+	}
+	"config"
+	{
+		"installdir"		"Return to Moria Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MoriaServer.exe"
+				"description_loc"
+				{
+					"english"		"Launch the Return to Moria server"
+				}
+				"description"		"Launch the Return to Moria server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3349481"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1940076101363980838"
+					"size"		"4229152615"
+					"download"		"2782781152"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21872765"
+				"timeupdated"		"1770911938"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
