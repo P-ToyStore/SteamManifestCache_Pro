@@ -1,0 +1,297 @@
+"appinfo"
+{
+	"appid"		"39610"
+	"common"
+	{
+		"name"		"Agatha Christie: Evil under the Sun"
+		"clienticon"		"ebc5cbe259ce6954d7c88ee8363267bcb3f81d13"
+		"clienttga"		"d1667abe0427cae41ff592c345b19fff8dbd94a0"
+		"icon"		"d90501384e9681b7493d3e1b77140954e3e847c5"
+		"logo"		"39f5eb195ff706a7764d86906cc70c9a660e59de"
+		"logo_small"		"39f5eb195ff706a7764d86906cc70c9a660e59de_thumb"
+		"type"		"game"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1767657600"
+			"tested_build_id"		"21202"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-experimental"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"metacritic_name"		"Agatha Christie: Evil Under the Sun"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6e85e87a3b6ab4d64dd65d66cfeae1851bf19db4.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"AWE Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"JoWooD Entertainment, DreamCatcher"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1192431600"
+		"steam_release_date"		"1272319800"
+		"metacritic_score"		"66"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/agatha-christie-evil-under-the-sun?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"39610"
+		"store_tags"
+		{
+			"0"		"21"
+		}
+	}
+	"extended"
+	{
+		"developer"		"AWE Games"
+		"gamedir"		"Agatha Christie Evil Under the Sun"
+		"homepage"		"http://www.agathachristiegame.com"
+		"icon"		""
+		"installscript"		"39610_install.vdf"
+		"languages"		"english,french,german,italian,spanish"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"39611"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"JoWooD Entertainment, DreamCatcher"
+	}
+	"config"
+	{
+		"installscriptsignature"		"466e0406cf0f04d7af526685f5e0a913459a46849f0731dc67def3c402bfb89b49b4972ae7dd6d6b99992cad8ddb43ad8e8ecc23166eb38ea03ac99e05ccee5f3bf8f54ac50864583974710df5793e6a6545038017936b586312c87516737619a40dce6a4dfb16bb5379f39c6bc85f30a65f7bb0ae3e54fa487d823616b555e1"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Agatha Christie Evil Under the Sun"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"euts.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\jowood\agatha christie\evil under the sun"
+			{
+				"string"
+				{
+					"install"		"%INSTALLDIR%\\"
+					"runcmd"		"%INSTALLDIR%\\euts.exe"
+					"language"		"English"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx9"
+			{
+				"process 1"		"%INSTALLDIR%\\DirectX9\\dxsetup.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"39611"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8060394952415139645"
+					"size"		"599163476"
+					"download"		"0"
+				}
+			}
+		}
+		"39612"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2912759252665355682"
+					"size"		"1113822452"
+					"download"		"0"
+				}
+			}
+		}
+		"39613"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1570384017703299675"
+					"size"		"922149207"
+					"download"		"0"
+				}
+			}
+		}
+		"39614"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4707904264084368598"
+					"size"		"922497788"
+					"download"		"0"
+				}
+			}
+		}
+		"39615"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"525463103520069705"
+					"size"		"892191527"
+					"download"		"0"
+				}
+			}
+		}
+		"39616"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8552409209303947738"
+					"size"		"930659904"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"baselanguages"		"english,french,german,italian,spanish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21202"
+			}
+		}
+	}
+}
