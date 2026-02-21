@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"3237620"
+	"common"
+	{
+		"name"		"Gear Up Einstein! Playtest"
+		"type"		"Beta"
+		"parent"		"2950410"
+		"icon"		"a5e95ff69e9fa478fe6b5737a400af9b0c40cf28"
+		"clienticon"		"fd5e946b2c7c69a81f81d2a334fe7116f15cfd41"
+		"clienttga"		"bb991f7d92fceec9fb8801cb16d1957a5f586c74"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"releasestate"		"released"
+		"clienticns"		"fe48f3d1a97b148988a1b1f35060307b4e0576d8"
+		"linuxclienticon"		"5931bdce46a9363864a13f52ca3494175d67f38c"
+		"small_capsule"
+		{
+			"english"		"5705255313d23df0717b91283632690b84c066c1/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"2c47a0e807c8051ca0331f6183b7b730df2129ff/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"38.1257275902212"
+				"height_pct"		"47.34029921633815"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"577bd0bea7ba2060130dd8da512b066a0f7976d1/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"577bd0bea7ba2060130dd8da512b066a0f7976d1/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"767fb7aaf1559b195c725af57e32b2a618633e6d/library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"767fb7aaf1559b195c725af57e32b2a618633e6d/library_hero_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"767fb7aaf1559b195c725af57e32b2a618633e6d/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"fb568c69dc64b5e2b61c878c096bc8a75650bbb7/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"fb568c69dc64b5e2b61c878c096bc8a75650bbb7/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"38.1257275902212"
+					"height_pct"		"47.34029921633815"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"2c47a0e807c8051ca0331f6183b7b730df2129ff/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"2c47a0e807c8051ca0331f6183b7b730df2129ff/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1768621984"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1727272519"
+		"community_hub_visible"		"1"
+		"gameid"		"3237620"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"playtest_type"		"1"
+		"playtestinvitecount"		"0"
+	}
+	"config"
+	{
+		"installdir"		"Gear Up Einstein! Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Content\\Windows\\Build\\Gear Up Einstein.exe"
+				"arguments"		"-logFile \"Logs\\GameLogs.log\" -language=en -HideUnityConsole true -TargetFrameRate 120 -ChangeDetectionSystemEnabled false -RecordReplaysAutomatically false -CheatWandEnabled false -env live"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Gear Up Einstein! (EXE)"
+				}
+				"description"		"Gear Up Einstein! (EXE)"
+			}
+			"1"
+			{
+				"executable"		"Content/Mac/Gear Up Einstein.app/Contents/MacOS/Gear Up Einstein"
+				"arguments"		"-logFile Logs/GameLogs.log -language=en -HideUnityConsole true -TargetFrameRate 120 -ChangeDetectionSystemEnabled false -RecordReplaysAutomatically false -CheatWandEnabled false -env live"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Gear Up Einstein! (APP)"
+				}
+				"description"		"Gear Up Einstein! (APP)"
+			}
+		}
+	}
+	"depots"
+	{
+		"3237621"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4706977980508381824"
+					"size"		"1751217000"
+					"download"		"201723088"
+				}
+				"experimental"
+				{
+					"gid"		"5304200216905700924"
+					"size"		"551008793"
+					"download"		"121357040"
+				}
+			}
+		}
+		"baselanguages"		"english,french"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22009154"
+				"timeupdated"		"1771682731"
+			}
+			"experimental"
+			{
+				"buildid"		"20052192"
+				"description"		"experimental changes"
+				"timeupdated"		"1758306009"
+			}
+		}
+	}
+}
