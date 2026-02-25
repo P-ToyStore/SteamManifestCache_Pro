@@ -1,0 +1,174 @@
+"appinfo"
+{
+	"appid"		"1985230"
+	"common"
+	{
+		"name"		"Razgovor Playtest"
+		"type"		"Beta"
+		"parent"		"1785950"
+		"icon"		"e42566f5eb42825ac3a0ec38d7d2de854374e92d"
+		"clienticon"		"dfe578caf47705cf2cb433ac50e14edc7ec52332"
+		"clienttga"		"290c6bde6132ee73ba992431fae6ac2b54c8334e"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"87.80630105017502"
+				"height_pct"		"22.264438976325422"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"87.80630105017502"
+					"height_pct"		"22.264438976325422"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1695499093"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1667440277"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1985230"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"betaforappid"		"1785950"
+		"playtest_type"		"1"
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=1985230"
+		"gamedir"		"RazgovorOnlinePlayTest"
+		"serverbrowsername"		"RazgovorPlayTest"
+		"playtestinvitecount"		"0"
+	}
+	"config"
+	{
+		"installdir"		"Razgovor Playtest"
+		"launch"
+		{
+			"4"
+			{
+				"executable"		"RazgovorOnline.exe"
+				"arguments"		"-dx11"
+			}
+			"5"
+			{
+				"executable"		"RazgovorOnline.exe"
+				"arguments"		"-dx12"
+				"description_loc"
+				{
+					"english"		"DirectX 12"
+				}
+				"description"		"DirectX 12"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1985231"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"753641780088870827"
+					"size"		"4709989385"
+					"download"		"4284271056"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22087878"
+				"timeupdated"		"1772007934"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"50000"
+		"maxnumfiles"		"6"
+		"sync_while_suspended"		"1"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"PlayerSave"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
