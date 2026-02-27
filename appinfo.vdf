@@ -1,0 +1,276 @@
+"appinfo"
+{
+	"appid"		"1015480"
+	"common"
+	{
+		"name"		"DrumBeats VR"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+			"standing"		"1"
+		}
+		"logo"		"ec09fb81791dbe7de8caee897e3c7ede5f6d762c"
+		"logo_small"		"ec09fb81791dbe7de8caee897e3c7ede5f6d762c_thumb"
+		"icon"		"da5323eb0af14f088b30d13b2087e3d9eaec8e05"
+		"clienticon"		"3c832c7b9d92725e6a50bba3970f9a5d3d55d187"
+		"clienttga"		"7fcf18b5b874f4791a59092950beaf0c1dcf2458"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"openxrsupport"		"1"
+		"metacritic_name"		"DrumBeats VR"
+		"small_capsule"
+		{
+			"english"		"ab578ddba13ec43f20db8fa04d72e56d3a77a7e2/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"46.26986356509971"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"46.26986356509971"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1735077000"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Marcel Eissens"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"VRROOM Ultimate VR Experiences BV"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"MESHm"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_22"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1548835200"
+		"steam_release_date"		"1734743819"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1015480"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"1752"
+			"1"		"1027"
+			"2"		"21978"
+			"3"		"4175"
+			"4"		"4182"
+			"5"		"337964"
+			"6"		"1734"
+			"7"		"701"
+			"8"		"1621"
+			"9"		"599"
+			"10"		"4191"
+			"11"		"4342"
+			"12"		"1036"
+			"13"		"4835"
+			"14"		"1646"
+			"15"		"3810"
+			"16"		"1773"
+			"17"		"7481"
+			"18"		"5154"
+			"19"		"492"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"Marcel Eissens"
+		"publisher"		"MESHm"
+		"homepage"		"https://drumbeatsvr.com"
+	}
+	"config"
+	{
+		"installdir"		"DrumbeatsVR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DrumBeatsVR-BETA/DrumbeatsVR.exe"
+				"arguments"		"-vr=openxr"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Play DrumBeats VR (OpenXR)"
+				}
+				"description"		"Play DrumBeats VR (OpenXR)"
+			}
+			"1"
+			{
+				"executable"		"DrumBeatsVR-BETA/DrumbeatsVR.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Play DrumBeats VR (SteamVR)"
+				}
+				"description"		"Play DrumBeats VR (SteamVR)"
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1015481"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3082488919693838921"
+					"size"		"3491097958"
+					"download"		"2524652464"
+				}
+			}
+		}
+		"1015482"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22129327"
+				"timeupdated"		"1772203328"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
