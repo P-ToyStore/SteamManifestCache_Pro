@@ -1,0 +1,400 @@
+"appinfo"
+{
+	"appid"		"265000"
+	"common"
+	{
+		"name"		"FORCED SHOWDOWN"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"f3f9c482fe71c09e9242c9c25471e46c7f658849"
+		"logo_small"		"f3f9c482fe71c09e9242c9c25471e46c7f658849_thumb"
+		"icon"		"c68ef46c9be83cfcae7b780c93c974966f57bce1"
+		"clienticon"		"476e5eb51133d6ab639b1ec80c822609c386cd51"
+		"clienttga"		"ef56862cacd1016584a7ff9f35128bb5a10f360c"
+		"clienticns"		"c60beb26600c417e5bb9fc8a5fe7f4400a3955c9"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+		}
+		"metacritic_name"		"FORCED SHOWDOWN"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"50"
+				"height_pct"		"59.72222222222222"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"50"
+					"height_pct"		"59.72222222222222"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667810363"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BetaDwarf"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BetaDwarf"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1459234800"
+		"steam_release_date"		"1459277880"
+		"metacritic_score"		"67"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/forced-showdown?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"265000"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"42804"
+			"2"		"122"
+			"3"		"9"
+			"4"		"492"
+			"5"		"32322"
+			"6"		"4885"
+			"7"		"3959"
+			"8"		"1666"
+			"9"		"4182"
+			"10"		"4231"
+			"11"		"1720"
+			"12"		"4791"
+			"13"		"1684"
+			"14"		"1773"
+			"15"		"4026"
+			"16"		"9271"
+			"17"		"1646"
+			"18"		"1716"
+			"19"		"4106"
+		}
+		"review_score"		"8"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"developer"		"BetaDwarf"
+		"publisher"		"BetaDwarf"
+		"homepage"		"http://forcedshowdown.com/"
+		"listofdlc"		"453561,453562,453563,453600,454960,455070,492750,502830"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"FORCED SHOWDOWN"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"forced_showdown.exe"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"forced_showdown.app"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"run_steam.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigfileids"		"681922099"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"265001"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3474985751160710473"
+					"size"		"2811744949"
+					"download"		"1246284336"
+				}
+			}
+		}
+		"265007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"626055908468218645"
+					"size"		"2804532590"
+					"download"		"1243897904"
+				}
+			}
+		}
+		"265002"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5451156037654591607"
+					"size"		"2691322851"
+					"download"		"1239325488"
+				}
+			}
+		}
+		"265003"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4960039728803082757"
+					"size"		"2675026750"
+					"download"		"1236042048"
+				}
+			}
+		}
+		"265004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2632360119864132665"
+					"size"		"2304673106"
+					"download"		"1044632688"
+				}
+			}
+		}
+		"265008"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7513754887471719910"
+					"size"		"2318035893"
+					"download"		"1047699648"
+				}
+			}
+		}
+		"453562"
+		{
+			"dlcappid"		"453562"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7159378150727326242"
+					"size"		"344466442"
+					"download"		"347744032"
+				}
+			}
+		}
+		"453563"
+		{
+			"dlcappid"		"453563"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7015443551335871136"
+					"size"		"339593563"
+					"download"		"325614672"
+				}
+			}
+		}
+		"265005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+			}
+		}
+		"453600"
+		{
+			"dlcappid"		"453600"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3935290567681030478"
+					"size"		"49021491"
+					"download"		"46235232"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1431640"
+				"timeupdated"		"1478005758"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"30"
+	}
+}
