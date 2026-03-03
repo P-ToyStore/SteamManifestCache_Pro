@@ -1,0 +1,177 @@
+"appinfo"
+{
+	"appid"		"870500"
+	"common"
+	{
+		"name"		"LOTUS-Simulator Map-Editor"
+		"type"		"Tool"
+		"parent"		"370350"
+		"releasestate"		"released"
+		"clienticon"		"7b690ca185221122dbe90e39c44c57a3fbac706d"
+		"clienttga"		"ed2b58e50f3f069b8205ebbc9e255c57ca142b2c"
+		"icon"		"b627f5368083689c82fd67ef417b34de65327092"
+		"oslist"		"windows"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"870500_eula_0"
+				"name"		"LOTUS-Simulator Map-Editor EULA"
+				"url"		"https://store.steampowered.com//eula/870500_eula_0"
+			}
+		}
+		"logo"		"6538b2efb4266238e9fb98cab7fbc58160071398"
+		"logo_small"		"6538b2efb4266238e9fb98cab7fbc58160071398_thumb"
+		"associations"
+		{
+		}
+		"gameid"		"870500"
+	}
+	"config"
+	{
+		"installdir"		"LOTUS-Simulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Tools\\MapEditor.exe"
+				"workingdir"		"Tools\\"
+				"description"		"Map-Editor"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"870501"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2501624213821708468"
+					"size"		"19907536"
+					"download"		"17672176"
+				}
+			}
+		}
+		"870502"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"806615891442245435"
+					"size"		"30680136"
+					"download"		"26990176"
+				}
+			}
+		}
+		"370356"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"370350"
+			"sharedinstall"		"2"
+		}
+		"870503"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4034257146473577164"
+					"size"		"19510736"
+					"download"		"17326128"
+				}
+			}
+		}
+		"870504"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7843712501161870038"
+					"size"		"30681160"
+					"download"		"26992208"
+				}
+			}
+		}
+		"370353"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"370350"
+			"sharedinstall"		"2"
+		}
+		"870505"
+		{
+			"config"
+			{
+				"osarch"		"32"
+				"language"		""
+			}
+		}
+		"870506"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"language"		""
+			}
+		}
+		"370359"
+		{
+			"depotfromapp"		"370350"
+			"sharedinstall"		"2"
+		}
+		"baselanguages"		"english,german"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22175571"
+				"timeupdated"		"1772531570"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
