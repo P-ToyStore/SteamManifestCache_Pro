@@ -1,0 +1,175 @@
+"appinfo"
+{
+	"appid"		"870490"
+	"common"
+	{
+		"name"		"LOTUS-Simulator Content-Tool"
+		"type"		"Tool"
+		"parent"		"370350"
+		"releasestate"		"released"
+		"clienticon"		"c42dd9d362c0eb114b48a11baf94aedafa39b631"
+		"clienttga"		"46cc06c665dff8df1fbc8a1a8cebb8bfbe0e6bc9"
+		"icon"		"a61eb2c9fe25d721394b1ee06dff1d774c95165c"
+		"oslist"		"windows"
+		"osarch"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"870490_eula_0"
+				"name"		"LOTUS-Simulator Content-Tool EULA"
+				"url"		"https://store.steampowered.com//eula/870490_eula_0"
+			}
+		}
+		"logo"		"599ecc94b410088fb01a2fe0be521d5526d3d75d"
+		"logo_small"		"599ecc94b410088fb01a2fe0be521d5526d3d75d_thumb"
+		"associations"
+		{
+		}
+		"gameid"		"870490"
+	}
+	"config"
+	{
+		"installdir"		"LOTUS-Simulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Tools\\ContentTool.exe"
+				"workingdir"		"Tools\\"
+				"description"		"Content-Tool"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"870491"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2987658018284005996"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"870492"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8164996775430100925"
+					"size"		"23441992"
+					"download"		"20760384"
+				}
+			}
+		}
+		"370356"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"370350"
+			"sharedinstall"		"2"
+		}
+		"870493"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2663690643667785622"
+					"size"		"15067088"
+					"download"		"13490768"
+				}
+			}
+		}
+		"870494"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3123706206198447532"
+					"size"		"23441992"
+					"download"		"20760496"
+				}
+			}
+		}
+		"370353"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"370350"
+			"sharedinstall"		"2"
+		}
+		"870495"
+		{
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"870496"
+		{
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"370359"
+		{
+			"depotfromapp"		"370350"
+			"sharedinstall"		"2"
+		}
+		"baselanguages"		"english,german"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22175581"
+				"timeupdated"		"1772531604"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
