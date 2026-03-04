@@ -1,0 +1,174 @@
+"appinfo"
+{
+	"appid"		"90530"
+	"common"
+	{
+		"name"		"Battle for Graxia"
+		"type"		"Game"
+		"logo"		"7c18ddfe5551031f561fdbd46be5efde10340a09"
+		"logo_small"		"7c18ddfe5551031f561fdbd46be5efde10340a09_thumb"
+		"clienttga"		"efaa0ba8542d277aa78051b4c749df92a7019461"
+		"icon"		"6e176f1dcbd07013b58dc74864d0713576c3aa99"
+		"app_retired_publisher_request"		"1"
+		"app_retired_was_free"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_6e85552ce5b928a29c2bfee5f8273260d5b90c3d.jpg"
+		"store_asset_mtime"		"1368206995"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Petroglyph Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Petroglyph Games"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"29"
+			"3"		"3"
+			"4"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+		}
+		"steam_release_date"		"1354145940"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"90530"
+		"review_score"		"6"
+		"review_percentage"		"72"
+	}
+	"extended"
+	{
+		"allowelevation"		"1"
+		"developer"		"Petroglyph Games"
+		"gamedir"		"Rise of Immortals"
+		"homepage"		"http://www.battleforgraxia.com/"
+		"icon"		""
+		"inhibitautoversionroll"		"1"
+		"installscript"		"roiinstallscript.vdf"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"90531"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"publisher"		"Petroglyph Games"
+		"listofdlc"		"236640,236641,236642,236645"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ClientLauncherR.exe"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Rise of Immortals"
+		"noupdatesafterinstall"		"1"
+		"installscriptsignature"		"46072d97660fd07842750642c402e57e965384108f70539b016f6b1dd727cb22d7ad81c6ff91f9d44f0c2345cdeda13065497bcef99b238de12c7cff3d12b7362d0f60627832c9d9aaafbf6fe6eb2843bea41ccb47f0f80ac89a465de05f09212341220a0bd72ef81652ae84d5cfcc9f33c8eac3517a39d3dc06d432ba7ea6f0"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\software\petroglyph\battleforgraxia\launcher"
+			{
+				"string"
+				{
+					"installed"		"1"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\90530"
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"90531"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2162565882444183199"
+					"size"		"1506462657"
+					"download"		"0"
+				}
+			}
+		}
+		"236640"
+		{
+			"dlcappid"		"236640"
+		}
+		"236645"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8160008008183932971"
+					"size"		"823617501"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"236645"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"73283"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"hidecloudui"		"0"
+	}
+}
