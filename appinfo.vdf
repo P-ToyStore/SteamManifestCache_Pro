@@ -1,0 +1,100 @@
+"appinfo"
+{
+	"appid"		"3585250"
+	"common"
+	{
+		"name"		"Pro Basketball Manager 2026 Dataeditor"
+		"type"		"Tool"
+		"parent"		"3585230"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"clienttga"		"53c251fde2241b858c1b83149bf43b1574de5f44"
+		"clienticon"		"33eb1e6064b906f99ef87fb4fcb66ea1962af479"
+		"clienticns"		"b5dd75b26fbe0e83ff5754ba14d4c3dce6936000"
+		"icon"		"33eb1e6064b906f99ef87fb4fcb66ea1962af479"
+		"releasestate"		"released"
+		"gameid"		"3585250"
+	}
+	"config"
+	{
+		"installdir"		"Pro Basketball Manager 2026 Dataeditor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DataEditor.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DATAEDITOR.app/Contents/MacOS/Pro Basketball Manager 2026 DataEditor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3585251"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8039899518132340129"
+					"size"		"5941060877"
+					"download"		"2056832880"
+				}
+			}
+		}
+		"3585252"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1093777960862381510"
+					"size"		"6046425916"
+					"download"		"2079655264"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,schinese,tchinese,russian,portuguese,czech,turkish,brazilian,greek"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22250574"
+				"timeupdated"		"1772965797"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
