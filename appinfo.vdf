@@ -1,0 +1,268 @@
+"appinfo"
+{
+	"appid"		"1178530"
+	"common"
+	{
+		"name"		"Thirty-One 3D Premium"
+		"type"		"Game"
+		"logo"		"5b50717876361de4e000728a84d051f488d81158"
+		"logo_small"		"5b50717876361de4e000728a84d051f488d81158_thumb"
+		"icon"		"d267f7855da94ed9af39724d5c0083841a404fa8"
+		"clienttga"		"64a0cbbe9e4e6c9847ff42805a8676813c2d0745"
+		"clienticon"		"1099cff72235f72e553dd3d6b220956c8f22faa4"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"name_localized"
+		{
+			"german"		"Schwimmen 3D Premium"
+			"french"		"Trente-et-Un 3D Premium"
+		}
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"52.33372228704786"
+				"height_pct"		"76.59574344735915"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"52.33372228704786"
+					"height_pct"		"76.59574344735915"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1715898960"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"BufoProject"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BufoProject"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_47"		"1"
+			"category_22"		"1"
+			"category_27"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1718812083"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1178530"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"599"
+			"2"		"1666"
+			"3"		"4191"
+			"4"		"5851"
+			"5"		"4175"
+			"6"		"4166"
+			"7"		"1654"
+			"8"		"5350"
+			"9"		"7926"
+			"10"		"6129"
+			"11"		"4004"
+			"12"		"1775"
+			"13"		"17389"
+			"14"		"6730"
+			"15"		"12057"
+			"16"		"4182"
+			"17"		"9"
+			"18"		"492"
+			"19"		"3859"
+		}
+	}
+	"extended"
+	{
+		"developer"		"BufoProject"
+		"publisher"		"BufoProject"
+		"homepage"		"http://bufopro.de/cardgames/#thirtyone"
+	}
+	"config"
+	{
+		"installdir"		"Thirty-One 3D Premium"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ThirtyOne3D.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ThirtyOne3D.exe"
+				"arguments"		"-safe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Safe mode (windowed)"
+				}
+				"description"		"Safe mode (windowed)"
+			}
+			"2"
+			{
+				"executable"		"ThirtyOne3D.exe"
+				"arguments"		"-autoconfig"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Autoconfig mode (fullscreen)"
+				}
+				"description"		"Autoconfig mode (fullscreen)"
+			}
+		}
+		"app_mappings"
+		{
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1178531"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1264138937655815172"
+					"size"		"264585071"
+					"download"		"174896016"
+				}
+			}
+		}
+		"baselanguages"		"english,german"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17973222"
+				"timeupdated"		"1743699340"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"50000000"
+		"maxnumfiles"		"1000"
+		"appidredirect"		"1178530"
+	}
+}
