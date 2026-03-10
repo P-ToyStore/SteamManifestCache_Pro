@@ -1,0 +1,3 @@
+### [2288150] 三国志8  REMAKE/ROMANCE OF THE THREE KINGDOMS 8  REMAKE  
+**Build Id** `22227363`  
+**Last Update Time** `2026/03/10 09:00`  
