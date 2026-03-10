@@ -1,0 +1,187 @@
+"appinfo"
+{
+	"appid"		"760920"
+	"common"
+	{
+		"name"		"ElectricVLab"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"301d11281e572112d779fe098b317e30ef5611b5"
+		"clienttga"		"6654804d59cbfa1d873148904df286aefe10d073"
+		"icon"		"123d2c8c7b099d10d377a0f0129c7a59f1734f71"
+		"logo"		"2295d58cf33423d7701a0921bdb26675b8ed936f"
+		"logo_small"		"2295d58cf33423d7701a0921bdb26675b8ed936f_thumb"
+		"metacritic_name"		"ElectricVLab"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_11efbfcca0b4ef3a392d04caf6af03c9854bc51e.jpg"
+		"store_asset_mtime"		"1673495768"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Q1TEK LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Q1TEK LLC"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"ElectricVLab"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1545355738"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"760920"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1036"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Q1TEK LLC"
+		"publisher"		"Q1TEK LLC"
+		"homepage"		"http://www.electricvlab.com/"
+	}
+	"config"
+	{
+		"installdir"		"ElectricVLab"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ElectricVLab.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"workshopdepot"		"760920"
+		"baselanguages"		"english,russian"
+		"760921"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5415542322420312298"
+					"size"		"81089502"
+					"download"		"58982208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22269518"
+				"timeupdated"		"1773096848"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"99000000000"
+		"maxnumfiles"		"9999"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"."
+				"pattern"		"*.lab"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinSavedGames"
+				"path"		"."
+				"pattern"		"*.lab"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"SteamCloudDocuments"
+				"path"		"SavesDir"
+				"pattern"		"*.lab"
+				"recursive"		"1"
+			}
+		}
+	}
+}
