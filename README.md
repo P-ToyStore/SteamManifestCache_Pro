@@ -1,0 +1,3 @@
+### [4195970] EGGCONSOLE HYDLIDE3 PC-8801mkIISR  
+**Build Id** `22321457`  
+**Last Update Time** `2026/03/13 07:50`  
