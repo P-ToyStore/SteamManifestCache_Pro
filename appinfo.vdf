@@ -1,0 +1,281 @@
+"appinfo"
+{
+	"appid"		"2684520"
+	"common"
+	{
+		"name"		"Conjury"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"7ec5ea918756431a4892b7cdf8d2cea36e6dbddf"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"clienticon"		"4708cc484424425bc2aab99a168c8204a0c37a61"
+		"clienttga"		"cb4bf234d071ae0865877363f360470b7af7e7c1"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"test_timestamp"		"1703030400"
+			"tested_build_id"		"12922949"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"88.32951945080089"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"88.32951945080089"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1701431314"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Super Punch Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Super Punch Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"3"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_55"		"1"
+			"category_56"		"1"
+			"category_57"		"1"
+			"category_58"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1701505611"
+		"community_hub_visible"		"1"
+		"gameid"		"2684520"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1666"
+			"2"		"791774"
+			"3"		"1716"
+			"4"		"9"
+			"5"		"4182"
+			"6"		"1741"
+			"7"		"9271"
+			"8"		"3871"
+			"9"		"3964"
+			"10"		"1719"
+			"11"		"4342"
+			"12"		"4604"
+			"13"		"1684"
+			"14"		"4057"
+			"15"		"4172"
+			"16"		"32322"
+			"17"		"6730"
+			"18"		"4325"
+		}
+		"review_score"		"7"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"developer"		"Super Punch Games"
+		"publisher"		"Super Punch Games"
+	}
+	"config"
+	{
+		"installdir"		"Conjury"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"release/Conjury.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"conjury-macos.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"conjury-linux.x86_64"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"2684521"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3172662271218292829"
+					"size"		"246411179"
+					"download"		"119328928"
+				}
+			}
+		}
+		"2684522"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6871769385868971351"
+					"size"		"271742818"
+					"download"		"128280240"
+				}
+			}
+		}
+		"2684523"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1422591491720171414"
+					"size"		"291195917"
+					"download"		"121136816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16380579"
+				"timeupdated"		"1731426242"
+				"timebuildupdated"		"1731426242"
+			}
+		}
+	}
+}
