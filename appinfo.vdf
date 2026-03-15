@@ -1,0 +1,252 @@
+"appinfo"
+{
+	"appid"		"376910"
+	"common"
+	{
+		"name"		"Hot Guns"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"7cd7825746796f6e79cdbf8f41e1b02828b64ad1"
+		"logo_small"		"7cd7825746796f6e79cdbf8f41e1b02828b64ad1_thumb"
+		"icon"		"fbdbd771fcdf3eb6f2467d5e1a52ccc336f299a8"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"efb9377a53687ae2d105c1a9574015c16f1791be"
+		"clienttga"		"cd9dcd04b51392f0551761708dbc8a1e197401f8"
+		"osarch"		""
+		"metacritic_name"		"Hot Guns"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_12ba9ecf87536379ab6a6c22f048049a6a9767a6.jpg"
+		"store_asset_mtime"		"1493809894"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Quantized Bit"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Quantized Bit"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1493408824"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"376910"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"1625"
+		}
+		"review_score"		"7"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"developer"		"Quantized Bit"
+		"publisher"		"Quantized Bit"
+		"homepage"		"http://www.hotgunsgame.com"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Hot Guns"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HotGuns.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"HotGuns.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"HotGuns.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"HotGuns.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"376911"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5314287197137694901"
+					"size"		"174105591"
+					"download"		"54389744"
+				}
+				"beta"
+				{
+					"gid"		"5100159328365324214"
+					"size"		"125224468"
+					"download"		"42943424"
+				}
+			}
+		}
+		"376912"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8171372037970563996"
+					"size"		"212530107"
+					"download"		"65784400"
+				}
+				"beta"
+				{
+					"gid"		"1287452191355352960"
+					"size"		"155434993"
+					"download"		"50050000"
+				}
+			}
+		}
+		"376913"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2250689208717926588"
+					"size"		"218313049"
+					"download"		"66008160"
+				}
+				"beta"
+				{
+					"gid"		"2250689208717926588"
+					"size"		"218313049"
+					"download"		"66008160"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1966399"
+				"timeupdated"		"1500294939"
+				"timebuildupdated"		"1500294939"
+			}
+			"beta"
+			{
+				"buildid"		"1966350"
+				"description"		"For testing"
+				"timeupdated"		"1500293543"
+				"timebuildupdated"		"1500293543"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"200000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"HotGuns_Data/StreamingAssets/Data/"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"HotGuns_Data/StreamingAssets/Data/"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"HotGuns.app/Contents/Resources/Data/StreamingAssets/Data/"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
