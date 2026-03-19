@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"4353020"
+	"common"
+	{
+		"name"		"Rags to Riches"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"clienticon"		"1e5022a80cd0e17b90edb398458c707167d48aca"
+		"icon"		"1e5022a80cd0e17b90edb398458c707167d48aca"
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"fa448c6a39553c7a3a3606c12e7158bb21b68e6f/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"e45373f18b73feb78fbda6caa8fbdb87d27cb52f/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"b6f408409e6246c619cd1a4cdbf09dc537281d8e/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"b6f408409e6246c619cd1a4cdbf09dc537281d8e/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"01543c79593f5472066390a457ec8fb16731dbc4/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"01543c79593f5472066390a457ec8fb16731dbc4/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"01543c79593f5472066390a457ec8fb16731dbc4/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"ea1ebc312ef44cddb0cfeb3ad198164da7ce3f76/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"ea1ebc312ef44cddb0cfeb3ad198164da7ce3f76/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"e45373f18b73feb78fbda6caa8fbdb87d27cb52f/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"e45373f18b73feb78fbda6caa8fbdb87d27cb52f/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1771438880"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Interplay Entertainment Corp."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1773784033"
+		"community_hub_visible"		"1"
+		"gameid"		"4353020"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"4845"
+			"2"		"4202"
+			"3"		"599"
+			"4"		"91114"
+			"5"		"1698"
+			"6"		"4695"
+			"7"		"7743"
+			"8"		"8945"
+			"9"		"6815"
+			"10"		"3871"
+			"11"		"16689"
+			"12"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Interplay Entertainment Corp."
+		"publisher"		"Interplay Entertainment Corp."
+		"gamemanualurl"		"https://store.steampowered.com/manual/4353020/"
+	}
+	"config"
+	{
+		"installdir"		"Rags to Riches"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOSBox/dosbox.exe"
+				"arguments"		"-conf \"./config/dosbox_rags.conf\" -conf \"./config/dosbox_rags_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOSBox\\DOSBox Staging.app\\Contents\\MacOS\\dosbox"
+				"arguments"		"-conf \"./config/dosbox_rags.conf\" -conf \"./config/dosbox_rags_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox\\dosbox"
+				"arguments"		"-conf \"./config/dosbox_rags.conf\" -conf \"./config/dosbox_rags_single.conf\" -noconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"4353021"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4711196143293261965"
+					"size"		"48701650"
+					"download"		"27137968"
+				}
+			}
+		}
+		"4353022"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1762578677158959070"
+					"size"		"49506767"
+					"download"		"27616352"
+				}
+			}
+		}
+		"4353023"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"727928750073530872"
+					"size"		"46626631"
+					"download"		"24373168"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21577992"
+				"timeupdated"		"1768955107"
+				"timebuildupdated"		"1768955093"
+			}
+		}
+	}
+}
