@@ -1,0 +1,289 @@
+"appinfo"
+{
+	"appid"		"2210020"
+	"common"
+	{
+		"name"		"Across the Valley"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"icon"		"1b8af4a6324419f4b04ff312442a9530cfa3e6b8"
+		"clienticon"		"bc04010090d08f2c5526d00a26cd5c81d599177b"
+		"clienttga"		"a33e9b1d4e6770fc4c7212ffbe44945eba1996b8"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"japanese"		"1"
+		}
+		"openxrsupport"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"84.77246207701282"
+				"height_pct"		"89.89551175492757"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"84.77246207701282"
+					"height_pct"		"89.89551175492757"
+				}
+			}
+		}
+		"store_asset_mtime"		"1702586232"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"FusionPlay"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"FusionPlay"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1680771765"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2210020"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"21978"
+			"1"		"87918"
+			"2"		"4252"
+			"3"		"4520"
+			"4"		"1654"
+			"5"		"6815"
+			"6"		"30358"
+			"7"		"4835"
+			"8"		"4726"
+			"9"		"22602"
+			"10"		"599"
+			"11"		"4182"
+			"12"		"597"
+			"13"		"9204"
+			"14"		"5350"
+			"15"		"3968"
+			"16"		"4136"
+			"17"		"4195"
+			"18"		"8945"
+			"19"		"10235"
+		}
+		"review_score"		"7"
+		"review_percentage"		"83"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"FusionPlay"
+		"publisher"		"FusionPlay"
+		"homepage"		"http://www.across-the-valley.com"
+	}
+	"config"
+	{
+		"installdir"		"Across the Valley"
+		"launch"
+		{
+			"2"
+			{
+				"executable"		"Across the Valley.exe"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Default Runtime"
+				}
+				"description"		"Default Runtime"
+			}
+			"3"
+			{
+				"executable"		"Across the Valley.exe"
+				"arguments"		"steamVR"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"SteamVR Runtime"
+				}
+				"description"		"SteamVR Runtime"
+			}
+			"4"
+			{
+				"executable"		"Across the Valley.exe"
+				"arguments"		"oculus"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Oculus Runtime"
+				}
+				"description"		"Oculus Runtime"
+			}
+		}
+	}
+	"depots"
+	{
+		"2210021"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2938305895962476791"
+					"size"		"2190419052"
+					"download"		"363189392"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,spanish,schinese,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20282176"
+				"timeupdated"		"1759831614"
+				"timebuildupdated"		"1759822943"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"3"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"FusionPlay GmbH/Across the Valley"
+				"pattern"		"Default"
+			}
+		}
+	}
+}
