@@ -1,0 +1,333 @@
+"appinfo"
+{
+	"appid"		"2866000"
+	"common"
+	{
+		"name"		"Sword vs Horde"
+		"type"		"Game"
+		"icon"		"8e1fb401ecf1f1879b4cbcf2ab3db744eec82e38"
+		"linuxclienticon"		"8aa8b7a103215f5374d8b4c3b1c438d09d28dc5a"
+		"clienticon"		"835568aa5c49d9de1fe897c58acb7f962cf3411e"
+		"clienttga"		"271eb818537423b9c70f94b14684ab272f31f590"
+		"clienticns"		"1a1061de643e0216f241ed4eee7b70ccc2500a33"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"116.62777129521587"
+				"height_pct"		"57.44681048422537"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"116.62777129521587"
+					"height_pct"		"57.44681048422537"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1746263207"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zimmerbyte Games Lukas B. Zimmermann"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Zimmerbyte Games Lukas B. Zimmermann"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_55"		"1"
+			"category_56"		"1"
+			"category_57"		"1"
+			"category_58"		"1"
+			"category_23"		"1"
+			"category_66"		"1"
+			"category_67"		"1"
+			"category_68"		"1"
+			"category_74"		"1"
+			"category_75"		"1"
+			"category_78"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1725450040"
+		"community_hub_visible"		"1"
+		"gameid"		"2866000"
+		"store_tags"
+		{
+			"0"		"1646"
+			"1"		"42804"
+			"2"		"4885"
+			"3"		"3959"
+			"4"		"1759"
+			"5"		"6730"
+			"6"		"3987"
+			"7"		"1773"
+			"8"		"3871"
+			"9"		"4791"
+			"10"		"19"
+			"11"		"4608"
+			"12"		"4094"
+			"13"		"3964"
+			"14"		"4252"
+			"15"		"4604"
+			"16"		"1684"
+			"17"		"3952"
+			"18"		"4172"
+			"19"		"1659"
+		}
+		"review_score"		"7"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"Zimmerbyte Games Lukas B. Zimmermann"
+		"publisher"		"Zimmerbyte Games Lukas B. Zimmermann"
+	}
+	"config"
+	{
+		"installdir"		"Sword vs Horde"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SwordVsHorde.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"SwordVsHorde.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"SwordVsHorde.exe"
+				"arguments"		"--rendering-driver opengl3"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Sword vs Horde with OpenGL3"
+				}
+				"description"		"Sword vs Horde with OpenGL3"
+			}
+			"3"
+			{
+				"executable"		"SwordVsHorde.x86_64"
+				"arguments"		"--rendering-driver opengl3"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Sword vs Horde with OpenGL3"
+				}
+				"description"		"Sword vs Horde with OpenGL3"
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"2866001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4146680165332080815"
+					"size"		"74107376"
+					"download"		"22884784"
+				}
+				"beta"
+				{
+					"gid"		"4146680165332080815"
+					"size"		"74107376"
+					"download"		"22884784"
+				}
+			}
+		}
+		"2866002"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6963460019081564043"
+					"size"		"66698568"
+					"download"		"20467616"
+				}
+				"beta"
+				{
+					"gid"		"6963460019081564043"
+					"size"		"66698568"
+					"download"		"20467616"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15576989"
+				"timeupdated"		"1725449971"
+				"timebuildupdated"		"1725362782"
+			}
+			"beta"
+			{
+				"buildid"		"15576989"
+				"description"		"Beta for testing"
+				"timeupdated"		"1725363030"
+				"timebuildupdated"		"1725362782"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Godot/app_userdata/Sword vs Horde/saves"
+				"pattern"		"save.json"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Godot/app_userdata/Sword vs Horde/saves"
+						"replace"		".local/share/godot/app_userdata/Sword vs Horde/saves"
+					}
+				}
+			}
+		}
+	}
+}
