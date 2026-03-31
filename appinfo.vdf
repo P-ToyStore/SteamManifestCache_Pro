@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"776050"
+	"common"
+	{
+		"name"		"F/A-18E Super Hornet"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"138b0ffce4715c75f49533b94cf9efe8a364f9a7"
+		"logo_small"		"138b0ffce4715c75f49533b94cf9efe8a364f9a7_thumb"
+		"clienticon"		"5990c5d38a8d60ee5dea8037ecdbad7e0e838f2c"
+		"clienttga"		"e5efb8bf853523ff08d1f5fd74d0d4b53e2314f1"
+		"icon"		"960d142ccd7beebafb0da13dc70cb5b69d39bb21"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1687281207"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Digital Intergration"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Digital Theory Ltd."
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Interplay Entertainment Corp."
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"original_release_date"		"951811200"
+		"steam_release_date"		"1688452513"
+		"community_hub_visible"		"1"
+		"gameid"		"776050"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"599"
+			"2"		"15045"
+			"3"		"4168"
+			"4"		"1708"
+			"5"		"3859"
+			"6"		"4182"
+			"7"		"3993"
+			"8"		"4175"
+			"9"		"1678"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Digital Intergration"
+		"publisher"		"Interplay Entertainment Corp."
+		"homepage"		"https://www.interplay.com"
+	}
+	"config"
+	{
+		"installdir"		"FA-18E Super Hornet"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"F18.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"CONFIG.EXE"
+				"description"		"Super Hornet Preferences"
+				"type"		"config"
+			}
+			"2"
+			{
+				"executable"		"Manual.pdf"
+				"description"		"Manual"
+				"type"		"manual"
+			}
+			"3"
+			{
+				"executable"		"Pilot Notes.pdf"
+				"description"		"Show Pilot Notes"
+				"type"		"none"
+			}
+			"4"
+			{
+				"executable"		"RefCard.pdf"
+				"description"		"Show Reference Card"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"776051"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1824073865792712147"
+					"size"		"539683385"
+					"download"		"270288160"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11482191"
+				"timeupdated"		"1686864012"
+				"timebuildupdated"		"1686863949"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"LOG"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
