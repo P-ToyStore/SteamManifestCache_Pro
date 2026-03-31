@@ -1,0 +1,239 @@
+"appinfo"
+{
+	"appid"		"2503600"
+	"common"
+	{
+		"name"		"The ISLE Survival"
+		"type"		"Game"
+		"icon"		"c76e79e078e39293dea28ae6ac19aa2e39ef7a43"
+		"clienttga"		"331ba64923b69c9d97aad222036176a0927b1c87"
+		"clienticon"		"33f582af9e2faa04f0dc9b978611d8215f7a77cd"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"49.881740780902064"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"49.881740780902064"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1739380539"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Free Land Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Free Land Studios"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"28"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1692055580"
+		"community_hub_visible"		"1"
+		"gameid"		"2503600"
+		"store_tags"
+		{
+			"0"		"1662"
+			"1"		"3834"
+			"2"		"1695"
+			"3"		"3978"
+			"4"		"599"
+			"5"		"30358"
+			"6"		"4175"
+			"7"		"1702"
+			"8"		"9204"
+			"9"		"7332"
+			"10"		"10235"
+			"11"		"3810"
+			"12"		"4166"
+			"13"		"19"
+			"14"		"9564"
+			"15"		"3993"
+			"16"		"1697"
+			"17"		"4182"
+			"18"		"21"
+			"19"		"493"
+		}
+		"review_score"		"5"
+		"review_percentage"		"43"
+	}
+	"extended"
+	{
+		"developer"		"Free Land Studios"
+		"publisher"		"Free Land Studios"
+	}
+	"config"
+	{
+		"installdir"		"the ISLE survival"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"the_ISLE_survival.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2503601"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3931797772060346305"
+					"size"		"36726670131"
+					"download"		"13581866304"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17381774"
+				"timeupdated"		"1739678461"
+				"timebuildupdated"		"1739678309"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"sync_while_suspended"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
