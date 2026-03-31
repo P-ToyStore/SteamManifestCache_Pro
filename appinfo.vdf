@@ -1,0 +1,199 @@
+"appinfo"
+{
+	"appid"		"3146480"
+	"common"
+	{
+		"name"		"oath: there is a you that remains"
+		"type"		"DLC"
+		"parent"		"3104030"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"clienttga"		"b3bd6e04ce75a5debcf46b821911a94560024e5c"
+		"clienticon"		"4746eee705a36daaa5671bfb559b82a015e0bc25"
+		"linuxclienticon"		"7287ca3db56ef40601c155188474ea0e5b9a9724"
+		"clienticns"		"981e8a8c5ca79701e3c0e1a41c1500231e1600ba"
+		"icon"		"487227d99b5a298c9a129d7c2f178da19053cf65"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"controllertagwizard"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"95e8a154a6ec78f0d105f5533b20fd18574dd050/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"d56aafd0e8df9c65ebbaffc4bdbbe642664aed3f/header.jpg"
+		}
+		"store_screenshot"		"65aa3daa87406d0c58f31dcd7f53e905fe91500b/ss_65aa3daa87406d0c58f31dcd7f53e905fe91500b.jpg"
+		"store_asset_mtime"		"1752153807"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"vai5000"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"vai5000"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"37"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_68"		"1"
+			"category_69"		"1"
+			"category_71"		"1"
+			"category_75"		"1"
+			"category_79"		"1"
+			"category_18"		"1"
+			"category_55"		"1"
+			"category_56"		"1"
+			"category_57"		"1"
+			"category_58"		"1"
+			"category_59"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1750859916"
+		"community_hub_visible"		"1"
+		"gameid"		"3146480"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"8013"
+			"2"		"3871"
+			"3"		"11014"
+			"4"		"3799"
+			"5"		"6815"
+			"6"		"4400"
+			"7"		"4252"
+			"8"		"4094"
+			"9"		"4166"
+			"10"		"4342"
+			"11"		"5608"
+			"12"		"4947"
+			"13"		"492"
+			"14"		"6426"
+			"15"		"122"
+			"16"		"7481"
+			"17"		"31275"
+			"18"		"4182"
+			"19"		"113"
+		}
+	}
+	"extended"
+	{
+		"dlcforappid"		"3104030"
+		"mustownapptopurchase"		"3104030"
+		"developer"		"vai5000"
+		"publisher"		"vai5000"
+		"homepage"		"https://vai5000.bandcamp.com/album/there-is-a-you-that-remains"
+		"isfreeapp"		"1"
+		"dlcavailableonstore"		"1"
+	}
+	"depots"
+	{
+		"3146480"
+		{
+			"dlcappid"		"3146480"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1284342689061761710"
+					"size"		"2979602172"
+					"download"		"2757848528"
+				}
+			}
+		}
+		"3146481"
+		{
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6387320607475132745"
+					"size"		"2964912637"
+					"download"		"2763667648"
+				}
+			}
+			"dlcappid"		"3146480"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22585719"
+				"timeupdated"		"1774965419"
+				"timebuildupdated"		"1774965419"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"game/saves/"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacHome"
+				"addpath"		"Library/Renpy/oath"
+			}
+		}
+	}
+}
