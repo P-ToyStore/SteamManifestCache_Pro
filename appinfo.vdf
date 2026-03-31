@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"2582500"
+	"common"
+	{
+		"name"		"Sleepless Night"
+		"type"		"Game"
+		"icon"		"e3e9060e1d9e84b9321b539d52081720d2b51593"
+		"clienttga"		"0db8d68d737dca0f06cf9f58e6e36b02d8dc894e"
+		"clienticon"		"0cdfa79cf0ca673cc01bd1163f08703af04375c2"
+		"linuxclienticon"		"c0ca69b27ab93cba43c19d119a06ccf35c819a72"
+		"releasestate"		"released"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"45.61424467781225"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"45.61424467781225"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1699100467"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Damien Rouzeau"
+			}
+			"1"
+			{
+				"type"		"developer"
+				"name"		"Gwen Devriendt"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Damien Rouzeau"
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"Gwen Devriendt"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1698914588"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2582500"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"492"
+			"2"		"1667"
+			"3"		"3978"
+			"4"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"deckresolutionoverride"		"Default"
+		"developer"		"Damien Rouzeau"
+		"publisher"		"Damien Rouzeau"
+	}
+	"config"
+	{
+		"installdir"		"Sleepless Night"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MonsterUnderTheBed.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+		"steamcontrollertemplateindex"		"6"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2582501"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7305849981435584155"
+					"size"		"956146735"
+					"download"		"833339840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14228158"
+				"timeupdated"		"1714525185"
+				"timebuildupdated"		"1714525141"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000000"
+		"maxnumfiles"		"10000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"sync_while_suspended"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
