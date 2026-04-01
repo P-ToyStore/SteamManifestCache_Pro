@@ -1,0 +1,183 @@
+"appinfo"
+{
+	"appid"		"1061360"
+	"common"
+	{
+		"name"		"Time Loop Fighter"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"icon"		"d063467203ff176b15cb5c9130dff58de828e5cc"
+		"clienticon"		"db18d9e9bd0efe542ae98d0c4a04290fdaaa3604"
+		"clienttga"		"083ebe6e8ee0cf0553e4b5def8afc284375200de"
+		"logo"		"d8e566913632f3b0b8435658c6d61eba0096cb5a"
+		"logo_small"		"d8e566913632f3b0b8435658c6d61eba0096cb5a_thumb"
+		"clienticns"		"2cec5f4990e782ad50cbe745e5f5961dc83cc229"
+		"releasestate"		"released"
+		"metacritic_name"		"Time Loop Fighter"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e95de5d69e13fd01bef731e26093213fdec6690c.jpg"
+		"store_asset_mtime"		"1554741746"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Panikradius"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Panikradius"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1556089200"
+		"steam_release_date"		"1556092775"
+		"community_hub_visible"		"1"
+		"gameid"		"1061360"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"597"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Panikradius"
+		"publisher"		"Panikradius"
+		"homepage"		"https://www.panikradius.com/sites/games/tlf.html"
+	}
+	"config"
+	{
+		"installdir"		"Time Loop Fighter"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Time_Loop_Fighter.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Time_Loop_Fighter.x86_64"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"1061361"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3469813256054504517"
+					"size"		"57294932"
+					"download"		"26434784"
+				}
+			}
+		}
+		"1061362"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8992031596751187097"
+					"size"		"65270666"
+					"download"		"27736800"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3783967"
+				"timeupdated"		"1556699561"
+				"timebuildupdated"		"1556699459"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"LinuxHome"
+				"path"		".local/share/godot/app_userdata/Time_Loop_Fighter"
+				"pattern"		"savegame.save"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"LinuxHome"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataRoaming"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		".local/share/godot/app_userdata/Time_Loop_Fighter"
+						"replace"		"Godot/app_userdata/Time_Loop_Fighter"
+					}
+				}
+			}
+		}
+	}
+}
