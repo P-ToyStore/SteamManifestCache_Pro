@@ -1,0 +1,202 @@
+"appinfo"
+{
+	"appid"		"1963720"
+	"common"
+	{
+		"name"		"Core Keeper Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1621690"
+		"icon"		"5ac0dd5629c376aac018bce19309de956750f60a"
+		"clienttga"		"06b1a17e606075f789d5be82da4f2f1383ce8c0b"
+		"clienticon"		"61ad6cf2936a000a8f004cef2d4b790e76407538"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1963720"
+	}
+	"config"
+	{
+		"installdir"		"Core Keeper Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launch.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"launch.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"README.txt"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"_readme.sh"
+				"type"		"manual"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"app_mappings"
+		{
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1963721"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"404838505895597558"
+					"size"		"512163537"
+					"download"		"156248192"
+				}
+				"1.1.2.0"
+				{
+					"gid"		"4258448492178878273"
+					"size"		"425614927"
+					"download"		"122068192"
+				}
+				"1.1.2.10"
+				{
+					"gid"		"5261741793182544780"
+					"size"		"386656145"
+					"download"		"134601552"
+				}
+			}
+		}
+		"1963722"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1408765325229552116"
+					"size"		"572550842"
+					"download"		"149660096"
+				}
+				"1.1.2.0"
+				{
+					"gid"		"1311441094058502198"
+					"size"		"493126515"
+					"download"		"122137728"
+				}
+				"1.1.2.10"
+				{
+					"gid"		"246424839616062410"
+					"size"		"450910527"
+					"download"		"135026496"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22516523"
+				"timeupdated"		"1775041400"
+				"timebuildupdated"		"1774531591"
+			}
+			"1.1.2.0"
+			{
+				"buildid"		"21055749"
+				"description"		"Legacy build - 1.1.2.0 with security patch"
+				"timeupdated"		"1764862585"
+				"timebuildupdated"		"1764861958"
+			}
+			"1.1.2.10"
+			{
+				"buildid"		"21036907"
+				"description"		"Legacy build - 1.1.2.10"
+				"timeupdated"		"1772012964"
+				"timebuildupdated"		"1764763972"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
