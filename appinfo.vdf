@@ -1,0 +1,289 @@
+"appinfo"
+{
+	"appid"		"2158860"
+	"common"
+	{
+		"name"		"JBMod"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"8349c422017f97360d632434f0a8c3837fcfed81"
+		"clienttga"		"be2f5640be916d148f613133fb65d2802f96ab18"
+		"icon"		"c5d5f469494167678beb9fe2eb8b7668404a116c"
+		"parent"		"220"
+		"releasestate"		"released"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"75.32088681446908"
+				"height_pct"		"58.35905960579433"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"75.32088681446908"
+					"height_pct"		"58.35905960579433"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1750112537"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TEAM JBMOD"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TEAM JBMOD"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"28"
+			"2"		"37"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_12"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_22"		"1"
+			"category_30"		"1"
+			"category_17"		"1"
+			"category_16"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1666467534"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2158860"
+		"exfgls"		"3"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"599"
+			"2"		"597"
+			"3"		"19"
+			"4"		"3810"
+			"5"		"5348"
+			"6"		"4182"
+			"7"		"1651"
+			"8"		"3859"
+			"9"		"3839"
+			"10"		"1669"
+			"11"		"492"
+			"12"		"1663"
+			"13"		"10397"
+			"14"		"5350"
+			"15"		"1774"
+			"16"		"4136"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"mustownapptopurchase"		"220"
+		"gamedir"		"jbmod"
+		"serverbrowsername"		"JBMod"
+		"developer"		"TEAM JBMOD"
+		"developer_url"		"http://www.valvesoftware.com"
+		"publisher"		"TEAM JBMOD"
+		"homepage"		"https://www.jbmod.com"
+		"isfreeapp"		"1"
+	}
+	"config"
+	{
+		"installdir"		"JBMod"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"jbmod.exe"
+				"arguments"		"-steam -game jbmod"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"hl2.sh"
+				"arguments"		"-steam -game jbmod"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"jbmod.sh"
+				"arguments"		"-steam -game jbmod"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"github"
+				}
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"app_mappings"
+		{
+			"0"
+			{
+				"platform"		"linux"
+				"tool"		"SteamLinuxRuntime_sniper"
+				"branch"		"github"
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"2158860"
+		"2158861"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4603869920203644675"
+					"size"		"3007935382"
+					"download"		"1507988176"
+				}
+				"github"
+				{
+					"gid"		"8965896430211612729"
+					"size"		"3132691259"
+					"download"		"1636801536"
+				}
+			}
+		}
+		"2158862"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8037126527022645912"
+					"size"		"121780372"
+					"download"		"39046528"
+				}
+				"github"
+				{
+					"gid"		"8791069840636597303"
+					"size"		"316533393"
+					"download"		"127786400"
+				}
+			}
+		}
+		"2158863"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5659197922341498299"
+					"size"		"83188232"
+					"download"		"20131328"
+				}
+				"github"
+				{
+					"gid"		"5856704836274566130"
+					"size"		"211747971"
+					"download"		"66646880"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10752999"
+				"timeupdated"		"1775092737"
+				"timebuildupdated"		"1678676677"
+			}
+			"github"
+			{
+				"buildid"		"22611796"
+				"description"		"Unstable development build"
+				"timeupdated"		"1775093363"
+				"timebuildupdated"		"1775093363"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+	}
+}
