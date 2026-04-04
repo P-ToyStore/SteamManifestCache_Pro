@@ -1,0 +1,408 @@
+"appinfo"
+{
+	"appid"		"2079080"
+	"common"
+	{
+		"name"		"Frogs vs. Storks"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"clienticon"		"0d26d16a2a6973ecc46fb342650aa02b789f8529"
+		"clienttga"		"386c74fb828c9aa08c46c8b1d7f0b7765a8499e5"
+		"icon"		"9461bfdb8d2db48095c7f6db1afc05361ea45ab4"
+		"releasestate"		"released"
+		"clienticns"		"e80a282c76c91fb0935e0758bb46c6f0c8be1a78"
+		"linuxclienticon"		"ea07fd0c06770cacc2b460a5fc9964db90a5b03b"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"83.86727688787187"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"83.86727688787187"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1691051192"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cateia Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Cateia Games"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_68"		"1"
+			"category_74"		"1"
+			"category_76"		"1"
+			"category_77"		"1"
+			"category_79"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"croatian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1691137510"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2079080"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1730"
+			"2"		"597"
+			"3"		"8666"
+			"4"		"1664"
+			"5"		"1625"
+			"6"		"3871"
+			"7"		"4726"
+			"8"		"4791"
+			"9"		"4195"
+			"10"		"492"
+			"11"		"4305"
+			"12"		"5350"
+			"13"		"6129"
+			"14"		"1708"
+			"15"		"4182"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Cateia Games"
+		"publisher"		"Cateia Games"
+		"homepage"		"https://cateia.com/game/frogs-vs-storks/"
+	}
+	"config"
+	{
+		"installdir"		"Frogs vs. Storks"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"frogs.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"frogs_mac_steam.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"frogs_steam_linux_x64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"app_mappings"
+		{
+			"1"
+			{
+				"platform"		"linux"
+				"tool"		"SteamLinuxRuntime"
+				"comment"		"scout SLR"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"dutch,english,french,german,japanese,koreana,polish,russian,spanish"
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2079081"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4057490035321880616"
+					"size"		"51120150"
+					"download"		"35596928"
+				}
+				"previous_version"
+				{
+					"gid"		"5000594806745008124"
+					"size"		"50652333"
+					"download"		"34875776"
+				}
+			}
+		}
+		"2079082"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6400581826860103671"
+					"size"		"61421931"
+					"download"		"40941856"
+				}
+				"previous_version"
+				{
+					"gid"		"4876233456032929610"
+					"size"		"61325715"
+					"download"		"39944832"
+				}
+			}
+		}
+		"2079083"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1107907534348043913"
+					"size"		"54423881"
+					"download"		"36481888"
+				}
+				"previous_version"
+				{
+					"gid"		"6317674092104884678"
+					"size"		"53947252"
+					"download"		"35608960"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22650181"
+				"timeupdated"		"1775330180"
+				"timebuildupdated"		"1775330119"
+			}
+			"previous_version"
+			{
+				"buildid"		"17475111"
+				"description"		"Contains the previous version of the game, to be used in case the new update doesn't work well."
+				"timeupdated"		"1740335278"
+				"timebuildupdated"		"1740334852"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"1000"
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"userData"
+						"replace"		"Frogs vs. Storks"
+					}
+				}
+			}
+		}
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"userData"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"userData"
+				"pattern"		"*.bin"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"userData"
+				"pattern"		"*.cfg"
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"userData"
+				"pattern"		"*.bkp"
+				"recursive"		"1"
+			}
+			"4"
+			{
+				"root"		"gameinstall"
+				"path"		"userData"
+				"pattern"		"*.crc"
+				"recursive"		"1"
+			}
+		}
+	}
+}
