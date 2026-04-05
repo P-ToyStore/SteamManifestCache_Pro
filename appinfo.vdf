@@ -1,0 +1,147 @@
+"appinfo"
+{
+	"appid"		"2208380"
+	"common"
+	{
+		"name"		"DeadPoly Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1621070"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"c9c15464be773e6a9329053fdaf4f1ec35dc61d4"
+		"clienttga"		"d36353db48ef9aad5a145c93e5f1d35112c43f6f"
+		"clienticon"		"18cb277f14d5eab06be34f846de924e672be48c7"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2208380"
+	}
+	"config"
+	{
+		"installdir"		"DeadPoly Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DeadPolyServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"DeadPoly Dedicated Server"
+				}
+				"description"		"DeadPoly Dedicated Server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2208381"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6743293348178983535"
+					"size"		"911583309"
+					"download"		"583033760"
+				}
+				"legacy"
+				{
+					"gid"		"1287940941906054355"
+					"size"		"858805466"
+					"download"		"542395376"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22657481"
+				"timeupdated"		"1775418948"
+				"timebuildupdated"		"1775418905"
+			}
+			"legacy"
+			{
+				"buildid"		"10965348"
+				"description"		"For DeadPoly's Legacy Branch"
+				"timeupdated"		"1708669712"
+				"timebuildupdated"		"1681065218"
+			}
+		}
+	}
+}
