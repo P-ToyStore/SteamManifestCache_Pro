@@ -1,0 +1,130 @@
+"appinfo"
+{
+	"appid"		"544030"
+	"common"
+	{
+		"name"		"Vengeance: Spray Editor"
+		"type"		"Tool"
+		"parent"		"384960"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"6670f318e21ad3af7b490b00b8320793c9361700"
+		"clienticon"		"b3aa1c9210ced7444a01e6d78017c6f73758d351"
+		"clienttga"		"236401d69533c59a54b0ad2e4a70bc0d45e086d8"
+		"logo"		"7e2c8888ad47a1367907666be9118e2ea7fd3c4e"
+		"logo_small"		"7e2c8888ad47a1367907666be9118e2ea7fd3c4e_thumb"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"544030"
+	}
+	"config"
+	{
+		"installdir"		"Vengeance Spray Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"venganceSprayEditor.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"venganceSprayEditor.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"venganceSprayEditor.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"544030"
+		"544031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"417616537708162218"
+					"size"		"160774273"
+					"download"		"33168656"
+				}
+			}
+		}
+		"544032"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4613217096577860770"
+					"size"		"168810618"
+					"download"		"34665408"
+				}
+			}
+		}
+		"544033"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4091696538192662066"
+					"size"		"162566352"
+					"download"		"33449456"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1460655"
+				"timeupdated"		"1479243901"
+				"timebuildupdated"		"1479243901"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"appidredirect"		"384960"
+	}
+}
