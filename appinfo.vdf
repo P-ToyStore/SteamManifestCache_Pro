@@ -1,0 +1,234 @@
+"appinfo"
+{
+	"appid"		"1914730"
+	"common"
+	{
+		"name"		"Mikoverse Playtest"
+		"type"		"Beta"
+		"parent"		"1914710"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"da20095050c212ab7d359d7e62aff405323db64f"
+		"logo_small"		"da20095050c212ab7d359d7e62aff405323db64f_thumb"
+		"icon"		"50946cf27dc9def014b99476d0cc0f1b30e8e8c8"
+		"clienttga"		"4e71a1b7981f9d09ca72ebf9ce9f29384b83b326"
+		"clienticon"		"b3d2f9e6302f66e5f65118c8944b8c0faf8629c0"
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1914730_eula_0"
+				"name"		"Mikoverse Playtest EULA"
+				"url"		"https://store.steampowered.com//eula/1914730_eula_0"
+				"version"		"1"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"48.45458739247237"
+				"height_pct"		"37.30705295654241"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"48.45458739247237"
+					"height_pct"		"37.30705295654241"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1714809690"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1677487195"
+		"community_hub_visible"		"1"
+		"gameid"		"1914730"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"betaforappid"		"1914710"
+		"playtest_type"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Mikoverse"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Windows\\MikoVerse.exe"
+				"arguments"		"-NoScreenMessages -nohmd"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Cloud"
+				}
+				"description"		"Cloud"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1914731"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"1914732"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2192926434203803821"
+					"size"		"12824865984"
+					"download"		"12324358560"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22771307"
+				"timeupdated"		"1776119918"
+				"timebuildupdated"		"1776119879"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"MikoVerse/Saved/SaveGames"
+				"pattern"		"AccountSettings.sav"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"MikoVerse/Saved/SaveGames"
+				"pattern"		"AvatarSettings.sav"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"MikoVerse/Saved/SaveGames"
+				"pattern"		"Inventory.sav"
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"MikoVerse/Saved/SaveGames"
+				"pattern"		"Fishing.sav"
+				"recursive"		"1"
+			}
+		}
+	}
+}
