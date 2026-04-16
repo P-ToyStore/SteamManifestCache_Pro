@@ -1,0 +1,210 @@
+"appinfo"
+{
+	"appid"		"913500"
+	"common"
+	{
+		"name"		"Prank Masters"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"433e808e697a1e5f704fe52c25a649b420bd994d"
+		"logo_small"		"433e808e697a1e5f704fe52c25a649b420bd994d_thumb"
+		"icon"		"c9dfdc90015cb13a346f53462c2df7f69ddf3740"
+		"clienttga"		"7aa6c7be1579a7044a9fca3502eaa187b60fa838"
+		"clienticns"		"afda0b9977c6c2cf9a98ad838b99cc6c874abc0c"
+		"linuxclienticon"		"11e64b61a16106328fbd54297e10329b1c6da92d"
+		"clienticon"		"b8dde79a41f8d7aef8769b6e42c25fc07623058b"
+		"metacritic_name"		"Prank Masters"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_33d67afdb08041b287d37314ec1aeff65ac6c1d3.jpg"
+		"store_asset_mtime"		"1730118238"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lockvia Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Lockvia Studios"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_13"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"original_release_date"		"1527922800"
+		"steam_release_date"		"1534415225"
+		"community_hub_visible"		"1"
+		"gameid"		"913500"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"599"
+			"2"		"31579"
+			"3"		"9551"
+			"4"		"3799"
+			"5"		"4947"
+			"6"		"7208"
+			"7"		"4182"
+			"8"		"4085"
+			"9"		"597"
+			"10"		"1719"
+			"11"		"6971"
+			"12"		"3871"
+			"13"		"4305"
+			"14"		"4726"
+			"15"		"31275"
+			"16"		"6426"
+			"17"		"12095"
+			"18"		"1685"
+		}
+		"review_score"		"7"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Lockvia Studios"
+		"publisher"		"Lockvia Studios"
+		"homepage"		"http://prankmasters.lockviastudios.com/"
+	}
+	"config"
+	{
+		"installdir"		"Prank Masters"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Prank Masters.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Prank Masters.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Prank Masters.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"913501"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5826121189605353358"
+					"size"		"355648134"
+					"download"		"287667008"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16205496"
+				"timeupdated"		"1730117208"
+				"timebuildupdated"		"1730116966"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"5000"
+		"appidredirect"		"913510"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"LockviaStudios/PrankMasters/CloudSaves"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Lockvia/PrankMasters/CloudSaves"
+						"replace"		"LockviaStudios/PrankMasters/CloudSaves"
+					}
+				}
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"LockviaStudios/PrankMasters/CloudSaves"
+						"replace"		"LockviaStudios/PrankMasters/CloudSaves"
+					}
+				}
+			}
+		}
+	}
+}
