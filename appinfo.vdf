@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"220070"
+	"common"
+	{
+		"name"		"Chivalry: Medieval Warfare Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"freetodownload"		"1"
+		"gameid"		"220070"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"ValveTestApp220070"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateTool"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"chivalry_ded_server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/UDK.exe"
+				"arguments"		"AOCTO-Battlegrounds_V3_P?steamsockets -SEEKFREELOADINGSERVER"
+				"description"		"Launch Dedicated Server"
+				"workingdir"		"Binaries/Win32"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Binaries/Linux/UDKGameServer-Linux"
+				"arguments"		"AOCTO-Battlegrounds_V3_P?steamsockets -SEEKFREELOADINGSERVER"
+				"description"		"Launch Dedicated Server"
+				"workingdir"		"Binaries/Linux/"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"preloadonly"		"1"
+		"overridescddb"		"1"
+		"220071"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1612728030001206406"
+					"size"		"1493073110"
+					"download"		"504797408"
+				}
+				"beta"
+				{
+					"gid"		"5773543025664294237"
+					"size"		"1493394120"
+					"download"		"510749888"
+				}
+				"defaultauto"
+				{
+					"gid"		"1612728030001206406"
+					"size"		"1493073110"
+					"download"		"504797408"
+				}
+				"hotfix1"
+				{
+					"gid"		"4802313358293805195"
+					"size"		"638665039"
+					"download"		"0"
+				}
+				"linuxtesting"
+				{
+					"gid"		"7347527372863537280"
+					"size"		"1266294060"
+					"download"		"3059419028986"
+				}
+				"local"
+				{
+					"gid"		"9166824352901336187"
+					"size"		"659562291"
+					"download"		"0"
+				}
+				"prepatch"
+				{
+					"gid"		"2738335746069986139"
+					"size"		"1450729446"
+					"download"		"504860544"
+				}
+			}
+		}
+		"220072"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"526122111323908601"
+					"size"		"1215065484"
+					"download"		"295324960"
+				}
+				"beta"
+				{
+					"gid"		"7649592364407112260"
+					"size"		"1233747595"
+					"download"		"300311616"
+				}
+				"defaultauto"
+				{
+					"gid"		"526122111323908601"
+					"size"		"1215065484"
+					"download"		"295324960"
+				}
+				"linuxtesting"
+				{
+					"gid"		"1408652631493350438"
+					"size"		"991794604"
+					"download"		"244104384"
+				}
+				"prepatch"
+				{
+					"gid"		"3562284815739696257"
+					"size"		"1176348971"
+					"download"		"284044288"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5216959"
+				"timeupdated"		"1593534485"
+				"timebuildupdated"		"1593133613"
+			}
+			"beta"
+			{
+				"buildid"		"2903861"
+				"timeupdated"		"1530282484"
+				"timebuildupdated"		"1530222720"
+			}
+			"defaultauto"
+			{
+				"buildid"		"5216959"
+				"description"		"auto set to live by build machine"
+				"timeupdated"		"1593133613"
+				"timebuildupdated"		"1593133613"
+			}
+			"hotfix1"
+			{
+				"buildid"		"29366"
+				"timebuildupdated"		"1354700702"
+			}
+			"linuxtesting"
+			{
+				"buildid"		"502647"
+				"timebuildupdated"		"1422056766"
+			}
+			"local"
+			{
+				"buildid"		"68735"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timebuildupdated"		"1368726078"
+			}
+			"prepatch"
+			{
+				"buildid"		"576791"
+				"timebuildupdated"		"1428030104"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
