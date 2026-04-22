@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"719880"
+	"common"
+	{
+		"name"		"Mercury VIP"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"719880_eula_0"
+				"name"		"Mercury VIP EULA"
+				"url"		"https://store.steampowered.com//eula/719880_eula_0"
+			}
+		}
+		"osextended"		"macos64"
+		"icon"		"996f388b28c9803dbcfa2f46452ddc8b1bb3937f"
+		"clienticon"		"27580afda4c4d268ad756961c36674819509fd8d"
+		"clienttga"		"f64c31a1672ad91cee7b14b82b06d7a24d8dcfc2"
+		"associations"
+		{
+		}
+		"gameid"		"719880"
+		"exfgls"		"8"
+		"store_tags"
+		{
+		}
+	}
+	"config"
+	{
+		"installdir"		"Mercury VIP"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Humankind.exe"
+				"arguments"		"-single-instance"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Humankind.exe"
+				"arguments"		"-single-instance --ftux"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"review"
+				}
+				"description_loc"
+				{
+					"english"		"First Time User Experience"
+				}
+				"description"		"First Time User Experience"
+			}
+			"2"
+			{
+				"executable"		"Humankind.app"
+				"arguments"		"-single-instance"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"719881"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5347064073072617942"
+					"size"		"37295767311"
+					"download"		"14971043824"
+				}
+				"rollback"
+				{
+					"gid"		"6305661805951578155"
+					"size"		"37052024500"
+					"download"		"14894144848"
+				}
+			}
+		}
+		"719882"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2127575244248471290"
+					"size"		"37342695672"
+					"download"		"15004278928"
+				}
+				"rollback"
+				{
+					"gid"		"889269112422468745"
+					"size"		"37094916174"
+					"download"		"14951707696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22900439"
+				"timeupdated"		"1776866348"
+				"timebuildupdated"		"1776845343"
+			}
+			"rollback"
+			{
+				"buildid"		"19670322"
+				"description"		"Build n-1"
+				"timeupdated"		"1772461848"
+				"timebuildupdated"		"1755700983"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"400"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"Humankind/Save Files/Cloud"
+				"pattern"		"*.ctr"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Humankind/Save Files/Cloud"
+				"pattern"		"*.ctr"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
