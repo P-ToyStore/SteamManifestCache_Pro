@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"3566910"
+	"common"
+	{
+		"name"		"Fading Faith Playtest"
+		"type"		"Beta"
+		"parent"		"3015600"
+		"icon"		"03030fa3034a0a2e40d8c1715b6c3cf1ea70948f"
+		"clienttga"		"6a051892944b03468846fabdaf93a0c3c980e842"
+		"linuxclienticon"		"d9105bd7ccaa49195554c8eda57b6b8b57c8d63b"
+		"clienticon"		"d37299cd6f578465489790a2f84e5089b2f64c88"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macosapplesilicon"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"1f5cca987fce101d5b80511be03afe5f6da25382/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"befa4b622684fe5e2c67e26617359fa68e99963a/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"415295bc7cf377087e2787a155eae62476d4db87/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"415295bc7cf377087e2787a155eae62476d4db87/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"dd01f2a8c785f2692344d6b8cfa5d5b440406e8e/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"dd01f2a8c785f2692344d6b8cfa5d5b440406e8e/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"dd01f2a8c785f2692344d6b8cfa5d5b440406e8e/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"2b0c26369f4536b56b2db655ae43063e103065ab/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"2b0c26369f4536b56b2db655ae43063e103065ab/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"befa4b622684fe5e2c67e26617359fa68e99963a/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"befa4b622684fe5e2c67e26617359fa68e99963a/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1770115455"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1771509921"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3566910"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"playtest_type"		"1"
+		"playtestinvitecount"		"3"
+		"playtestinviteendtime"		"1771423254"
+	}
+	"config"
+	{
+		"installdir"		"Fading Faith Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FF.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"FF.x86_64"
+				"arguments"		"-no-cef-sandbox"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Contents/MacOS/FF"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"app_mappings"
+		{
+			"0"
+			{
+				"platform"		"linux"
+				"tool"		"SteamLinuxRuntime_sniper"
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+		"steamcontrollertouchtemplateindex"		"8"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"7"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,polish,turkish,arabic,greek,indonesian"
+		"3566911"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7051107465316827474"
+					"size"		"13659715407"
+					"download"		"8041349888"
+				}
+			}
+		}
+		"3566912"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8717683957720372828"
+					"size"		"12540765695"
+					"download"		"6972788560"
+				}
+			}
+		}
+		"3566913"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1110260487479191342"
+					"size"		"13337601644"
+					"download"		"8012071888"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22956704"
+				"timeupdated"		"1777140462"
+				"timebuildupdated"		"1777140379"
+			}
+		}
+	}
+}
