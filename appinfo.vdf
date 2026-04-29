@@ -1,0 +1,131 @@
+"appinfo"
+{
+	"appid"		"2533070"
+	"common"
+	{
+		"name"		"TerraTech Worlds Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2313330"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"ca2a55a5c0bcc631dd27ee44a347ae6c767463f5"
+		"clienticon"		"7c650a35347c45ff860ff8777b458119472a616f"
+		"clienttga"		"ffc282b236dbf4d5025b061fef504e40ba60f06b"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2533070"
+	}
+	"config"
+	{
+		"installdir"		"TTW_Dedicated_Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TT2Server.exe"
+				"arguments"		"-log -nullrhi"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2533071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5774185661321307143"
+					"size"		"6225612967"
+					"download"		"1899544560"
+				}
+				"ttw_unstable"
+				{
+					"gid"		"5774185661321307143"
+					"size"		"6225612967"
+					"download"		"1899544560"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23014252"
+				"timeupdated"		"1777482703"
+				"timebuildupdated"		"1777478517"
+			}
+			"ttw_unstable"
+			{
+				"buildid"		"23014252"
+				"description"		"Work-in-progress build"
+				"timeupdated"		"1777482610"
+				"timebuildupdated"		"1777478517"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
