@@ -1,0 +1,557 @@
+"appinfo"
+{
+	"appid"		"3622640"
+	"common"
+	{
+		"name"		"Vending Machine Co."
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"42f7f8b5949f3d14f07fb80d21b59f4c3e526980"
+		"clienticon"		"42f7f8b5949f3d14f07fb80d21b59f4c3e526980"
+		"clienttga"		"922c426fa9a77a24da1c57c384bd7ac3f6d2d60a"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"name_localized"
+		{
+			"schinese"		"自动售货机模拟器"
+			"tchinese"		"自動售貨機模擬器"
+			"koreana"		"자판기 시뮬레이터"
+			"japanese"		"自販機シミュレーター"
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1777334400"
+			"tested_build_id"		"22726306"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_CrossPlatformCloudSavesNotSupported"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_CrossPlatformCloudSavesNotSupported"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"91dc149aa5b96e21ce824bf6b8348601173fe789/capsule_231x87.jpg"
+			"schinese"		"6dbde586a5ffe246229b09d45aba48ebd03c31cb/capsule_231x87_schinese.jpg"
+			"tchinese"		"21f8a87ffb4195048e58276c8ca355f26ffdbca8/capsule_231x87_tchinese.jpg"
+			"koreana"		"8f51458dd58cad9d53ca6980e871a03a616b479d/capsule_231x87_koreana.jpg"
+			"japanese"		"af256f3cb7387033f9c220c693b13140c2ffd61e/capsule_231x87_japanese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"9fab777cd6936df8ed5c7d518e312fe10487435b/header.jpg"
+			"schinese"		"a49125e3d6841c5e05e9b74f280006713830a75b/header_schinese.jpg"
+			"tchinese"		"d83b5be490e9d8c44914c92bead65560fd0b69f2/header_tchinese.jpg"
+			"koreana"		"d51540fc0ccd52390d7879796fc3e03b634474a1/header_koreana.jpg"
+			"japanese"		"d4a4143d1d87057fc255911254aa1004ffb9f7d5/header_japanese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn,zh-tw,ko,ja"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en,zh-cn,zh-tw,ko,ja"
+			"library_header"		"en,zh-cn,zh-tw,ja,ko"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"64.92362997157406"
+				"height_pct"		"66.94470005046156"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"cf426d63c4e494c28868a987ee1c7132a000994f/library_capsule.jpg"
+					"schinese"		"92ae0403b57530dfb8ac3ab5ae34a0726d923c32/library_capsule_schinese.jpg"
+					"tchinese"		"1831b175ad6f195adda06ae180cfa73575cb4e17/library_capsule_tchinese.jpg"
+					"koreana"		"1958f86d0f275f65780b772c91761142cdd7fe6f/library_capsule_koreana.jpg"
+					"japanese"		"9eabe2b5330562ea03bb026d125d447f22bf8ceb/library_capsule_japanese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"cf426d63c4e494c28868a987ee1c7132a000994f/library_capsule_2x.jpg"
+					"schinese"		"92ae0403b57530dfb8ac3ab5ae34a0726d923c32/library_capsule_schinese_2x.jpg"
+					"tchinese"		"1831b175ad6f195adda06ae180cfa73575cb4e17/library_capsule_tchinese_2x.jpg"
+					"koreana"		"1958f86d0f275f65780b772c91761142cdd7fe6f/library_capsule_koreana_2x.jpg"
+					"japanese"		"9eabe2b5330562ea03bb026d125d447f22bf8ceb/library_capsule_japanese_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"b1c9741ee5ee7cdb8cdd09ab29b975cec14d0a03/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"b1c9741ee5ee7cdb8cdd09ab29b975cec14d0a03/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"b1c9741ee5ee7cdb8cdd09ab29b975cec14d0a03/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"6effe3bfac9101f4048ab2809b6bef04c16bac23/logo.png"
+					"schinese"		"cf79befedd8817bdf188f8d07e49b7adf5debd26/logo_schinese.png"
+					"tchinese"		"22bfb36f7c4c896b2cb0de0abbc1f90ab84384bb/logo_tchinese.png"
+					"koreana"		"1aeafb9fcaf99f8bb735c90386f9ba53be8e82a6/logo_koreana.png"
+					"japanese"		"351a52b1a62ecd80f1dd48b8a652d4e1f96b5569/logo_japanese.png"
+				}
+				"image2x"
+				{
+					"english"		"6effe3bfac9101f4048ab2809b6bef04c16bac23/logo_2x.png"
+					"schinese"		"cf79befedd8817bdf188f8d07e49b7adf5debd26/logo_schinese_2x.png"
+					"tchinese"		"22bfb36f7c4c896b2cb0de0abbc1f90ab84384bb/logo_tchinese_2x.png"
+					"koreana"		"1aeafb9fcaf99f8bb735c90386f9ba53be8e82a6/logo_koreana_2x.png"
+					"japanese"		"351a52b1a62ecd80f1dd48b8a652d4e1f96b5569/logo_japanese_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"64.92362997157406"
+					"height_pct"		"66.94470005046156"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"9fab777cd6936df8ed5c7d518e312fe10487435b/library_header.jpg"
+					"schinese"		"a49125e3d6841c5e05e9b74f280006713830a75b/library_header_schinese.jpg"
+					"tchinese"		"d83b5be490e9d8c44914c92bead65560fd0b69f2/library_header_tchinese.jpg"
+					"japanese"		"d4a4143d1d87057fc255911254aa1004ffb9f7d5/library_header_japanese.jpg"
+					"koreana"		"d51540fc0ccd52390d7879796fc3e03b634474a1/library_header_koreana.jpg"
+				}
+				"image2x"
+				{
+					"english"		"9fab777cd6936df8ed5c7d518e312fe10487435b/library_header_2x.jpg"
+					"schinese"		"a49125e3d6841c5e05e9b74f280006713830a75b/library_header_schinese_2x.jpg"
+					"tchinese"		"d83b5be490e9d8c44914c92bead65560fd0b69f2/library_header_tchinese_2x.jpg"
+					"japanese"		"d4a4143d1d87057fc255911254aa1004ffb9f7d5/library_header_japanese_2x.jpg"
+					"koreana"		"d51540fc0ccd52390d7879796fc3e03b634474a1/library_header_koreana_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1777700706"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rogue Duck Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rogue Duck Interactive"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"RDI Strategy Games"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_68"		"1"
+			"category_69"		"1"
+			"category_74"		"1"
+			"category_76"		"1"
+			"category_78"		"1"
+			"category_79"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1777114031"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3622640"
+		"store_tags"
+		{
+			"0"		"35079"
+			"1"		"552282"
+			"2"		"599"
+			"3"		"597"
+			"4"		"4085"
+			"5"		"12472"
+			"6"		"97376"
+			"7"		"4305"
+			"8"		"6276"
+			"9"		"4695"
+			"10"		"91114"
+			"11"		"1654"
+			"12"		"615955"
+			"13"		"4726"
+			"14"		"5350"
+			"15"		"4202"
+			"16"		"4845"
+			"17"		"8093"
+			"18"		"1220528"
+			"19"		"8945"
+		}
+		"review_score"		"8"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"developer"		"Rogue Duck Interactive"
+		"publisher"		"Rogue Duck Interactive"
+		"homepage"		"https://rogueduck.net"
+		"listofdlc"		"4585810"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Vending Machine Co"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Vending Machine Co.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"mac.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"app.x86_64"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"3622641"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6834804480889932893"
+					"size"		"5101296321"
+					"download"		"685146784"
+				}
+				"beta"
+				{
+					"gid"		"6834804480889932893"
+					"size"		"5101296321"
+					"download"		"685146784"
+				}
+			}
+		}
+		"3622642"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5734891322369029246"
+					"size"		"5117804464"
+					"download"		"693116704"
+				}
+				"beta"
+				{
+					"gid"		"5734891322369029246"
+					"size"		"5117804464"
+					"download"		"693116704"
+				}
+			}
+		}
+		"3622643"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1429072570308664364"
+					"size"		"864011528"
+					"download"		"401112688"
+				}
+				"beta"
+				{
+					"gid"		"1429072570308664364"
+					"size"		"864011528"
+					"download"		"401112688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23057933"
+				"timeupdated"		"1777722149"
+				"timebuildupdated"		"1777722121"
+			}
+			"beta"
+			{
+				"buildid"		"23057933"
+				"description"		"usually full of bugs!"
+				"timeupdated"		"1777722149"
+				"timebuildupdated"		"1777722121"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Rogue Duck Interactive/Vending Machine Co"
+				"pattern"		"*.json"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Rogue Duck Interactive/Vending Machine Co"
+				"pattern"		"*.xg"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		""
+						"replace"		"Rogue Duck Interactive/Vending Machine Co"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		""
+						"replace"		".config/unity3d/Rogue Duck Interactive/Vending Machine Co"
+					}
+				}
+			}
+		}
+	}
+}
