@@ -1,0 +1,77 @@
+"appinfo"
+{
+	"appid"		"4193170"
+	"common"
+	{
+		"name"		"Fortress T1"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"gameid"		"4193170"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"installdir"		"Fortress T1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"T01\\Binaries\\Win64\\T01-Win64-Shipping.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"T01\\Binaries\\Win64\\T01.exe"
+				"arguments"		"-trace=gpu,cpu,frame,log,bookmark,screenshot,region,task,slate,rhicommands,rendercommands,physics,object,niagara"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"4197080"
+				}
+				"description_loc"
+				{
+					"english"		"Development"
+				}
+				"description"		"Development"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,schinese"
+		"hasdepotsindlc"		"1"
+		"4193171"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4549952663878926242"
+					"size"		"12049386362"
+					"download"		"11673940544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22156844"
+				"timeupdated"		"1772446934"
+				"timebuildupdated"		"1772435275"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
