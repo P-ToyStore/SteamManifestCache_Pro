@@ -1,0 +1,93 @@
+"appinfo"
+{
+	"appid"		"3809400"
+	"common"
+	{
+		"name"		"StarRupture Dedicated Server (Experimental)"
+		"type"		"Tool"
+		"parent"		"1631270"
+		"icon"		"4bd90f5e37bd62bbf3d498634547227a7308dcf6"
+		"clienticon"		"4bd90f5e37bd62bbf3d498634547227a7308dcf6"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"name_localized"
+		{
+			"schinese"		"《星际裂变》专用服务器（实验性阶段）"
+		}
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"3809400_eula_0"
+				"name"		"StarRupture Dedicated Server EULA"
+				"url"		"https://store.steampowered.com//eula/3809400_eula_0"
+				"version"		"1"
+			}
+		}
+		"freetodownload"		"1"
+		"gameid"		"3809400"
+	}
+	"config"
+	{
+		"installdir"		"StarRupture Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StarRuptureServerEOS.exe"
+				"arguments"		"-Log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"StarRupture Dedicated Server"
+				}
+				"description"		"StarRupture Dedicated Server"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3809401"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5288521345154587381"
+					"size"		"20679667450"
+					"download"		"2423716608"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23041628"
+				"timeupdated"		"1777885304"
+				"timebuildupdated"		"1777609205"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
