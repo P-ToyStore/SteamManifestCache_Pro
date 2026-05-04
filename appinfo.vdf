@@ -1,0 +1,182 @@
+"appinfo"
+{
+	"appid"		"2915550"
+	"common"
+	{
+		"name"		"FOUNDRY: Dedicated Server"
+		"type"		"Tool"
+		"parent"		"983870"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"21dbca5d7e9cfee58aaa40c7ad94f3a599ddceab"
+		"clienttga"		"1581594af6074ac6a3d2a3bd7a5151a90e69cde5"
+		"clienticon"		"bd191f2cfd1cd1d95f2cfa8de105cbd557b486f5"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"aicontenttype"		"1"
+		"gameid"		"2915550"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"FOUNDRY Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"FoundryDedicatedServerLauncher.bat"
+				"description_loc"
+				{
+					"english"		"Dedicated Server"
+				}
+				"description"		"Dedicated Server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2915551"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"835776136045916155"
+					"size"		"2436587934"
+					"download"		"1326688016"
+				}
+				"hotfix_update4"
+				{
+					"gid"		"835776136045916155"
+					"size"		"2436587934"
+					"download"		"1326688016"
+				}
+				"legacy_update_1"
+				{
+					"gid"		"6975684374515505437"
+					"size"		"2360914724"
+					"download"		"1121263360"
+				}
+				"legacy_update_2_2"
+				{
+					"gid"		"4847538066902146514"
+					"size"		"2298671918"
+					"download"		"1156747040"
+				}
+				"legacy_update_3_0"
+				{
+					"gid"		"179423391102748488"
+					"size"		"2315347011"
+					"download"		"1179341632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23077596"
+				"timeupdated"		"1777902339"
+				"timebuildupdated"		"1777901515"
+			}
+			"hotfix_update4"
+			{
+				"buildid"		"23077596"
+				"description"		"Hotfix Update 4"
+				"timeupdated"		"1777902298"
+				"timebuildupdated"		"1777901515"
+			}
+			"legacy_update_1"
+			{
+				"buildid"		"20466185"
+				"description"		"Legacy Update 1"
+				"timeupdated"		"1760975394"
+				"timebuildupdated"		"1760975060"
+			}
+			"legacy_update_2_2"
+			{
+				"buildid"		"20263529"
+				"description"		"Legacy Update 2.2"
+				"timeupdated"		"1768993539"
+				"timebuildupdated"		"1759708045"
+			}
+			"legacy_update_3_0"
+			{
+				"buildid"		"21699874"
+				"description"		"Legacy Update 3.0"
+				"timeupdated"		"1769699511"
+				"timebuildupdated"		"1769693473"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
