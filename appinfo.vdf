@@ -1,0 +1,321 @@
+"appinfo"
+{
+	"appid"		"903910"
+	"common"
+	{
+		"name"		"Tranzient"
+		"type"		"Game"
+		"releasestate"		"released"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"f53869cd53502ba925b93205a27252af63439001"
+		"logo_small"		"f53869cd53502ba925b93205a27252af63439001_thumb"
+		"clienticon"		"7ed8418de70216e8e0546b2122d1ad328f9fdd8e"
+		"clienttga"		"6c7a6d8191c07cdf3b07a2779e94a1f67232a973"
+		"icon"		"ab0acb94360b75044744b325fc80d3d265fab3bf"
+		"openvr_controller_bindings"
+		{
+			"0"
+			{
+				"controller_type"		"holographic_controller"
+				"url"		"vr-input-workshop://1854446927"
+			}
+		}
+		"openvrsupport"		"1"
+		"aicontenttype"		"1"
+		"metacritic_name"		"Tranzient"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1667295657"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"AliveIn Tech Ltd."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"AliveIn Tech Ltd."
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1559560828"
+		"community_hub_visible"		"1"
+		"gameid"		"903910"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"21978"
+			"3"		"1621"
+			"4"		"1027"
+			"5"		"8013"
+			"6"		"1752"
+			"7"		"1775"
+			"8"		"1685"
+			"9"		"3859"
+			"10"		"3843"
+			"11"		"4182"
+			"12"		"1664"
+		}
+		"review_score"		"7"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"AliveIn Tech Ltd."
+		"publisher"		"AliveIn Tech Ltd."
+		"homepage"		"http://aliveintech.com/"
+	}
+	"config"
+	{
+		"installdir"		"Tranzient"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Tranzient.exe"
+				"arguments"		"-vr -ForceNoStereoLayer"
+				"description"		"In VR"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Tranzient.exe"
+				"description"		"Without VR"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Tranzient.exe"
+				"arguments"		"-vr -ALVR -ForceNoStereoLayer -ForceSteamVR"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Virtual Desktop mode (Quest/Pico)"
+				}
+				"description"		"Virtual Desktop mode (Quest/Pico)"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"903911"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6073084961585302611"
+					"size"		"7030517331"
+					"download"		"6338854096"
+				}
+				"beta"
+				{
+					"gid"		"3912215008391379921"
+					"size"		"6896989277"
+					"download"		"6135544512"
+				}
+				"fallback"
+				{
+					"gid"		"8890042312453224424"
+					"size"		"8200779103"
+					"download"		"7350479520"
+				}
+			}
+		}
+		"956970"
+		{
+			"dlcappid"		"956970"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5477123761441667368"
+					"size"		"7"
+					"download"		"64"
+				}
+				"beta"
+				{
+					"gid"		"5477123761441667368"
+					"size"		"7"
+					"download"		"64"
+				}
+				"fallback"
+				{
+					"gid"		"5477123761441667368"
+					"size"		"7"
+					"download"		"64"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23035060"
+				"timeupdated"		"1777970075"
+				"timebuildupdated"		"1777573739"
+			}
+			"beta"
+			{
+				"buildid"		"7012155"
+				"description"		"Cutting edge release"
+				"timeupdated"		"1626108556"
+				"timebuildupdated"		"1626011110"
+			}
+			"fallback"
+			{
+				"buildid"		"16289995"
+				"description"		"Previous Release"
+				"timeupdated"		"1732277681"
+				"timebuildupdated"		"1730739376"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
