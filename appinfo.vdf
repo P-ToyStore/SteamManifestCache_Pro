@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"297390"
+	"common"
+	{
+		"name"		"Collateral"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"clienticon"		"ff142b3665ba50c47d1771c1f482fd9b60f89c3a"
+		"clienttga"		"1dc841f5ec231aaa52a85b5711f56cfbf7339f48"
+		"icon"		"f7c993d9676c74f2e40f894751bdbcb77c743aa7"
+		"logo"		"d512a4c35da29151ec178d0c340236aeb885cbcf"
+		"logo_small"		"d512a4c35da29151ec178d0c340236aeb885cbcf_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"297390_eula_0"
+				"name"		"Collateral EULA"
+				"url"		"http://store.steampowered.com//eula/297390_eula_0"
+			}
+		}
+		"metacritic_name"		"UntitledApp"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_990777103d1f1c64155d12c333c7d5347730cc4f.jpg"
+		"store_asset_mtime"		"1415860339"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Dancing Dinosaur Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Dancing Dinosaur Games"
+			}
+		}
+		"primary_genre"		"70"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"9"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1416873480"
+		"community_hub_visible"		"1"
+		"gameid"		"297390"
+		"store_tags"
+		{
+			"0"		"4115"
+		}
+		"review_score"		"5"
+		"review_percentage"		"45"
+	}
+	"extended"
+	{
+		"developer"		"Dancing Dinosaur Games"
+		"publisher"		"Dancing Dinosaur Games"
+		"homepage"		"http://www.collateralthegame.com/collateral/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Collateral"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\CollateralGame.exe"
+				"description"		"Launch"
+			}
+			"1"
+			{
+				"executable"		"Binaries\\Win64\\CollateralGame.exe"
+				"description"		"Launch 64-bit"
+				"config"
+				{
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"297391"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5831524625007723624"
+					"size"		"1386144693"
+					"download"		"72696770992"
+				}
+				"local"
+				{
+					"gid"		"5438548373623230980"
+					"size"		"1379935323"
+					"download"		"1097579759266"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"447539"
+				"timebuildupdated"		"1416374185"
+			}
+			"local"
+			{
+				"buildid"		"413021"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timebuildupdated"		"1413536518"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"209715200"
+		"maxnumfiles"		"800"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"/CollateralData/"
+				"pattern"		"*.*"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"/CollateralGame/Config/"
+				"pattern"		"*.ini"
+			}
+		}
+	}
+}
