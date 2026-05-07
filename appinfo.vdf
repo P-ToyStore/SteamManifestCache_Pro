@@ -1,0 +1,308 @@
+"appinfo"
+{
+	"appid"		"2957200"
+	"common"
+	{
+		"name"		"Pyradice"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"9fd813d86ffdf628c8a2d9e8ded869ccd28d2c98"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"38b9700015acf63b560150073ee5baada8c7ed53"
+		"clienttga"		"6d3feb73971725d8ec044cc41d6a80c852053499"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"80.96627756160831"
+				"height_pct"		"62.49999999999997"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"80.96627756160831"
+					"height_pct"		"62.49999999999997"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1717877095"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Melonic Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Melonic Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_27"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1717970669"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2957200"
+		"store_tags"
+		{
+			"0"		"1677"
+			"1"		"5350"
+			"2"		"1770"
+			"3"		"14139"
+			"4"		"1775"
+			"5"		"7178"
+			"6"		"17389"
+			"7"		"3859"
+			"8"		"597"
+			"9"		"1708"
+			"10"		"1698"
+			"11"		"4191"
+			"12"		"4305"
+			"13"		"4182"
+			"14"		"1654"
+			"15"		"9"
+			"16"		"97376"
+			"17"		"5186"
+			"18"		"492"
+			"19"		"29363"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Melonic Games"
+		"publisher"		"Melonic Games"
+		"homepage"		"https://melonic.games"
+	}
+	"config"
+	{
+		"installdir"		"Pyradice"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Pyradice.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Vulkan"
+				}
+				"description"		"Vulkan"
+			}
+			"1"
+			{
+				"executable"		"Pyradice.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Vulkan"
+				}
+				"description"		"Vulkan"
+			}
+			"2"
+			{
+				"executable"		"Pyradice.x86_64"
+				"arguments"		"--rendering-driver opengl3"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Pyradice (OpenGL)"
+				}
+				"description"		"Pyradice (OpenGL)"
+			}
+			"3"
+			{
+				"executable"		"Pyradice.exe"
+				"arguments"		"--rendering-driver opengl3"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Pyradice (OpenGL)"
+				}
+				"description"		"Pyradice (OpenGL)"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"2957201"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6672382890835854053"
+					"size"		"132009400"
+					"download"		"65525024"
+				}
+			}
+		}
+		"2957202"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7423135984322832571"
+					"size"		"141526896"
+					"download"		"67877200"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14895021"
+				"timeupdated"		"1719839919"
+				"timebuildupdated"		"1719839787"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"LinuxHome"
+				"path"		".local/share/Pyradice/"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"LinuxHome"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataRoaming"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		".local/share/Pyradice/"
+						"replace"		"Pyradice/"
+					}
+				}
+			}
+		}
+	}
+}
