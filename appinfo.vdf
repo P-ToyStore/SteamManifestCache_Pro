@@ -1,0 +1,261 @@
+"appinfo"
+{
+	"appid"		"294120"
+	"common"
+	{
+		"name"		"Warhammer 40,000: Carnage Champions"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"icon"		"ddc3292feffcd33a84b3fe84834b9d680c6475a0"
+		"logo"		"201593b1ff2248d365a255f2e40e8bb374883351"
+		"logo_small"		"201593b1ff2248d365a255f2e40e8bb374883351_thumb"
+		"clienticon"		"79b15b3460cfd9eeb4252faa9bed3ee770b19f1e"
+		"clienttga"		"fc43070d30fe90e34de301c34734a9190eb52245"
+		"clienticns"		"ce92a1444df1b0259b0ce8382b3e2db322eedd0e"
+		"linuxclienticon"		"ac7dca2dd000d3206a178b9de75f98b5440ae6c6"
+		"metacritic_name"		"UntitledApp"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_678d264b56c9ca49bcc35f17840e6c091c9a413e.jpg"
+		"store_asset_mtime"		"1465413515"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Roadhouse Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Roadhouse Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1462987717"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"294120"
+		"store_tags"
+		{
+			"0"		"3798"
+			"1"		"12286"
+		}
+		"review_score"		"4"
+		"review_percentage"		"32"
+	}
+	"extended"
+	{
+		"developer"		"Roadhouse Games"
+		"publisher"		"Roadhouse Games"
+		"homepage"		"http://playcarnage.com/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Carnage"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"carnage.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Carnage.app"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"Carnage.x86"
+				"description"		"Launch Linux"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"294121"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1843807662319351812"
+					"size"		"1036283325"
+					"download"		"287735808"
+				}
+				"beta"
+				{
+					"gid"		"7048022414030548325"
+					"size"		"994222389"
+					"download"		"262907744"
+				}
+			}
+		}
+		"294122"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8449236800345811190"
+					"size"		"1041509589"
+					"download"		"285659056"
+				}
+				"beta"
+				{
+					"gid"		"5271946242074901868"
+					"size"		"999450025"
+					"download"		"260844496"
+				}
+			}
+		}
+		"294123"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"610712253181906194"
+					"size"		"1041702205"
+					"download"		"285364640"
+				}
+				"beta"
+				{
+					"gid"		"4747042560031538091"
+					"size"		"999634261"
+					"download"		"260536096"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1170958"
+				"timeupdated"		"1465417371"
+				"timebuildupdated"		"1465409959"
+			}
+			"beta"
+			{
+				"buildid"		"1107025"
+				"timeupdated"		"1462294503"
+				"timebuildupdated"		"1462236230"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"52428800"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Roadhouse\\Carnage"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Roadhouse\\Carnage"
+						"replace"		"unity.Roadhouse.Carnage"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Roadhouse\\Carnage"
+						"replace"		".config/unity3d/DefaultCompany/AutocloudSample"
+					}
+				}
+			}
+		}
+	}
+}
