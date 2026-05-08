@@ -1,0 +1,245 @@
+"appinfo"
+{
+	"appid"		"4020"
+	"common"
+	{
+		"name"		"Garry's Mod Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"parent"		"4000"
+		"clienticon"		"8afac0a3aa137a10d95ffff016573d7eba867de9"
+		"clienttga"		"1876003cc8d454acb3cee2f2e35990599d1faf9e"
+		"freetodownload"		"1"
+		"gameid"		"4020"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"ValveTestApp4020"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"GarrysModDS"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"0"
+		"4021"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"964598927051546960"
+					"size"		"6638827807"
+					"download"		"3444371072"
+				}
+				"dev"
+				{
+					"gid"		"4861964724790017398"
+					"size"		"6638829251"
+					"download"		"3444371344"
+				}
+				"network_test"
+				{
+					"gid"		"4056299992806613507"
+					"size"		"6638036561"
+					"download"		"3444731056"
+				}
+				"prerelease"
+				{
+					"gid"		"964598927051546960"
+					"size"		"6638827807"
+					"download"		"3444371072"
+				}
+				"x86-64"
+				{
+					"gid"		"814359914076357149"
+					"size"		"6637513036"
+					"download"		"3444068096"
+				}
+			}
+		}
+		"4022"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2308719132359881676"
+					"size"		"77602928"
+					"download"		"31377920"
+				}
+				"dev"
+				{
+					"gid"		"6381972750357327240"
+					"size"		"100633192"
+					"download"		"39717936"
+				}
+				"network_test"
+				{
+					"gid"		"3177607210704862855"
+					"size"		"77909752"
+					"download"		"31523056"
+				}
+				"prerelease"
+				{
+					"gid"		"2308719132359881676"
+					"size"		"77602928"
+					"download"		"31377920"
+				}
+				"x86-64"
+				{
+					"gid"		"292302142959640163"
+					"size"		"426848048"
+					"download"		"162006272"
+				}
+			}
+		}
+		"4023"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3392331236517464052"
+					"size"		"123267635"
+					"download"		"38076832"
+				}
+				"dev"
+				{
+					"gid"		"6878859154924551752"
+					"size"		"122161776"
+					"download"		"37755296"
+				}
+				"network_test"
+				{
+					"gid"		"5686893750677583943"
+					"size"		"123249976"
+					"download"		"38064768"
+				}
+				"prerelease"
+				{
+					"gid"		"3392331236517464052"
+					"size"		"123267635"
+					"download"		"38076832"
+				}
+				"x86-64"
+				{
+					"gid"		"2199972487359669841"
+					"size"		"227670826"
+					"download"		"70752576"
+				}
+			}
+		}
+		"workshopdepot"		"0"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23150012"
+				"timeupdated"		"1778263326"
+				"timebuildupdated"		"1778258813"
+			}
+			"dev"
+			{
+				"buildid"		"23152842"
+				"description"		"Development branch - Live daily updates"
+				"timeupdated"		"1778272499"
+				"timebuildupdated"		"1778272499"
+			}
+			"network_test"
+			{
+				"buildid"		"22872282"
+				"description"		"Testing of network compatibility breaking changes"
+				"timeupdated"		"1776708669"
+				"timebuildupdated"		"1776708669"
+			}
+			"prerelease"
+			{
+				"buildid"		"23150012"
+				"description"		"Preview of the next Default Public Version"
+				"timeupdated"		"1778258813"
+				"timebuildupdated"		"1778258813"
+			}
+			"x86-64"
+			{
+				"buildid"		"23150828"
+				"description"		"64-bit binaries"
+				"timeupdated"		"1778262624"
+				"timebuildupdated"		"1778262624"
+			}
+		}
+	}
+}
