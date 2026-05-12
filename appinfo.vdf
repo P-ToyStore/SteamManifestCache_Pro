@@ -1,0 +1,311 @@
+"appinfo"
+{
+	"appid"		"2992460"
+	"common"
+	{
+		"name"		"Soul Park"
+		"type"		"Game"
+		"icon"		"f00bcc204010f635078c3b38a9f515983a2f314d"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"clienttga"		"6f43eec8a3f6da0d1d4221ca63624c0631dcef5c"
+		"clienticon"		"8e675e0c73912462f2506338375b5e823ab7641f"
+		"languages"
+		{
+			"english"		"1"
+			"french"		"1"
+		}
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"8bbf06c6671bcc84cba1820cf0eb9214b0428dbe/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"41.488679581578275"
+				"height_pct"		"48.745045623317935"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"dc3d026062399cf957be4cd032598881e0573762/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"dc3d026062399cf957be4cd032598881e0573762/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"1fd5ea6392b87bc17a7c478bfb63b3c43f8f8c52/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"1fd5ea6392b87bc17a7c478bfb63b3c43f8f8c52/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"1fd5ea6392b87bc17a7c478bfb63b3c43f8f8c52/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"41.488679581578275"
+					"height_pct"		"48.745045623317935"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"7b0b76e0b81f207455aae2db35ce73c74bfc0cb1/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"7b0b76e0b81f207455aae2db35ce73c74bfc0cb1/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1760087699"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CLEDU"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"CLEDU"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_55"		"1"
+			"category_56"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1758524612"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2992460"
+		"store_tags"
+		{
+			"0"		"16689"
+			"1"		"8945"
+			"2"		"4328"
+			"3"		"3810"
+			"4"		"1643"
+			"5"		"12472"
+			"6"		"4695"
+			"7"		"4182"
+			"8"		"1773"
+			"9"		"9"
+			"10"		"1654"
+			"11"		"7332"
+			"12"		"4191"
+			"13"		"4136"
+			"14"		"597"
+			"15"		"599"
+			"16"		"3964"
+			"17"		"4305"
+			"18"		"9541"
+			"19"		"16094"
+		}
+		"review_score"		"7"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"deckresolutionoverride"		"1920x1080"
+		"developer"		"CLEDU"
+		"publisher"		"CLEDU"
+	}
+	"config"
+	{
+		"installdir"		"Soul Park"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Soul Park.exe"
+				"arguments"		"--in-process-gpu --disable-direct-composition"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Soul Park.app\\Contents\\MacOS\\Soul Park"
+				"arguments"		"--in-process-gpu --disable-direct-composition"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"linux\\soul_32park"
+				"arguments"		"--no-sandbox"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english,french"
+		"2992461"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1218460224198905063"
+					"size"		"532480575"
+					"download"		"271929472"
+				}
+				"beta"
+				{
+					"gid"		"1218460224198905063"
+					"size"		"532480575"
+					"download"		"271929472"
+				}
+			}
+		}
+		"2992462"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7772765247666998606"
+					"size"		"516285269"
+					"download"		"265524816"
+				}
+				"beta"
+				{
+					"gid"		"7772765247666998606"
+					"size"		"516285269"
+					"download"		"265524816"
+				}
+			}
+		}
+		"2992463"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4241425640271965640"
+					"size"		"534698095"
+					"download"		"266552816"
+				}
+				"beta"
+				{
+					"gid"		"4241425640271965640"
+					"size"		"534698095"
+					"download"		"266552816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20334199"
+				"timeupdated"		"1760274494"
+				"timebuildupdated"		"1760087094"
+			}
+			"beta"
+			{
+				"buildid"		"20334199"
+				"description"		"newest experimental version"
+				"timeupdated"		"1760087094"
+				"timebuildupdated"		"1760087094"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
