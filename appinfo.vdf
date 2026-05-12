@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"2770320"
+	"common"
+	{
+		"name"		"The Dungeon-Dungeon Awaits"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"c2e9d54b7109179483e205c7ad677e7034bea6d0"
+		"clienttga"		"d9462e561e82162abc02b5011fade4a6d1279711"
+		"clienticon"		"642789c5bb8f79182c98ba5f8ba8f6c211904e8d"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"78.02150994801885"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"78.02150994801885"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1719438380"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ChillCash"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ChillCash"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1719274588"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2770320"
+		"store_tags"
+		{
+			"0"		"454187"
+			"1"		"14139"
+			"2"		"1720"
+			"3"		"1759"
+			"4"		"6730"
+			"5"		"1741"
+			"6"		"4604"
+			"7"		"1716"
+			"8"		"9"
+			"9"		"3871"
+			"10"		"4004"
+			"11"		"4791"
+			"12"		"3854"
+			"13"		"5125"
+			"14"		"4325"
+			"15"		"3964"
+			"16"		"4252"
+			"17"		"1684"
+			"18"		"4236"
+			"19"		"3916"
+		}
+	}
+	"extended"
+	{
+		"developer"		"ChillCash"
+		"publisher"		"ChillCash"
+	}
+	"config"
+	{
+		"installdir"		"The Dungeon-Dungeon Awaits"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"The Dungeon-Dungeon Awaits.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2770321"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1429455742530916699"
+					"size"		"438166648"
+					"download"		"227628592"
+				}
+				"demo"
+				{
+					"gid"		"6886662913343528510"
+					"size"		"130648744"
+					"download"		"54103744"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19043975"
+				"timeupdated"		"1751224914"
+				"timebuildupdated"		"1751224890"
+			}
+			"demo"
+			{
+				"buildid"		"14343437"
+				"description"		"Demo branch"
+				"timeupdated"		"1715548715"
+				"timebuildupdated"		"1715548715"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Godot\\app_userdata\\Dungeon-Dungeon"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
