@@ -1,0 +1,190 @@
+"appinfo"
+{
+	"appid"		"65100"
+	"common"
+	{
+		"name"		"Demolition Company"
+		"logo"		"8d446c956b7024f60161e734340fb2f28843ef1c"
+		"logo_small"		"8d446c956b7024f60161e734340fb2f28843ef1c_thumb"
+		"icon"		"022363a7b0bf149008dca735da11a617af792b04"
+		"clienttga"		"dfe57f72ff118011bdc48a37a1c489bfe1f4895d"
+		"clienticon"		"b5089721e3db1bed93c2315cecaa20eb60c01d6a"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+		}
+		"oslist"		"windows,macos"
+		"type"		"game"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_80e0954a227e1d511f1f934ff51455ee3488c51d.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Giants Software"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BigSims.com"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1282287600"
+		"steam_release_date"		"1282333440"
+		"community_hub_visible"		"1"
+		"gameid"		"65100"
+		"store_tags"
+		{
+			"0"		"599"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Giants Software"
+		"gamedir"		"Demolition Companya"
+		"gamemanualurl"		"http://store.steampowered.com/manual/65100/"
+		"homepage"		"http://www.demolitioncompany-thegame.com/"
+		"icon"		""
+		"installscriptosx"		"DemolitionCompany.app/installscript_osx.vdf"
+		"installscript_macos"		"DemolitionCompany.app/installscript_osx.vdf"
+		"languages"		"english,german"
+		"languages_mac"		"english,german"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"publisher"		"BigSims.com"
+		"listofdlc"		"65110"
+	}
+	"config"
+	{
+		"installscriptsignature"		"5065151b51dbd106ba9b5f18be4467bb774c448f6a598cdffae00c96a867028de70d8823524dff2bfbb10b38ca531db6a47c5f4f6402639e326cda83c2178ac33dadb9d6a43ecb5b0af81053c23f3dc40e027bc843fdd0866e43379fb4e93c6767061b46bf4d92a3852363dd31f166ccaa6de60d15c2c16d3ecac0ad82c685bc"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Demolition Company"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"game.exe"
+				"arguments"		"-script dataS/scripts/main.lua -name DemolitionCompany"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DemolitionCompany.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\65100"
+				"process 1"		"%INSTALLDIR%\\dxsetup\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"65111"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6294546504394129619"
+					"size"		"879426574"
+					"download"		"0"
+				}
+			}
+		}
+		"65110"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4011523033296414816"
+					"size"		"19445760"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"65110"
+		}
+		"65101"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"777662625553770807"
+					"size"		"754600635"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"baselanguages"		"english,german"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23920"
+				"timebuildupdated"		"1352201187"
+			}
+		}
+	}
+}
