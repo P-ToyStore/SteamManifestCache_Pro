@@ -1,0 +1,3 @@
+### [4555570] EGGCONSOLE HYDLIDE II PC-8801  
+**Build Id** `22793813`  
+**Last Update Time** `2026/04/15 14:52`  
