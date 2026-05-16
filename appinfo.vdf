@@ -1,0 +1,102 @@
+"appinfo"
+{
+	"appid"		"3104830"
+	"common"
+	{
+		"name"		"Dune: Awakening Public Test Client Server"
+		"type"		"Tool"
+		"parent"		"2995470"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"9fbe0e4bb8342cd776184e823fa660adcc04df1e"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"icon"		"4eb2afeae249b94be3ef0251f22fe72cd61d4c6e"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"3104830"
+	}
+	"extended"
+	{
+		"deckresolutionoverride"		"Default"
+	}
+	"config"
+	{
+		"installdir"		"Dune Awakening Playtest Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"initial-setup.bat"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3104831"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8823273853906872955"
+					"size"		"1015156057"
+					"download"		"425160304"
+				}
+			}
+		}
+		"3104832"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1442928167788591807"
+					"size"		"5203788624"
+					"download"		"4879285872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23243500"
+				"timeupdated"		"1778854733"
+				"timebuildupdated"		"1778805322"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
