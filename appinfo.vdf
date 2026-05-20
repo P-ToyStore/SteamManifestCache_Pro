@@ -1,0 +1,84 @@
+"appinfo"
+{
+	"appid"		"682300"
+	"common"
+	{
+		"name"		"Amnesia Fortnight 2014 Downloadable Content"
+		"type"		"Application"
+		"parent"		"631780"
+		"oslist"		"windows,macos,linux"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1501694085"
+		"gameid"		"682300"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"isfreeapp"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Amnesia Fortnight Downloadable Content"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"scripts/openfiles.bat"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./scripts/openfiles_osx.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"./scripts/openfiles_linux.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"682301"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1962597518434681208"
+					"size"		"42838041088"
+					"download"		"43378921872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1973914"
+				"timeupdated"		"1501693954"
+				"timebuildupdated"		"1500522601"
+			}
+		}
+	}
+}
