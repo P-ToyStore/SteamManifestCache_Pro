@@ -1,0 +1,291 @@
+"appinfo"
+{
+	"appid"		"2609100"
+	"common"
+	{
+		"name"		"AFK Companion"
+		"type"		"Application"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"d1f15e656a77692762b150739b6289e5633848c4"
+		"clienticon"		"d1f15e656a77692762b150739b6289e5633848c4"
+		"clienttga"		"d2f1c17ad14d9eacf1d314f46196496951e9f066"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"ce7240c5af7b8933aa814b431ec1ce715761fc09/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"92f174c6ff5e7719814facf55daf5d7a955d4c08/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"40.21421313406154"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"feff34aaa81aff9b10ffd3e6449f354c187bc98a/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"feff34aaa81aff9b10ffd3e6449f354c187bc98a/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"e54cc8deb0842083af3d0415c86a52b0c4cdd076/library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"e54cc8deb0842083af3d0415c86a52b0c4cdd076/library_hero_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"e54cc8deb0842083af3d0415c86a52b0c4cdd076/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"40.21421313406154"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"1e4cdc332aaa81f3fa9e1a175e65747146de5b7f/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"1e4cdc332aaa81f3fa9e1a175e65747146de5b7f/logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"92f174c6ff5e7719814facf55daf5d7a955d4c08/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"92f174c6ff5e7719814facf55daf5d7a955d4c08/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1764685663"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Artur Khutak"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Artur Khutak"
+			}
+		}
+		"primary_genre"		"57"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"28"
+			"2"		"57"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_74"		"1"
+			"category_76"		"1"
+			"category_77"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_30"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1761724237"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2609100"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"597"
+			"2"		"599"
+			"3"		"3871"
+			"4"		"4182"
+			"5"		"8013"
+		}
+	}
+	"extended"
+	{
+		"enablegameoverlayforapp"		"1"
+		"developer"		"Artur Khutak"
+		"publisher"		"Artur Khutak"
+	}
+	"config"
+	{
+		"installdir"		"AFK Companion"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"afk-companion.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"afk-companion"
+				"arguments"		"--no-sandbox --disable-gpu-sandbox --disable-dev-shm-usage --ozone-platform=x11"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"afk-companion.app/Contents/MacOS/afk-companion"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"2609101"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8069975943319443575"
+					"size"		"99188594"
+					"download"		"99036608"
+				}
+				"prerelease"
+				{
+					"gid"		"8069975943319443575"
+					"size"		"99188594"
+					"download"		"99036608"
+				}
+			}
+		}
+		"2609102"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5449304962499459465"
+					"size"		"434322920"
+					"download"		"128635024"
+				}
+				"prerelease"
+				{
+					"gid"		"5449304962499459465"
+					"size"		"434322920"
+					"download"		"128635024"
+				}
+			}
+		}
+		"2609103"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7938073142821972315"
+					"size"		"1550074873"
+					"download"		"207543632"
+				}
+				"prerelease"
+				{
+					"gid"		"7938073142821972315"
+					"size"		"1550074873"
+					"download"		"207543632"
+				}
+			}
+		}
+		"baselanguages"		"english,russian,ukrainian"
+		"workshopdepot"		"2609100"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23234322"
+				"timeupdated"		"1779367342"
+				"timebuildupdated"		"1778763033"
+			}
+			"prerelease"
+			{
+				"buildid"		"23234322"
+				"description"		"Pre-release version"
+				"timeupdated"		"1778764140"
+				"timebuildupdated"		"1778763033"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"100"
+	}
+}
