@@ -1,0 +1,166 @@
+"appinfo"
+{
+	"appid"		"1136510"
+	"common"
+	{
+		"name"		"Warfork Dedicated Server"
+		"type"		"Tool"
+		"parent"		"671610"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"logo"		"d03c982af183d64badec4c6466b961327250c28f"
+		"logo_small"		"d03c982af183d64badec4c6466b961327250c28f_thumb"
+		"icon"		"a0d14bce79634518467585c667f9a2f36479afce"
+		"clienttga"		"587de9abedde4b07677ae0285721695b2f6eb1ab"
+		"clienticon"		"cf3342a5f77c61d785cc4a460e57889e006594b2"
+		"linuxclienticon"		"fe552702d41f7100163bc82d35ab5d1d4fdd45b5"
+		"clienticns"		"fdc47e5496bc3e3d99518459b381e370c604ec50"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1136510"
+	}
+	"config"
+	{
+		"installdir"		"Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"wf_server.x86_64"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"64 bit"
+				}
+				"description"		"64 bit"
+			}
+			"1"
+			{
+				"executable"		"wf_server_x64.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"64 bit"
+				}
+				"description"		"64 bit"
+			}
+			"5"
+			{
+				"executable"		"Warfork.app\\Contents\\MacOS\\wf_server"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1136514"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2878489155080822823"
+					"size"		"864383899"
+					"download"		"856982656"
+				}
+				"beta"
+				{
+					"gid"		"7934229633621056932"
+					"size"		"917735431"
+					"download"		"787174256"
+				}
+			}
+		}
+		"1136517"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5269098545054945741"
+					"size"		"876269628"
+					"download"		"859062624"
+				}
+				"beta"
+				{
+					"gid"		"3461406822420017992"
+					"size"		"840452052"
+					"download"		"792131392"
+				}
+			}
+		}
+		"1136518"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2468795173404640300"
+					"size"		"862420504"
+					"download"		"856170240"
+				}
+				"beta"
+				{
+					"gid"		"501603213100052596"
+					"size"		"993529239"
+					"download"		"829485488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16821933"
+				"timeupdated"		"1779731911"
+				"timebuildupdated"		"1734757731"
+			}
+			"beta"
+			{
+				"buildid"		"23386135"
+				"description"		"Warfork Beta Testing"
+				"timeupdated"		"1779631902"
+				"timebuildupdated"		"1779631902"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+	}
+}
