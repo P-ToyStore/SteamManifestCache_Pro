@@ -1,0 +1,134 @@
+"appinfo"
+{
+	"appid"		"3551390"
+	"common"
+	{
+		"name"		"Football Manager 26 Pre-Game Editor"
+		"type"		"Tool"
+		"parent"		"3551340"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"clienttga"		"f0894dff7dcb8ebdb9562ad31526c554b74eb1f4"
+		"clienticon"		"0cbe57633c712fe54587e4a61585f0518e78a1b8"
+		"icon"		"391e9bf35ebbc2ec3b65a8920aa06f9f1df709e1"
+		"gameid"		"3551390"
+	}
+	"config"
+	{
+		"installdir"		"Football Manager 26 Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"editor.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"editor.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,japanese,portuguese,polish,danish,dutch,norwegian,swedish,turkish,arabic,greek,latam"
+		"3551391"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6557890395375685691"
+					"size"		"79510653"
+					"download"		"35279104"
+				}
+			}
+		}
+		"3551392"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4846209745731592340"
+					"size"		"112224909"
+					"download"		"42563488"
+				}
+			}
+		}
+		"3551393"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6557108388767115466"
+					"size"		"1076528096"
+					"download"		"1030727088"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23241532"
+				"timeupdated"		"1779807726"
+				"timebuildupdated"		"1778794067"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"appidredirect"		"3551340"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sports Interactive/Football Manager 26/cloud/games"
+				"pattern"		"*.fm"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Sports Interactive/Football Manager 26/cloud"
+				"pattern"		"*.fmf"
+				"recursive"		"1"
+			}
+			"copied_from_parent"		"1"
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
