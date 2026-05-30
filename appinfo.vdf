@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"1786670"
+	"common"
+	{
+		"name"		"仙绣剑缘录"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"e7fe9ae4711d2e1ee87583c9ebae969398e489b6"
+		"logo_small"		"e7fe9ae4711d2e1ee87583c9ebae969398e489b6_thumb"
+		"icon"		"9e8a2695874d3f855e20f3d7c7ad17427538ab6d"
+		"clienttga"		"93ea54a0a927883b75ad70e8c64986b5b2d8638e"
+		"clienticon"		"dbd483dda50e0ebe9249c491cd7869596784d4b4"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"4.627949183303073"
+				"height_pct"		"16.66666666666663"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"4.627949183303073"
+					"height_pct"		"16.66666666666663"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1635202453"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"熊窝dodox"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"熊窝dodox"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"RuiXiao"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1635492360"
+		"community_hub_visible"		"1"
+		"gameid"		"1786670"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"9"
+			"2"		"122"
+			"3"		"1741"
+			"4"		"10695"
+			"5"		"17305"
+			"6"		"5379"
+			"7"		"3834"
+			"8"		"3871"
+			"9"		"4305"
+			"10"		"7743"
+			"11"		"1684"
+			"12"		"1742"
+			"13"		"6971"
+			"14"		"1695"
+			"15"		"3993"
+			"16"		"4182"
+			"17"		"492"
+			"18"		"14139"
+			"19"		"1697"
+		}
+		"review_score"		"8"
+		"review_percentage"		"85"
+	}
+	"extended"
+	{
+		"developer"		"熊窝dodox"
+		"publisher"		"熊窝dodox"
+		"homepage"		"https://www.idodx.com"
+	}
+	"config"
+	{
+		"installdir"		"Sword"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Sword.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Sword.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1786671"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8651242682742482507"
+					"size"		"1701770166"
+					"download"		"1327136720"
+				}
+			}
+		}
+		"baselanguages"		"schinese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23485528"
+				"timeupdated"		"1780144542"
+				"timebuildupdated"		"1780144525"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"www/save"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"HeroII.app/Contents/Resources/app.nw/save"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+				"recursive"		"1"
+			}
+		}
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
