@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"1189160"
+	"common"
+	{
+		"name"		"Re.Poly Server"
+		"type"		"Tool"
+		"parent"		"970300"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"5b4e34e6bc923c5a56110e82ea90ba67f27e7ae3"
+		"logo_small"		"5b4e34e6bc923c5a56110e82ea90ba67f27e7ae3_thumb"
+		"icon"		"3574cef589fd32ea028477e61d4c2bcce2d19f38"
+		"clienticon"		"d39ca659b0834f74e0d57533a6c3c9453b085584"
+		"clienttga"		"e8b28fb5118ce547cb03e2a39a053362380d0178"
+		"freetodownload"		"1"
+		"small_capsule"
+		{
+			"english"		"6cf997b231a40a6710e99cf0b8870e5723a02549/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_8e106fd56e3a35e4973fbd2fbd2980ed226aff3f.jpg"
+		"store_asset_mtime"		"1733253908"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_62"		"1"
+		}
+		"steam_release_date"		"1573653600"
+		"gameid"		"1189160"
+	}
+	"extended"
+	{
+		"gamedir"		"repoly"
+		"serverbrowsername"		"Re.Poly"
+	}
+	"config"
+	{
+		"installdir"		"Re.Poly Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ServerStart.bat"
+				"description"		"Re.Poly Gameserver"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english,german"
+		"hasdepotsindlc"		"1"
+		"1189161"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6768410017066978874"
+					"size"		"788497006"
+					"download"		"515428128"
+				}
+				"testserver"
+				{
+					"gid"		"281225935279588108"
+					"size"		"456270448"
+					"download"		"255948640"
+				}
+			}
+		}
+		"1189163"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"testserver"
+				{
+					"gid"		"3479870873988712773"
+					"size"		"417963795"
+					"download"		"244814784"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23512834"
+				"timeupdated"		"1780338917"
+				"timebuildupdated"		"1780338608"
+			}
+			"testserver"
+			{
+				"buildid"		"11664965"
+				"description"		"Re.Poly Testserver"
+				"timeupdated"		"1688987929"
+				"timebuildupdated"		"1688987929"
+			}
+		}
+	}
+}
