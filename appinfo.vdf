@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"2345140"
+	"common"
+	{
+		"name"		"Day In Day Out"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"9ff161dd290aec09b79604afb56cfeac69877d51"
+		"clienticon"		"81d83dc39ccaa4126e311658482389282d92f812"
+		"clienttga"		"736552d361ab5a676f38802b993a98de3edc02e6"
+		"nokeyboardmouse"		"1"
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"49.54233409610984"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"49.54233409610984"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1680345371"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Manuel Steinboeck"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Manuel Steinboeck"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1688715256"
+		"community_hub_visible"		"1"
+		"gameid"		"2345140"
+		"store_tags"
+		{
+			"0"		"3834"
+			"1"		"11014"
+			"2"		"3799"
+			"3"		"4191"
+			"4"		"1697"
+			"5"		"1751"
+			"6"		"1654"
+			"7"		"4136"
+			"8"		"7481"
+			"9"		"9592"
+			"10"		"597"
+			"11"		"7250"
+			"12"		"4195"
+			"13"		"4094"
+			"14"		"4252"
+			"15"		"5350"
+			"16"		"15277"
+			"17"		"4166"
+			"18"		"5608"
+			"19"		"1719"
+		}
+	}
+	"extended"
+	{
+		"deckresolutionoverride"		"1280x800"
+		"developer"		"Manuel Steinboeck"
+		"publisher"		"Manuel Steinboeck"
+	}
+	"config"
+	{
+		"installdir"		"Day In Day Out"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DayInDayOut.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"2"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2345141"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1701849463087145751"
+					"size"		"797984079"
+					"download"		"693024912"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11633764"
+				"timeupdated"		"1688586749"
+				"timebuildupdated"		"1688586679"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
