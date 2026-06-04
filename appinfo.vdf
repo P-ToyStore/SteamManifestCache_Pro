@@ -1,0 +1,489 @@
+"appinfo"
+{
+	"appid"		"232210"
+	"common"
+	{
+		"name"		"Patch testing for Chivalry"
+		"type"		"Game"
+		"logo"		"dd3488ae69593cedf5e73b818ae98e6737aa956c"
+		"logo_small"		"dd3488ae69593cedf5e73b818ae98e6737aa956c_thumb"
+		"icon"		"d4628be29b7e97d93a3404870dfe79642b90b907"
+		"clienticon"		"5695c47034ce9008d23b8f221f65b556453b290e"
+		"clienttga"		"d58a63eae114919a9b27b1de77d7004e6d6e2339"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+			"japanese"		"1"
+		}
+		"oslist"		"windows,macos,linux"
+		"metacritic_name"		"Chivalry: Medieval Warfare Beta"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"232210"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"ValveTestApp232210"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+		"no_revenue_accumulation"		"1"
+		"listofdlc"		"247390"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"chivalrymedievalwarfarebeta"
+		"launch"
+		{
+			"5"
+			{
+				"executable"		"Binaries\\Win64\\CMW.exe"
+				"description"		"Chivalry: Medieval Warfare"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"6"
+			{
+				"executable"		"CDW\\Binaries\\Win64\\CDW.exe"
+				"description"		"Chivalry: Deadliest Warrior"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"247390"
+				}
+			}
+			"7"
+			{
+				"executable"		"Binaries\\Win32\\CMW.exe"
+				"description"		"Chivalry: Medieval Warfare (32-bit)"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"8"
+			{
+				"executable"		"CDW\\Binaries\\Win32\\CDW.exe"
+				"description"		"Chivalry: Deadliest Warrior (32-bit)"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"247390"
+				}
+			}
+			"9"
+			{
+				"executable"		"ChivLauncher.exe"
+				"description"		"Launcher (SDK, Workshop, Safe Mode)"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"10"
+			{
+				"executable"		"Chivalry.app/Contents/MacOS/UDKGame"
+				"description"		"Chivalry: Medieval Warfare"
+				"workingdir"		"Chivalry.app/Contents/MacOS"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"11"
+			{
+				"executable"		"Binaries\\Linux\\UDKGame-Linux"
+				"description"		"Chivalry: Medieval Warfare"
+				"workingdir"		"Binaries\\Linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"12"
+			{
+				"executable"		"CDW/ChivalryDeadliestWarrior.app/Contents/MacOS/CDWGame"
+				"description"		"Chivalry: Deadliest Warrior"
+				"workingdir"		"CDW/ChivalryDeadliestWarrior.app/Contents/MacOS"
+				"config"
+				{
+					"oslist"		"macos"
+					"ownsdlc"		"241280"
+				}
+			}
+			"13"
+			{
+				"executable"		"CDW\\Binaries\\Linux\\CDWGame-Linux"
+				"description"		"Chivalry: Deadliest Warrior"
+				"workingdir"		"CDW\\Binaries\\Linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+					"ownsdlc"		"241280"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"232211"
+		{
+			"systemdefined"		"1"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7341207974950583905"
+					"size"		"8090799450"
+					"download"		"5408050960"
+				}
+				"local"
+				{
+					"gid"		"5758978363833394202"
+					"size"		"3410989596"
+					"download"		"0"
+				}
+			}
+		}
+		"232223"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3219282999014528955"
+					"size"		"6869442786"
+					"download"		"4632582720"
+				}
+			}
+		}
+		"232224"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5436202609066291102"
+					"size"		"7162221640"
+					"download"		"4716357568"
+				}
+			}
+		}
+		"232212"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7385937522895036205"
+					"size"		"0"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"3449866160578565032"
+					"size"		"5485"
+					"download"		"0"
+				}
+			}
+		}
+		"232213"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3274014505394836979"
+					"size"		"31146"
+					"download"		"9712"
+				}
+				"local"
+				{
+					"gid"		"3274014505394836979"
+					"size"		"31146"
+					"download"		"0"
+				}
+			}
+		}
+		"232214"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2147575043542835718"
+					"size"		"31146"
+					"download"		"9712"
+				}
+				"local"
+				{
+					"gid"		"2147575043542835718"
+					"size"		"31146"
+					"download"		"0"
+				}
+			}
+		}
+		"232215"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6931833373242935216"
+					"size"		"31146"
+					"download"		"9712"
+				}
+				"local"
+				{
+					"gid"		"6931833373242935216"
+					"size"		"31146"
+					"download"		"0"
+				}
+			}
+		}
+		"232216"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3715776037067184327"
+					"size"		"31146"
+					"download"		"9712"
+				}
+				"local"
+				{
+					"gid"		"3715776037067184327"
+					"size"		"31146"
+					"download"		"0"
+				}
+			}
+		}
+		"232217"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"463830834501859481"
+					"size"		"31146"
+					"download"		"9712"
+				}
+				"local"
+				{
+					"gid"		"463830834501859481"
+					"size"		"31146"
+					"download"		"0"
+				}
+			}
+		}
+		"232218"
+		{
+			"config"
+			{
+				"language"		"polish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5206503905762256717"
+					"size"		"31146"
+					"download"		"9712"
+				}
+				"local"
+				{
+					"gid"		"5206503905762256717"
+					"size"		"31146"
+					"download"		"0"
+				}
+			}
+		}
+		"232219"
+		{
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1397459324965490262"
+					"size"		"404059"
+					"download"		"53376"
+				}
+				"local"
+				{
+					"gid"		"1866296860866060212"
+					"size"		"361275"
+					"download"		"0"
+				}
+			}
+		}
+		"247390"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5938613707703729899"
+					"size"		"4561495502"
+					"download"		"3347986608"
+				}
+			}
+			"dlcappid"		"247390"
+		}
+		"232220"
+		{
+			"config"
+			{
+				"language"		"schinese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1367890506322188947"
+					"size"		"31146"
+					"download"		"9712"
+				}
+			}
+		}
+		"232221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4302192414607155228"
+					"size"		"42794755"
+					"download"		"20119578400"
+				}
+			}
+		}
+		"232222"
+		{
+			"config"
+			{
+				"language"		"tchinese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1388003242603597978"
+					"size"		"31146"
+					"download"		"9712"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2903867"
+				"timeupdated"		"1530282348"
+				"timebuildupdated"		"1530222861"
+			}
+			"local"
+			{
+				"buildid"		"68737"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timebuildupdated"		"1368726394"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
