@@ -1,0 +1,188 @@
+"appinfo"
+{
+	"appid"		"428800"
+	"common"
+	{
+		"name"		"liteCam Game 5.0"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"6720d6ae7668a79b12c9048b55240fd41f428e7a"
+		"logo_small"		"6720d6ae7668a79b12c9048b55240fd41f428e7a_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"428800_eula_0"
+				"name"		"liteCam Game 5.0 EULA"
+				"url"		"http://store.steampowered.com//eula/428800_eula_0"
+			}
+		}
+		"icon"		"686eb737c5d35f022428cca5943bbe7ec9213684"
+		"clienttga"		"a369757af92b75628379f623f1ae45373cb6a17b"
+		"clienticon"		"c0825b0d722b7e9e16f03c0afd455e06a84a28f8"
+		"app_retired_publisher_request"		"1"
+		"metacritic_name"		"liteCam Game 5.0"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_dfd1ed66bbb6b15b2db1bc6af422f49e6ec213d8.jpg"
+		"store_asset_mtime"		"1450193669"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rsupport Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rsupport Inc."
+			}
+		}
+		"primary_genre"		"58"
+		"genres"
+		{
+			"0"		"52"
+			"1"		"54"
+			"2"		"56"
+			"3"		"58"
+			"4"		"59"
+		}
+		"category"
+		{
+			"category_13"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1450463295"
+		"community_hub_visible"		"1"
+		"gameid"		"428800"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"784"
+			"1"		"1027"
+			"2"		"1036"
+			"3"		"1445"
+		}
+		"review_score"		"5"
+		"review_percentage"		"41"
+	}
+	"extended"
+	{
+		"developer"		"Rsupport Inc."
+		"publisher"		"Rsupport Inc."
+		"homepage"		"http://www.litecam.net"
+		"gamemanualurl"		"https://store.steampowered.com/manual/428800/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"liteCam Game 5.0"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LiteCamGame.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"1ee2731365b97c4b57d20758dabb63934c94821da53a2b8e782c913aa781676f604f9bb0b0e7087f5007d3511e43ef04916d0544d66fb1ba6d4775ccdb766bd2f6c2dd33a5084752f28b3f2deafd27c611df487ced4eb7e334b2586fb26576e75ef202421ec32170bee4543f5e10858a34b3a3e2d4cabf099750e83a91eb4ab4"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directshow filter1"
+			{
+				"process 1"		"regsvr32.exe"
+				"command 1"		"/s \"%INSTALLDIR%\\AudioDataFilter.ax\""
+				"description"		"DirectShow Filter"
+			}
+			"directshow filter2"
+			{
+				"process 1"		"regsvr32.exe"
+				"command 1"		"/s \"%INSTALLDIR%\\OverlayConnFilter.ax\""
+				"description"		"DirectShow Filter"
+			}
+			"directshow filter3"
+			{
+				"process 1"		"regsvr32.exe"
+				"command 1"		"/s \"%INSTALLDIR%\\CamPicFilter.ax\""
+				"description"		"DirectShow Filter"
+			}
+			"directshow filter4"
+			{
+				"process 1"		"regsvr32.exe"
+				"command 1"		"/s \"%INSTALLDIR%\\MP4Demuxer.ax\""
+				"description"		"DirectShow Filter"
+			}
+		}
+	}
+	"depots"
+	{
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"428801"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"647914605598930653"
+					"size"		"77894721"
+					"download"		"51387712"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3036931"
+				"timeupdated"		"1534498474"
+				"timebuildupdated"		"1534401678"
+			}
+		}
+	}
+}
