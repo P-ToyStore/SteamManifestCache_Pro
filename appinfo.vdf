@@ -1,0 +1,436 @@
+"appinfo"
+{
+	"appid"		"3234100"
+	"common"
+	{
+		"name"		"Dead Engine"
+		"type"		"Game"
+		"icon"		"7a3244ee68523b0a26da42acbf2b419a7aeb43ce"
+		"clienttga"		"e021f9349a3c543036e2880675fc9de0eddb8e13"
+		"clienticns"		"8ed9db36ce065d7a0e3abcf5639e57be8e7d5bbb"
+		"linuxclienticon"		"8ed9db36ce065d7a0e3abcf5639e57be8e7d5bbb"
+		"clienticon"		"7a3244ee68523b0a26da42acbf2b419a7aeb43ce"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"name_localized"
+		{
+			"schinese"		"丧尸要塞：末日搜打撤"
+			"tchinese"		"殭屍要塞：末日搜打撤"
+			"japanese"		"ゾンビ要塞：終末脱出シューター"
+			"koreana"		"좀비 요새: 종말 익스트랙션 슈터"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"test_timestamp"		"1777680000"
+			"tested_build_id"		"22999476"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-11.0-beta"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"1afbddced53e1a0d09dbbc175b2ec466bf3bdbbf/capsule_231x87.jpg"
+			"schinese"		"54fb5e6917814edda5d82bc22f17a8d7b4404e85/capsule_231x87_schinese.jpg"
+			"tchinese"		"a6bc2f38500fa019f9184c0d42c6b5a5f1f854a8/capsule_231x87_tchinese.jpg"
+			"japanese"		"c396f6e4d55cf8937ecbfeb1cafa4eea06c8949c/capsule_231x87_japanese.jpg"
+			"koreana"		"80f21147da8b0b7ff1b00301455305082b712dbb/capsule_231x87_koreana.jpg"
+		}
+		"header_image"
+		{
+			"english"		"9e3dc97d18cd3c4722c17716696014162224bdb6/header.jpg"
+			"schinese"		"c242af6daae6575bb006d762e375c98470e0c088/header_schinese.jpg"
+			"tchinese"		"7dddbf9716248c851c3f4d8c785697dae83eb1b5/header_tchinese.jpg"
+			"japanese"		"cf8b99543111fead0a2bf851ce6cd65363ea5ac7/header_japanese.jpg"
+			"koreana"		"3592a37ef972accacee2cc358e2b74c3b457c3b5/header_koreana.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn,zh-tw,ja,ko"
+			"library_hero"		"en,zh-cn,zh-tw,ja,ko"
+			"library_hero_blur"		"en,zh-cn,zh-tw,ja,ko"
+			"library_logo"		"zh-cn,en,zh-tw,ja,ko"
+			"library_header"		"en,zh-cn,zh-tw,ja,ko"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"70.27624329793363"
+				"height_pct"		"100.56350431409803"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"e53d0ae1e0f25460cd3af529a59fec308c90b438/library_capsule.jpg"
+					"schinese"		"06ed80d0f7bd5a53d46189de226480fb0a75cf4f/library_capsule_schinese.jpg"
+					"tchinese"		"a65e99f35cd80747afded8009029ee7ffaaa2940/library_capsule_tchinese.jpg"
+					"japanese"		"0aeace718c4b48af7b5b629e71679b168e7b6ddd/library_capsule_japanese.jpg"
+					"koreana"		"ba59c98b87320ceb2b072ceafd25a7e0e93d3784/library_capsule_koreana.jpg"
+				}
+				"image2x"
+				{
+					"english"		"e53d0ae1e0f25460cd3af529a59fec308c90b438/library_capsule_2x.jpg"
+					"schinese"		"06ed80d0f7bd5a53d46189de226480fb0a75cf4f/library_capsule_schinese_2x.jpg"
+					"tchinese"		"a65e99f35cd80747afded8009029ee7ffaaa2940/library_capsule_tchinese_2x.jpg"
+					"japanese"		"0aeace718c4b48af7b5b629e71679b168e7b6ddd/library_capsule_japanese_2x.jpg"
+					"koreana"		"ba59c98b87320ceb2b072ceafd25a7e0e93d3784/library_capsule_koreana_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero.jpg"
+					"schinese"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_schinese.jpg"
+					"tchinese"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_tchinese.jpg"
+					"japanese"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_japanese.jpg"
+					"koreana"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_koreana.jpg"
+				}
+				"image2x"
+				{
+					"schinese"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_schinese_2x.jpg"
+					"english"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_2x.jpg"
+					"tchinese"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_tchinese_2x.jpg"
+					"japanese"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_japanese_2x.jpg"
+					"koreana"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_koreana_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_blur.jpg"
+					"schinese"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_blur_schinese.jpg"
+					"tchinese"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_blur_tchinese.jpg"
+					"japanese"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_blur_japanese.jpg"
+					"koreana"		"793b2ffcbfeb3acc40fdfcfa1a863dca585c5404/library_hero_blur_koreana.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"schinese"		"ae50fb659007d75329ac701ff22a812006569bc7/logo_schinese.png"
+					"english"		"9bbd04220c50758d9f168d9c7962e9330ff6a941/logo.png"
+					"tchinese"		"69a5e3c56aa99645913ff11471a26de83a2804b7/logo_tchinese.png"
+					"japanese"		"1151065da2a1d8bb09116d54fa0b65c3ab4352ef/logo_japanese.png"
+					"koreana"		"efb06d3713a0d9a80121012986ab4e94e00b5713/logo_koreana.png"
+				}
+				"image2x"
+				{
+					"english"		"9bbd04220c50758d9f168d9c7962e9330ff6a941/logo_2x.png"
+					"schinese"		"ae50fb659007d75329ac701ff22a812006569bc7/logo_schinese_2x.png"
+					"tchinese"		"69a5e3c56aa99645913ff11471a26de83a2804b7/logo_tchinese_2x.png"
+					"japanese"		"1151065da2a1d8bb09116d54fa0b65c3ab4352ef/logo_japanese_2x.png"
+					"koreana"		"efb06d3713a0d9a80121012986ab4e94e00b5713/logo_koreana_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"70.27624329793363"
+					"height_pct"		"100.56350431409803"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"9e3dc97d18cd3c4722c17716696014162224bdb6/library_header.jpg"
+					"schinese"		"c242af6daae6575bb006d762e375c98470e0c088/library_header_schinese.jpg"
+					"tchinese"		"7dddbf9716248c851c3f4d8c785697dae83eb1b5/library_header_tchinese.jpg"
+					"japanese"		"cf8b99543111fead0a2bf851ce6cd65363ea5ac7/library_header_japanese.jpg"
+					"koreana"		"3592a37ef972accacee2cc358e2b74c3b457c3b5/library_header_koreana.jpg"
+				}
+				"image2x"
+				{
+					"english"		"9e3dc97d18cd3c4722c17716696014162224bdb6/library_header_2x.jpg"
+					"schinese"		"c242af6daae6575bb006d762e375c98470e0c088/library_header_schinese_2x.jpg"
+					"tchinese"		"7dddbf9716248c851c3f4d8c785697dae83eb1b5/library_header_tchinese_2x.jpg"
+					"japanese"		"cf8b99543111fead0a2bf851ce6cd65363ea5ac7/library_header_japanese_2x.jpg"
+					"koreana"		"3592a37ef972accacee2cc358e2b74c3b457c3b5/library_header_koreana_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1780450743"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Chocolate Dungeon Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Red Axe Games"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Gamersky Games"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Car for Sale Simulator 2023"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"Grimstone Survivors"
+			}
+			"5"
+			{
+				"type"		"franchise"
+				"name"		"Banker Simulator"
+			}
+			"6"
+			{
+				"type"		"franchise"
+				"name"		"Airport Police Simulator"
+			}
+			"7"
+			{
+				"type"		"franchise"
+				"name"		"Car Service Simulator"
+			}
+			"8"
+			{
+				"type"		"franchise"
+				"name"		"The Enigma Cases"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_55"		"1"
+			"category_57"		"1"
+			"category_56"		"1"
+			"category_58"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"thai"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1780477119"
+		"community_hub_visible"		"1"
+		"gameid"		"3234100"
+		"store_tags"
+		{
+			"0"		"42804"
+			"1"		"3964"
+			"2"		"6276"
+			"3"		"4885"
+			"4"		"7332"
+			"5"		"3959"
+			"6"		"1659"
+			"7"		"19"
+			"8"		"1716"
+			"9"		"3835"
+			"10"		"9"
+			"11"		"4791"
+			"12"		"1662"
+			"13"		"492"
+			"14"		"1695"
+			"15"		"21"
+			"16"		"493"
+			"17"		"4182"
+			"18"		"1645"
+			"19"		"12095"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"developer"		"Chocolate Dungeon Games"
+		"publisher"		"Red Axe Games"
+	}
+	"config"
+	{
+		"installdir"		"Dead Engine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dead Engine.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"3234101"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1029367175369429849"
+					"size"		"1545663987"
+					"download"		"233353696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23601031"
+				"timeupdated"		"1780755786"
+				"timebuildupdated"		"1780755710"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"50"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"\\ChocolateDungeon\\Dead Engine"
+				"pattern"		"*"
+			}
+		}
+	}
+}
