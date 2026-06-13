@@ -1,0 +1,218 @@
+"appinfo"
+{
+	"appid"		"2651270"
+	"common"
+	{
+		"name"		"Enginefall Playtest"
+		"type"		"Beta"
+		"parent"		"2437390"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"a688cc0c35b7e0cac25d3e4d0451993a8aab4268"
+		"clienticon"		"a688cc0c35b7e0cac25d3e4d0451993a8aab4268"
+		"clienttga"		"500422112cfe8100d0b09f51ce029738d629b562"
+		"releasestate"		"released"
+		"name_localized"
+		{
+			"schinese"		"夺轨战 Playtest"
+			"tchinese"		"奪軌戰 Playtest"
+		}
+		"small_capsule"
+		{
+			"english"		"ec8aa5010abc40fe1449880775bf1ce268ab624f/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"199140a28344c6a1022a887d153722df998a375f/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"5ebd3aa534b921c8fcc384576d0be747a17685ad/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"5ebd3aa534b921c8fcc384576d0be747a17685ad/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"978e0dab041d375f67ad5741f0e619f1a7923f32/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"978e0dab041d375f67ad5741f0e619f1a7923f32/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"978e0dab041d375f67ad5741f0e619f1a7923f32/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image2x"
+				{
+					"english"		"fa0f711acf9b6734b21c75b98d4a66c7c6ba954f/logo_2x.png"
+				}
+				"image"
+				{
+					"english"		"fa0f711acf9b6734b21c75b98d4a66c7c6ba954f/logo.png"
+				}
+			}
+			"library_header"
+			{
+				"image2x"
+				{
+					"english"		"199140a28344c6a1022a887d153722df998a375f/library_header_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"199140a28344c6a1022a887d153722df998a375f/library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1774446683"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1710926580"
+		"community_hub_visible"		"1"
+		"gameid"		"2651270"
+		"exfgls"		"6"
+		"review_score"		"4"
+		"review_percentage"		"36"
+	}
+	"extended"
+	{
+		"playtest_type"		"1"
+		"playtestinvitecount"		"3"
+		"playtestinviteendtime"		"1793004539"
+	}
+	"config"
+	{
+		"installdir"		"Coltrane Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"start_protected_game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"start_protected_game.exe"
+				"arguments"		"-EnginefallEnv=staging"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"preview_playtest"
+				}
+				"description_loc"
+				{
+					"english"		"Playtest (PTR)"
+				}
+				"description"		"Playtest (PTR)"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2651271"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3489491602111097494"
+					"size"		"34922935743"
+					"download"		"31167035488"
+				}
+			}
+		}
+		"2651272"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5514804988028229762"
+					"size"		"234861"
+					"download"		"127872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23717307"
+				"timeupdated"		"1781358860"
+				"timebuildupdated"		"1781358860"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
