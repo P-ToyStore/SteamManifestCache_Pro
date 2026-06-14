@@ -1,0 +1,188 @@
+"appinfo"
+{
+	"appid"		"359850"
+	"common"
+	{
+		"name"		"Duke Nukem 3D"
+		"type"		"Game"
+		"clienticon"		"a7868c456351b09b483cfa09362f92970d16b51f"
+		"clienttga"		"152160d1c5afd57a035195cb11a2d883c371bb4b"
+		"icon"		"6e9cb4179b64a39e440694c3e3add0280c5d076c"
+		"oslist"		"windows,macos"
+		"logo"		"ad5da422a5769f7f4d8f646ba6645bf94ba47575"
+		"logo_small"		"ad5da422a5769f7f4d8f646ba6645bf94ba47575_thumb"
+		"releasestate"		"released"
+		"metacritic_name"		"Duke Nukem 3D"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_4e9d5c1a808e18aa946044f0c90f7cb3598b55fe.jpg"
+		"store_asset_mtime"		"1430809604"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"3D Realms"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"3D Realms (Apogee Software)"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"822902400"
+		"steam_release_date"		"1399308180"
+		"metacritic_score"		"89"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/duke-nukem-3d?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"359850"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"1693"
+			"2"		"19"
+			"3"		"1774"
+		}
+		"review_score"		"7"
+		"review_percentage"		"85"
+	}
+	"extended"
+	{
+		"developer"		"3D Realms"
+		"publisher"		"3D Realms (Apogee Software)"
+		"homepage"		"https://3drealms.com/catalog/duke-nukem-3d_27/"
+		"gamemanualurl"		"https://store.steampowered.com/manual/359850/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Duke Nukem 3D"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Duke Nukem 3D\\eduke32.exe"
+				"description"		"Launch Duke Nukem 3D [EDuke32]"
+				"workingdir"		"Duke Nukem 3D\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Duke Nukem 3D - DOS.bat"
+				"description"		"Launch Duke Nukem 3D [DOS]"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Duke Nukem 3D.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Dosbox\\dosbox"
+				"arguments"		"-conf \"..\\DUKE3d.conf\" -noconsole -c"
+				"description"		"Launch"
+				"workingdir"		"Dosbox\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"359851"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1514922708958059584"
+					"size"		"142728189"
+					"download"		"56343392"
+				}
+			}
+		}
+		"359852"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1184105160753112810"
+					"size"		"563374580"
+					"download"		"213072064"
+				}
+			}
+		}
+		"359853"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2584223795496732136"
+					"size"		"71848314"
+					"download"		"31879408"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"621777"
+				"timebuildupdated"		"1431549156"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
