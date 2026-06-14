@@ -1,0 +1,132 @@
+"appinfo"
+{
+	"appid"		"3675450"
+	"common"
+	{
+		"name"		"Vector Strike Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2678820"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"2040ff6d1c0408aeece0cd4f47ee30ddba73d2ef"
+		"clienticon"		"f2e97bb7747556b7bf2bcfeb0b10b9f9859fc4e4"
+		"clienttga"		"7fd31bb9533280320395b443accf0f69d4d12dd3"
+		"freetodownload"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3675450"
+	}
+	"config"
+	{
+		"installdir"		"Vector Strike Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MercuryServer.exe"
+				"arguments"		"-log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3675451"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3663540802114011561"
+					"size"		"2856722631"
+					"download"		"1084744976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23726027"
+				"timeupdated"		"1781441720"
+				"timebuildupdated"		"1781440316"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
