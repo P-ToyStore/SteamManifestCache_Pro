@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"673990"
+	"common"
+	{
+		"name"		"IOSoccer Dedicated Server"
+		"type"		"Tool"
+		"parent"		"673560"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"c9c9891f42cae3d1d635b8eb01eb3763aa19c89b"
+		"logo_small"		"c9c9891f42cae3d1d635b8eb01eb3763aa19c89b_thumb"
+		"icon"		"7578a5e303acb83805bea3e6f5913e6a52102536"
+		"clienticon"		"4a4b58e72ea7e41d5c0479e6d82a57c40ccf8fcb"
+		"clienttga"		"fd0633c7e8bb701431ace1eb81d511a0850d76f4"
+		"freetodownload"		"1"
+		"clienticns"		"fb107ad8efdd3f42aca9b325919eef0da41d91cd"
+		"linuxclienticon"		"28c646b7112fe1d28bdcb1fd5522fdb2fda66d10"
+		"associations"
+		{
+		}
+		"gameid"		"673990"
+	}
+	"config"
+	{
+		"installdir"		"IOSoccer Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game iosoccer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"673991"
+		{
+			"config"
+			{
+				"oslist"		"windows,linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1118179687560281567"
+					"size"		"4602918902"
+					"download"		"2068458032"
+				}
+				"public-test"
+				{
+					"gid"		"1118179687560281567"
+					"size"		"4602918902"
+					"download"		"2068458032"
+				}
+				"sdk2007"
+				{
+					"gid"		"1030653134587028036"
+					"size"		"3639877180"
+					"download"		"1086152592"
+				}
+				"develop"
+				{
+					"gid"		"5369618756681663337"
+					"size"		"3475864877"
+					"download"		"1051991680"
+				}
+			}
+		}
+		"673992"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5772990557317754299"
+					"size"		"127412289"
+					"download"		"50835968"
+				}
+				"public-test"
+				{
+					"gid"		"5772990557317754299"
+					"size"		"127412289"
+					"download"		"50835968"
+				}
+				"sdk2007"
+				{
+					"gid"		"5257790912175090242"
+					"size"		"32220304"
+					"download"		"11499488"
+				}
+				"develop"
+				{
+					"gid"		"5886683205840857418"
+					"size"		"28052624"
+					"download"		"9453040"
+				}
+			}
+		}
+		"673993"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2657394062164694927"
+					"size"		"48708036"
+					"download"		"14040192"
+				}
+				"public-test"
+				{
+					"gid"		"2657394062164694927"
+					"size"		"48708036"
+					"download"		"14040192"
+				}
+				"sdk2007"
+				{
+					"gid"		"2657394062164694927"
+					"size"		"48708036"
+					"download"		"14040192"
+				}
+				"develop"
+				{
+					"gid"		"2290729284015416158"
+					"size"		"48602171"
+					"download"		"13098336"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23775850"
+				"timeupdated"		"1781670474"
+				"timebuildupdated"		"1781670449"
+			}
+			"public-test"
+			{
+				"buildid"		"23775850"
+				"description"		"public test build"
+				"timeupdated"		"1781670449"
+				"timebuildupdated"		"1781670449"
+			}
+			"sdk2007"
+			{
+				"buildid"		"21540946"
+				"description"		"Old SDK 2007 version of the game"
+				"timeupdated"		"1768693551"
+				"timebuildupdated"		"1768693525"
+			}
+			"develop"
+			{
+				"buildid"		"9159013"
+				"description"		"branch for internal testing of in-development changes"
+				"timeupdated"		"1658346046"
+				"timebuildupdated"		"1658345890"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
