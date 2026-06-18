@@ -1,0 +1,84 @@
+"appinfo"
+{
+	"appid"		"2259560"
+	"common"
+	{
+		"name"		"Crash Time - Undercover Workshop Tool"
+		"type"		"Tool"
+		"parent"		"1687700"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"adda9323c1af059d42099a3952a0e23a586dfde6"
+		"clienticon"		"815eed218002d613925349f2c7d8b8455834294a"
+		"clienttga"		"4ec04e5a736caeca7a92d820f265a755e479d562"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"2259560"
+	}
+	"config"
+	{
+		"installdir"		"Crash Time Undercover"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Tools\\Win64\\ModMgr.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"2259560"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2259561"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5336029273714080351"
+					"size"		"1059728"
+					"download"		"517760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19672278"
+				"timeupdated"		"1755728779"
+				"timebuildupdated"		"1755709966"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"314572800"
+		"maxnumfiles"		"10000"
+	}
+}
