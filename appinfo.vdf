@@ -1,0 +1,83 @@
+"appinfo"
+{
+	"appid"		"1365980"
+	"common"
+	{
+		"name"		"World Racing 2 Workshop Upload Tool"
+		"type"		"Tool"
+		"parent"		"1301010"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"name_localized"
+		{
+			"english"		"World Racing 2 Workshop Upload Tool"
+		}
+		"clienticon"		"a02777025bf20e7b4e934d0a313600001a721938"
+		"clienttga"		"d29a73f99460a103e8ac654e626d5d780cb0c668"
+		"icon"		"80e66f387ee42c2cb98b1c48e534e5b8fa3936ff"
+		"associations"
+		{
+		}
+		"gameid"		"1365980"
+	}
+	"config"
+	{
+		"installdir"		"World Racing 2"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Tools\\WorkshopUploader.exe"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1365981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3033246876458644204"
+					"size"		"20286104"
+					"download"		"6992304"
+				}
+			}
+		}
+		"baselanguages"		"english,german"
+		"workshopdepot"		"1365980"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12070630"
+				"timeupdated"		"1698261273"
+				"timebuildupdated"		"1693414417"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"1000"
+	}
+}
