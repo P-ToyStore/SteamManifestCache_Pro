@@ -1,0 +1,302 @@
+"appinfo"
+{
+	"appid"		"4001700"
+	"common"
+	{
+		"name"		"Cauldron Craft"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"d0de8328ba6bb3240ba87413853c1d57a82580ba"
+		"clienticns"		"c8dce6fe75fda951fe5fabb70899726945bd6844"
+		"clienticon"		"bee1323fb07958a7f8fb879084b3cfe982fd86f2"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"linuxclienticon"		"1dbb84d062ff07c4e1d515d083cae21524cce4be"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"0d91db9c4acf29daa9f6cc26d3a3bc825d1e7c4a/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"744daa8b43a9222df6a84cd801bb8e3da05e19ba/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"12.175785797438891"
+				"height_pct"		"80.01662312989788"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"e9ee1649435dfff41bbe0df2b15ac5ea45ce5e2d/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"e9ee1649435dfff41bbe0df2b15ac5ea45ce5e2d/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"9f503d0de67aeada3f068242c31d9f546dc48870/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"9f503d0de67aeada3f068242c31d9f546dc48870/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"9f503d0de67aeada3f068242c31d9f546dc48870/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"bc2152144f2b0c6dff843644ae6c2a152b1e095a/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"bc2152144f2b0c6dff843644ae6c2a152b1e095a/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"12.175785797438891"
+					"height_pct"		"80.01662312989788"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"744daa8b43a9222df6a84cd801bb8e3da05e19ba/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"744daa8b43a9222df6a84cd801bb8e3da05e19ba/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1780980090"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"ByePidgeon"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"ByePidgeon"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_67"		"1"
+			"category_68"		"1"
+			"category_74"		"1"
+			"category_79"		"1"
+			"category_80"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1781022645"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"4001700"
+		"store_tags"
+		{
+			"0"		"1702"
+			"1"		"122"
+			"2"		"3834"
+			"3"		"5652"
+			"4"		"3798"
+			"5"		"21"
+			"6"		"3871"
+			"7"		"8945"
+			"8"		"597"
+			"9"		"4434"
+			"10"		"6276"
+			"11"		"4791"
+			"12"		"1654"
+			"13"		"3964"
+			"14"		"4305"
+			"15"		"4057"
+			"16"		"4182"
+			"17"		"492"
+			"18"		"4726"
+			"19"		"1684"
+		}
+	}
+	"extended"
+	{
+		"developer"		"ByePidgeon"
+		"publisher"		"ByePidgeon"
+	}
+	"config"
+	{
+		"installdir"		"Cauldron Craft"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"cauldron_craft.exe"
+				"arguments"		"-windowed"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cauldron Craft.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"cauldron_craft.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"4001701"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7017291138736014784"
+					"size"		"151793664"
+					"download"		"66170896"
+				}
+			}
+		}
+		"4001702"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5790108979998512207"
+					"size"		"215698626"
+					"download"		"85480976"
+				}
+			}
+		}
+		"4001703"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7733209412387362903"
+					"size"		"116770328"
+					"download"		"57733216"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23812765"
+				"timeupdated"		"1781827880"
+				"timebuildupdated"		"1781827880"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"300000000"
+		"maxnumfiles"		"30"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"Godot/app_userdata/Cauldron Craft"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"addpath"		".local/share/godot/app_userdata/Cauldron Craft"
+			}
+		}
+	}
+}
