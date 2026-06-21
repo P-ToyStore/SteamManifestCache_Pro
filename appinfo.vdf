@@ -1,0 +1,382 @@
+"appinfo"
+{
+	"appid"		"361100"
+	"common"
+	{
+		"name"		"Dual Souls: The Last Bearer"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"logo"		"21384fb916d8d6634f5faac802e2670fd0401d2b"
+		"logo_small"		"21384fb916d8d6634f5faac802e2670fd0401d2b_thumb"
+		"icon"		"5f4360bf612fdad405859309e019efff0b6184b2"
+		"clienttga"		"45dba39fe0727138bdc4acbcd5bf3a83f49864f7"
+		"clienticon"		"9538f52c0d5d12b4565463b198c436e8c57b0cbc"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"linuxclienticon"		"acdb437f5246afa2a7759c37a594faa0b872bf21"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"44.42563183991769"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"44.42563183991769"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1702212876"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Stun Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Stun Games"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_36"		"1"
+			"category_23"		"1"
+			"category_27"		"1"
+			"category_28"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_37"		"1"
+			"category_24"		"1"
+			"category_44"		"1"
+			"category_47"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1634674018"
+		"community_hub_visible"		"1"
+		"gameid"		"361100"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"4736"
+			"3"		"1743"
+			"4"		"4085"
+		}
+		"review_score"		"7"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"Stun Games"
+		"publisher"		"Stun Games"
+		"homepage"		"http://www.stun-games.com"
+		"listofdlc"		"1125120"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DualSouls"
+		"launch"
+		{
+			"6"
+			{
+				"executable"		"DualSouls.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"7"
+			{
+				"executable"		"DualSouls.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"8"
+			{
+				"executable"		"DualSouls.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"10"
+			{
+				"executable"		"slashers/Slashers.exe"
+				"workingdir"		"slashers/"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1125120"
+				}
+				"description_loc"
+				{
+					"english"		"Slashers: The Power Battle"
+				}
+				"description"		"Slashers: The Power Battle"
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"4"
+	}
+	"depots"
+	{
+		"361101"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1248713527563351087"
+					"size"		"1400142071"
+					"download"		"561014624"
+				}
+				"beta"
+				{
+					"gid"		"6137095605445848704"
+					"size"		"1524418734"
+					"download"		"541268368"
+				}
+			}
+		}
+		"361102"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1659400190853634450"
+					"size"		"1506052354"
+					"download"		"518278960"
+				}
+				"beta"
+				{
+					"gid"		"8197407542923078702"
+					"size"		"1507006425"
+					"download"		"537372688"
+				}
+			}
+		}
+		"361103"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4889432706598462467"
+					"size"		"1553362938"
+					"download"		"519253776"
+				}
+				"beta"
+				{
+					"gid"		"8204423403473203353"
+					"size"		"1553854389"
+					"download"		"537878224"
+				}
+			}
+		}
+		"1125120"
+		{
+			"dlcappid"		"1125120"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"724181318676481369"
+					"size"		"276357021"
+					"download"		"150212784"
+				}
+				"beta"
+				{
+					"gid"		"724181318676481369"
+					"size"		"276357021"
+					"download"		"150212784"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23839504"
+				"timeupdated"		"1782036755"
+				"timebuildupdated"		"1781998913"
+			}
+			"beta"
+			{
+				"buildid"		"12918696"
+				"description"		"Open Beta Test"
+				"timeupdated"		"1702213844"
+				"timebuildupdated"		"1702119888"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Stun Games/DualSouls"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"1"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"SlashersTPB"
+				"pattern"		"*.bin"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"2"
+			{
+				"root"		"LinuxHome"
+				"path"		".config/unity3d/Stun Games/DualSouls"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Linux"
+				}
+			}
+			"3"
+			{
+				"root"		"MacAppSupport"
+				"path"		"Stun Games/DualSouls"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
