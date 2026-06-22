@@ -1,0 +1,166 @@
+"appinfo"
+{
+	"appid"		"4325690"
+	"common"
+	{
+		"name"		"Toaster Arena Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1726530"
+		"clienticon"		"b87a1296af7e160efe5a87ba901642ba69dd40ba"
+		"icon"		"b87a1296af7e160efe5a87ba901642ba69dd40ba"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"freetodownload"		"1"
+		"gameid"		"4325690"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Toaster Arena Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Toaster_rebootServer.exe"
+				"arguments"		"-server -log"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch from installation directory"
+				}
+				"description"		"Launch from installation directory"
+			}
+			"1"
+			{
+				"executable"		"Toaster_rebootServer.sh"
+				"arguments"		"-server -log"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"4325691"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6922802900379645141"
+					"size"		"1175680332"
+					"download"		"483711184"
+				}
+				"experimental"
+				{
+					"gid"		"6922802900379645141"
+					"size"		"1175680332"
+					"download"		"483711184"
+				}
+			}
+		}
+		"4325692"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6744013491764571021"
+					"size"		"2948915388"
+					"download"		"1406468688"
+				}
+				"experimental"
+				{
+					"gid"		"6744013491764571021"
+					"size"		"2948915388"
+					"download"		"1406468688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23857041"
+				"timeupdated"		"1782136425"
+				"timebuildupdated"		"1782136360"
+			}
+			"experimental"
+			{
+				"buildid"		"23857041"
+				"description"		"Experimental branch used for testing"
+				"timeupdated"		"1782136360"
+				"timebuildupdated"		"1782136360"
+			}
+		}
+	}
+}
