@@ -1,0 +1,291 @@
+"appinfo"
+{
+	"appid"		"3018410"
+	"common"
+	{
+		"name"		"VTOL VR Mod Loader"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"419787a9a751f52b8f4331adccf1b73c1bf63673"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"icon"		"b67dbe165122aeecdb3b2065d6b70a57ceaba4bb"
+		"releasestate"		"released"
+		"parent"		"667970"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"0"
+			"test_timestamp"		"1724457600"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_VR"
+				}
+			}
+			"steamos_tests"
+			{
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-2RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"d7eee46ebf8ef1045b6b49aeb6c4e7c82fcde896/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1781470249"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"vtolvr-mods"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"vtolvr-mods"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_30"		"1"
+			"category_52"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1723205460"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3018410"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+			"2"		"599"
+			"3"		"3810"
+			"4"		"15045"
+			"5"		"21978"
+			"6"		"113"
+			"7"		"4182"
+			"8"		"5348"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"mustownapptopurchase"		"667970"
+		"developer"		"vtolvr-mods"
+		"publisher"		"vtolvr-mods"
+		"isfreeapp"		"1"
+		"listofdlc"		"3221890,3221900,3221910"
+	}
+	"config"
+	{
+		"installdir"		"VTOL VR Mod Loader"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Manager\\Mod Manager.exe"
+				"workingdir"		"Manager"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Windows Native"
+				}
+				"description"		"Windows Native"
+			}
+			"1"
+			{
+				"executable"		"Manager\\Mod Manager"
+				"workingdir"		"Manager"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Linux Native"
+				}
+				"description"		"Linux Native"
+			}
+		}
+	}
+	"depots"
+	{
+		"workshopdepot"		"3018410"
+		"3018411"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2764186492895080965"
+					"size"		"200844882"
+					"download"		"80766528"
+				}
+				"6.9.0"
+				{
+					"gid"		"7688932857617170471"
+					"size"		"200567413"
+					"download"		"79122816"
+				}
+			}
+		}
+		"3018412"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7534787352586061081"
+					"size"		"195222913"
+					"download"		"79967856"
+				}
+				"6.9.0"
+				{
+					"gid"		"909544527489088928"
+					"size"		"194947027"
+					"download"		"79304688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23862598"
+				"timeupdated"		"1782158994"
+				"timebuildupdated"		"1782158994"
+			}
+			"6.9.0"
+			{
+				"buildid"		"21732959"
+				"description"		"Version 6.9.0 of the Mod Loader"
+				"timeupdated"		"1769903815"
+				"timebuildupdated"		"1769903815"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"2000000000"
+		"maxnumfiles"		"10000"
+	}
+}
