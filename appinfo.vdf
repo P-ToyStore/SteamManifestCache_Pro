@@ -1,0 +1,232 @@
+"appinfo"
+{
+	"appid"		"2586090"
+	"common"
+	{
+		"name"		"Enemy Trench"
+		"type"		"Game"
+		"clienttga"		"0e993962e810fd2259f277446cea7563614e293d"
+		"linuxclienticon"		"d2a8913d228d343c7eda9faeaedb3e1dc701ea82"
+		"clienticon"		"7f1ee49a8b008c7f85940ed497c316bd2117b9fc"
+		"icon"		"2b3f6d449d8492a8147686202a804d75c3f40ba8"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1693932354"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Vulkanoid"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Vulkanoid"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1698699012"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2586090"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"1716"
+			"2"		"454187"
+			"3"		"4094"
+			"4"		"5382"
+			"5"		"7569"
+			"6"		"4182"
+			"7"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Vulkanoid"
+		"publisher"		"Vulkanoid"
+		"homepage"		"https://vulkanoid.net/"
+	}
+	"config"
+	{
+		"installdir"		"Enemy Trench"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"EnemyTrench.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"EnemyTrench"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2586091"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1208718864286874782"
+					"size"		"129800601"
+					"download"		"37704096"
+				}
+			}
+		}
+		"2586092"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1939875657368175788"
+					"size"		"128617765"
+					"download"		"47459488"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13545023"
+				"timeupdated"		"1708702688"
+				"timebuildupdated"		"1708702589"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"\\saves\\"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
