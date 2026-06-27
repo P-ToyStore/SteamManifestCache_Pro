@@ -1,0 +1,244 @@
+"appinfo"
+{
+	"appid"		"2923160"
+	"common"
+	{
+		"name"		"Mines of Moria (An Adventurer's Touch)"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macosapplesilicon"
+		"icon"		"5c02958415b0bae080cc25e8bc2a67b93031ef8b"
+		"clienticon"		"eee4d03027865058c7121972ef82934329d0f093"
+		"clienttga"		"7425911cb1dd80cf67903f5fadb5dc47014ae2e7"
+		"controllertagwizard"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"67.61960326721118"
+				"height_pct"		"94.45499881263358"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"67.61960326721118"
+					"height_pct"		"94.45499881263358"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1743607386"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rufe.org LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rufe.org LLC"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"3"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1720817440"
+		"community_hub_visible"		"1"
+		"gameid"		"2923160"
+		"store_tags"
+		{
+			"0"		"454187"
+			"1"		"1720"
+			"2"		"6730"
+			"3"		"1716"
+			"4"		"3871"
+			"5"		"4791"
+			"6"		"7481"
+			"7"		"4094"
+			"8"		"3964"
+			"9"		"1684"
+			"10"		"122"
+			"11"		"9"
+			"12"		"1708"
+			"13"		"3916"
+			"14"		"3993"
+			"15"		"4182"
+			"16"		"21"
+			"17"		"1741"
+			"18"		"4747"
+			"19"		"4325"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Rufe.org LLC"
+		"publisher"		"Rufe.org LLC"
+		"homepage"		"https://rufe.org/moria/"
+	}
+	"config"
+	{
+		"installdir"		"Moria"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ape_x86"
+				"arguments"		"./moria_at.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"ape_aarch64"
+				"arguments"		"./moria_at.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"moria_at.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"classic/moria.exe"
+				"workingdir"		"classic/"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"UMoria 5.5 Classic"
+				}
+				"description"		"UMoria 5.5 Classic"
+			}
+		}
+		"steamdecktouchscreen"		"5"
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2923161"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6371526807416384435"
+					"size"		"11004926"
+					"download"		"3675520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21748867"
+				"timeupdated"		"1770047357"
+				"timebuildupdated"		"1770042559"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
