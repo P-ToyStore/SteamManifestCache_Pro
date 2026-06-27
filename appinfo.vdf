@@ -1,0 +1,137 @@
+"appinfo"
+{
+	"appid"		"1329140"
+	"common"
+	{
+		"name"		"Hnefatafl Workshop Uploader"
+		"type"		"Tool"
+		"parent"		"1249510"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"logo"		"209a454f1c166deb5984b03b3c9acafa6b5a629b"
+		"logo_small"		"209a454f1c166deb5984b03b3c9acafa6b5a629b_thumb"
+		"icon"		"6f4c42766e2e6716f417a2ab3b8b687e18b251b7"
+		"clienttga"		"74a6617ccde12e468af8a639db28a94b14afe411"
+		"clienticon"		"908e7f686973a18d5ca5f0864b8441ebe0fe7bae"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"gameid"		"1329140"
+	}
+	"config"
+	{
+		"installdir"		"Hnefatafl Workshop Uploader"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WorkshopUploader.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"WorkshopUploader.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Start"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1329141"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3495841875112809056"
+					"size"		"27178177"
+					"download"		"26504000"
+				}
+			}
+		}
+		"1329142"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1885671482999831239"
+					"size"		"1154394"
+					"download"		"423680"
+				}
+			}
+		}
+		"1329143"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7941514371244093157"
+					"size"		"64273495"
+					"download"		"21303776"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7093982"
+				"timeupdated"		"1627384196"
+				"timebuildupdated"		"1627384196"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"appidredirect"		"1249510"
+	}
+}
