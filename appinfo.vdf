@@ -1,0 +1,218 @@
+"appinfo"
+{
+	"appid"		"44200"
+	"common"
+	{
+		"name"		"Galcon Fusion"
+		"logo"		"664563d2b8c2d2fb66d8ab183d8689eb58073274"
+		"logo_small"		"664563d2b8c2d2fb66d8ab183d8689eb58073274_thumb"
+		"clienticon"		"2a4039c86a342c5096b43a1d5072e98f3ab10a70"
+		"clienttga"		"dcd0744c1a3838789f379a87f6bf770939d61a9c"
+		"icon"		"a4de13aa82964fe761be40f1525595780be32f10"
+		"clienticns"		"07bf915269d6d7001597339f3519b3aff47c5a72"
+		"linuxclienticon"		"84620ecd6a0bcc2cc5d8a5bdc480e0337701d244"
+		"oslist"		"macos,windows,linux"
+		"type"		"game"
+		"metacritic_name"		"Galcon Fusion"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_89726686dab08dbfa4b874c1b0d688567f877c05.jpg"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hassey Enterprises, Inc."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hassey Enterprises, Inc."
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_27"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1265914800"
+		"metacritic_score"		"68"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/galcon-fusion?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"44200"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"492"
+			"2"		"1676"
+			"3"		"1755"
+			"4"		"3942"
+			"5"		"3859"
+			"6"		"597"
+		}
+		"review_score"		"6"
+		"review_percentage"		"77"
+	}
+	"extended"
+	{
+		"developer"		"Hassey Enterprises, Inc."
+		"externalsubscriptionurl2"		"http://www.galcon.com/fusion/steam.php?action=reg&code=%CDKEY%"
+		"gamedir"		"Galcon Fusion"
+		"homepage"		"http://www.galcon.com/fusion/"
+		"icon"		""
+		"installscriptosx"		"Galcon Fusion.app/installscript_osx.vdf"
+		"installscript_macos"		"Galcon Fusion.app/installscript_osx.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp44200\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"macos,windows,linux"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Hassey Enterprises, Inc."
+	}
+	"config"
+	{
+		"usemms"		"1"
+		"contenttype"		"3"
+		"installdir"		"Galcon Fusion"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GalconFusion.exe"
+				"description"		"Windows"
+				"workingdir"		"."
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Galcon Fusion.app"
+				"description"		"MacOS"
+				"workingdir"		"."
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/sdlapp"
+				"description"		"Linux"
+				"workingdir"		"bin"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"44201"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5735603819757371464"
+					"size"		"36379138"
+					"download"		"0"
+				}
+			}
+		}
+		"44202"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1092260521661096729"
+					"size"		"13"
+					"download"		"0"
+				}
+			}
+		}
+		"44203"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"optional"		"1"
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"887976382100033866"
+					"size"		"4776634"
+					"download"		"0"
+				}
+			}
+		}
+		"44204"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6068151625712057051"
+					"size"		"3479756"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"46192"
+				"timebuildupdated"		"1361481248"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1048576"
+		"maxnumfiles"		"100"
+	}
+}
