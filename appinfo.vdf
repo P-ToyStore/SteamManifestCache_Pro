@@ -1,0 +1,176 @@
+"appinfo"
+{
+	"appid"		"1614930"
+	"common"
+	{
+		"name"		"Setback Playtest"
+		"type"		"Beta"
+		"parent"		"1119780"
+		"clienttga"		"df45daea4ecadad650d33ef64da0d7ecf066532d"
+		"clienticon"		"094fcf5664342c00225ea5b333d1d0dab5f3f0a8"
+		"icon"		"03b7824dd109b2e1df3760ecc31685b9331d5927"
+		"logo"		"722567ae5e63bb57be09a98569d25627e09081d7"
+		"logo_small"		"722567ae5e63bb57be09a98569d25627e09081d7_thumb"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"unavailable"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"67.80758582027954"
+				"height_pct"		"79.51750236518447"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"67.80758582027954"
+					"height_pct"		"79.51750236518447"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1691668476"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"gameid"		"1614930"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"betaforappid"		"1119780"
+		"playtest_type"		"0"
+	}
+	"config"
+	{
+		"installdir"		"SetbackPlaytest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Setback\\Binaries\\Win64\\Setback.exe"
+				"arguments"		"-d3d11"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"using DirectX 11"
+				}
+				"description"		"using DirectX 11"
+			}
+			"1"
+			{
+				"executable"		"Setback\\Binaries\\Win64\\SetbackGame.exe"
+				"arguments"		"-d3d11"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Try this if option 1 doesn't work"
+				}
+				"description"		"Try this if option 1 doesn't work"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1614931"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2870220762149370757"
+					"size"		"2742895227"
+					"download"		"2378683328"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13475690"
+				"timeupdated"		"1708089217"
+				"timebuildupdated"		"1708085893"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
