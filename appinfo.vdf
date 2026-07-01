@@ -1,0 +1,148 @@
+"appinfo"
+{
+	"appid"		"2909700"
+	"common"
+	{
+		"name"		"DayZ Experimental Tools"
+		"type"		"Tool"
+		"parent"		"1024020"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"0a72434068c2a1e037d7ae91e95e2c57f50da923"
+		"clienttga"		"0b5eab174ef8716b4ae9da90b66aef664bbed9db"
+		"clienticon"		"da020fd6554f91782017a60d09d5929521e30b11"
+		"releasestate"		"released"
+		"gameid"		"2909700"
+	}
+	"config"
+	{
+		"installdir"		"DayZ Experimental Tools"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bin\\Launcher\\DayZToolsLauncher.exe"
+				"workingdir"		"Bin\\Launcher\\"
+				"type"		"default"
+				"description_loc"
+				{
+					"english"		"Experimental DayZ Tools Launcher"
+				}
+				"description"		"Experimental DayZ Tools Launcher"
+			}
+			"1"
+			{
+				"executable"		"Bin\\Workbench\\workbenchApp.exe"
+				"workingdir"		"Bin\\Workbench\\"
+				"description_loc"
+				{
+					"english"		"Launch Workbench"
+				}
+				"description"		"Launch Workbench"
+			}
+			"2"
+			{
+				"executable"		"Bin\\Launcher\\launcher.bat"
+				"arguments"		"\"Bin\""
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Open DayZ Tools directory"
+				}
+				"description"		"Open DayZ Tools directory"
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2909701"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8240607442694517654"
+					"size"		"543455568"
+					"download"		"252958336"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23909709"
+				"timeupdated"		"1782900195"
+				"timebuildupdated"		"1782381319"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
