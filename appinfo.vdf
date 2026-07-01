@@ -1,0 +1,150 @@
+"appinfo"
+{
+	"appid"		"1042420"
+	"common"
+	{
+		"name"		"DayZ Experimental Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"parent"		"1024020"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"clienttga"		"e529b20af459d1307c2e885c68293ba137971ecc"
+		"clienticon"		"f8c16699ed5ce1cc8aa9b15ed3fdd66553fce2bf"
+		"icon"		"dadc80fcc935495943969e0d3cd90cae6c79d8ff"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1042420_eula_0"
+				"name"		"Experimental Test Product Server EULA"
+				"url"		"https://store.steampowered.com//eula/1042420_eula_0"
+			}
+		}
+		"logo"		"a2ab55e66a8872c2f5aafae46db8372f03bd1ce8"
+		"logo_small"		"a2ab55e66a8872c2f5aafae46db8372f03bd1ce8_thumb"
+		"releasestate"		"released"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1042420"
+	}
+	"config"
+	{
+		"installdir"		"DayZ Server Exp"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DayZServer_x64.exe"
+				"description"		"Launch Server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1042421"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7948997680920369276"
+					"size"		"3633400960"
+					"download"		"1514890608"
+				}
+			}
+		}
+		"1042422"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1522331387144002844"
+					"size"		"99968320"
+					"download"		"34819008"
+				}
+			}
+		}
+		"1042423"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8343459151194186421"
+					"size"		"42547712"
+					"download"		"16072928"
+				}
+			}
+		}
+		"1042424"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4334366089289390121"
+					"size"		"303237896"
+					"download"		"11927616"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23909700"
+				"timeupdated"		"1782900175"
+				"timebuildupdated"		"1782381285"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
