@@ -1,0 +1,297 @@
+"appinfo"
+{
+	"appid"		"229680"
+	"common"
+	{
+		"name"		"Guns of Icarus Dev App"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"229680_eula_0"
+				"name"		"Guns of Icarus Dev App EULA"
+				"url"		"http://store.steampowered.com//eula/229680_eula_0"
+			}
+		}
+		"osarch"		""
+		"osextended"		"macos64"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"229680"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"ValveTestApp229680"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Guns of Icarus Dev App"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GunsOfIcarusOnline.app/Contents/MacOS/GunsOfIcarusOnline"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"GunsOfIcarusOnline.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"launch.sh"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"workshop/Workshop.app/Contents/MacOS/Workshop"
+				"workingdir"		"workshop"
+				"description"		"Workshop Tool"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"5"
+			{
+				"executable"		"workshop/launch.sh"
+				"workingdir"		"workshop"
+				"description"		"Workshop Tool"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"GunsOfIcarusOnline.exe"
+				"arguments"		"-force-d3d9"
+				"description"		"Play Guns of Icarus Online (DirectX9 Mode)"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"7"
+			{
+				"executable"		"workshop/Workshop.exe"
+				"workingdir"		"workshop"
+				"description"		"Workshop Tool"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229682"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8255992481030371870"
+					"size"		"11207461093"
+					"download"		"4178742768"
+				}
+			}
+		}
+		"229683"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8087773555680523460"
+					"size"		"11252547172"
+					"download"		"4191557440"
+				}
+			}
+		}
+		"229684"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3036184612595392985"
+					"size"		"11211324129"
+					"download"		"4176683968"
+				}
+			}
+		}
+		"229687"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"732272300245955504"
+					"size"		"1221189978"
+					"download"		"348806000"
+				}
+			}
+		}
+		"229688"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6643875152173756730"
+					"size"		"1243007173"
+					"download"		"354330384"
+				}
+			}
+		}
+		"229689"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1466705347257917454"
+					"size"		"1226504347"
+					"download"		"349291008"
+				}
+			}
+		}
+		"229681"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8287057069788568080"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"229685"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4047197709703052716"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"229686"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2535588155620834368"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5689191"
+				"timeupdated"		"1602796373"
+				"timebuildupdated"		"1602790190"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"31457280"
+		"maxnumfiles"		"100"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
