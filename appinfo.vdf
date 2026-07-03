@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"2796080"
+	"common"
+	{
+		"name"		"VAGUE Playtest"
+		"type"		"Beta"
+		"parent"		"2401870"
+		"releasestate"		"released"
+		"icon"		"c5d6c14fd9c77ec3963593dbbd7a01ca6251b6c2"
+		"clienticon"		"cfe202ec5b252ef8388f83f7c3e49d4a079e1e85"
+		"clienttga"		"a6cf3554e60f7d17d6b1060341e099234068b095"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"50.37995725480883"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"50.37995725480883"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1709609389"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1776693602"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2796080"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"playtest_type"		"1"
+		"playtestinvitecount"		"3"
+		"playtestinviteendtime"		"1792454400"
+	}
+	"config"
+	{
+		"installdir"		"VAGUE Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"VAGUE Playtest.exe"
+				"arguments"		"-force-d312"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Game in DirectX 12"
+				}
+				"description"		"Game in DirectX 12"
+			}
+			"1"
+			{
+				"executable"		"VAGUE Playtest.exe"
+				"arguments"		"-force-d3d11"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Game in DirectX 11"
+				}
+				"description"		"Game in DirectX 11"
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65533"
+		"steamcontrollertemplateindex"		"2"
+		"steamcontrollertouchtemplateindex"		"9"
+	}
+	"depots"
+	{
+		"2796081"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"884652064662908131"
+					"size"		"3098765618"
+					"download"		"1349533856"
+				}
+				"legacy"
+				{
+					"gid"		"650370844643428689"
+					"size"		"6906618203"
+					"download"		"2689396016"
+				}
+			}
+		}
+		"baselanguages"		"brazilian,english,french,german,japanese,russian,schinese,turkish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24031863"
+				"timeupdated"		"1783046823"
+				"timebuildupdated"		"1783046606"
+			}
+			"legacy"
+			{
+				"buildid"		"15253003"
+				"description"		"Access older version of the game demo"
+				"timeupdated"		"1723212991"
+				"timebuildupdated"		"1722731516"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000"
+		"maxnumfiles"		"5"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"SOUL CAT Entertainment/VAGUE Playtest/saves"
+				"pattern"		"*.svd"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"SOUL CAT Entertainment/VAGUE Playtest/"
+				"pattern"		"*.json"
+			}
+		}
+	}
+}
