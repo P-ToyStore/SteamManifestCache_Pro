@@ -1,0 +1,78 @@
+"appinfo"
+{
+	"appid"		"291570"
+	"common"
+	{
+		"name"		"Rising Storm Beta SDK"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"associations"
+		{
+		}
+		"gameid"		"291570"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rising Storm Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"binaries\\win64\\rogame.exe"
+				"arguments"		"editor -brewedloading"
+				"description"		"Launch"
+				"workingdir"		"binaries\\win64"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"game.exe"
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"291571"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"928504584501277212"
+					"size"		"265129783"
+					"download"		"0"
+				}
+				"beta"
+				{
+					"gid"		"2154159377290284718"
+					"size"		"208794908"
+					"download"		"2457247158688"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"239335"
+				"timebuildupdated"		"1397873204"
+			}
+			"beta"
+			{
+				"buildid"		"386004"
+				"timebuildupdated"		"1411048459"
+			}
+		}
+	}
+}
