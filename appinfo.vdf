@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"4453130"
+	"common"
+	{
+		"name"		"Esqapes Voyages"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"217ee7a5907715b10ccea231550f69d46ecaf349"
+		"icon"		"217ee7a5907715b10ccea231550f69d46ecaf349"
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"aicontenttype"		"1"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"bca2a5b2d73eb249fc3ed8f047ab6007d5b9c400/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"5085ce23927d0ede3adc15d32e78b07eb211f6b2/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"77.65466297322257"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"9b8c3b4e67465a6dd547269750fefa9db2ff1405/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"9b8c3b4e67465a6dd547269750fefa9db2ff1405/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"596cbf6daa9d4943ea854897fc53dd684b41d151/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"596cbf6daa9d4943ea854897fc53dd684b41d151/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"596cbf6daa9d4943ea854897fc53dd684b41d151/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"5da1b0931e66c156a0c9e1c385533933128dcfbd/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"5da1b0931e66c156a0c9e1c385533933128dcfbd/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"77.65466297322257"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"0e2bb000e882af7e9ddba0e1d692718feed54db9/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"0e2bb000e882af7e9ddba0e1d692718feed54db9/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1775248061"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"AVCV"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"AVCV"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Esqapes"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_69"		"1"
+			"category_70"		"1"
+			"category_71"		"1"
+			"category_74"		"1"
+			"category_75"		"1"
+			"category_80"		"1"
+			"category_81"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"4453130"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"21978"
+			"1"		"3834"
+			"2"		"13577"
+			"3"		"4145"
+			"4"		"9204"
+			"5"		"597"
+			"6"		"599"
+			"7"		"1654"
+			"8"		"30358"
+			"9"		"10383"
+			"10"		"6971"
+			"11"		"6869"
+			"12"		"4191"
+			"13"		"3839"
+			"14"		"4182"
+			"15"		"1710"
+			"16"		"5608"
+			"17"		"4166"
+			"18"		"492"
+			"19"		"3942"
+		}
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"AVCV"
+		"publisher"		"AVCV"
+		"homepage"		"https://www.myesqape.com/voyages"
+	}
+	"config"
+	{
+		"installdir"		"Esqapes Voyages"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"esqapes_voyages_OpenVR_r1.7.exe"
+				"arguments"		"-vrmode openvr -force-d3d11 -popupwindow -screen-width 1280 -screen-height 720 -nosingleinstance"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"esqapes_voyages_OpenVR_r1.7.exe"
+				"arguments"		"-vrmode oculus -force-d3d11 -popupwindow -screen-width 1280 -screen-height 720 -nosingleinstance"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"4453131"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5375401218907553638"
+					"size"		"17831944660"
+					"download"		"9457958080"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24056460"
+				"timeupdated"		"1783206144"
+				"timebuildupdated"		"1783206067"
+			}
+		}
+	}
+}
