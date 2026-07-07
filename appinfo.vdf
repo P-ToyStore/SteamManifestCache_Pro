@@ -1,0 +1,159 @@
+"appinfo"
+{
+	"appid"		"3932960"
+	"common"
+	{
+		"name"		"HELIX Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2594840"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"accc32eb4c0a2b2a55f3909258450b4e486137f7"
+		"clienticon"		"accc32eb4c0a2b2a55f3909258450b4e486137f7"
+		"releasestate"		"released"
+		"gameid"		"3932960"
+	}
+	"config"
+	{
+		"installdir"		"HELIX Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SandboxGame\\Binaries\\Win64\\SandboxServer-Win64-Test.exe"
+				"arguments"		"-log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"HELIX Server Test Build"
+				}
+				"description"		"HELIX Server Test Build"
+			}
+			"1"
+			{
+				"executable"		"SandboxServer.exe"
+				"arguments"		"-log"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"test"
+				}
+				"description_loc"
+				{
+					"english"		"HELIX Server Dev Build"
+				}
+				"description"		"HELIX Server Dev Build"
+			}
+			"2"
+			{
+				"executable"		"SandboxGame\\Binaries\\Win64\\SandboxServer-Win64-Win64-Shipping.exe"
+				"arguments"		"-log"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"test"
+				}
+				"description_loc"
+				{
+					"english"		"HELIX Server Shipping Build"
+				}
+				"description"		"HELIX Server Shipping Build"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3932961"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7910383464726383485"
+					"size"		"8710987337"
+					"download"		"3596943008"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23897678"
+				"timeupdated"		"1783442147"
+				"timebuildupdated"		"1782320888"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
