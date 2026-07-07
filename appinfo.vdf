@@ -1,0 +1,153 @@
+"appinfo"
+{
+	"appid"		"2594840"
+	"common"
+	{
+		"name"		"HELIX"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"accc32eb4c0a2b2a55f3909258450b4e486137f7"
+		"clienttga"		"752264248d132d719929d3d60495ed25b799ffbf"
+		"name_localized"
+		{
+			"english"		"HELIX"
+		}
+		"icon"		"2dc3a0803642d3c8b0557e71385a2f79107823e9"
+		"gameid"		"2594840"
+		"exfgls"		"8"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"597"
+			"2"		"122"
+			"3"		"4231"
+			"4"		"10695"
+			"5"		"5652"
+			"6"		"4191"
+			"7"		"3839"
+			"8"		"4175"
+			"9"		"1697"
+			"10"		"6378"
+			"11"		"1644"
+			"12"		"4695"
+			"13"		"4747"
+			"14"		"3993"
+			"15"		"1669"
+			"16"		"1695"
+			"17"		"17770"
+			"18"		"128"
+			"19"		"3859"
+		}
+	}
+	"config"
+	{
+		"installdir"		"HELIX"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SandboxGame\\Binaries\\Win64\\SandboxGame-Win64-Test.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"HELIX Test Build"
+				}
+				"description"		"HELIX Test Build"
+			}
+			"1"
+			{
+				"executable"		"SandboxGame\\Binaries\\Win64\\SandboxGame.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"test"
+				}
+				"description_loc"
+				{
+					"english"		"HELIX Development Build"
+				}
+				"description"		"HELIX Development Build"
+			}
+			"2"
+			{
+				"executable"		"SandboxGame\\Binaries\\Win64\\SandboxGame-Win64-Shipping.exe"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"test"
+				}
+				"description_loc"
+				{
+					"english"		"HELIX Shipping Build"
+				}
+				"description"		"HELIX Shipping Build"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2594841"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3880281412302429269"
+					"size"		"36582198376"
+					"download"		"29723974672"
+				}
+			}
+		}
+		"2594842"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23897663"
+				"timeupdated"		"1783442086"
+				"timebuildupdated"		"1782320834"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
