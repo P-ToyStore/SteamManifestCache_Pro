@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"2171370"
+	"common"
+	{
+		"name"		"Sword & Shield Simulator (Open Beta)"
+		"type"		"Beta"
+		"parent"		"2052650"
+		"releasestate"		"released"
+		"icon"		"fad5ea152d226452a8edf0edf9f6b0feba4fa9f9"
+		"clienticon"		"fad5ea152d226452a8edf0edf9f6b0feba4fa9f9"
+		"clienttga"		"a604f05e01292941c14bbd409a7f6e8a0dfccc65"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"8ce7bd30e9a8ef5de6fa7095f63a8ce7a91200d1/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"3f5d569c3360186cd9abec8a33acdc0d0b09c2d1/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"42.90099903493723"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"b3ec924ae7f509bbb9e9ae1a167b2abaf390a1a7/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"b3ec924ae7f509bbb9e9ae1a167b2abaf390a1a7/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"d2652e8db47c032edbcca1b0fa24e503e435b09f/library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"d2652e8db47c032edbcca1b0fa24e503e435b09f/library_hero_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"d2652e8db47c032edbcca1b0fa24e503e435b09f/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"42.90099903493723"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"4dd5982035c61d74fdd281e2d0fb9eef272c54d3/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"4dd5982035c61d74fdd281e2d0fb9eef272c54d3/logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"3f5d569c3360186cd9abec8a33acdc0d0b09c2d1/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"3f5d569c3360186cd9abec8a33acdc0d0b09c2d1/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1777893478"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1783695336"
+		"community_hub_visible"		"1"
+		"gameid"		"2171370"
+		"exfgls"		"6"
+		"review_score"		"5"
+		"review_percentage"		"58"
+	}
+	"extended"
+	{
+		"betaforappid"		"2052650"
+		"playtest_type"		"1"
+		"playtestinvitecount"		"3"
+		"playtestinviteendtime"		"1794182400"
+	}
+	"config"
+	{
+		"installdir"		"Sword & Shield Simulator Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"swordnshield.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"DirectX 12"
+				}
+				"description"		"DirectX 12"
+			}
+			"1"
+			{
+				"executable"		"swordnshield.exe"
+				"arguments"		"-dx11"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"DirectX 11 (stable, no upscalers)"
+				}
+				"description"		"DirectX 11 (stable, no upscalers)"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2171371"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8308727786050850545"
+					"size"		"7501281435"
+					"download"		"7040679008"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24148212"
+				"timeupdated"		"1783692554"
+				"timebuildupdated"		"1783692506"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
