@@ -1,0 +1,328 @@
+"appinfo"
+{
+	"appid"		"2639440"
+	"common"
+	{
+		"name"		"SGS Overlord"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"icon"		"cc875dc90d8c208d9fad5af69d4c10ac28a2c154"
+		"clienttga"		"0f7448c804a0fed00b7ccb40f476fbff4dcf4771"
+		"clienticon"		"cc875dc90d8c208d9fad5af69d4c10ac28a2c154"
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1742830617"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Strategy Game Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Avalon Digital"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"SGS"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Avalon Digital"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_44"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1717648103"
+		"community_hub_visible"		"1"
+		"gameid"		"2639440"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"1741"
+			"2"		"4684"
+			"3"		"3871"
+			"4"		"1678"
+			"5"		"3987"
+			"6"		"1775"
+			"7"		"1742"
+			"8"		"14139"
+			"9"		"4182"
+			"10"		"3859"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Strategy Game Studio"
+		"publisher"		"Avalon Digital"
+		"homepage"		"https://strategygamestudio.com/"
+	}
+	"config"
+	{
+		"installdir"		"SGS Overlord"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"32Bits/Overlord.exe"
+				"workingdir"		"32Bits"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"64Bits/Overlord.exe"
+				"workingdir"		"64Bits"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Overlord.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2639441"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6129627374381300995"
+					"size"		"538629158"
+					"download"		"466063408"
+				}
+			}
+		}
+		"2639442"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6484859025869312854"
+					"size"		"488566665"
+					"download"		"218253232"
+				}
+			}
+		}
+		"2639443"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6663183853919303590"
+					"size"		"502551912"
+					"download"		"223605392"
+				}
+			}
+		}
+		"2639444"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2529733744670542952"
+					"size"		"497375093"
+					"download"		"221911744"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,russian,japanese,polish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24218550"
+				"timeupdated"		"1784129141"
+				"timebuildupdated"		"1784112066"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
