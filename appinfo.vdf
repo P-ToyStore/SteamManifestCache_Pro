@@ -1,0 +1,338 @@
+"appinfo"
+{
+	"appid"		"3417590"
+	"common"
+	{
+		"name"		"Warhammer 40,000: Space Marine 2 - Public Test Server"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"clienticon"		"b9a9d9ab02ac5c9d41318cac72985496bc66a84c"
+		"clienttga"		"7ac96effaf06144d23f91e7dc0518a2318216e81"
+		"icon"		"53ccb9967a53020dd88acf2a4f07a1b9ac4762a9"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"3417590_eula_0"
+				"name"		"Warhammer 40,000: Space Marine 2 - Public Test Server EULA"
+				"url"		"https://store.steampowered.com//eula/3417590_eula_0"
+				"version"		"1"
+			}
+		}
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"zh-cn,en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"79.16679230563665"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"924cbe1ed0a538ed670fe2f1dbce738c5d0ec8c1/library_600x900.jpg"
+					"schinese"		"203a31dfc44e6f9b6bfbe8d686a0204a952fe4b6/library_600x900_schinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"924cbe1ed0a538ed670fe2f1dbce738c5d0ec8c1/library_600x900_2x.jpg"
+					"schinese"		"203a31dfc44e6f9b6bfbe8d686a0204a952fe4b6/library_600x900_schinese_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"8209513f17bb43a8957dbff53b228883480d6a0a/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"8209513f17bb43a8957dbff53b228883480d6a0a/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"8209513f17bb43a8957dbff53b228883480d6a0a/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"schinese"		"da82a40cb0115270914870117010a82f5d057127/logo_schinese.png"
+					"english"		"8ee99911f820705972cd64111bfb75e01c38a57a/logo.png"
+				}
+				"image2x"
+				{
+					"schinese"		"da82a40cb0115270914870117010a82f5d057127/logo_schinese_2x.png"
+					"english"		"8ee99911f820705972cd64111bfb75e01c38a57a/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"79.16679230563665"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"523a12347626836d23dd807426dacd1b21fab663/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"523a12347626836d23dd807426dacd1b21fab663/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1753719957"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_28"		"1"
+			"category_55"		"1"
+			"category_57"		"1"
+		}
+		"gameid"		"3417590"
+		"store_tags"
+		{
+		}
+	}
+	"config"
+	{
+		"installdir"		"Warhammer 40,000 Space Marine 2 - Public Test Server"
+		"steamcontrollertemplateindex"		"1"
+		"steamdecktouchscreen"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Warhammer 40000 Space Marine 2.exe"
+				"arguments"		"--cwd client_pc\\root\\bin\\pc"
+				"workingdir"		"client_pc\\root\\bin\\pc"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Warhammer 40000 Space Marine 2"
+				}
+				"description"		"Warhammer 40000 Space Marine 2"
+			}
+			"1"
+			{
+				"executable"		"Steam Dev Build\\client_pc\\root\\bin\\pc\\MagnusClientRelease.exe"
+				"workingdir"		"Steam Dev Build\\client_pc\\root\\bin\\pc"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"dev_test"
+				}
+				"description_loc"
+				{
+					"english"		"Release Test"
+				}
+				"description"		"Release Test"
+			}
+			"2"
+			{
+				"executable"		"client_pc\\root\\bin\\pc\\MagnusClientRelease.exe"
+				"workingdir"		"client_pc\\root\\bin\\pc"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"dev_test"
+				}
+				"description_loc"
+				{
+					"english"		"Release"
+				}
+				"description"		"Release"
+			}
+			"3"
+			{
+				"executable"		"client_pc\\root\\bin\\pc\\MagnusEosBootstrapperRelease.exe"
+				"arguments"		"--set \"/Config/Permissions/enablePermissionAntiCheat\" permit"
+				"workingdir"		"client_pc\\root\\bin\\pc\\"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"dev_test, test_pts"
+				}
+				"description_loc"
+				{
+					"english"		"Space Marine 2 Release EOS noEAC"
+				}
+				"description"		"Space Marine 2 Release EOS noEAC"
+			}
+			"4"
+			{
+				"executable"		"client_pc\\root\\bin\\pc\\MagnusEosBootstrapperProfile.exe"
+				"arguments"		"--set \"/Config/Permissions/enablePermissionAntiCheat\" permit"
+				"workingdir"		"client_pc\\root\\bin\\pc\\"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"dev_test, test_pts"
+				}
+				"description_loc"
+				{
+					"english"		"Space Marine 2 Profile EOS noEAC"
+				}
+				"description"		"Space Marine 2 Profile EOS noEAC"
+			}
+			"5"
+			{
+				"executable"		"MagnusEOSBootstrapperRelease.exe"
+				"arguments"		"--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRelease.json"
+				"workingdir"		"client_pc\\root\\bin\\pc"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"dev_test, test_pts, fe_qa_debug01"
+				}
+				"description_loc"
+				{
+					"english"		"Space Marine 2 EAC Release "
+				}
+				"description"		"Space Marine 2 EAC Release "
+			}
+			"6"
+			{
+				"executable"		"MagnusEOSBootstrapperProfile.exe"
+				"arguments"		"--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsProfile.json"
+				"workingdir"		"client_pc\\root\\bin\\pc\\"
+				"config"
+				{
+					"betakey"		"dev_test, test_pts, fe_qa_debug01"
+				}
+				"description_loc"
+				{
+					"english"		"Space Marine 2 EAC Profile"
+				}
+				"description"		"Space Marine 2 EAC Profile"
+			}
+			"7"
+			{
+				"executable"		"MagnusEOSBootstrapperRetail.exe"
+				"arguments"		"--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRetail.json"
+				"workingdir"		"client_pc\\root\\bin\\pc\\"
+				"config"
+				{
+					"betakey"		"dev_test, test_pts, fe_qa_debug01"
+				}
+				"description_loc"
+				{
+					"english"		"Space Marine 2 EAC Retail"
+				}
+				"description"		"Space Marine 2 EAC Retail"
+			}
+		}
+		"steamcontrollerconfigdetails"
+		{
+			"3591891614"
+			{
+				"controller_type"		"controller_ps4"
+				"enabled_branches"		"default,dev_test,fe_pts_end,fe_qa_debug01,fe_qa_debug02,focus_test_pts,test_pts,test_retail"
+				"use_action_block"		"false"
+			}
+			"3527972278"
+			{
+				"controller_type"		"controller_ps5"
+				"enabled_branches"		"default,dev_test,fe_pts_end,fe_qa_debug01,fe_qa_debug02,focus_test_pts,test_pts,test_retail"
+				"use_action_block"		"false"
+			}
+			"3530970776"
+			{
+				"controller_type"		"controller_switch_pro"
+				"enabled_branches"		"default,dev_test,fe_pts_end,fe_qa_debug01,fe_qa_debug02,focus_test_pts,test_pts,test_retail"
+				"use_action_block"		"false"
+			}
+			"3530977293"
+			{
+				"controller_type"		"controller_xbox360"
+				"enabled_branches"		"default,dev_test,fe_pts_end,fe_qa_debug01,fe_qa_debug02,focus_test_pts,test_pts,test_retail"
+				"use_action_block"		"false"
+			}
+		}
+		"steamconfigurator3rdpartynative"		"65528"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3417591"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6782871383502490630"
+					"size"		"20926146"
+					"download"		"10361552"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,czech,turkish,brazilian,ukrainian,latam"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18039556"
+				"timeupdated"		"1784106095"
+				"timebuildupdated"		"1744195032"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"524288000"
+		"maxnumfiles"		"200"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Saber/Space Marine 2 PTS/storage/steam/user/{64BitSteamID}"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
