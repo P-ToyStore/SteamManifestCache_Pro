@@ -1,0 +1,113 @@
+"appinfo"
+{
+	"appid"		"1992220"
+	"common"
+	{
+		"name"		"Escape from Polykov - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1991130"
+		"icon"		"66fdb7645d31074ad62180c4d3a7d2ab6774be5c"
+		"clienticon"		"6d8d3ecbb7cc4781011d589e42c556af08d3c074"
+		"clienttga"		"012b0fcd6381bd9af607d5123f2e8152bc5f8ea9"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1992220"
+	}
+	"config"
+	{
+		"installdir"		"EFPServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Server.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1992221"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7728731440912650995"
+					"size"		"71296000"
+					"download"		"19952864"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8684023"
+				"timeupdated"		"1651755507"
+				"timebuildupdated"		"1651755491"
+			}
+		}
+	}
+}
