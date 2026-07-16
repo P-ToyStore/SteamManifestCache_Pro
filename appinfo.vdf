@@ -1,0 +1,84 @@
+"appinfo"
+{
+	"appid"		"684780"
+	"common"
+	{
+		"name"		"Amnesia Fortnight 2017 Downloadable Content"
+		"type"		"Application"
+		"parent"		"631780"
+		"oslist"		"windows,macos,linux"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1501694142"
+		"gameid"		"684780"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"isfreeapp"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Amnesia Fortnight Downloadable Content"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"scripts/openfiles.bat"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./scripts/openfiles_osx.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"./scripts/openfiles_linux.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"684781"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7918149173179114787"
+					"size"		"17322268997"
+					"download"		"17072457120"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2001204"
+				"timeupdated"		"1501694026"
+				"timebuildupdated"		"1501541290"
+			}
+		}
+	}
+}
