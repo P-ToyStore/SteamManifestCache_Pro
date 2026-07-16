@@ -1,0 +1,119 @@
+"appinfo"
+{
+	"appid"		"774061"
+	"common"
+	{
+		"name"		"The Prison Game Dedicated Server Tool"
+		"type"		"Tool"
+		"parent"		"461990"
+		"oslist"		"linux"
+		"osarch"		""
+		"logo"		"138284fb1bf915b8e66f19cd45454fdae5ff8238"
+		"logo_small"		"138284fb1bf915b8e66f19cd45454fdae5ff8238_thumb"
+		"icon"		"6d74ded29ccc92549a19c1f43594f2bbbfbe391d"
+		"clienttga"		"83afd45aa1dac8793ba5da4e07641e40d9e8661a"
+		"clienticon"		"67820e52982896b40d3c9819ee9b2ea55f0770f5"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"774061"
+	}
+	"config"
+	{
+		"installdir"		"The Prison Game Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ThePrisonGameServer.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"774062"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4626450579223998240"
+					"size"		"11233821328"
+					"download"		"4646846736"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2394133"
+				"timeupdated"		"1513977858"
+				"timebuildupdated"		"1513977751"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
