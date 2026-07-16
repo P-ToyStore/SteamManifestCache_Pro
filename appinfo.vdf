@@ -1,0 +1,136 @@
+"appinfo"
+{
+	"appid"		"1292350"
+	"common"
+	{
+		"name"		"pla_toon Dedicated Server"
+		"type"		"Tool"
+		"parent"		"891220"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"a13a8cf3c6d88731415bcd7c9247f95e1d8f8404"
+		"logo_small"		"a13a8cf3c6d88731415bcd7c9247f95e1d8f8404_thumb"
+		"icon"		"d9368224a9315b77298a28da7dde062be7063dc7"
+		"clienticon"		"58f6c17a6d8c300eca710a200230af72cbd4d57e"
+		"clienttga"		"b1593fdabeb4b59e97ec9ecaa3aaa701549e4caa"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1292350"
+	}
+	"extended"
+	{
+		"gamedir"		"891220"
+		"serverbrowsername"		"pla_toon"
+	}
+	"config"
+	{
+		"installdir"		"pla_toon"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"\\pla_toon\\Binaries\\Win64\\pla_toonServer.exe"
+				"description"		"Dedicated Server"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1292351"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1025834663268622151"
+					"size"		"275904323"
+					"download"		"151088960"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4896556"
+				"timeupdated"		"1586878578"
+				"timebuildupdated"		"1586878561"
+			}
+		}
+	}
+}
