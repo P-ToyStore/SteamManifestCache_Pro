@@ -1,0 +1,149 @@
+"appinfo"
+{
+	"appid"		"1035540"
+	"common"
+	{
+		"name"		"Fragsurf Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1033410"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"icon"		"e2d1bfe294e36415d03cb327070f55451fc4f6fd"
+		"logo"		"a3cf393a5e1954f2d2a61d6f9425d1b22c163055"
+		"logo_small"		"a3cf393a5e1954f2d2a61d6f9425d1b22c163055_thumb"
+		"clienticon"		"d02632efd72300cb5cdc2783f1b73dd9c38e875a"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1035540"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Fragsurf Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Fragsurf.exe"
+				"arguments"		"-server -batchmode"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"0"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1035541"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4911813920295273051"
+					"size"		"1436164588"
+					"download"		"898528544"
+				}
+				"beta"
+				{
+					"gid"		"6369797956793206764"
+					"size"		"1577331155"
+					"download"		"882650912"
+				}
+			}
+		}
+		"workshopdepot"		"1035540"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16826028"
+				"timeupdated"		"1734820096"
+				"timebuildupdated"		"1734820064"
+			}
+			"beta"
+			{
+				"buildid"		"5299314"
+				"timeupdated"		"1594993631"
+				"timebuildupdated"		"1594955716"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"appidredirect"		"1033410"
+		"sync_while_suspended"		"1"
+	}
+}
