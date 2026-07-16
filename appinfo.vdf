@@ -1,0 +1,122 @@
+"appinfo"
+{
+	"appid"		"2306520"
+	"common"
+	{
+		"name"		"STRIKE ZOMBIE - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2280980"
+		"releasestate"		"released"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"a894665ed85ce9ff725655bd38634075b3c29eb3"
+		"clienttga"		"d6159c331683677d2a6650f784f1476b75a03040"
+		"icon"		"3908cf074a75f896a4f22cecf8d2775fdbb16694"
+		"freetodownload"		"1"
+		"gameid"		"2306520"
+	}
+	"config"
+	{
+		"installdir"		"STRIKE ZOMBIE - Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds_linux.sh"
+				"arguments"		"-game zmod"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2306521"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"2306522"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5767521077779400795"
+					"size"		"2360700048"
+					"download"		"825644352"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11192976"
+				"timeupdated"		"1683668565"
+				"timebuildupdated"		"1683668399"
+			}
+		}
+	}
+}
