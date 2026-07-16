@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"916110"
+	"common"
+	{
+		"name"		"BattleRush 2 Dedicated Server"
+		"type"		"Tool"
+		"parent"		"871990"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"8d1c7946c7241e6d13e21d69487050532b98254d"
+		"logo_small"		"8d1c7946c7241e6d13e21d69487050532b98254d_thumb"
+		"icon"		"4697e95075c57aede97c7edb0e02b1299f4612aa"
+		"clienticon"		"86dbd181d4b49f50ff79ad0bf3f0710b0b1c2e0c"
+		"clienttga"		"ce1da4de95a330cee396029e1d8d9323d666c98e"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"916110"
+	}
+	"extended"
+	{
+		"gamedir"		"battlerush2"
+		"serverbrowsername"		"BattleRush 2"
+	}
+	"config"
+	{
+		"installdir"		"BattleRush 2 Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cv2_Base/Binaries/Linux/Cv2_BaseServer_Shipping"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Cv2_Base/Binaries/Win64/Cv2_BaseServer_Shipping.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"Cv2_Base/Binaries/Linux/Cv2_BaseServer"
+				"description"		"Development build"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"devel"
+				}
+			}
+			"3"
+			{
+				"executable"		"Cv2_Base/Binaries/Win64/Cv2_BaseServer.exe"
+				"description"		"Development build"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"devel"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"916111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5783469227565596314"
+					"size"		"1088584003"
+					"download"		"920474000"
+				}
+				"devel"
+				{
+					"gid"		"5783469227565596314"
+					"size"		"1088584003"
+					"download"		"920474000"
+				}
+			}
+		}
+		"916112"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4634197332362867823"
+					"size"		"2320146350"
+					"download"		"1097210320"
+				}
+				"devel"
+				{
+					"gid"		"4634197332362867823"
+					"size"		"2320146350"
+					"download"		"1097210320"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3460909"
+				"timeupdated"		"1547281263"
+				"timebuildupdated"		"1547214324"
+			}
+			"devel"
+			{
+				"buildid"		"3460909"
+				"description"		"Development version"
+				"timeupdated"		"1547214324"
+				"timebuildupdated"		"1547214324"
+			}
+		}
+	}
+}
