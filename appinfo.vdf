@@ -1,0 +1,269 @@
+"appinfo"
+{
+	"appid"		"204840"
+	"common"
+	{
+		"name"		"Babel Rising"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+			"brazilian"		"1"
+		}
+		"clienticns"		"c51f4f6e08c28294177eef2e036ee1ebd4f874f0"
+		"clienticon"		"1bfae5f223723f254dd2e4e32007ffb65ee5a054"
+		"clienttga"		"2d51b0f9f5e7b995136ced32537646c7dd56e447"
+		"icon"		"18d74604521a6e0b0d624d7f69689b1ffda7ce42"
+		"logo"		"46fff47a9c85deab3f38bb3e35c3e87ec4e64cb6"
+		"logo_small"		"46fff47a9c85deab3f38bb3e35c3e87ec4e64cb6_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"url"		"http://store.steampowered.com/eula/eula_204840"
+				"id"		"eula_204840"
+				"name"		"eula_204840"
+			}
+		}
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Babel Rising"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_d6a9b04eebbae0164b01ed885e0506c5bcd30a5d.jpg"
+		"store_asset_mtime"		"1344294416"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mando productions"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Ubisoft"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1344358800"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"204840"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"19"
+			"2"		"5300"
+		}
+		"review_score"		"5"
+		"review_percentage"		"48"
+	}
+	"extended"
+	{
+		"developer"		"Mando productions"
+		"gamedir"		"ValveTestApp204840"
+		"homepage"		""
+		"icon"		""
+		"launcheula"		"http://store.steampowered.com/eula/eula_204840"
+		"launcheula_macos"		"http://store.steampowered.com/eula/eula_osx_204840"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"validoslist"		"windows,macos"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Ubisoft"
+		"listofdlc"		"204851"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BabelRising3d.exe"
+				"arguments"		""
+				"description"		"launch the game!"
+				"workingdir"		""
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"S3DEngine_Mac.app"
+				"arguments"		""
+				"description"		""
+				"workingdir"		""
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"Babel Rising"
+		"installscriptsignature"		"5f60afa599de0af7b882e35d83343f20161505e2cbf722573e6857306b9f228a1ab57a51fcc7977efdbeb958f6dd796c3dea770fdfa380a07b6eb09e52f6b6b075b0f40e939be3722540c3a6b0a738a54ac6d784a8840a84acb8276479c4e47c907f9bd7610d67bb417bdfa5ac9c35f77ba4b8e1035004a936d8d7e3c8893f2c"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\mandoproductions\babelrising3d"
+			{
+				"string"
+				{
+					"displayname"		"Babel Rising"
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\BabelRising3d.exe"
+				}
+				"dword"
+				{
+					"patchversion"		"12"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\Support\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+			}
+			"vcredist"
+			{
+				"process 1"		"%INSTALLDIR%\\Support\\VCRedist\\vcredist_x86.exe"
+				"command 1"		"/q"
+			}
+		}
+		"run process on uninstall"
+		{
+			"removetemp"
+			{
+				"process 1"		"removeCacheAndPlugin.bat"
+			}
+		}
+	}
+	"depots"
+	{
+		"204841"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4162554249094387009"
+					"size"		"221967367"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"4082623159548558626"
+					"size"		"273541887"
+					"download"		"0"
+				}
+			}
+		}
+		"204842"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7029295549225371316"
+					"size"		"208597927"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"598103876966960746"
+					"size"		"205913702"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12306"
+				"timebuildupdated"		"1346947001"
+			}
+			"local"
+			{
+				"buildid"		"3963"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timebuildupdated"		"1339688159"
+			}
+		}
+	}
+}
