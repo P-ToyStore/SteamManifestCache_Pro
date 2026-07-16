@@ -1,0 +1,220 @@
+"appinfo"
+{
+	"appid"		"554670"
+	"common"
+	{
+		"name"		"Infektor"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"logo"		"a8fa0e8479dd6cb086f747b72f0cd6aeb4f1123e"
+		"logo_small"		"a8fa0e8479dd6cb086f747b72f0cd6aeb4f1123e_thumb"
+		"clienticns"		"eee65ed11095893c887404333c56644eb87c1262"
+		"clienticon"		"be22c7d01c7e2d3cde3eaea358deec35e63a17cf"
+		"clienttga"		"941a71cfe500130b0193503af5a636e1be98f20a"
+		"icon"		"9ccfbdc852c18bb5e4c05a7301d6e7fff758da4c"
+		"eulas"
+		{
+		}
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Infektor"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c6de20f64c9a25097bed91d28b2f4e4f034d0f4d.jpg"
+		"store_asset_mtime"		"1479059613"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Rushing Vise"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rushing Vise"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1488814716"
+		"community_hub_visible"		"1"
+		"gameid"		"554670"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"19"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"Rushing Vise"
+		"publisher"		"Rushing Vise"
+		"homepage"		"http://infektor.rushingvise.com/"
+	}
+	"config"
+	{
+		"installdir"		"Infektor"
+		"steamcontrollertemplateindex"		"4"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"infektor.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Infektor.app/Contents/MacOS/Infektor"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"554671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4866502769563805573"
+					"size"		"28424828"
+					"download"		"16540272"
+				}
+			}
+		}
+		"554672"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5870618296123839983"
+					"size"		"19783844"
+					"download"		"14698672"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1765350"
+				"timeupdated"		"1492533608"
+				"timebuildupdated"		"1492533607"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1024000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Infektor"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"addpath"		""
+			}
+		}
+	}
+}
