@@ -1,0 +1,213 @@
+"appinfo"
+{
+	"appid"		"1047650"
+	"common"
+	{
+		"name"		"Road to Eden - Dedicated server"
+		"type"		"Tool"
+		"parent"		"929060"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"ac49405840ca94666dfbf9a5839a701b02cef0db"
+		"clienticon"		"f2164c7984aca1a675d31f798c1c9dc5d9c1b257"
+		"icon"		"95d4221caae2ec6e1f277ae19ec1a556d9fb77b8"
+		"logo"		"175cf88d36b7803b83187a175059e34cbfa110cd"
+		"logo_small"		"175cf88d36b7803b83187a175059e34cbfa110cd_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1047650"
+	}
+	"extended"
+	{
+		"gamedir"		"Road to Eden"
+		"serverbrowsername"		"Road to Eden"
+	}
+	"config"
+	{
+		"installdir"		"Road to Eden - Dedicated server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RoadtoEden424Server-Win64-Shipping.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229032"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1047651"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3898630428901371696"
+					"size"		"2798641680"
+					"download"		"2557621968"
+				}
+				"experimental"
+				{
+					"gid"		"3898630428901371696"
+					"size"		"2798641680"
+					"download"		"2557621968"
+				}
+				"private"
+				{
+					"gid"		"3898630428901371696"
+					"size"		"2798641680"
+					"download"		"2557621968"
+				}
+				"unstable"
+				{
+					"gid"		"3898630428901371696"
+					"size"		"2798641680"
+					"download"		"2557621968"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8792250"
+				"timeupdated"		"1653314378"
+				"timebuildupdated"		"1653311585"
+			}
+			"experimental"
+			{
+				"buildid"		"8792250"
+				"description"		"test_server"
+				"timeupdated"		"1653314328"
+				"timebuildupdated"		"1653311585"
+			}
+			"private"
+			{
+				"buildid"		"8792250"
+				"description"		"private testing branch"
+				"timeupdated"		"1653314320"
+				"timebuildupdated"		"1653311585"
+			}
+			"unstable"
+			{
+				"buildid"		"8792250"
+				"description"		"dev server"
+				"timeupdated"		"1653314366"
+				"timebuildupdated"		"1653311585"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
