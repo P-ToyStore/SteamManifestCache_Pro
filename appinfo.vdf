@@ -1,0 +1,133 @@
+"appinfo"
+{
+	"appid"		"2703580"
+	"common"
+	{
+		"name"		"SCP: EVENT CLASSIFIED (Dedicated Server)"
+		"type"		"Tool"
+		"parent"		"1955030"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"66c328efe260fcf914a8cc7563f04145f7177ebf"
+		"clienttga"		"e7cd655b44e9d53632ccd9950b1ece54dad3e605"
+		"clienticon"		"946f09bc30da6b277caf0232466c4ad82bdd76f5"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2703580"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"event_classified_server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"./linuxBuild.x86_64"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2703581"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5123859214242000341"
+					"size"		"3624940421"
+					"download"		"1230292144"
+				}
+				"testing"
+				{
+					"gid"		"857608468796461016"
+					"size"		"25864658803"
+					"download"		"8138246672"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14203326"
+				"timeupdated"		"1714346401"
+				"timebuildupdated"		"1714346371"
+			}
+			"testing"
+			{
+				"buildid"		"17993251"
+				"description"		"Server Build For Testers"
+				"timeupdated"		"1743824043"
+				"timebuildupdated"		"1743824021"
+			}
+		}
+	}
+}
