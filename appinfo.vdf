@@ -1,0 +1,164 @@
+"appinfo"
+{
+	"appid"		"2515600"
+	"common"
+	{
+		"name"		"Your Journey of Survival Server"
+		"type"		"Tool"
+		"parent"		"2514900"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"ef73efd041b023f4476907aa669c26932e362720"
+		"clienticon"		"28769f01de7912313699dac306adf65a95de2019"
+		"clienttga"		"144bd8ee80f9e02173cb1349ea1b9d8de6b5d918"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"app_retired_publisher_request"		"1"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1702990800"
+		"gameid"		"2515600"
+	}
+	"config"
+	{
+		"installdir"		"Your Journey of Survival Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SurvivalGameServer.exe"
+				"arguments"		"-log"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2515601"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4170272538096466613"
+					"size"		"407503287"
+					"download"		"269084064"
+				}
+				"alpha1.1"
+				{
+					"gid"		"3651296099486249658"
+					"size"		"403600838"
+					"download"		"264885632"
+				}
+				"alpha2.2"
+				{
+					"gid"		"5612008292937107173"
+					"size"		"407886305"
+					"download"		"269324128"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15129323"
+				"timeupdated"		"1721767280"
+				"timebuildupdated"		"1721767049"
+			}
+			"alpha1.1"
+			{
+				"buildid"		"13022904"
+				"description"		"Alpha 1.1 (Stable)"
+				"timeupdated"		"1704755901"
+				"timebuildupdated"		"1703182311"
+			}
+			"alpha2.2"
+			{
+				"buildid"		"14029928"
+				"description"		"Alpha 2.2 (Stable)"
+				"timeupdated"		"1721716079"
+				"timebuildupdated"		"1712892105"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
