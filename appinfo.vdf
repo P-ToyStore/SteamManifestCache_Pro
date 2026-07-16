@@ -1,0 +1,123 @@
+"appinfo"
+{
+	"appid"		"1899880"
+	"common"
+	{
+		"name"		"BadlandsDedicatedServer"
+		"type"		"Tool"
+		"parent"		"1714350"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"4c5e67102609858838aeede0ad5d770800e6dbab"
+		"clienticon"		"db6ac4c665a72f8ebb20b45734ca41275e2344e4"
+		"clienttga"		"8ebbd6b2e2a5a16202eb1b6c8b0d421882d97c04"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1899880"
+	}
+	"extended"
+	{
+		"gamedir"		"Badlands"
+		"serverbrowsername"		"Badlands"
+	}
+	"config"
+	{
+		"installdir"		"BadlandsServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BadlandsServer.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1899881"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6217269002414368242"
+					"size"		"1263669306"
+					"download"		"344170720"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9110076"
+				"timeupdated"		"1657680730"
+				"timebuildupdated"		"1657676728"
+			}
+		}
+	}
+}
