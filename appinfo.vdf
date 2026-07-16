@@ -1,0 +1,136 @@
+"appinfo"
+{
+	"appid"		"2750650"
+	"common"
+	{
+		"name"		"Soulmask[test]"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"icon"		"2e53952c14729bc48b4d9668929bfe95c46c78eb"
+		"name_localized"
+		{
+			"schinese"		"灵魂面甲(Soulmask)[test]"
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"05ae5035124b03ce93caf38afa4e3b35d7b2b455"
+		"clienttga"		"7c34b73e12e3b9e8cd9ab8a195193073e677be0b"
+		"gameid"		"2750650"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"installdir"		"Soulmask[test]"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WS.exe"
+				"arguments"		"StartMenu -game -StableNullID -online=Steam -d3d12 "
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"(DirectX 12)"
+				}
+				"description"		"(DirectX 12)"
+			}
+			"1"
+			{
+				"executable"		"WS.exe"
+				"arguments"		"StartMenu -game -StableNullID -online=Steam -d3d11 "
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"(DirectX 11)"
+				}
+				"description"		"(DirectX 11)"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2750651"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2741273500395251476"
+					"size"		"12125783078"
+					"download"		"11484842928"
+				}
+			}
+		}
+		"baselanguages"		"english,koreana,spanish,schinese,tchinese,russian,japanese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20660643"
+				"timeupdated"		"1762245182"
+				"timebuildupdated"		"1762244364"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"524288"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+			}
+		}
+	}
+}
