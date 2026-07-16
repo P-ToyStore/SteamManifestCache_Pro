@@ -1,0 +1,188 @@
+"appinfo"
+{
+	"appid"		"881430"
+	"common"
+	{
+		"name"		"Spoxel Dedicated Server"
+		"type"		"Tool"
+		"parent"		"746880"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"clienticns"		"b4ee55e4efc1ae273eacecce5882a9a1b2012fda"
+		"clienticon"		"b4ee55e4efc1ae273eacecce5882a9a1b2012fda"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"icon"		"542cf8d1001542c9c4191accaa21205e07c429bc"
+		"logo"		"2d078223ed9b0e80706fdec5cc8b871f3f6b8f61"
+		"logo_small"		"2d078223ed9b0e80706fdec5cc8b871f3f6b8f61_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"881430"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Spoxel Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SpoxelServer"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"SpoxelServer"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"SpoxelServer.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"881431"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5235497082458504308"
+					"size"		"54269461"
+					"download"		"46154832"
+				}
+			}
+		}
+		"881432"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1196555597648493116"
+					"size"		"243166917"
+					"download"		"79061024"
+				}
+			}
+		}
+		"881433"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5212894024194267839"
+					"size"		"259899654"
+					"download"		"84724720"
+				}
+			}
+		}
+		"881434"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"663291361690767378"
+					"size"		"247369742"
+					"download"		"88565792"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4428812"
+				"timeupdated"		"1583368241"
+				"timebuildupdated"		"1574798106"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
