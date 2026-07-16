@@ -1,0 +1,126 @@
+"appinfo"
+{
+	"appid"		"723520"
+	"common"
+	{
+		"name"		"SCP Project Dedicated Server"
+		"type"		"Tool"
+		"parent"		"692900"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"d6ed3f6ef5582c1b90b2f6cdd6342abdf96b36ec"
+		"logo_small"		"d6ed3f6ef5582c1b90b2f6cdd6342abdf96b36ec_thumb"
+		"icon"		"9305e322f45d4c27c5f0813706b1a328a224199b"
+		"clienticon"		"fcf01c9bbae95ad09d3a9ad53cfb36e4ea9caada"
+		"clienttga"		"9c675566a61f21e882fc911003d258afc1ca2e0d"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"723520"
+	}
+	"config"
+	{
+		"installdir"		"SCP Project Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"UE4SCP\\Binaries\\Win64\\UE4SCPServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"UE4SCPServer.sh"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"723521"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1109880745980790292"
+					"size"		"1088947145"
+					"download"		"190962192"
+				}
+			}
+		}
+		"723522"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5467222476958226354"
+					"size"		"1470857224"
+					"download"		"276080976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4667530"
+				"timeupdated"		"1587520230"
+				"timebuildupdated"		"1581497424"
+			}
+		}
+	}
+}
