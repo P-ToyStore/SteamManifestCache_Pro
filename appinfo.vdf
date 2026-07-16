@@ -1,0 +1,200 @@
+"appinfo"
+{
+	"appid"		"859010"
+	"common"
+	{
+		"name"		"UniverCity Dedicated Server"
+		"type"		"Tool"
+		"parent"		"808160"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"432e56a1377044f9df14b681b00dc5d6a300a89a"
+		"logo_small"		"432e56a1377044f9df14b681b00dc5d6a300a89a_thumb"
+		"clienticon"		"040eed8b821d5ad6635a9fd79f25dc23058e83dc"
+		"clienttga"		"882901ccd31755282e9ab1035e836443657b00b7"
+		"icon"		"3267be3e5a8abc0419e3f4e1a34903c37f988609"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"859010"
+	}
+	"config"
+	{
+		"installdir"		"UniverCity Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"univercity_server_dedicated"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"univercity_server_dedicated.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"859011"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7249608133304450210"
+					"size"		"19058306"
+					"download"		"15660336"
+				}
+			}
+		}
+		"859012"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5053175353304329981"
+					"size"		"7175354"
+					"download"		"2139600"
+				}
+			}
+		}
+		"859013"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6092673669585520378"
+					"size"		"7079548"
+					"download"		"2179744"
+				}
+			}
+		}
+		"859014"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1269768785961873685"
+					"size"		"7975712"
+					"download"		"2118960"
+				}
+			}
+		}
+		"859015"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3523365904822614359"
+					"size"		"5403936"
+					"download"		"1830032"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4631117"
+				"timeupdated"		"1580553266"
+				"timebuildupdated"		"1580553266"
+			}
+		}
+	}
+}
