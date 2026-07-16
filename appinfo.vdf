@@ -1,0 +1,162 @@
+"appinfo"
+{
+	"appid"		"237830"
+	"common"
+	{
+		"name"		"Take on Helicopters RU"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"237830_eula_0"
+				"name"		"Take on Helicopters RU EULA"
+				"url"		"http://store.steampowered.com/eula/237830_eula_0"
+			}
+		}
+		"logo"		"621ba5e359c64552b56790a95c480c430c78396f"
+		"logo_small"		"621ba5e359c64552b56790a95c480c430c78396f_thumb"
+		"icon"		"f1886b3d88f07d962dcf75e1aaa3253dc94dbbe6"
+		"clienttga"		"b795ec968ecebd79e77f6fc1e1de495407d83c2b"
+		"clienticon"		"cfc5c340fdad97051b6b71548e809b74245db05f"
+		"community_hub_visible"		"1"
+		"gameid"		"237830"
+	}
+	"extended"
+	{
+		"checkpkgstate"		"1"
+		"developer"		""
+		"gamedir"		"ValveTestApp237830"
+		"homepage"		""
+		"icon"		""
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp237830\\SteamKey"
+		"noservers"		"0"
+		"showcdkeyonlaunch"		"1"
+		"sourcegame"		"1"
+		"state"		"eStateComingSoonNoPreload"
+		"supportscdkeycopytoclipboard"		"1"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Take on Helicopters"
+		"installscriptsignature"		"1040ad53e87db0ae15546094f8de980e959da682f9047c8e3d296cb57e0922296f4cbf274530b4c8f98cb4e97017d11fb7e70c4c83f59a72318715bf2b8fd318d637ed6c27310e366fe3303fa612ab60a22dba79946ce56c3fb2c75b5e8b314352f38b102613fed3d44b1ce94ed94d4bc6579a9a6335770758e907d389347c29"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TakeOnH.exe"
+			}
+			"1"
+			{
+				"executable"		"TakeOnH.exe"
+				"arguments"		"-window"
+				"description"		"Launch in windowed mode"
+			}
+			"2"
+			{
+				"executable"		"DLCsetup\\Hinds\\DataCachePreprocessor.exe"
+				"arguments"		"-updater"
+				"description"		"Install Hinds DLC"
+				"config"
+				{
+					"ownsdlc"		"237840"
+				}
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\bohemia interactive studio\take on helicopters"
+			{
+				"string"
+				{
+					"main"		"%INSTALLDIR%"
+					"data"		"%MAIN%"
+				}
+			}
+			"hkey_local_machine\software\bohemia interactive studio\take on helicopters\expansions\take on helicopters"
+			{
+				"string"
+				{
+					"path"		"SOFTWARE\\Bohemia Interactive Studio\\Take On Helicopters"
+					"moddir"		"Hsim"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"process 1"		"%INSTALLDIR%\\DirectX\\DXSETUP.exe"
+				"description"		"Microsoft DirectX for Windows"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"officialgamegroup"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\237830"
+				"description"		"Official Game Group"
+				"process 1"		"%INSTALLDIR%\\TOH_OGG.cmd"
+				"ignoreexitcode"		"1"
+				"nocleanup"		"1"
+			}
+		}
+		"arma 2 cd key"
+		{
+			"registrypath"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Bohemia Interactive Studio\\Take On Helicopters\\KEY"
+		}
+		"ea oreg"
+		{
+			"string"
+			{
+				"english"
+				{
+					"url"		"http://www.takeonthegame.com/"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"237831"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8575342896990084858"
+					"size"		"18263961993"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"65882"
+				"timebuildupdated"		"1367909745"
+			}
+		}
+	}
+}
