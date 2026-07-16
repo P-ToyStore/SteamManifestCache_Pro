@@ -1,0 +1,132 @@
+"appinfo"
+{
+	"appid"		"730810"
+	"common"
+	{
+		"name"		"Allegiance Server"
+		"type"		"Tool"
+		"parent"		"700480"
+		"releasestate"		"released"
+		"logo"		"4ce273c99da13b9b7079a667f829dddd4b2be647"
+		"logo_small"		"4ce273c99da13b9b7079a667f829dddd4b2be647_thumb"
+		"icon"		"68d6458b7c31cc8ba4568bde0d900635af5b1e26"
+		"clienticon"		"71ac34c1f73b9caddfe4b540a1e7e2408eda6aba"
+		"clienttga"		"6a27ba255bcf7e3adc647b5ea6bdc04233a741a6"
+		"oslist"		"windows"
+		"osarch"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"730810"
+	}
+	"config"
+	{
+		"installdir"		"Allegiance Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AllSrv.exe"
+				"description"		"Launch the server in interactive mode. Normally, the server runs as a Windows service."
+				"type"		"server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"730811"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1158705759741638218"
+					"size"		"63938145"
+					"download"		"5218384"
+				}
+			}
+		}
+		"730812"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"553046462955554468"
+					"size"		"133356922"
+					"download"		"32867840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23062163"
+				"timeupdated"		"1777763430"
+				"timebuildupdated"		"1777762894"
+			}
+		}
+	}
+}
