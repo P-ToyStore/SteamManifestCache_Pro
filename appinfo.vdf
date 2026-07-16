@@ -1,0 +1,147 @@
+"appinfo"
+{
+	"appid"		"2728330"
+	"common"
+	{
+		"name"		"HZ_SERVER"
+		"type"		"Tool"
+		"parent"		"1766060"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"ca74d456dc9ef0be2f6ea5ad32a4bdeec897a3c4"
+		"clienticon"		"49d2e658948857785599d88c9af21ad82e9b1dfa"
+		"clienttga"		"0de3ad7adab93b89b8c5d4ae9257d0aad5b11d2c"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_62"		"1"
+		}
+		"steam_release_date"		"1709753400"
+		"gameid"		"2728330"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"HZ_SERVER"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"TSSGameServer.sh"
+				"arguments"		"-steamservername=HumanitZ"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2728331"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4676516100675637169"
+					"size"		"1317399149"
+					"download"		"1128192832"
+				}
+				"linuxbranch"
+				{
+					"gid"		"3676434770567640108"
+					"size"		"1371201695"
+					"download"		"1100462160"
+				}
+				"windowsbranch"
+				{
+					"gid"		"4676516100675637169"
+					"size"		"1317399149"
+					"download"		"1128192832"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23914958"
+				"timeupdated"		"1782401581"
+				"timebuildupdated"		"1782400932"
+			}
+			"linuxbranch"
+			{
+				"buildid"		"23910427"
+				"description"		"Linux Branch"
+				"timeupdated"		"1782400798"
+				"timebuildupdated"		"1782383881"
+			}
+			"windowsbranch"
+			{
+				"buildid"		"23914958"
+				"description"		"Windows Branch"
+				"timeupdated"		"1782401556"
+				"timebuildupdated"		"1782400932"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
