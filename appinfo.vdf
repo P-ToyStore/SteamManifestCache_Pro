@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"1989310"
+	"common"
+	{
+		"name"		"Dragon Mine"
+		"type"		"Game"
+		"clienttga"		"c70ab492608316670ea9b7662c9b16a407007d8f"
+		"clienticon"		"a3a7f95999f5b1bc56333b19d4aa0edc4a9893a6"
+		"icon"		"a878ab8a0e143b791f3f1222e51eae7d8b435bdf"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1657117620"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Peachy Clouds"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Peachy Clouds"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_28"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1660727025"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1989310"
+		"store_tags"
+		{
+			"0"		"3877"
+			"1"		"3798"
+			"2"		"5537"
+			"3"		"8666"
+			"4"		"1664"
+			"5"		"4036"
+			"6"		"1625"
+			"7"		"1773"
+			"8"		"4106"
+			"9"		"3871"
+			"10"		"4726"
+			"11"		"4046"
+			"12"		"19"
+			"13"		"21006"
+			"14"		"7481"
+			"15"		"4004"
+			"16"		"3964"
+			"17"		"492"
+			"18"		"4166"
+			"19"		"4182"
+		}
+		"review_score"		"7"
+		"review_percentage"		"96"
+	}
+	"extended"
+	{
+		"developer"		"Peachy Clouds"
+		"publisher"		"Peachy Clouds"
+	}
+	"config"
+	{
+		"installdir"		"Dragon Mine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dragon Mine.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1989311"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3458159857857665171"
+					"size"		"572964920"
+					"download"		"92356784"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9385408"
+				"timeupdated"		"1661421014"
+				"timebuildupdated"		"1661420987"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Peachy Clouds/Dragon Mine/{64BitSteamID}"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Peachy Clouds/Dragon Mine/{64BitSteamID}"
+						"replace"		"unity.peachyclouds.dragonmine/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
