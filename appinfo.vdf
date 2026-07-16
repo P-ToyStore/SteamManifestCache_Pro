@@ -1,0 +1,143 @@
+"appinfo"
+{
+	"appid"		"761080"
+	"common"
+	{
+		"name"		"Battle Splash 2.0 Dedicated Server"
+		"type"		"Tool"
+		"parent"		"756600"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"8b9a6a3a85972867fc901e94ec5520d6309d3437"
+		"logo_small"		"8b9a6a3a85972867fc901e94ec5520d6309d3437_thumb"
+		"icon"		"376733da60bb42982203a650f8c39be0a18152cb"
+		"clienttga"		"97c47f4249bcbf0da83d3b85cf05c6d24dd51553"
+		"clienticon"		"617ad2297890397991cbb4767c432048cd2b78ec"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"761080"
+	}
+	"extended"
+	{
+		"gamedir"		"Battle Splash 2.0"
+		"serverbrowsername"		"Battle Splash 2.0 Dedicated"
+	}
+	"config"
+	{
+		"installdir"		"Battle Splash 2.0 Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Battle Splash 2.0.exe"
+				"arguments"		"-batchmode -nographics -logfile \"output.txt\""
+				"description"		"BS2.0 Dedicated"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Battle Splash 2.0.exe"
+				"arguments"		"-batchmode -nographics -logfile \"output.txt\" -allow-network-controller"
+				"description"		"BS2.0 Dedicated \\w networked console."
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"761082"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2166899108937884920"
+					"size"		"1467558547"
+					"download"		"501541504"
+				}
+			}
+		}
+		"761083"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2992935"
+				"timeupdated"		"1533050501"
+				"timebuildupdated"		"1533050210"
+			}
+		}
+	}
+}
