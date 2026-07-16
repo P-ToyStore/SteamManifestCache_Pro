@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"906940"
+	"common"
+	{
+		"name"		"LEAP Server"
+		"type"		"Tool"
+		"parent"		"906930"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"315768ac9b6adf21174c15697f8d52b07d40cded"
+		"clienttga"		"1fcc21b40b02dd028f6a267168663ded99e87b0c"
+		"clienticon"		"e1413af1078698ac8c737ab657a4d2e816876f7c"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"906940"
+	}
+	"config"
+	{
+		"installdir"		"ProjectY Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LEAPServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LEAPServer.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"906943"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"584032709261880086"
+					"size"		"1231549754"
+					"download"		"937322096"
+				}
+				"psrelease"
+				{
+					"gid"		"4458629049598242343"
+					"size"		"1166647080"
+					"download"		"873131104"
+				}
+				"publictesting"
+				{
+					"gid"		"6276893868853254119"
+					"size"		"1231542812"
+					"download"		"937323792"
+				}
+				"xbrelease"
+				{
+					"gid"		"4458629049598242343"
+					"size"		"1166647080"
+					"download"		"873131104"
+				}
+			}
+		}
+		"906941"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5905479775410374425"
+					"size"		"1372898256"
+					"download"		"1048616832"
+				}
+				"psrelease"
+				{
+					"gid"		"5062813203486389318"
+					"size"		"1305591125"
+					"download"		"982222208"
+				}
+				"publictesting"
+				{
+					"gid"		"3914591618568618962"
+					"size"		"1372895507"
+					"download"		"1048612448"
+				}
+				"xbrelease"
+				{
+					"gid"		"5062813203486389318"
+					"size"		"1305591125"
+					"download"		"982222208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11405738"
+				"timeupdated"		"1686065646"
+				"timebuildupdated"		"1686064957"
+			}
+			"psrelease"
+			{
+				"buildid"		"11100189"
+				"description"		"Playstation Release Server"
+				"timeupdated"		"1682555560"
+				"timebuildupdated"		"1682555386"
+			}
+			"publictesting"
+			{
+				"buildid"		"11299116"
+				"description"		"Public Test"
+				"timeupdated"		"1685020379"
+				"timebuildupdated"		"1684860725"
+			}
+			"xbrelease"
+			{
+				"buildid"		"11100189"
+				"description"		"Xbox Release Server"
+				"timeupdated"		"1682555570"
+				"timebuildupdated"		"1682555386"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
