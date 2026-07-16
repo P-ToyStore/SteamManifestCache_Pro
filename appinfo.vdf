@@ -1,0 +1,78 @@
+"appinfo"
+{
+	"appid"		"2164830"
+	"common"
+	{
+		"name"		"Karagon Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1818610"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"5410e4623c0df82a2d1818379be612b3a628fc0b"
+		"clienttga"		"1257c3876062026a7fc2a73963e028c01fc4e7bb"
+		"clienticon"		"1b9ae59568fa293ed809cb15895458e73eda8f5f"
+		"freetodownload"		"1"
+		"gameid"		"2164830"
+	}
+	"config"
+	{
+		"installdir"		"Karagon Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Open_Server_Directory.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2164831"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4143262212193547654"
+					"size"		"4335686383"
+					"download"		"915180080"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10582673"
+				"timeupdated"		"1676714909"
+				"timebuildupdated"		"1676713795"
+			}
+		}
+	}
+}
