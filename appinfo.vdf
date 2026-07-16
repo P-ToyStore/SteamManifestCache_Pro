@@ -1,0 +1,103 @@
+"appinfo"
+{
+	"appid"		"1822380"
+	"common"
+	{
+		"name"		"Alien Marauder - Tools"
+		"type"		"Tool"
+		"parent"		"1516750"
+		"logo"		"781d36798419c05cc432684550a1b125e68adfd7"
+		"logo_small"		"781d36798419c05cc432684550a1b125e68adfd7_thumb"
+		"icon"		"ea32cb84bc3ec9203b69c2fc9e71852e5c603dbf"
+		"clienticon"		"793078045da3c6ffb897ee9d2cf50b2d9f9e54f7"
+		"clienttga"		"66fb53e4dff7847a83987fd8d2e1d842bf465d84"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1822380"
+	}
+	"config"
+	{
+		"installdir"		"Alien Marauder - Tools"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"translator/translator.exe"
+				"workingdir"		"translator"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"translator"
+				}
+				"description"		"translator"
+			}
+			"1"
+			{
+				"executable"		"workshop_tool/workshop_tool.exe"
+				"workingdir"		"workshop_tool"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"workshop_tool"
+				}
+				"description"		"workshop_tool"
+			}
+		}
+	}
+	"depots"
+	{
+		"1822381"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1863542911893362083"
+					"size"		"21540274"
+					"download"		"8754320"
+				}
+			}
+		}
+		"workshopdepot"		"1822380"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7834028"
+				"timeupdated"		"1638782547"
+				"timebuildupdated"		"1638782482"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1073741824"
+		"maxnumfiles"		"1000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		""
+				"pattern"		"cache.json"
+			}
+		}
+	}
+}
