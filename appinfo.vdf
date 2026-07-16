@@ -1,0 +1,85 @@
+"appinfo"
+{
+	"appid"		"1699670"
+	"common"
+	{
+		"name"		"Art of the Rail Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"parent"		"1286190"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1699670"
+	}
+	"config"
+	{
+		"installdir"		"Art of the Rail Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"aotr.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1699671"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8453221662580199744"
+					"size"		"113792563"
+					"download"		"36754080"
+				}
+				"unstable"
+				{
+					"gid"		"8288374360900053886"
+					"size"		"113799154"
+					"download"		"36759760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11964747"
+				"timeupdated"		"1693832658"
+				"timebuildupdated"		"1692274467"
+			}
+			"unstable"
+			{
+				"buildid"		"12105103"
+				"description"		"unstable automated branch"
+				"timeupdated"		"1693832638"
+				"timebuildupdated"		"1693832638"
+			}
+		}
+	}
+}
