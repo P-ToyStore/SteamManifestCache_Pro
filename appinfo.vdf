@@ -1,0 +1,133 @@
+"appinfo"
+{
+	"appid"		"1045940"
+	"common"
+	{
+		"name"		"HYPERCHARGE: Unboxed Dedicated Server"
+		"type"		"Tool"
+		"parent"		"523660"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"clienttga"		"4bd5aaa2e4a5510ddb9802428e0cae60f09d5041"
+		"clienticon"		"aa8764d8b217d068588d823dc66bba8989a2c3b6"
+		"icon"		"002b04042bef6bb53bd9c3772f7856fee68b147e"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1045940_eula_0"
+				"name"		"HYPERCHARGE: Unboxed - Dedicated Server EULA"
+				"url"		"https://store.steampowered.com//eula/1045940_eula_0"
+			}
+		}
+		"logo"		"0180736b164bb159283efd9fe61b5c7bd994030a"
+		"logo_small"		"0180736b164bb159283efd9fe61b5c7bd994030a_thumb"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1045940"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"HYPERCHARGE Unboxed - Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Unboxed/Binaries/Win64/UnboxedServer-Win64-Shipping.exe"
+				"arguments"		"-log"
+				"workingdir"		"Unboxed/Binaries/Win64"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1045941"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5237595073175626131"
+					"size"		"700840596"
+					"download"		"196091680"
+				}
+				"testing"
+				{
+					"gid"		"5237595073175626131"
+					"size"		"700840596"
+					"download"		"196091680"
+				}
+			}
+		}
+		"1045942"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5226082680412164345"
+					"size"		"735289144"
+					"download"		"205231520"
+				}
+				"testing"
+				{
+					"gid"		"5226082680412164345"
+					"size"		"735289144"
+					"download"		"205231520"
+				}
+			}
+		}
+		"hasdepotsindlc"		"0"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12830073"
+				"timeupdated"		"1701275137"
+				"timebuildupdated"		"1701274849"
+			}
+			"testing"
+			{
+				"buildid"		"12830073"
+				"description"		"Public testing branch"
+				"timeupdated"		"1701275101"
+				"timebuildupdated"		"1701274849"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
