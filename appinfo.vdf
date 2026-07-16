@@ -1,0 +1,135 @@
+"appinfo"
+{
+	"appid"		"2440790"
+	"common"
+	{
+		"name"		"DUOnline Server"
+		"type"		"Tool"
+		"parent"		"1932300"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"e1f55d218088af9bd71356191e335ecfead8b200"
+		"clienticon"		"4e5ba6d2fa2beddbecf60564bd31242c985d2cf3"
+		"clienttga"		"f2c50dfec2122678697965e6bf06adb02f5c80e0"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"2440790"
+	}
+	"extended"
+	{
+		"gamedir"		"DU_Online"
+	}
+	"config"
+	{
+		"installdir"		"DUOnline Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DU_OnlineServer.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2440791"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"328186596551697476"
+					"size"		"3609302492"
+					"download"		"698470640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14277901"
+				"timeupdated"		"1714999006"
+				"timebuildupdated"		"1714998788"
+			}
+		}
+	}
+}
