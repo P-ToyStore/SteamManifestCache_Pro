@@ -1,0 +1,130 @@
+"appinfo"
+{
+	"appid"		"273530"
+	"common"
+	{
+		"name"		"Centration Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"6fbf982ae22571cef7c8d97326bcf3c9775727e8"
+		"logo_small"		"6fbf982ae22571cef7c8d97326bcf3c9775727e8_thumb"
+		"icon"		"1abd2db1933eb07203b56fd59e47e2cdd328a9bf"
+		"clienttga"		"75c351f52aadd4264905789f659843b5a1472a8b"
+		"clienticon"		"754d44ffced60c0a8d197a376bfdc5e6534084e2"
+		"clienticns"		"754d44ffced60c0a8d197a376bfdc5e6534084e2"
+		"parent"		"243300"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"273530"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Centration Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"UCP/Binaries/Win64/UCPServer.exe"
+				"arguments"		"-log"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"runserver.sh"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"273531"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"110411987557802510"
+					"size"		"675219425"
+					"download"		"0"
+				}
+			}
+		}
+		"273532"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5077262477460773985"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"273533"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3185108328394021077"
+					"size"		"347"
+					"download"		"0"
+				}
+			}
+		}
+		"273534"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2421291104708251606"
+					"size"		"11444224"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"248417"
+				"timebuildupdated"		"1398815731"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
