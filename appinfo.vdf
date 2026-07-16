@@ -1,0 +1,135 @@
+"appinfo"
+{
+	"appid"		"1223310"
+	"common"
+	{
+		"name"		"SRX Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1083350"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"linuxclienticon"		"8e00e5121ae2ce7217522edb97e6ac130f2f5bbe"
+		"icon"		"911a0734d03383f58e14223a0881a2c3d1eaa6ab"
+		"logo"		"fcf302f81f9ace24856f3cfe2b2e6a606b1bd7a9"
+		"logo_small"		"fcf302f81f9ace24856f3cfe2b2e6a606b1bd7a9_thumb"
+		"clienticon"		"bf03a649bf1e87bc76d406998e47ac16d1590531"
+		"clienttga"		"75aa7580f7dc2fb493cae5de5a53e9611689c648"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1223310"
+	}
+	"config"
+	{
+		"installdir"		"SRX Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"run.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1223311"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8822612848459341267"
+					"size"		"1278135065"
+					"download"		"191618624"
+				}
+				"development"
+				{
+					"gid"		"1508920318124165322"
+					"size"		"1479840667"
+					"download"		"281965552"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6409869"
+				"timeupdated"		"1616178119"
+				"timebuildupdated"		"1616176572"
+			}
+			"development"
+			{
+				"buildid"		"6675990"
+				"description"		"Latest unstable build"
+				"timeupdated"		"1620656420"
+				"timebuildupdated"		"1620656420"
+			}
+		}
+	}
+}
