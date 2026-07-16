@@ -1,0 +1,335 @@
+"appinfo"
+{
+	"appid"		"1581310"
+	"common"
+	{
+		"name"		"Dark Runner"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"czech"		"1"
+		}
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"302d1bc89eb4037bf8d37b62cb0e9aad1ad18f0e"
+		"logo_small"		"302d1bc89eb4037bf8d37b62cb0e9aad1ad18f0e_thumb"
+		"icon"		"9e59da519cc52b9014814a2e51f24c1d95de137a"
+		"clienttga"		"8553fc10470798151b8c7adfdaf1c046dced3ae1"
+		"clienticon"		"faa88e5b75dcaea9df4f29d327c9f36a8dc886bf"
+		"clienticns"		"c4db5a82c1f242c3ecf5e0f2a7499573c24a30cb"
+		"linuxclienticon"		"73a323a5367c43d6ea1e249048a98ba3616f9af9"
+		"releasestate"		"released"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"56.37359339834961"
+				"height_pct"		"82.59914509617676"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"56.37359339834961"
+					"height_pct"		"82.59914509617676"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1629550165"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Padani Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Padani Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_15"		"1"
+			"category_28"		"1"
+			"category_33"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1631804432"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1581310"
+		"store_tags"
+		{
+			"0"		"3877"
+			"1"		"4026"
+			"2"		"4036"
+			"3"		"5390"
+			"4"		"5379"
+			"5"		"3798"
+			"6"		"1625"
+			"7"		"3834"
+			"8"		"3871"
+			"9"		"4182"
+			"10"		"699"
+			"11"		"492"
+			"12"		"19"
+			"13"		"5154"
+			"14"		"4166"
+			"15"		"4136"
+		}
+	}
+	"extended"
+	{
+		"absolutemousecoordinates"		"1"
+		"remoteplaytogethertestingbranches"		"48hours,test"
+		"remoteplaycursorscale"		"2"
+		"developer"		"Padani Games"
+		"publisher"		"Padani Games"
+		"homepage"		"https://www.instagram.com/padanigames/"
+		"listofdlc"		"1865420"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Dark Runner"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Dark Runner.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"The game"
+					"czech"		"Hra"
+				}
+				"description"		"The game"
+			}
+			"1"
+			{
+				"executable"		"Dark Runner - Linux.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Dark Runner - MacOS.app\\Contents\\MacOS\\Dark Runner"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"DLC1\\SecretCode.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"1865420"
+				}
+				"description_loc"
+				{
+					"english"		"Secret Code"
+				}
+				"description"		"Secret Code"
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamconfigurator3rdpartynative"		"7"
+		"steamcontrollerconfigdetails"
+		{
+			"2555758673"
+			{
+				"controller_type"		"controller_generic"
+				"enabled_branches"		"default,48hours,test"
+				"use_action_block"		"false"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,czech"
+		"1581311"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5724779777641661689"
+					"size"		"1106802246"
+					"download"		"56839712"
+				}
+			}
+		}
+		"1581312"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4012221831964679552"
+					"size"		"1121550979"
+					"download"		"59645024"
+				}
+			}
+		}
+		"1581313"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2499675504381285532"
+					"size"		"1117239273"
+					"download"		"58586528"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7476296"
+				"timeupdated"		"1634390346"
+				"timebuildupdated"		"1633374376"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"3"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Padani Games/Dark Runner/Save/{64BitSteamID}"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Padani Games/Dark Runner/Save/{64BitSteamID}"
+						"replace"		"unity.Padani Games.Dark Runner/Save/{64BitSteamID}"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Padani Games/Dark Runner/Save/{64BitSteamID}"
+						"replace"		".config/unity3d/Padani Games/Dark Runner/Save/{64BitSteamID}"
+					}
+				}
+			}
+		}
+	}
+}
