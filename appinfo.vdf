@@ -1,0 +1,129 @@
+"appinfo"
+{
+	"appid"		"10030"
+	"common"
+	{
+		"clienttga"		"920bd406fc9742843c7093d5a285a346ecd666ef"
+		"name"		"Enemy Territory: QUAKE Wars Dedicated Server"
+		"type"		"Tool"
+		"gameid"		"10030"
+	}
+	"extended"
+	{
+		"dependantonapp"		"10000"
+		"developer"		"Splash Damage"
+		"developer_url"		"http://www.splashdamage.com/"
+		"gamedir"		"Enemy Territory Quake Wars Dedicated Server"
+		"homepage"		"http://www.enemyterritory.com/"
+		"icon"		"steam/games/icon_Enemy Territory Quake Wars"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"10031"
+		"serverbrowsername"		""
+		"state"		"eStateTool"
+	}
+	"config"
+	{
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"serverlauncher.exe"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"ValveTestApp10000"
+	}
+	"depots"
+	{
+		"10001"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5477813184068131469"
+					"size"		"1608690842"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"10000"
+		}
+		"10031"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1124709354692861233"
+					"size"		"11792080"
+					"download"		"0"
+				}
+			}
+		}
+		"10004"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5633547836704586446"
+					"size"		"55280907"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"10000"
+		}
+		"10005"
+		{
+			"optional"		"1"
+			"systemdefined"		"1"
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6233942172183663580"
+					"size"		"41178615"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"10000"
+		}
+		"10006"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1856538235062813871"
+					"size"		"38532303"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"10000"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19216"
+				"timebuildupdated"		"1350427668"
+			}
+		}
+	}
+}
