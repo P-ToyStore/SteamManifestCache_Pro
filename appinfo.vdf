@@ -1,0 +1,147 @@
+"appinfo"
+{
+	"appid"		"1026340"
+	"common"
+	{
+		"name"		"Barotrauma Dedicated Server"
+		"type"		"Tool"
+		"parent"		"602960"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"eeec07c92bca9a724384ae44cf834f7a72918102"
+		"logo_small"		"eeec07c92bca9a724384ae44cf834f7a72918102_thumb"
+		"icon"		"e9ce473bfbe910511f83404583be733510b92423"
+		"clienticon"		"3b1cb4f101280f29aa78f49dc1f48c4b5d2754aa"
+		"clienttga"		"1818760cfc1931d64eca45b5a8174c10cba1e76c"
+		"linuxclienticon"		"a54eaca331d1a05fd12204db0a8eb2a385677249"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1026340"
+	}
+	"config"
+	{
+		"installdir"		"Barotrauma Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DedicatedServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./DedicatedServer"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1026341"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9194324399781094419"
+					"size"		"155733634"
+					"download"		"55626208"
+				}
+			}
+		}
+		"1026342"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3117569842249460960"
+					"size"		"156251935"
+					"download"		"55023328"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23799137"
+				"timeupdated"		"1781784441"
+				"timebuildupdated"		"1781772754"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
