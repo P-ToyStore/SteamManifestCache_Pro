@@ -1,0 +1,256 @@
+"appinfo"
+{
+	"appid"		"555070"
+	"common"
+	{
+		"name"		"Overload Multiplayer Beta"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"clienticon"		"31f7270bfdb86e36ad33249d59b875a3028205d6"
+		"clienttga"		"2ee042d621d9877dbef808145c7fc86f315b76a7"
+		"icon"		"1613c317ad5d99f3dd4088e774b96fd7bb2acfb9"
+		"clienticns"		"c1ce4ca00f5a626f899306e2cfd00a67a7ae3343"
+		"linuxclienticon"		"ccb213f04022efaf2bfeaafdd9ff20fa277d5ab5"
+		"logo"		"94495b761e0a74a9817098fecd59c11511daf763"
+		"logo_small"		"94495b761e0a74a9817098fecd59c11511daf763_thumb"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"555070"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Overload November 2016 Demo"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OverloadNovember2016Demo.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"novemberdemo"
+				}
+			}
+			"1"
+			{
+				"executable"		"OverloadNovember2016Demo.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"novemberdemo"
+				}
+			}
+			"2"
+			{
+				"executable"		"OverloadNovember2016Demo.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+					"betakey"		"novemberdemo"
+				}
+			}
+			"3"
+			{
+				"executable"		"OverloadNovember2016Demo.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+					"betakey"		"novemberdemo"
+				}
+			}
+			"4"
+			{
+				"executable"		"overload.exe"
+				"description"		"Mutliplayer Beta"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"5"
+			{
+				"executable"		"overload.app"
+				"description"		"Mutliplayer Beta"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"6"
+			{
+				"executable"		"overload.x86"
+				"description"		"Mutliplayer Beta"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"7"
+			{
+				"executable"		"overload.x86_64"
+				"description"		"Mutliplayer Beta"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"8"
+			{
+				"executable"		"Overload.exe"
+				"arguments"		"-vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"9"
+			{
+				"executable"		"Overload.exe"
+				"arguments"		"-vrmode oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"555071"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2594792372735127843"
+					"size"		"4584308933"
+					"download"		"2512803648"
+				}
+				"novemberdemo"
+				{
+					"gid"		"3972329871813462261"
+					"size"		"1983567037"
+					"download"		"775773472"
+				}
+			}
+		}
+		"555072"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4545723850588110517"
+					"size"		"4569580451"
+					"download"		"2508856096"
+				}
+				"novemberdemo"
+				{
+					"gid"		"5235668413294955683"
+					"size"		"1978688411"
+					"download"		"774337408"
+				}
+			}
+		}
+		"555073"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3464211616272931539"
+					"size"		"4633912962"
+					"download"		"2515609568"
+				}
+				"novemberdemo"
+				{
+					"gid"		"4120724867154267513"
+					"size"		"2022566280"
+					"download"		"787126736"
+				}
+			}
+		}
+		"555074"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3882598295029796086"
+					"size"		"4588854717"
+					"download"		"2519326240"
+				}
+				"novemberdemo"
+				{
+					"gid"		"2943750033918217445"
+					"size"		"2012902160"
+					"download"		"784095536"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2816314"
+				"timeupdated"		"1527638876"
+				"timebuildupdated"		"1527619968"
+			}
+			"novemberdemo"
+			{
+				"buildid"		"1492914"
+				"description"		"The actual November 2016 Demo"
+				"timeupdated"		"1525974534"
+				"timebuildupdated"		"1480626200"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
