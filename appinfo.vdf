@@ -1,0 +1,145 @@
+"appinfo"
+{
+	"appid"		"777030"
+	"common"
+	{
+		"name"		"FTR Windows Server"
+		"type"		"Tool"
+		"parent"		"767430"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"316bb2e9c3e38f275c706e379b10e2028962d52c"
+		"logo_small"		"316bb2e9c3e38f275c706e379b10e2028962d52c_thumb"
+		"icon"		"6bdb08ca29cb4e7947eac75b7371655e0a1bf55a"
+		"clienttga"		"19564ffafa2b0ce903b7401200c3c191794f8788"
+		"clienticon"		"eb6c1f998bb8cff32465a9deb827d0dcd45cbedc"
+		"app_retired_publisher_request"		"1"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1514365200"
+		"gameid"		"777030"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"FTR Windows Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ForTheRealm\\Binaries\\Win64\\ForTheRealmServer.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"ForTheRealm\\Binaries\\Linux\\ForTheRealmServer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"1"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"777031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2462101163882277030"
+					"size"		"150541978"
+					"download"		"38399296"
+				}
+				"saato"
+				{
+					"gid"		"6432670712160108916"
+					"size"		"1652023607"
+					"download"		"756731728"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2400801"
+				"timeupdated"		"1514425035"
+				"timebuildupdated"		"1514425018"
+			}
+			"saato"
+			{
+				"buildid"		"2933784"
+				"timeupdated"		"1531235075"
+				"timebuildupdated"		"1531235075"
+			}
+		}
+	}
+}
