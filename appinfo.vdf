@@ -1,0 +1,100 @@
+"appinfo"
+{
+	"appid"		"640100"
+	"common"
+	{
+		"name"		"BATTALION 1944 TEST ZONE"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"icon"		"f3b85138a30a5ceb72278821bfe78b4af5dc3779"
+		"logo"		"63c591065bf004b7f12220dc915229a0bd482663"
+		"logo_small"		"63c591065bf004b7f12220dc915229a0bd482663_thumb"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"associations"
+		{
+		}
+		"gameid"		"640100"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"installdir"		"BATTALION 1944 TEST ZONE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Launcher/BattalionLauncher.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"battalion"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"640101"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5160190043992944036"
+					"size"		"15289861059"
+					"download"		"7264495840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2474581"
+				"timeupdated"		"1517072415"
+				"timebuildupdated"		"1517061427"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
