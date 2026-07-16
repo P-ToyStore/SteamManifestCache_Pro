@@ -1,0 +1,148 @@
+"appinfo"
+{
+	"appid"		"383410"
+	"common"
+	{
+		"name"		"Codename CURE Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"logo"		"ee091b3435cae37bbc227e9ced6fa5bd83011ce2"
+		"logo_small"		"ee091b3435cae37bbc227e9ced6fa5bd83011ce2_thumb"
+		"icon"		"d1c6a4149ad4d66a1138d2d1ab9fc71c44220485"
+		"clienttga"		"c8e444fb11c71e00650b3a8f155ce864062f3f59"
+		"clienticon"		"7cc0a1176e620242e73fb02e9ef00f691339d725"
+		"releasestate"		"released"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"383410"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Codename CURE Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game cure +map cbe_bunker -insecure"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"383411"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7944016688394798895"
+					"size"		"7029007731"
+					"download"		"3480314720"
+				}
+				"legacy"
+				{
+					"gid"		"5785976641866232207"
+					"size"		"1472109031"
+					"download"		"556644320"
+				}
+				"release"
+				{
+					"gid"		"5136093822554650975"
+					"size"		"1879055485"
+					"download"		"674500352"
+				}
+			}
+		}
+		"383412"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4229546725190808263"
+					"size"		"93506944"
+					"download"		"30745984"
+				}
+				"legacy"
+				{
+					"gid"		"2626116370126593781"
+					"size"		"93203572"
+					"download"		"30613120"
+				}
+				"release"
+				{
+					"gid"		"2533489559891090029"
+					"size"		"93493140"
+					"download"		"30740624"
+				}
+			}
+		}
+		"383413"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2388735945722163001"
+					"size"		"113527132"
+					"download"		"18186416"
+				}
+				"legacy"
+				{
+					"gid"		"9203720782103798985"
+					"size"		"98422879"
+					"download"		"18038096"
+				}
+				"release"
+				{
+					"gid"		"2663824580618268051"
+					"size"		"113471895"
+					"download"		"18181312"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16267076"
+				"timeupdated"		"1730479781"
+				"timebuildupdated"		"1730479639"
+			}
+			"legacy"
+			{
+				"buildid"		"1154654"
+				"description"		"oldest relevant version of game"
+				"timeupdated"		"1487881866"
+				"timebuildupdated"		"1464625446"
+			}
+			"release"
+			{
+				"buildid"		"8591740"
+				"description"		"2017++ release version"
+				"timeupdated"		"1704142812"
+				"timebuildupdated"		"1650477326"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
