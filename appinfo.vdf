@@ -1,0 +1,96 @@
+"appinfo"
+{
+	"appid"		"1479670"
+	"common"
+	{
+		"name"		"Zero-based World Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1044870"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"36fd03df7e2a4a9e74680e882430d511be4007ee"
+		"logo_small"		"36fd03df7e2a4a9e74680e882430d511be4007ee_thumb"
+		"icon"		"c02ed09fa12435763304b027e124b11e124c73c2"
+		"clienticon"		"9e96627d4d0022bc1d7131918a878bc5d5ac12ea"
+		"clienttga"		"f2fa5a633f7861cfabf05c97c5ec15ef1d0f5664"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1479670"
+	}
+	"config"
+	{
+		"installdir"		"Zero-based World Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Release/SandBox.x86_64"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Dedicated Server"
+				}
+				"description"		"Dedicated Server"
+			}
+			"1"
+			{
+				"executable"		"Experimental/SandBox.x86_64"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Experimental Dedicated Server"
+				}
+				"description"		"Experimental Dedicated Server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1479671"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3726028512602556243"
+					"size"		"760658799"
+					"download"		"205687808"
+				}
+			}
+		}
+		"1479672"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16708606"
+				"timeupdated"		"1733926978"
+				"timebuildupdated"		"1733926943"
+			}
+		}
+	}
+}
