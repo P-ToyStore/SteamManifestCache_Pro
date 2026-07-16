@@ -1,0 +1,173 @@
+"appinfo"
+{
+	"appid"		"974130"
+	"common"
+	{
+		"name"		"StickyBots DedicatedServer"
+		"type"		"Tool"
+		"parent"		"889400"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"d17ad51e67319703db5be51cfa12236ec6d8f3e4"
+		"logo_small"		"d17ad51e67319703db5be51cfa12236ec6d8f3e4_thumb"
+		"icon"		"9e9e6e388cae5e0c4ace80f23e59d0ecdfc12cb8"
+		"clienticon"		"5ad0108d70d365da85b14d5d678ee30f8e1dbd5c"
+		"clienttga"		"f7682c0fc67779c7b83289fa40bff149e8257841"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"974130"
+	}
+	"extended"
+	{
+		"gamedir"		"StickyBots"
+		"serverbrowsername"		"StickyBots"
+	}
+	"config"
+	{
+		"installdir"		"StickyBotsDedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"blank1\\Binaries\\Win64\\blank1Server-Win64-Shipping.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"blank1\\Binaries\\Linux\\blank1Server-Linux-Shipping"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"blank1\\Binaries\\Mac\\blank1Server-Mac-Shipping.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"974131"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"217200716855148764"
+					"size"		"246208305"
+					"download"		"39222976"
+				}
+			}
+		}
+		"974132"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6152909738926332120"
+					"size"		"843940958"
+					"download"		"145973248"
+				}
+			}
+		}
+		"974133"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1683960798424906373"
+					"size"		"711135326"
+					"download"		"109676896"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3838731"
+				"timeupdated"		"1558325183"
+				"timebuildupdated"		"1558325056"
+			}
+		}
+	}
+}
