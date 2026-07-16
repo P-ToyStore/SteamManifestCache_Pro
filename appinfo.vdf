@@ -1,0 +1,264 @@
+"appinfo"
+{
+	"appid"		"460040"
+	"common"
+	{
+		"name"		"Empires Dedicated Server"
+		"logo"		"c8b9c51734b20720734f2cc15f486b1bbf70d85f"
+		"logo_small"		"c8b9c51734b20720734f2cc15f486b1bbf70d85f_thumb"
+		"icon"		"e93621d24b2eb58ad47a662b0e18beaa7c234cd6"
+		"clienttga"		"7e85127a8f6fc38038f78561b34f0401f40c1b7a"
+		"clienticon"		"172aec62bf96924f286cea687188fa5a8e6ddcf2"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"460040"
+	}
+	"extended"
+	{
+		"gamedir"		"empires"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Empires Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game empires -steam -nobreakpad +r_hunkalloclightmaps 0"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"srcds_run"
+				"arguments"		"-game empires -steam -nobreakpad +r_hunkalloclightmaps 0"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"srcds_win64.exe"
+				"arguments"		"-game empires -steam -nobreakpad +r_hunkalloclightmaps 0"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"2025_sdk_update"
+				}
+				"description_loc"
+				{
+					"english"		"Launch 2025 SDK Server"
+				}
+				"description"		"Launch 2025 SDK Server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"460044"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5710025113707488730"
+					"size"		"875335388"
+					"download"		"285898176"
+				}
+				"beta"
+				{
+					"gid"		"5710025113707488730"
+					"size"		"875335388"
+					"download"		"285898176"
+				}
+			}
+		}
+		"460045"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1547938149128614963"
+					"size"		"846096838"
+					"download"		"273202032"
+				}
+				"beta"
+				{
+					"gid"		"1547938149128614963"
+					"size"		"846096838"
+					"download"		"273202032"
+				}
+			}
+		}
+		"460041"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1896408479137139056"
+					"size"		"4810795206"
+					"download"		"1502492128"
+				}
+				"beta"
+				{
+					"gid"		"7957563294190931046"
+					"size"		"4810795206"
+					"download"		"1502435968"
+				}
+			}
+		}
+		"460043"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9218890676133482858"
+					"size"		"126850"
+					"download"		"32576"
+				}
+				"beta"
+				{
+					"gid"		"9218890676133482858"
+					"size"		"126850"
+					"download"		"32576"
+				}
+			}
+		}
+		"460046"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8255554077503522290"
+					"size"		"14863947"
+					"download"		"4385600"
+				}
+				"beta"
+				{
+					"gid"		"8255554077503522290"
+					"size"		"14863947"
+					"download"		"4385600"
+				}
+			}
+		}
+		"460042"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"280570886597233912"
+					"size"		"6258176"
+					"download"		"2307504"
+				}
+				"beta"
+				{
+					"gid"		"7534190044987229065"
+					"size"		"6268928"
+					"download"		"2312736"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22034757"
+				"timeupdated"		"1771695868"
+				"timebuildupdated"		"1771692707"
+			}
+			"beta"
+			{
+				"buildid"		"23949012"
+				"timeupdated"		"1782599668"
+				"timebuildupdated"		"1782599668"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
