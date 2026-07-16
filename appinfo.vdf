@@ -1,0 +1,134 @@
+"appinfo"
+{
+	"appid"		"1573820"
+	"common"
+	{
+		"name"		"Raptor Territory Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1513860"
+		"logo"		"84cf25e453531a002711680430230e55dd77f63e"
+		"logo_small"		"84cf25e453531a002711680430230e55dd77f63e_thumb"
+		"icon"		"f0c9143727e3796458e142a8466a707f812e5676"
+		"clienttga"		"ba849af0f223a96c554f9977a519c781ad597c31"
+		"clienticon"		"fdd0fee3fe81c2e735cdecc05a8890fcb2d66f56"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1573820"
+	}
+	"config"
+	{
+		"installdir"		"Raptor Territory Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"startup.bat"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"DediServer.bat"
+				"type"		"config"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1573821"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1631964152174811935"
+					"size"		"1239908757"
+					"download"		"927926768"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8966257"
+				"timeupdated"		"1655634886"
+				"timebuildupdated"		"1655634836"
+			}
+		}
+	}
+}
