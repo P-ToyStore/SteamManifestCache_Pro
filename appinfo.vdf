@@ -1,0 +1,721 @@
+"appinfo"
+{
+	"appid"		"565060"
+	"common"
+	{
+		"name"		"Avorion Dedicated Server"
+		"type"		"Tool"
+		"parent"		"445220"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"clienticon"		"f365d6c1f2d6fc314ef9b3368f6a5b5a5972610a"
+		"clienttga"		"712cee76ede4346becb0c5acf4aaebfce7afff43"
+		"icon"		"30fa535bacafe4af9f0a3ad0bc18f0112b66652f"
+		"linuxclienticon"		"afca031a7cbbf879a08ecdc5a4ea576876573cd7"
+		"logo"		"fab88d5bee7f1e60aa886885e37f345d9c794cd6"
+		"logo_small"		"fab88d5bee7f1e60aa886885e37f345d9c794cd6_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"565060"
+	}
+	"config"
+	{
+		"installdir"		"AvorionServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin/ServerRunner.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"bin/ServerRunner"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"bin/ServerRunner"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"workshopdepot"		"565060"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"565061"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3169308613424354701"
+					"size"		"36957350"
+					"download"		"5228128"
+				}
+				"0.28.1"
+				{
+					"gid"		"230481021285753536"
+					"size"		"4515665"
+					"download"		"1022384"
+				}
+				"0.29.5"
+				{
+					"gid"		"2850523376539957652"
+					"size"		"4694037"
+					"download"		"1065440"
+				}
+				"0.30.2"
+				{
+					"gid"		"1946822321932531048"
+					"size"		"4836730"
+					"download"		"1103232"
+				}
+				"0.31.2"
+				{
+					"gid"		"1825177122524164378"
+					"size"		"4946463"
+					"download"		"1130624"
+				}
+				"0.32.2"
+				{
+					"gid"		"3916261278264033887"
+					"size"		"9176918"
+					"download"		"1589968"
+				}
+				"1.0.0"
+				{
+					"gid"		"6528816860404401615"
+					"size"		"9419759"
+					"download"		"1660112"
+				}
+				"1.1.4"
+				{
+					"gid"		"3905111093812563476"
+					"size"		"10449694"
+					"download"		"1780688"
+				}
+				"1.2.0"
+				{
+					"gid"		"5481314841086332414"
+					"size"		"10457603"
+					"download"		"1783744"
+				}
+				"1.3.8"
+				{
+					"gid"		"8548365667260497311"
+					"size"		"19702394"
+					"download"		"2760096"
+				}
+				"2.0.11"
+				{
+					"gid"		"1875833344483753844"
+					"size"		"22172287"
+					"download"		"3878896"
+				}
+				"2.1.0"
+				{
+					"gid"		"3101335365118422770"
+					"size"		"22173562"
+					"download"		"3879712"
+				}
+				"2.2.2"
+				{
+					"gid"		"7507376451971801475"
+					"size"		"28512706"
+					"download"		"4655824"
+				}
+				"2.3.2"
+				{
+					"gid"		"3534482532453509982"
+					"size"		"28765794"
+					"download"		"4680704"
+				}
+				"2.4.3"
+				{
+					"gid"		"3061754686216819923"
+					"size"		"36817685"
+					"download"		"5172272"
+				}
+				"2.5.2"
+				{
+					"gid"		"1026989228517093101"
+					"size"		"36830679"
+					"download"		"5176528"
+				}
+				"beta"
+				{
+					"gid"		"3169308613424354701"
+					"size"		"36957350"
+					"download"		"5228128"
+				}
+				"previous"
+				{
+					"gid"		"2748216140661589908"
+					"size"		"36952861"
+					"download"		"5224832"
+				}
+			}
+		}
+		"565062"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8012713966261971681"
+					"size"		"41613770"
+					"download"		"14465136"
+				}
+				"0.28.1"
+				{
+					"gid"		"303978621383279334"
+					"size"		"34014539"
+					"download"		"9814336"
+				}
+				"0.29.5"
+				{
+					"gid"		"4357918177816011269"
+					"size"		"34201419"
+					"download"		"9889632"
+				}
+				"0.30.2"
+				{
+					"gid"		"8743465616117308175"
+					"size"		"34254866"
+					"download"		"9899344"
+				}
+				"0.31.2"
+				{
+					"gid"		"8862767923946334916"
+					"size"		"34423314"
+					"download"		"9960128"
+				}
+				"0.32.2"
+				{
+					"gid"		"3806329495007199560"
+					"size"		"35218450"
+					"download"		"10151456"
+				}
+				"1.0.0"
+				{
+					"gid"		"5280737327825952133"
+					"size"		"35970262"
+					"download"		"10368048"
+				}
+				"1.1.4"
+				{
+					"gid"		"2386586716433964088"
+					"size"		"36273878"
+					"download"		"10464080"
+				}
+				"1.2.0"
+				{
+					"gid"		"2710905928989713314"
+					"size"		"36365014"
+					"download"		"10492576"
+				}
+				"1.3.8"
+				{
+					"gid"		"5496405052197792478"
+					"size"		"38177558"
+					"download"		"10990944"
+				}
+				"2.0.11"
+				{
+					"gid"		"5484852587178106826"
+					"size"		"39965103"
+					"download"		"11503264"
+				}
+				"2.1.0"
+				{
+					"gid"		"755116206974562191"
+					"size"		"39967663"
+					"download"		"11500976"
+				}
+				"2.2.2"
+				{
+					"gid"		"159411642326506191"
+					"size"		"40380335"
+					"download"		"11589984"
+				}
+				"2.3.2"
+				{
+					"gid"		"4188387883333160162"
+					"size"		"39882525"
+					"download"		"11517744"
+				}
+				"2.4.3"
+				{
+					"gid"		"7589827290196695066"
+					"size"		"39956253"
+					"download"		"11526672"
+				}
+				"2.5.2"
+				{
+					"gid"		"4449930068786716846"
+					"size"		"39974173"
+					"download"		"11531424"
+				}
+				"beta"
+				{
+					"gid"		"8012713966261971681"
+					"size"		"41613770"
+					"download"		"14465136"
+				}
+				"previous"
+				{
+					"gid"		"8672311034138183707"
+					"size"		"40899016"
+					"download"		"14327952"
+				}
+			}
+		}
+		"565063"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4770777789942892253"
+					"size"		"43163721"
+					"download"		"14956608"
+				}
+				"0.28.1"
+				{
+					"gid"		"4852513652725168065"
+					"size"		"35722883"
+					"download"		"9113664"
+				}
+				"0.29.5"
+				{
+					"gid"		"3825874568018622041"
+					"size"		"36027603"
+					"download"		"9193520"
+				}
+				"0.30.2"
+				{
+					"gid"		"4111392066886577296"
+					"size"		"36101523"
+					"download"		"9224672"
+				}
+				"0.31.2"
+				{
+					"gid"		"6851643028448249575"
+					"size"		"36339091"
+					"download"		"9292864"
+				}
+				"0.32.2"
+				{
+					"gid"		"6690971421792714346"
+					"size"		"37433075"
+					"download"		"9573296"
+				}
+				"1.0.0"
+				{
+					"gid"		"9206964594484322738"
+					"size"		"37908347"
+					"download"		"9702272"
+				}
+				"1.1.4"
+				{
+					"gid"		"222174059709749257"
+					"size"		"38330323"
+					"download"		"9774560"
+				}
+				"1.2.0"
+				{
+					"gid"		"2598916996660621824"
+					"size"		"38399963"
+					"download"		"9791600"
+				}
+				"1.3.8"
+				{
+					"gid"		"5904604658378470965"
+					"size"		"40866195"
+					"download"		"10403168"
+				}
+				"2.0.11"
+				{
+					"gid"		"1559836039850155432"
+					"size"		"35315947"
+					"download"		"9529104"
+				}
+				"2.1.0"
+				{
+					"gid"		"7209282784934005862"
+					"size"		"35315947"
+					"download"		"9528896"
+				}
+				"2.2.2"
+				{
+					"gid"		"2106662328542394352"
+					"size"		"35766611"
+					"download"		"9637984"
+				}
+				"2.3.2"
+				{
+					"gid"		"9056512834666288338"
+					"size"		"71316377"
+					"download"		"19457664"
+				}
+				"2.4.3"
+				{
+					"gid"		"6962686018876886643"
+					"size"		"71394241"
+					"download"		"19479776"
+				}
+				"2.5.2"
+				{
+					"gid"		"8102390662074333508"
+					"size"		"71398345"
+					"download"		"19478736"
+				}
+				"beta"
+				{
+					"gid"		"4770777789942892253"
+					"size"		"43163721"
+					"download"		"14956608"
+				}
+				"previous"
+				{
+					"gid"		"3424364858157534049"
+					"size"		"35415225"
+					"download"		"11761712"
+				}
+			}
+		}
+		"565064"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8389765543752227021"
+					"size"		"61426128"
+					"download"		"15356880"
+				}
+				"0.28.1"
+				{
+					"gid"		"7227003647649554970"
+					"size"		"43294708"
+					"download"		"9728048"
+				}
+				"0.29.5"
+				{
+					"gid"		"9154198774972886357"
+					"size"		"43575008"
+					"download"		"9780864"
+				}
+				"0.30.2"
+				{
+					"gid"		"8514907697678738850"
+					"size"		"43838688"
+					"download"		"9826992"
+				}
+				"0.31.2"
+				{
+					"gid"		"6938403525717219022"
+					"size"		"44189596"
+					"download"		"9951216"
+				}
+				"0.32.2"
+				{
+					"gid"		"7903449457508046658"
+					"size"		"45483292"
+					"download"		"10226320"
+				}
+				"1.0.0"
+				{
+					"gid"		"4228169608962929867"
+					"size"		"46014452"
+					"download"		"10353296"
+				}
+				"1.1.4"
+				{
+					"gid"		"9188597182100271504"
+					"size"		"46369068"
+					"download"		"10420000"
+				}
+				"1.2.0"
+				{
+					"gid"		"3051227425170697357"
+					"size"		"46458036"
+					"download"		"10428592"
+				}
+				"1.3.8"
+				{
+					"gid"		"2619902607229295272"
+					"size"		"49839380"
+					"download"		"11199680"
+				}
+				"2.0.11"
+				{
+					"gid"		"4843030384309743886"
+					"size"		"52718508"
+					"download"		"11819136"
+				}
+				"2.1.0"
+				{
+					"gid"		"3008882315358490293"
+					"size"		"52722604"
+					"download"		"11817648"
+				}
+				"2.2.2"
+				{
+					"gid"		"2664471526048005550"
+					"size"		"53346392"
+					"download"		"11927328"
+				}
+				"2.3.2"
+				{
+					"gid"		"1547729732665893461"
+					"size"		"51855620"
+					"download"		"11778928"
+				}
+				"2.4.3"
+				{
+					"gid"		"4257774584292324326"
+					"size"		"51969724"
+					"download"		"11796736"
+				}
+				"2.5.2"
+				{
+					"gid"		"5947853234816116313"
+					"size"		"52031036"
+					"download"		"11817728"
+				}
+				"beta"
+				{
+					"gid"		"8389765543752227021"
+					"size"		"61426128"
+					"download"		"15356880"
+				}
+				"previous"
+				{
+					"gid"		"5530772895768511725"
+					"size"		"62057876"
+					"download"		"15354656"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"22295362"
+				"timeupdated"		"1773648356"
+				"timebuildupdated"		"1773232744"
+			}
+			"0.28.1"
+			{
+				"buildid"		"4401282"
+				"description"		"0.28.1 - Building UI"
+				"timeupdated"		"1575976795"
+				"timebuildupdated"		"1574099020"
+			}
+			"0.29.5"
+			{
+				"buildid"		"4485676"
+				"description"		"0.29.5 - Economy and Difficulty"
+				"timeupdated"		"1579608606"
+				"timebuildupdated"		"1576157905"
+			}
+			"0.30.2"
+			{
+				"buildid"		"4591226"
+				"description"		"0.30.2 - Missions, Bosses & Sound"
+				"timeupdated"		"1580892850"
+				"timebuildupdated"		"1579602940"
+			}
+			"0.31.2"
+			{
+				"buildid"		"4659158"
+				"description"		"0.31.2 - Enemy Variations & Damage Types"
+				"timeupdated"		"1582723210"
+				"timebuildupdated"		"1581327245"
+			}
+			"0.32.2"
+			{
+				"buildid"		"4721846"
+				"description"		"0.32.2 - Generator Rework"
+				"timeupdated"		"1583315758"
+				"timebuildupdated"		"1582804856"
+			}
+			"1.0.0"
+			{
+				"buildid"		"4995671"
+				"description"		"1.0 - Full Release"
+				"timeupdated"		"1592901167"
+				"timebuildupdated"		"1588865806"
+			}
+			"1.1.4"
+			{
+				"buildid"		"5392904"
+				"description"		"1.1.4 - Various Fixes & Improvements"
+				"timeupdated"		"1600345128"
+				"timebuildupdated"		"1597063431"
+			}
+			"1.2.0"
+			{
+				"buildid"		"5616733"
+				"description"		"1.2 - Quality of Life"
+				"timeupdated"		"1604336857"
+				"timebuildupdated"		"1601473132"
+			}
+			"1.3.8"
+			{
+				"buildid"		"6870337"
+				"description"		"1.3.8 - Docking"
+				"timeupdated"		"1631015554"
+				"timebuildupdated"		"1623748460"
+			}
+			"2.0.11"
+			{
+				"buildid"		"7755067"
+				"description"		"2.0.11 - Update 2.0"
+				"timeupdated"		"1659117206"
+				"timebuildupdated"		"1637583509"
+			}
+			"2.1.0"
+			{
+				"buildid"		"8728246"
+				"description"		"2.1.0 - Small Fixes"
+				"timeupdated"		"1659617937"
+				"timebuildupdated"		"1652375904"
+			}
+			"2.2.2"
+			{
+				"buildid"		"9477893"
+				"description"		"2.2.2 - Into The Rift"
+				"timeupdated"		"1674126654"
+				"timebuildupdated"		"1662652474"
+			}
+			"2.3.2"
+			{
+				"buildid"		"12806384"
+				"description"		"2.3.2 - New maintenance command & performance optimizations"
+				"timeupdated"		"1701774450"
+				"timebuildupdated"		"1701083380"
+			}
+			"2.4.3"
+			{
+				"buildid"		"13518580"
+				"description"		"2.4.3 - Behemoth DLC, World Bosses, Ship Mgt, AMD crash fix"
+				"timeupdated"		"1718287417"
+				"timebuildupdated"		"1708514766"
+			}
+			"2.5.2"
+			{
+				"buildid"		"14719268"
+				"description"		"2.5.2 - Secondary Block Colors and Photo Mode"
+				"timeupdated"		"1733752556"
+				"timebuildupdated"		"1718371296"
+			}
+			"beta"
+			{
+				"buildid"		"22295362"
+				"description"		"Beta Branch - Newest Changes & Experimental Features"
+				"timeupdated"		"1773233288"
+				"timebuildupdated"		"1773232744"
+			}
+			"previous"
+			{
+				"buildid"		"21146556"
+				"description"		"Previous Build 2.5.11 - Will be disabled soon"
+				"timeupdated"		"1773648304"
+				"timebuildupdated"		"1765454604"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+	}
+}
