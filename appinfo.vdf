@@ -1,0 +1,131 @@
+"appinfo"
+{
+	"appid"		"764940"
+	"common"
+	{
+		"name"		"Fear the Night Server"
+		"type"		"Tool"
+		"parent"		"764920"
+		"releasestate"		"released"
+		"clienticon"		"388c0db1f430aa5f6a644d34a50fe6f0f3f43d46"
+		"clienttga"		"4379e4f8ca2f8a2242d5261054349f7455069106"
+		"icon"		"dc2a91711ec39320dc810d0672304b22b4203778"
+		"logo"		"4a2e9d7ed6aa0c6ab1115006f318cee4c6382bc2"
+		"logo_small"		"4a2e9d7ed6aa0c6ab1115006f318cee4c6382bc2_thumb"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"764940"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"FearTheNight Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Moonlight\\Binaries\\Win64\\MoonlightServer.exe"
+				"arguments"		"Pittsburgh_Overworld -game -server -log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"764941"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7913085070455886489"
+					"size"		"1951218992"
+					"download"		"606745568"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4038693"
+				"timeupdated"		"1563937825"
+				"timebuildupdated"		"1563930672"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
