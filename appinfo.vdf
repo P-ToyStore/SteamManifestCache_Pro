@@ -1,0 +1,82 @@
+"appinfo"
+{
+	"appid"		"1140480"
+	"common"
+	{
+		"name"		"Lost Wing Beta"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"associations"
+		{
+		}
+		"gameid"		"1140480"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"installdir"		"Lost Wing Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LostWing.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"LostWing.app\\Contents\\MacOS\\LostWing"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1140481"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9054105955914167333"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"1140482"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4227173"
+				"timeupdated"		"1580902523"
+				"timebuildupdated"		"1569399723"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
