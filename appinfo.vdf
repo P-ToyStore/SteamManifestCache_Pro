@@ -1,0 +1,76 @@
+"appinfo"
+{
+	"appid"		"1911460"
+	"common"
+	{
+		"name"		"Infinite Progression Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1794710"
+		"logo"		"54d77d32515b6cfc762e14b1e3eb44f081799de0"
+		"logo_small"		"54d77d32515b6cfc762e14b1e3eb44f081799de0_thumb"
+		"icon"		"33e294dd1c2f7464812c3ba9fb7fd781ed691e9c"
+		"clienticon"		"ff3a16a55a63aaf9502341a14a64c0ab8d31b00b"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1911460"
+	}
+	"config"
+	{
+		"installdir"		"Infinite Progression"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Server/PC/IP-Server.exe"
+				"workingdir"		"Server/PC/"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Server/Linux/IP-Server.x86_64"
+				"workingdir"		"Server/Linux/"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1911461"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4258719891330006335"
+					"size"		"220265045"
+					"download"		"43141424"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8314620"
+				"timeupdated"		"1646402341"
+				"timebuildupdated"		"1646400839"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
