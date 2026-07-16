@@ -1,0 +1,121 @@
+"appinfo"
+{
+	"appid"		"1129070"
+	"common"
+	{
+		"name"		"Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1079650"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"012d81cce203cef18065f5aac977d6d2a950732e"
+		"logo_small"		"012d81cce203cef18065f5aac977d6d2a950732e_thumb"
+		"icon"		"269ffde284af53e9c28063bfb149a925deed3c73"
+		"clienttga"		"74d038747789151c86741e2527541cef97dd8944"
+		"clienticon"		"816adbdba0393567e1c22118da0e76e4cd269033"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1129070"
+	}
+	"config"
+	{
+		"installdir"		"spark"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\sparkLauncher_Server.exe"
+				"arguments"		"+map 512map"
+				"type"		"none"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1129071"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5418351296562121146"
+					"size"		"634909717"
+					"download"		"311056112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4055642"
+				"timeupdated"		"1564434042"
+				"timebuildupdated"		"1564434023"
+			}
+		}
+	}
+}
