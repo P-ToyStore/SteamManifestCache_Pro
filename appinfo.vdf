@@ -1,0 +1,184 @@
+"appinfo"
+{
+	"appid"		"1292030"
+	"common"
+	{
+		"name"		"Retail Royale Server"
+		"type"		"Tool"
+		"parent"		"1179010"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"a802077c91631994646880cdf9af0bb9adac8d95"
+		"logo_small"		"a802077c91631994646880cdf9af0bb9adac8d95_thumb"
+		"icon"		"c765268c321760d5c1e31d2acb0c6ce19359af25"
+		"clienttga"		"a75981d89f403cd56a624863e948e481bf1558d3"
+		"clienticon"		"1145b3db66f4597c3fb961c2f96aee1a6a820651"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1292030"
+	}
+	"extended"
+	{
+		"gamedir"		"Retail Royale Server"
+		"serverbrowsername"		"Retail Royale Server"
+	}
+	"config"
+	{
+		"installdir"		"Retail Royale Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"IkeaBR_ServerServer.exe"
+				"arguments"		"-log"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1292031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5738458929936146395"
+					"size"		"416154249"
+					"download"		"156966544"
+				}
+				"test"
+				{
+					"gid"		"5738458929936146395"
+					"size"		"416154249"
+					"download"		"156966544"
+				}
+			}
+		}
+		"1292032"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8801839771097025"
+					"size"		"976321301"
+					"download"		"167766688"
+				}
+				"test"
+				{
+					"gid"		"7802007723995944508"
+					"size"		"2671274388"
+					"download"		"473221152"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12081723"
+				"timeupdated"		"1693508276"
+				"timebuildupdated"		"1693508276"
+			}
+			"test"
+			{
+				"buildid"		"8716083"
+				"description"		"testing"
+				"timeupdated"		"1652242292"
+				"timebuildupdated"		"1652242292"
+			}
+		}
+	}
+}
