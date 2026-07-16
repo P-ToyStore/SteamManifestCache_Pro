@@ -1,0 +1,138 @@
+"appinfo"
+{
+	"appid"		"371440"
+	"common"
+	{
+		"name"		"Journey Of The Light - Remake"
+		"type"		"Game"
+		"oslist"		"windows"
+		"logo"		"80456f463d9253a4b7637577de53d6d69779333d"
+		"logo_small"		"80456f463d9253a4b7637577de53d6d69779333d_thumb"
+		"icon"		"ffd06e14564e6bd27cec2be40f5fa97e72678984"
+		"clienticon"		"fb365c4b7ac557c89f53c14b58051c47d8d9a361"
+		"clienttga"		"f0690c4f05136fc43915471bc09ccc9a436aaa8e"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_05e2f60273dd12eb2007757209d4a7756476ac72.jpg"
+		"store_asset_mtime"		"1473904951"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"371440"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"1664"
+			"2"		"4182"
+		}
+		"review_score"		"2"
+		"review_percentage"		"19"
+	}
+	"extended"
+	{
+		"listofdlc"		"379620"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Journey Of The Light"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"JOTLRemake.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"371441"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3644280725208972798"
+					"size"		"708971057"
+					"download"		"344130560"
+				}
+				"test"
+				{
+					"gid"		"7467243045870917234"
+					"size"		"719848873"
+					"download"		"169686560"
+				}
+			}
+		}
+		"379620"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3578078279950091199"
+					"size"		"12517755"
+					"download"		"11502336"
+				}
+				"test"
+				{
+					"gid"		"4534816063137341508"
+					"size"		"12517755"
+					"download"		"11502336"
+				}
+			}
+			"dlcappid"		"379620"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1357063"
+				"timeupdated"		"1474879530"
+				"timebuildupdated"		"1474879530"
+			}
+			"test"
+			{
+				"buildid"		"655938"
+				"timebuildupdated"		"1434022033"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"3000000"
+		"maxnumfiles"		"100"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"SavesDir"
+				"pattern"		"*.sav"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
