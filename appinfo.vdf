@@ -1,0 +1,166 @@
+"appinfo"
+{
+	"appid"		"713970"
+	"common"
+	{
+		"name"		"The Simple Apocalypse Server"
+		"type"		"Tool"
+		"parent"		"693430"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"clienttga"		"292753657637d0f1930fe5ff4ad88a95f8528f99"
+		"clienticon"		"857cc730efab3513ecfffabea0b26571a524fb58"
+		"icon"		"bd788ae0d1c714d1a8e703e9809d7b803279d3da"
+		"logo"		"4feec6d32bdaf70965ad383a40d91644ad1cb832"
+		"logo_small"		"4feec6d32bdaf70965ad383a40d91644ad1cb832_thumb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"713970"
+	}
+	"config"
+	{
+		"installdir"		"TSAServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TSAServer.sh"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"TSAServer.exe"
+				"arguments"		"-log -server"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"713971"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"26267279321197180"
+					"size"		"843547857"
+					"download"		"183477264"
+				}
+			}
+		}
+		"713972"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8309086212565810312"
+					"size"		"180792372"
+					"download"		"69183568"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2160123"
+				"timeupdated"		"1506709648"
+				"timebuildupdated"		"1506709558"
+			}
+		}
+	}
+}
