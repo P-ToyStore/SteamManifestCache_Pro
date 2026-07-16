@@ -1,0 +1,324 @@
+"appinfo"
+{
+	"appid"		"58510"
+	"common"
+	{
+		"name"		"Cities XL 2011"
+		"clienticon"		"caf525d0027d8efa70dee5d74874dc2aec31e592"
+		"clienttga"		"8124988716477609adfec7694db9824d70272548"
+		"icon"		"e541ba663342bdc1ef6291cd9e84b362d1d9738d"
+		"logo"		"970b9e14bb2ffc8c7e467251854e894c4fbbb85d"
+		"logo_small"		"970b9e14bb2ffc8c7e467251854e894c4fbbb85d_thumb"
+		"type"		"game"
+		"metacritic_name"		"Cities XL 2011"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_c4f0ccb66c7503ed8ec16b894f83a7c5fabb7202.jpg"
+		"store_asset_mtime"		"1360208347"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Monte Cristo"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Focus Home Interactive"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1287075600"
+		"metacritic_score"		"70"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/cities-xl-2011?ftag=MCD-06-10aaa1f"
+		"community_hub_visible"		"1"
+		"gameid"		"58510"
+		"store_tags"
+		{
+			"0"		"4328"
+			"1"		"599"
+			"2"		"3810"
+			"3"		"12472"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Monte Cristo"
+		"gamedir"		"Cities XL 2011"
+		"gamemanualurl"		"http://store.steampowered.com/manual/58510/"
+		"homepage"		"http://www.citiesxl.com"
+		"icon"		""
+		"installscript"		"58510_install.vdf"
+		"legacykeyregistrationmethod"		"registry"
+		"legacykeyregistrylocation"		"HKEY_CURRENT_USER\\Software\\Valve\\TestApp58510\\SteamKey"
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"58511"
+		"serverbrowsername"		""
+		"showcdkeyonlaunch"		"1"
+		"state"		"eStateAvailable"
+		"supportscdkeycopytoclipboard"		"1"
+		"publisher"		"Focus Home Interactive"
+	}
+	"config"
+	{
+		"installscriptsignature"		"0eea6cda94eb923a3ec2d8914cedf36f829530f604863ff475d9e694b0e0c2d7e96d3a436b6990c04c8288e4ee0f6a0a644b9a69dd16b7e0d72e6a39af9154ae038121b08f0d16ef8c7b3048b8e6e9429ca2005a7578b0005d2e42cfb5407278db38f2ad0a6163fafc06a71a7151f3513635f3329052d5c8d39274f1f6fc89d6"
+		"installscriptoverride"		"1"
+		"contenttype"		"3"
+		"installdir"		"Cities XL 2011"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CitiesXL_2011.exe"
+			}
+		}
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\focus home interactive\cities xl 2011"
+			{
+				"string"
+				{
+					"hd_path"		"%INSTALLDIR%"
+					"english"
+					{
+						"language"		"1033"
+						"selected_language"		"1033"
+					}
+					"french"
+					{
+						"language"		"1036"
+						"selected_language"		"1036"
+					}
+					"german"
+					{
+						"language"		"1031"
+						"selected_language"		"1031"
+					}
+					"italian"
+					{
+						"language"		"1040"
+						"selected_language"		"1040"
+					}
+					"spanish"
+					{
+						"language"		"1034"
+						"selected_language"		"1034"
+					}
+				}
+			}
+			"hkey_local_machine\software\focus home interactive\cities xl 2011_path"
+			{
+				"string"
+				{
+					"autorun_path"		"%INSTALLDIR%"
+					"path"		"%INSTALLDIR%"
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\58510"
+				"process 1"		"%INSTALLDIR%\\DirectX9\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\58510"
+				"process 1"		"%INSTALLDIR%\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"dotnet"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\SOFTWARE\\Valve\\Steam\\Apps\\58510"
+				"process 1"		"%INSTALLDIR%\\vcredist_x86.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+				"requirement_os"
+				{
+					"is64bitwindows"		"0"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"58511"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5460373636708641683"
+					"size"		"5256301026"
+					"download"		"0"
+				}
+			}
+		}
+		"58512"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6914612153241258"
+					"size"		"1958446"
+					"download"		"0"
+				}
+			}
+		}
+		"58513"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6093888655364524570"
+					"size"		"1956221"
+					"download"		"0"
+				}
+			}
+		}
+		"58514"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8018793370663835909"
+					"size"		"1952060"
+					"download"		"0"
+				}
+			}
+		}
+		"58515"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"731043003126569248"
+					"size"		"1956332"
+					"download"		"0"
+				}
+			}
+		}
+		"231141"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2931017148117250403"
+					"size"		"6449020318"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"231140"
+		}
+		"overridescddb"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23841"
+				"timebuildupdated"		"1352190132"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Focus Home Interactive/Cities XL 2011/live/offline/solo"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Focus Home Interactive/Cities XL 2012/live/offline/solo"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+				"recursive"		"1"
+			}
+		}
+	}
+}
