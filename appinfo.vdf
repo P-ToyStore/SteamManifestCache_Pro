@@ -1,0 +1,160 @@
+"appinfo"
+{
+	"appid"		"685100"
+	"common"
+	{
+		"name"		"Crafting Dead Dedicated Server"
+		"type"		"Tool"
+		"parent"		"657990"
+		"releasestate"		"released"
+		"logo"		"33483847bad042d0abf0f59536218497db493f9e"
+		"logo_small"		"33483847bad042d0abf0f59536218497db493f9e_thumb"
+		"icon"		"a45a08769712bdbacde08cdd179aa5a1720fb3f8"
+		"clienttga"		"66fd48bfb497ac02be605f17e249f391eced130c"
+		"clienticon"		"954f5654a19035eac523ac09d2481e7ef73cad5c"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"eulas"
+		{
+		}
+		"osextended"		""
+		"linuxclienticon"		"954f5654a19035eac523ac09d2481e7ef73cad5c"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"685100"
+	}
+	"config"
+	{
+		"installdir"		"craftingdeadserver"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Crafting Dead.exe"
+				"arguments"		"-batchmode -nographics"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Run dedicated server."
+				}
+				"description"		"Run dedicated server."
+			}
+			"1"
+			{
+				"executable"		"game_server.x86_64"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Run dedicated server."
+				}
+				"description"		"Run dedicated server."
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"685101"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4003512922662781152"
+					"size"		"410973784"
+					"download"		"112667104"
+				}
+			}
+		}
+		"685102"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6705034944380656542"
+					"size"		"456134277"
+					"download"		"115979472"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9943200"
+				"timeupdated"		"1668532576"
+				"timebuildupdated"		"1668532521"
+			}
+		}
+	}
+}
