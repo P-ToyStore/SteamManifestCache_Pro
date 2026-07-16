@@ -1,0 +1,94 @@
+"appinfo"
+{
+	"appid"		"2286480"
+	"common"
+	{
+		"name"		"Endless Survival Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2286460"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"e53a3ba6762f06ce63e781bc73704886494fc13b"
+		"clienticon"		"d80cbea71b19c7f53f951be3db68c079b354cbe9"
+		"clienttga"		"b47f77ddd44b4756771510902457a5cb61626888"
+		"freetodownload"		"1"
+		"app_retired_publisher_request"		"1"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1685657400"
+		"gameid"		"2286480"
+	}
+	"config"
+	{
+		"installdir"		"Endless Survival Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Endless Survival Server.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Endless Survival Server.x86_64"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"2286481"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2334171515746054628"
+					"size"		"242555333"
+					"download"		"64847808"
+				}
+			}
+		}
+		"2286482"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8194706148837829121"
+					"size"		"246470296"
+					"download"		"68613472"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10422943"
+				"timeupdated"		"1674871840"
+				"timebuildupdated"		"1674871814"
+			}
+		}
+	}
+}
