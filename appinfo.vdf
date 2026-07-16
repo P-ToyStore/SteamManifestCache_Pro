@@ -1,0 +1,139 @@
+"appinfo"
+{
+	"appid"		"1880380"
+	"common"
+	{
+		"name"		"Total War: WARHAMMER III - Assembly Kit BETA"
+		"type"		"Tool"
+		"clienticon"		"4073fc72f7d6714d1487e74277e0cdda33a2e4a1"
+		"clienttga"		"f6db08231a6dbf535f90b63bb4e7ab23f7bbc44e"
+		"icon"		"d047a562d5011d2712fbcba2bca617080eeac99a"
+		"parent"		"1142710"
+		"releasestate"		"released"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1662458340"
+		"community_hub_visible"		"1"
+		"gameid"		"1880380"
+	}
+	"config"
+	{
+		"installdir"		"Total War WARHAMMER III"
+		"sharesdirwithapp"		"1142710"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"assembly_kit\\binaries\\bob.modder.x64.exe"
+				"arguments"		"-no_console"
+				"workingdir"		"assembly_kit\\binaries"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Exporter: BOB"
+				}
+				"description"		"Exporter: BOB"
+			}
+			"1"
+			{
+				"executable"		"assembly_kit\\dave\\DaVE.retail.x64.exe"
+				"workingdir"		"assembly_kit\\dave"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Database Editor: Dave"
+				}
+				"description"		"Database Editor: Dave"
+			}
+			"2"
+			{
+				"executable"		"assembly_kit\\binaries\\tweak.modder.x64.exe"
+				"arguments"		"/standalone TerrainMetadataEditor"
+				"workingdir"		"assembly_kit\\binaries"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Battle Map Editor: Terry"
+				}
+				"description"		"Battle Map Editor: Terry"
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1880381"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2018721219263324975"
+					"size"		"3994945581"
+					"download"		"478160432"
+				}
+				"hotfix_6.3.1_beta"
+				{
+					"gid"		"2676904669111379372"
+					"size"		"4033707505"
+					"download"		"465536176"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24175539"
+				"timeupdated"		"1784195763"
+				"timebuildupdated"		"1783901419"
+			}
+			"hotfix_6.3.1_beta"
+			{
+				"buildid"		"20039833"
+				"description"		"Hotfix 6.3.1 Beta"
+				"timeupdated"		"1758290601"
+				"timebuildupdated"		"1758240618"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
