@@ -1,0 +1,120 @@
+"appinfo"
+{
+	"appid"		"848490"
+	"common"
+	{
+		"name"		"Murderous Pursuits Beta Dedicated Server"
+		"type"		"Tool"
+		"parent"		"846260"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"1a29ba0dc02649aa70f57af7418e196dbf855021"
+		"clienticon"		"84860d87ca7fa56f39ad9d2c5b06490a12c02907"
+		"icon"		"309942832798b1e23651cfe004113a011b705c4b"
+		"logo"		"8a7d96ea498555d20444640e7825712a792c78d5"
+		"logo_small"		"8a7d96ea498555d20444640e7825712a792c78d5_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"848490"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Murderous Pursuits Beta Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MPDedicated.exe"
+				"arguments"		"-batchmode -nographics +serverid MPDS_1 -logFile MPDS_1/mpds_output.txt"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"848491"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6662190488270248845"
+					"size"		"308077816"
+					"download"		"213298128"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2700015"
+				"timeupdated"		"1524063037"
+				"timebuildupdated"		"1524063013"
+			}
+		}
+	}
+}
