@@ -1,0 +1,141 @@
+"appinfo"
+{
+	"appid"		"704980"
+	"common"
+	{
+		"name"		"Master Arena Server"
+		"type"		"Tool"
+		"parent"		"704020"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"d31489df79d28dbc8c1bd9489f6b4125eb38d80f"
+		"clienticon"		"3ca9de5ba92e1ee147ea98afc90dc5b87049b86e"
+		"icon"		"7753e72cad43bb390e078b11cf068a9f3aeec2a3"
+		"logo"		"c338e0f4a31a0bf8cbb70bccd1d01d89a6cb8018"
+		"logo_small"		"c338e0f4a31a0bf8cbb70bccd1d01d89a6cb8018_thumb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"704980"
+	}
+	"extended"
+	{
+		"gamedir"		"MasterArena"
+	}
+	"config"
+	{
+		"installdir"		"Master Arena Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LaunchDedicatedServer01_on_LAN.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"LaunchDedicatedServer02_on_WAN.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"LaunchDedicatedServer03_on_WAN.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"704981"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4856426069255814197"
+					"size"		"1071287362"
+					"download"		"621449392"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20647173"
+				"timeupdated"		"1762166100"
+				"timebuildupdated"		"1762164275"
+			}
+		}
+	}
+}
