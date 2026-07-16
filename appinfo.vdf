@@ -1,0 +1,142 @@
+"appinfo"
+{
+	"appid"		"1075180"
+	"common"
+	{
+		"name"		"Beyond Enemy Lines 2 Dedicated Server"
+		"type"		"Tool"
+		"parent"		"697250"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"icon"		"c38913e52b410c5e5fe9f1358022050b7c6d660d"
+		"logo"		"350a26ac88d656b9bb99d159b2facf7fcb299eb3"
+		"logo_small"		"350a26ac88d656b9bb99d159b2facf7fcb299eb3_thumb"
+		"clienticon"		"bbc619ad5a4389f425365ae09fc64ac9fbccbc23"
+		"clienttga"		"66256006b6e5598b1265841fd23a54428703516b"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1075180"
+	}
+	"config"
+	{
+		"installdir"		"Beyond Enemy Lines 2 Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DedicatedServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1075181"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4244586704636877752"
+					"size"		"2227720548"
+					"download"		"655401680"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4086117"
+				"timeupdated"		"1565255953"
+				"timebuildupdated"		"1565255716"
+			}
+		}
+	}
+}
