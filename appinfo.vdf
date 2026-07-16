@@ -1,0 +1,127 @@
+"appinfo"
+{
+	"appid"		"950290"
+	"common"
+	{
+		"name"		"Dedicated Server"
+		"type"		"Tool"
+		"parent"		"840820"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"08d76634695da0d502fa258bd68198f815ac6935"
+		"clienticon"		"406f21dde33a66c700290f39c87f634d81825733"
+		"icon"		"487151ec3dea79491289d60940d056ccbbff71d7"
+		"logo"		"9c4fc90969ee6d2f06d18916787d87f961691094"
+		"logo_small"		"9c4fc90969ee6d2f06d18916787d87f961691094_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"950290"
+	}
+	"config"
+	{
+		"installdir"		"Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ReadyOrNotServer.exe"
+				"type"		"server"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"950291"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6812729414507585272"
+					"size"		"1433875837"
+					"download"		"447886048"
+				}
+				"experimental"
+				{
+					"gid"		"2256082679757463660"
+					"size"		"1595559078"
+					"download"		"727549936"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4133022"
+				"timeupdated"		"1566568950"
+				"timebuildupdated"		"1566565059"
+			}
+			"experimental"
+			{
+				"buildid"		"4514033"
+				"timeupdated"		"1576818576"
+				"timebuildupdated"		"1576818576"
+			}
+		}
+	}
+}
