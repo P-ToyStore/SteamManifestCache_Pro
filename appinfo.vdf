@@ -1,0 +1,153 @@
+"appinfo"
+{
+	"appid"		"947870"
+	"common"
+	{
+		"name"		"Starcross Arena Dedicated Server"
+		"type"		"Tool"
+		"parent"		"945870"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"d9ed4a0590292cc9ab59444631ce83e38fdeef9b"
+		"logo_small"		"d9ed4a0590292cc9ab59444631ce83e38fdeef9b_thumb"
+		"icon"		"0cef9ae62093769a7c19ac039ca5d96612233ef1"
+		"clienticon"		"f3b55c04da63eeb46a86328743aa7f62ece957bf"
+		"clienttga"		"f555b2784947d6bb6fe04c472f08fb3ce0c84c7b"
+		"releasestate"		"released"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"947870"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Starcross Arena Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StarcrossArenaServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"StarcrossArenaServer.sh"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"947871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9087633825285029226"
+					"size"		"234602821"
+					"download"		"120262832"
+				}
+			}
+		}
+		"947872"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6416837982817730536"
+					"size"		"332097275"
+					"download"		"93389760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4559579"
+				"timeupdated"		"1578687569"
+				"timebuildupdated"		"1578687298"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
