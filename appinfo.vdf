@@ -1,0 +1,125 @@
+"appinfo"
+{
+	"appid"		"1301040"
+	"common"
+	{
+		"name"		"Mod and Play Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1127460"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"bc49344946a1a0270036bf5152c50a30edd512b7"
+		"logo_small"		"bc49344946a1a0270036bf5152c50a30edd512b7_thumb"
+		"icon"		"71bd94eecfcb702eaa48c63cf2ef670f462f2973"
+		"clienttga"		"cb6c4b47a47a5f4a9d3eb8746be68ca71d015407"
+		"clienticon"		"c376d2aa6d98454db6afc24d690f4c3f361d797e"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1301040"
+	}
+	"config"
+	{
+		"installdir"		"ModandPlayServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ModandPlayServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1301041"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2076492823421381200"
+					"size"		"162731110"
+					"download"		"54631392"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5252804"
+				"timeupdated"		"1593941290"
+				"timebuildupdated"		"1593941146"
+			}
+		}
+	}
+}
