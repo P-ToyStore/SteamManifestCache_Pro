@@ -1,0 +1,145 @@
+"appinfo"
+{
+	"appid"		"1750680"
+	"common"
+	{
+		"name"		"Beryllium Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1344330"
+		"clienttga"		"93020d431728c5f8f3b1b1749ec0980e2ee71175"
+		"clienticon"		"98c3049acf74cc547a1974a5473bd23f0894533a"
+		"icon"		"40f8a1f5b95c46c2a1e9d0e6d814728dd5f781f9"
+		"logo"		"20150914d6472d5dd2f642abce374b1ebf7dd8f9"
+		"logo_small"		"20150914d6472d5dd2f642abce374b1ebf7dd8f9_thumb"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1750680"
+	}
+	"config"
+	{
+		"installdir"		"Beryllium Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BerylliumServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"BerylliumServer.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1750682"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3732219710328476248"
+					"size"		"2662760508"
+					"download"		"475056288"
+				}
+			}
+		}
+		"1750681"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3036695827954520071"
+					"size"		"379236581"
+					"download"		"177647584"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10839278"
+				"timeupdated"		"1679582136"
+				"timebuildupdated"		"1679582136"
+			}
+		}
+	}
+}
