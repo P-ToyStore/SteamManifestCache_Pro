@@ -1,0 +1,145 @@
+"appinfo"
+{
+	"appid"		"1064780"
+	"common"
+	{
+		"name"		"Beyond The Wire - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1058650"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"icon"		"7f773198c11fc802240cc51e345d3bdabcd58dc0"
+		"clienticon"		"477178b95b5861fcbd2dad6485a0d375a8fd612d"
+		"clienttga"		"d4bc0b029b58f2c5bf072051434442dfd31486d4"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1064780"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Beyond the Wire - Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WireGameServer.exe"
+				"arguments"		"start WireGameServer.exe Port=7887 QueryPort=27165 FIXEDMAXPLAYERS=100 FIXEDMAXTICKRATE=35 RANDOM=NONE -log"
+				"description"		"Beyond The Wire Dedicated Server Executable"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1064781"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5460835141079070659"
+					"size"		"18508207410"
+					"download"		"8187017088"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11224335"
+				"timeupdated"		"1688668223"
+				"timebuildupdated"		"1683965374"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
