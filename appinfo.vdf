@@ -1,0 +1,148 @@
+"appinfo"
+{
+	"appid"		"1534710"
+	"common"
+	{
+		"name"		"SCP: Breakout Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1534050"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"icon"		"0a9c5374712471f0521b7d7221562c98923b4b78"
+		"clienttga"		"90c6091e3960ff3e3cc93a147a76087223aefff0"
+		"clienticon"		"a66152cdc9b3ae7a97f0f26cae2ce9b0dc86bf12"
+		"logo"		"602d5477e13d2f6e44a3be8b23c5fc1709fb3887"
+		"logo_small"		"602d5477e13d2f6e44a3be8b23c5fc1709fb3887_thumb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1534710"
+	}
+	"extended"
+	{
+		"gamedir"		"scpbreakout"
+		"serverbrowsername"		"SCP: Breakout"
+	}
+	"config"
+	{
+		"installdir"		"SCP Breakout Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SCPBreakout.exe"
+				"type"		"server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1534711"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2741301747982951955"
+					"size"		"2867651246"
+					"download"		"576366352"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10758645"
+				"timeupdated"		"1678733970"
+				"timebuildupdated"		"1678733959"
+			}
+		}
+	}
+}
