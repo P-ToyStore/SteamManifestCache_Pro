@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"855490"
+	"common"
+	{
+		"name"		"Fury Race"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"4ce11ded3e301b487afb9b760662b0590977eb42"
+		"clienticon"		"24168faf2ba76bf929c039d2691d511b1d91bf76"
+		"icon"		"d7e71ce5236d239fc3d16dd8175920da90543c41"
+		"clienticns"		"24168faf2ba76bf929c039d2691d511b1d91bf76"
+		"logo"		"1d14becf5b8b138dc9ac0b756c43a7dceb151764"
+		"logo_small"		"1d14becf5b8b138dc9ac0b756c43a7dceb151764_thumb"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+		}
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Fury Race"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ffca76d716810deaf816be26e24e4156b9f9c035.jpg"
+		"store_asset_mtime"		"1526466423"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Art Of Adventures"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Art Of Adventures"
+			}
+		}
+		"primary_genre"		"9"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"9"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1526454907"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"855490"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"699"
+			"2"		"1100687"
+			"3"		"492"
+			"4"		"1644"
+			"5"		"1662"
+			"6"		"4182"
+			"7"		"5363"
+		}
+		"review_score"		"5"
+		"review_percentage"		"50"
+	}
+	"extended"
+	{
+		"developer"		"Art Of Adventures"
+		"publisher"		"Art Of Adventures"
+		"homepage"		"https://art-of-adventures.com"
+	}
+	"config"
+	{
+		"installdir"		"Fury Race"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Fury Race.app/Contents/MacOS/Fury Race"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"Fury Race.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"855491"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1823843101903426520"
+					"size"		"298258855"
+					"download"		"104745296"
+				}
+			}
+		}
+		"855492"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5842439630621741453"
+					"size"		"319593689"
+					"download"		"109767392"
+				}
+			}
+		}
+		"baselanguages"		"english,german,schinese,russian,portuguese"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2777535"
+				"timeupdated"		"1526438511"
+				"timebuildupdated"		"1526438487"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"10"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Speedspark Studio/Fury Race"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Speedspark Studio/Fury Race"
+						"replace"		"com.speedsparkstudio.FuryRacemac"
+					}
+				}
+			}
+		}
+	}
+}
