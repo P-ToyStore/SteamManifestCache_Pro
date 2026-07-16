@@ -1,0 +1,110 @@
+"appinfo"
+{
+	"appid"		"2293960"
+	"common"
+	{
+		"name"		"Dedicated Server"
+		"type"		"Tool"
+		"parent"		"814730"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"c0f6afe96111bcb73d9c66277a6ba45f8886d987"
+		"clienttga"		"48c33127e87b283e9425baf9aab2d128271159ed"
+		"clienticon"		"63fef66fbbe2e86f8913c7411b4b367d382a3001"
+		"freetodownload"		"1"
+		"gameid"		"2293960"
+	}
+	"config"
+	{
+		"installdir"		"RogueFrontiersDedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RogueFrontiersServer.exe"
+				"arguments"		"-server -log"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2293961"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"25909556486666445"
+					"size"		"901412134"
+					"download"		"282719232"
+				}
+			}
+		}
+		"2293962"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12865309"
+				"timeupdated"		"1701657607"
+				"timebuildupdated"		"1701657532"
+			}
+		}
+	}
+}
