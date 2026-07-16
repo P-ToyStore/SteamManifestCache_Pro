@@ -1,0 +1,89 @@
+"appinfo"
+{
+	"appid"		"591690"
+	"common"
+	{
+		"name"		"The Dome Dedicated Servers"
+		"type"		"Tool"
+		"parent"		"556840"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"icon"		"1f09a4f661b2101961c7be2902551ef005f86b45"
+		"logo"		"f822f769260e87037df1ef43de7eaf727695a354"
+		"logo_small"		"f822f769260e87037df1ef43de7eaf727695a354_thumb"
+		"clienticon"		"a234c0a91b519f1aad0f0f2bdf7083c3cb659067"
+		"clienttga"		"892170172f3cd27a88ef4ddbca36f31851d84835"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"591690"
+	}
+	"config"
+	{
+		"installdir"		"The Dome Dedicated Servers"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"\\FightBack\\StartServer.bat"
+				"arguments"		"-log"
+				"workingdir"		"\\FightBack"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"591692"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4611374554012389357"
+					"size"		"8050797486"
+					"download"		"2960315872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1718783"
+				"timeupdated"		"1490666100"
+				"timebuildupdated"		"1490666033"
+			}
+		}
+	}
+}
