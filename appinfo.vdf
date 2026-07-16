@@ -1,0 +1,146 @@
+"appinfo"
+{
+	"appid"		"2069670"
+	"common"
+	{
+		"name"		"defect dedicated server"
+		"type"		"Tool"
+		"parent"		"1601160"
+		"icon"		"d7909de2a535f2643d4b525280b15b6352fb31f6"
+		"clienttga"		"04b2d9c8d756e44d50f42d5951063466d1b598d1"
+		"linuxclienticon"		"2f1d8741052d35833ad813ea1bab59095069ac93"
+		"clienticns"		"2f1d8741052d35833ad813ea1bab59095069ac93"
+		"clienticon"		"55fb737c45e13f85f6d65d14e06806494fb853af"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"gameid"		"2069670"
+	}
+	"config"
+	{
+		"installdir"		"defect dedicated server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"defect-dedicated-server.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"defect-dedicated-server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2069671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1432266577870869666"
+					"size"		"316843"
+					"download"		"124496"
+				}
+			}
+		}
+		"2069672"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5078600343363911175"
+					"size"		"2137073"
+					"download"		"591584"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9537723"
+				"timeupdated"		"1663434750"
+				"timebuildupdated"		"1663434750"
+			}
+		}
+	}
+}
