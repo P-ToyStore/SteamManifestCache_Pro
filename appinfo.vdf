@@ -1,0 +1,168 @@
+"appinfo"
+{
+	"appid"		"805140"
+	"common"
+	{
+		"name"		"BATTALION: Legacy Dedicated Server"
+		"type"		"Tool"
+		"parent"		"489940"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"d379d1b3b787addde8d8210f6bd6b0d6bc857d6e"
+		"logo_small"		"d379d1b3b787addde8d8210f6bd6b0d6bc857d6e_thumb"
+		"icon"		"56876299e611314a6e0857e3996ba1c204b24249"
+		"clienttga"		"8e561145cf04b1172e29b911de7b8f4d947e2158"
+		"clienticon"		"ed2aac939359fd5e90f4b41ca3b5a5a2c4ebfb57"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"805140"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"BattalionServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BattalionServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BattalionServer.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"805141"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3642247825242095218"
+					"size"		"2262633089"
+					"download"		"2171281728"
+				}
+				"fps_challenge"
+				{
+					"gid"		"175389806278947342"
+					"size"		"3573135825"
+					"download"		"1145991312"
+				}
+			}
+		}
+		"805142"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2572786405984801157"
+					"size"		"1890719195"
+					"download"		"1623605088"
+				}
+				"fps_challenge"
+				{
+					"gid"		"2572786405984801157"
+					"size"		"1890719195"
+					"download"		"1623605088"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9333212"
+				"timeupdated"		"1660755680"
+				"timebuildupdated"		"1660752839"
+			}
+			"fps_challenge"
+			{
+				"buildid"		"21964884"
+				"description"		"fps_challenge"
+				"timeupdated"		"1771336588"
+				"timebuildupdated"		"1771319629"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
