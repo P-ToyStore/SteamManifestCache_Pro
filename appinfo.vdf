@@ -1,0 +1,97 @@
+"appinfo"
+{
+	"appid"		"823850"
+	"common"
+	{
+		"name"		"DARCO - Reign of Elements - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"789960"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"6d7bd1850c943067a9e4b9de6740c0c751235aa6"
+		"logo_small"		"6d7bd1850c943067a9e4b9de6740c0c751235aa6_thumb"
+		"icon"		"78b150c24f9073d8f2c8a40d833ac3ed52c3e809"
+		"clienticon"		"63b91a92a6db6de66a648c07a76fd3e1f1800d4c"
+		"clienttga"		"77b34cba3cf07661a8cca708f2602265ad2c59db"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"823850"
+	}
+	"config"
+	{
+		"installdir"		"Darco - Reign of Elements - Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DarcoServer.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"DarcoServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"823851"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7352364004185608121"
+					"size"		"1587091221"
+					"download"		"388614096"
+				}
+			}
+		}
+		"823853"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4348326825561265023"
+					"size"		"877027821"
+					"download"		"273817696"
+				}
+			}
+		}
+		"823852"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3218705"
+				"timeupdated"		"1539720257"
+				"timebuildupdated"		"1539720075"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
