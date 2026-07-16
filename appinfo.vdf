@@ -1,0 +1,148 @@
+"appinfo"
+{
+	"appid"		"1427490"
+	"common"
+	{
+		"name"		"ExoCorps Dedicated Server"
+		"type"		"Tool"
+		"parent"		"368040"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"c42195215c7ca392d0ae3c8596517f05b37d8f50"
+		"logo_small"		"c42195215c7ca392d0ae3c8596517f05b37d8f50_thumb"
+		"icon"		"99f8e2fdf6da5625718f71815956e29d30a533f0"
+		"clienticon"		"3bbf47e30ccc5ab44e1723511846772aabad28d3"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1427490"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"ExoCorps Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/UDKGameServer-Win32-Shipping.exe"
+				"arguments"		"DM-Strata.udk -seekfreeloadingserver"
+				"workingdir"		"Binaries/Win32/"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1427491"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2789941799939276400"
+					"size"		"1130309869"
+					"download"		"752580816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9264922"
+				"timeupdated"		"1659756184"
+				"timebuildupdated"		"1659756099"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
