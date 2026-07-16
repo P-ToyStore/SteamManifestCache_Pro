@@ -1,0 +1,188 @@
+"appinfo"
+{
+	"appid"		"2181210"
+	"common"
+	{
+		"name"		"JBMod Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2158860"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"3aaa53b17006aacdafb51236fd9501b1a86d8de7"
+		"clienttga"		"d15b36c88028675275d7b4ac71d7b00a411717a4"
+		"icon"		"5767cc301311dae20283f9dd39cb3e503f78c313"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"2181210"
+	}
+	"config"
+	{
+		"installdir"		"JBMod Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game jbmod"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"srcds_run"
+				"arguments"		"-game jbmod"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"app_mappings"
+		{
+			"0"
+			{
+				"platform"		"linux"
+				"tool"		"SteamLinuxRuntime_sniper"
+				"branch"		"github"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2181211"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"472081192675930999"
+					"size"		"736006173"
+					"download"		"231211680"
+				}
+				"github"
+				{
+					"gid"		"8410116227292033531"
+					"size"		"839142832"
+					"download"		"346531616"
+				}
+			}
+		}
+		"2181212"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4426020149334356664"
+					"size"		"99785896"
+					"download"		"32004096"
+				}
+				"github"
+				{
+					"gid"		"5103524601653319323"
+					"size"		"260683853"
+					"download"		"104685968"
+				}
+			}
+		}
+		"2181213"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8922622124892569028"
+					"size"		"79608804"
+					"download"		"19892272"
+				}
+				"github"
+				{
+					"gid"		"1601984741469390237"
+					"size"		"168574278"
+					"download"		"54425344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10753002"
+				"timeupdated"		"1678676757"
+				"timebuildupdated"		"1678676698"
+			}
+			"github"
+			{
+				"buildid"		"22671339"
+				"description"		"Unstable development build"
+				"timeupdated"		"1775523241"
+				"timebuildupdated"		"1775523241"
+			}
+		}
+	}
+}
