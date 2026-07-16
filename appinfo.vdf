@@ -1,0 +1,264 @@
+"appinfo"
+{
+	"appid"		"3243720"
+	"common"
+	{
+		"name"		"Cast Dice Away"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"ffe82df791ab72cf24ed6e5cd36883e4d1ed8b3f"
+		"clienttga"		"b34e98708421854a37ec519c7146c5fe3f4cc8c4"
+		"linuxclienticon"		"16b4b1cb24010b2252a67c0cbc864598527e2f28"
+		"clienticon"		"f16951b4c92bede4a3889e13d11a9066b2f69740"
+		"clienticns"		"0aa818afa915cc74ee619da4d60f8d11e424b65d"
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"92c72a6a01a07033be7801c4c8659e8832c72eac/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"382107e8b579fc763c0b786f0a663be178f57d4d/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"382107e8b579fc763c0b786f0a663be178f57d4d/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"f979c513ddb0a76e2d7c55c83361f51ae37df24f/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"f979c513ddb0a76e2d7c55c83361f51ae37df24f/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"f979c513ddb0a76e2d7c55c83361f51ae37df24f/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image"
+				{
+					"english"		"d60631cf625ae7b2f6a6e354d224c8d4844903ec/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"d60631cf625ae7b2f6a6e354d224c8d4844903ec/logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"0060b1518de6dc6ec64cf3308dbd6f4c8c91ccc0/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"0060b1518de6dc6ec64cf3308dbd6f4c8c91ccc0/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1733126211"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Fun Gate Studio"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Fun Gate Studio"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1733813949"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3243720"
+		"store_tags"
+		{
+			"0"		"1770"
+			"1"		"3959"
+			"2"		"597"
+			"3"		"1662"
+			"4"		"30358"
+			"5"		"1684"
+			"6"		"4182"
+			"7"		"6276"
+			"8"		"6426"
+			"9"		"3871"
+			"10"		"492"
+			"11"		"493"
+			"12"		"1716"
+			"13"		"4791"
+			"14"		"17389"
+			"15"		"6730"
+		}
+	}
+	"extended"
+	{
+		"deckresolutionoverride"		"Default"
+		"developer"		"Fun Gate Studio"
+		"publisher"		"Fun Gate Studio"
+	}
+	"config"
+	{
+		"installdir"		"Cast Dice Away"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"start.sh"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"start game"
+				}
+				"description"		"start game"
+			}
+			"1"
+			{
+				"executable"		"cast_dice_away.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"start game"
+				}
+				"description"		"start game"
+			}
+		}
+		"app_mappings"
+		{
+			"0"
+			{
+				"platform"		"linux"
+				"tool"		"SteamLinuxRuntime_sniper"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"3243721"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7332573348767928823"
+					"size"		"288194519"
+					"download"		"112140608"
+				}
+			}
+		}
+		"3243722"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1307890855822963801"
+					"size"		"82240597"
+					"download"		"70403968"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17073032"
+				"timeupdated"		"1737546763"
+				"timebuildupdated"		"1737434486"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
