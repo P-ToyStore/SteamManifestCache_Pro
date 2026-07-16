@@ -1,0 +1,157 @@
+"appinfo"
+{
+	"appid"		"55210"
+	"common"
+	{
+		"name"		"HOMEFRONT - Japanese"
+		"logo"		"3ed92bed83fc529adf7b0293ce70a73b70ad34ff"
+		"logo_small"		"3ed92bed83fc529adf7b0293ce70a73b70ad34ff_thumb"
+		"clienticon"		"49a7e1869c516cc917dbb3041f133dd53bbf6622"
+		"clienttga"		"0e4c4001ad93dee2732f0655f8459b7fc24e41d7"
+		"icon"		"52d4f669d6aa00c92406457d430ed5aa6a035c54"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"dutch"		"1"
+			"czech"		"1"
+		}
+		"type"		"game"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"55210"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"HOMEFRONT[JPN]"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"primarycache"		"55211"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"vacmacmodulecache"		"160"
+		"vacmodulecache"		"202"
+		"vacmodulefilename"		"sourceinit.dat"
+		"listofdlc"		"55215,55216,55217,55218"
+	}
+	"config"
+	{
+		"installscriptsignature"		"559a306af668279544d4766528ab81c7f5f959c169ff0df032f2854c2fc61d4277f5de4327adeeab540ee101cd1084432c1c0131c13f5e7789b9f565aba705ec18fe16f9cc63e0e406ad62e5d12be5608b46fb368c88b098684e0ef0a808acc62515514fe9601e9ac4fcde356de720ce09b3c342173043a320f3c525995ca45e"
+		"installscriptoverride"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\HOMEFRONT.exe"
+			}
+		}
+		"contenttype"		"3"
+		"installdir"		"homefront_jpn"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100BD2945D2A535E4A6B51F9A3CF07F68D41C3D9A92C33C388EABB3F403007A03D722DD8D4588724B49CEEEC656029473351249A93F4B7C3A2C009685EE5A7483C9F8A5830E9C62BC9D75ADC1DC19B3368ABF14B54DCE11A4F852A1FE8029AE698A8C791B2BDACA3A43BDDAC080CC95FC9A8FC65A1A0D19914D5FFDF217138B9C11020111"
+		"checkguid"		"HOMEFRONT.exe"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_current_user\software\valve\steam\apps\55100"
+			{
+				"dword"
+				{
+					"patchversion"		"20101201"
+				}
+			}
+		}
+		"run process"
+		{
+			"vcredist2005"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\VCRedist2005"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86[2005].exe"
+				"command 1"		"/q:a"
+				"description"		"Microsoft VC Redist Package"
+				"nocleanup"		"1"
+			}
+			"vcredist2008"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\VCRedist2008"
+				"process 1"		"%INSTALLDIR%\\redist\\vcredist_x86[2008].exe"
+				"command 1"		"/q:a"
+				"description"		"Microsoft VC Redist Package"
+				"nocleanup"		"1"
+			}
+			"directx2010febredist"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\DXRedist"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"description"		"Microsoft DirectX February 2010 redist"
+				"nocleanup"		"1"
+			}
+			"physx"
+			{
+				"hasrunkey"		"HKEY_CURRENT_USER\\Software\\Valve\\Steam\\Apps\\55100\\PhysX"
+				"process 1"		"%INSTALLDIR%\\redist\\PhysX_9.09.1112.exe"
+				"command 1"		"/quiet /passive /promptrestart"
+				"description"		"NVidia PhysX Redist Package"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"55211"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8107856058966454565"
+					"size"		"11985241974"
+					"download"		"0"
+				}
+			}
+		}
+		"55212"
+		{
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2572331955330753811"
+					"size"		"257482"
+					"download"		"0"
+				}
+			}
+		}
+		"markdlcdepots"		"0"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"64734"
+				"timebuildupdated"		"1367462219"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"1000"
+	}
+}
