@@ -1,0 +1,101 @@
+"appinfo"
+{
+	"appid"		"1023620"
+	"common"
+	{
+		"name"		"PlayerVs Dedicated Server"
+		"type"		"Tool"
+		"parent"		"907100"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"ccd3ff3769b5398b274f5faab0b245ed365a80ad"
+		"logo_small"		"ccd3ff3769b5398b274f5faab0b245ed365a80ad_thumb"
+		"icon"		"0045b9bdf69f5f2a6119b3127cb0fc203c2e7515"
+		"clienttga"		"e7bb11761850e821ddd1f1f1afbf799d81f5e0bd"
+		"clienticon"		"8a0243fd987b6591252742d1f8a67c1e6200c8e6"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1023620"
+	}
+	"extended"
+	{
+		"gamedir"		"playervs"
+		"serverbrowsername"		"PlayerVs"
+	}
+	"config"
+	{
+		"installdir"		"playervs-dedicated"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PlayerVsServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"PlayerVsServer.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1023621"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5382506409424274139"
+					"size"		"187346150"
+					"download"		"44827440"
+				}
+			}
+		}
+		"1023622"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4971112848633206168"
+					"size"		"2324164838"
+					"download"		"545244496"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3602387"
+				"timeupdated"		"1551333998"
+				"timebuildupdated"		"1551333518"
+			}
+		}
+	}
+}
