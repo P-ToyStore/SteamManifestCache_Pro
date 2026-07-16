@@ -1,0 +1,325 @@
+"appinfo"
+{
+	"appid"		"217080"
+	"common"
+	{
+		"name"		"Doctor Who: The Eternity Clock"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"logo"		"3ee9e8ffe98d2464aaf5359049b2aca5468064f3"
+		"logo_small"		"3ee9e8ffe98d2464aaf5359049b2aca5468064f3_thumb"
+		"icon"		"87067f38cb1099764fef5d17387f2f8137d4462a"
+		"clienttga"		"c0404529bef55bc4144a0930757b1a60c3435be5"
+		"clienticon"		"e8db61649f18087c11c9f888875cc877dbd9d9e8"
+		"metacritic_name"		"Doctor Who: The Eternity Clock"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"french"		"capsule_231x87_french.jpg"
+			"german"		"capsule_231x87_german.jpg"
+			"italian"		"capsule_231x87_italian.jpg"
+			"spanish"		"capsule_231x87_spanish.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"french"		"header_french.jpg"
+			"german"		"header_german.jpg"
+			"italian"		"header_italian.jpg"
+			"spanish"		"header_spanish.jpg"
+		}
+		"store_screenshot"		"ss_39f472a1bafa0141fb1bdeccb480783ce21b860c.jpg"
+		"store_asset_mtime"		"1353015248"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Supermassive Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"BBC Worldwide"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"34"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_24"		"1"
+			"category_22"		"1"
+			"category_25"		"1"
+			"category_13"		"1"
+			"category_18"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1352997600"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"217080"
+		"store_tags"
+		{
+			"0"		"3942"
+			"1"		"10679"
+			"2"		"1664"
+			"3"		"21"
+			"4"		"19"
+			"5"		"1673"
+			"6"		"4182"
+			"7"		"3798"
+			"8"		"1625"
+		}
+		"review_score"		"8"
+		"review_percentage"		"80"
+	}
+	"extended"
+	{
+		"developer"		"Supermassive Games"
+		"gamedir"		"ValveTestApp217080"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"BBC Worldwide"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Doctor Who Eternity Clock"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win32\\DWTEC.exe"
+				"description"		"Launch with Console"
+			}
+		}
+		"installscriptsignature"		"0e0380307eb32c22b8099aa0573ae63aec0155d61a41f60a0e45afdc4e028b36ed41da77a5c2ae7bdf133bee72ddef0ae9088e5c4c7b3d8dc1a7e5fdc1213f5749371e2d30afc0b78744bd2bfc0cde49c87a45da128d049803c52abbb927c8719707db0d21b39d2cefe7be6380038e735277bf4330e8c3bac0daf4562ebcf0a0"
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217080"
+				"process 1"		"%INSTALLDIR%\\Redist\\DXSETUP\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist_x86_2008"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217080"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_x86_2008.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+			"vcredist_x86_2005sp1"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217080"
+				"process 1"		"%INSTALLDIR%\\Redist\\vcredist_x86_2005SP1.exe"
+				"command 1"		"/q"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"217081"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3981061056588522371"
+					"size"		"2370243368"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"3796031383786168519"
+					"size"		"2370243368"
+					"download"		"0"
+				}
+			}
+		}
+		"217082"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2785117999458851446"
+					"size"		"7"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"2785117999458851446"
+					"size"		"7"
+					"download"		"0"
+				}
+			}
+		}
+		"217083"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2137490770041369800"
+					"size"		"6"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"2137490770041369800"
+					"size"		"6"
+					"download"		"0"
+				}
+			}
+		}
+		"217084"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3238658999594608417"
+					"size"		"7"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"3238658999594608417"
+					"size"		"7"
+					"download"		"0"
+				}
+			}
+		}
+		"217085"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3047460672185258710"
+					"size"		"6"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"3047460672185258710"
+					"size"		"6"
+					"download"		"0"
+				}
+			}
+		}
+		"217086"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5911750999011060619"
+					"size"		"7"
+					"download"		"0"
+				}
+				"local"
+				{
+					"gid"		"5911750999011060619"
+					"size"		"7"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"26624"
+				"timebuildupdated"		"1353410735"
+			}
+			"local"
+			{
+				"buildid"		"26615"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timebuildupdated"		"1353407814"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"2"
+	}
+}
