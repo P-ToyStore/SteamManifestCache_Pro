@@ -1,0 +1,266 @@
+"appinfo"
+{
+	"appid"		"296810"
+	"common"
+	{
+		"name"		"Jump Tanks"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"logo"		"cf9995bd100e8513ddc8845a6aa94df12b93e9bd"
+		"logo_small"		"cf9995bd100e8513ddc8845a6aa94df12b93e9bd_thumb"
+		"icon"		"54613734c29720c94ee9f835b1910986484b83b9"
+		"clienticon"		"75a0bc71dfe4c7589ab1082f5f6e5ab657012b31"
+		"clienttga"		"2bf1542ab5229b6c092315743f78f3caf07ea1ce"
+		"eulas"
+		{
+		}
+		"linuxclienticon"		"a9e31b54ac1ede6d7c472b3a23756db195818cc4"
+		"clienticns"		"fb58ce775bea6216aea617ae8ee86aa9294e7fdf"
+		"osarch"		""
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Jump Tanks"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_0c7b8b74f948eeb258a130ed04304af9fd54a2e8.jpg"
+		"store_asset_mtime"		"1458154329"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Mechanical Butterfly Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mechanical Butterfly Studios"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1457462482"
+		"community_hub_visible"		"1"
+		"gameid"		"296810"
+		"store_tags"
+		{
+			"0"		"492"
+			"1"		"19"
+			"2"		"493"
+			"3"		"3859"
+			"4"		"5547"
+			"5"		"1697"
+			"6"		"1774"
+			"7"		"4255"
+			"8"		"3814"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Mechanical Butterfly Studios"
+		"publisher"		"Mechanical Butterfly Studios"
+		"homepage"		"http://www.jumptanks.com"
+		"listofdlc"		"425630,436910"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"JumpTanks"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"JumpTanks.exe"
+				"description"		"Jump Tanks (Full Screen)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"JumpTanks.exe"
+				"arguments"		"--windowed"
+				"description"		"Jump Tanks (Windowed)"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"JumpTanks.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"JumpTanks.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"4"
+			{
+				"executable"		"JumpTanks.exe"
+				"arguments"		"--PlayFabTitleId=AEB2 --windowed"
+				"description"		"Developer"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"developer"
+				}
+			}
+			"5"
+			{
+				"executable"		"JumpTanks.exe"
+				"arguments"		"--PlayFabTitleId=492F --windowed"
+				"description"		"Quality Assurance"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"quality-assurance"
+				}
+			}
+			"6"
+			{
+				"executable"		"JumpTanks.exe"
+				"arguments"		"--PlayFabTitleId=6DE7 --windowed"
+				"description"		"Tank Punks"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"tank-punks"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"3"
+	}
+	"depots"
+	{
+		"296811"
+		{
+		}
+		"296812"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9028575353380391554"
+					"size"		"1799069455"
+					"download"		"422331248"
+				}
+			}
+		}
+		"296813"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4239241043362530514"
+					"size"		"1793542123"
+					"download"		"422466864"
+				}
+			}
+		}
+		"296814"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3457555825958565773"
+					"size"		"1989911712"
+					"download"		"420585040"
+				}
+			}
+		}
+		"425630"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5293471425463890229"
+					"size"		"72062364"
+					"download"		"68803056"
+				}
+			}
+			"dlcappid"		"425630"
+		}
+		"436910"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2785851653687386093"
+					"size"		"17473104"
+					"download"		"13566208"
+				}
+			}
+			"dlcappid"		"436910"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1021340"
+				"timebuildupdated"		"1457758397"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
