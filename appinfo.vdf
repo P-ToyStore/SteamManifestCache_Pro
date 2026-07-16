@@ -1,0 +1,532 @@
+"appinfo"
+{
+	"appid"		"526340"
+	"common"
+	{
+		"name"		"Voxel Turf Dedicated Server"
+		"type"		"Tool"
+		"parent"		"404530"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"icon"		"b0e124dc42de0aafa3ed22e3ff51cf4d09cc1f98"
+		"logo"		"5bf2f1c429096d65f82df09e3678630d56785ca8"
+		"logo_small"		"5bf2f1c429096d65f82df09e3678630d56785ca8_thumb"
+		"clienticon"		"7b9b219cfccd78c78629064eda5466f4296bf22a"
+		"clienttga"		"88e983a4274be8ae66190a3b3dde301953e9ddda"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"526340"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"vtdediserver"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"vtserver"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"vtserver.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"526341"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1498456338657342836"
+					"size"		"31066901"
+					"download"		"10742256"
+				}
+				"oldversion1.1.1"
+				{
+					"gid"		"3059007370864363740"
+					"size"		"29390104"
+					"download"		"9930896"
+				}
+				"oldversion1.1.2"
+				{
+					"gid"		"9079391421640594270"
+					"size"		"29454485"
+					"download"		"9968272"
+				}
+				"oldversion1.1.5"
+				{
+					"gid"		"7169774568902336851"
+					"size"		"29481582"
+					"download"		"9981776"
+				}
+				"oldversion1.2.0"
+				{
+					"gid"		"8647298641416251746"
+					"size"		"29545431"
+					"download"		"10024656"
+				}
+				"oldversion1.2.2"
+				{
+					"gid"		"7848512955875876213"
+					"size"		"29549741"
+					"download"		"10026768"
+				}
+				"oldversion1.2.3"
+				{
+					"gid"		"2793682788649731762"
+					"size"		"29550494"
+					"download"		"10027936"
+				}
+				"oldversion1.3.1"
+				{
+					"gid"		"7594335342060682926"
+					"size"		"29644828"
+					"download"		"10078064"
+				}
+				"oldversion1.3.3"
+				{
+					"gid"		"5414949263446292585"
+					"size"		"29645231"
+					"download"		"10076656"
+				}
+				"oldversion1.4.0"
+				{
+					"gid"		"5781378313011093374"
+					"size"		"30123066"
+					"download"		"10376016"
+				}
+				"oldversion1.4.3"
+				{
+					"gid"		"3181513138773714389"
+					"size"		"30138392"
+					"download"		"10384368"
+				}
+				"oldversion1.5.0"
+				{
+					"gid"		"4537673272965875116"
+					"size"		"30232614"
+					"download"		"10436304"
+				}
+				"oldversion1.5.3"
+				{
+					"gid"		"6806973450124161212"
+					"size"		"30235125"
+					"download"		"10437296"
+				}
+				"oldversion1.6.0"
+				{
+					"gid"		"894792474294001042"
+					"size"		"30521174"
+					"download"		"10470112"
+				}
+				"oldversion1.6.11a"
+				{
+					"gid"		"2730013230574184826"
+					"size"		"30546598"
+					"download"		"10485824"
+				}
+				"oldversion1.6.4"
+				{
+					"gid"		"9174817837960707838"
+					"size"		"30532613"
+					"download"		"10479600"
+				}
+				"oldversion1.6.7"
+				{
+					"gid"		"4463921069298452819"
+					"size"		"30535007"
+					"download"		"10481248"
+				}
+				"oldversion1.7.3"
+				{
+					"gid"		"297005032921748297"
+					"size"		"30644953"
+					"download"		"10555488"
+				}
+				"oldversion1.8.1"
+				{
+					"gid"		"1162310969535756618"
+					"size"		"30667580"
+					"download"		"10570128"
+				}
+				"beta"
+				{
+					"gid"		"5850934998765240959"
+					"size"		"31177418"
+					"download"		"10852160"
+				}
+				"oldversion1.9.4"
+				{
+					"gid"		"4708524459142550882"
+					"size"		"31075812"
+					"download"		"10692496"
+				}
+				"oldversion1.9.7"
+				{
+					"gid"		"2951284388542147918"
+					"size"		"31081890"
+					"download"		"10760928"
+				}
+			}
+		}
+		"526342"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7060116103788959648"
+					"size"		"37222568"
+					"download"		"10078512"
+				}
+				"oldversion1.1.1"
+				{
+					"gid"		"8941522494064996453"
+					"size"		"32668045"
+					"download"		"7888976"
+				}
+				"oldversion1.1.2"
+				{
+					"gid"		"2670322892670003302"
+					"size"		"32738550"
+					"download"		"7925600"
+				}
+				"oldversion1.1.5"
+				{
+					"gid"		"7749185063276294645"
+					"size"		"32776799"
+					"download"		"7936400"
+				}
+				"oldversion1.2.0"
+				{
+					"gid"		"1952486079952578809"
+					"size"		"32873956"
+					"download"		"7968544"
+				}
+				"oldversion1.2.2"
+				{
+					"gid"		"4024660613284878084"
+					"size"		"32881930"
+					"download"		"7972176"
+				}
+				"oldversion1.2.3"
+				{
+					"gid"		"7006638753504158151"
+					"size"		"32879691"
+					"download"		"7970608"
+				}
+				"oldversion1.3.1"
+				{
+					"gid"		"7596211526393673103"
+					"size"		"32999165"
+					"download"		"8016208"
+				}
+				"oldversion1.3.3"
+				{
+					"gid"		"5608072340601740354"
+					"size"		"33001008"
+					"download"		"8015856"
+				}
+				"oldversion1.4.0"
+				{
+					"gid"		"5191739971576326946"
+					"size"		"33862407"
+					"download"		"8425968"
+				}
+				"oldversion1.4.3"
+				{
+					"gid"		"107281056074892320"
+					"size"		"33879993"
+					"download"		"8431952"
+				}
+				"oldversion1.5.0"
+				{
+					"gid"		"8758580917795732882"
+					"size"		"33984515"
+					"download"		"8481664"
+				}
+				"oldversion1.5.3"
+				{
+					"gid"		"2746519941970804797"
+					"size"		"33988018"
+					"download"		"8482592"
+				}
+				"oldversion1.6.0"
+				{
+					"gid"		"2957990347702966930"
+					"size"		"35503583"
+					"download"		"8995296"
+				}
+				"oldversion1.6.11a"
+				{
+					"gid"		"5963985322704927730"
+					"size"		"35545483"
+					"download"		"9010320"
+				}
+				"oldversion1.6.4"
+				{
+					"gid"		"6582504425022889075"
+					"size"		"35520610"
+					"download"		"9001952"
+				}
+				"oldversion1.6.7"
+				{
+					"gid"		"3605641193700494694"
+					"size"		"35526448"
+					"download"		"9004608"
+				}
+				"oldversion1.7.3"
+				{
+					"gid"		"2970268966471880750"
+					"size"		"35658390"
+					"download"		"9073840"
+				}
+				"oldversion1.8.1"
+				{
+					"gid"		"7071631943706385452"
+					"size"		"35684669"
+					"download"		"9087712"
+				}
+				"beta"
+				{
+					"gid"		"3231099782745167268"
+					"size"		"37564733"
+					"download"		"10177120"
+				}
+				"oldversion1.9.4"
+				{
+					"gid"		"2105687083672323987"
+					"size"		"37209039"
+					"download"		"9437872"
+				}
+				"oldversion1.9.7"
+				{
+					"gid"		"1245801625163761427"
+					"size"		"37215633"
+					"download"		"10077072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23283367"
+				"timeupdated"		"1779096098"
+				"timebuildupdated"		"1779092858"
+			}
+			"oldversion1.1.1"
+			{
+				"buildid"		"2725963"
+				"timeupdated"		"1525914961"
+				"timebuildupdated"		"1524791585"
+			}
+			"oldversion1.1.2"
+			{
+				"buildid"		"2760796"
+				"timeupdated"		"1527059291"
+				"timebuildupdated"		"1525920654"
+			}
+			"oldversion1.1.5"
+			{
+				"buildid"		"2817370"
+				"timeupdated"		"1529824234"
+				"timebuildupdated"		"1527651636"
+			}
+			"oldversion1.2.0"
+			{
+				"buildid"		"2890283"
+				"timeupdated"		"1530010590"
+				"timebuildupdated"		"1529825993"
+			}
+			"oldversion1.2.2"
+			{
+				"buildid"		"2914592"
+				"timeupdated"		"1530842734"
+				"timebuildupdated"		"1530615164"
+			}
+			"oldversion1.2.3"
+			{
+				"buildid"		"2923079"
+				"timeupdated"		"1532583983"
+				"timebuildupdated"		"1530841937"
+			}
+			"oldversion1.3.1"
+			{
+				"buildid"		"2981472"
+				"timeupdated"		"1533171738"
+				"timebuildupdated"		"1532660834"
+			}
+			"oldversion1.3.3"
+			{
+				"buildid"		"3004962"
+				"timeupdated"		"1545882572"
+				"timebuildupdated"		"1533343103"
+			}
+			"oldversion1.4.0"
+			{
+				"buildid"		"3429420"
+				"timeupdated"		"1547254109"
+				"timebuildupdated"		"1545873633"
+			}
+			"oldversion1.4.3"
+			{
+				"buildid"		"3462362"
+				"timeupdated"		"1555133113"
+				"timebuildupdated"		"1547249749"
+			}
+			"oldversion1.5.0"
+			{
+				"buildid"		"3734884"
+				"timeupdated"		"1555577246"
+				"timebuildupdated"		"1555143939"
+			}
+			"oldversion1.5.3"
+			{
+				"buildid"		"3751864"
+				"timeupdated"		"1570351268"
+				"timebuildupdated"		"1555631607"
+			}
+			"oldversion1.6.0"
+			{
+				"buildid"		"4261259"
+				"timeupdated"		"1572660602"
+				"timebuildupdated"		"1570336403"
+			}
+			"oldversion1.6.11a"
+			{
+				"buildid"		"6027485"
+				"description"		"aa"
+				"timeupdated"		"1611742324"
+				"timebuildupdated"		"1609396999"
+			}
+			"oldversion1.6.4"
+			{
+				"buildid"		"4610301"
+				"timeupdated"		"1587103110"
+				"timebuildupdated"		"1580083887"
+			}
+			"oldversion1.6.7"
+			{
+				"buildid"		"4953349"
+				"description"		"ov"
+				"timeupdated"		"1609033344"
+				"timebuildupdated"		"1588055817"
+			}
+			"oldversion1.7.3"
+			{
+				"buildid"		"6169475"
+				"description"		"old version"
+				"timeupdated"		"1625913988"
+				"timebuildupdated"		"1612183986"
+			}
+			"oldversion1.8.1"
+			{
+				"buildid"		"9250138"
+				"description"		"ov"
+				"timeupdated"		"1664008976"
+				"timebuildupdated"		"1659591823"
+			}
+			"beta"
+			{
+				"buildid"		"24000794"
+				"description"		"Public Beta"
+				"timeupdated"		"1782904761"
+				"timebuildupdated"		"1782903818"
+			}
+			"oldversion1.9.4"
+			{
+				"buildid"		"16207541"
+				"description"		"ov"
+				"timeupdated"		"1773887766"
+				"timebuildupdated"		"1730128157"
+			}
+			"oldversion1.9.7"
+			{
+				"buildid"		"22731392"
+				"description"		"ov"
+				"timeupdated"		"1775828344"
+				"timebuildupdated"		"1775828208"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
