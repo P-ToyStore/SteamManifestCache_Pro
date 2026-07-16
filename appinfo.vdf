@@ -1,0 +1,223 @@
+"appinfo"
+{
+	"appid"		"643090"
+	"common"
+	{
+		"name"		"Them's Fightin' Herds Dedicated Server"
+		"type"		"Tool"
+		"parent"		"574980"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"36929a7ceec786fed7807b68d022aa9083597c07"
+		"logo_small"		"36929a7ceec786fed7807b68d022aa9083597c07_thumb"
+		"icon"		"dafbe5b6b50786b3675ba227354ab87e0bdcfc69"
+		"clienticon"		"ecf43af5d2336498b14c89260a7429471a61297d"
+		"releasestate"		"released"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"643090"
+	}
+	"config"
+	{
+		"installdir"		"Them's Fightin' Herds Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"LobbyExe.exe"
+				"arguments"		"config/Lobby_server.geoproj:0:0:false "
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"643091"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8064704992755915636"
+					"size"		"881072996"
+					"download"		"578756368"
+				}
+				"stable"
+				{
+					"gid"		"1454568622973789097"
+					"size"		"855060189"
+					"download"		"553905104"
+				}
+				"december_patch"
+				{
+					"gid"		"8064704992755915636"
+					"size"		"881072996"
+					"download"		"578756368"
+				}
+			}
+		}
+		"643092"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"900704918576492967"
+					"size"		"25614848"
+					"download"		"6637776"
+				}
+				"stable"
+				{
+					"gid"		"6070382450338327327"
+					"size"		"25453056"
+					"download"		"6601120"
+				}
+				"december_patch"
+				{
+					"gid"		"1431667255726841254"
+					"size"		"25615360"
+					"download"		"6635936"
+				}
+			}
+		}
+		"643093"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3814380999103138749"
+					"size"		"59417921"
+					"download"		"16368976"
+				}
+				"stable"
+				{
+					"gid"		"7055375288602944836"
+					"size"		"59184417"
+					"download"		"16338176"
+				}
+				"december_patch"
+				{
+					"gid"		"3814380999103138749"
+					"size"		"59417921"
+					"download"		"16368976"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13532344"
+				"timeupdated"		"1708617884"
+				"timebuildupdated"		"1708613209"
+			}
+			"stable"
+			{
+				"buildid"		"12752488"
+				"description"		"stable branch"
+				"timeupdated"		"1702526342"
+				"timebuildupdated"		"1700503415"
+			}
+			"december_patch"
+			{
+				"buildid"		"16787318"
+				"description"		"Q4 2024 Patch Server for public use"
+				"timeupdated"		"1737551281"
+				"timebuildupdated"		"1734528519"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
