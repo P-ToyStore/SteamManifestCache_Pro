@@ -1,0 +1,126 @@
+"appinfo"
+{
+	"appid"		"1653130"
+	"common"
+	{
+		"name"		"Desperation Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1617360"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"eee23d8bc12ee3c82a0e604497ba2108f84e1d9b"
+		"logo_small"		"eee23d8bc12ee3c82a0e604497ba2108f84e1d9b_thumb"
+		"icon"		"5cee151740681d6582f3135bb09dbea6ceaa06e7"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"clienticon"		"2bcde96dcb5fb4d461ef5995caa248e073cab591"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1653130"
+	}
+	"extended"
+	{
+		"gamedir"		"Desperation"
+		"serverbrowsername"		"Desperation"
+	}
+	"config"
+	{
+		"installdir"		"DesperationDedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DesperationFolder/DesperationServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1653131"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2793895369089934914"
+					"size"		"1256076499"
+					"download"		"1080927568"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8794805"
+				"timeupdated"		"1653340635"
+				"timebuildupdated"		"1653338609"
+			}
+		}
+	}
+}
