@@ -1,0 +1,152 @@
+"appinfo"
+{
+	"appid"		"764860"
+	"common"
+	{
+		"name"		"Jetball Dedicated Server"
+		"type"		"Tool"
+		"parent"		"666590"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"7abe374089d2db461a2228ad401da8bfd006997e"
+		"logo_small"		"7abe374089d2db461a2228ad401da8bfd006997e_thumb"
+		"icon"		"9ea64b07240e4db2ea0f700565508d27507c2b73"
+		"clienticon"		"9d49dfdcf7344c5182577fc4f56321c3a6df9845"
+		"clienttga"		"bd4478a24b6fbae83e115fe934fb1375f353485d"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"764860"
+	}
+	"extended"
+	{
+		"gamedir"		"Jetball"
+		"serverbrowsername"		"Jetball"
+	}
+	"config"
+	{
+		"installdir"		"JetballServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"JetballServer.exe"
+				"arguments"		"\"EpicCity?ServerName=DoNotLaunchServerFromSteam?port=7777?MaxPlayers=0?listen\" -log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"764861"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"135782979829426253"
+					"size"		"279270068"
+					"download"		"181663536"
+				}
+			}
+		}
+		"764862"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1381031001410512385"
+					"size"		"269963340"
+					"download"		"147165664"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23789316"
+				"timeupdated"		"1781724905"
+				"timebuildupdated"		"1781724425"
+			}
+		}
+	}
+}
