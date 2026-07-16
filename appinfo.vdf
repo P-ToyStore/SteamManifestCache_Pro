@@ -1,0 +1,135 @@
+"appinfo"
+{
+	"appid"		"1000090"
+	"common"
+	{
+		"name"		"Meal of the Worms Dedicated Server"
+		"type"		"Tool"
+		"parent"		"999770"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"217998b1efcaf599b48e195c58b810bddcb3b002"
+		"clienttga"		"cca32c1b490a425bc5e92ba4382101bf9275cf87"
+		"icon"		"53514e84905e66a17af86a77f3d58d029d467bb2"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1000090"
+	}
+	"extended"
+	{
+		"gamedir"		"MealOfTheWorms"
+		"serverbrowsername"		"Meal of the Worms"
+	}
+	"config"
+	{
+		"installdir"		"MealOfTheWormsDedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"motwServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1000091"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5990957705625501682"
+					"size"		"481939802"
+					"download"		"189936496"
+				}
+				"beta"
+				{
+					"gid"		"3763077497626709563"
+					"size"		"477228021"
+					"download"		"187983344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12846849"
+				"timeupdated"		"1701411406"
+				"timebuildupdated"		"1701411362"
+			}
+			"beta"
+			{
+				"buildid"		"14048508"
+				"description"		"Branch for Updates so I don't have to go through extensive processes to upload updates"
+				"timeupdated"		"1713083096"
+				"timebuildupdated"		"1713083096"
+			}
+		}
+	}
+}
