@@ -1,0 +1,140 @@
+"appinfo"
+{
+	"appid"		"1099850"
+	"common"
+	{
+		"name"		"Karl BOOM Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1099470"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"logo"		"18f5520bedca4ed07639d56598e7c7955cab5d60"
+		"logo_small"		"18f5520bedca4ed07639d56598e7c7955cab5d60_thumb"
+		"clienticon"		"a951c3f5443c610973e734cf9957cc76a226aa2c"
+		"clienttga"		"17cc0d8f9e0970cf082754ac46b64c1acb8dacfa"
+		"icon"		"3a5e10637fff4bf95a34c59b520791bd38a4ce9d"
+		"linuxclienticon"		"00d1028b6448ab142330c4315f308b4cbb7a48c3"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1099850_eula_0"
+				"name"		"Karl BOOM Dedicated Server EULA"
+				"url"		"https://store.steampowered.com//eula/1099850_eula_0"
+			}
+		}
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1099850"
+	}
+	"config"
+	{
+		"installdir"		"KarlBoomServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MaysterServer.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1099851"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"78602175116048035"
+					"size"		"215913311"
+					"download"		"70827392"
+				}
+				"beta"
+				{
+					"gid"		"78602175116048035"
+					"size"		"215913311"
+					"download"		"70827392"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8948109"
+				"timeupdated"		"1655373962"
+				"timebuildupdated"		"1655372159"
+			}
+			"beta"
+			{
+				"buildid"		"8948109"
+				"timeupdated"		"1655373972"
+				"timebuildupdated"		"1655372159"
+			}
+		}
+	}
+}
