@@ -1,0 +1,151 @@
+"appinfo"
+{
+	"appid"		"523390"
+	"common"
+	{
+		"name"		"LandTraveller - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"522130"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"clienticon"		"ecbc883a98b9f9f105a6b8e9fabe629bb5a6dd39"
+		"clienttga"		"152ea926610231a77df7e5a37c2c278b120dbce0"
+		"icon"		"1d7f94c0a16526774443d59d9aa350f599d4dbb9"
+		"linuxclienticon"		"ca9112e5edc8da30d898a189b8a4fc4d3cfff39e"
+		"logo"		"b4306bba169e29c099de9ad1b2f43340e9eef8f2"
+		"logo_small"		"b4306bba169e29c099de9ad1b2f43340e9eef8f2_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"523390"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"LandTraveller - Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"landts.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"landts.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"523391"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4273146744994637109"
+					"size"		"19977603"
+					"download"		"6072240"
+				}
+				"beta"
+				{
+					"gid"		"6349040967067363371"
+					"size"		"19977225"
+					"download"		"6072464"
+				}
+				"previous"
+				{
+					"gid"		"7258617146815292408"
+					"size"		"19937517"
+					"download"		"6054336"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17460798"
+				"timeupdated"		"1740171622"
+				"timebuildupdated"		"1740170788"
+			}
+			"beta"
+			{
+				"buildid"		"16883934"
+				"description"		"[BETA] Development branch"
+				"timeupdated"		"1735685798"
+				"timebuildupdated"		"1735685683"
+			}
+			"previous"
+			{
+				"buildid"		"10237769"
+				"description"		"[OLD] Previous release"
+				"timeupdated"		"1740170906"
+				"timebuildupdated"		"1672518222"
+			}
+		}
+	}
+}
