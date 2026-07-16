@@ -1,0 +1,115 @@
+"appinfo"
+{
+	"appid"		"2292470"
+	"common"
+	{
+		"name"		"Rock Hoppers Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2017900"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"08bea5a66fdd836049e0bc10b98abb55357677ce"
+		"clienticon"		"5565bc1bd0789806c77fe2c9c40581afc23621fe"
+		"clienttga"		"2d27cbd7f94396b95c639c3068f1b5efa33f3a3a"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"2292470"
+	}
+	"config"
+	{
+		"installdir"		"Rock Hoppers Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Rockhoppers.exe"
+				"description_loc"
+				{
+					"english"		"Please launch the dedicated server with a .bat file instead"
+				}
+				"description"		"Please launch the dedicated server with a .bat file instead"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2292471"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"994738579553129577"
+					"size"		"1483471889"
+					"download"		"207807552"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12447949"
+				"timeupdated"		"1697422441"
+				"timebuildupdated"		"1697422407"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
