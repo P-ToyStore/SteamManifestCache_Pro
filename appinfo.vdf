@@ -1,0 +1,102 @@
+"appinfo"
+{
+	"appid"		"848830"
+	"common"
+	{
+		"name"		"Cube Universe Server"
+		"type"		"Tool"
+		"parent"		"820070"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"4e6c9028d90cfc0f68971af440e4e3eef30c7942"
+		"clienticon"		"c52a4be7b440c58cf29f58fe60dd7e53c342087e"
+		"clienttga"		"7ab3f6155f5955b8c656ba5328ed0a5dcce3c2be"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"848830"
+	}
+	"config"
+	{
+		"installdir"		"Cube Universe Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Server.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"server_ubuntu"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"848831"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2169363275983304295"
+					"size"		"14008967"
+					"download"		"4357344"
+				}
+			}
+		}
+		"848832"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"246206332258169233"
+					"size"		"15573831"
+					"download"		"4220208"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10552882"
+				"timeupdated"		"1676487352"
+				"timebuildupdated"		"1676417880"
+			}
+		}
+	}
+}
