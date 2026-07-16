@@ -1,0 +1,146 @@
+"appinfo"
+{
+	"appid"		"1899970"
+	"common"
+	{
+		"name"		"BadlandsServerBeta"
+		"type"		"Tool"
+		"parent"		"1714350"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"91b6ed7a7a5c132cdd52009e47d3ce0ebe258e46"
+		"logo_small"		"91b6ed7a7a5c132cdd52009e47d3ce0ebe258e46_thumb"
+		"icon"		"f81c96c9a6d2c8e8064a2fb9348fee99c943aa99"
+		"clienticon"		"db6ac4c665a72f8ebb20b45734ca41275e2344e4"
+		"clienttga"		"8ebbd6b2e2a5a16202eb1b6c8b0d421882d97c04"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1899970"
+	}
+	"extended"
+	{
+		"gamedir"		"Badlands"
+		"serverbrowsername"		"Badlands"
+	}
+	"config"
+	{
+		"installdir"		"BadlandsServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		".\\BadlandsServer.exe"
+				"arguments"		"-log -unattended"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1899971"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5038146580179168804"
+					"size"		"1283924089"
+					"download"		"351461760"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9110426"
+				"timeupdated"		"1657681206"
+				"timebuildupdated"		"1657681193"
+			}
+		}
+	}
+}
