@@ -1,0 +1,129 @@
+"appinfo"
+{
+	"appid"		"1006030"
+	"common"
+	{
+		"name"		"ATLAS Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"parent"		"834910"
+		"logo"		"0a885c86d73536ceeed0012dc49c4a3504c25500"
+		"logo_small"		"0a885c86d73536ceeed0012dc49c4a3504c25500_thumb"
+		"icon"		"a1042b777e3d7133fcafe83bdd4bbd43c5e1a09e"
+		"clienticon"		"dc68d7281d63dc36f90c80e0a53dd22c46f0c777"
+		"clienttga"		"1eb5c40a88b2b9a7b6bda477e62766ea678bc1d0"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1006030"
+	}
+	"config"
+	{
+		"installdir"		"ATLAS Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe"
+				"arguments"		"TestMapArea?listen"
+				"description"		"Launch TestMap"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006031"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5719442813699473730"
+					"size"		"34737458393"
+					"download"		"9387642608"
+				}
+				"publictestrealm"
+				{
+					"gid"		"7242285574534009916"
+					"size"		"22274814991"
+					"download"		"5580601248"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"11353410"
+				"timeupdated"		"1685477145"
+				"timebuildupdated"		"1685477016"
+			}
+			"publictestrealm"
+			{
+				"buildid"		"3736722"
+				"timeupdated"		"1555256275"
+				"timebuildupdated"		"1555256140"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
