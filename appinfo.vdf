@@ -1,0 +1,204 @@
+"appinfo"
+{
+	"appid"		"935120"
+	"common"
+	{
+		"name"		"GonzoVR"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+		}
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"icon"		"8aed1602d47309fffcb8fd23f06747d6aa381214"
+		"logo"		"e6b719c56adf10da38bcf30dafaa3276ef7ca84f"
+		"logo_small"		"e6b719c56adf10da38bcf30dafaa3276ef7ca84f_thumb"
+		"clienticon"		"9ac1e1918f1b42e11bdfbabb27ae63bb79ea4908"
+		"clienttga"		"c4ae7fcfd9904a0f43b65005ad39bcf71d465cf8"
+		"app_retired_publisher_request"		"1"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"metacritic_name"		"GonzoVR"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1562272696"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"GonzoVR"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"GonzoVR"
+			}
+		}
+		"primary_genre"		"37"
+		"genres"
+		{
+			"0"		"37"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_36"		"1"
+			"category_35"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_54"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1538420103"
+		"community_hub_visible"		"1"
+		"gameid"		"935120"
+		"onlyvrsupport"		"1"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"492"
+			"2"		"493"
+			"3"		"21978"
+			"4"		"1637"
+		}
+		"review_score"		"7"
+		"review_percentage"		"97"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"GonzoVR"
+		"publisher"		"GonzoVR"
+		"homepage"		"https://gvr.tv"
+	}
+	"config"
+	{
+		"installdir"		"GonzoVR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Gonzo-VR.exe"
+				"arguments"		"-vrmode openvr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Gonzo-VR.exe"
+				"arguments"		"-vrmode oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"935121"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2238809196879563091"
+					"size"		"1811365790"
+					"download"		"1327011616"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3996656"
+				"timeupdated"		"1562704619"
+				"timebuildupdated"		"1562704595"
+			}
+		}
+	}
+}
