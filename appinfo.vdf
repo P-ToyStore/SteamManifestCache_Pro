@@ -1,0 +1,101 @@
+"appinfo"
+{
+	"appid"		"1203110"
+	"common"
+	{
+		"name"		"BadLads Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1200710"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"b5618170ac1b50687945d314149a837bc82ab7f4"
+		"clienticns"		"bffebad5fcd1fd0c65b73f4661ab2ad43dbe55e2"
+		"clienticon"		"15163b5db68287216f028a1c1f5649909112f337"
+		"icon"		"cd4451bb3ce37acdd1b9037d76a065fd68915c82"
+		"logo"		"384e655193d1d5d970f2aa82c1cc8f06a39b54b0"
+		"logo_small"		"384e655193d1d5d970f2aa82c1cc8f06a39b54b0_thumb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1203110"
+	}
+	"config"
+	{
+		"installdir"		"BadLadsDedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BadLadsServer.exe"
+				"arguments"		"-log -useperfthreads"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"BadLadsServer.sh"
+				"arguments"		"-log -useperfthreads"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1203111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5954978533915176679"
+					"size"		"1380587543"
+					"download"		"924688464"
+				}
+			}
+		}
+		"1203112"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4634368694332546035"
+					"size"		"1398402970"
+					"download"		"888593856"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6774503"
+				"timeupdated"		"1622198815"
+				"timebuildupdated"		"1622197344"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
