@@ -1,0 +1,121 @@
+"appinfo"
+{
+	"appid"		"817300"
+	"common"
+	{
+		"name"		"Base Defense Dedicated Server"
+		"type"		"Tool"
+		"parent"		"632730"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"logo"		"a62852da896d45f099613bc2a742e9ff2d25694a"
+		"logo_small"		"a62852da896d45f099613bc2a742e9ff2d25694a_thumb"
+		"icon"		"26710ab9a92d397bdda218963e32d6d2047fd83a"
+		"linuxclienticon"		"545f18d67d7b225fee8e8089b8e3c55d3ad85960"
+		"clienticon"		"2c3ccd318290453e0436a56bb6eb2d2de357908a"
+		"clienttga"		"55fa9670a1137e752ec516ce38a54e8eda4e6cf2"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"817300"
+	}
+	"config"
+	{
+		"installdir"		"Base Defense Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"hlds_run"
+				"arguments"		"-console -game bdef +map pve_tomb -maxplayers 3"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"817301"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3568171064761768443"
+					"size"		"350213312"
+					"download"		"165001040"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2602875"
+				"timeupdated"		"1521026187"
+				"timebuildupdated"		"1521026153"
+			}
+		}
+	}
+}
