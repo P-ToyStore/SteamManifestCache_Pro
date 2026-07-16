@@ -1,0 +1,87 @@
+"appinfo"
+{
+	"appid"		"1284600"
+	"common"
+	{
+		"name"		"Race Project Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1280590"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"c21032513eb4b206e6654b7339ba8d1e490b4e7b"
+		"logo_small"		"c21032513eb4b206e6654b7339ba8d1e490b4e7b_thumb"
+		"icon"		"afc4ef08da34df3939c32b757e9fa7755c14340d"
+		"clienticon"		"c62a54031f55d70dc1ccac095d153a041eaa481b"
+		"clienttga"		"a0f9c246629223de62a484b0b3ba1c26b4305350"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1284600"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"raceproject_server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RaceProject_DS.exe"
+				"arguments"		"-batchmode -nographics"
+				"type"		"server"
+			}
+		}
+	}
+	"depots"
+	{
+		"229002"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1284601"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7434429540955451424"
+					"size"		"513784408"
+					"download"		"114100912"
+				}
+				"staging"
+				{
+					"gid"		"286423043671096305"
+					"size"		"845050850"
+					"download"		"256608496"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6938808"
+				"timeupdated"		"1624736451"
+				"timebuildupdated"		"1624736437"
+			}
+			"staging"
+			{
+				"buildid"		"8207363"
+				"description"		"Most Recent Updates"
+				"timeupdated"		"1644938882"
+				"timebuildupdated"		"1644938874"
+			}
+		}
+	}
+}
