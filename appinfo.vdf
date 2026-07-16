@@ -1,0 +1,139 @@
+"appinfo"
+{
+	"appid"		"2342570"
+	"common"
+	{
+		"name"		"ISZDedicatedServer"
+		"type"		"Tool"
+		"parent"		"1795180"
+		"icon"		"ff8d9aa07c1bae0aad9282e6a7691f6f0e94d3b5"
+		"clienttga"		"4fb89c115900caef3fbae54737c9546fd1ecc13a"
+		"clienticon"		"81699cb16a716e66f375e567913c3092ffb86459"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2342570"
+	}
+	"extended"
+	{
+		"gamedir"		"ISZDedicatedServer"
+	}
+	"config"
+	{
+		"installdir"		"ISZDedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ISZServer.exe"
+				"arguments"		"-log -steamservername=ISZDedicatedServer"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"ISZDedicatedServer"
+				}
+				"description"		"ISZDedicatedServer"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2342571"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5689269103225189492"
+					"size"		"251263873"
+					"download"		"177530112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10691040"
+				"timeupdated"		"1677930968"
+				"timebuildupdated"		"1677930968"
+			}
+		}
+	}
+}
