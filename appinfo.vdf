@@ -1,0 +1,147 @@
+"appinfo"
+{
+	"appid"		"965690"
+	"common"
+	{
+		"name"		"D.A.T.A Dedicated Server"
+		"type"		"Tool"
+		"parent"		"814310"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"853d47d4e4ff876ecee47e915f3be3743ad29381"
+		"logo_small"		"853d47d4e4ff876ecee47e915f3be3743ad29381_thumb"
+		"icon"		"7c6ae7ffb1163a2d5df1b6214261ea5d648eaebb"
+		"clienticon"		"d36213b741419a158f057cc991be846fcdb05e6a"
+		"clienttga"		"94f89c7589ba637b9f53ab3e1ccbaab17fddae86"
+		"releasestate"		"released"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"965690"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"serverbrowsername"		"ABYSS"
+	}
+	"config"
+	{
+		"installdir"		"D.A.T.A Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindowsServer\\ABYSS421\\Binaries\\Win64\\ABYSS421Server.exe"
+				"arguments"		"ABYSS421Server.exe ?AdminPassword=123456789 -server -log -SteamServerName=\"TEST SERVER [DEV ONLY]\" -queryport=27105 -port=7777"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"965691"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8484444728912068171"
+					"size"		"268735455"
+					"download"		"154722576"
+				}
+			}
+		}
+		"baselanguages"		"english,russian"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3268097"
+				"timeupdated"		"1541090934"
+				"timebuildupdated"		"1541090888"
+			}
+		}
+	}
+}
