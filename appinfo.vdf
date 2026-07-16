@@ -1,0 +1,167 @@
+"appinfo"
+{
+	"appid"		"628300"
+	"common"
+	{
+		"name"		"Stellar Overload Dedicated Server"
+		"type"		"Tool"
+		"parent"		"397150"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"e817f23d8a2c3c5065f9b1c1bed990c8c50b95ba"
+		"logo_small"		"e817f23d8a2c3c5065f9b1c1bed990c8c50b95ba_thumb"
+		"icon"		"b303c6016965e2906a22ceaf1ae8fd45fa65e5c6"
+		"clienttga"		"452def96a54e4748938dcfe843e8617b91305d3f"
+		"clienticon"		"1f98ffae271e683761daa26490c0c36d9df3089f"
+		"linuxclienticon"		"bbb969457eb955b13fb4051430e77b028dec8dfc"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"628300"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Stellar Overload Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"start_server.cmd"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"start_server.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"628301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8172759215209524511"
+					"size"		"882755439"
+					"download"		"641037904"
+				}
+			}
+		}
+		"628302"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3705017185716207576"
+					"size"		"2336262842"
+					"download"		"868670816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2149251"
+				"timeupdated"		"1506441955"
+				"timebuildupdated"		"1506441955"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
