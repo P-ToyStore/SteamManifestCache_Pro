@@ -1,0 +1,111 @@
+"appinfo"
+{
+	"appid"		"1418640"
+	"common"
+	{
+		"name"		"Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1403040"
+		"logo"		"0d1e3263131b71d552b4ad4603de8025b28a3e39"
+		"logo_small"		"0d1e3263131b71d552b4ad4603de8025b28a3e39_thumb"
+		"icon"		"305102e54c15018eb7d06d24f1acdde38b7b8743"
+		"clienticon"		"a9c8f1a2779ac5ec1d7c3e0ce71a3a6bbc5ced4c"
+		"clienttga"		"7b8c4d2308fded24b3878291bad719409c59f30c"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1418640"
+	}
+	"config"
+	{
+		"installdir"		"Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BuildServer/Online.exe"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1418641"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6808286201385075771"
+					"size"		"105141436"
+					"download"		"29890528"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5667230"
+				"timeupdated"		"1602425381"
+				"timebuildupdated"		"1602425357"
+			}
+		}
+	}
+}
