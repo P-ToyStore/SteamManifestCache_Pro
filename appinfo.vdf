@@ -1,0 +1,109 @@
+"appinfo"
+{
+	"appid"		"2636050"
+	"common"
+	{
+		"name"		"Bloodbound Dedicated Server"
+		"type"		"Tool"
+		"parent"		"909750"
+		"icon"		"c8a3e33312cf0ac3e83da65ba3123151036a86ef"
+		"clienttga"		"f3f48361def621521c956c674f8128f3dcaaafc5"
+		"clienticon"		"55456ee7791aeef5aa1b023c307c2675bade6784"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"gameid"		"2636050"
+	}
+	"config"
+	{
+		"installdir"		"BB Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Run Me.bat"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2636051"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7524692168708018643"
+					"size"		"591777645"
+					"download"		"310767600"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"16156403"
+				"timeupdated"		"1729716062"
+				"timebuildupdated"		"1729715989"
+			}
+		}
+	}
+}
