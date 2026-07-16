@@ -1,0 +1,328 @@
+"appinfo"
+{
+	"appid"		"1978930"
+	"common"
+	{
+		"name"		"Project Speed 2 Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1863910"
+		"icon"		"704a685fed7c62f01601e87f52a11ee1e6f5cdeb"
+		"clienticon"		"f8ba9e3a7673a2e859aec8ba7d1467af0d53327b"
+		"clienttga"		"53f4e14b1bbee8aaaffcbdf37b51ecb411c623d0"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"freetodownload"		"1"
+		"app_retired_publisher_request"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_e028316f5735156a32272eaf6d7bc58968505826.jpg"
+		"store_asset_mtime"		"1685125559"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1656662400"
+		"gameid"		"1978930"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"SpeedGameServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SpeedGameServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SpeedGameServer.sh"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1978931"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8392934454763021119"
+					"size"		"657058939"
+					"download"		"352592672"
+				}
+				"experimental"
+				{
+					"gid"		"8392934454763021119"
+					"size"		"657058939"
+					"download"		"352592672"
+				}
+				"stable"
+				{
+					"gid"		"6607609639972373117"
+					"size"		"638304361"
+					"download"		"345177712"
+				}
+			}
+		}
+		"1978932"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6707617029473580317"
+					"size"		"18770638"
+					"download"		"18094832"
+				}
+				"experimental"
+				{
+					"gid"		"6707617029473580317"
+					"size"		"18770638"
+					"download"		"18094832"
+				}
+				"stable"
+				{
+					"gid"		"6707617029473580317"
+					"size"		"18770638"
+					"download"		"18094832"
+				}
+			}
+		}
+		"1978933"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8807566130884532821"
+					"size"		"23940768"
+					"download"		"4826960"
+				}
+				"experimental"
+				{
+					"gid"		"8807566130884532821"
+					"size"		"23940768"
+					"download"		"4826960"
+				}
+				"stable"
+				{
+					"gid"		"8807566130884532821"
+					"size"		"23940768"
+					"download"		"4826960"
+				}
+			}
+		}
+		"1978934"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8131669567185833422"
+					"size"		"433"
+					"download"		"400"
+				}
+				"experimental"
+				{
+					"gid"		"8131669567185833422"
+					"size"		"433"
+					"download"		"400"
+				}
+				"stable"
+				{
+					"gid"		"8131669567185833422"
+					"size"		"433"
+					"download"		"400"
+				}
+			}
+		}
+		"1978935"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1159642203859116658"
+					"size"		"3601750400"
+					"download"		"764136832"
+				}
+				"experimental"
+				{
+					"gid"		"1159642203859116658"
+					"size"		"3601750400"
+					"download"		"764136832"
+				}
+				"stable"
+				{
+					"gid"		"4029309283787714648"
+					"size"		"3369552568"
+					"download"		"729356992"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12027059"
+				"timeupdated"		"1693236002"
+				"timebuildupdated"		"1692917390"
+			}
+			"experimental"
+			{
+				"buildid"		"12027059"
+				"description"		"Experimental branch"
+				"timeupdated"		"1747889867"
+				"timebuildupdated"		"1692917390"
+			}
+			"stable"
+			{
+				"buildid"		"11539311"
+				"description"		"Stable branch"
+				"timeupdated"		"1747889853"
+				"timebuildupdated"		"1687471029"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
