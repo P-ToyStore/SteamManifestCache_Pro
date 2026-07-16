@@ -1,0 +1,251 @@
+"appinfo"
+{
+	"appid"		"377610"
+	"common"
+	{
+		"name"		"Hide & Hold Out - H2o Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"linuxclienticon"		"41d06ac129421b9d66f41ae4143bdc5fe278fee5"
+		"clienttga"		"0d3b57262b63e564f40e23aaa0358d5b98a66973"
+		"icon"		"33d9f15a43865003eeb39cb3f692ad52e8265247"
+		"clienticon"		"61554a42b455fd6155d22ebf408cb84cf2e2aec9"
+		"clienticns"		"075eb3fa1e51cc2dba05dbbc1ac3bbdfe1d9b86e"
+		"logo"		"07e75e62e7297023f0b3178932df17ee3a5173d4"
+		"logo_small"		"07e75e62e7297023f0b3178932df17ee3a5173d4_thumb"
+		"osarch"		"64"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"377610"
+	}
+	"extended"
+	{
+		"gamedir"		"H2o - Dedicated Server"
+		"serverbrowsername"		"H2o - Server Browser"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"h2o_server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"H2o.exe"
+				"description"		"Start Server"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"H2o.exe"
+				"arguments"		" -batchmode -nographics"
+				"description"		"Start Server (Headless mode)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229033"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"377611"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2802196273819798698"
+					"size"		"2566771914"
+					"download"		"1159171344"
+				}
+				"privatebranch"
+				{
+					"gid"		"2802196273819798698"
+					"size"		"2566771914"
+					"download"		"1159171344"
+				}
+				"testbranch"
+				{
+					"gid"		"2802196273819798698"
+					"size"		"2566771914"
+					"download"		"1159171344"
+				}
+			}
+		}
+		"377612"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3987135155768137756"
+					"size"		"2502375717"
+					"download"		"1139621920"
+				}
+				"privatebranch"
+				{
+					"gid"		"5836638770145352876"
+					"size"		"2502323445"
+					"download"		"1141873616"
+				}
+				"testbranch"
+				{
+					"gid"		"3987135155768137756"
+					"size"		"2502375717"
+					"download"		"1139621920"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2660890"
+				"timeupdated"		"1523133598"
+				"timebuildupdated"		"1522887123"
+			}
+			"privatebranch"
+			{
+				"buildid"		"2799353"
+				"description"		"private test branch"
+				"timeupdated"		"1527079070"
+				"timebuildupdated"		"1527076238"
+			}
+			"testbranch"
+			{
+				"buildid"		"2660890"
+				"description"		"V 0.10.11"
+				"timeupdated"		"1522921458"
+				"timebuildupdated"		"1522887123"
+			}
+		}
+	}
+}
