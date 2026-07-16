@@ -1,0 +1,141 @@
+"appinfo"
+{
+	"appid"		"1830410"
+	"common"
+	{
+		"name"		"Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1725560"
+		"releasestate"		"released"
+		"icon"		"2994832f9d79091eceeaac7e6fb6558bf72db2ec"
+		"logo"		"a4813f5c18f6b6e57626d622710bb26bce795860"
+		"logo_small"		"a4813f5c18f6b6e57626d622710bb26bce795860_thumb"
+		"clienttga"		"4f857b0e199130cb205d90f883bf668334a47d5c"
+		"clienticon"		"36be9b5b463883b9a80a2737b5744fdcf42ae206"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1830410"
+	}
+	"extended"
+	{
+		"gamedir"		"brokenbetrayal"
+		"serverbrowsername"		"Broken Betrayal Dedicated Servers"
+	}
+	"config"
+	{
+		"installdir"		"Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BrokenBetrayalServer.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1830411"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5415446400589236248"
+					"size"		"735209611"
+					"download"		"635400640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7830667"
+				"timeupdated"		"1638703931"
+				"timebuildupdated"		"1638703509"
+			}
+		}
+	}
+}
