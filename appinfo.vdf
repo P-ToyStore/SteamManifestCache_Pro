@@ -1,0 +1,222 @@
+"appinfo"
+{
+	"appid"		"223140"
+	"common"
+	{
+		"name"		"Risen 2 Dark Waters JP"
+		"logo"		"e1b72e0af10d743a3d51800bd208bbe2890b9953"
+		"logo_small"		"e1b72e0af10d743a3d51800bd208bbe2890b9953_thumb"
+		"icon"		"874236eebecff1fe070032d137722ef3cdb47383"
+		"clienttga"		"12486f97ee6e781df66ea69f14fdee59cf3d56fd"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"clienticon"		"d56e2f5ff47c25c10cd83f81a5686f384b5a0055"
+		"type"		"game"
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"223140"
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"ValveTestApp223140"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Risen 2 JP"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"system\\risen2.exe"
+				"description"		"Launch Risen 2"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"installscriptsignature"		"3d9fdefcdc29f879b3a0acd9c175022b401b8e810e88dc8193d525b92957f60cfd5504fe4737ecd948faa438f46598f29cf5d32bbdeb2d903fd2a3214e0a090849ab8db73dcc0931b9e24178594453cd415f78f01ec3cc66b43e71eb5c4071b53c576544b7f545cba05789f9c506a29bbd6e983051aeff52bf5e74a6800a631f"
+		"installscriptoverride"		"1"
+		"cegpublickey"		"30819D300D06092A864886F70D010101050003818B0030818702818100B368AC9018A5C9972B96BD4F8037BB546D4BBFAA5589615B6D373269E3CADB7E5D4B23A6ACD6F53D6D490014AC062FCC5283A1D539754E3EDB069EFECB09A2521F300C4664904AB40E4261409942C214FB5EC35FD108ECE24D56B8288E24D937D1549D02289E1292EDB7D9A6EFE9DCF17228A9D26F9FB2E9D7715A8533E0D679020111"
+		"checkguid"		"Risen2.exe"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\deep silver\risen2 jp"
+			{
+				"string"
+				{
+					"install_path"		"%INSTALLDIR%"
+					"exe_path"		"%INSTALLDIR%\\system\\risen2.exe"
+					"version"		"1.00"
+				}
+				"dword"
+				{
+					"english"
+					{
+						"language"		"1"
+					}
+					"french"
+					{
+						"language"		"2"
+					}
+					"german"
+					{
+						"language"		"3"
+					}
+					"italian"
+					{
+						"language"		"4"
+					}
+					"spanish"
+					{
+						"language"		"5"
+					}
+					"japanese"
+					{
+						"language"		"6"
+					}
+				}
+			}
+		}
+		"run process"
+		{
+			"directx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\223140"
+				"process 1"		"%INSTALLDIR%\\redist\\DirectX\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+			}
+			"vcredist"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\223140"
+				"process 1"		"%INSTALLDIR%\\redist\\VCRedist\\vcredist_x86.exe"
+				"command 1"		"/Q"
+				"nocleanup"		"1"
+			}
+			"physx"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\223140"
+				"process 1"		"%INSTALLDIR%\\redist\\PhysX\\PhysX_SystemSoftware.exe"
+				"command 1"		"/quiet"
+				"nocleanup"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"223141"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"259192543020546609"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"223141"
+		}
+		"223142"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5368930752080138527"
+					"size"		"50717833"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"223142"
+		}
+		"223143"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7459370684350439766"
+					"size"		"188646648"
+					"download"		"0"
+				}
+			}
+			"dlcappid"		"223143"
+		}
+		"223144"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"948553735309105944"
+					"size"		"8209283618"
+					"download"		"0"
+				}
+			}
+		}
+		"223145"
+		{
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7546003849073638806"
+					"size"		"33307"
+					"download"		"0"
+				}
+			}
+		}
+		"223146"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4347178701715745556"
+					"size"		"13190952"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"52577"
+				"timebuildupdated"		"1363599597"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
