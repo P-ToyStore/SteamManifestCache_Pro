@@ -1,0 +1,194 @@
+"appinfo"
+{
+	"appid"		"338440"
+	"common"
+	{
+		"name"		"BOMB Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"clienticon"		"d1dd3a80fbc3e2cee7e7e584606d35918d8d9387"
+		"clienttga"		"cfafe70b6c0a677cb49daa73391a4b6ec357f4df"
+		"icon"		"9fa31520424a4f28b0cbe148f4ac05cae24db109"
+		"logo"		"ccf7eb011ebfab887570472e0f15ae9f4dedaac8"
+		"logo_small"		"ccf7eb011ebfab887570472e0f15ae9f4dedaac8_thumb"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"freetodownload"		"1"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_3866724537e228472a981a9b4c91c67c6a55258d.jpg"
+		"store_asset_mtime"		"1418900217"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_62"		"1"
+		}
+		"steam_release_date"		"1418860800"
+		"gameid"		"338440"
+	}
+	"extended"
+	{
+		"gamedir"		"BOMB"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"BOMB Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\release\\server.bat"
+				"description"		"Launch"
+				"workingdir"		"bin\\release"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin/release/server.sh"
+				"description"		"Launch"
+				"workingdir"		"bin/release"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228982"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"338441"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8543875461083146407"
+					"size"		"1369803696"
+					"download"		"519663520"
+				}
+			}
+		}
+		"338442"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4777770649186392435"
+					"size"		"41905939"
+					"download"		"11256864"
+				}
+			}
+		}
+		"338443"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8543806563901342597"
+					"size"		"55091065"
+					"download"		"13266160"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"736320"
+				"timebuildupdated"		"1439813401"
+			}
+		}
+	}
+}
