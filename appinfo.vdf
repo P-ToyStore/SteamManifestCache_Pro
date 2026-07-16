@@ -1,0 +1,83 @@
+"appinfo"
+{
+	"appid"		"1948990"
+	"common"
+	{
+		"name"		"Snapshot VR Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1133580"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"bc552d1851c5d70fc19f6a01594cfee4b0876f92"
+		"clienttga"		"b3930e702b1c59d84b902385fa16f99c6d6f0bea"
+		"linuxclienticon"		"0790938acb6f75e19739acd88c52b55d61cce928"
+		"clienticon"		"96451f7f1da71d25382841a004aa0400f22bef48"
+		"clienticns"		"615cbbf5cdd3ad8ba5f68201797b06e4ed767d4c"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1948990"
+	}
+	"config"
+	{
+		"installdir"		"Snapshot VR Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"snapshotvr-dedicatedserver.x86_64"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1948991"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5393739333569717929"
+					"size"		"254939047"
+					"download"		"177751200"
+				}
+				"legacy"
+				{
+					"gid"		"5129079354947875078"
+					"size"		"157349326"
+					"download"		"44423296"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23729894"
+				"timeupdated"		"1781466574"
+				"timebuildupdated"		"1781466344"
+			}
+			"legacy"
+			{
+				"buildid"		"16060734"
+				"description"		"Prior to v4.0"
+				"timeupdated"		"1738986981"
+				"timebuildupdated"		"1729054498"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
