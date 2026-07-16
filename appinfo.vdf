@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"2312340"
+	"common"
+	{
+		"name"		"Nyan-Nyan Punch!"
+		"type"		"Game"
+		"name_localized"
+		{
+			"english"		"Nyan-Nyan Punch!"
+			"koreana"		"냥냥펀치!"
+			"japanese"		"ニャンニャン・パンチ！"
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"japanese"		"1"
+		}
+		"clienticon"		"c9641f3249c93d7c0b6e94f126daeaadaf83beb8"
+		"clienttga"		"059d34611f473ac783422fd537da009b7387e1b2"
+		"icon"		"8f08824c3516a58b9bf342138b07550b0a84520a"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+		}
+		"store_asset_mtime"		"1705748478"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nomary"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PsychoFlux Entertainment"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"PsychoFlux Presents"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1685098822"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2312340"
+		"store_tags"
+		{
+			"0"		"3798"
+			"1"		"4255"
+			"2"		"1774"
+			"3"		"1773"
+			"4"		"7208"
+			"5"		"3871"
+			"6"		"4726"
+			"7"		"4136"
+			"8"		"19"
+			"9"		"4085"
+			"10"		"4305"
+			"11"		"17894"
+			"12"		"1684"
+			"13"		"21"
+			"14"		"4182"
+			"15"		"492"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Nomary"
+		"publisher"		"PsychoFlux Entertainment"
+	}
+	"config"
+	{
+		"installdir"		"Nyan-Nyan Punch!"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Game.exe"
+				"arguments"		"--user-data-dir=./NwData --in-process-gpu --enable-node-worker --disable-windows10-custom-titlebar --disable-direct-composition --block-new-web-contents --disable-raf-throttling --disable-background-timer-throttling"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"2312341"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8691427774803053014"
+					"size"		"315862104"
+					"download"		"191794752"
+				}
+			}
+		}
+		"2312342"
+		{
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7633677912935039842"
+					"size"		"315816605"
+					"download"		"191771552"
+				}
+			}
+		}
+		"baselanguages"		"koreana"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"15065078"
+				"timeupdated"		"1721235575"
+				"timebuildupdated"		"1721235551"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"458752"
+		"maxnumfiles"		"7"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"www/save"
+				"pattern"		"*.rpgsave"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
