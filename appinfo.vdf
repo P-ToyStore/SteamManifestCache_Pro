@@ -1,0 +1,107 @@
+"appinfo"
+{
+	"appid"		"568660"
+	"common"
+	{
+		"name"		"Lost Region Dedicated Server"
+		"type"		"Tool"
+		"parent"		"331810"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"b1d875da3fc9058611319e59e034c28f4e397dd7"
+		"logo_small"		"b1d875da3fc9058611319e59e034c28f4e397dd7_thumb"
+		"icon"		"d3d9fafebd1be57bb798f9ef6ce1581597320201"
+		"clienticon"		"2fab29f0f5f002775b9ded043b1e5e56129d20dd"
+		"clienttga"		"31bd03881eee332885591954f7b245753958ce28"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"568660"
+	}
+	"config"
+	{
+		"installdir"		"Lost Region"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SurvivalGame/Binaries/Win64/SurvivalGameServer.exe"
+				"arguments"		"-log"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"568661"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2187940409178066969"
+					"size"		"2553557103"
+					"download"		"503408800"
+				}
+				"live-server-version"
+				{
+					"gid"		"2187940409178066969"
+					"size"		"2553557103"
+					"download"		"503408800"
+				}
+			}
+		}
+		"568662"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+		}
+		"568663"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5932831"
+				"timeupdated"		"1607386099"
+				"timebuildupdated"		"1607349711"
+			}
+			"live-server-version"
+			{
+				"buildid"		"5932831"
+				"description"		"live server"
+				"timeupdated"		"1607386080"
+				"timebuildupdated"		"1607349711"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
