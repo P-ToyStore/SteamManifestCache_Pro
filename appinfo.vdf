@@ -1,0 +1,144 @@
+"appinfo"
+{
+	"appid"		"400300"
+	"common"
+	{
+		"name"		"rFactor 2 Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"oslist"		"windows"
+		"icon"		"ebecb341264f0770448d756a3fcef57d54d13773"
+		"logo"		"9f6c798e8a3899b7d409fedf1d64002a9150776e"
+		"logo_small"		"9f6c798e8a3899b7d409fedf1d64002a9150776e_thumb"
+		"clienticon"		"b84cebb69c810819dc427635f9fdf1555ceced70"
+		"clienttga"		"bc0e5fecd4d84d9472433e7aef4d35abd0b2d283"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"400300"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"rFactor 2 Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bin32\\rFactor2 Dedicated.exe"
+				"description"		"Launch rFactor 2 dedicated server (32 bits)"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Bin64\\rFactor2 Dedicated.exe"
+				"description"		"Launch rFactor 2 dedicated server (64 bits)"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"400301"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2919646625421008918"
+					"size"		"1362242205"
+					"download"		"785541408"
+				}
+				"old-ui"
+				{
+					"gid"		"5626468743277710338"
+					"size"		"938752206"
+					"download"		"602325120"
+				}
+				"previous-release"
+				{
+					"gid"		"6120958129305565310"
+					"size"		"1341754148"
+					"download"		"764989632"
+				}
+				"v1121"
+				{
+					"gid"		"8643273211604191646"
+					"size"		"1100241266"
+					"download"		"645279424"
+				}
+				"v1122"
+				{
+					"gid"		"6012171361307437284"
+					"size"		"928802847"
+					"download"		"594852912"
+				}
+				"v1125"
+				{
+					"gid"		"7622282469574250583"
+					"size"		"952865208"
+					"download"		"609218032"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12751806"
+				"timeupdated"		"1700564698"
+				"timebuildupdated"		"1700498144"
+			}
+			"old-ui"
+			{
+				"buildid"		"5990055"
+				"description"		"Server matching the old UI that is currently deprecated."
+				"timeupdated"		"1611148005"
+				"timebuildupdated"		"1608328185"
+			}
+			"previous-release"
+			{
+				"buildid"		"11731638"
+				"description"		"This is the previous dedicated server public stable build."
+				"timeupdated"		"1700564683"
+				"timebuildupdated"		"1689712821"
+			}
+			"v1121"
+			{
+				"buildid"		"5694077"
+				"timeupdated"		"1603452122"
+				"timebuildupdated"		"1602863549"
+			}
+			"v1122"
+			{
+				"buildid"		"6007045"
+				"description"		"v1122"
+				"timeupdated"		"1611555012"
+				"timebuildupdated"		"1608726486"
+			}
+			"v1125"
+			{
+				"buildid"		"7861639"
+				"description"		"v1125"
+				"timeupdated"		"1652867992"
+				"timebuildupdated"		"1639135351"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
