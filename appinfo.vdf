@@ -1,0 +1,123 @@
+"appinfo"
+{
+	"appid"		"1382420"
+	"common"
+	{
+		"name"		"Tomatenquark Server"
+		"type"		"Tool"
+		"parent"		"1274540"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"bede8ba818675579d19b8fcedde97b22ccbe5844"
+		"logo_small"		"bede8ba818675579d19b8fcedde97b22ccbe5844_thumb"
+		"icon"		"e5f314857f2e7e6bc2f325bbfcca52e7fd5c0b50"
+		"clienttga"		"3de68f64413d93d9da202e753fcd7103c1cc2416"
+		"clienticon"		"0083fe93e3fb4a04dfadb20b606d148961b390fc"
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1596261600"
+		"gameid"		"1382420"
+	}
+	"extended"
+	{
+		"gamedir"		""
+		"serverbrowsername"		"Tomatenquark"
+	}
+	"config"
+	{
+		"installdir"		"Gameserver"
+		"launch"
+		{
+			"2"
+			{
+				"executable"		"tomaten_server"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1382421"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"930153211048295988"
+					"size"		"54545058"
+					"download"		"53189264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5351278"
+				"timeupdated"		"1596114923"
+				"timebuildupdated"		"1596114858"
+			}
+		}
+	}
+}
