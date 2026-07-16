@@ -1,0 +1,61 @@
+"appinfo"
+{
+	"appid"		"915070"
+	"common"
+	{
+		"name"		"Outlaws of the Old West Dedicated Server Tool"
+		"type"		"Tool"
+		"parent"		"840800"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"310152e6616cb486926e7935b576db5817f0b574"
+		"logo_small"		"310152e6616cb486926e7935b576db5817f0b574_thumb"
+		"icon"		"e99894921da6b4f016e46387d9c2cb2e8b6f462c"
+		"clienticon"		"a7de64926d22f16d9972cb1057bcf5c76352a7a0"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"915070"
+	}
+	"config"
+	{
+		"installdir"		"Outlaws of the Old West Dedicated Server Tool"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OutlawsServer.exe"
+				"arguments"		"/Game/Maps/MainMap/MainMap -log"
+				"type"		"default"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"915071"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"31564489581253581"
+					"size"		"1496765411"
+					"download"		"1332884144"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5113531"
+				"timeupdated"		"1591194423"
+				"timebuildupdated"		"1591167039"
+			}
+		}
+	}
+}
