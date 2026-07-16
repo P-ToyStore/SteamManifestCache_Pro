@@ -1,0 +1,117 @@
+"appinfo"
+{
+	"appid"		"449740"
+	"common"
+	{
+		"name"		"Alchemist's Awakening Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"53b33996d0aa79a2672bdc8a6a2dd557ff489823"
+		"clienttga"		"f6e4006ac4f0627f15545044c894c2f0829ac13b"
+		"icon"		"17bf712b7a26d1ed92971ade51603e951915b1d2"
+		"logo"		"5979ef07e8d3c46f00b9dc02fc4dd2fb1b568902"
+		"logo_small"		"5979ef07e8d3c46f00b9dc02fc4dd2fb1b568902_thumb"
+		"freetodownload"		"1"
+		"metacritic_name"		"Alchemist's Awakening Dedicated Server"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"store_asset_mtime"		"1457289211"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1458599146"
+		"gameid"		"449740"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Alchemist's Awakening Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"java"
+				"arguments"		"-jar AlchemistServerPG.jar -Xmx2048m"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"449741"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3836634203701580445"
+					"size"		"19352832"
+					"download"		"14986656"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5196375"
+				"timeupdated"		"1592776575"
+				"timebuildupdated"		"1592776439"
+			}
+		}
+	}
+}
