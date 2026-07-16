@@ -1,0 +1,81 @@
+"appinfo"
+{
+	"appid"		"839510"
+	"common"
+	{
+		"name"		"Scrunk Server"
+		"type"		"Tool"
+		"parent"		"818780"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"logo"		"8872b3a5ec476a4c3c3787e58100bf0730cb74fb"
+		"logo_small"		"8872b3a5ec476a4c3c3787e58100bf0730cb74fb_thumb"
+		"icon"		"c74747126be1dc7414f5953b25c704242cc62b2a"
+		"clienticon"		"3caaa073a856d656e11632386aed830a6ff6a2b5"
+		"clienttga"		"3421efac223cd68c7d173a78978c612c65257709"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"839510"
+	}
+	"config"
+	{
+		"installdir"		"ScrunkServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launch"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"launch"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"launch.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"839511"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4582431092401148117"
+					"size"		"2113314"
+					"download"		"1837072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"7570999"
+				"timeupdated"		"1634778547"
+				"timebuildupdated"		"1634778493"
+			}
+		}
+	}
+}
