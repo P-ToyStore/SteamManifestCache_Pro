@@ -1,0 +1,199 @@
+"appinfo"
+{
+	"appid"		"1998610"
+	"common"
+	{
+		"name"		"Temp Dedicated"
+		"type"		"Tool"
+		"parent"		"1998460"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"icon"		"23b53a9670fd2a36642f8cbf7a728151812c1f67"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"clienticon"		"85779ad4fad165a833eb70d148a02598751f76fb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1998610"
+	}
+	"config"
+	{
+		"installdir"		"UDPTestDedicated"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"tinyWarzoneDedicated.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1998611"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5739740791997769391"
+					"size"		"323459935"
+					"download"		"283797552"
+				}
+				"staging"
+				{
+					"gid"		"4184997894779232555"
+					"size"		"399687189"
+					"download"		"360019808"
+				}
+				"release"
+				{
+					"gid"		"1640196035815784840"
+					"size"		"32458327"
+					"download"		"32902480"
+				}
+			}
+		}
+		"1998612"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5635098917459910858"
+					"size"		"451001126"
+					"download"		"265796208"
+				}
+				"staging"
+				{
+					"gid"		"1097572395276060080"
+					"size"		"468023688"
+					"download"		"264582240"
+				}
+				"release"
+				{
+					"gid"		"327222170851835720"
+					"size"		"155290755"
+					"download"		"43690768"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19386989"
+				"timeupdated"		"1753724773"
+				"timebuildupdated"		"1753719935"
+			}
+			"staging"
+			{
+				"buildid"		"22243694"
+				"description"		"pre-release"
+				"timeupdated"		"1772889644"
+				"timebuildupdated"		"1772889644"
+			}
+			"release"
+			{
+				"buildid"		"16768863"
+				"description"		"pre-public"
+				"timeupdated"		"1734413306"
+				"timebuildupdated"		"1734412574"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		".cloud"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"gameinstall"
+				"addpath"		""
+			}
+		}
+	}
+}
