@@ -1,0 +1,96 @@
+"appinfo"
+{
+	"appid"		"274060"
+	"common"
+	{
+		"name"		"Facepunch Prototypes"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows,macos,linux"
+		"logo"		"c7db26096d140e06e0960e29749a81dabc3d136c"
+		"logo_small"		"c7db26096d140e06e0960e29749a81dabc3d136c_thumb"
+		"icon"		"6c03be3e9265066eb43276a859bc3ad5250f2040"
+		"associations"
+		{
+		}
+		"gameid"		"274060"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"FacepunchPrototypes"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OpenFolder.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"SpaceUsurper/win64/SpaceUsurper.exe"
+				"workingdir"		"SpaceUsurper/win64/"
+				"description"		"Play \"Space Usurper\""
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"ownsdlc"		"601740"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"overridescddb"		"1"
+		"markdlcdepots"		"1"
+		"274061"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3144714795164892991"
+					"size"		"4694492358"
+					"download"		"1000277792"
+				}
+			}
+		}
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1741726"
+				"timeupdated"		"1491572606"
+				"timebuildupdated"		"1491572606"
+			}
+		}
+	}
+}
