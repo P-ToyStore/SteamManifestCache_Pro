@@ -1,0 +1,126 @@
+"appinfo"
+{
+	"appid"		"1612490"
+	"common"
+	{
+		"name"		"Insane Town Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1605140"
+		"logo"		"487f8d33f15e67ebd285c189fdff189e9069d742"
+		"logo_small"		"487f8d33f15e67ebd285c189fdff189e9069d742_thumb"
+		"icon"		"ae706f01008f2aeeecfec445657a16c3b8de1db6"
+		"clienttga"		"5af3c9e10ad3208cf4b9909643e8dbd489229e7a"
+		"clienticon"		"3d1b8cae3d62c9f265c2bc17777cff036b94e811"
+		"releasestate"		"released"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1612490"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Insane Town Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"insanetown\\Binaries\\Linux\\insanetown423Server"
+				"arguments"		"-log"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1612491"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5291547687952308411"
+					"size"		"5102496159"
+					"download"		"1068236368"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9311942"
+				"timeupdated"		"1660472117"
+				"timebuildupdated"		"1660472101"
+			}
+		}
+	}
+}
