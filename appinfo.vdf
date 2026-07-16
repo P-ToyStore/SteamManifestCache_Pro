@@ -1,0 +1,183 @@
+"appinfo"
+{
+	"appid"		"1932270"
+	"common"
+	{
+		"name"		"Condemned Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1647090"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"name_localized"
+		{
+		}
+		"clienttga"		"580d628497bf3fcc27b085f3bb991645be81ce3c"
+		"icon"		"89424985b98d8d02ef8a6d42242f047e28dea460"
+		"logo"		"e4a0f62da8031c8bd73ea320ad40f2817099ae8c"
+		"logo_small"		"e4a0f62da8031c8bd73ea320ad40f2817099ae8c_thumb"
+		"clienticon"		"4b197d09a0754b5caf53557fcc9d9f11bab93cd2"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1932270"
+	}
+	"config"
+	{
+		"installdir"		"WindowsServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BlightServer.exe"
+				"arguments"		" -log -SteamServerName=\"My Blight Server\""
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229033"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1932271"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5979211383140191248"
+					"size"		"801525567"
+					"download"		"551078624"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8415301"
+				"timeupdated"		"1647938500"
+				"timebuildupdated"		"1647938492"
+			}
+		}
+	}
+}
