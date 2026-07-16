@@ -1,0 +1,120 @@
+"appinfo"
+{
+	"appid"		"445400"
+	"common"
+	{
+		"name"		"ARK: Survival of the Fittest Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"445400"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"ARK Survival of the Fittest Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ShooterGame\\Binaries\\Win64\\ShooterGameServer.exe"
+				"workingdir"		"ShooterGame\\Binaries\\Win64"
+				"description"		"Launch ARK SotF Server"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"445401"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6970307838867753174"
+					"size"		"4877434722"
+					"download"		"1542326720"
+				}
+				"devtest"
+				{
+					"gid"		"3512905167332948913"
+					"size"		"3187715905"
+					"download"		"1272710640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10837725"
+				"timeupdated"		"1679583496"
+				"timebuildupdated"		"1679570104"
+			}
+			"devtest"
+			{
+				"buildid"		"1267544"
+				"timeupdated"		"1470623324"
+				"timebuildupdated"		"1470621549"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
