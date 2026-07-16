@@ -1,0 +1,125 @@
+"appinfo"
+{
+	"appid"		"2570570"
+	"common"
+	{
+		"name"		"NOVAKIN Mark0 Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2560710"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"icon"		"d548b3667b5a4f4d203f92a711e8ff51133a0631"
+		"clienttga"		"70121137e2f5ce3bfcb80c4c05083cdd18801f4b"
+		"clienticon"		"eac13363f4a166397fcc9459990cf3e875c16d3c"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2570570"
+	}
+	"config"
+	{
+		"installdir"		"NOVAKIN Mark0 Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NOVAKIN.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2570571"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2456709701622085504"
+					"size"		"1714795539"
+					"download"		"569695984"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12006002"
+				"timeupdated"		"1692730629"
+				"timebuildupdated"		"1692730542"
+			}
+		}
+	}
+}
