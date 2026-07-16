@@ -1,0 +1,236 @@
+"appinfo"
+{
+	"appid"		"2490750"
+	"common"
+	{
+		"name"		"The Dungeon Tower"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"fc22dd92651a2759203cbaa42e5cfdcef6b2cbde"
+		"clienttga"		"1c8135a677e205c0b710834cb3cf3da7162d4058"
+		"clienticns"		"99a305f30f8b2582d99553091a1f0039387ca9a9"
+		"clienticon"		"99a305f30f8b2582d99553091a1f0039387ca9a9"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"46.10983981693362"
+				"height_pct"		"83.66232301344655"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"46.10983981693362"
+					"height_pct"		"83.66232301344655"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1687986490"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Roberto Trasarti"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Roberto Trasarti"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+			"4"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1694433664"
+		"community_hub_visible"		"1"
+		"gameid"		"2490750"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"42804"
+			"2"		"1716"
+			"3"		"3871"
+			"4"		"4305"
+			"5"		"1684"
+			"6"		"1708"
+			"7"		"21"
+			"8"		"597"
+			"9"		"492"
+			"10"		"493"
+			"11"		"14139"
+			"12"		"4182"
+			"13"		"9"
+			"14"		"17305"
+			"15"		"5379"
+			"16"		"21725"
+			"17"		"5350"
+			"18"		"6426"
+			"19"		"19"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Roberto Trasarti"
+		"publisher"		"Roberto Trasarti"
+	}
+	"config"
+	{
+		"installdir"		"The Dungeon Tower"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DungeonTower/launcher_win.bat"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DungeonTower/launcher_mac.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"2490752"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2586355256336787874"
+					"size"		"731939857"
+					"download"		"556492976"
+				}
+			}
+		}
+		"2490754"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4601739182599583491"
+					"size"		"739498491"
+					"download"		"557548640"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13003585"
+				"timeupdated"		"1703013865"
+				"timebuildupdated"		"1703013815"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000"
+		"maxnumfiles"		"100"
+		"sync_while_suspended"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"DungeonTower/save"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+	}
+}
