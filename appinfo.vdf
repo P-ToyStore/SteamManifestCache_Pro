@@ -1,0 +1,174 @@
+"appinfo"
+{
+	"appid"		"928530"
+	"common"
+	{
+		"name"		"Prime & Load: 1776 Dedicated Server"
+		"type"		"Tool"
+		"parent"		"926540"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"774fd6c8bda24efa7c9f73b63a68edc75013d626"
+		"logo_small"		"774fd6c8bda24efa7c9f73b63a68edc75013d626_thumb"
+		"icon"		"84ebfccbbe837ef9bfd06c5ef8c14e850be301ab"
+		"clienticon"		"821849aab4ae42e8aeefc1cdef215fdd86ec527e"
+		"clienttga"		"9d58cdb1ee312ae215bdea973c27b0803d0f5177"
+		"osextended"		""
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"928530"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Prime & Load 1776 Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WaTServer.exe"
+				"arguments"		"-log"
+				"description"		"Launch Prime & Load: 1776 Dedicated Server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"WaTServer.sh"
+				"arguments"		"-log"
+				"description"		"Launch Prime & Load: 1776 Dedicated Server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"928531"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1151962120627918160"
+					"size"		"781509233"
+					"download"		"317936032"
+				}
+			}
+		}
+		"928532"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9169256028913995323"
+					"size"		"781645341"
+					"download"		"321275840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6838348"
+				"timeupdated"		"1623230268"
+				"timebuildupdated"		"1623230268"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
