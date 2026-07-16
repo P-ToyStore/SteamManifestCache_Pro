@@ -1,0 +1,149 @@
+"appinfo"
+{
+	"appid"		"378670"
+	"common"
+	{
+		"name"		"Savage Lands Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		""
+		"logo"		"65816e67e7fe1715fb63e9268122265b8bb330fe"
+		"logo_small"		"65816e67e7fe1715fb63e9268122265b8bb330fe_thumb"
+		"icon"		"8834b911c56f29a767912565f06f9afe96cabe5c"
+		"clienttga"		"8e91762e14d1692572dc9545666504b62089ee9e"
+		"clienticon"		"59bb91b290c56008b370676e60f82292d77705bd"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"378670"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Savage Lands Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SavageLandsDedicatedServer.exe"
+				"arguments"		"-batchmode"
+				"description"		"Launch"
+			}
+		}
+		"usemms"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"378671"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3608576727925629061"
+					"size"		"3883898342"
+					"download"		"1609295600"
+				}
+				"legacy"
+				{
+					"gid"		"3057026379976626504"
+					"size"		"1687608493"
+					"download"		"776891696"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2520189"
+				"timeupdated"		"1518903596"
+				"timebuildupdated"		"1518480298"
+			}
+			"legacy"
+			{
+				"buildid"		"851748"
+				"description"		"The Final Unity 4 Build"
+				"timebuildupdated"		"1447104490"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"5000000"
+		"maxnumfiles"		"200"
+	}
+}
