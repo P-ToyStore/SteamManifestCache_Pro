@@ -1,0 +1,203 @@
+"appinfo"
+{
+	"appid"		"489650"
+	"common"
+	{
+		"name"		"Citadel: Forged With Fire Server"
+		"type"		"Tool"
+		"parent"		"487120"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"4472b2a7288f5833b035fad75187a03805085dd6"
+		"logo_small"		"4472b2a7288f5833b035fad75187a03805085dd6_thumb"
+		"icon"		"aea6f12b282589b6517009c63d194a37599fa631"
+		"clienttga"		"01a4049bd5cbc75abe0feee92a9b477e383c076f"
+		"clienticon"		"a60f16a51628f6d6aa723c18cf21b12ac837a91a"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"489650"
+	}
+	"extended"
+	{
+		"gamedir"		"Citadels and Conjurers"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Citadel Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"CitadelServer.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"CitadelServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"489651"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2288691774824190696"
+					"size"		"1923671908"
+					"download"		"443225040"
+				}
+				"development"
+				{
+					"gid"		"5626598788441062752"
+					"size"		"2231569979"
+					"download"		"516680704"
+				}
+				"publictest"
+				{
+					"gid"		"7153059263808311659"
+					"size"		"1766714892"
+					"download"		"675752768"
+				}
+				"release"
+				{
+					"gid"		"2288691774824190696"
+					"size"		"1923671908"
+					"download"		"443225040"
+				}
+			}
+		}
+		"489652"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2319135073756295769"
+					"size"		"2079782438"
+					"download"		"476320592"
+				}
+				"development"
+				{
+					"gid"		"7880617789906202373"
+					"size"		"2341884184"
+					"download"		"520343008"
+				}
+				"publictest"
+				{
+					"gid"		"4791710429206853996"
+					"size"		"2416485517"
+					"download"		"779369648"
+				}
+				"release"
+				{
+					"gid"		"2319135073756295769"
+					"size"		"2079782438"
+					"download"		"476320592"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6394339"
+				"timeupdated"		"1615996213"
+				"timebuildupdated"		"1615979190"
+			}
+			"development"
+			{
+				"buildid"		"7189550"
+				"timeupdated"		"1628925710"
+				"timebuildupdated"		"1628925710"
+			}
+			"publictest"
+			{
+				"buildid"		"2954711"
+				"timeupdated"		"1531946714"
+				"timebuildupdated"		"1531897462"
+			}
+			"release"
+			{
+				"buildid"		"6394339"
+				"timeupdated"		"1658947769"
+				"timebuildupdated"		"1615979190"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
