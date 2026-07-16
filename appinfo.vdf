@@ -1,0 +1,205 @@
+"appinfo"
+{
+	"appid"		"217860"
+	"common"
+	{
+		"name"		"Special Forces: Team X"
+		"type"		"Game"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"spanish"		"1"
+		}
+		"logo"		"6457c143dd7e5828480e261bf3150c455a62e359"
+		"logo_small"		"6457c143dd7e5828480e261bf3150c455a62e359_thumb"
+		"icon"		"143e376bf72ec718d987d50d5c8b9c88ae9cfc62"
+		"clienttga"		"bd47d79764aa5bdbb1d680984ab2f7b6103244a4"
+		"clienticon"		"c3c02bc6257f23855f69795b55dc75f891b57621"
+		"oslist"		"windows"
+		"metacritic_name"		"Special Forces: Team X"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_1caae1c8f5ac80c32e515078716c18159990737c.jpg"
+		"store_asset_mtime"		"1367414043"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Zombie Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Atari - DNU"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"1"
+				"full_audio"		"1"
+			}
+			"german"
+			{
+				"supported"		"1"
+			}
+			"french"
+			{
+				"supported"		"1"
+			}
+			"italian"
+			{
+				"supported"		"1"
+			}
+			"spanish"
+			{
+				"supported"		"1"
+			}
+		}
+		"steam_release_date"		"1360166400"
+		"metacritic_score"		"48"
+		"metacritic_fullurl"		"https://www.metacritic.com/game/pc/special-forces-team-x?ftag=MCD-06-10aaa1f"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"217860"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"3814"
+			"2"		"3859"
+			"3"		"1697"
+		}
+		"review_score"		"5"
+		"review_percentage"		"53"
+	}
+	"extended"
+	{
+		"developer"		"Zombie Studios"
+		"gamedir"		"ValveTestApp217860"
+		"homepage"		"http://www.specialforcesteamx.com"
+		"icon"		""
+		"installscript"		"install.vdf"
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Atari - DNU"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Special Forces Team X"
+		"installscriptsignature"		"91c2a190fdbf82e8767b599153077226de22d285be20e47e698437b61d9625fe2b7442200cf4a1c541e7b6afc6c034aa59efdcffe6271ae29510e04e422afb25963f58558092f26593baab5d24469339fad0cf263a2b25c20d7b430eb16857799929d776b42d4a7aad72f64fb47177017fa616207bb80e01fddd6627b0eda09a"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries/Win32/SealTeamXGame-Win32-Shipping.exe"
+				"description"		"Launch"
+				"workingdir"		"Binaries/"
+			}
+		}
+		"installscriptoverride"		"1"
+	}
+	"install"
+	{
+		"registry"
+		{
+			"hkey_local_machine\software\microprose\special forces team x"
+			{
+				"string"
+				{
+					"installlocation"		"%INSTALLDIR%"
+				}
+			}
+		}
+		"run process"
+		{
+			"directxinst"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217860"
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\DXSETUP.exe"
+				"command 1"		"/silent"
+				"nocleanup"		"1"
+				"minimumhasrunvalue"		"1"
+			}
+			"physxinst"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217860"
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\PhysX_9.10.0513_SystemSoftware.exe"
+				"command 1"		"/quiet"
+				"nocleanup"		"1"
+				"minimumhasrunvalue"		"100513"
+			}
+			"vcredist_x86"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\217860"
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\vcredist_x86.exe"
+				"command 1"		"/q:a"
+				"nocleanup"		"1"
+				"minimumhasrunvalue"		"1"
+			}
+			"netframework"
+			{
+				"hasrunkey"		"HKEY_LOCAL_MACHINE\\Software\\Microsoft\\Net Framework Setup\\NDP\\v3.5\\1033"
+				"process 1"		"%INSTALLDIR%\\Binaries\\Redist\\dotnetfx35setup.exe"
+				"command 1"		"/passive"
+				"nocleanup"		"1"
+				"minimumhasrunvalue"		"1"
+			}
+		}
+	}
+	"depots"
+	{
+		"217861"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5199905382949915042"
+					"size"		"756689216"
+					"download"		"0"
+				}
+			}
+		}
+		"overridescddb"		"1"
+		"preloadonly"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"51729"
+				"timebuildupdated"		"1363298054"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"2000"
+		"maxnumfiles"		"1"
+	}
+}
