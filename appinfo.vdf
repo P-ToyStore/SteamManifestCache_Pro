@@ -1,0 +1,175 @@
+"appinfo"
+{
+	"appid"		"1303430"
+	"common"
+	{
+		"name"		"Gemini: Binary Conflict Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1293660"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"20ca814e33e37cea415a8e1dd0a3430d30cebae4"
+		"logo_small"		"20ca814e33e37cea415a8e1dd0a3430d30cebae4_thumb"
+		"icon"		"f7b30d01220771aa3fe9a2ee73ff4614123d7d6f"
+		"clienticon"		"512678f517fc7dfb841251ca20930a9a584eb03c"
+		"clienttga"		"1c6a4ad3050fb2e262470872dbebd3d1a90eb574"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1303430"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Gemini Binary Conflict - Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GeminiServer.exe"
+				"arguments"		"fdm_crater -log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"GeminiServer.sh"
+				"arguments"		"fdm_crater -log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1303431"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5904657878664454696"
+					"size"		"517412370"
+					"download"		"153558112"
+				}
+				"test"
+				{
+					"gid"		"5904657878664454696"
+					"size"		"517412370"
+					"download"		"153558112"
+				}
+			}
+		}
+		"1303432"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1211806463412017022"
+					"size"		"580238918"
+					"download"		"123355648"
+				}
+				"test"
+				{
+					"gid"		"1211806463412017022"
+					"size"		"580238918"
+					"download"		"123355648"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"14679172"
+				"timeupdated"		"1718122010"
+				"timebuildupdated"		"1718117156"
+			}
+			"test"
+			{
+				"buildid"		"14679172"
+				"description"		"development branch for testing purposes"
+				"timeupdated"		"1718121964"
+				"timebuildupdated"		"1718117156"
+			}
+		}
+	}
+}
