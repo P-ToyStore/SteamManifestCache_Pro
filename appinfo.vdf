@@ -1,0 +1,240 @@
+"appinfo"
+{
+	"appid"		"2883250"
+	"common"
+	{
+		"name"		"Profanity Police"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"1127ed257b1606617f54f3615099bab36528d837"
+		"clienttga"		"f2f5992283102912af5dc57bcfc125072259bf0d"
+		"clienticon"		"a5f902266c2ea390c48d58f940a559fa2b0861a9"
+		"releasestate"		"released"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"controllertagwizard"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"36.69778296382728"
+				"height_pct"		"40.50106862977917"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"36.69778296382728"
+					"height_pct"		"40.50106862977917"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1735773895"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"The Ugly Cygnet"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"The Ugly Cygnet"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+			"2"		"4"
+			"3"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1721980976"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2883250"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1625"
+			"2"		"5379"
+			"3"		"4305"
+			"4"		"4136"
+			"5"		"3942"
+			"6"		"1651"
+			"7"		"4726"
+			"8"		"1755"
+			"9"		"1719"
+			"10"		"4562"
+			"11"		"6691"
+			"12"		"3871"
+			"13"		"4195"
+			"14"		"3916"
+			"15"		"1673"
+			"16"		"4182"
+			"17"		"19"
+			"18"		"21"
+			"19"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"The Ugly Cygnet"
+		"publisher"		"The Ugly Cygnet"
+	}
+	"config"
+	{
+		"installdir"		"Profanity Police"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Profanity Police.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"2883251"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7581918239687069995"
+					"size"		"140597160"
+					"download"		"98728816"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17244871"
+				"timeupdated"		"1738715019"
+				"timebuildupdated"		"1738714672"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000"
+		"maxnumfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"ProfanityPolice/"
+				"pattern"		"*.dat"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"os"		"Windows"
+				"oscompare"		"="
+				"useinstead"		"WinAppDataRoaming"
+				"addpath"		"ProfanityPolice/"
+			}
+		}
+	}
+}
