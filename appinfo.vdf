@@ -1,0 +1,231 @@
+"appinfo"
+{
+	"appid"		"882430"
+	"common"
+	{
+		"name"		"Beasts of Bermuda Dedicated Server"
+		"type"		"Tool"
+		"parent"		"719890"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"150d386ee1f133eefdca0d4e2a2f87a9a9038f92"
+		"logo_small"		"150d386ee1f133eefdca0d4e2a2f87a9a9038f92_thumb"
+		"icon"		"0d01e5847b2ab02120d9b0e2d76aadc30b8808a6"
+		"clienttga"		"ff8c213f5e44fafe55a9e3ad0a44da526e74c663"
+		"clienticon"		"ab60031ff804dadc474f103d0a53d6e77b4be78e"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"882430"
+	}
+	"extended"
+	{
+		"gamedir"		"BeastsOfBermuda"
+		"serverbrowsername"		"Beasts Of Bermuda"
+		"anti_cheat_support_url"		"https://www.easy.ac/r/steam/gamebans/?steamAppId=882430"
+	}
+	"config"
+	{
+		"installdir"		"Beasts of Bermuda Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindowsServer/BeastsOfBermuda/Binaries/Win64/BeastsOfBermudaServer.exe"
+				"arguments"		"-log -NoVerifyGC"
+				"description"		"Dedicated Server for Beasts Of Bermuda"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"WindowsServer/BeastsOfBermudaServer.exe"
+				"arguments"		"-log -NoVerifyGC"
+				"description"		"Dedicated Server for Beasts of Bermuda"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"LinuxServer/BeastsOfBermudaServer.sh"
+				"arguments"		"-log -NoVerifyGC"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Dedicated Server for Beasts of Bermuda"
+				}
+				"description"		"Dedicated Server for Beasts of Bermuda"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"882431"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3356572374841542521"
+					"size"		"7574399074"
+					"download"		"4497276032"
+				}
+				"tester"
+				{
+					"gid"		"8924690020194578531"
+					"size"		"7579145201"
+					"download"		"4503507552"
+				}
+			}
+		}
+		"882432"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6180413166077429370"
+					"size"		"303696832"
+					"download"		"105069232"
+				}
+				"tester"
+				{
+					"gid"		"6239002334069721604"
+					"size"		"303867840"
+					"download"		"105115040"
+				}
+			}
+		}
+		"882433"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1869969639904534118"
+					"size"		"46036068"
+					"download"		"11417648"
+				}
+				"tester"
+				{
+					"gid"		"1869969639904534118"
+					"size"		"46036068"
+					"download"		"11417648"
+				}
+			}
+		}
+		"719892"
+		{
+			"depotfromapp"		"719890"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24094160"
+				"timeupdated"		"1783445674"
+				"timebuildupdated"		"1783442196"
+			}
+			"tester"
+			{
+				"buildid"		"24097400"
+				"description"		"Tester branch"
+				"timeupdated"		"1783455822"
+				"timebuildupdated"		"1783455822"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
