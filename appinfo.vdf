@@ -1,0 +1,235 @@
+"appinfo"
+{
+	"appid"		"1928160"
+	"common"
+	{
+		"name"		"Taya's Alphabet"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"logo"		"4519a9d8b22e39016379f287a48f8997616c46fc"
+		"logo_small"		"4519a9d8b22e39016379f287a48f8997616c46fc_thumb"
+		"icon"		"077995b3f04f90ade653e6e58f2db8536884aa03"
+		"clienttga"		"2875ae8879866c125dca518162c1d0e3b726db5b"
+		"clienticon"		"2ce2764100f9f5dae3fa1eaabd22a9052d3a85b9"
+		"clienticns"		"e217fbd273e7e8ee6a90e2f543e7088b6496cfbf"
+		"linuxclienticon"		"b64a2e8c02c1529a83df186a90293b32b62d1f1b"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"28.49716508148815"
+				"height_pct"		"60.35983935365627"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"28.49716508148815"
+					"height_pct"		"60.35983935365627"
+				}
+			}
+		}
+		"store_asset_mtime"		"1646452413"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Hibby Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Hibby Games"
+			}
+		}
+		"primary_genre"		"23"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1648215883"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1928160"
+		"store_tags"
+		{
+			"0"		"1036"
+			"1"		"4182"
+			"2"		"597"
+			"3"		"7208"
+			"4"		"1698"
+			"5"		"19"
+			"6"		"71389"
+			"7"		"4562"
+			"8"		"4305"
+			"9"		"4726"
+			"10"		"3871"
+			"11"		"1654"
+			"12"		"5350"
+			"13"		"492"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Hibby Games"
+		"publisher"		"Hibby Games"
+		"homepage"		"https://www.hibbygames.com/tayas-alphabet"
+	}
+	"config"
+	{
+		"installdir"		"Tayas Alphabet"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Taya's Alphabet PC.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Taya's Alphabet.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1928161"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3270696110368946512"
+					"size"		"131602925"
+					"download"		"40971568"
+				}
+			}
+		}
+		"1928162"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7124716525441873583"
+					"size"		"154950420"
+					"download"		"48508000"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8375989"
+				"timeupdated"		"1647357648"
+				"timebuildupdated"		"1647357648"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"409600"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Hibby Games/Taya's Alphabet PC"
+				"pattern"		"*.dat"
+			}
+		}
+		"rootoverrides"
+		{
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Hibby Games/Taya's Alphabet PC"
+						"replace"		"com.HibbyGames.Alphabet"
+					}
+				}
+			}
+		}
+	}
+}
