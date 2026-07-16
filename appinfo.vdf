@@ -1,0 +1,305 @@
+"appinfo"
+{
+	"appid"		"2156440"
+	"common"
+	{
+		"name"		"Raiding.Zone"
+		"type"		"Game"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64"
+		"clienticon"		"aff5a650f57b39fa60e7e7ed939b64d540d171fc"
+		"clienttga"		"e07deab15f52c8a5d03183db6b2e7d57417ae593"
+		"icon"		"e12fba2ad0852aef594bd5642f342de51c1c7f0a"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"73.2225663193064"
+				"height_pct"		"86.70212827632042"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"73.2225663193064"
+					"height_pct"		"86.70212827632042"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1700904268"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Lukas Meisegeier"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Mayope Software Service UG (haftungsbeschränkt)"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"MMORPG"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"PVE"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"Arena"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"29"
+			"2"		"3"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1693903440"
+		"community_hub_visible"		"1"
+		"gameid"		"2156440"
+		"store_tags"
+		{
+			"0"		"122"
+			"1"		"9"
+			"2"		"1754"
+			"3"		"1718"
+			"4"		"1720"
+			"5"		"4094"
+			"6"		"1684"
+			"7"		"4747"
+			"8"		"4155"
+			"9"		"128"
+			"10"		"493"
+			"11"		"19"
+			"12"		"1695"
+			"13"		"6730"
+			"14"		"1685"
+			"15"		"3859"
+			"16"		"4182"
+			"17"		"4191"
+			"18"		"1732"
+			"19"		"1775"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Lukas Meisegeier"
+		"publisher"		"Mayope Software Service UG (haftungsbeschränkt)"
+		"homepage"		"https://raiding.zone"
+	}
+	"config"
+	{
+		"installdir"		"Raiding.Zone"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RaidsClient.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Raiding Zone Windows Client"
+				}
+				"description"		"Raiding Zone Windows Client"
+			}
+			"1"
+			{
+				"executable"		"linux.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Raiding Zone Linux Client"
+				}
+				"description"		"Raiding Zone Linux Client"
+			}
+			"2"
+			{
+				"executable"		"RaidsClient.app\\Contents\\MacOS\\RaidsClient"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"2156441"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6145840030314585760"
+					"size"		"22919582600"
+					"download"		"4104966208"
+				}
+				"beta"
+				{
+					"gid"		"6145840030314585760"
+					"size"		"22919582600"
+					"download"		"4104966208"
+				}
+			}
+		}
+		"2156442"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"979345225876384635"
+					"size"		"23103669881"
+					"download"		"4207698880"
+				}
+				"beta"
+				{
+					"gid"		"979345225876384635"
+					"size"		"23103669881"
+					"download"		"4207698880"
+				}
+			}
+		}
+		"2156443"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9111245224758974876"
+					"size"		"22936799981"
+					"download"		"4113582496"
+				}
+				"beta"
+				{
+					"gid"		"9111245224758974876"
+					"size"		"22936799981"
+					"download"		"4113582496"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"18090243"
+				"timeupdated"		"1744557190"
+				"timebuildupdated"		"1744557130"
+			}
+			"beta"
+			{
+				"buildid"		"18090243"
+				"description"		"Beta Client"
+				"timeupdated"		"1744557172"
+				"timebuildupdated"		"1744557130"
+			}
+		}
+	}
+}
