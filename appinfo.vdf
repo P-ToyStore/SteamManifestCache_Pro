@@ -1,0 +1,145 @@
+"appinfo"
+{
+	"appid"		"1850780"
+	"common"
+	{
+		"name"		"Powerjackers Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1686070"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"c8ad47c08b56cf1edc23962a9adb1e407d20943c"
+		"clienttga"		"1fd44d6732f3e37de4d40576d9968fb974937335"
+		"icon"		"2ea2df3632aeeaa0712edf374f85627748045aae"
+		"linuxclienticon"		"5854fa1a577a54526beeccde5940176d0db33096"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1850780"
+	}
+	"config"
+	{
+		"installdir"		"Powerjackers Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PowerjackersServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"PowerjackersServer.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1850781"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2318523373649984787"
+					"size"		"4009386981"
+					"download"		"1145394272"
+				}
+			}
+		}
+		"1850782"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4459184024718859783"
+					"size"		"3977561919"
+					"download"		"1105333264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10370554"
+				"timeupdated"		"1674251057"
+				"timebuildupdated"		"1674251057"
+			}
+		}
+	}
+}
