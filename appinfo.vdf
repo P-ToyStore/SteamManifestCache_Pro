@@ -1,0 +1,125 @@
+"appinfo"
+{
+	"appid"		"2138530"
+	"common"
+	{
+		"name"		"Wrangel Island Playtest - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2122570"
+		"icon"		"f2e357a891f4face6a8ca55efe38ce8f81c7fabd"
+		"clienttga"		"5ed1de88456443c3204c4ae8c9a2e234f754b12d"
+		"clienticon"		"52193a6ef7b0fa0a659e2bf895252da017f0a7eb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2138530"
+	}
+	"config"
+	{
+		"installdir"		"Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"GameProjectServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2138531"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8374674282803079681"
+					"size"		"416328316"
+					"download"		"137739264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"10885105"
+				"timeupdated"		"1680108227"
+				"timebuildupdated"		"1680108148"
+			}
+		}
+	}
+}
