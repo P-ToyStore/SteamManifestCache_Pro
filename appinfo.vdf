@@ -1,0 +1,126 @@
+"appinfo"
+{
+	"appid"		"349090"
+	"common"
+	{
+		"name"		"Quake Live Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"349090"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Quake Live Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"qzeroded.x86"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"349091"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1763218356016487176"
+					"size"		"967397373"
+					"download"		"960550112"
+				}
+				"beta"
+				{
+					"gid"		"1763218356016487176"
+					"size"		"967397373"
+					"download"		"960550112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1168250"
+				"timeupdated"		"1465312250"
+				"timebuildupdated"		"1465312195"
+			}
+			"beta"
+			{
+				"buildid"		"1168250"
+				"timeupdated"		"1465312266"
+				"timebuildupdated"		"1465312195"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
