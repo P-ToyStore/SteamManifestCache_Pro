@@ -1,0 +1,134 @@
+"appinfo"
+{
+	"appid"		"1827320"
+	"common"
+	{
+		"name"		"Isles of Yore Dedicated Server - Windows"
+		"type"		"Tool"
+		"parent"		"1360850"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1827320_eula_0"
+				"name"		"Isles of Yore Dedicated Server - Windows EULA"
+				"url"		"https://store.steampowered.com//eula/1827320_eula_0"
+				"version"		"5"
+			}
+		}
+		"icon"		"d59cd069e244fa6be8ac545f750b438f80b527a0"
+		"logo"		"8b9a7f2b8cbddac2b96456174056876820a6d146"
+		"logo_small"		"8b9a7f2b8cbddac2b96456174056876820a6d146_thumb"
+		"clienticon"		"36896720f8c77233f05d86b756eff7fa21882766"
+		"clienttga"		"d808cb5faabb9013ddeeaf30b97f0eb3268130dd"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1827320"
+	}
+	"config"
+	{
+		"installdir"		"Dedicated Server - Windows"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"IslesOfYoreServer.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1827321"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1098530229724973998"
+					"size"		"1634375284"
+					"download"		"1335137296"
+				}
+				"experimental"
+				{
+					"gid"		"1098530229724973998"
+					"size"		"1634375284"
+					"download"		"1335137296"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19940448"
+				"timeupdated"		"1757588941"
+				"timebuildupdated"		"1757588057"
+			}
+			"experimental"
+			{
+				"buildid"		"19940448"
+				"description"		"Public experimental branch"
+				"timeupdated"		"1757588929"
+				"timebuildupdated"		"1757588057"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
