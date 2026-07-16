@@ -1,0 +1,116 @@
+"appinfo"
+{
+	"appid"		"1420480"
+	"common"
+	{
+		"name"		"TrickShot Demo Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1410970"
+		"releasestate"		"released"
+		"icon"		"8c270cb3a212aa2a9768f3ccc9de490cf8c4f033"
+		"clienttga"		"005ee45f2afb9f78fd2fe9c723c958f263ede674"
+		"clienticon"		"1e1021cddd2c1e6d52818cc1103085c1ee2a6f30"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1420480"
+	}
+	"extended"
+	{
+		"gamedir"		"TrickShot"
+		"serverbrowsername"		"TrickShot"
+	}
+	"config"
+	{
+		"installdir"		"TrickShot Demo Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"/TrickShot/Binaries/Win64/TrickShotServer.exe"
+				"arguments"		"-log"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1420481"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3596802318427932842"
+					"size"		"361232628"
+					"download"		"210281680"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"9354099"
+				"timeupdated"		"1661008134"
+				"timebuildupdated"		"1661007978"
+			}
+		}
+	}
+}
