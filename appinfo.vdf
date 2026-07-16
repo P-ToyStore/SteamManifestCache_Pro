@@ -1,0 +1,101 @@
+"appinfo"
+{
+	"appid"		"1041860"
+	"common"
+	{
+		"name"		"HELL'S NEW WORLD Dedicated Server"
+		"type"		"Tool"
+		"parent"		"823350"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"ddd8fd7eb83e7963504c6e7f936623c2b0a4d430"
+		"logo_small"		"ddd8fd7eb83e7963504c6e7f936623c2b0a4d430_thumb"
+		"icon"		"6cd2be7988f0e00bda6d3dd40719edff2c64c779"
+		"clienttga"		"d3231d676c504b8bd5c4ba73e0d24c486a37ad42"
+		"clienticon"		"a55f8da2eb0b32f2dda01e2e45746bc6223c7ee5"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1041860"
+	}
+	"config"
+	{
+		"installdir"		"HELL'S NEW WORLD"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindowsServer\\HellsNewWorld\\Binaries\\Win64\\HellsNewWorldServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"LinuxServer/HellsNewWorldServer.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1041862"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"39649747538802905"
+					"size"		"383342613"
+					"download"		"137201952"
+				}
+			}
+		}
+		"1041863"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5265467511865523445"
+					"size"		"468597952"
+					"download"		"108419632"
+				}
+			}
+		}
+		"workshopdepot"		"1041860"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"19976062"
+				"timeupdated"		"1757867019"
+				"timebuildupdated"		"1757866950"
+			}
+		}
+	}
+}
