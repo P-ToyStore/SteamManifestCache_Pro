@@ -1,0 +1,159 @@
+"appinfo"
+{
+	"appid"		"1204170"
+	"common"
+	{
+		"name"		"Onset Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1105810"
+		"releasestate"		"released"
+		"logo"		"0da43a25fd1f4cb8a4f43ddab18d17186b770e44"
+		"logo_small"		"0da43a25fd1f4cb8a4f43ddab18d17186b770e44_thumb"
+		"icon"		"151fa7c9ef0566f47083b40a98eb7ab336ca608a"
+		"clienttga"		"0cfe5a7460dc283b523b5bc66c2b3d657e38d50e"
+		"clienticon"		"a9f94fad7dbb984738e306b8aa34400da90ad35e"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1204170_eula_0"
+				"name"		"Onset Dedicated Server EULA"
+				"url"		"https://store.steampowered.com//eula/1204170_eula_0"
+			}
+		}
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1204170"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Onset Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"OnsetServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"OnsetServer"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1204171"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"52582517278355052"
+					"size"		"180437171"
+					"download"		"58339680"
+				}
+				"beta"
+				{
+					"gid"		"5921585956260372091"
+					"size"		"214271191"
+					"download"		"68009472"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8141104"
+				"timeupdated"		"1644052443"
+				"timebuildupdated"		"1643922382"
+			}
+			"beta"
+			{
+				"buildid"		"11768216"
+				"description"		"UE5"
+				"timeupdated"		"1690124193"
+				"timebuildupdated"		"1690124137"
+			}
+		}
+	}
+}
