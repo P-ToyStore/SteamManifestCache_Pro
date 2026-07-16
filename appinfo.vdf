@@ -1,0 +1,134 @@
+"appinfo"
+{
+	"appid"		"1480080"
+	"common"
+	{
+		"name"		"Notruf 112 - 2 Dedicated Server"
+		"type"		"Tool"
+		"parent"		"785770"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"739c1775f5d60884f4ea8413afa58c290bfcde0d"
+		"logo_small"		"739c1775f5d60884f4ea8413afa58c290bfcde0d_thumb"
+		"icon"		"6cc479ad906679ccace4ff28da1bb09a5dfe49e0"
+		"clienttga"		"9854eb00ea72afaeb989cc1b724fb00cbe6e9ce8"
+		"clienticon"		"44039a2ae7e5c3c5d9f9f95e670c05db7e8438f6"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1480080"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Notruf 112 - 2 Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"server2019.x86"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1480081"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5562666295178927628"
+					"size"		"4272867126"
+					"download"		"3480389360"
+				}
+				"open_beta"
+				{
+					"gid"		"6571732029634812334"
+					"size"		"4260787700"
+					"download"		"3468401600"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"17866677"
+				"timeupdated"		"1743166734"
+				"timebuildupdated"		"1742991203"
+			}
+			"open_beta"
+			{
+				"buildid"		"17751134"
+				"description"		"Public Beta Branch"
+				"timeupdated"		"1743164881"
+				"timebuildupdated"		"1742212819"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
