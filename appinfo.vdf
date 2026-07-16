@@ -1,0 +1,126 @@
+"appinfo"
+{
+	"appid"		"611990"
+	"common"
+	{
+		"name"		"MegagGlest Map Editor"
+		"type"		"Tool"
+		"parent"		"578870"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"clienticon"		"509bdd4bb6d22558fe0801a474e78e6652667d6d"
+		"clienttga"		"8d105a063cd5df8a24b65767cba13efdbf6d0c3e"
+		"icon"		"5956e25522002b39250b746a9273e7ab46831db7"
+		"linuxclienticon"		"9b6cef9fdc6b8d1ec6748b7f351c5f331708d208"
+		"logo"		"c66ab42e7a3cb6e6bc9e2e10b0e978f902b34a37"
+		"logo_small"		"c66ab42e7a3cb6e6bc9e2e10b0e978f902b34a37_thumb"
+		"associations"
+		{
+		}
+		"gameid"		"611990"
+	}
+	"config"
+	{
+		"installdir"		"MegaGlest Map Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"megaglest_editor"
+				"description"		"MegagGlest Map Editor"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"megaglest_editor.exe"
+				"description"		"MegagGlest Map Editor"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"2"
+			{
+				"executable"		"megaglest_editorx64.exe"
+				"description"		"MegagGlest Map Editor"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"611991"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1210087274965778443"
+					"size"		"18482947"
+					"download"		"4233328"
+				}
+			}
+		}
+		"611992"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"779144287744113933"
+					"size"		"11028040"
+					"download"		"3618048"
+				}
+			}
+		}
+		"611993"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8305192295201289018"
+					"size"		"8007240"
+					"download"		"2693152"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1708873"
+				"timeupdated"		"1490226616"
+				"timebuildupdated"		"1490226616"
+			}
+		}
+	}
+}
