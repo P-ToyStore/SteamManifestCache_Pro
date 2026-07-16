@@ -1,0 +1,120 @@
+"appinfo"
+{
+	"appid"		"463280"
+	"common"
+	{
+		"name"		"NOVAKIN Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"oslist"		"windows"
+		"releasestate"		"released"
+		"osarch"		"64"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"463280"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"NOVAKIN Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"NOVAKIN.exe"
+				"arguments"		"-batchmode -nographics -server -serverConfig serverConfig.json"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"463281"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2169485291214973296"
+					"size"		"2376225796"
+					"download"		"769178064"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2891360"
+				"timeupdated"		"1529891819"
+				"timebuildupdated"		"1529891705"
+			}
+		}
+	}
+}
