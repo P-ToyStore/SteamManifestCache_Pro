@@ -1,0 +1,150 @@
+"appinfo"
+{
+	"appid"		"844410"
+	"common"
+	{
+		"name"		"Triggered: Assault Dedicated Server"
+		"type"		"Tool"
+		"parent"		"710510"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"logo"		"1171337e8ad616e1c113e2da1957dcb3a89e8c5a"
+		"logo_small"		"1171337e8ad616e1c113e2da1957dcb3a89e8c5a_thumb"
+		"icon"		"68b0169b62eb3b3e9edaa16e9ecc927ead0418cd"
+		"clienttga"		"b6f70c65a57b6d598da72ec1af35f22e76dc4558"
+		"clienticon"		"825afa418e134939b138af9ef580902ea52124fe"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"844410"
+	}
+	"config"
+	{
+		"installdir"		"Triggered Assault Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Triggered.exe"
+				"arguments"		"-batchmode -nographics"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Triggered_DS.x86_64"
+				"arguments"		"-batchmode -nographics"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"844411"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6135008719997135084"
+					"size"		"1846532609"
+					"download"		"617348240"
+				}
+			}
+		}
+		"844412"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"926983899713616231"
+					"size"		"1918241265"
+					"download"		"684126896"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4397026"
+				"timeupdated"		"1573930296"
+				"timebuildupdated"		"1573930296"
+			}
+		}
+	}
+}
