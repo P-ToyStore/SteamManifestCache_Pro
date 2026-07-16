@@ -1,0 +1,132 @@
+"appinfo"
+{
+	"appid"		"382280"
+	"common"
+	{
+		"name"		"Abatron Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"eda993a7d9908f652cb737dc51858f1a775910d5"
+		"logo_small"		"eda993a7d9908f652cb737dc51858f1a775910d5_thumb"
+		"icon"		"45168d2b8df18657b68a853c62bc0f01c1e41ca9"
+		"clienttga"		"bceda1aae4f69ed13f665d9a31b93f6153f35866"
+		"clienticon"		"290423abeb64f327e5d09dd911d6c538c3ce3e66"
+		"releasestate"		"released"
+		"parent"		"314350"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1485285855"
+		"gameid"		"382280"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Abatron Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AbatronServer.exe"
+				"description"		"Launch"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"382281"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"262144044411365575"
+					"size"		"385584779"
+					"download"		"129856480"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2018443"
+				"timeupdated"		"1502121223"
+				"timebuildupdated"		"1502121174"
+			}
+		}
+	}
+}
