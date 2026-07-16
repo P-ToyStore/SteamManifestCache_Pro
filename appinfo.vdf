@@ -1,0 +1,136 @@
+"appinfo"
+{
+	"appid"		"313600"
+	"common"
+	{
+		"name"		"NEOTOKYO Dedicated Server"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"44519c756c43eafd398214ee02b72b45d088412c"
+		"logo_small"		"44519c756c43eafd398214ee02b72b45d088412c_thumb"
+		"icon"		"b3aca5483864fa3f92ef1605a8ef753ff1c4f4a6"
+		"clienttga"		"0c930883d408bd0af16b19c261788bd7e2f1600a"
+		"clienticon"		"17f5f3de2d9eaff4470163ec98a4cba271d50a48"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"313600"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"NEOTOKYO Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"313601"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4986909698236301347"
+					"size"		"1993450564"
+					"download"		"1312865760"
+				}
+				"beta"
+				{
+					"gid"		"7634793942695257723"
+					"size"		"1993450564"
+					"download"		"1312935088"
+				}
+				"previous"
+				{
+					"gid"		"1028248622683607634"
+					"size"		"1992277502"
+					"download"		"1312441216"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23495592"
+				"timeupdated"		"1780245279"
+				"timebuildupdated"		"1780244485"
+			}
+			"beta"
+			{
+				"buildid"		"23537094"
+				"description"		" Misc fixes"
+				"timeupdated"		"1780447572"
+				"timebuildupdated"		"1780447293"
+			}
+			"previous"
+			{
+				"buildid"		"21288921"
+				"description"		"Game version prior to 2026-05-31 update"
+				"timeupdated"		"1766446857"
+				"timebuildupdated"		"1766446827"
+			}
+		}
+	}
+}
