@@ -1,0 +1,115 @@
+"appinfo"
+{
+	"appid"		"460320"
+	"common"
+	{
+		"name"		"MetaTron Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"46a2fbf192105cbb396ab2a2b81d69d70082bee4"
+		"logo_small"		"46a2fbf192105cbb396ab2a2b81d69d70082bee4_thumb"
+		"icon"		"e1299204ce9e73d43180f11fad65b2c48a1dc9a6"
+		"clienticon"		"fdd324231e696d8ae686e973231491f3a2df71ff"
+		"clienttga"		"1878416770974992ef2c329f3477e3666f0fd8e7"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"460320"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"MetaTronDedicatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MetaTron_Server.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"460321"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6960298785918312956"
+					"size"		"2863670124"
+					"download"		"1053070128"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1773234"
+				"timeupdated"		"1492798376"
+				"timebuildupdated"		"1492791347"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
