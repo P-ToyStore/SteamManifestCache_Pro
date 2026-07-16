@@ -1,0 +1,179 @@
+"appinfo"
+{
+	"appid"		"584080"
+	"common"
+	{
+		"name"		"Proton Ball"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"1"
+			}
+		}
+		"logo"		"96cb575793c8e9ee364ff8735c6a7683bb522dc4"
+		"logo_small"		"96cb575793c8e9ee364ff8735c6a7683bb522dc4_thumb"
+		"icon"		"2a8181b6afcacd054783b4068099da7fce1216d0"
+		"clienticon"		"0970906527446ee53373afd4dbfacd7a544c976a"
+		"clienttga"		"ac3cf06d396ab68484ccb11bf145441bbaa1c776"
+		"openvrsupport"		"1"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Proton Ball"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b38b15ff7072695d3ef90b638bbf2c1bd726430f.jpg"
+		"store_asset_mtime"		"1549385649"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Exoception"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Exoception"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"18"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_37"		"1"
+			"category_27"		"1"
+			"category_49"		"1"
+			"category_44"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1550503500"
+		"community_hub_visible"		"1"
+		"gameid"		"584080"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"701"
+			"2"		"21978"
+		}
+	}
+	"extended"
+	{
+		"developer"		"Exoception"
+		"publisher"		"Exoception"
+	}
+	"config"
+	{
+		"installdir"		"Proton Ball"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ProtonBall.exe"
+				"arguments"		"-audiomixer -nosettings"
+				"description"		"Default launch without settings"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"ProtonBall.exe"
+				"arguments"		"-audiomixer"
+				"description"		"Allows change of settings like score to win or restart allowed."
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"584081"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3719424950856847573"
+					"size"		"1438992830"
+					"download"		"456247520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3516077"
+				"timeupdated"		"1548863433"
+				"timebuildupdated"		"1548863239"
+			}
+		}
+	}
+}
