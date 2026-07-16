@@ -1,0 +1,157 @@
+"appinfo"
+{
+	"appid"		"1003980"
+	"common"
+	{
+		"name"		"Right to Rule Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1003950"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"5cb187b660edbacb3b76da0f50575b30285ee630"
+		"logo_small"		"5cb187b660edbacb3b76da0f50575b30285ee630_thumb"
+		"icon"		"81c3429aff333454662d24780392b7c9d209fb1f"
+		"clienticon"		"6c14d5c29778e7cf6f87a1a172f35cccdfb98ef9"
+		"clienttga"		"b8a5ce340f948ca6d4dc0a33261c3072704754ba"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1003980"
+	}
+	"extended"
+	{
+		"gamedir"		"Right to Rule"
+		"serverbrowsername"		"Server Browser"
+	}
+	"config"
+	{
+		"installdir"		"Right to Rule Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"RightToRule\\Binaries\\Win64\\RightToRuleServer-Win64-Shipping.exe"
+				"arguments"		"/Game/Maps/Lobby/LobbyMap?listen -log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1003981"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3880146082339922935"
+					"size"		"2220991922"
+					"download"		"702591312"
+				}
+			}
+		}
+		"1003982"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4609346173753592680"
+					"size"		"4361070859"
+					"download"		"975991584"
+				}
+			}
+		}
+		"1003983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+		}
+		"1003984"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12536429"
+				"timeupdated"		"1698273026"
+				"timebuildupdated"		"1698273026"
+			}
+		}
+	}
+}
