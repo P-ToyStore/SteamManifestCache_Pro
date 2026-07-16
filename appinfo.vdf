@@ -1,0 +1,116 @@
+"appinfo"
+{
+	"appid"		"2800870"
+	"common"
+	{
+		"name"		"Halcyon Dive"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"gameid"		"2800870"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"installdir"		"Halcyon Dive"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HalcyonDive.exe"
+				"arguments"		"--client --realm playtest.na1"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Description"
+				}
+				"description"		"Description"
+			}
+			"1"
+			{
+				"executable"		"HalcyonDive.app"
+				"arguments"		"--client --realm playtest.na1"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"2800871"
+		{
+			"config"
+			{
+				"oslist"		"windows,linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7719314945994840667"
+					"size"		"2623704059"
+					"download"		"2112553552"
+				}
+			}
+		}
+		"2800872"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8830008658368039518"
+					"size"		"64417894"
+					"download"		"18398384"
+				}
+			}
+		}
+		"2800873"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5586395540238909452"
+					"size"		"2819426388"
+					"download"		"2157973712"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"20239642"
+				"timeupdated"		"1759503619"
+				"timebuildupdated"		"1759498205"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"2500000"
+		"maxnumfiles"		"25"
+	}
+}
