@@ -1,0 +1,181 @@
+"appinfo"
+{
+	"appid"		"462310"
+	"common"
+	{
+		"name"		"Day of Infamy Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"releasestate"		"released"
+		"parent"		"447820"
+		"freetodownload"		"1"
+		"metacritic_name"		"Day of Infamy Dedicated Server"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1469728800"
+		"gameid"		"462310"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Day of Infamy Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"workingdir"		"bin"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"srcds_linux"
+				"workingdir"		"bin"
+				"description"		"Launch"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"462311"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1007577009454669389"
+					"size"		"12916017857"
+					"download"		"6530269984"
+				}
+				"beta"
+				{
+					"gid"		"7320390893685177505"
+					"size"		"12898541838"
+					"download"		"6523739152"
+				}
+				"private"
+				{
+					"gid"		"7320390893685177505"
+					"size"		"12898541838"
+					"download"		"6523739152"
+				}
+			}
+		}
+		"workshopdepot"		"462310"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"21311212"
+				"timeupdated"		"1766659293"
+				"timebuildupdated"		"1766659120"
+			}
+			"beta"
+			{
+				"buildid"		"2740872"
+				"timeupdated"		"1525299997"
+				"timebuildupdated"		"1525299601"
+			}
+			"private"
+			{
+				"buildid"		"2740872"
+				"timeupdated"		"1525300005"
+				"timebuildupdated"		"1525299601"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
