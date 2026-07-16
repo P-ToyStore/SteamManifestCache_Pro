@@ -1,0 +1,148 @@
+"appinfo"
+{
+	"appid"		"1377020"
+	"common"
+	{
+		"name"		"Sanctuary Island dedicated server"
+		"type"		"Tool"
+		"parent"		"1377010"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"ed4a52abe950b20a16d5efd3efb5247e9c494026"
+		"logo_small"		"ed4a52abe950b20a16d5efd3efb5247e9c494026_thumb"
+		"icon"		"7d266c757d4c8490d726a2a5bc48d213f6aa734f"
+		"clienticon"		"1f0ad587a3605f525f8b9f8cc7f687df093a6248"
+		"clienttga"		"9537e631700dc7ec2fe703c22a2377ff91e26f73"
+		"freetodownload"		"1"
+		"app_retired_publisher_request"		"1"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1642219200"
+		"gameid"		"1377020"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Sanctuary Island dedicated server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SanctuaryIslandServer.exe"
+				"type"		"server"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1377021"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4013337334791713592"
+					"size"		"725120715"
+					"download"		"295782864"
+				}
+				"test"
+				{
+					"gid"		"4013337334791713592"
+					"size"		"725120715"
+					"download"		"295782864"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12682949"
+				"timeupdated"		"1745861120"
+				"timebuildupdated"		"1699796124"
+			}
+			"test"
+			{
+				"buildid"		"12682949"
+				"description"		"Testbranch"
+				"timeupdated"		"1699796183"
+				"timebuildupdated"		"1699796124"
+			}
+		}
+	}
+}
