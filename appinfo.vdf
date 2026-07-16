@@ -1,0 +1,208 @@
+"appinfo"
+{
+	"appid"		"1405890"
+	"common"
+	{
+		"name"		"Blood Oath: When The Sword Rises dedicated server"
+		"type"		"Tool"
+		"parent"		"1399190"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"e73918eead81aa08dc278b7ac55aa4d61a5b5c22"
+		"logo_small"		"e73918eead81aa08dc278b7ac55aa4d61a5b5c22_thumb"
+		"icon"		"d20419a531b1ceee8e1b8f57e723719402412ad3"
+		"clienttga"		"dd7cdfb83ed0afd7ec56b227ec8d71c4e29be605"
+		"clienticon"		"926075669f8caf0c5d1ae154f1b88b68b877113c"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1405890"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Blood Oath When The Sword Rises dedicated server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BloodOathWTSRServer.exe"
+				"description"		"Dedicated Server"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"BloodOathWTSRServer.sh"
+				"description"		"Linux Dedicated Server"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1405891"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5977469505492572677"
+					"size"		"428171785"
+					"download"		"277221408"
+				}
+				"server"
+				{
+					"gid"		"5977469505492572677"
+					"size"		"428171785"
+					"download"		"277221408"
+				}
+				"testing"
+				{
+					"gid"		"4850502933738785262"
+					"size"		"635547321"
+					"download"		"360045312"
+				}
+			}
+		}
+		"1405892"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7352978295039393128"
+					"size"		"2538076138"
+					"download"		"587765312"
+				}
+				"server"
+				{
+					"gid"		"7352978295039393128"
+					"size"		"2538076138"
+					"download"		"587765312"
+				}
+				"testing"
+				{
+					"gid"		"7892497832498071606"
+					"size"		"5621373089"
+					"download"		"886917520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"6274856"
+				"timeupdated"		"1613988819"
+				"timebuildupdated"		"1613988789"
+			}
+			"server"
+			{
+				"buildid"		"6274856"
+				"description"		"Multiplatform dedicated server"
+				"timeupdated"		"1613988789"
+				"timebuildupdated"		"1613988789"
+			}
+			"testing"
+			{
+				"buildid"		"16200085"
+				"description"		"Access to the testing stage for Unreal 5.4"
+				"timeupdated"		"1730070401"
+				"timebuildupdated"		"1730070401"
+			}
+		}
+	}
+}
