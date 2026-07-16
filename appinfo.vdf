@@ -1,0 +1,146 @@
+"appinfo"
+{
+	"appid"		"557690"
+	"common"
+	{
+		"name"		"Vengeance: Dedicated Server (OBSOLETE)"
+		"type"		"Tool"
+		"parent"		"384960"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"clienttga"		"0ac426db99687242039bd087644022bc6d9bca12"
+		"clienticon"		"e24b43d007d9ff4bb7b88f31088e678187231a7c"
+		"icon"		"36e6b99658ac806ad94294c414a82eeb5250585f"
+		"logo"		"3031b45cc232be25dba8991d7fe2c4a03e956289"
+		"logo_small"		"3031b45cc232be25dba8991d7fe2c4a03e956289_thumb"
+		"associations"
+		{
+		}
+		"gameid"		"557690"
+	}
+	"config"
+	{
+		"installdir"		"Vengeance Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"vengeanceServer.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"vengeanceServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"557691"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3996648647336564824"
+					"size"		"1292362485"
+					"download"		"425553424"
+				}
+			}
+		}
+		"557692"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2674142791512406017"
+					"size"		"1212415250"
+					"download"		"390634256"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2349227"
+				"timeupdated"		"1512672006"
+				"timebuildupdated"		"1512672006"
+			}
+		}
+	}
+}
