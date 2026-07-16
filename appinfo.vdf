@@ -1,0 +1,133 @@
+"appinfo"
+{
+	"appid"		"2842470"
+	"common"
+	{
+		"name"		"Project Ethereal - Dedicated Server Toolbox"
+		"type"		"Tool"
+		"parent"		"1808880"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"db57f37d90fb0ada54c4be75da5361d612ef6888"
+		"clienticon"		"02d800a271e13a3a63fd568570131f1554e1bf06"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2842470"
+	}
+	"config"
+	{
+		"installdir"		"PE Dedicated Server Toolbox"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"server.x86_64"
+				"arguments"		"-batchmode -nographics"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"server.exe"
+				"arguments"		"-batchmode -nographics"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"server.app"
+				"arguments"		"-batchmode -nographics"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2017673"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7364824452986973988"
+					"size"		"72395901"
+					"download"		"20839872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"13521202"
+				"timeupdated"		"1708530305"
+				"timebuildupdated"		"1708530269"
+			}
+		}
+	}
+}
