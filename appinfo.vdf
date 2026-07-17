@@ -1,0 +1,191 @@
+"appinfo"
+{
+	"appid"		"2710220"
+	"common"
+	{
+		"name"		"Delverium Playtest"
+		"type"		"Beta"
+		"parent"		"2710040"
+		"releasestate"		"unavailable"
+		"icon"		"affc9dee7e052a1b7ed9936e47d54f6c84c225dd"
+		"clienticon"		"e41fcbdcdd6f8376d683fa95f08091a3929e8c71"
+		"clienttga"		"6012ea81d68607ad0dfc5610e61f17101373c1fd"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"092d1d296c169000231f896500acf66a6a38aa28/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"366882ca1a5a3c0865265133687f07d1691c9402/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"UpperCenter"
+				"width_pct"		"87.1853546910755"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"c2976e02ae505eec45d66680c6463dcc97c8fe0b/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"c2976e02ae505eec45d66680c6463dcc97c8fe0b/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"4f56e316f0aaed3ebb3fbea9500d2142504a7ba6/library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"4f56e316f0aaed3ebb3fbea9500d2142504a7ba6/library_hero_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"4f56e316f0aaed3ebb3fbea9500d2142504a7ba6/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"0d712dfd77dc2961d854125715b6f695e238246c/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"0d712dfd77dc2961d854125715b6f695e238246c/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"UpperCenter"
+					"width_pct"		"87.1853546910755"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"99487a7a3e6f8bfe9dd5f37f12cb4879397b2555/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"99487a7a3e6f8bfe9dd5f37f12cb4879397b2555/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1756948496"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"gameid"		"2710220"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"absolutemousecoordinates"		"0"
+		"remoteplaytogethertestingbranches"		"default"
+		"playtest_type"		"0"
+		"playtestinvitecount"		"3"
+		"playtestinviteendtime"		"1795956833"
+	}
+	"config"
+	{
+		"installdir"		"Delverium Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Delverium.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"2710221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4259747748607640202"
+					"size"		"227418737"
+					"download"		"132609104"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24253428"
+				"timeupdated"		"1784268005"
+				"timebuildupdated"		"1784267426"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"Users/{64BitSteamID}/Saves/Player"
+				"pattern"		"*.psv"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"Users/{64BitSteamID}/Saves/World"
+				"pattern"		"*.wsv"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"Users/{64BitSteamID}/Saves/World"
+				"pattern"		"*.vsv"
+				"recursive"		"1"
+			}
+		}
+	}
+}
