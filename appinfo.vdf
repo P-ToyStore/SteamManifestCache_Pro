@@ -1,0 +1,158 @@
+"appinfo"
+{
+	"appid"		"392990"
+	"common"
+	{
+		"name"		"PCE Open Testing Beta"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"8f1f33cf7a4646ff76ff4a13b17693d9a398d6f9"
+		"logo_small"		"8f1f33cf7a4646ff76ff4a13b17693d9a398d6f9_thumb"
+		"icon"		"0c9f64ffe631efcc1c7367742e0a57258cb6278e"
+		"clienticon"		"acdedc2593c79f1082355e43744c9aa9efe226bf"
+		"clienttga"		"56b6b042e9741ee0c77e76702b39f6a4c1e92853"
+		"exfgls"		"1"
+		"osarch"		"64"
+		"osextended"		""
+		"associations"
+		{
+		}
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"392990"
+		"store_tags"
+		{
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"PrimalCarnageExtinction"
+		"serverbrowsername"		"Primal Carnage: Extinction Open Testing"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Primal Carnage Extinction Open Testing"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Binaries\\Win64\\PrimalCarnageGame.exe"
+				"arguments"		"-seekfreeloadingpcconsole -testeconomy  -testanalytics -dxvk"
+				"type"		"option1"
+				"config"
+				{
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Vulkan (Experimental)"
+				}
+				"description"		"Vulkan (Experimental)"
+			}
+			"2"
+			{
+				"executable"		"Binaries\\Win64\\PrimalCarnageGame.exe"
+				"arguments"		"-seekfreeloadingpcconsole -testeconomy  -testanalytics"
+				"type"		"option2"
+				"description_loc"
+				{
+					"english"		"DirectX 9 (Legacy)"
+				}
+				"description"		"DirectX 9 (Legacy)"
+			}
+		}
+		"steamcontrollertemplateindex"		"1"
+		"steamcontrollerconfigdetails"
+		{
+			"3094373068"
+			{
+				"controller_type"		"controller_neptune"
+				"enabled_branches"		"default,biggysmalls"
+				"use_action_block"		"false"
+			}
+		}
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229032"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"392992"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"406305721486036236"
+					"size"		"14605250622"
+					"download"		"11042761584"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24325628"
+				"timeupdated"		"1784718522"
+				"timebuildupdated"		"1784683759"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
