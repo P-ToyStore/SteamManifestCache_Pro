@@ -1,0 +1,159 @@
+"appinfo"
+{
+	"appid"		"336400"
+	"common"
+	{
+		"name"		"PCE Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"logo"		"9a5105c853b427f1161caf958fa53205a536a7ce"
+		"logo_small"		"9a5105c853b427f1161caf958fa53205a536a7ce_thumb"
+		"clienticon"		"878a3447c5aeff6f203b2c51ed06c3f14b60341b"
+		"clienttga"		"10f9055409a55903778c5f325171863bb996b78f"
+		"icon"		"534a241cac3715a699f74b98a2b691fc18b06f5b"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"336400"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Primal Carnage Extinction Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win64\\PrimalCarnageServer.exe"
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229032"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"336401"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4159157016730377465"
+					"size"		"1571899050"
+					"download"		"1233530896"
+				}
+				"opentesting"
+				{
+					"gid"		"8729840147439956908"
+					"size"		"1571901465"
+					"download"		"1233526080"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24344285"
+				"timeupdated"		"1784883285"
+				"timebuildupdated"		"1784765535"
+			}
+			"opentesting"
+			{
+				"buildid"		"24325635"
+				"description"		"Open Testing Branch"
+				"timeupdated"		"1784718541"
+				"timebuildupdated"		"1784683802"
+			}
+		}
+	}
+}
