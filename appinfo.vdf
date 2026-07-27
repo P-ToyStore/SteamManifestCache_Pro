@@ -1,0 +1,83 @@
+"appinfo"
+{
+	"appid"		"420600"
+	"common"
+	{
+		"name"		"Worlds Adrift Alpha"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"420600_eula_0"
+				"name"		"Worlds Adrift Alpha EULA"
+				"url"		"http://store.steampowered.com//eula/420600_eula_0"
+			}
+		}
+		"osarch"		""
+		"associations"
+		{
+		}
+		"gameid"		"420600"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Worlds Adrift Alpha"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"UnityClient@Windows.exe"
+				"arguments"		"-show-screen-selector +appName worlds_adrift_a +projectName worlds_adrift_a +authProvider steam +assetDatabaseStrategy Local +localAssetDatabasePath ./Assets"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"420601"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1872847643716452914"
+					"size"		"36954121"
+					"download"		"14696480"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"1895712"
+				"timeupdated"		"1498559843"
+				"timebuildupdated"		"1497632116"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
