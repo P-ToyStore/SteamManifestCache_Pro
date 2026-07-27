@@ -1,0 +1,107 @@
+"appinfo"
+{
+	"appid"		"412060"
+	"common"
+	{
+		"name"		"Entropy Rising Editor"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"logo"		"14c11515087e86ab08e2188ead359b94d4d71002"
+		"logo_small"		"14c11515087e86ab08e2188ead359b94d4d71002_thumb"
+		"clienticon"		"2e061eb2828cbc72b83fa3e14627cb239ff3eff9"
+		"clienttga"		"f7bceb0fc4b42196071616ae6540f59404d96a76"
+		"icon"		"824e842ba611d743846a8f430f11a382bfcf383d"
+		"oslist"		"windows"
+		"associations"
+		{
+		}
+		"gameid"		"412060"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Entropy Rising Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"EntropyRisingEditor.exe"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"229003"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"412061"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7687966768186438949"
+					"size"		"979386562"
+					"download"		"389442704"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"974452"
+				"timebuildupdated"		"1455316489"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"appidredirect"		"334830"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinMyDocuments"
+				"path"		"My Games\\Entropy Rising\\EditorData"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
