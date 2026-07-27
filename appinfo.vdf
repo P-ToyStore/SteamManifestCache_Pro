@@ -1,0 +1,71 @@
+"appinfo"
+{
+	"appid"		"2857200"
+	"common"
+	{
+		"name"		"Abiotic Factor Dedicated Server"
+		"type"		"Tool"
+		"parent"		"427410"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"c043a24f5ba61aeb0a78163b9aee78a930eef1c5"
+		"clienttga"		"4b04fd75bb378c09ebd20774c41bc0733d3e4075"
+		"clienticon"		"8946b7b06708118a53ec49336aa25819ae08f747"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2857200"
+	}
+	"config"
+	{
+		"installdir"		"Abiotic Factor Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AbioticFactorServer.exe"
+				"arguments"		"-log -newconsole"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2857201"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4667113027278604664"
+					"size"		"3014954555"
+					"download"		"726285440"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24343458"
+				"timeupdated"		"1785179524"
+				"timebuildupdated"		"1784761143"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
