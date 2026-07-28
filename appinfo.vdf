@@ -1,0 +1,818 @@
+"appinfo"
+{
+	"appid"		"1121310"
+	"common"
+	{
+		"name"		"ViRo Playspace"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"logo"		"27debf020361155ef3dabca8f60bbe38d4a44f94"
+		"logo_small"		"27debf020361155ef3dabca8f60bbe38d4a44f94_thumb"
+		"icon"		"b149eca5de1db86bc659f607ab1f57326ea50dc4"
+		"clienticon"		"b42f8d34485e696adba4546d57398a82ad953ecf"
+		"clienttga"		"c4edabd46ca2efbb5ee0219a281ab1e91ede4854"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+			"kbm"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"openvr_action_manifest_path"		"ViRoPlayspace_Data/StreamingAssets/SteamVR/actions.json"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1121310_eula_0"
+				"name"		"Virtual Romance Club EULA"
+				"url"		"https://store.steampowered.com//eula/1121310_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"5"
+			"3"		"4"
+		}
+		"restricted_countries"		"CN,DE,SA"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"steam_machine_compatibility"		"2"
+			"test_timestamp"		"1743120000"
+			"tested_build_id"		"17169302"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"5"
+				{
+					"display"		"1"
+					"token"		"#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+				}
+			}
+			"steam_machine_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+				}
+				"4"
+				{
+					"display"		"1"
+					"token"		"#SteamMachine_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"1"
+				"recommended_runtime"		"proton-9.0-4RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+				"requires_proton_soundfonts"		"0"
+			}
+		}
+		"metacritic_name"		"Virtual Romance Club"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"81.85128220181696"
+				"height_pct"		"47.92043583576674"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"81.85128220181696"
+					"height_pct"		"47.92043583576674"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"31d78f99f6932e62772b06ae83694530a9a214c5/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"31d78f99f6932e62772b06ae83694530a9a214c5/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1751104317"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LewdTube LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LewdTube LLC"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"37"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_35"		"1"
+			"category_18"		"1"
+			"category_52"		"1"
+			"category_30"		"1"
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_38"		"1"
+			"category_9"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1568416260"
+		"community_hub_visible"		"1"
+		"gameid"		"1121310"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"4"
+			"3"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"12095"
+			"1"		"21978"
+			"2"		"9130"
+			"3"		"6650"
+			"4"		"44868"
+			"5"		"9204"
+			"6"		"11014"
+			"7"		"9551"
+			"8"		"4947"
+			"9"		"599"
+			"10"		"3839"
+			"11"		"4726"
+			"12"		"7250"
+			"13"		"493"
+			"14"		"4085"
+			"15"		"4182"
+			"16"		"1684"
+			"17"		"492"
+			"18"		"4175"
+			"19"		"4835"
+		}
+		"review_score"		"5"
+		"review_percentage"		"40"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"absolutemousecoordinates"		"0"
+		"remoteplaytogethertestingbranches"		"private_spaces_beta"
+		"developer"		"LewdTube LLC"
+		"publisher"		"LewdTube LLC"
+		"homepage"		"https://viro.club"
+		"isfreeapp"		"1"
+		"listofdlc"		"1369450,1369451,1369452,1369453,1369454,1369455,1369456,1402170,1547850,1771670,1841620,1961610,1989580,2180470,2236690,2726340,3347230"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Virtual Romance Club"
+		"launch"
+		{
+			"3"
+			{
+				"executable"		"ViRoPlayspace.exe"
+				"arguments"		"-runxr"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"ViRo Playspace SteamVR (Both VR/Non-VR)"
+				}
+				"description"		"ViRo Playspace SteamVR (Both VR/Non-VR)"
+			}
+			"4"
+			{
+				"executable"		"ViRoPlayspace.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"ViRo Playspace (Non-VR)"
+				}
+				"description"		"ViRo Playspace (Non-VR)"
+			}
+		}
+		"steamcontrollertemplateindex"		"13"
+		"steamdecktouchscreen"		"1"
+		"steaminputmanifestpath"		"ViRoPlayspace_Data/StreamingAssets/input/actions.json"
+		"steamconfigurator3rdpartynative"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"hasdepotsindlc"		"0"
+		"workshopdepot"		"1121310"
+		"1121311"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4882878439827987470"
+					"size"		"1520003160"
+					"download"		"569935872"
+				}
+				"public_beta"
+				{
+					"gid"		"4882878439827987470"
+					"size"		"1520003160"
+					"download"		"569935872"
+				}
+			}
+		}
+		"2236690"
+		{
+			"dlcappid"		"2236690"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2624059290534584485"
+					"size"		"101777372"
+					"download"		"101785184"
+				}
+				"public_beta"
+				{
+					"gid"		"2624059290534584485"
+					"size"		"101777372"
+					"download"		"101785184"
+				}
+			}
+		}
+		"1547850"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1547850"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6775221434513939765"
+					"size"		"148667215"
+					"download"		"150701344"
+				}
+				"public_beta"
+				{
+					"gid"		"6775221434513939765"
+					"size"		"148667215"
+					"download"		"150701344"
+				}
+			}
+		}
+		"1961610"
+		{
+			"dlcappid"		"1961610"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2004538842289408603"
+					"size"		"158054235"
+					"download"		"160216912"
+				}
+				"public_beta"
+				{
+					"gid"		"2004538842289408603"
+					"size"		"158054235"
+					"download"		"160216912"
+				}
+			}
+		}
+		"1841620"
+		{
+			"dlcappid"		"1841620"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6190652881950094304"
+					"size"		"170661699"
+					"download"		"172996880"
+				}
+				"public_beta"
+				{
+					"gid"		"6190652881950094304"
+					"size"		"170661699"
+					"download"		"172996880"
+				}
+			}
+		}
+		"2726340"
+		{
+			"dlcappid"		"2726340"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"169116417348123646"
+					"size"		"199965721"
+					"download"		"199980992"
+				}
+				"public_beta"
+				{
+					"gid"		"800768482313791573"
+					"size"		"166759777"
+					"download"		"169041984"
+				}
+			}
+		}
+		"1369450"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1369450"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1303726233789313519"
+					"size"		"86350946"
+					"download"		"87532928"
+				}
+				"public_beta"
+				{
+					"gid"		"1303726233789313519"
+					"size"		"86350946"
+					"download"		"87532928"
+				}
+			}
+		}
+		"1369451"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1369451"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3153482626308710352"
+					"size"		"39351305"
+					"download"		"39889792"
+				}
+				"public_beta"
+				{
+					"gid"		"3153482626308710352"
+					"size"		"39351305"
+					"download"		"39889792"
+				}
+			}
+		}
+		"1369452"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1369452"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5965649526381389241"
+					"size"		"55776839"
+					"download"		"56540528"
+				}
+				"public_beta"
+				{
+					"gid"		"5965649526381389241"
+					"size"		"55776839"
+					"download"		"56540528"
+				}
+			}
+		}
+		"1369453"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1369453"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1397412189265993928"
+					"size"		"91294366"
+					"download"		"92543712"
+				}
+				"public_beta"
+				{
+					"gid"		"1397412189265993928"
+					"size"		"91294366"
+					"download"		"92543712"
+				}
+			}
+		}
+		"1369454"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1369454"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1735166696061845910"
+					"size"		"59058857"
+					"download"		"59867504"
+				}
+				"public_beta"
+				{
+					"gid"		"1735166696061845910"
+					"size"		"59058857"
+					"download"		"59867504"
+				}
+			}
+		}
+		"1369455"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1369455"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1102315906148220018"
+					"size"		"50430106"
+					"download"		"51119600"
+				}
+				"public_beta"
+				{
+					"gid"		"1102315906148220018"
+					"size"		"50430106"
+					"download"		"51119600"
+				}
+			}
+		}
+		"1369456"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1369456"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"72919877073943469"
+					"size"		"84024098"
+					"download"		"85173408"
+				}
+				"public_beta"
+				{
+					"gid"		"72919877073943469"
+					"size"		"84024098"
+					"download"		"85173408"
+				}
+			}
+		}
+		"1402170"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"dlcappid"		"1402170"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1935407313462560676"
+					"size"		"81414668"
+					"download"		"82527872"
+				}
+				"public_beta"
+				{
+					"gid"		"1935407313462560676"
+					"size"		"81414668"
+					"download"		"82527872"
+				}
+			}
+		}
+		"1771670"
+		{
+			"dlcappid"		"1771670"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"778941221529922684"
+					"size"		"151638868"
+					"download"		"153713392"
+				}
+				"public_beta"
+				{
+					"gid"		"778941221529922684"
+					"size"		"151638868"
+					"download"		"153713392"
+				}
+			}
+		}
+		"1989580"
+		{
+			"dlcappid"		"1989580"
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1476884339648892660"
+					"size"		"191459668"
+					"download"		"194080176"
+				}
+				"public_beta"
+				{
+					"gid"		"1476884339648892660"
+					"size"		"191459668"
+					"download"		"194080176"
+				}
+			}
+		}
+		"2180470"
+		{
+			"dlcappid"		"2180470"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"940289545900458937"
+					"size"		"150819272"
+					"download"		"152883536"
+				}
+				"public_beta"
+				{
+					"gid"		"940289545900458937"
+					"size"		"150819272"
+					"download"		"152883536"
+				}
+			}
+		}
+		"3347230"
+		{
+			"dlcappid"		"3347230"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2694612927596217395"
+					"size"		"211353780"
+					"download"		"214245584"
+				}
+				"public_beta"
+				{
+					"gid"		"2694612927596217395"
+					"size"		"211353780"
+					"download"		"214245584"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24423381"
+				"timeupdated"		"1785202970"
+				"timebuildupdated"		"1785202970"
+			}
+			"public_beta"
+			{
+				"buildid"		"24158904"
+				"description"		"ViRo Public Beta Test"
+				"timeupdated"		"1784520081"
+				"timebuildupdated"		"1783753876"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"100"
+	}
+}
