@@ -1,0 +1,100 @@
+"appinfo"
+{
+	"appid"		"302200"
+	"common"
+	{
+		"name"		"Miscreated Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		""
+		"logo"		"1caf3ead5c52be5ffe45d5b2aed9f4510a7f4c21"
+		"logo_small"		"1caf3ead5c52be5ffe45d5b2aed9f4510a7f4c21_thumb"
+		"icon"		"aa5ad156c129a711b82f0a324bb46137947d1307"
+		"clienticon"		"1ae20339de3855d8b1eb362854b49428132c96a0"
+		"clienttga"		"4b5b05fe711233be7171649094fb039e7df9cc5e"
+		"osarch"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"302200"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"MiscreatedServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Bin64_dedicated/MiscreatedServer.exe"
+				"arguments"		"-sv_port 64090 +sv_maxplayers 50 +map islands -mis_gameserverid 100  +sv_servername \"My Server\""
+				"description"		"MiscreatedServer"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"302201"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1110669941169455147"
+					"size"		"4592284567"
+					"download"		"2537291744"
+				}
+			}
+		}
+		"workshopdepot"		"302200"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24440351"
+				"timeupdated"		"1785285481"
+				"timebuildupdated"		"1785274840"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
