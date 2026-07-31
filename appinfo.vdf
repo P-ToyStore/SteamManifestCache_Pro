@@ -1,0 +1,113 @@
+"appinfo"
+{
+	"appid"		"4509190"
+	"common"
+	{
+		"name"		"Astral Ascent - Modding Manager"
+		"type"		"Tool"
+		"parent"		"1280930"
+		"oslist"		""
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"c496fbc278908e85eb5e8f895fdc20b0fcdc0187"
+		"icon"		"c496fbc278908e85eb5e8f895fdc20b0fcdc0187"
+		"clienticns"		"c496fbc278908e85eb5e8f895fdc20b0fcdc0187"
+		"linuxclienticon"		"c496fbc278908e85eb5e8f895fdc20b0fcdc0187"
+		"releasestate"		"released"
+		"gameid"		"4509190"
+	}
+	"config"
+	{
+		"installdir"		"Modding Tool"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"a2m2.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"a2m2"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"A2M2 - Astral Ascent Mod Manager.app/Contents/MacOS/a2m2"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"4509191"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8207316304741475633"
+					"size"		"1020879337"
+					"download"		"448122992"
+				}
+			}
+		}
+		"4509192"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8299661972367466481"
+					"size"		"1031930376"
+					"download"		"449804720"
+				}
+			}
+		}
+		"4509193"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7805380112577980478"
+					"size"		"1022645592"
+					"download"		"447991072"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24324618"
+				"timeupdated"		"1784680288"
+				"timebuildupdated"		"1784678585"
+			}
+		}
+	}
+}
