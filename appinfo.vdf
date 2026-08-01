@@ -1,0 +1,176 @@
+"appinfo"
+{
+	"appid"		"1815810"
+	"common"
+	{
+		"name"		"Turbo Sliders Unlimited Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1478340"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"1db0d313b596f921d94a0b36f3a4f29679a2ed50"
+		"clienttga"		"b0454be713d9eac65cc5f5ae953cc090b5784b8d"
+		"clienticon"		"89f7e4cfb428000fdd0fbfc7839e14581959481e"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1815810"
+	}
+	"config"
+	{
+		"installdir"		"TSUServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TSUs.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launches Turbo Sliders Unlimited Dedicated Server"
+				}
+				"description"		"Launches Turbo Sliders Unlimited Dedicated Server"
+			}
+			"1"
+			{
+				"executable"		"TSUs.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launches Turbo Sliders Unlimited Dedicated Server"
+				}
+				"description"		"Launches Turbo Sliders Unlimited Dedicated Server"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1815811"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2892143530838929563"
+					"size"		"289738505"
+					"download"		"100849264"
+				}
+				"beta"
+				{
+					"gid"		"2892143530838929563"
+					"size"		"289738505"
+					"download"		"100849264"
+				}
+			}
+		}
+		"1815812"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5713471569873737331"
+					"size"		"329423213"
+					"download"		"108414112"
+				}
+				"beta"
+				{
+					"gid"		"5713471569873737331"
+					"size"		"329423213"
+					"download"		"108414112"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24502331"
+				"timeupdated"		"1785587969"
+				"timebuildupdated"		"1785539530"
+			}
+			"beta"
+			{
+				"buildid"		"24502331"
+				"description"		"Next version beta branch"
+				"timeupdated"		"1785539989"
+				"timebuildupdated"		"1785539530"
+			}
+		}
+	}
+}
