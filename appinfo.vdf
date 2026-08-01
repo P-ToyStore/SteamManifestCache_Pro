@@ -1,0 +1,279 @@
+"appinfo"
+{
+	"appid"		"1838600"
+	"common"
+	{
+		"name"		"Moshcave"
+		"type"		"Game"
+		"logo"		"1e60ba6dd6af077287409a16b6f04594eb2f71de"
+		"logo_small"		"1e60ba6dd6af077287409a16b6f04594eb2f71de_thumb"
+		"icon"		"e39cf43b012ce781f297757b8d6f164475fad4e2"
+		"clienticon"		"e39cf43b012ce781f297757b8d6f164475fad4e2"
+		"clienttga"		"06cd9ef53da435fd08f8ab7337d945a33dc67425"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"03533ef5c1901471f64fc3b6c7f2fdb553622b61/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"f96c29170cf0e87e045b010522c4e58577cdf204/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"34.38878181188028"
+				"height_pct"		"55.556761155567614"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"c27f5ea1734cedb968bdc1352a56746c22f098f0/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"c27f5ea1734cedb968bdc1352a56746c22f098f0/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"1ba08d2f7c7118744af493807e42b761b197df3e/library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"1ba08d2f7c7118744af493807e42b761b197df3e/library_hero_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"1ba08d2f7c7118744af493807e42b761b197df3e/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"34.38878181188028"
+					"height_pct"		"55.556761155567614"
+				}
+				"image"
+				{
+					"english"		"23fb269f2ecf5a23ff634d3545d64f88be560c8d/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"23fb269f2ecf5a23ff634d3545d64f88be560c8d/logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"f96c29170cf0e87e045b010522c4e58577cdf204/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"f96c29170cf0e87e045b010522c4e58577cdf204/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1785543371"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"LGV"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"LGV"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1785540696"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1838600"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"42804"
+			"2"		"1773"
+			"3"		"1716"
+			"4"		"4885"
+			"5"		"3959"
+			"6"		"4726"
+			"7"		"3964"
+			"8"		"7743"
+			"9"		"597"
+			"10"		"4182"
+			"11"		"3871"
+			"12"		"4474"
+			"13"		"1720"
+			"14"		"4057"
+			"15"		"198631"
+			"16"		"5125"
+			"17"		"4004"
+			"18"		"5154"
+			"19"		"493"
+		}
+	}
+	"extended"
+	{
+		"developer"		"LGV"
+		"publisher"		"LGV"
+	}
+	"config"
+	{
+		"installdir"		"Moshcave"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Moshcave.exe"
+				"arguments"		"--in-process-gpu --disable-direct-composition"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Moshcave.app"
+				"arguments"		"--in-process-gpu --disable-direct-composition"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Moshcave.AppImage"
+				"arguments"		"--in-process-gpu --disable-direct-composition"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1838603"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"764137428258601737"
+					"size"		"316165638"
+					"download"		"133108096"
+				}
+			}
+		}
+		"1838601"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2991619923875501852"
+					"size"		"286521531"
+					"download"		"121461200"
+				}
+			}
+		}
+		"1838602"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4167205393612666355"
+					"size"		"136198884"
+					"download"		"135914896"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24499454"
+				"timeupdated"		"1785539972"
+				"timebuildupdated"		"1785525613"
+			}
+		}
+	}
+}
