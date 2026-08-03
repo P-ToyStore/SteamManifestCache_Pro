@@ -1,0 +1,461 @@
+"appinfo"
+{
+	"appid"		"1602000"
+	"common"
+	{
+		"name"		"Hotel Architect"
+		"type"		"Game"
+		"logo"		"cf2fac7cb6fc470cfedcf0a0ecb2de28d7590b47"
+		"logo_small"		"cf2fac7cb6fc470cfedcf0a0ecb2de28d7590b47_thumb"
+		"icon"		"6aa8037112d19317351dd1f349cc225edbb49fef"
+		"clienticon"		"f7d998c360a657d7d661389dd1a856e4b7a85940"
+		"clienttga"		"3a2298127b126dc5eb6a515d878a5db674aea7f0"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"name_localized"
+		{
+			"schinese"		"酒店建筑师 Hotel Architect"
+			"tchinese"		"酒店建築師 Hotel Architect"
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"brazilian"		"1"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"steam_machine_compatibility"		"2"
+			"test_timestamp"		"1747872000"
+			"tested_build_id"		"18513624"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steam_machine_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-4RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+				"requires_proton_soundfonts"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"7acf5a9dada71efb99f7d735d54664b0773b4d38/capsule_231x87.jpg"
+			"schinese"		"821b6a328bab8ca377c62480cae1790890d61c35/capsule_231x87_schinese.jpg"
+			"tchinese"		"c4935b50bbbabe0ba8386f22ce9abb27e08a5978/capsule_231x87_tchinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"c354511dec4c3eec7a00f336a7a7cfc335b3aa45/header.jpg"
+			"schinese"		"fd56ed5d1ac1f1d019a2cef2223c930639b694a2/header_schinese.jpg"
+			"tchinese"		"4752d5142337fed0c7b1228852ab2c1debfabdf4/header_tchinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn,zh-tw"
+			"library_hero"		"en,zh-cn,zh-tw"
+			"library_hero_blur"		"zh-cn,en,zh-tw"
+			"library_logo"		"en,zh-cn,zh-tw"
+			"library_header"		"en,zh-cn,zh-tw"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"45.634458672875425"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"563310426b00b670f615f144a48285a8a2cafcc2/library_capsule.jpg"
+					"schinese"		"e7793b555bed61dd8cb400222adca56cf1e6126c/library_capsule_schinese.jpg"
+					"tchinese"		"8faa694f5cccff24e95606bc9f0b2a5fa6eaa49e/library_capsule_tchinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"563310426b00b670f615f144a48285a8a2cafcc2/library_capsule_2x.jpg"
+					"schinese"		"e7793b555bed61dd8cb400222adca56cf1e6126c/library_capsule_schinese_2x.jpg"
+					"tchinese"		"8faa694f5cccff24e95606bc9f0b2a5fa6eaa49e/library_capsule_tchinese_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"c9cf12741e58216fabc38104c94dfa7d8f95c2a1/library_hero.jpg"
+					"schinese"		"fa7798c919d1b46b8b9387864471fd1b7e43956f/library_hero_schinese.jpg"
+					"tchinese"		"fa7798c919d1b46b8b9387864471fd1b7e43956f/library_hero_tchinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"c9cf12741e58216fabc38104c94dfa7d8f95c2a1/library_hero_2x.jpg"
+					"schinese"		"fa7798c919d1b46b8b9387864471fd1b7e43956f/library_hero_schinese_2x.jpg"
+					"tchinese"		"fa7798c919d1b46b8b9387864471fd1b7e43956f/library_hero_tchinese_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"schinese"		"fa7798c919d1b46b8b9387864471fd1b7e43956f/library_hero_blur_schinese.jpg"
+					"english"		"c9cf12741e58216fabc38104c94dfa7d8f95c2a1/library_hero_blur.jpg"
+					"tchinese"		"fa7798c919d1b46b8b9387864471fd1b7e43956f/library_hero_blur_tchinese.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"45.634458672875425"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"12429f824c7451124a8902aba853e81782c8173b/logo.png"
+					"schinese"		"9b90f29a2d6079a5cf23ac90fba1372a4f0d64f7/logo_schinese.png"
+					"tchinese"		"d7f7819465ad5e5aebe055afd9e16d25ed72f780/logo_tchinese.png"
+				}
+				"image2x"
+				{
+					"english"		"12429f824c7451124a8902aba853e81782c8173b/logo_2x.png"
+					"schinese"		"9b90f29a2d6079a5cf23ac90fba1372a4f0d64f7/logo_schinese_2x.png"
+					"tchinese"		"d7f7819465ad5e5aebe055afd9e16d25ed72f780/logo_tchinese_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"9672f7c11e7bbfc89cbbfce52dfea77e49485b34/library_header.jpg"
+					"schinese"		"fd56ed5d1ac1f1d019a2cef2223c930639b694a2/library_header_schinese.jpg"
+					"tchinese"		"4752d5142337fed0c7b1228852ab2c1debfabdf4/library_header_tchinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"9672f7c11e7bbfc89cbbfce52dfea77e49485b34/library_header_2x.jpg"
+					"schinese"		"fd56ed5d1ac1f1d019a2cef2223c930639b694a2/library_header_schinese_2x.jpg"
+					"tchinese"		"4752d5142337fed0c7b1228852ab2c1debfabdf4/library_header_tchinese_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1785509664"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Pathos Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Wired Productions"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Gamersky Games"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"Wired Productions"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_45"		"1"
+			"category_46"		"1"
+			"category_22"		"1"
+			"category_66"		"1"
+			"category_67"		"1"
+			"category_68"		"1"
+			"category_74"		"1"
+			"category_76"		"1"
+			"category_79"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1778756396"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1602000"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"12472"
+			"2"		"4328"
+			"3"		"1643"
+			"4"		"597"
+			"5"		"3810"
+			"6"		"889937"
+			"7"		"4695"
+			"8"		"9"
+			"9"		"1654"
+			"10"		"4182"
+			"11"		"4191"
+			"12"		"4845"
+			"13"		"5350"
+			"14"		"4136"
+			"15"		"492"
+			"16"		"4791"
+			"17"		"6625"
+			"18"		"4747"
+			"19"		"5851"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		"Pathos Interactive"
+		"publisher"		"Wired Productions"
+		"homepage"		"https://hotelarchitectgame.com/"
+	}
+	"config"
+	{
+		"installdir"		"Hotel Architect"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"HotelArchitect.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		"english"
+		"1602001"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5737379820367698382"
+					"size"		"1627625714"
+					"download"		"1200575408"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24530614"
+				"timeupdated"		"1785774543"
+				"timebuildupdated"		"1785753962"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"5000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"HotelArchitect/Saved/SaveGames"
+				"pattern"		"*.sav"
+				"recursive"		"1"
+			}
+		}
+	}
+}
