@@ -1,0 +1,248 @@
+"appinfo"
+{
+	"appid"		"3582610"
+	"common"
+	{
+		"name"		"Uh Oh Airlines Playtest"
+		"type"		"Beta"
+		"parent"		"3582430"
+		"icon"		"cc251187333cd9433cfcfb86138321a452c1ede3"
+		"clienticon"		"bb2983ac77820f7e8c470afef05e7554bb6a7c88"
+		"clienttga"		"06739dfe39c2a30368ae7d7c238332ab89a9c35c"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"be5b3cc6651122a8b2f8a6f4a97b7ec3734383e6/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"d43cacecff76df968678e9388b0f4725d8e4733e/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"29.290617848970243"
+				"height_pct"		"37.84194585263582"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"55055bc373f065b9b5c6622ac34c8af80430f889/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"55055bc373f065b9b5c6622ac34c8af80430f889/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"89602881dd5b7030d0dfe3cf63673a58adc9be5d/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"89602881dd5b7030d0dfe3cf63673a58adc9be5d/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"89602881dd5b7030d0dfe3cf63673a58adc9be5d/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"29.290617848970243"
+					"height_pct"		"37.84194585263582"
+				}
+				"image2x"
+				{
+					"english"		"c18f2907ecc5cf019fe2f8f366653ed7edefd9d3/logo_2x.png"
+				}
+				"image"
+				{
+					"english"		"c18f2907ecc5cf019fe2f8f366653ed7edefd9d3/logo.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"d43cacecff76df968678e9388b0f4725d8e4733e/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"d43cacecff76df968678e9388b0f4725d8e4733e/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1751325439"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+			"category_28"		"1"
+			"category_60"		"1"
+		}
+		"steam_release_date"		"1741633260"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3582610"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"playtest_type"		"0"
+		"absolutemousecoordinates"		"0"
+		"remoteplaytogethertestingbranches"		"default,test"
+		"playtestinvitecount"		"1"
+		"playtestinviteendtime"		"1776816762"
+	}
+	"config"
+	{
+		"installdir"		"Uh Oh Airlines Playtest"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"FA_Game.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"Mac/FA_Game-Mac-Shipping.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"Windows\\FA_Game\\Binaries\\Win64\\FA_Game-Win64-DebugGame.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"test"
+				}
+				"description_loc"
+				{
+					"english"		"dev test build"
+				}
+				"description"		"dev test build"
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65533"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3582611"
+		{
+			"config"
+			{
+				"oslist"		"windows,linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4046877305402986481"
+					"size"		"1043812411"
+					"download"		"870699264"
+				}
+				"macbranch"
+				{
+					"gid"		"7879613330274018424"
+					"size"		"2682768892"
+					"download"		"783619344"
+				}
+			}
+		}
+		"3582613"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7305606582846798612"
+					"size"		"2866865336"
+					"download"		"870989920"
+				}
+				"macbranch"
+				{
+					"gid"		"5445278992615632441"
+					"size"		"2671460757"
+					"download"		"749169024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24655170"
+				"timeupdated"		"1786373841"
+				"timebuildupdated"		"1786373841"
+			}
+			"macbranch"
+			{
+				"buildid"		"23774548"
+				"description"		"uh oh airlines mac depot"
+				"timeupdated"		"1781663391"
+				"timebuildupdated"		"1781663391"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
