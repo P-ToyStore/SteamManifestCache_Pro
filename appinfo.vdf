@@ -1,0 +1,506 @@
+"appinfo"
+{
+	"appid"		"3078950"
+	"common"
+	{
+		"name"		"My Café Manager Simulator"
+		"type"		"Game"
+		"icon"		"7a7701329ada4765597eb4b15ac02ebd29b6a2dc"
+		"clienticon"		"e462974333ab79c3e603a5300b75eca715790014"
+		"clienttga"		"5ca266e18404678e3a1b3e9452a10e07bcc0f4b6"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"name_localized"
+		{
+			"schinese"		"咖啡店主理人模拟器"
+			"tchinese"		"咖啡店主理人模擬器"
+			"japanese"		"カフェの中の人シミュレーター"
+			"koreana"		"카페 사장 시뮬레이터"
+		}
+		"languages"
+		{
+			"english"		"1"
+			"koreana"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"japanese"		"1"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"steam_machine_compatibility"		"2"
+			"test_timestamp"		"1764201600"
+			"tested_build_id"		"20732302"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steam_machine_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-10.0-beta"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+				"requires_proton_soundfonts"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"85077810dcddd5af0710464d101975f725f1ddc4/capsule_231x87.jpg"
+			"koreana"		"489435dcbd0c5e65289e31b69564286900a70b2d/capsule_231x87_koreana.jpg"
+			"japanese"		"8e805199cfadcc6d1498346f8e46600c9462a58b/capsule_231x87_japanese.jpg"
+			"schinese"		"e225e65cbe6da1ed727f0b141ff984c66385e84f/capsule_231x87_schinese.jpg"
+			"tchinese"		"18ace2086ff2d31514e68316b9619fd0022f619c/capsule_231x87_tchinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"japanese"		"d0ee281b6d1e45694a7d3d14cfdb171848e63238/header_japanese.jpg"
+			"koreana"		"bf94dcf9d87871df19ed29aad20cb2e95ee087c2/header_koreana.jpg"
+			"schinese"		"21da8d87c6bd9dec6aa0b2b8018e91caaab548ec/header_schinese.jpg"
+			"tchinese"		"41bb2a0a2c7123c11775dfe632b2a5e685d4f33f/header_tchinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,ja,zh-tw,zh-cn,ko"
+			"library_hero"		"en,zh-cn,zh-tw,ja,ko"
+			"library_hero_blur"		"en,zh-cn,zh-tw,ja,ko"
+			"library_logo"		"en,ja,ko,zh-tw,zh-cn"
+			"library_header"		"en,ja,zh-tw,zh-cn,ko"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"76.46042927024263"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"d1fe82704b08c1fecae205b65b6d8819e012fb1e/library_capsule.jpg"
+					"japanese"		"60817226baae2c928d5294deb84604b33e4d3a16/library_capsule_japanese.jpg"
+					"tchinese"		"f227eaea7463e89baf92b02f5d4681d480def913/library_capsule_tchinese.jpg"
+					"schinese"		"67470e85ac86607d66863610d139555cd970166d/library_capsule_schinese.jpg"
+					"koreana"		"e6e196363d2c4518b0b4927bfeee8b98ba8a5a3c/library_capsule_koreana.jpg"
+				}
+				"image2x"
+				{
+					"english"		"d1fe82704b08c1fecae205b65b6d8819e012fb1e/library_capsule_2x.jpg"
+					"japanese"		"60817226baae2c928d5294deb84604b33e4d3a16/library_capsule_japanese_2x.jpg"
+					"tchinese"		"f227eaea7463e89baf92b02f5d4681d480def913/library_capsule_tchinese_2x.jpg"
+					"schinese"		"67470e85ac86607d66863610d139555cd970166d/library_capsule_schinese_2x.jpg"
+					"koreana"		"e6e196363d2c4518b0b4927bfeee8b98ba8a5a3c/library_capsule_koreana_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"9180d7bd795b75b10c21bc4f6163502422d6885a/library_hero.jpg"
+					"schinese"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_schinese.jpg"
+					"tchinese"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_tchinese.jpg"
+					"japanese"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_japanese.jpg"
+					"koreana"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_koreana.jpg"
+				}
+				"image2x"
+				{
+					"english"		"9180d7bd795b75b10c21bc4f6163502422d6885a/library_hero_2x.jpg"
+					"schinese"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_schinese_2x.jpg"
+					"tchinese"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_tchinese_2x.jpg"
+					"japanese"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_japanese_2x.jpg"
+					"koreana"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_koreana_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"9180d7bd795b75b10c21bc4f6163502422d6885a/library_hero_blur.jpg"
+					"schinese"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_blur_schinese.jpg"
+					"tchinese"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_blur_tchinese.jpg"
+					"japanese"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_blur_japanese.jpg"
+					"koreana"		"ee61fa08e402a60e8b4e2ed088f6af51f5c3d340/library_hero_blur_koreana.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image2x"
+				{
+					"english"		"c9a62a7d74b36af704010c357a9a3cf918fbe026/logo_2x.png"
+					"japanese"		"9a92d49cfe2267fa9a62b29cabdf684fc4455fa8/logo_japanese_2x.png"
+					"koreana"		"2801f7c4103da2d8b9d2da4dfb52b3d324953916/logo_koreana_2x.png"
+					"tchinese"		"ae3dbc78f867ea819bea648babb4513c881c5546/logo_tchinese_2x.png"
+					"schinese"		"aaa178be3c4b5843b0c223b0d96cf254753c182e/logo_schinese_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"50"
+					"height_pct"		"76.46042927024263"
+				}
+				"image"
+				{
+					"english"		"c9a62a7d74b36af704010c357a9a3cf918fbe026/logo.png"
+					"japanese"		"9a92d49cfe2267fa9a62b29cabdf684fc4455fa8/logo_japanese.png"
+					"koreana"		"2801f7c4103da2d8b9d2da4dfb52b3d324953916/logo_koreana.png"
+					"tchinese"		"ae3dbc78f867ea819bea648babb4513c881c5546/logo_tchinese.png"
+					"schinese"		"aaa178be3c4b5843b0c223b0d96cf254753c182e/logo_schinese.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"228612a6782736ef0303ab780f17acaec8421263/library_header.jpg"
+					"japanese"		"b37f7fc13c7b7bb309509304ea9a866ad5d1cf14/library_header_japanese.jpg"
+					"tchinese"		"53ba4ff4a95ed318391ad49ae3b8321a12e73a4d/library_header_tchinese.jpg"
+					"schinese"		"77ccb519699414e75fa6f88a200d26ce0aeea3fc/library_header_schinese.jpg"
+					"koreana"		"4d343c68d13893ad352774fc67915eeb857c7ab9/library_header_koreana.jpg"
+				}
+				"image2x"
+				{
+					"english"		"228612a6782736ef0303ab780f17acaec8421263/library_header_2x.jpg"
+					"japanese"		"b37f7fc13c7b7bb309509304ea9a866ad5d1cf14/library_header_japanese_2x.jpg"
+					"tchinese"		"53ba4ff4a95ed318391ad49ae3b8321a12e73a4d/library_header_tchinese_2x.jpg"
+					"schinese"		"77ccb519699414e75fa6f88a200d26ce0aeea3fc/library_header_schinese_2x.jpg"
+					"koreana"		"4d343c68d13893ad352774fc67915eeb857c7ab9/library_header_koreana_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1770381642"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"OUT OF THE ORDINARY"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PlayWay S.A."
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"RockGame S.A."
+			}
+			"3"
+			{
+				"type"		"publisher"
+				"name"		"OUT OF THE ORDINARY"
+			}
+			"4"
+			{
+				"type"		"franchise"
+				"name"		"OUT OF THE ORDINARY"
+			}
+			"5"
+			{
+				"type"		"franchise"
+				"name"		"PlayWay S.A."
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_69"		"1"
+			"category_75"		"1"
+			"category_76"		"1"
+			"category_79"		"1"
+			"category_22"		"1"
+			"category_15"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"arabic"
+			{
+				"subtitles"		"true"
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1770987413"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3078950"
+		"store_tags"
+		{
+			"0"		"5350"
+			"1"		"1654"
+			"2"		"3920"
+			"3"		"9204"
+			"4"		"12472"
+			"5"		"3810"
+			"6"		"35079"
+			"7"		"4191"
+			"8"		"8945"
+			"9"		"16689"
+			"10"		"552282"
+			"11"		"6276"
+			"12"		"10235"
+			"13"		"4175"
+			"14"		"3839"
+			"15"		"599"
+			"16"		"4305"
+			"17"		"4182"
+			"18"		"492"
+			"19"		"597"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"developer"		"OUT OF THE ORDINARY"
+		"publisher"		"PlayWay S.A."
+	}
+	"config"
+	{
+		"installdir"		"Cafe Market Simulator"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Cafe Market Manager.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"3078951"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3318849277606989570"
+					"size"		"1755698484"
+					"download"		"1434404400"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24693615"
+				"timeupdated"		"1786555831"
+				"timebuildupdated"		"1786542017"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Out of The Ordinary\\My Cafe Manger"
+				"pattern"		"*.bin"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Out of The Ordinary\\My Cafe Manger"
+						"replace"		"games.ooto.cafemarketmanager"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Out of The Ordinary\\My Cafe Manger"
+						"replace"		"Out of The Ordinary/My Cafe Manger"
+					}
+				}
+			}
+		}
+		"sync_while_suspended"		"1"
+	}
+}
