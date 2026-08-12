@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"223350"
+	"common"
+	{
+		"name"		"DayZ Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"parent"		"221100"
+		"oslist"		"windows"
+		"clienticon"		"f8c16699ed5ce1cc8aa9b15ed3fdd66553fce2bf"
+		"clienttga"		"e529b20af459d1307c2e885c68293ba137971ecc"
+		"icon"		"16a985dfee9b093d76a0ffc4cf4c77ba20c2eb0d"
+		"logo"		"6af07b51e817a029260910719d2a77439d00463b"
+		"logo_small"		"6af07b51e817a029260910719d2a77439d00463b_thumb"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"223350_eula_0"
+				"name"		"DayZ Server EULA"
+				"url"		"https://store.steampowered.com//eula/223350_eula_0"
+				"version"		"1"
+			}
+		}
+		"metacritic_name"		"DayZ Server"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_asset_mtime"		"1537366562"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bohemia Interactive"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bohemia Interactive"
+			}
+		}
+		"steam_release_date"		"1537365480"
+		"gameid"		"223350"
+	}
+	"extended"
+	{
+		"developer"		"Bohemia Interactive"
+		"gamedir"		"ValveTestApp223350"
+		"homepage"		"http://dayz.com"
+		"icon"		""
+		"noservers"		"0"
+		"sourcegame"		"1"
+		"state"		"eStateAvailable"
+		"thirdpartycdkey"		"1"
+		"visibleonlywhensubscribed"		"1"
+		"publisher"		"Bohemia Interactive"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"DayZServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DayZServer_x64.exe"
+				"description"		"Launch Server"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"preloadonly"		"1"
+		"overridescddb"		"1"
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"223351"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1177871366725000680"
+					"size"		"3633402326"
+					"download"		"1514844512"
+				}
+				"experimental_public"
+				{
+					"gid"		"6851238236280575555"
+					"size"		"1857037019"
+					"download"		"702440208"
+				}
+			}
+		}
+		"223352"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8553389333545541754"
+					"size"		"81142176"
+					"download"		"28404016"
+				}
+			}
+		}
+		"223353"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1185039656220947878"
+					"size"		"42546688"
+					"download"		"16073584"
+				}
+				"experimental_public"
+				{
+					"gid"		"6169702869082609638"
+					"size"		"32900600"
+					"download"		"10542720"
+				}
+			}
+		}
+		"223354"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2101186707274240039"
+					"size"		"303237995"
+					"download"		"11927568"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24570360"
+				"timeupdated"		"1786528820"
+				"timebuildupdated"		"1785925731"
+			}
+			"experimental_public"
+			{
+				"buildid"		"3889697"
+				"description"		"Unstable testing version"
+				"timeupdated"		"1559730582"
+				"timebuildupdated"		"1559723312"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"0"
+		"maxnumfiles"		"0"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
