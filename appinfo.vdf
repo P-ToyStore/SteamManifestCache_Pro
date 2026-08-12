@@ -1,0 +1,101 @@
+"appinfo"
+{
+	"appid"		"4754530"
+	"common"
+	{
+		"name"		"Dune: Awakening Self-Hosted Server"
+		"type"		"Tool"
+		"parent"		"1172710"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"1d869b0a201348f794f77d24b42419c11751b437"
+		"clienticon"		"1d869b0a201348f794f77d24b42419c11751b437"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"4754530"
+	}
+	"extended"
+	{
+		"deckresolutionoverride"		"Default"
+	}
+	"config"
+	{
+		"installdir"		"Dune Awakening Self-Hosted Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"initial-setup.bat"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"4754532"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8679224229448647273"
+					"size"		"5207185480"
+					"download"		"4885663456"
+				}
+			}
+		}
+		"4754531"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"659745592023896926"
+					"size"		"1015157924"
+					"download"		"424804704"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24653560"
+				"timeupdated"		"1786524676"
+				"timebuildupdated"		"1786368457"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
