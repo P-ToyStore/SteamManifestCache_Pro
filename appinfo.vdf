@@ -1,0 +1,147 @@
+"appinfo"
+{
+	"appid"		"728470"
+	"common"
+	{
+		"name"		"ASTRONEER Dedicated Server"
+		"type"		"Tool"
+		"parent"		"361420"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"clienttga"		"136ef74f5485c687ab9185c1fb9c63624fdd07ef"
+		"clienticon"		"29a46bb1cc0cae5076b66b9915c1c170c3696080"
+		"icon"		"18ef632a152a69a8fb4f62c074cd50aa15d3bf33"
+		"logo"		"baf5219a4a1add9497e81c1ed4b513949c8e51a7"
+		"logo_small"		"baf5219a4a1add9497e81c1ed4b513949c8e51a7_thumb"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"728470"
+	}
+	"config"
+	{
+		"installdir"		"ASTRONEER Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AstroServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"AstroServer.exe"
+				"description"		"Accept connections"
+				"type"		"server"
+				"config"
+				{
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"728471"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2061396585847736509"
+					"size"		"2597159372"
+					"download"		"2437951264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24411584"
+				"timeupdated"		"1786553744"
+				"timebuildupdated"		"1785153590"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
