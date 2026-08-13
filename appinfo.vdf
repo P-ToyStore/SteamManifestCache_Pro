@@ -1,0 +1,285 @@
+"appinfo"
+{
+	"appid"		"869800"
+	"common"
+	{
+		"name"		"Jabroni Brawl: Episode 3 - Dedicated Server"
+		"type"		"Tool"
+		"parent"		"869480"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"name_localized"
+		{
+			"russian"		"Jabroni Brawl: Episode 3 - Выделенный сервер"
+			"brazilian"		"Jabroni Brawl: Episode 3 - Servidor Dedicado"
+			"bulgarian"		"Jabroni Brawl: Episode 3 - Специализиран сървър"
+			"portuguese"		"Jabroni Brawl: Episode 3 - Servidor Dedicado"
+			"spanish"		"Jabroni Brawl: Episode 3 - Servidor Dedicado"
+			"turkish"		"Jabroni Brawl: Episode 3 - Adanmış sunucu"
+			"schinese"		"傻缺大乱斗：第三章 - 专用服务器"
+			"tchinese"		"傻樂大亂鬥：三部曲 - 專用伺服器"
+			"danish"		"Jabroni Brawl: Episode 3 - Dedikeret Server"
+		}
+		"clienttga"		"89d9eefc7cb121b7f3c49e7965498922c0ec807e"
+		"logo"		"ffd7f84daddd27a78c9fc62b78f8423e2afe01c1"
+		"logo_small"		"ffd7f84daddd27a78c9fc62b78f8423e2afe01c1_thumb"
+		"icon"		"7f8ece8f6ede732e90654de9e2cc95698103a565"
+		"clienticon"		"77d525c3ffc23105d358f3b5e6345b9d19585a28"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"869800"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Jabroni Brawl Episode 3 Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds_run.sh"
+				"arguments"		"-dedicated -game jbep3 -steam"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"bin\\win64\\jbep3.exe"
+				"arguments"		"-game jbep3 -steam"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Game Server (64-bit)"
+				}
+				"description"		"Launch Game Server (64-bit)"
+			}
+			"2"
+			{
+				"executable"		"bin\\win32\\jbep3.exe"
+				"arguments"		"-game jbep3 -steam"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Game Server"
+				}
+				"description"		"Launch Game Server"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"869801"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5722252341365176036"
+					"size"		"6943295838"
+					"download"		"2321440016"
+				}
+				"upcoming"
+				{
+					"gid"		"5722252341365176036"
+					"size"		"6943295838"
+					"download"		"2321440016"
+				}
+				"revert"
+				{
+					"gid"		"3924138432539147901"
+					"size"		"6943279153"
+					"download"		"2321436128"
+				}
+			}
+		}
+		"869802"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2848921045384642881"
+					"size"		"29054464"
+					"download"		"11629248"
+				}
+				"upcoming"
+				{
+					"gid"		"2848921045384642881"
+					"size"		"29054464"
+					"download"		"11629248"
+				}
+				"revert"
+				{
+					"gid"		"9163429679658940557"
+					"size"		"29047296"
+					"download"		"11628848"
+				}
+			}
+		}
+		"869805"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"664654395778263545"
+					"size"		"37596384"
+					"download"		"14137472"
+				}
+				"upcoming"
+				{
+					"gid"		"664654395778263545"
+					"size"		"37596384"
+					"download"		"14137472"
+				}
+				"revert"
+				{
+					"gid"		"924155488416395557"
+					"size"		"37586144"
+					"download"		"14135840"
+				}
+			}
+		}
+		"869803"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2070160569474619898"
+					"size"		"58250899"
+					"download"		"18066400"
+				}
+				"upcoming"
+				{
+					"gid"		"2070160569474619898"
+					"size"		"58250899"
+					"download"		"18066400"
+				}
+				"revert"
+				{
+					"gid"		"8033638182229562548"
+					"size"		"58246759"
+					"download"		"18060032"
+				}
+			}
+		}
+		"869804"
+		{
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24708583"
+				"timeupdated"		"1786639402"
+				"timebuildupdated"		"1786606676"
+			}
+			"upcoming"
+			{
+				"buildid"		"24708583"
+				"description"		"Upcoming changes"
+				"timeupdated"		"1786607197"
+				"timebuildupdated"		"1786606676"
+			}
+			"revert"
+			{
+				"buildid"		"24616033"
+				"description"		"Previous patch"
+				"timeupdated"		"1786118364"
+				"timebuildupdated"		"1786115509"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
