@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"600760"
+	"common"
+	{
+		"name"		"Stationeers Dedicated Server"
+		"type"		"Tool"
+		"parent"		"544550"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"logo"		"cadc689734e4468b1e9e89327a7afad8cc05a841"
+		"logo_small"		"cadc689734e4468b1e9e89327a7afad8cc05a841_thumb"
+		"icon"		"1450e7f4ec567514855463d3691744795a99b425"
+		"clienttga"		"bc91fde8f8886485a86c99ceb782c3644d66609e"
+		"clienticon"		"80381c4b89907c6c635815bd42e7b605b1e45fd7"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"600760"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Stationeers Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"rocketstation_DedicatedServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Dedicated Server"
+				}
+				"description"		"Dedicated Server"
+			}
+			"2"
+			{
+				"executable"		"rocketstation_DedicatedServer.x86_64"
+				"arguments"		"-autostart -worldtype Space -batchmode -nographics"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"hasdepotsindlc"		"0"
+		"600761"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"58658975366594790"
+					"size"		"5050928880"
+					"download"		"4580297824"
+				}
+				"prerocket"
+				{
+					"gid"		"1331070010807923302"
+					"size"		"2761465898"
+					"download"		"2085396528"
+				}
+				"beta"
+				{
+					"gid"		"58658975366594790"
+					"size"		"5050928880"
+					"download"		"4580297824"
+				}
+				"devbranch"
+				{
+					"gid"		"1486298595612147612"
+					"size"		"1114885420"
+					"download"		"626711184"
+				}
+				"multiplayersafe"
+				{
+					"gid"		"6504338618126552676"
+					"size"		"4973987824"
+					"download"		"4519500512"
+				}
+				"preterrain"
+				{
+					"gid"		"2623423980072757031"
+					"size"		"1424929669"
+					"download"		"663053472"
+				}
+				"previous"
+				{
+					"gid"		"392723524983327953"
+					"size"		"5050180801"
+					"download"		"4580132032"
+				}
+			}
+		}
+		"600762"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"566608925339445695"
+					"size"		"5010173733"
+					"download"		"4567730752"
+				}
+				"prerocket"
+				{
+					"gid"		"6111669730390933276"
+					"size"		"2735017251"
+					"download"		"2077799264"
+				}
+				"beta"
+				{
+					"gid"		"566608925339445695"
+					"size"		"5010173733"
+					"download"		"4567730752"
+				}
+				"devbranch"
+				{
+					"gid"		"3744322817106152807"
+					"size"		"1087289637"
+					"download"		"618757344"
+				}
+				"multiplayersafe"
+				{
+					"gid"		"6167550337302866285"
+					"size"		"4935682257"
+					"download"		"4508358864"
+				}
+				"preterrain"
+				{
+					"gid"		"6066822995851902568"
+					"size"		"1385511566"
+					"download"		"652450272"
+				}
+				"previous"
+				{
+					"gid"		"2546537964923579038"
+					"size"		"5009425350"
+					"download"		"4567583440"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24703974"
+				"timeupdated"		"1786585120"
+				"timebuildupdated"		"1786582833"
+			}
+			"prerocket"
+			{
+				"buildid"		"12001212"
+				"description"		"Pre-rocket refactor update"
+				"timeupdated"		"1702360982"
+				"timebuildupdated"		"1692694313"
+			}
+			"beta"
+			{
+				"buildid"		"24703974"
+				"description"		"beta branch"
+				"timeupdated"		"1786582833"
+				"timebuildupdated"		"1786582833"
+			}
+			"devbranch"
+			{
+				"buildid"		"16447245"
+				"description"		"dev branch for latest testing"
+				"timeupdated"		"1773883238"
+				"timebuildupdated"		"1731950842"
+			}
+			"multiplayersafe"
+			{
+				"buildid"		"21154911"
+				"description"		"pre multiplayer - safe for linux"
+				"timeupdated"		"1769601005"
+				"timebuildupdated"		"1765496035"
+			}
+			"preterrain"
+			{
+				"buildid"		"17747409"
+				"description"		"Pre-terrain rework update"
+				"timeupdated"		"1757913873"
+				"timebuildupdated"		"1742186782"
+			}
+			"previous"
+			{
+				"buildid"		"24014719"
+				"description"		"version before the latest update"
+				"timeupdated"		"1782970589"
+				"timebuildupdated"		"1782970111"
+			}
+		}
+	}
+}
