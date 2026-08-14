@@ -1,0 +1,118 @@
+"appinfo"
+{
+	"appid"		"3481440"
+	"common"
+	{
+		"name"		"Puck Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2994020"
+		"clienticon"		"5f6677368876ded4b92f9357a6289b16af5cdc48"
+		"clienttga"		"b3a926d7704c3e1e20575f77ed03fdba2af78e2d"
+		"icon"		"a41908e104d645dce461bd84b3d94e83c1d32ec8"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3481440"
+	}
+	"config"
+	{
+		"installdir"		"Puck Dedicated Server"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"Puck.exe"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Puck"
+				}
+				"description"		"Puck"
+			}
+			"2"
+			{
+				"executable"		"start_server.sh"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Puck"
+				}
+				"description"		"Puck"
+			}
+		}
+	}
+	"depots"
+	{
+		"3481441"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4097574028343959370"
+					"size"		"215545436"
+					"download"		"67800992"
+				}
+				"legacy"
+				{
+					"gid"		"7575112123532546550"
+					"size"		"215953891"
+					"download"		"67951776"
+				}
+			}
+		}
+		"3481442"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3514149878376708182"
+					"size"		"198009881"
+					"download"		"65398832"
+				}
+				"legacy"
+				{
+					"gid"		"3305199143384257121"
+					"size"		"198406965"
+					"download"		"65542368"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24731491"
+				"timeupdated"		"1786703297"
+				"timebuildupdated"		"1786700724"
+			}
+			"legacy"
+			{
+				"buildid"		"24151114"
+				"description"		"Public legacy branch"
+				"timeupdated"		"1783715659"
+				"timebuildupdated"		"1783704375"
+			}
+		}
+	}
+}
