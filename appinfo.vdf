@@ -1,0 +1,355 @@
+"appinfo"
+{
+	"appid"		"2441950"
+	"common"
+	{
+		"name"		"Tom Clancy's The Division 2 - Test Server"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"2441950_eula_0"
+				"name"		"Tom Clancy's The Division 2 - Test Server EULA"
+				"url"		"https://store.steampowered.com//eula/2441950_eula_0"
+				"version"		"1"
+			}
+		}
+		"clienticon"		"84016dcdbc7b3ebe91e64730691ed324124c468a"
+		"clienttga"		"ff55e064c3ed663d21287bbf5994a56861e2ae9d"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"czech"		"1"
+			"arabic"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"icon"		"60368965ca9475bb65b77c8513cbf034b9f764e2"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2441950"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"4231"
+			"2"		"4106"
+			"3"		"3859"
+			"4"		"4182"
+		}
+	}
+	"extended"
+	{
+		"legacykeyproofofpurchaseticket"		"1"
+		"legacykeylinkedexternally"		"1"
+		"legacykeyregistrationmethod"		"api"
+		"proofofpurchaseticketrevision"		"1"
+		"listofdlc"		"3219380"
+	}
+	"config"
+	{
+		"installdir"		"Tom Clancy's The Division 2 - Test Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TheDivision2.exe"
+				"arguments"		"-uplay_steam_mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Rogue_x64_Release.exe"
+				"arguments"		"-public_key_store_address pks.pc.pts.dev.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pl.pc.pts.dev.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -pts -ubiservices_dna_version PTS -uplay_steam_mode -force_enable_eos_sdk -force_enable_eac_module -force_enable_epicEOS -anticheat_settings=Settings_Release_PROD.json"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"release"
+				}
+				"description_loc"
+				{
+					"english"		"Release branch"
+				}
+				"description"		"Release branch"
+			}
+			"2"
+			{
+				"executable"		"Rogue_x64_Release.exe"
+				"arguments"		"-public_key_store_address pks.pc.etf2.dev.tctd2.ubisoft.com -public_key_store_port 27015 -proxylist pl.pc.etf2.dev.tctd2.ubisoft.com -proxylist_port 51000 -online -sdfonly -login_ubiservices -uplay_launcher -retail_frontend -use_public_key_store -retail_certs -startgame -dnatracking -enable_client_tracking -pts -force_enable_eos_sdk -force_enable_epicEOS -force_enable_eac_module -anticheat_settings=Settings_Release_PROD.json -uplay_steam_mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"release_eos"
+				}
+				"description_loc"
+				{
+					"english"		"eos_release branch"
+				}
+				"description"		"eos_release branch"
+			}
+			"3"
+			{
+				"executable"		"TheDivision2.exe"
+				"arguments"		"-uplay_steam_mode"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"retail_eos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"2"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2441951"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5913073792102555704"
+					"size"		"105617879439"
+					"download"		"96440213008"
+				}
+			}
+		}
+		"2441952"
+		{
+			"config"
+			{
+				"language"		"english"
+			}
+		}
+		"2441953"
+		{
+			"config"
+			{
+				"language"		"french"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3320596027732790535"
+					"size"		"2979302123"
+					"download"		"2777655952"
+				}
+			}
+		}
+		"2441954"
+		{
+			"config"
+			{
+				"language"		"italian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3237929748083503177"
+					"size"		"3064614303"
+					"download"		"2889265552"
+				}
+			}
+		}
+		"2441955"
+		{
+			"config"
+			{
+				"language"		"german"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1450513750200297402"
+					"size"		"2969198214"
+					"download"		"2793272400"
+				}
+			}
+		}
+		"2441956"
+		{
+			"config"
+			{
+				"language"		"spanish"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"757597705596215686"
+					"size"		"3081596869"
+					"download"		"2912122720"
+				}
+			}
+		}
+		"2441957"
+		{
+			"config"
+			{
+				"language"		"latam"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8595125489565971626"
+					"size"		"2996254493"
+					"download"		"2836109936"
+				}
+			}
+		}
+		"2441958"
+		{
+			"config"
+			{
+				"language"		"brazilian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7433678909170296456"
+					"size"		"2962113777"
+					"download"		"2789644352"
+				}
+			}
+		}
+		"2441959"
+		{
+			"config"
+			{
+				"language"		"russian"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5761082721418224416"
+					"size"		"3005551196"
+					"download"		"2831776672"
+				}
+			}
+		}
+		"2544360"
+		{
+			"config"
+			{
+				"language"		"japanese"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9122495211847903620"
+					"size"		"2895224737"
+					"download"		"2724634576"
+				}
+			}
+		}
+		"2544361"
+		{
+			"config"
+			{
+				"language"		"arabic"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6615969572233818967"
+					"size"		"3116913953"
+					"download"		"2937415648"
+				}
+			}
+		}
+		"1716751"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8936186649444731600"
+					"size"		"264933784"
+					"download"		"264844864"
+				}
+			}
+			"depotfromapp"		"1716750"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24720043"
+				"timeupdated"		"1786708571"
+				"timebuildupdated"		"1786647067"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
