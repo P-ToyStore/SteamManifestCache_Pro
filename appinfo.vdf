@@ -1,0 +1,102 @@
+"appinfo"
+{
+	"appid"		"1140300"
+	"common"
+	{
+		"name"		"Darksburg - PreRelease"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"4da14facc6b01f59ec316954b077587ccf3b1403"
+		"logo_small"		"4da14facc6b01f59ec316954b077587ccf3b1403_thumb"
+		"icon"		"0cf8f32a00642bd4d0514cde2d52de9d7c70f0c4"
+		"clienttga"		"3c4d9fb115900adce668109981d6d17d267429da"
+		"clienticon"		"c0a40595a5a54861b77c93b1545e9f1414756438"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1140300"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"492"
+		}
+	}
+	"config"
+	{
+		"installdir"		"Darksburg Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Darksburg.exe"
+				"arguments"		"dxboot.dat"
+				"description"		"Darksburg DirectX"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Darksburg.exe"
+				"description"		"Darksburg OpenGL"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1140301"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8643356016018708450"
+					"size"		"2358893318"
+					"download"		"571461408"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5584403"
+				"timeupdated"		"1600869117"
+				"timebuildupdated"		"1600867664"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"save"
+				"pattern"		"*.sav"
+			}
+			"1"
+			{
+				"root"		"gameinstall"
+				"path"		"/"
+				"pattern"		"*.ini"
+			}
+		}
+	}
+}
