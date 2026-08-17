@@ -1,0 +1,88 @@
+"appinfo"
+{
+	"appid"		"303740"
+	"common"
+	{
+		"name"		"Rebuild: Original Rebuild 1"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"clienticon"		"304706f7a2073e7a9e0825adaa660af0f719ef23"
+		"clienttga"		"aff23d8f2fd77431d5856069e9eebb4a91f0b21f"
+		"icon"		"9c6adb1f850b2f92cf5d7e9706a1298259b907ac"
+		"clienticns"		"09b164908bfba5562ec58582469b6e6a6f46aced"
+		"associations"
+		{
+		}
+		"gameid"		"303740"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Rebuild Original 1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Rebuild.exe"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Rebuild1Mac.app/Contents/MacOS/Rebuild"
+				"description"		"Launch Mac"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"303741"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8339240373932403370"
+					"size"		"53081418"
+					"download"		"0"
+				}
+			}
+		}
+		"303742"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2473564418666342278"
+					"size"		"64776719"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"279057"
+				"timebuildupdated"		"1400949810"
+			}
+		}
+	}
+}
