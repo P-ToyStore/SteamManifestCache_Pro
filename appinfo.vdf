@@ -1,0 +1,146 @@
+"appinfo"
+{
+	"appid"		"1118810"
+	"common"
+	{
+		"name"		"Midnight Ghost Hunt Dedicated Server"
+		"type"		"Tool"
+		"parent"		"915810"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"901d46899a88152c15d3983665ddb6317d499d5c"
+		"clienttga"		"172512975d81dbda77a8080b1e20e260b08c5268"
+		"clienticon"		"f623f7d2c8f3dff00c2748ca2f12b1f25316280f"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1118810"
+	}
+	"config"
+	{
+		"installdir"		"Midnight Ghost Hunt Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"start_server.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229005"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1118811"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4440157004298651448"
+					"size"		"1944064395"
+					"download"		"1495980832"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24778455"
+				"timeupdated"		"1786984584"
+				"timebuildupdated"		"1786978002"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
