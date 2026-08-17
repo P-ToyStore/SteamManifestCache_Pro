@@ -1,0 +1,167 @@
+"appinfo"
+{
+	"appid"		"4067060"
+	"common"
+	{
+		"name"		"jumpfall-mod-manager"
+		"type"		"Tool"
+		"parent"		"4053230"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"fc860d231575d1c25dd655703bf80f61cf34a997"
+		"clienticon"		"fc860d231575d1c25dd655703bf80f61cf34a997"
+		"releasestate"		"released"
+		"freetodownload"		"0"
+		"community_hub_visible"		"1"
+		"gameid"		"4067060"
+	}
+	"config"
+	{
+		"installdir"		"jumpfall-mod-manager"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"skin_tool/jumpfall_skin_tools.exe"
+				"workingdir"		"skin_tool"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch-skin-tools"
+				}
+				"description"		"Launch-skin-tools"
+			}
+			"1"
+			{
+				"executable"		"JumpfallPublisher-and-compiler/JumpfallPublisher.exe"
+				"workingdir"		"JumpfallPublisher-and-compiler"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"jumpfall-compiler-and-publisher"
+				}
+				"description"		"jumpfall-compiler-and-publisher"
+			}
+			"2"
+			{
+				"executable"		"jsm-compiler/JumpFallJsmCompilator.exe"
+				"workingdir"		"jsm-compiler"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"/skin_tool/jumpfall_skin_tool.app"
+				"workingdir"		"/skin_tool/"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Open Skin Tool"
+				}
+				"description"		"Open Skin Tool"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		""
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"4067061"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3313905473374356137"
+					"size"		"653722032"
+					"download"		"191994672"
+				}
+			}
+		}
+		"4067062"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2044250091168819123"
+					"size"		"662370600"
+					"download"		"164991680"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23301027"
+				"timeupdated"		"1779174116"
+				"timebuildupdated"		"1779174116"
+			}
+		}
+	}
+}
