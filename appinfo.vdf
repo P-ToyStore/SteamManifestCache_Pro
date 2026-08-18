@@ -1,0 +1,123 @@
+"appinfo"
+{
+	"appid"		"393000"
+	"common"
+	{
+		"name"		"Extinction Editor (SDK)"
+		"section_type"		"ownersonly"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"logo"		"725f42c54f953ed5832f37fe226433159792b1a0"
+		"logo_small"		"725f42c54f953ed5832f37fe226433159792b1a0_thumb"
+		"icon"		"0c9f64ffe631efcc1c7367742e0a57258cb6278e"
+		"clienttga"		"56b6b042e9741ee0c77e76702b39f6a4c1e92853"
+		"clienticon"		"acdedc2593c79f1082355e43744c9aa9efe226bf"
+		"osarch"		""
+		"osextended"		""
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"393000"
+		"exfgls"		"6"
+		"store_tags"
+		{
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"PrimalCarnageExtinctionSDK"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Primal Carnage Extinction Level Editor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Binaries\\Win64\\PrimalCarnageGameEditor.exe"
+				"arguments"		"-dxvk"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta"
+				}
+				"description_loc"
+				{
+					"english"		"Vulkan (Experimental)"
+				}
+				"description"		"Vulkan (Experimental)"
+			}
+			"1"
+			{
+				"executable"		"Binaries\\Win64\\PrimalCarnageGameEditor.exe"
+				"arguments"		"-d3d9"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"beta"
+				}
+				"description_loc"
+				{
+					"english"		"DirectX 9 (Legacy)"
+				}
+				"description"		"DirectX 9 (Legacy)"
+			}
+		}
+	}
+	"depots"
+	{
+		"393001"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"173324818529798483"
+					"size"		"47696945518"
+					"download"		"30352969152"
+				}
+				"legacy2022"
+				{
+					"gid"		"4029689516141379282"
+					"size"		"42099278035"
+					"download"		"24656988400"
+				}
+			}
+		}
+		"393002"
+		{
+			"config"
+			{
+				"language"		""
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24801241"
+				"timeupdated"		"1787073907"
+				"timebuildupdated"		"1787071327"
+			}
+			"legacy2022"
+			{
+				"buildid"		"9366610"
+				"description"		"backup of 2022 SDK release"
+				"timeupdated"		"1661375653"
+				"timebuildupdated"		"1661212652"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
