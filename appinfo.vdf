@@ -1,0 +1,880 @@
+"appinfo"
+{
+	"appid"		"1905510"
+	"common"
+	{
+		"name"		"DanceXR"
+		"type"		"Application"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"icon"		"9998fb8072cc13b0a8c7faa0373fb2a5d5bcb736"
+		"clienttga"		"b9fbfc64cbc21115f1d668df137d14fb0d9eeb02"
+		"clienticon"		"437bc6c7da33b291c62d7eb160ed4625b20518a2"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"2"
+				"360_required"		"0"
+			}
+		}
+		"releasestate"		"released"
+		"openxrsupport"		"1"
+		"content_descriptors"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"4"
+			"3"		"5"
+		}
+		"restricted_countries"		"CN,DE,SA"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"33.83720930232559"
+				"height_pct"		"62.918546663500365"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"33.83720930232559"
+					"height_pct"		"62.918546663500365"
+				}
+			}
+		}
+		"store_asset_mtime"		"1653833146"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"VR Storm Lab"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"VR Storm Lab"
+			}
+		}
+		"primary_genre"		"51"
+		"genres"
+		{
+			"0"		"51"
+			"1"		"58"
+		}
+		"category"
+		{
+			"category_52"		"1"
+			"category_61"		"1"
+			"category_53"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1654078312"
+		"community_hub_visible"		"1"
+		"gameid"		"1905510"
+		"exfgls"		"6"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"1"
+			"1"		"3"
+			"2"		"4"
+			"3"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"6650"
+			"1"		"12095"
+			"2"		"872"
+			"3"		"784"
+			"4"		"21978"
+			"5"		"4085"
+		}
+		"review_score"		"6"
+		"review_percentage"		"75"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"VR Storm Lab"
+		"publisher"		"VR Storm Lab"
+		"homepage"		"https://vrstormlab.com/"
+		"listofdlc"		"2063770,2819100,3801770"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"DanceXR"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DanceXR HD Pro_win64/DanceXR.exe"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"DanceXR RT Pro_win64/DanceXR.exe"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"2063770"
+				}
+				"description_loc"
+				{
+					"english"		"Raytraced"
+					"koreana"		"레이트레이싱 VR 모드(실험적)"
+					"schinese"		"光线追踪"
+					"tchinese"		"光線追踪"
+					"japanese"		"レイトレーシングVRモード（実験的）"
+				}
+				"description"		"Raytraced"
+			}
+			"4"
+			{
+				"executable"		"DanceXR.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"Mac App"
+				}
+				"description"		"Mac App"
+			}
+			"5"
+			{
+				"executable"		"DanceXR LW Pro_win64/DanceXR.exe"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"2819100"
+				}
+				"description_loc"
+				{
+					"english"		"LW"
+				}
+				"description"		"LW"
+			}
+			"7"
+			{
+				"executable"		"dancexr-discovery-win32-x64/dancexr-discovery.exe"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"ownsdlc"		"3801770"
+				}
+				"description_loc"
+				{
+					"english"		"Discovery App"
+				}
+				"description"		"Discovery App"
+			}
+		}
+	}
+	"depots"
+	{
+		"1905511"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9073049222554859143"
+					"size"		"679125903"
+					"download"		"388012752"
+				}
+				"1.4.9"
+				{
+					"gid"		"8158721612365808272"
+					"size"		"723158472"
+					"download"		"447264000"
+				}
+				"stable"
+				{
+					"gid"		"1661282683060497935"
+					"size"		"291059411"
+					"download"		"119244080"
+				}
+				"2024.8"
+				{
+					"gid"		"218306776543968096"
+					"size"		"728177052"
+					"download"		"447925008"
+				}
+				"2024.9"
+				{
+					"gid"		"5800741970705108038"
+					"size"		"722507275"
+					"download"		"447206400"
+				}
+				"2025.1"
+				{
+					"gid"		"2808030397519693669"
+					"size"		"726609722"
+					"download"		"448011264"
+				}
+				"2025.10"
+				{
+					"gid"		"443899651428752496"
+					"size"		"780020434"
+					"download"		"486029024"
+				}
+				"2025.11"
+				{
+					"gid"		"4113654011176245064"
+					"size"		"780865719"
+					"download"		"486461712"
+				}
+				"2025.12"
+				{
+					"gid"		"7303202060720693244"
+					"size"		"783792061"
+					"download"		"486557472"
+				}
+				"2025.2"
+				{
+					"gid"		"1312384474971819870"
+					"size"		"746440218"
+					"download"		"454767696"
+				}
+				"2025.7"
+				{
+					"gid"		"669320028195881231"
+					"size"		"750207373"
+					"download"		"462806736"
+				}
+				"2025.8"
+				{
+					"gid"		"7066105994875814115"
+					"size"		"765886069"
+					"download"		"479700960"
+				}
+				"2025.9"
+				{
+					"gid"		"3290778913904135891"
+					"size"		"779810614"
+					"download"		"485892992"
+				}
+				"2026.1"
+				{
+					"gid"		"6482763981867095924"
+					"size"		"778407886"
+					"download"		"484190800"
+				}
+				"2026.2"
+				{
+					"gid"		"8453286584239561915"
+					"size"		"761049848"
+					"download"		"469782336"
+				}
+				"2026.3"
+				{
+					"gid"		"2261451511485662458"
+					"size"		"826916680"
+					"download"		"491024864"
+				}
+				"2026.4"
+				{
+					"gid"		"1194799916970308273"
+					"size"		"769619202"
+					"download"		"464790096"
+				}
+				"2026.5"
+				{
+					"gid"		"7715493789777418721"
+					"size"		"678928850"
+					"download"		"386713344"
+				}
+				"2026.6"
+				{
+					"gid"		"3934359526060807323"
+					"size"		"679039347"
+					"download"		"387680352"
+				}
+				"beta"
+				{
+					"gid"		"4096287993168350575"
+					"size"		"680263194"
+					"download"		"388474064"
+				}
+			}
+		}
+		"2063770"
+		{
+			"dlcappid"		"2063770"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"297442033526538488"
+					"size"		"1326410222"
+					"download"		"615237808"
+				}
+				"1.4.9"
+				{
+					"gid"		"3913065876005381498"
+					"size"		"1032471702"
+					"download"		"557459952"
+				}
+				"stable"
+				{
+					"gid"		"8449940280556280906"
+					"size"		"358206072"
+					"download"		"137088384"
+				}
+				"2024.8"
+				{
+					"gid"		"3257127184030817356"
+					"size"		"996199899"
+					"download"		"543243344"
+				}
+				"2024.9"
+				{
+					"gid"		"6880936013410413245"
+					"size"		"1005225133"
+					"download"		"543906528"
+				}
+				"2025.1"
+				{
+					"gid"		"1810541385720624984"
+					"size"		"1012756295"
+					"download"		"552307664"
+				}
+				"2025.10"
+				{
+					"gid"		"8156124855091452577"
+					"size"		"1077064137"
+					"download"		"609273536"
+				}
+				"2025.11"
+				{
+					"gid"		"4044628708439971011"
+					"size"		"1191201085"
+					"download"		"642785328"
+				}
+				"2025.12"
+				{
+					"gid"		"287570675664129741"
+					"size"		"1191511531"
+					"download"		"643021696"
+				}
+				"2025.2"
+				{
+					"gid"		"979332615330564791"
+					"size"		"1020721203"
+					"download"		"555697552"
+				}
+				"2025.7"
+				{
+					"gid"		"4526486740006574543"
+					"size"		"1139538952"
+					"download"		"603095088"
+				}
+				"2025.8"
+				{
+					"gid"		"4511402125474625631"
+					"size"		"1153559416"
+					"download"		"634466512"
+				}
+				"2025.9"
+				{
+					"gid"		"4748949304818012400"
+					"size"		"1190952385"
+					"download"		"643867952"
+				}
+				"2026.1"
+				{
+					"gid"		"7027943405116992521"
+					"size"		"1194523623"
+					"download"		"645435216"
+				}
+				"2026.2"
+				{
+					"gid"		"5708997652679389520"
+					"size"		"1183947437"
+					"download"		"632501568"
+				}
+				"2026.3"
+				{
+					"gid"		"8425606506380490711"
+					"size"		"1306578557"
+					"download"		"687117408"
+				}
+				"2026.4"
+				{
+					"gid"		"7960625220795339559"
+					"size"		"1244495083"
+					"download"		"660018592"
+				}
+				"2026.5"
+				{
+					"gid"		"6082598877689067642"
+					"size"		"1142754403"
+					"download"		"578782624"
+				}
+				"2026.6"
+				{
+					"gid"		"182588549007560565"
+					"size"		"1142716691"
+					"download"		"579652416"
+				}
+				"beta"
+				{
+					"gid"		"3828124262320834597"
+					"size"		"1332889809"
+					"download"		"618764912"
+				}
+			}
+		}
+		"2819100"
+		{
+			"dlcappid"		"2819100"
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3985035990823378390"
+					"size"		"415529971"
+					"download"		"217025744"
+				}
+				"2024.8"
+				{
+					"gid"		"4659673645213484890"
+					"size"		"510084512"
+					"download"		"284281952"
+				}
+				"2024.9"
+				{
+					"gid"		"691120918226390936"
+					"size"		"505510051"
+					"download"		"283639696"
+				}
+				"2025.1"
+				{
+					"gid"		"741510913041236597"
+					"size"		"505852333"
+					"download"		"283282432"
+				}
+				"2025.10"
+				{
+					"gid"		"438470387371972296"
+					"size"		"521484448"
+					"download"		"300627616"
+				}
+				"2025.11"
+				{
+					"gid"		"4289718285325284595"
+					"size"		"521452452"
+					"download"		"300605056"
+				}
+				"2025.12"
+				{
+					"gid"		"3028259121797180895"
+					"size"		"521570230"
+					"download"		"300656928"
+				}
+				"2025.2"
+				{
+					"gid"		"5106727893676197753"
+					"size"		"508970405"
+					"download"		"285308720"
+				}
+				"2025.7"
+				{
+					"gid"		"2547389811653085920"
+					"size"		"530648403"
+					"download"		"302959392"
+				}
+				"2025.8"
+				{
+					"gid"		"2648568360704564027"
+					"size"		"530042015"
+					"download"		"308184144"
+				}
+				"2025.9"
+				{
+					"gid"		"204771078969941930"
+					"size"		"520955664"
+					"download"		"300317872"
+				}
+				"2026.1"
+				{
+					"gid"		"5375020366567974924"
+					"size"		"522257791"
+					"download"		"300968144"
+				}
+				"2026.2"
+				{
+					"gid"		"5283439219342248155"
+					"size"		"525045543"
+					"download"		"303539360"
+				}
+				"2026.3"
+				{
+					"gid"		"6992852666031548819"
+					"size"		"561935487"
+					"download"		"319935104"
+				}
+				"2026.4"
+				{
+					"gid"		"7473123306562203398"
+					"size"		"505910211"
+					"download"		"294048304"
+				}
+				"2026.5"
+				{
+					"gid"		"7514930430102512514"
+					"size"		"415122219"
+					"download"		"215818208"
+				}
+				"2026.6"
+				{
+					"gid"		"4381637119030131693"
+					"size"		"414954923"
+					"download"		"216597904"
+				}
+				"beta"
+				{
+					"gid"		"7721784725584860402"
+					"size"		"415828226"
+					"download"		"217123984"
+				}
+			}
+		}
+		"3801770"
+		{
+			"dlcappid"		"3801770"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2025.10"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2025.11"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2025.12"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2025.7"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2025.8"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2025.9"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2026.1"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2026.2"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2026.3"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2026.4"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2026.5"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"2026.6"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+				"beta"
+				{
+					"gid"		"3122501706574678546"
+					"size"		"315543466"
+					"download"		"99660592"
+				}
+			}
+		}
+		"baselanguages"		"english,koreana,schinese,tchinese,japanese"
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24233788"
+				"timeupdated"		"1787058677"
+				"timebuildupdated"		"1784181286"
+			}
+			"1.4.9"
+			{
+				"buildid"		"12448840"
+				"description"		"1.4.9"
+				"timeupdated"		"1700732959"
+				"timebuildupdated"		"1697435695"
+			}
+			"stable"
+			{
+				"buildid"		"10150019"
+				"description"		"Stable version"
+				"timeupdated"		"1674125480"
+				"timebuildupdated"		"1671061885"
+			}
+			"2024.8"
+			{
+				"buildid"		"15381832"
+				"description"		"2024.8"
+				"timeupdated"		"1727758048"
+				"timebuildupdated"		"1723726181"
+			}
+			"2024.9"
+			{
+				"buildid"		"15707257"
+				"description"		"2024.9"
+				"timeupdated"		"1729906288"
+				"timebuildupdated"		"1726407764"
+			}
+			"2025.1"
+			{
+				"buildid"		"17018434"
+				"description"		"2025.1"
+				"timeupdated"		"1740655520"
+				"timebuildupdated"		"1736977944"
+			}
+			"2025.10"
+			{
+				"buildid"		"20434980"
+				"description"		"2025.10"
+				"timeupdated"		"1763777509"
+				"timebuildupdated"		"1760703029"
+			}
+			"2025.11"
+			{
+				"buildid"		"20873460"
+				"description"		"2025.11"
+				"timeupdated"		"1771155717"
+				"timebuildupdated"		"1763636022"
+			}
+			"2025.12"
+			{
+				"buildid"		"21180630"
+				"description"		"2025.12"
+				"timeupdated"		"1771155729"
+				"timebuildupdated"		"1765708052"
+			}
+			"2025.2"
+			{
+				"buildid"		"17378097"
+				"description"		"2025.2"
+				"timeupdated"		"1743289249"
+				"timebuildupdated"		"1739629507"
+			}
+			"2025.7"
+			{
+				"buildid"		"19237211"
+				"description"		"2025.7"
+				"timeupdated"		"1758030639"
+				"timebuildupdated"		"1752624195"
+			}
+			"2025.8"
+			{
+				"buildid"		"19628853"
+				"description"		"2025.8"
+				"timeupdated"		"1759276640"
+				"timebuildupdated"		"1755430975"
+			}
+			"2025.9"
+			{
+				"buildid"		"20032848"
+				"description"		"2025.9"
+				"timeupdated"		"1763777494"
+				"timebuildupdated"		"1758204655"
+			}
+			"2026.1"
+			{
+				"buildid"		"21544003"
+				"description"		"2026.1"
+				"timeupdated"		"1771155745"
+				"timebuildupdated"		"1768735369"
+			}
+			"2026.2"
+			{
+				"buildid"		"21940146"
+				"description"		"2026.2"
+				"timeupdated"		"1777198501"
+				"timebuildupdated"		"1771155632"
+			}
+			"2026.3"
+			{
+				"buildid"		"22257488"
+				"description"		"2026.3"
+				"timeupdated"		"1773663869"
+				"timebuildupdated"		"1773032034"
+			}
+			"2026.4"
+			{
+				"buildid"		"22962049"
+				"description"		"2026.4"
+				"timeupdated"		"1781687152"
+				"timebuildupdated"		"1777198435"
+			}
+			"2026.5"
+			{
+				"buildid"		"23378296"
+				"description"		"2026.5"
+				"timeupdated"		"1781686897"
+				"timebuildupdated"		"1779547008"
+			}
+			"2026.6"
+			{
+				"buildid"		"23779278"
+				"description"		"2026.6"
+				"timeupdated"		"1782891385"
+				"timebuildupdated"		"1781686821"
+			}
+			"beta"
+			{
+				"buildid"		"24797468"
+				"description"		"Public beta release"
+				"timeupdated"		"1787058994"
+				"timebuildupdated"		"1787058994"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
