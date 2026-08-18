@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"3093190"
+	"common"
+	{
+		"name"		"Exfil Dedicated Server"
+		"type"		"Tool"
+		"parent"		"860020"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienttga"		"8c2d111c302bde042b28a6d0f20a963782bbbdf4"
+		"clienticon"		"33737b8b5f5423d893b052648200821b5133cc62"
+		"icon"		"d68fd51720c6823c992335d5ff4e871014ec2289"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"3093190_eula_0"
+				"name"		"Exfil Dedicated Server EULA"
+				"url"		"https://store.steampowered.com//eula/3093190_eula_0"
+				"version"		"2"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"3093190"
+	}
+	"config"
+	{
+		"installdir"		"exfilserver"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ExfilServer.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"ExfilServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"3093191"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5304978599122215586"
+					"size"		"2269325388"
+					"download"		"1875043696"
+				}
+				"demo"
+				{
+					"gid"		"3376521652523239184"
+					"size"		"1944399053"
+					"download"		"1583919856"
+				}
+				"staging"
+				{
+					"gid"		"8447078826443948852"
+					"size"		"2269490787"
+					"download"		"1875102176"
+				}
+				"public-testing"
+				{
+					"gid"		"8447078826443948852"
+					"size"		"2269490787"
+					"download"		"1875102176"
+				}
+			}
+		}
+		"3093192"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1553285473217532063"
+					"size"		"2407476163"
+					"download"		"1956913040"
+				}
+				"demo"
+				{
+					"gid"		"121575530044856065"
+					"size"		"1886986599"
+					"download"		"1618912320"
+				}
+				"staging"
+				{
+					"gid"		"5811033056624034522"
+					"size"		"2407589165"
+					"download"		"1957023536"
+				}
+				"public-testing"
+				{
+					"gid"		"5811033056624034522"
+					"size"		"2407589165"
+					"download"		"1957023536"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24727330"
+				"timeupdated"		"1786749797"
+				"timebuildupdated"		"1786681248"
+			}
+			"demo"
+			{
+				"buildid"		"18689520"
+				"description"		"Demo build"
+				"timeupdated"		"1748743036"
+				"timebuildupdated"		"1748740723"
+			}
+			"staging"
+			{
+				"buildid"		"24767697"
+				"description"		"Staging branch (unstable)"
+				"timeupdated"		"1786923909"
+				"timebuildupdated"		"1786923909"
+			}
+			"public-testing"
+			{
+				"buildid"		"24767697"
+				"description"		"Public access to the latest changes for dedicated servers"
+				"timeupdated"		"1786924212"
+				"timebuildupdated"		"1786923909"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
