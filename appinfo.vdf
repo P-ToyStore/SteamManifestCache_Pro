@@ -1,0 +1,99 @@
+"appinfo"
+{
+	"appid"		"3846870"
+	"common"
+	{
+		"name"		"Stickforge Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1593370"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"1cd09f478946e590bb91dee63efb14df0931dd83"
+		"clienticon"		"ddb163df963d64f869aee25ff58d700d10922ad1"
+		"clienttga"		"52186d25f4bb1e228d63b5b8e7086cb251a96dcb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"3846870_eula_0"
+				"name"		"Stickforge Dedicated Server EULA"
+				"url"		"https://store.steampowered.com//eula/3846870_eula_0"
+				"version"		"1"
+			}
+		}
+		"gameid"		"3846870"
+	}
+	"config"
+	{
+		"installdir"		"Stickforge Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"launch.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"launch.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"3846871"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9037296349689091068"
+					"size"		"172999852"
+					"download"		"73535984"
+				}
+			}
+		}
+		"3846872"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8186939065185530283"
+					"size"		"205003558"
+					"download"		"80401264"
+				}
+			}
+		}
+		"workshopdepot"		"3846870"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23728391"
+				"timeupdated"		"1781456722"
+				"timebuildupdated"		"1781456681"
+			}
+		}
+	}
+}
