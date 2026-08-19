@@ -1,0 +1,3 @@
+### [4872730] STEINS;GATE RE:BOOT VISUAL COLLECTION  
+**Build Id** `24369299`  
+**Last Update Time** `2026/07/24 15:34`  
