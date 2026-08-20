@@ -1,0 +1,3 @@
+### [3756010] SUPER BOMBERMAN COLLECTION  
+**Build Id** `22695108`  
+**Last Update Time** `2026/08/20 14:00`  
