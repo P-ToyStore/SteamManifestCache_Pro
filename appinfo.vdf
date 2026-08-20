@@ -1,0 +1,110 @@
+"appinfo"
+{
+	"appid"		"295230"
+	"common"
+	{
+		"name"		"Fistful of Frags Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"parent"		"265630"
+		"oslist"		"windows,linux"
+		"clienticon"		"32891fd7ff06b545be17e422c27d555989735443"
+		"clienttga"		"a32fad174d6485f97fb5319e4ef848546447785c"
+		"icon"		"e70c19e10125ea3f221666327af2b90f3fcecad9"
+		"logo"		"96455c4ec57504a5287c9239f52a068253691dfb"
+		"logo_small"		"96455c4ec57504a5287c9239f52a068253691dfb_thumb"
+		"osarch"		""
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"295230"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Fistful of Frags Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game fof"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./srcds_run"
+				"arguments"		"-steam -game fof"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"295231"
+		{
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6352541065658419179"
+					"size"		"3179190597"
+					"download"		"1224450352"
+				}
+			}
+		}
+		"295232"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3239868661973881986"
+					"size"		"209254478"
+					"download"		"87885408"
+				}
+			}
+		}
+		"295233"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5762571101757691810"
+					"size"		"70905386"
+					"download"		"19424128"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24839683"
+				"timeupdated"		"1787229021"
+				"timebuildupdated"		"1787228958"
+			}
+		}
+	}
+}
