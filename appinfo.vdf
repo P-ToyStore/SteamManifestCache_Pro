@@ -1,0 +1,157 @@
+"appinfo"
+{
+	"appid"		"2686030"
+	"common"
+	{
+		"name"		"Codename - FrontLine"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"gameid"		"2686030"
+		"exfgls"		"8"
+		"store_tags"
+		{
+		}
+	}
+	"config"
+	{
+		"installdir"		"Codename - FrontLine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Insurgency.exe"
+				"type"		"default"
+			}
+			"1"
+			{
+				"executable"		"Insurgency-Win64-Test.exe"
+				"type"		"option1"
+				"config"
+				{
+					"betakey"		"main, fe_qa_external"
+				}
+				"description_loc"
+				{
+					"english"		"Test"
+				}
+				"description"		"Test"
+			}
+			"2"
+			{
+				"executable"		"Insurgency-Win64-Shipping.exe"
+				"workingdir"		"Insurgency\\Binaries\\Win64\\"
+				"type"		"option2"
+				"config"
+				{
+					"betakey"		"main,playtest,fe_playtest,fe_consulting,playtest,fe_hw"
+				}
+				"description_loc"
+				{
+					"english"		"Shipping"
+				}
+				"description"		"Shipping"
+			}
+			"3"
+			{
+				"executable"		"Insurgency-Win64-Test.exe"
+				"type"		"option1"
+				"config"
+				{
+					"betakey"		"ms_deliveries, fe_consulting"
+				}
+				"description_loc"
+				{
+					"english"		"Test"
+				}
+				"description"		"Test"
+			}
+			"4"
+			{
+				"executable"		"Insurgency-Win64-Shipping.exe"
+				"type"		"option2"
+				"config"
+				{
+					"betakey"		"ms_deliveries"
+				}
+				"description_loc"
+				{
+					"english"		"Shipping"
+				}
+				"description"		"Shipping"
+			}
+			"5"
+			{
+				"executable"		"RunClientTest.bat"
+				"config"
+				{
+					"betakey"		"main"
+				}
+				"description_loc"
+				{
+					"english"		"Run test with PSO wrapper"
+				}
+				"description"		"Run test with PSO wrapper"
+			}
+			"6"
+			{
+				"executable"		"RunClientDevelopment.bat"
+				"config"
+				{
+					"betakey"		"main"
+				}
+				"description_loc"
+				{
+					"english"		"Run development with PSO wrapper"
+				}
+				"description"		"Run development with PSO wrapper"
+			}
+		}
+		"steamcontrollertemplateindex"		"3"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65532"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2686031"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3303488244801589087"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"12810790"
+				"timeupdated"		"1701118736"
+				"timebuildupdated"		"1701118711"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
