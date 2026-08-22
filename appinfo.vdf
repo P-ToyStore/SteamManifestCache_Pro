@@ -1,0 +1,209 @@
+"appinfo"
+{
+	"appid"		"3637320"
+	"common"
+	{
+		"name"		"Computronium Playtest"
+		"type"		"Beta"
+		"parent"		"3632770"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"14e5cc48e2d156370d8fc9326a1cec88a3914d12"
+		"clienttga"		"1fcbf4b8fb7de3851941e07ee30230af32600e39"
+		"clienticns"		"2e53501173870102835d4195b378bd605df56a69"
+		"icon"		"4a16eb7d45cb62da8c279cebba6a920d9bd1117d"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"9fd4915bb5b7fe1de6e01660831deed754518c67/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"3c75b05f0b8b204c8d09144e232f896909813353/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"6c67193e47985588c0705247af6c83c20eb4f635/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"6c67193e47985588c0705247af6c83c20eb4f635/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"b3de00f2bc1b12ccb5f089d7930182a59f0ebd01/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"b3de00f2bc1b12ccb5f089d7930182a59f0ebd01/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"b3de00f2bc1b12ccb5f089d7930182a59f0ebd01/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"470f10b5d3749a6a3610cabe989b8ad39f4207ea/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"470f10b5d3749a6a3610cabe989b8ad39f4207ea/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"70ddf37512593346078c66a640570a41fca894b3/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"70ddf37512593346078c66a640570a41fca894b3/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1744393133"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1783246439"
+		"community_hub_visible"		"1"
+		"gameid"		"3637320"
+		"exfgls"		"6"
+	}
+	"config"
+	{
+		"installdir"		"Computronium Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"computronium.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"computronium.app/Contents/MacOS/computronium"
+				"workingdir"		"computronium.app/Contents/MacOS"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"computronium"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"3637321"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"425399871844794462"
+					"size"		"1151670471"
+					"download"		"848155504"
+				}
+			}
+		}
+		"3637322"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2168583876498884069"
+					"size"		"722301777"
+					"download"		"567937536"
+				}
+			}
+		}
+		"3637323"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5769901942573198777"
+					"size"		"1230509575"
+					"download"		"855169776"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24059609"
+				"timeupdated"		"1783245173"
+				"timebuildupdated"		"1783245173"
+			}
+		}
+	}
+}
