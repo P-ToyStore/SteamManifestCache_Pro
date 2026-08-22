@@ -1,0 +1,285 @@
+"appinfo"
+{
+	"appid"		"3430160"
+	"common"
+	{
+		"name"		"Fungi Crossing"
+		"type"		"Game"
+		"releasestate"		"released"
+		"icon"		"3c979cb39485d8ebdac6555e783d2ec97407848b"
+		"clienticon"		"f6135b9a568c1fb720384d16166ad62438143ae0"
+		"clienttga"		"f5479e3757152d7546b763feed7591be0ec995fd"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"59aa4d33ab6f85ebfd2e4c0bc4ac487d94b666ec/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"27.30544408944955"
+				"height_pct"		"67.08636771418773"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"d13a7bff66df26cc8e6d608b690fff35110698c0/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"d13a7bff66df26cc8e6d608b690fff35110698c0/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"7153460dbbcdbfa7066a54628217f757092f153a/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"7153460dbbcdbfa7066a54628217f757092f153a/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"7153460dbbcdbfa7066a54628217f757092f153a/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"2c1310db59198066fb84c1ec11d98826d5f2fa43/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"2c1310db59198066fb84c1ec11d98826d5f2fa43/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"27.30544408944955"
+					"height_pct"		"67.08636771418773"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"7f84b903ff6a21282714da9a230e39f0d0377666/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"7f84b903ff6a21282714da9a230e39f0d0377666/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1755292502"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bingonian"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bingonian"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1746910367"
+		"community_hub_visible"		"1"
+		"gameid"		"3430160"
+		"store_tags"
+		{
+			"0"		"3968"
+			"1"		"5537"
+			"2"		"4166"
+			"3"		"3835"
+			"4"		"1742"
+			"5"		"21"
+			"6"		"5379"
+			"7"		"597"
+			"8"		"4182"
+			"9"		"1625"
+			"10"		"4252"
+			"11"		"1664"
+			"12"		"3871"
+			"13"		"4195"
+			"14"		"4726"
+			"15"		"6815"
+			"16"		"4136"
+			"17"		"5716"
+			"18"		"7250"
+		}
+		"review_score"		"7"
+		"review_percentage"		"100"
+	}
+	"extended"
+	{
+		"developer"		"Bingonian"
+		"publisher"		"Bingonian"
+	}
+	"config"
+	{
+		"installdir"		"Fungi Crossing"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"launch_fungi.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"launch_fungi.sh"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"jre\\bin\\javaw.exe"
+				"arguments"		"-Xms256m -Xmx2g -jar FungiCrossing.jar > log.txt 2>&1"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"3430161"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2425413038604182823"
+					"size"		"1"
+					"download"		"64"
+				}
+			}
+		}
+		"3430162"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1624266374257946086"
+					"size"		"124872421"
+					"download"		"59411232"
+				}
+			}
+		}
+		"3430163"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6569735964715990687"
+					"size"		"133704962"
+					"download"		"60964160"
+				}
+			}
+		}
+		"3430164"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1159906492948924549"
+					"size"		"145145277"
+					"download"		"59824944"
+				}
+			}
+		}
+		"3430165"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7692429291690792630"
+					"size"		"93169060"
+					"download"		"82234784"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23800809"
+				"timeupdated"		"1781785747"
+				"timebuildupdated"		"1781779382"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
