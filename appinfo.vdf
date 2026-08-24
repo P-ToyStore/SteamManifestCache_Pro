@@ -1,0 +1,86 @@
+"appinfo"
+{
+	"appid"		"4913570"
+	"common"
+	{
+		"name"		"Team Fortress 2 Classified Authoring Tools"
+		"type"		"Tool"
+		"parent"		"3545060"
+		"clienticon"		"1c628aae928015ea5bb92285ebae6bc808116da4"
+		"icon"		"1c628aae928015ea5bb92285ebae6bc808116da4"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"gameid"		"4913570"
+	}
+	"config"
+	{
+		"installdir"		"Team Fortress 2 Classified"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\x64\\toolslauncher.exe"
+				"arguments"		"-game tf2classified"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"4913571"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6106557628763542397"
+					"size"		"149875092"
+					"download"		"27723456"
+				}
+			}
+		}
+		"4913572"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6100816337281743427"
+					"size"		"48136332"
+					"download"		"19704640"
+				}
+			}
+		}
+		"3545062"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"depotfromapp"		"3545060"
+			"sharedinstall"		"2"
+		}
+		"baselanguages"		"brazilian,english,german,hungarian,schinese,tchinese,turkish"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24912922"
+				"timeupdated"		"1787600016"
+				"timebuildupdated"		"1787596457"
+			}
+		}
+	}
+}
