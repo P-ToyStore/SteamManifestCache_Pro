@@ -1,0 +1,81 @@
+"appinfo"
+{
+	"appid"		"4677350"
+	"common"
+	{
+		"name"		"HELIX Studio"
+		"type"		"Tool"
+		"parent"		"2594840"
+		"clienticon"		"ef9ea986067f11a79217b39d46d34c068008ddb5"
+		"icon"		"6ede8c64237aaf44197313529ed5680b0fae1048"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"gameid"		"4677350"
+	}
+	"config"
+	{
+		"installdir"		"HELIX Studio"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"\\Engine\\Binaries\\Win64\\UnrealEditor.exe"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Custom editor for creating HELIX based experiences and asset packages"
+				}
+				"description"		"Custom editor for creating HELIX based experiences and asset packages"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"4677351"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"967422352999847624"
+					"size"		"50598975903"
+					"download"		"30284231024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23898371"
+				"timeupdated"		"1783442192"
+				"timebuildupdated"		"1782323829"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
