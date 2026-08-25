@@ -1,0 +1,119 @@
+"appinfo"
+{
+	"appid"		"4129620"
+	"common"
+	{
+		"name"		"Windrose Dedicated Server"
+		"type"		"Tool"
+		"parent"		"3041230"
+		"clienticon"		"f8ae552a1c3eb4a6d3015867a6a4a64c02b9cd8d"
+		"icon"		"f8ae552a1c3eb4a6d3015867a6a4a64c02b9cd8d"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"4129620"
+	}
+	"config"
+	{
+		"installdir"		"Windrose Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WindroseServer.exe"
+				"arguments"		"-log"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"4129621"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6608847723523526671"
+					"size"		"3036697175"
+					"download"		"869241344"
+				}
+			}
+		}
+		"4129622"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24913903"
+				"timeupdated"		"1787642432"
+				"timebuildupdated"		"1787600449"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
