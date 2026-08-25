@@ -1,0 +1,229 @@
+"appinfo"
+{
+	"appid"		"642770"
+	"common"
+	{
+		"name"		"Vinyl Reality"
+		"type"		"Application"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"dc011474c40051615c68f2eb3c550023b30f83a0"
+		"logo_small"		"dc011474c40051615c68f2eb3c550023b30f83a0_thumb"
+		"icon"		"4a892793b0118849a628a5b5670f6841464f6258"
+		"clienticon"		"3727e60e53b69cabd9d4c7eae9c0de6de5127f6e"
+		"clienttga"		"0dda1023c0e565c07d560ec8ad33316e645cd550"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"642770_eula_0"
+				"name"		"Vinyl Reality EULA"
+				"url"		"http://store.steampowered.com//eula/642770_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"seated"		"1"
+			"standing"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"openvr_action_manifest_path"		"Vinyl Reality_Data/StreamingAssets/SteamVR/actions.json"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"42.6247579175577"
+				"height_pct"		"39.93583772255394"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"42.6247579175577"
+					"height_pct"		"39.93583772255394"
+				}
+			}
+		}
+		"store_asset_mtime"		"1780148044"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"EntroPi Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"EntroPi Games"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Vinyl"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"52"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_52"		"1"
+			"category_54"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1668592112"
+		"community_hub_visible"		"1"
+		"gameid"		"642770"
+		"exfgls"		"6"
+		"onlyvrsupport"		"1"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1027"
+			"2"		"492"
+			"3"		"21978"
+			"4"		"1621"
+			"5"		"1036"
+			"6"		"9204"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"0"
+		"developer"		"EntroPi Games"
+		"publisher"		"EntroPi Games"
+	}
+	"config"
+	{
+		"installdir"		"Vinyl Reality"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Vinyl Reality.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"Vinyl Reality.exe"
+				"arguments"		" -vrmode oculus"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"642771"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2968671163780695449"
+					"size"		"583153712"
+					"download"		"300379344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24928356"
+				"timeupdated"		"1787662206"
+				"timebuildupdated"		"1787662086"
+			}
+		}
+	}
+}
