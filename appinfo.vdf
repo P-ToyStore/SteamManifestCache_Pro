@@ -1,0 +1,252 @@
+"appinfo"
+{
+	"appid"		"380870"
+	"common"
+	{
+		"name"		"Project Zomboid Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,macos,linux"
+		"clienticon"		"16d32dd6f2f86e87bebb2058801f982d41ac5f33"
+		"clienttga"		"6ae5286457ca5dfb0be124376edf0d4164c2c67a"
+		"icon"		"c390a67905ef5aac5b43caf5a1147c8b34bad4d5"
+		"logo"		"346421b034310b16b40eaf1186c17eda256c2977"
+		"logo_small"		"346421b034310b16b40eaf1186c17eda256c2977_thumb"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"380870"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Project Zomboid Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StartServer64.bat"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Start Server"
+				}
+				"description"		"Start Server"
+			}
+			"1"
+			{
+				"executable"		"StartServer32.bat"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+				"description_loc"
+				{
+					"english"		"Start Server"
+				}
+				"description"		"Start Server"
+			}
+			"2"
+			{
+				"executable"		"start-server.sh"
+				"description"		"Start Server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"380871"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8198713088050651526"
+					"size"		"6886641123"
+					"download"		"1904567168"
+				}
+				"legacy41"
+				{
+					"gid"		"969953672967332490"
+					"size"		"5063752681"
+					"download"		"715454384"
+				}
+				"42.19"
+				{
+					"gid"		"1029035791451047619"
+					"size"		"6749217493"
+					"download"		"1815448080"
+				}
+			}
+		}
+		"380872"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"918325764650181813"
+					"size"		"205132542"
+					"download"		"52717232"
+				}
+				"legacy41"
+				{
+					"gid"		"9212075869369912514"
+					"size"		"5628380"
+					"download"		"1760624"
+				}
+				"42.19"
+				{
+					"gid"		"2465432541583996454"
+					"size"		"204386370"
+					"download"		"52761328"
+				}
+			}
+		}
+		"380873"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4894029153115054997"
+					"size"		"217979308"
+					"download"		"57546432"
+				}
+				"legacy41"
+				{
+					"gid"		"4853909597474362594"
+					"size"		"166065715"
+					"download"		"38313344"
+				}
+				"42.19"
+				{
+					"gid"		"7621079945072996311"
+					"size"		"221360987"
+					"download"		"59619184"
+				}
+			}
+		}
+		"380874"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8626440533803009640"
+					"size"		"208884294"
+					"download"		"56146368"
+				}
+				"legacy41"
+				{
+					"gid"		"597900166880863308"
+					"size"		"257368703"
+					"download"		"48791648"
+				}
+				"42.19"
+				{
+					"gid"		"2982201359458891818"
+					"size"		"215429901"
+					"download"		"58895504"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24909836"
+				"timeupdated"		"1787742921"
+				"timebuildupdated"		"1787585851"
+			}
+			"legacy41"
+			{
+				"buildid"		"24928750"
+				"description"		"Build 41.78.21"
+				"timeupdated"		"1787742984"
+				"timebuildupdated"		"1787663215"
+			}
+			"42.19"
+			{
+				"buildid"		"24929695"
+				"description"		"Build 42.19.2"
+				"timeupdated"		"1787742952"
+				"timebuildupdated"		"1787665995"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
