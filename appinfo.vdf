@@ -1,0 +1,315 @@
+"appinfo"
+{
+	"appid"		"329630"
+	"common"
+	{
+		"name"		"Command HQ"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"clienticns"		"4c8be43e93ba286628180dd075eb902102a926a5"
+		"linuxclienticon"		"c3870f4edd52461b0899ad7c256860698660d2ff"
+		"clienticon"		"0966a8dc754f616a17b6eb68cca13b5dce9ff882"
+		"clienttga"		"ae385c1c7f45cd2f5ece8f4cf49034de7d3605f1"
+		"icon"		"f3560b13b1c0d9e97180aa6178a3fe9ba1ee9c7e"
+		"logo"		"ede466dc88e1b141973d39809c0fe2ec9f677c5a"
+		"logo_small"		"ede466dc88e1b141973d39809c0fe2ec9f677c5a_thumb"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"metacritic_name"		"Command H.Q."
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_ef3f26dc281a635a6f4d7c536c9e66503eed2851.jpg"
+		"store_asset_mtime"		"1755510237"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Ozark Softscape"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"MicroProse Software "
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"Command HQ"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"631180800"
+		"steam_release_date"		"1415304046"
+		"community_hub_visible"		"1"
+		"gameid"		"329630"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"4004"
+			"2"		"1693"
+			"3"		"6691"
+		}
+		"review_score"		"8"
+		"review_percentage"		"91"
+	}
+	"extended"
+	{
+		"developer"		"Ozark Softscape"
+		"publisher"		"MicroProse Software "
+		"homepage"		"https://www.microprose.com"
+		"gamemanualurl"		"https://store.steampowered.com/manual/329630/"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Command HQ"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_commandhq.conf -conf dosbox_commandhq_launch_windows.conf -noconsole"
+				"description"		"Launch"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"dosbox_windows\\daum\\dosbox.exe"
+				"arguments"		"-conf dosbox_commandhq.conf -conf dosbox_commandhq_launch_windows.conf -noconsole"
+				"description"		"Play Command HQ in DOSBox Daum"
+				"workingdir"		"dosbox_windows\\daum\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"dosbox_windows\\dosbox.exe"
+				"arguments"		"-conf dosbox_commandhq.conf -conf dosbox_commandhq_config_windows.conf -noconsole"
+				"description"		"Command HQ - Configuration"
+				"workingdir"		"dosbox_windows\\"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"Command HQ.app"
+				"description"		"Launch"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"dosbox_linux\\launch_commandhq_game.sh"
+				"description"		"Launch"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"dosbox_linux\\daum\\launch_commandhq_game_daum.sh"
+				"description"		"Play Command HQ in DOSBox Daum"
+				"workingdir"		"dosbox_linux\\daum\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"6"
+			{
+				"executable"		"dosbox_linux\\launch_commandhq_config.sh"
+				"description"		"Command HQ - Configuration"
+				"workingdir"		"dosbox_linux\\"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"329631"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7191941163167171930"
+					"size"		"945023"
+					"download"		"673680"
+				}
+				"beta"
+				{
+					"gid"		"7191941163167171930"
+					"size"		"945023"
+					"download"		"673680"
+				}
+			}
+		}
+		"329632"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6435378343593780744"
+					"size"		"18522202"
+					"download"		"9638688"
+				}
+				"beta"
+				{
+					"gid"		"6435378343593780744"
+					"size"		"18522202"
+					"download"		"9638688"
+				}
+			}
+		}
+		"329633"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7546085856346281669"
+					"size"		"25225223"
+					"download"		"9614208"
+				}
+				"beta"
+				{
+					"gid"		"7546085856346281669"
+					"size"		"25225223"
+					"download"		"9614208"
+				}
+			}
+		}
+		"329634"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"714043270746357900"
+					"size"		"17457434"
+					"download"		"8684160"
+				}
+				"beta"
+				{
+					"gid"		"714043270746357900"
+					"size"		"17457434"
+					"download"		"8684160"
+				}
+			}
+		}
+		"329635"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"831895223694171184"
+					"size"		"497670"
+					"download"		"379632"
+				}
+				"beta"
+				{
+					"gid"		"831895223694171184"
+					"size"		"497670"
+					"download"		"379632"
+				}
+			}
+		}
+		"329636"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3581566029972558095"
+					"size"		"497670"
+					"download"		"379632"
+				}
+				"beta"
+				{
+					"gid"		"3581566029972558095"
+					"size"		"497670"
+					"download"		"379632"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24972233"
+				"timeupdated"		"1787839499"
+				"timebuildupdated"		"1787839160"
+			}
+			"beta"
+			{
+				"buildid"		"24972233"
+				"timeupdated"		"1787839160"
+				"timebuildupdated"		"1787839160"
+			}
+		}
+	}
+}
