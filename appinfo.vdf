@@ -1,0 +1,763 @@
+"appinfo"
+{
+	"appid"		"397150"
+	"common"
+	{
+		"name"		"Stellar Overload"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"logo"		"ae144a933d09ac2f34052c499b176bc3f2674f88"
+		"logo_small"		"ae144a933d09ac2f34052c499b176bc3f2674f88_thumb"
+		"clienticon"		"1f98ffae271e683761daa26490c0c36d9df3089f"
+		"clienttga"		"452def96a54e4748938dcfe843e8617b91305d3f"
+		"icon"		"b303c6016965e2906a22ceaf1ae8fd45fa65e5c6"
+		"clienticns"		"e340746ad1c107caf8d856fa8b325dc824524afb"
+		"linuxclienticon"		"bbb969457eb955b13fb4051430e77b028dec8dfc"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"397150_eula_0"
+				"name"		"Stellar Overload EULA"
+				"url"		"http://store.steampowered.com//eula/397150_eula_0"
+			}
+		}
+		"osarch"		"64"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Stellar Overload"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_b8a6e381fa83311de56818ecb782ee2ab076044f.jpg"
+		"store_asset_mtime"		"1505143013"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Cubical Drift"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Cubical Drift"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_27"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1476215914"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"397150"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"1643"
+			"2"		"1695"
+			"3"		"3859"
+			"4"		"1685"
+			"5"		"1663"
+			"6"		"3942"
+			"7"		"3810"
+			"8"		"493"
+			"9"		"492"
+			"10"		"122"
+			"11"		"1702"
+			"12"		"1732"
+			"13"		"1662"
+			"14"		"1755"
+			"15"		"3964"
+		}
+		"review_score"		"5"
+		"review_percentage"		"68"
+	}
+	"extended"
+	{
+		"gamedir"		"Stellar Overload"
+		"serverbrowsername"		"Stellar Overload"
+		"developer"		"Cubical Drift"
+		"publisher"		"Cubical Drift"
+		"homepage"		"http://www.stellar-overload.com"
+		"listofdlc"		"543200"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Stellar Overload"
+		"steamcontrollertemplateindex"		"6"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StellarOverload.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"StellarOverloadEA1.app/Contents/MacOS/StellarOverloadEA1"
+				"arguments"		"-OpenGL"
+				"description"		"Stellar Overload EA1"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"steam_ea1_v0.8.5.2"
+				}
+			}
+			"2"
+			{
+				"executable"		"StellarOverloadEA1/Binaries/Linux/StellarOverload"
+				"workingdir"		"StellarOverloadEA1/Binaries/Linux/"
+				"description"		"Stellar Overload EA1"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"steam_ea1_v0.8.5.2"
+				}
+			}
+			"3"
+			{
+				"executable"		"StellarOverloadEA1/Binaries/Linux/StellarOverload"
+				"arguments"		"-OpenGL4"
+				"workingdir"		"StellarOverloadEA1/Binaries/Linux/"
+				"description"		"Stellar Overload EA1 (OpenGL4)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"steam_ea1_v0.8.5.2"
+				}
+			}
+			"4"
+			{
+				"executable"		"StellarOverloadEA2.app/Contents/MacOS/StellarOverloadEA2"
+				"arguments"		"-OpenGL"
+				"description"		"Stellar Overload EA2"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"steam_ea2_v0.8.6.2"
+				}
+			}
+			"5"
+			{
+				"executable"		"StellarOverloadEA2/Binaries/Linux/StellarOverload"
+				"workingdir"		"StellarOverloadEA2/Binaries/Linux/"
+				"description"		"Stellar Overload EA2"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"steam_ea2_v0.8.6.2"
+				}
+			}
+			"6"
+			{
+				"executable"		"StellarOverloadEA2/Binaries/Linux/StellarOverload"
+				"arguments"		"-OpenGL4"
+				"workingdir"		"StellarOverloadEA2/Binaries/Linux/"
+				"description"		"Stellar Overload EA2 (OpenGL4)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"steam_ea2_v0.8.6.2"
+				}
+			}
+			"7"
+			{
+				"executable"		"StellarOverloadEA3.app/Contents/MacOS/StellarOverloadEA3"
+				"arguments"		"-OpenGL"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"steam_ea3_v0.8.7.1"
+				}
+			}
+			"8"
+			{
+				"executable"		"StellarOverloadEA3/Binaries/Linux/StellarOverload"
+				"workingdir"		"StellarOverloadEA3/Binaries/Linux/"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"steam_ea3_v0.8.7.1"
+				}
+			}
+			"9"
+			{
+				"executable"		"StellarOverloadEA3/Binaries/Linux/StellarOverload"
+				"arguments"		"-OpenGL4"
+				"workingdir"		"StellarOverloadEA3/Binaries/Linux/"
+				"description"		"Stellar Overload (OpenGL4)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"steam_ea3_v0.8.7.1"
+				}
+			}
+			"10"
+			{
+				"executable"		"StellarOverload.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"11"
+			{
+				"executable"		"StellarOverload.sh"
+				"arguments"		"-MetalSM5"
+				"description"		"Stellar Overload (Metal SM5)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"12"
+			{
+				"executable"		"StellarOverload.sh"
+				"workingdir"		"StellarOverloadEA5/Binaries/Linux/"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"13"
+			{
+				"executable"		"StellarOverload.sh"
+				"arguments"		"-OpenGL4"
+				"workingdir"		"StellarOverloadEA5/Binaries/Linux/"
+				"description"		"Stellar Overload (OpenGL4)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"14"
+			{
+				"executable"		"StellarOverload.sh"
+				"workingdir"		"StellarOverloadEA4/Binaries/Linux/"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"steam_ea4_v0.8.8.3"
+				}
+			}
+			"15"
+			{
+				"executable"		"StellarOverload.sh"
+				"arguments"		"-OpenGL4"
+				"workingdir"		"StellarOverloadEA4/Binaries/Linux/"
+				"description"		"Stellar Overload (OpenGL4)"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"steam_ea4_v0.8.8.3"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,french,brazilian"
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"397151"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2602739281081791013"
+					"size"		"3820383082"
+					"download"		"1441513104"
+				}
+				"ea4_test_fix_linux"
+				{
+					"gid"		"814240707426159346"
+					"size"		"3815692625"
+					"download"		"1071996560"
+				}
+				"steam_ea1_v0.8.5.2"
+				{
+					"gid"		"1390390760648349468"
+					"size"		"3841347700"
+					"download"		"740024720"
+				}
+				"steam_ea2_v0.8.6.2"
+				{
+					"gid"		"4480773451807373622"
+					"size"		"4084059548"
+					"download"		"774507680"
+				}
+				"steam_ea3_v0.8.7.1"
+				{
+					"gid"		"29204150753067186"
+					"size"		"5139598279"
+					"download"		"913489200"
+				}
+				"steam_ea4_v0.8.8.3"
+				{
+					"gid"		"814240707426159346"
+					"size"		"3815692625"
+					"download"		"1071996560"
+				}
+			}
+		}
+		"397154"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1047772788210214860"
+					"size"		"3731569514"
+					"download"		"1427186336"
+				}
+				"ea4_test_fix_linux"
+				{
+					"gid"		"6008965793139915827"
+					"size"		"3726879057"
+					"download"		"1059088704"
+				}
+				"steam_ea1_v0.8.5.2"
+				{
+					"gid"		"8278393408866527052"
+					"size"		"3841347700"
+					"download"		"739512896"
+				}
+				"steam_ea2_v0.8.6.2"
+				{
+					"gid"		"7453028531232718648"
+					"size"		"4143279560"
+					"download"		"786497360"
+				}
+				"steam_ea3_v0.8.7.1"
+				{
+					"gid"		"5661743374099888891"
+					"size"		"4649692103"
+					"download"		"833802736"
+				}
+				"steam_ea4_v0.8.8.3"
+				{
+					"gid"		"6008965793139915827"
+					"size"		"3726879057"
+					"download"		"1059088704"
+				}
+			}
+		}
+		"543200"
+		{
+			"dlcappid"		"543200"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2229170527749010594"
+					"size"		"357995960"
+					"download"		"356775888"
+				}
+				"ea4_test_fix_linux"
+				{
+					"gid"		"177303513992128635"
+					"size"		"282201716"
+					"download"		"281169488"
+				}
+				"steam_ea1_v0.8.5.2"
+				{
+					"gid"		"2837659095760360555"
+					"size"		"194585986"
+					"download"		"193907984"
+				}
+				"steam_ea2_v0.8.6.2"
+				{
+					"gid"		"177303513992128635"
+					"size"		"282201716"
+					"download"		"281169488"
+				}
+				"steam_ea3_v0.8.7.1"
+				{
+					"gid"		"177303513992128635"
+					"size"		"282201716"
+					"download"		"281169488"
+				}
+				"steam_ea4_v0.8.8.3"
+				{
+					"gid"		"177303513992128635"
+					"size"		"282201716"
+					"download"		"281169488"
+				}
+			}
+		}
+		"397152"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6757758023176953667"
+					"size"		"6028961937"
+					"download"		"2251593248"
+				}
+				"ea4_test_fix_linux"
+				{
+					"gid"		"9165806936273187365"
+					"size"		"5877001027"
+					"download"		"1772554016"
+				}
+				"steam_ea1_v0.8.5.2"
+				{
+					"gid"		"2419566959322450476"
+					"size"		"4616771435"
+					"download"		"973019504"
+				}
+				"steam_ea2_v0.8.6.2"
+				{
+					"gid"		"968198667610390473"
+					"size"		"4956277488"
+					"download"		"1034285632"
+				}
+				"steam_ea3_v0.8.7.1"
+				{
+					"gid"		"5203025877092451064"
+					"size"		"5618299829"
+					"download"		"1158880080"
+				}
+				"steam_ea4_v0.8.8.3"
+				{
+					"gid"		"9165806936273187365"
+					"size"		"5877001027"
+					"download"		"1772554016"
+				}
+			}
+		}
+		"397153"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9137634262860832162"
+					"size"		"4868004947"
+					"download"		"1572754880"
+				}
+				"ea4_test_fix_linux"
+				{
+					"gid"		"1022411774807401876"
+					"size"		"4693560484"
+					"download"		"1171529808"
+				}
+				"steam_ea1_v0.8.5.2"
+				{
+					"gid"		"1751216961208417831"
+					"size"		"4348411702"
+					"download"		"880612256"
+				}
+				"steam_ea2_v0.8.6.2"
+				{
+					"gid"		"4802812420948475035"
+					"size"		"4735258032"
+					"download"		"924788896"
+				}
+				"steam_ea3_v0.8.7.1"
+				{
+					"gid"		"8584271125004756660"
+					"size"		"5191738102"
+					"download"		"975573232"
+				}
+				"steam_ea4_v0.8.8.3"
+				{
+					"gid"		"5106579043538954640"
+					"size"		"4693556556"
+					"download"		"1171521024"
+				}
+			}
+		}
+		"397155"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"794711127329517322"
+					"size"		"6028961937"
+					"download"		"2254215824"
+				}
+				"ea4_test_fix_linux"
+				{
+					"gid"		"2854090031207408787"
+					"size"		"5877001027"
+					"download"		"1775787856"
+				}
+				"steam_ea1_v0.8.5.2"
+				{
+					"gid"		"2351695353636732449"
+					"size"		"4616771435"
+					"download"		"972190432"
+				}
+				"steam_ea2_v0.8.6.2"
+				{
+					"gid"		"3286426756603745756"
+					"size"		"4956278861"
+					"download"		"1033836608"
+				}
+				"steam_ea3_v0.8.7.1"
+				{
+					"gid"		"7632826544448615350"
+					"size"		"5618299829"
+					"download"		"1159874160"
+				}
+				"steam_ea4_v0.8.8.3"
+				{
+					"gid"		"2854090031207408787"
+					"size"		"5877001027"
+					"download"		"1775787856"
+				}
+			}
+		}
+		"397156"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4557375454365044159"
+					"size"		"4868004947"
+					"download"		"1572755632"
+				}
+				"ea4_test_fix_linux"
+				{
+					"gid"		"6210291956681910049"
+					"size"		"4693560484"
+					"download"		"1171529648"
+				}
+				"steam_ea1_v0.8.5.2"
+				{
+					"gid"		"8919534950634335661"
+					"size"		"4348411702"
+					"download"		"880652384"
+				}
+				"steam_ea2_v0.8.6.2"
+				{
+					"gid"		"3163617757014027789"
+					"size"		"4735259405"
+					"download"		"924828192"
+				}
+				"steam_ea3_v0.8.7.1"
+				{
+					"gid"		"2151625292988809825"
+					"size"		"5191738102"
+					"download"		"975574240"
+				}
+				"steam_ea4_v0.8.8.3"
+				{
+					"gid"		"8851236298455829946"
+					"size"		"4693556556"
+					"download"		"1171521008"
+				}
+			}
+		}
+		"workshopdepot"		"397150"
+		"hasdepotsindlc"		"1"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2139288"
+				"timeupdated"		"1523473516"
+				"timebuildupdated"		"1506071713"
+			}
+			"ea4_test_fix_linux"
+			{
+				"buildid"		"2006577"
+				"timeupdated"		"1501689853"
+				"timebuildupdated"		"1501689853"
+			}
+			"steam_ea1_v0.8.5.2"
+			{
+				"buildid"		"1415498"
+				"timeupdated"		"1481709224"
+				"timebuildupdated"		"1477485123"
+			}
+			"steam_ea2_v0.8.6.2"
+			{
+				"buildid"		"1736995"
+				"timeupdated"		"1491406910"
+				"timebuildupdated"		"1491406910"
+			}
+			"steam_ea3_v0.8.7.1"
+			{
+				"buildid"		"1737067"
+				"timeupdated"		"1498134091"
+				"timebuildupdated"		"1491408346"
+			}
+			"steam_ea4_v0.8.8.3"
+			{
+				"buildid"		"2115538"
+				"timeupdated"		"1505313149"
+				"timebuildupdated"		"1505313148"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"StellarOverloadEA5/Saved/Saves/Universes"
+				"pattern"		"*.dat"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"StellarOverloadEA5/Saved/Saves/Universes"
+				"pattern"		"*.p3b"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"StellarOverloadEA5/Saved/Saves/Universes"
+						"replace"		"Epic/StellarOverloadEA5/Saved/Saves/Universes"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"StellarOverloadEA5/Saved/Saves/Universes"
+						"replace"		".config/Epic/StellarOverloadEA5/Saved/Saves/Universes"
+					}
+				}
+			}
+		}
+	}
+}
