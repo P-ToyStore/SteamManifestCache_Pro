@@ -1,0 +1,3 @@
+### [633230] NARUTO TO BORUTO 新忍出击/NARUTO TO BORUTO: SHINOBI STRIKER  
+**Build Id** `24369291`  
+**Last Update Time** `2026/08/27 15:15`  
