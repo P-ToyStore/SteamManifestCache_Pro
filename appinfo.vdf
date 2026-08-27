@@ -1,0 +1,277 @@
+"appinfo"
+{
+	"appid"		"2629070"
+	"common"
+	{
+		"name"		"Aim Trainer (With Cats)"
+		"type"		"Game"
+		"clienticon"		"1c132078f1bdcb081f302afeb9ca0c8d495f2fe4"
+		"clienttga"		"b05a3e569c437146661d89ee7fc2e53650f1dd16"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"4a64392bf48a54e7500206d3d39fe3a01dba9771"
+		"releasestate"		"released"
+		"controllertagwizard"		"1"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1772393203"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"TriceratopsGang"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TriceratopsGang"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"4"
+			"2"		"23"
+			"3"		"28"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_66"		"1"
+			"category_67"		"1"
+			"category_68"		"1"
+			"category_74"		"1"
+			"category_78"		"1"
+			"category_79"		"1"
+			"category_80"		"1"
+			"category_55"		"1"
+			"category_56"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1700781422"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2629070"
+		"store_tags"
+		{
+			"0"		"1663"
+			"1"		"597"
+			"2"		"1774"
+			"3"		"1773"
+			"4"		"4191"
+			"5"		"4726"
+			"6"		"3839"
+			"7"		"1654"
+			"8"		"19"
+			"9"		"599"
+			"10"		"17894"
+			"11"		"492"
+			"12"		"5154"
+			"13"		"4182"
+			"14"		"4094"
+			"15"		"5350"
+			"16"		"10397"
+			"17"		"7481"
+			"18"		"6730"
+			"19"		"4234"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"TriceratopsGang"
+		"publisher"		"TriceratopsGang"
+	}
+	"config"
+	{
+		"installdir"		"AimTrainerWithCats"
+		"steamcontrollertemplateindex"		"6"
+		"steamcontrollertouchtemplateindex"		"9"
+		"steamdecktouchscreen"		"1"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AimTrainerWithCats.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"DX12 API"
+				}
+				"description"		"DX12 API"
+			}
+			"1"
+			{
+				"executable"		"AimTrainerWithCats.exe"
+				"arguments"		"-dx11"
+				"type"		"config"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"DX11 API"
+				}
+				"description"		"DX11 API"
+			}
+			"3"
+			{
+				"executable"		"AimTrainerWithCats.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2629071"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3204315950367038724"
+					"size"		"580290590"
+					"download"		"447577728"
+				}
+			}
+		}
+		"2629072"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8961094640909002705"
+					"size"		"544214627"
+					"download"		"397458896"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24971888"
+				"timeupdated"		"1787838604"
+				"timebuildupdated"		"1787838181"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
