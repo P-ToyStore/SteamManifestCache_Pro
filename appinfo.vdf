@@ -1,0 +1,326 @@
+"appinfo"
+{
+	"appid"		"2153430"
+	"common"
+	{
+		"name"		"Signal Maze"
+		"type"		"Game"
+		"releasestate"		"released"
+		"clienttga"		"744d92c1bfbf42c13cf96039ec87fc214d9b2ec7"
+		"clienticon"		"5305fc0a12b02b05ef830f365d8cb5dffb48894b"
+		"icon"		"27fc1d2a49e70fa1d6ed85ed19e83e58429e3790"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+		}
+		"name_localized"
+		{
+			"schinese"		"信号迷局 Signal Maze"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"ec1457149c6416433b612487a177c79a262cbac3/capsule_231x87.jpg"
+			"schinese"		"11143b6a35ac374f8ca8436154dce24acccbb354/capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn"
+			"library_hero"		"en"
+			"library_logo"		"en,zh-cn"
+			"library_header"		"en,zh-cn"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"18.039320423419127"
+				"height_pct"		"33.1275231536452"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+					"schinese"		"library_600x900_schinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+					"schinese"		"library_600x900_schinese_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"18.039320423419127"
+					"height_pct"		"33.1275231536452"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+					"schinese"		"logo_schinese_2x.png"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+					"schinese"		"logo_schinese.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+					"schinese"		"library_header_schinese.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1743995879"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"theArkitect"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"IndieArk"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"IndieArk"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_28"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1737014457"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"2153430"
+		"store_tags"
+		{
+			"0"		"1664"
+			"1"		"5432"
+			"2"		"1770"
+			"3"		"1730"
+			"4"		"6129"
+			"5"		"4598"
+			"6"		"5537"
+			"7"		"3834"
+			"8"		"4004"
+			"9"		"9"
+			"10"		"5613"
+			"11"		"3854"
+			"12"		"1742"
+			"13"		"3942"
+			"14"		"597"
+			"15"		"599"
+			"16"		"3964"
+			"17"		"4182"
+			"18"		"4175"
+			"19"		"5030"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"theArkitect"
+		"publisher"		"IndieArk"
+	}
+	"config"
+	{
+		"installdir"		"ROOT_Arki_Game"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ROOT_demo.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"DX12 mode"
+					"schinese"		"DX12 模式"
+				}
+				"description"		"DX12 mode"
+			}
+			"1"
+			{
+				"executable"		"ROOT_demo.exe"
+				"arguments"		"-force-d3d11"
+				"description_loc"
+				{
+					"english"		"DX11 mode (more stable)"
+					"schinese"		"DX11 模式 (更稳定)"
+				}
+				"description"		"DX11 mode (more stable)"
+			}
+			"2"
+			{
+				"executable"		"ROOT_demo.exe"
+				"arguments"		"-oldlevel"
+				"description_loc"
+				{
+					"english"		"V1.0"
+					"schinese"		"V1.0"
+				}
+				"description"		"V1.0"
+			}
+			"3"
+			{
+				"executable"		"ROOT_demo.exe"
+				"arguments"		"-oldlevel -force-d3d11"
+				"description_loc"
+				{
+					"english"		"V1.0 DX11 mode"
+					"schinese"		"V1.0 DX11 模式"
+				}
+				"description"		"V1.0 DX11 mode"
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamdecktouchscreen"		"5"
+		"steamconfigurator3rdpartynative"		"2"
+	}
+	"depots"
+	{
+		"hasdepotsindlc"		"0"
+		"2153433"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3174370278846818538"
+					"size"		"2125571432"
+					"download"		"815717104"
+				}
+			}
+		}
+		"2153432"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5538524671766153874"
+					"size"		"2125571432"
+					"download"		"815732496"
+				}
+			}
+		}
+		"2153431"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5714800265221862699"
+					"size"		"2125571432"
+					"download"		"815936528"
+				}
+			}
+		}
+		"workshopdepot"		"2153430"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24962199"
+				"timeupdated"		"1787812657"
+				"timebuildupdated"		"1787799508"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"theArkitect/ROOT_demo/saves/{64BitSteamID}"
+				"pattern"		"*"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+		}
+	}
+}
