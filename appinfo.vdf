@@ -1,0 +1,188 @@
+"appinfo"
+{
+	"appid"		"2915100"
+	"common"
+	{
+		"name"		"Echoes of Elysium Dedicated Server"
+		"type"		"Tool"
+		"parent"		"2644050"
+		"releasestate"		"released"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"deac3613b789436073dd3853946cce1cc829b131"
+		"clienttga"		"7aefd970bcaa8fa29206a0e86786479f3e62d681"
+		"clienticon"		"e97e3f482d0786b7f7eddc0677da005fd594b006"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1712093402"
+		"gameid"		"2915100"
+	}
+	"extended"
+	{
+		"gamedir"		"elysium"
+		"serverbrowsername"		"Echoes of Elysium"
+	}
+	"config"
+	{
+		"installdir"		"Echoes of Elysium Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ElysiumServer"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"ElysiumServer.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"2915101"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8655078299720546042"
+					"size"		"1951295384"
+					"download"		"637477792"
+				}
+				"prerelease"
+				{
+					"gid"		"8655078299720546042"
+					"size"		"1951295384"
+					"download"		"637477792"
+				}
+			}
+		}
+		"2915102"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8392249474119802384"
+					"size"		"18061672"
+					"download"		"7277328"
+				}
+				"prerelease"
+				{
+					"gid"		"8392249474119802384"
+					"size"		"18061672"
+					"download"		"7277328"
+				}
+			}
+		}
+		"2915103"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5666825437631561691"
+					"size"		"409454040"
+					"download"		"133312400"
+				}
+				"prerelease"
+				{
+					"gid"		"5666825437631561691"
+					"size"		"409454040"
+					"download"		"133312400"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24975526"
+				"timeupdated"		"1787858646"
+				"timebuildupdated"		"1787849585"
+			}
+			"prerelease"
+			{
+				"buildid"		"24975526"
+				"description"		"Latest prerelease candidate"
+				"timeupdated"		"1787849585"
+				"timebuildupdated"		"1787849585"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
