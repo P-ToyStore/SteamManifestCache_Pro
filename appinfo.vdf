@@ -1,0 +1,591 @@
+"appinfo"
+{
+	"appid"		"748090"
+	"common"
+	{
+		"name"		"Colony Survival Dedicated Server"
+		"type"		"Tool"
+		"parent"		"366090"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"icon"		"1b405920a5cdeca6996574305dfc955faae3e35d"
+		"logo"		"a30e4e832b9f2c6b16d623b16403fcfa4e066570"
+		"logo_small"		"a30e4e832b9f2c6b16d623b16403fcfa4e066570_thumb"
+		"clienticon"		"7e9de665182559b5d8384fcc30f10318c7e8dccb"
+		"clienttga"		"ed1b8656f71165eee135edb2b5ed6beaab67ed41"
+		"osextended"		""
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"748090"
+	}
+	"config"
+	{
+		"installdir"		"Colony Survival Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"colonyserver.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"colonyserverrcon.exe"
+				"description"		"rcon client"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"3"
+			{
+				"executable"		"colonyserver.x86"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+			}
+			"4"
+			{
+				"executable"		"colonyserver.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"5"
+			{
+				"executable"		"colonyserver.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"748091"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5441518532058732116"
+					"size"		"145087902"
+					"download"		"69626704"
+				}
+				"0.5.3"
+				{
+					"gid"		"8685877014833497245"
+					"size"		"81345423"
+					"download"		"52794000"
+				}
+				"0.6.3"
+				{
+					"gid"		"8896318808710303985"
+					"size"		"87280358"
+					"download"		"58378992"
+				}
+				"0.7.0"
+				{
+					"gid"		"5473285287826138707"
+					"size"		"108738582"
+					"download"		"64124480"
+				}
+				"0.7.5"
+				{
+					"gid"		"8889463754700544161"
+					"size"		"111992118"
+					"download"		"65795024"
+				}
+				"0.8.0"
+				{
+					"gid"		"1273113405561466958"
+					"size"		"111949415"
+					"download"		"65714080"
+				}
+				"0.8.1"
+				{
+					"gid"		"5066919177897434469"
+					"size"		"111998133"
+					"download"		"65733520"
+				}
+				"0.9.0"
+				{
+					"gid"		"4837979561982448431"
+					"size"		"106226778"
+					"download"		"51408608"
+				}
+				"0.9.1"
+				{
+					"gid"		"9058791305223374349"
+					"size"		"106371814"
+					"download"		"51445008"
+				}
+				"0.10.0"
+				{
+					"gid"		"1953291197157162899"
+					"size"		"107001032"
+					"download"		"51997952"
+				}
+				"0.10.1"
+				{
+					"gid"		"7462484089643655078"
+					"size"		"107021642"
+					"download"		"52006512"
+				}
+				"0.10.2"
+				{
+					"gid"		"229573622279705877"
+					"size"		"107439276"
+					"download"		"52098656"
+				}
+				"0.10.3"
+				{
+					"gid"		"5404767017634009574"
+					"size"		"113017148"
+					"download"		"57605872"
+				}
+				"0.11.0"
+				{
+					"gid"		"4253219964915778440"
+					"size"		"117794804"
+					"download"		"57903472"
+				}
+				"0.12.0"
+				{
+					"gid"		"2125564806817440835"
+					"size"		"119254264"
+					"download"		"59097712"
+				}
+				"0.12.1"
+				{
+					"gid"		"9085962395370077289"
+					"size"		"119049582"
+					"download"		"59042688"
+				}
+				"0.13.0"
+				{
+					"gid"		"5210520962733418368"
+					"size"		"119876385"
+					"download"		"59482112"
+				}
+				"0.14.0"
+				{
+					"gid"		"7286186220836051910"
+					"size"		"120317240"
+					"download"		"59568304"
+				}
+				"0.15.0"
+				{
+					"gid"		"8593073960771479582"
+					"size"		"116580789"
+					"download"		"59824080"
+				}
+				"0.15.1"
+				{
+					"gid"		"5281485377718420891"
+					"size"		"116660205"
+					"download"		"59837040"
+				}
+				"0.16.0"
+				{
+					"gid"		"8895079088593377206"
+					"size"		"147419169"
+					"download"		"70182256"
+				}
+				"0.17.0"
+				{
+					"gid"		"8232004404916156883"
+					"size"		"134901778"
+					"download"		"65723328"
+				}
+				"0.18.0"
+				{
+					"gid"		"5441518532058732116"
+					"size"		"145087902"
+					"download"		"69626704"
+				}
+			}
+		}
+		"748093"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8027501943533678056"
+					"size"		"140475036"
+					"download"		"65075840"
+				}
+				"0.5.3"
+				{
+					"gid"		"5666960452512207736"
+					"size"		"90467482"
+					"download"		"55169232"
+				}
+				"0.6.3"
+				{
+					"gid"		"929728284034162791"
+					"size"		"96418665"
+					"download"		"60753136"
+				}
+				"0.7.0"
+				{
+					"gid"		"8285017346037257514"
+					"size"		"109110780"
+					"download"		"64196848"
+				}
+				"0.7.5"
+				{
+					"gid"		"3669314437925251706"
+					"size"		"122021429"
+					"download"		"66964576"
+				}
+				"0.8.0"
+				{
+					"gid"		"6668607481491876018"
+					"size"		"121654632"
+					"download"		"66822272"
+				}
+				"0.8.1"
+				{
+					"gid"		"9181770153504144778"
+					"size"		"121705905"
+					"download"		"66844160"
+				}
+				"0.9.0"
+				{
+					"gid"		"4069723183462320172"
+					"size"		"107587675"
+					"download"		"50105568"
+				}
+				"0.9.1"
+				{
+					"gid"		"4787331501135046988"
+					"size"		"107725107"
+					"download"		"50147360"
+				}
+				"0.10.0"
+				{
+					"gid"		"2048863889323089532"
+					"size"		"105847687"
+					"download"		"49707920"
+				}
+				"0.10.1"
+				{
+					"gid"		"4989956821972578646"
+					"size"		"105868424"
+					"download"		"49717472"
+				}
+				"0.10.2"
+				{
+					"gid"		"3327330095042431641"
+					"size"		"106173968"
+					"download"		"49804432"
+				}
+				"0.10.3"
+				{
+					"gid"		"4275983862768800882"
+					"size"		"111751841"
+					"download"		"55311568"
+				}
+				"0.11.0"
+				{
+					"gid"		"2738948202270560720"
+					"size"		"116537533"
+					"download"		"55608688"
+				}
+				"0.12.0"
+				{
+					"gid"		"783654138548876167"
+					"size"		"118278273"
+					"download"		"56849904"
+				}
+				"0.12.1"
+				{
+					"gid"		"6386460522286132460"
+					"size"		"118073591"
+					"download"		"56796640"
+				}
+				"0.13.0"
+				{
+					"gid"		"6703223108913300797"
+					"size"		"118994025"
+					"download"		"57239184"
+				}
+				"0.14.0"
+				{
+					"gid"		"3448113398786874553"
+					"size"		"120071441"
+					"download"		"57366320"
+				}
+				"0.15.0"
+				{
+					"gid"		"9180492854485837392"
+					"size"		"115634118"
+					"download"		"57045088"
+				}
+				"0.15.1"
+				{
+					"gid"		"8674290358018597143"
+					"size"		"115924922"
+					"download"		"57067280"
+				}
+				"0.16.0"
+				{
+					"gid"		"8051856272918096974"
+					"size"		"142158836"
+					"download"		"65617904"
+				}
+				"0.17.0"
+				{
+					"gid"		"796298712585812044"
+					"size"		"130273554"
+					"download"		"61184064"
+				}
+				"0.18.0"
+				{
+					"gid"		"8027501943533678056"
+					"size"		"140475036"
+					"download"		"65075840"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25012046"
+				"timeupdated"		"1788022346"
+				"timebuildupdated"		"1788022323"
+			}
+			"0.5.3"
+			{
+				"buildid"		"2473130"
+				"timeupdated"		"1516996868"
+				"timebuildupdated"		"1516996829"
+			}
+			"0.6.3"
+			{
+				"buildid"		"2892245"
+				"timeupdated"		"1529922616"
+				"timebuildupdated"		"1529922403"
+			}
+			"0.7.0"
+			{
+				"buildid"		"4190164"
+				"timeupdated"		"1575658034"
+				"timebuildupdated"		"1568293165"
+			}
+			"0.7.5"
+			{
+				"buildid"		"5680649"
+				"timeupdated"		"1602666513"
+				"timebuildupdated"		"1602666513"
+			}
+			"0.8.0"
+			{
+				"buildid"		"5904882"
+				"description"		"0.8.0"
+				"timeupdated"		"1606819619"
+				"timebuildupdated"		"1606819619"
+			}
+			"0.8.1"
+			{
+				"buildid"		"6310993"
+				"description"		"0.8.1"
+				"timeupdated"		"1614603630"
+				"timebuildupdated"		"1614603630"
+			}
+			"0.9.0"
+			{
+				"buildid"		"10440950"
+				"description"		"0.9.0"
+				"timeupdated"		"1675148456"
+				"timebuildupdated"		"1675148456"
+			}
+			"0.9.1"
+			{
+				"buildid"		"10864045"
+				"description"		"0.9.1"
+				"timeupdated"		"1679921681"
+				"timebuildupdated"		"1679921681"
+			}
+			"0.10.0"
+			{
+				"buildid"		"13084001"
+				"description"		"0.10.0 - deco, rails, paint"
+				"timeupdated"		"1704285877"
+				"timebuildupdated"		"1704285877"
+			}
+			"0.10.1"
+			{
+				"buildid"		"13489776"
+				"description"		"Water visuals"
+				"timeupdated"		"1708253326"
+				"timebuildupdated"		"1708253326"
+			}
+			"0.10.2"
+			{
+				"buildid"		"13600994"
+				"description"		" Steam Cloud Sync"
+				"timeupdated"		"1709209170"
+				"timebuildupdated"		"1709209170"
+			}
+			"0.10.3"
+			{
+				"buildid"		"13950400"
+				"description"		"Controller+"
+				"timeupdated"		"1712240577"
+				"timebuildupdated"		"1712240577"
+			}
+			"0.11.0"
+			{
+				"buildid"		"14662480"
+				"description"		"Colonist models, names, construction"
+				"timeupdated"		"1718013522"
+				"timebuildupdated"		"1718013522"
+			}
+			"0.12.0"
+			{
+				"buildid"		"16657681"
+				"description"		"Mill, dynamic textures"
+				"timeupdated"		"1733494784"
+				"timebuildupdated"		"1733494784"
+			}
+			"0.12.1"
+			{
+				"buildid"		"17742598"
+				"description"		"Localization Update"
+				"timeupdated"		"1742125759"
+				"timebuildupdated"		"1742125759"
+			}
+			"0.13.0"
+			{
+				"buildid"		"18089094"
+				"description"		"Explosives, lua"
+				"timeupdated"		"1744540919"
+				"timebuildupdated"		"1744540919"
+			}
+			"0.14.0"
+			{
+				"buildid"		"18675741"
+				"description"		"Pathing update"
+				"timeupdated"		"1748617249"
+				"timebuildupdated"		"1748617249"
+			}
+			"0.15.0"
+			{
+				"buildid"		"20977272"
+				"description"		"TopdownView"
+				"timeupdated"		"1764322541"
+				"timebuildupdated"		"1764322541"
+			}
+			"0.15.1"
+			{
+				"buildid"		"21622420"
+				"description"		"Occlusion Culling"
+				"timeupdated"		"1769189455"
+				"timebuildupdated"		"1769189455"
+			}
+			"0.16.0"
+			{
+				"buildid"		"23097956"
+				"description"		"Oddity Press"
+				"timeupdated"		"1778004026"
+				"timebuildupdated"		"1778003827"
+			}
+			"0.17.0"
+			{
+				"buildid"		"23998327"
+				"description"		"Quests, Notifications, Co-op"
+				"timeupdated"		"1782893574"
+				"timebuildupdated"		"1782893243"
+			}
+			"0.18.0"
+			{
+				"buildid"		"25012046"
+				"description"		"Splitscreen"
+				"timeupdated"		"1788022323"
+				"timebuildupdated"		"1788022323"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
