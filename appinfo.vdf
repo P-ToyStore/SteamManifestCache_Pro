@@ -1,0 +1,183 @@
+"appinfo"
+{
+	"appid"		"3578990"
+	"common"
+	{
+		"name"		"Space Engineers 2 - Mod SDK"
+		"type"		"Tool"
+		"parent"		"1133870"
+		"clienttga"		"39e4db7ca8647b52d4b4eb61bdcdb6465093d075"
+		"clienticon"		"1cd6b9df046b1017b2785f2e7d170c5a2614ee88"
+		"linuxclienticon"		"ecb2dd78a5fab7b2d45998640e13c8babe2e6d42"
+		"icon"		"9a46518d96e476bfb99ca9afb7ef0b513dfe1093"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"3578990_eula_0"
+				"name"		"Space Engineers 2 - Mod SDK EULA"
+				"url"		"https://store.steampowered.com//eula/3578990_eula_0"
+				"version"		"3"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"gameid"		"3578990"
+	}
+	"config"
+	{
+		"installdir"		"Space Engineers 2 - Mod SDK"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Editor/VRAGE3.ModHUB.exe"
+				"type"		"default"
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3578991"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5697839045507048516"
+					"size"		"139380324918"
+					"download"		"106531311200"
+				}
+				"se2version1_5"
+				{
+					"gid"		"8816823592824329495"
+					"size"		"83066580033"
+					"download"		"50013881344"
+				}
+				"se2version2_0"
+				{
+					"gid"		"6843043841964693963"
+					"size"		"103842412867"
+					"download"		"80381373536"
+				}
+				"se2version2_2"
+				{
+					"gid"		"6220919973310280903"
+					"size"		"129167652011"
+					"download"		"100052928240"
+				}
+				"se2version2_3"
+				{
+					"gid"		"3472561370754658169"
+					"size"		"140444292110"
+					"download"		"107106744688"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24994111"
+				"timeupdated"		"1787932700"
+				"timebuildupdated"		"1787925826"
+			}
+			"se2version1_5"
+			{
+				"buildid"		"19659286"
+				"description"		"SE2 release 1.5"
+				"timeupdated"		"1764611523"
+				"timebuildupdated"		"1755633802"
+			}
+			"se2version2_0"
+			{
+				"buildid"		"21814114"
+				"description"		"SE2 release 2.0"
+				"timeupdated"		"1774288621"
+				"timebuildupdated"		"1770372951"
+			}
+			"se2version2_2"
+			{
+				"buildid"		"22847417"
+				"description"		"SE2 release 2.2"
+				"timeupdated"		"1776785451"
+				"timebuildupdated"		"1776515733"
+			}
+			"se2version2_3"
+			{
+				"buildid"		"24225694"
+				"description"		"SE2 release 2.3"
+				"timeupdated"		"1784204026"
+				"timebuildupdated"		"1784139184"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+		"appidredirect"		"1133870"
+		"savefiles"
+		{
+			"1"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SpaceEngineers2/AppData/SaveGames"
+				"pattern"		"*.*"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"SpaceEngineers2/AppData/Blueprints/"
+				"pattern"		"*.*"
+				"recursive"		"1"
+			}
+			"copied_from_parent"		"1"
+		}
+	}
+}
