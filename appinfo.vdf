@@ -1,0 +1,597 @@
+"appinfo"
+{
+	"appid"		"1727420"
+	"common"
+	{
+		"name"		"Midinous"
+		"type"		"Application"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"logo"		"5fbc45d15eb66ad3652a14894b8128d2e9f78063"
+		"logo_small"		"5fbc45d15eb66ad3652a14894b8128d2e9f78063_thumb"
+		"clienticon"		"8ea030496ab49ad26c74d4163fe05798f785c039"
+		"clienttga"		"acb39213b6e9f212f91d668f2593dab1a5dd9f2b"
+		"icon"		"ec50902f9787415eac66d91110f9b47aea9c1a2f"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1727420_eula_0"
+				"name"		"Midinous EULA"
+				"url"		"https://store.steampowered.com//eula/1727420_eula_0"
+				"version"		"5"
+			}
+		}
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"1"
+			"steamos_compatibility"		"1"
+			"steam_machine_compatibility"		"1"
+			"test_timestamp"		"1685059200"
+			"tested_build_id"		"0"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamDeckVerified_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"steam_machine_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamMachine_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"2"
+					"token"		"#SteamOS_TestResult_SteamOSDoesNotSupport_Software"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+				"requires_proton_soundfonts"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"69.66161026837807"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"69.66161026837807"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1710205921"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Nornec"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Nornec"
+			}
+		}
+		"primary_genre"		"52"
+		"genres"
+		{
+			"0"		"52"
+			"1"		"57"
+		}
+		"category"
+		{
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1632844509"
+		"community_hub_visible"		"1"
+		"gameid"		"1727420"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"1027"
+			"1"		"87"
+			"2"		"1621"
+			"3"		"5125"
+			"4"		"4305"
+		}
+		"review_score"		"8"
+		"review_percentage"		"95"
+	}
+	"extended"
+	{
+		"developer"		"Nornec"
+		"publisher"		"Nornec"
+		"homepage"		"https://midinous.com/"
+	}
+	"config"
+	{
+		"installdir"		"Midinous"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Midinous.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"Midinous.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"4"
+			{
+				"executable"		"Midinous"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1727421"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8468101340925381089"
+					"size"		"206519246"
+					"download"		"82108320"
+				}
+				"1.5.1.3"
+				{
+					"gid"		"8012411394074696969"
+					"size"		"206219914"
+					"download"		"82072912"
+				}
+				"1.5.1.2"
+				{
+					"gid"		"4278493569049922437"
+					"size"		"206218890"
+					"download"		"82072672"
+				}
+				"1.5.1.1"
+				{
+					"gid"		"5326834400014084231"
+					"size"		"206266717"
+					"download"		"82159536"
+				}
+				"1.5.0.1"
+				{
+					"gid"		"7575621597299806087"
+					"size"		"206144691"
+					"download"		"82073904"
+				}
+				"1.5.0.0"
+				{
+					"gid"		"8065593262243667864"
+					"size"		"206144179"
+					"download"		"82073824"
+				}
+				"1.2.1.0"
+				{
+					"gid"		"2046327382798560777"
+					"size"		"123323181"
+					"download"		"36657632"
+				}
+				"1.2.0.1"
+				{
+					"gid"		"1010691536430067221"
+					"size"		"123321030"
+					"download"		"36656624"
+				}
+				"1.1.7.0"
+				{
+					"gid"		"8439821979485240678"
+					"size"		"124376795"
+					"download"		"36960048"
+				}
+				"1.1.6.8"
+				{
+					"gid"		"667396783407285692"
+					"size"		"124359861"
+					"download"		"36954736"
+				}
+				"1.1.6.5"
+				{
+					"gid"		"3783887064820297596"
+					"size"		"124360904"
+					"download"		"36957168"
+				}
+				"1.1.6.0"
+				{
+					"gid"		"9176248072489487104"
+					"size"		"116639018"
+					"download"		"36359792"
+				}
+				"legacy"
+				{
+					"gid"		"4597899752794435411"
+					"size"		"71498843"
+					"download"		"56289776"
+				}
+			}
+		}
+		"1727422"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8675478880756610159"
+					"size"		"210055917"
+					"download"		"82578160"
+				}
+				"1.5.1.3"
+				{
+					"gid"		"2379030205155586000"
+					"size"		"209753653"
+					"download"		"82543472"
+				}
+				"1.5.1.2"
+				{
+					"gid"		"178073724671668573"
+					"size"		"209752117"
+					"download"		"82542816"
+				}
+				"1.5.1.1"
+				{
+					"gid"		"6917637402806336830"
+					"size"		"210430604"
+					"download"		"82592960"
+				}
+				"1.5.0.1"
+				{
+					"gid"		"5838004434448127851"
+					"size"		"216935579"
+					"download"		"84945824"
+				}
+				"1.5.0.0"
+				{
+					"gid"		"4716774440225043329"
+					"size"		"216935579"
+					"download"		"84946496"
+				}
+				"1.2.1.0"
+				{
+					"gid"		"573159087208273015"
+					"size"		"254523974"
+					"download"		"39917696"
+				}
+				"1.2.0.1"
+				{
+					"gid"		"6944043868770767211"
+					"size"		"254481176"
+					"download"		"39851696"
+				}
+				"1.1.7.0"
+				{
+					"gid"		"5082937838328580612"
+					"size"		"129096438"
+					"download"		"37869744"
+				}
+				"1.1.6.8"
+				{
+					"gid"		"2694814433624437374"
+					"size"		"129077552"
+					"download"		"37862448"
+				}
+				"1.1.6.5"
+				{
+					"gid"		"2240300321548348105"
+					"size"		"128366408"
+					"download"		"37242048"
+				}
+				"1.1.6.0"
+				{
+					"gid"		"1910598898244258513"
+					"size"		"121709506"
+					"download"		"36986864"
+				}
+				"legacy"
+				{
+					"gid"		"1008553903895063214"
+					"size"		"92717673"
+					"download"		"28136384"
+				}
+			}
+		}
+		"1727423"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5754210248296207680"
+					"size"		"236325311"
+					"download"		"91934848"
+				}
+				"1.5.1.3"
+				{
+					"gid"		"3256264757978056117"
+					"size"		"236025979"
+					"download"		"91899456"
+				}
+				"1.5.1.2"
+				{
+					"gid"		"8041487023751994809"
+					"size"		"236024955"
+					"download"		"91899296"
+				}
+				"1.5.1.1"
+				{
+					"gid"		"4490295308383717372"
+					"size"		"236045929"
+					"download"		"91982352"
+				}
+				"1.5.0.1"
+				{
+					"gid"		"6242017419534070698"
+					"size"		"235923903"
+					"download"		"91896800"
+				}
+				"1.5.0.0"
+				{
+					"gid"		"266972619489818619"
+					"size"		"235923903"
+					"download"		"91896640"
+				}
+				"1.2.1.0"
+				{
+					"gid"		"6221262487254659078"
+					"size"		"125723930"
+					"download"		"36580976"
+				}
+				"1.2.0.1"
+				{
+					"gid"		"3889041566476647088"
+					"size"		"125721779"
+					"download"		"36580800"
+				}
+				"1.1.7.0"
+				{
+					"gid"		"1446053896241897613"
+					"size"		"126094345"
+					"download"		"36478016"
+				}
+				"1.1.6.8"
+				{
+					"gid"		"8822291458630969701"
+					"size"		"126077411"
+					"download"		"36472896"
+				}
+				"1.1.6.5"
+				{
+					"gid"		"875324455695073998"
+					"size"		"126078454"
+					"download"		"36475456"
+				}
+				"1.1.6.0"
+				{
+					"gid"		"8690825246325971139"
+					"size"		"119292430"
+					"download"		"36132016"
+				}
+				"legacy"
+				{
+					"gid"		"674912709388804033"
+					"size"		"115947148"
+					"download"		"34866608"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25024141"
+				"timeupdated"		"1788115113"
+				"timebuildupdated"		"1788114745"
+			}
+			"1.5.1.3"
+			{
+				"buildid"		"24779423"
+				"description"		"Previous Version"
+				"timeupdated"		"1786981912"
+				"timebuildupdated"		"1786981762"
+			}
+			"1.5.1.2"
+			{
+				"buildid"		"23837890"
+				"description"		"Previous Version"
+				"timeupdated"		"1781984623"
+				"timebuildupdated"		"1781984469"
+			}
+			"1.5.1.1"
+			{
+				"buildid"		"22588373"
+				"description"		"Previous Version"
+				"timeupdated"		"1774975785"
+				"timebuildupdated"		"1774975689"
+			}
+			"1.5.0.1"
+			{
+				"buildid"		"21101890"
+				"description"		"Previous Version"
+				"timeupdated"		"1774474159"
+				"timebuildupdated"		"1765214202"
+			}
+			"1.5.0.0"
+			{
+				"buildid"		"20080720"
+				"description"		"Previous Version"
+				"timeupdated"		"1765214356"
+				"timebuildupdated"		"1758565141"
+			}
+			"1.2.1.0"
+			{
+				"buildid"		"15216734"
+				"description"		"Previous Version"
+				"timeupdated"		"1758566807"
+				"timebuildupdated"		"1722452106"
+			}
+			"1.2.0.1"
+			{
+				"buildid"		"14330762"
+				"description"		"Previous Version"
+				"timeupdated"		"1722452448"
+				"timebuildupdated"		"1715368746"
+			}
+			"1.1.7.0"
+			{
+				"buildid"		"12795594"
+				"description"		"Previous Version"
+				"timeupdated"		"1714765442"
+				"timebuildupdated"		"1700881073"
+			}
+			"1.1.6.8"
+			{
+				"buildid"		"11721131"
+				"description"		"Previous Version"
+				"timeupdated"		"1700881227"
+				"timebuildupdated"		"1689610325"
+			}
+			"1.1.6.5"
+			{
+				"buildid"		"11643712"
+				"description"		"Previons Version"
+				"timeupdated"		"1689451238"
+				"timebuildupdated"		"1688679955"
+			}
+			"1.1.6.0"
+			{
+				"buildid"		"11395389"
+				"description"		"Previous Version"
+				"timeupdated"		"1688601503"
+				"timebuildupdated"		"1685965593"
+			}
+			"legacy"
+			{
+				"buildid"		"11258475"
+				"description"		"Legacy Version 1.0.3"
+				"timeupdated"		"1684368736"
+				"timebuildupdated"		"1684368736"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"300"
+		"ignoreexternalfiles"		"1"
+		"hidecloudui"		"1"
+	}
+}
