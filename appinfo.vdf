@@ -1,0 +1,465 @@
+"appinfo"
+{
+	"appid"		"3320980"
+	"common"
+	{
+		"name"		"MoteMancer"
+		"type"		"Game"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"bb5040b12c7f7966baade7bcd6b0684272e50297"
+		"clienticon"		"686a81112d6e9155cbf00ece035b461370c5ef8a"
+		"clienttga"		"89204f11b2c7c20577a263078ed5a54c4ccdfef1"
+		"releasestate"		"released"
+		"name_localized"
+		{
+			"tchinese"		"默特術士"
+			"schinese"		"炼萃师"
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"italian"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"turkish"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"steam_machine_compatibility"		"2"
+			"test_timestamp"		"1752710400"
+			"tested_build_id"		"19227756"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steam_machine_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-9.0-4RC"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+				"requires_proton_soundfonts"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"affbbc0fa1f0cd67f67289adf6ac0605a0fe4a3d/capsule_231x87.jpg"
+			"tchinese"		"26d7258928f83dcda987872c88f1c66020589dc7/capsule_231x87_tchinese.jpg"
+			"schinese"		"e46379fb1d943cf632f725c94178d366e9fbcf79/capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"c5fd767442b6b9663cc927edd00d557cec243a62/header.jpg"
+			"tchinese"		"4e4571ca9bd0e123be53063d8cf04bc82c5a4b99/header_tchinese.jpg"
+			"schinese"		"0d46ee34aae9d1ddc972c742fab59e6e0b3fd587/header_schinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-tw,zh-cn"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en,zh-tw,zh-cn"
+			"library_header"		"en,zh-tw,zh-cn"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"34.30140314442173"
+				"height_pct"		"111.45044938505202"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"4305cc1af2d93259bad56b97ce57357349fb6af8/library_capsule.jpg"
+					"tchinese"		"7ddca769680677d4d941da35f7de0b053236429d/library_600x900_tchinese.jpg"
+					"schinese"		"de94e5c91d15d86168d7962d672a6ea213f3b746/library_capsule_schinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"4305cc1af2d93259bad56b97ce57357349fb6af8/library_capsule_2x.jpg"
+					"tchinese"		"7ddca769680677d4d941da35f7de0b053236429d/library_600x900_tchinese_2x.jpg"
+					"schinese"		"de94e5c91d15d86168d7962d672a6ea213f3b746/library_capsule_schinese_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"701aad9a6115c83cd81344308e15202f46ca2efe/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"701aad9a6115c83cd81344308e15202f46ca2efe/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"701aad9a6115c83cd81344308e15202f46ca2efe/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"c825b3eaf19d5362a9c4d2347cd18b204add43dc/logo.png"
+					"tchinese"		"102f687b098b7accf55b3a1e349206f0abaf38f3/logo_tchinese.png"
+					"schinese"		"9667e4e8bf331341ee37b52172ed0bb6a2202fdc/logo_schinese.png"
+				}
+				"image2x"
+				{
+					"english"		"c825b3eaf19d5362a9c4d2347cd18b204add43dc/logo_2x.png"
+					"tchinese"		"102f687b098b7accf55b3a1e349206f0abaf38f3/logo_tchinese_2x.png"
+					"schinese"		"9667e4e8bf331341ee37b52172ed0bb6a2202fdc/logo_schinese_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"34.30140314442173"
+					"height_pct"		"111.45044938505202"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"299ccca581ba2efd085182cea5a21aa707ad0b25/library_header.jpg"
+					"tchinese"		"4e4571ca9bd0e123be53063d8cf04bc82c5a4b99/library_header_tchinese.jpg"
+					"schinese"		"0d46ee34aae9d1ddc972c742fab59e6e0b3fd587/library_header_schinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"299ccca581ba2efd085182cea5a21aa707ad0b25/library_header_2x.jpg"
+					"tchinese"		"4e4571ca9bd0e123be53063d8cf04bc82c5a4b99/library_header_tchinese_2x.jpg"
+					"schinese"		"0d46ee34aae9d1ddc972c742fab59e6e0b3fd587/library_header_schinese_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1782425500"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"CyanAvatar Studios"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"CyanAvatar Studios"
+			}
+		}
+		"primary_genre"		"2"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"28"
+			"2"		"2"
+			"3"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_30"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1752481297"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3320980"
+		"store_tags"
+		{
+			"0"		"255534"
+			"1"		"7332"
+			"2"		"8945"
+			"3"		"1684"
+			"4"		"3810"
+			"5"		"9"
+			"6"		"1664"
+			"7"		"1702"
+			"8"		"12472"
+			"9"		"1695"
+			"10"		"599"
+			"11"		"4057"
+			"12"		"4166"
+			"13"		"1643"
+			"14"		"4182"
+			"15"		"3871"
+			"16"		"1717"
+			"17"		"1654"
+			"18"		"4305"
+			"19"		"597"
+		}
+		"review_score"		"8"
+		"review_percentage"		"92"
+	}
+	"extended"
+	{
+		"developer"		"CyanAvatar Studios"
+		"publisher"		"CyanAvatar Studios"
+	}
+	"config"
+	{
+		"installdir"		"MoteMancer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"MoteMancer.exe"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"workshopdepot"		"3320980"
+		"3320981"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8518750233748805480"
+					"size"		"1990913743"
+					"download"		"790436480"
+				}
+				"experimental"
+				{
+					"gid"		"540541604304685658"
+					"size"		"1991144060"
+					"download"		"790549152"
+				}
+				"v2archive"
+				{
+					"gid"		"9004759758598069828"
+					"size"		"1980952084"
+					"download"		"732812288"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25026235"
+				"timeupdated"		"1788127058"
+				"timebuildupdated"		"1788126649"
+			}
+			"experimental"
+			{
+				"buildid"		"25024515"
+				"description"		"public testing"
+				"timeupdated"		"1788117639"
+				"timebuildupdated"		"1788117153"
+			}
+			"v2archive"
+			{
+				"buildid"		"20518574"
+				"description"		"Entropy Update"
+				"timeupdated"		"1766217684"
+				"timebuildupdated"		"1761250439"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"524288000"
+		"maxnumfiles"		"7000"
+		"sync_while_suspended"		"1"
+	}
+}
