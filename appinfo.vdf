@@ -1,0 +1,158 @@
+"appinfo"
+{
+	"appid"		"764190"
+	"common"
+	{
+		"name"		"PUBG: Esports Server A"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienttga"		"d5c38fc2156eb5d2290ff927f1f70dfec8bb9868"
+		"clienticon"		"779dc3a1433abbef69dfc64396461e2edaf722bf"
+		"icon"		"c59faf9fd7a4ab0dbdb875b8902b55d277c6df18"
+		"logo"		"7be33be7f3419cff45c4fb654628fbb35ceb9b20"
+		"logo_small"		"7be33be7f3419cff45c4fb654628fbb35ceb9b20_thumb"
+		"metacritic_name"		"PLAYERUNKNOWN'S BATTLEGROUNDS (Event)"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_760671130f4e1bfffe36580b33577dd7f83f352d.jpg"
+		"store_asset_mtime"		"1524465265"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"PUBG Corp."
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"PUBG Corp."
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+		}
+		"category"
+		{
+			"category_36"		"1"
+		}
+		"gameid"		"764190"
+		"exfgls"		"8"
+		"store_tags"
+		{
+		}
+	}
+	"extended"
+	{
+		"developer"		"PUBG Corp."
+		"publisher"		"PUBG Corp."
+		"homepage"		"http://battlegroundsgame.com/"
+	}
+	"config"
+	{
+		"installdir"		"PUBG_Event_A"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"TslGame\\Binaries\\Win64\\ExecPubg.exe"
+				"arguments"		"-LobbyUrl=https://lanparty-event-front.playbattlegrounds.com?provider=steam -ESports -NoAce -EnableIntegrityCheck"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"default"
+				}
+			}
+			"1"
+			{
+				"executable"		"TslGame\\Binaries\\Win64\\TslGame.exe"
+				"arguments"		"-LobbyUrl=https://lanparty-eventCN-front.playbattlegrounds.com -ESports -NoBattleEye --nosteam"
+				"description"		"test"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"cnesports"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"764191"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2390197524555050802"
+					"size"		"51559667271"
+					"download"		"49055723936"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25015964"
+				"timeupdated"		"1788139352"
+				"timebuildupdated"		"1788050434"
+			}
+		}
+	}
+}
