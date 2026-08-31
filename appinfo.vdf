@@ -1,0 +1,238 @@
+"appinfo"
+{
+	"appid"		"2227360"
+	"common"
+	{
+		"name"		"Plains of Pain (Dedicated Server)"
+		"type"		"Tool"
+		"parent"		"2218970"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"45e56c015180c9fef2248d68c6d75db5462bd330"
+		"clienttga"		"c32f41ebe427dd6e4ada88244658102a74b1d0b9"
+		"icon"		"c8726f8af072197cd909724319cc85208aa99a3d"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"2227360"
+	}
+	"config"
+	{
+		"installdir"		"PlainsOfPainServer"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"PlainsOfPain.exe"
+				"arguments"		"-nographics -batchmode -localhost -startServer -ignorecompilererrors -maxPlayers 100 -serverName \"My Server Name\" -worldId 1 -seed 12345 -worldSize 5 -mapId 0"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2227361"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6363914826752967201"
+					"size"		"675292401"
+					"download"		"318916208"
+				}
+				"experimental"
+				{
+					"gid"		"6363914826752967201"
+					"size"		"675292401"
+					"download"		"318916208"
+				}
+				"legacy_v05"
+				{
+					"gid"		"2670311480874287994"
+					"size"		"530239999"
+					"download"		"200157328"
+				}
+				"legacy_v06"
+				{
+					"gid"		"778340228895949871"
+					"size"		"586571906"
+					"download"		"270430640"
+				}
+				"legacy_v07"
+				{
+					"gid"		"2394106298263216202"
+					"size"		"618898763"
+					"download"		"285741040"
+				}
+				"test"
+				{
+					"gid"		"6363914826752967201"
+					"size"		"675292401"
+					"download"		"318916208"
+				}
+			}
+		}
+		"2227362"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7713473845125295906"
+					"size"		"597513845"
+					"download"		"288037616"
+				}
+				"experimental"
+				{
+					"gid"		"7713473845125295906"
+					"size"		"597513845"
+					"download"		"288037616"
+				}
+				"legacy_v05"
+				{
+					"gid"		"4914551524838793718"
+					"size"		"470587037"
+					"download"		"180787152"
+				}
+				"legacy_v06"
+				{
+					"gid"		"7250298225274124721"
+					"size"		"520420784"
+					"download"		"246591104"
+				}
+				"legacy_v07"
+				{
+					"gid"		"4272400907325189539"
+					"size"		"550277568"
+					"download"		"259302864"
+				}
+				"test"
+				{
+					"gid"		"7713473845125295906"
+					"size"		"597513845"
+					"download"		"288037616"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25026771"
+				"timeupdated"		"1788176548"
+				"timebuildupdated"		"1788130226"
+			}
+			"experimental"
+			{
+				"buildid"		"25026771"
+				"description"		"Next patch"
+				"timeupdated"		"1788130645"
+				"timebuildupdated"		"1788130226"
+			}
+			"legacy_v05"
+			{
+				"buildid"		"16964335"
+				"description"		"Plains of Pain v0.5"
+				"timeupdated"		"1746698599"
+				"timebuildupdated"		"1736512292"
+			}
+			"legacy_v06"
+			{
+				"buildid"		"20789152"
+				"description"		"Plains of Pain v0.6.14.3"
+				"timeupdated"		"1764844731"
+				"timebuildupdated"		"1763064931"
+			}
+			"legacy_v07"
+			{
+				"buildid"		"21414341"
+				"description"		"Plains of Pain v0.7.2.4"
+				"timeupdated"		"1770375739"
+				"timebuildupdated"		"1767817097"
+			}
+			"test"
+			{
+				"buildid"		"25026771"
+				"description"		"Unstable test"
+				"timeupdated"		"1788130226"
+				"timebuildupdated"		"1788130226"
+			}
+		}
+	}
+}
