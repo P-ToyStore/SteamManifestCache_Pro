@@ -1,0 +1,133 @@
+"appinfo"
+{
+	"appid"		"2943070"
+	"common"
+	{
+		"name"		"Desynced Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1450900"
+		"releasestate"		"released"
+		"clienttga"		"eccb2fcb85871fec1e258c0965df8cf9b054387a"
+		"icon"		"38473f8d3bebdc8750fe28e57fe47fd8f552a373"
+		"clienticon"		"14c6979272e89a87a0c5dec813f6cb2234b31c3e"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"freetodownload"		"1"
+		"gameid"		"2943070"
+	}
+	"extended"
+	{
+		"gamedir"		"Desynced"
+		"serverbrowsername"		"Desynced"
+	}
+	"config"
+	{
+		"installdir"		"Desynced Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Desynced\\Binaries\\Win64\\DedicatedServerLauncher.exe"
+				"workingdir"		"Desynced\\Binaries\\Win64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2943071"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7135506111693540067"
+					"size"		"112063594"
+					"download"		"47480544"
+				}
+				"13254_stable"
+				{
+					"gid"		"7810410889684109446"
+					"size"		"109839396"
+					"download"		"38873312"
+				}
+				"17790_stable"
+				{
+					"gid"		"8431166647994261733"
+					"size"		"111508636"
+					"download"		"47229072"
+				}
+				"17871_stable"
+				{
+					"gid"		"6973782869667811836"
+					"size"		"111823977"
+					"download"		"47243344"
+				}
+				"experimental"
+				{
+					"gid"		"7135506111693540067"
+					"size"		"112063594"
+					"download"		"47480544"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25035977"
+				"timeupdated"		"1788179503"
+				"timebuildupdated"		"1788178491"
+			}
+			"13254_stable"
+			{
+				"buildid"		"14855463"
+				"description"		"Desynced Dedicated 0.1.13254"
+				"timeupdated"		"1727768471"
+				"timebuildupdated"		"1719474802"
+			}
+			"17790_stable"
+			{
+				"buildid"		"22739241"
+				"description"		"Desynced Dedicated 0.1.17790"
+				"timeupdated"		"1775867437"
+				"timebuildupdated"		"1775867044"
+			}
+			"17871_stable"
+			{
+				"buildid"		"23176601"
+				"description"		"Desynced Stable 0.1.17871"
+				"timeupdated"		"1778809601"
+				"timebuildupdated"		"1778490284"
+			}
+			"experimental"
+			{
+				"buildid"		"25035977"
+				"description"		"Experimental Branch (Risky Click)"
+				"timeupdated"		"1788179418"
+				"timebuildupdated"		"1788178491"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
