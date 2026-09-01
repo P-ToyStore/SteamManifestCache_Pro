@@ -1,0 +1,184 @@
+"appinfo"
+{
+	"appid"		"317670"
+	"common"
+	{
+		"name"		"No More Room in Hell Dedicated Server"
+		"type"		"Tool"
+		"releasestate"		"released"
+		"oslist"		"windows,linux"
+		"logo"		"932f6060f9090e5f78b7db86d11018f7185a4173"
+		"logo_small"		"932f6060f9090e5f78b7db86d11018f7185a4173_thumb"
+		"icon"		"2c589dd0e987a385665cb435b0c46f8c1e144f80"
+		"clienttga"		"c7fd6b921104e7791471bb21d7085a1d4a2a3301"
+		"clienticon"		"88eeeb9c4ce0eb56cf31cbe64cdf8ae4f0f9d9f4"
+		"clienticns"		"79769e3585d3f1f24b6a24a3a30469a063f3b255"
+		"linuxclienticon"		"7da1fd6feb1be59432777825dd9dab65921615f8"
+		"parent"		"224260"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"317670"
+	}
+	"extended"
+	{
+		"serverbrowsername"		"No More Room in Hell"
+		"gamedir"		"nmrih"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"No More Room in Hell Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds.exe"
+				"arguments"		"-game nmrih +map nmo_broadway"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./srcds_run"
+				"arguments"		"-game nmrih +map nmo_broadway"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"317671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6674860647932459868"
+					"size"		"799650373"
+					"download"		"353286752"
+				}
+				"previous"
+				{
+					"gid"		"6250462330945174193"
+					"size"		"664307394"
+					"download"		"272716960"
+				}
+			}
+		}
+		"317672"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6516375688814138037"
+					"size"		"730686860"
+					"download"		"313633408"
+				}
+				"previous"
+				{
+					"gid"		"3804217696473093964"
+					"size"		"634526818"
+					"download"		"256212096"
+				}
+			}
+		}
+		"317673"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1520350011125785550"
+					"size"		"5227549702"
+					"download"		"2979146896"
+				}
+				"previous"
+				{
+					"gid"		"1984074845547882584"
+					"size"		"5504007698"
+					"download"		"2993917168"
+				}
+			}
+		}
+		"317674"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4968556681257298964"
+					"size"		"37424656"
+					"download"		"13811968"
+				}
+				"previous"
+				{
+					"gid"		"9127519230127519745"
+					"size"		"15326216"
+					"download"		"4596544"
+				}
+			}
+		}
+		"317675"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5477007464130118028"
+					"size"		"117610424"
+					"download"		"20866608"
+				}
+				"previous"
+				{
+					"gid"		"9048864053500982178"
+					"size"		"66103066"
+					"download"		"7260208"
+				}
+			}
+		}
+		"workshopdepot"		"317670"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24996675"
+				"timeupdated"		"1788267357"
+				"timebuildupdated"		"1787934201"
+			}
+			"previous"
+			{
+				"buildid"		"17953865"
+				"description"		"Previous version of the game\t"
+				"timeupdated"		"1743597811"
+				"timebuildupdated"		"1743594000"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
