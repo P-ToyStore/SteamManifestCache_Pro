@@ -1,0 +1,976 @@
+"appinfo"
+{
+	"appid"		"1124180"
+	"common"
+	{
+		"name"		"Rail Route"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon"
+		"logo"		"6d6c21551c000b8daf2adb76ec67389eecc30284"
+		"logo_small"		"6d6c21551c000b8daf2adb76ec67389eecc30284_thumb"
+		"icon"		"7ac0329499c7a12d621f44cd1428919ffb40d4c2"
+		"clienttga"		"632f5d10f97d774a9477b5d257f23b22430cae28"
+		"clienticon"		"5033c5b52fbeea8268d6bf2e6ddcb218547fb234"
+		"name_localized"
+		{
+			"schinese"		"铁路调度模拟器"
+			"tchinese"		"鐵道調度模擬器"
+			"japanese"		"レールルート"
+			"koreana"		"철도관제 시뮬레이터"
+		}
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"polish"		"1"
+			"dutch"		"1"
+			"hungarian"		"1"
+			"czech"		"1"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"3"
+			"steamos_compatibility"		"2"
+			"steam_machine_compatibility"		"3"
+			"test_timestamp"		"1706918400"
+			"tested_build_id"		"13340249"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steam_machine_tests"
+			{
+				"0"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"gamepad"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+				"requires_proton_soundfonts"		"0"
+			}
+		}
+		"metacritic_name"		"Rail Route"
+		"controllertagwizard"		"1"
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"1616d4b581c3e0d078a2849c38d2fc8d8744e88c/capsule_231x87.jpg"
+			"schinese"		"c662733d52cf5e8a474f42cc260bdaefa7a3be3e/capsule_231x87_schinese.jpg"
+			"tchinese"		"f2ba56b4a4839e88d21a604ed5c05f2d5c63b159/capsule_231x87_tchinese.jpg"
+			"japanese"		"04726edaa1ca061fdeb576241899de0aa2986e82/capsule_231x87_japanese.jpg"
+			"koreana"		"e4cbf925d52440fe65bc9235989bcbbdafbaab62/capsule_231x87_koreana.jpg"
+		}
+		"header_image"
+		{
+			"english"		"137cf30c5d34ce5412f95b0034dc89fc62459675/header.jpg"
+			"schinese"		"32b4af4a8b18a8ac067f8d2c1e0bc2ecf9e549e5/header_schinese.jpg"
+			"tchinese"		"6859ee9e95075d6dc613da98ab293ae1f026c94e/header_tchinese.jpg"
+			"japanese"		"639dc8f5ae98585eed6e173c10db108e9b70fe92/header_japanese.jpg"
+			"koreana"		"13c0b74bac1bd90a9c447396c3ffdcf5614c5bb6/header_koreana.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn,zh-tw,nl,ja,ru,fr,ko,pl,hu,cs,es,de"
+			"library_hero"		"en"
+			"library_logo"		"en,zh-cn"
+			"library_header"		"en,zh-cn,zh-tw,es,hu,ko,nl,pl,cs,ja,fr,ru,de"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"43.99066511085181"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"9af93a7844ccd0611b6997136b327e00b2bcd9c1/library_600x900.jpg"
+					"schinese"		"1c0d06cc469aed4c61ecae4519a55d04fefe6971/library_600x900_schinese.jpg"
+					"tchinese"		"a022038db74d4649ce3b5275195f7f2b972b9f97/library_600x900_tchinese.jpg"
+					"dutch"		"bdcbc7ec4c5b153a1303dc1515d7b741703a184d/library_600x900_dutch.jpg"
+					"japanese"		"c85a9df6c8f898e3fb19e3c015a85e5e3720fe91/library_600x900_japanese.jpg"
+					"russian"		"3795bc3b3fd4ade1c51f534cbca22bf43eec4e51/library_600x900_russian.jpg"
+					"french"		"4df470c197c67a189dd997813fa545afba6881d1/library_600x900_french.jpg"
+					"koreana"		"e81c6b02a7840e7d1026dd30c8779a4220f09cdd/library_600x900_koreana.jpg"
+					"polish"		"6266b9e7f4686608751ed449d4bfbdc002a5a045/library_600x900_polish.jpg"
+					"hungarian"		"ffe4d50d34ad160205dffd27df9c6d6d59f8e4f8/library_600x900_hungarian.jpg"
+					"czech"		"aa6f32f81e844935a934878c4509cce9b09575dc/library_600x900_czech.jpg"
+					"spanish"		"965ecc62b4b72d8bcaca989a0996f297fd4e5749/library_600x900_spanish.jpg"
+					"german"		"1db96187230cb819e44a6df8433689e4308c3c6f/library_600x900_german.jpg"
+				}
+				"image2x"
+				{
+					"english"		"9af93a7844ccd0611b6997136b327e00b2bcd9c1/library_600x900_2x.jpg"
+					"schinese"		"1c0d06cc469aed4c61ecae4519a55d04fefe6971/library_600x900_schinese_2x.jpg"
+					"tchinese"		"a022038db74d4649ce3b5275195f7f2b972b9f97/library_600x900_tchinese_2x.jpg"
+					"dutch"		"bdcbc7ec4c5b153a1303dc1515d7b741703a184d/library_600x900_dutch_2x.jpg"
+					"japanese"		"c85a9df6c8f898e3fb19e3c015a85e5e3720fe91/library_600x900_japanese_2x.jpg"
+					"russian"		"3795bc3b3fd4ade1c51f534cbca22bf43eec4e51/library_600x900_russian_2x.jpg"
+					"french"		"4df470c197c67a189dd997813fa545afba6881d1/library_600x900_french_2x.jpg"
+					"koreana"		"e81c6b02a7840e7d1026dd30c8779a4220f09cdd/library_600x900_koreana_2x.jpg"
+					"polish"		"6266b9e7f4686608751ed449d4bfbdc002a5a045/library_600x900_polish_2x.jpg"
+					"hungarian"		"ffe4d50d34ad160205dffd27df9c6d6d59f8e4f8/library_600x900_hungarian_2x.jpg"
+					"czech"		"aa6f32f81e844935a934878c4509cce9b09575dc/library_600x900_czech_2x.jpg"
+					"spanish"		"965ecc62b4b72d8bcaca989a0996f297fd4e5749/library_600x900_spanish_2x.jpg"
+					"german"		"1db96187230cb819e44a6df8433689e4308c3c6f/library_600x900_german_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"43.99066511085181"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+					"schinese"		"logo_schinese.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+					"schinese"		"logo_schinese_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"137cf30c5d34ce5412f95b0034dc89fc62459675/library_header.jpg"
+					"schinese"		"32b4af4a8b18a8ac067f8d2c1e0bc2ecf9e549e5/library_header_schinese.jpg"
+					"tchinese"		"6859ee9e95075d6dc613da98ab293ae1f026c94e/library_header_tchinese.jpg"
+					"spanish"		"d07c854708b8a91f1305a9b80aed75da9742c79c/library_header_spanish.jpg"
+					"hungarian"		"3aca04fb99ec6631f3c14aac54ae847fccc70ca3/library_header_hungarian.jpg"
+					"koreana"		"13c0b74bac1bd90a9c447396c3ffdcf5614c5bb6/library_header_koreana.jpg"
+					"dutch"		"0102c097ab7aabd78b0214e40f46793e4719ef97/library_header_dutch.jpg"
+					"polish"		"44feba6e689fa53e14ba4c56dc327237d50ecac0/library_header_polish.jpg"
+					"czech"		"ce2438bb2b5177cb388817a324ce2488e063cb4f/library_header_czech.jpg"
+					"japanese"		"639dc8f5ae98585eed6e173c10db108e9b70fe92/library_header_japanese.jpg"
+					"french"		"4a2052873248277132a8977cc8b9fadcd43685e4/library_header_french.jpg"
+					"russian"		"772e0edf543a1f13d9888e1f1c24fa757929ab5f/library_header_russian.jpg"
+					"german"		"d06163f29383c84ac6e4c614123dfc0488c634a4/library_header_german.jpg"
+				}
+				"image2x"
+				{
+					"tchinese"		"6859ee9e95075d6dc613da98ab293ae1f026c94e/library_header_tchinese_2x.jpg"
+					"spanish"		"d07c854708b8a91f1305a9b80aed75da9742c79c/library_header_spanish_2x.jpg"
+					"hungarian"		"3aca04fb99ec6631f3c14aac54ae847fccc70ca3/library_header_hungarian_2x.jpg"
+					"koreana"		"13c0b74bac1bd90a9c447396c3ffdcf5614c5bb6/library_header_koreana_2x.jpg"
+					"dutch"		"0102c097ab7aabd78b0214e40f46793e4719ef97/library_header_dutch_2x.jpg"
+					"polish"		"44feba6e689fa53e14ba4c56dc327237d50ecac0/library_header_polish_2x.jpg"
+					"czech"		"ce2438bb2b5177cb388817a324ce2488e063cb4f/library_header_czech_2x.jpg"
+					"schinese"		"32b4af4a8b18a8ac067f8d2c1e0bc2ecf9e549e5/library_header_schinese_2x.jpg"
+					"japanese"		"639dc8f5ae98585eed6e173c10db108e9b70fe92/library_header_japanese_2x.jpg"
+					"french"		"4a2052873248277132a8977cc8b9fadcd43685e4/library_header_french_2x.jpg"
+					"russian"		"772e0edf543a1f13d9888e1f1c24fa757929ab5f/library_header_russian_2x.jpg"
+					"german"		"d06163f29383c84ac6e4c614123dfc0488c634a4/library_header_german_2x.jpg"
+					"english"		"137cf30c5d34ce5412f95b0034dc89fc62459675/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1785778252"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Bitrich.info"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Bitrich.info"
+			}
+		}
+		"primary_genre"		"28"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+			"2"		"28"
+			"3"		"2"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_17"		"1"
+			"category_30"		"1"
+			"category_23"		"1"
+			"category_25"		"1"
+			"category_22"		"1"
+			"category_28"		"1"
+			"category_55"		"1"
+			"category_56"		"1"
+			"category_57"		"1"
+			"category_58"		"1"
+			"category_29"		"1"
+			"category_38"		"1"
+			"category_48"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1708592234"
+		"community_visible_stats"		"1"
+		"workshop_visible"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1124180"
+		"store_tags"
+		{
+			"0"		"16689"
+			"1"		"1616"
+			"2"		"9204"
+			"3"		"255534"
+			"4"		"3813"
+			"5"		"1036"
+			"6"		"1664"
+			"7"		"4328"
+			"8"		"1643"
+			"9"		"599"
+			"10"		"3810"
+			"11"		"4695"
+			"12"		"10383"
+			"13"		"12472"
+			"14"		"9"
+			"15"		"3871"
+			"16"		"1654"
+			"17"		"597"
+			"18"		"1239876"
+			"19"		"1685"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Bitrich.info"
+		"publisher"		"Bitrich.info"
+		"homepage"		"https://railroute.eu"
+		"listofdlc"		"2943430,3570380,4540370"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Rail Route"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Rail Route.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Rail Route.app\\Contents\\MacOS\\Rail Route"
+				"arguments"		"-force-glcore"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Rail Route.x86"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"steamdecktouchscreen"		"4"
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1124182"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8171919286320646353"
+					"size"		"720652692"
+					"download"		"379450656"
+				}
+				"backwards"
+				{
+					"gid"		"2363736434745554034"
+					"size"		"693597344"
+					"download"		"357445072"
+				}
+				"ea_00"
+				{
+					"gid"		"2252917913306425896"
+					"size"		"344217120"
+					"download"		"158132816"
+				}
+				"ea_02"
+				{
+					"gid"		"7048757168507689652"
+					"size"		"425377921"
+					"download"		"197879200"
+				}
+				"ea_10"
+				{
+					"gid"		"2684666872635733221"
+					"size"		"589683881"
+					"download"		"264487744"
+				}
+				"ea_11"
+				{
+					"gid"		"7185562995777199951"
+					"size"		"561960638"
+					"download"		"271056528"
+				}
+				"ea_12"
+				{
+					"gid"		"4697942390161312321"
+					"size"		"547461889"
+					"download"		"273928352"
+				}
+				"ea_13"
+				{
+					"gid"		"4235177267307813062"
+					"size"		"546960745"
+					"download"		"275116960"
+				}
+				"ea_14"
+				{
+					"gid"		"3713920515696485531"
+					"size"		"548255011"
+					"download"		"275707072"
+				}
+				"ea_15"
+				{
+					"gid"		"2926452467567786500"
+					"size"		"549501162"
+					"download"		"276068704"
+				}
+				"ea_16"
+				{
+					"gid"		"7070747054350419717"
+					"size"		"560577844"
+					"download"		"280165296"
+				}
+				"ea_17"
+				{
+					"gid"		"372198834039979826"
+					"size"		"570707170"
+					"download"		"284260800"
+				}
+				"ea_18"
+				{
+					"gid"		"2202208064084086219"
+					"size"		"575603495"
+					"download"		"287896656"
+				}
+				"next_unity"
+				{
+					"gid"		"6202439661849122433"
+					"size"		"768944941"
+					"download"		"425846176"
+				}
+				"rr_00"
+				{
+					"gid"		"4263285142031124312"
+					"size"		"684098365"
+					"download"		"354132400"
+				}
+				"rr_01"
+				{
+					"gid"		"2363736434745554034"
+					"size"		"693597344"
+					"download"		"357445072"
+				}
+				"rr_02"
+				{
+					"gid"		"2327350083628704701"
+					"size"		"693582473"
+					"download"		"357358176"
+				}
+			}
+		}
+		"1124183"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7715347206646343687"
+					"size"		"771729476"
+					"download"		"392582528"
+				}
+				"backwards"
+				{
+					"gid"		"8980331352606939868"
+					"size"		"744686113"
+					"download"		"369403632"
+				}
+				"ea_00"
+				{
+					"gid"		"6288877902804237982"
+					"size"		"345442792"
+					"download"		"158194352"
+				}
+				"ea_02"
+				{
+					"gid"		"2208290056720359065"
+					"size"		"451331047"
+					"download"		"206012848"
+				}
+				"ea_10"
+				{
+					"gid"		"2501684155079509063"
+					"size"		"615148526"
+					"download"		"272165424"
+				}
+				"ea_11"
+				{
+					"gid"		"160836454814858782"
+					"size"		"589055265"
+					"download"		"279414880"
+				}
+				"ea_12"
+				{
+					"gid"		"6132674081274554767"
+					"size"		"574548245"
+					"download"		"282293312"
+				}
+				"ea_13"
+				{
+					"gid"		"4394564244403279647"
+					"size"		"573996754"
+					"download"		"283382752"
+				}
+				"ea_14"
+				{
+					"gid"		"1891123255970877042"
+					"size"		"575366878"
+					"download"		"284101392"
+				}
+				"ea_15"
+				{
+					"gid"		"8621919061864663945"
+					"size"		"576531718"
+					"download"		"284443872"
+				}
+				"ea_16"
+				{
+					"gid"		"5070888420985939083"
+					"size"		"587632821"
+					"download"		"288463936"
+				}
+				"ea_17"
+				{
+					"gid"		"6756667629439349179"
+					"size"		"597816320"
+					"download"		"292570032"
+				}
+				"ea_18"
+				{
+					"gid"		"7315928163108936281"
+					"size"		"602666316"
+					"download"		"296019232"
+				}
+				"next_unity"
+				{
+					"gid"		"1067945020209607388"
+					"size"		"819826151"
+					"download"		"439652432"
+				}
+				"rr_00"
+				{
+					"gid"		"8559890702204583876"
+					"size"		"735197889"
+					"download"		"366161216"
+				}
+				"rr_01"
+				{
+					"gid"		"8980331352606939868"
+					"size"		"744686113"
+					"download"		"369403632"
+				}
+				"rr_02"
+				{
+					"gid"		"5489317056376778553"
+					"size"		"744722620"
+					"download"		"369399648"
+				}
+			}
+		}
+		"1124184"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8736539472858323995"
+					"size"		"749699565"
+					"download"		"376447152"
+				}
+				"backwards"
+				{
+					"gid"		"6942664869710475181"
+					"size"		"723017827"
+					"download"		"354753024"
+				}
+				"ea_00"
+				{
+					"gid"		"8921543831234567872"
+					"size"		"355605066"
+					"download"		"159926640"
+				}
+				"ea_02"
+				{
+					"gid"		"5642357138130762210"
+					"size"		"469526962"
+					"download"		"199384144"
+				}
+				"ea_10"
+				{
+					"gid"		"4599254043712375369"
+					"size"		"634682080"
+					"download"		"265591232"
+				}
+				"ea_11"
+				{
+					"gid"		"8489853254545332389"
+					"size"		"607996105"
+					"download"		"272286880"
+				}
+				"ea_12"
+				{
+					"gid"		"2045205498365159529"
+					"size"		"593522932"
+					"download"		"275222432"
+				}
+				"ea_13"
+				{
+					"gid"		"1638392473543241120"
+					"size"		"592929961"
+					"download"		"276431440"
+				}
+				"ea_14"
+				{
+					"gid"		"8793388851602049043"
+					"size"		"592952257"
+					"download"		"276757232"
+				}
+				"ea_15"
+				{
+					"gid"		"118611670834230612"
+					"size"		"594174258"
+					"download"		"277153888"
+				}
+				"ea_16"
+				{
+					"gid"		"3118470219844545812"
+					"size"		"605269457"
+					"download"		"281351696"
+				}
+				"ea_17"
+				{
+					"gid"		"902613183786040356"
+					"size"		"615424467"
+					"download"		"285303232"
+				}
+				"ea_18"
+				{
+					"gid"		"7281518682738233782"
+					"size"		"620288054"
+					"download"		"288988992"
+				}
+				"next_unity"
+				{
+					"gid"		"5516454707776968499"
+					"size"		"793452634"
+					"download"		"421782432"
+				}
+				"rr_00"
+				{
+					"gid"		"4479443117613408925"
+					"size"		"713534000"
+					"download"		"351529904"
+				}
+				"rr_01"
+				{
+					"gid"		"6942664869710475181"
+					"size"		"723017827"
+					"download"		"354753024"
+				}
+				"rr_02"
+				{
+					"gid"		"8841884563631138986"
+					"size"		"722983343"
+					"download"		"354671664"
+				}
+			}
+		}
+		"workshopdepot"		"1124180"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24794399"
+				"timeupdated"		"1788252910"
+				"timebuildupdated"		"1787049186"
+			}
+			"backwards"
+			{
+				"buildid"		"14562081"
+				"description"		"Previous version"
+				"timeupdated"		"1729494278"
+				"timebuildupdated"		"1717165694"
+			}
+			"ea_00"
+			{
+				"buildid"		"7126149"
+				"description"		"Early Access (1.0.18)"
+				"timeupdated"		"1716199676"
+				"timebuildupdated"		"1627928250"
+			}
+			"ea_02"
+			{
+				"buildid"		"7926992"
+				"description"		"Early Access Update 2 (1.2.34)"
+				"timeupdated"		"1716199625"
+				"timebuildupdated"		"1640177934"
+			}
+			"ea_10"
+			{
+				"buildid"		"10783734"
+				"description"		"Early Access Update 10 (1.10.7)"
+				"timeupdated"		"1716199005"
+				"timebuildupdated"		"1678962736"
+			}
+			"ea_11"
+			{
+				"buildid"		"11286208"
+				"description"		"Early Access Update 11 (1.11.20)"
+				"timeupdated"		"1716199023"
+				"timebuildupdated"		"1684747967"
+			}
+			"ea_12"
+			{
+				"buildid"		"11632736"
+				"description"		"Early Access Update 12 ( 1.12.12)"
+				"timeupdated"		"1716199037"
+				"timebuildupdated"		"1688576773"
+			}
+			"ea_13"
+			{
+				"buildid"		"11704524"
+				"description"		"Early Access Update 13 (1.13.4)"
+				"timeupdated"		"1716199057"
+				"timebuildupdated"		"1689347101"
+			}
+			"ea_14"
+			{
+				"buildid"		"11870521"
+				"description"		"Early Access Update 14 (1.14.6)"
+				"timeupdated"		"1716199375"
+				"timebuildupdated"		"1691178236"
+			}
+			"ea_15"
+			{
+				"buildid"		"12190165"
+				"description"		"Early Access Update 15 (1.15.11)"
+				"timeupdated"		"1716199391"
+				"timebuildupdated"		"1694706626"
+			}
+			"ea_16"
+			{
+				"buildid"		"12437843"
+				"description"		"Early Access Update 16 (1.16.16)"
+				"timeupdated"		"1716199431"
+				"timebuildupdated"		"1697231439"
+			}
+			"ea_17"
+			{
+				"buildid"		"12822389"
+				"description"		"Early Access Update 17  (1.17.18"
+				"timeupdated"		"1716199450"
+				"timebuildupdated"		"1701212622"
+			}
+			"ea_18"
+			{
+				"buildid"		"13107021"
+				"description"		"Early Access Update 18 (1.18.13)"
+				"timeupdated"		"1716199465"
+				"timebuildupdated"		"1704535424"
+			}
+			"next_unity"
+			{
+				"buildid"		"19038999"
+				"description"		"Published version built by next Unity version"
+				"timeupdated"		"1751144666"
+				"timebuildupdated"		"1751144209"
+			}
+			"rr_00"
+			{
+				"buildid"		"14334888"
+				"description"		"Full Release (2.0.20)"
+				"timeupdated"		"1716291599"
+				"timebuildupdated"		"1715408781"
+			}
+			"rr_01"
+			{
+				"buildid"		"14562081"
+				"description"		"Update 1 (2.1.21)"
+				"timeupdated"		"1728916292"
+				"timebuildupdated"		"1717165694"
+			}
+			"rr_02"
+			{
+				"buildid"		"17170812"
+				"description"		"Update 2 (2.2.10)"
+				"timeupdated"		"1741816352"
+				"timebuildupdated"		"1738154591"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"1000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"bitrich/Rail Route"
+				"pattern"		"*.gd.gz"
+				"recursive"		"1"
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"bitrich/Rail Route"
+				"pattern"		"*.png"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"bitrich/Rail Route"
+				"pattern"		"*.txt"
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"bitrich/Rail Route"
+				"pattern"		"*.mp.lz4"
+				"recursive"		"1"
+			}
+			"4"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"bitrich/Rail Route"
+				"pattern"		"*.bytes"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"bitrich/Rail Route"
+						"replace"		"RailRoute"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"bitrich/Rail Route"
+						"replace"		".config/unity3d/bitrich/Rail Route"
+					}
+				}
+			}
+		}
+	}
+}
