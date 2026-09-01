@@ -1,0 +1,119 @@
+"appinfo"
+{
+	"appid"		"4564210"
+	"common"
+	{
+		"name"		"Assetto Corsa EVO Dedicated Server"
+		"type"		"Tool"
+		"parent"		"3058630"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"dad8ea1b0adfed09ef9ca0d7a208a0d0eef36f91"
+		"icon"		"dad8ea1b0adfed09ef9ca0d7a208a0d0eef36f91"
+		"releasestate"		"released"
+		"gameid"		"4564210"
+	}
+	"config"
+	{
+		"installdir"		"Assetto Corsa EVO Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ServerLauncher.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"4564211"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3102008970427563841"
+					"size"		"340958779"
+					"download"		"82615264"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24991735"
+				"timeupdated"		"1788267977"
+				"timebuildupdated"		"1787917902"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
