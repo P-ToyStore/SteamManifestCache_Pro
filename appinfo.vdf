@@ -1,0 +1,100 @@
+"appinfo"
+{
+	"appid"		"3542720"
+	"common"
+	{
+		"name"		"ZDSimulator Content Editor"
+		"type"		"Tool"
+		"parent"		"3381120"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"86e96d5e91d9be52161ae2e71ed91d90307fb60a"
+		"clienticon"		"20ce03ac96ad66103b953a0a0a1dadbb013c61e3"
+		"clienttga"		"e7bc93eb5030f104b11976d4bc23c1fc2f5781d4"
+		"gameid"		"3542720"
+	}
+	"config"
+	{
+		"installdir"		"ZDSimulator-ContentEditor"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"utils/ContentEditor/ZDSimulator.ContentEditor.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,russian,ukrainian"
+		"workshopdepot"		"3542720"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3542721"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1458169708513070264"
+					"size"		"1245374635"
+					"download"		"165056800"
+				}
+				"v60.1.1"
+				{
+					"gid"		"7287470685797725045"
+					"size"		"1244413766"
+					"download"		"164849824"
+				}
+				"v60.1"
+				{
+					"gid"		"970250833597626877"
+					"size"		"1245456007"
+					"download"		"164611328"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25086582"
+				"timeupdated"		"1788374958"
+				"timebuildupdated"		"1788374917"
+			}
+			"v60.1.1"
+			{
+				"buildid"		"22520376"
+				"description"		"v60.1.1"
+				"timeupdated"		"1780770220"
+				"timebuildupdated"		"1774546270"
+			}
+			"v60.1"
+			{
+				"buildid"		"22327784"
+				"description"		"v60.1"
+				"timeupdated"		"1773397195"
+				"timebuildupdated"		"1773397150"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+	}
+}
