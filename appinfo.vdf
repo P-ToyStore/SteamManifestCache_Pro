@@ -1,0 +1,106 @@
+"appinfo"
+{
+	"appid"		"3937860"
+	"common"
+	{
+		"name"		"Voyagers of Nera (Dedicated Server)"
+		"type"		"Tool"
+		"parent"		"2686630"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"c7fa646d687db46513865f65a3d82af34862dfc8"
+		"icon"		"c7fa646d687db46513865f65a3d82af34862dfc8"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"3937860"
+	}
+	"config"
+	{
+		"installdir"		"Voyagers of Nera (Dedicated Server)"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BoatGameServer.exe"
+				"arguments"		"-log -newconsole"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"3937861"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5174350350372179266"
+					"size"		"7774123865"
+					"download"		"961107728"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25106554"
+				"timeupdated"		"1788456542"
+				"timebuildupdated"		"1788454762"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
