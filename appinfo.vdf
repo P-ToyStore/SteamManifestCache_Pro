@@ -1,0 +1,237 @@
+"appinfo"
+{
+	"appid"		"3017590"
+	"common"
+	{
+		"name"		"Brickadia Server"
+		"type"		"Tool"
+		"parent"		"2199420"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"4adab91a29b05e492654ec471258ed8459a056a3"
+		"clienttga"		"a8017e90b7d0db9f612175e6c2a7bc529511088a"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"3017590_eula_0"
+				"name"		"Brickadia Server EULA"
+				"url"		"https://store.steampowered.com//eula/3017590_eula_0"
+				"version"		"2"
+			}
+		}
+		"icon"		"b03c516eaf2fcf9bd218e0cbde9896eb5ed3f887"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"3017590"
+	}
+	"config"
+	{
+		"installdir"		"BrickadiaServer"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Brickadia\\Binaries\\Win64\\BrickadiaServer-Win64-Shipping.exe"
+				"arguments"		"-Log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Brickadia/Binaries/Linux/BrickadiaServer-Linux-Shipping"
+				"arguments"		"-Log"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3017591"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3982877947965808145"
+					"size"		"881448676"
+					"download"		"459412592"
+				}
+				"archive-ea1"
+				{
+					"gid"		"7535888435529780048"
+					"size"		"476402654"
+					"download"		"246807440"
+				}
+				"archive-ea2"
+				{
+					"gid"		"5966373038137289546"
+					"size"		"584178298"
+					"download"		"275043008"
+				}
+				"archive-ea3"
+				{
+					"gid"		"3843638859464675026"
+					"size"		"849460642"
+					"download"		"448723360"
+				}
+				"unstable"
+				{
+					"gid"		"3982877947965808145"
+					"size"		"881448676"
+					"download"		"459412592"
+				}
+			}
+		}
+		"3017592"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5480988600663703358"
+					"size"		"676871098"
+					"download"		"375590192"
+				}
+				"archive-ea1"
+				{
+					"gid"		"372807830820265260"
+					"size"		"377930538"
+					"download"		"184662720"
+				}
+				"archive-ea2"
+				{
+					"gid"		"4013910734338397555"
+					"size"		"586525546"
+					"download"		"259206208"
+				}
+				"archive-ea3"
+				{
+					"gid"		"1346581173750479741"
+					"size"		"650426648"
+					"download"		"365813936"
+				}
+				"unstable"
+				{
+					"gid"		"5480988600663703358"
+					"size"		"676871098"
+					"download"		"375590192"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25104605"
+				"timeupdated"		"1788461301"
+				"timebuildupdated"		"1788447884"
+			}
+			"archive-ea1"
+			{
+				"buildid"		"19724332"
+				"description"		"The last version on the EA1 branch."
+				"timeupdated"		"1769111266"
+				"timebuildupdated"		"1756121809"
+			}
+			"archive-ea2"
+			{
+				"buildid"		"23487010"
+				"description"		"\tThe last version on the EA2 branch."
+				"timeupdated"		"1780159376"
+				"timebuildupdated"		"1780157619"
+			}
+			"archive-ea3"
+			{
+				"buildid"		"24084343"
+				"description"		"The last version on the EA3 branch."
+				"timeupdated"		"1783398599"
+				"timebuildupdated"		"1783398316"
+			}
+			"unstable"
+			{
+				"buildid"		"25104605"
+				"description"		"More frequently updated early builds. May be unstable."
+				"timeupdated"		"1788461264"
+				"timebuildupdated"		"1788447884"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
