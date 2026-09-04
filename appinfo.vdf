@@ -1,0 +1,119 @@
+"appinfo"
+{
+	"appid"		"4763510"
+	"common"
+	{
+		"name"		"Romestead Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1805320"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"2bf1729ec2701da8dfb7d7724fcd3f9fa77356a6"
+		"icon"		"2bf1729ec2701da8dfb7d7724fcd3f9fa77356a6"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"4763510"
+	}
+	"config"
+	{
+		"installdir"		"romestead-server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Server.exe"
+				"type"		"default"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"4763511"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1535906865397975330"
+					"size"		"82573246"
+					"download"		"26291872"
+				}
+				"0.25.2-beta"
+				{
+					"gid"		"8192474044107651923"
+					"size"		"80070946"
+					"download"		"25605344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25128761"
+				"timeupdated"		"1788540973"
+				"timebuildupdated"		"1788540887"
+			}
+			"0.25.2-beta"
+			{
+				"buildid"		"24203989"
+				"description"		"Beta test preview"
+				"timeupdated"		"1784043024"
+				"timebuildupdated"		"1784043023"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
