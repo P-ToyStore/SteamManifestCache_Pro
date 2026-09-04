@@ -1,0 +1,321 @@
+"appinfo"
+{
+	"appid"		"1376580"
+	"common"
+	{
+		"name"		"Alien Dawn"
+		"type"		"Game"
+		"controllervr"
+		{
+			"steamvr"		"1"
+			"oculus"		"1"
+		}
+		"playareavr"
+		{
+			"standing"		"1"
+			"seated"		"1"
+			"roomscale"
+			{
+				"width"		"2"
+				"depth"		"1.5"
+				"360_required"		"0"
+			}
+		}
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"logo"		"356cf5b0f68c77fd2ee20a5bd4983dc91fdcdb07"
+		"logo_small"		"356cf5b0f68c77fd2ee20a5bd4983dc91fdcdb07_thumb"
+		"icon"		"4df4d78dd7bf67280ed633648cf4d3dc303391f1"
+		"clienttga"		"c860d1339ac7fa5b9d727cf4b47a3bd1afe18660"
+		"clienticon"		"ecf434922583c07484c6d6f139bab0ef37fcf27b"
+		"releasestate"		"released"
+		"openxrsupport"		"1"
+		"content_descriptors"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"controller_support"		"full"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1770429676"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"VoyagerVR"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"VoyagerVR"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"23"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_1"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_28"		"1"
+			"category_52"		"1"
+			"category_53"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"steam_release_date"		"1634989860"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1376580"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"2"
+			"1"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"1685"
+			"1"		"21978"
+			"2"		"1662"
+			"3"		"1663"
+			"4"		"3978"
+			"5"		"1695"
+			"6"		"3814"
+			"7"		"3959"
+			"8"		"5125"
+			"9"		"3859"
+			"10"		"11104"
+			"11"		"6730"
+			"12"		"1775"
+			"13"		"3835"
+			"14"		"1774"
+			"15"		"19"
+			"16"		"4106"
+			"17"		"3839"
+			"18"		"4182"
+			"19"		"1697"
+		}
+		"review_score"		"5"
+		"review_percentage"		"64"
+	}
+	"extended"
+	{
+		"vrheadsetstreaming"		"1"
+		"developer"		"VoyagerVR"
+		"publisher"		"VoyagerVR"
+		"homepage"		"http://www.xtian.tv/"
+	}
+	"config"
+	{
+		"installdir"		"Alien Dawn"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AlienDawn.exe"
+				"arguments"		"-vr"
+				"type"		"openxr"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"AlienDawn.exe"
+				"arguments"		"-NOHMD"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Alien Dawn in Flatscreen Desktop Mode"
+				}
+				"description"		"Alien Dawn in Flatscreen Desktop Mode"
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65535"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229033"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1376581"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8364176324852395787"
+					"size"		"10588706001"
+					"download"		"4698915632"
+				}
+				"aliendawn2024_archived"
+				{
+					"gid"		"1251200388246592176"
+					"size"		"17464034943"
+					"download"		"7642032384"
+				}
+				"v1.21_dx11"
+				{
+					"gid"		"2584166355696861575"
+					"size"		"15772662932"
+					"download"		"6919647632"
+				}
+			}
+		}
+		"baselanguages"		"english"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25110561"
+				"timeupdated"		"1788486855"
+				"timebuildupdated"		"1788469381"
+			}
+			"aliendawn2024_archived"
+			{
+				"buildid"		"15129333"
+				"description"		"2024 Version of Alien Dawn"
+				"timeupdated"		"1722210780"
+				"timebuildupdated"		"1721767158"
+			}
+			"v1.21_dx11"
+			{
+				"buildid"		"13167343"
+				"description"		"Previous Version"
+				"timeupdated"		"1722201430"
+				"timebuildupdated"		"1705203182"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
