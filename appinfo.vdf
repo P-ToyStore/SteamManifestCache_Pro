@@ -1,0 +1,155 @@
+"appinfo"
+{
+	"appid"		"5007710"
+	"common"
+	{
+		"name"		"Deceive Inc. Dedicated Server"
+		"type"		"Tool"
+		"parent"		"820520"
+		"icon"		"d335379401d45953d01c4dd4039703d5ebdc2af5"
+		"clienticon"		"ef2ec9840f68554d8136ad26b109de6e48596c49"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"gameid"		"5007710"
+	}
+	"config"
+	{
+		"installdir"		"Deceive Inc. Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DeceiveIncServer.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DeceiveIncServer.sh"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"5007711"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7548329106166632052"
+					"size"		"1039445369"
+					"download"		"698484576"
+				}
+			}
+		}
+		"5007712"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"750975599588752485"
+					"size"		"987869156"
+					"download"		"661083232"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25107754"
+				"timeupdated"		"1788529497"
+				"timebuildupdated"		"1788459044"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
