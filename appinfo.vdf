@@ -1,0 +1,462 @@
+"appinfo"
+{
+	"appid"		"999030"
+	"common"
+	{
+		"name"		"Gamepad Massage"
+		"type"		"Game"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"clienticon"		"4b812a1d815608ae026b8211b161219cc9df0b12"
+		"clienttga"		"26f86ebeb087de7fe4c332cb7e58cf2990129f7d"
+		"icon"		"5521d7732bae42a6c9afe47ced63e19f4e4f5f16"
+		"logo"		"7dad5698c153c4910051629ae3c7021787fe5cac"
+		"logo_small"		"7dad5698c153c4910051629ae3c7021787fe5cac_thumb"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+		}
+		"releasestate"		"released"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"999030_eula_0"
+				"name"		"Gamepad Massage EULA"
+				"url"		"https://store.steampowered.com//eula/999030_eula_0"
+			}
+		}
+		"osextended"		""
+		"metacritic_name"		"Gamepad Massage"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_429d304dfae3ab05c76414379821967b82ee672b.jpg"
+		"store_asset_mtime"		"1545263590"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"XenoAmess"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"XenoAmess"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1546560000"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"999030"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"492"
+			"2"		"5432"
+		}
+	}
+	"extended"
+	{
+		"developer"		"XenoAmess"
+		"publisher"		"XenoAmess"
+		"listofdlc"		"1235410"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Gamepad Massage"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"jre\\bin\\javaw.exe"
+				"arguments"		" -Dfile.encoding=UTF-8 -classpath bin;lib;bin/*;lib/* com.xenoamess.cyan_potion.base.GameEntrance SettingFilePath=settings/GamepadMassageGuiSettings.x8l -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"jre\\bin\\javaw.exe"
+				"arguments"		" -Dfile.encoding=UTF-8 -classpath bin;lib;bin/*;lib/* com.xenoamess.cyan_potion.base.GameEntrance SettingFilePath=settings/GamepadMassageSettings.x8l -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC"
+				"description"		"Pure Massage Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"jre\\bin\\java"
+				"arguments"		" -Dfile.encoding=UTF-8 -classpath \"bin:lib:bin/*:lib/*\" com.xenoamess.cyan_potion.base.GameEntrance SettingFilePath=settings/GamepadMassageGuiSettings.x8l -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"jre\\bin\\java"
+				"arguments"		" -Dfile.encoding=UTF-8 -classpath \"bin:lib:bin/*:lib/*\" com.xenoamess.cyan_potion.base.GameEntrance SettingFilePath=settings/GamepadMassageSettings.x8l -XX:+UnlockExperimentalVMOptions -XX:+UseShenandoahGC"
+				"description"		"Pure Massage Mode"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"4"
+		"steamconfigurator3rdpartynative"		"77"
+	}
+	"depots"
+	{
+		"workshopdepot"		"999030"
+		"baselanguages"		"english,schinese"
+		"hasdepotsindlc"		"0"
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228987"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229010"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229011"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229020"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229030"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229031"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229032"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229033"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"999031"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4274500969477357131"
+					"size"		"146936192"
+					"download"		"124839456"
+				}
+				"beta"
+				{
+					"gid"		"4274500969477357131"
+					"size"		"146936192"
+					"download"		"124839456"
+				}
+			}
+		}
+		"999032"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9071632844690541387"
+					"size"		"135140618"
+					"download"		"31669776"
+				}
+				"beta"
+				{
+					"gid"		"9071632844690541387"
+					"size"		"135140618"
+					"download"		"31669776"
+				}
+			}
+		}
+		"999033"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4945808490586391559"
+					"size"		"112922012"
+					"download"		"27771088"
+				}
+				"beta"
+				{
+					"gid"		"4945808490586391559"
+					"size"		"112922012"
+					"download"		"27771088"
+				}
+			}
+		}
+		"999034"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1309801810895479100"
+					"size"		"140964285"
+					"download"		"31989856"
+				}
+				"beta"
+				{
+					"gid"		"1309801810895479100"
+					"size"		"140964285"
+					"download"		"31989856"
+				}
+			}
+		}
+		"1235410"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"dlcappid"		"1235410"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3428602122559518233"
+					"size"		"77550556"
+					"download"		"72644096"
+				}
+				"beta"
+				{
+					"gid"		"3428602122559518233"
+					"size"		"77550556"
+					"download"		"72644096"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"5502589"
+				"timeupdated"		"1599215827"
+				"timebuildupdated"		"1599215659"
+			}
+			"beta"
+			{
+				"buildid"		"5502589"
+				"description"		"beta version for Gamepad Massage.It is only for development and who use this must be mad, as mad as me myself."
+				"timeupdated"		"1599215798"
+				"timebuildupdated"		"1599215659"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"10000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saves"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"2"
+			{
+				"root"		"gameinstall"
+				"path"		"resources/gamepad_massage/rhythms"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"3"
+			{
+				"root"		"gameinstall"
+				"path"		"resources/gamepad_massage/saves"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+			"4"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"cyan_potion_saves/GamepadMassageGui"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataRoaming"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"cyan_potion_saves/GamepadMassageGui"
+						"replace"		"AppData/Roaming/cyan_potion_saves/GamepadMassageGui"
+					}
+				}
+			}
+		}
+	}
+}
