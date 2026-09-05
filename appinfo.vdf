@@ -1,0 +1,367 @@
+"appinfo"
+{
+	"appid"		"979480"
+	"common"
+	{
+		"name"		"Born Punk"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64"
+		"logo"		"b119223bb66c8c1f498c2b86d19a38d6e7e95a21"
+		"logo_small"		"b119223bb66c8c1f498c2b86d19a38d6e7e95a21_thumb"
+		"icon"		"f6149343b1f6c5f9e2b0644d89878bf88b82702d"
+		"clienttga"		"b098aa207e7e39a46fa876ca287a69ce5ed01c4a"
+		"clienticns"		"6ea2beb1af8cda54f7e8840d3423219dae4430d5"
+		"clienticon"		"b2c595704c28509cc0ec6ff940b60aee5d9bdca7"
+		"linuxclienticon"		"4349da61fdb9c951d059cce46eb679026e8ec650"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomCenter"
+				"width_pct"		"45.00000000000003"
+				"height_pct"		"27.712307712604584"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomCenter"
+					"width_pct"		"45.00000000000003"
+					"height_pct"		"27.712307712604584"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1653447374"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Insert Disk 22"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Insert Disk 22"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_18"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1655532044"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"979480"
+		"store_tags"
+		{
+			"0"		"4115"
+			"1"		"1698"
+			"2"		"21"
+			"3"		"3964"
+			"4"		"1719"
+			"5"		"4064"
+			"6"		"1664"
+			"7"		"4295"
+			"8"		"3942"
+			"9"		"7208"
+			"10"		"4305"
+			"11"		"1742"
+			"12"		"5716"
+			"13"		"17894"
+			"14"		"3871"
+			"15"		"6971"
+			"16"		"4182"
+			"17"		"6815"
+			"18"		"6426"
+			"19"		"492"
+		}
+		"review_score"		"6"
+		"review_percentage"		"78"
+	}
+	"extended"
+	{
+		"developer"		"Insert Disk 22"
+		"publisher"		"Insert Disk 22"
+		"listofdlc"		"2057800"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"installdir"		"Born Punk"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"BornPunk.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"./start"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"2"
+			{
+				"executable"		"Born Punk.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"./visplayer"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"For troubleshooting: Launch using ./visplayer"
+				}
+				"description"		"For troubleshooting: Launch using ./visplayer"
+			}
+			"4"
+			{
+				"executable"		"visplayer"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"For troubleshooting: Launch using visplayer"
+				}
+				"description"		"For troubleshooting: Launch using visplayer"
+			}
+			"5"
+			{
+				"executable"		"start"
+				"type"		"option3"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"For troubleshooting: Launch using start"
+				}
+				"description"		"For troubleshooting: Launch using start"
+			}
+			"6"
+			{
+				"executable"		"Born Punk.app/Contents/MacOS/Visionaire Player"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+				"description_loc"
+				{
+					"english"		"For troubleshooting: Launch using Visionaire Player"
+				}
+				"description"		"For troubleshooting: Launch using Visionaire Player"
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+		"steamcontrollertouchtemplateindex"		"2"
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"65535"
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"979481"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1120550875269394135"
+					"size"		"2610803663"
+					"download"		"2058216176"
+				}
+			}
+		}
+		"2057800"
+		{
+			"dlcappid"		"2057800"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7235447737053216382"
+					"size"		"51091250"
+					"download"		"49033824"
+				}
+			}
+		}
+		"979482"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1047682299303594123"
+					"size"		"2648243339"
+					"download"		"2068144336"
+				}
+			}
+		}
+		"979483"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"564903838351923552"
+					"size"		"2602192707"
+					"download"		"2057317520"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"8990747"
+				"timeupdated"		"1655955610"
+				"timebuildupdated"		"1655955240"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"10000000"
+		"maxnumfiles"		"150"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"path"		"Insert Disk 22/Born Punk/Savegames"
+				"pattern"		"*"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Insert Disk 22/Born Punk/Savegames"
+						"replace"		"Insert Disk 22/Born Punk/Savegames"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocal"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Insert Disk 22/Born Punk/Savegames"
+						"replace"		".local/share/Insert Disk 22/Born Punk/Savegames"
+					}
+				}
+			}
+		}
+	}
+}
