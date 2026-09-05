@@ -1,0 +1,271 @@
+"appinfo"
+{
+	"appid"		"1047410"
+	"common"
+	{
+		"name"		"Steambirds Alliance Open Beta"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"clienttga"		"934bd8dddebc13fea4c32a6652b56561d0fb4a48"
+		"clienticon"		"22a6047d41be5877ffe41b638f16832732addba3"
+		"icon"		"eb74fa003a27f7069eb029899fe33b68bc142fdf"
+		"clienticns"		"b9f67769f7f85cc897f9d51bb0cffeaa55e4797c"
+		"linuxclienticon"		"4b660128149a92dd3c8d9372c0b290ebe1d1db1e"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"1047410_eula_0"
+				"name"		"Steambirds Alliance Open Beta EULA"
+				"url"		"https://store.steampowered.com//eula/1047410_eula_0"
+			}
+		}
+		"logo"		"4c1556785d889f3b82824e84a3deadcc6a4d68ce"
+		"logo_small"		"4c1556785d889f3b82824e84a3deadcc6a4d68ce_thumb"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Steambirds Alliance Open Beta"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_a02d9f12ef6cbca4f8554d65cbf959ba9596ba79.jpg"
+		"store_asset_mtime"		"1557957917"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Spry Fox LLC"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Spry Fox LLC"
+			}
+		}
+		"primary_genre"		"29"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"37"
+			"2"		"23"
+			"3"		"29"
+			"4"		"3"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_20"		"1"
+			"category_9"		"1"
+			"category_38"		"1"
+			"category_27"		"1"
+			"category_35"		"1"
+			"category_18"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1558715580"
+		"community_hub_visible"		"1"
+		"gameid"		"1047410"
+		"store_tags"
+		{
+			"0"		"113"
+			"1"		"128"
+			"2"		"122"
+			"3"		"19"
+			"4"		"492"
+			"5"		"4885"
+			"6"		"4255"
+			"7"		"1685"
+		}
+		"review_score"		"8"
+		"review_percentage"		"88"
+	}
+	"extended"
+	{
+		"developer"		"Spry Fox LLC"
+		"publisher"		"Spry Fox LLC"
+		"homepage"		"http://steambirds.com"
+	}
+	"config"
+	{
+		"installdir"		"Steambirds Alliance Open Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Steambirds.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"Steambirds.app\\Contents\\MacOS\\Steambirds"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"Steambirds.exe"
+				"arguments"		"-connectionConfig beta -ignoreSteamBranchForConnection"
+				"description"		"On Beta Servers"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"test"
+				}
+			}
+			"3"
+			{
+				"executable"		"Steambirds.app\\Contents\\MacOS\\Steambirds"
+				"arguments"		"-connectionConfig beta -ignoreSteamBranchForConnection"
+				"description"		"On Beta Servers"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"test"
+				}
+			}
+			"4"
+			{
+				"executable"		"Steambirds.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"5"
+			{
+				"executable"		"Steambirds.x86_64"
+				"arguments"		"-connectionConfig beta -ignoreSteamBranchForConnection"
+				"description"		"On Beta Servers"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"test"
+				}
+			}
+			"6"
+			{
+				"executable"		"Steambirds.exe"
+				"arguments"		"-connectionConfig prod -ignoreSteamBranchForConnection"
+				"description"		"On Prod Servers"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"test"
+				}
+			}
+			"7"
+			{
+				"executable"		"Steambirds.app\\Contents\\MacOS\\Steambirds"
+				"arguments"		"-connectionConfig prod -ignoreSteamBranchForConnection"
+				"description"		"On Prod Servers"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"macos"
+					"betakey"		"test"
+				}
+			}
+			"8"
+			{
+				"executable"		"Steambirds.x86_64"
+				"arguments"		"-connectionConfig prod -ignoreSteamBranchForConnection"
+				"description"		"On Prod Servers"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+					"betakey"		"test"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1047411"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8931531984122280562"
+					"size"		"70671762"
+					"download"		"17009280"
+				}
+			}
+		}
+		"1047412"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6980625224699413894"
+					"size"		"70072246"
+					"download"		"16737264"
+				}
+			}
+		}
+		"1047413"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8569343361065175137"
+					"size"		"71873388"
+					"download"		"17305664"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"4130217"
+				"timeupdated"		"1566498041"
+				"timebuildupdated"		"1566496570"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
