@@ -1,0 +1,660 @@
+"appinfo"
+{
+	"appid"		"739590"
+	"common"
+	{
+		"name"		"Eco Server"
+		"type"		"Tool"
+		"parent"		"382310"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"icon"		"a96eb4bd8b20008867c38bbc400d79003c32d6cf"
+		"clienttga"		"e7706578b278f71bd60921630f8c53daa1c96d26"
+		"logo"		"dfc81262b1d51398f005d9497407571530adca3a"
+		"logo_small"		"dfc81262b1d51398f005d9497407571530adca3a_thumb"
+		"clienticon"		"3d05e5e79485472dd30737faaf4bae29ed03ee02"
+		"clienticns"		"e30d3ffc068d12f435266a828807297925a9f9a9"
+		"linuxclienticon"		"20a8e877a3769f2df5b6c40919135e6b6b90d6ec"
+		"releasestate"		"released"
+		"osextended"		"macos64"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"739590"
+	}
+	"config"
+	{
+		"installdir"		"Eco Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"EcoServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"EcoServer"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"EcoServer"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"3"
+			{
+				"executable"		"EcoServerInTerminal.sh"
+				"description"		"Launch with Gnome terminal"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"4"
+			{
+				"executable"		"install.sh"
+				"description"		"Install prerequisites"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229006"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"739592"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"32"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"11.0.6"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"11.1.13"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"12.0.7"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"13.0.4"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"14.0.0"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"14.0.1"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"14.0.2"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"14.0.3"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"14.1.0"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"14.1.1"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+				"playtest"
+				{
+					"gid"		"8977006133212689721"
+					"size"		"251986910"
+					"download"		"82329088"
+				}
+			}
+		}
+		"739593"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4978823131351355827"
+					"size"		"488185824"
+					"download"		"131248416"
+				}
+				"11.0.6"
+				{
+					"gid"		"2708402130542905216"
+					"size"		"375409291"
+					"download"		"117360496"
+				}
+				"11.1.13"
+				{
+					"gid"		"4879455563021744283"
+					"size"		"381236250"
+					"download"		"118604672"
+				}
+				"12.0.7"
+				{
+					"gid"		"6602890257336734291"
+					"size"		"381210390"
+					"download"		"119190096"
+				}
+				"13.0.4"
+				{
+					"gid"		"6794902774831087003"
+					"size"		"466787307"
+					"download"		"129232768"
+				}
+				"14.0.0"
+				{
+					"gid"		"1178022951568784992"
+					"size"		"487718922"
+					"download"		"131984336"
+				}
+				"14.0.1"
+				{
+					"gid"		"8776226017050453000"
+					"size"		"485639166"
+					"download"		"129913312"
+				}
+				"14.0.2"
+				{
+					"gid"		"4657806240644390396"
+					"size"		"486291986"
+					"download"		"130569504"
+				}
+				"14.0.3"
+				{
+					"gid"		"1468445169271181808"
+					"size"		"486687012"
+					"download"		"130957984"
+				}
+				"14.1.0"
+				{
+					"gid"		"2778270613536720257"
+					"size"		"487913415"
+					"download"		"130958096"
+				}
+				"14.1.1"
+				{
+					"gid"		"4978823131351355827"
+					"size"		"488185824"
+					"download"		"131248416"
+				}
+				"playtest"
+				{
+					"gid"		"4978823131351355827"
+					"size"		"488185824"
+					"download"		"131248416"
+				}
+			}
+		}
+		"739594"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2952778025188096426"
+					"size"		"419555469"
+					"download"		"118469456"
+				}
+				"11.0.6"
+				{
+					"gid"		"3901021130297679417"
+					"size"		"255092703"
+					"download"		"87232064"
+				}
+				"11.1.13"
+				{
+					"gid"		"4604923439858956806"
+					"size"		"258461384"
+					"download"		"88143584"
+				}
+				"12.0.7"
+				{
+					"gid"		"4132589862829719523"
+					"size"		"258427844"
+					"download"		"88673024"
+				}
+				"13.0.4"
+				{
+					"gid"		"2555040341774602115"
+					"size"		"398115802"
+					"download"		"116347472"
+				}
+				"14.0.0"
+				{
+					"gid"		"1384471714407158560"
+					"size"		"419162395"
+					"download"		"119228592"
+				}
+				"14.0.1"
+				{
+					"gid"		"6407721340696440628"
+					"size"		"416989957"
+					"download"		"117115056"
+				}
+				"14.0.2"
+				{
+					"gid"		"6930414129193621724"
+					"size"		"417645892"
+					"download"		"117771408"
+				}
+				"14.0.3"
+				{
+					"gid"		"6900061497960302407"
+					"size"		"418038928"
+					"download"		"118161792"
+				}
+				"14.1.0"
+				{
+					"gid"		"1040542169201533453"
+					"size"		"419280953"
+					"download"		"118178976"
+				}
+				"14.1.1"
+				{
+					"gid"		"2952778025188096426"
+					"size"		"419555469"
+					"download"		"118469456"
+				}
+				"playtest"
+				{
+					"gid"		"2952778025188096426"
+					"size"		"419555469"
+					"download"		"118469456"
+				}
+			}
+		}
+		"739595"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6250186522113895439"
+					"size"		"455179936"
+					"download"		"116123232"
+				}
+				"11.0.6"
+				{
+					"gid"		"3976095667697446558"
+					"size"		"292707762"
+					"download"		"87428800"
+				}
+				"11.1.13"
+				{
+					"gid"		"1206719259479720596"
+					"size"		"295658780"
+					"download"		"88182560"
+				}
+				"12.0.7"
+				{
+					"gid"		"2196068923863166662"
+					"size"		"295625240"
+					"download"		"88628208"
+				}
+				"13.0.4"
+				{
+					"gid"		"7050409782326991446"
+					"size"		"433852550"
+					"download"		"114145632"
+				}
+				"14.0.0"
+				{
+					"gid"		"7024695450218731841"
+					"size"		"454773925"
+					"download"		"116893648"
+				}
+				"14.0.1"
+				{
+					"gid"		"6867671771659355519"
+					"size"		"452625086"
+					"download"		"114795840"
+				}
+				"14.0.2"
+				{
+					"gid"		"6942144315475947160"
+					"size"		"453280978"
+					"download"		"115453104"
+				}
+				"14.0.3"
+				{
+					"gid"		"6025291449732823112"
+					"size"		"453673956"
+					"download"		"115840528"
+				}
+				"14.1.0"
+				{
+					"gid"		"4208843347068935288"
+					"size"		"454905479"
+					"download"		"115833120"
+				}
+				"14.1.1"
+				{
+					"gid"		"6250186522113895439"
+					"size"		"455179936"
+					"download"		"116123232"
+				}
+				"playtest"
+				{
+					"gid"		"6250186522113895439"
+					"size"		"455179936"
+					"download"		"116123232"
+				}
+			}
+		}
+		"739591"
+		{
+			"config"
+			{
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"11.0.6"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"11.1.13"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"12.0.7"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"13.0.4"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"14.0.0"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"14.0.1"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"14.0.2"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"14.0.3"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"14.1.0"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"14.1.1"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+				"playtest"
+				{
+					"gid"		"8717820652300658035"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25149807"
+				"timeupdated"		"1788682517"
+				"timebuildupdated"		"1788681762"
+			}
+			"11.0.6"
+			{
+				"buildid"		"15755762"
+				"description"		"Beta 11.0.6"
+				"timeupdated"		"1726745064"
+				"timebuildupdated"		"1726745064"
+			}
+			"11.1.13"
+			{
+				"buildid"		"18806263"
+				"description"		"Beta 11.1.13"
+				"timeupdated"		"1749539920"
+				"timebuildupdated"		"1749539920"
+			}
+			"12.0.7"
+			{
+				"buildid"		"21884184"
+				"description"		"Beta 12.0.7"
+				"timeupdated"		"1770817786"
+				"timebuildupdated"		"1770817786"
+			}
+			"13.0.4"
+			{
+				"buildid"		"23341737"
+				"description"		"Beta 13.0.4"
+				"timeupdated"		"1779359018"
+				"timebuildupdated"		"1779359018"
+			}
+			"14.0.0"
+			{
+				"buildid"		"24591675"
+				"description"		"Beta 14.0.0"
+				"timeupdated"		"1786015061"
+				"timebuildupdated"		"1786015060"
+			}
+			"14.0.1"
+			{
+				"buildid"		"24602438"
+				"description"		"Beta 14.0.0"
+				"timeupdated"		"1786057595"
+				"timebuildupdated"		"1786057594"
+			}
+			"14.0.2"
+			{
+				"buildid"		"24618181"
+				"description"		"Beta 14.0.2"
+				"timeupdated"		"1786123920"
+				"timebuildupdated"		"1786123919"
+			}
+			"14.0.3"
+			{
+				"buildid"		"24711752"
+				"description"		"Beta 14.0.3"
+				"timeupdated"		"1786618883"
+				"timebuildupdated"		"1786618883"
+			}
+			"14.1.0"
+			{
+				"buildid"		"25078507"
+				"description"		"Beta 14.1.0"
+				"timeupdated"		"1788347817"
+				"timebuildupdated"		"1788347817"
+			}
+			"14.1.1"
+			{
+				"buildid"		"25149807"
+				"description"		"Beta 14.1.1"
+				"timeupdated"		"1788681762"
+				"timebuildupdated"		"1788681762"
+			}
+			"playtest"
+			{
+				"buildid"		"25149226"
+				"description"		"Eco Server Playtest Builds"
+				"timeupdated"		"1788677557"
+				"timebuildupdated"		"1788676786"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
