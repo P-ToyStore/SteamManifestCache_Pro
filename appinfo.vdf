@@ -1,0 +1,956 @@
+"appinfo"
+{
+	"appid"		"1156990"
+	"common"
+	{
+		"name"		"Return to Shironagasu Island"
+		"type"		"Game"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"osextended"		"macos64"
+		"name_localized"
+		{
+			"english"		"Return to Shironagasu Island"
+			"schinese"		"重返蓝鲸岛 -Return to Shironagasu Island-"
+			"japanese"		"シロナガス島への帰還 -Return to Shironagasu Island-"
+			"koreana"		"시로나가스섬으로의 귀환"
+			"latam"		"Return to Shironagasu Island"
+			"spanish"		"Return to Shironagasu Island"
+			"polish"		"Powrót na Wyspę Shironagasu"
+			"german"		"Die Rückkehr zur Insel Shironagasu"
+			"french"		"Retour sur l'île de Shironagasu"
+			"tchinese"		"重返藍鯨島 -Return to Shironagasu Island-"
+			"russian"		"Возвращение на остров Сиронагасу"
+			"brazilian"		"De volta à Ilha de Shironagasu"
+		}
+		"logo"		"821608f56b6a79bf336993087a9d82a5f9b2edea"
+		"logo_small"		"821608f56b6a79bf336993087a9d82a5f9b2edea_thumb"
+		"icon"		"a4020c8fe1e097c780931c06543cfad00126b9e2"
+		"clienttga"		"33071b7f608963b751605c00881696c451784cd6"
+		"clienticon"		"3d0e70c54272052e7896883dc3e91abf5ed29c5d"
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"french"		"1"
+			"koreana"		"1"
+			"spanish"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+			"russian"		"1"
+			"japanese"		"1"
+			"portuguese"		"1"
+			"polish"		"1"
+			"brazilian"		"1"
+			"latam"		"1"
+		}
+		"releasestate"		"released"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"steam_machine_compatibility"		"0"
+			"test_timestamp"		"1678147200"
+			"tested_build_id"		"10290778"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_DisplayOutputHasNonblockingIssues"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steam_machine_tests"
+			{
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DefaultControllerConfigNotFullyFunctional"
+				}
+				"2"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_DisplayOutputHasNonblockingIssues"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"0"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"0"
+				"small_text"		"0"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+				"requires_proton_soundfonts"		"0"
+			}
+		}
+		"metacritic_name"		"Return to Shironagasu Island"
+		"small_capsule"
+		{
+			"japanese"		"capsule_231x87_japanese.jpg"
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+			"koreana"		"capsule_231x87_koreana.jpg"
+			"spanish"		"capsule_231x87_spanish.jpg"
+			"latam"		"capsule_231x87_latam.jpg"
+			"polish"		"capsule_231x87_polish.jpg"
+			"german"		"capsule_231x87_german.jpg"
+			"french"		"capsule_231x87_french.jpg"
+			"tchinese"		"capsule_231x87_tchinese.jpg"
+			"russian"		"capsule_231x87_russian.jpg"
+			"brazilian"		"capsule_231x87_brazilian.jpg"
+		}
+		"header_image"
+		{
+			"japanese"		"header_japanese.jpg"
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+			"koreana"		"header_koreana.jpg"
+			"spanish"		"header_spanish.jpg"
+			"latam"		"header_latam.jpg"
+			"polish"		"header_polish.jpg"
+			"german"		"header_german.jpg"
+			"french"		"header_french.jpg"
+			"tchinese"		"header_tchinese.jpg"
+			"russian"		"header_russian.jpg"
+			"brazilian"		"header_brazilian.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"ja,en,zh-cn,ko,es-419,es,pl,de,fr,zh-tw,ru,pt-br"
+			"library_hero"		"en,ja,zh-cn,ko,es,es-419,de,pl,fr,zh-tw,ru,pt-br"
+			"library_logo"		"ja,en,zh-cn,ko,es,es-419,pl,de,fr,zh-tw,ru,bg"
+			"library_header"		"en,bg,fr,pl,ru,ko,ja,zh-cn,zh-tw"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"japanese"		"library_600x900_japanese.jpg"
+					"english"		"library_600x900.jpg"
+					"schinese"		"library_600x900_schinese.jpg"
+					"koreana"		"library_600x900_koreana.jpg"
+					"latam"		"library_600x900_latam.jpg"
+					"spanish"		"library_600x900_spanish.jpg"
+					"polish"		"library_600x900_polish.jpg"
+					"german"		"library_600x900_german.jpg"
+					"french"		"library_600x900_french.jpg"
+					"tchinese"		"library_600x900_tchinese.jpg"
+					"russian"		"library_600x900_russian.jpg"
+					"brazilian"		"library_600x900_brazilian.jpg"
+				}
+				"image2x"
+				{
+					"japanese"		"library_600x900_japanese_2x.jpg"
+					"english"		"library_600x900_2x.jpg"
+					"schinese"		"library_600x900_schinese_2x.jpg"
+					"koreana"		"library_600x900_koreana_2x.jpg"
+					"latam"		"library_600x900_latam_2x.jpg"
+					"spanish"		"library_600x900_spanish_2x.jpg"
+					"polish"		"library_600x900_polish_2x.jpg"
+					"german"		"library_600x900_german_2x.jpg"
+					"french"		"library_600x900_french_2x.jpg"
+					"tchinese"		"library_600x900_tchinese_2x.jpg"
+					"russian"		"library_600x900_russian_2x.jpg"
+					"brazilian"		"library_600x900_brazilian_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+					"japanese"		"library_hero_japanese.jpg"
+					"schinese"		"library_hero_schinese.jpg"
+					"koreana"		"library_hero_koreana.jpg"
+					"spanish"		"library_hero_spanish.jpg"
+					"latam"		"library_hero_latam.jpg"
+					"german"		"library_hero_german.jpg"
+					"polish"		"library_hero_polish.jpg"
+					"french"		"library_hero_french.jpg"
+					"tchinese"		"library_hero_tchinese.jpg"
+					"russian"		"library_hero_russian.jpg"
+					"brazilian"		"library_hero_brazilian.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"japanese"		"logo_japanese.png"
+					"english"		"logo.png"
+					"schinese"		"logo_schinese.png"
+					"koreana"		"logo_koreana.png"
+					"spanish"		"logo_spanish.png"
+					"latam"		"logo_latam.png"
+					"polish"		"logo_polish.png"
+					"german"		"logo_german.png"
+					"french"		"logo_french.png"
+					"tchinese"		"logo_tchinese.png"
+					"russian"		"logo_russian.png"
+					"bulgarian"		"logo_bulgarian.png"
+				}
+				"image2x"
+				{
+					"japanese"		"logo_japanese_2x.png"
+					"english"		"logo_2x.png"
+					"schinese"		"logo_schinese_2x.png"
+					"spanish"		"logo_spanish_2x.png"
+					"latam"		"logo_latam_2x.png"
+					"koreana"		"logo_koreana_2x.png"
+					"polish"		"logo_polish_2x.png"
+					"german"		"logo_german_2x.png"
+					"french"		"logo_french_2x.png"
+					"tchinese"		"logo_tchinese_2x.png"
+					"russian"		"logo_russian_2x.png"
+					"bulgarian"		"logo_bulgarian_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"library_header.jpg"
+					"bulgarian"		"library_header_bulgarian.jpg"
+					"french"		"library_header_french.jpg"
+					"polish"		"library_header_polish.jpg"
+					"russian"		"library_header_russian.jpg"
+					"koreana"		"library_header_koreana.jpg"
+					"japanese"		"library_header_japanese.jpg"
+					"schinese"		"library_header_schinese.jpg"
+					"tchinese"		"library_header_tchinese.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1743423051"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		" ONIMUSHI Hyogo"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"TABINOMICHI"
+			}
+		}
+		"primary_genre"		"25"
+		"genres"
+		{
+			"0"		"25"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"schinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"latam"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1583195945"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1156990"
+		"store_tags"
+		{
+			"0"		"21"
+			"1"		"3799"
+			"2"		"5716"
+			"3"		"1667"
+			"4"		"4085"
+			"5"		"1721"
+			"6"		"1742"
+			"7"		"5613"
+			"8"		"6426"
+			"9"		"1698"
+			"10"		"4182"
+			"11"		"4064"
+			"12"		"492"
+			"13"		"3942"
+			"14"		"4166"
+			"15"		"597"
+			"16"		"1693"
+		}
+		"review_score"		"8"
+		"review_percentage"		"93"
+	}
+	"extended"
+	{
+		"developer"		" ONIMUSHI Hyogo"
+		"publisher"		"TABINOMICHI"
+		"homepage"		"https://tabinomichi.jp/shironagasu/"
+	}
+	"config"
+	{
+		"installdir"		"Return to Shironagasu Island"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Shironagasu.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"krkrsdl2.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertouchtemplateindex"		"8"
+	}
+	"depots"
+	{
+		"baselanguages"		"brazilian,english,french,german,japanese,koreana,latam,polish,russian,schinese,spanish,tchinese"
+		"hasdepotsindlc"		"0"
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1156994"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135536923400760429"
+					"size"		"2578447909"
+					"download"		"2459132064"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"3852892017955805228"
+					"size"		"829318225"
+					"download"		"789518288"
+				}
+				"old_version"
+				{
+					"gid"		"6727692565270995605"
+					"size"		"684864678"
+					"download"		"639635632"
+				}
+				"old2"
+				{
+					"gid"		"7643057126914391654"
+					"size"		"684864678"
+					"download"		"638494992"
+				}
+			}
+		}
+		"1156992"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5292202855299602959"
+					"size"		"2578447909"
+					"download"		"2461180864"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"8669984594963643020"
+					"size"		"829318225"
+					"download"		"789547872"
+				}
+				"old_version"
+				{
+					"gid"		"2417689147526894887"
+					"size"		"684864678"
+					"download"		"639667392"
+				}
+				"old2"
+				{
+					"gid"		"7927669887323837379"
+					"size"		"684864678"
+					"download"		"638526736"
+				}
+			}
+		}
+		"1156993"
+		{
+			"config"
+			{
+				"language"		"schinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8104119969780020362"
+					"size"		"2578447909"
+					"download"		"2461814416"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"6231395360529113790"
+					"size"		"840106433"
+					"download"		"794669584"
+				}
+				"old_version"
+				{
+					"gid"		"1449407348803841172"
+					"size"		"695542931"
+					"download"		"645970032"
+				}
+				"old2"
+				{
+					"gid"		"1004821376133225609"
+					"size"		"695542931"
+					"download"		"645498208"
+				}
+			}
+		}
+		"1156995"
+		{
+			"config"
+			{
+				"language"		"koreana"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8021594077813860194"
+					"size"		"2578447909"
+					"download"		"2457606656"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"6312779624530463661"
+					"size"		"704360791"
+					"download"		"663580736"
+				}
+				"old_version"
+				{
+					"gid"		"6312779624530463661"
+					"size"		"704360791"
+					"download"		"663580736"
+				}
+				"old2"
+				{
+					"gid"		"3763468072643021360"
+					"size"		"704360791"
+					"download"		"664177216"
+				}
+			}
+		}
+		"1156996"
+		{
+			"config"
+			{
+				"language"		"spanish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"716038161779553952"
+					"size"		"2578447909"
+					"download"		"2456173952"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"692866750003314474"
+					"size"		"711638285"
+					"download"		"669358608"
+				}
+				"old_version"
+				{
+					"gid"		"692866750003314474"
+					"size"		"711638285"
+					"download"		"669358608"
+				}
+				"old2"
+				{
+					"gid"		"6657625729647677017"
+					"size"		"711638285"
+					"download"		"666700144"
+				}
+			}
+		}
+		"1156997"
+		{
+			"config"
+			{
+				"language"		"latam"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4725006266088184657"
+					"size"		"2578447909"
+					"download"		"2458267664"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"5699803589525943938"
+					"size"		"711638285"
+					"download"		"669358608"
+				}
+				"old_version"
+				{
+					"gid"		"5699803589525943938"
+					"size"		"711638285"
+					"download"		"669358608"
+				}
+				"old2"
+				{
+					"gid"		"2118460116571004776"
+					"size"		"711638285"
+					"download"		"666700144"
+				}
+			}
+		}
+		"1156998"
+		{
+			"config"
+			{
+				"language"		"polish"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4807730913004034183"
+					"size"		"2578447909"
+					"download"		"2458183104"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"4180625106277094313"
+					"size"		"711684910"
+					"download"		"667139168"
+				}
+				"old_version"
+				{
+					"gid"		"4180625106277094313"
+					"size"		"711684910"
+					"download"		"667139168"
+				}
+				"old2"
+				{
+					"gid"		"4376456811511673255"
+					"size"		"711684910"
+					"download"		"665979952"
+				}
+			}
+		}
+		"1156999"
+		{
+			"config"
+			{
+				"language"		"german"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"523395652372351124"
+					"size"		"2578447909"
+					"download"		"2456354208"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"1952936580079365509"
+					"size"		"711980844"
+					"download"		"668956496"
+				}
+				"old_version"
+				{
+					"gid"		"1952936580079365509"
+					"size"		"711980844"
+					"download"		"668956496"
+				}
+				"old2"
+				{
+					"gid"		"3813324057871296752"
+					"size"		"711980844"
+					"download"		"667667424"
+				}
+			}
+		}
+		"2102960"
+		{
+			"config"
+			{
+				"language"		"french"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3192873015708775263"
+					"size"		"2578447909"
+					"download"		"2459053744"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"3744449485723218285"
+					"size"		"690888935"
+					"download"		"646797792"
+				}
+				"old_version"
+				{
+					"gid"		"3744449485723218285"
+					"size"		"690888935"
+					"download"		"646797792"
+				}
+				"old2"
+				{
+					"gid"		"3063937495595247087"
+					"size"		"690888935"
+					"download"		"646797712"
+				}
+			}
+		}
+		"2102961"
+		{
+			"config"
+			{
+				"language"		"tchinese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8864001651350474446"
+					"size"		"2578447909"
+					"download"		"2461495360"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"154642728522056335"
+					"size"		"711868882"
+					"download"		"658442816"
+				}
+				"old_version"
+				{
+					"gid"		"154642728522056335"
+					"size"		"711868882"
+					"download"		"658442816"
+				}
+				"old2"
+				{
+					"gid"		"126397316610435565"
+					"size"		"711868711"
+					"download"		"658277760"
+				}
+			}
+		}
+		"2102962"
+		{
+			"config"
+			{
+				"language"		"russian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1281961923541837922"
+					"size"		"2578447909"
+					"download"		"2457381872"
+				}
+				"old2"
+				{
+					"gid"		"5303263139488134623"
+					"size"		"710416947"
+					"download"		"668333248"
+				}
+			}
+		}
+		"2102963"
+		{
+			"config"
+			{
+				"language"		"brazilian"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8362362821685484586"
+					"size"		"2578447909"
+					"download"		"2460079184"
+				}
+				"old2"
+				{
+					"gid"		"8417916747324205877"
+					"size"		"694464243"
+					"download"		"650809360"
+				}
+			}
+		}
+		"1156991"
+		{
+			"config"
+			{
+				"language"		"japanese"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1733936665391324700"
+					"size"		"2578447909"
+					"download"		"2458997040"
+				}
+				"old_bgm_version"
+				{
+					"gid"		"2752467249203836819"
+					"size"		"850362861"
+					"download"		"803213936"
+				}
+				"old_version"
+				{
+					"gid"		"9214971323779996435"
+					"size"		"658459119"
+					"download"		"621946640"
+				}
+				"old2"
+				{
+					"gid"		"4373441111455981647"
+					"size"		"1810803327"
+					"download"		"1786575264"
+				}
+			}
+		}
+		"2102964"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4394724398609980474"
+					"size"		"2616126587"
+					"download"		"2243702832"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25161881"
+				"timeupdated"		"1788772075"
+				"timebuildupdated"		"1788762166"
+			}
+			"old_bgm_version"
+			{
+				"buildid"		"10193406"
+				"description"		"Old BGM version"
+				"timeupdated"		"1671639389"
+				"timebuildupdated"		"1671639389"
+			}
+			"old_version"
+			{
+				"buildid"		"9539647"
+				"description"		"without a voice"
+				"timeupdated"		"1671680668"
+				"timebuildupdated"		"1663489843"
+			}
+			"old2"
+			{
+				"buildid"		"17926395"
+				"description"		"old version2"
+				"timeupdated"		"1743432853"
+				"timebuildupdated"		"1743432767"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"500000000"
+		"maxnumfiles"		"200"
+		"savefiles"
+		{
+			"2"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"return to shironagasu island ver4"
+				"pattern"		"*.ksd"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"3"
+			{
+				"root"		"WinAppDataRoaming"
+				"path"		"return to shironagasu island ver4"
+				"pattern"		"*.bmp"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"4"
+			{
+				"root"		"MacAppSupport"
+				"path"		"krkrsdl2/shironagasu"
+				"pattern"		"*.ksd"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+			"5"
+			{
+				"root"		"MacAppSupport"
+				"path"		"krkrsdl2/shironagasu"
+				"pattern"		"*.bmp"
+				"platforms"
+				{
+					"1"		"MacOS"
+				}
+			}
+		}
+	}
+}
