@@ -1,0 +1,146 @@
+"appinfo"
+{
+	"appid"		"582400"
+	"common"
+	{
+		"name"		"Alien Swarm: Reactive Drop Dedicated Server"
+		"type"		"Tool"
+		"parent"		"563560"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"icon"		"ebb7491e0400dacd15f6d09b4226ca8ee71dc1b7"
+		"logo"		"22eb8626af99c447b422df3a28f2b4c395e94576"
+		"logo_small"		"22eb8626af99c447b422df3a28f2b4c395e94576_thumb"
+		"clienticon"		"b38c50b6c3dea460c3d50f19f65deacee9a63aa9"
+		"clienttga"		"020b464639e70c25a8a9024e1101caf17bc26964"
+		"osextended"		""
+		"name_localized"
+		{
+			"russian"		"Alien Swarm: Reactive Drop - Выделенный сервер"
+			"brazilian"		"Alien Swarm: Reactive Drop - Servidor Dedicado"
+			"indonesian"		"Server Dedicated Alien Swarm: Reactive Drop"
+		}
+		"freetodownload"		"1"
+		"metacritic_name"		"Alien Swarm: Reactive Drop Dedicated Server"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1492708020"
+		"gameid"		"582400"
+	}
+	"config"
+	{
+		"installdir"		"Alien Swarm Reactive Drop"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"srcds_console.exe"
+				"arguments"		"-console -game reactivedrop +exec server +map lobby"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"582401"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7950661406589193804"
+					"size"		"2802284072"
+					"download"		"857762704"
+				}
+				"beta"
+				{
+					"gid"		"1373105709273353628"
+					"size"		"2846814098"
+					"download"		"871709584"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25157705"
+				"timeupdated"		"1788734710"
+				"timebuildupdated"		"1788734174"
+			}
+			"beta"
+			{
+				"buildid"		"25157997"
+				"description"		" Latest changes. Probably broken."
+				"timeupdated"		"1788736177"
+				"timebuildupdated"		"1788736177"
+			}
+		}
+	}
+}
