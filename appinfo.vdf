@@ -1,0 +1,112 @@
+"appinfo"
+{
+	"appid"		"3936540"
+	"common"
+	{
+		"name"		"Pro Cycling Manager 26 - Tools"
+		"type"		"Tool"
+		"parent"		"3936530"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"11322d9aadf98700a14db3e0d79d6b1952a98edc"
+		"icon"		"11322d9aadf98700a14db3e0d79d6b1952a98edc"
+		"releasestate"		"released"
+		"gameid"		"3936540"
+	}
+	"config"
+	{
+		"installdir"		"Pro Cycling Manager 26 - Tools"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"StageEditor\\CTStageEditorPCMMaster64.exe"
+				"workingdir"		"StageEditor"
+				"type"		"editor"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"StageEditor"
+				}
+				"description"		"StageEditor"
+			}
+			"1"
+			{
+				"executable"		"Modding\\Modding PCM.pdf"
+				"type"		"manual"
+			}
+			"2"
+			{
+				"executable"		"SQLiteExporter\\SqliteExporterUI.exe"
+				"workingdir"		"SQLiteExporter"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"SqliteExporter"
+				}
+				"description"		"SqliteExporter"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229000"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3936541"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5143800164672822697"
+					"size"		"10397540124"
+					"download"		"4201289856"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23738647"
+				"timeupdated"		"1781516008"
+				"timebuildupdated"		"1781515921"
+			}
+		}
+	}
+}
