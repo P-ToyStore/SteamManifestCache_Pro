@@ -1,0 +1,154 @@
+"appinfo"
+{
+	"appid"		"1066880"
+	"common"
+	{
+		"name"		"Automobilista 2 Beta"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"clienticon"		"619c117330af778dc9669b75e78c026048a462d5"
+		"clienttga"		"299eab4abeee2aae735c98cda8bd71aadfe4fa04"
+		"icon"		"c3099dee505501dc6ca8800ff9042495729d2903"
+		"openvrsupport"		"1"
+		"othervrsupport"		"1"
+		"othervrsupport_rift_13"		"1"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"1066880"
+		"exfgls"		"8"
+		"store_tags"
+		{
+		}
+	}
+	"extended"
+	{
+		"gamedir"		"AMS2"
+		"serverbrowsername"		"Automobilista 2 Beta"
+	}
+	"config"
+	{
+		"installdir"		"Automobilista 2 Beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AMS2.exe"
+				"arguments"		"-novr"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"AMS2.exe"
+				"type"		"vr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"AMS2.exe"
+				"type"		"othervr"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228984"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"1066881"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1234074636077542586"
+					"size"		"151742096023"
+					"download"		"77846656864"
+				}
+				"local"
+				{
+					"gid"		"3383726549730530252"
+					"size"		"27910006628"
+					"download"		"18136362656"
+				}
+				"reiza51testing2"
+				{
+					"gid"		"8399424500859977322"
+					"size"		"108144016593"
+					"download"		"55790162560"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,spanish,portuguese,brazilian,latam"
+		"workshopdepot"		"1066880"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"23786945"
+				"timeupdated"		"1781715303"
+				"timebuildupdated"		"1781714820"
+			}
+			"local"
+			{
+				"buildid"		"4861464"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1586088272"
+				"timebuildupdated"		"1586088272"
+			}
+			"reiza51testing2"
+			{
+				"buildid"		"12210377"
+				"description"		"Testing"
+				"timeupdated"		"1695301120"
+				"timebuildupdated"		"1694967403"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"1000"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+	}
+}
