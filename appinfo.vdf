@@ -1,0 +1,161 @@
+"appinfo"
+{
+	"appid"		"3099600"
+	"common"
+	{
+		"name"		"Saleblazers Dedicated Server (Beta)"
+		"type"		"Tool"
+		"parent"		"1419850"
+		"clienttga"		"855655be09680e9003e6ce7d703d3cfb0e3fa5c6"
+		"icon"		"6bb698934f07eed0f67490f9605128cc33018afd"
+		"clienticon"		"492d9b150efc1e4579f7c6d25457bbbeb29729c2"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"name_localized"
+		{
+			"schinese"		"拓荒商客 专用服务器（测试版）"
+			"tchinese"		"拓荒商客 專用伺服器（測試版）"
+		}
+		"gameid"		"3099600"
+	}
+	"extended"
+	{
+		"gamedir"		"Saleblazers"
+	}
+	"config"
+	{
+		"installdir"		"Saleblazers Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Default/Saleblazers.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228988"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229007"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3099601"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3788890576718054467"
+					"size"		"3370629654"
+					"download"		"1621019408"
+				}
+				"legacy"
+				{
+					"gid"		"7759849661822869963"
+					"size"		"4139723322"
+					"download"		"1658446912"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25179334"
+				"timeupdated"		"1788840751"
+				"timebuildupdated"		"1788838635"
+			}
+			"legacy"
+			{
+				"buildid"		"22339900"
+				"description"		"Legacy Saleblazers Pre Immersive Patch"
+				"timeupdated"		"1779267057"
+				"timebuildupdated"		"1773458137"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
