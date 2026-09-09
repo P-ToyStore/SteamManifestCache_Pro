@@ -1,0 +1,219 @@
+"appinfo"
+{
+	"appid"		"2848110"
+	"common"
+	{
+		"name"		"Ascent: Rivals Playtest"
+		"type"		"Beta"
+		"parent"		"2748420"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"icon"		"965ecbef62f9f4b1cece29d5ce1d38cbbbef6fbe"
+		"clienttga"		"7650c9ee251b7e2a6cda7abf7e2df4140817bcd7"
+		"clienticon"		"ed15e6b80c1215e644e7268d428002ef2571b248"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"2a5833349f6edc1527e4e1a2f206307e031bcd17/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"d972b24c9904710812ca616d04c843b06b351b84/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"41.933583605332956"
+				"height_pct"		"82.60376239571164"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"1008d6e43dd4d9e775077a6b342c0a9cb6a4df16/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"1008d6e43dd4d9e775077a6b342c0a9cb6a4df16/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"e473e12e58023fa387d65e1b54ae8cffe4c1727e/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"e473e12e58023fa387d65e1b54ae8cffe4c1727e/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"e473e12e58023fa387d65e1b54ae8cffe4c1727e/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"f2b876f3a02ff6a694dc27c6a674fecb5d580a37/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"f2b876f3a02ff6a694dc27c6a674fecb5d580a37/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"41.933583605332956"
+					"height_pct"		"82.60376239571164"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"d972b24c9904710812ca616d04c843b06b351b84/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"d972b24c9904710812ca616d04c843b06b351b84/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1783405641"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1709147286"
+		"community_hub_visible"		"1"
+		"gameid"		"2848110"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"playtest_type"		"0"
+		"playtestinvitecount"		"2"
+		"playtestinviteendtime"		"1800576000"
+	}
+	"config"
+	{
+		"installdir"		"Ascent Rivals Playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AscentRivals.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"AscentRivals.exe"
+				"arguments"		"-env=dev -logPSO -clearPSODriverCache"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"release-candidate"
+				}
+				"description_loc"
+				{
+					"english"		"on Development Environment"
+				}
+				"description"		"on Development Environment"
+			}
+			"2"
+			{
+				"executable"		"AscentRivals.exe"
+				"arguments"		"-env=dev -logPSO -clearPSODriverCache -LocalTicksPerServerSend=2"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+					"betakey"		"internal-dev"
+				}
+				"description_loc"
+				{
+					"english"		"on Development Environment"
+				}
+				"description"		"on Development Environment"
+			}
+		}
+		"steamdecktouchscreen"		"1"
+		"steamconfigurator3rdpartynative"		"1"
+	}
+	"depots"
+	{
+		"baselanguages"		"brazilian,english,japanese,latam,russian"
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"2848111"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6009326447056631066"
+					"size"		"21163415833"
+					"download"		"19722919872"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25213782"
+				"timeupdated"		"1788974177"
+				"timebuildupdated"		"1788973643"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
