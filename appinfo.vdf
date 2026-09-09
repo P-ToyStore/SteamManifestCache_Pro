@@ -1,0 +1,214 @@
+"appinfo"
+{
+	"appid"		"807850"
+	"common"
+	{
+		"name"		"Build Bridges"
+		"type"		"Game"
+		"icon"		"99fd69dc568b6963f93e7ebb66fa7418aa5ecf3f"
+		"logo"		"86790b9817fd6a446a4338b12aea9721a2280d6a"
+		"logo_small"		"86790b9817fd6a446a4338b12aea9721a2280d6a_thumb"
+		"clienticon"		"3b96606693d84f1051aefa8375c9dad71829a04e"
+		"clienttga"		"2a18e9e45d5084fb42b8d54a0af8c896d97d8bd1"
+		"clienticns"		"af8e99ce8d5cf03867cc2be5d2bc3af879f8ae84"
+		"oslist"		"windows,macos"
+		"osarch"		""
+		"languages"
+		{
+			"english"		"1"
+			"german"		"1"
+			"schinese"		"1"
+			"russian"		"1"
+			"portuguese"		"1"
+		}
+		"releasestate"		"released"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Build Bridges"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+			"schinese"		"capsule_231x87_schinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+			"schinese"		"header_schinese.jpg"
+		}
+		"store_screenshot"		"ss_16a5534a87b3b11910902b57ac6febc89dcad9d2.jpg"
+		"store_asset_mtime"		"1533538838"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tap by Tap"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tap by Tap"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"portuguese"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1520783722"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"807850"
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1643"
+			"2"		"492"
+			"3"		"3871"
+			"4"		"5363"
+			"5"		"4305"
+		}
+		"review_score"		"4"
+		"review_percentage"		"35"
+	}
+	"extended"
+	{
+		"developer"		"Tap by Tap"
+		"publisher"		"Tap by Tap"
+		"homepage"		"http://steam.action-portal.com"
+	}
+	"config"
+	{
+		"installdir"		"Build Bridges"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Build Bridges.app/Contents/MacOS/Build Bridges"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"1"
+			{
+				"executable"		"Build Bridges.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english,german,schinese,russian,portuguese"
+		"workshopdepot"		"807850"
+		"807851"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5080750657397345950"
+					"size"		"406607736"
+					"download"		"41978672"
+				}
+			}
+		}
+		"807852"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4419446987209377737"
+					"size"		"419723281"
+					"download"		"44380640"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"2566305"
+				"timeupdated"		"1519880666"
+				"timebuildupdated"		"1519880580"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000"
+		"maxnumfiles"		"100"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"Dreambakers/Build Bridges"
+				"pattern"		"*.sav"
+			}
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"Dreambakers/Build Bridges"
+						"replace"		"com.dreambakers.buildbridges"
+					}
+				}
+			}
+		}
+		"appidredirect"		"807850"
+	}
+}
