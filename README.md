@@ -1,0 +1,3 @@
+### [2530250] PARKSIDE: DECAYED SOUL MANIPULATION  
+**Build Id** `25220735`  
+**Last Update Time** `2026/09/10 09:12`  
