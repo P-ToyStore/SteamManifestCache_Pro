@@ -1,0 +1,111 @@
+"appinfo"
+{
+	"appid"		"931580"
+	"common"
+	{
+		"name"		"Conan Exiles - Public Beta Dedicated Server"
+		"type"		"Tool"
+		"parent"		"931180"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"2ead99ecb05ef528b5629993a8a87bc959aa90cd"
+		"clienticon"		"b0a68a35e3f0f96819fe93aadc1cf421e40ac64c"
+		"clienttga"		"f9d4937ceedb02204ef505a83fbc9b4938d02576"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"931580_eula_0"
+				"name"		"Conan Exiles - Public Beta Dedicated Server EULA"
+				"url"		"https://store.steampowered.com//eula/931580_eula_0"
+				"version"		"1"
+			}
+		}
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"931580"
+	}
+	"config"
+	{
+		"installdir"		"Conan Exiles - Public Beta Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ConanSandboxServer.exe"
+				"arguments"		"-Messaging"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Launch Game server"
+				}
+				"description"		"Launch Game server"
+			}
+			"1"
+			{
+				"executable"		"ConanSandbox\\Binaries\\Linux\\ConanSandboxServer"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"931581"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3430604990764171128"
+					"size"		"4381982907"
+					"download"		"3514042864"
+				}
+			}
+		}
+		"931582"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3877156896558486748"
+					"size"		"4180775492"
+					"download"		"3516264832"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25194423"
+				"timeupdated"		"1789047911"
+				"timebuildupdated"		"1788896890"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
