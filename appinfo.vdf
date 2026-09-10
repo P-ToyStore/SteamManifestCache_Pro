@@ -1,0 +1,225 @@
+"appinfo"
+{
+	"appid"		"403240"
+	"common"
+	{
+		"name"		"Squad Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"logo"		"43bc8f7ebbad4b8fee2eea9bc262be483dfb7983"
+		"logo_small"		"43bc8f7ebbad4b8fee2eea9bc262be483dfb7983_thumb"
+		"icon"		"2973559898c17218937162db6d2e423d3dc8a418"
+		"clienticon"		"5cb6171b179fd2dc6a4a2dc49ef1760d0d839282"
+		"clienttga"		"d26cb41f9f79cce4cc6bcbd40bc3e63e947d98a4"
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"403240_eula_0"
+				"name"		"Squad Dedicated Server EULA"
+				"url"		"http://store.steampowered.com//eula/403240_eula_0"
+			}
+		}
+		"releasestate"		"released"
+		"osarch"		"64"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"403240"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Squad Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SquadServer.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"1"
+			{
+				"executable"		"SquadServer.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"403241"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8089860009021890369"
+					"size"		"14493816932"
+					"download"		"13767462688"
+				}
+				"squad_experimental"
+				{
+					"gid"		"2346953973762844871"
+					"size"		"14493817660"
+					"download"		"13767460176"
+				}
+			}
+		}
+		"403242"
+		{
+			"config"
+			{
+				"osarch"		"64"
+				"language"		"english"
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8678565330325257438"
+					"size"		"14138849391"
+					"download"		"13597011856"
+				}
+				"squad_experimental"
+				{
+					"gid"		"1450596940016330577"
+					"size"		"14138845907"
+					"download"		"13597077408"
+				}
+			}
+		}
+		"1123920"
+		{
+			"dlcappid"		"1123920"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8509449628493661206"
+					"size"		"15654"
+					"download"		"15264"
+				}
+				"squad_experimental"
+				{
+					"gid"		"8509449628493661206"
+					"size"		"15654"
+					"download"		"15264"
+				}
+			}
+			"depotfromapp"		"393380"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25205513"
+				"timeupdated"		"1789058364"
+				"timebuildupdated"		"1788946912"
+			}
+			"squad_experimental"
+			{
+				"buildid"		"25157420"
+				"description"		"Experimental Squad builds (compatible with Live clients)"
+				"timeupdated"		"1788980330"
+				"timebuildupdated"		"1788732575"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
