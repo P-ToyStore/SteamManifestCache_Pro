@@ -1,0 +1,181 @@
+"appinfo"
+{
+	"appid"		"3807180"
+	"common"
+	{
+		"name"		"Half-Life: Cross Product Multiplayer Dedicated Server"
+		"type"		"Tool"
+		"parent"		"3416640"
+		"oslist"		"windows,linux"
+		"osarch"		""
+		"osextended"		""
+		"clienttga"		"a480d0af7c6c3282a44c5cadf76f55aa3a6284dc"
+		"clienticon"		"bc8501dfe3a910be1b8cb4bdf35cf4e8923a8111"
+		"icon"		"8bc286be24d7c93d4972c968e3161150edcbb2d6"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"3807180"
+	}
+	"extended"
+	{
+		"gamedir"		"zamnhlmp"
+		"serverbrowsername"		"Cross Product Multiplayer"
+	}
+	"config"
+	{
+		"installdir"		"CPDS"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"AppIDMan.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"AppIDMan"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"3416643"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6812917444531732819"
+					"size"		"268431993"
+					"download"		"112730912"
+				}
+			}
+			"depotfromapp"		"3416640"
+		}
+		"3807189"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7208809850036527937"
+					"size"		"61720514"
+					"download"		"22870800"
+				}
+			}
+		}
+		"3807187"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9078392406719444421"
+					"size"		"28757781"
+					"download"		"11162848"
+				}
+			}
+		}
+		"3807181"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5945037278659854683"
+					"size"		"19159871"
+					"download"		"6698288"
+				}
+			}
+		}
+		"3807182"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1560066004059470111"
+					"size"		"1123054562"
+					"download"		"804027328"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25233854"
+				"timeupdated"		"1789052830"
+				"timebuildupdated"		"1789052744"
+			}
+		}
+	}
+}
