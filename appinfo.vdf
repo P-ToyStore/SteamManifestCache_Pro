@@ -1,0 +1,342 @@
+"appinfo"
+{
+	"appid"		"1386180"
+	"common"
+	{
+		"name"		"Bitty Engine"
+		"type"		"Application"
+		"releasestate"		"released"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"clienttga"		"ad6d848244ae4ea52ca7ed245a34c113c8219714"
+		"clienticon"		"2e099caf2c0dd621ae639558ab178b9ed9824d5b"
+		"icon"		"9cb0d936916e0b78a9afda6b1bde4a3167ff6797"
+		"logo"		"e568c8931b0f17135ac03122816d84ea1e534e9f"
+		"logo_small"		"e568c8931b0f17135ac03122816d84ea1e534e9f_thumb"
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"ac08dad36b88631727ec01f32b4ab515cc55530a/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"ce68b96e5d8246504110f957b07185898f96e950/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"100"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"e2f80b05d66afb539220288ceb35cd912884b002/library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"e2f80b05d66afb539220288ceb35cd912884b002/library_hero_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"e2f80b05d66afb539220288ceb35cd912884b002/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"100"
+					"height_pct"		"100"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"ce68b96e5d8246504110f957b07185898f96e950/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"ce68b96e5d8246504110f957b07185898f96e950/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1764126479"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Tony Wang"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Tony Wang"
+			}
+		}
+		"primary_genre"		"51"
+		"genres"
+		{
+			"0"		"51"
+			"1"		"53"
+			"2"		"54"
+			"3"		"57"
+			"4"		"60"
+		}
+		"category"
+		{
+			"category_17"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1616028538"
+		"community_hub_visible"		"1"
+		"gameid"		"1386180"
+		"exfgls"		"6"
+		"store_tags"
+		{
+			"0"		"87"
+			"1"		"13906"
+			"2"		"84"
+			"3"		"872"
+			"4"		"1036"
+		}
+		"review_score"		"7"
+		"review_percentage"		"90"
+	}
+	"extended"
+	{
+		"enablegameoverlayforapp"		"1"
+		"developer"		"Tony Wang"
+		"publisher"		"Tony Wang"
+		"homepage"		"https://paladin-t.github.io/bitty/"
+	}
+	"config"
+	{
+		"installdir"		"Bitty Engine"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"x86\\bitty.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"32"
+				}
+			}
+			"1"
+			{
+				"executable"		"x64\\bitty.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"bitty.app\\Contents\\MacOS\\bitty"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"x86s\\bitty"
+				"workingdir"		"x86s"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+				"description_loc"
+				{
+					"english"		"Use system SDL2 library (recommended)"
+				}
+				"description"		"Use system SDL2 library (recommended)"
+			}
+			"4"
+			{
+				"executable"		"x64s\\bitty"
+				"workingdir"		"x64s"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Use system SDL2 library (recommended)"
+				}
+				"description"		"Use system SDL2 library (recommended)"
+			}
+			"5"
+			{
+				"executable"		"x86\\bitty"
+				"workingdir"		"x86"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"32"
+				}
+				"description_loc"
+				{
+					"english"		"Use bundled SDL2 library"
+				}
+				"description"		"Use bundled SDL2 library"
+			}
+			"6"
+			{
+				"executable"		"x64\\bitty"
+				"workingdir"		"x64"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Use bundled SDL2 library"
+				}
+				"description"		"Use bundled SDL2 library"
+			}
+		}
+		"steamcontrollertemplateindex"		"6"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"baselanguages"		""
+		"1386181"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1950837236751450697"
+					"size"		"121812167"
+					"download"		"68324800"
+				}
+			}
+		}
+		"1386182"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+				"osarch"		"64"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7670101851806114029"
+					"size"		"136639859"
+					"download"		"69515168"
+				}
+			}
+		}
+		"1386183"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		""
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2202845537245054006"
+					"size"		"183558662"
+					"download"		"76357296"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25225155"
+				"timeupdated"		"1789024026"
+				"timebuildupdated"		"1789023943"
+			}
+		}
+	}
+}
