@@ -1,0 +1,122 @@
+"appinfo"
+{
+	"appid"		"824360"
+	"common"
+	{
+		"name"		"PixARK Dedicated Server"
+		"type"		"Tool"
+		"parent"		"593600"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"logo"		"268fffacee27e8fbc3eb115b5169bc3a43351d85"
+		"logo_small"		"268fffacee27e8fbc3eb115b5169bc3a43351d85_thumb"
+		"icon"		"1c9fc06e134195030e476e17c0b8c948ed5fe864"
+		"clienttga"		"b02dba156698720af1fd938f43d578fdfaed147e"
+		"clienticon"		"4396246b6c76653d8f44339e9528438229a0f652"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"824360"
+	}
+	"config"
+	{
+		"installdir"		"PixARK Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"ShooterGame\\Binaries\\Win64\\PixARKServer.exe"
+				"workingdir"		"ShooterGame\\Binaries\\Win64\\"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"824361"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6983716308455721974"
+					"size"		"2327664901"
+					"download"		"1269125040"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25224239"
+				"timeupdated"		"1789025759"
+				"timebuildupdated"		"1789019069"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
