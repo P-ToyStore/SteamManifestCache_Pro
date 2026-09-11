@@ -19,7 +19,8 @@ Steam 清单缓存
 # Steam正版平台不易，请尊重版权，支持正版。 
 ## 随缘打赏
 > Steam 封堵了自由获取清单漏洞。无奈又得回归清单库。  
-> 资源收集不易，随缘打赏。
+> 目前基于历史离线号池随缘同步，成本压力巨大。  
+> 资源收集不易，随缘打赏。  
 
 <img width="354" height="480" alt="photo_2026-06-19_22-26-58" src="https://github.com/user-attachments/assets/fcf01dad-d880-4fd2-86b1-39309724088a" />
 
