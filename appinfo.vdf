@@ -1,0 +1,140 @@
+"appinfo"
+{
+	"appid"		"3792580"
+	"common"
+	{
+		"name"		"SCUM Server"
+		"type"		"Tool"
+		"parent"		"513710"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"icon"		"586914284d42d3eb70ac0533a7eaa5ffee807d3d"
+		"clienticon"		"960a5d5c5b6dc60226b3a52954990269919261ed"
+		"clienttga"		"73765e3f329ddece89d1b9df86b68744f0da5a54"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"3792580"
+	}
+	"config"
+	{
+		"installdir"		"SCUM Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"SCUM\\Binaries\\Win64\\SCUMServer.exe"
+				"arguments"		"-log"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"3792581"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8848156123780926207"
+					"size"		"17640599332"
+					"download"		"6507229760"
+				}
+			}
+		}
+		"919681"
+		{
+			"dlcappid"		"919680"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25247308"
+				"timeupdated"		"1789113554"
+				"timebuildupdated"		"1789109023"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
