@@ -1,0 +1,978 @@
+"appinfo"
+{
+	"appid"		"1519490"
+	"common"
+	{
+		"name"		"The Doors of Trithius"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"6da120c9a2e610255d07154d8bffd4b6da3ddacc"
+		"logo_small"		"6da120c9a2e610255d07154d8bffd4b6da3ddacc_thumb"
+		"icon"		"0466e8b864d65096464782a48e486e4fa40203ac"
+		"clienttga"		"c8df18bdf1dd1f64d62ab525128ed2dd20f4cd40"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosnotarized"
+		"clienticon"		"18c7d91d742b433d9a8771a37e0eb7aeacb84838"
+		"linuxclienticon"		"e74dfe4521425a89c28aa975c4830b8aa02c780d"
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"steam_machine_compatibility"		"2"
+			"test_timestamp"		"1733875200"
+			"tested_build_id"		"16558218"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steam_machine_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"native"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+				"requires_proton_soundfonts"		"0"
+			}
+		}
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"34.26891586984652"
+				"height_pct"		"51.93791743264477"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_hero_2x.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"34.26891586984652"
+					"height_pct"		"51.93791743264477"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+		}
+		"store_asset_mtime"		"1744417033"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Jake Donkersgoed"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Jake Donkersgoed"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"23"
+			"1"		"3"
+			"2"		"28"
+			"3"		"2"
+			"4"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+			}
+			"italian"
+			{
+				"supported"		"true"
+			}
+			"czech"
+			{
+				"supported"		"true"
+			}
+			"dutch"
+			{
+				"supported"		"true"
+			}
+			"hungarian"
+			{
+				"supported"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+			}
+			"thai"
+			{
+				"supported"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+			}
+			"ukrainian"
+			{
+				"supported"		"true"
+			}
+		}
+		"steam_release_date"		"1629092520"
+		"community_hub_visible"		"1"
+		"gameid"		"1519490"
+		"store_tags"
+		{
+			"0"		"599"
+			"1"		"1695"
+			"2"		"454187"
+			"3"		"1716"
+			"4"		"5125"
+			"5"		"1662"
+			"6"		"4026"
+			"7"		"1720"
+			"8"		"493"
+			"9"		"3854"
+			"10"		"1677"
+			"11"		"4711"
+			"12"		"122"
+			"13"		"3871"
+			"14"		"3964"
+			"15"		"4325"
+			"16"		"4474"
+			"17"		"1684"
+			"18"		"4182"
+			"19"		"492"
+		}
+		"review_score"		"8"
+		"review_percentage"		"94"
+	}
+	"extended"
+	{
+		"developer"		"Jake Donkersgoed"
+		"publisher"		"Jake Donkersgoed"
+		"homepage"		"https://doorsoftrithius.com/"
+	}
+	"config"
+	{
+		"installdir"		"The Doors of Trithius"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"DOT.exe"
+				"type"		"none"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"DOT.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"3"
+			{
+				"executable"		"launcher.sh"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Shell script, includes fix for Arch Linux."
+				}
+				"description"		"Shell script, includes fix for Arch Linux."
+			}
+		}
+	}
+	"depots"
+	{
+		"1519493"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2990241440071762446"
+					"size"		"678382956"
+					"download"		"506412144"
+				}
+				"beta"
+				{
+					"gid"		"2990241440071762446"
+					"size"		"678382956"
+					"download"		"506412144"
+				}
+				"v0.6.0"
+				{
+					"gid"		"7773546980241618962"
+					"size"		"663507147"
+					"download"		"491773760"
+				}
+				"v0.5.20"
+				{
+					"gid"		"9093062095775300068"
+					"size"		"655917127"
+					"download"		"484037456"
+				}
+				"v0.5.19"
+				{
+					"gid"		"6419402064651203493"
+					"size"		"654956828"
+					"download"		"483258400"
+				}
+				"v0.5.18"
+				{
+					"gid"		"4528855586178275126"
+					"size"		"734927582"
+					"download"		"563229376"
+				}
+				"v0.5.17"
+				{
+					"gid"		"382431523948281271"
+					"size"		"615120231"
+					"download"		"443431376"
+				}
+				"v0.5.16"
+				{
+					"gid"		"5316163872038421763"
+					"size"		"600562490"
+					"download"		"431501888"
+				}
+				"v0.5.15"
+				{
+					"gid"		"2152406656898247874"
+					"size"		"600405129"
+					"download"		"431340512"
+				}
+				"v0.5.14"
+				{
+					"gid"		"5350283372692202173"
+					"size"		"599144148"
+					"download"		"430129712"
+				}
+				"v0.5.13"
+				{
+					"gid"		"2288023755861687031"
+					"size"		"598787888"
+					"download"		"429528640"
+				}
+				"v0.5.12"
+				{
+					"gid"		"7281202175571601950"
+					"size"		"598700989"
+					"download"		"429443472"
+				}
+				"v0.5.11"
+				{
+					"gid"		"2144683799863303079"
+					"size"		"615145444"
+					"download"		"446028784"
+				}
+				"v0.5.10"
+				{
+					"gid"		"8542788460079507368"
+					"size"		"614639439"
+					"download"		"445538848"
+				}
+				"v0.5.8"
+				{
+					"gid"		"8871087976450932625"
+					"size"		"604508122"
+					"download"		"435539216"
+				}
+				"v0.5.7"
+				{
+					"gid"		"4586976158064214279"
+					"size"		"545101865"
+					"download"		"377135568"
+				}
+				"v0.5.6"
+				{
+					"gid"		"305291905637330412"
+					"size"		"543326445"
+					"download"		"375370560"
+				}
+				"v0.5.5"
+				{
+					"gid"		"8304199762860614087"
+					"size"		"542940164"
+					"download"		"375238384"
+				}
+				"v0.5.4"
+				{
+					"gid"		"952735144077535910"
+					"size"		"542868894"
+					"download"		"375191808"
+				}
+				"v0.5.3"
+				{
+					"gid"		"9170275108884509062"
+					"size"		"543771706"
+					"download"		"374635952"
+				}
+				"deploy-test"
+				{
+					"gid"		"1342670135042348886"
+					"size"		"615121194"
+					"download"		"443431504"
+				}
+			}
+		}
+		"1519492"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"530518433893251929"
+					"size"		"670343345"
+					"download"		"502248976"
+				}
+				"beta"
+				{
+					"gid"		"530518433893251929"
+					"size"		"670343345"
+					"download"		"502248976"
+				}
+				"v0.6.0"
+				{
+					"gid"		"7642109581125492835"
+					"size"		"656064573"
+					"download"		"488078176"
+				}
+				"v0.5.20"
+				{
+					"gid"		"2791721277240819145"
+					"size"		"649130719"
+					"download"		"481189200"
+				}
+				"v0.5.19"
+				{
+					"gid"		"7019952223590255024"
+					"size"		"647514381"
+					"download"		"479586704"
+				}
+				"v0.5.18"
+				{
+					"gid"		"688032208405942448"
+					"size"		"728138106"
+					"download"		"560243952"
+				}
+				"v0.5.17"
+				{
+					"gid"		"4782546671905729890"
+					"size"		"608330756"
+					"download"		"440413792"
+				}
+				"v0.5.16"
+				{
+					"gid"		"167430444738253359"
+					"size"		"593773016"
+					"download"		"428457872"
+				}
+				"v0.5.15"
+				{
+					"gid"		"8534159530354621623"
+					"size"		"593608582"
+					"download"		"428247040"
+				}
+				"v0.5.14"
+				{
+					"gid"		"5983787859092939589"
+					"size"		"592850094"
+					"download"		"427489392"
+				}
+				"v0.5.13"
+				{
+					"gid"		"6948232839934418254"
+					"size"		"591991402"
+					"download"		"426694128"
+				}
+				"v0.5.12"
+				{
+					"gid"		"235292541747174704"
+					"size"		"603082231"
+					"download"		"437843344"
+				}
+				"v0.5.11"
+				{
+					"gid"		"5129482432611220864"
+					"size"		"610143267"
+					"download"		"443520432"
+				}
+				"v0.5.10"
+				{
+					"gid"		"2050672393705393039"
+					"size"		"609637004"
+					"download"		"443026688"
+				}
+				"v0.5.8"
+				{
+					"gid"		"5161823750959677221"
+					"size"		"599506239"
+					"download"		"433024544"
+				}
+				"v0.5.7"
+				{
+					"gid"		"7546030292733170733"
+					"size"		"540099930"
+					"download"		"374639888"
+				}
+				"v0.5.6"
+				{
+					"gid"		"5902159064384833768"
+					"size"		"538324255"
+					"download"		"372796416"
+				}
+				"v0.5.5"
+				{
+					"gid"		"7185616114310503292"
+					"size"		"537937938"
+					"download"		"372667648"
+				}
+				"v0.5.4"
+				{
+					"gid"		"2719387248401227079"
+					"size"		"537866905"
+					"download"		"372605600"
+				}
+				"v0.5.3"
+				{
+					"gid"		"604807267589761177"
+					"size"		"537147441"
+					"download"		"372124144"
+				}
+				"v0.5.2"
+				{
+					"gid"		"4867545288329919635"
+					"size"		"549264821"
+					"download"		"380975632"
+				}
+				"deploy-test"
+				{
+					"gid"		"167430444738253359"
+					"size"		"593773016"
+					"download"		"428457872"
+				}
+			}
+		}
+		"1519491"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9112885513463650498"
+					"size"		"664040639"
+					"download"		"503045824"
+				}
+				"beta"
+				{
+					"gid"		"9112885513463650498"
+					"size"		"664040639"
+					"download"		"503045824"
+				}
+				"v0.6.0"
+				{
+					"gid"		"6133451534490511774"
+					"size"		"649164830"
+					"download"		"488266352"
+				}
+				"v0.5.20"
+				{
+					"gid"		"1143283716668428516"
+					"size"		"641574810"
+					"download"		"480549456"
+				}
+				"v0.5.19"
+				{
+					"gid"		"2751252822691357345"
+					"size"		"640614511"
+					"download"		"479752784"
+				}
+				"v0.5.18"
+				{
+					"gid"		"5727445943676633710"
+					"size"		"720585265"
+					"download"		"558676544"
+				}
+				"v0.5.17"
+				{
+					"gid"		"688117383207330806"
+					"size"		"600777914"
+					"download"		"439929488"
+				}
+				"v0.5.16"
+				{
+					"gid"		"6103234089761465874"
+					"size"		"586220173"
+					"download"		"427977568"
+				}
+				"v0.5.15"
+				{
+					"gid"		"1235270086719277416"
+					"size"		"586064860"
+					"download"		"427817024"
+				}
+				"v0.5.14"
+				{
+					"gid"		"1767667046044323221"
+					"size"		"585306361"
+					"download"		"427103104"
+				}
+				"v0.5.13"
+				{
+					"gid"		"6766704066749867061"
+					"size"		"584445571"
+					"download"		"425999776"
+				}
+				"v0.5.12"
+				{
+					"gid"		"4395559290928560300"
+					"size"		"584358672"
+					"download"		"425914688"
+				}
+				"v0.5.11"
+				{
+					"gid"		"776003760833205620"
+					"size"		"600849952"
+					"download"		"442090000"
+				}
+				"v0.5.10"
+				{
+					"gid"		"2880620911953190591"
+					"size"		"600343643"
+					"download"		"441814640"
+				}
+				"v0.5.8"
+				{
+					"gid"		"1280000217099289910"
+					"size"		"590213358"
+					"download"		"431823072"
+				}
+				"v0.5.7"
+				{
+					"gid"		"3665001628870999441"
+					"size"		"530828664"
+					"download"		"373468368"
+				}
+				"v0.5.6"
+				{
+					"gid"		"7654136541173468565"
+					"size"		"529053125"
+					"download"		"371732272"
+				}
+				"v0.5.5"
+				{
+					"gid"		"3736547600502990346"
+					"size"		"528666481"
+					"download"		"371601568"
+				}
+				"v0.5.4"
+				{
+					"gid"		"7246176115596064677"
+					"size"		"528592865"
+					"download"		"371538336"
+				}
+				"v0.5.3"
+				{
+					"gid"		"8005294874106677340"
+					"size"		"527881983"
+					"download"		"370959872"
+				}
+				"v0.5.2"
+				{
+					"gid"		"6608686837565982372"
+					"size"		"534405959"
+					"download"		"385415088"
+				}
+				"v0.5.1"
+				{
+					"gid"		"2748326985084100584"
+					"size"		"534380397"
+					"download"		"385391728"
+				}
+				"v0.5.0"
+				{
+					"gid"		"1798766596528125622"
+					"size"		"518507212"
+					"download"		"369585840"
+				}
+				"v0.4.9"
+				{
+					"gid"		"8503415203865536549"
+					"size"		"503788460"
+					"download"		"356783008"
+				}
+				"deploy-test"
+				{
+					"gid"		"6103234089761465874"
+					"size"		"586220173"
+					"download"		"427977568"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25248774"
+				"timeupdated"		"1789116212"
+				"timebuildupdated"		"1789114918"
+			}
+			"beta"
+			{
+				"buildid"		"25248774"
+				"description"		"latest beta build"
+				"timeupdated"		"1789114918"
+				"timebuildupdated"		"1789114918"
+			}
+			"v0.6.0"
+			{
+				"buildid"		"22564810"
+				"description"		"Staffs"
+				"timeupdated"		"1774863514"
+				"timebuildupdated"		"1774863225"
+			}
+			"v0.5.20"
+			{
+				"buildid"		"21163379"
+				"description"		"Bludgeons & Maces"
+				"timeupdated"		"1774048721"
+				"timebuildupdated"		"1765544211"
+			}
+			"v0.5.19"
+			{
+				"buildid"		"20466803"
+				"description"		"Cave of Dreams"
+				"timeupdated"		"1764748620"
+				"timebuildupdated"		"1760977751"
+			}
+			"v0.5.18"
+			{
+				"buildid"		"19633918"
+				"description"		"Language Support"
+				"timeupdated"		"1755487982"
+				"timebuildupdated"		"1755487972"
+			}
+			"v0.5.17"
+			{
+				"buildid"		"19504347"
+				"description"		"Pyromancy & Fulmination"
+				"timeupdated"		"1755383997"
+				"timebuildupdated"		"1754514330"
+			}
+			"v0.5.16"
+			{
+				"buildid"		"17957510"
+				"description"		"Character Customization"
+				"timeupdated"		"1751327599"
+				"timebuildupdated"		"1743610611"
+			}
+			"v0.5.15"
+			{
+				"buildid"		"17612921"
+				"description"		"The Hunter's Eye"
+				"timeupdated"		"1743418249"
+				"timebuildupdated"		"1741227387"
+			}
+			"v0.5.14"
+			{
+				"buildid"		"17361088"
+				"description"		"Axes & Daggers"
+				"timeupdated"		"1741069094"
+				"timebuildupdated"		"1739502783"
+			}
+			"v0.5.13"
+			{
+				"buildid"		"17246106"
+				"description"		"Blades & Swords"
+				"timeupdated"		"1738817023"
+				"timebuildupdated"		"1738723635"
+			}
+			"v0.5.12"
+			{
+				"buildid"		"16696154"
+				"description"		"Blooming Dread"
+				"timeupdated"		"1737146799"
+				"timebuildupdated"		"1733846354"
+			}
+			"v0.5.11"
+			{
+				"buildid"		"16123846"
+				"description"		"Athletics"
+				"timeupdated"		"1732739863"
+				"timebuildupdated"		"1729522378"
+			}
+			"v0.5.10"
+			{
+				"buildid"		"15862478"
+				"description"		"Desert Crypts"
+				"timeupdated"		"1729517501"
+				"timebuildupdated"		"1727549900"
+			}
+			"v0.5.8"
+			{
+				"buildid"		"15106884"
+				"description"		"Skill Trees"
+				"timeupdated"		"1727553448"
+				"timebuildupdated"		"1721605819"
+			}
+			"v0.5.7"
+			{
+				"buildid"		"14419184"
+				"description"		" Duranki Temple"
+				"timeupdated"		"1719297027"
+				"timebuildupdated"		"1716118418"
+			}
+			"v0.5.6"
+			{
+				"buildid"		"14171137"
+				"description"		"Towns: Part 1"
+				"timeupdated"		"1715604613"
+				"timebuildupdated"		"1714040265"
+			}
+			"v0.5.5"
+			{
+				"buildid"		"14078574"
+				"description"		"Keyboard Controls"
+				"timeupdated"		"1715604677"
+				"timebuildupdated"		"1713331355"
+			}
+			"v0.5.4"
+			{
+				"buildid"		"13623442"
+				"description"		"Faction Warfare"
+				"timeupdated"		"1713314579"
+				"timebuildupdated"		"1709416184"
+			}
+			"v0.5.3"
+			{
+				"buildid"		"12562632"
+				"description"		"XP Rebalance"
+				"timeupdated"		"1707474096"
+				"timebuildupdated"		"1698523105"
+			}
+			"v0.5.2"
+			{
+				"buildid"		"12448163"
+				"description"		"Performance & Pathfinding"
+				"timeupdated"		"1698262046"
+				"timebuildupdated"		"1697425389"
+			}
+			"v0.5.1"
+			{
+				"buildid"		"12350212"
+				"description"		"Desert Biome"
+				"timeupdated"		"1696450488"
+				"timebuildupdated"		"1696392587"
+			}
+			"v0.5.0"
+			{
+				"buildid"		"11767253"
+				"description"		" Gremlin Fortresses"
+				"timeupdated"		"1696223011"
+				"timebuildupdated"		"1690097147"
+			}
+			"v0.4.9"
+			{
+				"buildid"		"10333721"
+				"description"		"Unarmed"
+				"timeupdated"		"1677008295"
+				"timebuildupdated"		"1673892371"
+			}
+			"deploy-test"
+			{
+				"buildid"		"19194966"
+				"description"		"For testing deployments"
+				"timeupdated"		"1752258289"
+				"timebuildupdated"		"1752258289"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"5000000000"
+		"maxnumfiles"		"6000"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"gameinstall"
+				"path"		"saves"
+				"pattern"		"*"
+				"recursive"		"1"
+			}
+		}
+	}
+}
