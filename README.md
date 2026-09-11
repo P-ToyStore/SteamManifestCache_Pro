@@ -17,8 +17,13 @@ Steam 清单缓存
 **如果感觉有用，麻烦动动小手给咱项目来个 star⭐ 吧**
 
 # Steam正版平台不易，请尊重版权，支持正版。 
+## 随缘打赏
+> Steam 封堵了自由获取清单漏洞。无奈又得回归清单库。
+> 资源收集不易，随缘打赏。
 
-## 鸣谢列表
+<img width="354" height="480" alt="photo_2026-06-19_22-26-58" src="https://github.com/user-attachments/assets/fcf01dad-d880-4fd2-86b1-39309724088a" />
+
+## 鸣谢列表（项目早期）
 + A佬 （外籍友人，提供了不少游戏资源信息，非常感谢
 + 月佬 （神壕，贡献了整个仓库 70-80% 的游戏
 + E佬  （分享了不少D加密游戏，虽然对库帮助不大，但是能玩游戏就有动力研究~
@@ -48,7 +53,8 @@ Branch Name is AppId
 Tag Name is Manifest FileName  
 
 ## 特别说明
-由于是本地任务，所以一些获取不全的游戏可能是因为锁区
+由于是本地任务，所以一些获取不全的游戏可能是因为锁区。
+清单文件使用Gzip压缩，请自行处理文件头。
 
 ## Star 趋势图
 [![Stargazers over time](https://starchart.cc/pjy612/SteamManifestCache.svg)](https://starchart.cc/pjy612/SteamManifestCache)
