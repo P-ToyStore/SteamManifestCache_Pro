@@ -1,0 +1,83 @@
+"appinfo"
+{
+	"appid"		"743650"
+	"common"
+	{
+		"name"		"Quake Champions PTS"
+		"type"		"Game"
+		"releasestate"		"released"
+		"oslist"		"windows"
+		"osarch"		""
+		"clienticon"		"f1d4be57d4628c6d6208fb06d37f4f42c19360b7"
+		"clienttga"		"3a7bb47009d37e3eaad9b44097ff362171e10cb3"
+		"icon"		"539032fb1e8b41d0a48ff11bf63bfe7918ace24c"
+		"logo"		"e61f7dfd6088f15d3f4905bff78e4d98c052ea65"
+		"logo_small"		"e61f7dfd6088f15d3f4905bff78e4d98c052ea65_thumb"
+		"associations"
+		{
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"743650"
+		"store_tags"
+		{
+		}
+	}
+	"config"
+	{
+		"installdir"		"quakechampions_PTS"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"client\\bin\\pc\\QuakeChampions.exe"
+				"arguments"		"--startup --set /Config/Backend_Config/serverIP \"pts-shared-eds.quakeapi.com\"  --set /Config/Bethesda/BaseEndpoint \"https://api.bethesda.net/agora_beam/\" --set /Config/Bethesda/BeamKey \"tPSm2eGedApJvgaqRVV4qvRHN1AmOoz3tIcKVH7UvMLBFIEabm8KKq5Nm5OIPXSf\" --set /Config/GAME_CONFIG/showJumpingWatermark true"
+				"workingdir"		"client\\bin\\pc"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"PTS Default Launch"
+				}
+				"description"		"PTS Default Launch"
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"743651"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"506398043774875498"
+					"size"		"36512144096"
+					"download"		"32986069232"
+				}
+			}
+		}
+		"baselanguages"		"english,german,french,italian,spanish,russian,polish,brazilian,latam"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25256987"
+				"timeupdated"		"1789141325"
+				"timebuildupdated"		"1789141247"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
