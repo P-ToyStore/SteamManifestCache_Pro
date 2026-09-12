@@ -1,0 +1,84 @@
+"appinfo"
+{
+	"appid"		"4168100"
+	"common"
+	{
+		"name"		"Puzzling Places - Puzzle Maker"
+		"type"		"Tool"
+		"parent"		"3530820"
+		"oslist"		"windows"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"2ac14dbce21d0146f9075c983707f884b7a089a0"
+		"icon"		"2ac14dbce21d0146f9075c983707f884b7a089a0"
+		"releasestate"		"released"
+		"gameid"		"4168100"
+	}
+	"config"
+	{
+		"installdir"		"Puzzle Maker"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PuzzleMaker.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228983"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"hasdepotsindlc"		"1"
+		"4168101"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1250642076880719174"
+					"size"		"200885575"
+					"download"		"90842768"
+				}
+			}
+		}
+		"workshopdepot"		"4168100"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25212861"
+				"timeupdated"		"1789134516"
+				"timebuildupdated"		"1788970526"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"10000000000"
+		"maxnumfiles"		"10000"
+	}
+}
