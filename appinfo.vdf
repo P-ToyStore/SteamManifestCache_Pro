@@ -1,0 +1,102 @@
+"appinfo"
+{
+	"appid"		"5025100"
+	"common"
+	{
+		"name"		"Codename Rook"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"gameid"		"5025100"
+		"exfgls"		"8"
+	}
+	"config"
+	{
+		"installdir"		"Codename Rook"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Rook.exe"
+				"arguments"		"-uplay_steam_mode"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Launching Rook"
+				}
+				"description"		"Launching Rook"
+			}
+		}
+	}
+	"depots"
+	{
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"5025101"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5119287567541463879"
+					"size"		"404300011"
+					"download"		"183464304"
+				}
+				"local"
+				{
+					"gid"		"3360760294968189258"
+					"size"		"102196490"
+					"download"		"36300672"
+				}
+			}
+		}
+		"1716751"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6659642105086821873"
+					"size"		"264786072"
+					"download"		"264636800"
+				}
+			}
+			"depotfromapp"		"1716750"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"24967442"
+				"timeupdated"		"1787823947"
+				"timebuildupdated"		"1787823044"
+			}
+			"local"
+			{
+				"buildid"		"24585931"
+				"description"		"Local Content Server"
+				"lcsrequired"		"1"
+				"timeupdated"		"1785997227"
+				"timebuildupdated"		"1785989775"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
