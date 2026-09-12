@@ -1,0 +1,144 @@
+"appinfo"
+{
+	"appid"		"2199150"
+	"common"
+	{
+		"name"		"弈仙牌-天机录"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"clienttga"		"1f7417c722f0063c1195c2378c93a138db3ffeb2"
+		"clienticon"		"25a1b34f29a0b7df726650b2e8a2d22c7400887a"
+		"icon"		"210f3ece2296a60faa60cd6d102f4da66f79ca1e"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon"
+		"languages"
+		{
+			"english"		"1"
+			"schinese"		"1"
+			"tchinese"		"1"
+		}
+		"gameid"		"2199150"
+		"exfgls"		"8"
+		"store_tags"
+		{
+		}
+	}
+	"config"
+	{
+		"installdir"		"YiXianPai_beta"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"YiXianPai_beta.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"default,test"
+				}
+			}
+			"1"
+			{
+				"executable"		"YiXianPai_beta.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"YiXianPai_beta.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"YiXianPai_develop.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"develop"
+				}
+				"description_loc"
+				{
+					"english"		"开发服对外Windows版本"
+					"schinese"		"开发服对外Windows版本"
+				}
+				"description"		"开发服对外Windows版本"
+			}
+		}
+	}
+	"depots"
+	{
+		"2199151"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4551721073808006997"
+					"size"		"1047833225"
+					"download"		"843014896"
+				}
+			}
+		}
+		"2199152"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6328158487122721315"
+					"size"		"1010131721"
+					"download"		"835922192"
+				}
+			}
+		}
+		"2199153"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"7008169023253607525"
+					"size"		"1020396471"
+					"download"		"827434528"
+				}
+			}
+		}
+		"2767150"
+		{
+			"dlcappid"		"2767150"
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25268673"
+				"timeupdated"		"1789200744"
+				"timebuildupdated"		"1789200231"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
