@@ -1,0 +1,320 @@
+"appinfo"
+{
+	"appid"		"896660"
+	"common"
+	{
+		"name"		"Valheim Dedicated Server"
+		"type"		"Tool"
+		"parent"		"892970"
+		"oslist"		"windows,macos,linux"
+		"osarch"		""
+		"icon"		"1aab0586723c8578c7990ced7d443568649d0df2"
+		"logo"		"233d73a1c963515ee4a9b59507bc093d85a4e2dc"
+		"logo_small"		"233d73a1c963515ee4a9b59507bc093d85a4e2dc_thumb"
+		"clienticon"		"c55a6b50b170ac6ed56cf90521273c30dccb5f12"
+		"clienttga"		"35e067b9efc8d03a9f1cdfb087fac4b970a48daf"
+		"releasestate"		"released"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"896660"
+	}
+	"config"
+	{
+		"installdir"		"Valheim dedicated server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"start_server_xterm.sh"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"1"
+			{
+				"executable"		"start_headless_server.bat"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"start_server.command"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"896661"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9055200629726788899"
+					"size"		"2057454321"
+					"download"		"1856927472"
+				}
+				"default_old"
+				{
+					"gid"		"6242541463332331733"
+					"size"		"2028553618"
+					"download"		"1827979568"
+				}
+				"default_pre1_0"
+				{
+					"gid"		"962159520942340660"
+					"size"		"1648960249"
+					"download"		"1432104384"
+				}
+				"default_preal"
+				{
+					"gid"		"4714844039240581373"
+					"size"		"1809855230"
+					"download"		"928137296"
+				}
+				"default_prebw"
+				{
+					"gid"		"125933883409730605"
+					"size"		"2296358615"
+					"download"		"1244596096"
+				}
+				"default_precta"
+				{
+					"gid"		"3745717239018859798"
+					"size"		"1627054796"
+					"download"		"1355852480"
+				}
+				"default_preml"
+				{
+					"gid"		"6784662710573794961"
+					"size"		"1244390550"
+					"download"		"683682096"
+				}
+			}
+		}
+		"896662"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"110731841284750869"
+					"size"		"2026542789"
+					"download"		"1849371792"
+				}
+				"default_old"
+				{
+					"gid"		"7847791594010475419"
+					"size"		"1997431075"
+					"download"		"1819945056"
+				}
+				"default_pre1_0"
+				{
+					"gid"		"4092019362950122673"
+					"size"		"1572001805"
+					"download"		"1418790672"
+				}
+				"default_preal"
+				{
+					"gid"		"3407001158943500641"
+					"size"		"1728347336"
+					"download"		"909601984"
+				}
+				"default_prebw"
+				{
+					"gid"		"3720669077053597949"
+					"size"		"2214279680"
+					"download"		"1230754128"
+				}
+				"default_precta"
+				{
+					"gid"		"3567185908497052141"
+					"size"		"1545087054"
+					"download"		"1342060160"
+				}
+				"default_preml"
+				{
+					"gid"		"6502590622330440570"
+					"size"		"1129628196"
+					"download"		"667746320"
+				}
+			}
+		}
+		"896663"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2024772647994974709"
+					"size"		"2069392147"
+					"download"		"1845227184"
+				}
+				"default_old"
+				{
+					"gid"		"932473376395593663"
+					"size"		"2040311546"
+					"download"		"1815960560"
+				}
+				"default_pre1_0"
+				{
+					"gid"		"1988284746012428400"
+					"size"		"1629093763"
+					"download"		"1425572368"
+				}
+				"default_preal"
+				{
+					"gid"		"5549621211050618912"
+					"size"		"0"
+					"download"		"0"
+				}
+				"default_prebw"
+				{
+					"gid"		"1408443316269240087"
+					"size"		"2992022209"
+					"download"		"1569232624"
+				}
+				"default_precta"
+				{
+					"gid"		"4899617364751965308"
+					"size"		"1593747184"
+					"download"		"1340780208"
+				}
+				"default_preml"
+				{
+					"gid"		"5549621211050618912"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25253791"
+				"timeupdated"		"1789132104"
+				"timebuildupdated"		"1789131332"
+			}
+			"default_old"
+			{
+				"buildid"		"25185644"
+				"description"		"Previous stable"
+				"timeupdated"		"1788958500"
+				"timebuildupdated"		"1788866071"
+			}
+			"default_pre1_0"
+			{
+				"buildid"		"21981590"
+				"description"		"Last stable build before 1.0"
+				"timeupdated"		"1771576792"
+				"timebuildupdated"		"1771406785"
+			}
+			"default_preal"
+			{
+				"buildid"		"20221240"
+				"description"		"Last stable build before Ashlands"
+				"timeupdated"		"1759477966"
+				"timebuildupdated"		"1759402457"
+			}
+			"default_prebw"
+			{
+				"buildid"		"20221628"
+				"description"		"\tLast stable build before Bog Witch"
+				"timeupdated"		"1759477997"
+				"timebuildupdated"		"1759404132"
+			}
+			"default_precta"
+			{
+				"buildid"		"20221863"
+				"description"		"Last stable build before Call to Arms"
+				"timeupdated"		"1759478062"
+				"timebuildupdated"		"1759405224"
+			}
+			"default_preml"
+			{
+				"buildid"		"20222098"
+				"description"		"Last stable build before Mistlands"
+				"timeupdated"		"1759478369"
+				"timebuildupdated"		"1759406180"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
