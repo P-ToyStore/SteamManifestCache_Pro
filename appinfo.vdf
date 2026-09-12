@@ -1,0 +1,149 @@
+"appinfo"
+{
+	"appid"		"99920"
+	"common"
+	{
+		"name"		"Spiral Knights Preview"
+		"type"		"Game"
+		"logo"		"47fc5d9c00cc9bafd96af091ba5b8e9a825db5c5"
+		"logo_small"		"47fc5d9c00cc9bafd96af091ba5b8e9a825db5c5_thumb"
+		"icon"		"d4b1a783f64871474bacfec6b33307e56fa665f7"
+		"clienticon"		"cadda4315365767f6574ab06777b237740f13324"
+		"clienttga"		"662489ce2640b4580069d8c21e798c3654656eaf"
+		"clienticns"		"394b8358a26cf762534d690090476cc051f65723"
+		"oslist"		"windows,macos,linux"
+		"linuxclienticon"		"085716fc7398b26e3d199784632484e38609173e"
+		"osarch"		""
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"community_hub_visible"		"1"
+		"gameid"		"99920"
+		"store_tags"
+		{
+		}
+	}
+	"extended"
+	{
+		"developer"		""
+		"gamedir"		"Spiral Knights Preview"
+		"homepage"		""
+		"icon"		""
+		"noservers"		"1"
+		"order"		"1"
+		"serverbrowsername"		""
+		"state"		"eStateAvailable"
+		"validoslist"		"macos,windows"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Spiral Knights Preview"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"java_vm\\bin\\javaw.exe"
+				"arguments"		"-Dsun.java2d.d3d=false -Dcheck_unpacked=true -jar getdown-pro.jar . client"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"2"
+			{
+				"executable"		"java_vm\\bin\\java"
+				"arguments"		"-Dcheck_unpacked=true -jar getdown-pro.jar . client"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+			"3"
+			{
+				"executable"		"launch64.sh"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+		"steamcontrollertemplateindex"		"3"
+		"steamdecktouchscreen"		"1"
+	}
+	"depots"
+	{
+		"overridescddb"		"1"
+		"99922"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6074989744739218553"
+					"size"		"115668983"
+					"download"		"35148800"
+				}
+			}
+		}
+		"99921"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5176851665798191232"
+					"size"		"87434747"
+					"download"		"28181008"
+				}
+			}
+		}
+		"99923"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"systemdefined"		"1"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5365154157726680260"
+					"size"		"98669156"
+					"download"		"30806080"
+				}
+			}
+		}
+		"99924"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"8139812931304020589"
+					"size"		"504147958"
+					"download"		"462095344"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25264823"
+				"timeupdated"		"1789172569"
+				"timebuildupdated"		"1789172569"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
