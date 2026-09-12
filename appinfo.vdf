@@ -1,0 +1,230 @@
+"appinfo"
+{
+	"appid"		"510190"
+	"common"
+	{
+		"name"		"Lazarus"
+		"type"		"Game"
+		"releasestate"		"prerelease"
+		"oslist"		"windows"
+		"osarch"		""
+		"logo"		"20370a7e2ffc1717f80be43c47bbf249503b25ed"
+		"logo_small"		"20370a7e2ffc1717f80be43c47bbf249503b25ed_thumb"
+		"clienticon"		"79b58ee6e1707379321eab9815e1ca82fcefaab7"
+		"clienttga"		"996fcc7ba753318e9346fa733626c78c727735d4"
+		"icon"		"aced158cf62ddd0f624626e9aedad9daa2af2b6a"
+		"app_retired_publisher_request"		"1"
+		"restricted_countries"		"DE"
+		"metacritic_name"		"Lazarus"
+		"controller_support"		"partial"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_logo"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"CenterCenter"
+				"width_pct"		"50"
+				"height_pct"		"100"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"library_hero.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"CenterCenter"
+					"width_pct"		"50"
+					"height_pct"		"100"
+				}
+			}
+		}
+		"store_asset_mtime"		"1560435635"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Spilt Milk Studios Ltd"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Spilt Milk Studios Ltd"
+			}
+		}
+		"primary_genre"		"1"
+		"genres"
+		{
+			"0"		"1"
+			"1"		"25"
+		}
+		"category"
+		{
+			"category_18"		"1"
+			"category_20"		"1"
+			"category_1"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+			}
+		}
+		"community_hub_visible"		"1"
+		"gameid"		"510190"
+		"exfgls"		"8"
+		"store_tags"
+		{
+			"0"		"19"
+			"1"		"113"
+			"2"		"128"
+			"3"		"1755"
+			"4"		"21"
+			"5"		"493"
+			"6"		"1685"
+		}
+		"review_score"		"5"
+		"review_percentage"		"54"
+	}
+	"extended"
+	{
+		"developer"		"Spilt Milk Studios Ltd"
+		"publisher"		"Spilt Milk Studios Ltd"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"Lazarus"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"UnityClient@Windows.exe"
+				"arguments"		"+appName spiltmilk +assetDatabaseStrategy Local +localAssetDatabasePath ./Assets/EntityPrefab +steamClient true"
+				"description"		"Lazarus"
+				"type"		"option1"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"default"
+				}
+			}
+			"3"
+			{
+				"executable"		"UnityClient@Windows.exe"
+				"arguments"		"+appName spiltmilk +assetDatabaseStrategy Local +localAssetDatabasePath ./Assets/EntityPrefab +steamClient true +moses goAway"
+				"description"		"Lazarus [connect to: Dev Server]"
+				"type"		"option2"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"staging"
+				}
+			}
+			"6"
+			{
+				"executable"		"UnityClient@Windows.exe"
+				"arguments"		"+appName spiltmilk +assetDatabaseStrategy Local +localAssetDatabasePath ./Assets/EntityPrefab +steamClient true +linkProtocol RakNet"
+				"description"		"Lazarus [Connection: RakNet]"
+				"type"		"option2"
+				"config"
+				{
+					"betakey"		"default"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"228986"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"510191"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5390138958965710976"
+					"size"		"1245501899"
+					"download"		"680364096"
+				}
+			}
+		}
+		"510192"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4333214942457442327"
+					"size"		"7948"
+					"download"		"2224"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"3919608"
+				"timeupdated"		"1560529775"
+				"timebuildupdated"		"1560529713"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
