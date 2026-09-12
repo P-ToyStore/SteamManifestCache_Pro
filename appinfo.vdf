@@ -1,0 +1,272 @@
+"appinfo"
+{
+	"appid"		"371220"
+	"common"
+	{
+		"name"		"VERLIES II"
+		"type"		"Game"
+		"logo"		"4ccf0ad8ba663bbd090dbc0d8a6d0c269bf54af3"
+		"logo_small"		"4ccf0ad8ba663bbd090dbc0d8a6d0c269bf54af3_thumb"
+		"icon"		"0880556c25a3f82c142c85e1e582859cf6354a8a"
+		"clienttga"		"65cdca51781954a9e17af169ce6921755779564d"
+		"oslist"		"windows"
+		"clienticon"		"8574938ea6f0d9d4ac83f722ea86785f087f9768"
+		"linuxclienticon"		"79cfea8678b53d9a2e4d54d45d61935fbb89d557"
+		"clienticns"		"e7eccdda2871660d6d7086e14066bf1d408a391a"
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"store_screenshot"		"ss_acf454b5484178ed298308fb995dd6e04051fb65.jpg"
+		"store_asset_mtime"		"1443154048"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Koya Game"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Koya Game"
+			}
+			"2"
+			{
+				"type"		"franchise"
+				"name"		"VERLIES"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"23"
+			"2"		"3"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_22"		"1"
+			"category_29"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1443196960"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"371220"
+		"store_tags"
+		{
+			"0"		"1646"
+			"1"		"1720"
+			"2"		"3959"
+			"3"		"1759"
+			"4"		"4026"
+			"5"		"1662"
+			"6"		"1716"
+			"7"		"4231"
+			"8"		"3839"
+			"9"		"4975"
+			"10"		"5125"
+			"11"		"4195"
+			"12"		"4236"
+			"13"		"4604"
+			"14"		"1684"
+			"15"		"4057"
+			"16"		"4182"
+			"17"		"492"
+			"18"		"4711"
+			"19"		"7569"
+		}
+		"review_score"		"5"
+		"review_percentage"		"58"
+	}
+	"extended"
+	{
+		"developer"		"Koya Game"
+		"publisher"		"Koya Game"
+		"homepage"		"http://verlies2.e-monsite.com/"
+		"listofdlc"		"563700,563720,5216920"
+		"dlcavailableonstore"		"1"
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"VERLIES II"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"nw.exe"
+				"description_loc"
+				{
+					"english"		"Launch"
+				}
+				"description"		"Launch"
+			}
+			"1"
+			{
+				"executable"		"verlies.exe"
+				"type"		"option1"
+				"config"
+				{
+					"ownsdlc"		"563720"
+				}
+				"description_loc"
+				{
+					"english"		"VERLIES"
+				}
+				"description"		"VERLIES"
+			}
+			"2"
+			{
+				"executable"		"VERLIES II Remaster\\nw.exe"
+				"type"		"option2"
+				"config"
+				{
+					"ownsdlc"		"563700"
+				}
+				"description_loc"
+				{
+					"english"		"VERLIES II Remaster"
+				}
+				"description"		"VERLIES II Remaster"
+			}
+			"3"
+			{
+				"executable"		"VERLIES II Remaster SoD\\nw.exe"
+				"type"		"option3"
+				"config"
+				{
+					"ownsdlc"		"5216920"
+				}
+				"description_loc"
+				{
+					"english"		"VERLIES II Remaster SoD"
+				}
+				"description"		"VERLIES II Remaster SoD"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"english"
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228990"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"229004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"371221"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1710619937408406921"
+					"size"		"301858880"
+					"download"		"213612288"
+				}
+			}
+		}
+		"563720"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"dlcappid"		"563720"
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2691886587538231315"
+					"size"		"28150004"
+					"download"		"17337312"
+				}
+			}
+		}
+		"563700"
+		{
+			"dlcappid"		"563700"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4011806725753559892"
+					"size"		"375216094"
+					"download"		"283294256"
+				}
+			}
+		}
+		"5216920"
+		{
+			"dlcappid"		"5216920"
+			"config"
+			{
+				"language"		"english"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1811224392551578595"
+					"size"		"379640195"
+					"download"		"287717552"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25223536"
+				"timeupdated"		"1789015161"
+				"timebuildupdated"		"1789015161"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
