@@ -1,0 +1,151 @@
+"appinfo"
+{
+	"appid"		"1964150"
+	"common"
+	{
+		"name"		"Perfect Heist 2 Dedicated Server"
+		"type"		"Tool"
+		"parent"		"1521580"
+		"oslist"		"linux"
+		"osarch"		""
+		"osextended"		""
+		"clienticon"		"3428b868e3f27edefef582d3883fe79acccab154"
+		"clienttga"		"4221b3e2ade69d7b7e2c9b1f402975d1be0ca1d1"
+		"icon"		"6b68b550dedb143fb02c26da68e3e1e78cd4fc88"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"associations"
+		{
+		}
+		"gameid"		"1964150"
+	}
+	"config"
+	{
+		"installdir"		"Perfect Heist 2 Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"PerfectHeist2Server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1964151"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"136748210207761303"
+					"size"		"2909287348"
+					"download"		"639417024"
+				}
+				"debug"
+				{
+					"gid"		"4817629203441448132"
+					"size"		"2230662582"
+					"download"		"400421568"
+				}
+				"beta"
+				{
+					"gid"		"136748210207761303"
+					"size"		"2909287348"
+					"download"		"639417024"
+				}
+				"stable"
+				{
+					"gid"		"136748210207761303"
+					"size"		"2909287348"
+					"download"		"639417024"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25256039"
+				"timeupdated"		"1789138506"
+				"timebuildupdated"		"1789138473"
+			}
+			"debug"
+			{
+				"buildid"		"9757148"
+				"description"		"debug"
+				"timeupdated"		"1666213435"
+				"timebuildupdated"		"1666213418"
+			}
+			"beta"
+			{
+				"buildid"		"25256039"
+				"description"		"beta"
+				"timeupdated"		"1789138506"
+				"timebuildupdated"		"1789138473"
+			}
+			"stable"
+			{
+				"buildid"		"25256039"
+				"description"		"Same version as the default branch"
+				"timeupdated"		"1789138506"
+				"timebuildupdated"		"1789138473"
+			}
+		}
+	}
+}
