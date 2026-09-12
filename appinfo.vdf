@@ -1,0 +1,211 @@
+"appinfo"
+{
+	"appid"		"3458530"
+	"common"
+	{
+		"name"		"WoofWatch Playtest"
+		"type"		"Beta"
+		"parent"		"3458330"
+		"icon"		"af73f99674e82b228049a0c6a7358fb19781a392"
+		"clienttga"		"620614156efa0eb3d07ccca6aadc72e3525ff0d1"
+		"clienticon"		"af73f99674e82b228049a0c6a7358fb19781a392"
+		"oslist"		"windows"
+		"osarch"		""
+		"osextended"		""
+		"releasestate"		"released"
+		"small_capsule"
+		{
+			"english"		"ee4a99e9e714519ad4d77c6e75fc0b8b0ed88417/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"ba6156b1187c64fb675d668924ec44516bcc9460/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"50"
+				"height_pct"		"50"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"01f1d56f5389873c5bdc1d3509e0c55af586814b/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"01f1d56f5389873c5bdc1d3509e0c55af586814b/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image"
+				{
+					"english"		"9be5a44a090c343d223f11b8d844cdce4843b862/library_hero.jpg"
+				}
+				"image2x"
+				{
+					"english"		"9be5a44a090c343d223f11b8d844cdce4843b862/library_hero_2x.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"9be5a44a090c343d223f11b8d844cdce4843b862/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"0f28f7a0a98ae9f177877da9f0b6613b585acd8c/logo.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"50"
+					"height_pct"		"50"
+				}
+				"image2x"
+				{
+					"english"		"0f28f7a0a98ae9f177877da9f0b6613b585acd8c/logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"19580c3be420566a7baca6a3b55755e252754858/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"19580c3be420566a7baca6a3b55755e252754858/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1762918047"
+		"associations"
+		{
+		}
+		"primary_genre"		"0"
+		"category"
+		{
+		}
+		"steam_release_date"		"1749531780"
+		"community_hub_visible"		"1"
+		"gameid"		"3458530"
+		"exfgls"		"6"
+	}
+	"extended"
+	{
+		"playtest_type"		"1"
+	}
+	"config"
+	{
+		"installdir"		"WoofWatch_playtest"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"WoofWatch.exe"
+			}
+		}
+	}
+	"depots"
+	{
+		"3458531"
+		{
+			"config"
+			{
+				"language"		"english"
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"743552201289118734"
+					"size"		"1847368218"
+					"download"		"400689104"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25257835"
+				"timeupdated"		"1789148902"
+				"timebuildupdated"		"1789144031"
+			}
+		}
+		"privatebranches"		"1"
+	}
+	"ufs"
+	{
+		"quota"		"100000000"
+		"maxnumfiles"		"10"
+		"appidredirect"		"3458330"
+		"hidecloudui"		"1"
+		"ignoreexternalfiles"		"1"
+		"savefiles"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"path"		"WoofWatch/WoofWatch/saves"
+				"pattern"		"*.save"
+				"platforms"
+				{
+					"1"		"Windows"
+				}
+			}
+			"copied_from_parent"		"1"
+		}
+		"rootoverrides"
+		{
+			"0"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"MacOS"
+				"oscompare"		"="
+				"useinstead"		"MacAppSupport"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"WoofWatch/WoofWatch/saves"
+						"replace"		"WoofWatch/WoofWatch/saves"
+					}
+				}
+			}
+			"1"
+			{
+				"root"		"WinAppDataLocalLow"
+				"os"		"Linux"
+				"oscompare"		"="
+				"useinstead"		"LinuxHome"
+				"pathtransforms"
+				{
+					"0"
+					{
+						"find"		"WoofWatch/WoofWatch/saves"
+						"replace"		".config/unity3d/WoofWatch/WoofWatch"
+					}
+				}
+			}
+		}
+	}
+}
