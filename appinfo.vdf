@@ -1,0 +1,81 @@
+"appinfo"
+{
+	"appid"		"2467050"
+	"common"
+	{
+		"name"		"Bigscreen Beyond Utility"
+		"section_type"		"ownersonly"
+		"type"		"Tool"
+		"parent"		"250820"
+		"isplugin"		"1"
+		"icon"		"0ad129c0ff263daa65e264f7529eb7411e823672"
+		"clienticon"		"2bc0c98ba690ee2417455c6ef9c66976f1983c02"
+		"clienttga"		"694e850851e85b23732b61428bb97336325d74e8"
+		"releasestate"		"released"
+		"gameid"		"2467050"
+	}
+	"config"
+	{
+		"installdir"		"Bigscreen Beyond Driver"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"bin\\BeyondHID.exe"
+				"arguments"		"-steamLaunch"
+				"workingdir"		"bin"
+			}
+		}
+	}
+	"depots"
+	{
+		"2467051"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2090620547338591963"
+					"size"		"450164937"
+					"download"		"161614624"
+				}
+				"beta"
+				{
+					"gid"		"2090620547338591963"
+					"size"		"450164937"
+					"download"		"161614624"
+				}
+				"previous"
+				{
+					"gid"		"6248814444772845145"
+					"size"		"431929637"
+					"download"		"158633824"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25261313"
+				"timeupdated"		"1789157616"
+				"timebuildupdated"		"1789156919"
+			}
+			"beta"
+			{
+				"buildid"		"25261313"
+				"description"		"Utility beta update"
+				"timeupdated"		"1789156919"
+				"timebuildupdated"		"1789156919"
+			}
+			"previous"
+			{
+				"buildid"		"24008776"
+				"description"		"Previous utility release"
+				"timeupdated"		"1783030104"
+				"timebuildupdated"		"1782936946"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
