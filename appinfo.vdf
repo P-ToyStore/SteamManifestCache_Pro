@@ -1,0 +1,87 @@
+"appinfo"
+{
+	"appid"		"4247920"
+	"common"
+	{
+		"name"		"Duckoleon Dedicated Server"
+		"type"		"Tool"
+		"parent"		"3775510"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"clienticon"		"6b1a1d432386bb864e1876a4a8e992366d94d316"
+		"icon"		"6b1a1d432386bb864e1876a4a8e992366d94d316"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"gameid"		"4247920"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"installdir"		"Duckoleon Dedicated Server"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"duckoleon_content\\windows\\DuckoleonServer.exe"
+				"arguments"		"-log -server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"Windows dedicated server. Specified by default: -log -server. Optional: -MatchName=MatchName -Preset=Number (this loads up a map and regiment preset)"
+				}
+				"description"		"Windows dedicated server. Specified by default: -log -server. Optional: -MatchName=MatchName -Preset=Number (this loads up a map and regiment preset)"
+			}
+			"1"
+			{
+				"executable"		"duckoleon_content\\linux\\DuckoleonServer.sh"
+				"arguments"		"-log -server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"Linux dedicated server. Specified by default: -log -server. Optional: -MatchName=MatchName -Preset=Number (this loads up a map and regiment preset)"
+				}
+				"description"		"Linux dedicated server. Specified by default: -log -server. Optional: -MatchName=MatchName -Preset=Number (this loads up a map and regiment preset)"
+			}
+		}
+		"uselaunchcommandline"		"1"
+	}
+	"depots"
+	{
+		"4247921"
+		{
+			"config"
+			{
+				"oslist"		"windows,linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6466797422654739264"
+					"size"		"4009888929"
+					"download"		"1178141984"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25275707"
+				"timeupdated"		"1789247315"
+				"timebuildupdated"		"1789247298"
+			}
+		}
+	}
+}
