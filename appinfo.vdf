@@ -1,0 +1,293 @@
+"appinfo"
+{
+	"appid"		"1506610"
+	"common"
+	{
+		"name"		"King's Cup: The online multiplayer drinking game"
+		"type"		"Game"
+		"releasestate"		"released"
+		"logo"		"7d5065104e45653bd70c7727928d19ffa7c1b18f"
+		"logo_small"		"7d5065104e45653bd70c7727928d19ffa7c1b18f_thumb"
+		"icon"		"7c793556eb65505aeebd1d340f3217d05b064a25"
+		"clienttga"		"169bc058dc23018e31afdfd5faf33b3b65889d9d"
+		"clienticon"		"7c793556eb65505aeebd1d340f3217d05b064a25"
+		"oslist"		"windows,macos,linux"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"content_descriptors"
+		{
+			"0"		"5"
+		}
+		"small_capsule"
+		{
+			"english"		"3b191189b38b0c0335f2810241ff1f57fd4282a8/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"4ec28fe3f9ca9918e54b587c75b8933413763bc3/header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"58.322335160449164"
+				"height_pct"		"84.8008526509674"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"bafc57db6a61bd44e5c41339ce7083bf0d7b9586/library_capsule.jpg"
+				}
+				"image2x"
+				{
+					"english"		"bafc57db6a61bd44e5c41339ce7083bf0d7b9586/library_capsule_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"c6d50ec834d9181ea8cf4f0da140ac5dc1fb5253/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"c6d50ec834d9181ea8cf4f0da140ac5dc1fb5253/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"c6d50ec834d9181ea8cf4f0da140ac5dc1fb5253/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"58.322335160449164"
+					"height_pct"		"84.8008526509674"
+				}
+				"image"
+				{
+					"english"		"logo.png"
+				}
+				"image2x"
+				{
+					"english"		"logo_2x.png"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"2cf46e56430f0af40f5805977a49a08078956e0a/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"2cf46e56430f0af40f5805977a49a08078956e0a/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1789231476"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"OnlineDrinking.Games"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"OnlineDrinking.Games"
+			}
+		}
+		"primary_genre"		"4"
+		"genres"
+		{
+			"0"		"4"
+			"1"		"28"
+			"2"		"70"
+		}
+		"category"
+		{
+			"category_1"		"1"
+			"category_49"		"1"
+			"category_36"		"1"
+			"category_22"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+			}
+		}
+		"original_release_date"		"1610784000"
+		"steam_release_date"		"1610825333"
+		"community_visible_stats"		"1"
+		"community_hub_visible"		"1"
+		"gameid"		"1506610"
+		"content_descriptors_including_dlc"
+		{
+			"0"		"5"
+		}
+		"store_tags"
+		{
+			"0"		"597"
+			"1"		"1666"
+			"2"		"17389"
+			"3"		"3859"
+			"4"		"4136"
+			"5"		"1770"
+			"6"		"493"
+			"7"		"3871"
+			"8"		"599"
+			"9"		"4559"
+		}
+		"review_score"		"7"
+		"review_percentage"		"84"
+	}
+	"extended"
+	{
+		"developer"		"OnlineDrinking.Games"
+		"publisher"		"OnlineDrinking.Games"
+		"homepage"		"https://onlinedrinking.games/"
+	}
+	"config"
+	{
+		"installdir"		"KingsCup"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"KingsCup.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"KingsCup.app"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+			"2"
+			{
+				"executable"		"KingsCup"
+				"arguments"		"--no-sandbox --disable-dev-shm-usage"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+			}
+		}
+		"uselaunchcommandline"		"1"
+		"app_mappings"
+		{
+			"0"
+			{
+				"platform"		"linux"
+				"tool"		"SteamLinuxRuntime_4"
+			}
+		}
+	}
+	"depots"
+	{
+		"1506611"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4319063143458656103"
+					"size"		"390803981"
+					"download"		"149685936"
+				}
+				"beta"
+				{
+					"gid"		"3481184950989538247"
+					"size"		"271440013"
+					"download"		"32322128"
+				}
+			}
+		}
+		"1506612"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2126340567179511671"
+					"size"		"538370621"
+					"download"		"216076096"
+				}
+				"beta"
+				{
+					"gid"		"8126513824799352709"
+					"size"		"94781051"
+					"download"		"22154176"
+				}
+			}
+		}
+		"1506613"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2906842409504651366"
+					"size"		"363774003"
+					"download"		"135025552"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25259462"
+				"timeupdated"		"1789226066"
+				"timebuildupdated"		"1789150026"
+			}
+			"beta"
+			{
+				"buildid"		"6255738"
+				"description"		"Beta release branch, may be unstable."
+				"timeupdated"		"1613608812"
+				"timebuildupdated"		"1613608812"
+			}
+		}
+		"privatebranches"		"1"
+	}
+}
