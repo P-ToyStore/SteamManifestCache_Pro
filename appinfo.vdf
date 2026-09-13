@@ -1,0 +1,206 @@
+"appinfo"
+{
+	"appid"		"2758670"
+	"common"
+	{
+		"name"		"JCSS : Target JURH"
+		"section_type"		"ownersonly"
+		"type"		"Game"
+		"releasestate"		"unavailable"
+		"oslist"		"windows,linux"
+		"osarch"		"64"
+		"osextended"		""
+		"eulas"
+		{
+			"0"
+			{
+				"id"		"2758670_eula_0"
+				"name"		"Target JURH EULA"
+				"url"		"https://store.steampowered.com//eula/2758670_eula_0"
+				"version"		"7"
+			}
+		}
+		"icon"		"bef08e65eaad87fa5c9f673d6ba91ee8f6edba47"
+		"clienticon"		"1fd551558132ce6658f9b3954a01d4efde7d93c9"
+		"clienttga"		"b3f55e6994df127b132b9a072a940b8047a45c0d"
+		"gameid"		"2758670"
+		"exfgls"		"8"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"599"
+			"2"		"3813"
+			"3"		"5673"
+			"4"		"1676"
+			"5"		"5125"
+			"6"		"4182"
+			"7"		"4175"
+			"8"		"1774"
+			"9"		"4637"
+			"10"		"4684"
+			"11"		"4191"
+			"12"		"4094"
+			"13"		"4168"
+			"14"		"1708"
+			"15"		"3993"
+			"16"		"8945"
+		}
+	}
+	"config"
+	{
+		"installdir"		"Target JURH"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"JURH.exe"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Normal"
+				}
+				"description"		"Normal"
+			}
+			"1"
+			{
+				"executable"		"TargetJURH.x86_64"
+				"type"		"default"
+				"config"
+				{
+					"oslist"		"linux"
+					"osarch"		"64"
+				}
+			}
+			"2"
+			{
+				"executable"		"JURH.exe"
+				"arguments"		"-showWarning"
+				"config"
+				{
+					"oslist"		"windows"
+					"osarch"		"64"
+				}
+				"description_loc"
+				{
+					"english"		"Debug"
+				}
+				"description"		"Debug"
+			}
+		}
+	}
+	"depots"
+	{
+		"baselanguages"		"schinese"
+		"2758671"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"4072075294414298738"
+					"size"		"2556641977"
+					"download"		"1806527824"
+				}
+				"alpha"
+				{
+					"gid"		"457770899934982239"
+					"size"		"494075033"
+					"download"		"239566992"
+				}
+				"beta0.81"
+				{
+					"gid"		"2404277156268079110"
+					"size"		"2305631071"
+					"download"		"1608114928"
+				}
+				"win64dev"
+				{
+					"gid"		"7104217629965184289"
+					"size"		"1290547912"
+					"download"		"637629616"
+				}
+			}
+		}
+		"2758672"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+				"osarch"		"64"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"3707128048989398892"
+					"size"		"572493039"
+					"download"		"329696496"
+				}
+				"alpha"
+				{
+					"gid"		"7908086044073501081"
+					"size"		"507867522"
+					"download"		"237352896"
+				}
+				"beta0.81"
+				{
+					"gid"		"3707128048989398892"
+					"size"		"572493039"
+					"download"		"329696496"
+				}
+				"win64dev"
+				{
+					"gid"		"3707128048989398892"
+					"size"		"572493039"
+					"download"		"329696496"
+				}
+			}
+		}
+		"workshopdepot"		"2758670"
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25272729"
+				"timeupdated"		"1789228032"
+				"timebuildupdated"		"1789228032"
+			}
+			"alpha"
+			{
+				"buildid"		"13302198"
+				"description"		"最初的alpha版本"
+				"timeupdated"		"1706536463"
+				"timebuildupdated"		"1706536427"
+			}
+			"beta0.81"
+			{
+				"buildid"		"24242205"
+				"description"		"最后一个Unity6.3版本"
+				"timeupdated"		"1784214022"
+				"timebuildupdated"		"1784214022"
+			}
+			"win64dev"
+			{
+				"buildid"		"25272739"
+				"description"		"内部开发用分支"
+				"timeupdated"		"1789228122"
+				"timebuildupdated"		"1789228122"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"1000000000"
+		"maxnumfiles"		"10000"
+	}
+}
