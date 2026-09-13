@@ -1,0 +1,466 @@
+"appinfo"
+{
+	"appid"		"3702540"
+	"common"
+	{
+		"name"		"Between Adventures IDLE"
+		"type"		"Game"
+		"icon"		"578b238e6c88b917d195b87e03cf6a47d697fb1d"
+		"clienttga"		"0893e26c3c307bd40a9ebac5352d32065c867dda"
+		"clienticon"		"578b238e6c88b917d195b87e03cf6a47d697fb1d"
+		"releasestate"		"released"
+		"oslist"		"windows,macos"
+		"osarch"		"64"
+		"osextended"		"macos64,macosapplesilicon,macosnotarized"
+		"name_localized"
+		{
+			"schinese"		"放置大陆"
+			"tchinese"		"放置大陸"
+			"koreana"		"방치 대륙"
+			"japanese"		"放置ランド"
+		}
+		"steam_deck_compatibility"
+		{
+			"category"		"2"
+			"steamos_compatibility"		"2"
+			"steam_machine_compatibility"		"2"
+			"test_timestamp"		"1788455635"
+			"tested_build_id"		"25079257"
+			"tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+				}
+				"3"
+				{
+					"display"		"3"
+					"token"		"#SteamDeckVerified_TestResult_NativeResolutionNotDefault"
+				}
+				"4"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"5"
+				{
+					"display"		"4"
+					"token"		"#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steam_machine_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_ControllerGlyphsDoNotMatchDevice"
+				}
+				"1"
+				{
+					"display"		"3"
+					"token"		"#SteamMachine_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+				"2"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+				}
+				"3"
+				{
+					"display"		"4"
+					"token"		"#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+				}
+			}
+			"steamos_tests"
+			{
+				"0"
+				{
+					"display"		"3"
+					"token"		"#SteamOS_TestResult_GameStartupFunctional"
+				}
+				"1"
+				{
+					"display"		"1"
+					"token"		"#SteamOS_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+				}
+			}
+			"configuration"
+			{
+				"supported_input"		"other"
+				"requires_manual_keyboard_invoke"		"1"
+				"requires_non_controller_launcher_nav"		"0"
+				"primary_player_is_controller_slot_0"		"0"
+				"non_deck_display_glyphs"		"1"
+				"small_text"		"1"
+				"requires_internet_for_setup"		"0"
+				"requires_internet_for_singleplayer"		"0"
+				"recommended_runtime"		"proton-stable"
+				"requires_h264"		"0"
+				"requires_voice_files"		"0"
+				"gamescope_frame_limiter_not_supported"		"0"
+				"hdr_support"		"0"
+				"requires_proton_soundfonts"		"0"
+			}
+		}
+		"controllertagwizard"		"1"
+		"small_capsule"
+		{
+			"english"		"fc71d161413624047f2d492719bf3c0e0e292051/capsule_231x87.jpg"
+			"schinese"		"065e28d89aca125658ed53707af91dfa1659e13e/capsule_231x87_schinese.jpg"
+			"japanese"		"4440989be9c9d5ee56c80c0b79c6f60999efa33d/capsule_231x87_japanese.jpg"
+			"koreana"		"836807b2513c4b224cd3b1817e4ab5e3dfcfb0eb/capsule_231x87_koreana.jpg"
+			"tchinese"		"2f1b0063ac99a3d14b732957e416cf3212fc2085/capsule_231x87_tchinese.jpg"
+		}
+		"header_image"
+		{
+			"english"		"54d8e76e708a34c5fa563d046c64124d71c6a9aa/header.jpg"
+			"schinese"		"5ff2bbbf729891ebbb07db011adacc256e529f78/header_schinese.jpg"
+			"japanese"		"b7a964812a7748011428f36e4181d6956b83b6a7/header_japanese.jpg"
+			"koreana"		"5c73948824481ab6d245578d66059ad3e817e060/header_koreana.jpg"
+			"tchinese"		"33726363c01a27d56c7e9071b6ee444def716e12/header_tchinese.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en,zh-cn,ja,ko,zh-tw"
+			"library_hero"		"en,zh-cn,ja,ko,zh-tw"
+			"library_hero_blur"		"en,zh-cn,ja,ko,zh-tw"
+			"library_logo"		"en,zh-cn,ja,ko,zh-tw"
+			"library_header"		"en,zh-cn,ja,ko,zh-tw"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"45.81676715620288"
+				"height_pct"		"75.92827754254004"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"4aa2002072c4f91b3d21b13e1d551782b5efb156/library_capsule.jpg"
+					"schinese"		"e940537335f55f5bbe2fd7a684faf9eaccdf0b49/library_600x900_schinese.jpg"
+					"japanese"		"2abbf3c0033cc62bb13822838ebbbdf67b56a12e/library_600x900_japanese.jpg"
+					"koreana"		"09fcc2fa75a016f64275683d2ba0d386ddc4719c/library_600x900_koreana.jpg"
+					"tchinese"		"117e0b0eba879f3251dd98ed8f92a2cf38694313/library_600x900_tchinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"4aa2002072c4f91b3d21b13e1d551782b5efb156/library_capsule_2x.jpg"
+					"schinese"		"e940537335f55f5bbe2fd7a684faf9eaccdf0b49/library_600x900_schinese_2x.jpg"
+					"japanese"		"2abbf3c0033cc62bb13822838ebbbdf67b56a12e/library_600x900_japanese_2x.jpg"
+					"koreana"		"09fcc2fa75a016f64275683d2ba0d386ddc4719c/library_600x900_koreana_2x.jpg"
+					"tchinese"		"117e0b0eba879f3251dd98ed8f92a2cf38694313/library_600x900_tchinese_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"29311d88ffe0b5fb4c73f74b9ef9eef62c32ce21/library_hero_2x.jpg"
+					"schinese"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_schinese_2x.jpg"
+					"japanese"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_japanese_2x.jpg"
+					"koreana"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_koreana_2x.jpg"
+					"tchinese"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_tchinese_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"29311d88ffe0b5fb4c73f74b9ef9eef62c32ce21/library_hero.jpg"
+					"schinese"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_schinese.jpg"
+					"japanese"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_japanese.jpg"
+					"koreana"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_koreana.jpg"
+					"tchinese"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_tchinese.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"29311d88ffe0b5fb4c73f74b9ef9eef62c32ce21/library_hero_blur.jpg"
+					"schinese"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_blur_schinese.jpg"
+					"japanese"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_blur_japanese.jpg"
+					"koreana"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_blur_koreana.jpg"
+					"tchinese"		"508bbd1ad50258a18f8ff762767935cbf6c43076/library_hero_blur_tchinese.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"574498ff911d71f4cde549c158596baae4006223/logo.png"
+					"schinese"		"d3e7d237ee25f542365bacfac0ed1d9c33d77323/logo_schinese.png"
+					"japanese"		"c4033a7533639515e171061981d3e8cda341067b/logo_japanese.png"
+					"koreana"		"defc137b0db4613c7ac9359bc18d0e2422481565/logo_koreana.png"
+					"tchinese"		"054fa495bb43b3814d5c2cb7be328c1e88c39b7e/logo_tchinese.png"
+				}
+				"image2x"
+				{
+					"english"		"574498ff911d71f4cde549c158596baae4006223/logo_2x.png"
+					"schinese"		"d3e7d237ee25f542365bacfac0ed1d9c33d77323/logo_schinese_2x.png"
+					"japanese"		"c4033a7533639515e171061981d3e8cda341067b/logo_japanese_2x.png"
+					"koreana"		"defc137b0db4613c7ac9359bc18d0e2422481565/logo_koreana_2x.png"
+					"tchinese"		"054fa495bb43b3814d5c2cb7be328c1e88c39b7e/logo_tchinese_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"45.81676715620288"
+					"height_pct"		"75.92827754254004"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"54d8e76e708a34c5fa563d046c64124d71c6a9aa/library_header.jpg"
+					"schinese"		"5ff2bbbf729891ebbb07db011adacc256e529f78/library_header_schinese.jpg"
+					"japanese"		"b7a964812a7748011428f36e4181d6956b83b6a7/library_header_japanese.jpg"
+					"koreana"		"5c73948824481ab6d245578d66059ad3e817e060/library_header_koreana.jpg"
+					"tchinese"		"33726363c01a27d56c7e9071b6ee444def716e12/library_header_tchinese.jpg"
+				}
+				"image2x"
+				{
+					"english"		"54d8e76e708a34c5fa563d046c64124d71c6a9aa/library_header_2x.jpg"
+					"schinese"		"5ff2bbbf729891ebbb07db011adacc256e529f78/library_header_schinese_2x.jpg"
+					"japanese"		"b7a964812a7748011428f36e4181d6956b83b6a7/library_header_japanese_2x.jpg"
+					"koreana"		"5c73948824481ab6d245578d66059ad3e817e060/library_header_koreana_2x.jpg"
+					"tchinese"		"33726363c01a27d56c7e9071b6ee444def716e12/library_header_tchinese_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1788919177"
+		"associations"
+		{
+			"0"
+			{
+				"type"		"developer"
+				"name"		"Loop Forge"
+			}
+			"1"
+			{
+				"type"		"publisher"
+				"name"		"Rogue Duck Interactive"
+			}
+			"2"
+			{
+				"type"		"publisher"
+				"name"		"Gamersky Games"
+			}
+			"3"
+			{
+				"type"		"franchise"
+				"name"		"RDI Strategy Games"
+			}
+		}
+		"primary_genre"		"3"
+		"genres"
+		{
+			"0"		"25"
+			"1"		"4"
+			"2"		"23"
+			"3"		"29"
+			"4"		"3"
+			"5"		"2"
+			"6"		"70"
+		}
+		"category"
+		{
+			"category_2"		"1"
+			"category_23"		"1"
+			"category_62"		"1"
+		}
+		"supported_languages"
+		{
+			"english"
+			{
+				"supported"		"true"
+				"subtitles"		"true"
+				"full_audio"		"true"
+			}
+			"french"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"german"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"spanish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"japanese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"koreana"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"polish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"brazilian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"russian"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"schinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"tchinese"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+			"turkish"
+			{
+				"supported"		"true"
+				"full_audio"		"true"
+				"subtitles"		"true"
+			}
+		}
+		"steam_release_date"		"1788907982"
+		"community_hub_visible"		"1"
+		"gameid"		"3702540"
+		"store_tags"
+		{
+			"0"		"9"
+			"1"		"615955"
+			"2"		"122"
+			"3"		"4236"
+			"4"		"6276"
+			"5"		"17305"
+			"6"		"4172"
+			"7"		"4057"
+			"8"		"1684"
+			"9"		"4747"
+			"10"		"3993"
+			"11"		"1084988"
+			"12"		"4202"
+			"13"		"1702"
+			"14"		"8945"
+			"15"		"597"
+			"16"		"3964"
+			"17"		"5981"
+			"18"		"4094"
+			"19"		"4305"
+		}
+		"review_score"		"5"
+		"review_percentage"		"67"
+	}
+	"extended"
+	{
+		"developer"		"Loop Forge"
+		"publisher"		"Rogue Duck Interactive"
+		"homepage"		"https://rogueduck.net"
+	}
+	"config"
+	{
+		"installdir"		"Between Adventures IDLE"
+		"launch"
+		{
+			"0"
+			{
+				"executable"		"Between Adventures IDLE.exe"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+			}
+			"1"
+			{
+				"executable"		"mac.app"
+				"config"
+				{
+					"oslist"		"macos"
+				}
+			}
+		}
+	}
+	"depots"
+	{
+		"3702541"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2215068852684263687"
+					"size"		"567474791"
+					"download"		"221432304"
+				}
+			}
+		}
+		"3702542"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5607472941521119486"
+					"size"		"527916920"
+					"download"		"215830912"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25274257"
+				"timeupdated"		"1789237420"
+				"timebuildupdated"		"1789237420"
+			}
+		}
+	}
+	"ufs"
+	{
+		"quota"		"104857600"
+		"maxnumfiles"		"50"
+	}
+}
