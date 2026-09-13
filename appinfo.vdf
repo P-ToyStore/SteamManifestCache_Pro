@@ -1,0 +1,402 @@
+"appinfo"
+{
+	"appid"		"339010"
+	"common"
+	{
+		"name"		"Rising World Dedicated Server"
+		"type"		"Tool"
+		"oslist"		"windows,linux"
+		"logo"		"0c9f46eb19dab44fd8a27979fd02ac3d6eff820b"
+		"logo_small"		"0c9f46eb19dab44fd8a27979fd02ac3d6eff820b_thumb"
+		"icon"		"4c998b921ffe428790bcdecb7f451e8e89d8b1c9"
+		"clienticon"		"7c29eec304ba78b769f6fdc912de3f66a09c85e3"
+		"clienttga"		"4088f90877882c905d0a1f51a167656e13c70b7d"
+		"clienticns"		"cd15d62daaccdb1c1bd4836f42ec92570c0ace27"
+		"releasestate"		"released"
+		"freetodownload"		"1"
+		"osarch"		"64"
+		"osextended"		""
+		"small_capsule"
+		{
+			"english"		"4f9aa3123b0389cf2f031a2d147500c4de701d36/capsule_231x87.jpg"
+		}
+		"header_image"
+		{
+			"english"		"header.jpg"
+		}
+		"library_assets"
+		{
+			"library_capsule"		"en"
+			"library_hero"		"en"
+			"library_hero_blur"		"en"
+			"library_logo"		"en"
+			"library_header"		"en"
+			"logo_position"
+			{
+				"pinned_position"		"BottomLeft"
+				"width_pct"		"47.66627771295216"
+				"height_pct"		"48.48024323157948"
+			}
+		}
+		"library_assets_full"
+		{
+			"library_capsule"
+			{
+				"image"
+				{
+					"english"		"292c35776fe7d7ebb4b968345404f39f88169a28/library_600x900.jpg"
+				}
+				"image2x"
+				{
+					"english"		"292c35776fe7d7ebb4b968345404f39f88169a28/library_600x900_2x.jpg"
+				}
+			}
+			"library_hero"
+			{
+				"image2x"
+				{
+					"english"		"b5c892a4a9d32b2cfd0e6c7c1043e3fda07fdb52/library_hero_2x.jpg"
+				}
+				"image"
+				{
+					"english"		"b5c892a4a9d32b2cfd0e6c7c1043e3fda07fdb52/library_hero.jpg"
+				}
+			}
+			"library_hero_blur"
+			{
+				"image"
+				{
+					"english"		"b5c892a4a9d32b2cfd0e6c7c1043e3fda07fdb52/library_hero_blur.jpg"
+				}
+			}
+			"library_logo"
+			{
+				"image"
+				{
+					"english"		"f45db29fc8ae99443804bcf5ed3a69efac6cfc9c/logo.png"
+				}
+				"image2x"
+				{
+					"english"		"f45db29fc8ae99443804bcf5ed3a69efac6cfc9c/logo_2x.png"
+				}
+				"logo_position"
+				{
+					"pinned_position"		"BottomLeft"
+					"width_pct"		"47.66627771295216"
+					"height_pct"		"48.48024323157948"
+				}
+			}
+			"library_header"
+			{
+				"image"
+				{
+					"english"		"b7b4eaa10c68e376150ffece496f631b6f460640/library_header.jpg"
+				}
+				"image2x"
+				{
+					"english"		"b7b4eaa10c68e376150ffece496f631b6f460640/library_header_2x.jpg"
+				}
+			}
+		}
+		"store_asset_mtime"		"1744237128"
+		"associations"
+		{
+		}
+		"steam_release_date"		"1421809200"
+		"community_hub_visible"		"1"
+		"gameid"		"339010"
+	}
+	"extended"
+	{
+		"gamedir"		""
+	}
+	"config"
+	{
+		"contenttype"		"3"
+		"installdir"		"RisingWorldDedicatedServer"
+		"launch"
+		{
+			"1"
+			{
+				"executable"		"RisingWorldServer.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+				}
+				"description_loc"
+				{
+					"english"		"New Version"
+				}
+				"description"		"New Version"
+			}
+			"2"
+			{
+				"executable"		"RisingWorldServer.x64"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"linux"
+				}
+				"description_loc"
+				{
+					"english"		"New Version"
+				}
+				"description"		"New Version"
+			}
+			"3"
+			{
+				"executable"		"rw_server.exe"
+				"type"		"server"
+				"config"
+				{
+					"oslist"		"windows"
+					"betakey"		"legacy"
+				}
+				"description_loc"
+				{
+					"english"		"Java Version"
+				}
+				"description"		"Java Version"
+			}
+		}
+	}
+	"depots"
+	{
+		"1004"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5612541580377302256"
+					"size"		"64647928"
+					"download"		"22986368"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1005"
+		{
+			"config"
+			{
+				"oslist"		"macos"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"2135359612286175146"
+					"size"		"0"
+					"download"		"0"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"1006"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"6403079453713498174"
+					"size"		"107911652"
+					"download"		"35551408"
+				}
+			}
+			"depotfromapp"		"1007"
+		}
+		"228985"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"228989"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"depotfromapp"		"228980"
+			"sharedinstall"		"1"
+		}
+		"339011"
+		{
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"1106061157941522167"
+					"size"		"5"
+					"download"		"64"
+				}
+				"java"
+				{
+					"gid"		"8860498018075835343"
+					"size"		"35505017"
+					"download"		"23848928"
+				}
+				"unity"
+				{
+					"gid"		"1106061157941522167"
+					"size"		"5"
+					"download"		"64"
+				}
+				"unity_old"
+				{
+					"gid"		"21240271230280590"
+					"size"		"6"
+					"download"		"64"
+				}
+				"unity_previous"
+				{
+					"gid"		"1106061157941522167"
+					"size"		"5"
+					"download"		"64"
+				}
+				"unity_previous2"
+				{
+					"gid"		"1106061157941522167"
+					"size"		"5"
+					"download"		"64"
+				}
+			}
+		}
+		"339012"
+		{
+			"config"
+			{
+				"oslist"		"windows"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"5046328572099328920"
+					"size"		"2654333909"
+					"download"		"696176816"
+				}
+				"unity"
+				{
+					"gid"		"5046328572099328920"
+					"size"		"2654333909"
+					"download"		"696176816"
+				}
+				"unity_old"
+				{
+					"gid"		"1544497695891714846"
+					"size"		"2716743865"
+					"download"		"800827232"
+				}
+				"unity_previous"
+				{
+					"gid"		"7890930289376688759"
+					"size"		"2591879069"
+					"download"		"726615296"
+				}
+				"unity_previous2"
+				{
+					"gid"		"2038631030523546030"
+					"size"		"2654170613"
+					"download"		"696117168"
+				}
+			}
+		}
+		"339013"
+		{
+			"config"
+			{
+				"oslist"		"linux"
+			}
+			"manifests"
+			{
+				"public"
+				{
+					"gid"		"9165783118422454208"
+					"size"		"2577692417"
+					"download"		"691330448"
+				}
+				"unity"
+				{
+					"gid"		"9165783118422454208"
+					"size"		"2577692417"
+					"download"		"691330448"
+				}
+				"unity_old"
+				{
+					"gid"		"3345873021965477175"
+					"size"		"2711256237"
+					"download"		"800779408"
+				}
+				"unity_previous"
+				{
+					"gid"		"2473392871674728734"
+					"size"		"2591237429"
+					"download"		"728117760"
+				}
+				"unity_previous2"
+				{
+					"gid"		"6162977680439401837"
+					"size"		"2577518882"
+					"download"		"691256960"
+				}
+			}
+		}
+		"branches"
+		{
+			"public"
+			{
+				"buildid"		"25272057"
+				"timeupdated"		"1789223904"
+				"timebuildupdated"		"1789223904"
+			}
+			"java"
+			{
+				"buildid"		"7281128"
+				"description"		"Legacy Version"
+				"timeupdated"		"1734539214"
+				"timebuildupdated"		"1630433175"
+			}
+			"unity"
+			{
+				"buildid"		"25272057"
+				"description"		"Do not use"
+				"timeupdated"		"1789223904"
+				"timebuildupdated"		"1789223904"
+			}
+			"unity_old"
+			{
+				"buildid"		"15655729"
+				"description"		"Old 0.7.5.2"
+				"timeupdated"		"1734539078"
+				"timebuildupdated"		"1725999131"
+			}
+			"unity_previous"
+			{
+				"buildid"		"23222181"
+				"description"		"Old 0.9.2.1"
+				"timeupdated"		"1778701370"
+				"timebuildupdated"		"1778701370"
+			}
+			"unity_previous2"
+			{
+				"buildid"		"25155973"
+				"description"		"Old 0.9.3.1"
+				"timeupdated"		"1788723700"
+				"timebuildupdated"		"1788723700"
+			}
+		}
+	}
+}
